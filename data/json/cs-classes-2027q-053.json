@@ -1,0 +1,290 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-053",
+ "title": "DVRUO Classes GATE CS/DA | DBMS | Indexing | Weekly Quiz 14",
+ "sourceTitle": "DVRUO Classes GATE CS/DA | DBMS | Indexing | Weekly Quiz 14",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 53,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1620,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/009_exam_2421_GO Classes GATE CS-DA DBMS Indexing Weekly Quiz 14.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a disk with a block size of $512$ bytes. A block pointer is $8$ bytes long. A data file contains $50,000$ STUDENT records of fixed-size $147$ bytes. In this file, the key field is ID$\\#$, whose length is $12$ bytes. The file is unspanned and ordered by the key field ID$\\#$, and a primary index is constructed on ID$\\#$.<br>\n<br>\nLet $A$ be the total number of first-level index entries and $B$ be the total number of first-level index blocks required for this configuration. Calculate the value of the expression: $3 A+4 B$.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    52669,
+    52669
+   ],
+   "answerText": "52669",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"533751\"></a><div itemprop=\"text\">$\\left(3^{*} 16667+4^{*} 695\\right)$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"534986\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"1\"><b data-path-to-node=\"1\" data-index-in-node=\"0\">Step 1: Calculate the Number of Blocks for the Data File</b></h3><p data-path-to-node=\"2\">Because the file is <b data-path-to-node=\"2\" data-index-in-node=\"20\">unspanned</b>, a record cannot be split across two blocks.</p><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">Number of records per data block:</b></p><p><span class=\"math-tex\" data-latex=\"R_{fb} = \\lfloor \\frac{\\text{Block Size}}{\\text{Record Size}} \\rfloor = \\lfloor \\frac{512}{147} \\rfloor = \\lfloor 3.48 \\rfloor = 3 \\text{ records/block}\">$R_{fb} = \\lfloor \\frac{\\text{Block Size}}{\\text{Record Size}} \\rfloor = \\lfloor \\frac{512}{147} \\rfloor = \\lfloor 3.48 \\rfloor = 3 \\text{ records/block}$</span></p></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">Total number of data blocks :</b></p><p><span class=\"math-tex\" data-latex=\"N_b = \\lceil \\frac{\\text{Total Records}}{R_{fb}} \\rceil = \\lceil \\frac{50000}{3} \\rceil = 16667 \\text{ blocks}\">$N_b = \\lceil \\frac{\\text{Total Records}}{R_{fb}} \\rceil = \\lceil \\frac{50000}{3} \\rceil = 16667 \\text{ blocks}$</span></p></li></ul><h3 data-path-to-node=\"5\"><b data-path-to-node=\"5\" data-index-in-node=\"0\">Step 2: Calculate First-Level Index Entries&nbsp;</b></h3><p data-path-to-node=\"6\">A <b data-path-to-node=\"6\" data-index-in-node=\"2\">primary index</b> is a sparse index that contains exactly one entry for each block of the data file.</p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><b data-path-to-node=\"7,0,0\" data-index-in-node=\"0\">Total number of index entries :</b></p><p><span class=\"math-tex\" data-latex=\"A = N_b = 16667\">$A = N_b = 16667$</span></p></li></ul><h3 data-path-to-node=\"9\"><b data-path-to-node=\"9\" data-index-in-node=\"0\">Step 3: Calculate First-Level Index Blocks&nbsp;</b></h3><ul data-path-to-node=\"10\"><li><p data-path-to-node=\"10,0,0\"><b data-path-to-node=\"10,0,0\" data-index-in-node=\"0\">Size of an index entry :</b></p><p><span class=\"math-tex\" data-latex=\"R_i = \\text{Key Size} + \\text{Block Pointer Size} = 12 + 8 = 20 \\text{ bytes}\">$R_i = \\text{Key Size} + \\text{Block Pointer Size} = 12 + 8 = 20 \\text{ bytes}$</span></p></li><li><p data-path-to-node=\"10,1,0\"><b data-path-to-node=\"10,1,0\" data-index-in-node=\"0\">Number of index entries per block</b></p><p><span class=\"math-tex\" data-latex=\"R_{ib} = \\lfloor \\frac{\\text{Block Size}}{R_i} \\rfloor = \\lfloor \\frac{512}{20} \\rfloor = \\lfloor 25.6 \\rfloor = 25 \\text{ entries/block}\">$R_{ib} = \\lfloor \\frac{\\text{Block Size}}{R_i} \\rfloor = \\lfloor \\frac{512}{20} \\rfloor = \\lfloor 25.6 \\rfloor = 25 \\text{ entries/block}$</span></p></li><li><p data-path-to-node=\"10,2,0\"><b data-path-to-node=\"10,2,0\" data-index-in-node=\"0\">Total number of index blocks :</b></p><p><span class=\"math-tex\" data-latex=\"B = \\lceil \\frac{A}{R_{ib}} \\rceil = \\lceil \\frac{16667}{25} \\rceil = \\lceil 666.68 \\rceil = 667 \\text{ blocks}\">$B = \\lceil \\frac{A}{R_{ib}} \\rceil = \\lceil \\frac{16667}{25} \\rceil = \\lceil 666.68 \\rceil = 667 \\text{ blocks}$</span></p></li></ul><h3 data-path-to-node=\"12\"><b data-path-to-node=\"12\" data-index-in-node=\"0\">Step 4: Calculate the Expression Value</b></h3><p data-path-to-node=\"13\">now we substitte the values of A = 16667 and B = 667 into the given expression:</p><p>3A + 4B = 3(16667) + 4(667)</p><p>50001 + 2668 = 52669</p><h3 data-path-to-node=\"17\"><b data-path-to-node=\"17\" data-index-in-node=\"0\">Final Answer</b></h3><p data-path-to-node=\"18\"><b data-path-to-node=\"18\" data-index-in-node=\"0\">52669</b></p></div></section></div><p><a href=\"https://gateoverflow.in/533735\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a disk with a block size of $512$ bytes. A block pointer is $8$ bytes long. A data file contains $50,000$ STUDENT records of fixed-size $147$ bytes. In this file, the key field is ID$\\#$, whose length is $12$ bytes. The file is unspanned and ordered by the key field ID$\\#$.<br>\n<br>\nIf a primary index is constructed on the ID$\\#$ field, determine the total number of block accesses needed to search for and retrieve a specific student record.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"534990\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"0\"><b data-path-to-node=\"0\" data-index-in-node=\"0\">Step 1: Calculate Data File Blocks</b></h3><p data-path-to-node=\"1\">Because the file organization is <b data-path-to-node=\"1\" data-index-in-node=\"33\">unspanned</b>, records cannot cross block boundaries.</p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b data-path-to-node=\"2,0,0\" data-index-in-node=\"0\">Records per data block:</b></p><p>$\\lfloor \\frac{\\text{Block Size}}{\\text{Record Size}} \\rfloor = \\lfloor \\frac{512}{147} \\rfloor = 3 \\text{ records/block}$</p></li><li><p data-path-to-node=\"2,1,0\"><b data-path-to-node=\"2,1,0\" data-index-in-node=\"0\">Total data blocks :</b></p><p>$\\lceil \\frac{\\text{Total Records}}{\\text{Records per block}} \\rceil = \\lceil \\frac{50000}{3} \\rceil = 16667 \\text{ blocks}$</p></li></ul><h3 data-path-to-node=\"4\"><b data-path-to-node=\"4\" data-index-in-node=\"0\">Step 2: Calculate Index File Blocks</b></h3><p data-path-to-node=\"5\">A <b data-path-to-node=\"5\" data-index-in-node=\"2\">primary index</b> is a sparse index containing exactly one entry for each data file block.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><b data-path-to-node=\"6,0,0\" data-index-in-node=\"0\">Number of index entries</b></p><p>$n = N_b = 16667 \\text{ entries}$</p></li><li><p data-path-to-node=\"6,1,0\"><b data-path-to-node=\"6,1,0\" data-index-in-node=\"0\">Size of one index entry:</b></p><p>$\\text{Key Size} + \\text{Block Pointer Size} = 12 + 8 = 20 \\text{ bytes}$</p></li><li><p data-path-to-node=\"6,2,0\"><b data-path-to-node=\"6,2,0\" data-index-in-node=\"0\">Index entries per block:</b></p><p>$$\\lfloor \\frac{\\text{Block Size}}{\\text{Index Entry Size}} \\rfloor = \\lfloor \\frac{512}{20} \\rfloor = 25 \\text{ entries/block}$$</p></li><li><p data-path-to-node=\"6,3,0\"><b data-path-to-node=\"6,3,0\" data-index-in-node=\"0\">Total index blockss:</b></p><p>$\\lceil \\frac{n}{\\text{Index entries per block}} \\rceil = \\lceil \\frac{16667}{25} \\rceil = 667 \\text{ blocks}$</p></li></ul><h3 data-path-to-node=\"8\"><b data-path-to-node=\"8\" data-index-in-node=\"0\">Step 3: Calculate Total Block Accesses</b></h3><p data-path-to-node=\"9\">To retrieve a record using a primary index we perform a <b data-path-to-node=\"10,0,0\" data-index-in-node=\"10\">binary search</b> on the ordered index blocks to find the correct index entry.</p><p data-path-to-node=\"9\"><b data-path-to-node=\"11,0,0\" data-index-in-node=\"0\">Block accesses for Index File (Binary Search):</b></p><ul data-path-to-node=\"11\"><li><p>$\\lceil \\log_2(B_i) \\rceil = \\lceil \\log_2(667) \\rceil = 10 \\text{ accesses}$&nbsp;&nbsp; &nbsp;and&nbsp;<b data-path-to-node=\"11,1,0\" data-index-in-node=\"0\">Block access for Data File :</b>$1 \\text{ access}$</p></li></ul><h3 data-path-to-node=\"13\">total : 10+1= 11<br>&nbsp;</h3></div></section></div><p><a href=\"https://gateoverflow.in/533734\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a disk with a block size of $512$ bytes. A block pointer is $6$ bytes long. A data file contains $30000$ EMPLOYEE records of fixed length. Each record has a total size of $123$ bytes (including all data fields and metadata). The data file is physically unspanned and ordered on disk by the primary key field Ssn, whose length is $9$ bytes.<br>\n<br>\nA single-level primary index is constructed on the Ssn field. Each index entry consists of a primary key value and a block pointer. Calculate the total number of blocks required to store this first-level primary index on disk.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    221,
+    221
+   ],
+   "answerText": "221",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"534992\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"0\"><b data-path-to-node=\"0\" data-index-in-node=\"0\">Step 1: Calculate Total Data Blocks</b></h3><p data-path-to-node=\"1\">Because the data file is physically <b data-path-to-node=\"1\" data-index-in-node=\"36\">unspanned</b>, a record cannot cross block boundaries.</p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b data-path-to-node=\"2,0,0\" data-index-in-node=\"0\">Records per data block:</b></p><p>$\\lfloor \\frac{\\text{Block Size}}{\\text{Record Size}} \\rfloor = \\lfloor \\frac{512}{123} \\rfloor = \\lfloor 4.16 \\rfloor = 4 \\text{ records/block}$</p></li><li><p data-path-to-node=\"2,1,0\"><b data-path-to-node=\"2,1,0\" data-index-in-node=\"0\">Total number of data blocks&nbsp;</b></p><p>$\\lceil \\frac{\\text{Total Records}}{\\text{Records per block}} \\rceil = \\lceil \\frac{30000}{4} \\rceil = 7500 \\text{ blocks}$</p></li></ul><h3 data-path-to-node=\"4\"><b data-path-to-node=\"4\" data-index-in-node=\"0\">Step 2: Calculate First-Level Index Entries</b></h3><p data-path-to-node=\"5\">we will have sparse index containing exactly one index entry for each data file block.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><b data-path-to-node=\"6,0,0\" data-index-in-node=\"0\">Total number of index entries&nbsp;</b></p><p>$n = N_b = 7500 \\text{ entries}$</p></li></ul><h3 data-path-to-node=\"8\"><b data-path-to-node=\"8\" data-index-in-node=\"0\">Step 3: Calculate Index File Blocks</b></h3><ul data-path-to-node=\"9\"><li><p data-path-to-node=\"9,0,0\"><b data-path-to-node=\"9,0,0\" data-index-in-node=\"0\">Size of one index entry:</b></p><p>$\\text{Key Size} + \\text{Block Pointer Size} = 9 + 6 = 15 \\text{ bytes}$</p></li><li><p data-path-to-node=\"9,1,0\"><b data-path-to-node=\"9,1,0\" data-index-in-node=\"0\">Index entries per block:</b></p><p>$\\lfloor \\frac{\\text{Block Size}}{\\text{Index Entry Size}} \\rfloor = \\lfloor \\frac{512}{15} \\rfloor = \\lfloor 34.13 \\rfloor = 34 \\text{ entries/block}$</p></li><li><p data-path-to-node=\"9,2,0\"><b data-path-to-node=\"9,2,0\" data-index-in-node=\"0\">Total number of index blocks:</b></p><p>$\\lceil \\frac{n}{\\text{Index entries per block}} \\rceil = \\lceil \\frac{7500}{34} \\rceil = \\lceil 220.58 \\rceil = 221 \\text{ blocks}$</p></li></ul><h3 data-path-to-node=\"11\">so ans is 221</h3></div></section></div><p><a href=\"https://gateoverflow.in/533733\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a disk with a block size of $512$ bytes. A block pointer is $6$ bytes long, and a record pointer is $7$ bytes long. A data file contains $30,000$ EMPLOYEE records of fixed size $123$ bytes using an unspanned organization. The data file is not ordered by the key field $Ssn$, which is $9$ bytes long.<br>\n<br>\nA single-level secondary index is constructed on this non-ordering key field $Ssn$. Calculate the number of blocks required to store this secondary index.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    938,
+    938
+   ],
+   "answerText": "938",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"534994\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><strong>Step 1: Determine the Number of Secondary Index Entries</strong></p><p data-path-to-node=\"1\">A secondary index constructed on a non-ordering key field must be a dense index. This means it contains exactly one index entry for every single record in the data file.</p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\">Total number of index entries (n) = 30,000 entries</p></li></ul><p data-path-to-node=\"4\"><strong>Step 2: Calculate the Size of an Index Entry</strong></p><p data-path-to-node=\"5\">Since the data file is unordered, secondary index entries must point directly to the individual records using record pointers instead of block pointers. Block pointer size&nbsp; is given to confuse heree.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\">Size of one index entry = Key Size + Record Pointer Size = 9 + 7 = 16 bytes</p></li></ul><p data-path-to-node=\"8\"><strong>Step 3: Calculate Index Blocks Required</strong></p><ul data-path-to-node=\"9\"><li><p data-path-to-node=\"9,0,0\">Index entries per block = <span class=\"math-tex\" data-latex=\"floor(Block Size / Index Entry Size)\">$floor(Block Size / Index Entry Size)$</span>= <span class=\"math-tex\" data-latex=\"floor(512 / 16)\">$floor(512 / 16)$</span> = 32 entries/block</p></li><li><p data-path-to-node=\"9,1,0\">Total number of index blocks = <span class=\"math-tex\" data-latex=\"ceil(Total Index Entries / Index entries per block)\">$ceil(Total Index Entries / Index&nbsp;entries per block)$</span>= ceil(30000 / 32) = ceil(937.5) = 938 blocks</p></li></ul><p data-path-to-node=\"11\">Final Answer: 938</p></div></section></div><p><a href=\"https://gateoverflow.in/533731\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a disk with a block size of $512$ bytes. A block pointer is $6$ bytes long. A data file contains $30,000$ EMPLOYEE records of fixed length where each record has a total size of $123$ bytes. The file uses an unspanned organization and is physically ordered on disk by the key field $Ssn$, which is $9$ bytes long.<br>\n<br>\nA multilevel primary index is constructed on the $Ssn$ field. Determine the total number of disk blocks required to store all levels of this multilevel index combined.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    229,
+    229
+   ],
+   "answerText": "229",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"534995\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><strong>Step 1: Calculate Total Data Blocks</strong></p><p data-path-to-node=\"1\">Because the data file uses an unspanned organization, records cannot cross block boundaries.</p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\">Records per data block =<span class=\"math-tex\" data-latex=\"floor(Block Size / Record Size)\">$floor(Block Size / Record Size)$</span> = <span class=\"math-tex\" data-latex=\"floor(512 / 123)\">$floor(512 / 123)$</span> = 4 records/block</p></li><li><p data-path-to-node=\"2,1,0\">Total number of data blocks = <span class=\"math-tex\" data-latex=\"ceil(Total Records / Records per block)\">$ceil(Total Records / Records per block)$</span> = <span class=\"math-tex\" data-latex=\"ceil(30000 / 4)\">$ceil(30000 / 4)$</span> = 7500 blocks</p></li></ul><p data-path-to-node=\"4\"><strong>Step 2: Calculate Level 1 Index Blocks</strong></p><p data-path-to-node=\"5\">A primary index is a sparse index containing exactly one entry for each block of the data file. Since it is an index, its entries point to data blocks, so it uses block pointers.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\">Number of Level 1 index entries = Total data blocks = 7500 entries</p></li><li><p data-path-to-node=\"6,1,0\">Size of one index entry = Key Size + Block Pointer Size = 9 + 6 = 15 bytes</p></li><li><p data-path-to-node=\"6,2,0\">Index entries per block = <span class=\"math-tex\" data-latex=\"floor(Block Size / Index Entry Size)\">$floor(Block Size / Index Entry Size)$</span>= <span class=\"math-tex\" data-latex=\"floor(512 / 15)\">$floor(512 / 15)$</span> = 34 entries/block</p></li><li><p data-path-to-node=\"6,3,0\">Total Level 1 index blocks (B1) = <span class=\"math-tex\" data-latex=\"ceil(7500 / 34)\">$ceil(7500 / 34)$</span>= 221 blocks</p></li></ul><p data-path-to-node=\"8\"><strong>Step 3: for next Index Levels</strong></p><ul data-path-to-node=\"10\"><li><p data-path-to-node=\"10,0,0\">Total Level 2 index blocks (B2) =<span class=\"math-tex\" data-latex=\"ceil(B1 / Index entries per block)\">$ceil(B1 / Index entries per block)$</span>= ceil(221 / 34) = 7 blocks</p></li><li><p data-path-to-node=\"10,1,0\">Total Level 3 index blocks (B3) = <span class=\"math-tex\" data-latex=\"ceil(B2 / Index entries per block)\">$ceil(B2 / Index entries per block)$</span>= ceil(7 / 34) = 1 block</p></li></ul><p data-path-to-node=\"11\">Since Level 3 requires exactly 1 block, it becomes the root of the multilevel index, and make uss stops here.</p><p data-path-to-node=\"13\"><strong>Step 4: Calculate Total Combined Index Blocks</strong></p><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\">Total blocks = B1 + B2 + B3 = 221 + 7 + 1 = 229 blocks</p></li></ul><p data-path-to-node=\"16\">Final Answer: 229</p></div></section></div><p><a href=\"https://gateoverflow.in/533729\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the instructor relation instance shown below, containing fields ID, name, dept_name, and salary:<br>$$<br>\\begin{array}{|c|l|l|r|}<br>\\hline<br>\\text{76766} &amp; \\text{Crick} &nbsp; &nbsp; &nbsp;&amp; \\text{Biology} &nbsp; &nbsp; &amp; \\text{72000} \\\\<br>\\hline<br>\\text{10101} &amp; \\text{Srinivasan} &amp; \\text{Comp. Sci.} &nbsp;&amp; \\text{65000} \\\\<br>\\hline<br>\\text{45565} &amp; \\text{Katz} &nbsp; &nbsp; &nbsp; &amp; \\text{Comp. Sci.} &nbsp;&amp; \\text{75000} \\\\<br>\\hline<br>\\text{83821} &amp; \\text{Brandt} &nbsp; &nbsp; &amp; \\text{Comp. Sci.} &nbsp;&amp; \\text{92000} \\\\<br>\\hline<br>\\text{98345} &amp; \\text{Kim} &nbsp; &nbsp; &nbsp; &nbsp;&amp; \\text{Elec. Eng.} &nbsp;&amp; \\text{80000} \\\\<br>\\hline<br>\\text{12121} &amp; \\text{Wu} &nbsp; &nbsp; &nbsp; &nbsp; &amp; \\text{Finance} &nbsp; &nbsp; &amp; \\text{90000} \\\\<br>\\hline<br>\\text{76543} &amp; \\text{Singh} &nbsp; &nbsp; &nbsp;&amp; \\text{Finance} &nbsp; &nbsp; &amp; \\text{80000} \\\\<br>\\hline<br>\\text{32343} &amp; \\text{El Said} &nbsp; &nbsp;&amp; \\text{History} &nbsp; &nbsp; &amp; \\text{60000} \\\\<br>\\hline<br>\\text{58583} &amp; \\text{Califieri} &nbsp;&amp; \\text{History} &nbsp; &nbsp; &amp; \\text{62000} \\\\<br>\\hline<br>\\text{15151} &amp; \\text{Mozart} &nbsp; &nbsp; &amp; \\text{Music} &nbsp; &nbsp; &nbsp; &amp; \\text{40000} \\\\<br>\\hline<br>\\text{22222} &amp; \\text{Einstein} &nbsp; &amp; \\text{Physics} &nbsp; &nbsp; &amp; \\text{95000} \\\\<br>\\hline<br>\\text{33465} &amp; \\text{Gold} &nbsp; &nbsp; &nbsp; &amp; \\text{Physics} &nbsp; &nbsp; &amp; \\text{87000} \\\\<br>\\hline<br>\\end{array}<br>$$<br>Assume that the data file is physically stored and ordered on the disk by the non-key attribute dept_name. Let:</p><ul><li>$A=$ Maximum number of primary indexes that can be simultaneously created on this file.<br>&nbsp;</li><li>$B=$ Maximum number of clustering indexes that can be simultaneously created on this file.<br>&nbsp;</li><li>$C=$ Maximum number of secondary indexes that can be simultaneously created on this file.</li></ul><p>Calculate the value of the expression: $100 A+10 B+C$.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"534998\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><strong>&nbsp;Determine the Index Counts</strong></p><ul data-path-to-node=\"1\"><li><p data-path-to-node=\"1,0,0\"><b data-path-to-node=\"1,0,0\" data-index-in-node=\"0\">A (Primary Indexes) = 0</b></p><p data-path-to-node=\"1,0,0\">Reason: A primary index requires the file to be <strong>ordered </strong>by a <b data-path-to-node=\"1,0,0\" data-index-in-node=\"85\">key</b> attribute. The file is ordered by \"dept_name\", which is a non-key attribute&nbsp;</p></li><li><p data-path-to-node=\"1,1,0\"><b data-path-to-node=\"1,1,0\" data-index-in-node=\"0\">B (Clustering Indexes) = 1</b></p><p data-path-to-node=\"1,1,0\">Reason: A clustering index is built when a file is <strong>ordered </strong>by a <b data-path-to-node=\"1,1,0\" data-index-in-node=\"91\">non-key</b> attribute. Since the file is ordered by \"dept_name\", exactly 1 clustering index can be created.</p></li><li><p data-path-to-node=\"1,2,0\"><b data-path-to-node=\"1,2,0\" data-index-in-node=\"0\">C (Secondary Indexes) = 3</b></p><p data-path-to-node=\"1,2,0\">Reason: Secondary indexes can be created on the remaining<strong> non-ordering</strong> attributes: \"ID\", \"name\", and \"salary\". Because if file is ordered by dept_name, it becomes unordered by&nbsp; \"ID\", \"name\", and \"salary\".</p></li></ul><p data-path-to-node=\"3\">so,</p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\">100A + 10B + C</b> = 100(0) + 10(1) + 3 = 13</p></li></ul><p data-path-to-node=\"6\">&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/533732\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Primary index is usually a non-dense index because it is the main index for a table requiring it to be most efficient.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A clustering index is non-dense because the data file is physically ordered on the clustering field, allowing one index entry per distinct value.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Multiple secondary indexes can be created because they are on non-key attributes.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Multi-level indexes can be built on top of any type of first level indexes (primary, secondary and clustered).</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533753\"></a><div itemprop=\"text\"><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Primary index is a non-dense index because it is the main index for a table requiring it to be most efficient.<br><br>$\\textbf{True}$. (It requires that the table be ordered on the indexing attribute)<br>&nbsp;</li><li>A clustered index is non-dense because sorting is needed to keep the duplicate values together (cluster).<br><br>$\\textbf{True}$. Each entry of the clustered index points to the page containing the pivot element (the first value of the cluster (duplicates)).&nbsp;<p>A clustering index&nbsp;is built on a file that is physically ordered on a non-key attribute. Since the ordering attribute is not unique, records with the same value are stored together (they form a cluster).</p><p>The index is typically sparse (non-dense) because:</p><p>There is one index entry for each distinct value of the clustering field (or one per block containing that value), not for every record. Each index entry points to the first block containing records with that clustering value.</p><p>The fact that duplicate values are kept together is a consequence of the file being ordered.</p></li><li>Multiple secondary indexes can be created because they are on non-key attributes.<br><br>$\\textbf{False}$.&nbsp;(Secondary indexes do not require the table to be sorted while a table can be sorted only on one attribute. As a result multiple indexes can be created. Secondary indexes are dense indexes)<br>&nbsp;</li><li>Multi-level indexes can be built on top of any type of first level indexes (primary, secondary and clustered).<br><br>$\\textbf{True}$.&nbsp;in multi-level indexing each index level is sorted. Because the three indexes (primary, secondary and clustered) are themselves sorted, multi-level indexing can be built on top of them.</li></ol></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"535000\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">&nbsp;</p><h3 data-path-to-node=\"1\"><b data-path-to-node=\"1\" data-index-in-node=\"0\">Statement 1: True</b></h3><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b data-path-to-node=\"2,0,0\" data-index-in-node=\"0\">Reason:</b> A primary index is created on an ordered key field. It only requires one index entry per data block (making it a <b data-path-to-node=\"2,0,0\" data-index-in-node=\"121\">sparse/non-dense</b> index). This design minimizes the index size, allowing it to fit into main memory for maximum search efficiency.</p></li></ul><h3 data-path-to-node=\"3\"><b data-path-to-node=\"3\" data-index-in-node=\"0\">Statement 2: True</b></h3><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\">Reason:</b> A clustering index is built on a data file physically ordered by a non-key field. Because all identical values are physically grouped together across blocks, the index only needs <b data-path-to-node=\"4,0,0\" data-index-in-node=\"187\">one entry per distinct value</b> of that field, making it non-dense.</p></li></ul><h3 data-path-to-node=\"5\"><b data-path-to-node=\"5\" data-index-in-node=\"0\">Statement 3: False</b></h3><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><b data-path-to-node=\"6,0,0\" data-index-in-node=\"0\">Reason:</b> Multiple secondary indexes can be created, but the statement says they can <i data-path-to-node=\"6,0,0\" data-index-in-node=\"83\">only</i> be on non-key attributes. In reality, secondary indexes can be created on <b data-path-to-node=\"6,0,0\" data-index-in-node=\"162\">both key and non-key attributes</b> as long as they are non-ordering fields.</p></li></ul><h3 data-path-to-node=\"7\"><b data-path-to-node=\"7\" data-index-in-node=\"0\">Statement 4: True</b></h3><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">Reason:</b> A multi-level index is simply a B-tree or B+ tree structure built on top of a first-level index to reduce index block access time. It can be successfully implemented regardless of whether the first level is primary, secondary, or clustered.</p></li></ul><h3 data-path-to-node=\"10\">&nbsp;</h3></div></section></div><p><a href=\"https://gateoverflow.in/533730\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A data file contains $1,000,000$ unspanned tuples stored on a disk with a block size of $4096$ bytes ($4\\ K$). The configuration parameters and indexing structures are defined as follows:</p><ul><li>Each data tuple has a fixed size of $300$ bytes.<br>&nbsp;</li><li>Each search key is $4$ bytes long, and each block/record pointer is $4$ bytes long.<br>&nbsp;</li><li>The data file occupies $76,924$ unspanned disk blocks.<br>&nbsp;</li><li>A single index block can store up to $512$ index entries.<br>&nbsp;</li><li>Based on these layouts, a dense index requires $1,954$ blocks, while a primary sparse index requires $151$ blocks.</li></ul><p>Assuming a binary search is utilized wherever an ordered structure or index file is searched, which of the following statements are correct regarding the maximum block accesses required to retrieve a target record? (Select all that apply)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If the data file is ordered by the search key but lacks any indexing mechanism, searching for a record requires at most $17$ block accesses.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Utilizing a single-level primary dense index requires at most $12$ block accesses to find and retrieve the data record.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Utilizing a single-level primary sparse index requires at most $9$ block accesses to find and retrieve the data record.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Constructing a two-level index structure consisting of a dense first level and a sparse second level requires at most $5$ block accesses to locate and retrieve the data record.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"535003\"></a><div itemprop=\"text\"><p data-path-to-node=\"2\"><b data-path-to-node=\"2\" data-index-in-node=\"0\">A. No Indexing Mechanism</b>: so we will do&nbsp;binary search directly on the ordered data file blocks.</p><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,1,0\">$\\lceil \\log_2(76,924) \\rceil = \\lceil 16.23 \\rceil = 17 \\text{ accesses}$</p></li></ul><p data-path-to-node=\"5\"><b data-path-to-node=\"5\" data-index-in-node=\"0\">B. Single-Level Primary Dense Index</b>&nbsp;so here we will do&nbsp;binary search on the dense index blocks + 1 access to retrieve the actual data block.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,1,0\">$\\lceil \\log_2(1,954) \\rceil + 1 = 11 + 1 = 12 \\text{ accesses}$</p></li></ul><p data-path-to-node=\"8\"><b data-path-to-node=\"8\" data-index-in-node=\"0\">C. Single-Level Primary Sparse Index</b>: we will do biinary search on the sparse index blocks + 1 access to retrieve the actual data block.</p><ul data-path-to-node=\"9\"><li><p data-path-to-node=\"9,1,0\">$\\lceil \\log_2(151) \\rceil + 1 = 8 + 1 = 9 \\text{ accesses}$</p></li></ul><p data-path-to-node=\"11\"><b data-path-to-node=\"11\" data-index-in-node=\"0\">D. Two-Level Index Structure (Dense First Level + Sparse Second Level)</b></p><p data-path-to-node=\"12\">Let's calculate the exact size and search cost of the second level:</p><ol start=\"1\" data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><b data-path-to-node=\"13,0,0\" data-index-in-node=\"0\">Blocks in Level 1 (Dense):</b> $1,954$ blocks.</p></li><li><p data-path-to-node=\"13,1,0\"><b data-path-to-node=\"13,1,0\" data-index-in-node=\"0\">Blocks in Level 2 (Sparse):</b> Since one index block stores up to 512 entries, the second level needs:</p><p>$\\lceil \\frac{1,954}{512} \\rceil = 4 \\text{ blocks}$</p></li><li><p data-path-to-node=\"13,2,0\"><b data-path-to-node=\"13,2,0\" data-index-in-node=\"0\">Search Operation:</b>&nbsp;we will do binary search on the 4 blocks of Level 2: $\\lceil \\log_2(4) \\rceil = 2$ accesses.</p><ul data-path-to-node=\"13,2,1\"><li><p data-path-to-node=\"13,2,1,0,0\">Read the targeted block from Level 1: $1$ access.</p></li><li><p data-path-to-node=\"13,2,1,1,0\">Read the actual data block from the data file: $1$ access.<br>so total 4 access</p></li></ul></li></ol><p>opt d says atmost 5 access, which is correct .&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/533728\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database system contains a total of $3,000$ records and uses a secondary indexing architecture with an indirect-bucket scheme to handle duplicate search-key values. The layout parameters of the disk storage system are defined as follows:</p><ul><li>Each data block can hold a maximum of $3$ data records.<br>&nbsp;</li><li>Each index block can hold a maximum of $10$ key-pointer pairs.<br>&nbsp;</li><li>Each bucket block can hold a maximum of $50$ pure record pointers.</li></ul><p>On average, each distinct search-key value appears in exactly $10$ records. In this system, the bucket file is packed continuously back-to-back as a single contiguous sequence of record pointers without any gaps, padding, or wasted space inside the physical bucket blocks (meaning a single bucket block can contain pointers belonging to multiple distinct search keys).<br>Consider the following figure for understanding:<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"315\" src=\"media/49/49d6251575d656690de7.jpg\"></p><p><br><br>Let $A$ be the total number of physical blocks required to hold the secondary index structure (consisting of both the index blocks and the bucket blocks combined) under this indirect-bucket scheme.<br><br>Alternatively, suppose the system does not use a bucket file, and instead uses a dense index where a separate key-pointer pair must be stored in the index file for every individual record in the data file. Let $B$ be the total number of physical index blocks required under this dense index scheme.<br><br>Calculate the value of the expression: $A+B$.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"535006\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><b data-path-to-node=\"0\" data-index-in-node=\"0\">Step 1: Calculate $A$ (Indirect-Bucket Scheme Blocks)</b></p><p data-path-to-node=\"1\">The structure consists of two parts: the index blocks and the bucket blocks.</p><p data-path-to-node=\"2\"><b data-path-to-node=\"2\" data-index-in-node=\"0\">1. Calculate Index Blocks:</b></p><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\">Total records = 3,000</p></li><li><p data-path-to-node=\"3,1,0\">Average records per distinct key = 10</p></li><li><p data-path-to-node=\"3,2,0\">Number of distinct search-key values = 3,000 / 10 = 300</p></li><li><p data-path-to-node=\"3,3,0\">In an indirect-bucket scheme, the index contains exactly <b data-path-to-node=\"3,3,0\" data-index-in-node=\"57\">one entry per distinct search-key</b>.</p></li><li><p data-path-to-node=\"3,4,0\">Total index entries = 300</p></li><li><p data-path-to-node=\"3,5,0\">Entries per index block = 10</p></li><li><p data-path-to-node=\"3,6,0\">Number of index blocks = 300 / 10 = 30 blocks</p></li></ul><p data-path-to-node=\"4\"><b data-path-to-node=\"4\" data-index-in-node=\"0\">2. Calculate Bucket Blocks:</b></p><ul data-path-to-node=\"5\"><li><p data-path-to-node=\"5,0,0\">Every record in the database must have a record pointer stored in the bucket file.</p></li><li><p data-path-to-node=\"5,1,0\">Total record pointers to store = 3,000</p></li><li><p data-path-to-node=\"5,2,0\">Pointers per bucket block = 50</p></li><li><p data-path-to-node=\"5,3,0\">Since the bucket file is packed continuously back-to-back without any wasted space or padding:</p></li><li><p data-path-to-node=\"5,4,0\">Number of bucket blocks = 3,000 / 50 = 60 blocks</p></li></ul><p data-path-to-node=\"6\"><b data-path-to-node=\"6\" data-index-in-node=\"0\">Total Blocks for Scheme A:</b></p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\">$A$ = Index blocks + Bucket blocks = 30 + 60 = 90 blocks</p></li></ul><p data-path-to-node=\"9\"><b data-path-to-node=\"9\" data-index-in-node=\"0\">Step 2: Calculate $B$ (Dense Index Scheme Blocks)</b></p><p data-path-to-node=\"10\">In a standard dense index scheme without a bucket file, every single record in the data file must have its own separate key-pointer entry in the index file.</p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\">Total index entries = Total records = 3,000</p></li><li><p data-path-to-node=\"11,1,0\">Entries per index block = 10</p></li><li><p data-path-to-node=\"11,2,0\">Number of dense index blocks ($B$) = 3,000 / 10 = 300 blocks</p></li></ul><p data-path-to-node=\"13\"><b data-path-to-node=\"13\" data-index-in-node=\"0\">So finallyy we get:</b></p><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\">$A + B$ = 90 + 300 = 390</p></li></ul><p data-path-to-node=\"16\">&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/533727\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a secondary index layout utilizing an indirect-bucket scheme under the following constraints:</p><ul><li>Each data block holds a maximum of $3$ records.<br>&nbsp;</li><li>Each index block holds a maximum of $10$ key-pointer pairs.<br>&nbsp;</li><li>Each bucket block holds a maximum of $50$ record pointers.</li></ul><p>The underlying data file contains a total of $3,000$ records. There are no constraints on how records share search-key values. The bucket file is packed continuously as a single contiguous sequence of record pointers without any gaps, padding, or wasted space inside the physical bucket blocks.<br><br>Determine the minimum and maximum total number of disk blocks required to store the complete structure (including data blocks, index blocks, and bucket blocks combined).</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Minimum: $1,001$ blocks; Maximum: $1,300$ blocks<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Minimum: $1,061$ blocks; Maximum: $1,300$ blocks<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Minimum: $1,061$ blocks; Maximum: $1,360$ blocks<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Minimum: $1,001$ blocks; Maximum: $1,360$ blocks</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"535009\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Correct Option: <b>c</b></p><p data-path-to-node=\"2\"><strong>Step 1: Calculate Constant Blocks (Data File &amp; Bucket File)</strong></p><p data-path-to-node=\"3\">The problem states that there are <b data-path-to-node=\"3\" data-index-in-node=\"34\">no constraints</b> on how records share search-key values. However, the total number of records remains fixed at 3,000, and the bucket file is packed continuously without wasted space.</p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\">Data File Blocks:</b> Total records = 3,000. Each data block holds 3 records.</p><p>$$\\text{Data Blocks} = \\frac{3000}{3} = 1000 \\text{ blocks}$$</p></li><li><p data-path-to-node=\"4,1,0\"><b data-path-to-node=\"4,1,0\" data-index-in-node=\"0\">Bucket File Blocks:</b> Every record requires 1 pointer in the bucket file. Total pointers = 3,000. Each bucket block holds 50 pointers.</p><p>$$\\text{Bucket Blocks} = \\frac{3000}{50} = 60 \\text{ blocks}$$</p></li><li><p data-path-to-node=\"4,2,0\"><b data-path-to-node=\"4,2,0\" data-index-in-node=\"0\">&nbsp;Total:</b></p><p>$$\\text{Data Blocks} + \\text{Bucket Blocks} = 1000 + 60 = 1060 \\text{ blocks}$$</p></li></ul><p data-path-to-node=\"6\"><strong>Step 2: Calculate Minimum Index Blocks</strong></p><p data-path-to-node=\"7\">To <b data-path-to-node=\"7\" data-index-in-node=\"3\">minimize</b> the index blocks, we must minimize the number of unique search-key values.</p><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">Scenario:</b> All 3,000 records share the exact same search-key value (1 unique key).</p></li><li><p data-path-to-node=\"8,1,0\"><b data-path-to-node=\"8,1,0\" data-index-in-node=\"0\">Index entries:</b> 1 entry.</p></li><li><p data-path-to-node=\"8,2,0\"><b data-path-to-node=\"8,2,0\" data-index-in-node=\"0\">Index Blocks:</b></p><p>$$\\lceil \\frac{1}{10} \\rceil = 1 \\text{ block}$$</p></li><li><p data-path-to-node=\"8,3,0\"><b data-path-to-node=\"8,3,0\" data-index-in-node=\"0\">Minimum Total Blocks:</b></p><p>$$1060 + 1 = 1061 \\text{ blocks}$$</p></li></ul><p data-path-to-node=\"10\"><strong>Step 3: Calculate Maximum Index Blocks</strong></p><p data-path-to-node=\"11\">To <b data-path-to-node=\"11\" data-index-in-node=\"3\">maximize</b> the index blocks, we must maximize the number of unique search-key values.</p><ul data-path-to-node=\"12\"><li><p data-path-to-node=\"12,0,0\"><b data-path-to-node=\"12,0,0\" data-index-in-node=\"0\">Scenario:</b> Every record has a unique search-key value (dense distribution of keys).</p></li><li><p data-path-to-node=\"12,1,0\"><b data-path-to-node=\"12,1,0\" data-index-in-node=\"0\">Index entries:</b> 3,000 distinct entries.</p></li><li><p data-path-to-node=\"12,2,0\"><b data-path-to-node=\"12,2,0\" data-index-in-node=\"0\">Index Blocks:</b></p><p>$$\\frac{3000}{10} = 300 \\text{ blocks}$$</p></li><li><p data-path-to-node=\"12,3,0\"><b data-path-to-node=\"12,3,0\" data-index-in-node=\"0\">Maximum Total Blocks:</b></p><p>$$1060 + 300 = 1360 \\text{ blocks}$$</p></li></ul><p data-path-to-node=\"15\"><b data-path-to-node=\"15\" data-index-in-node=\"0\">Minimum: 1,061 blocks; Maximum: 1,360 blocks</b></p></div></section></div><p><a href=\"https://gateoverflow.in/533726\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 4,
+  "types": {
+   "NAT": 7,
+   "MSQ": 2,
+   "MCQ": 1
+  },
+  "withoutKey": 6
+ }
+}

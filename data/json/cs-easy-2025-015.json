@@ -1,0 +1,1090 @@
+{
+ "v": 1,
+ "id": "cs-easy-2025-015",
+ "title": "Subjectwise Test-4 Part Syllabus GATE 2025 CS Operating System",
+ "sourceTitle": "Subjectwise Test-4 Part Syllabus GATE 2025 CS Operating System",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2025",
+ "num": 15,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/037_Subjectwise Test-4 Part Syllabus GATE 2025 CS Operating System.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following scheduling strategies is used by short term schedular?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Round Robin"
+    },
+    {
+     "key": "B",
+     "html": "FCFS"
+    },
+    {
+     "key": "C",
+     "html": "Shortest Job First"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\tAll are used by short term schedular to move the processes from ready state to running state.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following scheduling algorithms may cause starvation?<br />\n\t<em>S</em><sub>1</sub> : Multilevel queue scheduling<br />\n\t<em>S</em><sub>2</sub> : Highest response ratio next<br />\n\t<em>S</em><sub>3</sub> : Shortest remaining time first<br />\n\t<em>S</em><sub>4</sub> : Pre-emptive algorithm</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>S</em><sub>1</sub>, <em>S</em><sub>3</sub> and <em>S</em><sub>4</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>S</em><sub>1</sub>, <em>S</em><sub>2</sub>, <em>S</em><sub>3</sub> and <em>S</em><sub>4</sub></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Context switching time in FCFS scheduling algorithm have less than equal to Round Robin.<br />\n\t<em>S</em><sub>2</sub> : Average waiting time SJF scheduling algorithm have less compare to Round Robin scheduling.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Processes can run in parallel on different processors in multiprocessor system, but not Kernel thread of a process.<br />\n\t<em>S</em><sub>2</sub> : Many to one is the most efficient model of multi-threading because it allows several userlevel threads to be assigned to different processors in multiprocessor computer system.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\tF : Processes and Kernel threads both can run in parallel on different processors in multiprocessor.<br />\n\tF : Many to one uses one Kernel thread therefore it can not use multiprocessor facility.</p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhich of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "User level thread require memory management where Kernel threads do not."
+    },
+    {
+     "key": "B",
+     "html": "Kernel level thread contain separate TCB for each thread with in a process, blocking one thread is independent to other thread."
+    },
+    {
+     "key": "C",
+     "html": "User level thread will have slower than Kernel level thread."
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tIf a Kernel level thread is blocked for <img align=\"absmiddle\" alt=\"\" src=\"media/fa/fa5de37183ced0f562f6.png\" /> operation, then Kernel of operating system will perform content switching to run another Kernel thread which is not blocked.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, d)<br />\n\t(a) both are required memory.<br />\n\t(c) user level thread will have faster than Kernel level thread.</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following disk scheduling algorithm reduce the response time?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "FCFS"
+    },
+    {
+     "key": "B",
+     "html": "SCAN"
+    },
+    {
+     "key": "C",
+     "html": "C-SCAN"
+    },
+    {
+     "key": "D",
+     "html": "SSTF"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements with respect to interprocess communication.<br />\n\t<em>S</em><sub>1</sub> : Ensure that processes do not write to same memory location concurrently in shared memory.<br />\n\t<em>S</em><sub>2</sub> : Shared memory follows a faster communication strategy compared to the message passing technique.<br />\n\t<em>S</em><sub>3</sub> : Message passing technique require Kernel support.<br />\n\tWhich of the statements are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Consider the following table given below (all times in ms):</p>\n\n<p><img alt=\"\" src=\"media/14/146be48c57ac61df41a2.png\" /></p>\n\n<p>Operating system uses pre-emptive shortest remaining time first algorithm. What is the throughput of the system (assume tries are broken on trans of lowest process Id). (Upto to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.29,
+    0.31
+   ],
+   "answerText": "0.30",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.30 [0.29 - 0.31]</p>\n\n<p><img alt=\"\" src=\"media/03/03a8ee3cdbd5076d5c01.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tMatch <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n<p>\n\t<img alt=\"\" src=\"media/28/28436dbf59103d062d79.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; Share memory is a method of inter process communication.<br />\n\t&bull; Dijkstra&rsquo;s Banker algorithm used for deadlock avoidance.<br />\n\t&bull; By the help of fork system call new child processes are created.<br />\n\t&bull; Fixed partitioning is suffer from internal fragmentation.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tWhich of the following is true with respect to schedular?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Mid term schedular increase degree of multiprogramming."
+    },
+    {
+     "key": "B",
+     "html": "Short term schedular control degree of multiprogramming."
+    },
+    {
+     "key": "C",
+     "html": "Short term scheduler uses CPU scheduling algorithm."
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tLong term schedular should select good combination of <img align=\"absmiddle\" alt=\"\" src=\"media/c0/c0cca74370bac333461e.png\" /> bound and CPU bound process.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)<br />\n\t&bull; Mid term schedular reduce degree of multiprogramming.<br />\n\t&bull; Long term schedular control the degree of multiprogramming.</p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>The available main memory for loading processes is of size 128 MB. Which is divided into fixed 8 partition. If the processes of size 12 MB and 10 MB are loaded into memory. The percentage of total internal fragmentation, for these processes is ________ %. (Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    31.25,
+    31.25
+   ],
+   "answerText": "31.25",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>31.25 [31.25 - 31.25]</p>\n\n<p><img alt=\"\" src=\"media/8d/8d891068eb32bcbc9970.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tJobs A, B, C, D and E with running time of 13, 10, 5, 9 and 1 respectively arrive at computer in the time order 0, 5, 7, 10, 12. If the priority of these jobs in the order of C, B, E, A and D and the policy used for scheduling is that a higher priority job always succeeds in pre-empting.  (Do not count the context switches at time 0 and end at the end)<br />\n\tWhich of the following are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The average waiting time of all the process is 9.6."
+    },
+    {
+     "key": "B",
+     "html": "The average waiting time of all the process is 8.2."
+    },
+    {
+     "key": "C",
+     "html": "The number of context switches is 6."
+    },
+    {
+     "key": "D",
+     "html": "The number of context switches is 8."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/d3/d38ca2222bd7536eda56.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tConsider the statements regarding disk scheduling algorithm:</p>\n<p>\n\tWhich of the statements is false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "SSTF disk scheduling is suffer from starvation."
+    },
+    {
+     "key": "B",
+     "html": "The SSTF disk scheduling algorithm increases throughput compared to FCFS."
+    },
+    {
+     "key": "C",
+     "html": "SCAN disk scheduling algorithm is also known as Elevator algorithm."
+    },
+    {
+     "key": "D",
+     "html": "SCAN disk scheduling algorithm is suffer from starvation."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\t(d) SCAN disk scheduling algorithm eliminates starvation.</p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>A bit map can be used to keep track of which blocks are free in a file system’s partition on disk.<br />\nAssuming 1 KB block size and disk size of 64 GB, number of disks blocks for bit map ________ in kilo?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>8</p>\n\n<p><img alt=\"\" src=\"media/f6/f6dbc3c2536720a363cf.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhich of the following statements are false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In indexed file allocation, for each file separate block is used as an index to store block pointers."
+    },
+    {
+     "key": "B",
+     "html": "Contiguous allocation supports only random access to disk block."
+    },
+    {
+     "key": "C",
+     "html": "Larger disk block result in greater internal fragmentation."
+    },
+    {
+     "key": "D",
+     "html": "Indexed file allocation is suffer form external fragmentation."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, d)<br />\n\t&bull; Contiguous allocation supports both sequential and random access of file.<br />\n\t&bull; Indexed file allocation are free form external fragmentation.</p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Consider a disk system where 10 GB disk rotates at 10000 rpm. The data is transferred at a rate of 10<sup>7</sup> Bps. The average seek time to 16 ms. Where the block size is 64 KB. The average service time required to retrieve a single disk block from a random location on the disk is ________ ms.<br />\n(Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    25.55,
+    25.58
+   ],
+   "answerText": "25.56",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>25.56 [25.55 - 25.58]</p>\n\n<p><img alt=\"\" src=\"media/cb/cba78e84c5b44fc8b1ab.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following table of Arrival time, Burst time and Priority for six processes <em>P</em><sub>0</sub>, <em>P</em><sub>1</sub>, <em>P</em><sub>2</sub>, <em>P</em><sub>3</sub>, <em>P</em><sub>4</sub>, <em>P</em><sub>5</sub> :</p>\n<p>\n\t<img alt=\"\" src=\"media/2b/2b15d310a5883cc4b122.png\" /></p>\n<p>\n\tThe preemptive priority scheduling algorithm is used. The waiting time for processes <em>P</em><sub>0</sub>, <em>P</em><sub>1</sub> and <em>P</em><sub>3</sub> is respectively.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(22, 18, 3)"
+    },
+    {
+     "key": "B",
+     "html": "(21, 15, 0)"
+    },
+    {
+     "key": "C",
+     "html": "(22, 18, 0)"
+    },
+    {
+     "key": "D",
+     "html": "(22, 15, 3)"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/9c/9ca0527978f5fcceb798.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>A unix <img align=\"absmiddle\" alt=\"\" src=\"media/28/28bddc112dad7da92b5a.png\" /> node has 10 disk addresses for data blocks as well as addresses of single, double and triple indirect blocks. If each of these indirect blocks hold 256 disk addresses. The maximum possible file size is using triple indirect ________ GB. (Assume each disk block is of 1 KB size)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    16,
+    16
+   ],
+   "answerText": "16",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>16</p>\n\n<p><img alt=\"\" src=\"media/86/86908272b45ce962f6d8.png\" /></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following code to solve the critical section problem for two processes <em>P</em><sub>0</sub> and <em>P</em><sub>1</sub>. initially flag[i] contains false for i = 0 and 1.</p>\n<p>\n\t<img alt=\"\" src=\"media/7f/7f91269372ded0c2135a.png\" /></p>\n<p>\n\tAssume <img align=\"absmiddle\" alt=\"\" src=\"media/f0/f02d67a86104e317da64.png\" /> refers to the current process <img align=\"absmiddle\" alt=\"\" src=\"media/f7/f76163b8df5d5e8e2f12.png\" /> and j refers the other process <em>P<sub>j</sub></em>. If two processes executing above code concurrently then which of the following satisfy the above solution?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Mutual exclusion and progression"
+    },
+    {
+     "key": "B",
+     "html": "Mutual exclusion and bounded wait"
+    },
+    {
+     "key": "C",
+     "html": "Progress"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; Mutual exclusion is satisfied by the given code.<br />\n\t&bull; Progress does not satisfy because both <em>P</em><sub>0</sub> and <em>P</em><sub>1</sub> may enter the deadlock by making their flag true and spin lock by busy waiting in while loop.<br />\n\t&bull; Bounded wait satisfied.</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following segment table:</p>\n<p>\n\t<img alt=\"\" src=\"media/b2/b2bd67afc1641f589077.png\" /></p>\n<p>\n\tWhich of the following logical addresses generates trap to operating system?</p>\n<p>\n\t<img alt=\"\" src=\"media/df/df8a18dc19d763c81854.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(ii) and (iii) only"
+    },
+    {
+     "key": "B",
+     "html": "(iii) and (v) only"
+    },
+    {
+     "key": "C",
+     "html": "(i) and (v) only"
+    },
+    {
+     "key": "D",
+     "html": "(iii) and (iv) only"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\tSince 430 &lt; 600 so, physical address = 219 + 430 = 649<br />\n\tSince 10 &lt; 18 so, physical address = 2400 + 10 = 2410<br />\n\tSince 500 &gt; 100, so, illegal reference and trap to operating system.<br />\n\tSince 400 &lt; 580 so, physical address = 1327 + 400 = 1727<br />\n\tSince 112 &gt; 80 so, illegal reference and trap to os.</p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Dirty bit is used to indicate an illegal access of page.<br />\n\t<em>S</em><sub>2</sub> : Essential content in page table entry is frame number.<br />\n\t<em>S</em><sub>3</sub> : System calls are usually invoked by using a software interrupt.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>S</em><sub>2</sub> and <em>S</em><sub>3</sub> only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>3</sub> only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; Dirty bit is used to check that page is modified or not, to avoid unnecessary write.<br />\n\t&bull; Translation look aside buffer need not to be saved.<br />\n\t&bull; System calls are usually invoked by using a software interrupt.</p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider a queue between two process below.<br />\n\tWhere N is length of queue and ‘q’ and ‘f ’ are counting semaphore where as ‘r’ is binary semaphore.<br />\n\tinitially q = N, f = 0 and r = 1</p>\n<p>\n\t<img alt=\"\" src=\"media/14/14874f273e0fa6084fc7.png\" /></p>\n<p>\n\tConsider the following is correct?<br />\n\t<em>S</em><sub>1</sub> : The purpose of semaphore <em>r</em> is to be provided mutual exclusion for queue operation.<br />\n\t<em>S</em><sub>2</sub> : The purpose of semaphore ‘<em>q</em>’ is to ensure that deadlock not occur.<br />\n\t<em>S</em><sub>3</sub> : The purpose of semaphore ‘<em>f</em> ’ is to ensure that dequeue is not executed on an empty queue.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)<br />\n\t&bull; The purpose of semaphore <em>r</em> is to ensure mutual exclusion for queue operations.<br />\n\t&bull; The purpose of semaphore &lsquo;<em>q</em>&rsquo; is to keep track of number of enqueue operations possible.<br />\n\t&bull; The purpose of semaphore &lsquo;<em>f</em> &rsquo; is to ensure that dequeue is not executed on an empty queue. Process 2 will block on first statement <em>P</em>( <em>f</em> ).</p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tA situation where processes access and manipulate same data concurrently and the outcome of the execution depends on the particular order in which the access takes place is called.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Mutual exclusion"
+    },
+    {
+     "key": "B",
+     "html": "Convey effect"
+    },
+    {
+     "key": "C",
+     "html": "Process synchronization"
+    },
+    {
+     "key": "D",
+     "html": "Race condition"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following snapshot of a system with five processes (<em>P</em><sub>1</sub>, <em>P</em><sub>2</sub>, <em>P</em><sub>3</sub>, <em>P<sub>4</sub></em> and <em>P</em><sub>5</sub>) and four resources (R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub>, R<sub>4</sub>).</p>\n<p>\n\t<img alt=\"\" src=\"media/a6/a6a7a94e6c337279e2b5.png\" /></p>\n<p>\n\tWhich of the following is correct with respect to system snapshot ?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "System is in a deadlocked state."
+    },
+    {
+     "key": "B",
+     "html": "System is in unsafe state."
+    },
+    {
+     "key": "C",
+     "html": "There are some invalid requests."
+    },
+    {
+     "key": "D",
+     "html": "System is in safe state."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)<br />\n\tConsidering each statement :<br />\n\t&bull; Using the Banker&rsquo;s Algorithm, the system is not deadlocked. The processes finishing order is <em>P</em><sub>1</sub>, <em>P</em><sub>4</sub>, <em>P</em><sub>5</sub>, <em>P</em><sub>2</sub>, <em>P</em><sub>3</sub>.<br />\n\t&bull; No, the request is invalid as it would exceed the maximum need that <em>P</em><sub>1</sub> specified.<br />\n\t&bull; No, the request is valid but if granted, the resulting currently available resource will be (4, 7, 11, 5) and there is no sequence of process executions that would allow the completion of all processes. This is an unsafe state.</p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider 6 memory partition each of size 280 KB, 450 KB, 700 KB, 350 KB, 400 KB. 650 KB where KB refers to kilobyte. These partition need to be allocated to four processes of size 250 KB, 460 KB, 25 KB, 700 KB.<br />\n\tConsider the following statements with respect to the above scenario.<br />\n\t<em>S</em><sub>1</sub> : If first fit policy is used, no process will remain unallocated.<br />\n\t<em>S</em><sub>2</sub> : If best fit policy is used, no process will remain unallocated.<br />\n\tWhich of the above statement is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/36/36adb21ddbcfa92b8087.png\" /></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Consider the following track request in the disk queue:<br />\n36, 45, 96, 13, 26, 132, 87, 63, 182<br />\nThe C-SCAN scheduling algorithm is used and R/W head is positioned at location 50. If tracks are numbered from 0 to 199. Head is moving toward lower track on its service pass the time to move from one track to next track is 3 ns. The total seek time required for servicing these request is ________ μs.</p>\n\n<p>(Assume moving from one end to another end take 15 ns). (Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.55,
+    0.58
+   ],
+   "answerText": "0.57",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.57 [0.55 - 0.58]</p>\n\n<p><img alt=\"\" src=\"media/21/2131e275444719ec4d2a.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tConsider a paged virtual memory system with 32 bit virtual addresses and 1 KB page size. Each page table entry required 32 bits. It is desired to limit the page table size to one page. Assume multilevel paging is used to implemented the above requirement then how many levels are required?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5"
+    },
+    {
+     "key": "B",
+     "html": "4"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/c0/c0ae67b7b573cac0e452.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : LRU page replacement suffers from Belady’s Anomaly.<br />\n\t<em>S</em><sub>2</sub> : Page that are shared between two or more processes can never be swapped out to the disk.<br />\n\t<em>S</em><sub>3</sub> : Loading the pages in memory before letting process run is called pre paging.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>3</sub> only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>S</em><sub>2</sub> and <em>S</em><sub>3</sub> only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\t<em>S</em><sub>1</sub> : Incorrect: FIFO having Belady&rsquo;s Anomaly.<br />\n\t<em>S</em><sub>1</sub> : Incorrect: pages that are shared between two or more processes can be swapped out to disk when demand paging requires the programmer to instruct the OS to load a particular virtual memory page.<br />\n\t<em>S</em><sub>3</sub> : Correct</p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tA computer system implements a 40 bit virtual address. Page size of 16 KB and size of physical memory is 30 bits. The approximate size of page table in the system is ________ MB.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "128 MB"
+    },
+    {
+     "key": "B",
+     "html": "64 MB"
+    },
+    {
+     "key": "C",
+     "html": "48 MB"
+    },
+    {
+     "key": "D",
+     "html": "384 MB"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/c5/c5a823818fd7d07ca899.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Consider a demand paged memory system, page table is held in registers. It takes 600 nsec to service a page fault if empty page is available or replaced page is not modified and 750 nsec if the replaced page is modified, main memory access time is 120 nsec. If the page to be replaced is modified 70% of time and page fault rate is 15% then average access time is ________. (Upto 1 decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    207.7,
+    207.9
+   ],
+   "answerText": "207.7",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>207.7 [207.7 - 207.9]</p>\n\n<p><img alt=\"\" src=\"media/1e/1e5951a5378fea05e3a8.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tConsider the following resource allocation graph:</p>\n<p>\n\t<img alt=\"\" src=\"media/82/820cb1972c4639621878.png\" /></p>\n<p>\n\tWhich of the above is true above given resource allocation graph?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Deadlock occur in both (i) and (ii)"
+    },
+    {
+     "key": "B",
+     "html": "Deadlock occur in (i) but not in (ii)"
+    },
+    {
+     "key": "C",
+     "html": "Deadlock occur in (ii) but not in (i)"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\tThere is no deadlock in (i), process will be executed in <em>P</em><sub>2</sub>, <em>P</em><sub>4</sub>, <em>P</em><sub>3</sub>, <em>P</em><sub>1</sub> or some other order also. There is no deadlock in (ii) process will be executed in order <em>P</em><sub>3</sub>, <em>P</em><sub>2</sub> and <em>P</em><sub>1</sub>.</p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the two process <em>P</em><sub>0</sub> and <em>P</em><sub>1</sub> using binary semaphore R, S, T initial value of R = 1, S = 0, T = 0.</p>\n<p>\n\t<img alt=\"\" src=\"media/cb/cb8bc3c9bab9b8e2617a.png\" /></p>\n<p>\n\tWhat will be the output of program when process <em>P</em><sub>0</sub> and <em>P</em><sub>1</sub> concurrently executing?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 4 1 3 2 2"
+    },
+    {
+     "key": "B",
+     "html": "1 4 2 1 3 2"
+    },
+    {
+     "key": "C",
+     "html": "1 4 1 2 3 2"
+    },
+    {
+     "key": "D",
+     "html": "Both (b) and (c)"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)<br />\n\tValue of semaphore R = 1 and S = 0 so first <em>P</em><sub>0</sub> is executed and 14 will be printed. After V(S) both P0 and <em>P</em><sub>1</sub> will concurrently executing and 21 or 12 can be printed. Now 32 will be printed.<br />\n\tBoth 1 4 2 1 3 2 and 1 4 1 2 3 2 can be printed.<br />\n\tSo option (d) is correct.</p>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following page reference string:<br />\n\t3, 2, 1, 5, 6, 3, 2, 7, 1, 3, 6, 7, 3, 2, 6<br />\n\tAssume there are 4 frames are available. <img align=\"absmiddle\" alt=\"\" src=\"media/4d/4d64d5dd00ad5b56e2ba.png\" /> represents number of page faults using FIFO, y represents page faults using LRU and z represents page fault using optimal technique. Which of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2d/2de042b50795534d8cc6.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c9/c963e8d1a1d81c4a22b3.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fa/fafb80468e947aa1d0b1.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/14/1441da5b294507306369.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/2c/2c62723c06136e86a2b2.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 22,
+   "MSQ": 4,
+   "NAT": 7
+  },
+  "withoutKey": 0
+ }
+}

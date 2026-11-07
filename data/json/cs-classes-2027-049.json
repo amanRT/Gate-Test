@@ -1,0 +1,841 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-049",
+ "title": "DVRUO Classes Test Series | DBMS | Subject Wise Test 2",
+ "sourceTitle": "DVRUO Classes Test Series | DBMS | Subject Wise Test 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 49,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/078_exam_1355_GO Classes Test Series DBMS Subject Wise Test 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Normalization is a foundational process in relational database design, aiming to systematically minimize redundancy and anomalies through decomposition based on dependency preservation and lossless joins.<br><br>Among the following statements, identify the INCORRECT one concerning the principles and implications of normalization and normal forms.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every decomposition that achieves Boyce-Codd Normal Form (BCNF) is both lossless and dependency-preserving by definition.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A relation in First Normal Form ( $1$ NF ) ensures atomicity of attributes but may still exhibit insertion, update, and deletion anomalies due to partial or transitive dependencies.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Normalization beyond a certain normal form (such as $4$NF or $5$NF) can potentially lead to performance degradation, despite achieving higher theoretical soundness in design.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The process of normalization can be viewed as systematically minimizing redundancy under the constraints of functional, multivalued, and join dependencies, while balancing the trade-off between dependency preservation and lossless join properties.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504115\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relational schemas:</p><ul><li>PROJ (PNO, Budget) &nbsp;Primary key: PNO<br> </li><li>EMP (ENO, EName, Position) - Primary key: ENO<br> </li><li>DSG (ENO, PNO, Dur, Resp) - Primary key: {ENO, PNO}<br> </li><li>DSG.PNO is a foreign key referencing PROJ.PNO<br> </li><li>DSG.ENO is a foreign key referencing EMP.ENO</li></ul><p>Consider the following SQL query:<br>&nbsp;&nbsp;</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT EName\nFROM EMP, PROJ, DSG\nWHERE EMP.ENO = DSG.ENO\n&nbsp;&nbsp;&nbsp;&nbsp;AND PROJ.PNO = DSG.PNO\n&nbsp;&nbsp;&nbsp;&nbsp;AND DSG.Dur &gt; 36;</pre><p><br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\pi_{\\mathrm{EName}} \\Big( \\mathrm{PROJ} \\bowtie_{\\mathrm{PNO}} \\big( \\mathrm{EMP} \\bowtie_{\\mathrm{ENO}} \\sigma_{\\mathrm{Dur}&gt;36}(\\mathrm{DSG}) \\big) \\Big)$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\pi_{\\text{EName}} \\left( \\text{PROJ} \\bowtie_{\\text{PNO}} \\left( \\pi_{\\{\\text{EName}\\}}(\\text{EMP}) \\bowtie_{\\text{ENO}} \\sigma_{\\text{Dur} &gt; 36}(\\text{DSG}) \\right) \\right)$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\pi_{\\text{EName}} \\left( \\text{PROJ} \\bowtie_{\\text{PNO}} \\left( \\sigma_{\\text{Dur} &gt; 36}(\\text{EMP}) \\bowtie_{\\text{ENO}} \\text{DSG} \\right) \\right)$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\pi_{\\text{EName}} \\left( \\text{PROJ} \\bowtie_{\\text{PNO}} \\left( \\text{EMP} \\bowtie_{\\text{ENO}} \\sigma_{\\text{Dur} &gt; 36}\\left( \\pi_{\\{\\text{Dur}\\}}(\\text{DSG}) \\right) \\right) \\right)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504114\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a transaction processing system, two-phase locking ($2$PL) is used to ensure serializability among concurrent transactions.<br>According to the $2$ PL protocol, which one of the following statements is TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>All read and write operations must be completed before the first lock release.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A transaction cannot obtain any new lock once it has released any lock.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Exclusive locks can be upgraded to shared locks only after all other transactions release their locks.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Unlocking actions must strictly follow the order of corresponding locking actions.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504113\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following tables in a relational database:<br><br>Department(DeptCode, DeptName)<br><br>Employee(EmpCode, EmpName, DeptCode)<br><br>We want to obtain a table in which each row is the concatenation of a row from the Department table with a row from the Employee table.<br><br>If a department has no employees, its row in the result must contain empty (NULL) fields for the employee attributes.<br>The relational algebra operation that must be applied to combine these two tables is:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Division<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Inner join<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Outer join<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Union</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504112\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relations:<br><br>Department(DeptCode, DeptName)<br><br>Employee(EmployeeID, EmployeeName, DeptCode, Salary)<br><br>Examine the SQL query:<br> </p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT D.DeptCode, D.DeptName, SUM(E.Salary)\nFROM Department D, Employee E\nWHERE D.DeptCode = E.DeptCode\nGROUP BY D.DeptCode, D.DeptName\nHAVING COUNT(*) &gt; 2 AND AVG(E.Salary) &gt; 40;</pre><p><br>Which of the following best describes the result of this query?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For each employee who works in more than two departments with an average salary greater than $40$ , the query lists the department details and total salary.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>For each department having more than two employees and whose average salary exceeds 40, the query lists the department code, department name, and the total of all salaries in that department.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For each department, the query lists every employee whose salary exceeds $40$ and whose department has more than two employees.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The query is invalid because $\\operatorname{AVG}($ E.Salary $)$ cannot be used with COUNT(*) in the same HAVING clause.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504111\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})$ with a set of functional and multivalued dependencies defined on it.<br>Let $3$NF, BCNF, and $4$NF denote the Third Normal Form, Boyce-Codd Normal Form, and Fourth Normal Form, respectively.<br><br>Which one of the following statements is/are TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every relation in BCNF is also in 3NF, but the reverse need not hold.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If a relation $R$ has only one candidate key, then it is always in BCNF, irrespective of its dependencies.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A relation R in $3$NF, where all candidate keys are simple (i.e., single-attribute), is not guaranteed to be in BCNF.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A multivalued dependency $X \\rightarrow \\rightarrow Y$ in a relation $R$ is trivial only if either $Y \\subseteq X$ or $X Y=R$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/504110\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation schema $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E}, \\mathrm{F})$ with the following set of non-trivial functional dependencies:<br>$$\\mathrm{F}=\\{\\mathrm{E} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{B}, \\mathrm{A} \\rightarrow \\mathrm{D}, \\mathrm{CDE} \\rightarrow \\mathrm{A}\\}$$<br>Three attribute sets are given:</p><ul><li>$\\mathrm{S}_{1}=\\{\\mathrm{C}, \\mathrm{D}, \\mathrm{E}\\}$<br> </li><li>$\\mathrm{S}_{2}=\\{\\mathrm{D}, \\mathrm{E}, \\mathrm{F}\\}$<br> </li><li>$\\mathrm{S}_{3}=\\{\\mathrm{A}, \\mathrm{E}, \\mathrm{F}\\}$</li></ul><p>Which of the following statements is/are TRUE regarding candidate keys of R?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$S_{1}$ and $S_{2}$ are candidate keys of $R$.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S_{2}$ and $S_{3}$ are candidate keys of $R$.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$S_{1}$ is the only candidate key for $R$.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$S_{3}$ is the only candidate key for $R$.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504109\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Indexes are auxiliary access structures used to speed up record retrieval based on search conditions.<br>Consider the following statements about index structures:</p><ol style=\"list-style-type:upper-roman\"><li>A sparse index contains an entry for each search key value in the data file, whereas a dense index contains entries only for some key values.<br> </li><li>An index file is itself a sequential file, with key-pointer pairs stored as records sorted by the search key.<br> </li><li>A file can have only one primary index (on the field that defines the physical ordering of records) but may have multiple secondary indexes on non-ordering fields.<br> </li><li>Insertion or deletion of records in the data file causes corresponding insertions or deletions in the index file, if the index is dense.</li></ol><p><br>Which of the above statements is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only I and II<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only II and IV<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only III and IV<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only II, III, and IV</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504108\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In an $m$-order B-tree,</p><ul><li>each internal node (except the root) contains at least $m$ keys (and hence $m+1$ children) and at most $2m$ keys (and $2 m+1$ children);<br> </li><li>All leaves appear at the same level;<br> </li><li>The root may contain between $1$ and $2m$ keys.</li></ul><p>Which one of the following statements regarding B-tree insertion behaviour is TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Node partitioning (split) occurs when a record must be inserted into a node that already contains $2m$ keys.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Node partitioning occurs when a record must be inserted into a node that contains fewer than $2m$ keys.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Node partitioning occurs when the inserted key&#x27;s value is intermediate between existing keys in the same node.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Node partitioning occurs when it is necessary to reduce the height of the B-tree after insertion.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504107\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Analyse the following Entity-Relationship diagram.<br><br><b id=\"docs-internal-guid-28550947-7fff-1707-9727-134ea5881430\"><img width=\"585\" height=\"174\" alt=\"\" src=\"media/e2/e258ccd93012992929c6.png\"></b><br><br>The above ER diagram has two entity sets, EntA and EntB, with the following cardinality:<br>Each entity of EntA can be related to several entities of EntB, and each entity of EntB is related to exactly one entity of EntA.<br>Assume all attributes are simple and single-valued.<br>If this ER diagram is mapped to the relational model such that the resulting schema is in Third Normal Form ($3$NF), which one of the following sets of relations is most appropriate?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>EntA(idA, attrib1, attrib2), EntB(idB, attrib3)<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>EntAB(idA, idB, attrib1, attrib2, attrib3)<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>EntA(idA, attrib1, attrib2), EntB(idB, attrib3, idA)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>EntA(idA, attrib1, attrib2), AB(idA, idB), EntB(idB, attrib3)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504106\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following scales, S1 and S2, for executing transactions (T).<br><br>$\\textbf{S1}$<br>$\\begin{array}{|l|l|}<br>\\hline<br>\\textbf{T1} &amp; \\textbf{T2} \\\\<br>\\hline<br>\\text{Read (A)} &amp; &nbsp;\\\\<br>\\hline<br>\\text{Write (A)} &amp; &nbsp;\\\\<br>\\hline<br>&nbsp;&amp; \\text{Read (A)} \\\\<br>\\hline<br>&nbsp;&amp; \\text{Write (A)} \\\\<br>\\hline<br>\\text{Read (B)} &amp; &nbsp;\\\\<br>\\hline<br>\\text{Write (B)} &amp; &nbsp;\\\\<br>\\hline<br>&nbsp;&amp; \\text{Read (B)} \\\\<br>\\hline<br>&nbsp;&amp; \\text{Write (B)} \\\\<br>\\hline<br>\\end{array}$<br><br>$\\textbf{S2}$<br>$\\begin{array}{|c|c|c|}<br>\\hline<br>\\textbf{T1} &amp; \\textbf{T2} &amp; \\textbf{T3} \\\\<br>\\hline<br>\\text{Read (A)} &amp; &nbsp;&amp; &nbsp;\\\\<br>\\hline<br>&nbsp;&amp; \\text{Write (A)} &amp; &nbsp;\\\\<br>\\hline<br>\\text{Write (A)} &amp; &nbsp;&amp; &nbsp;\\\\<br>\\hline<br>&nbsp;&amp; &nbsp;&amp; \\text{Write (A)} \\\\<br>\\hline<br>\\end{array}$<br><br>Based on this information, consider the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>$S2$ is serializable in the conflict.<br> </li><li>$S1$ is serializable in conflict.<br> </li><li>$S1$ is serializable in the view.<br> </li><li>$S2$ is serializable in the view.</li></ol><p><br>Select the correct alternative.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only statements I and II are correct.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only statements III and IV are correct.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only statements I, II, and IV are correct.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only statements II, III, and IV are correct.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504105\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following precedence graph defined for six different transactions that access the same data item.<br><b id=\"docs-internal-guid-02365e95-7fff-066c-6a35-af729339f7df\"><img width=\"368\" height=\"300\" alt=\"\" src=\"media/19/191a75848c6b820c0236.png\"></b><br>Select the alternative that correctly presents the corresponding agenda.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It is serializable.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It is not serializable.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It has no conflicts.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It does not have an equivalent serial schedule.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504104\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following ER diagram representing doctors (Médico), their specialities, and their various phone numbers.<br><b id=\"docs-internal-guid-f3da6a3f-7fff-b399-121b-fc45e474e0de\"><img width=\"602\" height=\"155\" alt=\"\" src=\"media/43/43cfed29b8b33299e48a.png\"></b><br>When converting this ER diagram into the relational model in Third Normal Form ($3$NF), consider the following statements:</p><ol style=\"list-style-type:upper-roman\"><li>The primary key of the Telephone table will consist of (CRM, number).</li><li>Separate tables will be created for Doctor and Telephone, with a foreign key in Telephone referencing Doctor (CRM).</li><li>A separate table will be created for Doctor (Médico) and Telephone, without any foreign keys.</li><li>A separate table will be created for the speciality attribute, with a foreign key to the Doctor (Médico) table.</li><li>A separate table will be created for the relationship between Doctor (Médico) and Telephone, containing the respective foreign keys.</li></ol><p>Which of the following sequences (True/False) is correct for statements I-V?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{T, T, F, T, F}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{T, T, F, F, F}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{T, F, F, F, T}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{F, T, F, F, T}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504103\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Regarding the basic relational algebra operations, identify the statement that is/are INCORRECT:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>SELECT ( $\\sigma$ ) extracts specific tuples from a relation, according to a specified condition.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>UNION ( $\\cup$ ) builds a relation consisting of all tuples that appear in either of two relations that are union-compatible.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>JOIN $(\\bowtie)$ constructs a relation from two relations, consisting of all possible pairs of tuples, one from each relation.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>DIFFERENCE ( $-$ ) constructs a relation from two union-compatible relations, consisting of all tuples that appear in the first but not in the second.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504102\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database file contains $1,000,000$ records, each of fixed size.<br><br>The file is stored on disk using unclustered indexing on the primary key.</p><ul><li>Each disk block can store $10$ records or $100$ index entries.<br> </li><li>Each block access (read) takes $10$ ms.<br> </li><li>The index is organized as a $\\mathrm{B}^{+}$-tree of order $100$ (each node can hold up to $100$ pointers).<br> </li><li>The root of the $\\mathrm{B}^{+}$-tree always resides in main memory.</li></ul><p>If a query requests a record by its primary key, estimate the average time (in milliseconds) to retrieve that record from disk.<br>Assume that every non-root node and the data block must be read from disk, and ignore CPU time.<br><br>(Give your answer up to two decimal places.)</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    30,
+    30
+   ],
+   "answerText": "30.00",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/504101\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database file consists of $r$ variable-length records, each having an average size of $R$ bytes.<br>The disk block size is $B$ bytes, of which $K$ bytes are reserved for the block header (metadata).<br>Assume spanned organization, i.e., a record may cross block boundaries if it doesn't fit completely in the remaining space of a block.<br>There is no unused space in any block other than the header area.<br><br>Which one of the following gives the minimum number of blocks ( $n$ ) required to store the entire file?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$n=\\lfloor\\frac{(r \\times R)}{B}\\rfloor$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$n=\\lceil\\frac{(r \\times R)}{B}\\rceil$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$n=\\lceil\\frac{(r \\times R)}{(B-K)}\\rceil$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$n=\\lceil\\frac{(r \\times(R+K))}{B}\\rceil$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504100\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A record in a database system consists of the following fields in the given order:<br>$\\begin{array}{|l|l|l|}<br>\\hline<br>\\textbf{Field} &amp; \\textbf{Type} &amp; \\textbf{Size (bytes)} \\\\<br>\\hline<br>\\text{Name} &amp; \\text{Character string} &amp; 15 \\\\<br>\\hline<br>\\text{Age} &amp; \\text{Integer} &amp; 2 \\\\<br>\\hline<br>\\text{DateOfJoining} &amp; \\text{SQL DATE} &amp; 10 \\\\<br>\\hline<br>\\text{LoginTime} &amp; \\text{SQL TIME (no fractional seconds)} &amp; 8 \\\\<br>\\hline<br>\\end{array}$<br>Assume:</p><ul><li>Fields are stored in the same order as listed.<br> </li><li>Each record begins at a block address that is a multiple of $\\mathbf{8}$ bytes.<br> </li><li>Each field must start at an address that is a multiple of $\\mathbf{8}$ bytes (alignment rule).<br> </li><li>No compression or variable-length storage is used.<br> </li><li>No extra padding is allowed at the end of the record beyond alignment requirements.</li></ul><p>Find the total size (in bytes) required to store one record, including any padding required for alignment?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    48,
+    48
+   ],
+   "answerText": "48",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/504099\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A student database contains $20,000$ records, each of fixed length.<br><br>Each record stores the following fields, in order: Name ($30$ bytes), SSN ($9$ bytes), Address ($40$ bytes), Phone ( $9$ bytes), Birthdate ( $8$ bytes), Gender ( $1$ byte), MajorDeptCode ( $4$ bytes), MinorDeptCode ( $4$ bytes), ClassCode ( $4$ bytes), and DegreeProgram ( $3$ bytes).</p><ul><li>Additionally, each record includes $1$ extra byte used as a deletion marker.<br> </li><li>The file is stored on a disk with a block size of $512$ bytes.<br> </li><li>There is no header or control information in the blocks.<br> </li><li>The organization is unspanned, meaning no record is allowed to cross block boundaries.</li></ul><p><br>Assume all values are stored as raw bytes (no compression, no alignment padding).<br>Find the minimum number of blocks required to store the entire file?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5000,
+    5000
+   ],
+   "answerText": "5000",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/504098\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A university stores $20,000$ student records in a variable-length file on disk. Each record consists of the following fields, in order:\nName ( $30$ bytes), SSN ( $9$ bytes), Address ( $40$ bytes), Phone ( $9$ bytes, present in only $80 \\%$ of the records), Birthdate ( $8$ bytes), Sex ( $1$ byte), MajorDeptCode ( $4$ bytes, present in $85\\%$ of the records), MinorDeptCode ( $4$ bytes, present in $15\\%$ of the records), ClassCode ( $4$ bytes), and DegreeProgram ( $3$ bytes, present in $90\\%$ of the records).\n\nEach record also contains $1$ byte for a deletion marker, $1$ byte for an end-of-record marker, and $1$ additional byte per field to store the field-type identifier. The file uses a spanned record organization, meaning a record may span across multiple blocks if it does not completely fit in the remaining space of the current block. Each disk block reserves $5$ bytes for a pointer to the next block, which cannot be used for data storage. The block size is $512$ bytes, and the file header is negligible.\n\nEstimate the total number of blocks required to store all $20,000$ records.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4600,
+    4600
+   ],
+   "answerText": "4600",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/504097\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a disk with $\\mathrm{B}$ data blocks, each identified by a unique address requiring $\\mathrm{D}$ bits. To track free space, the file system uses either:</p><ul><li>A bitmap, which uses $1$ bit per block, or<br> </li><li>A free list, which stores the D-bit address of each free block in a linked list.</li></ul><p>Assume the following:</p><ul><li>Each disk block is $4$ KB in size.<br> </li><li>The disk uses a single free list; only free block addresses are stored.<br> </li><li>There is no compression or extra overhead besides what is described.</li></ul><p>Let $\\mathrm{F}$ blocks be free, and Assume&nbsp;unique address requiring bits $\\mathrm{D} = 16$&nbsp;<br><br>Find the minimum percentage of disk blocks that must be free so that the bitmap uses less space than the free list.<br>(Answer as a percent, rounded to two decimal places.)</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6.25,
+    6.25
+   ],
+   "answerText": "6.25",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 6</p><p><a href=\"https://gateoverflow.in/504096\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For a disk with 4 KB blocks and $16$-bit addresses, which of the following statements is/are TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A free list uses less space than a bitmap if fewer than $\\mathrm{6.25\\%}$ of blocks are free.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A bitmap always uses less space than a free list regardless of free blocks.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A bitmap uses less space than a free list only when more than $\\mathrm{6.25\\%}$ of blocks are free.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both (A) and (C) are logically equivalent and true under different interpretations.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504095\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation schema $\\mathrm{R(A, B, C, D, E, F)}$ with the following set of functional dependencies (FDs):<br>$$\\mathrm{F}=\\{\\mathrm{A} \\rightarrow \\mathrm{BC}, \\mathrm{CD} \\rightarrow \\mathrm{E}, \\mathrm{E} \\rightarrow \\mathrm{F}, \\mathrm{F} \\rightarrow \\mathrm{D}\\}$$<br>Which of the following sets is/are&nbsp; candidate key(s) for the relation $R$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{A}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{AC}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{AD}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{AE}$</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/504094\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A file containing $300,000$ fixed-length records is stored on disk. The record size is $100$ bytes, and the block size is $4096$ bytes. The file is organized in order of an ordering key field K, making it an ordered (sequential) file on K . The ordering key field K is $9$ bytes long, and each block pointer occupies $6$ bytes. The file uses unspanned organization, and the blocks are assumed to be fully packed.\n\nTo speed up searches on K, a primary index is constructed on the data file. Each index entry consists of a key value and a block pointer to the corresponding data block containing that key as its first record. The index itself is stored in blocks of the same size as the data file ($4096$ bytes). If the primary index does not fit in a single block, additional index levels are recursively built, each index level being a primary index on the previous level until the topmost index fits in exactly one block. Assume that there are no header blocks and that all index levels are completely filled (no partial blocks or wasted space).\n\nUnder these conditions, how many blocks in total (across all levels of the index) are required to store the complete multi-level primary index?\n(Round off your answer to the nearest integer.)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    29,
+    29
+   ],
+   "answerText": "29",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/504093\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A database index is implemented using a B+ tree structure, where both the internal nodes and leaf nodes are stored on disk blocks. Each disk block is of size $4096$ bytes. Every key value is a $4$-byte integer, and every pointer (to a child block or to a record) occupies 8 bytes. There is no header information or other metadata stored in the block.\n\nIn this B+ tree, each internal node stores a collection of key-pointer pairs in the format:\n$$\\mathrm{P}_{1}, \\mathrm{~K}_{1}, \\mathrm{P}_{2}, \\mathrm{~K}_{2}, \\ldots, \\mathrm{~K}_{n-1}, \\mathrm{P_n}$$\nwhere each $K_{i}$ is a key and each $P_{i}$ is a pointer to a child node. The order ( $m$ ) of the $B+$ tree is defined as the maximum number of pointers that can fit in a single node. Assume that the leaf nodes follow the same structure but also include an extra pointer to the next leaf node for sequential access.\n\nFind the order ( $\\mathbf{m}$ ) of the B+ tree, i.e., the maximum number of pointers that can fit in one node under these conditions.\n(Round down to the nearest integer if required.)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    341,
+    341
+   ],
+   "answerText": "341",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/504092\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database system uses the basic timestamp ordering protocol for concurrency control.<br>Each transaction $T_i$ is assigned a unique increasing timestamp $TS(T_i)$ at its start.<br>For every data item X, the system maintains two timestamps:</p><ul><li>$R_{TS}(X)$: the largest timestamp of any transaction that has read X, and<br> </li><li>$W_{TS}(X)$: the largest timestamp of any transaction that has written X.</li></ul><p>Consider the following sequence of operations (executed in the order shown):<br>$$\\begin{array}{l}<br>\\text{T1: read(X)} \\\\<br>\\text{T2: write(X)} \\\\<br>\\text{T3: read(X)} \\\\<br>\\text{T1: write(X)}<br>\\end{array}$$<br>The timestamps are assigned in increasing order of transaction start time, i.e.<br>$$\\mathrm{TS}(\\mathrm{T} 1)&lt;\\mathrm{TS}(\\mathrm{T} 2)&lt;\\mathrm{TS}(\\mathrm{T} 3)$$<br>Assume that all operations are checked for timestamp ordering rules immediately upon issue.<br>The system uses basic timestamp ordering (no Thomas write rule).<br>Which of the following operations are allowed to execute successfully, and which ones are rejected due to violation of the timestamp ordering protocol?<br>Choose the correct sequence of <strong>\"Allowed (A)\" and \"Rejected (R)\"</strong> corresponding to the four operations above.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{A, A, A, R}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{A, R, A, R}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{A, A, R, R}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{A, R, R, R}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504090\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 50.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 25
+  }
+ ],
+ "stats": {
+  "questions": 25,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 15,
+   "MSQ": 3,
+   "NAT": 7
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,511 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-030",
+ "title": "GATE 2027-Topicwise Test-9 (Engineering Mathematics -1)",
+ "sourceTitle": "GATE 2027-Topicwise Test-9 (Engineering Mathematics -1)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 30,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/049_GATE 2027-Topicwise Test-9 (Engineering Mathematics -1).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>If <em>X </em>is a variable having Poisson&rsquo;s distribution with mean &lambda;, &lambda; &ne; 0, such that that <em>P</em>(<em>X </em>= 2) =&nbsp;9<em>P</em>(<em>X </em>= 4) + 90<em>P</em>(<em>X </em>= 6), then the value of mean &lambda; is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&plusmn;1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&plusmn;2</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&plusmn;3</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&plusmn;4</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8f/8f446134d046af193cca.png\"></p>\n<p><img src=\"media/6f/6f4d99e8dbff95ecd4a6.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/fe/fe358ff48143a23c4591.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/e1/e107e91f4c43dc659b0a.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/54/54cadfac6ff3cbda85b0.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/00/00483aca5a11c5be04fd.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/fc/fcded4174e2c2c045694.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/3e/3e19dd386198a2fadf41.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/f8/f87156a8efdaba0c4cae.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/a7/a76f33c361817f3447d9.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/a8/a826297ab257583b4954.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.55,
+    1.6
+   ],
+   "answerText": "1.55 - 1.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/e9/e9d2a064b8ff760c4c74.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/53/531892f4b3255339451f.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2.3
+   ],
+   "answerText": "2 - 2.3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/ea/eafd3855da348cb0831f.png\"></p>\n<p><img src=\"media/33/33e3ec45648ec23b0bd0.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/ae/aebc7872039665fab839.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    17
+   ],
+   "answerText": "15 - 17",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/dd/ddb8dd95bfa1bdfe308d.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The set B = {(&ndash;1, 1, 0), (1, 0, 0), (3, 2, 1)} of vectors is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A linearly independent set</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A linearly dependent set</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both linearly dependent and independent set</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/ed/edc6f03d1fe9b4f92b5b.png\"></p>\n<p><img src=\"media/b4/b4f66a0660286ba678b3.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Which one of the following functions is continuous at <em>x </em>= 3?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/66/66793cab2f57babe0b8f.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/bf/bfec78aac52e4d365c62.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/ef/ef09fb6d35d597930321.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/d9/d918a08ea7287a80c65f.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/fc/fc75a6c5e2ea65c97389.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/7b/7b0c7f981b4866270bc1.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>11 : 2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1331 : 8</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>121 : 4</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>4 : 1</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8b/8b0674ef057b2af7a745.png\"></p>\n<p><img src=\"media/31/31f834c63476702396b4.png\"></p>\n<p><img src=\"media/32/323b5ec06d37b2efa56e.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p><img src=\"media/aa/aa1c0dc6fd17ea076be8.png\"></p>\n<p><img src=\"media/89/89db8715a2b2fb89a967.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/11/11b8347043e6ae9ffaa1.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/18/1852d9b4bf4f3dfc0e4d.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/0a/0a5d0da3126beb7e9886.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/fd/fd47a708cec6482df666.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b2/b26c8420a88de7042db0.png\"></p>\n<p><img src=\"media/ea/eaaf571593a0e970267e.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/ea/eacf3144fd48fad5908b.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/53/53d1b39ebe4ec8ed4586.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/f2/f28b395332faaba05df3.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/87/874df21e6b7ecd255fa2.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/d9/d985a5a3a7f8a5c64730.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/1b/1bae8b241e9280077a1b.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/94/94150f4881bb264ceb06.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/02/021d68b8b3efc5946c72.png\"></p>\n<p><img src=\"media/a5/a5d22e70ce30ba7e6ab1.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/ac/ac89d4f7c28cccdb35d1.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.45,
+    0.55
+   ],
+   "answerText": "0.45 - 0.55",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/0f/0fbc8bbcb3aeec5353f5.png\"></p>\n<p><img src=\"media/e9/e916fc7bcd01c168949b.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/f8/f8d9633d837e85e2163e.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>-2</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/0b/0b46d3b211684e79d408.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>Let <em>k </em>be a positive real number and let</p>\n<p><img src=\"media/59/592c7185bb25f449e1c8.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.5,
+    4.5
+   ],
+   "answerText": "4.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/62/62f5d3204a5aa2ae48bf.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The two regression equations of the variables <em>x </em>and <em>y </em>are</p>\n<p><img src=\"media/84/846a15fa1c749d94a102.png\"></p>\n<p>Regression coefficient of <em>y </em>on <em>x </em>and regression coefficient of <em>x </em>on <em>y </em>are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;0.5 and &ndash;0.87</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.5 and 0.87</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&ndash;0.5 and 0.87</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.5 and &ndash;0.87</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/d9/d9b63209211531f67bc9.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>If &lsquo;<em>x</em>&rsquo; is a zero mean unit variance Gaussian Random variable, then the value of <em>E</em> [| 5<em>x</em> |] is ______.&nbsp;(Answer upto two decimal places) [E [ &sdot; ] represents expectation operator]</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.8,
+    4.2
+   ],
+   "answerText": "3.8 - 4.2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/5d/5d7a41c6179560e69f86.png\"></p>\n<p><img src=\"media/20/205658d6ac4b2f874a2a.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 8,
+   "NAT": 8,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

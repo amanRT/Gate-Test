@@ -1,0 +1,585 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-066",
+ "title": "DVRUO Classes CS | Digital Logic | Multiplexer | Weekly Quiz 10",
+ "sourceTitle": "DVRUO Classes CS | Digital Logic | Multiplexer | Weekly Quiz 10",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 66,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Digital Logic"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/088_exam_956_GO Classes CS Digital Logic Multiplexer Weekly Quiz 10.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The logic function implemented by the circuit below is (ground implies a logic $\\text{“0”})$</p><p style=\"text-align:center\"><img alt=\"\" height=\"243\" width=\"534\" src=\"media/f2/f207f380e54212043efa.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{F=AND(P,Q})$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{F=OR(P,Q})$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{F=XNOR(P,Q})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{F=XOR(P,Q})$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 6)</small></h4><a name=\"412982\"></a><div itemprop=\"text\"><p><em>The input is connected with ground i.e <strong>“0”.</strong></em></p>\n\n<p>So,&nbsp; &nbsp;$I_{0}&nbsp;= \\bar{\\bar{0}}= 0$</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; $I_{1 }= I_{2} = \\bar{0} = 1$</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; $I_{3} = 0$</p>\n\n<p>So, $F= P’Q’.(0) + P’Q.(1) + PQ’.(1) + PQ.(0) = P’Q + PQ’ = XOR \\ (P, Q) $</p>\n\n<p>&nbsp;</p>\n\n<p>$Ans: Option \\ D$</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"413665\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/AtqUACtsI2Y\" target=\"_blank\">https://youtu.be/AtqUACtsI2Y</a>&nbsp;</p>\n\n<p>$I_0 = 0, I_1 = 1, I_2 = 1, I_3 = 0$</p>\n\n<p>So, $F = \\overline{P}&nbsp;\\bar{Q}(0) +&nbsp;\\overline{P} Q(1) + P \\overline{Q} (1) + PQ (0)&nbsp;$</p>\n\n<p>$F =&nbsp;\\overline{P} Q + P \\overline{Q}&nbsp;= XOR(P,Q)$&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/412963\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The figure below shows a multiplexer where $S_{1}$ and $S_{0}$ are the select lines,&nbsp;$I_{0}$ to $I_{3}$ are the input data lines, $\\text{EN}$ is the enable line, and $\\text{F(P, Q, R)}$ is the output.&nbsp;$\\text{F}$ is&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt=\"\" src=\"media/b5/b5eaa5a5d24b20c620c4.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$PQ+\\overline{Q}R.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$PQ+Q\\overline{R}.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P\\overline{Q}R+\\overline{P}Q.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\overline{Q}+PR.$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"413020\"></a><div itemprop=\"text\">F= P’Q’R + P’Q(0)+PQ’R+PQ(1)<br>\n<br>\n&nbsp;&nbsp;= P’Q’R+PQ’R+PQ<br>\n<br>\n&nbsp;&nbsp;=Q’(P’R+PR)+PQ<br>\n<br>\n&nbsp;&nbsp;=Q’R+PQ<br>\n<br>\n&nbsp;<br>\n<br>\nAns: A</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"473160\"></a><div itemprop=\"text\"><p>First of all, understand the given MUX has an ACTIVE LOW ENABLE INPUT, i.e.:</p><ol><li>When E=0, then MUX will be ACTIVE.</li><li>When E=1, then MUX will be IDLE.</li></ol><p>Let's create the Compact Truth Table:</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; margin: auto; border-spacing: 1px;\"><thead><tr><th scope=\"col\" style=\"text-align: center; vertical-align: middle;\">E</th><th scope=\"col\" style=\"text-align: center; vertical-align: middle;\">P($S_1$)</th><th scope=\"col\" style=\"text-align: center; vertical-align: middle;\">Q($S_0$)</th><th scope=\"col\" style=\"text-align: center; vertical-align: middle;\">F</th><th scope=\"col\" style=\"text-align: center; vertical-align: middle;\">ENABLE STATE</th></tr></thead><tbody><tr><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 0, 0);\"><span style=\"color:#000000;\">1</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 0, 0);\"><span style=\"color:#000000;\">DON'T CARE</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 0, 0);\"><span style=\"color:#000000;\">DON'T CARE</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 0, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 0, 0);\"><span style=\"color:#000000;\">OFF</span></td></tr><tr><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">R</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\" rowspan=\"4\" colspan=\"1\"><span style=\"color:#000000;\">ON</span></td></tr><tr><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">1</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td></tr><tr><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">1</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">R</span></td></tr><tr><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">0</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">1</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">1</span></td><td style=\"text-align: center; vertical-align: middle; background-color: rgb(255, 255, 0);\"><span style=\"color:#000000;\">1</span></td></tr></tbody></table><p>&nbsp;</p><p>F= E'P’Q’R + E'P’Q(0)+E'PQ’R+E'PQ(1)<br><br>&nbsp;&nbsp;= (P’Q’R+PQ’R+PQ)E'<br><br>&nbsp;&nbsp;=(Q’R+PQ)E'</p><p>Now we are only interested in when the MUX is ON, so Put&nbsp;E=0 so&nbsp;E'=1</p><p>&nbsp;F=(PQ+Q’R)</p><p><span style=\"color:#000000;\"><span style=\"background-color:#f1c40f;\">final answer = OPTION A</span></span></p></div></section></div><p><a href=\"https://gateoverflow.in/412962\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An $8$- to $1$ multiplexer is used to implement a logical function $Y$ as shown in the figure. The output $Y$ is given by</p><p style=\"text-align:center\"><img alt=\"\" width=\"320\" src=\"media/18/18e7e0dbd342ee515511.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$Y = A \\: \\overline{B} \\:C+A \\: \\overline{C}  \\:D$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$Y  = \\overline{A} \\: B \\:C +A \\: \\overline{B} \\: D$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$Y = A \\: B \\: \\overline{C} + \\overline{A}  \\: C \\:D$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$Y= \\overline{A} \\: \\overline{B} \\: D + A  \\: \\overline{B}  \\: C$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"413024\"></a><div itemprop=\"text\">Y &nbsp;&nbsp;= A’B’CD+A’BCD+ABC'<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= A’CD(B’+B)+ABC'<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= A’CD+ABC'<br>\n<br>\n&nbsp;<br>\n<br>\nAns: C</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"413667\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/JkmNQyybpFY\" target=\"_blank\">https://youtu.be/JkmNQyybpFY</a>&nbsp;</p>\n\n<p>$Y = \\overline{A}.\\overline{B}.C.(D) + \\overline{A}.B.C.(D) + A.B.\\overline{C}.(1)$</p>\n\n<p>$Y = AB\\overline{C} + \\overline{A} CD$&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/412961\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the $ \\text{2–bit}$ multiplexer $\\text{(MUX)}$ shown in the figure. For $\\text{OUTPUT}$ to be the $\\text{XOR}$ of $\\text{C}$ and $\\text{D},$ the values for $A_{0}, A_{1}, A_{2},$ and $A_{3}$ are _______________.</p><p style=\"text-align:center\"><img alt=\"\" width=\"350\" src=\"media/6d/6df605e5c36b782fbd74.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A_{0} = 0, A_{1} = 0, A_{2} = 1, A_{3} = 1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A_{0} = 1, A_{1} = 0, A_{2} = 1, A_{3} = 0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A_{0} = 0, A_{1} = 1, A_{2} = 1, A_{3} = 0$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A_{0} = 1, A_{1} = 1, A_{2} = 0, A_{3} = 0$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"412983\"></a><div itemprop=\"text\">Output is $XOR \\ &nbsp;( C, D)$<br>\n<br>\ni.e $C’D + CD’$ <br>\n<br>\ni.e $\\sum m $ { $1 , 2$ }<br>\n<br>\ni.e only $A_{1}$ and $A_{2}$ input is $High$<br>\n<br>\n&nbsp;<br>\n<br>\n$Ans: Option \\ C$</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"413668\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a href=\"https://youtu.be/52mf21k7k6E\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/52mf21k7k6E</a>&nbsp;</p>\n\n<p>We want $OUTPUT = C \\oplus D.$</p>\n\n<p>Note:&nbsp;Boolean variable $C$ is connected to MSB select line $S_1$ &amp;&nbsp;boolean variable $D$ is connected to LSB select line $S_0.$</p>\n\n<p>So, when $S_1 = C = 0 $ &amp; $S_0 = D = 0,$ OUTPUT will be $I_0 = A_0$ which should be $0 \\oplus 0 $ i.e. $0.$ So, $A_0 = 0.$</p>\n\n<p>when $S_1 = C = 0 $ &amp; $S_0 = D = 1,$ OUTPUT will be $I_1&nbsp;= A_1$ which should be $0 \\oplus&nbsp;1&nbsp;$ i.e. $1.$ So, $A_1&nbsp;= 1.$</p>\n\n<p>when $S_1 = C = 1&nbsp;$ &amp; $S_0 = D = 0,$ OUTPUT will be $I_2&nbsp;= A_2$ which should be $1&nbsp;\\oplus 0 $ i.e. $1.$ So, $A_2&nbsp;= 1.$</p>\n\n<p>when $S_1 = C = 1&nbsp;$ &amp; $S_0 = D = 1,$ OUTPUT will be $I_3&nbsp;= A_3$ which should be $1&nbsp;\\oplus&nbsp;1&nbsp;$ i.e. $0.$ So, $A_3&nbsp;= 0.$</p>\n\n<p>So, answer is Option C.</p>\n\n<p><strong>Detailed Video Solution:</strong>&nbsp;<a href=\"https://youtu.be/52mf21k7k6E\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/52mf21k7k6E</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/412960\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the circuit shown below, $\\mathrm{P}$ and $\\mathrm{Q}$ are the inputs. The logical function realized by the circuit shown below is</p><p style=\"text-align:center\"><img alt=\"\" width=\"250\" src=\"media/ea/eab8eab7cacfdd09f0f5.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{Y}=\\mathrm{PQ}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{Y}=\\mathrm{P}+\\mathrm{Q}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{Y}=\\overline{\\mathrm{PQ}}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{Y}=\\overline{\\mathrm{P}+\\mathrm{Q}}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"413025\"></a><div itemprop=\"text\"><p>grounded(GND) means voltage is 0</p>\n\n<p><br>\nY=Q’(0)+QP</p>\n\n<p>&nbsp; =QP</p>\n\n<p>&nbsp;</p>\n\n<p>Ans:<strong>A</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/412959\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Boolean function realized by the logic circuit shown is</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" src=\"media/e0/e0af266a166661e5bab4.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{F} = \\sum_{\\text{m}} (0, 1, 3, 5, 9, 10, 14)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{F}=\\sum_{\\text{m}}(2,3,5,7,8,12,13)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{F}=\\sum_{\\text{m}}(1,2,4,5,11, 14,15)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{F}= \\sum_{\\text{m}}(2,3,5,7,8,9,12)$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"412958\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution of this question:&nbsp;</strong><a rel=\"nofollow\" href=\"https://youtu.be/6cP7omPN4qQ\" target=\"_blank\">https://youtu.be/6cP7omPN4qQ</a>&nbsp;&nbsp;</p>\n\n<p>We can easily solve it by considering cases:</p>\n\n<p><strong>Case 1:</strong> When $A= 0, B = 0$</p>\n\n<p>In this case, $f(A,B,C,D) = C$</p>\n\n<p>So, $f = 1$ for the following input combinations: $(A,B,C,D) = (0,0,1,0), (0,0,1,1)$ i.e. $f(A,B,C,D)=1$ for minterms $m_2, m_3.$</p>\n\n<p>Hence, <strong>Options $A,C$ are eliminated.&nbsp;</strong></p>\n\n<p>Now, in the remaining two options, we consider whether $f(A,B,C,D)$ is $1$ or not, for minterm $m_9.$</p>\n\n<p>So, consider case 2:&nbsp;When $A= 1, B = 0$</p>\n\n<p>In this case, $f(A,B,C,D) = \\overline{C}$</p>\n\n<p>So, $f = 1$ for the following input combinations: $(A,B,C,D) = (1,0,0,0), (1,0,0,1)$ i.e. $f(A,B,C,D)=1$ for minterms $m_8, m_9.$</p>\n\n<p>Hence, <strong>Option&nbsp;$B$ is also&nbsp;eliminated.&nbsp;</strong></p>\n\n<p>The final answer is Option D.</p>\n\n<p><strong>Detailed Video Solution of this question:&nbsp;</strong><a rel=\"nofollow\" href=\"https://youtu.be/6cP7omPN4qQ\" target=\"_blank\">https://youtu.be/6cP7omPN4qQ</a>&nbsp;&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/412957\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A four-variable Boolean function is realized using&nbsp;$4\\times 1$ multiplexers as shown in the figure.</p><p><img alt=\"\" width=\"640\" src=\"media/99/99c9e91b5964162faf89.jpg\"></p><p>The minimized expression for $\\text{F(U,V,W,X)}$ is&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\left ( UV+\\overline{U}\\:\\overline{V}\\right )\\overline{W}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left ( UV+\\overline{U}\\:\\overline{V}\\right )\\left (\\overline{W}\\: \\overline{X}+\\overline{W}\\:X\\right )$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left ( U\\:\\overline{V}+\\overline{U}\\:V\\right )\\overline{W}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\left ( U\\:\\overline{V}+\\overline{U}\\:V\\right )\\left (\\overline{W}\\: \\overline{X}+\\overline{W}\\:X\\right )$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 5)</small></h4><a name=\"412991\"></a><div itemprop=\"text\"><p>$V_{CC}$ is <strong><em>Voltage Common Collector,</em></strong>&nbsp;generally represents the Higher Voltage&nbsp;with respect to $GND$<em> (Ground)</em></p>\n\n<p>$GND$ (Ground) is usually a reference point ( $0V$) for a electronic circuits, and in general $Vcc$ is taken as $+5V.$</p>\n\n<p>So, due to higher voltage w.r.t Ground,&nbsp;$V_{CC} = 1$</p>\n\n<p>So, $I_{1}$ and $I_{2}$ is connected with $1$</p>\n\n<p>&nbsp;</p>\n\n<p>So, First MUX output will be: $U’V + UV’ $ and this is the Input of Second MUX’s&nbsp;$I_{0}$ and $I_{1}$</p>\n\n<p>Now, $F\\ (U, V, W, X) = (U’V + UV’). W’X’ + (U’V + UV’). W’X&nbsp;$</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$=&nbsp;(U’V + UV’).(&nbsp;W’X’ &nbsp;+ W’X)&nbsp;$</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; $=&nbsp;(U’V + UV’).W’$&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em>[</em> <strong><em><u>Note</u></em> </strong>$:$ $I_{0} ,&nbsp;I_{3}$ MUX-1&nbsp;and $I_{2} , I_{3}$ are connected with Ground i.e Voltage 0, so we didn’t include those in calculation<em>.]</em></p>\n\n<p>&nbsp;</p>\n\n<p>$Ans: Option \\ C$</p></div></section></div><p><a href=\"https://gateoverflow.in/412956\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the circuit shown, $W$ and $Y$ are MSBs of the control inputs. The output $F$ is given by</p><p><img alt=\"\" width=\"520\" src=\"media/73/738f1b9e5c8c217f0a4a.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$F= W\\overline{X}+\\overline{W}X+\\overline{Y}\\overline{Z}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$F= W\\overline{X}+\\overline{W}X+\\overline{Y}Z$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$F= W\\overline{X}\\overline{Y}+\\overline{W}X\\overline{Y}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F= ( \\overline{W}+\\overline{X}  )\\overline{Y}\\overline{Z}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"413019\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/9e/9e7c9832d5e57037d3a4.jpg\"></p>\n\n<p>solution</p></div></section></div><p><a href=\"https://gateoverflow.in/412955\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the multiplexer based logic circuit shown in the figure.</p><p style=\"text-align:center\"><img alt=\"\" width=\"472\" src=\"media/51/51cd237022aceb7a31e9.jpg\"></p><p>Which one of the following Boolean functions is realized by the circuit?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$F= W \\overline{S_1} \\: \\overline{S_2}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$F= WS_1+WS_2 + S_{1}S_{2}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$F= \\overline{W}+S_{1}+S_{2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F= W\\oplus S_{1}\\oplus S_{2}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"413027\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/cd/cde2618203a3ec66a723.jpg\"></p>\n\n<p>solution</p></div></section></div><p><a href=\"https://gateoverflow.in/412954\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the circuit shown in the figure.&nbsp;</p><p><img alt=\"\" width=\"640\" src=\"media/c1/c1cf321d67a57c382791.jpg\"></p><p>The Boolean expression $F$ implemented by the circuit is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\overline{X} \\overline{Y} \\overline{Z} + X Y +\\overline{Y} Z $</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\overline{X} Y \\overline{Z} + X Z + \\overline{Y} Z $</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\overline{X} Y \\overline{Z} +XY + \\overline{Y} Z  $</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\overline{X} \\overline{Y} \\overline{Z}  + XZ+ \\overline{Y}Z  $&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"413029\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/13/13dd54c31cc79dc6555f.jpg\">solution</p></div></section></div><p><a href=\"https://gateoverflow.in/412953\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A Boolean function $f(A, B, C, D) = \\prod&nbsp;&nbsp;(1,5,12,15)$ is to be implemented using an $8 \\times 1$ multiplexer ($A$ is $MSB$). The inputs $ABC$ are connected to the select inputs $S_{2} S_{1} S_{0}$ of the multiplexer respectively.</p><p style=\"text-align:center\"><img alt=\"\" height=\"283\" width=\"403\" src=\"media/7e/7e751259620d40f9626d.png\"></p><p>Which one of the following options gives the correct inputs to pins $0,1,2,3,4,5,6,7$ in order?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$D, 0, D, 0, 0, 0, \\overline{D}, D$&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\overline{D}, 1, \\overline{D}, 1, 1, 1, D, \\overline{D}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$D, 1, D, 1, 1, 1, \\overline{D}, D$&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\overline{D}, 0, \\overline{D}, 0, 0, 0,D, \\overline{D}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 18)</small></h4><a name=\"413178\"></a><div itemprop=\"text\">We know that the general equation for the output($Z$) of an $8 \\times 1 \\ Mux$ is<br>\n<br>\n\\[ \\large Z = \\sum_{k=0}^{7} m_kI_k &nbsp;\\]<br>\n<br>\nwhere $m_k$ is the minterm of the $3$ select variables (here $A, B, C$) and $I_k$ is the corresponding data input.<br>\n<br>\n$\\begin{align*}<br>\nf(A,B,C,D) &amp;= \\prod (1,5,12,15) \\\\<br>\n\\\\ &amp;= \\sum(0,2,3,4,6,7,8,9,10,11,13,14) = \\sum_{k=0}^{7} m_kI_k \\\\<br>\n\\\\ &amp;= \\sum(\\underbrace{\\mathbf{000}0}_{\\underset{\\LARGE{I_0 = \\bar D}}{\\large{m_0\\bar D}}},<br>\n\\underbrace{\\mathbf{001}0, \\mathbf{001}1}_{\\underset{\\LARGE{I_1 = 1}}{\\large{m_1(\\bar D+D)}}},<br>\n\\underbrace{\\mathbf{010}0}_{\\underset{\\LARGE{I_2 = \\bar D}}{\\large{m_2\\bar D}}},<br>\n\\underbrace{\\mathbf{011}0, \\mathbf{011}1}_{\\underset{\\LARGE{I_3 = 1}}{\\large{m_3(\\bar D+D)}}},<br>\n\\underbrace{\\mathbf{100}0, \\mathbf{100}1}_{\\underset{\\LARGE{I_4 = 1}}{\\large{m_4(\\bar D+D)}}},<br>\n\\underbrace{\\mathbf{101}0, \\mathbf{101}1}_{\\underset{\\LARGE{I_5 = 1}}{\\large{m_5(\\bar D+D)}}},<br>\n\\underbrace{\\mathbf{110}1}_{\\underset{\\LARGE{I_6 = D}}{\\large{m_6 D}}},<br>\n\\underbrace{\\mathbf{111}0}_{\\underset{\\LARGE{I_7 = \\bar D}}{\\large{m_7\\bar D}}}) \\\\<br>\n<br>\n\\end{align*}$<br>\n<br>\n$\\therefore Ans\\ - B.$<br>\n<br>\nHere the shorter way would be to directly find out the four pins for which output of $f$ will depend on $D$ by the $CPOS$ form given, since there are only four inputs for which $f$ is $0$.</div></section><section><h4>Source solution 2 <small>(score: 26)</small></h4><a name=\"413468\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/a7/a702b63cec927f97d76b.jpg\"></p>\n\n<p>So Ans is option B</p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"413095\"></a><div itemprop=\"text\"><p>Given boolean function $f(A,B,C,D)= \\Pi(1,5,12,15)$ this is for maxterms.</p>\n\n<p>So, let’s see the function in different manner.</p>\n\n<p>$\\therefore$ The function for minterms will be $f(A,B,C,D)=\\sum(0,2,3,4,6,7,8,9,10,11,13,14)$</p>\n\n<p>So, w.r.t. $A,B,C,D$ it will be:</p>\n\n<p>$\\overline{A}\\;\\overline{B}\\;\\overline{C}\\;\\overline{D}+\\overline{A}\\;\\overline{B}C\\overline{D}+\\overline{A}\\;\\overline{B}CD+\\overline{A}B\\;\\overline{C}\\;\\overline{D}+\\;\\overline{A}\\;B\\;C\\;\\overline{D}+\\overline{A}\\;B\\;C\\;D+A\\;\\overline{B}\\;\\overline{C}\\;\\overline{D}+A\\;\\overline{B}\\;\\overline{C}\\;D+A\\overline{B}C\\overline{D}+A\\overline{B}\\;CD+AB\\overline{C}D+ABC\\overline{D}$</p>\n\n<p>$=\\overline{A}\\;\\overline{B}\\;\\overline{C}\\;\\overline{D}+\\;\\overline{A}\\;\\overline{B}C+\\overline{A}B\\;\\overline{C}\\;\\overline{D}+\\overline{A}BC+A\\overline{B}\\;\\overline{C}+A\\overline{B}C+AB\\;\\overline{C}D+ABC\\overline{D}$</p>\n\n<p>If the input pins $0,1,2,3,4,5,6,7$ have $\\overline{D},1,\\overline{D},1,1,1,D,\\overline{D}$ as inputs then we will get above expression.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"321\" src=\"media/c2/c29bb15f9b1cb15c1b06.jpg\" width=\"498\"></p>\n\n<p>$\\color{Green}Ans: B$</p></div></section></div><p><a href=\"https://gateoverflow.in/412952\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the $4 \\times 1$ multiplexer, the output $F$ is given by $F = A \\oplus &nbsp;B$. Find the required input $'I_{3}, I_{2}, I_{1}, I_{0}'$.</p><p style=\"text-align:center\"><img alt=\"\" height=\"274\" width=\"289\" src=\"media/45/45c79de586004e6b7f9b.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1010$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0110$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1000$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1110$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"412984\"></a><div itemprop=\"text\"><p>&nbsp;$ F =A$&nbsp;<strong>⊕</strong>&nbsp;$B$</p>\n\n<p>i.e $A’B&nbsp;+ AB’$&nbsp;</p>\n\n<p>i.e&nbsp;$\\sum&nbsp;m&nbsp;$ { $1 , 2$ }</p>\n\n<p>i.e only $I_{1}$ and $I_{2}$ input is&nbsp;$High$</p>\n\n<p>&nbsp;</p>\n\n<p>$Ans: Option \\ B$</p></div></section></div><p><a href=\"https://gateoverflow.in/412951\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following circuit which uses a $2$-to-$1$ multiplexer as shown in the figure below. The Boolean expression for output $F$ in terms of $A$ and $B$ is</p><p style=\"text-align:center\"><img alt=\"\" height=\"258\" width=\"295\" src=\"media/50/50c956d679a4e1634db0.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A\\oplus B$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\overline{A+B}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A+B$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\overline{A \\oplus B}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"413032\"></a><div itemprop=\"text\">F= B’A’+BA<br>\n<br>\n&nbsp;&nbsp;= (A xor B)'<br>\n<br>\n&nbsp;<br>\n<br>\nAns: D</div></section></div><p><a href=\"https://gateoverflow.in/412950\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The output $\\text{F}$ of the digital circuit shown can be written in the form(s) __________</p><p><img alt=\"\" height=\"255\" width=\"500\" src=\"media/19/19b41657e66773c73f6a.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\overline{A \\cdot B}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\overline{A} + \\overline{B}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\overline{A+B}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\overline{A} \\cdot \\overline{B}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"413035\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/6f/6fcc58d1c98ae67b17b2.jpg\"><br>\nsolution</p></div></section></div><p><a href=\"https://gateoverflow.in/412949\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>&nbsp;A $4 \\times 1$ multiplexer with two selector lines is used to realize a Boolean function $\\text{F}$ having four Boolean variables $\\text{X, Y, Z}$ and $\\text{W}$ as shown below. $S_{0}$ and $S_{1}$ denote the least significant bit $\\text{(LSB)}$ and most significant bit $\\text{(MSB)}$ of the selector lines of the multiplexer respectively. $I_{0}, I_{1}, I_{2}, I_{3}$ are the input lines of the multiplexer.</p><p><img alt=\"\" src=\"media/83/8395f83c2c24e0f2dac5.png\"></p><p>The canonical sum of product representation of $\\text{F}$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$F\\left ( X,Y,Z,W \\right )=\\sum \\text{m}\\left ( 0,1,3,14,15 \\right )$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$F\\left ( X,Y,Z,W \\right )=\\sum \\text{m}\\left ( 0,1,3,11,14 \\right )$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$F\\left ( X,Y,Z,W \\right )=\\sum \\text{m}\\left ( 2,5,9,11,14 \\right )$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F\\left ( X,Y,Z,W \\right )=\\sum \\text{m}\\left ( 1,3,7,9,15 \\right )$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"413041\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/42/42a0ed69409bfbee29e7.jpg\"></p>\n\n<p>solution</p></div></section></div><p><a href=\"https://gateoverflow.in/412948\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 15,
+  "types": {
+   "MCQ": 14,
+   "MSQ": 1
+  },
+  "withoutKey": 5
+ }
+}

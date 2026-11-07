@@ -1,0 +1,762 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-074",
+ "title": "DVRUO Classes CS&DA Test Series | Linear Algebra | Topic Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS&DA Test Series | Linear Algebra | Topic Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 74,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 3600,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Linear Algebra"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $v_{1}, v_{2}, w$ be vectors in $\\mathbf{R}^{3}$, and suppose that the matrix whose three columns are $v_{1}, v_{2}$, and $w$ has three pivots. Which of the following statements must be true? Clearly circle all that apply.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every vector in $\\mathbf{R}^{3}$ is a linear combination of $v_{1}, v_{2}$, and $w$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$w$ is not a linear combination of $v_{1}$ and $v_{2}$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Every vector in $\\mathbf{R}^{2}$ is a linear combination of $v_{1}$ and $w$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Every vector in $\\mathbf{R}^{2}$ is a linear combination of $v_{1}$ and $v_{2}$.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 30)</small></h4><a name=\"426563\"></a><div itemprop=\"text\"><p>Since the matrix of v1, v2 and w is having three pivots we can say that the vectors v1, v2 and w are Linearly Independent.</p><p>A. Since v1, v2 and w are three LI vectors in R3, we can express any vector as linear combinations of these vectors, so this option is&nbsp;<strong>TRUE.</strong></p><p>B.Since they are Linearly Independent w cannot be expressed as linear combination of any other vectors, so this option is <strong>TRUE.</strong></p><p>C. since v1 and w are in R3 we cannot express them in R2</p><p>D. since v1 and v2 are in R3 we cannot express them in R2</p></div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"435871\"></a><div itemprop=\"text\"><p>Only&nbsp;<strong>A , B&nbsp;</strong>are&nbsp;<strong>TRUE .&nbsp;</strong>Because</p><p><strong>A</strong>&nbsp;if the matrix has 3 pivots , rank of matrix is 3 ,( rank is no of linearly independent columns / rows ) since there is 3 linearly independent vectors in R^3 it can generate any b belonging to R^3 .&nbsp;<strong>TRUE&nbsp;</strong></p><p><strong>B&nbsp;</strong>w is not a linearly combination of V1 , V2 because w column vector has a pivot element so its linearly independent column .&nbsp;<strong>TRUE&nbsp;</strong></p><p><strong>C&nbsp;</strong>2 vectors in R3 cannot generate R2 even if their z component is multiplied with 0 , because it will still lie on a <strong><em>em</em></strong><i><strong>bedded plane&nbsp;</strong></i>inside the 3D space .&nbsp;<strong>FALSE&nbsp;</strong></p><p><strong>D&nbsp;</strong>For similar reasons as in&nbsp;<strong>C ,&nbsp;</strong>this is also&nbsp;<strong>FALSE</strong></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"425327\"></a><div itemprop=\"text\">how option :A &nbsp;is true <br>\n<br>\nif there are 3 linearly independent vectors in r3 so, we can't represent one as a linear combination of other vectors..</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"496917\"></a><div itemprop=\"text\"><p>Any three linearly independent vectors can be used to span R³ (option A). Also, if the vectors are linearly independent, then option B is also correct.</p><div style=\"all: initial !important;\"></div></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"516313\"></a><div itemprop=\"text\"><p>counter example for option C</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/af/af4f5c79a7e850d75e1b.jpg\"></p><p>similar for option D</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/425253\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$<br>\\text { Let } A=\\left(\\begin{array}{ll}<br>4 &amp; 1 \\\\<br>2 &amp; 1<br>\\end{array}\\right) \\text {. Find } A^{-1} \\text {. }<br>$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$ A^{-1}=\\frac{1}{2}\\left(\\begin{array}{ll} 1 \\& 1 \\\\ 2 \\& 4 \\end{array}\\right)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$ A^{-1}=\\frac{1}{-2}\\left(\\begin{array}{ll} 1 \\& -1 \\\\ -2 \\& 4 \\end{array}\\right)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$ A^{-1}=\\frac{1}{2}\\left(\\begin{array}{ll} 1 \\& -1 \\\\ -2 \\& 4 \\end{array}\\right)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$ A^{-1}=\\frac{1}{2}\\left(\\begin{array}{ll} 1 \\& -2 \\\\ -1 \\& 4 \\end{array}\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 14)</small></h4><a name=\"425252\"></a><div itemprop=\"text\">The answer is C.<br>\n<br>\n$$<br>\nA^{-1}=\\frac{1}{\\operatorname{det}(A)}\\left(\\begin{array}{cc}<br>\n1 &amp; -1 \\\\<br>\n-2 &amp; 4<br>\n\\end{array}\\right)=\\frac{1}{2}\\left(\\begin{array}{cc}<br>\n1 &amp; -1 \\\\<br>\n-2 &amp; 4<br>\n\\end{array}\\right)<br>\n$$<br>\n<br>\nAlternatively, the student could just multiply each of the candidates for $A^{-1}$ by $A$ to find that (III) is the inverse of $A$.</div></section></div><p><a href=\"https://gateoverflow.in/425251\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are linearly independent sets ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\left\\{\\left[\\begin{array}{r}2 \\\\ -5 \\\\ 3\\end{array}\\right],\\left[\\begin{array}{r}4 \\\\ 3 \\\\ -2\\end{array}\\right]\\right\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left\\{\\left[\\begin{array}{l}3 \\\\ 2\\end{array}\\right],\\left[\\begin{array}{r}2 \\\\ -1\\end{array}\\right],\\left[\\begin{array}{r}1 \\\\ -1\\end{array}\\right]\\right\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left\\{\\left[\\begin{array}{r}4 \\\\ -6 \\\\ 2 \\\\ -4\\end{array}\\right],\\left[\\begin{array}{l}2 \\\\ 3 \\\\ 1 \\\\ 3\\end{array}\\right],\\left[\\begin{array}{r}6 \\\\ -9 \\\\ 3 \\\\ -6\\end{array}\\right],\\left[\\begin{array}{r}-1 \\\\ -1 \\\\ 2 \\\\ 0\\end{array}\\right]\\right\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\left\\{\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right],\\left[\\begin{array}{l}3 \\\\ 6 \\\\ 2\\end{array}\\right]\\right\\}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 14)</small></h4><a name=\"463182\"></a><div itemprop=\"text\"><p>Few concepts that could help: -</p><p>1. Set of vectors are said to be linearly dependent, when there is at least one vector which can be represented as linear combination of other vectors.&nbsp;</p><p>2. If there are only two vectors in a set, we can check whether there is at least one which is multiple of another or not, if yes dependent else independent set.</p><p>3. set containing zero vector is always dependent since it is trivial that coefficients of other vectors can be zero.</p><p>4. In R<sup>n</sup>, max no of vectors in a linearly independent set can be n only. So if we find there are more than n vectors in set containing vectors from R<sup>n</sup>, then it is direct that particular set of vectors are linearly dependent.</p><p>&nbsp;</p><p>Now let's look at the question,</p><p>Option A: - Here set contains only 2 vectors and clearly no one is multiple of each other. So set is linearly independent.</p><p>Option B: - vectors are from R<sup>2</sup>, and ther are 3 vectors. so directly dependent acc to point 4 given above.</p><p>Option C: - since it is a square matrix, you can find rank and decide when nothing strikes while solving, if rank is same as no of columns, then LI set or else dependent set. Here V3 =&nbsp; (2/3) * V1. so set is dependent.</p><p>Option D: - since set contains zero vector, it is dependent set.</p><p>&nbsp;</p><p>Hence option A is the answer</p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"435882\"></a><div itemprop=\"text\"><p>This one is tricky ,&nbsp;</p><p>Option&nbsp;<strong>A , C&nbsp;</strong>are true .&nbsp;</p><p>Option&nbsp;<strong>A :&nbsp;</strong>Clearly you cannot express any one of them as a scalar multiple of other . LI .&nbsp;<strong>TRUE&nbsp;</strong></p><p><strong>Option B :&nbsp;</strong>How can 3 LI&nbsp; vectors belong to R^2 ?&nbsp;<strong>FALSE (&nbsp;</strong>one has to be outside the 2D parallelogram)&nbsp;</p><p><strong>Option C : </strong>Check that third vector is 6/4 times the first vector . In some cases its not that easy to check at first glance . For that apply determinant/, RREF/ devise shortcuts :p . <strong>FALSE</strong></p><p><strong>Option D : </strong>Zero Vector ...&nbsp; . <strong>FALSE .&nbsp;</strong>​​​​​​​​​​</p><p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"535980\"></a><div itemprop=\"text\">Option A.) Pretty much direct not LD<br>\n<br>\nOption B.) there cannot be more than m linearly independent vectors in R^m<br>\n<br>\nOption C) Take common out of all the vectors we can find them LD<br>\n<br>\nOption D) LD the set has a 0 vector</div></section></div><p><a href=\"https://gateoverflow.in/425247\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are TRUE ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $\\operatorname{det}(A)=0$ then columns of $A$ are linearly dependent.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Let $v_{1}, \\ldots, v_{m}$ be eigenvectors of $A$ with eigenvalues $\\lambda_{1}, \\ldots, \\lambda_{m}$. Suppose that $\\lambda_{1}, \\ldots, \\lambda_{m}$ are distinct then $v_{1}, \\ldots, v_{m}$ are linearly independent.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If a given linear system has $5$ unknowns $x_{i}$ and $7$ equations, then the system must be inconsistent.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A square matrix $A$ is invertible if and only if 0 is not an eigenvalue of $A$.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 20)</small></h4><a name=\"426565\"></a><div itemprop=\"text\"><p>A. det(A) = $0$ indicates that atleast one of the eigen values is zero, since determinant is equal to product of eigen values so we will have an eigen vector corresposnding to zero eigen value, this implies that the nullity of A is atleast one, which implies that we have atleast one free column (Linearly Dependent column). So, this option is <strong>TRUE</strong>.</p><p>B)This is a very important property we need to remember, i.e, the eigen vectors corresponding to distinct eigen values are always Linearly Independent. So,&nbsp; this option is <strong>TRUE</strong>.</p><p>C) We have $7$ equations and $5$ unknowns, let b be any vector in $R7$, then the question is equivalent to asking :</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; whether&nbsp;$Ax =b$ is inconsistent always, where A is a $7$x$5$ matrix and $x$ is $5$x$1$ vector. This system is consistent sometimes, suppose take $b$ as $2$ times the first column of A. then the solution is $(2,0,0,0,0)$. Therefore this system may be consistent some times (when vector $b$ is in column space of matrix $A$ or vector $b$ is a linear combination of columns of matrix A) but not always consistent. So, this option is <strong>NOT</strong> <strong>TRUE</strong>.</p><p>D)we know that det(A) = product of its eigen values. If any eigen value is zero then the determinant turns out to be zero and the matrix will not be invertible. So, this option is <strong>TRUE</strong>.</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"425342\"></a><div itemprop=\"text\">why option a is true sometime det=0 is possible because of row dependent no need of column dependency?</div></section></div><p><a href=\"https://gateoverflow.in/425246\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose that $A$ is an $m \\times n$ matrix with entries in $\\mathbb{R}$ and consider a system of linear equations $A x=b$.<br>Which of the following is/are TRUE ?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $\\operatorname{rank}(A)=m$ and $n&gt;m$ then the system $A x=b$ has infinitely many solutions.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $\\operatorname{rank}(A)=n$, then $A x=b$ has a unique solution.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $\\operatorname{rank}(A)=m$ and $n \\geq m$, then $A x=b$ has at least one solution.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $\\operatorname{rank}(A)=m$ and $n=m$, then $A x=b$ could have no solution.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 20)</small></h4><a name=\"425737\"></a><div itemprop=\"text\">Option A.True<br>\n<br>\nThis is always true as there will be atleast one free variable because n &gt; m and rank = m i.e (m-n) free variables.If free variable exist then the system has Infinitely many solutions<br>\n<br>\nOption B.False<br>\n<br>\nIn the case where m&gt;n,there may exist [000....0|nonzero].In such cases the system will have no solution<br>\n<br>\nOption C.True<br>\n<br>\nHere n&gt;=m,so either atleast one free variable exist(infinite many solutions) or rank(A) = m = n which gives unique solution.Atleast one solution is true.<br>\n<br>\nOption D.False<br>\n<br>\nHere always unique Solution</div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"426567\"></a><div itemprop=\"text\"><p>A. $n&gt;m$ indicates we have more than $m$ column vectors of $A$, but in&nbsp;$R^{^{m}}$ we can have atmost $m$ Linealry Independent vectors. So, the columns of $A$ are Linearly dependent. Now if&nbsp; the columns of $A$ are Linearly dependent we may or may not have solution, since rank of $A$ is $m$, we have $m$ L.I. vectors in&nbsp;$R^{^{m}}$ and the solution will always exist. since the columns of $A$ are Linearly Dependent we can say that the system has infinite solutions. So, this option is <strong>TRUE</strong>.</p><p>B. rank(A) $= n$ indicates the the columns of $A$ are Linearly Independent. But, it may not fill/span the space $R^{^{m}}$ resulting in the system to be inconsistent in some cases. So, this option is <strong>NOT TRUE</strong>.</p><p>C. rank(A) $= m$ indicates that the system of equations are always consistent. $n=m$ is the case where all the columns of $A$ are L.I. and we have a unique solution. $n&gt;m$ is the case where $A$'s columns are linearly Dependent and system of equations have infinite solutions. So, this option is <strong>TRUE</strong>.</p><p>D. As discussed in C, the system is always consistent and we have a unique solution. So, this option is <strong>NOT TRUE</strong>.</p></div></section><section><h4>Source solution 3 <small>(score: 4)</small></h4><a name=\"435884\"></a><div itemprop=\"text\"><p>Option&nbsp;<strong>A :&nbsp;</strong>since m = rank(A) , no question of zero rows ( problem of inconsistency ruled out ) , n&gt; m = n&gt;r = n-r&gt; 0 , free variables exist , infinite solns possible . unique soln ? no m= rank(a) but not equal to n .&nbsp;<strong>TRUE&nbsp;</strong></p><p><b>Option B :&nbsp;</b>rank(A) = n . We can have the following cases&nbsp;</p><p>Case 1 : m&gt; n ( no of zero rows exist ) then there is the problem of inconsistency again in ax= b . No solution can exist&nbsp;</p><p>Case 2: m &lt; n ( not even possible ) m has to contact the no of linearly independent rows = rank of matrix = n here .&nbsp;</p><p>Case 3 : m= n ( possible )&nbsp; then m= n= rank of matrix then unique solution can exist for ax = b&nbsp;</p><p>This means only No solution or unique solution can exist . But in this option complete solution set is not present .&nbsp;<strong>FALSE&nbsp;</strong></p><p><strong>Option C :&nbsp;</strong>rank a = m . Now , n&gt;= m . This means n-r&gt;=0 . Either unique or infinite solution can exist depending on whether there is free variable or not . No question of inconsistency here as there are no 0 rows. We can say that ax= b has atleast one solution .&nbsp;<strong>TRUE.</strong></p><p>Option D: this is not even possible . It has to be unique solution if rank a = m = n .as rank a = m ,&nbsp; zero rows cannot exist , so no question of inconsistency in ax= b .&nbsp;<strong>FALSE</strong></p></div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"432975\"></a><div itemprop=\"text\"><p>Look for the Link for the handwritten solution.</p><p>Hope you all like it!!😃</p><p>Please do reply for any doubt or correction.</p><p><a rel=\"nofollow\" href=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=12306862644565212847\" target=\"_blank\">Soultion Link</a></p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"492517\"></a><div itemprop=\"text\"><p>A:Since n&gt;m implies columns of A are LD,also rank=m ,implies m LI vectors,so it will fill R^m ,solution always exists,and vectors are LD,so infinite solutions. <strong>True</strong></p><p>B:it wont fill the R^m,so solution depends on b. <strong>False</strong></p><p>C:see option A,if n=m ,then it has unique solution,for n&gt;m we have seen in option A. <strong>True</strong></p><p>D:see option C,it has unique solution if n=m. <strong>False</strong></p></div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"518174\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"2\">1: $\\text{rank}(A) = m$ and $n &gt; m$ (Infinitely Many)</h3><p data-path-to-node=\"3\">Imagine 2 equations and 3 variables. The rank is 2.</p><p>$$A = \\begin{bmatrix} 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 1 \\end{bmatrix}, \\mathbf{b} = \\begin{bmatrix} 2 \\\\ 3 \\end{bmatrix}$$</p><h3 data-path-to-node=\"8\">2: $\\text{rank}(A) = n$ (No Solution Case)</h3><p data-path-to-node=\"9\">Imagine 3 equations and 2 variables ($m &gt; n$). The rank is 2.</p><p>$$A = \\begin{bmatrix} 1 &amp; 0 \\\\ 0 &amp; 1 \\\\ 0 &amp; 0 \\end{bmatrix}, \\mathbf{b} = \\begin{bmatrix} 0 \\\\ 0 \\\\ 5 \\end{bmatrix}$$</p><h3 data-path-to-node=\"14\">3: $\\text{rank}(A) = m$ (At Least One)</h3><p data-path-to-node=\"15\">If the rank is $m$, it means your columns are powerful enough to \"cover\" the entire output space.</p><ul data-path-to-node=\"16\"><li><p data-path-to-node=\"16,0,0\">If $A = \\begin{bmatrix} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{bmatrix}$, you can reach any $\\mathbf{b}$ in $\\mathbb{R}^2$ (exactly 1 way).</p></li><li><p data-path-to-node=\"16,1,0\">If $A = \\begin{bmatrix} 1 &amp; 0 &amp; 5 \\\\ 0 &amp; 1 &amp; 7 \\end{bmatrix}$, you can still reach any $\\mathbf{b}$ in $\\mathbb{R}^2$ (infinitely many ways).</p></li></ul><div><h3 data-path-to-node=\"18\">4: $\\text{rank}(A) = m = n$ (Always One)</h3><p data-path-to-node=\"19\">This is a square matrix with \"full rank.\"</p><p>$$A = \\begin{bmatrix} 1 &amp; 2 \\\\ 3 &amp; 4 \\end{bmatrix}, \\mathbf{b} = \\begin{bmatrix} b_1 \\\\ b_2 \\end{bmatrix}$$</p></div></div></section></div><p><a href=\"https://gateoverflow.in/425245\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following statements are true for all $n \\times n$ matrices $A, B$ :<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\left(A^{T}\\right)^{T}=A$;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left|A^{T}\\right|=|A|$;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(A B)^{T}=A^{T} B^{T}$;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(A+B)^{T}=A^{T}+B^{T}$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"426624\"></a><div itemprop=\"text\">These are all basic properties of matrix we need to remember<br>\n<br>\nA) True. $(A^T)^T = A$<br>\n<br>\nB) True. Determinant of A and its transpose are same.<br>\n<br>\nC) False. $(AB)^T = B^TA^T$<br>\n<br>\nD) True. $(A+B)^T = A^T + B^T$<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/425238\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Let $A$ be a $n \\times m$ matrix with $n &lt; m$. Then there is a nonzero solution $y$ with $Ay = 0$ only if $A$ has full row rank.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Let $A$ be a $n \\times m$ matrix with $n&gt;m$. There is a nonzero solution $y$ with $A y=0$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The rank of a matrix is equal to the maximum number of linearly independent rows in the matrix.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Let $A$ be an $n \\times n$ matrix. Suppose $A=B C$, where $B$ has size $n \\times r$ and $C$ has size $r \\times n$. The rank of $A$ is less than or equal to $r$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 36)</small></h4><a name=\"426568\"></a><div itemprop=\"text\">A) Let $A$ be a $n \\times m$ matrix with $n&lt;m$. Then there is a nonzero solution $y$ with $A y=0$ only if $A$ has full row rank.<br>\n<br>\nThis statement is false. When $n&lt;m$, the system $A y=0$ always has a nonzero solution regardless of the row rank of $A$. This follows from the dimension theorem: if $A$ is $n \\times m$ with $n&lt;m$, then the null space of $A$ has dimension at least $m-n&gt;0$, meaning there must exist nonzero vectors $y$ such that $A y=0$.<br>\n<br>\nB) Let $A$ be a $n \\times m$ matrix with $n&gt;m$. There is a nonzero solution $y$ with $A y=0$.<br>\n<br>\nThis statement is false. When $n&gt;m$, the system $A y=0$ may or may not have a nonzero solution depending on the rank of $A$. If $A$ has full column rank (rank $=m$ ), then the null space has dimension $m-m=0$, meaning the only solution is $y=0$.<br>\n<br>\nC) The rank of a matrix is equal to the maximum number of linearly independent rows in the matrix.<br>\n<br>\nThis statement is true. The rank of a matrix is defined as the dimension of the row space (or column space), which is precisely the maximum number of linearly independent rows in the matrix.<br>\n<br>\nD) Let $A$ be an $n \\times n$ matrix. Suppose $A=B C$, where $B$ has size $n \\times r$ and $C$ has size $r \\times$ $n$. The rank of $A$ is less than or equal to $r$.<br>\n<br>\nThis statement is true. When $A=B C$, the rank of $A$ is constrained by the ranks of $B$ and $C$. Specifically, $\\operatorname{rank}(A) \\leq \\min (\\operatorname{rank}(B), \\operatorname{rank}(C))$. Since $B$ has size $n \\times r$ and $C$ has size $r \\times n$, their ranks are at most $r$. Therefore, $\\operatorname{rank}(A) \\leq r$.<br>\n<br>\nTherefore, statements $\\mathbf{C}$ and $\\mathbf{D}$ are true.</div></section><section><h4>Source solution 2 <small>(score: 15)</small></h4><a name=\"425237\"></a><div itemprop=\"text\">(a) is wrong: If $A$ is all zeroes, then $A y=0$ for any vector $y$, and $A$ is clearly not full rank. -<br>\n<br>\n(b) is wrong: Let the first $m$ rows of $A$ be identical to the $m \\times m$ identity matrix, and let the remaining rows be all zero. Then there is no such nonzero solution $y$.<br>\n<br>\n(c) is correct.<br>\n<br>\n(d) is correct: The rank of $\\mathrm{A}$ is the least such $\\mathrm{r}$.</div></section></div><p><a href=\"https://gateoverflow.in/425236\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are $\\mathbf{TRUE}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $A$ and $B$ are $4 \\times 4$ matrices such that $\\operatorname{rank}(A B)=3$, then $\\operatorname{rank}(B A)&lt;4$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $A$ is a $5 \\times 3$ matrix with $\\operatorname{rank}(A)=2$, then for every vector $b \\in \\mathbb{R}^{5}$ the equation $A x=b$ will have at least one solution.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $A$ is a $4 \\times 7$ matrix, then $A$ and $A^{T}$ have the same rank.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Let $A$ and $B \\neq 0$ be $2 \\times 2$ matrices. If $A B=0$, then $A$ must be the zero matrix.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 36)</small></h4><a name=\"426623\"></a><div itemprop=\"text\"><p>Let's analyze each statement carefully:</p><h3>Statement 1</h3><p>If $\\operatorname{rank}(A B)=3$, we know that:<br>1. $\\operatorname{rank}(A B) \\leq \\min (\\operatorname{rank}(A), \\operatorname{rank}(B))$<br>2. So $3 \\leq \\min (\\operatorname{rank}(A), \\operatorname{rank}(B))$, which means both $\\operatorname{rank}(A) \\geq 3$ and $\\operatorname{rank}(B) \\geq$ $3$.</p><p>Since we're working with $4 \\times 4$ matrices, the maximum possible rank is $4$.<br>So each matrix can have rank $3$ or $4$.</p><p>Now for $\\operatorname{rank}(B A)$ :<br>If both $A$ and $B$ have rank $4$ , then $\\operatorname{rank}(A B)$ would be $4$ , not $3$ as given.<br>So at least one of the matrices must have rank exactly $3$ (while the other could have rank $3$ or $4$).</p><p>When we consider $B A$, we still have $\\operatorname{rank}(B A) \\leq \\min (\\operatorname{rank}(B), \\operatorname{rank}(A))$, which means $\\operatorname{rank}(B A) \\leq 3$ (since at least one matrix has rank $3$).</p><p>Therefore, $\\operatorname{rank}(B A)&lt;4$ is true.</p><p><strong>Statement 1 is TRUE.</strong></p><h3>Statement 2</h3><p>If $A$ is a $5 \\times 3$ matrix with $\\operatorname{rank}(A) = 2$, then for every vector $b \\in \\mathbb{R}^5$ the equation $Ax = b$ will have at least one solution.</p><p>Since $A$ is a $5 \\times 3$ matrix, it maps from $\\mathbb{R}^3$ to $\\mathbb{R}^5$.</p><p>For the equation $Ax = b$ to have a solution, $b$ must be in the column space of $A$.</p><p>Since $\\operatorname{rank}(A) = 2$, the column space of $A$ has dimension $2$, which is a proper subspace of $\\mathbb{R}^5$.</p><p>Therefore, there exist vectors $b \\in \\mathbb{R}^5$ that are not in the column space of $A$, meaning $Ax = b$ has no solution for such $b$.</p><p><strong>Statement 2 is FALSE.</strong></p><h3>Statement 3</h3><p>If $A$ is a $4 \\times 7$ matrix, then $A$ and $A^T$ have the same rank.</p><p>This is a fundamental property of matrices: a matrix and its transpose always have the same rank.</p><p>For any matrix $A$, $\\operatorname{rank}(A) = \\operatorname{rank}(A^T)$.</p><p><strong>Statement 3 is TRUE.</strong></p><h3>Statement 4</h3><p>Let $A$ and $B \\neq 0$ be $2 \\times 2$ matrices. If $AB = 0$, then $A$ must be the zero matrix.</p><p>This statement is false. If $AB = 0$, it does not necessarily mean $A = 0$.</p><p>For example, if: $A = \\begin{bmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{bmatrix}$ and $B = \\begin{bmatrix} 0 &amp; 0 \\\\ 0 &amp; 1 \\end{bmatrix}$</p><p>Then $AB = \\begin{bmatrix} 0 &amp; 0 \\\\ 0 &amp; 0 \\end{bmatrix} = 0$, but $A \\neq 0$.</p><p><strong>Statement 4 is FALSE.</strong></p></div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"429343\"></a><div itemprop=\"text\"><p><strong>SOLUTION,&nbsp;</strong>For Option A to be TRUE (Explaination of option A)</p><p><strong>AB and BA shares Non-zero eigen values. (from linear algebra lectures by sir&nbsp;<span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"6166\"><a class=\"pupi_dm_user_mention\" rel=\"nofollow\" href=\"https://gateoverflow.in/user/Sachin%20Mittal%201\" target=\"_blank\">@Sachin Mittal 1</a>)</span></strong></p><p>As here, both are 4x4 matrices , their product will also result in 4x4 matrix.</p><p>So, <strong><em>Here in this case both AB and BA have same eigen values</em>.</strong> <strong>----------&gt;&nbsp;1</strong></p><blockquote><p>Also, if one of the eigen value of a matrix D(nxn) is zero then rank (D) &lt; n&nbsp; <strong>--------&gt; 2</strong></p></blockquote><p>Therefore, Here Rank(AB) = 3 &lt; 4 , MEANS: One of the eigen values is ZERO.</p><p>Since, <strong>FROM 1 and 2:&nbsp;</strong>BA also have one eigen value as ZERO.</p><p>Means: Rank(BA) &lt; 4.&nbsp;</p><p>&nbsp;&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 5)</small></h4><a name=\"425961\"></a><div itemprop=\"text\">A,C<br>\n<br>\nA) Rank AB = 3 ie. Det(AB) = 0 so Det(BA) = 0 too. So BA is not full rank.<br>\n<br>\nB) Rank needed to span/ fill R5 is 5, so the columns will not span/ fill the complete space. So for some B there is no solution.<br>\n<br>\nC) Consider visualizing the RREF of a matrix, pivots variables/columns = no of rows having a leading entry = no of LI columns/ rows. so Rank of A &nbsp;= Rank of A Transpose.<br>\n<br>\nD) &nbsp;Consider Ab1 = 0, Ab2 = 0 where b1, b2 are columns of B if A is linearly dependent it is sufficient for these equations to have a nontrivial solution.<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"544037\"></a><div itemprop=\"text\"><p data-path-to-node=\"2\"><b data-path-to-node=\"2\" data-index-in-node=\"0\">A) </b><strong>If&nbsp;A&nbsp;and&nbsp;B&nbsp;are&nbsp;4×4&nbsp;matrices such that&nbsp;rank(AB)=3, then&nbsp;rank(BA)&lt;4.</strong></p><blockquote data-path-to-node=\"3\"><p data-path-to-node=\"3,0\"><b data-path-to-node=\"3,0\" data-index-in-node=\"0\">TRUE</b></p><p data-path-to-node=\"3,1\">Kyunki $\\text{rank}(AB) = 3 &lt; 4$ hai, iska matlab $\\det(AB) = 0$ hoga. Hum jante hain $\\det(AB) = \\det(BA) = 0$, iska matlab $BA$ bhi invertible nahi hai, isliye $\\text{rank}(BA)$ kabhi 4 nahi ho sakti, hamesha $&lt; 4$ hi hogi.</p></blockquote><p data-path-to-node=\"5\"><b data-path-to-node=\"5\" data-index-in-node=\"0\">B) </b><strong>If&nbsp;A&nbsp;is a&nbsp;5×3&nbsp;matrix with&nbsp;rank(A)=2, then for every vector&nbsp;b∈R5&nbsp;the equation&nbsp;Ax=b&nbsp;will have at least one solution.</strong></p><blockquote data-path-to-node=\"6\"><p data-path-to-node=\"6,0\"><b data-path-to-node=\"6,0\" data-index-in-node=\"0\">FALSE</b></p><p data-path-to-node=\"6,1\">Har $b \\in \\mathbb{R}^5$ ke liye solution hone ke liye column space ka dimension (yani rank) pure 5 ke barabar hona chahiye ($\\text{rank} = m = 5$). Yahan rank sirf 2 hai jo ki $&lt; 5$ hai, isliye sirf unhi $b$ ke liye solution milega jo column space mein aayenge, <b data-path-to-node=\"6,1\" data-index-in-node=\"255\">har</b> $b$ ke liye solution nahi hoga.</p></blockquote><p data-path-to-node=\"8\"><b data-path-to-node=\"8\" data-index-in-node=\"0\">C) </b><strong>If&nbsp;A&nbsp;is a&nbsp;4×7&nbsp;matrix, then&nbsp;A&nbsp;and&nbsp;AT&nbsp;have the same rank.</strong></p><blockquote data-path-to-node=\"9\"><p data-path-to-node=\"9,0\"><b data-path-to-node=\"9,0\" data-index-in-node=\"0\">TRUE</b></p><p data-path-to-node=\"9,1\">Kyunki linear algebra ka rule hota hai ki $\\text{Row Rank} = \\text{Column Rank}$. Matrix ka size chahe kuch bhi ho ($4 \\times 7$), uske linearly independent rows aur columns hamesha barabar hote hain, isliye $A$ aur $A^T$ dono ki rank hamesha same hoti hai.</p></blockquote><p data-path-to-node=\"11\"><b data-path-to-node=\"11\" data-index-in-node=\"0\">D)</b>&nbsp;<strong>Let&nbsp;A&nbsp;and&nbsp;B≠0&nbsp;be&nbsp;2×2&nbsp;matrices. If&nbsp;AB=0, then&nbsp;A&nbsp;must be the zero matrix.</strong></p><blockquote data-path-to-node=\"12\"><p data-path-to-node=\"12,0\"><b data-path-to-node=\"12,0\" data-index-in-node=\"0\">FALSE</b></p><p data-path-to-node=\"12,1\">Do non-zero matrices ko multiply karne par bhi answer zero matrix aa sakta hai (matrices mein zero divisors hote hain). Example:</p><p data-path-to-node=\"12,2\">$A = \\begin{pmatrix} 0 &amp; 1 \\\\ 0 &amp; 0 \\end{pmatrix}$ aur $B = \\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; 0 \\end{pmatrix}$</p><p data-path-to-node=\"12,3\">Yahan dono non-zero hain, aur $AB = 0$ hai, fir bhi $A$ zero matrix nahi hai.</p></blockquote><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/425233\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be a $4 \\times 4$&nbsp; matrix with determinant $7$. Which of the following is/are TRUE ?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For some vector $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has exactly one solution.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>For some vector $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For some vector $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has no solution.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For all vectors $\\mathbf{b}$ the equation $A \\mathbf{x}=\\mathbf{b}$ has at least one solution.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 31)</small></h4><a name=\"426626\"></a><div itemprop=\"text\">Since Determinant of $A$ is $7$, that is, not $0$. Therefore, $A$ has all non-zero eigenvalue.<br>\n<br>\nSince $A$ has all non-zero eigenvalues. Therefore, $A$ is a full rank Matrix.<br>\n<br>\nSince $A$ is a matrix of $4$x$4$. Therefore $b$ will be in $R4$ and the columns of $A$ will span the complete space of $R4$.<br>\n<br>\nSo, $Ax = b$ must have a unique solution for all vectors in $R4$. It means that all $b$ can be derived from the linear combinations of the $4$ columns of $A$.<br>\n<br>\nA) True. For all $b$, $Ax = b$ have exactly one solution. Therefore, for some $b$, it is also valid.<br>\n<br>\nB) False. Since, nullity = $0$. Therefore, $Ax = b$ cannot have more than $1$ solution.<br>\n<br>\nC) False. No solution not possible<br>\n<br>\nD) True. Exactly one solution comes under Atleast one solution.</div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"425232\"></a><div itemprop=\"text\">(a) True - since $\\operatorname{det} A=7, A$ is invertible so the solution of $A \\mathbf{x}=\\mathbf{b}$ is $\\mathbf{x}=A^{-1} \\mathbf{b}$.<br>\n<br>\n(b) False - Because $A$ is invertible the kernel of $A$ consists only of the zero vector, so $A \\mathbf{x}=\\mathbf{b}$ has a unique solution.<br>\n<br>\n(c) False - see part (a)<br>\n<br>\n(d) True - see part (a)</div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"425886\"></a><div itemprop=\"text\">Hint: Prinicpal Diagonal Values of a triangular Matrix consists of eigenvalues of the matrix<br>\n<br>\nLet Ar be the echelon form of matrix A<br>\n<br>\nDeterminant of A = 7 = product of eigenvalues of A<br>\n<br>\nTherefore, All the 4 pivot elements in Ar will be the eigenvalues whose product will be 7, that is, {7, 1, 1, 1}<br>\n<br>\nIt also means that none of the eigenvalues are 0, So, A is a full rank square matrix.<br>\n<br>\nAx = b for a full rank square matrix A will always yield a unique solution<br>\n<br>\nHence, A and D</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"492525\"></a><div itemprop=\"text\"><p>As det(A) is non zero,we can say 4 LI vectors,and it will fill R^4 space,so solution always exists and further the vectors of A are LI,so unique solution exists.</p><p>so <strong>A,D</strong> are true</p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"517744\"></a><div itemprop=\"text\">I have answered A, B, D<br>\nA, D options are obvious<br>\n<br>\nThe reason I have marked option B we can have infinite solutions but we can have only one L.I. solution<br>\nAs they didn't mention anything about L.I. solution so we have infinite solutions.<br>\nAm I right or I overthinked??</div></section></div><p><a href=\"https://gateoverflow.in/425231\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following is/are TRUE ?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $A$ is an invertible $4 \\times 4$ matrix, then $\\left(A^{T}\\right)^{-1}=\\left(A^{-1}\\right)^{T}$, where $A^{T}$ denotes the transpose of $A$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $A$ and $B$ are $3 \\times 3$ matrices with $\\operatorname{rank}(A)=\\operatorname{rank}(B)=2$, then $\\operatorname{rank}(A B)=2$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $A$ and $B$ are invertible $3 \\times 3$ matrices, then $A+B$ is invertible.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $A$ is an $n \\times n$ matrix with rank less than $n$, then for any vector $\\mathbf{b}$, the equation $A \\mathbf{x}=\\mathbf{b}$ has an infinite number of solutions.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 14)</small></h4><a name=\"425230\"></a><div itemprop=\"text\">(a) TRUE, since $\\left(A^{-1}\\right)^{T} A^{T}=\\left(A A^{-1}\\right)^{T}=I^{T}=I$.<br>\n<br>\n(b) FALSE. Take $A=\\left[\\begin{array}{lll}1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 0\\end{array}\\right]$ and $B=\\left[\\begin{array}{lll}1 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 1\\end{array}\\right]$. Each has rank $2$ but $A B=$ $\\left[\\begin{array}{ccc}1 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 \\\\ 0 &amp; 0 &amp; 0\\end{array}\\right]$ has rank $1$.<br>\n<br>\n(c) FALSE. Take $B=-A$.<br>\n<br>\n(d) FALSE. Since the rank of $A$ is less than $n$, for some (most) vectors $\\mathbf{b}$ there will be no solutions.</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"481023\"></a><div itemprop=\"text\"><p><strong>False.</strong></p><p>If <code>rank(A) &lt; n</code>, then <code>null(A)</code> is nontrivial. For a given <code>b</code>:</p><ul><li><p>If <code>b ∉ Col(A)</code>, the system <code>Ax = b</code> has <strong>no solution</strong>.</p></li><li><p>If <code>b ∈ Col(A)</code>, the system is consistent and has <strong>infinitely many solutions</strong> (since any solution <code>x0</code> leads to <code>x = x0 + z</code> for all <code>z</code> in the nontrivial nullspace).</p></li></ul><p>Counterexample: let A=(0000)A=\\begin{pmatrix}0&amp;0\\\\0&amp;0\\end{pmatrix} (rank 0). For b=(1,0)Tb=(1,0)^T, there’s <strong>no</strong> solution; for b=(0,0)Tb=(0,0)^T, there are <strong>infinitely many</strong>. Thus the statement “for any bb” is false.</p></div></section></div><p><a href=\"https://gateoverflow.in/425229\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following is/are TRUE?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If the columns of matrix $\\mathrm{A}$ are linearly dependent, then $\\mathrm{Ax}=0$ has a nontrivial solution.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $A$ is a $m \\times r$ matrix with $r$ independent columns and $B$ is a $r \\times n$ matrix with $r$ independent rows, then $A B$ is invertible.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For a matrix $A$, let $\\lambda_{1}$ and $\\lambda_{2}$ be two different eigenvalues with corresponding eigenvectors $x_{1}$ and $x_{2}$. Then, $x_{1}+x_{2}$ is an eigenvector for $A$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There exists a $4 \\times 3$ real matrix $A$ and a $3 \\times 4$ real matrix $B$ such that the column vectors of $A B$ are linearly independent.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"425255\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-alpha\"><li>True<br>&nbsp;</li><li>It is not even necessary that AB will be square matrix. So there is a possiblity of matrix which is non-invertible.Hence Option B is False<br>&nbsp;</li><li>For a matrix $A$, let $\\lambda_{1}$ and $\\lambda_{2}$ be two different eigenvalues with corresponding eigenvectors $x_{1}$ and $x_{2}$. Then, $x_{1}+x_{2}$ is an eigenvector for $A$.<br><br>Solution: False. Suppose $x_{1}+x_{2}$ is an eigenvector for $A$, i.e., $A\\left(x_{1}+x_{2}\\right)=\\lambda_{3}\\left(x_{1}+x_{2}\\right)$. Then,<br><br>$$<br>\\begin{aligned}<br>&amp; A\\left(x_{1}+x_{2}\\right)=\\lambda_{3}\\left(x_{1}+x_{2}\\right) \\\\<br>\\Longrightarrow &amp; A x_{1}+A x_{2}=\\lambda_{3}\\left(x_{1}+x_{2}\\right) \\\\<br>\\Longrightarrow &amp; \\lambda_{1} x_{1}+\\lambda_{2} x_{2}=\\lambda_{3}\\left(x_{1}+x_{2}\\right) \\\\<br>\\Longrightarrow &amp; \\left(\\lambda_{1}-\\lambda_{3}\\right) x_{1}+\\left(\\lambda_{2}-\\lambda_{3}\\right) x_{2}=0,<br>\\end{aligned}<br>$$<br>From this equation we can say that a non-trivial linear combination of these eigen vectors exist, so they can't be linearly independent. so, it is a contradiction since it is given that eigenvectors $x_{1}$ and $x_{2}$ corresponding to different eigenvalues $\\lambda_{1}$ and $\\lambda_{2}$ are linearly independent.<br>Another possibility is that there should exist only trivial linear combination of these eigen vectors. so,<br>$\\lambda_{1}-\\lambda_{3} = 0$&nbsp; and&nbsp; $\\lambda_{2}-\\lambda_{3} = 0$<br>$\\lambda_{1} = \\lambda_{3}$&nbsp; and&nbsp; $\\lambda_{2} = \\lambda_{3}$<br>hence, $\\lambda_{1} = \\lambda_{2} = \\lambda_{3}$.<br>in this case also we can't find two different eigen values, so that's again a contradiction from the given information.</li><li>For some matrix $A$ of size $m&nbsp;\\times n$, $Rank(A) &lt;= min(m,n)$. So in given question, rank(A) &lt;= $3$ and $Rank(B) &lt;= 3$.<br>When we&nbsp;multiply two matrices then $Rank(AB) &lt;= min(Rank(A), Rank(B)).$ Hence in given question, $Rank(AB)$ &lt;=$3$.<br>So $AB$ can at max have $3$ Linear indpendent columns&nbsp;but not more than that. Since AB have $4$ columns and at max there can be $3$ LI column vectors,<br>we can't say that column vectors of matrix $AB$ are linearly independent.<br>Hence option D is false.<br>&nbsp;</li></ol></div></section></div><p><a href=\"https://gateoverflow.in/425254\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be a $3 \\times 5$ matrix $A$ and $\\mathbf{b}$ in $\\mathbb{R}^{3}$. Which of the following statements about the matrix equation $A \\mathbf{x}=\\mathbf{b}$ for $\\mathbf{x} \\in \\mathbb{R}^{5}$, and the corresponding homogeneous equation $A \\mathbf{x}=\\mathbf{0}$, could be true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A \\mathbf{x}=\\mathbf{0}$ is inconsistent.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A \\mathbf{x}=\\mathbf{0}$ has exactly two solutions.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A \\mathbf{x}=\\mathbf{0}$ has a unique solution and $A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 11)</small></h4><a name=\"425250\"></a><div itemprop=\"text\">$A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions if it is consistent and the reduced echelon form of $A$ has at least one free variable, so (a) could be true. A linear system can have (only) $0$,$1$ or infinitely many solutions and a homogeneous system $A \\mathbf{x}=\\mathbf{0}$ is always consistent (with solution $\\mathbf{x}=\\mathbf{0}$ ) so (c) and (b) are false. If $A \\mathbf{x}=\\mathbf{b}$ is consitent, all its solutions are obtained by adding a solutions of the homogeneous system to a particular solution of $A \\mathbf{x}=\\mathbf{b}$, so $A \\mathbf{x}=\\mathbf{b}$ and $A \\mathbf{x}=\\mathbf{0}$ have exactly the same number of solutions in that case; (d) is false.</div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"426628\"></a><div itemprop=\"text\"><p>A is a 3x5 Matrix. rank(A) &lt;= 3 and Nullity(A) &gt;=2</p><hr><p>Option A: <strong>True</strong></p><p>Case 1: rank(A) = 3. In this case, A will have 2 free variables. Therefore Ax = b will have infinitely many solutions.</p><p>Case 2: rank(A) &lt; 3. In this case. A does not even have 3 LI Columns. So, for some b, No solution will be there.</p><p>But the question is asking. Which of the following COULD BE TRUE?&nbsp;</p><p>So, Option A will be True for Case 1.</p><hr><p>Option B,C: <strong>False</strong></p><p>Ax = 0 can not be inconsistent. There will always be a trivial solution (x = 0) for Ax = 0.</p><p>Now, Nullity(A) &gt;= 2, Therefore Null space of A can be a plane in R3 or the whole R3 depending on the rank of A. But it can never have Exactly 2 solutions for Ax = 0</p><hr><p>Option D: <strong>False</strong>. For same reason in the above Options</p></div></section><section><h4>Source solution 3 <small>(score: 4)</small></h4><a name=\"435878\"></a><div itemprop=\"text\"><p>Only&nbsp;<strong>A&nbsp;</strong>is&nbsp;<strong>TRUE .&nbsp;</strong></p><p>The question is which of the following could be true ? So even if the options do not have the complete solution set it can still be valid .&nbsp;</p><p>Option&nbsp;<strong>A :&nbsp;</strong>here m=3 &lt;n=5 , can we have rank (A) = 5 ?&nbsp; no because m&lt;n and m &gt;= rank(A) . So rank(A)&lt; n in that case nullity = n- rank(A) &gt; 0 . Then we can have infinite solutions for AX= b . No solution? Possible if rank(A) &lt;m and rank(A) &lt;n . Then we can have zero rows such that [0 0 0 0 0 | Non zero] can exist in augmented matrix .Unique solution? No chance here m is not equal to n not equal to rank of matrix .&nbsp; We can have infinite and no solutions . But here only infinite solutions is given and it satisfies the question condition.&nbsp;<strong>TRUE .&nbsp;</strong></p><p><strong>Option B :&nbsp;</strong>AX = 0 is inconsistent . ? Impossible . Because row operations never impact zero column vector so ( 0 0 0 0 | Nonzero ) case cannot arise .&nbsp;<strong>FALSE&nbsp;</strong></p><p><strong>Option C :&nbsp;</strong>AX= 0 has exactly 2 solutions . From option a we derived that only infinite and no solutions are possible for AX= B , eliminating the inconsistent case we can have only infinite solutions for AX=0 .&nbsp;<strong>FALSE&nbsp;</strong></p><p><strong>Option D :&nbsp;</strong>​​​​​​ From Option&nbsp;<strong>C ,&nbsp;</strong>AX= 0 can have infinite solutions only . If it was full rank matrix then only unique ( trivial solution ) was possible for AX=0. AX=B can have infinite solutions as shown in option a .&nbsp;<strong>FALSE&nbsp;</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/425249\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following linear system.<br>$$<br>\\begin{aligned}<br>x+a y+z &amp; =a+1 \\\\<br>2 x+b y+z &amp; =b+1 \\\\<br>3 x+c y+z &amp; =c+1<br>\\end{aligned}<br>$$<br>Suppose the system only has unique solution. Then</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x=1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$y=0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$z=1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x=2$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 76)</small></h4><a name=\"433145\"></a><div itemprop=\"text\"><p>Options have the solution values , so I think no need to solve the matrix just put the value and check which of the values can satify the result.</p><p><img alt=\"\" width=\"400\" height=\"284\" src=\"media/21/21ec7c682b49ef234dde.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 34)</small></h4><a name=\"426132\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"537\" height=\"1280\" src=\"media/88/889638cc560d2fd7140d.jpg\"></p><p>&nbsp;</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/425244\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let<br>$$<br>A=\\left(\\begin{array}{cccc}<br>0 &amp; 0 &amp; 0 &amp; a \\\\<br>-1 &amp; 0 &amp; 0 &amp; b \\\\<br>0 &amp; -1 &amp; 0 &amp; c \\\\<br>0 &amp; 0 &amp; -1 &amp; d<br>\\end{array}\\right)<br>$$<br>Suppose $0$ is an eigenvalue of $A$ with multiplicity $2$ . Then which of the following statement is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$a=0, b \\neq 0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$a=b=0$ and $c \\neq 0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$a=c=0$ but $b \\neq 0$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$a=d=0$ but $b \\neq 0$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 57)</small></h4><a name=\"458291\"></a><div itemprop=\"text\"><blockquote><p>\" 0 is an Eigenvalue with multiplicity 2 \"</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Arithmetic multiplicity</strong> is the number of times an eigenvalue appears in the characteristic equation, while <strong>geometric multiplicity</strong> is the number of linearly independent eigenvectors associated with that eigenvalue.</p></blockquote><p>in the matrix it is clear that the Columns $C_1,C_2,C_3$ are Linearly Independent, So rank = 3 and nullity = 1<br><br>which implies the Multiplicity here refers is Arithmetic Multiplicity and not Geometric Multiplicity.<br><br><br>$|A -\\lambda I | = 0 $&nbsp;</p><p>We know that , $\\lambda = 0&nbsp; $</p><p>$|A | = 0 $ , That is Determinant(A) = 0<br><br>Consider the matrix $ A =\\begin{bmatrix} 0 &amp; 0 &amp; 0 &amp; a \\\\ -1 &amp; 0 &amp; 0 &amp; b \\\\0 &amp; -1 &amp; 0 &amp; c \\\\0 &amp; 0 &amp; -1 &amp; d \\\\ \\end{bmatrix} $,&nbsp;<br><br>Lets expand the matrix along $A_{14}$<br><br>$ \\det(A) = a \\begin{vmatrix} -1 &amp; 0 &amp; 0&nbsp; \\\\0 &amp; -1 &amp; 0 \\\\0 &amp; 0 &amp; -1&nbsp; \\\\ \\end{vmatrix}&nbsp; = 0$<br><br>Solving this we get<br><br>$a=0$<br><br>So our new matrix&nbsp;Consider the matrix $ A =\\begin{bmatrix} 0 &amp; 0 &amp; 0 &amp; 0 \\\\ -1 &amp; 0 &amp; 0 &amp; b \\\\0 &amp; -1 &amp; 0 &amp; c \\\\0 &amp; 0 &amp; -1 &amp; d \\\\ \\end{bmatrix} $,<br>&nbsp;<br>$|A -\\lambda I | = 0 $&nbsp; $ =\\begin{vmatrix} -\\lambda &amp; 0 &amp; 0 &amp; 0 \\\\ -1 &amp; -\\lambda &amp; 0 &amp; b \\\\0 &amp; -1 &amp; -\\lambda &amp; c \\\\0 &amp; 0 &amp; -1 &amp; d-\\lambda \\\\ \\end{vmatrix} $,<br><br>expanding on $A_{11}$ gives,<br><br>&nbsp;$ \\det(A) =&nbsp; -\\lambda\\begin{vmatrix}&nbsp; -\\lambda &amp; 0 &amp; b \\\\ -1 &amp; -\\lambda &amp; c \\\\ 0 &amp; -1 &amp; d-\\lambda \\\\ \\end{vmatrix}&nbsp; = 0$<br><br>$-\\lambda[(-\\lambda(-\\lambda(d-\\lambda) +c) + b ] = 0 $<br><br>from here we can eliminate one $\\lambda$&nbsp;<br><br>$-\\lambda(-\\lambda(d-\\lambda) +c) + b = 0 $<br><br>Since multiplicity of 0 is 2 , we need one more $\\lambda = 0 $, clearly we can see that this can be achieved if and only if <strong>b=0</strong><br><br>so now,<br><br><br>$-\\lambda(-\\lambda(d-\\lambda) +c)&nbsp; = 0 $<br><br>$-\\lambda(d-\\lambda) +c = 0 $<br><br>Can \"c\" be zero? No! why?! because if c is zero we will get one more lambda to be zero, but given the multiplicity of 0 is \"2\"<br><br>so, $c \\neq 0$<br><br><br><strong>Final answer</strong> : $a = 0 , b = 0, c \\neq 0 $</p></div></section><section><h4>Source solution 2 <small>(score: 46)</small></h4><a name=\"426629\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"672\" height=\"728\" src=\"media/3e/3e8ba9817aa57d814329.jpg\"></p><p><img alt=\"\" width=\"666\" height=\"769\" src=\"media/28/2874b8beb4328e9edb4f.jpg\"></p></div></section><section><h4>Source solution 3 <small>(score: 5)</small></h4><a name=\"504828\"></a><div itemprop=\"text\"><p>one of the best and fastest ways to do this is the composition matrix method, as our question exactly aligns with a composition matrix format...<br>&nbsp;</p><p data-start=\"461\" data-end=\"546\"><img alt=\"\" src=\"media/ba/bafbb90e729a26896ba9.png\"></p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"544034\"></a><div itemprop=\"text\">The Characteristic Equation of the Given matrix is,<br>\n<br>\n$p(λ)=λ^{4}−dλ^{3}−cλ^{2}−bλ−a$<br>\n<br>\nGiven that 0 is an eigen value with AM = 2 , the required characteristic polynomial must have the below form,<br>\n<br>\n$p(λ)=λ^{2}(λ^{2}+αλ+β) = λ^{4} + αλ^{3} + βλ^{2}$<br>\n<br>\ncompare both the polynomial equations we get b = 0 and a = 0 and $c \\neq 0$<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/425243\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following is/are TRUE ?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If a system $A x=b$ has more than one solution, then so does the system $A x=0$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $B C=B D$, then $C=D$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $A$ and $B$ are $n \\times n$ matrices, then $(A+B)(A-B)=A^{2}-B^{2}$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $A$ is invertible and $r \\neq 0$, then $(r A)^{-1}=r A^{-1}$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 29)</small></h4><a name=\"425242\"></a><div itemprop=\"text\"><p>(a) If a system $A x=b$ has more than one solution, then so does the system $A x=0$. True. If $A x=A y=b$ and $x \\neq y$, then $A(x-y)=0$.<br><br>(b) If $BC=BD$, then $C=D$. False. $B$ could be non-invertible.<br>ex: $BC = BD \\Rightarrow B(C-D) = 0$<br>now we can think like this: $2$ cases possible, either $B = 0$ or $C - D = 0$.<br>but if we take $C-D = X$ then the above becomes $BX = 0$ and that's a <span class=\"NA6bn BxUVEf UiGGAb ILfuVd\" lang=\"en\"><span class=\"hgKElc\">system of linear equations</span></span> that means either $X=0$ or $B$ has linearly dependent columns. so we can say the possibility $B=0$ is a subset of all the $B$ such that det(B) = $0$.<br><br>(c) If $A$ and $B$ are $n \\times n$ matrices, then $(A+B)(A-B)=A^{2}-B^{2}$. False. This is only true if $A B=B A$.<br><br>(d) If $A$ is invertible and $r \\neq 0$, then $(r A)^{-1}=r A^{-1}$. False. The real formula is $(r A)^{-1}=r^{-1} A^{-1}$.</p></div></section></div><p><a href=\"https://gateoverflow.in/425241\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>. If the matrix $A=\\left(\\begin{array}{ll}a &amp; 1 \\\\ 2 &amp; 3\\end{array}\\right)$ has $1$ as an eigenvalue, then the determinant of $A$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 15)</small></h4><a name=\"426612\"></a><div itemprop=\"text\">From |A-λI| = 0<br>\n<br>\nWe have (a-λ)(3-λ) - 2 = 0<br>\n<br>\nλ = 1 will satisfy this equation because 1 is one of A's eigenvalue. By putting λ = 1<br>\n<br>\n=&gt; (a-1)×2 = 2<br>\n<br>\n=&gt; a = 2<br>\n<br>\n=&gt; |A| = 4</div></section><section><h4>Source solution 2 <small>(score: 8)</small></h4><a name=\"425341\"></a><div itemprop=\"text\">option) C is ans<br>\n<br>\nmatrix is 2*2 it has 2 eigenvalue one of the eigenvalue is 1 and other consider L<br>\n<br>\ndet=&gt;3a-2=L ...........(1)<br>\n<br>\ntrace=&gt;a+3=L+1 &nbsp;<br>\n<br>\na+2=L:..........(2)<br>\n<br>\nby eq 1 and 2 ,<br>\n<br>\n3a-2=a+2<br>\n<br>\na=2 <br>\n<br>\nput the value of a in matrix we get det=4</div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"425333\"></a><div itemprop=\"text\">we know sum of eigen value =trace,and product of e.value=det, <br>\n<br>\nso if 3+a=say1+(2+a).<br>\n<br>\nor,3a-2=1 x2+a<br>\n<br>\nso a =2,then det is 4<br>\n<br>\nc</div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"472083\"></a><div itemprop=\"text\"><p>There are two magical property&nbsp;</p><p>i) Sum of eigen value=Trace</p><p>ii)Multiplication of eigen value =Det. of Matrix.</p><p>It is given that 1 is a one eigen value in this 2x2 matrix, then from this formula we can say that&nbsp;</p><p>Lamda1+Lamda2=3+a</p><p>then Lamda2=2+a</p><p>then det of matrix =Lamda1.Lamda2</p><p>3a-2=1(2+a)</p><p>a=2(put a=2 in the matrix and calculate the det.).</p><p>2&nbsp; &nbsp; &nbsp; &nbsp;1</p><p>2&nbsp; &nbsp; &nbsp; &nbsp;3</p><p><strong>Det(Matrix)=4 ans (Option C)</strong></p><p>&nbsp;</p></div></section><section><h4>Source solution 5 <small>(score: 1)</small></h4><a name=\"482547\"></a><div itemprop=\"text\">Firstly finding the a by the characteristic polynomial equation, o, a will be 2..<br>\n<br>\nAnd hence determinant = 2*3 - 2*1 = 4.</div></section></div><p><a href=\"https://gateoverflow.in/425240\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "The rank of the matrix<br>$$<br>\\left(\\begin{array}{lllll}<br>0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\\\<br>0 &amp; 1 &amp; 2 &amp; 0 &amp; 0 \\\\<br>0 &amp; 0 &amp; 0 &amp; 3 &amp; 0 \\\\<br>0 &amp; 1 &amp; 0 &amp; a &amp; 0 \\\\<br>1 &amp; 0 &amp; 0 &amp; 0 &amp; b<br>\\end{array}\\right) .<br>$$<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>depends on the values of both $a$ and $b$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>is independent of the values of both $a$ and $b$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>depends on the value of $a$ but not on the value of $b$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>depends on the value of $b$ but not on the value of $a$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 33)</small></h4><a name=\"426631\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/9d/9deba53e24723b1183ce.jpg\"></p><p>So, B is the answer</p></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"457994\"></a><div itemprop=\"text\">If we arrange the rows in a staircase order for rref we will see that R5 can be followed by either R1 or R2 or R4b then R3. Now a of R4 will nowhere be the pivot element so a will not affect the rank . R1 has b but it cannot be a pivot already it's pivot has been selected in its row which is 1</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"426133\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"960\" height=\"1280\" src=\"media/cb/cb6d923c9c9de335eb39.jpg\">&nbsp; ..</p></div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"471770\"></a><div itemprop=\"text\">We can simply answer this question based on the intuition :<br>\n<br>\nWe anyway knows R1,R2,R3 are linear independent because R1 contains 1 at last but R2,R3 doesn't similarly &nbsp;by checking all the combinations we can know R1,R2,R3 are independent.<br>\n<br>\nNow R4 : a can be zero or non zero but R4 also will be linearly independent (same as previous analogy).<br>\n<br>\nR5 : i) if b=0 then linear dependent ,rank=4<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)if b is not 0 ,but constant like 1,2,... it is dependent on R1,so rank=4<br>\n<br>\nFinally we neither depend on a nor b.......<br>\n&nbsp;<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"482550\"></a><div itemprop=\"text\">Last 2 rows..<br>\n<br>\n0 &nbsp;0 &nbsp;0 &nbsp;3 &nbsp;0<br>\n0 &nbsp;0 &nbsp;0 &nbsp;a &nbsp;0<br>\n<br>\nOr rearranging... <br>\n0 &nbsp;0 &nbsp;0 &nbsp;a &nbsp;0<br>\n0 &nbsp;0 &nbsp;0 &nbsp;3 &nbsp;0<br>\n<br>\nSo, here, no matter, if a is 0, then also we need to keep the row with \"3\" into consideration , and hence, also for a=0, the final rank will be 4, and if a!=0, then we can eliminate the row with \"3\" and make it 0, so, the final answer will always remain 4 as the rank of A. Else everything is confusion-less...</div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"507317\"></a><div itemprop=\"text\">c</div></section></div><p><a href=\"https://gateoverflow.in/425239\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An $n \\times n$ matrix $A=\\left(a_{i j}\\right)$ is said to be antisymmetric if $a_{i j}=-a_{j i}$ for all $1 \\leq i, j \\leq n$. Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $A$ is antisymmetric then all its principal diagonal entries are zero.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $A, B$ are antisymmetric matrices then the product $A B$ need not be antisymmetric.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $A$ is antisymmetric then $A^{2}$ is symmetric.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Every nonzero $3 \\times 3$ antisymmetric matrix is invertible.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 23)</small></h4><a name=\"458295\"></a><div itemprop=\"text\"><p><strong>Option A :</strong> Follows the definition<br><br><br><strong>Option B :</strong>&nbsp; A, B are antisymmetric, $B^T = -B$ and $&nbsp; A^T = -A&nbsp;$<br><br>then we need to prove $(AB)^T \\neq -AB$<br><br>Taking LHS :&nbsp;$(AB)^T&nbsp; = B^TA^T&nbsp; = (-B)(-A) = BA$<br><br>$BA \\neq -AB$<br><br>Hence Proved, So This option is True<br><br><br><strong>Option C:</strong>&nbsp; A is antisymmetric,&nbsp; $&nbsp; A^T = -A&nbsp;$</p><p>then we need to prove $(A^2)^T = A^2$</p><p>Taking LHS $(A A)^T = A^TA^T = (-A)(-A) = A^2$<br><br>Hence Proved, So This option is True<br><br><br><strong>Option D</strong>: We know that, $A^T =&nbsp; -A$<br><br>so $ det(A^T) = det(A) =&gt; det(-A) = det(A) =&gt; -1^3det(A) = det(A) $</p><p>$-det(A) = det(A) =&gt; 2det(A) = 0 =&gt; det(A) = 0 $<br><br>hence every 3x3 antisymmetric matrix is not invertible , So this option is FALSE<br><br><strong>Final Answer : True, True, True, False</strong></p></div></section><section><h4>Source solution 2 <small>(score: 17)</small></h4><a name=\"425235\"></a><div itemprop=\"text\">TTTF. <ol style=\"list-style-type:upper-alpha\"><li>  follows from the definition. For </li><li>  even a $2 \\times 2$ example works. </li> <li> also follows from the definition. For </li>  <li> use the fact $\\operatorname{det}\\left(A^{T}\\right)=\\operatorname{det}(A)$. Since $A^{T}=-A$ for the $3 \\times 3$ case we have $\\operatorname{det}(A)$ is $-\\operatorname{det}(A)$.  </li></ol></div></section></div><p><a href=\"https://gateoverflow.in/425234\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose $A$ is a symmetric $n \\times n$ matrix. If $\\mathbf{x}, \\mathbf{y} \\in \\mathbb{R}^{n}$ are vectors satisfying $A \\mathbf{x}=2 \\mathbf{x}$ and $A \\mathbf{y}=3 \\mathbf{y}$, then what is the value of dot product between $\\mathrm{x}$ and $\\mathrm{y}$ i.e. $x . y$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$6$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 28)</small></h4><a name=\"426632\"></a><div itemprop=\"text\">Properties of Symmetric Matrices:<br>\n<br>\n1) AM = GM<br>\n<br>\n2) Eigenvectors of distinct eigenvalues are orthogonal to each other<br>\n<br>\nSince, in the question it has been specified that $x$ and $y$ are eigenvectors of distinct eigenvalues, that is, $2$ and $3$ respectively. Therefore $x$ and $y$ are orthogonal to each other.<br>\n<br>\nSo, $x.y = 0$</div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"425228\"></a><div itemprop=\"text\">Using the fact that $A$ is symmetric, we have $\\mathbf{x} \\cdot A \\mathbf{y}=\\mathbf{x}^{T} A \\mathbf{y}=\\mathbf{y}^{T} A^{T} \\mathbf{x}=\\mathbf{y}^{T} A \\mathbf{x}=A \\mathbf{x} \\cdot \\mathbf{y}$. Also, $\\mathbf{x} \\cdot A \\mathbf{y}=\\mathbf{x} \\cdot 3 \\mathbf{y}=3(\\mathbf{x} \\cdot \\mathbf{y})$, and $A \\mathbf{x} \\cdot \\mathbf{y}=2 \\mathbf{x} \\cdot \\mathbf{y}=2(\\mathbf{x} \\cdot \\mathbf{y})$. Putting these together, we see that $2(\\mathbf{x} \\cdot \\mathbf{y})=3(\\mathbf{x} \\cdot \\mathbf{y})$, and hence $\\mathbf{x} \\cdot \\mathbf{y}=0$.</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"471970\"></a><div itemprop=\"text\">&nbsp;<br>\n<br>\nIt is given that x and y are eigenvectors of distinct eigenvalues, that is, 2 and 3 respectively. Therefore x and y are orthogonal to each other.<br>\nSo, x.y = 0</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"501608\"></a><div itemprop=\"text\"><p>We can prove it by defination:<strong> In real symmetric matrix has n orthogonal eigen vector</strong>&nbsp;and&nbsp;the <strong>dot product of two orthogonal eigenvectors is always zero</strong> by definition of orthogonality.</p></div></section></div><p><a href=\"https://gateoverflow.in/425227\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be an $m \\times n$ matrix and $x$ and $b$ are column vectors.<br>Which of the following is/are TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $A x=0$ has only the trivial solution $x=0$, then $A x=b$ always has a unique solution.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There are vectors $\\mathbf{b}_{1}, \\mathbf{b}_{2}, \\mathbf{b}_{3} \\in \\mathbb{R}^{m}$ such that $A \\mathbf{x}=\\mathbf{b}_{1}$ has no solutions, $A \\mathbf{x}=\\mathbf{b}_{2}$ has one solution, and $A \\mathbf{x}=\\mathbf{b}_{3}$ has infinitely many solutions.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If the columns of $A$ are linearly independent, then the equation $A x=b$ has exactly one solution for every $b$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If a system $A x=b$ has more than one solution, then so does the system $A x=0$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 18)</small></h4><a name=\"425226\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-alpha\"><li>This is false! The trap is that $A \\mathbf{x}=\\mathbf{b}$ may not have any solutions (and the problem cleverly omitted the assumption $A \\mathbf{x}=\\mathbf{b}$ is consistent). For instance, if $A=\\left[\\begin{array}{ll}1 &amp; 0 \\\\ 0 &amp; 1 \\\\ 0 &amp; 0\\end{array}\\right]$ and $\\mathbf{b}=$ $\\left[\\begin{array}{l}0 \\\\ 0 \\\\ 1\\end{array}\\right]$, then the equation $A \\mathbf{x}=\\mathbf{0}$ immediately gives $x_{1}=x_{2}=0$ and hence $\\mathbf{x}=\\mathbf{0}$, but $A \\mathbf{x}=\\mathbf{b}$ has no solutions.<br>&nbsp;</li><li>False, if a vector $\\mathbf{b}$ has unique solution then it means that all columns are linearly independent. Then there is no chance of infinite solutions for any other vector, since there are no free variables.<br>&nbsp;</li><li>This is only true if $\\mathbf{A}$ is a square matrix. Consider a $5 * 3$ matrix then if all three columns are LI, then there can be vectors in $R5$ such that set of columns and that vector&nbsp;forms an LI set of vectors. So solution doesn't exist for those vectors. So This is not always true.<br>&nbsp;</li><li>True. If $A x=A y=b$ and $x \\neq y$, then $A(x-y)=0$.</li></ol></div></section></div><p><a href=\"https://gateoverflow.in/425225\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 30.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 20
+  }
+ ],
+ "stats": {
+  "questions": 20,
+  "maxMarks": 14,
+  "types": {
+   "MSQ": 14,
+   "MCQ": 6
+  },
+  "withoutKey": 10
+ }
+}

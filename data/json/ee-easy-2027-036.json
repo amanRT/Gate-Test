@@ -1,0 +1,509 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-036",
+ "title": "GATE 2027-Topicwise Test-15 (Power Electronics -1)",
+ "sourceTitle": "GATE 2027-Topicwise Test-15 (Power Electronics -1)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 36,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/055_GATE 2027-Topicwise Test-15 (Power Electronics -1).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A single phase dual converter is fed from 230 V, 50 Hz source. The load is <em>R </em>= 10 &Omega; and the&nbsp;current limiting reactor has <em>L </em>= 0.06 H. For &alpha;<sub>1</sub> = 120&deg; the peak value of circulating current is&nbsp;_______ A.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    17.15,
+    17.35
+   ],
+   "answerText": "17.15 - 17.35",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f5/f5436dbc35642f54997a.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A diode with internal resistance of 20 &Omega; is supplying power to 800 &Omega; load with help of 220 V,&nbsp;50 Hz ac supply. The value of average voltage across diode will be (assuming cut in voltage of&nbsp;diode equal to zero).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;48.32 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&ndash;99.50 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&ndash;90.42 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&ndash;96.63 V</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/86/865dd4c07fffffcef893.png\"></p>\n<p><img src=\"media/e8/e8ed23fcc892d3f2f704.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A resistive load is connected as shown in figure. The firing angle of the SCR is 90&deg;. The power&nbsp;dissipated in resistive load will be</p>\n<p><img src=\"media/d5/d577001e367a753e760d.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1058 W</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>529 W</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>132.25 W</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>264.5 W</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/01/01db1d6a7a6a627a5638.png\"></p>\n<p><img src=\"media/7b/7bd600f3fb6d6b533c8e.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A phase controlled single phase rectifier, supplied by an AC source, feeds power to an RLE load&nbsp;as shown in the figure,</p>\n<p><img src=\"media/c7/c7fe951afcd873247501.png\"></p>\n<p><img src=\"media/50/5067966f3e64457c7e75.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    41,
+    42
+   ],
+   "answerText": "41 - 42",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/90/90f79873ad74f7be6435.png\"></p>\n<p><img src=\"media/f9/f9a2b9c58fc0845d63e7.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>In the circuit shown below,</p>\n<p><img src=\"media/60/601bb8086510f51b1a7d.png\"></p>\n<p><em>L<sub>S</sub> </em>is 5% with the rated voltage of 230 V at 60 Hz and the rated volt amperes of 5 kVA.<br>The value of source inductance is _________ mH.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.2,
+    1.6
+   ],
+   "answerText": "1.2 - 1.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/96/96ab4dd229cd59d8fa4e.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>In the given circuit symbols of power semi conductor devices:</p>\n<p><img src=\"media/68/6864fffeada005477bdf.png\"></p>\n<p>Which of them are minority carrier devices?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Thyristor only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>MOSFET only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>BJT and Thyristor</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Diode, BJT and Thyristor</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>In the given devices,<br>Diode, BJT and thyristor are minority carrier devices and MOSFET is majority carrier device.</p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A 3-phase semiconverter feeds power to a resistive load of 10 &Omega;. For a firing angle delay of 30&deg;,&nbsp;the load takes 5 kW. The per phase supply voltage is ________ V (rms).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    101,
+    101.8
+   ],
+   "answerText": "101 - 101.8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/10/103726900d4209cfda21.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/0a/0a03089973e841ea154d.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>50.22 W, 20.12 A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>54.33 W, 40.82 A</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>50.22 W, 18.26 A</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>54.33 W, 26.21 A</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/72/723da829add02b9f52db.png\"></p>\n<p><img src=\"media/6b/6b1c5a15af75426df499.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>In a power diode the rate of change of reverse current is 30 A/&mu;s and charge involved in reverse&nbsp;recovery is 11 nC. The reverse recovery time and peak value of reverse current is<br>(Assume <em>t<sub>rr</sub> </em>&asymp; <em>t<sub>a</sub></em>)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.02 &mu;s and 0.6 A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.02 &mu;s and 0.8 A</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.04 &mu;s and 0.5 A</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.04 &mu;s and 0.8 A</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/01/01332494518ea88a76f1.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A three phase, three pulse, half wave controlled rectifier is supplying an R &ndash; L load, where <em>L</em> &rarr; &infin;. A freewheeling diode is also connected across the load. The converter is operating with&nbsp;firing angle of 15&deg;, then input power factor of the rectifier is __________.<br>(Rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.62,
+    0.68
+   ],
+   "answerText": "0.62 - 0.68",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/56/56b45280597b0a0232f1.png\"></p>\n<p><img src=\"media/8d/8daf72d0d8537c3c4b5d.png\"></p>\n<p><img src=\"media/2a/2a8b0d16cbb314e140ef.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A three-phase diode bridge rectifier is shown in figure. Input voltage to the bridge is 400 V at&nbsp;50 Hz and source has inductance of 1.5 mH per phase. The fundamental input power factor is&nbsp;________ lag. (Answer upto two decimal places)</p>\n<p><img src=\"media/99/9986107f5778520c0d00.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.97,
+    0.99
+   ],
+   "answerText": "0.97 - 0.99",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/90/90a6fc296366bf3cad3a.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The latching current of a thyristor used to switch on a dc supply of 300 V to an RL load is 50 mA,&nbsp;<em>R </em>= 60 &Omega; and <em>L </em>= 2 H. The value of the resistance with which the RL load should be shunted for&nbsp;turn on SCR at 40 &mu;s gate pulse is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1.72 k&Omega;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>3.405 k&Omega;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>6.81 k&Omega;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>13.62 k&Omega;</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/3f/3f4ce4dc800fe9e0d810.png\"></p>\n<p><img src=\"media/47/47a5a39448e185f3cde5.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/3e/3efcaead0b642045f054.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    14,
+    18
+   ],
+   "answerText": "14 - 18",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/60/60298c92ce0cd6eabba2.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A 3-phase dual converter, operating in the circulating current mode, has the following data:</p>\n<p><img src=\"media/b8/b85b4a3ff1bd3d573db6.png\"></p>\n<p>The peak value of circulating current is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>27.7 A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>29.6 A</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>30.2 A</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>31.4 A</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/96/966feb509f8520fe09b6.png\"></p>\n<p><img src=\"media/dd/dd7adff29b55c68ebafd.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>An ideal rectifier should have transformer utilization factor (TUF) of 1. If the actual TUF is 3.5,&nbsp;it shows that</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Diode is under-loaded.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The transformer must be 3.5 times larger.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The transformer should be only 1/3.5 times the ideal size.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The ripple factor is low.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/e1/e1bab7752095fbb42765.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>SCRs with a rating of 1000 V and 200 A are available to be used in a string to handle 6 KV and&nbsp;1 KA. The number of series and parallel units respectively required if the derating factor is 0.2 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>7 and 6</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>7 and 8</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>8 and 7</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>8 and 6</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/66/663e251fb2598bca0219.png\"></p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src=\"media/f5/f522c826ff52c26dbc70.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A single phase semi-converter connected to 230 V, 50 Hz source is feeding a highly inductive&nbsp;load <em>R </em>= 10 &Omega;,<em> L</em> = 3 mH. The load current is ripple free. For the firing angle 30&deg; the reactive&nbsp;power input in KVAR is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.95,
+    1.05
+   ],
+   "answerText": "0.95 - 1.05",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/8c/8c5f65ea1a69f04915d5.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 8,
+   "MCQ": 9
+  },
+  "withoutKey": 0
+ }
+}

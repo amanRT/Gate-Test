@@ -1,0 +1,576 @@
+{
+ "v": 1,
+ "id": "da-easy-2026-026",
+ "title": "Topicwise Test-5 Part Syllabus GATE 2026 DA Probability and Statistics-1",
+ "sourceTitle": "Topicwise Test-5 Part Syllabus GATE 2026 DA Probability and Statistics-1",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2026",
+ "num": 26,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/069_Topicwise Test-5 Part Syllabus GATE 2026 DA Probability and Statistics-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>In a college’s mathematics department, there are 7 women and 9 men. How many distinct ways can a committee of 5 members be formed such that the committee includes atleast one women and atleast one men?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4221,
+    4221
+   ],
+   "answerText": "4221",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>4221</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/37/3724187738387563f2c9.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A company tested a new software with three types of uses : Beginner, Intermediate and Expert.<br />\nThe data collected is given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b6/b631c5d16391884ba4b2.png\" /></div>\n\n<div>A user is selected at random and is found to have report a bug. What is the probability that user is a Beginner.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/36/3681dd793b1eae24eda7.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/28/2843589ca66fded66c87.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/ae/ae4b5cc8efff129bd19a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/90/90c8e7596338c39644a6.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f7/f743b454a7845537935f.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Let <em>A</em> and <em>B</em> be two non-empty events such that <em>P</em>(<em>A</em>) = <em>P</em><sub>1</sub>, <em>P</em>(<em>B</em>) = <em>P</em><sub>2</sub>.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cc/cc057042bddaf66c9b4d.png\" /></div>\n\n<div>Which of the following statements is true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/e0/e088de589d7fc408f306.png\" />= <em>P</em><sub>1</sub> + <em>P</em><sub>2</sub> always valid when <em>A</em>, <em>B</em> are independent."
+    },
+    {
+     "key": "B",
+     "html": "Y = 0 which contradicts independence."
+    },
+    {
+     "key": "C",
+     "html": "Mutual exclusivity of <em>A</em> ∪ <em>B</em> and <em>A</em> ∩ <em>B</em> → <em>A</em> = <em>B</em>."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ad/adaff0f5c3f6819d763b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>If A, B, C are mutually exclusive and exhaustive events associated with a random experiment and <em>P</em>(<em>B</em>) = 0.6 <em>P</em>(<em>A</em>) and <em>P</em>(<em>C</em>) = 0.2 <em>P</em>(<em>A</em>), then <em>P</em>(<em>A</em>) is _________. (Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.55,
+    0.6
+   ],
+   "answerText": "0.55",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.55 [0.55 - 0.60]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/13/130db78c45ccf5047c2b.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A six digit number is formed from 0 2 3 4 5 6 7 8 9. What is the probability that the number is divisible by 5 given that it is divisible by 4. (Repetition of digits is not allowed) (Rounded off answer to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.36,
+    0.36
+   ],
+   "answerText": "0.36",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.36 [0.367 - 0.370]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bd/bd611b5f7973400a94b6.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Let <em>X</em> be a continuous random variable representing the time (in hours) a machine operates before a failure.<br />\nThe probability density functions PDF) of <em>X</em> is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ec/ec7d784a970d0143ae65.png\" /></div>\n\n<div> </div>\n\n<div>A machine is selected and it is known that the machine has failed with the first 20 hours of operation. What is the probability that the machine fails after 10 hours, given that it has failed within the first 20 hour? (Mark nearest option)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.231"
+    },
+    {
+     "key": "B",
+     "html": "0.253"
+    },
+    {
+     "key": "C",
+     "html": "0.270"
+    },
+    {
+     "key": "D",
+     "html": "0.281"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a2/a2899e1dbac98c067e16.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Find the probability that a sum of 3 appears before a sum of 7 when rolling two fair dice repeatedly.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/87/8722d59b3c356937f412.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/99/995ab8fcb4efc1d8419d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/4e/4edd89824b7173364bd0.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/05/05732bf8cf3c2609eb40.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5b/5b1e074344da45e39e79.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A vault has two destruct switches.<br />\n<em>X</em>(hidden) and <em>Y</em>(visible). Engineer obscure.<br />\n• The vault beeps normally (<em>Y</em> = 0) in two scenarios:<br />\n(i) 30% of the time with <em>X</em> disarmed (<em>X</em> = 0).<br />\n(ii) 45% of the time with <em>X</em> armed (<em>X</em> = 1).<br />\n• The vault blares alarms (<em>Y</em> = 1) otherwise.<br />\nDuring a drill, the vault beeps normally what’s the probability the vault was armed.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.45"
+    },
+    {
+     "key": "B",
+     "html": "0.75"
+    },
+    {
+     "key": "C",
+     "html": "0.65"
+    },
+    {
+     "key": "D",
+     "html": "0.6"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/21/21b58050bb8d3bfaa86d.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Three fair coins are tossed. Given that atleast one tail has occurred, what is the probability that atmost one head has occurred?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/c5/c50b58dd03cc714f1193.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/11/113919501d693bc704b1.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/e4/e4d9d11de8434cacc45d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/73/73833ec412a57e333d93.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/86/86c94fd4a219886fd390.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Let the joint probability density function of a random variables <em>X</em> and <em>Y</em> be given by:</p>\n\n<div> </div>\n\n<div><img align=\"absmiddle\" alt=\"\" src=\"media/b4/b43123f4f6c5672e0fd9.png\" /></div>\n\n<div>Calculate the probability <em>P</em>(1 < <img alt=\"\" src=\"media/51/51c1dc63b87a827a01b9.png\" /> < 2)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/5c/5ca5bda14ea21553f515.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/9b/9bb03220598c096afa2a.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/8b/8b7604d96fe84f50ebc1.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/5e/5edcc174cb4dac6f6813.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f3/f393f58f59728cd0d182.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider X and Y are two random independent events. It is known that <em>P</em>(<em>Y</em>) = 0.60 and <em>P</em>(<em>X</em><sup>C</sup> ∪ <em>Y</em>) = 0.80. Which one of the following is the value of <em>P</em>(<em>X</em> ∪ <em>Y</em>)?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.5"
+    },
+    {
+     "key": "B",
+     "html": "0.6"
+    },
+    {
+     "key": "C",
+     "html": "0.7"
+    },
+    {
+     "key": "D",
+     "html": "0.8"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/2957c109a2a22244745d.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>In how many different ways can 8 identical balls be distributed among three children if each receives at least two balls and no more than four balls ________?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>6</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ed/ed9554894f9c4acafc7c.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>The joint probability mass function of <em>X</em> and <em>Y</em> is given in the table below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4d/4dcc6aed917be09a1243.png\" /></div>\n\n<div>What is the marginal probability <em>P</em>(<em>X</em> = 2)?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.5"
+    },
+    {
+     "key": "B",
+     "html": "0.6"
+    },
+    {
+     "key": "C",
+     "html": "0.45"
+    },
+    {
+     "key": "D",
+     "html": "0.35"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5b/5be9b058822994c38090.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Suppose an algorithm process an input of size <em>n</em>, and in each of <em>n</em> steps, it select an index <img align=\"absmiddle\" alt=\"\" src=\"media/8d/8d41ce36102cc1eecf98.png\" /> ∈ {1, 2, ..., <em>n</em>} uniformly at random. Let <em>A</em> be the event that the index <img align=\"absmiddle\" alt=\"\" src=\"media/c6/c6238032d1fc7c7d9de7.png\" /> are never selected in any of the n steps.<br />\nAs <em>n</em> → ∞, what is the limiting value of the probability of event <em>A</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/26/26d39d23ca0fbe9a9fa1.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/5e/5e8e83f287cf7261983d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/b5/b57ebad4c21c78bd59d7.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/db/dbdad11e4afe5032ea06.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Let <em>X</em> and <em>Y</em> be continuous random variable with the joint probability density function given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e4/e4b02047c08a49f4ffce.png\" /></div>\n\n<div>Let <img align=\"absmiddle\" alt=\"\" src=\"media/6f/6f1c6d43a97005cc5de3.png\" /> denoted the marginal probability of <em>X</em>, find the probability <img align=\"absmiddle\" alt=\"\" src=\"media/b1/b14080b4854db064e7be.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/6d/6d798a0944bb309069ca.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/01/01a1ee128d243a85cbe4.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/20/203a8349241d2b3201e7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/05/0563ce4a677ff8f8553a.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1b/1b2dac1bf7b0e425b09d.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>The joint density function of <em>X</em> and <em>Y</em> is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/70/703e53eae60056d2cf0e.png\" /></div>\n\n<div>What is the probability <em>P</em>(<em>X</em> > 1, <em>Y</em> < 1)?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/66/6661073f019a520b2d6a.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/aa/aaf5b9f6b59b3562c683.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/18/181a4016575c03896848.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/b2/b2fecafea43e8e4834d6.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/18/18c2e6e9b738182fe300.png\" /></div>\n\n<div><img alt=\"\" src=\"media/dc/dcc7a6d9d28db2ca84e5.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Let <em>A</em> and <em>B</em> be two events in a probability space with <em>P</em>(<em>A</em>) > 0 and <em>P</em>(<em>B</em>) > 0.<br />\nWhich of the following statements is/are necessarily true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "If <em>A</em> and <em>B</em> are independent, they cannot be mutually exclusive"
+    },
+    {
+     "key": "B",
+     "html": "If <em>A</em> and <em>B</em> are mutually exclusive, they cannot be independent."
+    },
+    {
+     "key": "C",
+     "html": "If <em>A</em> and <em>B</em> are independent, then <em>P</em>(<em>A</em> ∪ <em>B</em>) = <em>P</em>(<em>A</em>) + <em>P</em>(<em>B</em>)."
+    },
+    {
+     "key": "D",
+     "html": "If <em>A</em> and <em>B</em> are mutually exclusive, then <em>P</em>(<em><u>A</u></em> ∩ <em>B<sup>C</sup></em>) = <em>P</em>(<em>A</em>)."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/16/1633a91b8a8973420807.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 4,
+   "MCQ": 12,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

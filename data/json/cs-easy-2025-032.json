@@ -1,0 +1,496 @@
+{
+ "v": 1,
+ "id": "cs-easy-2025-032",
+ "title": "Topicwise Test-9 Part Syllabus GATE 2025 CS Engineering Mathematics-1",
+ "sourceTitle": "Topicwise Test-9 Part Syllabus GATE 2025 CS Engineering Mathematics-1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2025",
+ "num": 32,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/095_Topicwise Test-9 Part Syllabus GATE 2025 CS Engineering Mathematics-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>If for a matrix, rank equals both the number of rows and number of columns, then the matrix is called</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Non-singular"
+    },
+    {
+     "key": "B",
+     "html": "Singular"
+    },
+    {
+     "key": "C",
+     "html": "Transpose"
+    },
+    {
+     "key": "D",
+     "html": "Minor"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/63/6393e27593a721f6ebc8.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>If the matrix <em>A</em> is defined as <em>A</em> = <img align=\"absmiddle\" alt=\"\" src=\"media/8b/8bc2095423dd728a9aed.png\" /> the sum of eigen values of <img align=\"absmiddle\" alt=\"\" src=\"media/d3/d301cb18d9fa04321ddc.png\" /> is _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    124,
+    124
+   ],
+   "answerText": "124",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>124 [124 - 124]</p>\n\n<p><img alt=\"\" src=\"media/2b/2b8a3a16e7511778aabe.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the matrix</p>\n\n<p><img alt=\"\" src=\"media/73/7343cae10ad10516b6b5.png\" /></p>\n\n<p>Eigen vectors of the matrix <em>A</em> is/are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/ae/ae4d062b349b2172adfd.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/51/512414fa1b7969b9ddee.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/a8/a8a6b56c560f5b127d3c.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/66/66d5a62f95153e5cde06.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<p><img alt=\"\" src=\"media/16/16ece9f6001afa29c317.png\" /></p>\n\n<p><img alt=\"\" src=\"media/9a/9ae260e03877071b13b9.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Let <em>A</em><sub><em>n</em> × <em>n</em></sub> be matrix of order n and <img align=\"absmiddle\" alt=\"\" src=\"media/f5/f50d1d83b981e7b047bc.png\" /> be the matrix obtained by interchanging the first and second rows of unit matrix <img align=\"absmiddle\" alt=\"\" src=\"media/17/17d5154ffb4a2febfe1d.png\" /> is such that its first</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "row is the same as its second row"
+    },
+    {
+     "key": "B",
+     "html": "row is the same as second row of A"
+    },
+    {
+     "key": "C",
+     "html": "column is the same as the second column of A"
+    },
+    {
+     "key": "D",
+     "html": "row is a zero row"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/b6/b6fc9aab4b4f3a6ab748.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>The value of <img align=\"absmiddle\" alt=\"\" src=\"media/0e/0e144cc1c82c16127228.png\" /> for which the system of equations <img align=\"absmiddle\" alt=\"\" src=\"media/dd/dda369803c86b0d1b99c.png\" /> has no solution is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3"
+    },
+    {
+     "key": "B",
+     "html": "-3"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "-2"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/fd/fd60b96ce8bb7205bd64.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Suppose that a book of 1200 pages contains 80 printing mistakes. Assume that these errors are randomly distributed throughout the book and x, the number of errors per page has a poisson distribution. The probability that 15 pages selected at random will be free of error is _________.<br />\n(correct upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.35,
+    0.38
+   ],
+   "answerText": "0.37",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.37 [0.35 - 0.38]</p>\n\n<p><img alt=\"\" src=\"media/54/5487dec9d0134ffca49b.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>If the letters of the word ‘ASSASIN’ are rearranged, the probability that three S’s come simultaneously in the rearranged word is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/1b/1b2f9328462bf5281689.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/bf/bfc739151c9cd1b439c4.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/66/664472fb3272d746e1a8.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/fd/fd5d29a1de8a64663d03.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/7c/7cee90a19c640267eb1e.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>If the probability density function of a continuous random variable <img align=\"absmiddle\" alt=\"\" src=\"media/4a/4a3642fb5e7001c013fb.png\" /> is given by</p>\n\n<p><img alt=\"\" src=\"media/94/9450bb666cc306123fb0.png\" /></p>\n\n<p>The probability of <img align=\"absmiddle\" alt=\"\" src=\"media/cd/cde3a1d69a8126d4d108.png\" /> is ________. (Correct upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.25,
+    0.3
+   ],
+   "answerText": "0.28",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.28 [0.25 - 0.30]</p>\n\n<p><img alt=\"\" src=\"media/7f/7fcbfeaa3a2c300f6938.png\" /></p>\n\n<p><img alt=\"\" src=\"media/28/28f2ccbf975b4aef6539.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>A continuous random variable <em>X</em> has the probability distribution function,</p>\n\n<p><img alt=\"\" src=\"media/da/daabde80efc486557b41.png\" /></p>\n\n<p>The variance of <em>X</em> is</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.4,
+    0.6
+   ],
+   "answerText": "0.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.5 [0.4 - 0.6]</p>\n\n<p><img alt=\"\" src=\"media/05/052db07327ff8fdd0903.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Two cards are drawn one after the other from a well-shuffled deck of 52 cards. The probability that both are spade cards, if the first card is not replaced is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/be/bed33c0bd832e71d1b43.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/9e/9ef9629f4c0298e7d738.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/b5/b5ad3d75bdf688ec2853.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/cf/cf19f58e7f9328c957de.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/97/973e0c157a6f1a568555.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>The probability of a man hitting the target is <img align=\"absmiddle\" alt=\"\" src=\"media/ef/efb2d5a8328c10264cbe.png\" /> Then the number of times, he must fire so that the probability of him hitting the target atleast once, is more than 90% is______. (Round off the answer to the next nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>6 [6 - 6]</p>\n\n<p><img alt=\"\" src=\"media/9d/9dedceb96b807c7e0277.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>If <em>X</em> is a binomial Random variable with <em>E</em>(<em>X</em>) = 4, <em>Var</em>(<em>X</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/a1/a18d5f6d8e36c6542f0e.png\" /> Then <em>P</em>(<em>X</em> ≤ 1) is ______. (Answer upto three decimal digits)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.015,
+    0.02
+   ],
+   "answerText": "0.017",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.017 [0.015 - 0.020]</p>\n\n<p><img alt=\"\" src=\"media/28/28cc6adbbe1ef05170ff.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>If 2, – 4 are the eigen values of a non-singular matrix A and <img align=\"absmiddle\" alt=\"\" src=\"media/39/39443474662a0fb27b06.png\" /> then the eigen values of Adj A are <img align=\"absmiddle\" alt=\"\" src=\"media/0e/0e5701fcfe8c43f5152c.png\" /> and –y then the value of <img align=\"absmiddle\" alt=\"\" src=\"media/b6/b6ff155c16295b32e6a1.png\" /> + y is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -6,
+    -6
+   ],
+   "answerText": "-6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>-6</p>\n\n<p><img alt=\"\" src=\"media/7b/7b379fb92f58e92f3fbf.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider four students in a class, and their marks in exam was 40, 50, 60 and 70. The standard deviation of this data set is ________ (upto two decimal places).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    11,
+    12
+   ],
+   "answerText": "11.18",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>11.18 [11.00 - 12.00]</p>\n\n<p><img alt=\"\" src=\"media/8d/8dd4ac211bd7376891a8.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>If <img align=\"absmiddle\" alt=\"\" src=\"media/c9/c945ccc5ab5e639761a9.png\" /> then the value of α is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/27/27f46cc99fc57dde9ea5.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/36/365e2b44babac3970837.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/b5/b538cfaa9047539db74a.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/d1/d1f0c65e6c405c0b05d1.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/6f/6f66cee251aae8b70e7f.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Which of the following represents the <em>LU</em> decomposition of the given matrix. (Using Doolittle’s and method)</p>\n\n<p><img alt=\"\" src=\"media/e5/e5df8c1d32336c2acf33.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/ce/ced01ac3bc2a8586c8b2.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/2a/2a04fbeddad4d0c96fba.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/b5/b5c6e144c70c3a548484.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/31/31f93c4a46d9a0d99fe3.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/ee/ee2556054320e7a0eb6c.png\" /></p>\n\n<p><img alt=\"\" src=\"media/90/9044ca9903acaa8f81dc.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Suppose <em>X</em> and <em>Y</em> are random variables such that</p>\n\n<p><img alt=\"\" src=\"media/b4/b481b678c2bba2b048fa.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    20,
+    20
+   ],
+   "answerText": "20",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>20</p>\n\n<p><img alt=\"\" src=\"media/22/229b616aecfee8ada7fe.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 7,
+   "NAT": 9,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

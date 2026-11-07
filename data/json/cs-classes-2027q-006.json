@@ -1,0 +1,384 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-006",
+ "title": "DVRUO Classes GATE CS | C-Programming | Number representation & Integer promotion | Weekly Quiz 1",
+ "sourceTitle": "DVRUO Classes GATE CS | C-Programming | Number representation & Integer promotion | Weekly Quiz 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 6,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1620,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "C-Programming"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/084_exam_962_GO Classes GATE CS C-Programming Number representation & Integer promotion Weekly Quiz 1Popular.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider &nbsp;the number $1001$ in $2's$ Complement number system _________",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -7,
+    -7
+   ],
+   "answerText": "-7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 7</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 15)</small></h4><a name=\"403573\"></a><div itemprop=\"text\">Value of $(1001)_{2}$ (signed number) in $2$’s complement system is $-2^{3}+1 = -7$</div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"403632\"></a><div itemprop=\"text\"><p><em>2’s compliment of 1001 = 1111 where the last 1 on rhs is the sign bit. </em></p>\n\n<p><em>So, 111 in binary = 7 in decimal. </em></p>\n\n<p><em>After applying the -ve sign, the equivalent decimal value = -7.</em></p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"403880\"></a><div itemprop=\"text\">(1001)2 is a 4 bit signed number.So in 2’s complement system its binary equivalent is -2^3+2^0=-8+1=-7 there is also another method as (1001)2 is a signed number and its MSB is 1 then it is a negative number.So take 2’s complement of this number and convert it to a decimal &nbsp;equivalent number appending with (-ve) sign .<br>\n<br>\n2’s complement of (1001)2 is (0111)2 and if we convert it to a decimal number appending with (-ve) sign then it would be (-7)</div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"403622\"></a><div itemprop=\"text\"><p>Since <span style=\"font-size:10.8333px\">the number is in 2s compliment form and MSB =1, decimal value = -2^3 + 1 = -7</span></p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"404480\"></a><div itemprop=\"text\">4-bit signed number is 1001 &nbsp;now we need to find decimal of the binary considering it to be in 2’s compliment System. also since it was given that it is a signed number so it was not needed to tell about the 2’s compliment system.<br>\n<br>\nnow &nbsp;there are two method two convert the binary 2’s comp to decimal first and the easy way is to take sum of each &nbsp;multiplication of each bits with its 2’s power depending on the place of the bit if 1 bit is at place 3 from right then multiply 1 with ${2}$$^{2}$ but since it is 2’s comp so just multiply -1 to the MSB → &nbsp;then ${1001(in decimal) = (-1*1*2}$$^{3}$${)+0+0+(1*2}$$^{0}$${)=-8+1=-7}$<br>\n<br>\n&nbsp;<br>\n<br>\n${Hence }$ &nbsp;&nbsp;&nbsp;${ Ans: -7}$</div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"404931\"></a><div itemprop=\"text\"><p><strong>Method 1 :&nbsp;</strong></p>\n\n<p>Multiply the most significant bit value to -1 and convert the rest of the bits according to their actual value.</p>\n\n<p>1001&nbsp; ≡&nbsp; -1.(2³)&nbsp; +&nbsp; 0.2²&nbsp; +&nbsp; 0.2¹&nbsp; + 1.2⁰&nbsp;≡ -7 (This is our ans)</p>\n\n<p><strong>Method 2 :</strong></p>\n\n<ol>\n\t<li>&nbsp;If the number is positive(most significant bit is zero) then convert the number to decimal normally.</li>\n\t<li>&nbsp;If the number is negative, Take 2’s complement, Convert the number to decimal, put minus sign in the front.</li>\n</ol>\n\n<p>Given number : 1001</p>\n\n<p><strong>Step 2.1 : Calculate 2’s complement</strong>:</p>\n\n<p>2’s complement of 1001 = 0110 + 1 = 0111</p>\n\n<p><strong>Step 2.2 : Convert the number to decimal:</strong></p>\n\n<p>0111 in binary&nbsp;= 7 in decimal</p>\n\n<p><strong>Step 2.3 : Put a minus sign in the front:</strong></p>\n\n<p>-7 (This is our ans)</p></div></section></div><p><a href=\"https://gateoverflow.in/403572\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Minimum Number of bits to present $+14$ in binary in $2's$ complement system?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1110,
+    1110
+   ],
+   "answerText": "01110",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 15)</small></h4><a name=\"403571\"></a><div itemprop=\"text\">$14$ is $1110$ but in $2's$ complement system we need to represent it as $01110.$</div></section><section><h4>Source solution 2 <small>(score: 8)</small></h4><a name=\"403788\"></a><div itemprop=\"text\"><p>In 2’s complement system, the MSB denotes the sign of the number as:</p>\n\n<p><em><strong>MSB = 0</strong> =&gt; Positive number</em></p>\n\n<p><em><strong>MSB = 1</strong> =&gt; Negative number</em></p>\n\n<p>+14 in binary is actually 1110 but since MSB here is 1 which signifies it as negative no. but actually it is a positive no.&nbsp;</p>\n\n<p>So, for correct depiction we have to make MSB as 0.</p>\n\n<p>Hence, +14 = 01110 in 2’s complement system.</p>\n\n<p>Thus, minimum <strong>5 bits</strong> are required.</p></div></section><section><h4>Source solution 3 <small>(score: 4)</small></h4><a name=\"403624\"></a><div itemprop=\"text\">For n number of bits, the range of numbers in 2s compliment form is,<br>\n<br>\n-2^n-1 to 2^n-1 – 1.<br>\n<br>\nSo, we will need minimum 5 bits to represent +14,</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"403662\"></a><div itemprop=\"text\">14 in binary is 1110. But to represent it in 2’s complement number system we should add one more bit at MSB.<br>\n<br>\nSo answer is 01110.</div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"403881\"></a><div itemprop=\"text\"><p>Minimum Number of bits to present +14 in binary in 2’s complement system =&nbsp;<strong>⌈log2(14)⌉+1&nbsp;</strong>=4+1=5&nbsp; &nbsp; &nbsp; [ 1 bit extra as for sign bit ]</p>\n\n<p>+14 representation in 2’s complement system is (01110)2</p></div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"404486\"></a><div itemprop=\"text\">since it is +14 i.e MSB is 0 now we just have to write binary of 14 and if its MSB is 1 then extend with 0 so binay of 14 is 1110 now to be in 2’s compl system as +14 we need MSB &nbsp;0 so extending 1110 with 0<br>\nhence +14 (2’s comp binary) = 01110</div></section></div><p><a href=\"https://gateoverflow.in/403570\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $2's$ complement system with $16$-bit short integer size. What is the smallest value that can be stored in a signed short?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-2^{15}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-2^{15}-1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-2^{16}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$-2^{16}-1$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"403574\"></a><div itemprop=\"text\">Range of $n$ bit binary number is $-2^{n-1}$ &nbsp;to &nbsp;$2^{n-1}-1$<br>\n<br>\nBit pattern of smallest inumber s $1000000...0(n-1 times)$<br>\n<br>\nBit pattern of largest number is $0111111......1(n-1 times)$<br>\n<br>\nFor $n=16$ bits, smallest value is $-2^{15}$</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"403580\"></a><div itemprop=\"text\"><p><strong>The range for 2’s complement system with n bits :&nbsp;</strong>$(-2^{n-1})\\,\\, to\\,\\, (2^{n-1}-1)$</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"403882\"></a><div itemprop=\"text\">In 2’s complement system with 16 bit short integer size the smallest value that can be stored in a signed short<br>\n<br>\nto get the smallest value our intension should be making the MSB is 1 and rest all other bits (16-1=15) is 0.<br>\n<br>\n1000000000000000=- 2^15 &nbsp;is the smallest value that can be stored in a signed short .</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"404487\"></a><div itemprop=\"text\">since short is 16 bit _ _ _ _ _ ….. _ _ so by setting all the bits to either 0 or 1 will give us a all posible 16 bit numbers now,<br>\n<br>\nthey asked what is the minimum signed short , since it is signed then we know that MSB i.e ${2}$$^{15}$ will be multiplied to -1 and it will be considered in ans if its corresponding bit is set to 1 now since we need minimum then i can say minimum is -ve without having any addition that is just ${2}$$^{15}$ corresponding bit should be set to 1 and other should be set to 0 so the value is ${-2}$$^{15}$<br>\n${Ans : A}$</div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"541787\"></a><div itemprop=\"text\"><blockquote><p>Given 16 it.</p><p>&nbsp;</p><p>And we know Minimal 2s Complement range is in (-ve direction) = (<strong data-sfc-root=\"ep\" data-complete=\"true\">-2^n-1)</strong></p><p>&nbsp;</p><p><b>P</b>ut the n = 16 so -2^16-1 = -2^15 That is a Answer.&nbsp;</p></blockquote><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>OR</strong></p><blockquote><p><strong>G</strong>iven k=16 ; For Smallest Signed Short Just put in&nbsp;<strong>MSB = 1 and Rest is all 0.</strong></p><p>&nbsp;</p><p>So&nbsp;&nbsp;<strong>1000000000000000 = -2^15 +0+0+0+0+0+0+0+0+0+0+0+0+0+0+0 = -2^15&nbsp;</strong></p></blockquote><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/403569\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of the following program?</p><p>(Assume $2’s$ complement system for signed numbers)</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {\n    int i = -1;\n    int x = (unsigned char)i;\n    printf(\"%d\", x);\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$255$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A huge number</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$11111111$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 37)</small></h4><a name=\"403575\"></a><div itemprop=\"text\"><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int i= -1;</pre><p>Asumming&nbsp;$int$ to be of $32$ bit in size,&nbsp;$i= 1111 1111 1111 1111 1111 1111 1111 1111$ $=&nbsp;(FFFFFFFF)_{16}$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int x = (unsigned char)i;</pre><p>The value of i is explicitly type casted to unsigned char and then copied to new signed integer variable $x$</p><p>Variable $x$ in memory is $x= 0000 0000 0000 0000 0000 0000 1111 1111$ $=&nbsp;&nbsp;(000000FF)_{16}$&nbsp;</p><p>Zero extension after truncation happens here as source variable&nbsp;$i$ is first type casted to unsigned character</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%d\", x)</pre><p>Display the value of $x$ as signed integer.</p><p>$x$ has 0 in MSB and is positive integer with value 255</p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"497489\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"593\" height=\"600\" src=\"media/e1/e1cfc39a234f567c8976.jpg\"></p><p><strong>Option B)</strong></p></div></section><section><h4>Source solution 3 <small>(score: 12)</small></h4><a name=\"403604\"></a><div itemprop=\"text\"><p><strong>1.</strong> <u><strong>int i = -1;</strong></u></p>\n\n<p>-1 is represented as (1)$_{2}$ in 2’s complement system. Let’s assume size of int as 32 bits. So, i =&nbsp;(111 ...$_{32}$ $_{times}$...1)$_{2}$ in memory. ((111 ...$_{32}$ $_{times}$...1)$_{2}$ = (1)$_{2}$ = (-1)$_{10}$ in 2’s complement system)</p>\n\n<p><strong>2.</strong> <u><strong>int x&nbsp;= (unsigned char) i;</strong></u></p>\n\n<p>1st&nbsp;operation is type conversion of i from int to unsigned char, so there is a truncation from (11...$_{32}$ $_{times}$...1)$_{2}$ to (11...$_{8}$ $_{times}$...1)$_{2}$. And 2nd&nbsp;operation is extension from unsigned char to int, and specifically zero extension because source is unsigned. So, x =&nbsp;(00...$_{24}$ $_{times}$...011...$_{8}$ $_{times}$...1)$_{2}$ =&nbsp;(255)$_{10}$.</p>\n\n<p><strong>3.</strong> <u><strong>printf(“%d”, x);</strong></u></p>\n\n<p>x =&nbsp;(00...$_{24}$ $_{times}$...011...$_{8}$ $_{times}$...1)$_{2}$. So, the signed representation of&nbsp;(00...$_{24}$ $_{times}$...011...$_{8}$ $_{times}$...1)$_{2}$ is 255 in decimals.</p>\n\n<p>Ans is B.</p></div></section><section><h4>Source solution 4 <small>(score: 4)</small></h4><a name=\"404933\"></a><div itemprop=\"text\"><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int i = -1;\n\n/* We know that i willbe stored using 2's complement system.\n   The bit representation of -1 using 2's complement system \n   for an n bit integer(Let us assume n=32 here) willbe,\n   [1][1][1][1][1]......[1] i.e. 1 in all the 32 bits.\n*/\n\nint x = (unsigned char) i;\n/* In the line 9, we will first explicitly cast the type of i to\n   unsigned character. Unsigned character is 8 bits, so we will \n   truncate all the bits just keeping the 8 least significant bits.\n   the new bit representation of the number willbe : 11111111\n*/\n/* As we are assigning the number to a data type of higher memory\n   allocation, there willbe an extension. As our source is unsigned\n   this willbe a zero extension. so the new number will look like:\n   [0][0][0].....[0][1][1][1][1][1][1][1][1]\n   zero in all the extended bits and 1 in the 8 least significant bits.\n*/\nprintf(\"%d\",x);\n// Our number will have a decimal value of 255, and that willbe printed.\n// Sign will remain positive as it has zero extension in the begining.</pre>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 5 <small>(score: 2)</small></h4><a name=\"404488\"></a><div itemprop=\"text\">(Here we are seeing all data as it will be stored in memory)<br>\n-1(In binary is ) = 1 1 1 1 1 1…… 1 (32 bit)<br>\n<br>\nhence i = 1 1 1 1 1 …..1(32 bit)<br>\n<br>\nnow int x &nbsp;= (unsigned char) i ; &nbsp;so this will truncate i to 8 bit as 1 1 1...1 now we will consider this binary as unsigned now since it is char so integer promotion will happen and 8 bit will extend to 32 bit and since it is unsigned as given by typecasting it will extend zero<br>\n<br>\nx = 0 0 0 0….0 1 1 1 1 1 1 1 1(32 bit)<br>\nnow %d tells to convert binary value to decimal ${ = (since}$ 8 bits set to ${1 = 2}$$^{8}$${-1)= 256-1=255}$<br>\n<br>\n${Ans : B}$</div></section><section><h4>Source solution 6 <small>(score: 1)</small></h4><a name=\"430502\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/b6/b66cd6c90899105fdf1b.png\"></p><p>Here, <code>i</code> is an integer with a value of <code>-1</code>.</p><p>int x = (unsigned char)i;</p><p>&nbsp;</p><ul><li><p>The value of <code>i</code> (which is <code>-1</code>) is cast to <code>unsigned char</code>. Since <code>unsigned char</code> is an unsigned type, the negative value will be converted to a positive value by wrapping around. The conversion process involves taking the two's complement representation of <code>-1</code> in 8-bit form.</p><p>In an 8-bit system, <code>-1</code> is represented as <code>1111 1111</code>. When this value is interpreted as an <code>unsigned char</code>, it represents the largest possible value for an 8-bit unsigned number, which is <code>255</code>.</p></li><li><p>printf(\"%d\", x);</p></li><li><p>The <code>printf</code> function prints the value of <code>x</code> as an integer (<code>%d</code>). Since <code>x</code> is now <code>255</code>, the output will be <code>255</code>.</p></li><li><p>This is because casting <code>-1</code> to <code>unsigned char</code> results in <code>255</code>, as <code>-1</code> wraps around to the maximum value representable by <code>unsigned char</code>.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/403568\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In C programming, constant integers are considered to be signed integers by default. One way to represent them as an unsigned constant is by appending $\\text{U}$ as a suffix. For example, $-1$ is signed, whereas $-1\\text{U}$ is unsigned.</p><p>Which of the following condition(s) is/are TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-3 &gt; -4\\text{U}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-1\\text{U} &gt; -2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-1\\text{U} &gt; 0\\text{U}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$-1 &gt; 1$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 53)</small></h4><a name=\"374174\"></a><div itemprop=\"text\"><p>​​​​​​Option A : <strong>–&nbsp;3 &gt; –&nbsp;4U</strong> →&nbsp;bit pattern of –&nbsp;3 = 111...1101 and –&nbsp;4 = 111...1100. Here, one operand is unsigned int and one is signed int, so signed int&nbsp;will be promoted to unsigned int. From, the before mentioned bit pattern, by comparing last 4 bits, we can say that bit pattern of –&nbsp;3 has greater value than that of –&nbsp;4. Thus, it will evaluate to <strong>True</strong>.</p>\n\n<p>Option B : <strong>–&nbsp;1U &gt; –&nbsp;2</strong> →&nbsp;bit pattern of –&nbsp;1 = 111...1111 and –&nbsp;2 = 111...1110. For reasons same as mentioned in Option A’s explanation,&nbsp;we can say that bit pattern of – 1&nbsp;has greater value than that of – 2. Thus, it will evaluate to <strong>True</strong>.</p>\n\n<p>Option C&nbsp;: <strong>–&nbsp;1U &gt; 0U</strong>&nbsp;→&nbsp;bit pattern of –&nbsp;1 = 111...1111 and 0&nbsp;= 000...0000. For reasons same as mentioned in Option A’s explanation,&nbsp;we can say that bit pattern of – 1&nbsp;has greater value than that of 0. Thus, it will evaluate to <strong>True</strong>.</p>\n\n<p>Option D : <strong>–&nbsp;1 &gt; 1</strong> →&nbsp;here, both operands are signed, and –&nbsp;1 is smaller than 1. Thus, it will evaluate to <strong>False</strong>.</p>\n\n<p><strong>Answer –&nbsp;A, B, C</strong></p></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"384239\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p><strong>​​​​​​Option A :&nbsp;</strong>&nbsp; &nbsp; &nbsp; (2^32 –&nbsp;2)&nbsp;&nbsp;<strong>&gt;</strong>&nbsp;(2^32 –&nbsp;3)&nbsp; &nbsp; &nbsp;→&nbsp; <strong>TRUE</strong></p>\n\n<p><strong>Option B :&nbsp; &nbsp; </strong>&nbsp; (2^32)&nbsp; &nbsp;&nbsp;<strong>&gt;</strong>&nbsp;(2^32 – 1)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;→&nbsp; <strong>TRUE</strong></p>\n\n<p><strong>Option C:&nbsp; </strong>&nbsp; &nbsp; &nbsp;(2^32)&nbsp;&nbsp;<strong>&gt;</strong>&nbsp;0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; →&nbsp; <strong>TRUE</strong></p>\n\n<p><strong>Option D&nbsp;:&nbsp; &nbsp;</strong> &nbsp; -1&nbsp;&nbsp;<strong>&gt;</strong> &nbsp;1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;→&nbsp; <strong>FALSE</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>REF →</strong>&nbsp;<a rel=\"nofollow\" href=\"https://stackoverflow.com/questions/50605/signed-to-unsigned-conversion-in-c-is-it-always-safe\" target=\"_blank\">https://stackoverflow.com/questions/50605/signed-to-unsigned-conversion-in-c-is-it-always-safe</a></p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"404491\"></a><div itemprop=\"text\">we know -1U means -1 in unsigned type<br>\nAlso we should one thing that is type conversion precedence <br>\n<br>\nChar/Short ${&lt;}$ signed int ${&lt;}$ unsigned int … etc <br>\nso now we know if in a expression signed int is with unsigned then we have to consider the signed as signed too.<br>\nA) ${-3}$ ${&gt;}$ ${-4U}$ &nbsp;&nbsp;so since ${-4}$ is to be considered unsigned so ${-3}$ will also be considered as unsigned<br>\n&nbsp;hence ${-3 &gt; -4U}$ becomes ${-3U &gt; -4U}$ &nbsp;&nbsp;<br>\n&nbsp;&nbsp;${ -3 → 111111111...101 = } $(unsigned value is ) ${2}$$^{32}$${-1-2 &nbsp;}$ &nbsp;&nbsp;&nbsp;and ${ &nbsp;-4 → 111..1100 &nbsp;= }$ (unsigned value is) ${2}$$^{32}$${-1-2-1}$ hence ${-3 &gt; -4U}$ is ${ true} $<br>\n<br>\nSimilarly ,<br>\nB) ${-1U &gt; -2= (unsigned)11111111..11 &nbsp;&gt; (unsigned) 1111...110 = 2}$$^{32}$${-1 &gt; 2}$$^{32}$${-1-1}$ which is true .<br>\nC) &nbsp;&nbsp;${-1U &gt; 0U= (unsigned)11111111..11 &nbsp;&gt; (unsigned) 000000...0 = 2}$$^{32}$${-1 &gt; 0}$ which is true .<br>\nD) &nbsp;${-1 &gt; 1= 1111111..11 &nbsp;&gt; 00000...001 = -1 &gt; 0}$ which is false<br>\n<br>\n${Hence }$ &nbsp;&nbsp;${Ans: A,B,C}$</div></section></div><p><a href=\"https://gateoverflow.in/374143\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output on the execution of the following code segment?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">main()\n{\n    unsigned num1=-1;\n    signed num2=1;\n    if(num1 &lt; num2)\n        printf(\"less\");\n    else if(num1&gt;num2)\n        printf(\"greater\");\n    else if(num1==num2)\n        printf(\"equal\");\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>greater</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>less</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>equal</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>error</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"403576\"></a><div itemprop=\"text\">Bit pattern of $-1$ is $1111....1111$, which is $num1$<br>\n<br>\nBit pattern of $1$ is $0000….0001$, which is $num2$<br>\n<br>\nBoth $num1$ and $num2$ are compared in if else-if conditions of given code.<br>\n<br>\n$num1$ is unsigned and hence $num2$ is promoted to unsigned <br>\n<br>\n$num1 &gt; num2$ evalutes to $TRUE$<br>\n<br>\nSo $greater$ is printed</div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"374837\"></a><div itemprop=\"text\">$\\textsf{num1}$ will be a huge number (all one's in binary) when treated as unsigned</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"375615\"></a><div itemprop=\"text\">-1 in binary is represented in 2’s complement form. So 111111…..11 and now it is telling that it is unsigned..so num1 will be a huge number than num2.<br>\n<br>\nSo, answer will be greater.</div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"403664\"></a><div itemprop=\"text\"><p>num1 in binary 1….111(32 bit pattern)&nbsp;</p>\n\n<p>num2 in binary 0….001(32 bit pattern)</p>\n\n<p>Given num1 is unsigned and num2 is signed while we are doing&nbsp;comparison both numbers should be in same level. So,&nbsp;num2 also prompts to unsigned.</p>\n\n<p>Now num1 and num1 in unsigned format are 2^32-1 and 1 =&gt; num1 is greater than num2 =&gt; if statement fails =&gt; In&nbsp;else if&nbsp; the condition num1&gt;num2&nbsp; is true =&gt; it prints output as Greater</p>\n\n<p>Ans:&nbsp;<strong>(A)</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"403666\"></a><div itemprop=\"text\"><p>Unsigned num1 and signed num2 are by defaut considered to be integers.</p>\n\n<p><img alt=\"\" src=\"media/4e/4e977c2ad7f849336135.jpg\"></p></div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"404518\"></a><div itemprop=\"text\">-1 =11111111….1(32 bits)<br>\nnum1 =-1 hence &nbsp;&nbsp;&nbsp;num1 memory has 11111111..1(32bit)<br>\n1=00000000….01(32 bit) &nbsp;<br>\nnum2=1 &nbsp;hence &nbsp;&nbsp;&nbsp;&nbsp;num2 memory has &nbsp;00000000...01<br>\n<br>\nnum1&lt;num2 &nbsp;&nbsp;&nbsp;since num1 is unsigned so binary is converted to unsigned<br>\nhence num1 &lt; num2 &nbsp;is equal to ${2}$$^{32}$ ${-1&lt;1}$ &nbsp;which is false and it goes in else if as num1&gt;num2 in unsigned form hence greater is printed<br>\n<br>\n${Ans : &nbsp;A}$</div></section></div><p><a href=\"https://gateoverflow.in/374836\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider $k$ bit binary pattern.</p><ul><li>$T_{\\text{max}}$ and $T_{\\text{min}}$ are maximum and minimum signed numbers we can represent using $k$ bits.</li><li>$U_{\\text{max}}$ and $U_{\\text{min}}$ are maximum and minimum unsigned numbers we can represent using $k$ bits.</li></ul><p>Which of the following(s) is/are true for $k =16?$</p><p>Here $|.|$ represents absolute value of a number i.e., $|r| = -r$ if $r&lt;0$ otherwise $|r| = r.$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$|T_{\\text{min}}| = T_{\\text{max}} + 1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$U_{\\text{max}} = 2*T_{\\text{max}} +1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$U_{\\text{max}} = |T_{\\text{min}}| +T_{\\text{max}} + 1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$U_{\\text{min}} = |T_{\\text{min}}|$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 26)</small></h4><a name=\"374835\"></a><div itemprop=\"text\"><p>we do not need to take $k=16$. We can verify options by taking some smaller value also for eg: $k =4.$</p>\n\n<ul>\n\t<li>$T_{\\text{min}}= -8$</li>\n\t<li>$T_{\\text{max}}= 7$</li>\n\t<li>$U_{\\text{min}}= 0$</li>\n\t<li>$U_{\\text{max}}= 15$</li>\n</ul>\n\n<p>only $A$ and $B$ are correct.</p></div></section><section><h4>Source solution 2 <small>(score: 16)</small></h4><a name=\"403630\"></a><div itemprop=\"text\"><p>For a $k$ bit binary pattern,</p>\n\n<p>$T_{max} = 2^{k-1} -1$</p>\n\n<p>$T_{min} = -2^{k-1}$</p>\n\n<p>$U_{max} = 2^k&nbsp;–&nbsp;1$</p>\n\n<p>$U_{min} = 0$</p>\n\n<p><strong>Option A:&nbsp; &nbsp;&nbsp;</strong>$|T_{min}| = |-2^{k-1}| = 2^{k-1} = T_{max} + 1$</p>\n\n<p>So, $A$ is correct.</p>\n\n<p><strong>Option B:</strong>&nbsp; &nbsp; $2*T_{max} + 1 = 2*2^{k-1} – 2 + 1 = 2^{k} –&nbsp;1 = U_{max}$</p>\n\n<p>So, $B$ is correct.</p>\n\n<p><strong>Option C:</strong>&nbsp; &nbsp;&nbsp;<br>\n$\\begin{align*} |T_{min}| + T_{max} + 1 &amp;= 2*T_{max} + 2 &amp;&amp; \\text{(From option A)}\\\\ &amp;= U_{max} + 1 &amp;&amp; \\text{(From option B)} \\\\ &amp;\\neq U_{max} \\end{align*}$</p>\n\n<p>So, $C$ is incorrect.</p>\n\n<p><strong>Option D:</strong>&nbsp; &nbsp; $U_{min} = 0 \\neq&nbsp;|T_{min}|$</p>\n\n<p>So, $D$ is incorrect.</p>\n\n<p>$\\therefore$&nbsp;<strong>Answer: $A, B$.</strong></p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"404520\"></a><div itemprop=\"text\"><p>${T}$$_{max}$ and&nbsp;${T}$$_{min}$ are max and min signed number of k bits since signed then while converting binary to number msb i.e ${2}$$^{31}$ has -1 multiplied to it and rest is same&nbsp; so&nbsp;&nbsp;${T}$$_{max}$ is with msb as 0 and rest bit set to 1 to get no negative addition and&nbsp;${T}$$_{min}$ has only negative so only msb is set to one and rest bit is set to 0 and same for ${U}$$_{max}$ will have all bit set to 1 as unsigned and for ${U}$$_{min}$ each bit set to 0.&nbsp;<br>\nhence , since k=16<br>\n${T}$$_{max}$${=2}$$^{15}$${-1}$<br>${T}$$_{min}$${=-2}$$^{15}$</p>\n\n<p>${U}$$_{max}$${=2}$$^{16}$${-1}$</p>\n\n<p>${U}$$_{min}$${=0}$</p>\n\n<p>&nbsp;</p>\n\n<p>Now</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>${|T}$$_{min}$${|=|-2}$$^{15}$${|=2}$$^{15}$<br>\n\t&nbsp; &nbsp; &nbsp;${T}$$_{max}$${+1=2}$$^{15}$${-1+1=2}$$^{15}$<br>\n\thence true</li>\n</ol>\n\n<ol start=\"2\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>${U}$$_{max}$${=2}$$^{16}$${-1}$<br>\n\t&nbsp; &nbsp; ${2*T}$$_{max}$${+1=2*(2}$$^{15}$${-1)+1=2}$$^{16}$${-2+1=2}$$^{16}$${-1}$<br>\n\thence true</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>${U}$$_{max}$${=2}$$^{16}$${-1}$<br>\n\t${|T}$$_{min}$${|+T}$$_{max}$${+1=|-2}$$^{15}$${|+2}$$^{15}$${-1+1=2}$$^{15}$${+2}$$^{15}$${=2*2}$$^{15}$${=2}$$^{16}$<br>\n\thence False</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>&nbsp;${U}$$_{min}$${=0}$<br>\n\t${|T}$$_{min}$${|=|-2}$$^{15}$${|=2}$$^{15}$<br>\n\thence False</li>\n</ol>\n\n<p>${Ans : A,B}$</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"493690\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"281\" height=\"500\" src=\"media/36/362980569f7eb0945014.jpg\">😊</p></div></section></div><p><a href=\"https://gateoverflow.in/374834\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider Figure $A$ and Figure $B$ which represent $4$ bit signed and unsigned numbers respectively in $2’s$ complement system.<br><strong><img alt=\"\" height=\"304\" width=\"791\" src=\"media/5b/5b6c1de29edd3cc8052a.png\"></strong><br>Assume that a few variables are defined below and initialized in such a way that places them in the spot shown in Figure $C$.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int s1, s2, s3;\nunsigned int u1, u2, u3;\n</pre><p>Which of the following(s) is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$s3 &gt; u3$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$s1 &gt; s3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$u1 &gt; u3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$s1 &gt; u3$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"374827\"></a><div itemprop=\"text\"><p>We can take integers as $k$ bits in the system. For an easy explanation, we are taking $k =4$.<br>Let<br>$s1 = 1001$<br>$s3 = 0010$<br><br>$u1 = 1010$<br>$u3 = 0001$<br><br>$s3$ and $u3$ will be $2$ and $1$ in decimal respectively irrespective we treat them as signed numbers or unsigned numbers (MSb is $0$).<br>$s1$ is $9$ in unsigned and $-7$ in signed.<br>$u1$ is $10$ in unsigned and $-6$ in signed.<br><br>Option $A$:<br>This is an unsigned comparison i.e., $s3$ will be treated as an unsigned number.<br>Although MSb of $s3$ is $0$ hence it does not matter.<br>$s3 &gt; u3$ is same as $2 &gt; 1$, which is true<br>Option $B$:<br>both are signed hence signed comparison<br>$s1 &gt; s3$ is same as $-7 &gt; 2$, which is false.<br>Option $C$:<br>both are unsigned hence unsigned comparison<br>$u1 &gt; u3$ is same as $10 &gt; 1$, which is true.<br>Option $D$:<br>one of the variables is unsigned hence unsigned comparison<br>$s1 &gt; u3$ is same as $9 &gt; 1$, which is true.<br><br>&nbsp;</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/fac-lIQwqa8?si=q8U1iIlzHeE__FCd&amp;t=463\">Watch Solution here! </a> &nbsp;&nbsp;</p></div><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"404521\"></a><div itemprop=\"text\"><p>In binary form we know that if we go clockwise then were successive number is greater than its previous and also we know through the type conversion precedence that unsigned int has higher precedence then signed int so if we have unsigned value than successive number is greater same happens if 2 unsigned is compared&nbsp; and if we have signed then we know it that till s4 clockwise will be higher and from s2 value will be decreasing clockwise.<br>\nNow</p>\n\n<p>s1,s2,s3 are signed and u1,u2,u3 are unsigned</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>&nbsp;s3&gt;u3 here since u3 is unsigned so both will be taken as unsigned and hence s3 &gt; u3 is correct</li>\n\t<li>s1&gt;s3 here both are signed so s1 is -ve and s3 is +ve hence s3&gt;s1 so false</li>\n\t<li>u1&gt;u3 both are unsigned and also binary of u1 is greater than u3 hence u1&gt;u3 is true</li>\n\t<li>s1&gt;u3 since u is unsigned so s3 is also considered as unsigned and we knoe binary of s1 is greater than u3 hence s1&gt;u3 is true<br>\n\t<br>\n\t&nbsp;</li>\n</ol>\n\n<p>${Ans : A,C,D}$</p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"404936\"></a><div itemprop=\"text\"><p><strong>Type Conversion :&nbsp;</strong>In case of an expression with combined data types, all the elements willbe converted to the data type of higher precedence.</p>\n\n<p>If we have unsigned int and int in the same expression all willbe converted to unsigned int (As unsigned int has higher precedence than int.)</p>\n\n<p><strong>Option A : (S3 &gt; U3)</strong></p>\n\n<p>U3 is an unsigned number, so according to&nbsp;&nbsp;<strong>Type conversion&nbsp;</strong>&nbsp;all the other elements willbe converted to unsigned int, And we know that unsigned representation of S3 &gt; U3. So this is True.</p>\n\n<p><strong>Option B : (S1 &gt; S3)</strong></p>\n\n<p>Both willbe treated as signed integers, as we know S1 starts with 1 it will have a negative value ans S3 does not starts with 1 so it will have a positive value, that means S3 &gt; S1. So&nbsp;this is False</p>\n\n<p><strong>Option C : (U1 &gt; U3)</strong></p>\n\n<p>This is True, as bit representation of U1 &gt; U3. Both are treated as unsigned numbers.</p>\n\n<p><strong>Option D : (S1 &gt; U3):</strong></p>\n\n<p>This is True. The logic is same as option A.</p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"409468\"></a><div itemprop=\"text\"><p>Simple intuition is that ,In the given figure C they’ve mentioned the boundaries and positions for each signed and unsigned variables.</p>\n\n<p>So,u3,s3,u4,s4 are on right hand side and their range is given as 000000- 011111 and these are 32 Bits.</p>\n\n<p>u1,s1,u2,s2 are on Left hand side and their range is also given 100000-1111111 and these are also 32 bits.</p>\n\n<p>Here we apply the basic principle that if we take signed variable in RHS of clock then it’ll be&nbsp;<strong>positive&nbsp;</strong>because&nbsp;<strong>msb=0&nbsp;</strong>and to unsigned variables it doesn’t matter at any point (in Lhs or rhs).</p>\n\n<p>And on LEFT Hand side signed variables range is 1000..00-11111 here&nbsp;<strong>MSB=1 i.e.&nbsp;</strong>negative values are stored here .</p>\n\n<p>As we’ve got the basic understanding of the problem so now we can easily solve it</p>\n\n<p>OptionA s3 signed +ve num and msb=0 but it’s lil bit ahead to u3.So it’s&nbsp;<strong>true.</strong></p>\n\n<p>Option<strong>&nbsp;B:False&nbsp;</strong>because s1 signed and msb=1 is lesser than s3 which is signed and msb=0</p>\n\n<p>Option C:<strong>True&nbsp;</strong>bcoz&nbsp;u1 msb=1&amp;unsigned &gt; u3 msb=0&amp; unsigned.</p>\n\n<p>Option D:<strong>True&nbsp;</strong>s1 is signed&amp;msb=0 but it’s compare with unsigned so s1 will also be taken as unsigned value .So s1&gt;u3&nbsp;</p>\n\n<p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374826\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider two program fragments given below. \\( \\text{UINT_MAX} \\) is the maximum unsigned number in the system.</p><div style=\"display: flex; justify-content: space-between; font-family:'Segoe UI', sans-serif; font-size:17px; line-height:1.8; margin-top:12px;\">&nbsp;<div style=\"width:47%;\"><p style=\"text-align:center; font-weight:bold; color:#0047ab;\">Program 1</p><p style=\"margin-left:20px;\">\\(\\texttt{main()}\\)<br>\\(\\{\\)<br>&nbsp;&nbsp;\\(\\texttt{unsigned int a = UINT_MAX;}\\)<br>&nbsp;&nbsp;\\(\\texttt{signed char c = -1;}\\)<br><br>&nbsp;&nbsp;\\(\\texttt{if (c == a)}\\)<br>&nbsp;&nbsp;&nbsp;&nbsp;\\(\\texttt{printf(\"DVRUO Classes\");}\\)<br>\\(\\}\\)</p></div><div style=\"width:47%;\"><p style=\"text-align:center; font-weight:bold; color:#0047ab;\">Program 2</p><p style=\"margin-left:20px;\">\\(\\texttt{main()}\\)<br>\\(\\{\\)<br>&nbsp;&nbsp;\\(\\texttt{unsigned int b = UINT_MAX;}\\)<br>&nbsp;&nbsp;\\(\\texttt{signed char d = -10;}\\)<br><br>&nbsp;&nbsp;\\(\\texttt{if (d == b - 10)}\\)<br>&nbsp;&nbsp;&nbsp;&nbsp;\\(\\texttt{printf(\"GATE Overflow\");}\\)<br>\\(\\}\\)</p></div></div><p style=\"margin-top:20px;\">Which of the following(s) is/are true? All the prints are without double commas.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Program \\(1\\) prints &quot;DVRUO Classes”</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Program \\(2\\) prints &quot;GATE Overflow&quot;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Program \\(1\\) does not print &quot;DVRUO Classes&quot;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Program \\(2\\) does not print &quot;GATE Overflow&quot;</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"374825\"></a><div itemprop=\"text\"><div style=\"font-family:'Segoe UI',sans-serif; font-size:17px; line-height:1.8; color:#222; background:#fff; padding:10px 5px;\"><p><strong>In Program&nbsp;1:</strong><br>If <code>(c == a)</code>, it is an <strong>unsigned comparison</strong> because of <strong>integer promotion</strong> — one of the variables is unsigned.<br>\\(-1\\) as unsigned is the same as \\( \\text{UINT_MAX} \\); therefore, the condition is true.</p><p><strong>In Program&nbsp;2:</strong><br>If <code>(d == b - 10)</code>, it is also an <strong>unsigned comparison</strong> due to <strong>integer promotion</strong> since one of the variables is unsigned.<br>\\(-10\\) as unsigned is the same as \\( \\text{UINT_MAX} - 9 \\); therefore, the condition is false.</p><p>The following figure shows that \\(-1\\) maps to \\( \\text{UINT_MAX} \\) and \\(-2\\) maps to \\( \\text{UINT_MAX} - 1 \\).<br>Similarly, \\(-10\\) maps to \\( \\text{UINT_MAX} - 9 \\).<br>If the condition had been written as <code>if (d == b - 9)</code>, it would be true.</p><div style=\"display:flex; justify-content:center; align-items:center; margin:30px 0;\"><div style=\"border-radius:12px; background:#fff; padding:10px; box-shadow:0 8px 20px rgba(0,0,0,0.15); transition:transform 0.3s ease, box-shadow 0.3s ease;\"><img alt=\"Unsigned Mapping Diagram\" width=\"520\" style=\"display:block; border-radius:10px; border:1px solid #ddd;\" src=\"media/2e/2e9d75abdb28d125fb11.png\"></div></div></div></div></section><section><h4>Source solution 2 <small>(score: 12)</small></h4><a name=\"404949\"></a><div itemprop=\"text\"><p><strong>Program 1 :</strong></p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">unsigned int a = UINT_MAX;</pre>\n\n<p>The bit representation of the value stored in variable a is –&nbsp;111111…….1(32bits)</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char c = -1;</pre>\n\n<p>The bit representation of the value stored in variable c is –&nbsp;11111...1(8bits)</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">if(c==a)</pre>\n\n<p>In the given comparison, c willbe converted to unsigned int because of type conversion. As the source is a signed char, we will have a sign extension. so it willbe extended to –&nbsp;111111…….1(32bits)</p>\n\n<p>We know that this bit representation is similar to that of variable a, so the given expression will evaluate to True and “DVRUO Classes” willbe printed in the first program.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Program 2 :&nbsp;</strong></p>\n\n<p>From the 2’s complement rule, we know that bit representation of -1 is same as UINT_MAX, similarly bit representation of -2 is similar to UINT_MAX –&nbsp;1 and the bit representation of -3 is&nbsp;UINT_MAX – 2, so if we generalize this pattern then,</p>\n\n<p>bit representation of – n&nbsp;is similar to UINT_MAX – n + 1</p>\n\n<p>so in the question, bit representation of -10 willbe UINT_MAX –&nbsp;10 + 1 = UINT_MAX –&nbsp;9</p>\n\n<p>therefore in the given comparison,</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">if(d==b-10)</pre>\n\n<p>d willbe evaluated as,&nbsp;UINT_MAX –&nbsp;9</p>\n\n<p>b willbe evaluated as,&nbsp;UINT_MAX – 10</p>\n\n<p>so the expression will evaluate to false and program2 will not print “Gate Overflow”</p>\n\n<p>&nbsp;</p>\n\n<p>Correct options : A, D</p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"475458\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"300\" height=\"364\" src=\"media/d9/d98c4f5497c3848ec3f9.jpg\"></p><p>Answer=A,D</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"492606\"></a><div itemprop=\"text\"><p>Here’s your corrected and reframed version:</p><blockquote><p>Since this question was made by Sachin Sir, the output will definitely include \"go class\". As for \"gateoverflow\", it may or may not be printed — you can make an wild&nbsp; guess about that. Hope this helps</p></blockquote></div></section></div><p><a href=\"https://gateoverflow.in/374824\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the output of the following code? Assume that int is $32$ bits, short is $16$ bits, and the representation is two’s complement.&nbsp;</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">signed short ix = -2;\nprintf( \"%u\", ix );\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2^{32}-2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2^{32}-1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2^{16}-1$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 19)</small></h4><a name=\"380004\"></a><div itemprop=\"text\">$\\boldsymbol{\\mathbf{}-2}\\ will\\ be\\ represented\\ in\\ \\mathbf{2} \\textbf{'s} \\ Complement\\ Form\\ as \\ short\\ is\\ \\mathbf{16}\\ bits\\ so\\ it\\ will\\ be\\ \\mathbf{1111...110} $<br>\n<br>\n$Now,\\ the\\ \\textbf{%u}\\ format\\ specifier\\ is\\ used\\ for\\ \\textbf{unsigned}\\ \\textbf{int}\\ so\\ \\textbf{ix}\\ variable\\ will\\ be\\ type\\ casted\\ as\\ unsigned\\ \\textbf{int}\\ is\\ higher\\ order\\ data\\ type. $<br>\n<br>\n$Therefore,\\ \\textbf{1111...110}\\ will\\ get\\ sign\\ extension\\ as\\ \\textbf{unsigned int}\\ is\\ of\\ \\textbf{32}\\ bits. $<br>\n<br>\n$Now,\\ The\\ max\\ integer\\ represented\\ in\\ \\textbf{unsigned int}\\ of\\ \\textbf{k}\\ bits\\ is\\ \\boldsymbol{\\left ( 2^{k}-1 \\right )},\\ so\\ for\\ \\textbf{32}\\ bits\\ it\\ will\\ be\\ \\boldsymbol{\\mathbf{} \\left (2 ^{32}-1 \\right )} $<br>\n<br>\n$If\\ we\\ observe\\ the\\ bit\\ pattern\\ of\\ \\boldsymbol{1111111..110},\\ the\\ rightmost\\ bit\\ \\boldsymbol{(LSB)}\\ is\\ \\boldsymbol{0}.\\ $<br>\n<br>\n$So,\\ we\\ can\\ say\\ the\\ integer\\ represented\\ will\\ be\\ \\boldsymbol{one}\\ less\\ than\\ the\\ \\boldsymbol{max}\\ integer\\ i.e \\boldsymbol{\\left ( 2^{32}- 2 \\right )}.$</div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"374179\"></a><div itemprop=\"text\"><p><strong>ix</strong> = –&nbsp;2 = 111...110 (16 bit pattern of –&nbsp;2) = <strong>FFFE</strong>.</p>\n\n<p>for printing ix will be promoted to int, since ix is signed it will undergo <strong>sign extension.</strong></p>\n\n<p>Thus the program will print decimal number equivalent of 111...110 (32 bit pattern after sign extension) ie&nbsp;<strong>FFFFFFFE</strong>, which is equivalent to <strong>2^32 –&nbsp;2</strong>.</p>\n\n<p><strong>Answer –&nbsp;B</strong></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"403629\"></a><div itemprop=\"text\">Max number represented in unsigned int of k bits = 2^k-1.<br>\n<br>\nbinary rep of -2 = 11111…….1110 (32 bits)<br>\n<br>\nHere, LSB is 0 so we can say integer represented will be 2^0=1 less than max integer i.e (2^32-1)-1 = 2^32-2</div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"403663\"></a><div itemprop=\"text\">ix = -2<br>\n<br>\n-2 in 16 bit representation is 1111111111111110.<br>\n<br>\nwe are printing the ix so, it goes on sign extension 11…..10(total 32bits) and we are printing the unsigned int format so <br>\n<br>\nvalue is &nbsp;2^32 – 2<br>\n<br>\nGenerally the value of 1…...11(bit pattern of n times 1) &nbsp;is 2^n-1<br>\n<br>\nSo 111...10 is 2^32 – 1 – 2^0 = 2^32 – 2</div></section><section><h4>Source solution 5 <small>(score: 1)</small></h4><a name=\"404522\"></a><div itemprop=\"text\">since -2 = 111111111….10(32 bits)<br>\n<br>\nsigned short ix=-2 &nbsp;&nbsp;so first ix will be created with having 16 bits and stores 1111111..10(16bits) inside it now when<br>\nin printf() function ix is used it will go through integer promotion and ix is signed so msb sign extension will happen and the value of binary will become (11111….10)(32bits) &nbsp;&nbsp;Now %u says to convert this binary into unsigned decimal and i.e ${2}$$^{32}$${-1-1=2}$$^{32}$${-2}$<br>\n<br>\n${Ans : B}$</div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"531149\"></a><div itemprop=\"text\"><figure class=\"image\"><img alt=\"\" width=\"1200\" height=\"1115\" src=\"media/e8/e854c6a51adec707db70.jpg\"><figcaption>Caption</figcaption></figure><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374135\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 14,
+  "types": {
+   "NAT": 2,
+   "MCQ": 4,
+   "MSQ": 4
+  },
+  "withoutKey": 1
+ }
+}

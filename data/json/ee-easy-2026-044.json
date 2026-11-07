@@ -1,0 +1,625 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-044",
+ "title": "Topicwise Test-19 Part Syllabus GATE 2026 EE Digital Electronics Part-1",
+ "sourceTitle": "Topicwise Test-19 Part Syllabus GATE 2026 EE Digital Electronics Part-1",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 44,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/072_Topicwise Test-19 Part Syllabus GATE 2026 EE Digital Electronics Part-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The hexadecimal equivalent of (65, 535)<sub>10</sub> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(FFFF)<sub>16</sub>"
+    },
+    {
+     "key": "B",
+     "html": "(FEFE)<sub>16</sub>"
+    },
+    {
+     "key": "C",
+     "html": "(FABF)<sub>16</sub>"
+    },
+    {
+     "key": "D",
+     "html": "(FCDE)<sub>16</sub>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/65/6556ead79df7037db9c7.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The possible minimal functions for <em>F</em> = Σ(0, 2, 3, 4, 5, 7) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ab/abb565f2a7118b13c207.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/ed/ed5330ac529c81b6552e.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/41/41c92a2a24c9aaa9642f.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/c6/c629963f2c5aadf96848.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ad/ad0e5053115fe55a2ab8.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4a/4a92296701d018c9900c.png\" /></div>\n\n<div>circuit can be used as</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "half adder"
+    },
+    {
+     "key": "B",
+     "html": "half subtracter"
+    },
+    {
+     "key": "C",
+     "html": "full adder"
+    },
+    {
+     "key": "D",
+     "html": "full subtracter"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6e/6e762252d5070d9bdc20.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Which of the following logic circuit is a realization of <em>F</em> = <em>AC</em> + <em>A</em>(<em>B</em> + <em>C</em>) + <em>C</em>(<em>B</em> + <em>C</em>)?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d1/d160af661692b5722473.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/5d/5d25c35219829e0f957b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/6b/6b29cf48ee6be6418082.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/36/367bf0898a5b171a10fc.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/03/037ffcabea65e69d92a7.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following circuit which uses a 2 to 1 multiplexer as shown in the figure below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/89/89fc7ba3951f6bdff3de.png\" /></div>\n\n<div> </div>\n\n<div>The equivalent circuit is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "XNOR gate"
+    },
+    {
+     "key": "B",
+     "html": "NOR gate"
+    },
+    {
+     "key": "C",
+     "html": "NAND gate"
+    },
+    {
+     "key": "D",
+     "html": "XOR gate"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d6f747ccb3ae0724c802.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the 4 × 1 multiplexer,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/fb/fbf8e296373dc81079a2.png\" /></div>\n\n<div>If <img align=\"absmiddle\" alt=\"\" src=\"media/81/8139d9e2cfac0b32d2d8.png\" /> then the equivalent circuit is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "X-NOR gate"
+    },
+    {
+     "key": "B",
+     "html": "NOR gate"
+    },
+    {
+     "key": "C",
+     "html": "NAND gate"
+    },
+    {
+     "key": "D",
+     "html": "XOR gate"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/54ccb1d88a91788f626c.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit shown in figure, the Boolean expression for the output <em>Y</em> in terms of inputs <em>P</em>, <em>Q</em>, <em>R</em> and <em>S</em> is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/08/0850508f0d08e72ee7f7.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/2f/2f6d95b2f7c39f0eaf62.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/6a/6ab9ba8ef787d2757da6.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/15/15ffb4e314ba8d90d9e8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/c1/c19fe8fd6651f0db9877.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4b/4b89c7683258fc4475cb.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The minimized Boolean expression for the output “X ” of the following diagram can implemented by using a</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/41/41221bf3daef5faf7b43.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2-input OR gate"
+    },
+    {
+     "key": "B",
+     "html": "2-input AND gate"
+    },
+    {
+     "key": "C",
+     "html": "2-input NAND gate"
+    },
+    {
+     "key": "D",
+     "html": "2-input NOR gate"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/14/14366f2a9ee39a8efc77.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The circuit shown in figure is a four bit</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5b/5b5f0ba7c85bb28eef4d.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "BCD to Gray code converter"
+    },
+    {
+     "key": "B",
+     "html": "Excess-3 to Gray code converter"
+    },
+    {
+     "key": "C",
+     "html": "Binary to Gray code converter"
+    },
+    {
+     "key": "D",
+     "html": "Gray code to binary converter"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/90/90310bb7a986a63909fe.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A Boolean function <em>f</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) = Σ<em>m</em>(0, 1, 3, 4, 8, 9, 15) is to be implemented using an 8 × 1 multiplexer (A is LSB). The inputs <em>ABC</em> are connected to the select input <em>S</em><sub>2</sub> <em>S</em><sub>1</sub> <em>S</em><sub>0</sub> of the multiplexer respectively.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5a/5a3a457dd20a4cde299e.png\" /></div>\n\n<div>Which one of the following options gives the correct inputs to pins 0, 1, 2, 3, 4, 5, 6, 7 in order?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/31/31f27f4e4a0a34557683.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/4d/4dca48c58918ccccb775.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/24/24f73b47974962051710.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/b3/b31cf867b74d0b555b3b.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/49/498f6e720cbe85808b78.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2c/2c6ac687f61134b0cdd9.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is/are correct about the circuit?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ca/ca208b3ac7c64d019704.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/e8/e8c5fd49c150d9cb63ab.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/41/41f8e73f90d93b8d34fe.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a3/a32955377a44917e96d5.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f7/f737bd873100b6696d2a.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The simplified Boolean expression in Product-of-sum form for the function<br />\n<em>f</em> (<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) = Σ<em>m</em>(6, 7, 9, 10, 13) + d(1, 4, 5, 11, 15) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ec/ec50c6f41455d6bc3c73.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/dd/dde1b1ba4c06b616790b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/23/235a6c3ded0547f8450a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/87/8701edc7d26465109fca.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b3/b3ef60a0b200c5046535.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following given code conversion is not correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1010 is the representation of (5)<sub>10</sub> in 3321 code."
+    },
+    {
+     "key": "B",
+     "html": "1010 is the representation of (6)<sub>10</sub> in 5211 code."
+    },
+    {
+     "key": "C",
+     "html": "1010 is the representation of (4)<sub>10</sub> in 2421 code."
+    },
+    {
+     "key": "D",
+     "html": "0101 is the representation of (3)<sub>10</sub> in 5211 code."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f8/f8a92845cb37ded79e26.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A 16-bit ripple carry adder is realized using 16 identical full adders. The propagation delay of the three input EXOR gate, OR and two input AND gates are 30 ns, 18 ns and 15 ns respectively. The worst case delay of the 16-bit adder will be ________ ns. (logic gates are available without any restriction of fan-in. Two level AND-OR circuit is used to realise carry circuit)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    528,
+    528
+   ],
+   "answerText": "528",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>528 (528 - 528)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/53/53de111bcc3cdfe704cc.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>For the half-adder circuit, the inputs applied are as shown in figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a3/a34fd8c8cb22d3befb9e.png\" /></div>\n\n<div>The corresponding SUM and CARRY outputs for the half-adder is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d2/d2a89a2d685b3d1aecbc.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/aa/aa1fa6e38cbad3b1270b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/da/da9bae6c6d397bc24bfa.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/88/882a84bb8acb8561ebc2.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8d/8deef72ba19fcc548f8f.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>How many 4-input MUX are needed to implement a 1024 input MUX?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "380"
+    },
+    {
+     "key": "B",
+     "html": "341"
+    },
+    {
+     "key": "C",
+     "html": "324"
+    },
+    {
+     "key": "D",
+     "html": "210"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/69/690328198c6bd09338a5.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/31/31f72c716f8b3217c1fe.png\" /></div>\n\n<div> </div>\n\n<div>The output Z(A, B, C, D) is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Σ<em>m</em>(0, 1, 6, 10, 12, 15)"
+    },
+    {
+     "key": "B",
+     "html": "π<em>M</em>(0, 1, 5, 10, 13, 15)"
+    },
+    {
+     "key": "C",
+     "html": "Σ<em>m</em>(2, 3, 4, 5, 7, 8, 9, 11, 12, 14)"
+    },
+    {
+     "key": "D",
+     "html": "π<em>M</em>(2, 3, 4, 5, 7, 8, 9, 11, 12, 14)"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e7/e75efa5575c9070c747b.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 13,
+   "MSQ": 3,
+   "NAT": 1
+  },
+  "withoutKey": 0
+ }
+}

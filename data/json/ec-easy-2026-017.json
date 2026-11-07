@@ -1,0 +1,995 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-017",
+ "title": "Subjectwise Test-3 Part Syllabus GATE 2026 EC ELECTRONIC DEVICES",
+ "sourceTitle": "Subjectwise Test-3 Part Syllabus GATE 2026 EC ELECTRONIC DEVICES",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 17,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/038_Subjectwise Test-3 Part Syllabus GATE 2026 EC ELECTRONIC DEVICES.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The optical power incident on a photodiode is 3 μW and photocurrent generated is 4 μA. Then responsivity of photodiode is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 A/W"
+    },
+    {
+     "key": "B",
+     "html": "1.33 A/W"
+    },
+    {
+     "key": "C",
+     "html": "0.75 A/W"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b3/b3a4d53f7f7e96918962.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A Bipolar junction transistor has α = 0.98, base current <img align=\"absmiddle\" alt=\"\" src=\"media/dd/ddaa581f2f213f2bc7f8.png\" /> The emitter current is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.05 mA"
+    },
+    {
+     "key": "B",
+     "html": "1.235 mA"
+    },
+    {
+     "key": "C",
+     "html": "1.33 mA"
+    },
+    {
+     "key": "D",
+     "html": "1.26 mA"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/40/403b5059373b65e5eb65.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The forward current in a silicon diode is 15 mA at 27°C. If reverse saturation current is 0.24 nA, the forward bias voltage V is ________ V. (upto three decimal places)<br />\n(Assume, η = 2)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.8,
+    1
+   ],
+   "answerText": "0.928",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.928 (0.800 - 1.000)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9e/9e69f4fe01d845004c15.png\" /></div>\n\n<div><img alt=\"\" src=\"media/6d/6d953aec002ee8f7b09f.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>An n-channel MOSFET requires overdrive voltage of 1 V to get the drain current of 1 mA. If the drain current required is 2 mA, then new overdrive voltage will be<br />\n(Assume MOSFET to be in saturation region)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.414 V"
+    },
+    {
+     "key": "B",
+     "html": "2.828 V"
+    },
+    {
+     "key": "C",
+     "html": "0.707 V"
+    },
+    {
+     "key": "D",
+     "html": "0.501 V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d6990dad249f1314fff6.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A MOS capacitor has an oxide layer thickness of 400 <img align=\"absmiddle\" alt=\"\" src=\"media/f4/f42f32aa526534d99d99.png\" /> and flat band voltage of –1.5 V. If the effective positive charge at the semiconductor-oxide layer interface is <em>Q<sub>s</sub></em> = 4.5 × 10<sup>–8</sup> C/cm<sup>2</sup>, the metal semiconductor work function potential difference <img align=\"absmiddle\" alt=\"\" src=\"media/03/03910f91bd063268a5b8.png\" /> is __________ V.<br />\n(Assume ε<em><sub>ox</sub></em> = 4 ε<sub>0</sub> and ε<sub>0</sub> = 8.85 × 10<sup>–12</sup> F/m)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -1.25,
+    -0.75
+   ],
+   "answerText": "-0.992",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>-0.992 (-1.25 - -0.75)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9b/9b12c8a271850f4cd52c.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a0/a0aa525ebfd0a2ed25b3.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the forward current versus forward voltage graph of silicon pn-junction at two different temperatures <em>T</em><sub>1</sub> and <em>T</em><sub>2</sub>:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/fe/fee24aa4c6576a1f34cc.png\" /></div>\n\n<div> </div>\n\n<div>From the above graph, the relation between <em>T</em><sub>1</sub> and <em>T</em><sub>2</sub> holds good for (where <em>T</em> : temperature (in degrees)).</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/af/af1e1a8a6d36f39ae063.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/52/526ffe632c48e316a279.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/96/968b43ae82bce5725d4b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c6/c60ff284019a0e0dc115.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>An electric field of 150 V/cm is applied across it and the mobility of holes is μ<em><sub>p</sub></em> = 1800 cm<sup>2</sup>/V-sec,<br />\nthen the average time taken by holes to travel a distance of 0.5 μm in this Ge sample is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.65 ns"
+    },
+    {
+     "key": "B",
+     "html": "6.5 ns"
+    },
+    {
+     "key": "C",
+     "html": "0.185 ns"
+    },
+    {
+     "key": "D",
+     "html": "1.85 ns"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b6/b6f6d2084164f38e25db.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>If a semiconductor photodetector is used to detect a wavelength of 4.23 μm, then the required maximum energy gap of the semiconductor at room temperature should be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.293 eV"
+    },
+    {
+     "key": "B",
+     "html": "2.93 eV"
+    },
+    {
+     "key": "C",
+     "html": "3.21 eV"
+    },
+    {
+     "key": "D",
+     "html": "3.33 eV"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cb/cb9153099aa99d3644e6.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In a silicon semiconductor at T = 300 K, if the fermi energy is 0.22 eV above the valence band energy, then the approximate electron concentration (<em>n</em><sub>0</sub>) in semiconductor is equal to _________ × 10<sup>5</sup> cm<sup>–3</sup>. (upto three decimal places)<br />\n(Assume, intrinsic carrier concentration of silicon, <em>n<sub>i</sub></em> = 1.5 × 10<sup>10</sup> cm<sup>–3</sup>, density of states in valence band, <em>N<sub>V</sub></em> = 1.04 × 10<sup>19</sup> cm<sup>–3</sup>, <em>kT</em> = 0.0259 eV)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1.15
+   ],
+   "answerText": "1.057",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.057 (1.000 - 1.150)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5a/5af0afb697c3d9825678.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A silicon diode at an ambient temperature of 25°C has cut-in voltage of 0.65 V. If the junction temperature is increased to 35°C, then the percentage change in the cut-in voltage will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "decrease by 2.5%"
+    },
+    {
+     "key": "B",
+     "html": "increase by 2.5%"
+    },
+    {
+     "key": "C",
+     "html": "decrease by 3.85%"
+    },
+    {
+     "key": "D",
+     "html": "increase by 3.85%"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4a/4a8418ea804039298bfe.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The temperature coefficient of resistivity in intrinsic semiconductor is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "large positive value"
+    },
+    {
+     "key": "B",
+     "html": "small positive value"
+    },
+    {
+     "key": "C",
+     "html": "zero"
+    },
+    {
+     "key": "D",
+     "html": "negative value"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A silicon sample doped with n-type impurities at 10<sup>18</sup> cm<sup>–3</sup> has a resistance of 10 Ω. The silicon sample has an area of 10<sup>–6</sup> cm<sup>2</sup> and the length of 10 μm. Given that the electron mobility ‘μ<em><sub>n</sub></em>’ is 800 cm<sup>2</sup>/V-s, the doping efficiency of the sample is _________% (upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    76,
+    79
+   ],
+   "answerText": "78.1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>78.1 (76.0 - 79.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5a/5a2d6162d295728fddb0.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A step graded silicon <em>PN</em> junction diode at room temperature under equilibrium conditions has a p-side doping concentration of <em>N<sub>A</sub></em> = 2 × 10<sup>15</sup>/cm<sup>3</sup> and built in potential across the junction is 0.6 V. Then doping concentration on n-side (<em>N<sub>D</sub></em>) is ______ × 10<sup>15</sup>/cm<sup>3</sup>.<br />\n(Assume <em>V<sub>T</sub></em> = 26 mV, intrinsic carrier concentration of Si is <em>n<sub>i</sub></em> = 1.5 × 10<sup>10</sup> cm<sup>–3</sup> at room temperature).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.1,
+    1.3
+   ],
+   "answerText": "1.184",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.184 (1.10 - 1.30)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3b/3bc0f16bce11f3b1a415.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The depletion width of an abrupt <em>p</em><sup>+</sup><em>n</em> junction is 0.457 μm and penetration of the depletion region into <em>p</em>-side is 0.00457 μm. Then the ratio of acceptor concentration on <em>p</em><sup>+</sup>- side to donor concentration on <em>n</em>-side is __________.<br />\n(Assume under thermal equilibrium condition).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    98,
+    100
+   ],
+   "answerText": "99",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>99 (98 - 100)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/43/430b2911e0a447f8a4ee.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Excess electrons are generated in a semiconductor to a concentration of 10<sup>16</sup> cm<sup>–3</sup>. The excess carrier lifetime in the semiconductor is 5 × 10<sup>–6</sup> sec. The source generating the excess carriers is switched off at <em>t</em> = 0. The recombination rate of excess electrons at <em>t</em> = 5 μsec is<br />\n________ × 10<sup>21</sup> cm<sup>–3</sup> s<sup>–1</sup>. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.6,
+    0.8
+   ],
+   "answerText": "0.74",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.74 (0.60 - 0.80)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a5/a5fbf8ee8330554e9696.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>An n-type silicon with doping concentration <em>N<sub>D</sub></em> = 10<sup>16</sup> cm<sup>–3</sup> is given. If this sample is uniformly illuminated, the steady state minority concentration in the sample will be 4 × 10<sup>4</sup> cm<sup>–3</sup>. Which of the following statement(s) is/are correct?<br />\n(Assume <em>n<sub>i</sub></em> = 1.5 × 10<sup>10</sup> cm<sup>–3</sup> and τ<em><sub>p</sub></em> = 10<sup>–6</sup> sec)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "the thermal equilibrium concentration of holes is equal to 2.25 × 10<sup>4</sup> cm<sup>–3</sup>."
+    },
+    {
+     "key": "B",
+     "html": "EHPs are generated at the rate 1.75 × 10<sup>10</sup> cm<sup>–3</sup>/s."
+    },
+    {
+     "key": "C",
+     "html": "the excess hole concentration is equal to 1.75 × 10<sup>4</sup> cm<sup>–3</sup>"
+    },
+    {
+     "key": "D",
+     "html": "the minority carrier lifetime of electrons is equal to hole minority carrier lifetime"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ef/ef6e991a5251afda82ba.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A conductor has cross sectional area of 1 cm<sup>2</sup> and free electron concentration of 10<sup>19</sup> cm<sup>–3</sup>. If a current of 0.24 A is flowing through this conductor, then the drift velocity of electrons in that conductor is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.024 cm/sec"
+    },
+    {
+     "key": "B",
+     "html": "2.4 cm/sec"
+    },
+    {
+     "key": "C",
+     "html": "1.6 cm/sec"
+    },
+    {
+     "key": "D",
+     "html": "0.15 cm/sec"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/28/282b16541ca66b0a3cf9.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>At what temperature we can expect a 15% probability that electrons in silver have an energy which is 2% above the fermi energy? (Assume the fermi energy of silver is 5.5 eV and Boltzmann’s constant k = 1.38 × 10<sup>–23</sup> J-s)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "456.38 K"
+    },
+    {
+     "key": "B",
+     "html": "529.47 K"
+    },
+    {
+     "key": "C",
+     "html": "735.75 K"
+    },
+    {
+     "key": "D",
+     "html": "623.52 K"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f2/f2d5b784c8258c126201.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ca/ca0eb80cb276abd456b1.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A step-graded silicon <em>pn</em> junction is doped with <em>N<sub>a</sub></em> = <em>N<sub>d</sub></em> = 10<sup>17</sup> cm<sup>–3</sup>. When the magnitude of reverse biasing voltage is 5.5 V, the peak electric field across the junction reaches 106 V/cm. If the magnitude of reverse biasing voltage across junction is increased to 8 V, then the peak electric<br />\nfield that appears across the junction is<br />\n(Assume <em>V<sub>T</sub></em> = 26 mV, <em>n<sub>i</sub></em> = 1.5 × 10<sup>10</sup> cm<sup>–3</sup>)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.18 × 10<sup>6</sup> V/cm"
+    },
+    {
+     "key": "B",
+     "html": "1.42 × 10<sup>5</sup> V/cm"
+    },
+    {
+     "key": "C",
+     "html": "1.56 × 10<sup>6</sup> V/cm"
+    },
+    {
+     "key": "D",
+     "html": "1.62 × 10<sup>4</sup> V/cm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/af/af994d53b7b29c4b76fa.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A photodiode with a bandgap energy of <em>E<sub>g</sub></em> = 1.4 eV is exposed to monochromatic radiation of wavelength 0.6 μm and power density of 500 W/m<sup>2</sup>. If the photo diode has an area of 100 cm<sup>2</sup>, then the short circuit current of the diode is<br />\n(Assume planck’s constant <em>h</em> = 6.6 × 10<sup>–34</sup> J-s, <em>c</em> = 3 × 10<sup>8</sup> m/sec and quantum efficiency is 100%)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.52 A"
+    },
+    {
+     "key": "B",
+     "html": "1.92 A"
+    },
+    {
+     "key": "C",
+     "html": "2.12 A"
+    },
+    {
+     "key": "D",
+     "html": "2.43 A"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6b/6b8192f308c0ffe55265.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>At 300 K, a 0.01 cm<sup>2</sup> ideal Si p-n junction solar cell has a short-circuit current of 2A and an opencircuit voltage of 0.5 V. The maximum output power density of the solar cell is 1020 W/cm<sup>2</sup>. Then fill factor is equal to _________ (upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    11
+   ],
+   "answerText": "10.2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10.2 (9.0 - 11.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d2f58c15bc6abc978486.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A transistor has leakage currents, <img align=\"absmiddle\" alt=\"\" src=\"media/05/0510e7dbafd6521c7d03.png\" />then the value of collector current <img align=\"absmiddle\" alt=\"\" src=\"media/e8/e8080500130cd0aa668b.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.12 mA"
+    },
+    {
+     "key": "B",
+     "html": "2.44 mA"
+    },
+    {
+     "key": "C",
+     "html": "2.77 mA"
+    },
+    {
+     "key": "D",
+     "html": "2.87 mA"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d0/d0da9596fe5e3e692acc.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A silicon bar is doped with 10<sup>15</sup> donor atoms per cm<sup>3</sup> at room temperature (<em>T</em> = 300K) and the minority carrier life time is τ<em><sub>p</sub></em> = 10<sup>–6</sup> sec. The diffusion length of the holes is<br />\n(Assume <em>kT</em>/<em>q</em> = 0.026 V,mobility of holes μ<em><sub>p</sub></em> = 500 cm<sup>2</sup>/V-sec)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.8 × 10<sup>–3</sup> cm"
+    },
+    {
+     "key": "B",
+     "html": "2.5 × 10<sup>–3</sup> cm"
+    },
+    {
+     "key": "C",
+     "html": "3.6 × 10<sup>–3</sup> cm"
+    },
+    {
+     "key": "D",
+     "html": "5 × 10<sup>–3</sup> cm"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9a/9a3c885307ba32c8f5b1.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider a reverse biased PN junction diode with a depletion width of <em>W</em> = 0.1 mm and an area of A = 0.1 cm<sup>2</sup>. The junction capacitance per unit area of diode is __________ pF/cm<sup>2</sup>. (upto two decimal places)<br />\n(Assume, ∈<em><sub>si</sub></em> = 11.7∈<sub>0</sub>)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10.1,
+    10.5
+   ],
+   "answerText": "10.35",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10.35 (10.10 - 10.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e1/e1dc7bf1fdc975a7dae5.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>When emitter current <img align=\"absmiddle\" alt=\"\" src=\"media/58/5840ee2139be9362aaac.png\" /> of a transistor is changed by 1 mA, its collector current <img align=\"absmiddle\" alt=\"\" src=\"media/a9/a9bef950f34ed4b67bf0.png\" /> changes by 0.995 mA. Then the common emitter current gain (β) of the transistor is<br />\n(Assume that the reverse saturation current <img align=\"absmiddle\" alt=\"\" src=\"media/73/734972be4815524a50ff.png\" /> is negligible).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "99"
+    },
+    {
+     "key": "B",
+     "html": "249"
+    },
+    {
+     "key": "C",
+     "html": "199"
+    },
+    {
+     "key": "D",
+     "html": "299"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/56/56b2d9d2b8cb69751e52.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The silicon <em>PN</em> junction diode has a forward current of 10 mA and carrier lifetime of 20 psec. Then the diffusion capacitance across the junction is _____ pF.<br />\n(Assume η = 2 for Si diode, <em>V<sub>T</sub></em> = 26 mV)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.7,
+    4
+   ],
+   "answerText": "3.85",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3.85 (3.70 - 4.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/70/700ca1b633e4f81ee715.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A silicon sample is 2.5 cm long and has a cross sectional area of 0.1 cm<sup>2</sup>. The silicon is n-type with a donor impurity concentration of <em>N<sub>d</sub></em> = 2 × 10<sup>15</sup> cm<sup>–3</sup>. The resistance of the sample is measured and found to be 70 Ω. The electron mobility is equal to __________ cm<sup>2</sup>/V-sec.</p>\n\n<p>(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1114,
+    1118
+   ],
+   "answerText": "1116.07",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1116.07 (1114.00 - 1118.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ca/ca5bf74c8c86d39d5278.png\" /></div>\n\n<div><img alt=\"\" src=\"media/6f/6f5ac707d9cd2c32bb2a.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following charge density distribution of step junction PN diode under thermal equilibrium condition:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0f/0f1dc5a73deef4447578.png\" /></div>\n\n<div> </div>\n\n<div>If <em>W<sub>P</sub></em> = 1 μm and <em>W<sub>N</sub></em> = 1.5 μm, then the relation between the doping concentrations <em>N<sub>A</sub></em> and <em>N<sub>D</sub></em> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/09/09d4296cae41b3298aee.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/67/671c2022688421329256.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/05/05843ad335fb2834bfeb.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/db/dbcc60e540fd2397bb88.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/50/506b0f0feb56d6b05d92.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Threshold voltage of a n-channel MOS can be increased by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Increasing the oxide thickness"
+    },
+    {
+     "key": "B",
+     "html": "Decreasing the oxide thickness"
+    },
+    {
+     "key": "C",
+     "html": "Increasing the acceptor doping concentration of substrate"
+    },
+    {
+     "key": "D",
+     "html": "Decreasing the acceptor doping concentration of substrate"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/79/79799a7b10f55258607c.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>For an intrinsic semiconductor with a bandgap of 0.7 eV, the position of fermi level <em>E<sub>F</sub></em> at <em>T</em> = 300 K, if <img align=\"absmiddle\" alt=\"\" src=\"media/53/539a7318548070fc8451.png\" /> are effective mass of hole and electron. Assume Boltzmann’s constant <em>k</em> = 1.38 × 10<sup>–23</sup> J/K) (upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.25,
+    0.45
+   ],
+   "answerText": "0.384",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.384 (0.250 - 0.450)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/77/77c4397a310112a1e117.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Early effect is the phenomenon of decrease of the base width with the increase of voltage <em>V<sub>CB</sub></em> in BJT. Due to the Early effect,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Collector current increases"
+    },
+    {
+     "key": "B",
+     "html": "Collector current decreases"
+    },
+    {
+     "key": "C",
+     "html": "Concentration gradient of charge carriers increases."
+    },
+    {
+     "key": "D",
+     "html": "Concentration gradient of charge carriers decreases."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f5/f5afd1792f1f11fa2de2.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The measured transconductance <em>g<sub>m</sub></em> of an NMOS transistor operating in saturation region is plotted<br />\nagainst the gate-to-source voltage <em>V<sub>GS</sub></em> at constant <img align=\"absmiddle\" alt=\"\" src=\"media/8b/8b79840867c86476e89f.png\" /> and against drain current <img align=\"absmiddle\" alt=\"\" src=\"media/e7/e74d3035974e6f992f02.png\" /> at constant <img align=\"absmiddle\" alt=\"\" src=\"media/f9/f921732e33409f1cdde1.png\" /> Which of the following figures represents correct dependence of gm on <em>V<sub>GS</sub></em> and <img align=\"absmiddle\" alt=\"\" src=\"media/e7/e76a8359fbfb539a0ac9.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/fd/fdb18ac6da6b03cc0f65.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/e3/e393edae6627f6f741e8.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/63/632674a092360e670e30.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/fe/fecceca22cfc5a836df2.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/29b359ae8c2aea138b6b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the energy band diagram of semiconductor shown below under the influence of electric field,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cc/cc29379cad7582989aa6.png\" /></div>\n\n<div>where, <img align=\"absmiddle\" alt=\"\" src=\"media/b6/b616831dd93bd61e8e65.png\" /> is potential applied.<br />\nThen the electric field applied across the semiconductor is _________ kV/cm.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    200,
+    200
+   ],
+   "answerText": "200",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>200 (200 - 200)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b5/b5d4d821fa54bb4ab52c.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "NAT": 13,
+   "MSQ": 4
+  },
+  "withoutKey": 0
+ }
+}

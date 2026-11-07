@@ -1,0 +1,570 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-061",
+ "title": "DVRUO Classes | Digital Logic | Boolean Algebra, Minimization, Number System | Weekly Quiz 5",
+ "sourceTitle": "DVRUO Classes | Digital Logic | Boolean Algebra, Minimization, Number System | Weekly Quiz 5",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 61,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Digital Logic"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/089_exam_953_GO Classes Digital Logic Boolean Algebra, Minimization, Number System Weekly Quiz 5.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Select the Boolean function(s) equivalent to $x+yz,$ where $x, y,$ and $z$ are Boolean variables, and $+$ denotes logical $\\text{OR}$ operation.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x + z + xy$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(x + y)(x + z)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x + xy + yz$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x + xz + xy$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"412492\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=OMayy6p6Hfs&amp;list=PLIPZ2_p3RNHi0XVjX565f6vRfT1nRS-X0&amp;index=15\" target=\"_blank\">Video Solution (Click Here)</a>&nbsp;</strong></p>\n\n<p>Given boolean function is $f = x + yz$<br>\n<br>\nOption A:<br>\n<br>\n$x + z + xy = x + xy + z = x + z$ ; (We used Absorption Property which is $A + AB = A$)<br>\n<br>\nSo, Option A is Not equivalent to $f.$<br>\n<br>\nOption B:<br>\n<br>\n$x + yz = (x+y)(x+z) $ ; (It is the Distributive Property which is $A + BC = (A+B)(A+C)$)<br>\n<br>\nSo, Option B is equivalent to $f.$<br>\n<br>\nOption C:<br>\n<br>\n$x + xy + yz = x + yz$ ; (We used Absorption Property which is $A + AB = A$)<br>\n<br>\nSo, Option C is equivalent to $f.$<br>\n<br>\nOption D:<br>\n<br>\n$x + xy + xz = x$ ; (We used Absorption Property which is $A + AB = A$)<br>\n<br>\nSo, Option D is Not equivalent to $f.$<br>\n<br>\nThe final answer is Option B,C.</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"415529\"></a><div itemprop=\"text\"><p>We can&nbsp;also apply the by case method.</p>\n\n<p>since, the given boolean function is<em> f = x + yz</em></p>\n\n<p>case 1 : when x = 0</p>\n\n<p><em>f = 0+ yz&nbsp;</em></p>\n\n<p><em>f = yz</em></p>\n\n<p>case 2 : when&nbsp;x<var>&nbsp;= 1</var></p>\n\n<p><em>f = 1 + yz&nbsp;</em></p>\n\n<p><em>f = 1</em> ( Since&nbsp;1 OR anything is 1)</p>\n\n<p>Now, from the option check and compare whether the given option is same or not in both the conditions</p>\n\n<p>option A)&nbsp;<em>x + z + xy</em></p>\n\n<p>case 1: when x = 0 we have</p>\n\n<p>=<em>0 + z +0.y&nbsp;</em></p>\n\n<p>= z</p>\n\n<p>Since we can observe that result is different. Therefore, we stop here and no need to check further for this option. This option can be eliminated.</p>\n\n<p>option B) <em>(x + y)(x + z)</em></p>\n\n<p>case 1: when x = 0, we have&nbsp;</p>\n\n<p><em>= (0 +y)(0+z)</em></p>\n\n<p><em>= yz</em></p>\n\n<p>Case 2 : when <em>x = 1</em>, we have</p>\n\n<p><em>&nbsp;= (1 +y)(1+z)</em></p>\n\n<p><em>= 1</em></p>\n\n<p>We can observe that this option is equivalent to the function f. Because it matches the bot h cases.</p>\n\n<p>option C). x + xy +yz</p>\n\n<p>case 1 when x = 0, we have&nbsp;</p>\n\n<p><em>0 + 0.y + yz = yz</em></p>\n\n<p>case 2 when x = 1, we have</p>\n\n<p>1 + 1.y + yz = 1</p>\n\n<p>This option also matches the both cases.&nbsp;</p>\n\n<p>option D). x + xz + xy</p>\n\n<p>case 1, when x = 0 , we have</p>\n\n<p>0+0.z+ 0y = 0</p>\n\n<p>In this case 1, The result is again different&nbsp;&nbsp;is not matching therefore we can stop here and no need for further checking. This option can also be eliminated as well.</p>\n\n<p>Hence only option B, and C are equivalent to the boolean function f.</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"501582\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"denied:blob:https://web.whatsapp.com/5b12a29b-4473-4415-9d16-fb54384bd616\">using by case&nbsp;</p><hr><p><img alt=\"\" width=\"720\" height=\"1280\" src=\"media/e2/e28ce9d1aae7a8302643.jpg\"><img alt=\"\" src=\"denied:blob:https://web.whatsapp.com/5b12a29b-4473-4415-9d16-fb54384bd616\"></p></div></section></div><p><a href=\"https://gateoverflow.in/412491\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Match the logic gates in <strong>Column A</strong> with their equivalents in <strong>Column B.</strong></p><p style=\"text-align:center\"><img alt=\"\" height=\"308\" width=\"398\" src=\"media/53/5386020aad65998fd3d9.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{P-2, Q-4, R-1, S-3}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{P-4, Q-2, R-1, S-3}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{P-2, Q-4, R-3, S-1}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{P-4, Q-2, R-3, S-1}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"412490\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=6wU82dIOeJo&amp;list=PLIPZ2_p3RNHi0XVjX565f6vRfT1nRS-X0&amp;index=17\" target=\"_blank\">Video Solution (Click HERE)</a></strong></p><p>$\\text{R-3, S-1}$ <strong>Detailed Explanation Here:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=-30dUjh6Qv4\" target=\"_blank\">https://www.youtube.com/watch?v=-30dUjh6Qv4</a>&nbsp;</p><p>$P-4$ by De-Morgan’s Law (&nbsp; $\\overline{A +B}&nbsp;= \\overline{A}.\\overline{B}&nbsp;$ )</p><p>$Q-2$ by De-Morgan’s Law (&nbsp; $\\overline{A.B}&nbsp;= \\overline{A} + \\overline{B}&nbsp;$ )</p><p>NOTE that: $A’ \\oplus B = A&nbsp;\\odot&nbsp;B$ ; Also $\\overline{A&nbsp;\\odot&nbsp;B}&nbsp; = A \\oplus B$</p><p>$S-1&nbsp;$ by the following equivalence: $A&nbsp;\\odot&nbsp;B = A’ \\oplus B&nbsp;$</p><p>$R-3 $ by the following equivalence: $A&nbsp;\\oplus B = \\overline{A’ \\oplus B} $</p><p>$\\text{R-3, S-1}$ <strong>Detailed Explanation&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=-30dUjh6Qv4&nbsp;\" target=\"_blank\">HERE.</a>&nbsp;</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/412489\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The number of bytes required to represent the decimal number $1856357$ in packed BCD (Binary Coded Decimal) form is ___________.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 18)</small></h4><a name=\"412513\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=7p67nNSgqXY&amp;list=PLIPZ2_p3RNHi0XVjX565f6vRfT1nRS-X0&amp;index=18\" target=\"_blank\">Detailed Video Solution (Click HERE)</a>&nbsp;</strong></p><p>Packed BCD (Binary coded decimal) and unpacked BCD are two types of binary codes that represent decimal numbers.</p><p><strong>Packed BCD uses four bits to represent each decimal digit, while unpacked BCD uses eight bits.</strong></p><p>Packed BCD typically encodes two digits within a single byte.&nbsp;For example, 14 is represented as 0001 0100 in packed BCD.</p><p>Unpacked BCD usually implies a full byte for each digit.&nbsp;For example, 9 is represented as 0000 1001 in unpacked BCD.&nbsp;</p><p>By Default, BCD means Packed BCD as we use 4-bits for each decimal digit in BCD.</p><p>Some computer programs place two BCD digits in one 8-bit byte in packed-BCD representation; thus, one byte may represent the values from 0 to 99 as opposed to 0 to 255 for a normal unsigned 8-bit binary number.</p><hr><p>to represent the decimal number $1856357$ in packed BCD (Binary Coded Decimal) form, we need total $28$ bits, i.e. $4$ bytes.&nbsp;</p><p>NOTE that, with $3$ bytes, we can’t represent $28$ bits, But with $4$ bytes we can represent $28$ bits with 4 bits of unnecessary padding.</p><p>$1856357$ in packed BCD (Binary Coded Decimal) form is $0001 \\,\\, 1000 \\,\\, 0101 \\,\\, 0110 \\,\\, 0011 \\,\\, 0101 \\,\\, 0111.$&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"501592\"></a><div itemprop=\"text\">we have 7 digits in given number.<br>\neach digit will be represented using 4 bits(8421) in packed bcd<br>\ntotal no. of digits= 7*4= 28<br>\nand 1 &nbsp;byte= 8 bits<br>\nso roughly we use ceil[28/8]= 4 bytes</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"540179\"></a><div itemprop=\"text\">Here it is simple in a packed BCD every number can be represented by using 4 bits. Now, we have total 7 numbers which require 4*7=28bits. wherwnumber of bytes=ceil(28/8)=4Bytes</div></section></div><p><a href=\"https://gateoverflow.in/412488\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Boolean expression $(X+Y)(X+\\overline{Y}) + \\overline{(X\\;\\overline{Y}) + \\overline{X}}$ simplifies to</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$X$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$Y$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$XY$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$X+Y$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"412515\"></a><div itemprop=\"text\"><p>Detailed Video Solution:&nbsp;<strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=3hahE-VIteQ&amp;list=PLIPZ2_p3RNHi0XVjX565f6vRfT1nRS-X0&amp;index=16\" target=\"_blank\">Video Solution (Click Here)</a>&nbsp;</strong></p><p>NOTE: $A + A’B = A+B$<br><br>So, $\\overline{X} + X \\overline{Y} = \\overline{X} + \\overline{Y}.$<br><br>Now, $\\overline{X’+Y’} = XY.$<br><br>$(X+Y)(X+\\overline{Y}) = X + YY’ $ (By Distributive Property)<br><br>&amp; $X + YY’ = X$<br><br>Finally, we have $X + XY = X$ (By Absorption Law)</p></div></section></div><p><a href=\"https://gateoverflow.in/412487\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A function $F(A, B, C)$ defined by three Boolean variables $\\text{A, B and C}$ when expressed as sum of products is given by</p><p>$$F=\\overline{A}\\:.\\overline{B}\\:.\\overline{C}+\\overline{A}\\:.B\\:.\\overline{C}+A\\:.\\overline{B}\\:.\\overline{C}$$</p><p>where,&nbsp;$\\overline{A}\\:,\\overline{B}\\:,and\\:\\overline{C}$ are the complements of the respective variables. The product of sums $\\text{(POS)}$ form of the function $F$ is&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$F=\\left ( A +B+C\\right ).\\left ( A+\\overline{B} + C\\right ). \\left ( \\overline{A}+B+C \\right )$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$F=\\left ( \\overline{A} +\\overline{B}+\\overline{C}\\right ).\\left ( \\overline{A} +B+ \\overline{C}\\right ). \\left (A+ \\overline{B}+\\overline{C} \\right )$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$F=\\left ( A +B+\\overline{C}\\right ).\\left ( A+\\overline{B} + \\overline{C}\\right ). \\left (\\overline{A}+ B+\\overline{C} \\right ).\\left ( \\overline{A}+\\overline{B}+C\\right ).\\left ( \\overline{A}+\\overline{B} +\\overline{C}\\right )$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F=\\left ( \\overline{A}+\\overline{B}+C\\right ).\\left (\\overline{A} +B+ C\\right ). \\left (A+\\overline{B}+ C \\right ).\\left (A+B+\\overline{C}\\right ).\\left ( A+B+C \\right )$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"412516\"></a><div itemprop=\"text\"><p><strong>Watch This:</strong>&nbsp;<strong><a rel=\"nofollow\" href=\"https://youtu.be/9NlVVGNdF5s?feature=shared&amp;t=9793\" target=\"_blank\">Conversion of \"Sum of Minterms\" to \"Product of Maxterms\"</a>&nbsp;</strong>&nbsp;&nbsp;</p><p>For any function $f,$ we can convert Canonical Sum of Product(CSOP)&nbsp;form to&nbsp;Canonical&nbsp;Product of Sum(CPOS)&nbsp;form by simply doing two things:</p><p>1. Change $\\Sigma$ to $\\Pi.$</p><p>&amp;</p><p>2. Write the missing indexes of&nbsp;CSOP form.&nbsp;</p><p>Given function $F$ in the CSOP form = $\\Sigma (0,2,4)$</p><p>So, function $F$ in CPOS form = $\\Pi&nbsp;(1,3,5,6,7)$ which is same as Option C.&nbsp;&nbsp;</p><p><strong><a rel=\"nofollow\" href=\"https://youtu.be/9NlVVGNdF5s?feature=shared&amp;t=9793\" target=\"_blank\">Conversion of \"Sum of Minterms\" to \"Product of Maxterms\"</a>&nbsp;</strong>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"412641\"></a><div itemprop=\"text\"><p>Answer –&nbsp;Option C</p>\n\n<p><img alt=\"\" src=\"media/a8/a8a0ea7e4f9abc508105.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/412486\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $(1235)_{x}\\:=\\:(3033)_{y}$, where $x$ and $y$ indicate the bases of the corresponding numbers, then</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x\\:=\\:7$ and $y\\:=\\:5$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x\\:=\\:8$ and $y\\:=\\:6$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x\\:=\\:6$ and $y\\:=\\:4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x\\:=\\:9$ and $y\\:=\\:7$&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 16)</small></h4><a name=\"412495\"></a><div itemprop=\"text\">Given equation is $(1235)_x = (3033)_y$<br>\n<br>\nConvert both size to their decimal number system equivalent:<br>\n<br>\n$x^3 + 2x^2 + 3x + 5 = 3y^3 + 3y + 3$<br>\n<br>\nNow, substitute values from options in this equation.<br>\n<br>\nOption B matches.</div></section></div><p><a href=\"https://gateoverflow.in/412485\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The output $\\mathrm{Y}$ in the circuit below is always $\\text{“1\"}$ when</p><p style=\"text-align:center\"><img alt=\"\" height=\"222\" width=\"556\" src=\"media/c2/c234840c019b9c3c667d.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>two or more of the inputs $\\mathrm{P, Q, R}$ are $\\text{“0&quot;}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>two or more of the inputs $\\mathrm{P, Q, R}$ are $\\text{“1&quot;}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>any odd number of the inputs $\\mathrm{P, Q, R}$ is $\\text{“0&quot;}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>any odd number of the inputs $\\mathrm{P, Q, R}$ is $\\text{“1&quot;}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 20)</small></h4><a name=\"412906\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/2f/2feb7c7f1061e2fd0402.jpg\"><br>\nB)two or more of the inputs P,Q,R are “1\"</p></div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"412484\"></a><div itemprop=\"text\">$\\text{Y = PQ + PR + QR}$<br>\n<br>\n$\\text{Y} = 1$ iff at least two of the inputs $\\text{P,Q,R}$ are $1.$</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"427535\"></a><div itemprop=\"text\">NAND-NAND Realization is equivalent to AND-OR Realization<br>\n<br>\nso we get Y = PQ+QR+RP<br>\n<br>\nY = 1 iff at-least 2 input are 1<br>\n<br>\nAns : &nbsp;B<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/412483\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Following is the $\\text{K-map}$ of a Boolean&nbsp;function of five variables $P,Q,R,S$ and $X$. The minimum sum-of-product (SOP) expression for the function is</p><p style=\"text-align:center\"><img alt=\"\" height=\"271\" width=\"625\" src=\"media/9f/9fa0e38b806a727e7254.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\overline{P}\\:\\overline{Q}\\:S\\:\\overline{X}+\\;P\\:\\overline{Q}\\:S\\:\\overline{X}+\\;Q\\:\\overline{R}\\:\\overline{S}\\:X+\\;Q\\:R\\:\\overline{S}\\:X$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\overline{Q}\\:S\\:\\overline{X}+\\;Q\\:\\overline{S}\\:X$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\overline{Q}\\:S\\:X+\\;Q\\:\\overline{S}\\:\\overline{X}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\overline{Q}\\:S+\\;Q\\overline{S}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"412521\"></a><div itemprop=\"text\">The given boolean function $f(P,Q,R,S,X)$ has the following behavior:<br>\n<br>\nWhen $X = 0,$ $f = Q’S$<br>\n<br>\nWhen $X = 1, f = QS’$<br>\n<br>\nSo, we can write expression for $f$ as following: $f = X’ Q’S + X Q S’$<br>\n<br>\nWe can’t simplify it further. So, answer is Option B.</div></section></div><p><a href=\"https://gateoverflow.in/412482\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the figure shown, the output ܻ$Y = AB + \\overline{C}\\:\\:\\overline{D}$ is required to be ܻ&nbsp;The gates $G1$ and $G2$ must be, respectively,</p><p style=\"text-align:center\"><img alt=\"\" width=\"480\" src=\"media/fb/fba27783b9ffb09eaeaf.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>NOR, OR</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>OR,&nbsp;NAND</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>NAND, OR</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>AND,&nbsp;NAND</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 5)</small></h4><a name=\"412589\"></a><div itemprop=\"text\"><p>$Y =&nbsp;AB +&nbsp;\\bar{C}&nbsp;\\bar{D}$</p>\n\n<p>&nbsp;</p>\n\n<p>From the given diagram, we can observe, $G2$ is $2 \\ i/p$ Gate</p>\n\n<p>By intuition we can say, $G2$ must be $OR$ Gate, and $G1$ o/p must be $AB$</p>\n\n<p>&nbsp;</p>\n\n<p>So, $ \\bar{A} \\&nbsp;\\square \\&nbsp; \\bar{B}&nbsp; ==&nbsp;AB$&nbsp; (Where, $ \\square $ is an <em>unknown&nbsp;logic gate</em>)</p>\n\n<p>&nbsp;</p>\n\n<p>Now, what is&nbsp; $ \\square&nbsp;&nbsp;\\&nbsp; ?$&nbsp;</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li><strong>AND</strong> :-&nbsp;$ \\bar{A} \\ .&nbsp;\\bar{B}&nbsp;\\neq&nbsp;AB$&nbsp;&nbsp;</li>\n\t<li><strong>NAND</strong> :-&nbsp;$ (\\bar{A} \\ .&nbsp; \\bar{B})’&nbsp; =&nbsp; A + B \\neq&nbsp;AB$&nbsp;&nbsp;</li>\n\t<li><strong>OR</strong> :-&nbsp;$ \\bar{A} \\&nbsp; +&nbsp;\\bar{B}&nbsp; =&nbsp; (AB)’ \\neq&nbsp;AB$&nbsp;&nbsp;</li>\n\t<li><strong>NOR</strong> :-&nbsp;$ (\\bar{A} \\&nbsp; +&nbsp;\\bar{B})’&nbsp; =&nbsp;A’’ . B’’&nbsp;&nbsp;=&nbsp;AB$&nbsp;&nbsp;</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p>So, $G1 = NOR$&nbsp;&nbsp;and&nbsp;&nbsp;$G2 = OR$</p>\n\n<p>&nbsp;</p>\n\n<h3><u>Correct Ans</u> :- <strong>Option A&nbsp;</strong></h3>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"502593\"></a><div itemprop=\"text\"><p>start with c and d</p><p><img alt=\"\" width=\"1200\" height=\"522\" src=\"media/cc/cca105b31fc4824da648.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/412481\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A function of Boolean variables $X, Y$ and $Z$ is expressed in terms of the min-terms as $$F(X, Y, Z) = \\Sigma&nbsp;(1, 2, 5, 6, 7)$$</p><p>Which one of the product of sums given below is equal to the function $F(X, Y, Z)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\overline{X} + \\overline{Y} + \\overline{Z} )\\cdot(\\overline{X} + Y + Z)\\cdot(X + \\overline{Y} + \\overline{Z} )$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(X + Y + Z)\\cdot(X + \\overline{Y} + \\overline{Z} )\\cdot(\\overline{X} + Y + Z)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(\\overline{X} + \\overline{Y} + Z)\\cdot(\\overline{X} + Y + \\overline{Z} )\\cdot(X + \\overline{Y} + Z)\\cdot(X + Y + \\overline{Z} )\\cdot(X + Y + Z)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(X + Y + \\overline{Z} )\\cdot(\\overline{X} + Y + Z)\\cdot(\\overline{X} + Y + \\overline{Z} )\\cdot(\\overline{X} + \\overline{Y} + Z)\\cdot(\\overline{X} + \\overline{Y} + \\overline{Z})$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 5)</small></h4><a name=\"412620\"></a><div itemprop=\"text\">Given function of the min-terms<br>\n<br>\n$F(X,Y,Z)= \\sum(1,2,5,6,7)$<br>\n<br>\nSo, the products of sum for the function will be<br>\n<br>\n$F(X,Y,Z) = \\Pi(0,3,4)$ which is same as $(X+Y+Z).(X+\\overline{Y}+\\overline{Z}).(\\overline{X}+Y+Z)$<br>\n<br>\n$\\color{Green}Ans: B$</div></section></div><p><a href=\"https://gateoverflow.in/412480\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Boolean expression $F(X,Y,Z) = \\overline{X} \\: Y \\:&nbsp;\\overline{Z}+ X \\:&nbsp;\\overline{Y} \\:&nbsp;\\overline{Z}+ X \\: Y \\:&nbsp;\\overline{Z} + X \\: Y \\: Z$ converted into the canonical product of sum (POS) form is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(X+Y+Z)(X+Y+\\overline{Z})(X+\\overline{Y}+\\overline{Z})(\\overline{X} + Y + \\overline{Z})$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(X+\\overline{Y}+Z)(\\overline{X}+Y+\\overline{Z})(\\overline{X}+\\overline{Y}+Z)(\\overline{X} + \\overline{Y} + \\overline{Z})$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(X+Y+Z)(\\overline{X}+Y+\\overline{Z})(X+\\overline{Y}+Z)(\\overline{X} + \\overline{Y} + \\overline{Z})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(X+\\overline{Y}+\\overline{Z})(\\overline{X}+Y+Z)(\\overline{X}+\\overline{Y}+Z)(X + Y + Z)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"412623\"></a><div itemprop=\"text\">Given expression $F(X,Y,Z)=\\overline{X}\\;Y\\;\\overline{Z}+X\\;\\overline{Y}\\;\\overline{Z}+X\\;Y\\;\\overline{Z}+X\\;Y\\;Z$<br>\n<br>\nSo, the above expression is sum of products (SOP) which is $\\sum(2,4,6,7)$<br>\n<br>\nNow the product of sum (POS) will be $\\Pi(0,1,3,5)$<br>\n<br>\n$\\therefore F(X,Y,Z)=(X+Y+Z)(X+Y+\\overline{Z})(X+\\overline{Y}+\\overline{Z})(\\overline{X}+Y+\\overline{Z})$<br>\n<br>\n$\\color{Green}Ans: A$</div></section></div><p><a href=\"https://gateoverflow.in/412479\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A $3$-input majority gate is defined by the logic function $M(a,b,c)=ab+bc+ca$. Which one of the following gates is represented by the function $M(\\overline{M(a,b,c)}, M(a,b,\\overline{c}),c)$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$-input NAND gate</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$-input XOR gate</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$-input NOR gate</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$-input XNOR gate</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 27)</small></h4><a name=\"412645\"></a><div itemprop=\"text\"><p>Given function $M(a,b,c) = ab+bc+ca$</p>\n\n<p>$Let,\\; X=\\overline{M(a,b,c)} = \\overline{(ab+bc+ca)} = (\\overline{a} +\\overline{b})(\\overline{b}+\\overline{c})(\\overline{c}+\\overline{a})=\\overline{a}\\;\\overline{b}+\\overline{b}\\;\\overline{c}+\\overline{c}\\;\\overline{a}$</p>\n\n<p>$Y=M(a,b,\\overline{c})=ab+b\\overline{c}+\\overline{c}a$</p>\n\n<p>$\\therefore M(\\overline{M(a,b,c)},M(a,b,\\overline{c}),c)=M(X,Y,c)=XY+Yc+cX$</p>\n\n<p>$XY = (\\overline{a}\\;\\overline{b}+\\overline{b}\\;\\overline{c}+\\overline{c}\\;\\overline{a})(ab+b\\overline{c}+\\overline{c}a)=a\\overline{b}\\overline{c}+\\overline{a}b\\overline{c}$</p>\n\n<p>$Yc=(ab+b\\overline{c}+\\overline{c}a)c=abc$</p>\n\n<p>$cX=c(\\overline{a}\\;\\overline{b}+\\overline{b}\\;\\overline{c}+\\overline{c}\\;\\overline{a}) = \\overline{a}\\overline{b}c$</p>\n\n<p>So, $M(X,Y,c)= a\\overline{b}\\overline{c}+\\overline{a}b\\overline{c}+abc+\\overline{a}\\overline{b}c$</p>\n\n<p>These expression matches with $\\text{3-input&nbsp;XOR}$ gate output below:</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"media/8f/8fc6f91019cd8eeda43e.jpg\"></p>\n\n<p>$\\color{Green}Ans: B$</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"429794\"></a><div itemprop=\"text\"><p><strong>Method-1 : </strong>Draw truth table for M(M'(a,b,c),M(a,b,c'),c). But it will take long.</p><p><strong>Method-2 :</strong>&nbsp;Try some random inputs to judge behavior of the circuit-:<br>&nbsp;I/P&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; O/P</p><p>000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0</p><p>111&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1</p><p>3-input nand gate, nor gate, xnor gate are not agreeing with this behavior. Thus the only option left is XOR gate.</p><p><strong>NOTE-:</strong></p><p>XOR : Odd 1's detector<br>XNOR : Even 1's detector</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"428852\"></a><div itemprop=\"text\">After simplification - abc+a'b'c+a'bc'+ab'c'<br>\n<br>\nSee in terms of minterms - 111,001,010,100 =&gt; Function is 1 when there is odd no. of 1s =&gt; 3 i/p XOR gate</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"451642\"></a><div itemprop=\"text\"><figure class=\"image\" style=\"float:left\"><img alt=\"\" width=\"1009\" height=\"1280\" src=\"media/68/685c912da1c660d03a3f.jpg\"><figcaption>Answer for question&nbsp; Caption</figcaption></figure><p>&nbsp;</p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"472635\"></a><div itemprop=\"text\">Finding better way<br>\nwe know M is majority function<br>\nso atleast two 1's gives us M=1<br>\nnow take 110(even number of 1's) and 100(odd number of 1's) as hit and trial cases.<br>\n<br>\nA=taking 110 to find<br>\n110 gives M=1 so M'=0 and M(a,b,c')=M(1,1,1)=1 and c=0<br>\nso we have M(0,1,0)=gives us 0 {this is hinting us either xor or nor,reason being xor is odd function while xnor is 1 when even 0's}<br>\n<br>\nnow take B=100(odd number of 1 we are taking means if our expression is nor we will get 0 and if xor we will get 1}<br>\nSo M(1,0,0)=M(0,1,0) which gives us what 1 <br>\nhence answer is xor<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"504170\"></a><div itemprop=\"text\"><p data-start=\"79\" data-end=\"132\"><strong data-start=\"79\" data-end=\"92\">XNOR gate</strong> and <strong data-start=\"97\" data-end=\"114\">XNOR function</strong> are not the same.</p><p data-start=\"137\" data-end=\"292\">An <strong data-start=\"140\" data-end=\"153\">XNOR gate</strong> is simply the logical complement of an XOR gate <strong data-start=\"202\" data-end=\"226\">with the same fan-in</strong>.<br><br>for more context:&nbsp;</p><p><strong>3 Inputs XNOR gate, Complete Analysis:</strong>&nbsp;<a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://youtu.be/uAadNn38oFo\">https://youtu.be/uAadNn38oFo</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/412478\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the circuit shown in the figure, if $C=0$, the expression for $Y$ is</p><p style=\"text-align:center\"><img alt=\"\" height=\"194\" width=\"413\" src=\"media/0d/0d27325a73a3c9ffcd46.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$Y=A \\overline{B} + \\overline{A}B$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$Y=A+B$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$Y=\\overline{A} + \\overline{B}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$Y=A \\: B$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"412876\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"348\" src=\"media/60/604617917140ce48d2c3.jpg\" width=\"534\"></p>\n\n<p>$\\color{Green}\\text{Ans: A}$</p></div></section></div><p><a href=\"https://gateoverflow.in/412477\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The output $F$ in the digital logic circuit shown in the figure is</p><p style=\"text-align:center\"><img alt=\"\" height=\"285\" width=\"295\" src=\"media/ee/eeb5c6829418ae5f31e5.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$F = \\overline{X}\\:Y\\:Z + X\\:\\overline{Y}\\:Z$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$F = \\overline{X}\\:Y\\:\\overline{Z} + X\\:\\overline{Y}\\:\\overline{Z}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$F = \\overline{X}\\:\\overline{Y}\\:Z + X\\:Y\\:Z$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F = \\overline{X}\\:\\overline{Y}\\:\\overline{Z} + X\\:Y\\:Z$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 23)</small></h4><a name=\"412628\"></a><div itemprop=\"text\">$Let$,<br>\n<br>\n$a = X \\oplus Y$<br>\n<br>\n$Then$,<br>\n<br>\n$F=a$ $.$$(a \\odot Z)$<br>\n<br>\n$F=a$ $.$$(a.Z +a’. Z’)$<br>\n<br>\n$F= a.Z=(X’.Y+X.Y’).Z$<br>\n<br>\n$F= X’.Y.Z +X.Y’.Z$</div></section></div><p><a href=\"https://gateoverflow.in/412476\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the Boolean function $F(w,x,y,z) = wy + xy + \\overline{w}\\:xyz + \\overline{w}\\:\\overline{x}\\:y + xz + \\overline{x}\\:\\overline{y}\\:\\overline{z}.$ Which one of&nbsp; the following is the complete set of essential prime implicants?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$w,y,xz,\\overline{x}\\:\\overline{z}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$w,y,xz$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$y, \\overline{x}\\:\\overline{y}\\:\\overline{z}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$y,xz,\\overline{x}\\:\\overline{z}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 9)</small></h4><a name=\"412908\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/79/796917330ac19a4d003c.jpg\"><br>\nD) y, xz,&nbsp;x’z'</p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"412650\"></a><div itemprop=\"text\">Given Boolean function $F(w,x,y,z)= wy+xy+\\overline{w}\\;xyz+\\overline{w}\\;\\overline{x}\\;y+xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$<br>\n<br>\n$= wy + xy+\\overline{w}y(xz+\\overline{x}) + xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$<br>\n<br>\nUsing Absorption law &nbsp;$(xz + \\overline{x} = z+ \\overline{x})$,<br>\n<br>\n$= wy+xy+\\overline{w}yz+\\overline{w}y\\overline{x}+xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$<br>\n<br>\n$=y(w+\\overline{w}z+\\overline{w}\\;\\overline{x})+xy+xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$<br>\n<br>\nAgain after applying Absorption law,<br>\n<br>\n$=wy+yz+\\overline{x}y+xy+xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$<br>\n<br>\n$=wy+yz+(\\overline{x}+x)y + xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$<br>\n<br>\n$=wy +yz+y+xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$ &nbsp;&nbsp;$(\\because \\overline{x}+x = 1)$<br>\n<br>\n$=y + xz+\\overline{x}\\;\\overline{y}\\;\\overline{z}$ &nbsp;&nbsp;$(\\because 1+w+z = 1)$<br>\n<br>\n$=y+xz+\\overline{x}\\;\\overline{z}$ &nbsp;&nbsp;$(\\text{Absorption law}: &nbsp;&nbsp;y+\\overline{x}\\;\\overline{y}\\;\\overline{z} = y + \\overline{x}\\;\\overline{z})$<br>\n<br>\nSo, essential prime implicants are $y,xz,\\overline{x}\\;\\overline{z}$<br>\n<br>\n$\\color{Green}Ans: D$</div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"427595\"></a><div itemprop=\"text\"><p><strong><img alt=\"\" src=\"media/65/650989ee5a4c12fee203.jpg\">option D</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/412475\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 18,
+  "types": {
+   "MSQ": 1,
+   "MCQ": 13,
+   "NAT": 1
+  },
+  "withoutKey": 5
+ }
+}

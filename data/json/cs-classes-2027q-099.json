@@ -1,0 +1,406 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-099",
+ "title": "DVRUO Classes GATE CS | Theory of Computation | Decidability | Weekly Quiz 7",
+ "sourceTitle": "DVRUO Classes GATE CS | Theory of Computation | Decidability | Weekly Quiz 7",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 99,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1800,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Theory of Computation"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/024_exam_2366_GO Classes GATE CS Theory of Computation Decidability Weekly Quiz 7.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For a deterministic Turing machine, a configuration is represented as $u q v$, where $q$ is the current state, $u v$ is the current tape contents, and the head is currently on the first symbol of $v$.<br><br>A configuration $C_{1}$ yields configuration $C_{2}$ (denoted $C_{1} \\vdash C_{2}$ ) if the machine can legally go from $C_{1}$ to $C_{2}$ in a single step. Formally, for symbols $a, b, c \\in \\Gamma$, strings $u, v \\in \\Gamma^{*}$, and states $q_{i}, q_{j} \\in Q$ :</p><ul><li>Leftward move: $u a q_{i} b v \\vdash u q_{j} a c v$ if $\\delta\\left(q_{i}, b\\right)=\\left(q_{j}, c, \\mathrm{~L}\\right)$<br>&nbsp;</li><li>Rightward move: $u a q_{i} b v \\vdash u a c q_{j} v$ if $\\delta\\left(q_{i}, b\\right)=\\left(q_{j}, c, \\mathrm{R}\\right)$</li></ul><p>Based strictly on these formal definitions, which of the following configuration transitions is/are NOT valid for any Turing machine?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$q_{1} 0110 \\vdash 0 q_{1} 110$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$01 q_{1} 10 \\vdash 0 q_{2} 110$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$011 q_{2} 0 \\vdash 0 q_{2} 110$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$01 q_{1} 10 \\vdash 0 q_{2} 111$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536763\"></a><div itemprop=\"text\">A is valid leftward move.<br>\n<br>\nB is valid rightward move.<br>\n<br>\nC and D are invalid transition.</div></section></div><p><a href=\"https://gateoverflow.in/531167\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following two statements:</p><p><br>Statement $\\mathbf{I}\\left(S_{1}\\right)$ : For any $k&gt;1$, there is no language that is decided by a TM with $k$ tapes, but is undecidable by any TM having $k-1$ (or less) tapes.</p><p><br>Statement $\\mathbf{II}\\left(S_{2}\\right)$ : Suppose $L$ is TM recognizable but not TM decidable. Then any TM that recognizes $L$ must fail to halt on at least one string.</p><p><br>Which of the following options is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Both $S_{1}$ and $S_{2}$ are true.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S_{1}$ is true, but $S_{2}$ is false.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$S_{1}$ is false, but $S_{2}$ is true.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both $S_{1}$ and $S_{2}$ are false.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"535403\"></a><div itemprop=\"text\"><p data-start=\"225\" data-end=\"536\"><strong data-start=\"246\" data-end=\"347\">Statement 1 <u>true&nbsp;</u>becuase multi-tape TMs and single-tape TMs have the same computational power with respect to decidability</strong>. Any kkk-tape TM can be simulated by a (k−1)(k-1)(k−1)-tape TM, a 2-tape TM, or even a 1-tape TM. The simulation may be slower (polynomial slowdown), but the language decided remains the same.</p><p data-start=\"538\" data-end=\"554\">So the hierarchy</p><p>1-tape&lt;2-tape&lt;3-tape&lt;⋯1\\text{-tape} &lt; 2\\text{-tape} &lt; 3\\text{-tape} &lt; \\cdots1-tape&lt;2-tape&lt;3-tape&lt;⋯</p><p data-start=\"618\" data-end=\"738\">does <strong data-start=\"623\" data-end=\"630\">not</strong> exist for language recognition/decidability. More tapes only improve <strong data-start=\"700\" data-end=\"714\">efficiency</strong>, not <strong data-start=\"720\" data-end=\"737\">computability</strong>.</p><p data-start=\"740\" data-end=\"866\">Hence, if a language is decidable by a kkk-tape TM, it is also decidable by a (k−1)(k-1)(k−1)-tape TM (eventually by a 1-tape TM).</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536764\"></a><div itemprop=\"text\">$S_1$: True. We know that a $\\text{k-tape TM}$ $(k ≥ 1)$ is as powerful as a $\\text{1-tape TM}$<br>\n<br>\n$S_2$: True. If a TM recognizing $L$ halts on every input, then it becomes a decider for $L$. But $L$ is given recognizable but not decidable, so every recognizer of $L$ must fail to halt for at least one string.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"540300\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"677\" height=\"700\" src=\"media/cc/ccd267bad965776d03a1.png\"></p><p>Option : A</p></div></section></div><p><a href=\"https://gateoverflow.in/531166\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the language of the Acceptance Problem for Turing Machines:<br><br>$$<br>A_{T M}=\\{\\langle M, w\\rangle \\mid M \\text { is a TM and } w \\text { is in } L(M)\\}<br>$$<br>Define a Turing Machine $N$ with the following behavior:<br><br>$N=$ \"On input $\\langle M, w\\rangle$ :<br><br>1. Simulate $M$ on input $w$.<br><br>2. If $M$ accepts, accept. If $M$ rejects, reject.\"<br><br>Which of the following statements is/are TRUE regarding the Turing Machine $N$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$N$ decides $A_{T M}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$N$ recognizes $A_{T M}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$N$ always halts on any given valid input $\\langle M, w\\rangle$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$N$ decides the complement of $A_{T M}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536766\"></a><div itemprop=\"text\"><p>Answer: $\\text{B}$ only.</p><p>$N$ recognizes $A_{TM}$ because:&nbsp;</p><ul><li>If $\\langle M, w \\rangle \\in A_{TM}$, then $M$ accepts $w$ and $N$ accepts.</li><li>If $\\langle M, w \\rangle \\notin A_{TM}$, $M$ either rejects (so $N$ rejects) or loops forever (so $N$ does not halt).</li></ul><p>Hence, $N$ semi-decides $A_{TM}$, but does not decide it.</p><ul><li>$\\text{A}$ is false: $A_{TM}$ is undecidable.</li><li>$\\text{C}$&nbsp;is false: $M$ may loop on $w$, so $N$ may not halt.</li><li>$\\text{D}$&nbsp;is false: $N$ recognizes&nbsp;$A_{TM}$. So, how it can decide complement of $A_{TM} ?$ Also, $\\overline{A_{TM}}$ is undecidable.</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/531164\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is decidable?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Given two Turing machines $M_{1}$ and $M_{2}$, decide if $L \\left(M_{1} \\right) = L \\left(M_{2}\\right)$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Given a Turing machine $M$, decide if $L(M)$ is regular.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Given a Turing machine $M$, decide if $M$ accepts all strings.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Given a Turing machine $M$, decide if $M$ takes more than $1073$ steps on every string.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536769\"></a><div itemprop=\"text\"><p>Answer : D</p><p>$L_4&nbsp;= \\{ \\langle M \\rangle \\mid M \\text{ is a Turing Machine and} \\,\\, M \\text{ takes more than } 1073&nbsp;\\text{ steps on every string} \\} $</p><p>$L_4$ is&nbsp;decidable as we can have a systematic procedure (algorithm, which terminates in some finite amount of time for every input) in deciding whether a given Turing machine $M$&nbsp;takes more than $1073$ steps on every string.</p><p>For $L_4$ we have to monitor for at most&nbsp;$\\textsf{TM}$ for $1073+1$ steps for all possible inputs of size $&lt;=1073$ (if the input set is having $k$ alphabets, we will have finite number of such possible strings which we need to inspect on the input Turing Machine.) Let’s call all these strings of length $&lt;=1073$ as&nbsp;the “candidate strings” (candidates for inspection on the input TM)(So, we have finite number of candidate strings)</p><p>Our algorithm takes Turing Machine as input.</p><p>If for all the candidate strings,&nbsp;Input Turing&nbsp;Machine $M$ is taking more than $1073$ steps, then it means for all larger strings(strings of length $&gt;1073$) also $M$&nbsp;must take more than $1073$ steps and we(our algorithm) can answer “yes” for input $M.$</p><p>If for at least one of&nbsp;the candidate strings,&nbsp;Input Turing&nbsp;Machine $M$ is halting in less&nbsp;than or equal to $1073$ steps, then we(our algorithm) can answer “No” for input $M.$</p><p>So, we can decide, for any input Turing machine $M,$ whether $M$ takes more than 1073 steps on every string Or whether $M$&nbsp;halts in less than or equal to 1073 steps on at least one string.&nbsp;</p><p>Thus we(our algorithm) correctly decided&nbsp;$L_4.$</p><p>So, Problem in Option D is Decidable.</p><p>NOTE :</p><p>For Option D, we cannot apply Rice Theorem as&nbsp;the property mentioned in the&nbsp;Problem of Option D, is about the Turing machine and not about the language. Rice Theorem is applicable only for the languages of Turing Machines.&nbsp;</p><p>$L_1 :$</p><p>Option 1 is the “Equivalence Problem of Turing Machines”&nbsp;which asks to Decide whether two TMs accept the same language. This is equivalent to the problem of whether two programs compute the same output for every input. This is standard undecidable problem.</p><p>Though, we cannot apply Rice Theorem for $L_1$ as Rice Theorem is applicable only when input is a single Turing Machine and the problem to be decided is related to language of this Turing Machine.</p><p>$L_2 :$</p><p>Option 2&nbsp;is the “Regularity&nbsp;Problem of Turing Machines”&nbsp;which asks to Decide whether the language accepted by the given&nbsp;TM&nbsp;is&nbsp;a regular&nbsp;language. This is standard undecidable problem. We can also apply Rice Theorem&nbsp;for $L_2$. $L_2$ is undecidable using Rice Theorem because &nbsp;“language of Turing machine” being Regular is Non-trivial property of “languages of TM”. In simple terms, language of TMs is RE language and “being regular” is Non-Trivial Property of RE languages. As per Rice Theorem, ALL Non-trivial properties of RE languages are Undecidable.</p><p><strong>Examples of undecidable problems :</strong><br>• About Turing machines:<br>– Is the language accepted by a TM empty, finite, regular, or context-free?<br>– Does a TM meet its “specification,” that is, does it have any “bugs.”<br>• About context-free languages:<br>– Are two context-free grammars equivalent?<br>– Is a context-free grammar ambiguous?</p><p>$L_3 :$</p><p>Option 3&nbsp;is the “Universaility/Completeness&nbsp;Problem of Turing Machines”&nbsp;which asks to Decide whether the TM accepts all strings or not. This is standard undecidable problem. We can also apply Rice Theorem&nbsp;for $L_3$. $L_3$ is undecidable using Rice Theorem because &nbsp;“language of Turing machine” being $\\Sigma^*$&nbsp;is Non-trivial property of “languages of TM”. In simple terms, language of TMs is RE language and “being $\\Sigma^*$” is Non-Trivial Property of RE languages. As per Rice Theorem, ALL Non-trivial properties of RE languages are Undecidable</p></div></section></div><p><a href=\"https://gateoverflow.in/531163\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $G$ be an arbitrary Context-Free Grammar ($CFG$) over a terminal alphabet $\\Sigma$. Consider the following decision problems represented as languages:<br><br>$$<br>\\begin{aligned}<br>L_{\\text {empty }} &amp; =\\{\\langle G\\rangle \\mid G \\text { is a CFG and } L(G)=\\emptyset\\} \\\\<br>L_{\\text {all }} &amp; =\\left\\{\\langle G\\rangle \\mid G \\text { is a CFG and } L(G)=\\Sigma^{*}\\right\\}<br>\\end{aligned}<br>$$</p><p>Which of the following statements is/are correct?</p><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$L_{\\text {empty }}$ is a decidable language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L_{\\text {all }}$ is an undecidable language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There exists a Turing Machine that always halts and accepts the language $L_{\\text {empty }}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The problem of determining whether a given $CFG$ generates every possible string over $\\Sigma$ can be solved by a halting Turing Machine.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"541176\"></a><div itemprop=\"text\">Lempty = The Emptiness problem of CFL, As we know this is decidable as we just need to check that the start symbol is useful or not, i.e. it leads to Atleast one terminal string or not.<br>\n<br>\nIf it does then then we accept else we reject.<br>\n<br>\nThere exists a HTM which halts for both members and non-members.<br>\n<br>\nLall = The Completeness Problem of TM, which is Undecidable, there does not exist and HTM for it.<br>\n<br>\nA True<br>\n<br>\nB True<br>\n<br>\nC True <br>\n<br>\nD False Since the problem is undecidable so it cannot be solved by HTM.</div></section></div><p><a href=\"https://gateoverflow.in/531161\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Define languages $L_{1}$ and $L_{2}$ as follows :<br><br>$L_{1} =\\{\\langle M, w, 0 \\rangle \\mid M$ accepts $w\\}$<br><br>$L_{2} =\\{\\langle M, w, 1 \\rangle \\mid M$ does not accept $w\\}$<br><br>Here $\\langle M,w,i \\rangle $ is a triplet, whose first component $M$ is an encoding of a Turing Machine, second component $w$ is a string, and third component $i$ is a bit.<br><br>Let $L = L_{1} \\cup L_{2}$. Which of the following is/are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$L$ is regular because $L=\\Sigma^{*}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L$ is recursive<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$L_{1}$ is recursively enumerable but $L_2$ is not<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Neither $L$ nor $L$ &#x27; is recursively enumerable</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"537103\"></a><div itemprop=\"text\"><p>Answer: $\\boxed{\\textbf{A, B}}$</p><hr><p>Most common mistake it to think $L_1 = A_{TM}$ and $L_2 = \\overline{A_{TM}}$, where $A_{TM}$ is Acceptance Problem for TMs.</p><p>First understand language $L_1$ and language $L_2$.</p><p>For the sake of example, consider three Turing Machines: $A$, $B$ and $C$ and input string $w \\in \\Sigma^*$. Suppose, $A$ accepts $w$, $B$ rejects $w$ and $C$ loops on $w$. Now,</p><p>$L_{1} =\\{\\langle M, w, 0 \\rangle \\mid M$ accepts $w\\}$</p><ul><li>$\\langle A, w, 0 \\rangle \\in L_1$ because $A$ accepts $w$.</li><li>$\\langle B, w, 0 \\rangle \\notin L_1$ because $B$ does not accept $w$.</li><li>$\\langle C, w, 0 \\rangle \\notin L_1$ because $C$ does not accept $w$.</li></ul><p>So, if someone gives you triplet: $\\langle M, w, 0 \\rangle$ and tells you that it belongs to $L_1$ then it means TM $M$ accepts $w$. And if someone tells you that it doesn't belong to $L_1$, then it means TM $M$ doesn't accept $w$.</p><p>$L_{2} =\\{\\langle M, w, 1 \\rangle \\mid M$ does not accept $w\\}$.&nbsp;Similarly,&nbsp;</p><ul><li>$\\langle A, w, 1&nbsp;\\rangle \\notin L_2$ because $A$ accepts $w$.</li><li>$\\langle B, w, 1&nbsp;\\rangle \\in L_2$ because $B$ does not accept $w$.</li><li>$\\langle C, w, 1&nbsp;\\rangle \\in L_2$ because $C$ does not accept $w$.</li></ul><p>$L_1$ is RE. We can simulate $M$ on $w$. If $M$ accepts, accept and if $M$ rejects, reject. But $L_2$ is not recursively enumerable. Option $\\color{red}{\\boxed{C}}$ is correct.</p><hr><p>It is given that $L = L_1 \\cup L_2$.&nbsp;</p><p>It should be noted that every string in $L_1, L_2$ and $L$ are in the form of triplet. In particular, members of $L_1$ are of the form&nbsp;$\\langle M, w, 0 \\rangle$,&nbsp;members of $L_2$ are of the form&nbsp;$\\langle M, w, 1 \\rangle$ and&nbsp;members of $L$ are of the form&nbsp;$\\langle M, w, i \\rangle$ where $i$ can be $0$ or $1$.</p><p>So, if someone tells you that the triplet&nbsp;$\\langle M, w, 0 \\rangle \\in L$ then it must have came from $L_1$ since every triplet that is in $L_1$ has $0$ in the third component and every triplet that is in $L_2$ does not have $0$ in the third component. And since $\\langle M, w, 0 \\rangle \\in L_1$, $M$ accepts $w$.</p><p>In that same way,&nbsp;if someone tells you that the triplet&nbsp;$\\langle M, w, 1 \\rangle \\in L$ then it must have came from $L_2$ since every triplet that is in $L_2$ has $1$ in the third component and every triplet that is in $L_1$ does not have $1$ in the third component. And since $\\langle M, w, 1 \\rangle \\in L_2$, $M$ does not accept $w$.</p><p>So,</p><ul><li>$\\color{blue}{\\langle M, w, 0 \\rangle \\in L} \\iff \\langle M, w, 0 \\rangle \\in L_1 \\iff$ $\\color{blue}{\\text{M&nbsp;accepts w}}$</li><li>$\\color{blue}{\\langle M, w, 1&nbsp;\\rangle \\in L} \\iff \\langle M, w, 1 \\rangle \\in L_2 \\iff$ $\\color{blue}{\\text{M&nbsp;does not accept&nbsp;w}}$</li></ul><hr><p>One another mistake is to consider $L = \\Sigma^*$. But it is not so since not every string belongs to $L$.<br>We know that, for every Turing Machine $M$ and for every input string $w$, either $M$ accepts $w$ or does not accept.<br>If $M$ accepts $w$, then $\\langle M, w, 1&nbsp;\\rangle \\notin L$ and $\\langle M, w, 0 \\rangle \\in L$<br>If $M$ does not accept $w$, then $\\langle M, w, 0 \\rangle \\notin L$ and $\\langle M, w, 1&nbsp;\\rangle \\in L$<br>So clearly, $L \\neq \\Sigma^*$. Option $\\color{red}{\\boxed{A}}$ is incorrect.</p><p>$L$ is not RE.&nbsp;</p><p>If $L$ were RE, then we could decide the Acceptance Problem of TMs:<br>Assume, for the sake of contradiction, that $L$ is RE. Then there exists a TM $T$ that recognizes $L$.</p><blockquote><p>On input $\\langle M,w\\rangle$:</p><ul><li>Construct strings:&nbsp;$\\langle M, w, 0&nbsp;\\rangle$ and&nbsp;$\\langle M, w, 1&nbsp;\\rangle$</li><li>Simulate $T$ on both of these strings in dovetailing fashion.</li><li>Since exactly&nbsp;one of the two simulations must eventually&nbsp;accept.</li><li>If $T$ accepts $\\langle M,w,0\\rangle$, $\\textbf{halt and accept}$</li><li>Otherwise, if $T$ accepts $\\langle M,w,1\\rangle$, $\\textbf{halt and reject}$</li></ul></blockquote><p>Thus, we have constructed a decider for ${A}_{TM}$, which is impossible. Hence, $L$ is not RE. Option $\\color{red}{\\boxed{B}}$ is incorrect.</p><p>Another Proof: Let&nbsp;$X$ denotes the set of all strings of the form $\\langle M,w,1\\rangle$, i.e., all valid encodings whose third component is $1$. If $L$ were RE, then $L_2 = L \\cap X$ would also be RE, since RE langauges are closed under intersection. But $L_2$ is not RE. Therefore, $L$ is not RE. ($X$ is RE because we just need to check if string is valid encoding or not.)</p><hr><p>Now, what is $\\overline{L} ?$</p><p>We have seen above that, for every TM $M$ and for every input string $w$, exactly one of $\\langle M, w, 0 \\rangle$ and $\\langle M, w, 1 \\rangle$ belongs to $L$.&nbsp;So, this is also the case with $\\overline{L}$ that exactly one of those two triplets belongs to&nbsp;$\\overline{L}$.</p><p>\\[<br>L=<br>\\left\\{<br>\\langle M,w,i\\rangle<br>\\;\\middle|\\;<br>(i=0 \\land M \\text{ accepts } w)<br>\\;\\lor\\;<br>(i=1 \\land M \\text{ does not accept } w)<br>\\right\\}<br>\\]</p><p>If we assume $\\Sigma^*$ is set of all valid encodings, then</p><p>\\[<br>\\overline{L}=<br>\\left\\{<br>\\langle M,w,i\\rangle<br>\\;\\middle|\\;<br>(i=1 \\land M \\text{ accepts } w)<br>\\;\\lor\\;<br>(i=0 \\land M \\text{ does not accept } w)<br>\\right\\}<br>\\]</p><p>If there can be invalid encodings, then</p><p>\\[<br>\\begin{aligned}<br>\\overline{L}<br>={}&amp;<br>\\left(<br>\\Sigma^*<br>\\setminus<br>\\left\\{<br>\\langle M,w,i\\rangle<br>\\mid<br>M \\text{ is an encoding of a TM},\\;<br>w\\in\\Sigma^*,\\;<br>i\\in\\{0,1\\}<br>\\right\\}<br>\\right) \\\\<br>&amp;\\cup<br>\\left\\{<br>\\langle M,w,i\\rangle<br>\\;\\middle|\\;<br>(i=1 \\land M \\text{ accepts } w)<br>\\;\\lor\\;<br>(i=0 \\land M \\text{ does not accept } w)<br>\\right\\}.<br>\\end{aligned}<br>\\]</p><p>(Note: LHS of union is just set of all invalid encodings. $\\langle M, w\\rangle$, $\\langle M\\rangle$, $\\epsilon$, etc are invalid encodings/format)</p><p>Observe that $L$ and&nbsp;$\\overline{L}$ are symmetric. The only difference is the interpretation of the indicator bit $i$, which is reversed. So,&nbsp;$\\overline{L}$ is also not RE. (Same reason as why $L$ is not RE). So, option $\\color{red}{\\boxed{D}}$ is correct.</p></div></section></div><p><a href=\"https://gateoverflow.in/531162\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Here is the state diagram of a simple TM, where $\\Sigma=\\{0,1\\}$ and $\\Gamma=\\{0,1, x, \\#, B\\}$. The accept state is $q_{a c c}$. Any transition not shown in the diagram is assumed to go to the reject state, $q_{\\text {rej }}$<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"356\" src=\"media/62/6251bec9e6c6699800b3.png\"></p><p>Each step of the Turing machine first reads the symbol on the cell of the tape under the head. Depending on the symbol and the current state of the controller, it then</p><ul><li>(optionally) writes a new symbol at the current tape position,<br>&nbsp;</li><li>moves either left or right, and<br>&nbsp;</li><li>(optionally) changes to a new state.</li></ul><p>For example, the following transition is taken if the controller is in state $q$ and the symbol under the read head is a. It replaces the b with the character c and then moves right, switching the controller to the state $r$.<br>$$<br>q \\quad \\mathrm{~b} \\rightarrow \\mathrm{c}, R \\quad r<br>$$</p><p>Which of the following statements is/are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The string $000111$ is accepted by TM<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>TM enters into an infinite loop on input $00111$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The language recognized by TM is $\\{0^n 1^m \\mid n,m \\geq 1\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>TM rejects the string $0011$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536808\"></a><div itemprop=\"text\">The language of Turing Machine is $\\{ 0^n1^n \\mid n,m \\ge1 \\}$<br>\n<br>\nA. TRUE<br>\n<br>\nB. FALSE<br>\n$$\\text{B}q_0{00111} \\\\<br>\n\\vdash x q_1 0111 \\\\<br>\n\\vdash x0 q_1 11 \\\\<br>\n\\vdash x0 q_2 \\#11 \\\\<br>\n\\vdash x q_2 0\\#11 \\\\<br>\n\\vdash q_2 x0\\#11 \\\\<br>\n\\vdash x q_0 0\\#11 \\\\<br>\n\\vdash xx q_1 \\#11 \\\\<br>\n\\vdash xx\\# q_1 11 \\\\<br>\n\\vdash xx\\# q_2 \\#1 \\\\<br>\n\\vdash xx q_2 \\#\\#1 \\\\<br>\n\\vdash x q_2 x\\#\\#1 \\\\<br>\n\\vdash xx q_0 \\#\\#1 \\\\<br>\n\\vdash xx\\# q_3 \\#1 \\\\ <br>\n\\vdash xx\\#\\# q_3 1 \\\\<br>\n\\vdash HALT (Reject)$$<br>\n<br>\nC. FALSE since $\\{ 0^n1^n \\mid n,m \\ge1 \\}$ <br>\n<br>\nD. FALSE since $000111 \\in L(M)$</div></section></div><p><a href=\"https://gateoverflow.in/531160\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $E_{D F A}=\\{\\langle A\\rangle \\mid A$ is a DFA and $L(A)=\\emptyset\\}$. When proving the decidability of $E_{D F A}$, we look for an algorithmic condition to distinguish between a DFA that accepts some string and one that accepts no strings.<br><br>Which of the following statements provides a universally true \"if and only if\" (iff) condition for $\\langle A\\rangle \\in E_{D F A}$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\langle A\\rangle \\in E_{D F A}$ iff $A$ &#x27;s initial state is not an accepting state.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\langle A\\rangle \\in E_{D F A}$ iff $A$ &#x27;s set of accepting states is empty ( $F=\\emptyset$ ).<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\langle A\\rangle \\in E_{D F A}$ iff the set of states in $A$ is the empty set.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"531159\"></a><div itemprop=\"text\">For any DFA $A$, $L(A)$ is empty if and only if there is No Reachable Final State in the DFA $A$, from the start state. So, we can perform BFS or DFS on the transition diagram of DFA $A$ and see if any final state is reachable or not.<br>\n<br>\nCorrect condition:<br>\n$\\langle A\\rangle \\in E_{D F A}$ iff a breadth-first search in $\\text{A's}$ transition diagram finds no path from the start state to any accepting state.</div></section></div><p><a href=\"https://gateoverflow.in/531158\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider two languages, $L_1$ and $L_2$, containing encodings of Turing machines:<br>$$<br>\\begin{aligned}<br>L_1 &amp;= \\{\\langle M\\rangle \\mid M \\text{ halts on a blank tape within at most 20 steps}\\} \\\\<br>L_2 &amp;= \\{\\langle M\\rangle \\mid \\forall w\\in\\Sigma^{*},\\, M \\text{ halts on input } w \\text{ within at most 20 steps}\\}<br>\\end{aligned}<br>$$<br>Which of the following is correct regarding the decidability of language $L_1$ and language $L_2$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Both $L_{1}$ and $L_{2}$ are decidable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L_{1}$ is decidable, but $L_{2}$ is undecidable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$L_{1}$ is undecidable, but $L_{2}$ is decidable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Neither $L_{1}$ nor $L_{2}$ is decidable.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"531157\"></a><div itemprop=\"text\">ALL Step Based GATE PYQs of Turing Machines: <a href=\"https://youtu.be/tOgk0g5Xv1Q\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/tOgk0g5Xv1Q</a> <br>\n<br>\n<br>\n$L_1$ is decidable. We can build a TM that decides it; this machine will take in an input TM, and simulate it on a blank tape for 20 transitions, and check if it halts. If it does, it accepts, else it rejects.<br>\n<br>\n<br>\n<br>\n$L_2$ is also decidable. Deciding whether a TM halts in 20 steps on all inputs first seems hard because one has to go through all inputs, which is an infinite set. However, note that a TM in 20 steps can read only the first 20 symbols of the input; hence testing whether the TM accepts all strings of length at most 20 in 20 steps is equivalent.<br>\n<br>\n<br>\nWe can build a TM that simulates an input TM on all these inputs for 20 steps.</div></section></div><p><a href=\"https://gateoverflow.in/531156\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In number theory, a number is said to be perfect if it is equal to the sum of its proper divisors. For example, 6 is perfect ( $6=1+2+3$ ), while 15 is not ( $1+3+5 \\neq 15$ ). There is a famous, long-standing mathematical conjecture that states: \"There are no odd perfect numbers.\" To date, no one knows if this conjecture is true or false.<br><br>Consider the language $L$ defined as:<br><br>$$<br>L=\\{x \\mid x \\text { is an odd perfect number in decimal representation }\\}<br>$$<br><br>Which of the following statements is correct regarding the classification of language $L$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$L$ is Turing decidable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L$ is Turing recognizable but not Turing decidable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$L$ is not Turing recognizable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The decidability of $L$ cannot be determined until the mathematical conjecture is proven true or false.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"531155\"></a><div itemprop=\"text\">Since we (already) have an algorithm to determine whether a given integer is perfect or not, so $L$ is decidable.<br>\n$$<br>\nL=\\{x \\mid x \\text{ is an odd perfect number}\\}.<br>\n$$<br>\n$L$ is Turing decidable. We can build a Turing machine, which given any $x$, will compute the set of all its divisors $d_1,d_2,\\ldots,d_k$, and check if $x$ is odd and $x=d_1+d_2+\\ldots+d_k$. If it is, it will accept, else it will reject.<br>\n<br>\nNOTE: We have an algorithm to check if a given individual integer is perfect or not, but it doesn’t mean that using this algorithm we can find if the conjecture is true or not.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"534337\"></a><div itemprop=\"text\">It is decidable but still unproven because finding the factors of a number in exponential time complexity.<br>\n<br>\nBut you can deterministically find all the factors of it and brute force check every possible variation to check if its perfect or not. <br>\n<br>\nThe reason why its still unproven because our computers arent fast enough thats the only problem, our universes would die before our computer finishes executing</div></section></div><p><a href=\"https://gateoverflow.in/531154\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 4,
+  "types": {
+   "MSQ": 6,
+   "MCQ": 4
+  },
+  "withoutKey": 7
+ }
+}

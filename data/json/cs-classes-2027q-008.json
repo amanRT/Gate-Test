@@ -1,0 +1,729 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-008",
+ "title": "DVRUO Classes GATE CS | C-Programming | Pointers, Storage classes & Recursion | Weekly Quiz 3",
+ "sourceTitle": "DVRUO Classes GATE CS | C-Programming | Pointers, Storage classes & Recursion | Weekly Quiz 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 8,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "C-Programming"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/082_exam_968_GO Classes GATE CS C-Programming Pointers, Storage classes & Recursion Weekly Quiz 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of the given C code?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\n#include&lt;stdlib.h&gt;\nint main(){\n    int x, t[4] = {1,3,4,5};\n    int *p, **pp;\n    p = t;\n    pp = &amp;p;\n    printf(\"%d \", *p);\n    printf(\"%d \", **pp+1);\n    printf(\"%d\", *(*pp+1));\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1\\; 3\\; 4$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1\\; 3\\; 3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1 \\;2 \\;3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1 \\;2 \\;2$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"374761\"></a><div itemprop=\"text\"><p><strong>Answer: C</strong></p><p>&nbsp;</p><p>Table format: address : value</p><table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\"><caption>int t[4]</caption><tbody><tr><td>1000</td><td>1004</td><td>1008</td><td>1012</td></tr><tr><td>1</td><td>3</td><td>4</td><td>5</td></tr></tbody></table><table border=\"1\" cellpadding=\"1\" style=\"width:126px; border-spacing: 1px;\"><caption>int *p</caption><tbody><tr><td style=\"width:119px\">2000</td></tr><tr><td style=\"width:119px\">1000</td></tr></tbody></table><table border=\"1\" cellpadding=\"1\" style=\"width:126px; border-spacing: 1px;\"><caption>int **p</caption><tbody><tr><td style=\"width:118px\">3000</td></tr><tr><td style=\"width:118px\">2000</td></tr></tbody></table><p>&nbsp;</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%d \", *p);</pre><p>value of p = 1000, dereference (value at) 1000 = 1.</p><p>&nbsp;</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%d \", **pp+1);</pre><p><strong>precedence of * (unary, dereference)</strong> &gt; <strong>precedence of + (binary, addition).</strong></p><p>value of pp = 2000, dereference pp&nbsp;first time = 1000, dereference pp second time = 1; 1 + 1 = 2.</p><p>&nbsp;</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%d\", *(*pp+1));</pre><p>*pp = 1000; 1000 + 1 = 1001?</p><p>‘*pp’ is effectively same as ‘p’ which is a pointer to an int so,</p><p>*pp + 1 = 1000 + 1*sizeof(int) = 1004, dereferencing it gives 3.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536336\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"485\" height=\"332\" src=\"media/7a/7abde06faf84ab40793b.png\"></p><p>Option C. 1 2 3&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374741\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are valid assignment(s) of the pointer for the given declaration? An assignment is valid if both pointers are of the same type (pointers are compatible) and get successfully compiled with no warning or error.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int a[5]= {1,2};\nint (*p)[5];\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"> p = a;</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"> p = &amp;a;</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"> p = *a;</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\"> p = **a;\n</pre>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 39)</small></h4><a name=\"374886\"></a><div itemprop=\"text\">Option A: p=a; → Here a is a pointer to first element of array. P is a pointer to an array of 5 elements.<br>\n<br>\nOption B: p=&amp;a; : &amp;a is a pointer to whole array of 5 elements and p is also a pointer to array of 5 elements . so it is a valid statement.<br>\n<br>\nOption C: p=*a; P is a pointer to whole array &amp; *a is accessing first element of the array.<br>\n<br>\nOption D: p=**a; : **a is not a legal statement since *a means that its accessing first element of array and **a does not mean anything. So it is not a valid statement.</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"488638\"></a><div itemprop=\"text\"><p>Given the declaration&nbsp;<strong><code>int a[5] = {1, 2};</code>&nbsp;and&nbsp;<code>int (*p)[5];</code>,</strong> the valid assignment is&nbsp;<code>p = &amp;a;</code>.</p><p>Here is an analysis of each assignment and a conceptual diagram:</p><p><strong>1.&nbsp;<code>p = a;</code></strong></p><ul data-hveid=\"CAkQAQ\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQm_YKegQICRAB\"><li><strong>Invalid.</strong>&nbsp;<code>a</code>&nbsp;decays to a pointer to its first element, which is of type&nbsp;<code>int*</code>.&nbsp;However,&nbsp;<code>p</code>&nbsp;is a pointer to an array of 5 integers (<code>int (*)[5]</code>).&nbsp;These types are incompatible.</li></ul><p>Code</p><p><button aria-label=\"Copy code to clipboard\" title=\"Copy\" role=\"button\" tabindex=\"0\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQ9MILegQIFBAB\"></button></p><pre><code data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQjZIMegQIFBAC\">+---+---+---+---+---+\n| 1 | 2 | 0 | 0 | 0 |  &lt;-- Array 'a' (int[5])\n+---+---+---+---+---+\n  ^\n  | (Type: int*)\n  |\n  |  <strong>(Incompatible with int (*)[5])</strong>\n  |\n  p (Type: int (*)[5])</code></pre><p>2.&nbsp;<code>p = &amp;a;</code></p><ul data-hveid=\"CBgQAQ\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQm_YKegQIGBAB\"><li><strong>Valid.</strong>&nbsp;<code>&amp;a</code>&nbsp;represents the address of the entire array&nbsp;<code>a</code>.&nbsp;The type of&nbsp;<code>&amp;a</code>&nbsp;is&nbsp;<code>int (*)[5]</code>, which perfectly matches the type of&nbsp;<code>p</code>.</li></ul><p>Code</p><p><button aria-label=\"Copy code to clipboard\" title=\"Copy\" role=\"button\" tabindex=\"0\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQ9MILegQIHxAB\"></button></p><pre><code data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQjZIMegQIHxAC\">+---+---+---+---+---+\n| 1 | 2 | 0 | 0 | 0 |  &lt;-- Array 'a' (int[5])\n+---+---+---+---+---+\n^\n| (Type: int (*)[5])\n|\np <strong>(Type: int (*)[5])</strong></code></pre><p>3.&nbsp;<code>p = *a;</code></p><ul data-hveid=\"CCcQAQ\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQm_YKegQIJxAB\"><li><strong>Invalid.</strong>&nbsp;<code>*a</code>&nbsp;is equivalent to&nbsp;<code>a[0]</code>, which is an&nbsp;<code>int</code>&nbsp;value (in this case,&nbsp;<code>1</code>).&nbsp;You cannot assign an&nbsp;<code>int</code>&nbsp;value to a pointer.</li></ul><p>Code</p><p><button aria-label=\"Copy code to clipboard\" title=\"Copy\" role=\"button\" tabindex=\"0\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQ9MILegQIKhAB\"></button></p><pre><code data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQjZIMegQIKhAC\">+---+---+---+---+---+\n| 1 | 2 | 0 | 0 | 0 |  &lt;-- Array 'a' (int[5])\n+---+---+---+---+---+\n  ^\n  | (Value: 1, Type: int)\n  |\n  |  <strong>(Incompatible with int (*)[5])</strong>\n  |\n  p (Type: int (*)[5])</code></pre><p>4.&nbsp;<code>p = **a;</code></p><ul data-hveid=\"CC4QAQ\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQm_YKegQILhAB\"><li><strong>Invalid.</strong>&nbsp;<code>**a</code>&nbsp;is equivalent to&nbsp;<code>*(a[0])</code>.&nbsp;This attempts to dereference an&nbsp;<code>int</code>&nbsp;value, which is an invalid operation and would result in a compilation error.</li></ul><p>Code</p><p><button aria-label=\"Copy code to clipboard\" title=\"Copy\" role=\"button\" tabindex=\"0\" data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQ9MILegQINRAB\"></button></p><pre><code data-ved=\"2ahUKEwjLg6-HpPOPAxWMRWwGHafCILAQjZIMegQINRAC\">+---+---+---+---+---+\n| 1 | 2 | 0 | 0 | 0 |  &lt;-- Array 'a' (int[5])\n+---+---+---+---+---+\n  ^\n  | (Value: 1, Type: int)\n  |\n  |  <strong>(Attempting to dereference an int is invalid)</strong>\n  |\n  p (Type: int (*)[5])</code></pre></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"534735\"></a><div itemprop=\"text\"><p data-start=\"0\" data-end=\"6\">Given:</p><pre data-start=\"8\" data-end=\"47\">&nbsp;</pre><pre><code>int a[5] = {1,2};\nint (*p)[5];</code></pre><p data-start=\"49\" data-end=\"93\">Let's determine the type of each expression:</p><ul data-start=\"95\" data-end=\"365\"><li data-section-id=\"x54vhb\" data-start=\"95\" data-end=\"199\"><code data-start=\"97\" data-end=\"100\">a</code>&nbsp;→ in most expressions, an array decays to a pointer to its first element, so&nbsp;<code data-start=\"178\" data-end=\"181\">a</code>&nbsp;has type&nbsp;<code data-start=\"191\" data-end=\"198\">int *</code>.</li><li data-section-id=\"1nh3td6\" data-start=\"200\" data-end=\"255\"><code data-start=\"202\" data-end=\"206\">&amp;a</code>&nbsp;→ address of the whole array, type&nbsp;<code data-start=\"242\" data-end=\"254\">int (*)[5]</code>.</li><li data-section-id=\"11rl96d\" data-start=\"256\" data-end=\"304\"><code data-start=\"258\" data-end=\"262\">*a</code>&nbsp;→ first element of the array, type&nbsp;<code data-start=\"298\" data-end=\"303\">int</code>.</li><li data-section-id=\"1tlaajx\" data-start=\"305\" data-end=\"365\"><code data-start=\"307\" data-end=\"312\">**a</code>&nbsp;→ invalid (<code data-start=\"324\" data-end=\"328\">*a</code>&nbsp;is already an&nbsp;<code data-start=\"343\" data-end=\"348\">int</code>, not a pointer).</li></ul><p data-start=\"367\" data-end=\"392\">Since&nbsp;<code data-start=\"373\" data-end=\"376\">p</code>&nbsp;is declared as:</p><pre data-start=\"394\" data-end=\"415\">&nbsp;</pre><pre><code>int (*p)[5];</code></pre><p data-start=\"417\" data-end=\"503\"><code data-start=\"417\" data-end=\"420\">p</code>&nbsp;must be assigned a value of type&nbsp;<code data-start=\"454\" data-end=\"466\">int (*)[5]</code>&nbsp;(pointer to an array of 5 integers).</p><h3 data-section-id=\"br27cm\" data-start=\"505\" data-end=\"516\" id=\"options\">Options</h3><p data-start=\"518\" data-end=\"524\"><strong data-start=\"518\" data-end=\"524\">A.</strong></p><pre data-start=\"525\" data-end=\"540\">&nbsp;</pre><pre><code>p = a;</code></pre><p data-start=\"541\" data-end=\"575\"><strong><code data-start=\"541\" data-end=\"544\">a</code>&nbsp;is&nbsp;<code data-start=\"548\" data-end=\"555\">int *</code>, not&nbsp;<code data-start=\"561\" data-end=\"573\">int (*)[5]</code>&nbsp;</strong></p><p data-start=\"577\" data-end=\"583\"><strong data-start=\"577\" data-end=\"583\">B.</strong></p><pre data-start=\"584\" data-end=\"600\">&nbsp;</pre><pre><code>p = &amp;a;</code></pre><p data-start=\"601\" data-end=\"645\"><strong><code data-start=\"601\" data-end=\"605\">&amp;a</code>&nbsp;is&nbsp;<code data-start=\"609\" data-end=\"621\">int (*)[5]</code>, exactly matching&nbsp;<code data-start=\"640\" data-end=\"643\">p</code>&nbsp;</strong></p><p data-start=\"647\" data-end=\"653\"><strong data-start=\"647\" data-end=\"653\">C.</strong></p><pre data-start=\"654\" data-end=\"670\">&nbsp;</pre><pre><code>p = *a;</code></pre><p data-start=\"671\" data-end=\"686\"><strong><code data-start=\"671\" data-end=\"675\">*a</code>&nbsp;is&nbsp;<code data-start=\"679\" data-end=\"684\">int</code>&nbsp;</strong></p><p data-start=\"688\" data-end=\"694\"><strong data-start=\"688\" data-end=\"694\">D.</strong></p><pre data-start=\"695\" data-end=\"712\">&nbsp;</pre><pre><code>p = **a;</code></pre><p data-start=\"713\" data-end=\"756\"><strong><code data-start=\"713\" data-end=\"718\">**a</code>&nbsp;is invalid because&nbsp;<code data-start=\"738\" data-end=\"742\">*a</code>&nbsp;is an&nbsp;<code data-start=\"749\" data-end=\"754\">int</code>&nbsp;</strong></p><h3 data-section-id=\"7aajhg\" data-start=\"758\" data-end=\"776\" id=\"correct-answer\">Correct Answer</h3><p data-start=\"777\" data-end=\"795\"><strong data-start=\"777\" data-end=\"793\">B.&nbsp;<code data-start=\"782\" data-end=\"791\">p = &amp;a;</code></strong>&nbsp;</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"536337\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"500\" style=\"max-width: 100%;\" src=\"media/30/30da1adefa4a40a2eb06.jpg\"><br><code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">a</code>&nbsp;(Option A): Points strictly to the first element cell (<code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">a</code>). Type is <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">int*</code>. This does not match <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">p.</code></p><p><code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">&amp;a&nbsp;</code>(Option B): Points to the entire block container holding all 5 items. Type is <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">int (*)[5]</code>. This matches <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">p</code>&nbsp;perfectly.</p><p><code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">*a</code>&nbsp;(Option C): Pulls out the integer value <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">1</code>&nbsp;directly inside the first cell. An integer cannot be assigned to a pointer variable.</p><p>&nbsp;</p><p>TRICK to find a pointer's exact type:</p><ul><li>&nbsp;check where <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 600; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">pointer + 1</code>&nbsp;points; once you know the size of that jump, you know the type.</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/374739\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following declaration of pointer variable $p.$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int (*p)[5];</pre><p>If the initial value of $p$ is $1000,$ then what will be the value of $p+1?$</p><p>It is given that the system has $8$ bytes of address size and $4$ bytes of integer size.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1001$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1004$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1020$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1008$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"374764\"></a><div itemprop=\"text\"><p><strong>Answer: C</strong></p>\n\n<p>“p is the pointer to an array of five integers”.</p>\n\n<p>‘*p’ is THE ARRAY of five integers.</p>\n\n<p>so p + 1 = p + 1*sizeof(*p). = 1000 + 5 * sizeof(int), effectively = 1000 + 20 = 1020</p></div></section><section><h4>Source solution 2 <small>(score: 6)</small></h4><a name=\"405791\"></a><div itemprop=\"text\"><p>Initial value of $p$ is $1000$.</p><pre>int (*p)[5]; </pre><p>means $\\color{Red}\\text{p is pointer to an array of 5 integers}.$</p><p>$*p$ is a array of $5$ integers.</p><p>$\\therefore p + 1 = p+1 \\times sizeof(*p)=1000 + 5 \\times sizeof(int) = 1000+ 5 \\times 4 = \\color{DarkBlue}1020$</p><p>$\\color{Green}{Ans: C}$&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"431649\"></a><div itemprop=\"text\">Answer Is C<br>\n<br>\nFirst of all it is asking that p+1 means the we have to include the size of whole array each of size 4bytes .<br>\n<br>\n&nbsp;so, Base address +sizeof(*p)*No of elements in array<br>\n<br>\n1000+4*5=1020.</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"493756\"></a><div itemprop=\"text\">int (*p)[5] : P is a point to array of 5 integer<br>\n<br>\nthen size of p or size of ptr or addrss size doesn't matter only matters array size which is 20 so<br>\n<br>\n1020</div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"536339\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"500\" height=\"303\" src=\"media/d0/d0a6ddbb588992dfff23.jpg\"></p><p>Option C</p></div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"543859\"></a><div itemprop=\"text\">*p[5] is a pointer to an array of 5 integers<br>\n<br>\np+1 results in p+[size of *p] i.e. 20 which results as 1020 [p points to the address of the whole array].<br>\n&nbsp;<br>\n<br>\nif *p+1 is asked then it results in p + 1*[sizeof int] which is 1004 because *p points to the address of the first element.<br>\n<br>\nif **p+1 is asked then it results the first value to be increased by 1. <br>\n<br>\nCorrect me if I am wrong.</div></section></div><p><a href=\"https://gateoverflow.in/374736\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is NOT&nbsp;a valid C program? A valid program is a program having no compile-time errors.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 1\nauto int a; \nmain ()\n{\n  auto int b; \n  for (b = 0; b &lt; 10; b++)\n  {\n    auto int a = b; \n  }\n}\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 2\nstatic int a; \nmain ()\n{\n  static int b; \n  for (b = 0; b &lt; 10; b++)\n  {\n    static int a = 1; \n  }\n}\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 3\nint a; \nmain ()\n{\n  static int b; \n  for (b = 0; b &lt; 10; b++)\n  {\n    static int a = 1; \n  }\n}\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 4\nextern int a; \nmain ()\n{\n  static int b; \n  for (b = 0; b &lt; 10; b++)\n  {\n    static int a = 1; \n  }\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Program $1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Program $2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Program $3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Program $4$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 20)</small></h4><a name=\"374559\"></a><div itemprop=\"text\">In program 1, during compilation compiler sees auto int a; as a global variable and in auto int a we can say that we cannot declare auto int as a global variable since auto storage class is only used for variables which are defined locally and auto is not defined locally in this case.<br>\n<br>\nIn program 2, a is a static variable and we can define static globally and locally. We defined static variable b inside the main function and then we have for loop in which we have defined another variable of static storage class which in every iteration adds local a and upper block’s b to it.<br>\n<br>\nIn program 3, a is a global variable . We defined static variable b inside the main function and then we have for loop in which we have defined another variable of static storage class which in every iteration adds local a and upper block’s b to it.<br>\n<br>\nIn program 4, extern a is a reference to some variable a which is present somewhere else in this file or another file. We defined static variable b inside the main function and then we have for loop in which we have defined another variable of static storage class which in every iteration adds local a and upper block’s b to it.</div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"374558\"></a><div itemprop=\"text\"><p>Program 1 is not a valid program in C.<br>\n<strong>Option A </strong>is correct.<br>\n<strong>auto variables should always be within a block.</strong><br>\nSo <strong>program 1 will have “compiler error</strong>” as scope checking is done by the compiler. Therefore during compilation when the compiler encounters an auto variable that is supposed to be inside a&nbsp; block but is present outside a block (global declaration), it will show an error.<br>\n<br>\nIn prog 4, there is no linker error. Because we are not even using the ‘a’ referred by the extern. Actually,<br>\ninside the for loop, the static ‘a’ is being used.</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"528220\"></a><div itemprop=\"text\"><p data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\"><strong><span style=\"color:#3498db;\">Answer</span><span style=\"color:#2980b9;\">:</span><span style=\"color:#c0392b;\"> </span><span style=\"color:#3498db;\">Program 1 will throw error</span></strong></p><p data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\"><br><strong><span style=\"color:#2ecc71;\">REASON</span><br><br><span style=\"color:#c0392b;\">Program 1 :-</span><span style=\"color:#000000;\"> \"auto\" storage class can only be used as local variable</span></strong><br>The question arises why ??<br>The reason the variables declared as Auto gets stored in the stack area&nbsp; whereas Global variable stored in static area so there is conflict for the compiler between the two storage classes<br><br><strong><span style=\"color:#c0392b;\">Program 2 :-</span><span style=\"color:#000000;\">&nbsp;No error&nbsp;</span></strong><br>Because one is \"a\" has a global scope whereas the a inside the for loop has a local scope it will overwrite&nbsp;everytime \"a\" is used in its block&nbsp;<br><br><strong><span style=\"color:#c0392b;\">Program 3 :-</span><span style=\"color:#000000;\">&nbsp;No error&nbsp;</span></strong><br>Because one is \"a\" has a global scope whereas the a inside the for loop has a local scope it will overwrite everytime \"a\" is used in its block&nbsp;<br><br><strong><span style=\"color:#c0392b;\">Program 4 :-</span><span style=\"color:#000000;\">&nbsp;No Compiler Error, No linker Error&nbsp;</span></strong><br>Question arises why ??<br>So the extern class tells the compiler that there is a global variable named \"a\" in this file or another file, also extern is kind of declaration it doesnot allocate memory<br>now when the compiler goes line by line (compiler reads from line 1, execution of code starts from <strong>main</strong>) and encounters <strong><em>static int a=1&nbsp;</em></strong>you may say <em>\"that okay there is a variable \"a\" and is locally defined but the compiler expects \"a\" to be global variable so there will be a compiler error\"</em>, <span style=\"color:#c0392b;\">but wait</span> this is not the case as&nbsp;<strong><em>static int a=1&nbsp;</em></strong>just overwrites or shadows the global \"a\" and hence no error<br>and since global \"a\" is not used anywhere so no linking error as well&nbsp;<br><br><em>consider the code below:</em></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int main(){\n    extern int i;\n    int i =10;\n    printf(i);\n    return 0;\n}</pre><p data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">This code will throw a compiler error because at one place you say there is a \"GLOBAL\" variable i and in the next line you go on declaring a local variable \"i\" inside the local scope.<br><br><br>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374466\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are TRUE about storage classes in C programming</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>static local variables are NOT available to the linker.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>static global variables are available to the linker.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>extern local variables are available to the linker.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>extern global variables are NOT available to the linker.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"374490\"></a><div itemprop=\"text\"><p><strong>Answer: A, C</strong></p>\n\n<p><strong>A: </strong>True, local variables anyhow are not available to the outer scope in current file, let alone to the linker</p>\n\n<p><strong>B: </strong>False, Static variables are never available to the linker.</p>\n\n<p><strong>C: </strong>True, extern local variables are just declaration which ought to be defined somewhere else, either in same file (outer scope) or in another.</p>\n\n<p><strong>D: </strong>False, Even if global, extern is just a declaration, the actual definition of variable (or function) can be somewhere else so it is natural that it in fact IS available to the linker.</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"534736\"></a><div itemprop=\"text\"><h3 data-section-id=\"r4ip8y\" data-start=\"81\" data-end=\"94\">Key facts</h3><ul data-start=\"96\" data-end=\"991\"><li data-section-id=\"2cw66f\" data-start=\"96\" data-end=\"315\"><strong data-start=\"98\" data-end=\"125\"><code data-start=\"100\" data-end=\"108\">static</code> local variable</strong><ul data-start=\"128\" data-end=\"315\"><li data-section-id=\"10btgdy\" data-start=\"128\" data-end=\"169\">Has <strong data-start=\"134\" data-end=\"149\">block scope</strong> and <strong data-start=\"154\" data-end=\"168\">no linkage</strong>.</li><li data-section-id=\"11jqkyp\" data-start=\"172\" data-end=\"261\">Exists for the entire program execution, but its name is not visible outside the block.</li><li data-section-id=\"1wwqpms\" data-start=\"264\" data-end=\"315\">Therefore, it is <strong data-start=\"283\" data-end=\"314\">not available to the linker</strong>.</li></ul></li><li data-section-id=\"1537xy0\" data-start=\"317\" data-end=\"541\"><strong data-start=\"319\" data-end=\"347\"><code data-start=\"321\" data-end=\"329\">static</code> global variable</strong><ul data-start=\"350\" data-end=\"541\"><li data-section-id=\"1cya3w8\" data-start=\"350\" data-end=\"377\">Has <strong data-start=\"356\" data-end=\"376\">internal linkage</strong>.</li><li data-section-id=\"pzmgv5\" data-start=\"380\" data-end=\"423\">Visible only within the same source file.</li><li data-section-id=\"17i2da1\" data-start=\"426\" data-end=\"472\">Not accessible from other translation units.</li><li data-section-id=\"whmu2t\" data-start=\"475\" data-end=\"541\">Therefore, <strong data-start=\"488\" data-end=\"540\">not available to the linker for external linking</strong>.</li></ul></li><li data-section-id=\"1gz11li\" data-start=\"543\" data-end=\"694\"><strong data-start=\"545\" data-end=\"573\"><code data-start=\"547\" data-end=\"555\">extern</code> global variable</strong><ul data-start=\"576\" data-end=\"694\"><li data-section-id=\"z65z6q\" data-start=\"576\" data-end=\"603\">Has <strong data-start=\"582\" data-end=\"602\">external linkage</strong>.</li><li data-section-id=\"1u9zzvc\" data-start=\"606\" data-end=\"650\">Can be referenced from other source files.</li><li data-section-id=\"1116rme\" data-start=\"653\" data-end=\"694\">Therefore, <strong data-start=\"666\" data-end=\"693\">available to the linker</strong>.</li></ul></li><li data-section-id=\"gl2s7n\" data-start=\"696\" data-end=\"991\"><p data-start=\"698\" data-end=\"728\"><strong data-start=\"698\" data-end=\"728\"><code data-start=\"700\" data-end=\"708\">extern</code> local declaration</strong></p><pre data-start=\"731\" data-end=\"778\">&nbsp;</pre><pre><code>void f() {\n    extern int x;\n}</code></pre><p data-start=\"781\" data-end=\"941\">This is merely a declaration of an externally linked global variable within a block. The variable <code data-start=\"879\" data-end=\"882\">x</code> itself has external linkage and is resolved by the linker.</p><ul data-start=\"944\" data-end=\"991\"><li data-section-id=\"1o5c3v5\" data-start=\"944\" data-end=\"991\">Therefore, it <strong data-start=\"960\" data-end=\"990\">is available to the linker</strong>.</li></ul></li></ul><hr data-start=\"993\" data-end=\"996\"><h3 data-section-id=\"imappw\" data-start=\"998\" data-end=\"1022\">Evaluate the options</h3><p data-start=\"1024\" data-end=\"1099\"><strong data-start=\"1024\" data-end=\"1086\">A. static local variables are NOT available to the linker.</strong><br data-start=\"1086\" data-end=\"1089\"><strong data-start=\"1091\" data-end=\"1099\">True</strong></p><p data-start=\"1101\" data-end=\"1203\"><strong data-start=\"1101\" data-end=\"1160\">B. static global variables are available to the linker.</strong><br data-start=\"1160\" data-end=\"1163\"><strong data-start=\"1165\" data-end=\"1174\">False</strong> (they have internal linkage)</p><p data-start=\"1205\" data-end=\"1332\"><strong data-start=\"1205\" data-end=\"1263\">C. extern local variables are available to the linker.</strong><br data-start=\"1263\" data-end=\"1266\"><strong data-start=\"1268\" data-end=\"1276\">True</strong> (the declaration refers to an externally linked object)</p><p data-start=\"1334\" data-end=\"1462\"><strong data-start=\"1334\" data-end=\"1397\">D. extern global variables are NOT available to the linker.</strong><br data-start=\"1397\" data-end=\"1400\"><strong data-start=\"1402\" data-end=\"1411\">False</strong> (they are specifically meant for external linkage)</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"533312\"></a><div itemprop=\"text\"><p><img alt=\"image\" width=\"376\" style=\"max-width: 100%;\" height=\"400\" src=\"https://media.discordapp.net/attachments/1486042666037674097/1509820808715829279/20260529_125817.jpg?ex=6a1a91b3&amp;is=6a194033&amp;hm=da47a2231da53f287383f223e624544993482c7904f055801398f047e3a7a274&amp;=&amp;format=webp&amp;width=794&amp;height=845\"></p><p>&nbsp;</p><p><strong><span style=\"background-color:#2ecc71;\">Answer: $A,C$</span></strong></p><p>&nbsp;</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374465\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The default storage class for functions in C language is –</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Static</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Auto</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Extern</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 14)</small></h4><a name=\"378220\"></a><div itemprop=\"text\"><p>The default storage class for functions in C language is <span class=\"marker\"><strong>extern</strong></span> because functions themselves are always external and C language does not allow functions to be defined inside other functions.</p>\n\n<p><strong>Option – C</strong></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"528556\"></a><div itemprop=\"text\"><p>In C programming, the default storage class for&nbsp;<strong data-sfc-root=\"c\" data-sfc-cb=\"\" data-processed=\"true\">functions</strong>&nbsp;is&nbsp;<span style=\"color:#2c3e50;\"><code dir=\"ltr\" data-sfc-root=\"c\" data-sfc-cb=\"\" data-processed=\"true\"><span style=\"background-color:#f39c12;\">extern</span></code></span>. This means that by default, a function is visible to the entire program (including other files), unless it is explicitly defined with the&nbsp;<code dir=\"ltr\" data-sfc-root=\"c\" data-sfc-cb=\"\" data-processed=\"true\">static</code>&nbsp;keyword to restrict its scope to the file in which it is defined.<button tabindex=\"0\" data-amic=\"true\" data-icl-uuid=\"6ce427cd-ae9f-4d74-a6e5-9e8bbef766bd\" aria-label=\"View related links\" data-wiz-attrbind=\"disabled=oXfJNd_s/C5gNJc;aria-label=oXfJNd_s/bOjMyf;class=oXfJNd_s/UpSNec\" data-ved=\"2ahUKEwiH7MPrnOqTAxVY1TgGHUg6JYEQye0OegQIAxAB\" data-hveid=\"CAMQAQ\" data-processed=\"true\"></button></p><ul data-sfc-root=\"c\" data-sfc-cb=\"\" data-processed=\"true\"><li data-sfc-root=\"c\" data-sfc-cb=\"\" data-hveid=\"CAQQAA\" data-processed=\"true\"><strong data-sfc-root=\"c\" data-sfc-cb=\"\" data-processed=\"true\">Extern :</strong>&nbsp;Functions are globally accessible across different files in a project by default.</li><li data-sfc-root=\"c\" data-sfc-cb=\"\" data-hveid=\"CAQQAQ\" data-processed=\"true\"><strong data-sfc-root=\"c\" data-sfc-cb=\"\" data-processed=\"true\">Static :</strong>&nbsp;If applied to a function, it limits the function's scope to the file where it is declared.</li></ul></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"536342\"></a><div itemprop=\"text\"><p>The correct answer is C. Extern</p><p>Quick Facts:</p><ul><li data-sfc-cp=\"\" data-sfc-root=\"ep\" data-sfc-cb=\"\">By default, every function declared or defined in C has a global scope and visibility across all source files.</li><li data-sfc-cp=\"\" data-sfc-root=\"ep\" data-sfc-cb=\"\">This means the compiler implicitly adds the <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">extern&nbsp;</code>keyword if you don't specify any storage class.</li><li data-sfc-cp=\"\" data-sfc-root=\"ep\" data-sfc-cb=\"\">If you want to restrict a function's visibility to only the current file, you must explicitly declare it as <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">static</code></li><li data-sfc-cp=\"\" data-sfc-root=\"ep\" data-sfc-cb=\"\">The <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">auto</code>&nbsp;keyword can only be applied to local variables inside functions, not to functions themselves.</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/374463\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The default storage class for global variables in the C language is –</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Static</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Auto</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Extern</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 24)</small></h4><a name=\"374794\"></a><div itemprop=\"text\"><p>Global variables do not have any “Default” storage class.<br>They have some properties of <strong>‘static’(global variables are stored in static memory)</strong>&nbsp;&nbsp;and some properties of <strong>‘extern’(global variables are available to the linker)&nbsp;</strong> storage class.<br><img alt=\"\" src=\"media/51/51bd0c5127d72c132c08.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"377514\"></a><div itemprop=\"text\"><p>Let’s check each storage class whether it&nbsp; satisfy the criteria for default storage class for all the global variables-</p>\n\n<p>&nbsp; &nbsp; &nbsp; 1.Static storage class-</p>\n\n<p>No , Global variable can’t be static because if it will static then it won’t be available in different files but the global variables can used in the other files too.</p>\n\n<ol start=\"2\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>Extern storage class-</li>\n</ol>\n\n<p>No, Extern int a is not equal to int a&nbsp; as Extern int a is declaration and it doesn't have any memory but int a is the definition and it has the memory.</p>\n\n<ol start=\"3\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>Auto and Register storage class are born for local variable.&nbsp;</li>\n</ol>\n\n<p>Conclusion-&gt;By default the Global variable default storage class is empty.</p>\n\n<p>So Global variable can be used for static storage and external linkage.</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"536344\"></a><div itemprop=\"text\"><p>Technically, standard C does not explicitly label them as having an \"extern storage class by default.\" Instead, a global variable declared without a keyword (like <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">int x;</code>) is an external definition with external linkage and static storage duration</p><p>&nbsp;The Real Difference Between <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">int x;</code>&nbsp;and <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">extern int x;</code></p><ul><li data-sfc-cp=\"\" data-sfc-root=\"ep\" data-sfc-cb=\"\"><code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">int x;</code>(Global Definition): Allocates memory in the BSS/Data segment. It initializes to <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">0</code>&nbsp;automatically. It is a real variable container.</li><li data-sfc-cp=\"\" data-sfc-root=\"ep\" data-sfc-cb=\"\"><code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\">extern int x;</code>(Pure Declaration): Does not allocate any memory. It simply tells the compiler, <em data-sfc-root=\"ep\" data-sfc-cb=\"\">\"Hey, this variable exists somewhere else in another file, just trust me and link it later.\"</em></li></ul><div><strong>Correct Option D: None of these&nbsp;</strong></div></div></section></div><p><a href=\"https://gateoverflow.in/374462\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following declaration of struct.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct myst{\n    char a[20];\n    char *b;\n    struct myst *p;\n}x[2] = {\"GATE\", \"Overflow\", x+1, \"GO\", \"Classes\", x}, *p = x;\n</pre><p>What will be the output of the following print statement?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%s\", p++-&gt;p-&gt;b++);\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Overflow</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Classes</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>verflow</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>lasses</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"374335\"></a><div itemprop=\"text\"><p><strong>Answer: B</strong></p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Sequence_point#Sequence_points_in_C_and_C++\" rel=\"nofollow\" target=\"_blank\">https://en.wikipedia.org/wiki/Sequence_point#Sequence_points_in_C_and_C++</a></p>\n\n<blockquote>\n<p>Before a function is entered in a function call. The order in which the arguments are evaluated is not specified, but this sequence point means that all of their side effects are complete before the function is entered. In the expression <code>f(i++) + g(j++) + h(k++)</code>, <code>f</code> is called with a parameter of the original value of <code>i</code>, but <code>i</code> is incremented before entering the body of <code>f</code>. Similarly, <code>j</code> and <code>k</code> are updated before entering <code>g</code> and <code>h</code> respectively. However, it is not specified in which order <code>f()</code>, <code>g()</code>, <code>h()</code> are executed, nor in which order <code>i</code>, <code>j</code>, <code>k</code> are incremented. If the body of <code>f</code> accesses the variables <code>j</code> and <code>k</code>, it might find both, neither, or just one of them to have been incremented. (The function call <code>f(a,b,c)</code> is <em>not</em> a use of the comma operator; the order of evaluation for <code>a</code>, <code>b</code>, and <code>c</code> is unspecified.)</p>\n</blockquote>\n\n<p>The operators ++, → have same precedence so the associativity will come into the picture, L → R in this case.</p>\n\n<p>Again let’s change some variables name to avoid confusion.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">    struct myst{\n    char a[20];\n    char *b;\n    struct myst *p;\n    }x[2] = {\"GATE\", \"Overflow\", x+1, \"GO\", \"Classes\", x}, *ptr = x;</pre>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">    printf(\"%s\", ptr++-&gt;p-&gt;b++);</pre>\n\n<p>‘p’ is a member(child) variable and can not be accessed without accessing it’s parent (x[0], x[1] in this case)(I don’t think C has parent child terminology I used that just for understanding).</p>\n\n<p>The original value ‘ptr’ will be used and incremented later.</p>\n\n<p>ptr → p is effectively same as saying x[0].p which is a pointer to the second (1-th) element of x.</p>\n\n<p>ptr → p → b is the pointer to string literal “Classes” .</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Side effects: </strong></p>\n\n<p>ptr = ptr + 1 * sizeof(*ptr). which is the address of “x+1”. ptr now is pointing to the second (1-th) element of the array.</p>\n\n<p>b = b + 1 * sizeof(b*): that now is pointing to the first element/base address of “lasses”.</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"502849\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">&nbsp;</p><p data-path-to-node=\"1\"><b>Correct Answer:</b> <b>B. Classes</b></p><p data-path-to-node=\"3\">To understand the output, we need to break down the initialization of the structures and then trace the execution of the <code>printf</code> statement.</p><h4 data-path-to-node=\"4\"><b>1. Analyzing the Memory Initialization</b></h4><p data-path-to-node=\"5\">The code defines an array <code>x</code> of size 2, containing <code>struct myst</code> elements.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><b><code>struct myst</code> definition:</b></p><ul data-path-to-node=\"6,0,1\"><li><p data-path-to-node=\"6,0,1,0,0\"><code>a[20]</code>: a character array.</p></li><li><p data-path-to-node=\"6,0,1,1,0\"><code>*b</code>: a character pointer (string).</p></li><li><p data-path-to-node=\"6,0,1,2,0\"><code>*p</code>: a pointer to a <code>struct myst</code>.</p></li></ul></li><li><p data-path-to-node=\"6,1,0\"><b>Initialization of <code>x[0]</code>:</b> <code>{\"GATE\", \"Overflow\", x+1}</code></p><ul data-path-to-node=\"6,1,1\"><li><p data-path-to-node=\"6,1,1,0,0\"><code>x[0].a</code> = \"GATE\"</p></li><li><p data-path-to-node=\"6,1,1,1,0\"><code>x[0].b</code> = \"Overflow\"</p></li><li><p data-path-to-node=\"6,1,1,2,0\"><code>x[0].p</code> = <code>x + 1</code> (This points to the <b>second</b> element, <code>x[1]</code>).</p></li></ul></li><li><p data-path-to-node=\"6,2,0\"><b>Initialization of <code>x[1]</code>:</b> <code>{\"GO\", \"Classes\", x}</code></p><ul data-path-to-node=\"6,2,1\"><li><p data-path-to-node=\"6,2,1,0,0\"><code>x[1].a</code> = \"GO\"</p></li><li><p data-path-to-node=\"6,2,1,1,0\"><code>x[1].b</code> = \"Classes\"</p></li><li><p data-path-to-node=\"6,2,1,2,0\"><code>x[1].p</code> = <code>x</code> (This points to the <b>first</b> element, <code>x[0]</code>).</p></li></ul></li><li><p data-path-to-node=\"6,3,0\"><b>Pointer <code>p</code>:</b> Initialized to point to <code>x</code> (which is <code>&amp;x[0]</code>).</p></li></ul><hr data-path-to-node=\"7\"><h4 data-path-to-node=\"8\"><b>2. Analyzing the Expression: <code>p++-&gt;p-&gt;b++</code></b></h4><p data-path-to-node=\"9\">This expression involves pointer arithmetic and structure dereferencing. We must follow operator precedence and associativity. The operators <code>-&gt;</code> and <code>++</code> (postfix) have the same precedence and associate from <b>left to right</b>.</p><p data-path-to-node=\"10\">The expression is effectively parsed as: <code>( (p++) -&gt; p ) -&gt; b++</code></p><p data-path-to-node=\"11\">Let's evaluate it step-by-step:</p><ol start=\"1\" data-path-to-node=\"12\"><li><p data-path-to-node=\"12,0,0\"><b><code>p++</code></b>:</p><ul data-path-to-node=\"12,0,1\"><li><p data-path-to-node=\"12,0,1,0,0\">This is a <b>post-increment</b>. It uses the <i>current</i> value of <code>p</code> for this part of the expression and increments <code>p</code> afterwards.</p></li><li><p data-path-to-node=\"12,0,1,1,0\"><b>Value used:</b> Pointer to <code>x[0]</code>.</p></li><li><p data-path-to-node=\"12,0,1,2,0\"><b>Side effect:</b> <code>p</code> now points to <code>x[1]</code>.</p></li></ul></li><li><p data-path-to-node=\"12,1,0\"><b><code>...-&gt;p</code></b>:</p><ul data-path-to-node=\"12,1,1\"><li><p data-path-to-node=\"12,1,1,0,0\">We follow the pointer returned in step 1 (<code>x[0]</code>) to access its member <code>p</code>.</p></li><li><p data-path-to-node=\"12,1,1,1,0\">From our initialization, <code>x[0].p</code> points to <code>x[1]</code>.</p></li><li><p data-path-to-node=\"12,1,1,2,0\"><b>Value:</b> Pointer to <code>x[1]</code>.</p></li></ul></li><li><p data-path-to-node=\"12,2,0\"><b><code>...-&gt;b</code></b>:</p><ul data-path-to-node=\"12,2,1\"><li><p data-path-to-node=\"12,2,1,0,0\">We follow the pointer from step 2 (<code>x[1]</code>) to access its member <code>b</code>.</p></li><li><p data-path-to-node=\"12,2,1,1,0\">From our initialization, <code>x[1].b</code> points to the string <b>\"Classes\"</b>.</p></li><li><p data-path-to-node=\"12,2,1,2,0\"><b>Value:</b> Pointer to the string \"Classes\".</p></li></ul></li><li><p data-path-to-node=\"12,3,0\"><b><code>...b++</code></b>:</p><ul data-path-to-node=\"12,3,1\"><li><p data-path-to-node=\"12,3,1,0,0\">This is a <b>post-increment</b> on the pointer to the string.</p></li><li><p data-path-to-node=\"12,3,1,1,0\"><b>Value used:</b> The <i>current</i> value of the pointer is returned. The current value points to the start of <b>\"Classes\"</b>.</p></li><li><p data-path-to-node=\"12,3,1,2,0\"><b>Side effect:</b> The member <code>b</code> in <code>x[1]</code> is incremented to point to the next character ('l'), so effectively it now points to \"lasses\".</p></li></ul></li></ol><h4 data-path-to-node=\"13\"><b>3. Final Output</b></h4><p data-path-to-node=\"14\">The <code>printf(\"%s\", ...)</code> function receives the value returned by Step 4, which is the pointer to the string <b>\"Classes\"</b>.</p><p data-path-to-node=\"15\">Therefore, the output is <b>Classes</b>.</p><hr data-path-to-node=\"16\"><p data-path-to-node=\"17\"><b>Why other options are incorrect:</b></p><ul data-path-to-node=\"18\"><li><p data-path-to-node=\"18,0,0\"><b>A. Overflow:</b> This would be the output if the expression accessed <code>x[0].b</code>. This would require <code>p</code> to point to <code>x[1]</code> initially or for the logic to circle back to <code>x[0]</code>, which it does not.</p></li><li><p data-path-to-node=\"18,1,0\"><b>C. verflow:</b> Similar to A, but with an incremented pointer.</p></li><li><p data-path-to-node=\"18,2,0\"><b>D. lasses:</b> This would be the output if the increment on <code>b</code> was a <b>prefix</b> increment (<code>++b</code>), which would return the <i>new</i> value instead of the old one.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/374313\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following function declaration can be passed to the following array?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char myArray[3][4];</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void fun(char a[][], int size);</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void fun(char a[][4], int size);</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void fun(char [3][], int size);\n</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void fun(char [][]a, int size);</pre>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B, D, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 14)</small></h4><a name=\"373541\"></a><div itemprop=\"text\"><p><strong>Answer: B</strong></p>\n\n<p>There are 3 ways to pass 2D array to a function.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void fun(char (*a)[4], int size);\n\nvoid fun(char a[][4], int size);\n\nvoid fun(char a[3][4], int size);\n</pre>\n\n<p>Internally compiler will always convert it to&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void fun(char (*a)[4], int size);\n\n</pre>\n\n<p><em><strong>PS: We are not passing entire 2D array to the function we are passing pointer to the 1D array of size 4.</strong></em></p>\n\n<p><img alt=\"\" height=\"72\" src=\"media/df/dfe6aec6bdb94db94814.png\" width=\"717\"></p>\n\n<p><em>(Source: C Programming Language by Dennis M. Ritchie)</em></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"528650\"></a><div itemprop=\"text\"><p>&nbsp;</p><p><strong>Answer: B</strong></p><p><strong>The key concept is that when a two-dimensional array is passed to a function in C, it is treated as a pointer to an array of rows.</strong></p><p>The function parameter declaration must include the size of the inner dimension (number of columns) so the compiler can correctly perform pointer arithmetic to access elements.&nbsp;The number of rows is irrelevant because the function receives a pointer to the first row (which is a 1D array of a specific size), not the entire block of memory as a single object.&nbsp;</p><p>Internally, the compiler converts all three valid function declarations shown :</p><ul data-hveid=\"CBcQAQ\" data-ved=\"2ahUKEwju1eu3nuuTAxWPaHADHcJqDrMQm_YKegQIFxAB\"><li><code>void fun(char (*a)[4], int size);</code></li><li><code>void fun(char a[][4], int size);</code></li><li><code>void fun(char a[3][4], int size);</code></li></ul><p>into the same internal representation:&nbsp;<code>void fun(char (*a)[4], int size);</code>, which is a function that accepts a pointer to a 1D array of 4 characters.&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"528812\"></a><div itemprop=\"text\">B is the right answer</div></section></div><p><a href=\"https://gateoverflow.in/373499\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<div style=\"font-family:'Segoe UI', sans-serif; line-height:1.8; font-size:17px; color:#222;\"><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char *strcollection[3] = {\"GOClasses\", \"GATEOverflow\", \"IISc\"};\n</pre><p>For the above declaration, consider the base addresses of <code style=\"background:#f1f1f1; padding:2px 6px; border-radius:4px; font-size:17.5px;\">strcollection</code>, <code style=\"background:#f1f1f1; padding:2px 6px; border-radius:4px; font-size:17.5px;\">\"GOClasses\"</code>, <code style=\"background:#f1f1f1; padding:2px 6px; border-radius:4px; font-size:17.5px;\">\"GATEOverflow\"</code> and <code style=\"background:#f1f1f1; padding:2px 6px; border-radius:4px; font-size:17.5px;\">\"IISc\"</code> to be <b>1000</b>, <b>2000</b>, <b>3000</b> and <b>4000</b> respectively.</p><p>What will be the output of the below line?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%p\", strcollection + 1);\n</pre><p>Assume character is of one byte, integer is of two bytes, and address is of four bytes.</p></div>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1004,
+    1004
+   ],
+   "answerText": "1004",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"373535\"></a><div itemprop=\"text\"><p><strong>Answer: 1004</strong></p>\n\n<p>Given ‘strcollection’ is the array of char pointers.</p>\n\n<p>strcollection + 1 points to the next element of the array. The displacement (no. of bytes to move forward) depends on the “elements” of the array which are addresses.</p>\n\n<p>&nbsp;</p>\n\n<p>The size of addresses in the system is 4B. So strcollection + 1 = 1000 + 4</p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"538694\"></a><div itemprop=\"text\"><p><strong>Without parentheses, <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">+1</code>&nbsp;jumps over one single pointer slot; with parentheses, <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">+1&nbsp;</code>&nbsp;jumps over the entire array block.</strong></p><p>If there are no parentheses (<code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">Type *arr[N]</code>), <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">+1</code>&nbsp;treats the name as an array of address slots and jumps by exactly <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">1 × Size of a Pointer</code>; whereas if there are parentheses (<code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">Type (*ptr)[N]</code>), <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">+1</code>&nbsp;treats it as a pointer to a collective block and jumps by the size of the whole container, which is calculated as <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-complete=\"true\" data-sae=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0.666667px solid rgb(240, 242, 245);\">1 × N × Size of type (Base address+ sizeof(type)</code>.</p></div></section></div><p><a href=\"https://gateoverflow.in/373493\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char my_text[]= \"2023 GATE\";\nvoid fun(int position)\n{\n    if (my_text[position] !=' ')\n    {\n        fun(position+1);\n        printf(\"%c\", my_text[position]);\n    }\n}\nint main() {\n    fun(0);\n}</pre><p>What will be the output of a given program ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2023$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3202$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{ETAG} 3202$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{ETAG}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"373559\"></a><div itemprop=\"text\"><p><strong>Answer: B</strong></p>\n\n<p>First function calls are executed then after returning from that function printf is executed. So after the last function call returns then ‘3’ will be printed then that function will return and so on.</p>\n\n<p>So 3202 is printed in the output.</p>\n\n<p><img alt=\"\" src=\"media/78/784a8b1254821e0254b1.png\"></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"411553\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/91/9192e854ff679e1a4ed8.jpg\"><br>\nsolution</p></div></section></div><p><a href=\"https://gateoverflow.in/373487\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">main()\n{\n    char s[]= \"jjtd\\0abc\", *p;\n\n    for (p = s; *p; p++) \n    {\n      --(*p);\n    }\n\n    printf(\"%s\", s);\n}</pre><p>What will be the output of a given program?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>iitb abc</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>iisc abc</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>iisc</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>iitb</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 11)</small></h4><a name=\"373544\"></a><div itemprop=\"text\"><p><strong>Answer: C</strong></p>\n\n<p>Every character is stored based on their ascii value.&nbsp;</p>\n\n<p>In the for loop in every iteration the ascii value of the current char is reduced by 1 i.e. ‘j’ will be replaced by ‘i’, ‘t’ will be replaced by ‘s’ and ‘d’ will be replaced by ‘c’. For loop will run untill we get ‘\\0’ since ascii value of ‘\\0’ is 0 so condition will be false and for loop terminates.</p>\n\n<p>After for loop s will be s[ ] = “iisc\\0abc”</p>\n\n<p>Now we print the string, %s will print the string untill we get ‘\\0’ so iisc will be printed.</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"498584\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"805\" height=\"500\" src=\"media/c7/c77f3cba0273dc2ca5e2.jpg\"></p><p><strong>Answer is iisc &nbsp;:)</strong></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/373485\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following(s) are true for following function</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int mystery(int a) {\nif(a == 256) return 3;\n    return 1 + 2 * mystery(a*4); //line 3\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{mystery(255)}$ is an example of infinite recursion</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>if we replace line $3$&nbsp;by following line&nbsp;return $1 +\\text{ mystery(a*4)+ mystery(a*4)};$ then also output is same</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only possible outputs are $3, 7, 15, 31$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{mystery(i)}$ gives output if and only if $i$ is $1$ or multiple of $4$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 19)</small></h4><a name=\"373126\"></a><div itemprop=\"text\"><p>Option A is true.</p>\n\n<p>if we give input as 255 then the it is not equal to 256 so it will call mystery(4*255) and now it will never be equal to 256 and it will now infinitely call itself eat up the program stack and give you segmentation fault if you try to run it .</p>\n\n<p>so it is example of infinite recursion.</p>\n\n<p>Option B is also true.</p>\n\n<p>if we replace the line with&nbsp;</p>\n\n<p><strong>&nbsp;return&nbsp;1+&nbsp;mystery(a*4)+ mystery(a*4);&nbsp;</strong>it will not effect output of the program.</p>\n\n<p>&nbsp;</p>\n\n<p>option C is false .</p>\n\n<p>if we call mystery(1) then output is 63. which is also possible .</p>\n\n<p>option D is false.</p>\n\n<p>now it will only give output if and only&nbsp; it is 1 or multiple of 4 .</p>\n\n<p>now say if it 8 which is multiple of 4.</p>\n\n<p>now it is 1 or multiple of 4 it is true but still it will not show output.</p>\n\n<p>we only get output if i=1,4,16,64,256.</p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"405815\"></a><div itemprop=\"text\"><p><strong>option A</strong>: mystery(256) , when we call this function the function will try to run 1+2+mystery(4*255), so this leads to <strong>infinite recursion</strong>.</p>\n\n<p><strong>option B</strong>: Replacing the code with the given code will not change anything, because we are not using any static var to count something or track something. <strong>so 2*mystery(a*4) is equivalent to mystery(a*4)+mystery(a*4).</strong></p>\n\n<p><strong>option C: </strong>if we call mystery(1), the output is 63, therefore this option is wrong.</p>\n\n<p><strong>option D:&nbsp;</strong>Lets check when we will get the output.</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;256/4 = 64/4&nbsp;= 16/4 = 4/4 = 1</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;so for the value <strong>256,64,16,4,1,&nbsp;</strong>we are getting the output, these are all multiple of 4. But <strong>256*4</strong> is also multiple of 4 and for this we don’t get the output, so this option is wrong.</p>\n\n<p>&nbsp;</p>\n\n<p>So, Correct option are <strong>A,B</strong></p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"380286\"></a><div itemprop=\"text\">Option D: FALSE<br>\n<br>\nBUT “if a is Power of 4” then we can say that it is true.</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"507586\"></a><div itemprop=\"text\">Any number multiplied by a power of 2 enough times will eventually be zero, since multiplying by power of two shifts bits to the left, so will the whole number is shifted to the left enough times, all that will be left is zeros.</div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"533323\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"450\" style=\"max-width: 100%;\" src=\"media/b8/b82e1bbf35198dbb21c4.jpg\"></p><p>Note to self:</p><ol><li>Focus on Option B: if the function uses any static, global, or heap variable, the statement may not hold true.</li><li>Focus on Option C: we are also getting output when <code dir=\"ltr\">a = 1</code>.</li><li>Focus on Option D: we will not get output for multiples of 4 that are greater than 256.</li></ol></div></section></div><p><a href=\"https://gateoverflow.in/373088\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be output of following program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void xyz(int i)\n{\n    if(--i)\n    {\n        xyz(i++);\n        printf(\"%d\",i);\n    }\n}\nmain()\n{\n    xyz(5);\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It is an infinite recursion since no base case</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2345$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$54321$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1234$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"373145\"></a><div itemprop=\"text\"><p><em>Answer is <strong>B) 2345</strong></em></p>\n\n<p>(Refer to the recursion tree given below.)</p>\n\n<p>We are checking for if(--i) which is pre-decrement, so for i=5, it will be if(4). As any non zero value is true the if condition becomes true. And for the block inside in the statement&nbsp;xyz(i++), i will be updated to 5 after this line, (as it is post-increment)&nbsp;so the call goes for xyz(4) and <strong>not</strong> for xyz(5). For xyz(1) if condition becomes false and we simply return. And the print statements who were waiting for us to come back get executed one by one.</p>\n\n<p><img alt=\"\" src=\"media/ae/ae636f0b5effbb8e44dd.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/373086\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output printed by $\\text{mystery}1(0,6)$?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void mystery1(int a, int b) {\n    if (a &lt;= b) {\n        int m = (a + b) / 2;\n        printf(\"%d\", m);\n        mystery1(a, m-1);\n        mystery1(m+1, b);\n    }\n}\n</pre>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3102546,
+    3102546
+   ],
+   "answerText": "3102546",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"373144\"></a><div itemprop=\"text\"><p><em>Answer is&nbsp;<strong>3102546</strong></em></p>\n\n<p>Let the function mystery1() be represented as m() for ease. And for printf(), we directly print it, as it is just&nbsp;the average of a and b.</p>\n\n<p>We create a recursion tree&nbsp;<em>(as shown)</em>.</p>\n\n<ul>\n\t<li>The values in square brackets(e.g. [m=3]) are average values which will be printed for that&nbsp; particular function call.</li>\n</ul>\n\n<p><img alt=\"\" src=\"media/bd/bd47cc9a120933ed5605.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"373169\"></a><div itemprop=\"text\"><p><a rel=\"nofollow\" href=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10908544408202362372\" target=\"_blank\">https://gateoverflow.in/?qa=blob&amp;qa_blobid=10908544408202362372</a></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"536345\"></a><div itemprop=\"text\"><p><strong>Prerequisite DSA: QUICK WAY</strong></p><p>This function is an <strong>in-order print traversal of a Binary Search Tree (BST)</strong> generated by a binary search breakdown.</p><p>Instead of tracing every single recursive stack frame manually, you can draw the tree structure directly to get the answer</p><p><strong>Function structure:&nbsp;</strong></p><ol><li>Find midpoint <code>m = (a + b) / 2</code></li><li>Print <code>m</code> or process <code>m</code></li><li>Recursive call on left half <code>(a, m - 1)</code></li><li>Recursive call on right half <code>(m + 1, b)</code></li></ol><p>This is exactly how a Binary Search Tree splits intervals. The node is processed before its children (Pre-order printing).</p><p><strong>Step 1: Build the Midpoint Tree for Range (0, 6)</strong></p><ul><li>Root: Midpoint of (0, 6) is (0+6)/2 = <code>3</code></li><li>Left Child: Midpoint of left remaining range (0, 2) is (0+2)/2 = <code>1</code></li><li>Right Child: Midpoint of right remaining range (4, 6) is (4+6)/2 = <code>5</code></li></ul><p>Continue splitting down to the individual leaf nodes:</p><ul><li>Left of <code>1</code> is range (0, 0) \\rightarrow <code>0</code></li><li>Right of <code>1</code> is range (2, 2) \\rightarrow <code>2</code></li><li>Left of <code>5</code> is range (4, 4) \\rightarrow <code>4</code></li><li>Right of <code>5</code> is range (6, 6) \\rightarrow <code>6</code></li></ul><p><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3<br>&nbsp;&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp; \\<br>&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp; 5<br>&nbsp;&nbsp; / \\&nbsp;&nbsp; / \\<br>&nbsp; 0&nbsp;&nbsp; 2 4&nbsp;&nbsp; 6</code><br><br><strong>Step 2: Read it based on <code>printf</code> placement</strong></p><p>Look at where the <code>printf</code> statement sits relative to the recursive calls:</p><ul><li><p>Since <code>printf(\"%d\", m);</code> is executed before both recursive steps, it is a Pre-order Traversal (Root \\rightarrow Left \\rightarrow Right).</p></li></ul><p>Simply read your drawn tree from top to bottom, left to right in pre-order sequence:</p><ul><li>Output: <code>3102546</code></li></ul><h2 data-heading=\"🧠 Quick Formula Summary\">🧠 Quick Formula Summary</h2><ul><li>If <code>printf</code> is at the top \\rightarrow Read Pre-order: <code>3 1 0 2 5 4 6</code></li><li>If <code>printf</code> is in the middle \\rightarrow Read In-order: <code>0 1 2 3 4 5 6</code></li><li>If <code>printf</code> is at the bottom \\rightarrow Read Post-order: <code>0 2 1 4 6 5 3</code></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/373085\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of the following program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct s{\n    int i;\n    struct s *p;\n};\nstruct s arr[4] = { 7, arr+3,\n    8, arr+2,\n    9, arr,\n    8, arr+1,\n};\nstruct s *ap[] = {arr+3, arr+2, arr+1, arr};\nstruct s **pp =ap;\nint main()\n{\n    printf(\"%d \", ap[++pp[2]-&gt;i-6]-&gt;i++);\n    printf(\"%d \", pp[1]++-&gt;p++-&gt;i);\n    printf(\"%d\", ++arr[2].p-&gt;i);\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$9\\; 10\\; 9$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$7 \\;8\\; 10$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$7\\; 8\\; 9$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 54)</small></h4><a name=\"374337\"></a><div itemprop=\"text\"><p><strong>Answer: B</strong></p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Sequence_point#Sequence_points_in_C_and_C++\" rel=\"nofollow\" target=\"_blank\">https://en.wikipedia.org/wiki/Sequence_point#Sequence_points_in_C_and_C++</a></p>\n\n<blockquote>\n<p>Before a function is entered in a function call. The order in which the arguments are evaluated is not specified, but this sequence point means that all of their side effects are complete before the function is entered. In the expression <code>f(i++) + g(j++) + h(k++)</code>, <code>f</code> is called with a parameter of the original value of <code>i</code>, but <code>i</code> is incremented before entering the body of <code>f</code>. Similarly, <code>j</code> and <code>k</code> are updated before entering <code>g</code> and <code>h</code> respectively. However, it is not specified in which order <code>f()</code>, <code>g()</code>, <code>h()</code> are executed, nor in which order <code>i</code>, <code>j</code>, <code>k</code> are incremented. If the body of <code>f</code> accesses the variables <code>j</code> and <code>k</code>, it might find both, neither, or just one of them to have been incremented. (The function call <code>f(a,b,c)</code> is <em>not</em> a use of the comma operator; the order of evaluation for <code>a</code>, <code>b</code>, and <code>c</code> is unspecified.)</p>\n</blockquote>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:221px; margin: auto; border-spacing: 1px;\">\n\t<caption>arr</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:50px\">7</td>\n\t\t\t<td style=\"width:49px\">8</td>\n\t\t\t<td style=\"width:50px\">9</td>\n\t\t\t<td style=\"width:51px\">8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:50px\">arr + 3</td>\n\t\t\t<td style=\"width:49px\">arr + 2</td>\n\t\t\t<td style=\"width:50px\">arr + 0</td>\n\t\t\t<td style=\"width:51px\">arr + 1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:372px; margin: auto; border-spacing: 1px;\">\n\t<caption>ap</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:90px\">arr + 3</td>\n\t\t\t<td style=\"width:95px\">arr + 2</td>\n\t\t\t<td style=\"width:86px\">arr + 1</td>\n\t\t\t<td style=\"width:80px\">arr + 0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Precedence ( [] = → = ++ post = . struct member access) &gt; (++ pre) &gt; (- subtraction, not unary minus) .</p>\n\n<p>&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%d \", ap[++pp[2]-&gt;i-6]-&gt;i++);</pre>\n\n<p>pp[2] = (arr + 1); (arr + 1) → i = 8; <span class=\"marker\">++8</span> = 9; 9 – 6 = 3;</p>\n\n<p>ap[3] = arr; arr → i = 7; <span class=\"marker\">7++</span>;</p>\n\n<p><strong>Printed: 7</strong></p>\n\n<p><strong>Side effects: </strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:221px; margin: auto; border-spacing: 1px;\">\n\t<caption>arr</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"background-color:yellow; width:50px\">8</td>\n\t\t\t<td style=\"background-color:yellow; width:49px\">9</td>\n\t\t\t<td style=\"width:50px\">9</td>\n\t\t\t<td style=\"width:51px\">8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:50px\">arr + 3</td>\n\t\t\t<td style=\"width:49px\">arr + 2</td>\n\t\t\t<td style=\"width:50px\">arr + 0</td>\n\t\t\t<td style=\"width:51px\">arr + 1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%d \", pp[1]++-&gt;p++-&gt;i);</pre>\n\n<p>pp[1] = (arr + 2); <span class=\"marker\">(arr + 2)++</span>; (arr + 2) → p = (arr + 0); <span class=\"marker\">(arr + 0)++</span>; (arr + 0) → i = 8</p>\n\n<p><strong>Printed: 8</strong></p>\n\n<p><strong>Side effects: </strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:221px; margin: auto; border-spacing: 1px;\">\n\t<caption>arr</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:50px\">8</td>\n\t\t\t<td style=\"width:49px\">9</td>\n\t\t\t<td style=\"width:50px\">9</td>\n\t\t\t<td style=\"width:51px\">8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:50px\">arr + 3</td>\n\t\t\t<td style=\"width:49px\">arr + 2</td>\n\t\t\t<td style=\"background-color:yellow; width:50px\">arr + 1</td>\n\t\t\t<td style=\"width:51px\">arr + 1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:372px; margin: auto; border-spacing: 1px;\">\n\t<caption>ap</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:90px\">arr + 3</td>\n\t\t\t<td style=\"background-color:yellow; width:95px\">arr + 3</td>\n\t\t\t<td style=\"width:86px\">arr + 1</td>\n\t\t\t<td style=\"width:80px\">arr + 0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"%d\", ++arr[2].p-&gt;i);</pre>\n\n<p>arr[2].p = (arr + 1); (arr + 1) → i = 9; ++9 = 10 (immediate side effect, pre increment)</p>\n\n<p><strong>Printed: 10</strong></p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"535571\"></a><div itemprop=\"text\"><p><span style=\"color:#f1c40f;\"><strong><span style=\"background-color:#e74c3c;\">Sorry for Ugly Hand Writting..................</span></strong></span></p><p><img alt=\"\" width=\"864\" height=\"1586\" src=\"media/de/de8e8854194b7b281f85.jpg\"></p><pre>&nbsp;</pre></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"535572\"></a><div itemprop=\"text\"><p><a rel=\"nofollow\" href=\"https://gateoverflow.in/374317/go-classes-cs-c-programming-weekly-quiz-3-question-18?show=535571#a535571\" target=\"_blank\">Answer</a></p></div></section></div><p><a href=\"https://gateoverflow.in/374317\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Based on the struct alignment discussed in class,</p><p>What are the sizes of $\\textsf{foo1, foo2, foo3}$ and $\\textsf{foo4}$ respectively?</p><p>Sizes of primitive data types are given below.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">sizeof(int) = 4 bytes\nsizeof(short) = 2 bytes\nsizeof(char) = 1 byte\n</pre><p>&nbsp;</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct foo1 {\n    int d1;\n    char c1;\n    int d2;\n};\n\nstruct foo2 {\n    int d1;\n    char c1;\n    int d2;\n    char c2;\n    short s;\n};\n\nstruct foo3 {\n    int d1;\n    int d2;\n    char c1;\n    char c2;\n    short s;\n};\n\nstruct foo4 {\n    char c1;\n    int d1;\n    short s;\n    int d2;\n    char c2;\n};\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$9,\\; 12,\\; 12,\\; 12$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$9,\\; 12,\\;16,\\; 20$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$12,\\; 16,\\; 12,\\; 20$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$12,\\; 20,\\; 20,\\; 20$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 19)</small></h4><a name=\"374347\"></a><div itemprop=\"text\"><p><strong>Answer: C</strong></p>\n\n<p>Each variable of “type” must be stored at a location divisible by “sizeof(type)”.</p>\n\n<p>Ints must be stored at locations 0, 4, 400, 256, 1024 etc.</p>\n\n<p>chars can be stored anywhere since sizeof(char) = 1B and 1|anything.</p>\n\n<p>To solve these types of questions first make a structure as wide as its largest sized element, then grow it in either upwards or downwards direction without altering the order of elements of structure.</p>\n\n<hr>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int d1; char c1; int d2;</pre>\n\n<table border=\"1\" cellpadding=\"1\" style=\"height:79px; width:497px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"2\" style=\"width:489px\">int d1: size 4B: location 0 – 3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:489px\">char c1: size 1B: location 4 – 4</td>\n\t\t\t<td style=\"background-color:yellow; width:489px\">3B padded: location 5 – 7</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\" style=\"width:489px\">int d2: size 4B: location 8 – 11</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>Width: 4B. Total size = 12B</strong></p>\n\n<hr>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int d1; char c1; int d2; char c2; short s;</pre>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">int d1: size 4B: location 0 – 3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\" style=\"width:282px\">char c1: size 1B: location 4 – 4</td>\n\t\t\t<td style=\"background-color:yellow; width:206px\">3B padded: location 5 – 7</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">int d2: size 4B: location 8 – 11</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>char c2: size 1B: location 12 – 12</td>\n\t\t\t<td style=\"background-color:yellow; width:102px\">\n\t\t\t<p>1B padded: location 13 – 13</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:206px\">short s: size 2B: location 14 – 15</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>Width: 4B. Total size = 16B</strong></p>\n\n<hr>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int d1; int d2; char c1; char c2; short s;</pre>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">int d1: size 4B: location 0 – 3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"3\">int d2: size 4B: location 4 – 7</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>char c1: size 1B: location 8 – 8&nbsp;</td>\n\t\t\t<td>char c2: size 1B: location 9 –&nbsp;&nbsp; 9</td>\n\t\t\t<td>shot s: size 2B: location 10 – 11</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>Width: 4B. Total size = 12B</strong></p>\n\n<hr>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char c1; int d1; short s; int d2; char c2;</pre>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>char c1: size 1B: location 0 – 0</td>\n\t\t\t<td style=\"background-color:yellow\">3 bytes padded: location 1 – 3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\">int d1: size 4B: location 4 – 7</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>short s: size 2B: location 8 – 9</td>\n\t\t\t<td style=\"background-color:yellow\">2 bytes padded: location 10 -11</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"2\">int d2: size 4B: location 12 – 15</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>char c2: size 1B: location 16 – 16</td>\n\t\t\t<td style=\"background-color:yellow\">3 bytes padded: location 17&nbsp; – 19</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>Width: 4B. Total size = 20B</strong></p></div></section><section><h4>Source solution 2 <small>(score: 6)</small></h4><a name=\"412050\"></a><div itemprop=\"text\"><p><strong>Structure Padding</strong><img alt=\"\" src=\"media/2f/2f008e64ef354d07ca48.jpg\"><br>\n<br>\n<br>\n&nbsp;</p>\n\n<p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374310\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Mark all options which are likely to create problems with memory, i.e., run time error or has a memory leak.</p><p>Assume that malloc is successful in all cases.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 1:\nint *p = malloc(sizeof(int));\n*p = 0;\nfree(p);\n*p = 0;\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program2:\nint *p = malloc(sizeof(int));\n*p = 0;\nfree(p);\np = 0;\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 3:\nint *p = malloc(3*sizeof(int));\n*p = 0;\np++;\nfree(p);\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 4:\nint *p = malloc(sizeof(char));\n*p = 0;\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Program $1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Program $2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Program $3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Program $4$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 18)</small></h4><a name=\"374343\"></a><div itemprop=\"text\"><p><strong>Answer: A, C, D</strong></p>\n\n<p><strong>Program 1:</strong></p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int *p = malloc(sizeof(int));\n*p = 0;\nfree(p);\n*p = 0;\n</pre>\n\n<p>Line 1 is valid, so is line 2 where the value of that heap memory is altered, and line 3 where the memory is freed.</p>\n\n<p>Writing into the freed memory is illegal: <strong>Dangling Pointer</strong></p>\n\n<hr>\n<p><strong>Program 2:</strong></p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int *p = malloc(sizeof(int));\n*p = 0;\nfree(p);\np = 0;</pre>\n\n<p>It’s same as Program 1 till line 3. In line 4 however notice that the pointer is instructed to point to different memory location (0 in case of pointer is NULL)<a rel=\"nofollow\" href=\"https://stackoverflow.com/questions/1296843/what-is-the-difference-between-null-0-and-0\" target=\"_blank\">[1]</a>.</p>\n\n<p>The <strong>value of pointer</strong> is changed not the <strong>value at memory location pointed</strong> by the pointer. This would be illegal if the reference to heap allocated memory was lost but since it was already freed this is legal.</p>\n\n<hr>\n<p><strong>Program 3: </strong></p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int *p = malloc(3*sizeof(int));\n*p = 0;\np++;\nfree(p);</pre>\n\n<p>Line 1, 2 are legal, and asks for 3 int memory locations. In line 3 the pointer is pointing to the second (1<sup>th</sup>) int and is then freed, but the the first (0<sup>th</sup>) int is never freed: <strong>Memory leak</strong></p>\n\n<hr>\n<p><strong>Program 4: </strong></p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int *p = malloc(sizeof(char));\n*p = 0;</pre>\n\n<p>Asked for 1 byte (sizeof(char)) and using as int: Writing to an area which is not your own, illegal.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>References: </strong></p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li><a rel=\"nofollow\" href=\"https://stackoverflow.com/questions/1296843/what-is-the-difference-between-null-0-and-0\" target=\"_blank\">https://stackoverflow.com/questions/1296843/what-is-the-difference-between-null-0-and-0</a></li>\n</ol></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536346\"></a><div itemprop=\"text\"><p>The options that will create problems with memory are Program 1, Program 3, and Program 4.</p><p><strong>Program 1: ❌ Problematic (Runtime Error)</strong></p><ul><li>The Issue: Dangling Pointer Dereference.</li><li>Why: After <code>free(p);</code> is executed, the memory block is released back to the heap. Line 5 (<code>*p = 0;</code>) tries to write data into that freed memory address, which causes undefined behavior or an immediate segmentation fault (runtime error).</li></ul><div><strong>Program 2: Perfect (Safe)</strong></div><ul><li>Why: <code>free(p);</code> releases the memory safely, and <code>p = 0;</code> resets the pointer to <code>NULL</code>. This prevents it from becoming a dangling pointer.</li></ul><div><strong>Program 3: ❌ Problematic (Runtime Error &amp; Memory Leak)</strong></div><ul><li>The Issue: Invalid Free Pointer.</li><li>Understand:&nbsp;Executing <code>p++</code> moves the pointer to point precisely to the second integer in that 3-integer block.<ul><li>The heap block contains space for 3 integers, but because <code>p</code> is an <code>int*</code>, any pointer arithmetic operations scale by exactly one integer unit (4 bytes) at a time.</li><li>Assume Heap memory block starting at memory address 1000:</li></ul></li></ul><div><pre><code>Memory Addresses:   [ 1000 ]    [ 1004 ]    [ 1008 ]\n                    +----------+----------+----------+\nArray Elements:     |  Int #1  |  Int #2  |  Int #3  |\n                    +----------+----------+----------+\n                      ▲          ▲\n                      │          │\nInitial state:     p (1000)      │\n                                 │\nAfter executing p++:          p (1004)\n</code>\n</pre><ul><li><strong>&nbsp;Why this causes a Runtime Error on <code>free(p)</code></strong><ul><li>The <code>free()</code> function relies on hidden metadata stored right <em>before</em> the allocated block (at address 996, for example) to know how many bytes to release.</li><li>Because <code>p++</code> changed the pointer value to 1004, you are passing an address into <code>free()</code> that doesn't align with the start of an allocated block. The heap manager can't find its metadata, which triggers an immediate heap corruption runtime error.</li></ul></li><li>Passing a modified pointer to <code>free(p);</code> breaks heap allocation rules, leading to a critical heap corruption crash (runtime error) and a permanent memory leak.</li></ul></div><div><strong>Program 4: ❌ Problematic (Buffer Overflow &amp; Memory Leak)</strong></div><ul><li>The Issue: Heap Out-of-Bounds Write.</li><li>Why: <code>malloc(sizeof(char))</code> allocates only 1 byte of memory. However, <code>p</code> is an integer pointer (<code>int *p</code>), so executing <code>*p = 0;</code> attempts to write an entire 4-byte integer into that 1-byte space. This overwrites adjacent heap metadata (buffer overflow crash). Additionally, the memory is never freed, creating a memory leak.</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/374308\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following declarations of variables in a system having $4$ bytes for integers.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int a[5][4];\nint (*p1)[2];\nint (*p2)[2];\nint (*t1)[4];\nint (*t2)[4];</pre><p>Suppose array a has base address of $1000$ and initial values of $p1, p2, t1$ and $t2$ are $1000, 1048, 1016$ and $1064$ respectively. What will be the value of $p2-p1$ and $t2-t1$ respectively?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$6 \\;3$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$48\\; 24 $</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$12\\; 6$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$24\\; 12$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 15)</small></h4><a name=\"373561\"></a><div itemprop=\"text\"><p>p1 and p2 both are pointer to an integer array of size 2. p1 = 1000 and p2 = 1048<br>\n<br>\nThus,&nbsp;<strong>p2 - p1</strong>&nbsp;= (1048 – 1000) / sizeof(*p1) = 48 / (2*4) =&nbsp;<strong>6</strong><br>\n<br>\nt1 and t2 both are pointer to an integer array of size 4. t1 = 1016 and t2 = 1064<br>\n<br>\nThus, <strong>t2 - t3</strong>&nbsp;= (1064 – 1016) / sizeof(*t1) = 48&nbsp;/ (4*4) =&nbsp;<strong>3</strong><br>\n<br>\n<a href=\"https://onlinegdb.com/UbKb88Ao8\" rel=\"nofollow\" target=\"_blank\">https://onlinegdb.com/UbKb88Ao8</a> refer this to see execution/output.<br>\n<br>\nAnswer :-&nbsp;<strong>A. 6 3</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/373495\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int mystry (char* str) {\n    if (*str == 0) {\n        return 0;\n    }\n    return mystry (str+1) +1;\n}</pre><p>What will be the output of mystry(\"hello\")?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 5</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 12)</small></h4><a name=\"373554\"></a><div itemprop=\"text\"><p><strong>Answer: 5</strong></p>\n\n<p><strong>The flow of function calls are given below</strong></p>\n\n<p><strong><img alt=\"\" src=\"media/30/30e37c97d186af3d3113.png\"></strong></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"373553\"></a><div itemprop=\"text\">The function &nbsp;counts the length of the string .<br>\n<br>\nso for “Hello” the output will be 5.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"533382\"></a><div itemprop=\"text\"><p><img alt=\"image\" width=\"400\" height=\"206\" src=\"https://media.discordapp.net/attachments/1486042666037674097/1509991399670419687/20260530_001608.jpg?ex=6a1b3093&amp;is=6a19df13&amp;hm=5253b05ba4329c7e1df030bef73ce03a8a498de388d9f170ce73dc020a72af58&amp;=&amp;format=webp&amp;width=1335&amp;height=689\"></p><p>Just note that we are deling with string literals.</p></div></section></div><p><a href=\"https://gateoverflow.in/373483\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 20
+  }
+ ],
+ "stats": {
+  "questions": 20,
+  "maxMarks": 23,
+  "types": {
+   "MCQ": 9,
+   "MSQ": 8,
+   "NAT": 3
+  },
+  "withoutKey": 2
+ }
+}

@@ -1,0 +1,775 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-076",
+ "title": "DVRUO Classes GATE CS | Discrete Mathematics | Group Theory | Weekly Quiz 13",
+ "sourceTitle": "DVRUO Classes GATE CS | Discrete Mathematics | Group Theory | Weekly Quiz 13",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 76,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 3600,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/103_exam_476_GO Classes GATE CS Discrete Mathematics Group Theory Weekly Quiz 13.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{G}$ be the group defined by the following Cayley table.<br>$$\\begin{array}{l||r|r|r|r|r|r|r|r|}<br>&amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 \\\\<br>\\hline 1 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 \\\\<br>\\hline 2 &amp; 2 &amp; 5 &amp; 4 &amp; 7 &amp; 6 &amp; 1 &amp; 8 &amp; 3 \\\\<br>\\hline 3 &amp; 3 &amp; 8 &amp; 5 &amp; 2 &amp; 7 &amp; 4 &amp; 1 &amp; 6 \\\\<br>\\hline 4 &amp; 4 &amp; 3 &amp; 6 &amp; 5 &amp; 8 &amp; 7 &amp; 2 &amp; 1 \\\\<br>\\hline 5 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\\\<br>\\hline 6 &amp; 6 &amp; 1 &amp; 8 &amp; 3 &amp; 2 &amp; 5 &amp; 4 &amp; 7 \\\\<br>\\hline 7 &amp; 7 &amp; 4 &amp; 1 &amp; 6 &amp; 3 &amp; 8 &amp; 5 &amp; 2 \\\\<br>\\hline 8 &amp; 8 &amp; 7 &amp; 2 &amp; 1 &amp; 4 &amp; 3 &amp; 6 &amp; 5 \\\\<br>\\hline\\end{array}$$<br>Which of the following is/are true about $\\text{G}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{G}$ is an abelian group.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Inverse of $6$ is $2.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Order of $6$ is $8.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Order of $5$ is $2.$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"404895\"></a><div itemprop=\"text\"><p>The order of $6$ is $4.$<br>\n<br>\n$\\text{G}$ is not abelian because $2 \\ast 3$ and $3 \\ast 2$ are different.</p>\n\n<p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a href=\"https://www.youtube.com/watch?v=EPtNtFjjnm4&amp;t=76s\" rel=\"nofollow\" target=\"_blank\">Detailed Video Solution with Complete Analysis (Click HERE)</a></p></div></section></div><p><a href=\"https://gateoverflow.in/404894\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The multiplication table $(\\ast)$ for a group $\\mathrm{G}=\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d}\\}$ is given below.<br>$$<br>\\begin{array}{|c|c|c|c|c|}<br>\\hline * &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline a &amp; a &amp; b &amp; c &amp; d \\\\<br>\\hline b &amp; b &amp; a &amp; &amp; \\\\<br>\\hline c &amp; c &amp; &amp; a &amp; \\\\<br>\\hline d &amp; &amp; &amp; &amp; a \\\\<br>\\hline<br>\\end{array}$$<br>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The identity element is $b$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{G}$ is a cyclic group.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{G}$ is an abelian group.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The order of $d$ is $4.$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"404893\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a href=\"https://www.youtube.com/watch?v=EPtNtFjjnm4&amp;t=1192s\" rel=\"nofollow\" target=\"_blank\">Detailed Video Solution with Complete Analysis (Click HERE)</a>&nbsp;</p>\n\n<p>$\\text{“a”}$ is the identity element. Every element is inverse of itself.</p>\n\n<p>$\\text{G}$ is not cyclic. Every order $4$ group is Abelian. The order of every element other than a is $2.$ The order of $a$ is $1.$<br>\n<br>\n<strong>Some Relevant Lectures (Must Watch Lecture 1 &amp; 3):</strong></p>\n\n<ol>\n\t<li><a href=\"https://www.youtube.com/watch?v=inpZ2_fzKx4&amp;list=PLIPZ2_p3RNHiEksQl-IEpGBih8QBFvt1a&amp;index=36\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=inpZ2_fzKx4&amp;list=PLIPZ2_p3RNHiEksQl-IEpGBih8QBFvt1a&amp;index=36</a>&nbsp;</li>\n\t<li><a href=\"https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33</a>&nbsp;</li>\n\t<li><a href=\"https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34</a>&nbsp;</li>\n</ol></div></section></div><p><a href=\"https://gateoverflow.in/404892\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following binary operations are closed?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>subtraction of positive integers<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>division of nonzero integers<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>multiplication of $2 \\times 2$ matrices with integer entries<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>exponentiation of integers</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 10)</small></h4><a name=\"404910\"></a><div itemprop=\"text\">Option A. (Z^+, -) is not closed because $2 - 3 \\not\\in Z^+$<br>\n<br>\nOption B. (Z*, /) is not closed because $ \\frac{1}{2} \\not\\in Z^*$<br>\n<br>\nOption C. Multiplication of 2x2 matrices with integers entries are closed. Because each entry in the resultant matrix will be some combination of integer multiplication and addition, and both are closed for integers.<br>\n<br>\nOption D. (Z, *) where $a * b = a^b$, is not closed because &nbsp;$2^{-1} \\not\\in Z$</div></section></div><p><a href=\"https://gateoverflow.in/404891\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose that $\\mathrm{G}$ is a finite group with $60$ elements. The size of the largest possible proper subgroup of $\\text{G}$ is ________",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"404890\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a href=\"https://www.youtube.com/watch?v=EPtNtFjjnm4&amp;t=1782s\" rel=\"nofollow\" target=\"_blank\">Detailed Video Solution with Complete Analysis (Click HERE)</a></p>\n\n<p><strong>Lagrange's&nbsp;Theorem:&nbsp;</strong></p>\n\n<p>Lagrange's theorem is about finite groups and their subgroups. It is very important in group theory, and not just because it has a name.<br>\n<br>\n$\\textbf{Theorem 1 (Lagrange's theorem):}$ Let $\\text{G}$ be a finite group and $\\text{H} \\subseteq \\text{G}$ a subgroup of $\\text{G}$. Then $|\\text{H}|$ divides $|\\text{G}|$.<br>\n<br>\nBy Lagrange's Theorem, the order of any subgroup of $\\text{G}$ must divide $60.$</p>\n\n<p>Thus, the set of orders of possible subgroups of $\\text{G}$ is $\\{1,2,3,4,5,6,10$, $12,15,20,30,60\\}$.</p>\n\n<p><strong>Some Relevant Lectures:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=W8NikOCOQUA&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=43\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watchv=W8NikOCOQUA&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=43</a><strong> </strong></li>\n</ul></div></section></div><p><a href=\"https://gateoverflow.in/404889\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following algebraic structures is&nbsp;a group?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\mathbb{Z},-)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(\\mathbb{Q}-\\{0\\}, \\div)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(\\mathbb{R}, \\star)$, where $a \\star b=a+b+a b$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 10)</small></h4><a name=\"405028\"></a><div itemprop=\"text\">Option A : (Z,-) does not satisfy associative property. &nbsp;e.g. (1 - 2) - 3 ≠ 1 - (2 - 3)<br>\n<br>\nOption B : (Q-{0},÷) does not satisfy associative property. &nbsp;e.g. (100÷10)÷2 ≠ 100÷(10÷2)<br>\n<br>\nOption C : (R,*) is a monoid with 0 being the identity element but not a group as there is no inverse for -1<br>\n<br>\nHence answer is Option D : None of the above.</div></section></div><p><a href=\"https://gateoverflow.in/404888\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{G}=\\{e, a, b, c\\}$ be a group with the following Cayley table.<br>$$<br>\\begin{array}{c|cccc}<br>* &amp; e &amp; a &amp; b &amp; c \\\\<br>\\hline e &amp; e &amp; a &amp; b &amp; c \\\\<br>a &amp; a &amp; e &amp; c &amp; b \\\\<br>b &amp; b &amp; c &amp; e &amp; a \\\\<br>c &amp; c &amp; b &amp; a &amp; e<br>\\end{array}<br>$$<br>Which of the following is/are true for $\\text{G}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{G}$ has exactly $1$ subgroup of $1$ element.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{G}$ has exactly $3$ subgroups of $2$ elements.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{G}$ has exactly $3$ subgroups of $3$ elements.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{G}$ has exactly $1$ subgroup of $4$ elements.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"404887\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a href=\"https://www.youtube.com/watch?v=EPtNtFjjnm4&amp;t=1911s\" rel=\"nofollow\" target=\"_blank\">Detailed Video Solution with Complete Analysis (Click HERE)</a></p>\n\n<p><strong>Lagrange's theorem:</strong></p>\n\n<p>Lagrange's theorem is about finite groups and their subgroups. It is very important in group theory, and not just because it has a name.<br>\n<br>\n$\\textbf{Theorem 1 (Lagrange's theorem):}$ Let $\\text{G}$ be a finite group and $\\text{H} \\subset \\text{G}$ a subgroup of $\\text{G}$. Then $|\\text{H}|$ divides $|\\text{G}|$.<br>\nIn any finite group $\\text{G},$ the Order of a subgroup divides the order of the group.</p>\n\n<p>Since $3$ does not divide $4,$ so, $\\text{G}$ has no subgroup of $3$ elements.</p>\n\n<p><strong>Some Relevant Lectures:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=W8NikOCOQUA&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=43\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=W8NikOCOQUA&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=43</a><strong> </strong></li>\n</ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"472502\"></a><div itemprop=\"text\"><p>&lt;e&gt;={e}</p><p>&lt;a&gt;={e,a}</p><p>&lt;b&gt;={e,b}</p><p>&lt;c&gt;={e,c}</p><p>There are no generator.</p><p>Then we can say that&nbsp;</p><ol><li>&nbsp;G has exactly&nbsp;1&nbsp;subgroup of&nbsp;1&nbsp;element.</li><li>&nbsp;G has exactly&nbsp;3&nbsp;subgroups of&nbsp;2&nbsp;elements.</li><li>&nbsp;G has exactly&nbsp;1&nbsp;subgroup of&nbsp;4&nbsp;elements.(G is itself a Subgroup because it does not sayy about proper subgroup)</li></ol></div></section></div><p><a href=\"https://gateoverflow.in/404886\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following sets are closed under the given operation?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\{0,4,8,12\\}$ addition $\\bmod 16$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\{0,4,8,12\\}$ addition $\\bmod 15$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{1,4,7,13\\}$ multiplication $\\bmod 15$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{1,4,5,7\\}$ multiplication $\\bmod 9$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"404909\"></a><div itemprop=\"text\">Addition modulo n and Multiplication modulo n is commutative so only checking a * b $\\in$ Base Set is enough.<br>\n<br>\nOption A.<br>\n<br>\nAlso, Identity element is 0, so not need to check closure property with identity element because (0 + a)mod n = a, where 0 &lt;= a &lt; n<br>\n<br>\n4 * 4 = 8, 4 * 8 &nbsp;= 12, 4 * 12 = 0<br>\n8 * 8 = 0, 8 * 12 = 4<br>\n12 * 12 = 8<br>\n<br>\n$\\therefore$ Base Set is closed under addition modulo 16<br>\n<br>\nOption B.<br>\nSame set but operation is addition modulo 15<br>\n<br>\nhere 4 * 12 = 1 $\\not\\in$ {0, 4, 8, 12}<br>\n<br>\n$\\therefore$ it is doesn't satisfies closure property under addition modulo 15<br>\n<br>\nOption C.<br>\nHere identity element is 1, so not need to check closure property with identity element<br>\n<br>\n4 * 4 = 1, 4 * 7 = 13, 4 * 13 = 7<br>\n7 * 7 = 4, 7 * 13 = 1<br>\n13 * 13 = 4<br>\n<br>\n$\\therefore$ Base Set is closed under addition modulo 15<br>\n<br>\nOption D.<br>\nHere identity element is 1,<br>\n<br>\n4 * 4 = 7, 4 * 5 = 2, 4 * 7 = 5<br>\n5 * 5 = 7, 5 * 7 = 8 $\\not\\in$ {1, 4, 7, 13}<br>\n<br>\n$\\therefore$ it is doesn't satisfies closure property under multiplication modulo 9</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"409277\"></a><div itemprop=\"text\"><p>$ \\text{We know that in } ( \\mathbb{Z}_{n},&nbsp;\\oplus_{n} )&nbsp;\\text{ where } \\mathbb{Z}_{n} = \\{ 0, 1, 2, 3, 4, \\cdots, n-1\\}$</p>\n\n<p>➡ Identity Element = e = 0</p>\n\n<p>➡ Inverse Element:</p>\n\n<p>$ \\text{ For Identity: } e^{-1} = e \\implies 0^{-1} = 0 &nbsp;$</p>\n\n<p>$ \\text{ For other elements where } (a \\neq&nbsp;e): a^{-1} = n-a &nbsp;$</p>\n\n<p>&nbsp;</p>\n\n<p>$ (\\{0, 4, 8, 12\\}, \\oplus_{16}) $</p>\n\n<p>$&nbsp;\\{0, 4, 8, 12\\}&nbsp;\\subseteq&nbsp;&nbsp;\\mathbb{Z}_{16} \\text{ and it is a non-empty subset&nbsp;where } $</p>\n\n<p>$ 0^{-1} = 0 \\text{,&nbsp; } 4^{-1} = 12 \\text{,&nbsp; } 12^{-1} = 4&nbsp;\\text{ and } 8^{-1} = 8 $</p>\n\n<p>$&nbsp; \\forall a,b (a*b^{-1}) \\in&nbsp;\\{0, 4, 8, 12\\} $</p>\n\n<p>$&nbsp; \\therefore&nbsp; \\text{✅ Option&nbsp;“A” is CORRECT and closure exist.}&nbsp;$</p>\n\n<p>&nbsp;</p>\n\n<p>$ (\\{0, 4, 8, 12\\}, \\oplus_{15}) $</p>\n\n<p>$&nbsp;\\{0, 4, 8, 12\\}&nbsp;\\subseteq&nbsp;&nbsp;\\mathbb{Z}_{15} \\text{ and it is a non-empty subset&nbsp;where } $</p>\n\n<p>$ 0^{-1} = 0 \\text{,&nbsp; } 4^{-1} = (15-4) = 11 \\notin&nbsp;\\{0, 4, 8, 12\\}&nbsp;$</p>\n\n<p>$&nbsp; \\forall a,b (a*b^{-1}) \\notin&nbsp;\\{0, 4, 8, 12\\} $</p>\n\n<p>$&nbsp; \\therefore&nbsp; \\text{❌ Option&nbsp;“B” is INCORRECT }&nbsp;$</p>\n\n<hr>\n<p>&nbsp;</p>\n\n<p>In Multiplication Modulo n, the Identity element is always 1 (Elements generated by 1 is always 1 i.e. &lt;1&gt; = {1}).</p>\n\n<p>$ \\text{If } a^n = e \\text{ where ‘n’ is the smallest positive number (Finite Group) }&nbsp;$</p>\n\n<p>$ \\text{Then } a^{-1} = a^{n-1} $</p>\n\n<p>&nbsp;</p>\n\n<p>$ (\\{1, 4, 7, 13\\}, \\otimes_{15}) $</p>\n\n<p>$ &lt;4&gt; = \\{4^1, 4^2 \\} = \\{4, 1\\} $</p>\n\n<p>$ &lt;7&gt; = \\{7^1, 7^2, 7^3, 7^4 \\} = \\{7, 4, 13, 1\\} = &lt;13&gt; $</p>\n\n<p>$&nbsp; \\forall a,b (a*b^{-1}) \\in&nbsp;\\{1, 4, 7, 13\\} $</p>\n\n<p>$&nbsp; \\therefore&nbsp; \\text{✅ Option&nbsp;“C” is CORRECT and closure exist. }&nbsp;$</p>\n\n<p>&nbsp;</p>\n\n<p>$ (\\{1, 4, 5, 7\\}, \\otimes_{9}) $</p>\n\n<p>$ &lt;4&gt; = \\{4^1, 4^2, 4^3 \\} = \\{4, 7, 1\\} = &lt;7&gt; $</p>\n\n<p>$ &lt;5&gt; = \\{5^1, 5^2, 5^3, \\cdots \\} = \\{5, 7, 8, \\cdots \\} \\text{ but } 8 \\notin&nbsp;\\{1, 4, 5, 7\\} $</p>\n\n<p>$&nbsp; \\forall a,b (a*b^{-1}) \\notin&nbsp;\\{1, 4, 5, 7\\} $</p>\n\n<p>$&nbsp; \\therefore&nbsp; \\text{❌ Option&nbsp;“D” is INCORRECT }&nbsp;$</p>\n\n<p>&nbsp;</p>\n\n<p><br>\nFINAL ANSWER = { A: ✅, B: ❌, C: ✅, D: ❌}</p></div></section></div><p><a href=\"https://gateoverflow.in/404885\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose the table below is a group table for group $\\left(\\mathrm{G},{ }^{\\star}\\right).$&nbsp;Fill in the blank entries.<br>$$\\begin{array}{l|lllll}<br>&amp; \\boldsymbol{e} &amp; \\boldsymbol{a} &amp; \\boldsymbol{b} &amp; \\boldsymbol{c} &amp; \\boldsymbol{d} \\\\<br>\\hline \\boldsymbol{e} &amp; e &amp; - &amp; - &amp; - &amp; - \\\\<br>\\boldsymbol{a} &amp; - &amp; b &amp; - &amp; - &amp; e \\\\<br>\\boldsymbol{b} &amp; - &amp; c &amp; d &amp; e &amp; - \\\\<br>\\boldsymbol{c} &amp; - &amp; d &amp; - &amp; a &amp; b \\\\<br>\\boldsymbol{d} &amp; - &amp; - &amp; - &amp; - &amp; -<br>\\end{array}$$<br>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$d * b=a$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$b\\ast d=a$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$d* d^* d* d=e$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$a * b * c * d=e$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"405026\"></a><div itemprop=\"text\"><ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>\n\t<h2 style=\"font-style:italic;\">Try to fill the Cayley table from given hints in the question and applying Cayley table properties (identity element, no repeatition...)</h2>\n\t</li>\n\t<li>\n\t<h2 style=\"font-style:italic;\">It will look something like this <strong>(you need not complete the whole table)</strong></h2>\n\t</li>\n\t<li>\n\t<table border=\"1\" cellpadding=\"1\" style=\"width:446px; border-spacing: 1px;\">\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<td style=\"width:50px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>*</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:66px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>e</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:77px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>a</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:65px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>b</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:86px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>c</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:76px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>d</strong></h2>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td style=\"width:50px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>e</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:66px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">e</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:77px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">a</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:65px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">b</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:86px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">c</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:76px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">d</h2>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td style=\"width:50px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>a</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:66px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">a</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:77px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">b</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:65px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">&nbsp;</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:86px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">&nbsp;</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:76px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">e</h2>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td style=\"width:50px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>b</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:66px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">b</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:77px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">c</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:65px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">d</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:86px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">e</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:76px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">a</h2>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td style=\"width:50px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>c</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:66px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">c</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:77px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">d</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:65px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">e</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:86px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">a</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:76px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">b</h2>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td style=\"width:50px\">\n\t\t\t\t<h2 style=\"font-style:italic;\"><strong>d</strong></h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:66px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">d</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:77px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">e</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:65px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">&nbsp;</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:86px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">&nbsp;</h2>\n\t\t\t\t</td>\n\t\t\t\t<td style=\"width:76px\">\n\t\t\t\t<h2 style=\"font-style:italic;\">c</h2>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\n\t<h2 style=\"font-style:italic;\">&nbsp;</h2>\n\t</li>\n</ol>\n\n<ol start=\"4\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>\n\t<h2 style=\"font-style:italic;\">Now, check the options and put appropriate values from Cayley table.</h2>\n\t</li>\n</ol>\n\n<ul>\n\t<li>\n\t<h2 style=\"font-style:italic;\"><strong>d * b</strong> = d * (a * a) = (d*a)*a = e*a = <strong>a&nbsp;</strong>(correct option)</h2>\n\t</li>\n\t<li>\n\t<h2 style=\"font-style:italic;\"><strong>b*d = a&nbsp;&nbsp;</strong>(directly from table) (correct option)</h2>\n\t</li>\n\t<li>\n\t<h2 style=\"font-style:italic;\"><strong>d*d*d*d =&nbsp;</strong>(d*d)*(d*d) = c*c =&nbsp;<strong>a&nbsp;</strong>(incorrect option)</h2>\n\t</li>\n\t<li>\n\t<h2 style=\"font-style:italic;\"><strong>a*b*c*d&nbsp;</strong>= a*( (b*c) * d) = a * (e*d) = a*d =&nbsp;<strong>e&nbsp;</strong>(correct option)</h2>\n\t</li>\n</ul>\n\n<h2 style=\"font-style:italic;\"><strong>So, the correct options are A,B,D.</strong></h2></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"405030\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/42/423549d5c5386534c771.jpg\"></p>\n\n<p>A: d*b = a</p>\n\n<p>B : b*d = a</p>\n\n<p>C : d*d*d*d = a</p>\n\n<p>D : a*b*c*d = e</p>\n\n<p>Hence answer is A,B,D</p></div></section></div><p><a href=\"https://gateoverflow.in/404884\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $(\\mathrm{G}, \\ast)$ be a group with identity element e. Suppose that $a, b,$&nbsp;and $c$ are elements of $G$ satisfying $(a \\ast b) \\ast c=e.$</p><p>Which of the following is/are necessarily true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$a \\ast(b \\ast c)=e$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(b \\ast c) \\ast a=e$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$c \\ast(a \\ast b)=e$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$b \\ast(c \\ast a)=e$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 12)</small></h4><a name=\"404932\"></a><div itemprop=\"text\"><p>This is really a good question</p>\n\n<p><img alt=\"\" src=\"media/1f/1f8be2a56e48e26f6f72.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"404883\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/EPtNtFjjnm4\" target=\"_blank\">Detailed Video Solution with Complete Analysis (Click HERE)</a></p>\n\n<p><strong>Proof:</strong></p>\n\n<p>$a *(b * c)=(a * b) * c=e$ so that $a=(b * c)^{-1}$.</p>\n\n<p>Thus, $(b * c) * a=$ $(b * c) *(b * c)^{-1}=e.$</p></div></section></div><p><a href=\"https://gateoverflow.in/404882\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The following is a Cayley table for a group $\\mathrm{G}$. The order of $4 * 4$ is:<br>\n$$<br>\n\\begin{array}{r|r|r|r|r|r|}<br>\n* &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\\\<br>\n\\hline 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 1 \\\\<br>\n\\hline 2 &amp; 3 &amp; 4 &amp; 5 &amp; 1 &amp; 2 \\\\<br>\n\\hline 3 &amp; 4 &amp; 5 &amp; 1 &amp; 2 &amp; 3 \\\\<br>\n\\hline 4 &amp; 5 &amp; 1 &amp; 2 &amp; 3 &amp; 4 \\\\<br>\n\\hline 5 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\\\<br>\n\\hline<br>\n\\end{array}$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"404881\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a href=\"https://www.youtube.com/watch?v=EPtNtFjjnm4&amp;t=4510s\" rel=\"nofollow\" target=\"_blank\">Detailed Video Solution with Complete Analysis (Click HERE)</a></p>\n\n<p>$$\\langle3\\rangle=\\left\\{3^ 1=3,3^&nbsp;2=1,3^ 3=4,3^ 4=2,3^ 5=5\\right\\}$$</p>\n\n<p><strong>Some Relevant Lectures (Order of an Element):&nbsp;</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=3wWFJ9F6Fd0&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=31\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=3wWFJ9F6Fd0&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=31</a>&nbsp;</li>\n</ul>\n\n<p><strong>Summary of “Order of an Element”:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=A-r3_2aahvE&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=36\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=A-r3_2aahvE&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=36</a></li>\n</ul></div></section></div><p><a href=\"https://gateoverflow.in/404880\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{G}$ be a group and let $a, b, c \\in \\text{G}.$</p><p>Consider the following statements:</p><ol><li>If $b a c=a^{-1}$, then $c a b=a^{-1}$.<br>&nbsp;</li><li>The elements \"$bab$\" and \"$abb$\" have the same order.<br>&nbsp;</li></ol><p>Which of the above statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$ Only<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$ Only<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both $1 \\; \\&\\; 2$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 19)</small></h4><a name=\"405003\"></a><div itemprop=\"text\"><h3>Statement 1:</h3>\n\n<p>$bac = a^{-1}$ (multiply on LHS &nbsp;by $a$&nbsp; on both side)</p>\n\n<p>$a(bac) =(ab)(ac) =&nbsp;&nbsp;e$ (Groups have associative property )&nbsp;</p>\n\n<p>$ac^{-1} = ab&nbsp;&nbsp; &nbsp;$&nbsp;( by inverse property )</p>\n\n<p>hence $(ac)(ab) = e$ (multiply on LHS&nbsp;by $a_{-1} $</p>\n\n<p>$cab = a^{-1}$&nbsp;</p>\n\n<p>so statement 1 is true.</p>\n\n<h3>Statement 2:</h3>\n\n<p>Let $ ab = c$ ( this way will be easy to visualize)</p>\n\n<p>$bab = bc,abb = cb&nbsp;&nbsp;$</p>\n\n<p>Now the question is does $|&lt;bc&gt;| = |&lt;cb&gt;| ??$</p>\n\n<p>Lets find out<br>\nBy definition of Subgroup generated&nbsp;by an element&nbsp;<br>\nLet&nbsp; order of $ (bc)&nbsp;=&nbsp;n $ which means$</p>\n\n<p>(bc)^{n} = e $ (where e is identity element and n ∈ Z)</p>\n\n<p>$(bc)^{n-1} = (bc)^{-1} $……….eq(1)</p>\n\n<p>now if $ (cb)&nbsp;\\space&nbsp; and (bc) $ have same order then $ (cb)^{n} = e$</p>\n\n<p>$ (cb)^{n} = cbcbcbcb…...n \\space times$</p>\n\n<p>hence&nbsp;$ (cb)^{n} = c(bc)^{n-1}b = c(bc)^{-1} b$ (from eq ...1 )</p>\n\n<p>$ (cb)^{n} =&nbsp; c(bc)^{-1} b = cc^{-1}b^{-1}b = e$</p>\n\n<p>hence&nbsp; $|&lt;bc&gt;| = |&lt;cb&gt;| $</p>\n\n<h3>Both statements are true.</h3></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"407969\"></a><div itemprop=\"text\">For stmt 2 specifically ,<br>\nLet order of bab is n which means (bab)^n =e<br>\nNow we will try to see that if (abb)^n =e or not <br>\n(abb)^n = (abb)(abb)(abb)(abb)… ntimes<br>\nU can take some n to see that for every n sequence is like ab (bab)^n-1 b<br>\nNow from (bab)^n =e ==&gt; (bab)^n-1 = (bab)^-1<br>\n<br>\nSo our ab (bab)^n-1 b becomes ab (bab)^-1 b<br>\nab (b^-1a^-1b^-1) b<br>\nabb^-1a^-1b^-1b = e<br>\n<br>\nHence proved that (abb)^n =e so order of abb is also n</div></section></div><p><a href=\"https://gateoverflow.in/404879\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{G}$ be an abelian group with identity element $e$.<br>$$\\text{H}=\\left\\{x \\in G \\mid x^4=e\\right\\}$$<br>Which of the following is true about $\\mathrm{H}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{H}$ is a subgroup of $\\text{G}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{H}$ is not a subgroup of $\\text{G}$ because the identity element doesn&#x27;t belong to $\\mathrm{H}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{H}$ is not a subgroup of $\\mathrm{G}$ because $\\mathrm{H}$ doesn&#x27;t satisfy closure property.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{H}$ is not a subgroup of $\\text{G}$ because $\\text{H}$ doesn&#x27;t satisfy inverse property.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 20)</small></h4><a name=\"404922\"></a><div itemprop=\"text\">G is an abelian group with identity element e.<br>\n<br>\nOption B:<br>\n<br>\n$e^4 = e, e \\in H$, therefore H contains identity element, and satisfies the identity property as G is a group.<br>\n<br>\n$\\therefore$ Option B is wrong<br>\n<br>\nOption C:<br>\n<br>\nIf $x, y \\in H$, then $x * y \\in H$<br>\n<br>\nwe know that $a^4 = e$, then H must contain a, we can easily prove that $(x * y)^4 = e$<br>\n<br>\n$(x*y)^4 = (xy)(xy)(xy)(xy) = xxxxyyyy = x^4y^4 = ee = e$ because G is abelian.<br>\n<br>\n$\\therefore$ Option C is wrong.<br>\n<br>\nOption D:<br>\n<br>\nIf $x \\in H$, then $x^{-1} \\in H$<br>\n<br>\nWe know that if $x^4 = e$, then $x^{-1} = x^3$, if we can show that $x^3 \\in H$, then $x^{-1} \\in H$<br>\n<br>\n$(x^3)^4 = (x^4)^3 = e, \\therefore x^{-1} \\in H$<br>\n<br>\n$\\therefore$ Option D is wrong.<br>\n<br>\nH satisfies Identity, closure and Inverse property. Therefore H is subgroup of G.</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"404935\"></a><div itemprop=\"text\"><p>H is a Sub group of G because</p>\n\n<p><img alt=\"\" src=\"media/bf/bf0b0bd0c9839adf658f.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/404878\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For which of the following partially filled Cayley tables, it is impossible to complete the Cayley table to make a group?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\begin{array}{r|llll} \\circ \\& a \\& b \\& c \\& d \\\\ \\hline a \\& - \\& - \\& - \\& - \\\\ b \\& b \\& - \\& - \\& - \\\\ c \\& d \\& - \\& - \\& - \\\\ d \\& c \\& - \\& - \\& - \\end{array}$&lt;p&gt;&nbsp;&lt;/p&gt;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\begin{array}{c|cccc} \\circ \\& a \\& b \\& c \\& d \\\\ \\hline a \\& a \\& - \\& - \\& - \\\\ b \\& - \\& b \\& - \\& - \\\\ c \\& - \\& - \\& - \\& - \\\\ d \\& - \\& - \\& - \\& - \\end{array}$&lt;p&gt;&nbsp;&lt;/p&gt;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\begin{array}{c|cccc} \\circ \\& a \\& b \\& c \\& d \\\\ \\hline a \\& a \\& - \\& - \\& - \\\\ b \\& - \\& c \\& - \\& - \\\\ c \\& - \\& - \\& b \\& - \\\\ d \\& - \\& - \\& - \\& - \\end{array}$&lt;p&gt;&nbsp;&lt;/p&gt;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\begin{array}{c|cccc} \\circ \\& a \\& b \\& c \\& d \\\\ \\hline a \\& b \\& - \\& - \\& - \\\\ b \\& - \\& c \\& - \\& - \\\\ c \\& - \\& - \\& d \\& - \\\\ d \\& - \\& - \\& - \\& - \\end{array}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 13)</small></h4><a name=\"404930\"></a><div itemprop=\"text\"><p>We cant Fill any Cayley table among the given options such that&nbsp;they can be a group</p>\n\n<p><img alt=\"\" src=\"media/68/686d7c5185efb6307aa2.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"404877\"></a><div itemprop=\"text\"><p>$\\color{RED}{\\text{Detailed Video Solution, with Complete Analysis:}}$&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=uCTA_ZU9zks&amp;t=1278s\" target=\"_blank\">https://www.youtube.com/watch?v=uCTA_ZU9zks&amp;t=1278s</a>&nbsp;&nbsp;</p>\n\n<p><strong>Similar Question Here:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=inpZ2_fzKx4&amp;list=PLIPZ2_p3RNHiEksQl-IEpGBih8QBFvt1a&amp;index=36\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=inpZ2_fzKx4&amp;list=PLIPZ2_p3RNHiEksQl-IEpGBih8QBFvt1a&amp;index=36</a>&nbsp;<strong>&nbsp;</strong></li>\n</ul>\n\n<p>Watch the above lecture, then solve the given question.&nbsp;</p>\n\n<p><strong>Some Relevant Lectures (Must Watch Lecture 2):</strong></p>\n\n<ol>\n\t<li><a href=\"https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33</a>&nbsp;</li>\n\t<li><a href=\"https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34</a></li>\n</ol></div></section></div><p><a href=\"https://gateoverflow.in/404876\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the set $\\mathrm{H}=\\{4,8,12,16)$. Complete the Cayley table of the operation multiplication modulo $20$ over that set and answer the following questions.<br>$$<br>\\begin{array}{|c||c|c|c|c|}<br>\\hline &amp; 4 &amp; 8 &amp; 12 &amp; 16 \\\\<br>\\hline \\hline 4 &amp; 16 &amp; 12 &amp; 8 &amp; 4 \\\\<br>\\hline 8 &amp; &amp; &amp; &amp; \\\\<br>\\hline 12 &amp; &amp; &amp; &amp; \\\\<br>\\hline 16 &amp; 4 &amp; 8 &amp; 12 &amp; 16 \\\\<br>\\hline<br>\\end{array}$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{H}$ is a group But not cyclic.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{H}$ is commutative.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{H}$ is a cyclic group.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Order of $12$ is $4.$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"404875\"></a><div itemprop=\"text\"><p>$\\text{H}$ is a cyclic group. Generators are $8, 12.$</p>\n\n<p><strong>Some Relevant Lectures (Must Watch Lecture 2):</strong></p>\n\n<ol>\n\t<li><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33\" target=\"_blank\">https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33</a>&nbsp;</li>\n\t<li><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34\" target=\"_blank\">https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34</a></li>\n</ol></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"532665\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"500\" style=\"max-width: 100%;\" src=\"media/4f/4ffb46793198b4e98f62.jpg\"></p><p>Answer: B, C, D</p></div></section></div><p><a href=\"https://gateoverflow.in/404874\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $\\text{G}$ is a group and $g&nbsp;\\in \\text{G},$&nbsp;then the subgroup generated by $g$ is<br>$$<br>\\langle g\\rangle=\\left\\{g^n \\mid n \\in \\mathbb{Z}\\right\\} .<br>$$<br>The set of all positive integers less than $n$ and relatively prime to $n$ with multiplication $\\bmod n$ is a group denoted $\\text{U}_n$.<br>i.e. $\\text{U}_n =\\left\\{g \\in Z _n \\mid \\operatorname{gcd}(g, n)=1\\right\\}$.</p><p>Which of the following is/are true about $\\text{U}_{24}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>In $\\text{U}_{24},$ the size of the subgroup generated by $13$ is $2.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{U}_{24}$ is an abelian group.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{U}_{24}$ is a cyclic group.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The order of an element $y$ in a group $\\text{G}$ is equal to the size of the subgroup generated by $y.$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"404873\"></a><div itemprop=\"text\"><p>$\\color{RED}{\\text{Detailed Video Solution, with Complete Analysis:}}$&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=uCTA_ZU9zks&amp;t=2124s\" target=\"_blank\">https://www.youtube.com/watch?v=uCTA_ZU9zks&amp;t=2124s</a>&nbsp;</p>\n\n<p>$$<br>\n\\begin{aligned}<br>\n&amp; \\mathrm{U}_{24}=\\{1,5,7,11,13,17,19,23\\} \\\\<br>\n&amp; \\langle1\\rangle=\\{1\\} \\\\<br>\n&amp; \\langle5\\rangle=\\{5,1\\} \\\\<br>\n&amp; \\langle7\\rangle=\\{1,7\\} \\\\<br>\n&amp; \\langle11\\rangle=\\{1,11\\} \\\\<br>\n&amp; \\langle13\\rangle=\\{1,13\\} \\\\<br>\n&amp; \\langle17\\rangle=\\{1,17\\} \\\\<br>\n&amp; \\langle19\\rangle=\\{1,19\\} \\\\<br>\n&amp; \\langle23\\rangle=\\{1,23\\}<br>\n\\end{aligned}<br>\n$$<br>\nSo, no element can generate all elements of $\\text{U}_{24}.$ Hence, No generator in $\\text{U}_{24},$ So, $\\text{U}_{24}$ is Not cyclic. $\\mathrm{U}_n$ is Always an Abelian group.</p>\n\n<p><strong>Some Relevant Lectures:</strong></p>\n\n<p><strong>Learn about U_n here:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=6tHH-6h9tvk&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=1\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=6tHH-6h9tvk&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=1</a>&nbsp;</li>\n</ul>\n\n<p><strong>One more question on Unit Group U_n Here:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=Nz-kbP1_QHs&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=2\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=Nz-kbP1_QHs&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=2</a>&nbsp;<strong>&nbsp;</strong></li>\n</ul>\n\n<p><strong>Learn about “Subgroup generated by an element”:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=_hLlMo79Cwc&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=36\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=_hLlMo79Cwc&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=36</a>&nbsp;</li>\n</ul></div></section></div><p><a href=\"https://gateoverflow.in/404872\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a group. Let $\\mathrm{a}, \\mathrm{b} \\in \\mathrm{G}$.</p><p>Which of the following statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The order of $a$ is the same as the order of $a^{-1}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>For all $g \\in G,|a|=\\left|g^{-1} a g\\right|$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The order of $ab$ is the same as the order of $ba.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>In any group $\\text{G},$ there is exactly one element of order $1.$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 10)</small></h4><a name=\"404917\"></a><div itemprop=\"text\">Option A.<br>\n<br>\n$\\lvert &lt;a&gt; \\rvert = \\lvert {a^0, a^{\\pm1}, a^{\\pm2}, a^{\\pm3},...} \\rvert$<br>\n$\\lvert &lt;a^{-1}&gt; \\rvert = \\lvert {a^0, a^{\\pm1}, a^{\\pm2}, a^{\\pm3},...} \\rvert$<br>\n<br>\n$\\therefore \\lvert &lt;a&gt; \\rvert = \\lvert &lt;a^{-1}&gt; \\rvert$<br>\n<br>\nOption B.<br>\n<br>\n$&lt;a&gt; = {a^0, a^{\\pm1}, a^{\\pm2}, a^{\\pm3},...}$<br>\n<br>\n$&lt;g^{-1}ag&gt; = \\lbrace{(g^{-1}ag)^{^0}, (g^{-1}ag)^{\\pm1}, (g^{-1}ag)^{\\pm2}, (g^{-1}ag)^{\\pm3},...}\\rbrace$<br>\n<br>\nFor each $(g^{-1}ag)^{n} = (g^{-1}ag)(g^{-1}ag)(g^{-1}ag)… n\\ times = g^{-1}a^ng$<br>\n<br>\nIf &lt;a&gt; is finite then by definition of order of an element there is a smallest positive integer n such that $a^n$ = e, then $ (g^{-1}ag)^{n} = g^{-1}a^ng = g^{-1}eg = e$<br>\n<br>\n$\\therefore |(g^{-1}ag)^{n}| = n$<br>\n<br>\nIf &lt;a&gt; is infinite then we can show a one to one correspondence for each element in $&lt;a&gt; to &lt;g^{-1}ag&gt;$<br>\n<br>\n$\\therefore |a| = |g^{-1}ag|$<br>\n<br>\nOption C.<br>\n<br>\n$&lt;ab&gt; = \\lbrace {(ab)^n | n \\in \\mathbb{Z}} \\rbrace$<br>\n$&lt;ba&gt; = \\lbrace {(ba)^n | n \\in \\mathbb{Z}} \\rbrace$<br>\n<br>\n$&lt;ba&gt; = \\lbrace (ba)^0 , (ba)^{\\pm1}, (ba)^{\\pm2}, (ba)^{\\pm3}...\\rbrace $<br>\n<br>\n$every\\ (ba)^n = (ba)(ba)(ba).... n\\ times = b(ab)^{n-1}a$<br>\n<br>\nif &lt;ab&gt; is finite then there is a smallest positive n, $(ab)^n = e,\\ then\\ (ba)^{n+1} = b(ab)^na = bea = ba$,<br>\n<br>\nnow if $(ba)^{n+1} = ba$, then $(ba)^nba = ba$<br>\n<br>\n$\\therefore (ba)^n = e$<br>\n<br>\nNow, if &lt;ab&gt; is infinite then again we can show that for each element in &lt;ab&gt; there is a corresponding element in &lt;ba&gt;<br>\n<br>\n$\\therefore |ab| = |ba|$<br>\n<br>\nOption D.<br>\n<br>\nEvery group has an identity element and |&lt;e&gt;| = |{e}| = 1.</div></section></div><p><a href=\"https://gateoverflow.in/404871\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a group.</p><p>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If for any $x, y, z$ in the group $\\mathrm{G}, xy=zx$ implies $y=z$. Then $\\mathrm{G}$ is Abelian.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If for any $x, y, z$ in the group $\\text{G}, x y=x z$ implies $y=z$. Then $\\text{G}$ is Abelian.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If for any $x, y, z$ in the group $\\text{G}, y x=z x$ implies $y=z$. Then $\\text{G}$ is Abelian.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If for any $x, y, z$ in the group $\\mathrm{G}, yx= xz$ implies $y=z$. Then $\\mathrm{G}$ is Abelian.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"404870\"></a><div itemprop=\"text\">Detailed Video Solution: <a href=\"https://youtu.be/27dpP0LS00Q?t=1243\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1243</a> <br>\n<br>\nOption B is “Left Cancellation” property. It is satisfied by EVERY Group, abelian group or non-abelian group. So, the Left Cancellation property in a group doesn’t imply that it is Abelian(commutative). &nbsp;&nbsp;<br>\n<br>\nOption C is “Right Cancellation” property. It is satisfied by EVERY Group, abelian group or non-abelian group. So, the Right Cancellation property in a group doesn’t imply that it is Abelian(commutative). &nbsp;<br>\n<br>\nOption A is “Left-Right Cancellation” property. The Left-Right Cancellation property in a group implies that it is Abelian(commutative). &nbsp;&nbsp;<br>\nProof: <a href=\"https://youtu.be/27dpP0LS00Q?t=1243\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1243</a> <br>\n<br>\nSimilarly, Option D is “Right-Left Cancellation” property. The Right-Left Cancellation property in a group implies that it is Abelian(commutative).</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"532797\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"462\" height=\"696\" src=\"media/6d/6d2a97bbd89431e9cf46.jpg\"></p><p>Correct Option: A, D</p></div></section></div><p><a href=\"https://gateoverflow.in/404869\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a group.</p><p>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If for every choice of elements in group $\\text{G}, axb=cxd$ implies $a b=c d$. Then $\\mathrm{G}$ is Abelian.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>In a group, $(a b)^2=a^2 b^2$ if and only if $a b=b a$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>In a group, $(a b)^{-2}=b^{-2} a^{-2}$ if and only if $a b=b a$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A group $\\text{G}$ is Abelian if and only if $(a b)^{-1}=a^{-1} b^{-1}$ for all $a$ and $b$ in $\\text{G}$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"404868\"></a><div itemprop=\"text\"><p>Option A: <a href=\"https://youtu.be/27dpP0LS00Q?t=1526\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1526</a>&nbsp;</p>\n\n<p>Option B: <a href=\"https://youtu.be/27dpP0LS00Q?t=226\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=226</a>&nbsp;</p>\n\n<p>Option D: <a href=\"https://youtu.be/27dpP0LS00Q?t=1790\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1790</a>&nbsp;</p>\n\n<p>Similarly, we can prove Option C.&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/404867/go-classes-2024-weekly-quiz-16-group-theory-question-18?show=405005#c405005\" target=\"_blank\">Click Here for Option C Proof</a></p>\n\n<p>Now suppose that $(a b)^{-1}(a b)^{-1}=b^{-2} a^{-2}$. Since $(a b)^{-1}=b^{-1} a^{-1}$, we have that $\\left(b^{-1} a^{-1}\\right)^2=$ $\\left(b^{-1}\\right)^2\\left(a^{-1}\\right)^2$. But then the previous result (with $b^{-1}$ in place of $a$ and $a^{-1}$ in place of $b),$&nbsp;shows that $a^{-1} b^{-1}=b^{-1} a^{-1}$. But then the inverses of both sides are the same, so $b a=a b$.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"532798\"></a><div itemprop=\"text\"><p>Proof of Option C:</p><p><img alt=\"\" width=\"400\" height=\"510\" src=\"media/a9/a99ea3a83209d34050b1.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/404867\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following question is based on “Isomorphisms of Algebraic Structures”.</p><p>Structure Isomorphism is ${\\color{Red} \\textbf{NOT}}$ part of $\\text{GATE CSE 2024}$ syllabus. But in DVRUO Classes Group Theory Lectures, we have studied the basic idea of Structure Isomorphism.</p><p>In simple words, we’ll say two algebraic structures $\\text{A}$ and $\\text{B}$ are<br>isomorphic if they have exactly the same structure, but their elements may be different.<br>Isomorphic structures are exactly the same except for the names of the elements and the name of the binary operation.<br>With the basic idea of isomorphism that we have studied in DVRUO Classes Group Theory Lectures, Try the following Berkeley University question. (If you don’t get the correct answer, don’t worry about it.)</p><p>Consider the following multiplication tables. Find the binary operations that are isomorphic.<br>$$<br>\\begin{array}{c||c|c}<br>*_1 &amp; \\mathrm{a} &amp; \\mathrm{b} \\\\<br>\\hline \\hline \\mathrm{a} &amp; \\mathrm{a} &amp; \\mathrm{a} \\\\<br>\\hline \\mathrm{b} &amp; \\mathrm{a} &amp; \\mathrm{b}<br>\\end{array} \\qquad<br>\\begin{array}{c||c|c}<br>*_2 &amp; \\mathrm{c} &amp; \\mathrm{d} \\\\<br>\\hline \\hline \\mathrm{c} &amp; \\mathrm{d} &amp; \\mathrm{c} \\\\<br>\\hline \\mathrm{d} &amp; \\mathrm{d} &amp; \\mathrm{d}<br>\\end{array} \\qquad<br>\\begin{array}{c||c|c}<br>*_3 &amp; e &amp; f \\\\<br>\\hline \\hline e &amp; e &amp; f \\\\<br>\\hline \\mathrm{f} &amp; \\mathrm{f} &amp; \\mathrm{f}<br>\\end{array}\\qquad<br>\\begin{array}{c||c|c}<br>*_4 &amp; \\mathrm{~g} &amp; \\mathrm{~h} \\\\<br>\\hline \\hline \\mathrm{g} &amp; \\mathrm{g} &amp; \\mathrm{h} \\\\<br>\\hline \\mathrm{h} &amp; \\mathrm{g} &amp; \\mathrm{h}<br>\\end{array}<br>$$<br>Which of the following is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$ and $2$ are not isomorphic.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$ and $3$ are not isomorphic.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$ and $3$ are isomorphic.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$ and $4$ are not isomorphic.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"404866\"></a><div itemprop=\"text\"><p>$\\color{RED}{\\text{Detailed Video Solution, with Complete Analysis:}}$&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=uCTA_ZU9zks&amp;t=4732s\" target=\"_blank\">https://www.youtube.com/watch?v=uCTA_ZU9zks&amp;t=4732s</a>&nbsp;&nbsp;&nbsp;</p>\n\n<ul>\n\t<li>$1$ and $2$ Are not isomorphic as $*_1$ satisfies $x^2=x$ for all $x$ but $*_2$ does not. $1$ and $3$ Are isomorphic.</li>\n\t<li>$1$ and $4$ Are not isomorphic as $*_1$ is commutative and $*_4$ is not.</li>\n\t<li>$2$ and $3$ Are not isomorphic as $*_3$ is commutative and $*_2$ is not.</li>\n\t<li>$2$ and $4$ Are not isomorphic as $*_4$ satisfies $x^2=x$ for all $x$ and $*_2$ does not.</li>\n\t<li>$3$ and $4$ Are not isomorphic as $*_3$ is commutative and $*_4$ is not.</li>\n</ul>\n\n<p>$\\textbf{NOTE:}$ Structure Isomorphism is ${\\color{Red}\\textbf{NOT} }$ part of the $\\text{GATE CSE 2024}$ syllabus. But in DVRUO Classes Group Theory Lectures, we have studied the basic idea of Structure Isomorphism.</p>\n\n<p>If you didn't get the correct answer, don't worry about it.</p>\n\n<p><strong>Some Relevant Lectures:</strong></p>\n\n<ol>\n\t<li><a href=\"https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=1C9hMWJ32LM&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=33</a>&nbsp;</li>\n\t<li><a href=\"https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=8uG8duvj_vg&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=34</a>&nbsp;</li>\n</ol></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"409242\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/5e/5eef4a24b4dbd96b184d.jpg\"></p>\n\n<p>$&nbsp; \\text{We observe that }&nbsp; (\\{g,h\\}, *_{4}) \\text{ is not isomorphic to&nbsp;} (\\{a,b\\}, *_{1}),&nbsp;(\\{c,d\\}, *_{2}),&nbsp;(\\{e,f\\}, *_{3})&nbsp; $</p>\n\n<p>$&nbsp; \\text{As }&nbsp; (\\{g,h\\}, *_{4}) \\text{ have equal no. of “g” and “h” as compared to others. }&nbsp;$</p>\n\n<p>$ \\therefore \\text{Option “D” is CORRECT }$</p>\n\n<p>&nbsp;</p>\n\n<p>ANSWER =&nbsp;{ A:❔ , B:❔,&nbsp; C:❔ , D:✅}</p>\n\n<hr>\n<p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"media/3b/3b7508ab69a296c6bc87.jpg\"></p>\n\n<p>$&nbsp; \\text{Identity Element exists for }&nbsp; (\\{a,b\\}, *_{1}) \\text{ and } (\\{e,f\\}, *_{3})&nbsp; \\text{ which is “b” and “e” respectively} $</p>\n\n<p>$&nbsp; \\text{But Identity Element do not exist&nbsp;for }&nbsp; (\\{c,d\\}, *_{2}) $</p>\n\n<p>$&nbsp; (\\{c,d\\}, *_{2}) \\text{ is not isomorphic to&nbsp;} (\\{a,b\\}, *_{1}), (\\{e,f\\}, *_{3})&nbsp; $</p>\n\n<p>$ \\therefore \\text{Option “A” is CORRECT and Option “C” is INCORRECT&nbsp;}$</p>\n\n<p>&nbsp;</p>\n\n<p>ANSWER =&nbsp;{ A:✅ , B:❔,&nbsp; C:❌ , D:✅}</p>\n\n<hr>\n<p>&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:707px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:349px\">$$ (\\{a,b\\}, *_{1}) $$</td>\n\t\t\t<td style=\"width:346px\">$$&nbsp;(\\{e,f\\}, *_{3}) $$</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:349px\">\n\t\t\t<p>$$&nbsp;a *_{1} (anything) = a \\text{ AND }&nbsp;b *_{1} b = b $$</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:346px\">$$ f *_{3} (anything) = f \\text{ AND } e *_{3} e = e $$</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Since both have SAME structure but variables name are different(interchanged).</p>\n\n<p>$&nbsp; (\\{a,b\\}, *_{1}) \\text{ is isomorphic to&nbsp;} (\\{e,f\\}, *_{3})&nbsp; $</p>\n\n<p>$ \\therefore \\text{Option “B” is INCORRECT&nbsp;}$</p>\n\n<p>&nbsp;</p>\n\n<p>FINAL ANSWER =&nbsp;{ A:✅ , B:❌,&nbsp; C:❌ , D:✅}</p></div></section></div><p><a href=\"https://gateoverflow.in/404865\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a finite group. Let \"$1$\" denote the identity element of $\\text{G}.$ If $g$ is an element of a finite group $\\mathrm{G},$&nbsp;then the order of $g$ is the smallest positive integer $n$ such that $g^ n=1$, and it is denoted $o(g)=n$. The order of group $\\mathrm{G}$ is denoted by $o(\\mathrm{G})$ or $|\\mathrm{G}|.$</p><p>Which of the following statements is necessarily true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $g^m=1,$&nbsp;for some $g \\in \\mathrm{G},$&nbsp;then $o(g) \\mid m$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $g^m=1,$&nbsp;for some $g \\in \\mathrm{G},$&nbsp;then $o(g)=m$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $g^m=1,$&nbsp;for some $\\mathrm{g} \\in \\mathrm{G},$&nbsp;then $m \\mid o(\\mathrm{g})$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $g^m=1,$&nbsp;for some $g \\in \\mathrm{G},$&nbsp;then $m \\mid o(\\mathrm{G})$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"404864\"></a><div itemprop=\"text\"><p>Let $\\text{G}$ be a finite group.</p>\n\n<p>We can easily prove that if $g^ m=1$, for some $g \\in \\text{G},$&nbsp;then $o(g) \\mid m$.</p>\n\n<p>By definition, the order of $g, o(g)$ is the smallest positive integer $n$ such that $g^ n=1$. Assume $o(g)=n$.<br>\n<br>\nNow, suppose $g^ m=1$ for some integer $m$. We want to show that $o(g)$ divides $m$ i.e. $n$ divides $m$.<br>\n<br>\nWe can consider the division algorithm to write $m=q \\ast n+r$, where $q$ is an integer and $0 \\leq r&lt;n$.</p>\n\n<p>So, we have $g^ m=g^{\\left(q \\ast n+r\\right)}$</p>\n\n<p>$g^ m=g{ }^{\\left(q^ \\ast n+r\\right)}=g^{(q n)} \\ast&nbsp;g^r$<br>\n<br>\nSince $g^{(q n)}=\\left(g^ n\\right)^ q=1^ q=1$ (by the definition of the order of $\\left.g\\right)$, the expression simplifies to $1\\ast&nbsp;g^r=g^ m$.</p>\n\n<p>We have $g^ r=1$.</p>\n\n<p>Now, since $ r &lt;n$ and $n$ is the smallest positive integer such that $g^ n=1,$ we must have $r=0.$&nbsp;Otherwise, if $r \\neq 0,$&nbsp;then we would have found a smaller positive integer $r&lt;n$ that satisfies $g^ r=1,$&nbsp;contradicting the definition of $\\mathrm{o}(g)$.<br>\n<br>\nTherefore, $r=0$. So, we have $m=q \\ast n+r=q \\ast n+0=q&nbsp;\\ast n,$&nbsp;which implies that $n$ divides $m$ i.e. $o(g)$ divides $m$.<br>\n<br>\nHence, we have shown that if $g^ m=1$ for some $g \\in \\text{G},$&nbsp;then $o(g) \\mid m$.</p>\n\n<p><strong>Learn it Here:</strong></p>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/watch?v=W8NikOCOQUA&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=32\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=W8NikOCOQUA&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=32</a></li>\n</ul></div></section><section><h4>Source solution 2 <small>(score: 9)</small></h4><a name=\"406917\"></a><div itemprop=\"text\">Let order of g = n then,<br>\n<br>\ng = { $g^{1}$, $g^{2}$, $g^{3}$, ….. , $g^{n} = 1$, ….. , $g^{2n} = 1$, ……., $g^{3n} = 1$, ……. }<br>\n<br>\nNow if $g^{m} = 1$ then,<br>\n<br>\nm = multiple of n,<br>\n<br>\nm = q.n<br>\n<br>\nm = q.ord(g)<br>\n<br>\nHence ord(g) | m .</div></section><section><h4>Source solution 3 <small>(score: 6)</small></h4><a name=\"409285\"></a><div itemprop=\"text\"><p>Simplifying the given question where G is a finite group and e is Identity Element</p>\n\n<p>o(g) =&nbsp;Order of element g&nbsp;</p>\n\n<p>o(G) = Order of group G</p>\n\n<p>$ \\text{If } g^m = e, \\text{ for some } g \\in G, \\text{ then }&nbsp;&nbsp;$</p>\n\n<ol style=\"list-style-type:lower-alpha\" type=\"a\">\n\t<li>o(g) divides m</li>\n\t<li>o(g) = m</li>\n\t<li>m divides o(g)</li>\n\t<li>m divides o(G)</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><strong>METHOD 1: Using Properties</strong></p>\n\n<p>$ \\text{1) We know that if } o(g) = x \\text{ then } g^x = e $</p>\n\n<p>$ \\text{ where ‘x’ is the smallest positive value. (ALSO given in question) } $</p>\n\n<p>$ \\text{ Also&nbsp; } g^{kx} = e&nbsp;\\text{ where ‘kx’ is the multiple of ‘x’&nbsp; } $</p>\n\n<p>$ \\text{2)&nbsp; } (o(g) = x) \\implies (g^x=e)&nbsp;$</p>\n\n<p>$ \\text{3)&nbsp; } (g^x=e) \\implies (o(g) \\leq x)&nbsp;$</p>\n\n<p>&nbsp;</p>\n\n<p>$ \\text{Therefore } g^m = e, \\text{ for some } g \\in G, \\text{ implies }&nbsp;o(g) \\leq m $</p>\n\n<p>$ \\text{Also } m \\text{ is a multiple of } o(g)&nbsp;$</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>✅ $ o(g) \\text{ | }&nbsp;&nbsp;m $ is CORRECT as $ m $ is a multiple of $ o(g) $ and $ o(g) \\leq m $</li>\n\t<li>❌ $ o(g) =&nbsp;m $ is NOT TOTALLY&nbsp;CORRECT as $ m $ can be greater than $ o(g) $</li>\n\t<li>❌ $ m \\text{ | }&nbsp;&nbsp;o(g) $ is NOT CORRECT if&nbsp;$ o(g) \\lt&nbsp;m $</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p>If $g$ is a generator then $o(g) = o(G) \\lt m$ therefore&nbsp;$ m \\nmid&nbsp; o(G) $</p>\n\n<p>Another approach will be that G is finite group then there exist $m$ such that $m \\gt o(G)$ as it is a multiple of $o(g)$</p>\n\n<p>&nbsp; &nbsp; &nbsp; D.❌&nbsp;$ m \\text{ | }&nbsp;&nbsp;o(G) $ is NOT CORRECT</p>\n\n<hr>\n<p>&nbsp;</p>\n\n<p><strong>METHOD 2: Using an Example</strong></p>\n\n<p>Let $G$ = $(\\{1,-1,i,-i\\}, \\times )$ which is the $4^{th}$ roots of unity.</p>\n\n<p>o(G) = $|\\{1,-1,i,-i\\}|$ = 4</p>\n\n<p>o(i) = $|\\{i^1,i^2,i^3,i^4\\}|$&nbsp;= $|\\{i,-1,-i,1\\}|$ = 4</p>\n\n<p>&nbsp;</p>\n\n<p>Consider a valid equation:&nbsp;$i^8 = 1$</p>\n\n<p>$\\therefore$ Mapping this example to actual problem we get:</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>$g=i$ and&nbsp;$o(g)=o(i)=4$</li>\n\t<li>$m=8$</li>\n\t<li>$o(G)=4$</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p>✅ $o(g)$ | $m$ is CORRECT as&nbsp;4 | 8</p>\n\n<p>❌ $o(g)$ = $m$ is NOT CORRECT as&nbsp;4 $\\neq$ 8&nbsp;</p>\n\n<p>❌ $m$ | $o(g)$ is NOT CORRECT as&nbsp;8 $\\nmid$ 4</p>\n\n<p>❌ $m$ | $o(G)$ is NOT CORRECT as&nbsp;8 $\\nmid$ 4</p>\n\n<p>&nbsp;</p>\n\n<p>FINAL ANSWER = { A: ✅, B: ❌, C: ❌, D: ❌}</p></div></section></div><p><a href=\"https://gateoverflow.in/404863\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a finite group.</p><p>Which of the following statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^3=e$ is odd.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^3=e$ is even.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^2 \\neq e$ is odd.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^2 \\neq e$ is even.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D, E</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 16)</small></h4><a name=\"409292\"></a><div itemprop=\"text\"><p><strong>The number of elements $x$ of G such that $x^3=e$ is&nbsp; $\\cdots$&nbsp;</strong></p>\n\n<p><strong>$$ x^3 = e $$</strong></p>\n\n<p><u># <strong>CASE 1</strong></u>: $x=e$</p>\n\n<p>If $x$ is the identity element then it will always satisfy the above equation</p>\n\n<p>$e^3 = e*e*e = e$</p>\n\n<p>$\\therefore$ No. of element such that $x =&nbsp;e$ and following $x^3 = e$ is 1</p>\n\n<p>&nbsp;</p>\n\n<p><u># <strong>CASE 2</strong></u>: $x \\neq e$</p>\n\n<p>$x^3 = e$</p>\n\n<p>$x^2*x=e$</p>\n\n<p>$\\therefore$ We get $x^{-1} = x^2$ and $(x^2)^{-1} = x$ using the property of inverse</p>\n\n<p>OR</p>\n\n<p>$&lt;x&gt; = \\{x^1,x^2,x^3\\} = \\{x,x^2,e\\} = &lt;x^2&gt;$</p>\n\n<p>As we know that if $a^n = e$ then $a^{-1} = a^{n-1}$ in a finite group.</p>\n\n<p>$\\therefore$ We get $x^{-1} = x^2$ and $(x^2)^{-1} = x$</p>\n\n<p>&nbsp;</p>\n\n<p>$\\because$ $x$ and $x^2$ are DISTINCT and exist in pair</p>\n\n<p>$\\therefore$ No. of element such that $x \\neq e$ and following $x^3 = e$ is EVEN</p>\n\n<p>&nbsp;</p>\n\n<p>From both the cases the no. of element $x$ of G such that $x^3 = e$</p>\n\n<p>= 1 + EVEN&nbsp;</p>\n\n<p>= ODD</p>\n\n<p>&nbsp;</p>\n\n<p>$\\therefore $ Option “A” is CORRECT and Option&nbsp;“B” is INCORRECT.</p>\n\n<p>ANSWER = { A: ✅, B: ❌, C: ❔, D: ❔}</p>\n\n<p>&nbsp;</p>\n\n<hr>\n<p><strong>The number of elements $x$ of G such that $x^2 \\neq e$ is&nbsp; $\\cdots$&nbsp;</strong></p>\n\n<p>$$x^2 \\neq&nbsp;e$$</p>\n\n<p>Let’s understand what&nbsp;$x^2 =&nbsp;e$ means first</p>\n\n<p>$x^2 = x*x&nbsp;=&nbsp;e$</p>\n\n<p>This implies that $x$ is having a self-inverse i.e. $x^{-1} = x$</p>\n\n<p>Hence the question is asking to find the no. of element not having self-inverse.</p>\n\n<p>$\\therefore x^2 \\neq e$ means no. of element such that $x$ and $x^{-1}$ is DISTINCT.</p>\n\n<p>&nbsp;</p>\n\n<p>If&nbsp;$x$ and $x^{-1}$ is DISTINCT then they exist in form of pairs.</p>\n\n<p>$\\therefore$ No. of element such that $x^2 \\neq e$ is EVEN</p>\n\n<p>$\\therefore $ Option “C” is INCORRECT and Option&nbsp;“D” is CORRECT.</p>\n\n<p>FINAL ANSWER = { A: ✅, B: ❌, C: ❌, D: ✅}</p>\n\n<p>&nbsp;</p>\n\n<p>Some Possible Variation:</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li><strong>The number of elements $x$ of G such that $x^3=e$ excluding ‘e’ is&nbsp; <em><u>EVEN</u></em></strong></li>\n\t<li><strong>The number of elements $x$ of G such that $x^3 \\neq e $ is <em><u>either EVEN or ODD (exclusively)&nbsp;</u></em></strong></li>\n\t<li><strong>The number of elements $x$ of G such that $x^2 =&nbsp;e$ is&nbsp;<em><u>either EVEN or ODD (exclusively)&nbsp;</u></em></strong></li>\n</ol></div></section><section><h4>Source solution 2 <small>(score: 10)</small></h4><a name=\"404924\"></a><div itemprop=\"text\"><p>Answer will be A,D</p>\n\n<p>We will see why</p>\n\n<p><img alt=\"\" src=\"media/99/990dd23c6b1e38f8d1b9.jpg\"><img alt=\"\" src=\"media/80/80cd84832bf07f044346.jpg\"><img alt=\"\" src=\"media/ed/ed2563a5e3f9a8626b39.jpg\"></p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"404862\"></a><div itemprop=\"text\"><p><strong>A similar question in GATE:</strong></p>\n\n<ul>\n\t<li><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Ewdz0FQJ14w&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=18\" target=\"_blank\">https://www.youtube.com/watch?v=Ewdz0FQJ14w&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=18</a></li>\n</ul>\n\n<p>Let $\\text{G}$ be a finite group. Show that the number of elements $x$ of $\\text{G}$ such that $x^3=e$ is odd. Show that the number of elements $x$ of $\\text{G}$ such that $x^2 \\neq e$ is even.</p></div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"432390\"></a><div itemprop=\"text\"><p><span style=\"color:#ffffff;\"><span style=\"background-color:#e74c3c;\">!! SHORTCUT !!</span></span></p><p>Simply draw templete-1 of order-4 and check yourself what is even and what is odd.</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><thead><tr><th scope=\"col\">&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"color:#e74c3c;\"> &nbsp; &nbsp; &nbsp;*</span></th><th scope=\"col\"><span style=\"color:#e74c3c;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;e</span></th><th scope=\"col\"><span style=\"color:#e74c3c;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a</span></th><th scope=\"col\"><span style=\"color:#e74c3c;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b</span></th><th scope=\"col\"><span style=\"color:#e74c3c;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c</span></th></tr></thead><tbody><tr><th scope=\"row\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"color:#e74c3c;\">e</span></th><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"color:#3498db;\">e</span></td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c</td></tr><tr><th scope=\"row\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"color:#e74c3c;\">&nbsp;a</span></th><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"color:#3498db;\">e</span></td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b</td></tr><tr><th scope=\"row\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"color:#e74c3c;\"> &nbsp;b</span></th><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"color:#3498db;\">e</span></td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a</td></tr><tr><th scope=\"row\">&nbsp; &nbsp; &nbsp; &nbsp; <span style=\"color:#e74c3c;\">&nbsp; &nbsp; &nbsp;c</span></th><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a</td><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"color:#3498db;\">&nbsp;e</span></td></tr></tbody></table><p>&nbsp;</p><p><span style=\"background-color:#f1c40f;\">x³&nbsp;= e </span>: Only e is such element since for others x³ = x</p><p>Therefore number of such elements is odd.</p><p><span style=\"background-color:#f1c40f;\">x²&nbsp;≠&nbsp;e </span>: There is no such element</p><p>Therefore number of such elements is even.</p></div></section></div><p><a href=\"https://gateoverflow.in/404861\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 35.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 21
+  }
+ ],
+ "stats": {
+  "questions": 21,
+  "maxMarks": 12,
+  "types": {
+   "MSQ": 16,
+   "NAT": 2,
+   "MCQ": 3
+  },
+  "withoutKey": 14
+ }
+}

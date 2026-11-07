@@ -1,0 +1,913 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-063",
+ "title": "DVRUO Classes CS Test Series | Discrete Mathematics | Subject Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | Discrete Mathematics | Subject Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 63,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Schrodinger owns a beautiful cat called Meow who loves to wear socks on its four feet. Schrodinger has a collection of many cat socks in three colours: white, red and yellow. What is the least number of socks Schrodinger must pull out from the drawer to guarantee getting four socks of matching colour?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"433293\"></a><div itemprop=\"text\"><p>Apply the Pigeon-hole principle.</p><p>1. Determine the Worst-Case Scenario:</p><p>To guarantee four socks of the same color, consider the worst-case scenario where Schrodinger pulls out socks in such a way that maximizes the number of socks needed before achieving four of any single color.</p><p>2. Calculate the Maximum Number of Socks Without Four of the Same Color:<br>If Schrodinger pulls out 3 socks of each color (which is 3 white, 3 red, and 3 yellow), that totals 9 socks, and still doesn't guarantee four of any color.</p><p>3. Add one more sock to Guarantee Four of the Same Color: By pulling out one more sock (which would be the 10th sock), Schrodinger will ensure that one of the colors reaches four socks. This is because, with the 10th sock, there will be at least four socks of one of the colors.</p><p>Thus, Schrodinger must pull out 10 socks to guarantee that at least four socks of one color are included.</p><p><span style=\"font-size:13.999999999999998pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:500;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\" id=\"docs-internal-guid-b922b563-7fff-878e-d8ab-cf389d5d1626\">Learn Pigeon-Hole Principle: </span><a style=\"text-decoration:none;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ELeS7z3RD0s&amp;list=PLIPZ2_p3RNHgm_UqwqckMxM68HS4BkjYY&amp;index=67\" target=\"_blank\"><span style=\"font-size:13.999999999999998pt;font-family:Lora,serif;color:#1155cc;background-color:transparent;font-weight:500;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://www.youtube.com/watch?v=ELeS7z3RD0s&amp;list=PLIPZ2_p3RNHgm_UqwqckMxM68HS4BkjYY&amp;index=67</span></a><span style=\"font-size:13.999999999999998pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:500;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"> </span></p></div></section></div><p><a href=\"https://gateoverflow.in/433292\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Define a set $S$ recursively as follows.<br>(1) $5 \\in S$. (base clause)<br>(2) If $x \\in S$, then $x+3 \\in S$ and $x+5 \\in S$. (recursion clause)<br><br>(3) Membership for $S$ can always be demonstrated by (finitely many) successive applications of clauses above. (minimality clause) What is the smallest integer $k$ such that all integers $n \\geq k$ are in $S$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    13,
+    13
+   ],
+   "answerText": "13",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"433291\"></a><div itemprop=\"text\">Just apply the recursive definition of Set S. We will have $5,8,10,11,13$, $14,15,16$, and so on, in Set S. So, the answer is 13.</div></section></div><p><a href=\"https://gateoverflow.in/433290\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $G$ be a connected graph. A vertex is a cut-vertex such that removing it and all edges incident to it disconnects $G$, that is, increasing the number of components in $G$.<br>How many cut-vertices are there in the graph below?<br><img alt=\"\" src=\"media/a4/a454014161a6cf23f74e.png\"></p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"433289\"></a><div itemprop=\"text\">b, f are the only two cut-vertices.</div></section></div><p><a href=\"https://gateoverflow.in/433288\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>How many simple undirected graphs (not necessarily connected) can be constructed out of a vertex set of $n$ vertices?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{n(n-1)}{2}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2^{n}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{n(n+1)}{2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2^{\\frac{n(n-1)}{2}}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"442583\"></a><div itemprop=\"text\">In a graph G with n vertices, maixmum number of edges possible =n(n−1)/2.<br>\n<br>\nThere are two ways for a edge, (the edge may appear in graph or may absent in graph). So there are two options for each edge.<br>\n<br>\nTotal number of graphs with n vertices =2^[n(n−1)/2].</div></section></div><p><a href=\"https://gateoverflow.in/433287\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $G$ be a non-planar connected simple graph with the least possible number of edges. Which of the following statements on $G$ is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$G$ has 10 edges and 6 vertices.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$G$ has 10 edges and 5 vertices.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$G$ has 9 edges and 6 vertices.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$G$ has 9 edges and 5 vertices.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 5)</small></h4><a name=\"434328\"></a><div itemprop=\"text\">we know that least possible edges are in the k3,3 and least possible vertices are in k5 when it comes to non planar graphs threfore in option C 9 edges and 6 vertices are given which is k,3,3<br>\nans: C</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"434369\"></a><div itemprop=\"text\"><p>Correct answer should be B because option C can be planar<img alt=\"\" width=\"801\" height=\"963\" src=\"media/2c/2c797ce81076300ad62a.jpg\"></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"464364\"></a><div itemprop=\"text\">According to Kuratowski Theorm any non planar graph is similar to K3,3 and K5. <br>\n<br>\nK3,3 &nbsp;- 6 vertices,9 edges<br>\n<br>\nK5 &nbsp;&nbsp;&nbsp;&nbsp;- 5 verices,10 edges.<br>\n<br>\nHence K3,3 has less no.of edges</div></section></div><p><a href=\"https://gateoverflow.in/433286\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many non-isomorphic simple, undirected, disconnected graphs with 4 vertices are there?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 17)</small></h4><a name=\"444461\"></a><div itemprop=\"text\"><p>5</p><p><img alt=\"\" src=\"media/ee/ee8ccaa1c45c240344e2.png\"></p></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"437118\"></a><div itemprop=\"text\"><p><strong>All such graphs are shown here:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/433285/classes-test-series-discrete-mathematics-subject-question?show=434859#c434859\" target=\"_blank\">https://gateoverflow.in/433285/classes-test-series-discrete-mathematics-subject-question?show=434859#c434859</a></p><p>List of all non-isomorphic disconnected simple graphs on $4$ vertices:<br>1. Two isolated edges.<br>2. One isolated edge and two isolated vertices.<br>3. No edges at all (four isolated vertices).<br>4. A 3-vertex component forming a triangle with one isolated vertex.<br>5. A 3-vertex path and one isolated vertex.</p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"433792\"></a><div itemprop=\"text\"><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"181161\"><a class=\"pupi_dm_user_mention\" rel=\"nofollow\" href=\"https://gateoverflow.in/user/GO%20Classes\" target=\"_blank\">@Dvruo Classes</a>&nbsp;Can't we include&nbsp;</span>a completely disconnected graph with 4 isolated vertices...?&nbsp;</p><p>Therefore answer should be 5 ?</p></div></section></div><p><a href=\"https://gateoverflow.in/433285\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Given a relation $R$ on a set $A=\\{a, b, c, d\\}$ as follows: $R=\\{(a, a),(a, b),(a, c)$, $(a, d),(b, b),(b, c),(b, d),(c, d)\\}$. How many reflexive relations $S$ are there such that $R \\subseteq S$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"433284\"></a><div itemprop=\"text\">$S$ is a superset of $\\mathrm{R}$ and since $S$ must be reflexive, So, $S$ must also contain $(\\mathrm{c}, \\mathrm{c}),(\\mathrm{d}, \\mathrm{d})$. Hence, S is any superset of $\\mathrm{T}=\\{(a, a),(a, b),(a, c),(a, d),(b, b)$, $(b, c),(b, d),(c, d),(\\mathrm{c}, \\mathrm{c}),(\\mathrm{d}, \\mathrm{d})\\}$<br>\nHence, the ordered pairs which are Not in $T$, each of them has 2 choices, either be present in $S$ or be absent. So, $2^ 6=64$ such set $S$ are possible.</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"503048\"></a><div itemprop=\"text\">Total number of ordered pairs possible =&gt; (4 choices,4 choices) which leads to 4x4=16 ordered pairs<br>\n<br>\nNow, Relation S we must have all pairs satisfying reflexive property. &nbsp;Add pairs (c,c) and (d,d) to S and S is a superset of R so also include all those ordered pairs which are in R.<br>\n<br>\nWe have 10 ordered pairs now in V.<br>\n<br>\nV={(a,a),(c,c),(d,d),(a,b),(a,c), (a,d),(b,b),(b,c),(b,d),(c,d)}<br>\n<br>\nTotal possible ordered pair =16<br>\n<br>\nremaining = 16-10 =6.<br>\n<br>\nFor these 6 ordered pairs we have 2 choices -<br>\n<br>\ni. we include in set V or<br>\n<br>\nii. we don't include in set V.<br>\n<br>\nwhich gives us =&gt; 2^6 = 64 sets which are possible.<br>\n<br>\n&nbsp;<br>\n<br>\nI hope it helps :)</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"440473\"></a><div itemprop=\"text\"><p>64<img alt=\"\" width=\"1200\" height=\"1325\" src=\"media/c6/c6c4060757eb277c5160.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/433283\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Given $A=\\{1,2,3,4,5\\}$ and the partial order $R$ on $A$ as follows:<br>$R=\\{(x, x): x \\in A\\} \\cup\\{(2,1),(2,5),(3,1),(3,2),(3,4),(3,5),(4,1)\\}$<br>Which of the following statements is/are true with respect to this partial order?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1 is a minimal element.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1 is a maximal element.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>4 and 5 are non-comparable.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1 is the greatest element.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"433282\"></a><div itemprop=\"text\"><p>Hasse Diagram of $R:$</p><p>&nbsp;<img alt=\"\" width=\"350\" height=\"388\" src=\"media/12/1210a0b82068473d30f2.png\"></p><p>&nbsp;</p><p><strong>Learn “Maximal, Minimal, Greatest, Least Element of a POSET”:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ShiJXnRgz20&amp;t=4380s\" target=\"_blank\">Maximal, Minimal, Greatest, Least Elements in POSET</a></p><p><strong>POSET, Lattice Complete Summary &amp; GATE PYQs:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ni-IUwLyZDY&amp;list=PLIPZ2_p3RNHgjPQN2GtCVOCgrkH2zCkSU&amp;index=23&amp;ab_channel=GOClassesforGATECS\" target=\"_blank\">POSET Complete Summary &amp; GATE PYQs</a></p></div></section></div><p><a href=\"https://gateoverflow.in/433281\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $G$ is a cyclic group with generator 'a'. Order of 'a' is 29 . The number of subgroups G has ----?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"433280\"></a><div itemprop=\"text\">Exp:<br>\nSince \"a\" is a generator, the order of \"a\" is the same as the order of the group.<br>\nOrder of generators is the same as Order of the group.<br>\nSo, the group G has order 29, which is a prime number, hence only two subgroups are possible.</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"437768\"></a><div itemprop=\"text\"><p>Lagrange's Theorem: If G is a group and H is a subgroup of G then the order of H divides the order of G.<br>but converse of Lagrange's is only true when group G is Abelian.<br>and we know every cyclic group is abelian so converse of Lagrange is also true.</p><p>order of Group G = order of generator of G = order of 'a' = 29 (prime number)</p><p>so : <strong>2 subgroup will be there.</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/433279\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\mathbb{N}$ be the set of all non-negative integers.<br>Let $f: \\mathbb{N} \\rightarrow \\mathbb{N}$ and $f(n)=n\\left(n^{2}-1\\right)$. Which of the following statements are true?<br>(i) $f$ is injective.<br>(ii) $f$ is surjective.<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only (i).</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only (ii).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both (i) and (ii).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Neither (i) nor (ii).</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"433294\"></a><div itemprop=\"text\"><p>$f(0) = 0 = f(1)$ ; So, $f$ is Not injective.<br>There is no element in the domain which maps to element 1 in the co-domain, So, not surjective.</p><p><strong>Functions Complete Summary:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=XavVqab4VME&amp;list=PLIPZ2_p3RNHgjPQN2GtCVOCgrkH2zCkSU&amp;index=13&amp;ab_channel=GOClassesforGATECS\" target=\"_blank\">Functions Complete Summary</a></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"433295\"></a><div itemprop=\"text\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\" id=\"docs-internal-guid-e6f4414b-7fff-f1cb-4337-0164fd85139f\"><span style=\"font-size:13.999999999999998pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:500;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">f(0) = 0 = f(1) ; So, f is Not injective.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:13.999999999999998pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:500;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">There is no element in the domain which maps to element 1 in the co-domain, So, not surjective.</span></p><p><br><span style=\"font-size:13.999999999999998pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:500;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Functions Complete Summary: </span><a style=\"text-decoration:none;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=XavVqab4VME&amp;list=PLIPZ2_p3RNHgjPQN2GtCVOCgrkH2zCkSU&amp;index=14&amp;ab_channel=GOClassesforGATECS\" target=\"_blank\"><span style=\"font-size:13.999999999999998pt;font-family:Lora,serif;color:#1155cc;background-color:transparent;font-weight:500;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://www.youtube.com/watch?v=XavVqab4VME&amp;list=PLIPZ2_p3RNHgjPQN2GtCVOCgrkH2zCkSU&amp;index=14&amp;ab_channel=GOClassesforGATECS</span></a></p></div></section></div><p><a href=\"https://gateoverflow.in/433278\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Piyush is taking the DVRUO Classes Test Series' Discrete Mathematics test which consists of 5 dreadful MSQs (multiple select questions). Each MSQ has 5 options A, B, C, D and E. In a MSQ question, one or more than one options out of the five options is/are correct. In how many ways can Piyush write his answers for the test, assuming that he writes at least one option in each MSQ question.<br>\nNote that the order of the options in his answer of a question does not matter, for example, $\\mathrm{ABC}, \\mathrm{ACB}$ and $\\mathrm{BCA}$ are considered the same answer. Also, the order in which he answers the questions, does not matter.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    31,
+    31
+   ],
+   "answerText": "31",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"433277\"></a><div itemprop=\"text\">For each MSQ question, Piyush has 31 ways (i.e. $2^{\\wedge} 5-1$ ).<br>\nLet's find out the number of ways to answer a particular MSQ question:<br>\n- Each MSQ has 5 options: A, B, C, D, and E.<br>\n- Piyush must choose at least one option to include in his answer.<br>\n- The order of the options doesn't matter.<br>\n<br>\nSince the order doesn't matter, for each option, Piyush has two choices: either include it in his answer or not include it.<br>\n<br>\nFor each MSQ, there are 5 options, so there are $2^{\\wedge} 5$ possible combinations of including or not including each option. However, one of these combinations is the scenario where Piyush chooses none of the options, which we need to exclude.<br>\n<br>\nThus, the number of valid combinations where Piyush chooses at least one option is:<br>\n$2^{\\wedge} 5-1=32-1=31$<br>\n<br>\nTherefore, each MSQ question has 31 ways to answer it; So, for 5 question, answer is &nbsp;$31^5.$</div></section></div><p><a href=\"https://gateoverflow.in/433276\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "An old man climbs $12$ stairs. While climbing the stairs, he can take $1$-stair or $2$-stairs at a time, But he can't take two $2$-stairs consecutively.<br>\n<br>\nIn how many ways can this person climb the $12$ stairs?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 19)</small></h4><a name=\"440851\"></a><div itemprop=\"text\"><p>We have only one constraint -: \"He can't take 2-stairs consecutively\"</p><p><strong>Case 1</strong>: when no 2-stairs at a time -: (12 1-stair and 0 2-stairs)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11111.....11(12 times). Possible way = 1.</p><p><strong>Case 2</strong>: (10 1-stair and 1 2-stairs)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_1_1_1_1_1_1_1_1_1_1_&nbsp; (underscore denotes possible places for 2-stairs at a time). Possible ways = 11C1</p><p><strong>Case 3</strong>: (8 1-stair and 2 2-stairs)&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_1_1_1_1_1_1_1_1_. Possible ways = 9C2</p><p><strong>Case 4</strong>: (6 1-stair and 3 2-stairs)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_1_1_1_1_1_1_. Possible ways = 7C3</p><p><strong>Case 5</strong>: (4 1-stair and 4 2-stairs)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _1_1_1_1_. Possible ways = 5C4</p><p><strong>Case 6</strong>: (2 1-stair and 5 2-stairs)&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Not possible (because there would be consecutive 2-stairs step)</p><p><strong>Total possible ways =&nbsp;</strong>1 + 11C1 + 9C2 + 7C3 +5C4 =&nbsp;<strong>88</strong></p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"433296\"></a><div itemprop=\"text\"><p>Assume $f(n)$ is the number of ways to climb $n$ stairs if the person climbing the stairs can take one stair or two stairs at a time But can't make two $2$-stairs consecutively.<br>$$<br>f(n)=f(n-1)+f(n-3)<br>$$</p><p>Let's understand the number of ways to climb $n$ stairs, which we denote by $f(n)$:</p><p>1. If the old man takes 1-stair first, then there are $f(n-1)$ ways to climb $n$ stairs.</p><p>2. If the old man takes 2-stairs first, then next he must take 1-stair because he can't take two 2-stairs consecutively, So, there are $f(n-3)$ ways to climb $n$ stairs in this case.</p><p>So,&nbsp;$ f(n)=f(n-1)+f(n-3) $</p><p>Where $f(1)=1, f(2)=2, f(3)=3$</p><p>So, $f(12)=88$</p><p><strong>Recurrence Relations Complete Playlist:</strong></p><ul><li><a rel=\"nofollow\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4\" target=\"_blank\">https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4</a></li></ul></div></section><section><h4>Source solution 3 <small>(score: 8)</small></h4><a name=\"444904\"></a><div itemprop=\"text\"><p>Try to form reccurence relation :<br><br><img alt=\"\" width=\"600\" height=\"606\" src=\"media/36/36dee17abd25607fcc2b.jpg\"><br><br>Checking form the truthness value :<br><br><img alt=\"\" width=\"600\" height=\"854\" src=\"media/f8/f8eccac91bbb3ab19cf3.jpg\"></p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"435237\"></a><div itemprop=\"text\">Recurrence relation f(n) = f(n-1) + f(n-2)<br>\nf(1) = 1, f(2) = 2<br>\nf(12) = 233<br>\nHence total 233 ways to climb 12 stairs.</div></section></div><p><a href=\"https://gateoverflow.in/433275\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A genetic sequence is a string over the 4-letter alphabet $\\{\\mathrm{A}, \\mathrm{T}, \\mathrm{C}, \\mathrm{G}\\}$.<br>\nThe number of genetic sequences of length 6 with no two consecutive repeated letters (AA, CC, GG, or T T) is?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 18)</small></h4><a name=\"434456\"></a><div itemprop=\"text\"><ul><li>For the <strong>1st letter</strong>, there are 4 choices.</li><li>For the <strong>2nd letter</strong>, we can choose any letter except the 1st letter, giving us 3 choices.</li><li>For the <strong>3rd letter</strong>, again, we can choose any letter except the 2nd letter, resulting in another 3 choices.</li><li>The same reasoning applies to the <strong>4th</strong>, <strong>5th</strong>, and <strong>6th letters</strong>.</li></ul><p>Thus, the total number of genetic sequences of length 6 can be calculated as:</p><p>Total&nbsp;Sequences=4×3×3×3×3×3 = 972<button aria-label=\"Copy\" data-testid=\"copy-turn-action-button\"><br></button></p></div></section></div><p><a href=\"https://gateoverflow.in/433274\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following statements is/are true?<br><br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&nbsp;The graph $K_{2,4}$ is a planar graph.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;The graph $K_{3,4}$ is a planar graph.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&nbsp;There exists a simple graph that is connected and planar with 5 vertices and 8 faces.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The graph $K_{5}-\\{e\\}$ where $e$ is any edge in the graph is 4-colourable.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 6)</small></h4><a name=\"435196\"></a><div itemprop=\"text\"><p>Option A is correct refer to the diagram below taken from <a rel=\"nofollow\" href=\"https://www.researchgate.net/figure/3-A-drawing-of-K-4-2-showing-that-it-is-planar-and-a-list-assignment-showing-that-it_fig1_256327081\" target=\"_blank\">K 2, 4 diagram</a></p><p><img alt=\"\" width=\"349\" height=\"349\" src=\"media/e2/e2d2a05e7aaa8695b481.png\"></p><p>Option B is incorrect, as even K 3, 3 is non planar so K 3,4 is obviously non planar</p><p>Option C is incorrect, using Euler planar graph formula 8 + 5 = E + 2, so E = 11 but for 5 vertices max possible edges are&nbsp;&nbsp;&nbsp; 5 C 2 i.e., 10 vertices.</p><p>Option D is correct, as K5 - {e} is planar graph and every planar graph is 4 colorable. See Below image or read this link: <a rel=\"nofollow\" href=\"https://math.stackexchange.com/questions/1215267/how-to-show-that-when-an-edge-is-removed-from-k5-the-resulting-subgraph-is-plan\" target=\"_blank\">Planar diagram of K5 - {e} graph<br><img alt=\"\" width=\"500\" height=\"227\" src=\"media/e6/e6482b47ccdcc4d3fbe8.png\"></a></p><p>&nbsp;</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/433273\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>You are given a set of $n$ tasks $T=\\left\\{T_{1}, T_{2}, T_{3}, \\ldots, T_{n}\\right\\}$. Each task $T_{k}$ is represented by the interval $I_{k}=\\left[s_{k}, e_{k}\\right.$ ) where $s_{k}$ is the start time and $e_{k}$ (where $s_{k}$Instance: $n=10$, and $T=\\left\\{T_{1}, T_{2}, \\ldots, T_{10}\\right\\}$, and</p><p>&nbsp;</p><p>$$<br>\\begin{aligned}<br>&amp; I_{1}=[0,3), \\quad I_{2}=[11,19), \\quad I_{3}=[14,20), \\quad I_{4}=[2,5), \\quad I_{5}=[8,12), \\\\<br>&amp; I_{6}=[6,10), \\quad I_{7}=[1,5), \\quad I_{8}=[12,16), \\quad I_{9}=[17,19), \\quad I_{10}=[4,9) .<br>\\end{aligned}<br>$$</p><p><img alt=\"\" width=\"565\" height=\"162\" src=\"media/a9/a984f531b2f435788f3a.png\"></p><p>Define a graph $G=(T, E)$ where<br>$$<br>E=\\left\\{\\left\\{T_{x}, T_{y}\\right\\}:\\left(I_{x} \\cap I_{y} \\neq \\varnothing\\right)\\right\\}<br>$$<br>Namely, there is an edge $\\left\\{T_{x}, T_{y}\\right\\} \\in E$ if and only if the intervals $\\left[s_{x}, e_{x}\\right.$ ) of task $T_{x}$ overlaps with the interval $\\left[s_{y}, e_{y}\\right.$ ) of task $T_{y}$. We call $G$ an interval graph.<br>What is the chromatic number of the interval graph $G$ for the instance shown above?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"433272\"></a><div itemprop=\"text\"><p>3 colors are enough to color the intervals, so that overlapping intervals get different colors.</p><p>Within the given interval diagram in the question, if we color, it is easier to color it with 3 colors.&nbsp;</p><p><strong>Coloring Process:</strong></p><p>Give color $C_1$ to interval $I_1$, Now we can't give&nbsp;color $C_1$ to interval $I_4,I_7.$</p><p>NOTE that $I_1,I_4,I_7$ must get different colors, becasue they all are overlapping.&nbsp;</p><p>So, give color $C_1,C_2,C_3$ to interval $I_1,I_4,I_7.$</p><p>Now, $I_{10}$ can be given color $C_1$, becasue $I_{10}$ doesn't overlap with $I_1.$&nbsp;</p><p>Now, $I_6 = C_3 ; I_5 = C_2.$</p><p>Now, $I_2 = C_1$, $I_3 = C_2, I_8 = C_3$</p><p>And, $I_9 = C_3.$</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"435200\"></a><div itemprop=\"text\"><p>The graph is 3 colorable source trust me bro. Just kidding attached below is the proof:</p><p><img alt=\"\" width=\"1736\" height=\"668\" src=\"media/32/324d4c74e6915bcd9e12.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/433271\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are true?</p><p>(i) Let $G$ be a simple, undirected graph with 6 vertices, 5 edges and no cycles. Then it is not possible to have only one vertex in $G$ with degree 1 .</p><p>(ii) Let $G$ be a simple, undirected graph with $n$ vertices and $e$ edges. If $G$ is not connected, then $e&lt;(n-1)$.</p><p>(iii) All cycles in the graph $K_{3,4}$ have an even number of edges.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only (iii).</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only (i) and (ii).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only (i) and (iii).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only (ii) and (iii).</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"437128\"></a><div itemprop=\"text\"><p>Counterexample for statement $ii:$<strong> </strong>A disconnected graph with two components, a triangle &amp; an isolated vertex.</p><p>Statement $i:$ ($n$ vertices, $n-1$ edges &amp; no cycle) means a TREE.</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=OUPiJI3xPkI&amp;t=5878s\" target=\"_blank\">https://www.youtube.com/watch?v=OUPiJI3xPkI&amp;t=5878s</a></p><p>Statement $iii:$ In any bipartite graph, every cycle has even number of edges.&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/433270\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Given $A=\\{1,2,3,4,5\\}$ and the partial order $R$ on $A$ as follows:<br><br>$R=\\{(x, x): x \\in A\\} \\cup\\{(2,1),(2,5),(3,1),(3,2),(3,4),(3,5),(4,1)\\}$<br>How many distinct linearizations of $R$ are there?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"433269\"></a><div itemprop=\"text\"><p>&nbsp;Hasse Diagram of $R:$</p><p>&nbsp;<img alt=\"\" width=\"350\" height=\"388\" src=\"media/12/1210a0b82068473d30f2.png\"></p><p><strong>5 Linear Orders of R are there:</strong><br>$3,2,4,1,5$<br>$3,2,4,5,1$<br>$3,2,5,4,1$<br>$3,4,2,1,5$<br>$3,4,2,5,1$<br><br><strong>MUST Watch Lecture for this concept (with 2 GATE PYQs):</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/WyV6YtqCvGE?feature=shared\" target=\"_blank\">Linearization of POSET - Complete Explanation</a></p></div></section></div><p><a href=\"https://gateoverflow.in/433268\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Given the equivalence relation $\\sim$ on $\\mathbb{Z}^{2}$ defined by<br>$$<br>(a, b) \\sim(c, d) \\Leftrightarrow 3|(a-c) \\wedge 2|(b-d)<br>$$<br>Which of the following is/are equivalence classes under this relation?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\quad\\left\\{(x, y) \\in \\mathbb{Z}^{2}: x, y \\in \\mathbb{Z}\\right\\}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left\\{(x, y) \\in \\mathbb{Z}^{2}: 3 x, 2 y \\in \\mathbb{Z}\\right\\}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left\\{(x, y) \\in \\mathbb{Z}^{2}: x=3 k-1, y=2 m\\right.$ where $\\left.k, m \\in \\mathbb{Z}\\right\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\left\\{(x, y) \\in \\mathbb{Z}^{2}: x=2 k, y=3 m\\right.$ where $\\left.k, m \\in \\mathbb{Z}\\right\\}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"435202\"></a><div itemprop=\"text\">I myself answered it wrong first, but realized the mistake when I saw the answer. Anyways here is the explanation:<br>\n<br>\nThe equivalence classes are basically modulos, so a and c have 3 and b and d have 2. So total 6 equivalence classes are there i.e. (0, 0), (0, 1), (0,2), (1,0), (1, 1), (1,2), (2, 0), (2, 1) and (2, 2)<br>\n<br>\nOption A: Incorrect, as this includes both (1, 1) and (1, 2) which belong to different equivalence classes.<br>\n<br>\nOption B: This looks correct (and even I selected it) but is incorrect. As this also includes both (1, 1) and (1, 2) which belong to different equivalence classes. The reason is both 1 * 3 and 2 * 2 is also a integer, so this also represents the same set represented by option 1 (which is just the pairs of all integers) just worded differently.<br>\n<br>\nOption C: This is correct and represents the equivalence class (2, 0), that is set of all ordered pairs where first term leaves 2 remainder when divided by 3 and second term is even (i. e., divisible by 2)<br>\n<br>\nOption D: This is incorrect, as this represents set of all ordered pairs where first term is even (i. e., divisible by 2) and second term leaves 2 remainder when divided by 3. This is basically reverse of option C and is not even asked by the question.<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"513264\"></a><div itemprop=\"text\"><p><strong>OPTION 1 : INCORRECT</strong></p><p>Reason : This set is just Z^2, and can not be an equivalence class as in same set there are ordered pairs (x,y) such that xmod3 and ymod2 are not constant.&nbsp;</p><p><strong>OPTION 2 : INCORRECT</strong></p><p>Reason : Same set as Option 1&nbsp;</p><p><span style=\"color:#2ecc71;\"><strong>OPTION 3 : CORRECT</strong></span></p><p>Reason : For all values of x and y, xmod3 and ymod2 is constant.&nbsp;</p><p>x = 3k - 1 =&gt; x = 3(k-1) + 2</p><p>y = 2m&nbsp;</p><p><strong>OPTION 4 : INCORRECT</strong></p><p>Reason : Here xmod2 and ymod3 is constant. But this is not what is asked in the question. So this is incorrect by applying similar logic to option 1.&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/433267\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" width=\"589\" height=\"74\" src=\"media/e0/e0a607ad9370454baf60.png\"><br>Which of the following sets contains $B$ as an element? (Note: $\\mathcal{P}(\\mathbb{X})$ denotes the power set of $X$ ).</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$S \\times V$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S \\cup V$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathcal{P}(\\mathbb{S} \\times \\mathbb{V})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathcal{P}(\\mathbb{S} \\cup \\mathbb{V})$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"435207\"></a><div itemprop=\"text\"><p>Another question where I chose wrong option but realized the mistake when I saw the answers.</p><p>Question is asking which of the following sets contain B as an <strong>ELEMENT. </strong>B itself is a set, so the answer must contains elements that themselves are sets. So option A and B are already incorrect, as there elements are not sets. (I selected option A as I missed this detail)</p><p>Option C: S X V will contain all elements that can be generated by the combinations of S and V. But B is a <strong>SET</strong> of combination of some of the elements of S X V. So B must be a member of power set of S X V. So this is the answer.</p><p>Option D: Incorrect obviously as S U V won't even contain the elements of B so no sense in taking its power set.</p></div></section></div><p><a href=\"https://gateoverflow.in/433266\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a finite group.</p><p>Which of the following statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^3=e$ is odd.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^3=e$ is even.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^2 \\neq e$ is odd.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The number of elements $x$ of $\\text{G}$ such that $x^2 \\neq e$ is even.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D, E</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"437131\"></a><div itemprop=\"text\"><p><strong>A similar question in GATE:</strong></p><ul><li><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Ewdz0FQJ14w&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=18\" target=\"_blank\">https://www.youtube.com/watch?v=Ewdz0FQJ14w&amp;list=PLIPZ2_p3RNHhXves0XVa8d5O6F4rUi3KR&amp;index=18</a></li></ul><div><strong>MUST Watch above video solution, then read the following explanation.</strong></div><div>&nbsp;</div><p>The number of elements $x$ of G such that $x^3=e$ is&nbsp; $\\cdots$&nbsp;</p><p>$$ x^3 = e $$</p><p><u># <strong>CASE 1</strong></u>: $x=e$</p><p>If $x$ is the identity element then it will always satisfy the above equation</p><p>$e^3 = e*e*e = e$</p><p>$\\therefore$ No. of element such that $x =&nbsp;e$ and following $x^3 = e$ is 1</p><p>&nbsp;</p><p><u># <strong>CASE 2</strong></u>: $x \\neq e$</p><p>$x^3 = e$</p><p>$x^2*x=e$</p><p>$\\therefore$ We get $x^{-1} = x^2$ and $(x^2)^{-1} = x$ using the property of inverse</p><p>OR</p><p>$&lt;x&gt; = \\{x^1,x^2,x^3\\} = \\{x,x^2,e\\} = &lt;x^2&gt;$</p><p>As we know that if $a^n = e$ then $a^{-1} = a^{n-1}$ in a finite group.</p><p>$\\therefore$ We get $x^{-1} = x^2$ and $(x^2)^{-1} = x$</p><p>&nbsp;</p><p>$\\because$ $x$ and $x^2$ are DISTINCT and exist in pair</p><p>$\\therefore$ No. of element such that $x \\neq e$ and following $x^3 = e$ is EVEN</p><p>&nbsp;</p><p>From both the cases the no. of element $x$ of G such that $x^3 = e$</p><p>= 1 + EVEN&nbsp;</p><p>= ODD</p><p>&nbsp;</p><p>$\\therefore $ Option “A” is CORRECT and Option&nbsp;“B” is INCORRECT.</p><p>ANSWER = { A: ✅, B: ❌, C: ❔, D: ❔}</p><p>&nbsp;</p><hr><p><strong>The number of elements $x$ of G such that $x^2 \\neq e$ is&nbsp; $\\cdots$&nbsp;</strong></p><p>$$x^2 \\neq&nbsp;e$$</p><p>Let’s understand what&nbsp;$x^2 =&nbsp;e$ means first</p><p>$x^2 = x*x&nbsp;=&nbsp;e$</p><p>This implies that $x$ is having a self-inverse i.e. $x^{-1} = x$</p><p>Hence the question is asking to find the no. of element not having self-inverse.</p><p>$\\therefore x^2 \\neq e$ means no. of element such that $x$ and $x^{-1}$ is DISTINCT.</p><p>&nbsp;</p><p>If&nbsp;$x$ and $x^{-1}$ is DISTINCT then they exist in form of pairs.</p><p>$\\therefore$ No. of element such that $x^2 \\neq e$ is EVEN</p><p>$\\therefore $ Option “C” is INCORRECT and Option&nbsp;“D” is CORRECT.</p><p>FINAL ANSWER = { A: ✅, B: ❌, C: ❌, D: ✅}</p><p>&nbsp;</p><p>Some Possible Variation:</p><ol type=\"1\"><li><strong>The number of elements $x$ of G such that $x^3=e$ excluding ‘e’ is&nbsp; <em><u>EVEN</u></em></strong></li><li><strong>The number of elements $x$ of G such that $x^3 \\neq e $ is <em><u>either EVEN or ODD (exclusively)&nbsp;</u></em></strong></li><li><strong>The number of elements $x$ of G such that $x^2 =&nbsp;e$ is&nbsp;<em><u>either EVEN or ODD (exclusively)&nbsp;</u></em></strong></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/433265\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a group.</p><p>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If for any $x, y, z$ in the group $\\mathrm{G}, xy=zx$ implies $y=z$. Then $\\mathrm{G}$ is Abelian.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If for any $x, y, z$ in the group $\\text{G}, x y=x z$ implies $y=z$. Then $\\text{G}$ is Abelian.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If for any $x, y, z$ in the group $\\text{G}, y x=z x$ implies $y=z$. Then $\\text{G}$ is Abelian.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If for any $x, y, z$ in the group $\\mathrm{G}, yx= xz$ implies $y=z$. Then $\\mathrm{G}$ is Abelian.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"433300\"></a><div itemprop=\"text\">Detailed Video Solution: <a href=\"https://youtu.be/27dpP0LS00Q?t=1243\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1243</a><br>\n<br>\nOption B is “Left Cancellation” property. It is satisfied by EVERY Group, abelian group or non-abelian group. So, the Left Cancellation property in a group doesn’t imply that it is Abelian(commutative). &nbsp;&nbsp;<br>\n<br>\nOption C is “Right Cancellation” property. It is satisfied by EVERY Group, abelian group or non-abelian group. So, the Right Cancellation property in a group doesn’t imply that it is Abelian(commutative). &nbsp;<br>\n<br>\nOption A is “Left-Right Cancellation” property. The Left-Right Cancellation property in a group implies that it is Abelian(commutative). &nbsp;&nbsp;<br>\nProof: <a href=\"https://youtu.be/27dpP0LS00Q?t=1243\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1243</a><br>\n<br>\nSimilarly, Option D is “Right-Left Cancellation” property. The Right-Left Cancellation property in a group implies that it is Abelian(commutative).</div></section></div><p><a href=\"https://gateoverflow.in/433264\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{G}$ be a group.</p><p>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If for every choice of elements in group $\\text{G}, axb=cxd$ implies $a b=c d$. Then $\\mathrm{G}$ is Abelian.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>In a group, $(a b)^2=a^2 b^2$ if and only if $a b=b a$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>In a group, $(a b)^{-2}=b^{-2} a^{-2}$ if and only if $a b=b a$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A group $\\text{G}$ is Abelian if and only if $(a b)^{-1}=a^{-1} b^{-1}$ for all $a$ and $b$ in $\\text{G}$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"433301\"></a><div itemprop=\"text\"><p>Option A: <a rel=\"nofollow\" href=\"https://youtu.be/27dpP0LS00Q?t=1526\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1526</a>&nbsp;</p><p>Option B: <a rel=\"nofollow\" href=\"https://youtu.be/27dpP0LS00Q?t=226\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=226</a>&nbsp;</p><p>Option D: <a rel=\"nofollow\" href=\"https://youtu.be/27dpP0LS00Q?t=1790\" target=\"_blank\">https://youtu.be/27dpP0LS00Q?t=1790</a>&nbsp;</p><p>Similarly, we can prove Option C.&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/404867/go-classes-2024-weekly-quiz-16-group-theory-question-18?show=405005#c405005\" target=\"_blank\">Click Here for Option C Proof</a></p><p>Now suppose that $(a b)^{-1}(a b)^{-1}=b^{-2} a^{-2}$. Since $(a b)^{-1}=b^{-1} a^{-1}$, we have that $\\left(b^{-1} a^{-1}\\right)^2=$ $\\left(b^{-1}\\right)^2\\left(a^{-1}\\right)^2$. But then the previous result (with $b^{-1}$ in place of $a$ and $a^{-1}$ in place of $b),$&nbsp;shows that $a^{-1} b^{-1}=b^{-1} a^{-1}$. But then the inverses of both sides are the same, so $b a=a b$.</p></div></section></div><p><a href=\"https://gateoverflow.in/433263\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose $f$ and $g$ are functions, which of the following statements is/are true?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $f$ and $g$ are injective, then $g \\circ f$ is injective.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $f$ and $g$ are surjective, then $g \\circ f$ is surjective.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $f$ and $g$ are bijective, then $g \\circ f$ is bijective.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $g \\circ f$ is bijective, then $f$ and $g$ are bijective.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"464406\"></a><div itemprop=\"text\"><p>For complete understanding,variations:<a href=\"https://youtu.be/1qOTs03imLU?feature=shared\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/1qOTs03imLU?feature=shared</a></p><p>Counter examples:</p><p><img alt=\"\" src=\"media/0b/0b6774d50c3e949cb34d.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"464407\"></a><div itemprop=\"text\"><p>For variations:<a href=\"https://youtu.be/1qOTs03imLU?feature=shared\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/1qOTs03imLU?feature=shared</a></p><p><img alt=\"\" src=\"media/0b/0b6774d50c3e949cb34d.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/433261\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The order of a bijection $f: A \\rightarrow A$ is defined to be the smallest $n \\in \\mathbb{Z}^{+}$such that<br>$$<br>\\underbrace{f \\circ f \\circ \\cdots \\circ f}_{n \\text {-many } f^{\\prime} \\mathrm{s}}=\\mathrm{id}_{A} .<br>$$<br>Let set $A=\\{1,2,3,4\\}$ and the bijections $g: A \\rightarrow A$ and $k: A \\rightarrow A$ are given as follows:<br>$$<br>\\begin{aligned}<br>&amp; g=\\{(1,3),(2,4),(3,2),(4,1)\\} ; \\\\<br>&amp; k=\\{(1,3),(2,2),(3,1),(4,4)\\}<br>\\end{aligned}<br>$$<br>What is the order of $g \\circ k$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 3</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"437904\"></a><div itemprop=\"text\"><p>Applying gok 3 times will work as Identity function of A.</p><p><img alt=\"gok\" width=\"600\" height=\"489\" src=\"media/8e/8efb84220ec93c6eb5df.jpg\"></p><p>so, <strong>Answer is 3</strong></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"498678\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"259\" height=\"356\" src=\"media/9e/9e627f3e8c0086d656b2.jpg\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/433260\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following statements is/are false?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(p \\wedge q) \\rightarrow r \\equiv(p \\rightarrow r) \\wedge(q \\rightarrow r)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(p \\vee q) \\rightarrow r \\equiv(p \\rightarrow r) \\vee(q \\rightarrow r)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$p \\wedge(q \\rightarrow r) \\equiv(p \\wedge q) \\rightarrow(p \\wedge r)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$p \\vee(q \\rightarrow r) \\equiv(p \\vee q) \\rightarrow(p \\vee r)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"433617\"></a><div itemprop=\"text\"><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"181161\"><a class=\"pupi_dm_user_mention\" rel=\"nofollow\" href=\"https://gateoverflow.in/user/GO%20Classes\" target=\"_blank\">@Dvruo Classes</a></span> I think option B is also false</p></div></section></div><p><a href=\"https://gateoverflow.in/433259\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "The island of Wantuutrewan is inhabited by exactly two types of natives: knights who always tell the truth and knaves who always lie. <br>Every native is a knight or a knave, but not both. You meet four islanders Aiken, Benny, Candy and Dueet. Two of them speak.<br>Aiken says: Benny never tells the truth.<br>Aiken says: Candy always lies.<br>Dueet says: Candy is a knave and I am a knave.<br>Which of the following is true?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Both Benny and Candy are knights.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Benny is a knight and Candy is a knave.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Benny is a knave and Candy is a knight.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both Benny and Candy are knaves.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 11)</small></h4><a name=\"437595\"></a><div itemprop=\"text\">First of all this is not a faulty question, but very tricky one.<br>\n<br>\nCase 1 : Aiken is a knight<br>\n<br>\n-&gt; Benny and candy are knaves.<br>\n<br>\n-&gt; Dueet's statement is in the form \"p and q\" where it becomes true iff both p and q true. Here if he is a knight, then he should not say \"I'm a knave\". If he is a knave, then both 'p and q' of his statement becomes true, and it ends up being agsinst his knaves nature. So this case is a contradiction.<br>\n<br>\nCase 2 : Aiken is a knave<br>\n<br>\n-&gt; Benny is a knight, Candy is a knight<br>\n<br>\n-&gt; if dueet is knight : he should not say candy is a knave. So clearly dueet is not knight.<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;If dueet is a knave : he should not tell a true statement. Here \"Candy is a knave and I'm a knave\" is a false statement, because it's in the form \"p and q\" and statement p is false here so overall statement is false. Everything falls into right places here.<br>\n<br>\nSo final answer : Aiken -&gt; knave, Benny -&gt; knight, Candy -&gt; knight, Dueet -&gt; knave<br>\n<br>\nOption ( A )<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"433695\"></a><div itemprop=\"text\">faulty question<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"513335\"></a><div itemprop=\"text\"><p>Let us go step by step</p><p><strong>Assuming : Aiken is a knight</strong></p><p>Both Benny and Candy are knaves.&nbsp;</p><p>Now if we look at dueet's statement, it is of the form (p and q). This statement becomes true iff both p and q are true.&nbsp;</p><p>In this case we already have p (Candy is a knave) is true.&nbsp;</p><p>(i) Say q is true (Dueet is a knave) -&gt; (p and q) is true -&gt; which means Dueet is a Knight -&gt; but this directly contradicts our assumption that q is true so this assumption is wrong.&nbsp;</p><p>(ii) Say q is false (Dueet is a knight) -&gt; (p and q) is false -&gt; which means Dueet is a knave -&gt; but this directly contradicts our assumption that q is false so this assumption is wrong.</p><p>So therefore our assumption that p is true is false -&gt; p has to be false. So if p is false, then <strong>Aiken has to be a knave.&nbsp;</strong></p><p>So, If Aiken is a knave,&nbsp;Benny and Candy are knights</p><p>Therefore, <span style=\"color:#2ecc71;\">OPTION A </span>is correct</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/433258\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Define the logical connective $\\sim$ as follows, where $p$ and $q$ are statement variables:</p><p style=\"text-align:center\"><img alt=\"\" width=\"293\" height=\"141\" src=\"media/cb/cb050859dac009aa9379.png\"></p><p><br>Which of the following are tautologies, where $x, y, z$ are statement variables?<br>(i) $((x \\sim y) \\wedge(y \\sim z)) \\rightarrow(x \\sim z)$.<br>(ii) $((x \\sim y) \\wedge(y \\sim z)) \\sim(x \\sim z)$.<br>(iii) $((x \\sim y) \\wedge(x \\sim z)) \\rightarrow x$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only (i).</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only (i) and (ii).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only (ii) and (iii).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"439722\"></a><div itemprop=\"text\"><p>​​ the main idea is&nbsp; p~q = inverse p ^q<img alt=\"\" width=\"1200\" height=\"1801\" src=\"media/dc/dcc053155418b9f1572b.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/433257\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Given that $\\forall x \\exists y P(x, y)$ is true on a non-empty domain of discourse, which of the following statements is/are true?<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\exists y \\forall x P(x, y)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\exists x \\exists y P(x, y)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\forall x \\forall y P(x, y)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\exists x \\forall y \\sim P(x, y)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"444926\"></a><div itemprop=\"text\"><p>We can check using example , will be much simpler.</p><p><br><img alt=\"\" width=\"800\" height=\"563\" src=\"media/b0/b07fcfc6a9b07ccf02b4.jpg\" style=\"float:left\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"504622\"></a><div itemprop=\"text\">\\[<br>\n\\textbf{Assume:}<br>\n\\]<br>\n\\[<br>\n\\text{Domain} = \\mathbb{Z}\\ (\\text{non-empty})<br>\n\\]<br>\n\\[<br>\nP(x,y) : x + y = 10<br>\n\\]<br>\n<br>\n\\[<br>\n\\textbf{Option A: } \\exists y\\, \\forall x\\, P(x,y)<br>\n\\]<br>\n<br>\n\\[<br>\n\\text{There exists a fixed } y \\text{ such that } \\forall x,\\ x + y = 10<br>\n\\]<br>\n<br>\n\\[<br>\n\\text{False. If } y \\text{ is fixed, then } x = 10 - y \\text{ is fixed,}<br>\n\\]<br>\n\\[<br>\n\\text{but } x \\text{ must range over all integers.}<br>\n\\]<br>\n<br>\n---<br>\n<br>\n\\[<br>\n\\textbf{Option B: } \\exists x\\, \\exists y\\, P(x,y)<br>\n\\]<br>\n<br>\n\\[<br>\n\\text{There exist some } x,y \\in \\mathbb{Z} \\text{ such that } x + y = 10<br>\n\\]<br>\n<br>\n\\[<br>\n\\text{True. Example: } x = 3,\\ y = 7 \\Rightarrow x + y = 10.<br>\n\\]<br>\n---<br>\n\\[<br>\n\\textbf{Option C: } \\forall x\\, \\forall y\\, P(x,y)<br>\n\\]<br>\n<br>\n\\[<br>\n\\text{False. Counterexample: } x = 1,\\ y = 1 \\Rightarrow x + y = 2 \\neq 10.<br>\n\\]<br>\n<br>\n---<br>\n<br>\n\\[<br>\n\\textbf{Option D: } \\exists x\\, \\forall y\\, \\neg P(x,y)<br>\n\\]<br>\n<br>\n\\[<br>\n\\text{False. For any } x \\in \\mathbb{Z}, \\text{ choosing } y = 10 - x<br>\n\\text{ makes } P(x,y) \\text{ true.}<br>\n\\]<br>\n---<br>\n\\[<br>\n\\boxed{\\text{Correct answer: Option B}}<br>\n\\]<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/433256\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" width=\"677\" height=\"162\" src=\"media/69/699dd05ad5ddb79ecc2d.png\"><br>Which of the above statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>None of options (A), (B) , (C), (D) is correct.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only (iii).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only (i) and (ii).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only (ii) and (iii).</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"441003\"></a><div itemprop=\"text\">Statement $(i)$ is false. Counterexample: $x = 0, y = 1, z = 0.$<br>\n<br>\nStatement $(ii)$ is false. Take any $x = 0/1, &nbsp;y = -1/1, z = -1/0/1;$ $x &lt;y&lt;z$ is Never true.<br>\n<br>\nStatement $(iii)$ is true. For every $x = 0/1$, take $y = -1.$</div></section></div><p><a href=\"https://gateoverflow.in/433255\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider any set $A$ and predicate $P(x, y)$, which of the following statements are true?<br>(i) $\\forall_{x \\in A}&nbsp; \\forall_{y \\in A} P(x, y) \\rightarrow \\exists_{x \\in A} \\exists_{ y \\in A} P(x, y)$.<br>(ii) $\\exists_{x \\in A}&nbsp; \\exists_{y \\in A}&nbsp; P(x, y) \\rightarrow \\forall_{x \\in A}&nbsp; \\forall_{y \\in A}&nbsp; P(x, y)$.<br>(iii) $\\forall_{x \\in A}&nbsp; \\exists_{y \\in A}&nbsp; P(x, y) \\rightarrow \\exists_{y \\in A}&nbsp; \\forall_{x \\in A}&nbsp; P(x, y)$.<br>(iv) $\\exists_{x \\in A}&nbsp; \\forall_{y \\in A}&nbsp; P(x, y) \\rightarrow \\forall_{y \\in A}&nbsp; \\exists_{x \\in A}&nbsp; P(x, y)$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only (i).</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only (iv).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only (i) and (iv).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All of (i), (ii), (iii) and (iv).</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"442593\"></a><div itemprop=\"text\"><p><strong>Understand All types of Nested Quantifiers:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/bFfKD8o_5iU?feature=shared\" target=\"_blank\">https://youtu.be/bFfKD8o_5iU?feature=shared</a></p><hr><h3>(i) $\\forall x \\in A \\, \\forall y \\in A \\, P(x, y) \\to \\exists x \\in A \\, \\exists y \\in A \\, P(x, y)$</h3><ul><li>$\\forall x \\, \\forall y \\, P(x, y)$ means $P(x,y)$&nbsp;is true for all $x$&nbsp;and $y$&nbsp;in $A$.</li><li>$\\exists x \\, \\exists y \\, P(x, y)$ means there exist at least one $x$&nbsp;and one $y$&nbsp;in $A$&nbsp;such that $P(x, y)$ is true.</li></ul><p>If $P(x, y)$ is true for all $x$&nbsp;and $y$, it must also be true for some&nbsp;$x$&nbsp;and $y$.</p><p><strong>Conclusion</strong>: True.</p><hr><h3>(ii) $\\exists x \\in A \\, \\exists y \\in A \\, P(x, y) \\to \\forall x \\in A \\, \\forall y \\in A \\, P(x, y)$</h3><ul><li>$\\exists x \\, \\exists y \\, P(x, y)$ means $P(x, y)$ is true for at least one pair $(x, y)$ in&nbsp;$A$.</li><li>$\\forall x \\, \\forall y \\, P(x, y)$ means $P(x, y)$ is true for all pairs $(x, y)$ in $A$.</li></ul><p>The existence of one $(x, y)$ satisfying $P(x, y)$ does not imply that $P(x, y)$ holds for all pairs.</p><p><strong>Conclusion</strong>: False.</p><hr><h3>(iii) $\\forall x \\in A \\, \\exists y \\in A \\, P(x, y) \\to \\exists y \\in A \\, \\forall x \\in A \\, P(x, y)$</h3><p>&nbsp;</p><ul><li>$\\forall x \\, \\exists y \\, P(x, y)$ means for each $x$, there exists some $y$&nbsp;such that $P(x, y)$ is true.</li><li>$\\exists y \\, \\forall x \\, P(x, y)$ means there exists a single $y$&nbsp;such that $P(x, y)$ is true for all $x$.</li></ul><p>The premise does not guarantee the conclusion. Each $x$ could have a different $y$ satisfying $P(x, y)$, and there may not be a single $y$ that works for all $x$.</p><p><strong>Conclusion</strong>: False.</p><hr><h3>(iv) $\\exists x \\in A \\, \\forall y \\in A \\, P(x, y) \\to \\forall y \\in A \\, \\exists x \\in A \\, P(x, y)$</h3><p>&nbsp;</p><ul><li>$\\exists x \\, \\forall y \\, P(x, y)$ means there exists some $x$&nbsp;such that $P(x, y)$ is true for all $y$.</li><li>$\\forall y \\, \\exists x \\, P(x, y)$ means for each $y$, there exists some $x$&nbsp;such that $P(x, y)$ is true.</li></ul><p>If $P(x, y)$ is true for one specific $x$ and all $y$, it follows that for any $y$, there is an $x$ (specifically, the same $x$) such that $P(x, y)$ holds.</p><p><strong>Conclusion</strong>: True.</p><p><strong>MUST WATCH - Understand All types of Nested Quantifiers:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/bFfKD8o_5iU?feature=shared\" target=\"_blank\">https://youtu.be/bFfKD8o_5iU?feature=shared</a></p></div></section></div><p><a href=\"https://gateoverflow.in/433254\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 50.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 16,
+  "types": {
+   "NAT": 12,
+   "MCQ": 9,
+   "MSQ": 9
+  },
+  "withoutKey": 21
+ }
+}

@@ -1,0 +1,930 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-012",
+ "title": "GATE 2027-Subjectwise Test- 8 (Power Electronics)",
+ "sourceTitle": "GATE 2027-Subjectwise Test- 8 (Power Electronics)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 12,
+ "category": "subjectwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 33 | Marks: 50 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/037_GATE 2027-Subjectwise Test- 8 (Power Electronics).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>A DC-DC converter as shown in figure operates at switching frequency of 5 kHZ and a duty&nbsp;cycle of 0.5.</p>\n<p><img src=\"media/61/615fb63d852d7f8b0a74.png\"></p>\n<p>The turn on voltage of chopper switch is 5 V and value of capacitor is very large.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The maximum and minimum value of inductor current are 0 A and 0.95 A.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The average value of chopper current is 0.2375 A.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The power supplied by source is 123.75 W.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The average value of output current is 10.99 A.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/89/894042a463be32358e19.png\"></p>\n<p><img src=\"media/8b/8b0a4f8e0dd87c437f4a.png\"></p>\n<p><img src=\"media/b5/b5833d0a9b84d5973a56.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>For the circuit shown below:</p>\n<p><img src=\"media/53/530ba19fdd1286803ddd.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The average value of output voltage is zero</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The value of DC output voltage is 6.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The value of current ripple factor is 0.707.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/9c/9ca6b278c59be2d38278.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/7b/7bc8a15a704c878a82c1.png\"></p>\n<p><img src=\"media/3b/3ba08660d5d88f40585c.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A single-phase Half Bridge inverter feeds power at 50 Hz to a resistive load with <em>R </em>= 5 &Omega;. The&nbsp;DC input voltage is 220 V. The rms and peak current of each Thyristor is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>31.12 A, 44 A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>15.556 A, 44 A</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>15.556 A, 22 A</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>22 A, 44 A</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/eb/eb6ddf34e6b654edcb91.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A 220 V, 1450 rpm, 100 A separately excited dc motor has an armature resistance of 0.05 &Omega;, the&nbsp;machine is driven by a 3-&phi; half controlled converter operating from a 3-&phi;, 220 V, 50 Hz supply.<br>The motor operates at rated speed and rated load Torque.<br>Assume continous conduction, % THD in source current at AC mains is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>70.5%</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>68.2%</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>31%</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/3a/3aba37a836214b9d7444.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>For a Single-phase, full Bridge inverter, with RL Load having source voltage <em>V<sub>S </sub></em>= 230 V, <em>R </em>= 10 &Omega;,&nbsp;<em>X<sub>L</sub></em> = 9.425 &Omega;. The rms value of fundamental component of diode current is _______ A.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3.1
+   ],
+   "answerText": "3 - 3.1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/d4/d4240db75f5e9aa3d22e.png\"></p>\n<p><img src=\"media/43/437e900d0ed50b4e1fe4.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A DC battery is charged through a resistor <em>R </em>as shown in figure.</p>\n<p><img src=\"media/88/88d32eb64d0610adc4d4.png\"></p>\n<p>The SCR is fired continuously. if <em>E </em>= 100 V and <em>R </em>= 10 &Omega;, then power supplied to the battery in&nbsp;watt is _______ W. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    535,
+    545
+   ],
+   "answerText": "535 - 545",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/c8/c87d52a86dc0be2390db.png\"></p>\n<p><img src=\"media/21/218d88b0f4c59868e70e.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A D.C. Converter as shown in figure operates at a switching frequency of 10 kHZ and duty cycle&nbsp;of 0.6.</p>\n<p><img src=\"media/70/70705ce1732c198df6fb.png\"></p>\n<p>The value of inductances <em>L</em><sub>1 </sub>and <em>L</em><sub>2</sub> are high and load voltage <em>V</em><sub>0</sub> is ripple free. Then dc voltage of&nbsp;capacitor <em>C</em><sub>1</sub> will be ________ . (rounded off to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    120,
+    120
+   ],
+   "answerText": "120",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/d3/d3cdc7810b385ec611c1.png\"></p>\n<p><img src=\"media/39/39504d87fcccf11a7420.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>If the following circuit is used to step-up 20 V to 80 V. Assuming all devices to be ideal, if ripple&nbsp;current is 2 A, ripple voltage is</p>\n<p><img src=\"media/c4/c40ca4fbf250789414be.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>32 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>100 mV</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>100 V</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/37/374b1ea2957333d6a1be.png\"></p>\n<p><img src=\"media/2a/2a348e65d7fede08637d.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A power electronics switch is Ideal in conduction and blocking (<em>V </em>= 0 and <em>I </em>= 0) it is used in a&nbsp;circuit with switching voltages and current as shown in figure.</p>\n<p><img src=\"media/59/59bb03e8baf7c56df514.png\"></p>\n<p>energy losses in figure (1) and (2) respectively are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>83.33 &mu;J and 50 &mu;J</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>50 &mu;J and 75 &mu;J</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>75 &mu;J and 50 &mu;J</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>50 &mu;J and 83.33 &mu;J</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/db/db17e56ff6a54f1c5f83.png\"></p>\n<p><img src=\"media/87/8746f0adfe5bb71be07e.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A single phase bridge inverter shown in the figure has an ideal Transformer with primary turns&nbsp;<em>N</em><sub>1</sub> equal to 12. for obtaining a fundamental voltage of 320 V at secondary, the number of secondary&nbsp;turns <em>N</em><sub>2</sub> in Transformer should be approximately</p>\n<p><img src=\"media/c0/c0bb22a9286f2b29e023.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>160</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>339</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>178</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>240</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/77/77b536c22e4301b015ae.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A 3-&phi; full converter feeds power to a resistive load of 5 &Omega;. for a firing angle of 30&deg; the load takes&nbsp;2 kW. The rms value per phase of input supply voltage (per phase) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>48.597 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>119.04 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>68.27 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>100 V</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/4c/4c7790571ae127e3b4f5.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>The regulator circuit shown in the figure below has a load resistance of <em>R</em><sub>1</sub> input voltage <em>V<sub>S</sub> </em>= 50 V&nbsp;and battery voltage <em>E </em>= 0 V. The average load current I<sub>0</sub> = 20 A and chopping frequency is&nbsp;250 Hz.</p>\n<p><img src=\"media/df/df1ba949aca1684fee1d.png\"></p>\n<p>The value of <em>L</em><sub>1</sub> which would limit the maximum ripple current to 10% of I<sub>0</sub>. Assuming the current&nbsp;varies linearly is L = _________ mH. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    27.5,
+    27.5
+   ],
+   "answerText": "27.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/88/884c1a3e606e8a9adb7b.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A series circuit consists of <em>R </em>= 2.4 &Omega;, <em>L </em>= 25 &mu;H, a capacitor C and a thyristor with source voltage.&nbsp;for obtaining self commutation in the circuit. The maximum value of <em>C </em>should be ______ &mu;F.<br>(Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    17.36,
+    17.36
+   ],
+   "answerText": "17.36",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/ec/ec8b232c0ef7660979c0.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A single-phase full wave ac voltage controller feeds a load of <em>R </em>= 20 &Omega; with an input voltage of&nbsp;230 V, 50 Hz. firing angle for both the thyristor is 45&deg; rms value of thyristor current is _______ A.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7.7,
+    7.8
+   ],
+   "answerText": "7.7 - 7.8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/43/43c3ef721e1f537d6f6f.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Find the value of <em>t</em><sub>0</sub> such that <em>i</em>(<em>t</em>) does not have transient part</p>\n<p><img src=\"media/ca/caa6d2b3ff02a5e3cbc4.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/15/151a47ff4f0746a4fdd7.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/81/813f4756c33894905fdb.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/d0/d0f10b1c3b7bb23bf3ad.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/9d/9d7ac6c587a6b6f113ca.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8c/8c3a1b7de9a1ad61c2ed.png\"></p>\n<p><img src=\"media/9b/9bbc0aa7e9c01850b39b.png\"></p>\n<p><img src=\"media/cc/ccbf23edbfb599b22571.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A 1-phase Half wave converter has 120 V, 60 Hz input voltage with <em>R </em>= 10 &Omega;. Average output&nbsp;voltage is 25% of maximum output voltage. The delay angle of converter is _______ (in degree).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    120,
+    120
+   ],
+   "answerText": "120",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/41/412ba8544e3266580e34.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>Average value of output voltage is 5 V, value of <em>L<sub>s</sub> </em>is ________ . (Answer upto two decimal places)</p>\n<p><img src=\"media/c8/c8a1c51f5bc081f2caeb.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.26,
+    0.28
+   ],
+   "answerText": "0.26 - 0.28",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b4/b43302e18e3cd16c531b.png\"></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A 3-phase full converter is used for charging a battery with an emf of 100 V and internal resistance&nbsp;of 0.25 &Omega;. The charging current is constant at 12 A and AC line voltage is 220 V. for the purpose&nbsp;of delivering energy from DC source to 3-phase system, the firing angle of the converter has&nbsp;been changed to 16&deg;. Then the output AC line voltage for the same value of DC source current of&nbsp;12 A will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>75.65</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>77.44</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>74.47</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>76.44</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/5a/5adea75caa5f710f8f96.png\"></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A 3-phase, 440 V, 50 Hz ac mains fed thyristor bridge is feeding a 440 V dc, 15 kW, 1500 rpm&nbsp;separately excited dc motor with a ripple free continuous current in the dc link under all operating&nbsp;conditions, neglecting the losses, then the power factor of the AC mains at half of the rated&nbsp;speed is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.354</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.372</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.90</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.955</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/fe/fe2e5d1c96d66323a6ff.png\"></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/64/64385fda2b8a79bd32bb.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>30&deg;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>36.8&deg;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>53.2&deg;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>77.24&deg;</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>A single phase full converter bridge connected with free wheeling diode act as a semi converter</p>\n<p><img src=\"media/60/60b2c4b32db263b15c75.png\"></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/86/860e477295aab4bdb01a.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/24/2412ddb69f3fc965973e.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>220 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/0f/0f7f1cd2ab97d99aeac8.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/14/146a2e53e48f26ed96fb.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/2e/2e6d9dfc9210ba50f7da.png\"></p>\n<p><img src=\"media/15/158c02ca68a6783df401.png\"></p>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A single-phase semi-converter, connected to 230 V, 50 Hz source, is feeding a load <em>R</em> = 10 &Omega; in&nbsp;series with a large inductance that makes the load current ripple free. The firing angle is 30&deg;,&nbsp;then the current distortion factor is _______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.9,
+    0.99
+   ],
+   "answerText": "0.9 - 0.99",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/88/889d628de35da097fc8d.png\"></p>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>The circuit shown below is initially relaxed with switch closed at t = 0, the conduction time of the&nbsp;diode is _________ &mu;s.</p>\n<p><img src=\"media/c0/c0c20bfb72ef16615344.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    285,
+    290
+   ],
+   "answerText": "285 - 290",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/5d/5d05d9bd0792f2b6de17.png\"></p>\n<p><img src=\"media/dd/dd6dce1552f9c1a5a690.png\"></p>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A 3-phase full converter, fed from 3-phase, 400 V, 50 Hz source is connected to load <em>R </em>= 10 &Omega; and&nbsp;large inductance so that output current is ripple free. If firing angle is 45&deg;, the reactive power <em>Q&nbsp;</em>is ______ kVAR.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    14,
+    15
+   ],
+   "answerText": "14 - 15",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/ff/ff6364848efeb469ce56.png\"></p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>In the 3-phase circuit shown below,</p>\n<p><img src=\"media/ad/ad3e9a119b6dd49bdfce.png\"></p>\n<p>If the load current flowing continuously and ripple free is 100 A and firing angle is 60&deg;, then the&nbsp;rms value of current flowing through freewheeling diode is ________ A.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    49.5,
+    50.5
+   ],
+   "answerText": "49.5 - 50.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b2/b2fd78f6cc15c6a5eaff.png\"></p>\n<p><img src=\"media/68/680d9ec8f97c48b42c4a.png\"></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A single phase full wave diode bridge rectifier is supplied by 230 V input voltage. If the diode in&nbsp;the circuit has reverse recovery time of 40 &mu;sec and supply frequency is 2.5 kHz, the percentage&nbsp;reduction in average output voltage will be ________ . (Answer upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9.5,
+    9.6
+   ],
+   "answerText": "9.5 - 9.6",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f9/f9a7eecabef4a476ce68.png\"></p>\n<p><img src=\"media/90/90213f5eb0b6a4353246.png\"></p>"
+  },
+  {
+   "n": 27,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>An ideal step-down (buck) DC-DC converter has an input voltage of 15 V. The required output&nbsp;voltage is 5 V and the peak-to-peak inductor current ripple is limited to 0.5 A. The output voltage&nbsp;ripple (peak-to-peak) is limited to 10 mV. The switching frequency of the converter is kept at&nbsp;10 kHz. Then which of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><em>L </em>= 0.66 mH</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><em>L </em>= 0.33 mH</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><em>C </em>= 625 &mu;F</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><em>C </em>= 1250 &mu;F</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/87/8749f799b2d3f628f822.png\"></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A 1-phase voltage source inverter is controlled in a single pulse width modulation mode with a&nbsp;pulse width 2<em>d</em> = 150&deg; in each half cycle. The total harmonic distortion of output ac voltage&nbsp;waveform is ________ %.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    31,
+    32.5
+   ],
+   "answerText": "31 - 32.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/65/6550f064e523f5dc6dd5.png\"></p>\n<p><img src=\"media/47/470039389236c46eb601.png\"></p>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>For a single pulse-width modulation of a single-phase inverter, the distortion factor for pulse&nbsp;width of &pi;/2 is ______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.88,
+    0.92
+   ],
+   "answerText": "0.88 - 0.92",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/5d/5de5f1410dbcef8af3b9.png\"></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A 3-&phi;, full converter charges a battery from a 3-&phi;, supply of 400 V, 50 Hz. The battery emf is&nbsp;300 V and its internal resistance is 1.5 &Omega;. On account of inductance connected in series with the&nbsp;battery, charging current is constant at 20 A. The supply power factor is ________ lag.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.57,
+    0.59
+   ],
+   "answerText": "0.57 - 0.59",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/09/09a2aee76636dc77ce14.png\"></p>\n<p><img src=\"media/e6/e665a99b4326edc11268.png\"></p>"
+  },
+  {
+   "n": 31,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>The figure shows one period of the output voltage of a Bipolar SPWM inverter. Each pulse has&nbsp;unequal width to eliminate selective harmonics. The rms value of fundamental component of&nbsp;output voltage is _______ V.</p>\n<p><img src=\"media/8e/8e3b56c58b704fde8816.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.65,
+    4.75
+   ],
+   "answerText": "4.65 - 4.75",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/26/269590b8f945d0dcc29a.png\"></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The steady state current flowing through the inductor of a DC-DC boost converter is given in&nbsp;the figure below. If the output capacitor is 150 &mu;F then the peak to peak ripple in the output&nbsp;voltage of the converter is</p>\n<p><img src=\"media/98/98cfd3c4f8dfbfe69f79.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1.2 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.6 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.8 V</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/1e/1eeea8ff1d925c70c567.png\"></p>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>A phase controlled single-phase rectifier, supplied by an AC source, feeds power to an R-L-E&nbsp;load as shown. Assume load inductance is sufficient to ensure continuous and ripple free load&nbsp;current. The rectifier output voltage has an average value given by</p>\n<p><img src=\"media/23/2390cb915a70043fad1b.png\"></p>\n<p>Where, <em>V<sub>m</sub> </em>= 220 V and &alpha; is the firing angle. If load current is 12 A then which is of the following<br>is correct?</p>\n<p><img src=\"media/87/879adff2242705e531d1.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The power delivered to the lossless battery is 1200 W.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The power delivered to the lossless battery is &ndash;1200 W.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Firing angle of rectifier is 122.17&deg;.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Firing angle of rectifier is 152.27&deg;</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/7e/7e6e5a4c4d7f4deb78be.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MSQ": 4,
+   "MCQ": 12,
+   "NAT": 17
+  },
+  "withoutKey": 0
+ }
+}

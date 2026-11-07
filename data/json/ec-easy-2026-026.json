@@ -1,0 +1,997 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-026",
+ "title": "Subjectwise Test-12 Part Syllabus GATE 2026 EC COMPUTER ORGANISATION",
+ "sourceTitle": "Subjectwise Test-12 Part Syllabus GATE 2026 EC COMPUTER ORGANISATION",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 26,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/034_Subjectwise Test-12 Part Syllabus GATE 2026 EC COMPUTER ORGANISATION.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p><strong>List-I</strong> (special values) with <strong>List-II</strong> Floating point representation as shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/38/38b33cbae2cacd1e2849.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c6/c67f2b6ef2c0d36c5ed0.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n(i) In Von-Neumann architecture, program is always required in the main-memory.<br />\n(ii) In Harvard architecture, program is predefined in the code memory (ROM) and data is stored<br />\nin the data memory (RAM) separately.<br />\nWhich of the above statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(i) only"
+    },
+    {
+     "key": "B",
+     "html": "(ii) only"
+    },
+    {
+     "key": "C",
+     "html": "(i) and (ii)"
+    },
+    {
+     "key": "D",
+     "html": "None"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nThe von Neumann architecture uses a single memory space for both instructions and data whereas<br />\nin Harvard architecture, there are separate buses for both instruction and data. Hence, both the<br />\nstatements are correct.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Among Hardwired, horizontal and vertical micro-programmed control architecture, which is the fastest?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Hardwired Architecture"
+    },
+    {
+     "key": "B",
+     "html": "Vertical Microprogrammed Architecture"
+    },
+    {
+     "key": "C",
+     "html": "Horizontal Microprogrammed Architecture"
+    },
+    {
+     "key": "D",
+     "html": "both (a) and (b)"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nA hardwired control unit is faster because it directly generates control signals using hardware,<br />\nwhile the micro-programmed control unit is slower because of the time it takes to fetch<br />\nmicroinstructions from the control memory.<br />\nSpeed : Hardwired architecture &gt; Horizontal micro-programmed architecture &gt; Vertical<br />\nmicro-programmed architecture</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A processor has a word length of 16 bits. If the memory is byte-addressable, how many address lines are required to access 4 kB memory?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10"
+    },
+    {
+     "key": "B",
+     "html": "11"
+    },
+    {
+     "key": "C",
+     "html": "12"
+    },
+    {
+     "key": "D",
+     "html": "13"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/30/30e144bbfcdd48050804.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Which one of the following is NOT a hazard in pipelining?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Structural hazard"
+    },
+    {
+     "key": "B",
+     "html": "Data Hazard"
+    },
+    {
+     "key": "C",
+     "html": "Control Hazard"
+    },
+    {
+     "key": "D",
+     "html": "Capacity Hazard"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\n&bull; Standard hazards are structural, data and control hazard. &ldquo;Capacity hazard&rdquo; is not a type of<br />\npipeline hazard.<br />\n&bull; Structural hazards occur when two or more instructions simultaneously require the same<br />\nhardware resources.<br />\n&bull; Data Hazard occurs when an instruction depends on the result of a previous instruction that<br />\nhas not yet completed.<br />\n&bull; A control hazard, often referred to as a branch hazard, happens when the pipeline incorrectly<br />\npredicts a branch, leading to unnecessary instructions.</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Which of the following are the characteristics of the deadlock?<br />\n1. Mutual exclusion<br />\n2. Hold and wait<br />\n3. No pre-emption<br />\n4. Circular wait</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 2, and 4 only"
+    },
+    {
+     "key": "B",
+     "html": "2, 3, and 4 only"
+    },
+    {
+     "key": "C",
+     "html": "3 and 4 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2, 3 and 4"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nDeadlock is a situation where the execution of two or more processes is blocked because each<br />\nprocess holds some resource and waits for another resource held by some other process. The<br />\nnecessary conditions for deadlock to occur are:<br />\n&bull; Mutual Exclusion: There must exist at least one resource in the system which can be used by<br />\nonly one process at a time.<br />\n&bull; Hold and Wait: There must exist a process which holds some resource and waits for another<br />\nresource held by some other process.<br />\n&bull; No pre-emption: A resource cannot be preempted from a process by force. A process can only<br />\nrelease a resource voluntarily.<br />\n&bull; Circular Wait: A process is waiting for the resource held by the second process, which is<br />\nwaiting for the resource held by the third process and so on, till the last process is waiting for<br />\na resource held by the first process. This forms a circular chain.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Which of the following is <strong>not </strong>a type of machine instruction?<br />\n1. Data transfer instruction.<br />\n2. Data manipulation instruction.<br />\n3. Program control instruction.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "3 only"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nTypes of machine instructions:<br />\n1. Data transfer instruction: MOVE, LOAD, STORE, etc.<br />\n2. Data manipulation instruction (computation): Arithmetic, logical, shift and rotate instructions.<br />\n3. Program control instruction: JUMP, CALL, etc.</p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Microprogrammed control unit uses fixed logic to interpret instructions.<br />\n<em>S</em><sub>2</sub> : Horizontal microprogramming needs signal decoders as like vertical microprogramming.<br />\nWhich of the following options is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> are correct"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>1</sub> is correct"
+    },
+    {
+     "key": "C",
+     "html": "Only <em>S</em><sub>2</sub> is correct"
+    },
+    {
+     "key": "D",
+     "html": "None of <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> is correct"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nHardwired control unit uses fixed logic circuits to interpret instructions and generate appropriate<br />\ncontrol signals. Micro-programmed control unit is flexible in nature as a code is used to generate<br />\nthe control signals.<br />\nSince, the control signals in horizontal microprogram control unit are not encoded, 1 bit is required<br />\nper control signal. Hence, no signal decoder is needed unlike vertical microprogramming which<br />\nuses encoded control signals.</p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A hypothetical memory with access time and hit ratio is shown below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b0/b09fdf3de46130c3197e.png\" /></div>\n\n<div>For the simultaneous access, average access time is 4.6 μsec, then the access time of secondary memory is ________ μsec</div>\n\n<div>(rounded upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    348,
+    349
+   ],
+   "answerText": "348.23",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>348.23 (348.00 - 349.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/16/16e2c05677a642d87295.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>To represent (–256)<sub>10</sub> in 2’s complement signed number system, the minimum number of bits required is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>9 (9 - 9)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d5/d57f767daeb9760ac106.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A hypothetical CPU executes a program having ‘<em>n</em>’ instructions, where each instruction requires <img align=\"absmiddle\" alt=\"\" src=\"media/b3/b392aac2960a3130843a.png\" /> clock cycles. If the program is executed 3 times, the execution time is 0.6 ms. Then number of clock cycles required for execution of each instruction is _________ clock cycles. (Assume frequency of clock is half of crystal frequency and crystal frequency is 4 MHz)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>4 (4 - 4)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b5/b502d7a1fcd6b8cb4e16.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A 5 stage pipeline with the stages taking 1, 1, 3, 1, 1 units of time has a throughput of ________ instructions per unit time. (rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.3,
+    0.4
+   ],
+   "answerText": "0.33",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.33 (0.30 - 0.40)</p>\n\n<p>(Execution Time)<sub>pipeline</sub> = max (1,1,3,1,1) = 3 units. On average, one instruction is completed every<br />\n3 units of time, hence, resulting in a throughput of 1/3 = 0.33 instructions per time unit.</p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider a 5-stage pipeline with stage delays as 100, 120, 160, 180 and 200 ns respectively. Registers that are used between every two stages have a delay of 5 ns each. If clock frequency is 0.5 MHz, then the total time taken to process 1000 data items on this pipeline will be _______ (in μsec).<br />\n(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    204,
+    206
+   ],
+   "answerText": "205.82",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>205.82 (204.00 - 206.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f0ba2db3525a8c88c321.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the following set of processes, with arrival time and CPU burst time given in msec.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2e/2e80705c55941cef7ba8.png\" /></div>\n\n<div>Then the average turnaround time for these processes with the pre-emptive shortest remaining time first (SRTF) scheduling algorithm is equal to ______ msec. (rounded upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    6
+   ],
+   "answerText": "5.50",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>5.50 (5.00 - 6.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/db/dbd8d685e9e011ece3a2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Which of the following scheduling algorithms may cause starvation??</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Short remaining time first (SRTF)"
+    },
+    {
+     "key": "B",
+     "html": "Round Robin Scheduling"
+    },
+    {
+     "key": "C",
+     "html": "Shortest Job First (SJF)"
+    },
+    {
+     "key": "D",
+     "html": "First in First out"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)<br />\nIn SJF, SRTF starration may occur. In the shortest remaining time first scheduling algorithm, the<br />\nprocess with the shortest remaining time gets the CPU next. However, if short processes keep<br />\ncoming, a long process may never get the CPU, causing starvation. Also, in shortest job first, if<br />\nnew, shorter jobs are consistently arriving, a long-running job might never get the CPU, leading<br />\nto starvation.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the following statements:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Starvation: Starvation is a situation where a process never gets the CPU (or resource) indefinitely because scheduling keeps favoring other processes."
+    },
+    {
+     "key": "B",
+     "html": "Convoy effect: Convoy effect is a situation where many processes get delayed because one long process is ahead of them."
+    },
+    {
+     "key": "C",
+     "html": "In FCFS scheduling, starvation may occur."
+    },
+    {
+     "key": "D",
+     "html": "In FCFS scheduling, convoy effect may occur."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)<br />\n&bull; Starvation occurs when a low-priority process keeps waiting indefinitely because higherpriority<br />\nprocesses continuously get the CPU.<br />\n&bull; The convoy effect in First-Come-First-Serve (FCFS) scheduling arises when shorter processes<br />\nare delayed by longer ones in the queue.<br />\n&bull; First-Come, First-Serve (FCFS) scheduling guarantees that every process will eventually be<br />\nserved in the order it arrives, ensuring no process is starved.<br />\nHence, options (a), (b) and (d) are correct.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following process table with arrival time and CPU Burst time given in msec.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/15/15348eae90914a9cb8e9.png\" /></div>\n\n<div> </div>\n\n<div>Given <em>T<sub>Q</sub></em> = 3 msec, then the average waiting time using Round Robin scheduling is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "25 msec"
+    },
+    {
+     "key": "B",
+     "html": "7.5 msec"
+    },
+    {
+     "key": "C",
+     "html": "11 msec"
+    },
+    {
+     "key": "D",
+     "html": "9.5 msec"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7c/7c03f79f0d0949f38fdc.png\" /></div>\n\n<div><img alt=\"\" src=\"media/7b/7baba943a6d535f9f137.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Vertical microprogrammed organisation is highly encoded schemes that use compact codes to<br />\nspecify only a small number of control functions in each micro-instruction.<br />\n2. Hardwired control unit are faster than microprogrammed ones. They are used in RISCs.<br />\n3. Microprogram is also called as firmware.<br />\nWhich of the following statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "3 only"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\n&bull; In Vertical micro-programmed control unit, the control signals are represented in the encoded<br />\nbinary format. Here, &lsquo;n&rsquo; control signals require log<sub>2</sub><em>n</em> bits.<br />\n&bull; Hardwired control unit generate control signals directly using dedicated logic circuits, rather than<br />\nrelying on microcode stored in memory. Hence, they are faster than microprogrammed control<br />\nunits. RISC processors, with their simpler instruction format, typically use hardwired control units.<br />\n&bull; A microprogram consisting of the set of microinstructions is often referred to as firmware.</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The speed up gained by an ‘<em>n</em>’ segment pipeline executing ‘<em>m</em>’ tasks is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/c9/c974736975ca238fbcdc.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/8c/8ca9af364fabaae7c58c.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/83/83afe4899486bfaa3f4d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/76/76110ef4ff59a84bb19e.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d5/d5c4000e767ad86a8d0d.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>If machine A runs a program in 20 seconds and machine <em>B</em> runs the same program in 30 seconds,<br />\nwhich of the following statement(s) is/are correct?<br />\n1. <em>A</em> is 50% faster than <em>B</em>.<br />\n2. <em>B</em> is 25% slower than <em>A</em>.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/89/8944bc009fc55bdb38ad.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>In the <em>IEEE</em> floating point representation, the hexadecimal value 0×00000000 corresponds to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "the hexadecimal value 2<sup>–127</sup>."
+    },
+    {
+     "key": "B",
+     "html": "the normalized value 2<sup>–126</sup>."
+    },
+    {
+     "key": "C",
+     "html": "the normalized value +0."
+    },
+    {
+     "key": "D",
+     "html": "the special value +0."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f7/f7ab6eb2cccbe10c49b9.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>With a single resource, deadlock occurs</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "If there are more than two processes competing for that resource."
+    },
+    {
+     "key": "B",
+     "html": "If there are only two processes competing for that resource."
+    },
+    {
+     "key": "C",
+     "html": "If there is a single process competing for that resource."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nDeadlock is a situation where the execution of two or more processes is blocked because each<br />\nprocess holds some resource and waits for another resource held by some other process. For a<br />\nsingle resource, the necessary conditions of hold and wait and circular wait are not met. Therefore,<br />\ndeadlock will never occur for a single resource.</p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A compiler is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a program that places programmes into memory and prepares them for execution."
+    },
+    {
+     "key": "B",
+     "html": "a program that automates the translation of assembly language into machine language."
+    },
+    {
+     "key": "C",
+     "html": "a program that accepts a program written in a high level language and produces an object program."
+    },
+    {
+     "key": "D",
+     "html": "A program that appears to execute a source program as if it were machine language."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nA compiler is a software program that accepts a program written in a high level language and<br />\ngenerate object code (machine code). Thereafter, a linker links several object files to generate an<br />\nexecutable file.</p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following statements are correct regarding CISC?<br />\n1. Programs in CISC architecture take less space in memory.<br />\n2. It is used in personal applications.<br />\n3. It uses microprogrammed CPU.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\n&bull; CISC architecture aims to reduce the number of instructions per program while increasing the<br />\nnumber of cycles per instruction. Hence, programs in CISC architecture takes less space in<br />\nmemory.<br />\n&bull; RISC is used in high-end applications like video processing, telecommunications, and image<br />\nprocessing whereas CISC is used in low-end applications such as personal applications.<br />\n&bull; CISC processor uses microprogrammed control unit as compared to hardwired control unit<br />\nused in RISC.</p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A benchmark has 100 instructions out of which:<br />\n• 25 instructions are loads/stores (each take 2 cycles)<br />\n• 50 instructions are adds (each take 1 cycle)<br />\n• 25 instructions are square root (each take 100 cycles)<br />\nThen CPI for this benchmark is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    26,
+    26
+   ],
+   "answerText": "26",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>26 (26 - 26)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9d/9d9de03bb37ae2a7fb5e.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A computer has 180 different operations. Word size is 5 bytes and one word instructions requires two address fields: one address for register and one address for memory. If there are 47 registers, then the memory size is ________ (in MB).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    64,
+    64
+   ],
+   "answerText": "64",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>64 (64 - 64)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ab/ab27c8e01fd9f375218c.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider a <em>K</em>-way set associative cache consisting of 128 lines with line size of 64 words. The number of bits in the TAG, SET and Word Offset fields are 9, 5 and 6 bits respectively. If CPU generates 20 bits address of a word, then value of <em>K</em> is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4 (4 - 4)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fa/faa5ef63c337912e122d.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider a machine with a byte addressable main memory of 256 MB, block size of 128 bytes and 8-way set associative cache of size 64 kB. For the memory location (AB01C23)<sub>H </sub>accessed by the CPU, the tag field of the corresponding cache line is ________ in Hexadecimal.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3380,
+    3380
+   ],
+   "answerText": "3380",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3380 (3380 - 3380)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f7/f7ebb3162a3b7fb88c82.png\" /></div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1d/1db5b0c3cbda0fc76d37.png\" /></div>\n</div>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following set of processes that need to be scheduled on a single CPU.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/70/707a243d1b75a6f9af7e.png\" /></div>\n\n<div> </div>\n\n<div>If SRTF CPU scheduling is used, the waiting time for process <em>P</em><sub>4</sub> is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0 (0 - 0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d4/d41a8b0f551b85edee81.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A disk rotates at a speed of 3600 rpm. It has 4000 cylinders, 16 surfaces and 206 sectors per track.<br />\nTrack storage capacity is 2048 bytes. The average latency time is _________ msec. (rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8.3,
+    8.5
+   ],
+   "answerText": "8.33",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>8.33 (8.30 - 8.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/21/214663b341302b1d746d.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following reference string:<br />\n7, 0, 6, 1, 7, 2, 0, 6, 1, 7, 2, 6, 3, 2<br />\nAssume optimal page replacement policy is used and the system uses 3 page frames. The page references left at the end in the frame (i.e., <img align=\"absmiddle\" alt=\"\" src=\"media/65/656513f738fb49ab7c60.png\" /> = 123) for the above string is ________. (Assume that frame has initially 0, 2, 3).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    263,
+    263
+   ],
+   "answerText": "263",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>263 (263 - 263)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7a/7a86ca3ef51f5a714db3.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A 4-way set associative cache memory consists of 128 blocks. The main memory consists of 32768 memory blocks and each block contain 512 eight bit words. Which of the following option(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Number of bits required to represent TAG is 10."
+    },
+    {
+     "key": "B",
+     "html": "Number of bits required to represent SET offset is 5."
+    },
+    {
+     "key": "C",
+     "html": "Number of bits required to represent word offset is 10."
+    },
+    {
+     "key": "D",
+     "html": "Number of bits required to represent word offset is 4."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c9/c9beb90a2ea56b74c26c.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Which of the following statements about floating-point representation are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The bias value in a single-precision IEEE 754 format is 127."
+    },
+    {
+     "key": "B",
+     "html": "A denormalized number has a biased exponent of zero."
+    },
+    {
+     "key": "C",
+     "html": "The mantissa of a normalized floating point number always starts with 1."
+    },
+    {
+     "key": "D",
+     "html": "The IEEE 754 format uses sign-bit to represent the sign of the floating point number."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c, d)<br />\n&bull; In the single-precision IEEE 754 format, the exponent is stored using a bias value of 127. The<br />\nactual exponent E is calculated as:<br />\nE = Stored exponent-127<br />\n&bull; Denormalized numbers are used to represent values closer to zero. Denormalized (or<br />\nsubnormal) numbers are represented with a biased exponent of all 0 bits, which represents an<br />\nexponent of &ndash;126.<br />\n&bull; For normalized number in IEEE 754, the mantissa (fraction) always has an implicit leading 1.<br />\ne.g. if the mantissa is stored as xxxxx, it is interpreted as 1.xxxxx<br />\n&bull; The sign bit in IEEE 754 represents the sign of the number, with 0 indicating positive and 1 indicating negative number.<br />\nThus, all the options are correct.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "NAT": 13,
+   "MSQ": 4
+  },
+  "withoutKey": 0
+ }
+}

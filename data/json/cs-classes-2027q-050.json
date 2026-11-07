@@ -1,0 +1,379 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-050",
+ "title": "DVRUO Classes GATE CS/DA | DBMS | SQL | Weekly Quiz 11",
+ "sourceTitle": "DVRUO Classes GATE CS/DA | DBMS | SQL | Weekly Quiz 11",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 50,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1620,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/066_exam_996_GO Classes GATE CS-DA DBMS SQL Weekly Quiz 11.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given the following table \"scores\".<br><img alt=\"\" src=\"media/98/98520f4c19e23b742817.png\"><br>&nbsp;</p><p>What is the result of the following SQL query:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT Score1, Score2 FROM Scores;</pre><p>Which of the following rows is/are in the answer?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(1,2)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(5,3)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(8,6)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(6,4)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522410\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{B}$</p><p>The output of the query is&nbsp;</p><table border=\"1\" cellpadding=\"1\" style=\"border-spacing: 1px; width: 111px;\"><tbody><tr><td><strong>Score1</strong></td><td><strong>Score2</strong></td></tr><tr><td>5</td><td>3</td></tr><tr><td>4</td><td>6</td></tr><tr><td>2</td><td>1</td></tr><tr><td>5</td><td>3</td></tr><tr><td>1</td><td>6</td></tr><tr><td>8</td><td>12</td></tr></tbody></table><p>&nbsp;</p><p>Only $(5,3)$ is present from the given options.</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"430986\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=257s\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=257s </a></strong></p></div></section></div><p><a href=\"https://gateoverflow.in/430985\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given the following table Scores(Team, Opponent, RunsFor, RunsAgainst) and query.</p><p><img alt=\"\" width=\"450\" height=\"350\" src=\"media/ed/eddafe1878cf0a32a2aa.jpg\"><br>&nbsp;</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT * FROM Scores WHERE RunsFor &gt; 5</pre><p>Which tuple is in the result?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(Swallows, Carp, 6, 4)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(Swallows, Carp, 4)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(12)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Empty Table</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522411\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed A$</p><p>The query will output all enteries where RunsFor column has value greater than $5$.</p><table border=\"1\" cellpadding=\"1\" style=\"border-spacing: 1px; width: 392px;\"><tbody><tr><td><strong>Team</strong></td><td><strong>Opponent</strong></td><td><strong>RunsFor</strong></td><td><strong>RunsAgainst</strong></td></tr><tr><td>Lions</td><td>Golden Eagles</td><td>8</td><td>12</td></tr><tr><td>Swallows</td><td>Carp</td><td>6</td><td>4</td></tr><tr><td>Buffaloes</td><td>Ham Fighters</td><td>6</td><td>1</td></tr><tr><td>Golden Eagles</td><td>Lions</td><td>12</td><td>8</td></tr></tbody></table><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"430984\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=346s\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=346s</a></p></div></section></div><p><a href=\"https://gateoverflow.in/430983\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relation: Scores(Team, Opponent, RunsFor, RunsAgainst) and the query:<br><img alt=\"\" width=\"539\" height=\"658\" src=\"media/d2/d26e15ffa2093efbe061.png\"><br>&nbsp;</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT DISTINCT Team, RunsFor FROM Scores;</pre><p>Which is true:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1 appears once</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>5 appears twice</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>6 appears 4 times</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All are true.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522413\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed B$</p><p>The query will reutrn tuples in which there is Distinct value of Team.&nbsp;</p><table border=\"1\" cellpadding=\"1\" style=\"border-spacing: 1px; width: 120px;\"><tbody><tr><td><strong>Teams</strong></td><td><strong>RunsFor</strong></td></tr><tr><td>Dragons</td><td>5</td></tr><tr><td>Carp</td><td>4</td></tr><tr><td>Bay Stars</td><td>2</td></tr><tr><td>Marins</td><td>5</td></tr><tr><td>Ham Fighters</td><td>1</td></tr><tr><td>Lions</td><td>8</td></tr><tr><td>Tigers</td><td>3</td></tr><tr><td>Swallows</td><td>6</td></tr><tr><td>Giants</td><td>1</td></tr><tr><td>Hawks</td><td>3</td></tr><tr><td>Buffaloes</td><td>6</td></tr><tr><td>Golden Eagles</td><td>12</td></tr></tbody></table><p>&nbsp;</p><p>$1$ appears twice hence option $A$ is False.</p><p>$5$ appears twice hence option $B$ is True</p><p>$6$ appears twice hence option C is False.</p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"430982\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=1374s\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=1374s</a></p></div></section></div><p><a href=\"https://gateoverflow.in/430981\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" src=\"media/a7/a7574900df938a5e3b57.png\"><br>Determine the result of:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT COUNT(*), COUNT(Runs)\nFROM Scores\nWHERE Team = 'Carp'</pre><p>Which of the following is in the result:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(1,0)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(2,0)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(2,\\text{NULL})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(0,0)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522415\"></a><div itemprop=\"text\">Answer is option $\\boxed B$<br>\n<br>\nCount(*) will always retunrs the number of tuples irrespective of value in it . <br>\n<br>\nCount(Runs) will return $0$ on NULL.<br>\n<br>\nHence the query will return $(2,NULL)$</div></section><section><h4>Source solution 2 <small>(score: 6)</small></h4><a name=\"430980\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=5468s\" target=\"_blank\">Detailed Video Explanation with Complete Analysis (Click HERE)</a></p></div></section></div><p><a href=\"https://gateoverflow.in/430979\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given:<br><img alt=\"\" src=\"media/51/51697535f6eadc4536b8.png\"><br>Compute:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT R.A, R.B, S.B, S.C, S.D\nFROM R FULL OUTER JOIN S ON (R.A &gt; S.B AND R.B = S.C)</pre><p>Which of the following tuples of $R$ or $S$ is/are dangling (and therefore needs to be padded in the outer join)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(1,2)$ of $R$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(3,4)$ of $R$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(2,4,6)$ of $S$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(4,7,9)$ of $S$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522419\"></a><div itemprop=\"text\">Answer is option $\\boxed{B,D}$<br>\n<br>\nOuter join can be conditoinal or natural , in this case it is conditional. <br>\n<br>\n&nbsp;Given Condition is ( $R.A&gt;S.B$ AND $R.B=S.C$ )<br>\n<br>\n1. $R(1,2)$: in $S$ none of $2,4$ and $6$ smaller than $1$. Hence its dangling tuple.<br>\n<br>\n2. $R(3,4)$: only tuple $S(2,4,6)$ satisfy the given condition.<br>\n<br>\n3. $R(5,6)$: only tuple $S(4,6,8)$ satify the given conditon.<br>\n<br>\n$$<br>\n\\begin{array}{|c|c|c|c|c|}<br>\n\\hline<br>\nR.A &amp; R.B &amp; S.B &amp; S.C &amp; S.D \\\\<br>\n\\hline<br>\n1 &amp; 2 &amp; \\text{NULL} &amp; \\text{NULL} &amp; \\text{NULL} \\\\<br>\n3 &amp; 4 &amp; 2 &amp; 4 &amp; 6 \\\\<br>\n5 &amp; 6 &amp; 4 &amp; 6 &amp; 8 \\\\<br>\n\\text{NULL} &amp; \\text{NULL} &amp; 4 &amp; 7 &amp; 9 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\n<br>\n$S(4,7,9)$ and $R(1,2)$ are dangling tuples.</div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"430978\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=5531\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=5531</a></p></div></section></div><p><a href=\"https://gateoverflow.in/430977\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" width=\"642\" height=\"220\" src=\"media/a7/a7c0c24a08c2a204af00.png\"><br>Compute the results.<br>Which of the following is/are true:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(0,1,1,0)$ appears twice.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(1,1,0,1)$ does not appear.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(1,1,1,0)$ appears once.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(1,1,1,1)$ does not appear.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522448\"></a><div itemprop=\"text\">Answer is option $\\boxed{A,D}$<br>\n<br>\n$R(a,b)=S(a,b)=T(a,b)=\\{(0,0),(0,1),(1,0),(1,1)\\}$<br>\n<br>\n$\\textbf{Query:}$<br>\n<br>\n$\\text{SELECT } R.a, R.b, S.b, T.b$<br>\n<br>\n$\\text{FROM } R,S,T$<br>\n<br>\n$\\text{WHERE } R.b = S.a \\text{ AND } S.b \\ne T.b$<br>\n<br>\nOutput Query would be :<br>\n<br>\n$$<br>\n\\begin{array}{|c|c|c|c|}<br>\n\\hline<br>\nR.a &amp; R.b &amp; S.b &amp; T.b \\\\<br>\n\\hline<br>\n0 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n0 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n0 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n0 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\n<br>\n$\\textbf{Total tuples = 16}$</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"430976\"></a><div itemprop=\"text\">Exp:<br>\nDetailed Video Solution: <a href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=463s\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=463s</a></div></section></div><p><a href=\"https://gateoverflow.in/430975\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" width=\"664\" height=\"213\" src=\"media/e1/e1d0cc869ac6b3aebe72.png\"><br>Compute the results.<br>The number of tuples in the output is?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522449\"></a><div itemprop=\"text\">Answer is option $\\boxed{16}$<br>\n<br>\n$<br>\nR(a,b)=S(a,b)=T(a,b)=\\{(0,0),(0,1),(1,0),(1,1)\\}<br>\n$<br>\n<br>\n$<br>\n\\textbf{Query:}<br>\n$<br>\n<br>\n$<br>\n\\text{SELECT } R.a, R.b, S.b, T.b<br>\n$<br>\n<br>\n$<br>\n\\text{FROM } R,S,T<br>\n$<br>\n<br>\n$<br>\n\\text{WHERE } R.b = S.a \\text{ AND } S.b \\ne T.b<br>\n$<br>\n<br>\nOutput Query would be :<br>\n<br>\n$<br>\n\\begin{array}{|c|c|c|c|}<br>\n\\hline<br>\nR.a &amp; R.b &amp; S.b &amp; T.b \\\\<br>\n\\hline<br>\n0 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n0 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 0 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 0 &amp; 1 &amp; 0 \\\\<br>\n0 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n0 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n0 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 1 &amp; 0 &amp; 1 \\\\<br>\n1 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n1 &amp; 1 &amp; 1 &amp; 0 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$<br>\n<br>\n$<br>\n\\textbf{Total tuples = 16}<br>\n$</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"430974\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution</strong>:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=463s\" target=\"_blank\">Detailed Video Explanation (Click HERE) - With TimeStamp</a></p></div></section></div><p><a href=\"https://gateoverflow.in/430973\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Relation R has schema $\\mathrm{R}(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})$.</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT a, b, c\nFROM R\nORDER BY c DESC, b ASC;</pre><p>In the result of the above query, what condition must a tuple $t$ satisfy so that t necessarily precedes the tuple $(5,5,5)$ ?<br>Identify such tuples from the list below.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(3,6,3)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(1,5,5)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(5,5,6)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(3,3,5)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522450\"></a><div itemprop=\"text\">Anwer is option $\\boxed{C,D}$<br>\n<br>\n$<br>\n\\text{DESC C and ASC B.}<br>\n$<br>\n<br>\n$<br>\n(5,5,6)<br>\n$<br>\n<br>\nNow both $(3,3,5)$ and $(1,5,5)$ has equal value of $C$. So we will choose tuple with lesser value of attribute $B$. Why? coz tuples are ordered in ascending order based on attribute $B$<br>\n&nbsp;<br>\n<br>\n$<br>\n(5,5,6)<br>\n$<br>\n<br>\n$<br>\n(3,3,5)<br>\n$<br>\n<br>\n$<br>\n(1,5,5)<br>\n$<br>\n<br>\n$<br>\n(3,6,3)<br>\n$<br>\n<br>\nNow $ (5,5,5)$ can come after $(1,5,5)$ or before $(1,5,5)$<br>\n<br>\nQuestion uses the words `necessarily' therefore we only include $(5,5,6)$ and $(3,3,5)$<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 6)</small></h4><a name=\"430972\"></a><div itemprop=\"text\">Exp:<br>\nDetailed Video Solution: <a href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=1473s\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=1473s</a></div></section></div><p><a href=\"https://gateoverflow.in/430971\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following SQL query:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT DISTINCT s1.sname, s1.age\nFROM student s1, student s2\nWHERE s1.age &gt; s2.age</pre><p>This query returns<br>A: The name and age of one of the oldest student(s)<br>B: The name and age of all of the oldest student(s)<br>C : The name and age of all of the youngest student(s)<br>D: The name and age of all students that are older than the youngest student(s)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"522529\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed D$<br><br>The condition $s1.age&gt;s2.age$ check for every &nbsp;$s1$ row there exists some $s2$ row where &nbsp;$s2.age$ is smaller. Only $s1$ with smallest age will not have entry in the output table.</p><p>Video Solution:&nbsp; <a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=2103s\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=2103s</a></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"430970\"></a><div itemprop=\"text\">Exp:<br>\nDetailed Video Solution: <a href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=2103s\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=2103s</a></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"452851\"></a><div itemprop=\"text\"><a href=\"https://youtu.be/5O9Hk46boGI?t=2097\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/5O9Hk46boGI?t=2097</a></div></section></div><p><a href=\"https://gateoverflow.in/430969\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" width=\"69\" height=\"170\" src=\"media/93/93bd987cff9271bdc6fa.png\"><br>Compute the result of the following query on the above table $Arc(x,y)$:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT a1.x, a2.y, COUNT(*)\nFROM Arc a1, Arc a2\nWHERE a1.y = a2.x\nGROUP BY a1.x, a2.y</pre><p>The number of tuples in the output is?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 1</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"522527\"></a><div itemprop=\"text\"><p>Answer would be $\\boxed{6}$</p><p><img alt=\"\" width=\"208\" height=\"281\" src=\"media/3d/3dd9aecf74d88f734f61.jpg\"></p><p>Given condition is $ \\text{WHERE } a1.y = a2.x $ and we are also grouping based on $\\text{GROUP BY} a1.x,a2.y$.&nbsp;</p><p>Lets do it tuple by tuple.&nbsp;</p><p>$a1(1,2)$ satisfy the given condition with $a2(2,3)$ only therefore count value will be $1$ against&nbsp; group $(1,3)$</p><p>Again we have&nbsp;$a1(1,2)$ count value will become $2$ against group $(1,3)$</p><p>$a1(2,3)$ satisfy the given condition with $a2(3,4)$ and&nbsp;$a2(3,4)$ count of group&nbsp;$(2,4)$&nbsp; is $2$</p><p>$a1(3,4)$ matched with&nbsp;$a2(4,1)$ and&nbsp;$a2(4,2)$ count of group $(3,1)=3$ and group $(3,2)=1$</p><p>Again we have&nbsp;$a1(3,4)$&nbsp; count of group will become&nbsp;$(3,1)=6$ and $(3,2)=2$</p><p>$a1(4,1)$ will match with $a2(1,2)$ so count of group $(4,2)=2$&nbsp;</p><p>we have&nbsp;$a1(4,1)$ 2 more time therefore&nbsp;count of group $(4,2)$ becomes $6$.</p><p>Now at last we have $a1(4,2)$ which matches with $a2(2,3)$ therefore count of&nbsp; group $(4,3)=1$</p><p>Here is the final output of the table.&nbsp;</p><p><span class=\"katex-display\"><span class=\"katex\"><span class=\"katex-mathml\">\\begin{array}{|c|c|c|} \\hline a1.x &amp; a2.y &amp; COUNT(*) \\\\ \\hline 1 &amp; 3 &amp; 2 \\\\ 2 &amp; 4 &amp; 2 \\\\ 3 &amp; 1 &amp; 6 \\\\ 3 &amp; 2 &amp; 2 \\\\ 4 &amp; 2 &amp; 6 \\\\ 4 &amp; 3 &amp; 1 \\\\ \\hline \\end{array}</span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"mord\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\"><span><span class=\"mtable\"><span class=\"col-align-c\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist-s\">​</span></span></span></span></span></span></span><span class=\"vlist-s\">​</span></span></span></span></span></span></span></span></p></div></section><section><h4>Source solution 2 <small>(score: 6)</small></h4><a name=\"430968\"></a><div itemprop=\"text\">Exp:<br>\nDetailed Video Solution: <a href=\"https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=2671s\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=5O9Hk46boGI&amp;t=2671s</a></div></section></div><p><a href=\"https://gateoverflow.in/430967\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 11,
+  "types": {
+   "MSQ": 4,
+   "MCQ": 4,
+   "NAT": 2
+  },
+  "withoutKey": 2
+ }
+}

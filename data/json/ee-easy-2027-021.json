@@ -1,0 +1,1044 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-021",
+ "title": "GATE 2027-Subjectwise Test-5 (Engineering Mathematics)",
+ "sourceTitle": "GATE 2027-Subjectwise Test-5 (Engineering Mathematics)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 21,
+ "category": "subjectwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 33 | Marks: 50 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/034_GATE 2027-Subjectwise Test-5 (Engineering Mathematics).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>Each of the <em>n </em>urns contains 4 White and 6 black balls. The (<em>n </em>+ 1)<sup>th</sup> urn contains 5 White and 5&nbsp;black balls. One of the <em>n </em>+ 1 urns is chosen at random and two balls are drawn from it without&nbsp;replacement.&nbsp;<br>Both the balls turn out to be black. If the probability that the (<em>n </em>+ 1)<sup>th</sup> urn was chosen to draw the balls is 1/16 , then the value of <em>n </em>is</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10,
+    10
+   ],
+   "answerText": "10",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/59/59500bfa0fd62d025a33.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>Which of the following is/are NOT the square of a 3 &times; 3 matrix with real entries?</p>\n<p><img src=\"media/94/9418c60f37dacd007646.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C, A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/8f/8fc7e4499162330fd7d7.png\"></p>\n<p><img src=\"media/98/98d36f9e8fcb2abf6708.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/63/635368a6f48d904446ed.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>2, 4, &ndash;2, 3</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0, 3, 4, 0</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>2, 2, 2, 1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1, 1, 1, 4</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/b1/b11d108723b9cc232c96.png\"></p>\n<p><img src=\"media/26/264d14077b6049d1d7c4.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/e6/e6c5f8faa3a52434e540.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/6d/6d8c7301a969946d7353.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/86/86fed8379f4dc61b0904.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4.1
+   ],
+   "answerText": "4 - 4.1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/3b/3b08c32624509ebebb8b.png\"></p>\n<p><img src=\"media/07/07fc2aaf9bd49752fbcf.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The total work done in moving a particle in a force field</p>\n<p><img src=\"media/f2/f2ef407e66a3c42762f1.png\"></p>\n<p>along the straight line joining (0, 0, 0) to (1, 1, 1) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>13/3</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/e7/e7204dca5b07be56651e.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>3/13</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/38/38163e78e564cf1068a9.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/70/70b921b57caba279f0b5.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A random variable x has normal distribution with mean 100. If <em>P</em>(100 &lt; <em>X </em>&lt; 120) = &alpha; , then&nbsp;<em>P</em>(<em>X </em>&lt; 80) =</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1 - 2&alpha;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1 &ndash; &alpha;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1 - 2&alpha; / 2</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1 &ndash; &alpha; / 2</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/8e/8e8f05a7abc108a6d9e6.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/8e/8ea33b932d9d18fbb1e6.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/24/247f666e0636bda388b4.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/a1/a1579eed242bb8678db8.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/fd/fd0fbcdda0460e345cf9.png\"></p>\n<p><img src=\"media/a8/a807459d955519f35629.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/93/93f0dea4641e7bd0e66d.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/5a/5a2d60f39a8c090fcf4b.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/3f/3f3be1804ae7128dd6f9.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/1b/1b989b35a4367c58624d.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/db/dbfe34167bd8a93dfac8.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/00/00a976f69d10bf982ff6.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>9/2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>45/147</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>7/12</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>65/167</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/32/32c55a7b86560ccd4c7b.png\"></p>\n<p><img src=\"media/85/85a05b8cf4fe754e5d87.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/34/3481abde6e1c9f94bf93.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>-1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>7</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>4</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/4c/4c6dd90f872f0d3720b6.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/4a/4a792504fcc34bdc81ab.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/5f/5f42f8d8ca630ec64cc7.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/f1/f139fe5741e3fb31b2f6.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    23,
+    25
+   ],
+   "answerText": "23 - 25",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/83/83dceddebaf082438c71.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Let <em>X </em>be a random variable having probability density function</p>\n<p><img src=\"media/54/543a1f75cd3fab370903.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3/8</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>7/12</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>5/8</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1/4</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/eb/ebe2970621a567fc3e2a.png\"></p>\n<p><img src=\"media/cb/cb0d0926d3b5013b41dc.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/84/84664aa349e7c841c101.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>50</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>70</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>90</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>80</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/4d/4d27abbc2c9264653582.png\"></p>\n<p><img src=\"media/91/91cbc6acdbfe6dd49d24.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/bf/bf9851d0890027d448b5.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3/14</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4/5</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>14/17</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>17/28</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/99/99c631079b2af9d4cbf0.png\"></p>\n<p><img src=\"media/2e/2e1a32263716dc781723.png\"></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/0a/0a996fb9c41503bd45f4.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/2a/2a944bc464ff35dca219.png\"></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The eigenvectors of a 3 &times; 3 matrix <em>A </em>corresponding to eigen values 1,1,3 are [1,0,&minus;1]<sup><em>T</em></sup> , [0,1,&minus;1]<sup><em>T</em></sup>&nbsp;and [1,1,0]<sup><em>T</em></sup> respectively. The matrix <em>A </em>is</p>\n<p><img src=\"media/5c/5cfddd2881395aa6ace1.png\"></p>\n<p><img src=\"media/46/464fe4f5e62ed811862b.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/fb/fb8a3401b83b116f608f.png\"></p>\n<p><img src=\"media/6b/6b3ff998cae4811ce6eb.png\"></p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/e4/e450db0c03427b71c4ee.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/1a/1a2e57e5f557dec90c32.png\"></p>\n<p><img src=\"media/dc/dc51fabea6ba57c75654.png\"></p>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>The minimum number of times a fair coin needs to be tossed, so that the probability of getting&nbsp;atleast two heads is atleast 0.96, is _______</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/90/905746c4ca76836f5eda.png\"></p>\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>If the adjoint of a 3 &times; 3 matrix <em>P </em>is&nbsp;<br><img src=\"media/e4/e48c155b436c76ee744d.png\"><br>then the possible value(s) of the determinant of <em>P&nbsp;</em>is/are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&ndash;1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>2</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/30/30c99e8f510655f9dc47.png\"></p>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p><img src=\"media/d4/d43a9b8a3c515fda1e9a.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/f0/f0c9a9cb556f9120c3da.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/96/96dc5648cf7b00e3d070.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/b8/b841533d461cdd036e2e.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/ff/ff6029626b1d04cf39dc.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/8c/8c372ecfb3d76f3369d2.png\"></p>\n<p><img src=\"media/14/14f2514834604eacc925.png\"></p>\n<p><img src=\"media/81/81b6d38c53d1f388327e.png\"></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/dd/dddadf44810b570f36a4.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>5</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>3</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>2</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/0e/0e6725b991f5a87604a4.png\"></p>\n<p><img src=\"media/49/4936fa1437c0ba3148f3.png\"></p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/0b/0b64b9fbf7487641e440.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    98,
+    102
+   ],
+   "answerText": "98 - 102",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/9f/9fac3f2579497b13ee53.png\"></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/32/32172bc248786b7b4d6a.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/81/81fc7f9983742846a212.png\"></p>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/62/62ffd2704f9ac45b0cb5.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.125,
+    0.145
+   ],
+   "answerText": "0.125 - 0.145",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/2b/2bb9c0bd48c14a302d4e.png\"></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/b8/b8898916b9948f3ea223.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><em>a </em>= 1, <em>b </em>= 1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><em>a </em>= 1, <em>b </em>= 2</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><em>a </em>= -1, <em>b </em>= 1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><em>a </em>= 2, <em>b </em>= 1</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/b5/b55f520c6d20a9616c4d.png\"></p>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/db/db02122443fce4108ff8.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    11,
+    11
+   ],
+   "answerText": "11",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/a7/a76eb8b401f6688710f9.png\"></p>\n<p><img src=\"media/91/91ae1e173513aaee7a2e.png\"></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/f6/f6d41a725b88cb40e5e1.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.305,
+    0.318
+   ],
+   "answerText": "0.305 - 0.318",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>&nbsp;</p>\n<p><img src=\"media/2b/2b6fb27aa8c32aab332e.png\"></p>\n<p><img src=\"media/d0/d03ca9a74894c37b780a.png\"></p>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>Let <em>R </em>be a region of <em>xy </em>plane enclosed by the two curves. Which of the following expression does&nbsp;represent the area of the region <em>R</em>?</p>\n<p><img src=\"media/bc/bc9711560e6463d4bc6a.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/23/23c2e679a9c986cb6755.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/ce/ce194e7ccdd4b7ab702b.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/5e/5e6c9397e8fac827ed28.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/a6/a62cfea889c465ce8b8d.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b1/b192a0ffbc60768e16a9.png\"></p>\n<p><img src=\"media/7d/7de7e93c791a33c0f551.png\"></p>\n<p><img src=\"media/d7/d745e389b23fb33646e5.png\"></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Let <em>f</em><sub>1</sub>(<em>z</em>) = <em>z</em><sup>3</sup> and<em> f</em><sub>2</sub>(<em>z</em>) = ln<em>z</em> be two complex variable functions, then</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/ba/ba39d8bcd52e767f0f8f.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/b7/b71e9559abaed74aee06.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/c0/c0fa71ea84a434765f6f.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/92/92679109e7380121bcd6.png\"></p>\n<p><img src=\"media/98/98c9b8df7a9e854b6a3c.png\"></p>\n<p><img src=\"media/ed/ed8704258a5e6f543e03.png\"></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>If the lines of regression are:</p>\n<p><img src=\"media/40/4017c85bc2ec710fb186.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.6,
+    0.7
+   ],
+   "answerText": "0.6 - 0.7",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/7f/7f6cae8216f4e0d5b35a.png\"></p>\n<p><img src=\"media/03/0302d47fc8f4d1a1e223.png\"></p>\n<p><img src=\"media/30/303b7994bef17351020a.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "NAT": 10,
+   "MSQ": 4,
+   "MCQ": 19
+  },
+  "withoutKey": 0
+ }
+}

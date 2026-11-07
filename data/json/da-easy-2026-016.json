@@ -1,0 +1,1000 @@
+{
+ "v": 1,
+ "id": "da-easy-2026-016",
+ "title": "Subjectwise Test-3 Part Syllabus GATE 2026 DA Probability and Statistics",
+ "sourceTitle": "Subjectwise Test-3 Part Syllabus GATE 2026 DA Probability and Statistics",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2026",
+ "num": 16,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/031_Subjectwise Test-3 Part Syllabus GATE 2026 DA Probability and Statistics.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A car manufacturing unit produces an average of 27 car per hour. What is the probability that no car is manufactured in a particular 3 hr period?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/5d/5d8ee389282c7c123df9.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/f4/f4f2717ec49b80072dca.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/41/413d7a009d4e4ab916d1.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/10/10cc8f4eb920eae96ca9.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A random sample of 100 fluorescent light bulb has an average lifetime of 1570 hours, with a sample standard deviation of 120 hours. In two tailed hypothesis test at the 5% level of significance.<br />\nThe calculated test statistics is found to be <em>t</em> = –2.5.<br />\nFind the value of population mean (μ) that was assumed in the NULL hypothesis.<br />\n(Given <em>t</em><sub>0.025</sub> = 1.96</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1800"
+    },
+    {
+     "key": "B",
+     "html": "1600"
+    },
+    {
+     "key": "C",
+     "html": "1575"
+    },
+    {
+     "key": "D",
+     "html": "1875"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a6/a60c60c02d6968c51007.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>The heights of female students attending a GATE coaching have mean of 168.0 cm and a standard deviation of 4.5 cm. The heights can be modelled by a normal distribution. Find the probability that height of a randomly selected female student attending this coaching is less than 172.5 cm ________. (Upto 3 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.84,
+    0.845
+   ],
+   "answerText": "0.841",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.841 [0.840 - 0.845]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a0/a0d7856b4be9749a73cf.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>A certain random variable has the CDF:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/72/72e930a25c136db28af0.png\" /></div>\n\n<div>The value of <em>P</em>(5 < <em>X</em> ≤ 7) is _______. (Rounded off to two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.2,
+    0.28
+   ],
+   "answerText": "0.24",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.24 [0.20 - 0.28]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/88/88740800a3f3378057ee.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Which of the following properties about cumulative distribution function <em>F<sub>X</sub></em>(<em>x</em>) of a random variable <em>X</em> is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/10/10488ffa92a94e986182.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/f0/f076eb0a52d1592ed579.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/5a/5ae0009b4cd70673340a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/0f/0f1bc39a4c0480c5cf4a.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/eb4244f1adf7c096798e.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following distributions is symmetric about its mean?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Z-distribution"
+    },
+    {
+     "key": "B",
+     "html": "<em>t</em>-distribution"
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "Chi-squared distribution"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>If the letters of the word ‘ASSASIN’ are rearranged, the probability that three S’s come simultaneously in the rearranged word is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/c9/c93c75f497cf63d3003d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/5a/5a96353ef88772562da4.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/6f/6fe012cfeb6d59c5b901.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/ae/aebeab397039dd831ce3.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/36/3678f444dcef7fa077ba.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>A government official finds that on an average, 16% of tender applications received are rejected because they are either incomplete or incorrect. The probability that a file containing 8 tender applications will face at least one rejection is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.73,
+    0.77
+   ],
+   "answerText": "0.7521",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.7521 [0.73 - 0.77]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d63126d6a9f8ff5f1ef5.png\" /></div>\n\n<div><img alt=\"\" src=\"media/dc/dcca9c7af3a18d1d7796.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Let <em>X</em> and <em>Y</em> be two discrete random variables such that:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a6/a6fb14bdc70c6b858b38.png\" /></div>\n\n<div> </div>\n\n<div>Let Z = X + Y defined as a new random variable.<br />\nWhich of the following is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/dd/dd51a959a3d4ba0c61b1.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/5d/5d1d5017147959c6148d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "Var(Z) = 0.85, if X and Y are independent random variables"
+    },
+    {
+     "key": "D",
+     "html": "<em>X</em> and <em>Y</em> cannot be mutually exclusive to make Var(Z) valid"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/32/3263a0f01ff2212fd13a.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>The natural numbers are the possible values of a random variable X i.e., <em>x<sub>n</sub></em> = <em>n</em>, <em>n</em> = 1, 2, 3, .....<br />\nThese numbers occur with probability <img align=\"absmiddle\" alt=\"\" src=\"media/1e/1e28ae0a98bfbef0c4d1.png\" /> The expected value of <em>X</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/67/6782cb4131287d5e5b25.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/d5/d5034c6e7b2b2f514d8b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6f/6fa335b649c21e3f2f20.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A fair dice is rolled six times. What is the probability that the largest number rolled is 5?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/3e/3e4b45889a064a740b2e.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/ef/efe40b8c512f6e1fa071.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/ce/ce3582f3b95d5b65de6a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/75/75f5ea386873087a1d78.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d25d99f60baa2fc05c7e.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A fair coin is tossed multiple times. Let <em>X</em> denote the minimum number of trails required to<br />\nobtain either HT or TH on coin.<br />\nWhat is the expected value of X?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cc/cc649ec29b6917aea0d7.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A random variable <em>X</em> has probability density function</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/23/2381e8fd5af69e9c1f1f.png\" /></div>\n\n<div> </div>\n\n<div>Given the expected value <em>E</em>(<em>X</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/1d/1de94630c3dfec72bf5b.png\" /> the Pr[<em>X</em> < 0.5] is ________. (Upto 2 decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.25,
+    0.25
+   ],
+   "answerText": "0.25",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.25</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9b/9bd70b93455f0b7a2c60.png\" /></div>\n\n<div><img alt=\"\" src=\"media/c3/c3cd948efb9eac64f0f4.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Let <em>P</em>(<em>E</em>) denote the probability of event <em>E</em>. Given that <em>P</em>(<em>A</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/8e/8e4531abdb89d1484c2f.png\" /> then which of the following is/are true? (<em>A</em> and <em>B</em> are independent)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ec/ec41944cd3cfc19eff66.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/2c/2cf906a7af14a6af83a4.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/eb/eb4333dbd84ab4e4b4d2.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/73/73a33daf8975496d9727.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4e/4ecfecca08c540f92a15.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>If the average length of the phone call at a public telephone booth is of 8 minutes and someone arrives immediately ahead of you, and starts calling then probability (you will have to wait between 8 to 24 min) = ?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.318"
+    },
+    {
+     "key": "B",
+     "html": "0.232"
+    },
+    {
+     "key": "C",
+     "html": "0.417"
+    },
+    {
+     "key": "D",
+     "html": "0.268"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2c/2cb16a4a3509e0b9d819.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Given that the population has a Standard deviation of (σ) = 4 and a sample of size (n) = 64, the calculated Z-test (Z) is 2. Under the null hypothesis <em>H</em><sub>0</sub> : μ = 80.<br />\nFind the sample mean <img align=\"absmiddle\" alt=\"\" src=\"media/46/460442dfbcf5109c7ace.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "79"
+    },
+    {
+     "key": "B",
+     "html": "81"
+    },
+    {
+     "key": "C",
+     "html": "82"
+    },
+    {
+     "key": "D",
+     "html": "80"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3d/3d84c5710788f59597e1.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A random variable <em>X</em> is defined by following PDF :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/82/82baf9e93743b387179d.png\" /></div>\n\n<div>Which of the following is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/4a/4a367b7ae02597300fec.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/e0/e03bb9cc93fce68c0ad2.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/05/050f12207e1d9c0074b7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/b8/b884fb9a3e1b100088d3.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f9/f9db23cab3cd64fef132.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>The probability of a man hitting a target in one fire is <img align=\"absmiddle\" alt=\"\" src=\"media/29/297a8139eea27f6ea15c.png\" /> The number of times at least he must fire at the target in order that his chance of hitting the target at least once will exceed <img align=\"absmiddle\" alt=\"\" src=\"media/79/79701d2e698cbd404bba.png\" /> will be</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/54d9d6acc2890f5ece97.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A waiter breaks on an average 6 plates/day in a hotel. Then find the probability that waiter will break fewer than 3 plates on a particular day.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/bf/bf9fad50810d745dfb8c.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/d5/d557c193b3c36cf9aa39.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/3d/3d4da5e03bf69b1f783c.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/da/da54fda83a84c7aacc2e.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/92/926914b7c6cc021beaa3.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A researcher claims that more than 65% of college students prefer online learning over in-person classes.<br />\nA previous study found that the proportion was 0.65.<br />\nIn a recent survey of <em>n</em> = 2500 students, <em>x</em> = 1700 said they prefer online learning.<br />\nWhich of the following hypothesis pairs should be used to test the claim?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/61/616bff12bd4a52694647.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bc/bc20ec9f088dba5cdb62.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider 4 similar boxes A, B, C and D. A is empty, B contains one green and one blue ball,<br />\nC contains one red and one blue ball, and D contains one red and one green ball. We randomly<br />\nselect a box. <em>E</em><sub>1</sub>, <em>E</em><sub>2</sub> and <em>E</em><sub>3</sub> be the events that selected box contains red, green and blue ball respectively.<br />\nWhich of the following statements is/are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>E</em><sub>1</sub> and <em>E</em><sub>2</sub> are independent events."
+    },
+    {
+     "key": "B",
+     "html": "<em>E</em><sub>1</sub> and <em>E</em><sub>3</sub> are independent events."
+    },
+    {
+     "key": "C",
+     "html": "<em>E</em><sub>2</sub> and <em>E</em><sub>3</sub> are independent events."
+    },
+    {
+     "key": "D",
+     "html": "<em>E</em><sub>1</sub>, <em>E</em><sub>2</sub> and <em>E</em><sub>3</sub> are independent events."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/21/210b10777fb72377b42b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>A sample of size n = 16 has sample mean overline <img align=\"absmiddle\" alt=\"\" src=\"media/8f/8fd35529c576334fcfa2.png\" /> = 12.5<br />\nThe population mean is μ = 11.0 and the computed t-statistic is t = 2.0.<br />\nFind the sample Standard deviation s.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3.0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3.0</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/55/55e0ef30281b0d7f0000.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Let <em>X<sub>n</sub></em> be a sequence of discrete random variable where</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b1/b1e2bb332d7b24766f63.png\" /></div>\n\n<div>Which of the following statements are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/8e/8e108a072ee3eefca970.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/b6/b68f2efbd67f4c986ac6.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/4d/4d73a1d5715242cdf569.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/71/71796575d8274d4fc50f.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e7/e7b545f7941f54488188.png\" /></div>\n\n<div><img alt=\"\" src=\"media/10/10281ae79224d8724429.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Let <em>X</em> and <em>Y</em> are two Gaussian random variables with <em>E</em>(<em>X</em>) = <em>E</em>(<em>Y</em>) = 0 and <img align=\"absmiddle\" alt=\"\" src=\"media/de/de73fb734d05eed3d976.png\" /> and<br />\ncorrelation coefficient between X and Y is 0.25. Let the random variable W be defined as :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/08/08c36ef0f76a473fa64c.png\" /></div>\n\n<div>where α is a positive real constant. The value of α which makes <em>X</em> and <em>W</em> independent is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/e9/e901fb5ae10c61078a71.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "3"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/95/957c78364574920edb46.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bc/bc9b4a2458907028b38e.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>In a two-category experiment, the observed frequencies are 45 and 55. The expected frequency of category B is 50, and the chi-square statistic χ<sup>2</sup> is 2. Find the expected frequency for category A.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    54,
+    54
+   ],
+   "answerText": "54",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>54</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e6101ef82e57f9cca879.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Suppose a factory has machine I, II and III that produce XYZ phones. The factory’s record shows that Machine I, II and III produce, respectively 2%, 1% and 3% defective XYZ phones. Out of total production, Machine I, II, and III produce, respectively 35%, 25% and 40% of all XYZ phones a XYZ phone is selected at random from the factor if given that phone is defective what is the conditional probability that it was produced by Machine III? [Upto 2 decimal places]</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.55,
+    0.56
+   ],
+   "answerText": "0.56",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.56 [0.55 - 0.56]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b5/b5c92526843088c7fe72.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A fair coin is tossed <em>n</em> times independently. Let the random variable <em>X</em> denote the number of times two consecutive head (HH) appear in the sequence of tosses.<br />\nWhat is the expected value of <em>X</em>, <em>E</em>(<em>X</em>)?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/27/27f83ac663ff614cfc2e.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/1d/1dc9e0b17be6924324e8.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/f9/f9c74c5f9882a1c2c5d0.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/23/23fb607bd760e1bf4085.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>The joint pdf of <em>X</em> and <em>Y</em> is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/db/db0ad634b15a397a6ee2.png\" /></div>\n\n<div>where a = 3 and b = 4. The value of constant k is _______.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    12
+   ],
+   "answerText": "12",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5b/5b914d7ae5254b9f2f56.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Two independent random variables <em>X</em> and <em>Y</em> are identical and uniformly distributed in the range [0, 2]. The probability that min[<em>X</em>, <em>Y</em>] is less than 1 is equal to _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.74,
+    0.76
+   ],
+   "answerText": "0.75",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.75 [0.74 - 0.76]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/64/646ef993eee658de1ead.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Suppose that a book of 1200 pages contains 80 printing mistakes. Assume that these errors are randomly distributed throughout the book and x, the number of errors per page has a Poisson distribution. The probability that 15 pages selected at random will be free of error is _________.<br />\n(correct upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.35,
+    0.38
+   ],
+   "answerText": "0.37",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.37 [0.35 - 0.38]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bd/bd761e2da774629890da.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A fair six-sided die is rolled twice. Let the outcomes of the first and second rolls be denoted by <em>X</em> and <em>Y</em>.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5d/5dfa61c3fe885b8a6ddb.png\" /></div>\n\n<div>Which of the following is incorrect?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/23/233acbaa5aac8f253d5c.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/cb/cb2f0991973d2fe63a7e.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/9b/9bbbced735dd543af55c.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/4b/4b5fa13facb9a1606c9d.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/88/885d1266579038152dd2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Consider four students in a class, and their marks in exam was 40, 50, 60 and 70. The Standard deviation of this data set is ________. (Upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    11,
+    12
+   ],
+   "answerText": "11.18",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>11.18 [11.00 - 12.00]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/41/411b8949a73dc4e24bb7.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>The joint probability density function of two random variables <em>X</em> and <em>Y</em> is given by,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f6/f6bb3ad8058b97120bc1.png\" /></div>\n\n<div> </div>\n\n<div>The value of <em>k</em> will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/4b/4b059c8fb01a11f79fcd.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/8a/8abc7404d07397262cc3.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/a1/a1bdcc43c8450f1e3857.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/f3/f318d16f06bc45d70881.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1ab48bc976db1d3d7efe.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 14,
+   "NAT": 13,
+   "MSQ": 6
+  },
+  "withoutKey": 0
+ }
+}

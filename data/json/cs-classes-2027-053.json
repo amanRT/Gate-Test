@@ -1,0 +1,514 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-053",
+ "title": "DVRUO Classes CS/DA Test Series | Databases | Topic Wise Test 3",
+ "sourceTitle": "DVRUO Classes CS/DA Test Series | Databases | Topic Wise Test 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 53,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Databases"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose that two relations $\\text{A(X, Y)}$ and $\\text{B(X, Y)}$ have exactly the same schema. Also, there are no null values in the relations.<br>Which of the following equalities hold in relational algebra? (Where \" $\\times$ \" is Cartesian-Product Operation)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{A} \\cap \\text{B = A - (A - B)}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{A} \\cap \\text{B = B - (B - A)}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{A} \\cap \\text{B = A NATURAL-JOIN B}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{A} \\cap \\text{B = A} \\times \\text{B}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 16)</small></h4><a name=\"384753\"></a><div itemprop=\"text\">Note: $r \\cap s=r-(r-s)$<br>\n$r \\cap s=s \\cap r=s-(s-r)=r-(r-s)$<br>\nWhen the schema of two relations is identical, natural join gives the same result as the intersection.<br>\nCross product will give $4$ columns, $\\text{(A.X, A.Y, B.X, B.Y)}$, so D is not true.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"506559\"></a><div itemprop=\"text\">for option C, <br>\n<br>\nA(X,Y) and B(X,Y), the natural join here will act as intersection here because it has (X,Y) common in both schema.<br>\n<br>\nI hope this helps</div></section></div><p><a href=\"https://gateoverflow.in/384752\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following relation schemas: $\\textsf{r(A, B), t(B, C)}$ and their instances :<br>\n$$<br>\n\\begin{aligned}<br>\n&amp;\\textsf{r(A, B)}=\\{\\langle a, b\\rangle,\\langle a, c\\rangle,\\langle c, d\\rangle,\\langle b, e\\rangle\\}\\\\<br>\n&amp;\\textsf{t(B, C)}=\\{\\langle b, e\\rangle,\\langle d, h\\rangle,\\langle b, f\\rangle,\\langle a, d\\rangle,\\langle a, e\\rangle\\}<br>\n\\end{aligned}<br>\n$$<br>\nHow many rows are present in the result of the following relational algebra expression using left-outer-natural-join :<br>\n$$<br>\n\\pi_{\\textsf{A, C}}\\left(\\textsf{r} \\bowtie_{\\;\\textsf{LEFT}} \\textsf{t}\\right)<br>\n$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 17)</small></h4><a name=\"384749\"></a><div itemprop=\"text\">A left outer join returns a result set that includes all rows that satisfy the join condition and rows from the left table that do not match the join condition.<br>\nThis natural join joins the tables on matching values in the common column. In Left Outer Natural Join, first we apply natural join. Since in table $\\textsf{r, s},$ the common field is $\\textsf{B},$ so, we take the tuples of $\\textsf{r}$ that match with tuples of $\\textsf{s}$ in the value of column $\\textsf{B}$. After that, since it is Left Outer Natural join, so, we take the tuples of $\\textsf{r}$ that do not match with any tuple of $\\textsf{s}.$ So, for<br>\n$$\\left(\\textsf{r} \\bowtie_{\\;\\textsf{LEFT}} \\textsf{t}\\right)$$<br>\nwe get the following output:<br>\n<br>\n$$r$$$$\\begin{array}{c|c}\\text{A} &amp; \\text{B} \\\\\\hline a&amp; b \\\\ a &amp; c \\\\ c &amp; d \\\\ b &amp; e \\end{array}$$<br>\n<br>\n$$t$$$$\\begin{array}{c|c}\\text{B} &amp; \\text{C} \\\\\\hline b&amp; e \\\\ d &amp; h \\\\ b &amp; f \\\\ a &amp; d \\\\ a &amp; e \\end{array}$$<br>\n<br>\n$$r \\Join_{\\text{left}} t $$$$\\begin{array}{|ccc|}\\hline\\text{A} &amp; \\text{B} &amp; \\text{C} \\\\\\hline a &amp; b &amp; e \\\\ a&amp; b &amp; f \\\\ a &amp; c &amp; \\text{NULL} \\\\ c &amp; d &amp; h \\\\ b &amp; e &amp; \\text{NULL} \\\\\\hline\\end{array}$$<br>\n<br>\nNow we project the attributes $\\text{A, C}.$<br>\n<br>\n$$\\begin{array}{|cc|}\\hline\\text{A} &amp; \\text{C} \\\\\\hline a &amp; e \\\\ a &amp; f \\\\ c &amp; h \\\\ a &amp; \\text{NULL} \\\\ b &amp; \\text{NULL} \\\\\\hline \\end{array}$$</div></section></div><p><a href=\"https://gateoverflow.in/384748\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relations and query.<br>$$<br>\\begin{gathered}<br>\\textsf{r(A, B, C)}\\\\<br>\\textsf{s(A, B, C)}\\\\<br>\\sigma_{\\textsf{A&gt;C}}([(\\textsf{r} \\cup \\text{s) - (r - s)] - (s - r))}<br>\\end{gathered}<br>$$<br>Which of the following is equivalent to the above query?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\sigma_{\\textsf{A&gt;C}}(\\textsf{r} \\bowtie \\textsf{s})$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\sigma_{\\textsf{A&gt;C}}(\\textsf{r} \\cup \\textsf{s})$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\sigma_{\\textsf{A&gt;C}}(\\textsf{r}) \\cap \\sigma_{\\textsf{A&gt;C}} (\\textsf{s})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\sigma_{\\textsf{A&gt;C}}(\\text{r} \\cap \\textsf{s})$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 18)</small></h4><a name=\"384747\"></a><div itemprop=\"text\"><p>From set theory or the Venn diagram, we can note that<br>\n<br>\n$((\\textsf{r} \\cup \\textsf{s) - (r - s) - (s - r)) = r}\\cap \\textsf{s}$<br>\n<br>\n$\\textsf{r} \\cap \\textsf{s = r - (r - s)}$</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"media/32/32866b9ec5d9f32b39c5.png\"></p>\n\n<p>We can see that<br>\n$((\\textsf{r} \\cup \\textsf{s) - (r - s) - (s - r)) = r} \\cap \\textsf{s}.$</p>\n\n<hr>\n<p><img alt=\"\" src=\"media/29/29fe95572a46b857f340.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/384746\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relations $r, s$ and query :<br>$$<br>\\begin{gathered}<br>t 1 \\leftarrow \\sigma_\\theta((r \\times s) \\div r)\\\\<br>t 2 \\leftarrow \\sigma_\\theta(s)\\\\<br>t 3 \\leftarrow \\sigma_\\theta(r)\\\\<br>\\end{gathered}<br>$$</p><p>Relation&nbsp;$r$ is not empty.</p><p>Which of the following is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$t 1=t 3$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>t2 $=t 3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$t 1=t 2$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 21)</small></h4><a name=\"384745\"></a><div itemprop=\"text\">Notation: $r / s$ or $r \\div s$<br>\n<br>\nInformally, $r / s$ contains the (parts of) tuples of $r$ that are associated with every tuple in $s.$<br>\n<br>\nSince in \"r $\\times s$ \", we have, with every tuple of $s$, every tuple of $r$.<br>\n<br>\nSo, \" $r \\times s$ \" $\\div r$ will give us all tuples of $s$.<br>\n<br>\nSo, $((r \\times s) \\div r)=s.$</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"496643\"></a><div itemprop=\"text\"><p>i hope this explaination helps:</p><p>Here's a breakdown:</p><ul><li><p><strong><code>t1 ← σθ((r × s) ÷ r)</code></strong></p><ul><li><code>r × s</code>&nbsp;is the&nbsp;<strong>Cartesian product</strong>&nbsp;of&nbsp;<code>r</code>&nbsp;and&nbsp;<code>s</code>&nbsp;(every row in&nbsp;<code>r</code>&nbsp;is paired with every row in&nbsp;<code>s</code>).</li><li><code>(r × s) ÷ r</code>&nbsp;is the&nbsp;<strong>division</strong>&nbsp;operation in relational algebra, which finds all tuples in&nbsp;<code>s</code>&nbsp;that are associated with every tuple in&nbsp;<code>r</code>.</li><li><code>σθ(...)</code>&nbsp;is a&nbsp;<strong>selection</strong>&nbsp;operation that filters the result based on a condition&nbsp;<code>θ</code>&nbsp;(e.g., a predicate like&nbsp;<code>age &gt; 20</code>).</li></ul></li><li><p><strong><code>t2 ← σθ(s)</code></strong><br>&nbsp; &nbsp; &nbsp; &nbsp; This selects rows from relation&nbsp;<code>s</code>&nbsp;that satisfy condition&nbsp;<code>θ</code>.</p></li><li><p><strong><code>t3 ← σθ(r)</code></strong><br>&nbsp; &nbsp; &nbsp; &nbsp; This selects rows from relation&nbsp;<code>r</code>&nbsp;that satisfy condition&nbsp;<code>θ</code>.</p></li></ul><p>The note \"Relation&nbsp;<code>r</code>&nbsp;is not empty\" is important because the&nbsp;<strong>division operation</strong>&nbsp;in relational algebra is undefined if the divisor relation (<code>r</code>) is empty.<br>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/384744\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following schema:</p><p>$$\\begin{array} {l} \\text{Sailors}(\\; \\underline{\\textit{sid: } \\textsf{integer}}, \\textit{&nbsp;sname: } \\textsf{string}, \\textit{ rating: } \\textsf{integer}, \\textit{ age: } \\text{real}) \\\\&nbsp;\\text{Boats}(\\;&nbsp;\\underline{\\textit{bid: } \\textsf{integer}}, \\textit{&nbsp;bname: } \\textsf{string}, \\textit{ color: } \\textsf{string)} \\\\ \\text{Reserves}(\\;\\underline{\\textit{sid: } \\textsf{integer}, \\textit{ bid: } \\textsf{integer}, \\textit{ day: } \\textsf{date}}\\;)\\end{array} $$<br>The primary key fields are underlined, and the domain of each field is listed after the field name. Assume there are no NULL values in any column of any relation.</p><p>Consider the following query :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT S.sname\nFROM Sailors S, Reserves R, Boats B\nWHERE S.sid = R.sid AND R.bid = B.bid\n    AND (B.color = ‘blue’ AND B.color = ‘white’)\n</pre><p>What is the output of the above query?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The names of sailors who have reserved a blue or a white boat.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The names of sailors who have reserved a blue AND a white boat.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The names of sailors who have reserved neither a blue nor a white boat.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Empty set.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"384743\"></a><div itemprop=\"text\">The given query retrieves the names of sailors who have reserved a boat that is both blue and white. The integrity constraint that bid is a key for Boats tells us that the same boat cannot have two colors, and so this query will always return an empty answer set.</div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"443148\"></a><div itemprop=\"text\">break down the query:<br>\n<br>\nThe query is selecting the names of sailors (S.sname) from the Sailors table (S), the Reserves table (R), and the Boats table (B).<br>\n<br>\nThe conditions in the where &nbsp;clause are:<br>\n<br>\n1. S.sid = R.sid: This matches the sailor's ID with the reservation's sailor ID.<br>\n2. R.bid = B.bid: This matches the reservation's boat ID with the boat's ID.<br>\n3. (B.color = 'blue' AND B.color = 'white'): This is where the problem lies. This condition is trying to match boats that are both blue and white at the same time. However, a boat can only have one color, so this condition is impossible to satisfy.<br>\n<br>\nSince the third condition is impossible to satisfy, the entire query will return an empty set. This is because the query is looking for sailors who have reserved boats that meet an impossible condition.<br>\n<br>\nThere4, the correct answer is: d .Empty set<br>\n<br>\n---&gt;In other words, the query will not return any names of sailors, because there are no boats that meet the impossible condition of being both blue and white at the same time.</div></section></div><p><a href=\"https://gateoverflow.in/384742\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Student database and the relations in it :</p><p>$$\\begin{array}{l} \\textsf{Student (sid, name, marks)} \\\\&nbsp; \\textsf{Course (cid, min, max)} \\end{array}$$<br>Student relation has the following set of tuples :<br>$$\\{ ( 101, a, 50 ), (102, b, 52), (103, c, 60), (104, d, 70) \\}$$<br>Course relation has the following set of tuples :<br>$$\\{ (c1, 20, 90), (c2, 15, 95), (c3, 10, 100) \\}$$<br>Consider the following query :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT S.sid\nFROM Student S\nWHERE EXISTS ( SELECT COUNT(*)\n            FROM Course C\n            WHERE S.marks &gt; C.min AND S.marks &gt; C.max)\n</pre><p><br>How many tuples will be in the output of the above SQL Query?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 79)</small></h4><a name=\"384741\"></a><div itemprop=\"text\">Note that for every tuple of Student relation, no tuple of Course relation satisfies the given condition, So, $\\textsf{COUNT(*)}$ will give the output $0$ for every tuple of student relation. Hence, for every tuple of student relation, the $\\textsf{EXISTS}$ will return TRUE. So, four rows will be printed.<br>\n<br>\n$\\textsf{EXISTS}$ return false if its input is Empty Set.<br>\n<br>\nIn the given query, input to $\\textsf{EXISTS}$ is $\\textsf{COUNT(*)}$ which returns an integer value $\\geq 0,$ but never Empty Set.<br>\n<br>\nSo, $\\textsf{EXISTS}$ always returns TRUE here and we get $4$ rows in the output.</div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"444921\"></a><div itemprop=\"text\"><ul><li><ul><li><ul><li>Comparisons:<ul><li>c1: 50 &gt; 20 (True) AND 50 &gt; 90 (False) → No match</li><li>c2: 50 &gt; 15 (True) AND 50 &gt; 95 (False) → No match</li><li>c3: 50 &gt; 10 (True) AND 50 &gt; 100 (False) → No match</li></ul></li><li>Subquery returns <strong>0</strong> rows → <code>EXISTS</code> = False.</li></ul></li></ul></li><li>Comparisons:<ul><li>c1: 52 &gt; 20 (True) AND 52 &gt; 90 (False) → No match</li><li>c2: 52 &gt; 15 (True) AND 52 &gt; 95 (False) → No match</li><li>c3: 52 &gt; 10 (True) AND 52 &gt; 100 (False) → No match</li></ul></li><li>Subquery returns <strong>0</strong> rows → <code>EXISTS</code> = False.</li><li>Comparisons:<ul><li>c1: 60 &gt; 20 (True) AND 60 &gt; 90 (False) → No match</li><li>c2: 60 &gt; 15 (True) AND 60 &gt; 95 (False) → No match</li><li>c3: 60 &gt; 10 (True) AND 60 &gt; 100 (False) → No match</li></ul></li><li>Subquery returns <strong>0</strong> rows → <code>EXISTS</code> = False.</li><li>Comparisons:<ul><li>c1: 70 &gt; 20 (True) AND 70 &gt; 90 (False) → No match</li><li>c2: 70 &gt; 15 (True) AND 70 &gt; 95 (False) → No match</li><li>c3: 70 &gt; 10 (True) AND 70 &gt; 100 (False) → No match</li></ul></li><li>Subquery returns <strong>0</strong> rows → <code>EXISTS</code> = False.</li><li>When you use <code>COUNT(*)</code> inside an <code>EXISTS</code> subquery, it behaves slightly differently than when you use <code>COUNT(*)</code> in a regular <code>SELECT</code> query. The key point is that the <code>EXISTS</code> operator doesn't actually care about the value returned by <code>COUNT(*)</code>. It simply checks if the subquery <strong>produces any rows</strong>, regardless of whether those rows are empty or contain data.</li><li><p><strong>The <code>EXISTS</code> clause</strong>: This checks whether the subquery <strong>returns any rows</strong>. It will return <code>TRUE</code> if the subquery produces one or more rows and <code>FALSE</code> if the subquery produces no rows at all.</p></li><li><p><strong><code>COUNT(*)</code> in the subquery</strong>: The <code>COUNT(*)</code> will count how many rows satisfy the condition. Even if it counts <code>0</code> rows, the subquery still executes and <strong>produces one row</strong> (with the value <code>0</code> in this case). The result of <code>COUNT(*)</code> is irrelevant for the <code>EXISTS</code> condition.</p><ul><li>The subquery itself still exists and produces one result (even if that result is <code>0</code>).</li><li><strong><code>EXISTS</code> only cares whether the subquery returned a result</strong>, not the value of the result. As long as the subquery produces at least one row (in this case, the <code>0</code> value), the <code>EXISTS</code> condition will evaluate as <code>TRUE</code>.</li></ul></li></ul></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"500657\"></a><div itemprop=\"text\"><p>Answer 4<br><br>Observe the <b>subquerry</b> condition in the question , (S.marks&gt;C.min AND S.marks&gt;C.max) this returns \"<b>Nothing</b>\" since there is no such tuple that satisfying the condition.<br><br>So, we have <strong>NOTHING</strong> as an input in the&nbsp;<b>count(*) </b>finally&nbsp;gives the value of the whole Subquerry as \"<b><i><u>zero</u></i></b>\".<br><br>Now coming to the main query we have <b>EXISTS</b> which return <b>false</b> iff it has emptyset as the input. Since <b>zero</b> is cannot be an empty set the main query will return all the 4 tuples in the Student table.<br><br>Therefore answer is 4.</p></div></section></div><p><a href=\"https://gateoverflow.in/384740\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{R}=(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}), \\mathrm{S}=(\\mathrm{C}, \\mathrm{D}, \\mathrm{E})$ and let $q$ and $r$ be a relation on schema $\\mathrm{R}$ and $s$ be a relation on schema $\\mathrm{S}.$</p><p>Consider the following queries :</p><ol><li>$\\{&lt;a&gt;\\mid \\exists b(&lt;a, b&gt;\\in r \\wedge b=10)\\}$</li><li><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT A FROM r WHERE B=10</pre></li><li><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT * FROM r EXCEPT SELECT DISTINCT * FROM s\n</pre></li><li><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT * FROM q WHERE (A, B, C) NOT IN (SELECT DISTINCT * FROM r)\n</pre></li></ol><p>Which of the following is/are true? (Two queries are said to be equivalent when they produce the same output, i.e., the same set of records)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Query $1$ and $2$ are equivalent.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Query $1$ and $3$ are equivalent</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Query $2$ and $4$ are equivalent</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Query $3$ and $4$ are equivalent</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"384739\"></a><div itemprop=\"text\">Query $3$ and $4$ are Not equivalent.<br>\n<br>\nQuery $1$ and $2$ are equivalent.<br>\n<br>\nQuery $1$ is a TRC query which gives output those $\\text{A}$ values from relation $r$ where $\\text{B}=10$.<br>\n<br>\nQuery $2$ is SQL query which gives output those $\\text{A}$ values from relation $r$ where $\\text{B}=10$.</div></section></div><p><a href=\"https://gateoverflow.in/384738\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following database relations :</p><ul><li>$\\textsf{Enrolled(Student, Course) :}$ It contains the courses that each student has enrolled into, and</li><li>$\\textsf{ToDo(Course) :}$ It contains the courses that are required to graduate.</li></ul><p>The instance for $\\textsf{Enrolled}$ relation is shown below:<br>$$\\begin{array}{|c|c|}<br>\\hline \\textbf{Student} &amp; &nbsp;\\textbf{Course} \\\\<br>\\hline \\text{Robert} &amp; \\text{Databases} \\\\<br>\\text{Robert} &amp; \\text{Programming Languages} \\\\<br>\\text{Susie} &amp; \\text{Databases} \\\\<br>\\text{Susie} &amp; \\text{Operating Systems} \\\\<br>\\text{Julie} &amp; \\text{Programming Languages} \\\\<br>\\text{Julie} &amp; \\text{Machine Learning} \\\\<br>\\text{Emilie} &amp; \\text{Operating Systems} \\\\<br>\\hline<br>\\end{array}$$<br>The instance for $\\textsf{ToDo}$ relation is shown below:<br>$$<br>\\begin{array}{|c|}<br>\\hline \\textbf{Course} \\\\<br>\\hline \\text{Databases} \\\\<br>\\text{Programming Languages} \\\\<br>\\hline<br>\\end{array}<br>$$<br>We run the following SQL Query of this database :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT Student\nFROM Enrolled\nWHERE Course IN (SELECT Course FROM ToDo);\n</pre><p>How many tuples will be there in the output of this SQL Query?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"384737\"></a><div itemprop=\"text\">The given query Finds all students who have taken a required course (ToDo course).<br>\n<br>\nInformally, we might read this query as “give me the set of students who have taken a course that appears in the set of ToDo courses”, or “the set of students whose courses contain at least one course that is required(ToDo).” <br>\n<br>\nBecause of the SQL keyword DISTINCT, duplicates will be removed from the result.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500660\"></a><div itemprop=\"text\"><p>Answer 3<br><br>Observe the Subquerry first from the given question:-<br><br>\"(SELECT COURSE FROM ToDo)\" Which selects all two courses\"<b>database</b>\"and \"<b>programming languages</b>\" from the course table.<br><br><br>Now come to the main query:-<br><br>We need to select the students who enrolled in the courses that we got from our Subquerry since we have <b>IN</b> before the subquerry.<br>Finally we need to remove the repeated names because we have <b>DISTINCT</b> in the main query.</p><p><br><br>Therefore we get 3 students ROBERT, JULIE, SUSIE.</p></div></section></div><p><a href=\"https://gateoverflow.in/384735\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following schema:<br>$$\\begin{array} {l} \\text{Sailors}(\\; \\underline{\\textit{sid: } \\textsf{integer}}, \\textit{&nbsp;sname: } \\textsf{string}, \\textit{ rating: } \\textsf{integer}, \\textit{ age: } \\text{real}) \\\\&nbsp;\\text{Boats}(\\;&nbsp;\\underline{\\textit{bid: } \\textsf{integer}}, \\textit{&nbsp;bname: } \\textsf{string}, \\textit{ color: } \\textsf{string)} \\\\ \\text{Reserves}(\\;\\underline{\\textit{sid: } \\textsf{integer}, \\textit{ bid: } \\textsf{integer}, \\textit{ day: } \\textsf{date}}\\;)\\end{array} $$<br>The primary key fields are underlined, and the domain of each field is listed after the field name. Assume there are no NULL values in any column of any relation and every relation has at least one tuple. $\\textsf{“Sid\"}$ of Reserves is foreign key to $\\textsf{Sailor.sid}.$<br>Assume that there exists a sailor who has reserved a boat with $\\textsf{bid 104}$ in the reserves table.</p><p>Consider the following query :</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">SELECT S.sid\nFROM Sailors S, Reserves R\nWHERE S.rating =10 OR R.bid =104\n</pre><p>What is the output of the above query?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>All sids of sailors who have a rating of $10$ AND have reserved boat $104.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>All sids of sailors who have a rating of $10$ OR have reserved boat $104.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>All sids of sailor table</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Empty set.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 25)</small></h4><a name=\"384734\"></a><div itemprop=\"text\">Since there exists a sailor who has reserved a boat with bid $104$ in the reserves table, The query will return ALL sids of sailors table because, for every tuples of sailors table, we will have a tuple in the cross product of Sailors and Reserves tables, with $\\textsf{reserves.bid = 104.}$ So, ALL said of sailor table will be in the output.<br>\nTake for example the following relation instance for $\\textsf{sailor :}$<br>\n$$\\begin{array}{|c|l|c|c|}<br>\n\\hline \\textbf{sid} &amp; \\textbf{sname} &amp; \\textbf{rating} &amp; \\textbf{age} \\\\<br>\n\\hline \\hline 22 &amp; \\text{Dustin} &amp; 7 &amp; 45.0 \\\\<br>\n\\hline 29 &amp; \\text{Brutus} &amp; 1 &amp; 33.0 \\\\<br>\n\\hline 31 &amp; \\text{Lubber} &amp; 8 &amp; 55.5 \\\\<br>\n\\hline 32 &amp; \\text{Andy} &amp; 8 &amp; 25.5 \\\\<br>\n\\hline 58 &amp; \\text{Rusty} &amp; 10 &amp; 35.0 \\\\<br>\n\\hline 64 &amp; \\text{Horatio} &amp; 7 &amp; 35.0 \\\\<br>\n\\hline 71 &amp; \\text{Zorba} &amp; 10 &amp; 16.0 \\\\<br>\n\\hline 74 &amp; \\text{Horatio} &amp; 9 &amp; 35.0 \\\\<br>\n\\hline 85 &amp; \\text{Art} &amp; 3 &amp; 25.5 \\\\<br>\n\\hline 95 &amp; \\text{Bob} &amp; 3 &amp; 63.5 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\nThe following relation instance for $\\textsf{reserves :}$<br>\n$$\\begin{array}{|c|c|c|}<br>\n\\hline \\textbf{sid} &amp; \\textbf{bid} &amp; \\textbf{day} \\\\<br>\n\\hline \\hline 22 &amp; 101 &amp; 10 / 10 / 98 \\\\<br>\n\\hline 22 &amp; 102 &amp; 10 / 10 / 98 \\\\<br>\n\\hline 22 &amp; 103 &amp; 10 / 8 / 98 \\\\<br>\n\\hline 22 &amp; 104 &amp; 10 / 7 / 98 \\\\<br>\n\\hline 31 &amp; 102 &amp; 11 / 10 / 98 \\\\<br>\n\\hline 31 &amp; 103 &amp; 11 / 6 / 98 \\\\<br>\n\\hline 31 &amp; 104 &amp; 11 / 12 / 98 \\\\<br>\n\\hline 64 &amp; 101 &amp; 9 / 5 / 98 \\\\<br>\n\\hline 64 &amp; 102 &amp; 9 / 8 / 98 \\\\<br>\n\\hline 74 &amp; 103 &amp; 9 / 8 / 98 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\nRun the query for this instance, the output will be ALL sids of sailors.</div></section></div><p><a href=\"https://gateoverflow.in/384733\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume we have two relations $\\text{R(A, B)}$ and $\\text{S(B, C)}$. All three attributes $\\text{(A, B, C)}$ are integer attributes. Assume that Relation $\\text{R}$ contains the following tuples: $(1,2),(2,3)$, and $(3,4)$. Assume that relation $\\text{S}$ contains the following tuples $(2,2),(2,3)$, and $(5,1)$. Note that \" $\\times$ \" is Natural join, in the following expressions.</p><p>Which of the following relational algebra expressions are equivalent, with respect to the above information?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\pi_\\text{A}\\left(\\sigma_{\\text{B=1}}(\\text{R})\\right)$ and $\\sigma_{\\text{B=1}}\\left(\\pi_\\text{A}(\\text{R})\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\pi_\\text{A}\\left(\\sigma_{\\text{A=1}}(\\text{R})\\right)$ and $\\sigma_{\\text{A=1}}\\left(\\pi_\\text{A}(\\text{R})\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\pi_{\\text{A, B}}\\text{(R} \\times \\text{S)}$ and $(\\pi _{\\text{A, B}}\\text{(R))} \\times \\text{S}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\sigma_{\\text{B=1}}(\\text{R} \\times \\text{S})$ and $\\left(\\sigma_{\\text{B=1}}(\\text{R})\\right) \\times \\text{S}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 31)</small></h4><a name=\"384732\"></a><div itemprop=\"text\"><p>Option A :</p>\n\n<ul>\n\t<li>$\\pi_\\text{A}\\left(\\sigma_{\\text{B=1}}(\\text{R})\\right):$ will give output $\\mathrm{R} \\cdot \\mathrm{A}()$ without any tuple.</li>\n\t<li>$\\sigma_{\\text{B=1}}\\left(\\pi_\\text{A}(\\text{R})\\right)$ is invalid query.</li>\n</ul>\n\n<p>Option B :</p>\n\n<ul>\n\t<li>$\\pi_\\text{A}\\left(\\sigma_{\\text{A=1}}(\\text{R})\\right):$ will give result $\\mathrm{R} \\cdot \\mathrm{A}(1)$</li>\n\t<li>$\\sigma_{\\text{A=1}}\\left(\\pi_\\text{A}(\\text{R})\\right):$ will give result $\\mathrm{R} \\cdot \\mathrm{A}(1).$</li>\n</ul>\n\n<p>Option C :</p>\n\n<ul>\n\t<li>$\\pi_{\\text{A, B}}\\text{(R} \\times \\text{S)}:$ will give two columns in result, that is $\\text{(A, B)}$</li>\n\t<li>$(\\pi _{\\text{A, B}}\\text{(R))} \\times \\text{S}:$ &nbsp;will give three columns in result, that is $\\text{(A, B, C)}$</li>\n</ul>\n\n<p>Option D :</p>\n\n<ul>\n\t<li>$\\sigma_{\\text{B=1}}(\\text{R} \\times \\text{S}):$ Will give empty result but three columns $\\text{(A, B, C)}$</li>\n\t<li>$\\left(\\sigma_{\\text{B=1}}(\\text{R})\\right) \\times \\text{S}:$ Will give empty result but three columns $\\text{(A, B, C)}$.</li>\n</ul></div></section></div><p><a href=\"https://gateoverflow.in/384731\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given relations $r$ and $s$. Let Function $\\text{C}$ denote the number of results in the output. Which of the following statements \"can be\" correct? (Hint: Discard the statements which are NEVER possible)</p><p style=\"text-align:center\"><img alt=\"\" height=\"151\" width=\"295\" src=\"media/27/27312ef5564af0dc324b.png\"></p><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I and II</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II and III</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only III</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>III and IV</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 15)</small></h4><a name=\"384730\"></a><div itemprop=\"text\">Left and right outer joins can yield result set of sizes both greater or smaller than each other depending on the data. Full outerjoin will always have a set size greater than (or equal to) the result of left or right joins.</div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"481498\"></a><div itemprop=\"text\"><p><strong>\" CAN BE \"</strong><br>so option D.</p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"509592\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">To solve this problem, we need to compare the cardinalities (number of results) of different types of relational algebra joins. Let's define the symbols first:</p><ul data-path-to-node=\"1\"><li><p data-path-to-node=\"1,0,0\">$r \\bowtie s$ : <b data-path-to-node=\"1,0,0\" data-index-in-node=\"14\">Inner Join</b> (Returns only matching rows from both relations).</p></li><li><p data-path-to-node=\"1,1,0\">$r \\ltimes s$ : <b data-path-to-node=\"1,1,0\" data-index-in-node=\"14\">Left Outer Join</b> (Returns all rows from $r$, plus matching rows from $s$. Unmatched rows from $r$ are padded with NULLs).</p></li><li><p data-path-to-node=\"1,2,0\">$r \\rtimes s$ : <b data-path-to-node=\"1,2,0\" data-index-in-node=\"14\">Right Outer Join</b> (Returns all rows from $s$, plus matching rows from $r$. Unmatched rows from $s$ are padded with NULLs).</p></li><li><p data-path-to-node=\"1,3,0\">$r \\bowtie s$ : <b data-path-to-node=\"1,3,0\" data-index-in-node=\"14\">Full Outer Join</b> (Returns all rows from both $r$ and $s$, padding with NULLs where there is no match).</p></li></ul><hr data-path-to-node=\"2\"><h3 data-path-to-node=\"3\">Analyzing the Statements</h3><p data-path-to-node=\"4\">The core rule for these joins is that an Inner Join is a <b data-path-to-node=\"4\" data-index-in-node=\"57\">subset</b> of an Outer Join. Therefore, the cardinality of an Outer Join will always be greater than or equal to the cardinality of an Inner Join.</p><h4 data-path-to-node=\"5\"><b data-path-to-node=\"5\" data-index-in-node=\"0\">I. $C(r \\bowtie s) &gt; C(r \\ltimes s)$</b></h4><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><b data-path-to-node=\"6,0,0\" data-index-in-node=\"0\">Analysis</b>: This statement says the Inner Join has more results than the Left Outer Join.</p></li><li><p data-path-to-node=\"6,1,0\"><b data-path-to-node=\"6,1,0\" data-index-in-node=\"0\">Status</b>: <b data-path-to-node=\"6,1,0\" data-index-in-node=\"8\">Impossible</b>. The Left Outer Join contains every row that the Inner Join does, plus any non-matching rows from $r$. Thus, $C(r \\ltimes s) \\geq C(r \\bowtie s)$ always.</p></li></ul><h4 data-path-to-node=\"7\"><b data-path-to-node=\"7\" data-index-in-node=\"0\">II. $C(r \\ltimes s) &gt; C(r \\bowtie s)$</b></h4><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">Analysis</b>: This says the Left Outer Join has more results than the Full Outer Join.</p></li><li><p data-path-to-node=\"8,1,0\"><b data-path-to-node=\"8,1,0\" data-index-in-node=\"0\">Status</b>: <b data-path-to-node=\"8,1,0\" data-index-in-node=\"8\">Impossible</b>. The Full Outer Join contains all rows from the Left Outer Join, plus any non-matching rows from $s$. Thus, $C(r \\bowtie s) \\geq C(r \\ltimes s)$ always.</p></li></ul><h4 data-path-to-node=\"9\"><b data-path-to-node=\"9\" data-index-in-node=\"0\">III. $C(r \\bowtie s) &gt; C(r \\bowtie s)$</b></h4><ul data-path-to-node=\"10\"><li><p data-path-to-node=\"10,0,0\"><b data-path-to-node=\"10,0,0\" data-index-in-node=\"0\">Analysis</b>: This says the Full Outer Join has more results than the Inner Join.</p></li><li><p data-path-to-node=\"10,1,0\"><b data-path-to-node=\"10,1,0\" data-index-in-node=\"0\">Status</b>: <b data-path-to-node=\"10,1,0\" data-index-in-node=\"8\">Possible</b>. This is true whenever there is at least one row in $r$ or $s$ that does not have a match in the other relation.</p></li></ul><h4 data-path-to-node=\"11\"><b data-path-to-node=\"11\" data-index-in-node=\"0\">IV. $C(r \\ltimes s) &gt; C(r \\rtimes s)$</b></h4><ul data-path-to-node=\"12\"><li><p data-path-to-node=\"12,0,0\"><b data-path-to-node=\"12,0,0\" data-index-in-node=\"0\">Analysis</b>: This says the Left Outer Join has more results than the Right Outer Join.</p></li><li><p data-path-to-node=\"12,1,0\"><b data-path-to-node=\"12,1,0\" data-index-in-node=\"0\">Status</b>: <b data-path-to-node=\"12,1,0\" data-index-in-node=\"8\">Possible</b>. This occurs if the number of non-matching rows in $r$ is greater than the number of non-matching rows in $s$. For example, if $r$ has 10 unmatched rows and $s$ has 2, the Left Outer Join will be larger.</p></li></ul><hr data-path-to-node=\"13\"><h3 data-path-to-node=\"14\">Conclusion</h3><p data-path-to-node=\"15\">Statements <b data-path-to-node=\"15\" data-index-in-node=\"11\">III</b> and <b data-path-to-node=\"15\" data-index-in-node=\"19\">IV</b> \"can be\" correct depending on the data in the relations. Statements <b data-path-to-node=\"15\" data-index-in-node=\"90\">I</b> and <b data-path-to-node=\"15\" data-index-in-node=\"96\">II</b> violate the fundamental definitions of these relational operations.</p><p data-path-to-node=\"16\"><b data-path-to-node=\"16\" data-index-in-node=\"0\">Correct Answer: D. III and IV</b></p><p data-path-to-node=\"17\">&nbsp;</p><p data-path-to-node=\"18\">&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/384729\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "For a simple undirected finite graph $\\text{G},$ graph degrees (degrees of vertices of graph ) are stored in a database table $\\text{Deg(G)}.$ This table has two attributes $\\text{V, D}$ where $\\mathrm{V}$ represents the vertices and $\\text{D}$ represents corresponding degree of those vertices i.e. If $v_i$ is some vertex of degree $d_i$ in graph $\\text{G}$ then there will be a row $v_i, d_i$ in $\\text{Deg(G)}.$<br>\n<br>\n$\\mathrm{V}$ is the primary key in this table.<br>\n<br>\nFor a $100$ vertices simple graph $\\text{G},$ the summation of minimum and maximum possible value of $\\left|\\pi_{\\mathrm{D}}(\\operatorname{Deg}(\\mathrm{G}))\\right|$ will be _________",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 50)</small></h4><a name=\"384728\"></a><div itemprop=\"text\"><p>In EVERY simple undirected graph with at least $2$ vertices, there are at least two vertices of same degree.</p><p><strong>Learn&nbsp;Proof Here:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=pSJGEvvqsiE&amp;t=2734s\" target=\"_blank\">Every graph contains at least 2 vertices of same degree</a></p><p>In any graph, we have at least two vertices of the same degree, so, the minimum possible cardinality of the given query is $1$ (when a regular graph where all vertices have the same degree), Maximum possible is $99$ (In any graph, we have at least two vertices of the same degree, So, we cannot have $100$ different values in the output). Hence, the summation will be $100.$<br>It is asking the cardinality of the resulting relation, i.e., the number of tuples.</p><p><strong>Maximum $99$ is possible :</strong><br>Take a path graph of two vertices(i.e., an edge only). Now repeat the procedure: Add new vertex $u$ such that $u$ is adjacent to every vertex. Now add a new vertex $v$ such that $v$ is adjacent to $u$. Now you have a $4$ vertex graph where three vertices have different degrees. Now repeat the same procedure again and again until you get $100$ vertices.</p></div></section><section><h4>Source solution 2 <small>(score: 9)</small></h4><a name=\"417316\"></a><div itemprop=\"text\"><p>$G(V,E)$ is simple. So, there can’t be any self loops or multiple edges in $G$. Now, take a vertex $v_1 \\in V$. maintaining $G$’s simple property, add one edge from $v_1$ to&nbsp;every vertex other than $v_1$, i.e., $v_2, v_3, \\ldots&nbsp;,v_{100}$. Now $deg(v_1)=99$ and $deg(v_i)=1$ , where $i=2\\ldots100$. This is actually&nbsp;a <em>Star Graph.&nbsp;</em></p>\n\n<p>&nbsp;</p>\n\n<p><em>Star Graph: A Star Graph of order $n$ on $n$ vertices, is a tree where one vertex has degree $n-1$ and other $n-1$ vertices has degree $1$.</em></p>\n\n<p><em>Thus the summation of minimum and maximum value of the degrees will be, $99+1=100$.</em></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"388885\"></a><div itemprop=\"text\"><p>For <strong>MINIMUM CARDINALITY</strong>.</p>\n\n<p>take K-regular graph or consider each node isolated in that case also, cardinality is 1.(i.e. degree = 0)</p>\n\n<hr>\n<p>Let me try explaining <strong>MAXIMUM CARDINALITY</strong>.&nbsp;</p>\n\n<p>The main observation here is →&nbsp;<strong>if we have n vertices&nbsp;with us then we can always create a graph G in such a way that&nbsp;we have vertices with degrees&nbsp;from [1 to (n-1)].</strong></p>\n\n<p>For example take&nbsp;n = 5&nbsp;→&nbsp;</p>\n\n<p>Degree 1 :&nbsp;<strong>1 vertex</strong></p>\n\n<p>Degree 2 : <strong>2&nbsp;vertex</strong></p>\n\n<p>Degree 3 :&nbsp;<strong>1 vertex</strong></p>\n\n<p>Degree 4 : <strong>1 vertex</strong></p>\n\n<hr>\n<p>Now, to give you an intuition&nbsp;of why this works →&nbsp;</p>\n\n<p>Consider a graph G(having n nodes) where all nodes are connected to only 1 node.(yth node)</p>\n\n<p>So, the degree of y<sup>th</sup>&nbsp;node is “n” &amp; all other nodes have degree 1.</p>\n\n<hr>\n<p>Now, when we take&nbsp;vertex (x)<sup>th</sup>&nbsp;of&nbsp;G.</p>\n\n<p>we will add 2 edges →&nbsp;1<sup>st</sup>&nbsp;to&nbsp;vertex having (x-2)<sup>th</sup>&nbsp;degree &amp; 2<sup>nd</sup>&nbsp;with having (x-3)<sup>th</sup>&nbsp;degree. why ?</p>\n\n<p>because we already have 1 to (x-2)<sup>th</sup>&nbsp;degree with us, now by adding edge to (x-2)<sup>th</sup>&nbsp;degree we will make that vertex having (x-1)<sup>th</sup>&nbsp;degree &amp; (x-3)<sup>th</sup>&nbsp;as (x-2)<sup>th</sup>&nbsp;in order&nbsp;to save (x-2)<sup>th</sup>&nbsp;degree because it's being used for (x-1).</p>\n\n<p>Result in degree from [1 to (x-1)].</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Everything is visualization</strong>.</p></div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"443227\"></a><div itemprop=\"text\">i think the main crux here is<br>\n<br>\nthey are asking maximum and minimum of the projection not the deagrees<br>\n<br>\nso min projection is 1 if we take deagree 0 for all<br>\n<br>\nand for max upto 99 till 1 every deagree possible so now projection cardinality became 99<br>\n<br>\nhope it helps! correct me if i am wrong!</div></section><section><h4>Source solution 5 <small>(score: 1)</small></h4><a name=\"489717\"></a><div itemprop=\"text\">A pretty simple question yet needs understanding ..<br>\n<br>\nWe have in total 100 vertices . Now we have bben asked about the sum of max and min cardinality of degree d. <br>\n<br>\nNow if a graph is regular graph we will definately have every vertex with same degree ie '99 is degree of every vertex' so every value in the degree column will be 99. Hence projectiong it will give only \"ONE TUPLE\" WHICH BECOMES MIN CONDITION.<br>\n<br>\nNow by pegion hole principle , in a graph we have atleast two vertices with same degree . <br>\n<br>\nSo let any two vertices have same degree and rest 98 vertices have distinct degrees.<br>\n<br>\nIntotal we will project 99 tuples which wiil be max condition.<br>\n<br>\nAdding the we get 100<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/384727\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following three relational schemas in a database :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">CREATE TABLE R(A INT PRIMARY KEY, B INT);\n</pre><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">CREATE TABLE S(C INT PRIMARY KEY, A INT REFERENCES R(A) ON DELETE CASCADE);\n</pre><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">CREATE TABLE T(D INT PRIMARY KEY, C INT REFERENCES S(C) ON DELETE SET NULL);\n</pre><p>Consider the following instances of relations $\\textsf{R, S, T :}$<br>$$\\textsf{R}$$$$\\begin{array}{c|c} \\text{A} &amp; {B} \\\\ \\hline a &amp; a \\\\ b &amp; b \\end{array}$$</p><p>$$\\textsf{S}$$$$\\begin{array}{c|c} \\text{C} &amp; {A} \\\\ \\hline b&nbsp;&amp; a \\\\ c&nbsp;&amp; a&nbsp;\\end{array}$$</p><p>$$\\textsf{T}$$$$\\begin{array}{c|c} \\text{D} &amp; {C} \\\\ \\hline a &amp; b&nbsp;\\\\ c&nbsp;&amp; c&nbsp;\\end{array}$$<br>Which of the following is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>After executing the command “DELETE FROM T;”, R will remain unchanged.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>After executing the command “DELETE FROM S;”, R will remain unchanged.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>After executing the command “DELETE FROM S;”, T will contain $2$ tuples.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>After executing the command “DELETE FROM R;”, T will contain $2$ tuples.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 31)</small></h4><a name=\"384726\"></a><div itemprop=\"text\">The SQL DELETE Statement :<br>\nThe DELETE statement is used to delete existing records in a table.<br>\n<br>\nDELETE Syntax: “DELETE FROM table_name WHERE condition; “<br>\n<br>\nNote: Be careful when deleting records in a table! Notice the WHERE clause in the DELETE statement. The WHERE clause specifies which record(s) should be deleted. If you omit the WHERE clause, all records in the table will be deleted!.<br>\n<br>\nDelete All Records :<br>\nIt is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact:<br>\n<br>\n“DELETE FROM table_name;” The following SQL statement deletes all rows in the \"Customers\" table, without deleting the table:<br>\n<br>\nExample :<br>\nDELETE FROM Customers;<br>\n<br>\nForeign Keys with cascade delete :<br>\nA foreign key with cascade delete means that if a record in the parent table is deleted, then the corresponding records in the child table will automatically be deleted. This is called a cascade delete in SQL Server.<br>\n<br>\nForeign Keys with Set Null on Delete :<br>\nA foreign key with \"set null on delete\" means that if a record in the parent table is deleted, then the corresponding records in the child table will have the foreign key fields set to null. The records in the child table will not be deleted.<br>\n<br>\nIn the given question :<br>\nOption A :<br>\nAfter executing the command<br>\nDELETE FROM T;<br>\n<br>\nALL rows of Table T will be deleted. Since table S is the parent of table T, so, table S is unaffected, So, table R is unaffected.<br>\n<br>\nOption B, C :<br>\nAfter executing the command<br>\nDELETE FROM S;<br>\n<br>\nALL rows of Table S will be deleted. Since table R is the parent of table S, so, table R is unaffected. But table T will have its C attribute values set to NULL. So, table T be still has two rows but in column C, it will have NULL values.<br>\n<br>\nOption D :<br>\nAfter executing the command<br>\nDELETE FROM R;<br>\n<br>\nALL rows of Table R will be deleted. Since table R is the parent of table S and “On Delete Cascade” is there, so, table all rows of table S will be deleted. Now, due to deletion of all rows of S, &nbsp;table T will have its C attribute values set to NULL. So, table T be still has two rows but in column C, it will have NULL values.</div></section></div><p><a href=\"https://gateoverflow.in/384725\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{R}(a, b, c, d)$ be a RDBMS relation having the following set of functional dependencies(FD set) :<br>FD Set $\\mathrm{F}=\\{b \\rightarrow c ; c \\rightarrow d ; ab \\rightarrow d ; bc \\rightarrow cd\\}$ We apply some queries on a relational instance $r$ of $\\text{R}$. Which of the following queries are guaranteed to return the same number of tuples as in relation instance $r?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\prod_a(r)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\prod_{a, c}(r)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\prod_{a, b}(r)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\prod_{a, b, d}(r)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 23)</small></h4><a name=\"384724\"></a><div itemprop=\"text\">From the given FD set we can find candidate key which is “$ab$” because these attributes do not appear on the RHS of any FD.<br>\n<br>\nThe number of tuples in a relation resulting from a PROJECT operation is always less than or equal to the number of tuples in $\\text{R}.$ <br>\n<br>\nIf the projection list is a superkey of $\\text{R}$—that is, it includes some key of $\\text{R}$— the resulting relation has the same number of tuples as $\\text{R}.$</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"500636\"></a><div itemprop=\"text\"><p>Answer option C,D<br><br>Since, AB is the candidate key because we can infer any other attributes in relation R using FD set.<br><br>For the queries in the options to return the same no of tuples as in the relation R we need AB under <b>Projection</b>(π) operation, since AB is the key. So option C is correct.<br><br>Now, Any <b><i>SUPERSET</i></b>&nbsp; of the attributes <b><i>AB</i></b>(candidate key) will definitely give the same result as AB(candidate key) under Projection (π) operation.&nbsp; From this we can say option d gives same result as option c<br><br>Therefore OPTION C D are correct</p></div></section></div><p><a href=\"https://gateoverflow.in/384723\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For a RDBMS relation $\\mathrm{T}(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}, \\mathrm{S}, \\mathrm{U})$, the following set $\\mathrm{F}$ of functional dependencies holds:<br>$$<br>\\mathrm{F}=\\{\\mathrm{P} \\rightarrow \\mathrm{QR} ; \\mathrm{RS} \\rightarrow \\mathrm{U} ; \\mathrm{Q} \\rightarrow \\mathrm{S} ; \\mathrm{U} \\rightarrow \\mathrm{P}\\}<br>$$</p><ul><li>Ram decomposes $\\mathrm{T}$ into two relations $\\mathrm{X}(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}), \\mathrm{Y}(\\mathrm{R}, \\mathrm{S}, \\mathrm{U})$.</li><li>Shyam decomposes $\\mathrm{T}$ into two relations $\\mathrm{A}(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}), \\mathrm{B}(\\mathrm{P}, \\mathrm{S}, \\mathrm{U})$.</li></ul><p>Which of the following is/are necessarily true on any(every) instance $t$ of relation $\\mathrm{T}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{X} \\bowtie \\mathrm{Y} = t$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{X} \\bowtie \\mathrm{Y} \\neq t$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{A} \\bowtie \\text{B} = t$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{A} \\bowtie \\text{B} \\neq t$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 25)</small></h4><a name=\"384722\"></a><div itemprop=\"text\"><p>$\\text{T(PQRSU)} :$<br>$\\mathrm{F}=\\{\\mathrm{P} \\rightarrow \\mathrm{QR} ; \\mathrm{RS} \\rightarrow \\mathrm{U} ; \\mathrm{Q} \\rightarrow \\mathrm{S} ; \\mathrm{U} \\rightarrow \\mathrm{P}\\}$<br>The candidate keys are : $\\mathrm{P}, \\mathrm{U}, \\mathrm{RS}, \\mathrm{QR}$<br>A decomposition $\\{R 1, R 2\\}$ is a lossless-join decomposition if $\\mathrm{R} 1 \\cap \\mathrm{R} 2 \\rightarrow$<br>$\\mathrm{R} 1$ or $\\mathrm{R} 1 \\cap \\mathrm{R} 2 \\rightarrow \\mathrm{R} 2$.<br>Since Shyam's decomposition $: \\text{A(P, Q, R) , B(P,S,U)}.$<br>and $\\mathrm{A} \\cap \\mathrm{B}=\\mathrm{P}$. Since $\\mathrm{P}$ is a candidate key, Therefore $\\mathrm{A} \\cap \\mathrm{B} \\rightarrow \\mathrm{A}$.<br>So lossless decomposition. Hence, $\\text{A} \\bowtie \\text{B}=t$.<br>Ram's decomposition is NOT lossless because common attribute $\\mathrm{R}$ is Not super key in either $\\mathrm{X}$ or $\\mathrm{Y}$. So, $\\mathrm{X} \\bowtie \\mathrm{Y}$ may or may not be equal to $t$.</p><hr><p>Useful Comment:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/384721/go-classes-cs-da-test-series-2025-databases-test-question-15?show=437576#c437576\" target=\"_blank\">https://gateoverflow.in/384721/go-classes-cs-da-test-series-2025-databases-test-question-15?show=437576#c437576</a></p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"431219\"></a><div itemprop=\"text\"><p>Consider Below explanation&nbsp;<br><img alt=\"\" width=\"1076\" height=\"1280\" src=\"media/48/48f55595241263887864.jpg\"></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"489721\"></a><div itemprop=\"text\">UNDERLYING CONCEPT TO UNDERSTAND THIS QUESTION - Lossy and Lossless decomposition.<br>\n<br>\nRam's decompostion - X(P,Q,R) and Y(R,S,U)<br>\n<br>\nYou can check by chase test that this decompostion is LOSSY and lossy decomposition means <br>\n<br>\nX natural join Y is a superset (not a proper superset) of original instance so options A and B are eliminated.<br>\n<br>\nShyams decomposition is lossless so A natural join B will always be equal to original instance so answer is option C</div></section></div><p><a href=\"https://gateoverflow.in/384721\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 9,
+  "types": {
+   "MSQ": 6,
+   "NAT": 4,
+   "MCQ": 5
+  },
+  "withoutKey": 10
+ }
+}

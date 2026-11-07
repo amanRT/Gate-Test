@@ -1,0 +1,976 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-024",
+ "title": "Subjectwise Test-10 Part Syllabus GATE 2026 EC Digital Circuits",
+ "sourceTitle": "Subjectwise Test-10 Part Syllabus GATE 2026 EC Digital Circuits",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 24,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/030_Subjectwise Test-10 Part Syllabus GATE 2026 EC Digital Circuits.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the combinational circuit using full adder shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/58/580fad7a78590fe0fb26.png\" /></div>\n\n<div>where, <em>S</em> and <em>C</em> are sum and carry of full adder.<br />\nThe logic expression for <em>S</em> and <em>C</em> respectively are,</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/66/6616e86255777a538102.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/ae/aec54e416d603b425908.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/b0/b006ca9661dd2ad52e8c.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a9/a90824e2e5134ec62aa3.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/93/93e6fbff6595efca3eb8.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The base (<em>x</em>) of the number system for which the below equation holds good is ________.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/50/5057d7a7fb74de963fe5.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>8 (8 - 8)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b9/b9deb6af6209fd0d96ef.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider PLA circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/59/59505ed3cda2a1e024d6.png\" /></div>\n\n<div>The output <em>f</em> (<em>A</em>, <em>B</em>, <em>C</em>) is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ca/ca7d30947bdb72974771.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/d0/d077e034881ea7140747.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/3e/3e50e0349d217d1684e5.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/fe/fecbcd8a3a4b93816cd9.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/70/70cad21c24be8811088d.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the combinational circuit shown below</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8a/8a46dbb6d6399b35d9df.png\" /></div>\n\n<div>If output <em>F</em> = 1, the possible input combinations <img align=\"absmiddle\" alt=\"\" src=\"media/91/914189ed83494ba22589.png\" /> is/are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0000, 0101"
+    },
+    {
+     "key": "B",
+     "html": "0101, 1110, 1010"
+    },
+    {
+     "key": "C",
+     "html": "0000, 0010"
+    },
+    {
+     "key": "D",
+     "html": "1111, 1000"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d24f03374ffa424d89f1.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the combinational circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/49/49320ea0af70d688d62e.png\" /></div>\n\n<div>With <em>W</em><sub>1</sub> and <em>W</em><sub>2</sub> as inputs, the given circuit implements a</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "EX-OR logic"
+    },
+    {
+     "key": "B",
+     "html": "EX-NOR logic"
+    },
+    {
+     "key": "C",
+     "html": "OR-logic"
+    },
+    {
+     "key": "D",
+     "html": "NOR logic"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d27e203f1de5cec66952.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Which of the following is not an application of a gray code?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It is used in transmission of digital signal."
+    },
+    {
+     "key": "B",
+     "html": "It is generally used in angle measurement devices."
+    },
+    {
+     "key": "C",
+     "html": "It is generally used for arithmetic operation."
+    },
+    {
+     "key": "D",
+     "html": "It is generally used as a position indicator."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; Gray Code is a binary code where two successive values differ in only one bit. It is used in<br />\ntransmission of digital signal as it reduces occurrence of error.<br />\n&bull; The cyclic property of gray code makes it useful for angle measurement.<br />\n&bull; It is generally used as a position indicator as two successive values differ in only one bit.<br />\n&bull; Gray code does not use positional weighting, making it unsuitable for arithmetic operations.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The below figure shows the output of a transistor level circuit connected to the select line of a 2-input multiplexer.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e3/e3fabe49b13b0fe2b4ca.png\" /></div>\n\n<div>The minterms present in the output logic function <em>F</em> are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Σ<em>m</em>(1, 2, 4, 7)"
+    },
+    {
+     "key": "B",
+     "html": "Σ<em>m</em>(1, 4, 5, 7)"
+    },
+    {
+     "key": "C",
+     "html": "Σ<em>m</em>(3, 5, 6, 7)"
+    },
+    {
+     "key": "D",
+     "html": "Σ<em>m</em>(0, 3, 6, 7)"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6d/6d867759678a3a989f64.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A n-bit ADC has following specifications: 16-bit counter, clock rate = 4 MHz, input voltage = 12 V and capacitor = 0.47 μF.<br />\nIf the maximum integrator output voltage is –7 V when the counter have cycled through 2<sup>n</sup> counts, then the value of resistor in the integrator is _______ × 10<sup>3</sup> Ω. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    57,
+    61
+   ],
+   "answerText": "59.74",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>59.74 (57.00 - 61.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/01/0170418e18ea4cf17745.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The number of self-dual functions possible with ‘<em>n</em>’ Boolean variables is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2<em><sup>n</sup></em>"
+    },
+    {
+     "key": "B",
+     "html": "2<sup><em>n</em> –1</sup>"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/7b/7bc5e4f3262e4d565ac7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/30/30ce8a5262aedf04fa69.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the sequential circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d7/d741499bb0cc5aa7c20d.png\" /></div>\n\n<div>where, u(k) : input, x(k) : present state, z(k) : output.<br />\nThe state diagram of the above sequential circuit is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d9/d9f153d603cf4d49e776.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/98/985bcdb75bab0cc19aa6.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/85/855d8d4ac57bfcaadde2.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/fc/fceb814122d0d228f1bf.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/84/843567730bcf729db98a.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The logic function implemented by the below transmission logic circuit is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8b/8b62f161711e4e8b2304.png\" /></div>\n\n<div>\n<div> </div>\n\n<div><img alt=\"\" src=\"media/29/298da82c7f9216839901.png\" /></div>\n\n<div> </div>\n\n<div>(Assume <em>M</em> is an ideal MOSFET)</div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e0/e096b2e70c0efae206cd.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For a MOD-12 ripple counter, each FF has a propagation delay of 60 ns and the NAND gate has a propagation delay of 25 ns. The maximum frequency of clock that can be applied to the counter is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.774 MHz"
+    },
+    {
+     "key": "B",
+     "html": "7.342 MHz"
+    },
+    {
+     "key": "C",
+     "html": "4.377 MHz"
+    },
+    {
+     "key": "D",
+     "html": "8.245 MHz"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6a/6a0afd6b2bcff57909f1.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the combinational circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/48/48c92c74f91be347904f.png\" /></div>\n\n<div>The output <em>Y</em> is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/4e/4e050ad50afb3a98e075.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/e5/e5e9ea58b5ad8e4025c9.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/00/00ff6e664fa4afb61020.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/8a/8ad36298a32cf46078d1.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6f/6fa407f130b6053984de.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The minimum decimal equivalent of the number (15<em>A</em>)<sub>x</sub> is equal to _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    186,
+    186
+   ],
+   "answerText": "186",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>186 (186 - 186)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/dd/dd220aab10d0dbf8d822.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A two input gate having inputs ‘<em>A</em>’ and ‘<em>B</em>’ is implemented using 4 : 1 MUX as shown in the figure below.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f2/f2617e161f4bd6d1badb.png\" /></div>\n\n<div>Then the minimum number of NAND gates required to implement the same gate is equal to ______.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3 (3 - 3)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/86/86c9253fbfed8ac405ef.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>If the value <img align=\"absmiddle\" alt=\"\" src=\"media/95/95f592ea1e0a3d008be2.png\" /> then the value of <em>X</em> ⊕ <em>Y</em> is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>X</em>"
+    },
+    {
+     "key": "B",
+     "html": "0"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/8c/8cf553f5716dd1fe13a5.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<em>X</em> + <em>Y</em>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9e/9e00ee9647f2c4069b01.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A 4-bit synchronous counter uses flip-flops with a propagation delay of 15 nsec each. The AND-OR combinational logic feeding MSB has 30 nsec delay. The maximum operating frequency is _________ MHz. (upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    21,
+    23
+   ],
+   "answerText": "22.2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>22.2 (21.0 - 23.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d9/d9b8cb4f906c43bcefe2.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the MUX circuit shown in the figure below.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/68/68b1f9264398e0cf0f2b.png\" /></div>\n\n<div> </div>\n\n<div>The counter is a 2 bit up counter which is initially set to ‘00’ at ‘<em>t</em><sub>0</sub>’ time.<br />\nThe clock is applied to the counter which in turn is used to drive a 4 × 1 MUX and a 1 × 4 DEMUX<br />\ncircuit, then the time at which the output <img align=\"absmiddle\" alt=\"\" src=\"media/01/0183e0b018c75e52cfdb.png\" /> will occur for the first time and its value is respectively given by<br />\n(Assume the circuits have zero delay and <em>t<sub>n</sub></em> represents the <em>n</em><sup>th</sup> clock pulse)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/a4/a4964fce58ff872741b8.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/cd/cd96641075a2629edc24.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/36/361f762ef5326324393e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/3f/3f00cb3010276b75bfda.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/24/24119571b0f169214839.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e4/e4cf94a93005a2202cd1.png\" /></div>\n\n<div> </div>\n\n<div>then, which of the following statements are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "When <em>A</em> = 1 and <em>B</em> = 1, output <em>X</em> = 0, <em>Y</em> = 0"
+    },
+    {
+     "key": "B",
+     "html": "When <em>A</em> = 1 and <em>B</em> = 0, output <em>X</em> = 1, <em>Y</em> = 1"
+    },
+    {
+     "key": "C",
+     "html": "When <em>A</em> = 0 and <em>B</em> = 1, output <em>X</em> = 0, <em>Y</em> = 1"
+    },
+    {
+     "key": "D",
+     "html": "When <em>A</em> = 0 and <em>B</em> = 0, output <em>X</em> = 1, <em>Y</em> = 0"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/de/ded34c06ebee714c11b0.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The input clock frequency to an 8-bit successive approximation <em>ADC</em> is 10 MHz. The time required to convert 20 V analog input into equivalent digital output is ________ μsec.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.7,
+    0.9
+   ],
+   "answerText": "0.8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.8 (0.7 - 0.9)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b9/b9720f5e5884460367a4.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the state table of a digital circuit given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/23/23da15f3aeed5db51ac3.png\" /></div>\n\n<div>The total number of redundant states present is equal to __________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3 (3 - 3)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2f/2f173761e7fae7393f45.png\" /></div>\n\n<div><img alt=\"\" src=\"media/14/146e237babcd78d55272.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Identify the logic gates <em>X</em><sub>1</sub> and <em>X</em><sub>2</sub>:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/24/243972a88ec7f6c2cf0b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "NOR, OR"
+    },
+    {
+     "key": "B",
+     "html": "AND, NAND"
+    },
+    {
+     "key": "C",
+     "html": "OR, NAND"
+    },
+    {
+     "key": "D",
+     "html": "NOR, AND"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d1/d184ead0668f3d951210.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A particular 6-bit DAC has a full scale output rated at 1.26 V. Its accuracy is specified as ±0.2% of full scale voltage and it has an offset error of ±1 mV. The maximum possible error is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "±1.52 mV"
+    },
+    {
+     "key": "B",
+     "html": "±0.52 mV"
+    },
+    {
+     "key": "C",
+     "html": "±3.52 mV"
+    },
+    {
+     "key": "D",
+     "html": "±3.68 mV"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a7/a7b1660711983fb3c187.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The number of clock pulses needed to change the contents of an 8-bit up-counter from (10101011)<sub>2 </sub>to (00111010)<sub>2</sub> is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    143,
+    143
+   ],
+   "answerText": "143",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>143 (143 - 143)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b7/b7d0eb6762d4daa4c408.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/dd/ddb829aef8922a2493e9.png\" /></div>\n\n<div>If input clock frequency is 10 kHz, then the output frequency is equal to ________ kHz.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5 (5 - 5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c0/c0736efd0fc834278131.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following is a proper state equation for the circuit given below?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ae/aea79c9823148f2ba70d.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/fa/facabca8b9c13b3d48a0.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/4d/4db70c1cf60ced218091.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/83/8310aa5ae7b133f831e2.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/41/41dcfed3f6ec03399adc.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/41/41bcd906aa37806f62d9.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A logical function is given as <em>F</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) = Σ<em>m</em> (0, 4, 5, 10, 11, 13, 15).<br />\nThe number of essential prime implicants in the given boolean function will be _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2 (2 - 2)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/74/74cd8793e5a233a5c397.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The percentage duty cycle of the output Y, when the clock frequency 1 MHz with 50% duty cycle is __________(in %).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5d/5daee8abd787420471fe.png\" /></div>\n\n<div>(Assume the output of both the flip-flops is ‘0’ initially)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    50,
+    50
+   ],
+   "answerText": "50",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>50 (50 - 50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/30/30950ac1e5d0a1833ec6.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In the circuit shown below, the NOT gates are arranged such that the propagation delay of alternate NOT gates is 2 nsec and the propagation delay of remaining NOT gates is zero, then the possible time period(s) of the generated square wave at output could be</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/66/663ccc9647ec86dd2b88.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8 nsec"
+    },
+    {
+     "key": "B",
+     "html": "10 nsec"
+    },
+    {
+     "key": "C",
+     "html": "12 nsec"
+    },
+    {
+     "key": "D",
+     "html": "20 nsec"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/04/049862e6bce685395808.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the ADC circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/20/20222e203d6569cf2658.png\" /></div>\n\n<div>The weight of input (<em>B</em>) is _________ V.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -1.4,
+    -1.1
+   ],
+   "answerText": "-1.25",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>-1.25 (-1.40 - -1.10)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b9/b91e95241466a9c2ab88.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the pass-transistor logic circuits shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/87/87566863ff0c785653a9.png\" /></div>\n\n<div> </div>\n\n<div>The expressions of Y and Z in terms of A and B is respectively given by</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/eb/ebae098ace4392130709.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/f3/f38ac4fe1a3f05d3d6c3.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/9c/9c8c0fcd63d2b8393a72.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/58/587359e5f0795d0d308b.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f07fcc990c4f553132f2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b3/b38143c9f6c2b258c4e8.png\" /></div>\n\n<div>If the resolution of D/A converter (1) is equal to 0.25 V and the resolution of the D/A converter (2) is equal to 0.5 V, then the output voltage <em>V</em><sub>out</sub> for a input signal of 2.3 V is equal to ________ V.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5 (5 - 5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ef/efc8239db8e365ce2eb0.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The number of select lines m, required to select one output of a 32 input line MUX is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>5 (5 - 5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e5/e5b82a92c6ade1040208.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 17,
+   "NAT": 14,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

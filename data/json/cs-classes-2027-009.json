@@ -1,0 +1,577 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-009",
+ "title": "DVRUO Classes CS/DA Test Series | Aptitude | Test 3",
+ "sourceTitle": "DVRUO Classes CS/DA Test Series | Aptitude | Test 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 9,
+ "category": "aptitude",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Aptitude"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The given question consists of five figures marked $1, 2, 3, 4$ and $5$ called the Problem figures. Select the figure from amongst the alternatives, which will continue the same series as established by the five Problem figures.<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"167\" src=\"media/60/603bd56e1d084ba1b8a3.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" width=\"140\" height=\"123\" src=\"media/6a/6a71ec78a3f2fcd0b322.png\"><p>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" width=\"140\" height=\"144\" src=\"media/76/7686b870cea29b28d9e2.png\"><p>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" width=\"140\" height=\"144\" src=\"media/76/7686b870cea29b28d9e2.png\"><p>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" width=\"140\" height=\"136\" src=\"media/b1/b1ea4a911731d2da46cb.png\"><p>&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"542526\"></a><div itemprop=\"text\">so i got it!<br>\n<br>\nfig 1 has 0 removed<br>\n<br>\nfig 2 has &nbsp;1 removed<br>\n<br>\nfig 3 has &nbsp;3 removed<br>\n<br>\nfig 4 has 4 removed<br>\n<br>\nfig 5 has 6 removed<br>\n<br>\n0,1,3,4,6 &nbsp;&nbsp;&nbsp;&nbsp;so differnce comes 12 12 type so fig 6 should have 1 from pattern that is 6+1=7 removed &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;so only option D) satisfies</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543251\"></a><div itemprop=\"text\">1st fig - complete<br>\n2nd fig - one removed from right side going top-down<br>\n3rd fig - two removed from left side going bottom-up<br>\n4th fig - continuing the pattern 2nd step repeated<br>\n5th fig - 3rd repeated<br>\n<br>\nhence, continuing the pattern 6th figure will have one more removed from right side going top-down.<br>\nmaking option [D] correct.</div></section></div><p><a href=\"https://gateoverflow.in/539101\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The given question consists of a set of three figures $X, Y$ and $Z$ showing a sequence of folding of a piece of paper. Fig. (Z) shows the manner in which the folded paper has been cut. These three figures are followed by four options from which you have to choose a figure which would most closely resemble the unfolded form of fig. (Z).<br><br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"123\" src=\"media/29/291517301558c0b2770a.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" width=\"160\" height=\"163\" src=\"media/e0/e094fb1d439746d87a43.png\"><br>&nbsp;"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" width=\"160\" height=\"159\" src=\"media/09/09cdc171880da115159b.png\"><p>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" width=\"160\" height=\"151\" src=\"media/ad/ad05e30da29d7e1c4eac.png\"><br>&nbsp;"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" width=\"160\" height=\"125\" src=\"media/62/624fdf9724ed89b3c585.png\"><p>&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/539100\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}, \\mathbf{S}$ are competing in the slow cycle race, in which the slowest cyclist wins. A few minutes after the race begins, $\\mathbf{P}$ is physically ahead of $\\mathbf{Q}$. $\\mathbf{R}$ and $\\mathbf{S}$ are physically behind $\\mathbf{Q}$. S is physically ahead of $\\mathbf{R} . \\mathbf{P}$ got eliminated and $\\mathbf{R}$ overtakes $\\mathbf{Q}$. Just reaching before the end mark, $\\mathbf{S}$ overtakes $\\mathbf{Q}$. Which of the options is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathbf{R}$ is winner<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathbf{S}$ is winner<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathbf{Q}$ is winner<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathbf{Q}$ is runner up</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539099\"></a><div itemprop=\"text\">$\\textbf{Initial Positions,}$<br>\n<br>\nOrder from ahead to behind: $\\mathrm{P} \\rightarrow \\mathrm{Q} \\rightarrow \\mathrm{S} \\rightarrow \\mathrm{R}$<br>\n<br>\n$\\textbf{After changes,}$<br>\n<br>\n\"P got eliminated\" $\\Longrightarrow \\mathrm{P}$ is out of the race.<br>\n<br>\n\"$R$ overtakes $Q$ \" $R$ moves physically ahead of $Q$.<br>\n<br>\n\"$S$ overtakes $Q$\" $S$ moves physically ahead of $Q$.</div></section></div><p><a href=\"https://gateoverflow.in/539098\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Choose the most appropriate option to fill in the blank:<br>Sharon is throwing a party on Saturday. She _____ finished her PhD.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>finally<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>vaguely<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>easily<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>slowly</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539097\"></a><div itemprop=\"text\">The adverb \"finally\" is used to emphasize that something has happened after a long time, a lot of effort, or a series of delays, making it the perfect contextual fit for celebrating the completion of a doctorate degree.</div></section></div><p><a href=\"https://gateoverflow.in/539096\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\#$ be an operation on $x$ and $y$ defined as $x \\# y=\\frac{x^{2}+y^{2}}{x+y}$. Find the value of $1 \\# 1 \\# 5$ given that the operations are performed from left to right?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$ \\frac{13}{3} $<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{14}{5}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{25}{17}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{26}{11}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539095\"></a><div itemprop=\"text\">We need to calculate the value of $1\\#1\\#5$ performing the operations from left to right.<br>\nSo, we have: $(1 \\# 1) \\# 5=\\left(\\frac{1^{2}+1^{2}}{2}\\right) \\# 5=\\frac{2}{2} \\# 5=1 \\# 5=\\frac{1^{2}+5^{2}}{1+5}=\\frac{26}{6}=\\frac{13}{3}=4.33$.<br>\nHence, the correct answer is $\\frac{13}{3}$ or 4.33 .</div></section></div><p><a href=\"https://gateoverflow.in/539094\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which option(s) can be folded to form the cube shown?<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"250\" height=\"243\" src=\"media/9c/9c634829fcf24aa2897a.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" width=\"150\" height=\"182\" src=\"media/ea/eaf92897f03b164edad0.png\"><br>&nbsp;"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" width=\"150\" height=\"197\" src=\"media/66/669d57fa9dd98ec0758a.png\"><br>&nbsp;"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" width=\"150\" height=\"178\" src=\"media/27/2789e22c38b55138ab9f.png\"><br>&nbsp;"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" width=\"150\" height=\"168\" src=\"media/b3/b3c99b0020789e004867.png\"><p>&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"539186\"></a><div itemprop=\"text\">I did a small activity with paper and found out that Option B can be correct.</div></section></div><p><a href=\"https://gateoverflow.in/539093\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A three-digit number yields a remainder $1$ when it is divided either by $100$ or by $60$. How many three-digit numbers are there with this property?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>One<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Two<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Three<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Four</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539092\"></a><div itemprop=\"text\">Three-digit numbers yielding $1$ in the remainder when divided by $100$ are $101,201,301,401,501,601,701,801, \\&amp; 901-9$ numbers. If we subtract $1$ from these numbers, we will get following $9$ numbers: $100,200,300,400,500,600,700,800, \\&amp; 900$.<br>\n<br>\nAmong these numbers, we have to select the numbers that are completely divisible by $60$ . and these numbers are $300,600,$ and $900-3$ numbers.<br>\n<br>\nHence, the correct option is (C).</div></section></div><p><a href=\"https://gateoverflow.in/539091\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Amy decides to write down every fourth number starting with one till $50$. While at the same time, Mary decides to write down every third number starting with one till $50$. How many numbers would be common to both of them?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$4$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$6$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539090\"></a><div itemprop=\"text\">Amy writes down every fourth number starting with one till $50$, hence she writes down the numbers: $1,5,9,13$ and so on.<br>\n<br>\nMary writes down every third number starting with one till $50$, hence she writes down the numbers: $1,4,7,10,13$ and so on.<br>\n<br>\nThus, we see that the first number common to both of them after $1$ is $13$.<br>\nWe can get the starting number (i.e. $13$) in another way:<br>\nSince both Amy and Mary start with the same number (i.e. $1$), with Amy counting every fourth number and Mary counting every third number, they would reach a common number after a gap equal to the LCM of $4$ and 43$ i.e. $12$.<br>\n<br>\nThus, the next number that both reach is: $1+12=13$.<br>\nThus, in general, they would keep reaching the same numbers always at gaps of $12$.<br>\nIf one observes carefully, the number after $13$ which they both reach is: $13+12=25$.<br>\nThus, the numbers common to both are: $1,13,25,37$ and $49$. Hence, they have $5$ numbers in common.<br>\n<br>\nAlternately, we can also calculate the $\\#$ of common numbers in the following way:<br>\nWe know that the starting number is $1$ and the gap between any two consecutive common numbers is $12$. Thus, from $1$ to $50$, i.e. a total gap of $50-1=49$, we try to find out how many gaps of $12$ can be accommodated.<br>\n<br>\nThis can be calculated by dividing $49$ by $12$ and finding the quotient, which, in this case is $4$.Thus, there are $4$ such gaps possible.<br>\n<br>\nHence, the $\\#$ of common numbers will be one more than the number of gaps $=1+4=5$. Hence, the total $\\#$ of numbers common = $5$.<br>\n<br>\nHence, the correct option is (C).</div></section></div><p><a href=\"https://gateoverflow.in/539089\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"427\" src=\"media/81/81201e089ede4d8fef32.png\"></p><p><br>The graph of $f(x)=2 x+5$ is shown above. Choose from the options below the correct graph of $g(x)=2(x-1)+5$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"352\" src=\"media/dd/dd286d93597f69c7edd0.png\"></p><p>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"362\" src=\"media/9c/9c346b3f937b368d5302.png\"></p>&nbsp;<br>&nbsp;"
+    },
+    {
+     "key": "C",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"341\" src=\"media/38/38c71d3a77d36d065089.png\"></p><br>&nbsp;"
+    },
+    {
+     "key": "D",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"343\" src=\"media/6c/6cdc69ec875f6b8fcb7c.png\"></p><p>&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539088\"></a><div itemprop=\"text\">The given graph is $f(x)=2 x+5$.<br>\nWe need to find the graph of $g(x)=2(x-1)+5$.<br>\nHere, we see that $x$ has been replaced with $(x-1)$.<br>\nThus, the graph would shift by one unit right (since $x$ has been reduced by one).<br>\nTo find the correct graph, let us pick one reference point on the original graph.<br>\nLet the point be the one where $f(x)$ intersects the X -axis. The point is $(-2.5,0)$.<br>\nThus, on shifting, this point would move to $(-2.5,0+1,0)=&gt;(-1.5,0)$.<br>\nThus, the graph of $g(x)$ should intersect the X-axis at $(-1.5,0)$.<br>\nThis is satisfied by the graph shown in option (A).<br>\nHence, the correct option is (A).</div></section></div><p><a href=\"https://gateoverflow.in/539087\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An operation @ is defined by the equation $a @ b=\\frac{(a+b)}{(a-b)}$, for all numbers $a$ and $b$ such that $a \\neq b$. If $a @ c=2$, then what is the value of $c$ in terms of $a$ ? [Without calculator]</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{-a}{3}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-3 a$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{a}{3}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3 a$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539086\"></a><div itemprop=\"text\">$a @ c=\\frac{(a+c)}{(a-c)}=2=&gt;a+c=2 \\times(a-c)=&gt;a+c=2 a-2 c=&gt;c= \\frac{-a}{3}$.<br>\n<br>\nHence, the correct option is C.</div></section></div><p><a href=\"https://gateoverflow.in/539085\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A $50$ ml. mixture of wine and water has only $15$ percent wine. If a person requires $27$ ml . of wine, what volume of the mixture must he have access to?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$81$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$108$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$150$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$180$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539084\"></a><div itemprop=\"text\">Given that the concentration of wine is $15 \\%$.<br>\nTo get $15$ ml. of wine, we need 100 ml . of the mixture.<br>\nTo get $27$ ml. of wine, we need: $\\frac{100}{15} \\times 27=180 \\mathrm{ml}$. of mixture.<br>\nIn the question, the data regarding total volume of mixture, $50$ ml. is unnecessary (redundant).<br>\n<br>\nHence, the correct option is (D).</div></section></div><p><a href=\"https://gateoverflow.in/539083\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"232\" src=\"media/50/5097e26e1fdb8f07fd5b.png\"></p><p><br>Whose earning increased consistently from the year $2005$ to the year $2010$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$B$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$C$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$D$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539082\"></a><div itemprop=\"text\"><p>Let's check person D's earnings year by year:</p><ul><li>$2005$ to $2006$: $3.73 \\rightarrow 5.52$ (Increased)</li><li>$2006$ to $2007$: $5.52 \\rightarrow 5.68$ (Increased)</li><li>$2007$ to $2008$: $5.68 \\rightarrow 6.74$ (Increased)|</li><li>$2008$ to&nbsp;$2009$: $6.74 \\rightarrow 8.42$ (Increased)</li><li>$2009$ to $2010$: $8.42 \\rightarrow 9.45$ (Increased)</li></ul><p>Every other person has at least one year where their earnings dropped:</p><ul><li>A: Dropped from $2005$ to $2006(2.24 \\rightarrow 1.44)$ and $2008$ to $2009(6.65 \\rightarrow 5.34)$.</li><li>B: Dropped from $2005$ to $2006(4.33 \\rightarrow 3.34), 2006$ to $2007(3.34 \\rightarrow 2.79)$, and $2008$ to $2009(6.63 \\rightarrow 4.5)$.</li><li>C: Dropped from $2007$ to $2008$ ($7.52 \\rightarrow&nbsp;5.83$).</li></ul><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/539081\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"248\" src=\"media/31/3121091a69cb7f2ff95a.png\"></p><p><br>If one-thirtysixth of the teachers from University F are professors and the salary of each professor is&nbsp; $96000$, what will be the total salary of all the professors together from University F?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$307.2$ lakh<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$32.64$ lakh<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3.072$ lakh<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$264$ lakh</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"543247\"></a><div itemprop=\"text\">18% teachers of 6400 are from university F = 1152 teachers<br>\nnow, 1/36th of teachers from university F are professors = 1/36 * 1152 = 32<br>\neach professor has salary of 96000 then total salary of professors = 32 * 96000 = 30,72,000 or 30.72 lakh.<br>\n<br>\nnone of the options match the correct answers.</div></section></div><p><a href=\"https://gateoverflow.in/539079\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A boy took an examination that had $+3$ marks for a correct response and $-1$ for a wrong one. If there were a total of $60$ questions and he attempted all of them to get a score of $100$, how many questions did he get wrong?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$20$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$40$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$45$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539078\"></a><div itemprop=\"text\">Let us assume that the boy got $x$ responses wrong.<br>\nThus, he must have got $(60-x)$ responses correct (since there are in all 60 questions and he attempted all of them).<br>\n<br>\nThus, his marks from correct responses $=3 \\times(60-x)=180-3 x$.<br>\nHis marks from the wrong responses $=(-1) \\times x=-x$.<br>\nThus, his total marks $=(180-3 x)+(-x)=180-4 x$.<br>\nHence, we have: $180-4 x=100=&gt;4 x=80=&gt;x=20$.<br>\nThus, he had got 20 responses wrong.<br>\nHence, the correct answer is (B).</div></section></div><p><a href=\"https://gateoverflow.in/539077\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If&nbsp; ''$P * Q$'' indicates ''$P$ is the father of $Q$''; ''$P \\cdot Q$'' indicates ''$P$ is the sister of $Q$''; ''$P \\circ Q$'' indicates ''$P$ is the brother of $Q$''; ''$P \\phi Q$'' indicates ''$P$ is the mother of $Q$''; which of the following would represent ''$P$ is brother-in-law of $Q$''?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$PoR\\phi \\mathrm{Q}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$P{ }^{*} R \\phi Q$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P\\cdot R \\phi Q$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"539076\"></a><div itemprop=\"text\">(d) In order to represent the relationship of, \"brother-in-law\", we need the symbol for either \"husband\" or \"wife\", which is not given in the question. Hence, the required relationship cannot be represented by any of the combinations given.<br>\n<br>\nSo, the answer is (d).</div></section></div><p><a href=\"https://gateoverflow.in/539075\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 4,
+  "types": {
+   "MCQ": 14,
+   "MSQ": 1
+  },
+  "withoutKey": 13
+ }
+}

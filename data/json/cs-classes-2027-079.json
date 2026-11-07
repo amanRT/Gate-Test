@@ -1,0 +1,2243 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-079",
+ "title": "DVRUO Classes CS Test Series | Mixed Subjects | Full Length Test 4",
+ "sourceTitle": "DVRUO Classes CS Test Series | Mixed Subjects | Full Length Test 4",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 79,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 10800,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Mixed Subjects"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/014_exam_2461_GO Classes CS Test Series Mixed Subjects Full Length Test 4.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose numbers from $1$ to $1000$ are saved in a binary search tree and we want to find $363.$ Which of the following sequences cannot be the order of elements while reaching the searched value?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$925,202,911,240,912,245,363$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$924,220,911,244,898,258,362,363$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2,252,401,398,330,344,397,363$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2,399,387,219,266,382,381,278,363$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383606\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>You are given a minimum heap with $31$ elements. A researcher performs a uniform walk on this heap. Given any node, with probability $0.5$ she goes to the left. Starting from the root node, what is the probability that she will land up on a maximum element in the heap?&nbsp;Assume all elements are distinct.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1 / 31$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1 / 32$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1 / 16$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1 / 15$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/383604\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume that any $\\text{N}$-bit positive integer $x$ is stored as a linked list of bits so that the first element of the list is the least significant bit. For example, $x=14=1110_2$ is stored as the linked list $(0,1,1,1)$ of size $\\text{N}=4$.<br>\nFor this data structure, the operation that replaces $x$ by $\\left\\lfloor\\dfrac{x}{8}\\right\\rfloor$ can be done in</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(1)$ steps</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(\\log n)$ steps</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(n)$ steps</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta(n \\log n)$ steps</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383602\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For which of the following functions $f(n)$ and $g(n),$&nbsp;it holds $:f(n)=O(g(n)).$ Every $\\log$ below is base $2.$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$f(n)=2^{k \\log n}\\;, \\quad g(n)=n^k$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$f(n)=2^n\\;, \\quad g(n)=2^{2 n}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$f(n)=\\left\\{\\begin{array}{ll}4^n &amp; \\text { if } n&lt;2^{1000} \\\\<br>\n\t2^{1000}\\; n^2 &amp; \\text { if } n \\geq 2^{1000}\\end{array}\\;, \\quad g(n)=\\dfrac{n^2}{2^{1000}}\\right.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$f(n)=2^{\\sqrt{\\log n}}\\;, \\quad g(n)= (\\log n)^{100}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/383601\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following connected weighted graph.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"media/01/0126084fca023314b1d8.png\"></p>\n\n<p><br>\nSuppose we add a new edge $\\mathrm{H}-\\mathrm{C}$ to the above graph.</p>\n\n<p>For what values of $\\mathrm{H}-\\mathrm{C}$ does this new edge belong to the Minimum Spanning Tree (MST)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$125$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$100$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$135$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$90$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><p><a href=\"https://gateoverflow.in/383600\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{N}$ be an arbitrary natural number with $\\text{N}&gt;1$. Which one of the following statements is false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A binary tree of height $\\text{N}$ may have $\\text{N}+1$ nodes.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A binary tree of height $\\text{N}$ may have $\\text{N}^2$ nodes.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A binary tree of height $\\text{N}$ may have $2^\\text{N}$ nodes.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A binary tree of height $\\text{N}$ may have $\\text{N}!$ nodes.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383598\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume a set $\\text{A}$ of arrays of size $\\text{N}$ all of which are sorted already. Which one of the following statement&nbsp;is&nbsp;correct assuming there are 10 such arrays in the set?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Mergesort on elements of $\\text{A}$ may take a runtime in $\\Omega\\left(\\text{N}^2\\right)$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Insertion Sort on elements of $\\text{A}$ may take a runtime in $\\Omega\\left(\\text{N}^2\\right)$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Heapsort on elements of $\\text{A}$ may take a runtime in $\\Omega\\left(\\text{N}^2\\right)$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/383597\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which statement on Mergesort is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>There are arrays of size $\\text{N}$ such that Mergesort runs in $\\Theta\\left(\\text{N}^2\\right)$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There are arrays of size $\\text{N}$ such that Mergesort runs in $o\\left(\\text{N}^2\\right)$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There are arrays of size $\\text{N}$ such that Mergesort runs in $O(\\text{N})$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There are arrays of size $\\text{N}$ such that Mergesort runs in $\\Omega\\left(\\text{N}^2\\right)$.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/383595\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Some sorting algorithms require extra space, apart from the space needed for the original array that needs to be sorted. Which one of the following statements on the space usage of sorting algorithms is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Heapsort for sorting an array of size $\\text{N}$ requires an amount of extra space proportional to $\\text{N}$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Insertion Sort for sorting an array of size $\\text{N}$ requires an amount of extra space proportional to $\\text{N}$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Mergesort for sorting an array of size $\\text{N}$ requires an amount of extra space proportional to $\\text{N}$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Quicksort for sorting an array of size $\\text{N}$ requires an amount of extra space proportional to $\\text{N}$.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/383593\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume that you are given a chain of matrices $<\\text{A}_1 \\text{A}_2 \\text{A}_3 \\text{A}_4>,$ with dimensions $2 \\times 5,5 \\times 4,4 \\times 2$ and $2 \\times 4$ respectively. Compute the optimal number of multiplications required to calculate the chain product.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    72,
+    72
+   ],
+   "answerText": "72",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383591\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the given two statements.</p>\n\n<ul>\n\t<li>$\\mathrm{S} 1:$ Depth-first search is asymptotically faster than breadth-first search.</li>\n\t<li>$\\mathrm{S} 2:$ Deleting an element from a binary search tree takes $\\mathrm{O}(\\mathrm{lg} n)$ time in the worst case.</li>\n</ul>\n\n<p>Which of the following is correct about $\\mathrm{S} 1$ and $\\mathrm{S} 2?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{S} 1$ is correct but $\\mathrm{S} 2$ is wrong.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{S} 2$ is correct but $\\mathrm{S} 1$ is wrong.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both are correct</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both are False</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383589\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following graph \\( G \\).<br><br>Traversal trees \\( T1 \\) and \\( T2 \\) (shown below) are obtained using either DFS or BFS, starting from the node <span style=\"font-size: 150%;\">\\( s \\)</span>.</p><p style=\"text-align:center\"><img alt=\"Graph G, Traversal Trees T1 and T2\" width=\"750\" src=\"media/3f/3f367126b712bf190de4.png\"></p><p>Which of the following statements is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\( T1 \\) is possible only using DFS on \\( G \\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\( T1 \\) is possible using DFS or BFS on \\( G \\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\( T2 \\) is possible only using BFS on \\( G \\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\( T2 \\) is possible using DFS or BFS on \\( G \\)</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/383588\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a min-heap with $6$ distinct elements. How many positions can be taken by $3^{\\text{rd}}$ minimum element?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"244\" src=\"media/ac/acec0ba4a88f735bc65b.png\" width=\"348\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$5$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383586\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following are greedy algorithms?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Prim’s algorithm for MST.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Dijkstra’s algorithm for shortest paths.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Bellman-Ford algorithm for shortest paths.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Finding the longest common subsequence of two sequences.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/383584\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are TRUE ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If we perform DFS on an undirected graph, there are no cross edges.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If the DFS tree has no back edges, then there are no cycles in the graph.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Dijkstra’s algorithm will always work correctly on any graph that has at most two negative edges.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Dijkstra’s algorithm will always work correctly on any graph with negative edges but no negative cycle.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/383583\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose we want to iteratively evaluate the following recurrence:<br>\n$$<br>\n\\text { What }(i, j)=\\left\\{\\begin{array}{cl}<br>\n0 &amp; \\text { if } i&gt;n \\text { or } j&lt;0 \\\\<br>\n\\max \\left\\{\\begin{array}{c}<br>\n\\text { What }(i, j-1) \\\\<br>\n\\text { What }(i+1, j) \\\\<br>\nA[i] \\cdot A[j]+\\text { What }(i+1, j-1)&nbsp;<br>\n\\end{array}\\right\\} &amp; \\text { otherwise }<br>\n\\end{array}\\right. &nbsp;<br>\n$$<br>\nWhich of the following is/are true about filling table What $[0 \\ldots n, 0 \\ldots n]$ in a bottom-up fashion?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>We can fill the table in $O\\left(n^2\\right)$ time</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>We can fill the table by decreasing $i$ in the outer loop and decreasing $j$ in the inner loop.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>We can fill the table by increasing $i$ in the outer loop and increasing $j$ in the inner loop.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>We can fill the table by decreasing $i$ in the outer loop and increasing $j$ in the inner loop.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/383582\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C program given below.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n#include&lt;stdio.h&gt;\nmain() {\n    int a = 4;\n    switch (a) {\n    a--;\n    case 4:\n        printf(\"Science \");\n        break;\n    default:\n        printf(\"Technology \");\n    case 3:\n        printf(\"Knowledge \");\n    case 2:\n        printf(\"Philosophy\");\n    }\n}\n</pre>\n\n<p>What will be the output of the program?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Science</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Knowledge Philosophy</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Technology Knowledge Philosophy</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Science Knowledge</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383581\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following declaration of pointer variable $p.$</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint (*p)[10][5];</pre>\n\n<p>If the initial value of $p$ is $1000,$ then what will be the value of $p+1?$</p>\n\n<p>It is given that system has $8$ bytes of address size and $4$ bytes of integer size.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1200,
+    1200
+   ],
+   "answerText": "1200",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383580\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let arrays OneD and TwoD are declared as follows as:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint OneD[10];\nint TwoD[4][5];\n</pre>\n\n<p>Which of the following is/are valid syntax to pass OneD and TwoD to some function $\\textsf{fun()}?$</p>\n\n<p>A syntax is valid if it gets compiled without any warning or error.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(int OneD[10]);</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(int OneD[5]);</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(int TwoD[][5]);</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(int **TwoD);</pre>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/383579\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n#include &lt;stdio.h&gt;\nint main()\n{\n    int i= 255;\n    short int *s= (short int *)&amp;i;\n    printf(\"%d\\n\", *s);\n}\n</pre>\n\n<p>What will be the output of the above program in little-endian&nbsp;and big-endian,&nbsp;respectively?</p>\n\n<p>$(65280\\text{ is } 255\\times2^8)$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$255,\\; 0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$65280,\\; 0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0,\\;0$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0,\\; 65280$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383578\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the number of recursive calls for $\\textsf{mystery(5)}$ including the first call?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid mystery(int n) {\n    if (n == 0 || n == 1) return 0;\n    mystery(n-2);\n    printf(\"%d\", n);\n    mystery(n-1);\n}</pre>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    15
+   ],
+   "answerText": "15",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383577\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In which of the following case(s) character array must end with null char?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar c[] = \"GATE\";</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar c[] = {'2', '0', '2', '3'};</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar c[4] = \"GATE\";</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar c[16] = \"2023\";</pre>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/383576\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C code fragement -</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n#include&lt;stdio.h&gt;\nint main()\n{\n    char t[] = \"abcdefghij\";\n    int *p = t;\n    p+=2;\n    char *c = (char *)p;\n    printf(\"%c\", *c);\n}\n</pre>\n\n<p>Which of the following is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The output of the program in the little-endian&nbsp;system is $\\textsf{“ i &quot;}$ (without quotes).</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The output of the program in the big-endian&nbsp;system is $\\textsf{“ i &quot;}$ (without quotes).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The output of the program in the big-endian&nbsp;system is $\\textsf{“ c &quot;}$&nbsp;(without quotes).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The output of the program in the little-endian&nbsp;system is $\\textsf{“ c &quot;}$ (without quotes).</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/383575\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume that an int variable takes $4$ bytes and a char variable takes $1$ byte. What is the output of the code below?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint main()\n{\n    int arr[]={10,20,30,40,50,60};\n    int *ptr1=arr;\n    int *ptr2=arr+5;\n    printf(\"Number of elements between two pointer are: %d.\", \n    (ptr2 - ptr1));\n    printf(\"Number of elements between two pointer are: %d.\", \n    (char*)ptr2 - (char*)ptr1);\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Number of elements between two pointer are: $5$. Number of bytes between two pointers are: $20$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Number of elements between two pointer are: $20.$ Number of bytes between two pointers are: $20$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Number of elements between two pointer are: $5.$ Number of bytes between two pointers are: $5$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Compile time error</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383574\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following function declaration can be passed to the following array?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nchar myArray[3][4];</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(char a[][], int size);</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(char a[][4], int size);</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(char [3][], int size);\n</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nvoid fun(char [][]a, int size);</pre>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/383573\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Heaps are usually implemented using arrays. Which of the following statements is correct about the removal of the element?<br>\nThe removal of an element with known array index from an array of size $\\mathrm{N}$ requires a time of- (array index could be arbitrary. Not necessarily delete-min)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(\\log \\text{N})$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(\\text{N})$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(1)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(\\mathrm{N}^2 \\right)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383571\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An algorithm admits all $2^n$ vectors of $n$ bits as possible inputs. On $2^n-1$ of these inputs the cost of the algorithm is $\\Theta\\left(n^2\\right)$, and on the remaining one the cost is $\\Theta\\left(n^4\\right)$. Therefore, its worst-case cost is $\\Theta\\left(n^4\\right)$ and its best-case cost is $\\Theta\\left(n^2\\right)$. What is its average-case cost when the input is chosen uniformly at random (so each input has probability $\\left.1 / 2^n\\right)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\theta\\left(n^ 2\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\theta\\left(\\mathrm{n}^ 3\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\theta\\left(\\mathrm{n}^ 4\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\theta\\left(2^ n\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383570\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "What is the sum of the following numbers?\n$$\n50+53+56+59+\\ldots+3080+3083+3086=?\n$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1588384,
+    1588384
+   ],
+   "answerText": "1588384",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383568\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>To print all keys of a $\\text{BST}$ in decreasing order, we use the following traversal order</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Preorder traversal</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Postorder traversal</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Inorder traversal</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383566\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose you have a five element integer array $\\mathrm{A}[0 \\ldots 4]$ sorted in non-decreasing order, with $\\mathrm{A}[0]=1$ and $\\mathrm{A}[4]=5$. We search for key $\\mathrm{K}=2$.</p>\n\n<p>How many possible set of values are there for elements $\\mathrm{A[1],&nbsp; A[2],&nbsp; A[3]}$ such that binary search terminates immediately after one comparison?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$8$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383564\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 31,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The weight of the unique minimum weight spanning tree (MWST) is $60.$ The weight of edges which forms MWST is given in the following weighted, undirected graph. What will be the minimum total weight of missing edges, i.e., $w+x+y+z=?$. Assume all edge weights are distinct.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"265\" src=\"media/2b/2bbc1fefd65c1d72b6b9.png\" width=\"369\"></p>\n\n<p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    59,
+    59
+   ],
+   "answerText": "59",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383562\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a Job scheduling problem with deadlines.\n$$\n\\begin{array}{|l|l|l|l|l|l|l|l|}\n\\hline \\text{Jobs} & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\\\\n\\hline \\text{Profit} & 8 & 6 & 5 & \\text{X} & 8 & 3 & 4 \\\\\n\\hline \\text{Deadline} & 6 & 4 & 5 & 6 & 3 & \\text{Y} & 1 \\\\\n\\hline\n\\end{array}\n$$\nIf $\\text{Y}$ is the minimum value such that Job $6$ get scheduled and $\\text{X}$ is the maximum value possible so that Job $4$ will never get scheduled, then the value of $2^{\\text{X+Y}}$ is ________",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    16,
+    16
+   ],
+   "answerText": "16",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383560\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the task scheduling problem where the total profit earned is $60.$ How many non-zero and non-negative values are possible for $\\text{X}$ such that $\\text{X}$ is not a part of the profit earned?\n$$\\begin{array}{|l|l|l|l|l|l|l|l|l|}\n\\hline \\text{Tasks} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\\\\n\\hline \\text{Profit} & 11 & 16 & 6 & \\text{X} & 5 & 11 & 5 & 6 \\\\\n\\hline \\text{Deadline} & 4 & 5 & 2 & 5 & 2 & 6 & 4 & 7 \\\\\n\\hline\n\\end{array}\n$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><p><a href=\"https://gateoverflow.in/383558\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 34,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the time table at the railway station with arrival and departure times given below.\n$$\n\\begin{array}{|c|c|c|}\n\\hline \\textbf{Rail} & \\textbf{Arrival} & \\textbf{Departure} \\\\\n\\hline \\text{Rail A} & 0700 \\;\\text{hrs} & 0730 \\;\\text{hrs} \\\\\n\\hline \\text{Rail B} & 0715 \\;\\text{hrs} & 1100 \\;\\text{hrs} \\\\\n\\hline \\text{Rail C} & 0830 \\;\\text{hrs} & 0900 \\;\\text{hrs} \\\\\n\\hline \\text{Rail D} & 0845 \\;\\text{hrs} & 0945 \\;\\text{hrs} \\\\\n\\hline\n\\end{array}\n$$\nHow many the minimum number of platforms are needed so that all the trains can be accommodated as per their schedule?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 3</p><p><a href=\"https://gateoverflow.in/383556\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 35,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the recurrence relation given below.\n$$\nT(n)=2 T(n / 4)+n^\\alpha\n$$\nIf the time complexity of given relation is $\\theta\\left(n^\\alpha\\right)$, where $0<\\alpha<1$, then what is the non-zero minimum value possible for $\\alpha?($corrected to decimal places)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.51,
+    0.51
+   ],
+   "answerText": "0.51",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383554\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 36,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a weighted, undirected graph with positive edge weights. Let $(u, v)$ be an edge in the graph. The shortest path from the source vertex $s$ to $u$ has weight $45$ and the shortest path from $s$ to $v$ has weight $60.$ Which of the following statements is always TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>weight $(u, v)&lt;15$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>weight $(u, v)&gt;15$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>weight $(u, v) \\geq 15$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>weight $(u, v) \\leq 15$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/383552\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 37,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An $m \\times n$ matrix is called as Young tableaus $\\text{(Y)}$, if it satisfies the following properties:</p>\n\n<ol>\n\t<li>Entries of each row are in sorted order from left to right.</li>\n\t<li>Entries of each column are in sorted order from top to bottom.</li>\n\t<li>Entries may be $\\infty$, which is treated as non-existent elements.</li>\n</ol>\n\n<p>Consider a $4 \\times 4$ Young Tableau$\\text{(Y)}$ given below.<br>\n$$<br>\n\\begin{array}{cccc}<br>\n3 &amp; 4 &amp; 7 &amp; \\infty&nbsp;\\\\<br>\n5 &amp; x &amp; 8 &amp; \\infty&nbsp;\\\\<br>\ny &amp; 15 &amp; \\infty &amp; \\infty&nbsp;\\\\<br>\n11 &amp; \\infty &amp; \\infty &amp; \\infty&nbsp;\\\\<br>\n\\end{array}<br>\n$$<br>\nIf all the entries of integer values in $\\mathrm{Y}$ is distinct, then which of the following pair of $\\langle x, y\\rangle$ can be possible?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$6,9$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$6,10$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$9,13$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$9,11$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/383550\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 38,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" src=\"media/6a/6adc195083cbf6090ead.png\"></p>\n\n<p><br>\nWhat will be the inorder successor of $10?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$15$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$8$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Does not exist or it is NULL</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/383548\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 39,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider two binary min heaps containing $\\left(2^ \\mathrm{L}-1\\right)$ and $\\left(2^ \\mathrm{R}-1\\right)$ nodes. We want to build a new min heap containing all elements of both heaps. It is known that either $\\text{L = R}$ or $\\text{|L - R|} = 1.$<br>\n<br>\nDo not count the time to copy two heap elements into a single array.&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The most efficient algorithm will take $\\mathrm{O}(\\log (n))$ where $n$ is the size of the new heap.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The most efficient algorithm will take $\\mathrm{O}(n)$ where $n$ is the size of the new heap.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The most efficient algorithm will take $\\mathrm{O}(\\mathrm{L})$ only if $\\mathrm{L}=\\mathrm{R}$ otherwise it will take $\\mathrm{O}(n).$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The most efficient algorithm will take $\\mathrm{O}\\text{(R)}$ only if $\\text{|L – R|} = 1$, otherwise it will take $\\mathrm{O}(n).$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383546\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 40,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\textsf{Q}$ be a Queue. Enqueue and Dequeue are usual Queue operations to add and delete element respectively. $\\textsf{Q.enqueue(x)}$ adds an element $\\textsf{x}$ to the queue. $\\textsf{Q.dequeue()}$ performs a dequeue operation on the queue and returns the value that gets dequeued.<br>\nConsider the following segment of code:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nQ.enqueue(1);\nint count=1;\ndo {\n    count=count+1;\n    x = Q.dequeue();\n    Q.enqueue( 2*x );\n    Q.enqueue( 4*x );\n} while(x != 32);\n</pre>\n\n<p><br>\nWhat will be the value of the variable count, when the above segment of code completes its execution?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    12
+   ],
+   "answerText": "12",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383544\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 41,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$9,27,50,15,2,21,$ and $36$ are inserted in an AVL tree. What will be the root of the tree after all insertions?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$27$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$9$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$15$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$21$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/383542\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 42,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following(s) is/are TRUE-</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A complete binary tree satisfies the $\\mathrm{AVL}$ balance condition at each node</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A full binary tree satisfies the $\\mathrm{AVL}$ balance condition at each node</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Insertion in $\\mathrm{AVL}$ tree requires $\\mathrm{O}(\\log n)$ rotations</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Deletion in $\\mathrm{AVL}$ tree requires $\\mathrm{O}(1)$ rotations</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/383540\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 43,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $a$ be minimum number of nodes in $\\mathrm{AVL}$ tree of height $6$ and $b$ be maximum number of nodes in $\\mathrm{AVL}$ tree of height $6$ then value of $a+10 b$ is ________",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1303,
+    1303
+   ],
+   "answerText": "1303",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/383538\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 44,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which one of the following(s) is/are true about inserting values in BST?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Time complexity to Insert $\\mathrm{N}$ values into an initially empty Binary Search Tree is $\\mathrm{O}\\left(\\mathrm{N}^ 2\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Time complexity to Insert $\\mathrm{N}$ values into an initially empty Binary Search Tree is $\\mathrm{O}(\\mathrm{N}\\log \\text{N})$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Time complexity to Insert a value into a Binary Search Tree of size $\\mathrm{N},$ where the value you are inserting is the median value when compared to values currently in the tree is $\\mathrm{O}(\\log \\mathrm{N})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Time complexity to Insert a value into a Binary Search Tree of size $\\mathrm{N},$ where the value you are inserting is the median value when compared to values currently in the tree is $\\mathrm{O}(\\mathrm{N})$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/383536\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 45,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are False about time complexities of Stack and Queue?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Dequeue from a queue containing $\\mathrm{N}$ elements implemented as a circular array takes $\\Theta(\\mathrm{N})$ time</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>An employee realises that all of his tasks in the stack (implemented using an array) are not required to be done and he decides to empty up the stack and push a new task. He will take $\\Theta(\\mathrm{N})$ time for this process. Where $\\mathrm{N}$ is the number of old tasks the stack contains.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Reversing a queue using another queue can be done in $\\mathrm{O}(\\mathrm{N})$ time. (Recursion not allowed)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Reversing a queue using another two queues can be done in $\\mathrm{O}(\\mathrm{N})$ time. (Recursion not allowed)</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/383534\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 46,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following function that takes the root of the binary tree. Which of the following is true about this function?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint complex(BTNode *r) {\n    return (r) ? (r-&gt;left || r-&gt;right) + complex(r-&gt;left) + complex(r-&gt;right) : 0;\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Computes the number of all nodes in the Binary tree</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Computes the number of all internal nodes in the&nbsp;Binary tree</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Computes the number of all leaf nodes in the&nbsp;Binary tree</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Always returns $0$ or $1$ depending root is null or not null</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/383533\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 47,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>We consider log to the base of $2.$ Thus for $\\log \\mathrm{N}$ to be a natural number, $\\mathrm{N}$ must be a power of $2.$ Let $\\mathrm{N}$ be an arbitrary number with $\\mathrm{N}&gt;1$. Which one of the following statements is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A binary tree of height $\\log \\mathrm{N}$ can have exactly $\\mathrm{N}+1$ Nodes</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A binary tree of height $\\log \\mathrm{N}$ can have exactly $\\log \\mathrm{N}$ Nodes</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A binary tree of height $\\log \\text{N}$ can have exactly $\\text{N} \\log \\text{N}$ Nodes</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A binary tree of height $\\log \\mathrm{N}$ can have exactly $\\mathrm{N}^ 2$ Nodes</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383531\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 48,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are true?<br>\nIn every case consider there are more than $1$ nodes.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Max element is always leaf node in $\\mathrm{AVL}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Min element is always leaf node in $\\mathrm{AVL}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2^{\\text{nd}}$ Max in $\\text{BST}$ is either max&#x27;s parent or its left child</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A tree is $\\text{BST}$ if and only if its inorder traversal is sorted</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383529\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 49,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint findHeight(aNode) {\n    if (aNode == null)\n    //Line1\n    int lefth = findHeight(aNode → left);\n    int righth = findHeight(aNode → right);\n    if (lefth &gt; righth) return lefth + 1;\n    else return righth + 1;\n}</pre>\n\n<p>Which of the following should replace the $\\textsf{Line1}$ to find the height of the&nbsp;subtree for the given node?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>return $-1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>return $0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>return $1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>return $\\textsf{max(findHeight(aNode → left), findHeight(aNode → right))}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383527\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 50,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the process of $\\text{AVL}$ tree insertion or deletion. Let $\\text{X}$ be the lowest point of imbalance and $\\text{Y}$ be the child of $\\mathrm{X}$ in the direction of imbalance. Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It is the case of $\\text{LL}$ rotation if Balance Factor of $\\text{X}$ is $2$ and Balance Factor of $\\text{Y}$ is $1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It is the case of $\\text{RR}$ rotation if Balance Factor of $\\text{X}$ is $-2$ and Balance Factor of $\\text{Y}$ is $-1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It is the case of Right-Left rotation if Balance Factor of $\\text{X}$ is $-2$ and Balance Factor of $\\text{Y}$ is $1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It is the case of Left-Right rotation if Balance Factor of $\\text{X}$ is $2$ and Balance Factor of $\\text{Y}$ is $-1$</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/383526\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 51,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$k^{\\text{th}}$ largest element in $\\text{AVL}$ tree can be found in - (Mark tightest bound only)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{O}(\\log n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{O}(k)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{O}(\\log n+k)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{O}(n)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/383524\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 52,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are FALSE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>In an AVL tree, If a pointer to some node is given then finding the next smallest element to the given node takes $\\mathrm{O}(1)$ time.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>In a Binary Search tree, If a pointer to some node is given then finding the next smallest element to the given node takes $\\mathrm{O}(1)$ time.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>In array based implementation of heap, if an index of some node is given then finding the next smallest element to the given node takes $\\mathrm{O}(1)$ time.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>In a Binary Search tree, If a pointer to some node is given then finding the next highest element to the given node takes $\\mathrm{O}(1)$ time.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/383522\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 53,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following pseudo-code which takes a stack as input and returns some other stack.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nbar(stack st) {\n    stack tmp; //declaring a stack\n    int position=1;\n    while (!st.empty()) {\n        if (position++ % 2 == 1) tmp.push(st.top());\n        st.pop();\n    }\n    return tmp;\n}\n</pre>\n\n<p>If Stacks are implemented using an array where the bottom of the stack is the $0^{\\text{th}}$ index of an array. Which of the following is true about the above function-(odd or even positions are defined as odd or even array indices)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The function returns a stack which contains all odd positioned elements from the input stack.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The function returns a stack which contains all even positioned elements from the input stack.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The function returns a stack which contains all odd positioned elements in the reversed form of the input stack</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383520\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 54,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the function mystery which takes the head of LinkedList as an argument.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\nint mystery(Node* head)\n{\n    if (head == NULL) return 0;\n    else return head-&gt;data - mystery(head-&gt;next);\n}\n</pre>\n\n<p>If the linked list contains elements from $1$ to $n$ in the order, where the head is pointing to $1.$ Which of the following is/are true-</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It returns $-50$ if $n$ is $99$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It returns $50$ if $n$ is $99$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It returns $-50$ if $n$ is $100$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It returns $50$ if $n$ is $100$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/383518\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 55,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given a complete binary tree with $6$ nodes, What is the probability that it forms a (min or max) heap with $6$ distinct numbers?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1 / 18$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1 / 36$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1 / 12$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1 / 6$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383516\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 56,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose that stacks and queues are provided as opaque data types, offering only operations to add elements, to remove elements, and to test for emptiness. Suppose that a programmer wants to count the number of elements in a given stack or queue $\\mathrm{C}$, which is currently in some state $t,$ using only one auxiliary stack or queue $\\mathrm{D}$. The structures $\\mathrm{C}$ and $\\mathrm{D}$ can be used in any way possible based on the methods they offer, but $\\mathrm{C}$ must be restored to its state $t$ after counting its elements.<br>\nCounting elements as described above is possible for which of the following data types?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>$\\mathrm{C}$ is a queue and $\\mathrm{D}$ is a queue.</li>\n\t<li>$\\mathrm{C}$ is a stack and $\\text{D}$ is a stack.</li>\n\t<li>$\\mathrm{C}$ is a queue and $\\mathrm{D}$ is a stack.</li>\n</ol>\n\n<p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>None</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>I and II only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>I and III only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>I, II, and III only</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383514\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 57,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Inorder traversing a tree resulted $\\text{E A C K F H D B G};$ the preorder traversal would return.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{F A E K C D B H G}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{F A E K C D H G B}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{E A F K H D C B G}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{F E A K D C H B G}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/383513\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 58,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>After hashing $n$ keys into a hash table of size $m$ that uses chaining to handle collisions, we hash two new keys $k_{1}$ and $k_{2}$. Under the simple uniform hashing assumption, the probability that $k_{1}$ and $k_{2}$ are hashed into the same table location is exactly $1 / m$ with no dependence on the number of keys $n$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Under the uniform hashing assumption, if we use a hash table of size $m$ with open addressing to hash $3$ keys, the probability that the third inserted key needs exactly three probes before being inserted into the table is exactly $\\frac{2}{m(m-1)}$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>We use a hash table of size $m$ with open addressing to hash $n$ items. Under the uniform hashing assumption, the expected cost to insert another element into the table is at most $1+\\alpha$, where $\\alpha=n / m$ is the average load.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Linear probing is equivalent to double hashing with a secondary hash function of $h_{2}(k)=1$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><p><a href=\"https://gateoverflow.in/383512\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 59,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following binary heap.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"media/2c/2ca273d9f1cbcfdab364.png\"></p>\n\n<p>Suppose that the last operation performed in the binary heap above was inserting the key $x$. What is/are possible values of $x?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$19$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$26$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$32$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$10$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/383511\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 60,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider messages comprised of four symbols - $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}\\;-$ each with an associated probability of occurrence$: p(\\mathrm{A}), p(\\mathrm{B}), p(\\mathrm{C}), p(\\mathrm{D}).$ Suppose $p\\text{(A)} \\geq p(\\mathrm{B}) \\geq p(\\mathrm{C}) \\geq p(\\mathrm{D}).$</p>\n\n<p>Which of the following is correct condition (equation or inequality) that is both necessary and sufficient to guarantee that the Huffman algorithm will generate a two-bit encoding for each symbol, i.c., the corresponding Huffman code will actually be a fixed-length encoding using $2$ bits for each symbol.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$p\\text{(C)}+p\\text{(D)}&gt;p\\text{(A)}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$p\\text{(C)}+p\\text{(D)}&gt;p(B)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$p\\text{(C)}+p\\text{(D)} \\geq p\\text{(A)}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$p\\text{(C)}+p\\text{(D)} \\geq p(B)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383509\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 61,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{T}$ be $\\text{MST}$ of $\\text{G = (V, E)}.$</p>\n\n<p>Consider two statements $\\text{S1}$ and $\\text{S2}.$</p>\n\n<ul>\n\t<li>$\\text{S1}:$ If we add a new edge e to $\\mathrm{G}$, our $\\mathrm{T}$ might not be $\\text{MST}$ anymore. We can obtain a new $\\text{MST}$ from the old one without recomputing everything in $\\mathrm{O(|V|)}$ time.</li>\n\t<li>$\\text{S2}:$ If we add a new node $v$ to $\\mathrm{G}$. We can compute a new $\\mathrm{MST}$ in $\\mathrm{O}(\\operatorname{deg}(v)|\\mathrm{V}|)$.</li>\n</ul>\n\n<p>Choose the correct option:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{S} 1$ is correct but $\\mathrm{S} 2$ is wrong.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{S} 2$ is correct but $\\mathrm{S} 1$ is wrong.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both are correct.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both are false.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/383508\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 62,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following diagram shows the set of edges (in thick black lines) selected at some intermediate step of an $\\text{MST}$ algorithm. Lighter edges are not yet in $\\text{MST}.$</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"media/30/30fc7457de2553202ba4.png\"></p>\n\n<p>Assume that we got above intermediate state using Prim's algorithm.</p>\n\n<p>What is true about the value of $z?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The minimum value of $z$ must be $50$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The maximum value of $z$ must be $120$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The Maximum Value of $z$ must be $140$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$z$ can take any value</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/383507\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 63,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is correct option about $\\mathrm{S} 1$ and $\\mathrm{S} 2?$</p>\n\n<ul>\n\t<li>$\\mathrm{S} 1:$ If $\\text{G}$ is a weighted graph with $n$ vertices and $m$ edges that does <em>not</em> contain negative weight cycle, then the iteration of the Bellman-Ford algorithm will reach a fixed point in at most $n-1$ rounds.</li>\n\t<li>$\\mathrm{S} 2:$ If $\\text{G}$ is a weighted graph with $n$ vertices and $m$ edges that <em>does</em> contain negative-weight cycle, then for <em>every</em> vertex $v$ in $\\text{G}$ the shortest path from $v$ to $t$ in $\\text{G}$ containing $n$ edges is strictly shorter than the shortest path from $v$ to $t$ in $\\text{G}$ containing $n-1$ edges.</li>\n</ul>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{S} 1$ is TRUE but $\\mathrm{S} 2$ is False</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{S} 2$ is TRUE but $\\mathrm{S} 1$ is False</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both are True</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both are False</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/383506\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 64,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following function that sorts an array of $\\textsf{N}$ comparable keys.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">\n void sort(int a[], int N) {\n    for (int i = 0; i &lt; N; i++) // outer loop\n        for (int j = N-1; j &gt; i; j--)\n            if (a[j]swap(a[j], a[j-1]);\n}\n</pre>\n\n<p>Which of these invariants does the above code satisfy at the end of each outer $i$ loop? Mark all that apply:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Entries $a[0]$ through $a[i]$ are in sorted order.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Entries $a[0]$ through $a[i]$ contain the smallest keys in the entire array.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Entries $a[\\text{N}-i-1]$ through $a[\\mathrm{N}-1]$ are in sorted order.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Entries $a[\\mathrm{~N}-i-1]$ through $a[\\mathrm{N}-1]$ contain the largest keys in the entire array.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/383504\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 65,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following(s) will evaluate to true</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0\\; \\&\\&\\; 0 == 0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0\\; \\&\\&\\; 1 == 0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1\\; ||\\; 0 == 0$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1\\; ||\\; 1 == 0$&nbsp;</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/383503\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 100.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 65
+  }
+ ],
+ "stats": {
+  "questions": 65,
+  "maxMarks": 100,
+  "types": {
+   "MCQ": 31,
+   "MSQ": 23,
+   "NAT": 11
+  },
+  "withoutKey": 0
+ }
+}

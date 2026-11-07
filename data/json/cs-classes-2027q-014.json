@@ -1,0 +1,434 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-014",
+ "title": "DVRUO Classes GATE CS | CO and Architecture | Instruction Set Architecture | Weekly Quiz 2",
+ "sourceTitle": "DVRUO Classes GATE CS | CO and Architecture | Instruction Set Architecture | Weekly Quiz 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 14,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "CO and Architecture"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a machine with $16$-bit instructions and $16$ registers. We wish to encode the following instructions:</p><ul><li>$15$ instructions with $3$ addresses<br>&nbsp;</li><li>$14$ instructions with $2$ addresses<br>&nbsp;</li><li>$31$ instructions with $1$ address<br>&nbsp;</li><li>$16$ instructions with $0$ addresses</li></ul><p>Can we encode this instruction set in $16$ bits?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Yes, if we use fixed-length opcodes.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Yes, if we use expanding opcodes.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, because $15$ instructions with $3$ addresses leave no combinations available for other formats.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No, because we can only encode a maximum of $15$ instructions with $0$ addresses.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"531693\"></a><div itemprop=\"text\"><p>To determine if we can encode this instruction set in 16 bits using expanding opcodes, we must calculate the required and available opcode space step-by-step from the largest address format to the smallest.</p><ul><li>Total instruction length $=16$ bits.</li></ul><p>&nbsp;</p><ul><li>Number of registers $=16$. Therefore, the size of each register address field $=\\log _{2}(16)=4$ bits.</li></ul><p><br>$\\textbf{Step $1$: $3$-Address Instructions}$<br><br>Format: [Opcode] [Reg$_{1}$] [Reg$_{2}$] [Reg$_{3}$]<br><br>Size of address fields $=3 \\times 4$ bits $=12$ bits.<br><br>Remaining bits for Opcode $=16-12=4$ bits.<br><br>Total possible combinations for $3$ -address instructions $=2^{4}=16$.<br><br>We require $15$ instructions.<br><br>Remaining combinations to expand to the next format $=16-15=\\mathbf{1}$.<br><br>$\\textbf{Step $2$: $2$-Address Instructions}$<br><br>When expanding from $3$ -address to $2$ -address, we free up one $4$ -bit register field.<br><br>Total possible combinations for $2$ -address instructions $=1 \\times 2^{4}=16$.<br><br>We require $14$ instructions.<br><br>Remaining combinations to expand to the next format $=16-14=\\mathbf{2}$.<br><br>$\\textbf{Step $3$: $1$-Address Instructions}$<br><br>When expanding from $2$ -address to $1$ -address, we free up another $4$ -bit register field.<br><br>Total possible combinations for $1$ -address instructions $=2 \\times 2^{4}=32$.<br><br>We require $31$ instructions.<br><br>Remaining combinations to expand to the next format $=32-31=\\mathbf{1}$.<br><br>$\\textbf{Step $4$: $0$-Address Instructions}$<br><br>When expanding from $1$ -address to $0$ -address, we free up the final $4$ -bit register field.<br><br>Total possible combinations for $0$ -address instructions $=1 \\times 2^{4}=16$.<br><br>We require 16 instructions.<br>Remaining combinations left $=16-16=\\mathbf{0}$.<br><br>Since we can exactly accommodate the required 16 zero-address instructions using the remaining expanded combinations, the instruction set can be encoded using expanding opcodes. $\\textbf{Option B}$ is correct.</p></div></section></div><p><a href=\"https://gateoverflow.in/531692\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $68$K microprocessor system with a $24$-bit address bus ($A_{23}$ to $A_{00}$) and a $16$-bit data bus. The system implements the following memory blocks as illustrated in the memory map diagram below:</p><ul><li>A $1$ Mbyte ROM block starting at address $000000$.<br>&nbsp;</li><li>An $8$ Mbyte DRAM block starting at address $800000$.<p><img alt=\"\" width=\"500\" height=\"335\" src=\"media/9d/9decbbc03b5d975b5a46.jpg\"></p></li></ul><p>The $8$ Mbyte DRAM memory block is constructed using multiple $2M \\times 4$-bit memory chips. Because the microprocessor has a $16$-bit data bus, multiple $4$-bit chips must be arranged in parallel to form a $16$-bit word. Calculate the total number of $2M \\times 4$-bit chips required to fully implement this $8$ Mbyte DRAM block.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"531681\"></a><div itemprop=\"text\"><ul><li>The total required memory capacity is $8$ Mbytes.</li></ul><p>&nbsp;</p><ul><li>Converting this to bits: $8 \\mathrm{Mbytes}=8 \\times 2^{20}$ bytes $=8 \\times 2^{20} \\times 8$ bits $=64$ Mbits.</li></ul><p>&nbsp;</p><ul><li>The capacity of a single DRAM chip is $2 \\mathrm{M} \\times 4$ bits $=8$ Mbits.</li></ul><p>&nbsp;</p><ul><li>Therefore, the total number of chips required is $\\frac{\\text { Total Capacity }}{\\text { Chip Capacity }}=\\frac{64 \\text { Mbits }}{8 \\text { Mbits }}=8$ chips.<br>&nbsp;</li><li>Alternatively, observing the architecture: To satisfy the $16$-bit data bus, four $4$-bit chips must be placed in parallel (since $4 \\times 4$ bits $=16$ bits). This bank of four chips provides $2$ M locations $\\times 2$ bytes $=4$ Mbytes of memory. To achieve the full $8$ Mbytes, two such banks are required. Thus, $4$ chips/bank $\\times 2$ banks $=8$ chips.</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/531680\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $68$K microprocessor system with a $24$-bit address bus ($A_{23}$ to $A_{00}$) and a $16$-bit data bus. The system implements the following memory blocks as illustrated in the memory map diagram below:</p><ul><li>A $1$ Mbyte ROM block starting at address $000000$.<br>&nbsp;</li><li>An $8$ Mbyte DRAM block starting at address $800000$.</li></ul><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"335\" src=\"media/72/7243db09ee58025aef84.jpg\"></p><p>The $1$ Mbyte ROM block is located starting at base address $\\texttt{00 0000}$. As shown in the diagram, this $1$ Mbyte block is composed of two discrete $512$ Kbyte sub-blocks (using $256K \\times 16$-bit chips). The microprocessor must use a specific address line to select between the first $512$ Kbyte sub-block and the second $512$ Kbyte sub-block. What is the index $k$ of this specific address line $A_k$?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"532226\"></a><div itemprop=\"text\"><p>Here memory size is 1MB means 2^20 means 20 address lines are required, If we divide it into two equal parts (each size is 512KB) then we required 19 address line for each part chip 1&nbsp; and chip 2 from A0 to A18 and A19 work as chip, select visuals handwritten representation as below</p><p style=\"text-align:center\"><img alt=\"\" width=\"905\" height=\"1280\" src=\"media/b7/b72a02d95945f2b36154.jpg\"></p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"531679\"></a><div itemprop=\"text\"><ul><li>Each sub-block has a capacity of $512$ Kbytes.<br>&nbsp;</li><li>Converting to bytes: $512$ Kbytes $=512 \\times 1024$ bytes $=2^{9} \\times 2^{10}$ bytes $=2^{19}$ bytes.<br>&nbsp;</li><li>To uniquely address every byte within a single $512$ Kbyte sub-block, exactly $19$ address lines are required. These are lines $A_{0}$ through $A_{18}$.<br>&nbsp;</li><li>The very next address line, which is $A_{19}$, will toggle its state when the address boundary crosses from the first $512$ Kbyte block into the second.<br>&nbsp;</li><li>Therefore, $A_{19}=0$ selects the first sub-block (address range $000000$ to $07FFFF$), and $A_{19}=1$ selects the second sub-block (address range $080000$ to $0FFFFF$). The index $k$ is $19$.</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/531678\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "An $8$-bit register contains the $2$'s complement representation of the decimal number $-48$. The processor executes an Arithmetic Shift Right ($ASR$) instruction twice sequentially on this register. What is the final decimal value stored in the register? (Provide the answer as a base-$10$ integer, including the sign if negative).",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -12,
+    -12
+   ],
+   "answerText": "-12",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"531675\"></a><div itemprop=\"text\">First, find the $8$-bit $2$'s complement of $-48$.<br>\n<br>\n$+48$ in binary is $00110000_{2}$.<br>\n<br>\n$1$'s complement: $11001111_{2}$.<br>\n<br>\n$2$'s complement (add $1$): $11010000_{2}$.<br>\n<br>\nFirst ASR (by $1$ bit): Arithmetic shift right preserves the sign bit (the Most Significant Bit, MSB). The MSB is $1$, so a $1$ is shifted in from the left.<br>\n<br>\n$$<br>\n11010000 \\xrightarrow{\\text { ASR } 1} 11101000<br>\n$$<br>\n<br>\nSecond ASR (by $1$ bit): Again, preserve the sign bit.<br>\n<br>\n$$<br>\n11101000 \\xrightarrow{\\text { ASR } 1} 11110100<br>\n$$<br>\n<br>\nConvert $11110100_{2}$ back to decimal. Since the MSB is $1$, it is a negative number.<br>\n<br>\n$2$'s complement of $11110100_{2}$ is $00001011+1=00001100_{2}=12_{10}$.<br>\n<br>\nTherefore, the value is $-12$. (Note: ASR by $N$ bits is mathematically equivalent to floor division by $2^{N}$. $-48/4=-12$)</div></section></div><p><a href=\"https://gateoverflow.in/531674\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider an $8$-bit register containing the binary value $X=10010110_{2}$. Let $Y$ be the value resulting from a Logical Shift Right (LSR) by $2$ bits on $X$. Let $Z$ be the value resulting from an Arithmetic Shift Right (ASR) by $2$ bits on the original value $X$. Calculate the absolute difference between the unsigned decimal values of $Z$ and $Y$ (i.e., $|Z-Y|$).",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"531669\"></a><div itemprop=\"text\">Initial value $X=10010110_{2}$.<br>\n<br>\nCalculate $Y$ (LSR by $2$): Logical Shift Right shifts in zeros into the MSB positions.<br>\n<br>\n$$<br>\nX=10010110 \\xrightarrow{\\text { LSR } 2} 00100101_{2}<br>\n$$<br>\n<br>\nUnsigned decimal value of $Y=32+4+1=37_{10}$.<br>\n<br>\nCalculate $Z$ (ASR by $2$): Arithmetic Shift Right replicates the sign bit (the MSB of $X$, which is $1$).<br>\n<br>\n$$<br>\nX=10010110 \\xrightarrow{\\text { ASR } 2} 11100101_{2}<br>\n$$<br>\n<br>\nUnsigned decimal value of $Z=128+64+32+4+1=229_{10}$.<br>\n<br>\nCalculate $|Z-Y|$:<br>\n<br>\n$$<br>\n229-37=192_{10}<br>\n$$<br>\n<br>\n(Shortcut: The only difference between $Z$ and $Y$ is the top $2$ bits. $Z$ has $11$ at the top, $Y$ has $00$. The value of those top two bits is $128+64=192$.)</div></section></div><p><a href=\"https://gateoverflow.in/531668\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume an instruction set that uses a fixed $16$-bit instruction length. Operand specifiers are $6$ bits in length. If the instruction set supports exactly $12$ two-operand instructions and $200$ zero-operand instructions, what is the maximum number of one-operand instructions that can be supported?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"531695\"></a><div itemprop=\"text\"><p>$\\textbf{Instruction Length}$: $16$ bits.<br><br>$\\textbf{Operand size}$: $6$ bits per operand.<br><br>$\\textbf{Two-operand instructions}$:</p><ul><li>Total operand bits $=2 \\times 6=12$ bits.</li></ul><p>&nbsp;</p><ul><li>Bits available for opcode $=16-12=4$ bits.</li></ul><p>&nbsp;</p><ul><li>Maximum possible 2-operand opcodes $=2^{4}=16$.</li></ul><p>&nbsp;</p><ul><li>Used 2-operand opcodes $=12$.</li></ul><p>&nbsp;</p><ul><li>Unused 2-operand opcodes $=16-12=4$.</li></ul><p><br>$\\textbf{One-operand instructions}$:</p><ul><li>Each unused 2-operand opcode can be expanded by 6 bits (since one less operand is needed) to form 1-operand opcodes.</li></ul><p>&nbsp;</p><ul><li>Total available 1-operand opcodes $=4 \\times 2^{6}=4 \\times 64=256$.</li></ul><p>&nbsp;</p><ul><li>Let the number of used 1 -operand instructions be $N$.</li></ul><p>&nbsp;</p><ul><li>Unused 1-operand opcodes $=256-N$.</li></ul><p>&nbsp;</p><p>$\\textbf{Zero-operand instructions}$:</p><p>&nbsp;</p><ul><li>Each unused 1-operand opcode can be expanded by another 6 bits to form 0-operand opcodes.</li></ul><p>&nbsp;</p><ul><li>Total available 0-operand opcodes $=(256-N) \\times 2^{6}=(256-N) \\times 64$.</li></ul><p>&nbsp;</p><ul><li>We require exactly 200 zero-operand instructions. Therefore:</li></ul><p>$$<br>\\begin{gathered}<br>(256-N) \\times 64 \\geq 200 \\\\<br>256-N \\geq \\frac{200}{64} \\\\<br>256-N \\geq 3.125<br>\\end{gathered}<br>$$</p><ul><li>Since $N$ must be an integer, the minimum number of unused 1-operand opcodes we must leave behind is $\\lceil 3.125\\rceil=4$.</li></ul><p>$$<br>256-N \\geq 4 \\Longrightarrow N \\leq 252<br>$$<br><br>The maximum number of one-operand instructions that can be supported is $\\mathbf{2 5 2}$.</p></div></section></div><p><a href=\"https://gateoverflow.in/531694\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a machine architecture where we want to determine if it is possible to design an expanding opcode. Assume the following parameters:</p><ul><li>&nbsp;Instruction length: $12$ bits</li><li>Register operand size: $3$ bits</li></ul><p>We wish to encode the following instruction set:</p><ul><li>$4$ instructions with $3$ registers<br>&nbsp;</li><li>$255$ instructions with $1$ register<br>&nbsp;</li><li>$16$ instructions with$ 0$ registers</li></ul><p>Based on the context and the bit pattern capacity method for evaluating expanding opcodes, which of the following statements are CORRECT?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The first $4$ instructions (with $3$ registers) account for exactly $4 \\times 2^{9}=2048$ bit patterns in the overall instruction space.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The $255$ instructions with $1$ register account for exactly $255$ bit patterns since they only utilize a single operand.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The total maximum capacity of a $12$ -bit instruction format is $2^{12}=4096$ unique bit patterns.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The proposed instruction set cannot be encoded because the total required bit patterns ($4104$) exceed the available capacity.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"531691\"></a><div itemprop=\"text\"><p>To determine if the instruction set is possible, we calculate the total number of bit patterns consumed by the operands for each instruction format and compare it to the total available bit patterns in a $12$-bit instruction.<br><br>$\\textbf{Option A is CORRECT}$: The first format requires 3 registers. Since each register is $3$ bits, the operands consume $3 \\times 3=9$ bits. The 4 instructions account for the varying operand values: $4 \\times 2^{3} \\times 2^{3} \\times 2^{3}=4 \\times 2^{9}=2048$ bit patterns.<br><br>$\\textbf{Option B is INCORRECT}$: When calculating consumed bit patterns, you must account for the variable operand bits. The 255 instructions with $1$ register account for $255 \\times 2^{3}=2040$ bit patterns, not just $255$.<br><br>$\\textbf{Option C is CORRECT}$: A 12-bit instruction can mathematically represent a maximum of $2^{12}=4096$ distinct bit patterns.<br><br>$\\textbf{Option D is CORRECT}$: Let's calculate the total required bit patterns for all instructions combined:</p><ul><li>$3$-register instructions account for: $2048$ bit patterns<br>&nbsp;</li><li>$1$-register instructions account for: $2040$ bit patterns<br>&nbsp;</li><li>$0$-register instructions account for: $16$ bit patterns</li></ul><p><br>In total, we need $2048+2040+16=\\mathbf{4 1 0 4}$ bit patterns.<br><br>Because the required bit patterns ($4104$) is greater than what we have available ($4096$), it is not possible to design this instruction set with only $12$ bits.</p></div></section></div><p><a href=\"https://gateoverflow.in/531690\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a processor utilizing a $24$-bit instruction format and a register file with $64$ general-purpose registers. The processor supports $3,2,1$, and $0$-operand instructions exclusively using an expanding opcode technique. Let $N_{k}$ represent the number of $k$-operand instructions encoded in the system.</p><p>Which of the following statements regarding the theoretical limits of this instruction set are $\\textbf{ALWAYS TRUE}$? (Select all that apply)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If the processor implements exactly $N_{3}=63$, the absolute maximum possible value for $N_{2}$ is&nbsp;$64$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The expansion factor (the multiplier for available opcodes) at every transition from $k$ to $k-1$ operands is exactly $64$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If the processor implements $N_{3}=64$, it becomes impossible to implement any instructions with fewer operands.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If the processor implements $N_{3}=62$ and $N_{2}=64$, the available capacity for $1$-operand instructions is exactly $4,096$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"531689\"></a><div itemprop=\"text\">$\\textbf{Identify Address Length}$: $64$ registers require $\\log _{2}(64)=6$ bits per operand.<br>\n&nbsp;<br>\n<br>\n$\\textbf{Base Opcode Calculation}$: $3$-operand instructions require $3 \\times 6=18$ bits. This leaves $24-18=6$ bits for the initial opcode. The maximum number of $3$-operand instructions is $2^{6}=64$.<br>\n&nbsp;<br>\n<br>\n$\\textbf{Evaluating Statement A (TRUE)}$: If $N_{3}=63$, the number of unused $3$-operand slots is $64-63=1$. This single slot expands to the next level: $1 \\times 2^{6}=64$. Thus, the maximum possible $2$-operand instructions is $64$.<br>\n&nbsp;<br>\n<br>\n$\\textbf{Evaluating Statement B (TRUE)}$: Every time an operand is removed, $6$ bits are freed and absorbed into the opcode. This increases the opcode combinations by a factor of $2^{6}=64$ at each step.<br>\n&nbsp;<br>\n<br>\n$\\textbf{Evaluating Statement C (TRUE)}$: Since the maximum number of $3$-operand instructions is $64$, setting $N_{3}=64$ leaves $64-64=0$ unused opcodes. There is nothing left to expand, meaning $N_{2}, N_{1}$, and $N_{0}$ must all be $0$.<br>\n&nbsp;<br>\n<br>\n$\\textbf{Evaluating Statement D (TRUE):}$<br>\n<br>\nIf $N_{3}=62$, unused $3$-operand slots $=64-62=2$.<br>\n<br>\nAvailable $2$-operand slots $=2 \\times 64=128$.<br>\n<br>\nIf $N_{2}=64$, unused $2$-operand slots $=128-64=64$.<br>\n<br>\nThe available capacity for $1$-operand instructions is (Unused $2$-op) $\\times 64=64 \\times 64=4096$.</div></section></div><p><a href=\"https://gateoverflow.in/531688\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider an $8$-bit microprocessor with a $16$-bit address bus. An address decoder selects a specific memory block when the top three address bits ($A_{15}, A_{14}, A_{13}$) are set to $101_{2}$. The remaining $13$ bits $(x)$ are used to address individual locations within this memory block, forming the address pattern $101xxxxxxxxxxxxx_{2}$. Which of the following statements are $\\textbf{TRUE}$ regarding this memory configuration? (Select all that apply)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The lowest accessible address in this memory block is $A000_{16}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The highest accessible address in this memory block is $\\mathrm{BFFF}_{16}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The total size of this specific memory block is $8$ KB.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Decoding the top three address lines divides the entire $16$-bit address space into exactly $4$ independent blocks.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"531687\"></a><div itemprop=\"text\">$\\textbf{Statement A is True}$: The lowest address occurs when all the 'don't care' bits ( $x$ ) are 0.<br>\n<br>\n$$<br>\n1010000000000000_{2}<br>\n$$<br>\n<br>\nConverting to hexadecimal (groups of 4 bits): $1010=A, 0000=0,0000=0,0000=0$. So, the lowest address is $A 000_{16}$.<br>\n<br>\n$\\textbf{Statement B is True}$: The highest address occurs when all the 'don't care' bits ( $x$ ) are 1.<br>\n<br>\n$$<br>\n1011111111111111_{2}<br>\n$$<br>\n<br>\nConverting to hexadecimal: $1011={B}, 1111={F}, 1111={F}, 1111={F}$. So, the highest address is ${BFFF}_{16}$.<br>\n<br>\n$\\textbf{Statement C is True}$: The size of the block is determined by the number of address lines used for locations within the block. There are $13$ bits dedicated to intra-block addressing.<br>\n<br>\n$$<br>\n\\text { Size }=2^{13} \\text { bytes }=2^{3} \\times 2^{10} \\text { bytes }=8 \\times 1 \\mathrm{~K} \\text { bytes }=8 \\mathrm{~KB} .<br>\n$$<br>\n<br>\nAlternatively, the total address space is $2^{16}=64 \\mathrm{~KB}$. Since 3 bits are used for decoding, the space is divided by $2^{3}=8.64 \\mathrm{~KB} / 8=8 \\mathrm{~KB}$.<br>\n<br>\n$\\textbf{Statement D is False}$: Decoding 3 address lines ( $A_{15}, A_{14}, A_{13}$ ) divides the total address space into $2^{3}=8$ independent blocks, not $4$.</div></section></div><p><a href=\"https://gateoverflow.in/531686\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A $16$-bit microprocessor addresses a $32$ KB block of ROM mapped contiguously starting from the base memory address $0000_{16}$. The $32$ KB ROM block is constructed using four separate $8$ KB memory chips (designated Chip $0$, Chip $1$, Chip $2$, and Chip $3$). Which of the following statements regarding the memory interfacing and addressing of this system are $\\textbf{TRUE}$? (Select all that apply)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Each $8$ KB memory chip requires exactly $13$ address lines ($A_{0}$ to $A_{12}$) from the processor to select a specific byte within the chip.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The valid memory address range serviced by the third chip (Chip $2$) is exactly $4000_{16}$ to $5FFF_{16}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>To properly decode and select exactly one of the four 8 KB chips during a memory access within the 32 KB block, address lines $A_{13}$ and $A_{14}$ can be connected to the select inputs of a 2-to-4 decoder.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>During any valid memory access to this $32$ KB ROM block, the highest order address bit ($A_{15}$) must be at a logic &#x27;$1$&#x27; state.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"531685\"></a><div itemprop=\"text\"><p>$\\textbf{Statement A is True}$:The capacity of each chip is $8$ KB, which equals $8 \\times 1024=8192$ bytes. Since $8192=2^{13}$, exactly $13$ address lines ($A_{0}$ through $A_{12}$) are needed to uniquely address each byte within a single chip.<br><br>$\\textbf{Statement B is True}$: Based on the decoding logic from Statement C:</p><ul><li>Chip $0\\left(A_{14} A_{13}=00\\right)$ : $0000_{16}$ to $1^{2} \\mathrm{FF}_{16}$</li><li>Chip $1\\left(A_{14} A_{13}=01\\right): 2000_{16}$ to $3 \\mathrm{FFF}_{16}$</li><li>Chip $2\\left(A_{14} A_{13}=10\\right)$ : $4000_{16}$ to $5 \\mathrm{FFF}_{16}$</li><li>Chip $3\\left(A_{14} A_{13}=11\\right): 6000_{16}$ to $7_{57 F}{ }_{16}$</li></ul><p><br>$\\textbf{Statement C is True}$: The entire $32$ KB block requires $32 \\times 1024=32768=2^{15}$ bytes, utilizing $A_{0}$ through $A_{14}$. The lower $13$ bits ($A_{0}$ to $A_{12}$) go directly to the chips. The next two bits ($A_{13}$ and $A_{14}$) divide the $32$ KB space into four $8$ KB segments. Using a $2$-to-$4$ decoder on $A_{13}$ and $A_{14}$ perfectly generates the four separate Chip Select $(\\overline{CS})$ signals.<br><br><br>$\\textbf{Statement D is False}$: The $32$ KB block is mapped starting at $0000_{16}$ and ends at $7FFF_{16}$. In binary, $7FFF_{16}$ is $0111111111111111_{2}$. Throughout this entire range, the most significant bit ($A_{15}$) is strictly '$0$', not '$1$'.</p></div></section></div><p><a href=\"https://gateoverflow.in/531684\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "An $8$-bit microprocessor with a $16$-bit address bus interfaces with a $32$ KB block of ROM mapped contiguously starting from memory address $0000_{16}$. The ROM block is composed of four $8$ KB chips (designated Chip $0$ to Chip $3$ in contiguous order).<br>\n<br>\nA $2$-to-$4$ line decoder is utilized to generate the active-low Chip Select $(\\overline{CS})$ signals for the four chips. Address lines $A_{14}$ (connected to the MSB select input) and $A_{13}$ (connected to the LSB select input) of the CPU are routed to the decoder.<br>\n<br>\nIf the microprocessor executes a read operation to fetch data from the hexadecimal address $6F3A_{16}$, what is the decimal value of the decoder output line (from $0$ to $3$) that becomes active?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"531683\"></a><div itemprop=\"text\">First, convert the target hexadecimal address $6F3A_{16}$ into its $16$ -bit binary equivalent to inspect the individual address lines:<br>\n<br>\n$$<br>\n6 F3A_{16}=\\underbrace{0110}_{6} \\underbrace{1111}_{\\mathrm{F}} \\underbrace{0011}_{3} \\underbrace{1010}_{\\mathrm{A}}<br>\n$$<br>\n<br>\nThe address lines are numbered $A_{15}$ (leftmost bit) down to $A_{0}$ (rightmost bit). Let's identify the states of the topmost bits:<br>\n<br>\n$A_{15}=0$<br>\n<br>\n$A_{14}=1$<br>\n<br>\n$A_{13}=1$<br>\n<br>\nThe problem states that the $2$-to-$4$ decoder's select inputs are driven by $A_{14}$ and $A_{13}$, where $A_{14}$ is the Most Significant Bit (MSB).<br>\n<br>\nTherefore, the input to the decoder is the binary value $A_{14} A_{13}=11_{2}$.<br>\n<br>\nConverting the binary input $11_{2}$ to decimal gives 3.<br>\n<br>\nThus, decoder output line $\\mathbf{3}$ will be activated, selecting Chip 3 (which handles the memory range $6000_{16}$ to $7 FFF_{16}$, perfectly containing the target address $6F3A_{16}$ ).</div></section></div><p><a href=\"https://gateoverflow.in/531682\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $68$K microprocessor system with a $24$-bit address bus ($A_{23}$ to $A_{00}$) and a $16$-bit data bus. The system implements the following memory blocks as illustrated in the memory map diagram below:</p><ul><li>A $1$ Mbyte ROM block starting at address $000000$.<br>&nbsp;</li><li>An $8$ Mbyte DRAM block starting at address $800000$.</li></ul><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"335\" src=\"media/9d/9decbbc03b5d975b5a46.jpg\"></p><p>The $8$ Mbyte DRAM space mapped starting at address $800000$ is divided into two equal $4$ Mbyte sub-blocks, denoted as DRAM $1$ and DRAM $2$. Based on the decoding logic, the first sub-block (DRAM $1$) is selected when $A_{23}=1$ and $A_{22}=0$. The second sub-block (DRAM $2$) is selected when $A_{23}=1$ and $A_{22}=1$. What is the correct hexadecimal address range for the DRAM $1$ and DRAM $2$ sub-blocks respectively?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>DRAM $1$: $800000$ to $9FFFFF$, DRAM $2$: $A00000$ to $BFFFFF$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>DRAM $1$: $800000$ to $BFFFFF$, DRAM $2$: $C00000$ to $FFFFFF$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>DRAM $1$: $800000$ to $8FFFFF$, DRAM $2$: $900000$ to $9FFFFF$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>DRAM $1$: $800000$ to $FFFFFF$, DRAM $2$: $000000$ to $7FFFFF$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"531677\"></a><div itemprop=\"text\">$\\textbf{DRAM 1 Analysis}$: The block is selected when $A_{23}=1$ and $A_{22}=0$. The remaining address lines ($A_{21}$ down to $A_{00}$) are used to address the $4$ Mbyte space ($2^{22}$ bytes) and vary from all $0$s to all $1$s.<br>\n<br>\nThe lowest address for DRAM $1$ is: $100000000000000000000000_{2}=800000_{16}$.<br>\n<br>\nThe highest address for DRAM $1$ is: $101111111111111111111111_{2}$. Converting to hexadecimal yields $BFFFFF_{16}$.<br>\n<br>\n$\\textbf{DRAM 2 Analysis}$: The block is selected when $A_{23}=1$ and $A_{22}=1$.<br>\n<br>\nThe lowest address for DRAM $2$ is: $110000000000000000000000_{2}=\\mathrm{C} 00000_{16}$.<br>\n<br>\nThe highest address for DRAM $2$ is: $111111111111111111111111_{2}$. Converting to hexadecimal yields $\\mathrm{FF} \\mathrm{FFFF}_{16}$.<br>\n<br>\nThis matches option B.</div></section></div><p><a href=\"https://gateoverflow.in/531676\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Two $8$ -bit registers $R_{1}$ and $R_{2}$ hold the initial binary values $01011011_{2}$ and $10101010_{2}$, respectively. The following sequence of operations is performed: 1. Logical Shift Left (LSL) on $R_{1}$ by 3 bits. 2. Bitwise XOR $(\\oplus)$ the new value of $R_{1}$ with $R_{2}$, storing the result back in $R_{1}$.<br>\n<br>\nWhat is the unsigned decimal value of the final result in $R_{1}$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"531673\"></a><div itemprop=\"text\">Step $1$: LSL on $R_{1}$ by $3$ bits. Logical shift left shifts in zeros from the right. The top $3$ bits are discarded.<br>\n<br>\n$$<br>\n\\begin{gathered}<br>\nR_{1}=01011011_{2} \\\\<br>\nR_{1} \\xrightarrow{\\text { LSL } 3} 11011000_{2}<br>\n\\end{gathered}<br>\n$$<br>\n<br>\nStep $2$: Bitwise XOR.<br>\n<br>\n$$<br>\n\\begin{gathered}<br>\nR_{1}=11011000_{2} \\\\<br>\nR_{2}=10101010_{2} \\\\<br>\nR_{1} \\oplus R_{2}=01110010_{2}<br>\n\\end{gathered}<br>\n$$<br>\n<br>\nConvert $01110010_{2}$ to unsigned decimal:<br>\n<br>\n$$<br>\n\\begin{gathered}<br>\n=0(128)+1(64)+1(32)+1(16)+0(8)+0(4)+1(2)+0(1) \\\\<br>\n=64+32+16+2=114_{10}<br>\n\\end{gathered}<br>\n$$</div></section></div><p><a href=\"https://gateoverflow.in/531672\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "An $8$-bit register $A$ contains the hexadecimal value $C6_{16}$. A Rotate Right (ROR) operation by $4$ bits is performed on register $A$. What is the unsigned decimal value of the resulting number?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"531671\"></a><div itemprop=\"text\">Convert initial value $C6_{16}$ to binary:<br>\n<br>\n$$<br>\n\\mathrm{C}=1100, \\quad 6=0110 \\Longrightarrow A=11000110_{2}<br>\n$$<br>\n<br>\nROR by $4$ bits: Rotating an $8$-bit value by $4$ bits is effectively swapping its upper and lower $4$-bit nibbles. The rightmost $4$ bits ($0110$) wrap around to become the leftmost $4$ bits.<br>\n<br>\n$$<br>\n11000110 \\xrightarrow{\\text { ROR } 4} 01101100_{2}<br>\n$$<br>\n<br>\nConvert $01101100_{2}$ to hexadecimal: $6C_{16}$.<br>\n<br>\nConvert to unsigned decimal:<br>\n<br>\n$$<br>\n6 \\times 16^{1}+12 \\times 16^{0}=96+12=108_{10}<br>\n$$</div></section></div><p><a href=\"https://gateoverflow.in/531670\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "An $8$-bit microprocessor register contains the unsigned decimal value $173$. An instruction is executed that performs a Rotate Left (ROL) by $3$ bits. What is the resulting unsigned decimal value in the register?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"531667\"></a><div itemprop=\"text\">Convert decimal $173$ to $8$-bit binary:<br>\n<br>\n$$<br>\n173=128+32+8+4+1 \\Longrightarrow 10101101_{2}<br>\n$$<br>\n<br>\nROL by $3$ bits: The leftmost $3$ bits ($101$) are shifted out and wrapped around to the rightmost positions. The remaining $5$ bits ($01101$) are shifted left by $3$ positions.<br>\n<br>\n$$<br>\n10101101_{2} \\xrightarrow{\\text { ROL } 3} 01101101_{2}<br>\n$$<br>\n<br>\nConvert $01101101_{2}$ to unsigned decimal:<br>\n<br>\n$$<br>\n01101101_{2}=64+32+8+4+1=109_{10}<br>\n$$</div></section></div><p><a href=\"https://gateoverflow.in/531666\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 7,
+  "types": {
+   "MCQ": 2,
+   "NAT": 9,
+   "MSQ": 4
+  },
+  "withoutKey": 11
+ }
+}

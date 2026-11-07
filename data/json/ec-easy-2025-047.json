@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-047",
+ "title": "Topicwise Test-23 Part Syllabus GATE 2025 EC Electromagnetics-2",
+ "sourceTitle": "Topicwise Test-23 Part Syllabus GATE 2025 EC Electromagnetics-2",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 47,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/081_Topicwise Test-23 Part Syllabus GATE 2025 EC Electromagnetics-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA TE<sub>10</sub> wave at 10 GHz propagates in a dielectric (∈<em><sub>r</sub></em> = 2.25, μ<em><sub>r</sub></em> = 1) filled rectangular waveguide with inner dimensions <em>a</em> = 1.5 cm and <em>b</em> = 0.6 cm. Then the wave impedance <img align=\"absmiddle\" alt=\"\" src=\"media/70/706cf1dfcde31b5676b2.png\" /> is _______ Ω. (Rounded off to one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    335,
+    340
+   ],
+   "answerText": "337.4 (335 - 340)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t337.4 (335 - 340)</p>\n<p>\n\t<img alt=\"\" src=\"media/ed/ede3351082f35a9bcef1.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA uniform plane wave with 25 V/m electric field is normally incident on an infinitely thick slab of a material of dielectric constant 5. How much power (in W/m<sup>2</sup>) penetrates the material slab? (upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.5,
+    0.9
+   ],
+   "answerText": "0.708 (0.500 - 0.900)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.708 (0.500 - 0.900)</p>\n<p>\n\t<img alt=\"\" src=\"media/f1/f191ea008863b656e5b9.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/67/67f069fca44febaa8568.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA uniform plane wave travelling in a medium having dielectric constant 9, has peak electric field of 10 V/m. The frequency of the wave is 1 GHz. The wavelength of the wave is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20 m"
+    },
+    {
+     "key": "B",
+     "html": "0.2 m"
+    },
+    {
+     "key": "C",
+     "html": "0.1 m"
+    },
+    {
+     "key": "D",
+     "html": "5 m"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/1e/1e14ea563e6111163128.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tWhich of the following statements is/are correct regarding TE mode?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "TE fields exist in discrete field patterns called the transverse electric modes of the waveguide."
+    },
+    {
+     "key": "B",
+     "html": "Sinusoidal functions for electric and magnetic fields are shifted with respect to each other in space by quarter cycle."
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tEither <em>m</em> or <em>n</em> has to be non-zero for atleast some of the transverse fields to be non-zero.</p>"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/49/49a7cb8fc93ef4da850c.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tJust outside a train compartment, the field strength of a radio station is 0.1 V/m. What is the approximate field strength inside the compartment? Assume the compartment to be a closed box of metal having conductivity 5 × 10<sup>6</sup> <img align=\"absmiddle\" alt=\"\" src=\"media/46/468396de9b30bf4666f9.png\" /> The thickness of the compartment wall is 5 mm. Frequency of radio station is 600 kHz.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t2 × 10<sup>–2</sup> V/m</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t34.4 × 10<sup>–9</sup> V/m</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t9 × 10<sup>–5</sup> V/m</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t3.38 × 10<sup>–9</sup> V/m</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/b2/b2351d37d83c27291040.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA uniform plane wave travels in <img align=\"absmiddle\" alt=\"\" src=\"media/8a/8ac505438f714589c098.png\" /> direction. The phasor electric field for the wave is <img align=\"absmiddle\" alt=\"\" src=\"media/6b/6bdcd63e038821827c58.png\" /> The wave is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Right circularly polarized"
+    },
+    {
+     "key": "B",
+     "html": "Left circularly polarized"
+    },
+    {
+     "key": "C",
+     "html": "Left elliptically polarized"
+    },
+    {
+     "key": "D",
+     "html": "Right elliptically polarized"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/45/45c9f39a493431b506a7.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA parallel plane waveguide has 0.05 m height and is filled with material having relative permittivity 2.4. If the magnetic field for the mode is 0.1 A/m. Then the magnitude of electric field inside the waveguide is __________ V/m. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    23.5,
+    25.5
+   ],
+   "answerText": "24.33 (23.50 - 25.50)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t24.33 (23.50 - 25.50)</p>\n<p>\n\t<img alt=\"\" src=\"media/dd/dd4ec5b9807ef3518e49.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tAn air filled parallel plane waveguide has 10 cm height. If the frequency of the wave is 3 GHz and the waveguide is excited in TE<sub>1</sub> mode, the phase constant of the mode is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/de/de59b99d115f80f0d654.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4a/4a74dc4ad84f12d89cc5.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d0/d00acb13fa1ff4f1fffd.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/dd/dd72db4f24ce0f486472.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/d9/d9c55b22987cf88f6adb.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe cross section of an air-filled rectangular waveguide is 20 cm × 5 cm. At a frequency of 3 GHz, the number of modes which will propagate on the waveguide is _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3 (3 - 3)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t3 (3 - 3)</p>\n<p>\n\t<img alt=\"\" src=\"media/1c/1c732b99180f1fdfce7f.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/4a/4ad24d804274b4a5a42f.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tAn electromagnetic wave is propagated in an air-filled waveguide. Wave angle with the waveguide axis is 60°. The phase velocity of wave inside waveguide is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t3 × 10<sup>8</sup> m/s</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t4.5 × 10<sup>8</sup> m/s</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t6 × 10<sup>8</sup> m/s</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t7.5 × 10<sup>8</sup> m/s</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/dd/dda523a13eb7a3ea0cbe.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA rectangular waveguide made of copper has 7 cm × 4 cm cross-section. The waveguide is filled with a material with dielectric constant 3 and loss tangent 10<sup>–5</sup>. All the modes are propagating at 3 GHz. The attenuation constant due to dielectric loss for the dominant mode is ________ 10<sup>–3</sup> nepers/m. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.45,
+    0.75
+   ],
+   "answerText": "0.6 (0.45 - 0.75)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.6 (0.45 - 0.75)</p>\n<p>\n\t<img alt=\"\" src=\"media/27/2720c1c2f38706ef2cd8.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/cf/cf0cb20ed60d549a7a2d.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tThe dominant mode in a rectangular waveguide is TE<sub>10</sub>, and in a circular waveguide is TE<sub>01</sub>.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tFor TE<sub>11</sub> mode in circular waveguide, <img align=\"absmiddle\" alt=\"\" src=\"media/6c/6c5cde13d55b0d783f54.png\" /> = 1.706<em>D</em>, where <em>D</em> is the diameter of the waveguide.</p>"
+    },
+    {
+     "key": "C",
+     "html": "The field configuration in the circular waveguide does not follow a sine wave pattern."
+    },
+    {
+     "key": "D",
+     "html": "Transverse Electric (TE) and Transverse Magnetic (TM) waves propagated in circular waveguide is different from the rectangular waveguide."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/a9/a9e965ef7e2189958d8f.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA dielectric material has relative permittivity 18 and loss tangent 10<sup>–3</sup> at 100 MHz. The distance over which the wave amplitude reduces to <img align=\"absmiddle\" alt=\"\" src=\"media/be/be36c3a41a1a558b4380.png\" /> of its original amplitude is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "225.08 m"
+    },
+    {
+     "key": "B",
+     "html": "100 m"
+    },
+    {
+     "key": "C",
+     "html": "444 m"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t10<sup>–4</sup> m</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/21/215875246afc5b46f767.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe magnetic field at the surface of a good conductor is 2 A/m. The frequency of the field is 600 MHz. If the conductivity of the conductor is 10<sup>7</sup> <img align=\"absmiddle\" alt=\"\" src=\"media/80/807a807c69850e70e6f3.png\" /> the surface impedance is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tZ<sub>s</sub> = (6.5 + <em>j</em>6.5) × 10<sup>–3</sup> Ω</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tZ<sub>s</sub> = (15.39 + <em>j</em>15.39) Ω</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tZ<sub>s</sub> = (6.5 + <em>j</em>6.5) Ω</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tZ<sub>s</sub> = (15.39 + <em>j</em>15.39) × 10<sup>–3</sup> Ω</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/01/01e8e623e750dbc5de22.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA uniform plane wave having power density 20 W/m<sup>2</sup> is incident from air at air-dielectric interface at an angle of incidence 45°. The electric field vector for the wave lies perpendicular to the plane of incidence. The reflected wave magnitude is ______ V/m. (upto one decimal place). Assume the relative permittivity of dielectric medium is 25 and the frequency of the wave is 100 MHz.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    89.5,
+    94.5
+   ],
+   "answerText": "92.1 (89.5 - 94.5)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t92.1 (89.5 - 94.5)</p>\n<p>\n\t<img alt=\"\" src=\"media/f6/f629d8434841895c8900.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/9d/9def04ce41c78e1a425f.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA uniform plane wave travelling in +z direction has two components,<img align=\"absmiddle\" alt=\"\" src=\"media/cf/cf3662e1ac5e1996eaf9.png\" /> and <img align=\"absmiddle\" alt=\"\" src=\"media/91/916a6ece8e2cbb28fb7c.png\" /> At some instant say t = 0, the  <img align=\"absmiddle\" alt=\"\" src=\"media/7a/7a9afddc449d13bae59a.png\" /> component is maximum. If the frequency of the wave is 2 GHz, the magnitude of the field at <em>t</em> = 0.1 nsec is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 V/m"
+    },
+    {
+     "key": "B",
+     "html": "2.59 V/m"
+    },
+    {
+     "key": "C",
+     "html": "1.54 V/m"
+    },
+    {
+     "key": "D",
+     "html": "5 V/m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/1a/1a38129b1d6337a3d07d.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIn a region, the <img align=\"absmiddle\" alt=\"\" src=\"media/ac/ac1b160bad1b49c447ee.png\" /> fields are given as</p>\n<p>\n\t<img alt=\"\" src=\"media/6e/6eb2cc0b3fe19244d88d.png\" /></p>\n<p>\n\tThe average power density and direction of power flow in the region is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ff/ffe6b267684c7e9df5fa.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tpower density is 100 W/m<sup>2</sup></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/88/886567d1f9e19076d16f.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/34/346e9a378d503da3a57a.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/a4/a46584d59e3cd9aecb4e.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 6,
+   "MCQ": 9,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

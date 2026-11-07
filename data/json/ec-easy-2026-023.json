@@ -1,0 +1,1043 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-023",
+ "title": "Subjectwise Test-9 Part Syllabus GATE 2026 EC Digital Communication Systems",
+ "sourceTitle": "Subjectwise Test-9 Part Syllabus GATE 2026 EC Digital Communication Systems",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 23,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/050_Subjectwise Test-9 Part Syllabus GATE 2026 EC Digital Communication Systems.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A Discrete Memoryless System, X has four symbols <img align=\"absmiddle\" alt=\"\" src=\"media/8b/8bbdcc54362adf25e981.png\" /> with their respective probabilities <img align=\"absmiddle\" alt=\"\" src=\"media/af/afb9233d05f3ab088da0.png\" /><br />\nThe difference between amount of information contained in the message <img align=\"absmiddle\" alt=\"\" src=\"media/55/553abccc80119840d808.png\" /> is 1 bits, then the value of X and Y respectively are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.4 and 0"
+    },
+    {
+     "key": "B",
+     "html": "0.2 and 0.2"
+    },
+    {
+     "key": "C",
+     "html": "0.3 and 0.1"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5f/5f5023afccfde6fbac7c.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A source produces ‘n’ symbols with unequal probabilities <em>P<sub>n</sub></em>(<em>x</em>) such that the probability of a symbol is twice of that of the previous symbol and half to that of the next symbol. The entropy of the source and probability of last symbol are respectively,<br />\n(Take probability of first symbol as <img align=\"absmiddle\" alt=\"\" src=\"media/b0/b09df7676466944e3ee6.png\" /> )</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/3a/3afceeba764c997b98b5.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/37/378e08160d2945475f78.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/66/6630dc2d7040ab332fed.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a8/a8acf3e942808adc7f37.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/69/6932085e076b63a8831e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/e3/e3857475b208b3a8dd0a.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p><em>X</em> and <em>Y</em> are two independent random variables with zero mean and unit variance. Another random variable Z is defined as Z = 4<em>X</em> + <em>Y</em>. Then mean and variance of Z are respectively,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0; 1"
+    },
+    {
+     "key": "B",
+     "html": "0; 17"
+    },
+    {
+     "key": "C",
+     "html": "1; 0"
+    },
+    {
+     "key": "D",
+     "html": "0; 5"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/548f8db0a252f8155eff.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A (6, 3) systematic linear block code encodes the information sequence <img align=\"absmiddle\" alt=\"\" src=\"media/17/17a0c5948956a0d07402.png\" /> into code word <img align=\"absmiddle\" alt=\"\" src=\"media/67/678c4442f6f421df8209.png\" /> such that <em>C</em><sub>4</sub> is a parity check on <em>C</em><sub>3</sub> and <em>C</em><sub>1 </sub>to make the overall parity even i.e, <img align=\"absmiddle\" alt=\"\" src=\"media/dc/dc728013e99c8c7a60b2.png\" /> Similarly <em>C</em><sub>5</sub> is a parity check on <em>C</em><sub>1</sub> and <em>C</em><sub>2</sub>, and <em>C</em><sub>6</sub> is a parity check on <em>C</em><sub>2</sub> and <em>C</em><sub>3</sub>. The minimum distance of this code is,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3"
+    },
+    {
+     "key": "B",
+     "html": "2"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "5"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4b/4b53bf84b662b47267b6.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>If x is a continuous random variable whose probability density function is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c8/c8bb5d0fa15922d08278.png\" /></div>\n\n<div> </div>\n\n<div>If <em>A</em> > 0, the value of ‘<em>A</em>’ is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1"
+    },
+    {
+     "key": "B",
+     "html": "0.5"
+    },
+    {
+     "key": "C",
+     "html": "0.25"
+    },
+    {
+     "key": "D",
+     "html": "0"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c6/c6d19d20e619e7d1d2b1.png\" /></div>\n\n<div><img alt=\"\" src=\"media/8f/8ff061567aa205e27771.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The power spectral density of a stationary random process <em>x</em>(<em>t</em>) is given by,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bb/bba137943d98f30785f3.png\" /></div>\n\n<div> </div>\n\n<div>If the average power of the random process <em>x</em>(<em>t</em>) is equal to 4 watts, then the value of ‘<em>A</em>’ is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4"
+    },
+    {
+     "key": "B",
+     "html": "2"
+    },
+    {
+     "key": "C",
+     "html": "6"
+    },
+    {
+     "key": "D",
+     "html": "8"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bb/bbce41484d37bfd45f6b.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the signal space diagram shown below for a binary digital signalling scheme,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/28/28a29cbe13af648aed70.png\" /></div>\n\n<div>If the noise power spectral density is <img align=\"absmiddle\" alt=\"\" src=\"media/9c/9c9b71bd0fd0f59c888f.png\" /> and bit energy is 4μ Watt-sec, then the probability of error is <img align=\"absmiddle\" alt=\"\" src=\"media/c2/c215dff8c6d0043f366c.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.25 × 10<sup>–3</sup>"
+    },
+    {
+     "key": "B",
+     "html": "7.9 × 10<sup>–6</sup>"
+    },
+    {
+     "key": "C",
+     "html": "17.2 × 10<sup>–3</sup>"
+    },
+    {
+     "key": "D",
+     "html": "6.2 × 10<sup>–6</sup>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d296b145d6b36f5d2595.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider a AWGN channel with a bandwidth of 10 MHz and a channel capacity of 60 Mbps. The channel capacity if the channel bandwidth approaches to infinite will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "630 Mbps"
+    },
+    {
+     "key": "B",
+     "html": "90.72 Mbps"
+    },
+    {
+     "key": "C",
+     "html": "63 Mbps"
+    },
+    {
+     "key": "D",
+     "html": "907.2 Mpbs"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ce/ce70a347a687c0e44bb1.png\" /></div>\n\n<div><img alt=\"\" src=\"media/e6/e60fe51f04d8139fd9cc.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the sum of two ergodic noise process <em>n</em>(<em>t</em>) = <em>n</em><sub>1</sub>(<em>t</em>) + <em>n</em><sub>2</sub>(<em>t</em>). The DC value of <em>n</em><sub>1</sub>(<em>t</em>) and <em>n</em><sub>2</sub>(<em>t</em>) are –5 V and 5 V respectively. The ac power of <em>n</em><sub>1</sub>(<em>t</em>) and <em>n</em><sub>2</sub>(<em>t</em>) are 2 W and 2.7 W respectively. The cross correlation between <em>n</em><sub>1</sub>(<em>t</em>) and <em>n</em><sub>2</sub>(<em>t</em>) is 5 V for τ = 0. The power of <em>n</em>(<em>t</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50 W"
+    },
+    {
+     "key": "B",
+     "html": "27 W"
+    },
+    {
+     "key": "C",
+     "html": "64.7 W"
+    },
+    {
+     "key": "D",
+     "html": "17.7 W"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/89/8995b621e02b4bac740f.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the signal shown below:</p>\n\n<div> </div>\n\n<div><img align=\"absmiddle\" alt=\"\" src=\"media/b2/b2d029d2123019f81c59.png\" /></div>\n\n<div>This signal is passed through an AWGN channel with two sided noise power spectral density of  <img align=\"absmiddle\" alt=\"\" src=\"media/d8/d8c1199e5054a0c537c2.png\" /> and received by a filter matched to s(t). The maximum signal to noise ratio possible at the output of the filter is <img align=\"absmiddle\" alt=\"\" src=\"media/21/21588084943f033819e7.png\" /> Then, the value of <img align=\"absmiddle\" alt=\"\" src=\"media/f5/f554470a932550839744.png\" />is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1 (1 - 1)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fe/fe74a1a77281157f5c13.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The joint probability density function of random variables <em>X</em> and <em>Y</em> is given as</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cf/cfd10e38060063ccee15.png\" /></div>\n\n<div> </div>\n\n<div>The probability that <em>X</em> ≤ 0, <em>Y</em> ≤ 1 is <img align=\"absmiddle\" alt=\"\" src=\"media/61/6120bc7d552cf563c220.png\" /> Then the value of z is _________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1 (1 - 1)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/41/4187fff1b04f80ed5191.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The signal <em>X</em>(<em>t</em>) is given as input to a matched filter as shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a8/a873333642125a26397c.png\" /></div>\n\n<div>If the maximum value of the filter output is 6, then the value of <img align=\"absmiddle\" alt=\"\" src=\"media/5a/5a28d3ef6383b85e645e.png\" /> is __________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1 (1 - 1)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8e/8e7dd3da591d8c7ed8e7.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A communication channel with AWGN has a bandwidth of 4 kHz and an SNR of 31. Due to noise, the bandwidth efficiency reduces to half. For error free transmission, the ratio of energy per bit transmitted to noise power spectral density should be atleast equal to __________. (rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.7,
+    1.99
+   ],
+   "answerText": "1.86",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.86 (1.70 - 1.99)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/35/3533aeb008128c4d9568.png\" /></div>\n</div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider two binary symmetric channels with crossover probability of 0.35 and 0.45 are cascaded, then the crossover probability of the resultant BSC will be _________ (rounded upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.4,
+    0.55
+   ],
+   "answerText": "0.485",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.485 (0.400 - 0.550)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/42/4273867c299b80bb09ba.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Given two signals <em>X</em><sub>1</sub>(<em>t</em>) = 1.5 cos 2000πt and <em>X</em><sub>2</sub>(t) = 3 cos 5000π<em>t</em> resultant signal <em>Z</em>(<em>t</em>) = <em>X</em><sub>1</sub>(<em>t</em>) + <em>X</em><sub>2</sub>(<em>t</em>) sampled with the sampling frequency of 100 kHz and then transmitted over the channel.<br />\nThen, the value of the guard band in the sampled signal spectrum is equal to _________ kHz.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    94.5,
+    95.5
+   ],
+   "answerText": "95",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>95 (94.5 - 95.5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3e/3e9eebe766fa9905ccc5.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Which of the following relations w.r.t autocorrelation function is/are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Inverse Fourier transform of power spectral density will give autocorrelation function."
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/42/42373d36895a829ebbe2.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/39/39816915e76dda24a345.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/96/9688dd1977d3b2dfaae4.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/56/5609db54d835fa1be473.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>An on-off binary system uses the pulse waveforms:</p>\n\n<div> </div>\n\n<div>\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4b/4bb1c31b5cf1d5e0c5b5.png\" /></div>\n</div>\n\n<div>Assume T = 2μs. Additive white noise with a power spectral density η/2 = 10<sup>–15</sup> W/Hz is added to the signal. If <img align=\"absmiddle\" alt=\"\" src=\"media/24/24627598799a7e8cdb91.png\" /> the probability of error is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/85/852a2fed0823d4593a17.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/99/99c87c9078a771b63d94.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/73/737960ddd1ddb3a3aa77.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/c8/c8cf8d740cfb5fdd678d.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9a/9a0d7960c2ae0b1d69a8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/95/95005e3d94242b64e9db.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Let <em>X</em> and <em>Y</em> be defined by<br />\n<em>X</em> = cos θ and <em>Y</em> = sin θ<br />\nwhere θ is a random variable uniformly distributed over [0, 2π].<br />\nWhich of the following options is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>X</em> and <em>Y</em> are uncorrelated and dependent."
+    },
+    {
+     "key": "B",
+     "html": "<em>X</em> and <em>Y</em> are uncorrelated and independent."
+    },
+    {
+     "key": "C",
+     "html": "<em>X</em> and <em>Y</em> are correlated and dependent."
+    },
+    {
+     "key": "D",
+     "html": "<em>X</em> and <em>Y</em> are correlated and independent."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/54136d701ebff16a3a08.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a2/a263b52abb1b15cbb06a.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider <em>X</em>(<em>t</em>) to be White Gaussian noise with zero mean and autocorrelation function <img align=\"absmiddle\" alt=\"\" src=\"media/27/27041bc0d3e865215d01.png\" />It is passed through an LTI system whose impulse response is <em>h</em>(<em>t</em>) = sinc(2π<em>t</em>). The power of the output random process <em>Y</em>(<em>t</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/29/29ab93df96d8670f4232.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/62/623c7a9af9fcf0f51945.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/cf/cf85fb24bf9bedc52f08.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/d8/d82bcac1ce086a3fdc71.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/79/797804a10ae9f003e944.png\" /></div>\n\n<div><img alt=\"\" src=\"media/16/16afb6e6cab0a7aaf42e.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A linear Delta modulator is designed to transmit speed signal bandlimited to 4 kHz. Sampling rate is 10 times to Nyquist rate and step size is 100 mV. The system is tested with 1 kHz sinusoidal signal. Maximum amplitude of the test signal allowed to avoid slope over load will be ________</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50 mV"
+    },
+    {
+     "key": "B",
+     "html": "318.31 mV"
+    },
+    {
+     "key": "C",
+     "html": "512.6 mV"
+    },
+    {
+     "key": "D",
+     "html": "1.27 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2c/2c3b1d8303e79e09dec3.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>For a (5, 2) linear block code, the generator matrix is given as</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/78/782066a99add98e2eb62.png\" /></div>\n\n<div>Then the parity check matrix for this code is given as</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/4b/4b558fb91ca9667af6ff.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/87/8769b3bd7c170f6d7515.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/c1/c122471695e36bf4fc8d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/d1/d12199372b1704c2ef55.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/eb4f480a44d517f2a2d3.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>An analog signal is sampled, quantized and transmitted using a PCM system. If the tolerable error in sampled amplitude is 0.1% of the peak to peak full scale value, then the minimum number of binary digits required to encode a sample to fulfill this requirement is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "6"
+    },
+    {
+     "key": "B",
+     "html": "7"
+    },
+    {
+     "key": "C",
+     "html": "8"
+    },
+    {
+     "key": "D",
+     "html": "9"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8e/8ec3933992da3395a6c0.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Two continuous random variables <em>X</em> and <em>Y</em> are related as <em>Y</em> = 4<em>X</em> + 2. The correct relation between the differential entropies of the two random variable is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>H</em>(<em>Y</em>) = <em>H</em>(<em>X</em>)"
+    },
+    {
+     "key": "B",
+     "html": "<em>H</em>(<em>Y</em>) = 4<em>H</em>(<em>X</em>) + 2"
+    },
+    {
+     "key": "C",
+     "html": "<em>H</em>(<em>Y</em>) = <em>H</em>(<em>X</em>) + 2"
+    },
+    {
+     "key": "D",
+     "html": "<em>H</em>(<em>Y</em>) = 4<em>H</em>(<em>X</em>)"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/63/63e1072cb6ff47cc33f3.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a9/a98b4f2f3df9de356db3.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Bandwidth of an input signal to the PCM is restricted to 4 kHz. The input signal varies in amplitude from –3.8 V to +3.8 V. It has an average power of 30 mW. Required signal to noise ratio is 20 dB. The PCM modulator produces binary output. Assuming the use of a uniform quantization, the minimum number of bits required per sample is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5 bits"
+    },
+    {
+     "key": "B",
+     "html": "6 bits"
+    },
+    {
+     "key": "C",
+     "html": "7 bits"
+    },
+    {
+     "key": "D",
+     "html": "8 bits"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0a/0a2b1614d3ac9bb69fd3.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ae/aebc8b32d3aa5acfb618.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider two signals shown in the figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ec/ec4db2088384b9675f78.png\" /></div>\n\n<div>The signal <em>s</em><sub>1</sub>(<em>t</em>) is applied to the input of a matched filter receiver whose impulse response is matched to the signal <em>s</em><sub>2</sub>(<em>t</em>), then the output of the matched filter can be represented as</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/f0/f008f84b1030f3485af7.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/3d/3daed7a3bebea8187d7a.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/5a/5ae2324d370d14803cf3.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/9d/9de6f110fedeece18d3a.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3e/3eaac4fd6a6199f4d62c.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider a source <em>m</em>(<em>t</em>), whose amplitude statistics is defined as</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/02/022f1bc31d9bc9648a51.png\" /></div>\n\n<div>An optimum 3 bit quantizer is designed to sent the message signal over a baseband channel. The signal to quantization noise will be equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20.16 dB"
+    },
+    {
+     "key": "B",
+     "html": "16.43 dB"
+    },
+    {
+     "key": "C",
+     "html": "9.2 dB"
+    },
+    {
+     "key": "D",
+     "html": "12.51 dB"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/72/7221ac4b68c30926fdad.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the three signals shown in the figure below:<br />\nWhich of the constellation diagram can be used to correctly represent the three signals?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4c/4cd5e34a2edc7dc148e7.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/3a/3a17eacf0acc88ad3311.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/0a/0abbf90518046be78eea.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/15/15f701d6f278f4552cf4.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/53/5311427ed99a7305004e.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/11/1128f530b0604c564692.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A signal <em>m</em><sub>1</sub>(<em>t</em>) is bandlimited to 5 kHz and three other signals <em>m</em><sub>2</sub>(<em>t</em>), <em>m</em><sub>3</sub>(<em>t</em>) and <em>m</em><sub>4</sub>(<em>t</em>) are bandlimited to 2 kHz each. These signals are to be transmitted by means of time-division multiplexing. If the commutator output is quantized using 512-level quantizer and the result is binary-coded, the minimum output bit rate for faithful transmission is _________ kbps.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    198,
+    198
+   ],
+   "answerText": "198",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>198 (198 - 198)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1d/1df88c4ec739d8868a17.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ff/ff5cdb618cbaeadd0d29.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider a signal <em>x</em>(<em>t</em>) defined as:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/13/1357e39ac55cd6b7a01e.png\" /></div>\n\n<div> </div>\n\n<div>The 80 percent energy containment bandwidth of the signal is _________ rad/sec.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4 (4 - 4)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c2/c2a23eae42a2dbc104c1.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A carrier system used in digital telephony system time multiplexes 20 voice channels. Each voice channel is sampled at 10 kHz and a ‘n’ level quantizer is used. If 20 additional bits are added at the end of the frame for the purpose of synchronization, then the resultant transmission rate is<br />\n1.8 Mbps. Number of Quantization levels ‘<em>n</em>’ is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    256,
+    256
+   ],
+   "answerText": "256",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>256 (256 - 256)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1c/1c0872149c8035a8d994.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ce/ce135b7095e30e5c871a.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Let <em>X</em>(<em>t</em>) and <em>Y</em>(<em>t</em>) be defined by<br />\n<em>X</em>(<em>t</em>) = A cos ωt + B sin ωt<br />\n<em>Y</em>(<em>t</em>) = B cos ωt – A sin ωt<br />\nwhere ω = 1 rad/sec and A and B are independent random variables having zero mean and<br />\nvariance of 5. The cross-correlation of X(t) and Y(t) for a lag of τ = 5 sec is ________. (Rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.2,
+    5.5
+   ],
+   "answerText": "4.79",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4.79 (4.20 - 5.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1f/1f864956e9d973b35458.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>An LTI system with impulse response <em>h</em>(<em>t</em>) produces the output <em>Y</em>(<em>t</em>) when a WSS random process <em>X</em>(<em>t</em>) is applied to the input, then which of the below given relations is/are correct?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3d/3df564faecb56edefeb4.png\" /></div>\n\n<div>[Here, R denotes the correlation function and S denotes the power spectral density]</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e2/e220b98dd7ee1296a2b5.png\" /></div>\n\n<div><img alt=\"\" src=\"media/8f/8f5a027c31efbf40e70c.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the signals shown in the figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2f/2fa04220ce3e45329f51.png\" /></div>\n\n<div>If these two signals are forming a set of orthonormal basis functions, then which of the following statements is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/7a/7adfefb3caae1183943a.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/09/091ce15fe56578c39ead.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/c5/c588bd5b8ba5343c04a7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "Gram-schmitt procedure is unique."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e4/e4605d43b0d7ba09675a.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 20,
+   "NAT": 10,
+   "MSQ": 3
+  },
+  "withoutKey": 0
+ }
+}

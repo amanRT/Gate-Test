@@ -1,0 +1,249 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-081",
+ "title": "DVRUO Classes GATE CS | Discrete Mathematics | Combinatorics | Weekly Quiz 18",
+ "sourceTitle": "DVRUO Classes GATE CS | Discrete Mathematics | Combinatorics | Weekly Quiz 18",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 81,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1800,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose a class has $89$ students. How many students at least must have a birthday in the same month?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"532426\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">The Pigeonhole-principle states that if $N$ items (\"pigeons\") are placed into $k$ containers (\"pigeonholes\"), then at least one container must hold at least $\\lceil \\frac{N}{k} \\rceil$ items (where the brackets denote the ceiling function, meaning you round up to the next whole number).</p><p data-path-to-node=\"0\">Here,</p><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\">The items (pigeons): The students in the class. So, $N = 89$.</p></li><li><p data-path-to-node=\"3,1,0\">The containers (pigeonholes): The months of the year. So, $k = 12$.</p></li></ul><p data-path-to-node=\"4\">Now, plug these numbers into the formula:</p><p>$$\\lceil 89 \\div 12 \\rceil$$</p><p data-path-to-node=\"6\">Since $89 \\div 12 = 7.416...,$ we round up to the next whole integer.</p><p>$$\\lceil 7.416... \\rceil = \\boxed{8}$$</p><p style=\"text-align:center\"><img alt=\"\" width=\"767\" height=\"373\" src=\"media/5f/5f5866024e5d8bb1a3cb.png\"></p><p data-path-to-node=\"8\">&nbsp;</p><p data-path-to-node=\"8\"><strong>Intuitive Explanation:</strong></p><p data-path-to-node=\"8\">Imagine trying to spread the birthdays out as evenly as possible to avoid having too many in one month. You could put $7$ birthdays in each of the $12$ months.</p><p data-path-to-node=\"9\">$$7 \\times 12 = 84 \\text{ students}$$</p><p data-path-to-node=\"10\">You have successfully placed $84$ students, but you have $89$ total. That leaves $5$ students remaining. No matter which months you assign these last $5$ students to, they will be joining a month that already has $7$ birthdays, bringing the total for those months to $8$.</p><p data-path-to-node=\"11\">Therefore, at least $8$ students must have a birthday in the same month.</p></div></section></div><p><a href=\"https://gateoverflow.in/532413\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\mathrm{T}_n$ be the number of ways to arrange cars in a row with $n$ parking spaces if we can use sedans, SUVs, and trucks to park such that a truck requires two spaces, whereas a sedan or SUV requires just one space each, and no two trucks are consecutively parked. Assume that all trucks are identical, all sedans are identical, and all SUVs are identical.<br>\n<br>\nWhat is the value of $\\mathrm{T}_7$?<br>\n<br>\n(Use the following data: $\\mathrm{T}_1 = 2$; $\\mathrm{T}_2 = 5$; $\\mathrm{T}_3 = 12$, i.e. initial conditions are already given, hence no need to compute them).",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532418\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/285ycT8cusA\">Watch Solution here! </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/532412\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Two parents go with their three kids to the theater, and they have tickets for five consecutive seats. How many sitting arrangements would there be if the only rule is that the two parents want to sit together?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532424\"></a><div itemprop=\"text\">If the parents are to sit together we can consider them to form a single block. In other words, up to permuting the two parents, arranging the seatings of the couple with the $3$ kids is equivalent to the same task with $4$ kids and no parents. This would give us $4 ! $ permutations. Accounting for the $2 !$ permutations of the parents, our final answer is $4 ! \\times 2 !=48$.</div></section></div><p><a href=\"https://gateoverflow.in/532411\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Chris has promised to bring back bagels for three friends he is studying with, as well as one for himself, one bagel for one person. The bagel shop sells $8$ varieties of bagel. In how many ways can he choose $4$ bagels to give to Jan, Tom, Olive, and themself?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"532414\"></a><div itemprop=\"text\"><p>Each person has $8$ choices. So, $8^4$.</p><p>Solution from the source:</p><p><img alt=\"\" src=\"media/c3/c3c1db280d22bb4aaf96.png\"></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"542268\"></a><div itemprop=\"text\"><p>The mistake i did was i applied star bar thinking we have 8 variety of bagel and we want to choose 4 but this is wrong we cannot apply star bar because we want to give these bagel to different people so which person get which bagel matters<br><br>if the question something like \"The bagel shop has 8 variety of bagel and chris wants to choose 4 bagel \" here we can apply star bar cuz here we dont need to assign it .&nbsp;</p><h3 data-section-id=\"1i4qigk\" data-start=\"1773\" data-end=\"1793\">Rule to remember</h3><ul data-start=\"1795\" data-end=\"2038\"><li data-section-id=\"1ozei6s\" data-start=\"1795\" data-end=\"1888\"><strong data-start=\"1799\" data-end=\"1866\">Only choosing quantities of each type (recipients don't matter)</strong> → <strong data-start=\"1869\" data-end=\"1887\">Stars and Bars</strong>.</li><li data-section-id=\"2sxpg9\" data-start=\"1889\" data-end=\"2038\">&nbsp;<strong data-start=\"1893\" data-end=\"1943\">Assigning objects to distinct people/positions</strong> → <strong data-start=\"1946\" data-end=\"1974\">Multiplication Principle</strong> (or other assignment/counting methods), <strong data-start=\"2015\" data-end=\"2022\">not</strong> Stars and Bars.</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/532410\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "For how many $n \\in \\{1,2,\\ldots,500\\}$ is $n$ a multiple of one or more of $5,6,$ or $7$?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532423\"></a><div itemprop=\"text\">Number of Integers $\\in \\left \\{ 1,2,.....,a \\right \\}$ which are multiples of $n$ is floor of $\\frac{a}{n}$<br>\n<br>\nfloor of $\\frac{500}{5} = 100$<br>\n<br>\nfloor of $\\frac{500}{6} = 83$<br>\n<br>\nfloor of $\\frac{500}{7} = 71$<br>\n<br>\nfloor of $\\frac{500}{5*7} = 14$<br>\n<br>\nfloor of $\\frac{500}{6*7} = 11$<br>\n<br>\nfloor of $\\frac{500}{6*5} = 16$<br>\n<br>\nfloor of $\\frac{500}{210} = 2$<br>\n<br>\nUsing PIE,<br>\n<br>\nNumber of multiples of atleast $5, 6, 7$ in $\\left \\{ 1,2,.....,500 \\right \\}$ = $(100 + 83 + 71) – (14 + 11 + 16) + (2) = 215$</div></section></div><p><a href=\"https://gateoverflow.in/532409\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many $5$-digit numbers contain at least one $1$ and at least one $3$?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"532417\"></a><div itemprop=\"text\"><p>(Hint: what is the complement of this set in the set of 5-digit numbers?)</p><p>There are $9 \\cdot 10^4\\; 5$-digit numbers in all. $8 \\cdot 9^4$ of them do not contain a $1$ and the same number do not contain a $3 \\cdot7 \\cdot 8^4$ contain neither.<br><br>Thus the number of $5$-digit numbers that do not have a $1$ OR do not have a $3$ is $8 \\cdot 9^4+8 \\cdot 9^4-7 \\cdot 8^4=76304$.<br><br>This means that the number of numbers with at least one $1$ and at least one $3$ is $90000-76304=13696$.</p><hr><p>Most Common Mistake:</p><p>if you are doing like this: $(5C1)&nbsp;\\times (4C1) \\times 10^3$ then this is the MOST Common Mistake in Combinatorics.</p><p>MUST Watch the following <strong>“Most Common Mistake”</strong> in combinatorics.</p><p><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=f9rMKpuzNzQ&amp;t=2113s\" target=\"_blank\">https://www.youtube.com/watch?v=f9rMKpuzNzQ&amp;t=2113s</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/532408\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many distinct permutations of the letters $\\text{CHECKMATE}$ contain the string $\\text{TEAM}$?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"532420\"></a><div itemprop=\"text\">(Hint: treat the string $\\text{“TEAM\"}$ as a solid block and go from there.)<br>\n<br>\nThis is the same as the number of permutations of $\\text{(TEAM)CCHEK},$ where $\\text{(TEAM)}$ is treated as a solid block.<br>\n<br>\nThe number of way is then $\\left(\\begin{array}{l}6 \\\\ 2\\end{array}\\right) \\cdot 4 !=360.$</div></section></div><p><a href=\"https://gateoverflow.in/532407\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Teams $A$ and $B$ play in a basketball tournament. Teams $A$ and $B$ play each other repeatedly until one of them wins the tournament. The first team to win two games in a row or a total of three games wins the tournament. Every match results in win or lose only, i.e., no ties.<br>What is the number of ways the tournament can occur? (Hint: Make a tree of the tournament.)<br>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$8$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$9$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$11$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"532416\"></a><div itemprop=\"text\"><p>The possible ways for the tournament to be played are represented by the distinct paths from “root” (the start) to “leaf” (a terminal point) in the tree shown sideways in the following figure:</p><p style=\"text-align:center\"><img alt=\"\" height=\"375\" width=\"810\" src=\"media/6a/6aec21e1ea2643c8119d.png\"></p><p>The label on each branching point indicates the winner of the game. The notations in parentheses indicate the winner of the tournament.<br><br>The fact that there are ten paths from the root of the tree to its leaves shows that there are ten possible ways for the<br>tournament to be played.<br><br>They are (moving from the top down): $\\text{A – A, A – B – A – A}, \\mathrm{A}-\\mathrm{B}-\\mathrm{A}-\\mathrm{B}-\\mathrm{A}, \\mathrm{A}-\\mathrm{B}-\\mathrm{A}-\\mathrm{B}-\\mathrm{B},&nbsp;\\mathrm{A}-\\mathrm{B}-\\mathrm{B}, $ $ \\mathrm{B}-\\mathrm{A}-\\mathrm{A},&nbsp;\\mathrm{B}-\\mathrm{A}-\\mathrm{B}-\\mathrm{A}-\\mathrm{A}, $ $ \\mathrm{B}-\\mathrm{A}-\\mathrm{B}-\\mathrm{A}-\\mathrm{B}, \\mathrm{B}-\\mathrm{A}-\\mathrm{B}-\\mathrm{B},$&nbsp;and $\\mathrm{B}-\\mathrm{B}$.<br><br>In five cases $\\text{A}$ wins, and in the other five $\\text{B}$ wins. The least number of games that must be played to determine a winner is two, and the most that will need to be played is five.</p></div></section></div><p><a href=\"https://gateoverflow.in/532406\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Find the number of $5$-lists of the form $(x_1, x_2, x_3, x_4, x_5)$, where each $x_i$ is a nonnegative integer and<br>$$x_1 + x_2 + x_3 + x_4 + 3x_5 = 12$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"532415\"></a><div itemprop=\"text\"><p data-path-to-node=\"2\">We need to find the number of non-negative integer solutions to the equation:</p><p>$$x_1 + x_2 + x_3 + x_4 + 3x_5 = 12$$</p><p data-path-to-node=\"4\">Because $x_5$ has a coefficient of $3$, the easiest approach is to solve by cases based on the possible values for $x_5$. Since all $x_i \\ge 0$, the maximum value for $3x_5$ is $12$. Therefore, the possible integer values for $x_5$ are $0, 1, 2, 3,$ and $4$.</p><p data-path-to-node=\"5\">For each specific value of $x_5$, the equation simplifies to:</p><p>$$x_1 + x_2 + x_3 + x_4 = 12 - 3x_5$$</p><p data-path-to-node=\"7\">This resulting equation can be solved using the <b data-path-to-node=\"7\" data-index-in-node=\"48\">Stars and Bars</b> theorem. The number of non-negative integer solutions to $y_1 + y_2 + \\dots + y_k = n$ is given by the combination formula:</p><p>$$\\binom{n + k - 1}{k - 1}$$</p><p data-path-to-node=\"9\">Here, our number of variables is $k = 4$.</p><p data-path-to-node=\"11\">&nbsp;</p><p data-path-to-node=\"12\">Now, Let's calculate the number of combinations for each case of $x_5$:</p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><b data-path-to-node=\"13,0,0\" data-index-in-node=\"0\">Case $\\mathbf{1}: x_5 = 0$</b></p><p>$$x_1 + x_2 + x_3 + x_4 = 12 - 3(0) = 12$$</p><p data-path-to-node=\"13,0,2\">Number of solutions: $\\binom{12 + 4 - 1}{4 - 1} = \\binom{15}{3} = \\frac{15 \\times 14 \\times 13}{3 \\times 2 \\times 1} = 455$<br>&nbsp;</p></li><li><p data-path-to-node=\"13,1,0\"><b data-path-to-node=\"13,1,0\" data-index-in-node=\"0\">Case $\\mathbf{2}: x_5 = 1$</b></p><p>$$x_1 + x_2 + x_3 + x_4 = 12 - 3(1) = 9$$</p><p data-path-to-node=\"13,1,2\">Number of solutions: $\\binom{9 + 4 - 1}{4 - 1} = \\binom{12}{3} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = 220$</p></li><li><p data-path-to-node=\"13,2,0\"><b data-path-to-node=\"13,2,0\" data-index-in-node=\"0\">Case $\\mathbf{3}: x_5 = 2$</b></p><p>$$x_1 + x_2 + x_3 + x_4 = 12 - 3(2) = 6$$</p><p data-path-to-node=\"13,2,2\">Number of solutions: $\\binom{6 + 4 - 1}{4 - 1} = \\binom{9}{3} = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84$<br>&nbsp;</p></li><li><p data-path-to-node=\"13,3,0\"><b data-path-to-node=\"13,3,0\" data-index-in-node=\"0\">Case $\\mathbf{4}: x_5 = 3$</b></p><p>$$x_1 + x_2 + x_3 + x_4 = 12 - 3(3) = 3$$</p><p data-path-to-node=\"13,3,2\">Number of solutions: $\\binom{3 + 4 - 1}{4 - 1} = \\binom{6}{3} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$<br>&nbsp;</p></li><li><p data-path-to-node=\"13,4,0\"><b data-path-to-node=\"13,4,0\" data-index-in-node=\"0\">Case $\\mathbf{5}: x_5 = 4$</b></p><p>$$x_1 + x_2 + x_3 + x_4 = 12 - 3(4) = 0$$</p><p data-path-to-node=\"13,4,2\">Number of solutions: $\\binom{0 + 4 - 1}{4 - 1} = \\binom{3}{3} = 1$</p></li></ul><h3 data-path-to-node=\"15\">&nbsp;</h3><p data-path-to-node=\"16\">Now, To find the total number of 5-lists, we sum the solutions from all the cases:</p><p>$$Total = 455 + 220 + 84 + 20 + 1=\\boxed{780}$$</p></div></section></div><p><a href=\"https://gateoverflow.in/532405\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the generating function $\\left(\\dfrac{1}{1-x}\\right)^4 = (1 + x + x^2 + x^3 + \\cdots)^4$.<br>What is the coefficient of $x^4$?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"532419\"></a><div itemprop=\"text\"><p>The coefficient of $(-x)^r$ in this is $\\left(\\begin{array}{c}-4 \\\\ r\\end{array}\\right),$<br>$$<br>^{(-4)} \\mathrm{C}_4=35<br>$$</p><p>Watch&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=EK4BKzf0lAU&amp;list=PLIPZ2_p3RNHiu4mkROrhREYsslvp2lL5l&amp;index=7\" target=\"_blank\">THIS Lecture</a>&nbsp;to clealy, easily understand &amp; solve this type of questions.&nbsp;</p><p>$\\color{red}{\\text{Generating Function Complete Playlist,}}$&nbsp;<strong>ALL GATE Questions,</strong>&nbsp;Extended Binomial Theorem:&nbsp;<strong><a rel=\"nofollow\" href=\"https://youtube.com/playlist?list=PLIPZ2_p3RNHiu4mkROrhREYsslvp2lL5l\" target=\"_blank\">https://youtube.com/playlist?list=PLIPZ2_p3RNHiu4mkROrhREYsslvp2lL5l</a>&nbsp;</strong></p><p>Knowing the “Extended Binomial Theorem” makes Generating Function topic extremely easy. Watch the above playlist to learn everything, with Proof &amp; Variations.&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"542184\"></a><div itemprop=\"text\"><p>The coefficient of (x^4) is equal to the number of ways (x^4) can be formed when multiplying the four infinite series:</p><p>(1+x+x^2+...)*(1+x+x^2+....)*(1+x+x^2+...) *(1+x+x^2+....)<br>&nbsp;</p><p>When expanding the product, we choose <strong>one term from each factor</strong>. Suppose we choose x^{a1}, x^{a2}, x^{a3}, x^{a4} from the four factors. Their product is</p><p>x^{a1+a2+a3+a4}.<br>&nbsp;</p><p>Therefore, to obtain the term (x^4), the exponents must satisfy</p><p>a1+a2+a3+a4=4 ,each ai &gt;=0.<br>&nbsp;</p><p>Hence, <strong>every non-negative integer solution of this equation corresponds to exactly one way of producing (x^4)</strong>, and conversely every occurrence of (x^4) arises from one such solution. Thus, the coefficient of (x^4) is precisely the number of non-negative integer solutions of the above equation.</p><p>By the Stars and Bars theorem<strong> [IODB TEMPLATE]</strong>, the number of solutions is, STARS = 4, BARS = 3,</p><h1>7C3 = 35</h1><p>Therefore, the coefficient of (x^4) is</p></div></section></div><p><a href=\"https://gateoverflow.in/532404\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 1,
+  "types": {
+   "NAT": 9,
+   "MCQ": 1
+  },
+  "withoutKey": 9
+ }
+}

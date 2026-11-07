@@ -1,0 +1,512 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-027",
+ "title": "Topicwise Test-3 Part Syllabus GATE 2025 EE Control Systems-1",
+ "sourceTitle": "Topicwise Test-3 Part Syllabus GATE 2025 EE Control Systems-1",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 27,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/085_Topicwise Test-3 Part Syllabus GATE 2025 EE Control Systems-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The signal flow graph of a system is given in figure below, the overall gain of the system is given below, the overall gain of the system is</p>\n\n<p><img alt=\"\" src=\"media/7b/7b08ad3b7f834d99b7be.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/64/64e62d3c375ebbccb304.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/26/2648c2be40a3fcf27d6a.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/bb/bb8a8a3670629a4392da.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/d5/d57243901f3ef7141be2.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/43/43fa7c2f7d06aa29eb91.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the speed control system as shown. The inner loop corresponds to motor back emf.<br />\nThe controller is an integration with gain K.</p>\n\n<p><img alt=\"\" src=\"media/59/5940b6174cd2d5baf26c.png\" /></p>\n\n<p>The value of <img align=\"absmiddle\" alt=\"\" src=\"media/02/024fcd263ebf50f651f1.png\" /> at low frequencies is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/68/68758e2abf328126c5c9.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><em>K</em></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/ba/baab5fc25c6351ba74a4.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/93/932e59d0c7c01536be99.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Given <em>G</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/93/932808357b39dd1f2672.png\" /> for a first order unity feedback system with time constant is 0.1 sec. When location of the open loop pole is moved towards origin by half distance, the new time constant is found to be 0.25 sec. The value of (<em>a</em> + <em>K</em>) will be _______ . (Take input as unit step input)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10,
+    10
+   ],
+   "answerText": "10",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>10</p>\n\n<p><img alt=\"\" src=\"media/41/41a6c95fb2d7e9f67926.png\" /></p>\n\n<p><img alt=\"\" src=\"media/8d/8dea495894d8a0bad76d.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the block diagram of a position control system shown in the figure below:</p>\n\n<p><img alt=\"\" src=\"media/a1/a1eeb1226d8e63b2c4c9.png\" /></p>\n\n<p>The suitable values of parameter <em>K</em><sub>A</sub> and <em>K</em><sub>1</sub>, so that the damping ratio of the system is found to be 0.7 with steady state error of 0.2 for unit ramp excitation, is respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "22.5, 3.9"
+    },
+    {
+     "key": "B",
+     "html": "24.5, 3.9"
+    },
+    {
+     "key": "C",
+     "html": "24.5, 1.9"
+    },
+    {
+     "key": "D",
+     "html": "22.5, 1.9"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/19/19a413d453390166496d.png\" /></p>\n\n<p><img alt=\"\" src=\"media/02/025b01781949f0c4c1cf.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Using Routh criterion, the stability of unity feedback control system whose open loop transfer function is given by</p>\n\n<p><img alt=\"\" src=\"media/02/02aeb5fb3f6da915977b.png\" /></p>\n\n<p>the condition of <em>T</em> for the system to stable will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>T</em> > 0"
+    },
+    {
+     "key": "B",
+     "html": "<em>T</em> < 2"
+    },
+    {
+     "key": "C",
+     "html": "<em>T</em> < 0"
+    },
+    {
+     "key": "D",
+     "html": "<em>T</em> > 2"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/b6/b6647fc07c3468f40044.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The forward path transfer function of a system is <em>G</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/2d/2d618d6c40a071c36e3e.png\" /> The average time delay of the closed-loop response over the frequency range 10 < ω < 20 rad/sec, will be _______ milliseconds.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9.8,
+    9.8
+   ],
+   "answerText": "9.8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>9.8</p>\n\n<p><img alt=\"\" src=\"media/b9/b9df51c39d20cb0b9547.png\" /></p>\n\n<p><img alt=\"\" src=\"media/c6/c6826d8faaaa724008e8.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A particular system containing a time delay has the differential equation, <img align=\"absmiddle\" alt=\"\" src=\"media/a1/a15c333ab0b118282d62.png\" /></p>\n\n<p>The transfer function of this system is given by,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/64/64db7e2292b9fbcd16da.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/73/73928022f96b81a5ce2d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/32/32b9e5522abba5e3fa54.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/ff/ff64f0f857b8efbfc2af.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/e6/e69e54ebf2386dc87aab.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The closed loop poles of a system are shown in figure below. The settling time for 2% tolerance is _________ sec.</p>\n\n<p><img alt=\"\" src=\"media/47/476627fa191ac0729245.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.8,
+    1.5
+   ],
+   "answerText": "1.0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.0 (0.8 - 1.5)</p>\n\n<p><img alt=\"\" src=\"media/bf/bf345a6f307e25367a13.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the RLC series circuit shown below, the damping ratio <img align=\"absmiddle\" alt=\"\" src=\"media/aa/aa4e5297011b8d200f3b.png\" /> will be, Consider, <em>R</em> = 1 kΩ ; <em>L</em> = 10 mH; <em>C</em> = 0.01 μF</p>\n\n<p><img alt=\"\" src=\"media/2e/2e64727a0dad58f42bfe.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/ec/ec0e3c244d9af9b12431.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/91/9108dbd1ec15d3538354.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/05/059f35c96a2e4c5620e2.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/d2/d23fda78b50c1cf00ba4.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/a5/a57124f3c681d8440c20.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The root locus plot of a system is shown below,</p>\n\n<p><img alt=\"\" src=\"media/79/79b154f387f538ac0395.png\" /></p>\n\n<p>The gain margin for <em>K</em> = 12 is ________ dB.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    12.08
+   ],
+   "answerText": "12.04",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12.04 (12.00 - 12.08)</p>\n\n<p><img alt=\"\" src=\"media/5a/5abaacf721aab3500f23.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The step response of a system is shown below, the forward path gain is _____.</p>\n\n<p><img alt=\"\" src=\"media/9f/9f19840c5e5cced01b1b.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    40,
+    42
+   ],
+   "answerText": "40.66",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>40.66 (40.00 - 42.00)</p>\n\n<p><img alt=\"\" src=\"media/3d/3ddd2f4e8bdefc8efe59.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>For the given transfer function below,</p>\n\n<p><img alt=\"\" src=\"media/68/6853ba4b41746995767e.png\" /></p>\n\n<p>The angle of departure from 2<sup>nd</sup> quandrant complex pole is _______ degree. (Answer upto two decimal places).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -30,
+    -29
+   ],
+   "answerText": "-29.42",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>-29.42 (-30 - -29)</p>\n\n<p><img alt=\"\" src=\"media/cf/cf7547e3f10e87403935.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The system whose open loop transfer function with unity negative feedback is</p>\n\n<p><img alt=\"\" src=\"media/a0/a099afb316fcdb5f2831.png\" /></p>\n\n<p>This system is oscillating at a frequency of 2 rad/sec. The value of <em>K</em> – <em>b</em>, is ______ . (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.49,
+    0.51
+   ],
+   "answerText": "0.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.5 (0.49 - 0.51)</p>\n\n<p><img alt=\"\" src=\"media/23/234c7909663679d03d57.png\" /></p>\n\n<p><img alt=\"\" src=\"media/70/70ff8bf37bee1fe65089.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider a unity feedback system with forward path transfer function <em>G</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/06/0601d832f57446af79af.png\" /> The range of <em>K</em> to ensure stability is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/01/01bc9374d5f47357d838.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/b0/b01a03b8188cb0c71d74.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/17/17b8f8e26dcf955a0bbc.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/80/809823f42a6b40acd580.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/e3/e34dd98dd2fd8157ee64.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The percentage of peak overshoot in the response of a system with the transfer function <img align=\"absmiddle\" alt=\"\" src=\"media/e0/e08b022e78e1745c50a2.png\" /> will be _________ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    100,
+    100
+   ],
+   "answerText": "100",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>100</p>\n\n<p><img alt=\"\" src=\"media/88/883c6ac15309a03c98ad.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following signal flow graph of a system?</p>\n\n<p><img alt=\"\" src=\"media/1d/1d40c81eaac105608bc1.png\" /></p>\n\n<p>Which one of the following statement is false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Mason’s gain formula can be applied between <em>X</em><sub>1</sub> and <em>X</em><sub>4</sub>.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Mason’s gain formula can not be applied between <em>X</em><sub>2</sub> and <em>X</em><sub>3</sub>.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Mason’s gain formula can not be applied between <em>X</em><sub>4</sub> and <em>X</em><sub>6</sub>.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Mason’s gain formula can be applied between <em>X</em><sub>2</sub> and <em>X</em><sub>6</sub>.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/16/16f671a02890de09debe.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The open loop transfer function of a unity negative feedback system is given as,</p>\n\n<p><img alt=\"\" src=\"media/6c/6cef99b108a04fe57901.png\" /></p>\n\n<p>Which of the following option(s) is/are correct about the root locus of <em>G</em>(<em>s</em>)<em>H</em>(<em>s</em>)?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Breaking point of root locus is –3.73."
+    },
+    {
+     "key": "B",
+     "html": "Angle of departure at complex poles is ±145°."
+    },
+    {
+     "key": "C",
+     "html": "For <em>K</em> = 1.33 the value of damping ratio is 0.7."
+    },
+    {
+     "key": "D",
+     "html": "For <em>K</em> = 1.33 the value of damping ratio is 0.63."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<p><img alt=\"\" src=\"media/de/dee05e302e7df2b3525f.png\" /></p>\n\n<p><img alt=\"\" src=\"media/d3/d3dd4fbb48bece642a58.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 8,
+   "NAT": 8,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

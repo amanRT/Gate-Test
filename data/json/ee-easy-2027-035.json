@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-035",
+ "title": "GATE 2027-Topicwise Test-14 (Signals & Systems -2)",
+ "sourceTitle": "GATE 2027-Topicwise Test-14 (Signals & Systems -2)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 35,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/054_GATE 2027-Topicwise Test-14 (Signals & Systems -2).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/e0/e07349fad2ebef0b8ce5.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.5,
+    0.5
+   ],
+   "answerText": "0.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/5d/5d87ee0b434341a2308a.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p><img src=\"media/74/741bee8471bd4e74962d.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/3e/3ed3a67b1f02bcaa9e8d.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/14/147b96f3f0d980fa9e12.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/78/781e197ea8943a2c94d2.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/08/08dcf49fabe065f9dc9d.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D, A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/da/daa3de7ee0c7fca8a9ca.png\"></p>\n<p><img src=\"media/65/65008d5be5b7dc83bece.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/cb/cbd66eeb5308e3a1dbbc.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/87/875975a70cb7a2fc01f9.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/9f/9fd2baf30567f52d70f8.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/fb/fbf20ec9d2107e70247d.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/8f/8f5b0b95416532cf4557.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/87/8708e7dcfa4f8e71125f.png\"></p>\n<p><img src=\"media/15/1586f999df15d758af8d.png\"></p>\n<p><img src=\"media/be/be9d5cd9d95c2f9c340b.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p><img src=\"media/91/91544e7599d0a6de1770.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/ae/ae7af253e9dcf76b4edb.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/9a/9a9fc5fbc9d0825128d4.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/28/28cc2eb69ac8aab5434a.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/95/9546e6eafe55d68ae158.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/e3/e374ebf28eb20bb57c4e.png\"></p>\n<p><img src=\"media/f1/f10ea7062fc43a185cc4.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>Consider the block diagram given below:</p>\n<p><img src=\"media/06/06d0a729f357e8ddf6b7.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.14,
+    1.15
+   ],
+   "answerText": "1.14 - 1.15",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/6d/6d1b45f85d2a193739f9.png\"></p>\n<p><img src=\"media/82/82a6f1c7732e92ac6ef3.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/35/3556f640db89dc729d7a.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/15/155637144e4d37ceac9d.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/41/4173015e23b0cd04e85b.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/d6/d6c569cc1ac52120fe9e.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/f9/f9e00d51c5ddf4c4b8f2.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/f5/f5d51d602740cee2a90c.png\"></p>\n<p><img src=\"media/c4/c4f1560dc79d61c4d046.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/58/586f7f7fc004ebf57e40.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.1,
+    3.5
+   ],
+   "answerText": "3.1 - 3.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/af/af9d5d3240ea69a7fdee.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Consider the discrete time LTI system shown in figure, where &lsquo;<em>a</em>&rsquo; is a constant. The impulse&nbsp;response of the system is given by</p>\n<p><img src=\"media/45/451a7e850e4c988b0eb6.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/3e/3ef677afed12095fb548.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/24/24d4df39a4e5398afa10.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/18/187848ced5ce062c7586.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/58/58dcad772de182402f62.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/9a/9a9eb09fe43089b40bcc.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider the discrete-time system shown in figure below. For what range of &lsquo;<em>K</em>&rsquo; is the system&nbsp;BIBO stable?</p>\n<p><img src=\"media/f8/f8583285e3c832e71c82.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/6e/6e03acd02ff9f608bb14.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/d5/d580c9fc97d0e9fdcb4f.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/75/75f52b12dcb26aee6cf9.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/2c/2c1207ca3c65c6146664.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/d6/d679148015a231d8e081.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/9a/9abafe53a968cea376dd.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>60 Hz</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>120 Hz</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>240 Hz</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>120&pi; Hz</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/93/93b696ebe358dab2d177.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/e1/e16e4f828f4fa24eb3be.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>3</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>5</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/b4/b413aa77371961204952.png\"></p>\n<p><img src=\"media/4a/4a30e7d074bd64ccb874.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/0b/0b36225685f503e50ef7.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.415,
+    0.415
+   ],
+   "answerText": "0.415",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/bc/bcabeb38abc75790928e.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/c8/c8719e3a84bc3d0867e6.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>90 kHz</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>100 kHz</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>10 kHz</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>50 kHz</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/83/8345cc42cddcd52e45b8.png\"></p>\n<p><img src=\"media/8c/8c525fc6343609a308d9.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/2f/2f789db793416be57d95.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -5,
+    -5
+   ],
+   "answerText": "-5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f9/f9bc58e4b4f259db0c6b.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/d1/d1d4a82e8ecd46f3a63d.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/c4/c48bdbceb77fb1501e31.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/5e/5e3d9fab548fa3e2bcc8.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/6a/6ae2a0a5f4e929bebeda.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/e8/e88b37d4f83472301834.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/76/76380fa781e60ed030b7.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/1d/1d778d2b3353979702b6.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>-1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>2</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/37/37a63ed6464ed64b68e3.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/07/073d8ffd4c5316df9e52.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -1.42,
+    -1.35
+   ],
+   "answerText": "-1.42 - -1.35",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/34/343e3e3eccaf663bd2d1.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 6,
+   "MSQ": 2,
+   "MCQ": 9
+  },
+  "withoutKey": 0
+ }
+}

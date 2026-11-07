@@ -1,0 +1,544 @@
+{
+ "v": 1,
+ "id": "me-easy-2026-047",
+ "title": "Topicwise Test-22 Part Syllabus GATE 2026 ME Industrial Engineering-2",
+ "sourceTitle": "Topicwise Test-22 Part Syllabus GATE 2026 ME Industrial Engineering-2",
+ "branch": "MECHANICAL ENGINEERING",
+ "code": "ME",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Mechanical Engineering",
+ "seriesId": "me-easy-2026",
+ "num": 47,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Mechanical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Mechanical Engineering"
+ },
+ "source": "MECHANICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Mechanical_Engineering/079_Topicwise Test-22 Part Syllabus GATE 2026 ME Industrial Engineering-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the final simplex tableau of linear programming problem (LPP), it is found that <em>z<sub>j</sub></em> - <em>c<sub>j</sub></em> = 0 for at least one non-basic variable. Which of the following conclusions is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The current solution is infeasible."
+    },
+    {
+     "key": "B",
+     "html": "The solution is optimal and unique."
+    },
+    {
+     "key": "C",
+     "html": "Three exists at least one alternate optimal solution."
+    },
+    {
+     "key": "D",
+     "html": "The objective function is unbounded."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nWhen <em>z<sub>j</sub></em> - <em>c<sub>j</sub></em> = 0, for a non-basic variable in the final tableau, it indicates the possibility of introducing this variable into the basis without changing the optimal value, thus leading to another optimal solution.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The customer arrival and service rate are λ and μ respectively. If <em>W<sub>s</sub></em> and <em>W<sub>q</sub></em> represents mean waiting time in the system and mean waiting time in the queue respectively, then <em>W<sub>s</sub></em> will be equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/87/8792c8ff9f85927edd63.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/f5/f592e31c2038d22ec9d9.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/43/433a74af8938bb8636ab.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/29/294f7dda7e41872315e2.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d8/d801797111833fcd6f43.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the program evaluation and review technique (PERT), the time duration of an activity is assumed to follow which of the following probability distributions?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Normal distribution"
+    },
+    {
+     "key": "B",
+     "html": "Exponential distribution"
+    },
+    {
+     "key": "C",
+     "html": "Beta distribution"
+    },
+    {
+     "key": "D",
+     "html": "Poisson distribution"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nPERT models activity durations using a Beta distribution because it can be shaped to reflect<br />\nskewness in time estimates using three parameters : Optimistic, most likely, and pessimistic times.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Match List-I (Techniques) with List-II (Applications) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/78/78b7c540f7ded87bf559.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In reference to Kendall’s notations (<em>a</em> | <em>b</em> | <em>c</em> = <em>d</em> | <em>e</em> | <em>f</em> ) used for queuing theory, which of the following statement is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "‘<em>b</em>’ represents number of servers"
+    },
+    {
+     "key": "B",
+     "html": "‘<em>b</em>’ represents service discipline"
+    },
+    {
+     "key": "C",
+     "html": "‘<em>a</em>’ represent arrival distribution"
+    },
+    {
+     "key": "D",
+     "html": "‘<em>c</em>’ represents service time distribution"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nIn Kendall&#39;s notation,<br />\n&#39;a&#39; represents arrival distribution.<br />\n&#39;b&#39; represents diparture (or service time) distribution.<br />\n&#39;c&#39; represents number of servers in the system.<br />\n&#39;d&#39; represents service discipline.<br />\n&#39;e&#39; represents maximum number of customers allowed in the system.<br />\n&#39;f&#39; represents calling source or population.</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>The earliest occurrence time and the latest occurrence time for event ‘1’ are 10 weeks and 28 weeks respectively and that for event ‘2’ are 34 and 39 weeks respectively. If the activity time is 13 weeks, then the total float will be ____ weeks.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    17
+   ],
+   "answerText": "16",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>16 (15 - 17)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b4/b4e2279e00b837551b98.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>In a network diagram, the optimistic, most likely and pessimistic times (in weeks) are shown for each activity, in that order in the brackets. The variance of completion time for this network is _____. (Correct upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/98/98970e5b1f11e40dd87b.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.4,
+    2.5
+   ],
+   "answerText": "2.44",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2.44 (2.4 - 2.5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/547aa3a33c300899d1c9.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Customer arrive at a service centre at a rate of 4 per hour and the mean service time is 12 minutes. Than probability that there is no queue is _____. (Correct upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.35,
+    0.37
+   ],
+   "answerText": "0.36",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.36 (0.35 - 0.37)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/96/9696f738c09e516efed1.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>A basic feasible solution to a m × n transportation problem is said to be non-degenerate if</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Total number of non-negative allocations is exactly equal to sum of number of sources and destinations."
+    },
+    {
+     "key": "B",
+     "html": "Total number of non-negative allocations is one less than the sum of number of sources and destinations."
+    },
+    {
+     "key": "C",
+     "html": "The allocations are in independent positions."
+    },
+    {
+     "key": "D",
+     "html": "The allocations are in dependent positions."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\nA basic feasible solution to a <em>m</em> &times; <em>n</em> transportation problem is said to be non-degenerate if<br />\n(a) The total number of non-negative allocations is exactly <em>m</em> + <em>n</em> &ndash; 1.<br />\n(b) There <em>m</em> + <em>n</em> &ndash; 1 allocations are in independent position.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The mean arrival rate of telephone calls at a telephone booth follows a Poisson distribution, with an average of 10 minutes between two consecutive arrivals. The lengths of telephone calls are assumed to be exponentially distributed with mean 4 minutes. The telephone company will install second booth when convinced that an arrival would expect to have to wait at least four minutes<br />\nfor phone. The increase in flow of arrivals which will justify a second booth.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/53/534ec11efb016fe33115.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/44/44cf528ae934ce0be9aa.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/d5/d53a1596aae309bf9ad7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/be/be79d03af010a80bdf3c.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/79/79741506ea284b0ee505.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following problem shown below, in which the cell contains the transportation cost in rupees. What will be the most economical initial feasible solution?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3a/3aed4f55ca05f505d481.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/9e/9eff3e3065a232882d17.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/56/56fef209039eb2587c45.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/6f/6fc0d24fb8228cb533b9.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/24/242e974194a29bb920e5.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6d/6daeff3a47518f7aa787.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The activities along with their depending relationship are given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c4/c4612cb855884cf163c8.png\" /></div>\n\n<div>The number of dummy activities in the arrow diagram are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "5"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b4/b47911cf412878cc0200.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A machine tool company decides to make four subassemblies through four contractors. Each contractor is to receive only one subassembly. The cost of each subassembly is determined by the bids submitted by each contractor and is shown in the table below in hundreds of rupees.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cb/cb3f00550e97b404e73e.png\" /></div>\n\n<div>The different subassemblies are to be assigned to contractors so as to minimize the total cost.<br />\nWhat is the total minimum cost?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/45/45bd851c17d9b9af7911.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/cb/cb0c27746681cae2b871.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/27/27768e98e069e33820fb.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/f7/f7012b02892f7574e9b8.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c7/c7e0603b4957f44b1801.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following linear programming problem:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/dd/dd95e8694e10f27ec17c.png\" /></div>\n\n<div> </div>\n\n<div>If <img align=\"absmiddle\" alt=\"\" src=\"media/e7/e75e5b3f1c699a1c7d06.png\" /> are non-basic variables and value of z is zero in the first simplex table, then the value of z in the next simplex table is ____.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    11
+   ],
+   "answerText": "10",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>10 (9 - 11)</p>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2d/2d43fdd30b95b1f8f8af.png\" /><img alt=\"\" src=\"media/6e/6e4cd5596bf3f1f75e92.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>The company makes two kinds of plastic toys. Toy A and Toy B. The respective profits are <img align=\"absmiddle\" alt=\"\" src=\"media/7a/7ad55f95bd4d6836d67e.png\" /> and <img align=\"absmiddle\" alt=\"\" src=\"media/6f/6f2cac02c2182a0ea0e3.png\" /> per toy. Each toy of type A requires 2 minutes and type B requires 1 min for its production. The company has working time of 1000 minutes per day. The supply of plastic is sufficient for only 800 toys (Both A and B combined). A requires an led light and B requires two led lights, the<br />\nsupply of led light is limited to 1000 units per day. What will be the optimal profit <img align=\"absmiddle\" alt=\"\" src=\"media/92/92d13c6c47a81dd4dce8.png\" /> (Correct upto next integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2330,
+    2340
+   ],
+   "answerText": "2331",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2331 (2330 - 2340)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/53/53eb0ad6b7efae8cb648.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ff/ff7bcd7b8eb3b3c47307.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>A project consists of eight activities with the following relevant informations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0f/0fe61d3dc84c539fa186.png\" /></div>\n\n<div>The duration which will have 95% confidence for project completion is _______ days (Answer in integer)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    23,
+    25
+   ],
+   "answerText": "24",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>24 (23 - 25)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b1/b114194fd133fbc76985.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Given below is the table showing durations and cost of various activities of a project:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/be/bee22995ec39bf39101d.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following statements is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The critical path is 1 - 2 - 3 - 5 - 6."
+    },
+    {
+     "key": "B",
+     "html": "Activities C and E have same cost slope."
+    },
+    {
+     "key": "C",
+     "html": "Activities D and E have same cost slope."
+    },
+    {
+     "key": "D",
+     "html": "If indirect cost is <img align=\"absmiddle\" alt=\"\" src=\"media/78/78df9c8ee7507b12bc3e.png\" /> per day, total normal cost will be <img align=\"absmiddle\" alt=\"\" src=\"media/e8/e85348fdf895ca2d1b44.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/34/349e80674ad02c48a9d6.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "NAT": 6,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

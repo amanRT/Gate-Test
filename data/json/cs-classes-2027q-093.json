@@ -1,0 +1,589 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-093",
+ "title": "DVRUO Classes GATE CS | Theory of Computation | Finite Automata | Weekly Quiz 1",
+ "sourceTitle": "DVRUO Classes GATE CS | Theory of Computation | Finite Automata | Weekly Quiz 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 93,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Theory of Computation"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/073_exam_987_GO Classes GATE CS Theory of Computation Finite Automata Weekly Quiz 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Minimum number of states required in $\\text{DFA}$ accepting binary strings not ending in $\\text{“101\"}$ is _______.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$5$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$6$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 18)</small></h4><a name=\"407378\"></a><div itemprop=\"text\"><p><strong>Answer:- B</strong></p><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/VE71CxKb390\" target=\"_blank\">https://youtu.be/VE71CxKb390</a>&nbsp;&nbsp;</p><p>First, make minimal DFA which recognizes binary strings ending&nbsp;with $101,$ then complement it (make the non-final&nbsp;states as final states and vice-versa)&nbsp;</p><p>We will get&nbsp;the following DFA.</p><p><img alt=\"\" height=\"151\" width=\"448\" src=\"media/ea/eadf2a2911f911ceb046.png\"></p><p><strong>Question Source:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/331452/isro2020-41\" target=\"_blank\">https://gateoverflow.in/331452/isro2020-41</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/407377\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given two DFA's $\\text{M}1$ and $\\text{M}2$. They are equivalent if</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{M}1$ and $\\text{M}2$ has the same number of states</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{M}1$ and $\\text{M}2$ accepts the same language i.e $\\text{L(M1) = L(M2)}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{M}1$ and $\\text{M}2$ has the same number of final states</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"407376\"></a><div itemprop=\"text\"><p>&nbsp;</p><blockquote><p>We say that two Automata&nbsp;$A_1$ and $A_2$&nbsp;are equivalent iff L($A_1$) = L($A_2$).</p></blockquote><p>We say that two DFAs $A_1$ and $A_2$ are equivalent iff $L(A_1) = L(A_2)$.</p><p>B is correct.</p><p>Question Source:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/336514/nielit-2016-dec-scientist-b-cs-section-b-24\" target=\"_blank\">https://gateoverflow.in/336514/nielit-2016-dec-scientist-b-cs-section-b-24</a></p></div></section></div><p><a href=\"https://gateoverflow.in/407375\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The number of $8$-bit strings beginning with either $111$ or $101$ is ________.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$64$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$128$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$265$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"407374\"></a><div itemprop=\"text\"><p>The number of $8$-bit strings beginning with $111$ are $32.$ First $3$ bits are fixed and the remaining $5$ bits can be $0$ or $1.$ So the total combinations are $2^5=32$. The same is the case with the strings starting with $101.$ So the total number of strings are $32+32=64$.</p><p>Note that set of strings beginning with $111$ and set of strings beginning with $101$ are disjoint. So, two cases we considered are mutually exclusive and exhaustive.</p><p>Question Source:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/50842/ugc-net-cse-september-2013-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/50842/ugc-net-cse-september-2013-part-2-question-18</a></p></div></section></div><p><a href=\"https://gateoverflow.in/407373\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider Language $\\text{A}$ defined over the alphabet $\\Sigma=\\{0,1\\}$ as $\\text{A}=\\{0^{\\lfloor n/2 \\rfloor} 1^n :n \\geq 0\\}$</p><p>The expression $\\lfloor n/2 \\rfloor$ means the floor of $n/2$, or what you get by rounding $n/2$ down to the nearest integer.</p><p>Which of the following is not an example of a string in $\\text{A}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$011$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0111$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0011$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$001111$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"407520\"></a><div itemprop=\"text\"><ul><li>Put $n=2: {0^{\\lfloor(2/2) \\rfloor}}1^2\\implies 011$ (Option A)</li><li>Put $n=3: {0^{\\lfloor(3/2) \\rfloor}}1^3\\implies 0111$ (Option B)</li><li>Put $n=4: {0^{\\lfloor(4/2) \\rfloor}}1^4\\implies 001111$ (Option D)</li></ul><p>Option (C) is not true, if we substitute $n=2$, $0$ will occur&nbsp;only one time.</p><p>So Option $(C)$ is correct.</p></div></section></div><p><a href=\"https://gateoverflow.in/407372\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume $\\text{L}$ is a language over the alphabet $\\Sigma$.</p><p>Assume $\\lambda$ denotes the empty string.</p><p>Which of the following statements is/are always true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\lambda \\notin \\text{L}^{+}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\lambda \\in \\text{L}^{\\ast}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\lambda \\notin \\Sigma^{+}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\lambda \\in \\Sigma^{\\ast}$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 17)</small></h4><a name=\"407455\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>Consider L = { λ }, then&nbsp;$L^+$ = { λ } ; A is false.</li>\n\t<li>\n\t<p>For all languages L, $L^*$ =&nbsp;&nbsp;$L^0$ U&nbsp;$L^1$ U&nbsp;$L^2$ ….. U&nbsp;$L^n$; w.k.t&nbsp;$L^0$ =&nbsp;{ λ }, Hence B is always True.</p>\n\t</li>\n\t<li>\n\t<p>An alphabet is a finite non empty set of symbols. The set&nbsp;<strong>&nbsp;</strong>$Σ^+$ is the infinite set of all possible strings of all possible&nbsp;length over&nbsp;Σ&nbsp;excluding&nbsp; λ. Hence C is true.</p>\n\t</li>\n\t<li>\n\t<p>The set&nbsp;<strong>&nbsp;</strong>$Σ^*$ is the infinite set of all possible strings of all possible&nbsp;length over&nbsp;Σ&nbsp;including λ. For any&nbsp;alphabet Σ, $Σ^*$ =&nbsp;&nbsp;$Σ^0$ U&nbsp;$Σ^1$ U&nbsp;$Σ^2$ ….. U&nbsp;$Σ^n$; w.k.t&nbsp;$Σ^0$ =&nbsp;{ λ }, Hence D is always True.</p>\n\t</li>\n</ol>\n\n<p>&nbsp; &nbsp; &nbsp; Answer: B,C,D.</p></div></section><section><h4>Source solution 2 <small>(score: 8)</small></h4><a name=\"407371\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/nwIl4PxE8C8\" target=\"_blank\">https://youtu.be/nwIl4PxE8C8</a>&nbsp;&nbsp;</p><p>$\\lambda$ belongs to $\\text{L}^+$ if and only if $\\lambda$ belongs to $\\text{L}$.</p></div></section></div><p><a href=\"https://gateoverflow.in/407370\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume $\\text{L}$ is a language over the alphabet $\\Sigma$.</p><p>Assume $\\epsilon$ denotes the empty string.</p><p>Which of the following statements is/are always true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Sigma^*-\\{\\epsilon\\}=\\Sigma^{+}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{L}^*-\\{\\epsilon\\}=\\text{L}^{+}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Sigma^* = \\Sigma^{+} \\cup \\{\\epsilon\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{L}^* = \\text{L}^{+} \\cup \\{\\epsilon\\}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 24)</small></h4><a name=\"407369\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/nwIl4PxE8C8?t=1423\" target=\"_blank\">https://youtu.be/nwIl4PxE8C8?t=1423</a>&nbsp;&nbsp;</p><p>$\\text{S}_1: \\Sigma^*-\\{\\epsilon\\}=\\Sigma^{+}:$ TRUE // Always true, definition of $\\Sigma^{+}$</p><p>$\\text{S}_2: \\text{L}^*-\\{\\epsilon\\}=\\text{L}^{+}:$ FALSE // May or may not be true</p><p>False when $\\epsilon$ belongs to $\\text{L},$&nbsp;then $\\text{L}^{+}$and $\\text{L}^*$ will both contain $\\epsilon$.</p><p>You can check that $\\epsilon \\in \\text{L}^{+}$ iff $\\epsilon \\in \\text{L}$. Therefore:</p><ul><li>If $\\epsilon \\notin \\text{L}$ then $\\text{L}^{+}=\\text{L}^* \\backslash\\{\\epsilon\\}$.</li><li>If $\\epsilon \\in \\text{L}$ then $\\text{L}^{+}=\\text{L}^*$.</li></ul><p>$\\text{L}^{+}=\\text{L}^*-\\{e\\}$</p><p><strong>Justify:</strong> only when $e \\notin \\text{L}$. When $e \\in \\text{L}$ we get that $e \\in \\text{L}^{+}$and $e \\notin \\text{L}^*-\\{e\\}$.</p></div></section></div><p><a href=\"https://gateoverflow.in/407368\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is/are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $\\text{L}=\\left\\{w \\in\\{0,1\\}^*:\\right.$ w has an unequal number of $0$&#x27;s and $1$&#x27;s $\\},$&nbsp;then $\\text{L}^*=\\{0,1\\}^*$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Let $\\Sigma=\\{a, b\\}$. There are more than $20$ words of length $4$ over $\\Sigma$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For any languages $\\text{L}_1, \\text{L}_2,\\left(\\text{L}_1 \\cup \\text{L}_2\\right) \\cap \\text{L}_1=\\text{L}_1$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For any languages $\\text{L}_1, \\text{L}_2, \\text{L}_1^*=\\text{L}_2^* \\text { iff } \\text{L}_1=\\text{L}_2$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 27)</small></h4><a name=\"407367\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/Eb-TQcMghO4&nbsp;\" target=\"_blank\">https://youtu.be/Eb-TQcMghO4&nbsp;</a>&nbsp;</p><p>&nbsp;</p><ul><li>If $\\text{L}=\\left\\{w \\in\\{0,1\\}^*:\\;\\right.&nbsp;w$ has an unequal number of $0$'s and $1$'s $\\}$, then $\\text{L}^*=\\{0,1\\}^*$.</li></ul><p><strong>Justify:</strong> $1 \\in \\text{L}, 0 \\in L$ so $\\{0,1\\} \\subseteq&nbsp;\\text{L} \\subseteq \\Sigma^*$, hence $\\{0,1\\}^* \\subseteq \\text{L}^* \\subseteq\\left(\\Sigma^*\\right)^*=\\Sigma^*=\\{0,1\\}^*$ and $\\text{L}^*=\\{0,1\\}^*$.</p><p>&nbsp;</p><ul><li>Let $\\Sigma=\\{a, b\\}$. There are more than $20$ words of length $4$&nbsp;over $\\Sigma$.</li></ul><p><strong>Justify:</strong> There are exactly $2^4=16$ words of length $4$ over $\\Sigma$ and $16&lt;20$.</p><p>&nbsp;</p><ul><li>For any languages $\\text{L}_1, \\text{L}_2,\\left(\\text{L}_1 \\cup \\text{L}_2\\right) \\cap \\text{L}_1=\\text{L}_1$.</li></ul><p><strong>Justify:</strong> languages are sets and $(\\text{A} \\cup \\text{B}) \\cap \\text{A = A}$.</p><p>&nbsp;</p><ul><li>For any languages $\\text{L}_1, \\text{L}_2, \\text{L}_1^*=\\text{L}_2^* \\text { iff } \\text{L}_1=\\text{L}_2$</li></ul><p><strong>Justify:</strong> Consider $\\text{L}_1=\\{a, \\in \\}, \\text{L}_2=\\{a\\}$. Obviously, $\\text{L}_1 \\neq \\text{L}_2$ and $\\text{L}_1^*=\\text{L}_2^*$.</p></div></section></div><p><a href=\"https://gateoverflow.in/407366\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume $\\Lambda$ denotes the empty string.</p><p>Which of the following statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For any languages $\\text{L}_1, \\text{L}_2,\\left(\\text{L}_1 \\cup \\text{L}_2\\right)^*=\\text{L}_1^*$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Every string of length $4$ over the alphabet $\\{a, b\\}$ contains the substring $xx,$&nbsp;for some non-null string $x$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For every language $\\text{L, LL}^*=\\text{L}^*$ if and only if $\\Lambda \\in \\text{L}$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $\\text{L}_1 \\subseteq \\text{L}_2$, then $\\text{L}_1^* \\subseteq \\text{L}_2^*$.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 14)</small></h4><a name=\"407440\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>Assume L1 = {e} and L2 = {a,b} then L1 U L2 = {e,a,b}. Now (L1 U L2)* = {a,b}* but L1* = {e}.</li>\n</ol>\n\n<p>&nbsp; &nbsp; &nbsp; B.Given that string of length 4: then possibilites are 0 a’s, 1 a, 2 a’s, 3 a’s, 4 a’s.</p>\n\n<ol>\n\t<li>If&nbsp; zero a’s =&gt; 4 b’s . So “bb” present.</li>\n\t<li>if one a =&gt; 3 b’s. atleast 2 b’s are consecutive. So “bb” present.</li>\n\t<li>if two a’s =&gt; 2 b’s. If a’s are consecutive, then “aa” present. If alternate then “abab”(w=ab), “baba”(w=ba), “abba”(w=bb), “baab”(w=aa).</li>\n\t<li>if three a’s =&gt; atleast 2 a’s consecutive. So “aa” present.</li>\n\t<li>if all a’s =&gt; “aa” present.</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>Assume that “e” not belongs to L. So L contains atleast 1 length strings. Since L* contains “e”, LL* contains strings which are atleast 1 length which is not equal to L*. Since&nbsp;L* definitely contains “e”, L should also contain “e” to produce “e” in LL* (e.e = e).</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>Given L1 is subset of L2. L1* contains all the strings that are concatenated from L1 itself. Since all the strings in L1 are also in L2, L2* also contains those strings. So, L1* subset of L2*.&nbsp;</li>\n</ol></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"407422\"></a><div itemprop=\"text\">(A) Counter example – L1={a}, L2={b}, hence (A) is not true<br>\n<br>\n(B) There are only two strings of length 4 that does not have two consecutive same symbols:<br>\n<br>\n(1) abab, here x=ab<br>\n<br>\n(2) baba, here x=ba<br>\n<br>\nevery other string will have two consecutive same symbols, e.g aaba, x=a<br>\n<br>\nSo, (B) is True.<br>\n<br>\n(C) Assume Δ does not belongs to L and LL* = L*, this will turn out to be a contradiction. So this is True.<br>\n<br>\n(D) This is always true<br>\n<br>\nAnswer B, C, D</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"407432\"></a><div itemprop=\"text\"><p><strong>Correct Answer: B, C, D</strong></p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>Let Σ = { a, b }. Take L<strong>₁ = </strong>{ a } and L₂ = { b }. Now (L<strong>₁ </strong>∪ L₂)* = { a, b }* can’t be equal to L₂ = { b }*.</li>\n\t<li>If any of the two symbols (a or b) are together, take them as x. Other possible case is that symbols alternate i.e string can be abab or baba. We can take x = ab for when string is abab and x = ba when string is baba.</li>\n\t<li>If Λ does not belong to L<strong> </strong>then LL* cannot contain Λ as each string in L* will contantated with a or b (including empty string). However L* will always contain Λ.</li>\n\t<li>L₂ contains all elements of L<strong>₁. </strong>Thus L₂* must also contain all elements of L<strong>₁*. </strong></li>\n</ol></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"499570\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Based on a detailed analysis of each option, here are the evaluations:</p><p data-path-to-node=\"1\"><i><i>A. For any languages \\( L_1, L_2 \\), \\( (L_1 \\cup L_2)^* = L_1^* \\).</i></i></p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b>Status: FALSE</b></p></li><li><p data-path-to-node=\"2,1,0\"><b>Reasoning:</b> The Kleene star of a union, $(L_1 \\cup L_2)^*$, contains all possible strings formed by concatenating symbols/strings from both $L_1$ and $L_2$. $L_1^*$ only contains strings formed from $L_1$. Unless $L_2$ is a subset of $L_1^*$, these sets are not equal.</p></li><li><p data-path-to-node=\"2,2,0\"><b>Counterexample:</b> Let $L_1 = \\{a\\}$ and $L_2 = \\{b\\}$.</p><ul data-path-to-node=\"2,2,1\"><li><p data-path-to-node=\"2,2,1,0,0\">Left Side: $(L_1 \\cup L_2)^* = \\{a, b\\}^*$ (all strings of a's and b's).</p></li><li><p data-path-to-node=\"2,2,1,1,0\">Right Side: $L_1^* = \\{a\\}^*$ (only strings of a's).</p></li><li><p data-path-to-node=\"2,2,1,2,0\">The string \"b\" is in the left set but not the right set.</p></li></ul></li></ul><p data-path-to-node=\"3\"><b>B. Every string of length 4 over the alphabet $\\{a, b\\}$ contains the substring $xx$, for some non-null string $x$.</b></p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b>Status: TRUE</b></p></li><li><p data-path-to-node=\"4,1,0\"><b>Reasoning:</b> We are looking for a \"square\" (a substring of the form $xx$) in any binary string of length 4.</p><ul data-path-to-node=\"4,1,1\"><li><p data-path-to-node=\"4,1,1,0,0\">Let's check if we can construct a \"square-free\" string of length 4.</p></li><li><p data-path-to-node=\"4,1,1,1,0\">We can start with <code>a</code>, then <code>b</code> (to avoid <code>aa</code>), then <code>a</code> (to avoid <code>bb</code>). So far: <code>aba</code>.</p></li><li><p data-path-to-node=\"4,1,1,2,0\">Now, what is the 4th character?</p><ul data-path-to-node=\"4,1,1,2,1\"><li><p data-path-to-node=\"4,1,1,2,1,0,0\">If we add <code>a</code>: the string is <code>abaa</code>, which contains the substring <code>aa</code> ($x=a$).</p></li><li><p data-path-to-node=\"4,1,1,2,1,1,0\">If we add <code>b</code>: the string is <code>abab</code>, which contains the substring <code>abab</code> ($x=ab$).</p></li></ul></li><li><p data-path-to-node=\"4,1,1,3,0\">The same logic applies if we start with <code>b</code>: <code>bab</code> leads to either <code>babb</code> (<code>bb</code>) or <code>baba</code> (<code>baba</code>).</p></li><li><p data-path-to-node=\"4,1,1,4,0\">All 16 possible strings of length 4 contain a square (either <code>aa</code>, <code>bb</code>, <code>abab</code>, or <code>baba</code>).</p></li></ul></li></ul><p data-path-to-node=\"5\">C. For every language&nbsp;LL,&nbsp;LL∗=L∗LL∗=L∗&nbsp;if and only if&nbsp;Λ∈LΛ∈L.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\"><b>Status: TRUE</b></p></li><li><p data-path-to-node=\"6,1,0\"><b>Reasoning:</b></p><ul data-path-to-node=\"6,1,1\"><li><p data-path-to-node=\"6,1,1,0,0\">Recall that $L^* = L^+ \\cup \\{\\Lambda\\}$ and $LL^* = L^+$.</p></li><li><p data-path-to-node=\"6,1,1,1,0\">The equation becomes $L^+ = L^+ \\cup \\{\\Lambda\\}$.</p></li><li><p data-path-to-node=\"6,1,1,2,0\">This equality holds if and only if $\\Lambda$ (the empty string) is essentially already in $L^+$.</p></li><li><p data-path-to-node=\"6,1,1,3,0\">$\\Lambda$ is in $L^+$ if and only if it is in $L$. (You cannot form an empty string by concatenating non-empty strings).</p></li><li><p data-path-to-node=\"6,1,1,4,0\">Therefore, the identity holds iff $\\Lambda \\in L$.</p></li></ul></li></ul><p data-path-to-node=\"7\"><i><i>D. If $L_1 \\subseteq L_2$, then $L_1^</i> \\subseteq L_2^*$.</i>*</p><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b>Status: TRUE</b></p></li><li><p data-path-to-node=\"8,1,0\"><b>Reasoning:</b> This describes the monotonicity of the Kleene star operation.</p><ul data-path-to-node=\"8,1,1\"><li><p data-path-to-node=\"8,1,1,0,0\">If every string in $L_1$ is also in $L_2$, then any string you can build by concatenating elements from $L_1$ (which is $L_1^*$) can also be built by concatenating elements from $L_2$ (since those building blocks are available in $L_2$).</p></li><li><p data-path-to-node=\"8,1,1,1,0\">Therefore, any string in $L_1^*$ is automatically in $L_2^*$.</p></li></ul></li></ul><p>Conclusion:</p><p>The true statements are B, C, and D.</p></div></section></div><p><a href=\"https://gateoverflow.in/407365\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Deterministic Finite Automaton <span style=\"line-height: 20.8px;\">$\\text{M}$</span>.</p><p style=\"text-align:center\"><img alt=\"DFA diagram\" width=\"600\" style=\"max-width: 100%;\" src=\"media/9b/9beb0e0baad0d3d35eef.jpg\"></p><p>Let <span style=\"line-height: 20.8px;\">$\\text{S}$</span> denote the set of eight length bit strings whose second, third, sixth and seventh b<span style=\"line-height: 20.8px;\">its are $1$. The number of strings in $\\text{S}$ that are accepted by $\\text{M}$ is</span></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"407364\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/IAEX6O7jIis?feature=shared\" target=\"_blank\">https://youtu.be/IAEX6O7jIis?feature=shared</a>&nbsp;</p><p>The number of $8$ length bit strings in $\\text{S}$ that are accepted by $\\text{M} =2$</p><ol><li>$01110111$</li><li>$01110110$</li></ol><p>Correct Answer: C</p></div></section><section><h4>Source solution 2 <small>(score: 9)</small></h4><a name=\"407544\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"media/41/417592728f860a467d3a.jpg\"></p>\n\n<p>Out of 16(2$^{4}$) strings in S, there are only 2 strings which are accepted by M. In those strings the 1<sup>st</sup>&nbsp;bit is 0, 4<sup>th</sup>&nbsp;bit is 1, 5<sup>th</sup>&nbsp;bit is 1 and the 8<sup>th</sup>&nbsp;bit can have either 0 or 1. So, Ans is 2.</p></div></section></div><p><a href=\"https://gateoverflow.in/407363\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume $\\Lambda$ denotes the empty string.</p><p>Suppose $\\text{L} \\subseteq\\{a, b\\}^*$ is defined as follows:</p><p>$\\Lambda \\in \\text{L} ; \\;$ for every $x \\in \\text{L},$&nbsp;both $x a$ and $x b a$ are in $\\text{L}$.</p><p>For any string $w$ in $\\mathrm{L},$&nbsp;which of the following statements is/are definitely true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The number of $a$&#x27;s in $w$ is more than the number of $b$&#x27;s in $w.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The number of $a$&#x27;s in $w$ is greater than or equal to the number of $b$&#x27;s in $w$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Every string in&nbsp;$w$ ends with $a.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$w$ does not contain the substring&nbsp;$bb.$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 37)</small></h4><a name=\"407394\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=zPIl_p2MiVY&amp;t=1944s\" target=\"_blank\">Detailed Video Solution, with Complete Analysis</a>&nbsp;&nbsp;</p><p>^ ∈ L , Now since we don’t know currently which are the strings in L so try to form strings<br>Given that for every x ∈ L ,xa and xba are in L<br>At present we know only about ^ ∈ L so put x= &nbsp;^ then currently L ={^,a,ba}<br>Now try to put x =a then L ={^,a,ba , aa,aba }<br>Put x =ba then L ={^,a,ba ,aa,aba,baa,baba,baaba,baaa}<br><br>Like this way we will form a language<br>and we see that from observation of strings present in L that<br>D) it doesn’t contain substring bb because every time u will put x that x always has a in end except for ^<br>B) we can see from the language that every string has no of a’s greater than or equal to no of b’s</p></div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"407362\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=zPIl_p2MiVY&amp;t=1944s\" target=\"_blank\">Detailed Video Solution, with Complete Analysis</a>&nbsp;&nbsp;</p><p>$\\Lambda$ is in $\\text{L}$ but it doesn't end with $a.$<br>$$<br>n_a(x) \\geq n_b(x) \\text {. }<br>$$<br>$x$ does not contain the substring $b b$.</p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"479688\"></a><div itemprop=\"text\"><p>From the description given in question, we can form a grammar.<br><br>It is given that $\\epsilon \\in L$. So, $S \\to \\epsilon$, where S is a start symbol.<br><br>If $w \\in L$ then $wa$ and $wba$ also belongs to L.<br><br>So, if $S$ derives some string which are in $L$ then strings derived from $Sa$ and $Sba$ also belongs to $L$.</p><p>So, Grammar $G$ will be: $S \\to \\epsilon \\text{ | } Sa \\text{ | }Sba$</p><p>$L(G) = (a + ba)^*$</p><p>Now it is easy to answer which options are correct.</p><p>Similar Question -&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/477577/go-classes-2025-cse-scholarship-test-question-24\" target=\"_blank\">https://gateoverflow.in/477577/go-classes-2025-cse-scholarship-test-question-24</a></p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"499571\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Based on the recursive definition of the language $L$, here is the step-by-step evaluation of the statements.</p><p data-path-to-node=\"1\"><b>1. Analyzing the Language $L$</b></p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b>Base Case:</b> The empty string $\\Lambda$ is in $L$.</p></li><li><p data-path-to-node=\"2,1,0\"><b>Recursive Step:</b> If we have a string $x$ in $L$, we can form new strings by appending <code>a</code> (to get $xa$) or appending <code>ba</code> (to get $xba$).</p></li></ul><p>This construction process means that any string in $L$ is formed by concatenating \"blocks\" of either a or ba.</p><p>We can describe $L$ using the regular expression:</p><p>&nbsp;</p><p>$$L = (a + ba)^*$$</p><p data-path-to-node=\"5\">Let's look at some sample strings generated by this process:</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\">$\\Lambda$ (empty string)</p></li><li><p data-path-to-node=\"6,1,0\">$a$</p></li><li><p data-path-to-node=\"6,2,0\">$ba$</p></li><li><p data-path-to-node=\"6,3,0\">$aa$ (from $a \\to aa$)</p></li><li><p data-path-to-node=\"6,4,0\">$aba$ (from $a \\to aba$)</p></li><li><p data-path-to-node=\"6,5,0\">$baa$ (from $ba \\to baa$)</p></li><li><p data-path-to-node=\"6,6,0\">$baba$ (from $ba \\to baba$)</p></li></ul><p data-path-to-node=\"7\"><b>2. Evaluating the Options</b></p><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b>A. The number of a's in $w$ is more than the number of b's in $w$.</b></p><ul data-path-to-node=\"8,0,1\"><li><p data-path-to-node=\"8,0,1,0,0\">Consider the string $w = ba$. This string is in $L$.</p></li><li><p data-path-to-node=\"8,0,1,1,0\">Number of a's = 1. Number of b's = 1.</p></li><li><p data-path-to-node=\"8,0,1,2,0\">Since 1 is not strictly more than 1, this statement is <b>FALSE</b>.</p></li></ul></li><li><p data-path-to-node=\"8,1,0\"><b>B. The number of a's in $w$ is greater than or equal to the number of b's in $w$.</b></p><ul data-path-to-node=\"8,1,1\"><li><p data-path-to-node=\"8,1,1,0,0\">Let's check the building blocks:</p><ul data-path-to-node=\"8,1,1,0,1\"><li><p data-path-to-node=\"8,1,1,0,1,0,0\">Block <code>a</code>: has 1 'a' and 0 'b's ($1 \\ge 0$).</p></li><li><p data-path-to-node=\"8,1,1,0,1,1,0\">Block <code>ba</code>: has 1 'a' and 1 'b' ($1 \\ge 1$).</p></li></ul></li><li><p data-path-to-node=\"8,1,1,1,0\">Since every string is a combination of these blocks, and each block satisfies the condition $n_a \\ge n_b$, the total sum for the whole string will also satisfy the condition.</p></li><li><p data-path-to-node=\"8,1,1,2,0\">Base case $\\Lambda$ has 0 'a's and 0 'b's ($0 \\ge 0$).</p></li><li><p data-path-to-node=\"8,1,1,3,0\">This statement is <b>TRUE</b>.</p></li></ul></li><li><p data-path-to-node=\"8,2,0\"><b>C. Every string in $w$ ends with $a$.</b></p><ul data-path-to-node=\"8,2,1\"><li><p data-path-to-node=\"8,2,1,0,0\">While all <i>non-empty</i> strings in $L$ end with 'a' (because both generation rules append an 'a' at the very end), the language explicitly includes the empty string $\\Lambda$.</p></li><li><p data-path-to-node=\"8,2,1,1,0\">The empty string does not end with 'a'.</p></li><li><p data-path-to-node=\"8,2,1,2,0\">Therefore, this statement is <b>FALSE</b>.</p></li></ul></li><li><p data-path-to-node=\"8,3,0\"><b>D. $w$ does not contain the substring $bb$.</b></p><ul data-path-to-node=\"8,3,1\"><li><p data-path-to-node=\"8,3,1,0,0\">In the building blocks <code>a</code> and <code>ba</code>, there is no <code>bb</code>.</p></li><li><p data-path-to-node=\"8,3,1,1,0\">When we concatenate blocks (e.g., $Block_1 + Block_2$), can a <code>bb</code> form at the boundary?</p></li><li><p data-path-to-node=\"8,3,1,2,0\">We know every block ends with an <code>a</code> (except the empty string, which doesn't affect boundaries).</p></li><li><p data-path-to-node=\"8,3,1,3,0\">So, any junction between two blocks looks like <code>...a</code> + <code>(start of next block)</code>.</p></li><li><p data-path-to-node=\"8,3,1,4,0\">The next block can start with <code>a</code> (forming <code>aa</code>) or <code>b</code> (forming <code>ab</code>). Neither creates <code>bb</code>.</p></li><li><p data-path-to-node=\"8,3,1,5,0\">Within the block <code>ba</code>, 'b' is followed by 'a', not 'b'.</p></li><li><p data-path-to-node=\"8,3,1,6,0\">Therefore, <code>bb</code> can never be formed.</p></li><li><p data-path-to-node=\"8,3,1,7,0\">This statement is <b>TRUE</b>.</p></li></ul></li></ul><p data-path-to-node=\"9\"><b>Conclusion:</b></p><p data-path-to-node=\"10\">Both statements <b>B</b> and <b>D</b> are definitely true.</p></div></section></div><p><a href=\"https://gateoverflow.in/407361\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the complement of the language accepted by the NFA shown below?</p><p>Assume $\\Sigma = \\{a\\}$ and $\\epsilon$ is the empty string.</p><p style=\"text-align:center\"><a href=\"http://gatecse.in/w/images/c/c5/2012_12.png\" target=\"_blank\"><img alt=\"\" height=\"128\" width=\"449\" src=\"media/38/387d000d4fa1886f85fb.png\"></a></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\phi$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\{\\epsilon\\}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$a^*$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{a , \\epsilon\\}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"407360\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/jpciKGP4gT4\" target=\"_blank\">Detailed Video Solution, with Complete Analysis &amp; Key Points</a>&nbsp;&nbsp;</p><p>The language being accepted is $a^+$. So, complement of the language is $\\{\\epsilon\\}$.</p><p>Question Source:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/44/gate-cse-2012-question-12\" target=\"_blank\">https://gateoverflow.in/44/gate-cse-2012-question-12</a>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"445215\"></a><div itemprop=\"text\">There are 2 ways two solve this question:<br>\n<br>\n1.Convert to DFA and then take complement. Find what is accepted.<br>\n<br>\n2. Identify language and then complement that lang.<br>\n<br>\n2nd option is faster and tells us that NFA is for L={a^n | n&gt;0}. Its complement contains {e} only.<br>\n<br>\nOPTION(B) is correct.</div></section></div><p><a href=\"https://gateoverflow.in/407359\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the Given language $\\text{L}=\\{ab, aa, baaa\\}$, _______ number of strings are in $\\text{L}^*$.</p><ul><li>$\\text{baaaba}$</li><li>$\\text{aabaaaa}$</li><li>$\\text{baaabaaaabaa}$</li><li>$\\text{baaabaaa}$</li></ul>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"407358\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=zPIl_p2MiVY&amp;t=6038s\" target=\"_blank\">Detailed Video Solution, Click Here</a>&nbsp;</p><hr><p><strong>Similar question in GATE 2012:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/1609/gate-cse-2012-question-25\" target=\"_blank\">https://gateoverflow.in/1609/gate-cse-2012-question-25</a></strong></p><p><strong>Detailed Video Solution of GATE 2012 question:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=PjoTWbeUygM&amp;list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&amp;index=2\" target=\"_blank\">GATE 2012 Question - Complete Analysis (Click Here)</a></p></div></section></div><p><a href=\"https://gateoverflow.in/407357\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a DFA machine $\\text{M}$ whose digraph is :</p><p style=\"text-align:center\"><img alt=\"\" height=\"117\" width=\"494\" src=\"media/09/0901445a56198c3679dd.png\"></p><p>Then $\\text{L(M)},$&nbsp;the language accepted by the machine&nbsp;$\\text{M},$ is the set of all strings having :</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>two or more $b$’s</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>three or more $b$’s</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>two or more $a$’s</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>three or more $a$’s</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"407388\"></a><div itemprop=\"text\">The question seems ambiguous to me. No initial state given in the DFA and considering S0 as the initial state w=”bb” is getting accepted by the DFA . Hence the answer could be A) two or more b’s.</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"407392\"></a><div itemprop=\"text\">Considering S(0) as initial state(As there should be no unreachable state in a good DFA) the DFA accepts the string “bb” and any string that contains two or more b’s, So I think (A) should be the answer.</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"407496\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/a4/a49118ca65376cf5f5d6.jpg\"></p>\n\n<p>Set of strings which are accepted:</p>\n\n<p>$\\{bb, bba, bbaba, aabbab, bbbb, ababb, abb, bbab, …..\\} $</p>\n\n<p>So, from here we can say that above DFA accpets $\\text{Two or more no. of b’s}$</p>\n\n<p>$\\color{Green}Ans: A$</p></div></section></div><p><a href=\"https://gateoverflow.in/407355\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>There are exactly _______ different finite automata with three states $x$, $y$ and $z$ over the alphabet $\\{a,b\\}$ where $x$ is always the start state.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$64$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$256$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1024$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$5832$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 25)</small></h4><a name=\"407464\"></a><div itemprop=\"text\">Since there are 3 states, and DFA has transition from every state on every input symbol, there are total 6 transitions i.e {(x,a), (x,b), (y,a), (y,b), (z,a), (z,b)}. <br>\n<br>\nDFA transition function is QxE → Q. Here 6 transitions and 3 states. <br>\n<br>\nSo |Q x E| = 6 and |Q| = 3. &nbsp;Number of possible functions are 3^6 i.e. 729.<br>\n<br>\nBut there are 3 states. For each DFA, set of final states can be any subset of Q. <br>\n<br>\nNumber of subsets with 3 elements &nbsp;= 2^3 = 8.<br>\n<br>\nHence, number of possible DFAs = 729 * 8 &nbsp;= 5832.</div></section><section><h4>Source solution 2 <small>(score: 19)</small></h4><a name=\"407354\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=zPIl_p2MiVY&amp;t=6633s\" target=\"_blank\">Detailed Video Solution, with Complete Analysis</a></p><p>Question Source:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/40678/ugc-net-cse-december-2015-part-3-question-27\" target=\"_blank\">https://gateoverflow.in/40678/ugc-net-cse-december-2015-part-3-question-27</a></p></div></section><section><h4>Source solution 3 <small>(score: 8)</small></h4><a name=\"435809\"></a><div itemprop=\"text\"><p>#&nbsp; &nbsp;is \"&nbsp;<em><strong>number of \"</strong></em> in short&nbsp;<br><img alt=\"\" width=\"1200\" height=\"1696\" src=\"media/27/278027a41f9ef00a3ca6.jpg\"></p></div></section><section><h4>Source solution 4 <small>(score: 7)</small></h4><a name=\"407419\"></a><div itemprop=\"text\"><p><strong>Total Number of NFAs</strong></p>\n\n<p>Let us calculate the number of NFAs first,</p>\n\n<p>By definition, the transition function of NFA is –&nbsp;Q X {a, b,&nbsp;ε} ,&nbsp;</p>\n\n<p>At every possible&nbsp;input, i.e a,b,ε&nbsp;the NFA can go to&nbsp;any of the following –&nbsp;{none, x, y, z, xy, yz, xz, xyz} = 8</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:175px\">Transition Function</td>\n\t\t\t<td style=\"width:127px\">Input(a)</td>\n\t\t\t<td style=\"width:101px\">Input(b)</td>\n\t\t\t<td style=\"width:77px\">No Input(ε)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:175px\">State X</td>\n\t\t\t<td style=\"width:127px\">8</td>\n\t\t\t<td style=\"width:101px\">8</td>\n\t\t\t<td style=\"width:77px\">8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:175px\">State Y</td>\n\t\t\t<td style=\"width:127px\">8</td>\n\t\t\t<td style=\"width:101px\">8</td>\n\t\t\t<td style=\"width:77px\">8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:175px\">State Z</td>\n\t\t\t<td style=\"width:127px\">8</td>\n\t\t\t<td style=\"width:101px\">8</td>\n\t\t\t<td style=\"width:77px\">8</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Total number of NFAs = Number of Possible Transition functions * Number of possible combination final states</p>\n\n<p>Total number of NFAs = 8⁹&nbsp;* 8 [Exceeds all the given options]</p>\n\n<p>[Number of initial&nbsp;states is fixed here, otherwise we have to multiply with the number of possible combination of initial states]</p>\n\n<p><strong>Total Number of DFAs</strong></p>\n\n<p>Similarly the transition function of DFA is –&nbsp;&nbsp;Q X {a, b}</p>\n\n<p>At every possible&nbsp;transition, i.e a,b&nbsp;the DFA can go to&nbsp;any of the following –&nbsp;{x, y, z} = 3</p>\n\n<p>For every element of&nbsp;Q X {a, b} we have 3 possible transitions, |Q X {a, b}| = 6</p>\n\n<p>Total number of DFAs = Number of Possible Transition functions * Number of possible combination final states</p>\n\n<p>Total number of DFAs = 3⁶ * 8 = 5832(Ans : Option D)</p>\n\n<p><strong>Note :&nbsp;</strong>This is a previous year UGC&nbsp;NET&nbsp;question. Somehow the creator refers to DFA by finite automata. Do not waste much time and expect such ambiguous questions in GATE.</p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"478678\"></a><div itemprop=\"text\"><p>&nbsp;From every state there are 3 transitions possible<strong> for every symbol</strong> that are , self loop (staying in the same state) or move to either of the 2 states . There are 2 alphabet symbols so for every state 3x3=9 transitions are possible so for 3 states total 9x9x9=729 transitions are possible. Now with any transition we can make any subset of states as final , as there are 3 states so there are 2^3=8 possible subsets of these states hence 8 ways to have final states . The initial state is fixed so we cannot change that configuration so answer = 729x8=5,832.</p></div></section></div><p><a href=\"https://gateoverflow.in/407353\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\Sigma= {a, b}$ and language $\\text{L} = {aa, bb}$. Then, the complement of $\\text{L}$ is ________.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\left\\{\\lambda, a, b, ab, ba \\right\\} \\cup \\left\\{w \\in\\left\\{a, b\\right\\}^{*} | |w| &gt; 3 \\right\\}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left\\{a, b, ab, ba \\right\\} \\cup \\left\\{w  \\in \\left\\{a, b\\right\\}^{*} | |w| \\geq 3 \\right\\}$&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left\\{w \\in  \\left\\{a, b\\right\\}^{*} | |w| &gt; 3\\right\\} \\cup \\left\\{a, b, ab, ba \\right\\}$&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\left\\{\\lambda, a, b, ab, ba\\right\\} \\cup \\left\\{w \\in \\left\\{a, b\\right\\}^{*} | |w| \\geq 3 \\right\\}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"407497\"></a><div itemprop=\"text\">Alphabet $\\sum= a,b$ &nbsp;and language $L=aa,bb$.<br>\n<br>\nSo, complement of language wil be &nbsp;$L’ = \\{w | w\\in \\{a,b\\}^* where \\ w \\ \\text{will not contain aa, bb}\\}$<br>\n<br>\nSo, $L’$ will contain $\\{\\lambda, a,b,ab,ba\\}$ as they are not in $L$ and also the set of strings whose length is atleast $3$ which are also not in $L$.<br>\n<br>\nFinally, $L’=\\{\\lambda, a,b,ab,ba\\} \\cup \\{w\\in\\{a,b\\}^*||w|\\geq3\\}$<br>\n<br>\n$\\color{Green}Ans: D$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"407466\"></a><div itemprop=\"text\">L = {aa,bb}. So L’ = {w | w belongs to {a,b}* and w not equal to aa,bb}.<br>\n<br>\nSo, L’ contains all strings of length atleast 3. Also, it contains strings of length 0 and 1 i.e {e,a,b}. It also contains ab and ba as they are not in L.<br>\n<br>\nSo L’ = {e,a,b,ab,ba} U {w| w belongs to {a,b}* where |w|&gt;=3}</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"426165\"></a><div itemprop=\"text\">Checking optionwise:<br>\n<br>\nIn option A, 3 length strings are not present<br>\n<br>\nIn option B, empty string is not present<br>\n<br>\nIn option C, empty string is not present<br>\n<br>\nSo, option D is the correct complement of the given language</div></section></div><p><a href=\"https://gateoverflow.in/407351\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 13,
+  "types": {
+   "MCQ": 8,
+   "MSQ": 7
+  },
+  "withoutKey": 7
+ }
+}

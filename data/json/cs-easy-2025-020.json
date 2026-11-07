@@ -1,0 +1,1002 @@
+{
+ "v": 1,
+ "id": "cs-easy-2025-020",
+ "title": "Subjectwise Test-9 Part Syllabus GATE 2025 CS Computer Networks",
+ "sourceTitle": "Subjectwise Test-9 Part Syllabus GATE 2025 CS Computer Networks",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2025",
+ "num": 20,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/047_Subjectwise Test-9 Part Syllabus GATE 2025 CS Computer Networks.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of following option can be used to increase the default sequence bits of TCP protocol in transport layer?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Window scaling factor option"
+    },
+    {
+     "key": "B",
+     "html": "NOP option"
+    },
+    {
+     "key": "C",
+     "html": "EOP option"
+    },
+    {
+     "key": "D",
+     "html": "Time stamp option"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhat can be the possible situation of window size of 16 bits are used as 30 bits (i.e. window size + window scaling factor option) in TCP protocol?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Wrap around condition occurs immediately in transmitting less number of segments as size of segment is large."
+    },
+    {
+     "key": "B",
+     "html": "Size of default segment cannot be increased."
+    },
+    {
+     "key": "C",
+     "html": "Deadlock can occur as both sender and receiver are waiting."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tThe minimum hamming distance from one valid code word to another valid code word is K.<br />\n\tThen the maximum number of errors that can be detected are?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "K"
+    },
+    {
+     "key": "B",
+     "html": "K – 1"
+    },
+    {
+     "key": "C",
+     "html": "2K"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tThe initial MSS (maximum segment size) set by receiver TCP will be available in</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "TCP data segment"
+    },
+    {
+     "key": "B",
+     "html": "TCP syn segment"
+    },
+    {
+     "key": "C",
+     "html": "TCP (syn + ack) segment"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tThe initial MSS (maximum segment size) set by sender TCP will be available in</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "TCP data segment"
+    },
+    {
+     "key": "B",
+     "html": "TCP syn segment"
+    },
+    {
+     "key": "C",
+     "html": "TCP fin segment"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tGiven logical address of computers are<br />\n\tc1 = 201.45.67.101/28<br />\n\tc2 = 201.45.67.100/28<br />\n\tc3 = 201.45.67.97/28<br />\n\tc4 = 201.45.67.113/28<br />\n\tc5 = 201.45.67.114/28<br />\n\tc6 = 201.45.67.115/28<br />\n\tWhat would the address, if computer c1 wants to broadcast the data to all the computers of eth2 of router</p>\n<p>\n\t<img alt=\"\" src=\"media/7b/7b0ee0c6ba07617b0eb5.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "201.45.67.111/28"
+    },
+    {
+     "key": "B",
+     "html": "201.45.67.127/28"
+    },
+    {
+     "key": "C",
+     "html": "201.45.67.119/28"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tGiven logical address of computers are<br />\n\tc1 = 201.45.67.101/28<br />\n\tc2 = 201.45.67.100/28<br />\n\tc3 = 201.45.67.97/28<br />\n\tc4 = 201.45.67.99/28<br />\n\tc5 = 201.45.67.102/28<br />\n\tc6 = 201.45.67.103/28<br />\n\tNumber of subnets in the given diagram are</p>\n<p>\n\t<img alt=\"\" src=\"media/86/86d8f37da53a06d5ef4d.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3"
+    },
+    {
+     "key": "B",
+     "html": "4"
+    },
+    {
+     "key": "C",
+     "html": "1"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tTraversing from root to leaf node of the entire tree will give</p>\n<p>\n\t<img alt=\"\" src=\"media/a5/a5c389c7bb8b7a384e94.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Different fields of classless addressing"
+    },
+    {
+     "key": "B",
+     "html": "Rules of different classes of classful addressing"
+    },
+    {
+     "key": "C",
+     "html": "Prefix notation of classless addressing"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tThe computer IP addresses are given as<br />\n\tc1 = 201.78.89.33/27<br />\n\tc2 = 201.78.89.49/27<br />\n\tc3 = 201.78.89.66/27<br />\n\tc4 = 201.78.89.69/27<br />\n\tThree routers which are interconnected to each other by point to point links. IP addresses of ethernet<br />\n\tinterfaces in the diagram is given as the<br />\n\tEth0 = 201.78.89.129/27<br />\n\tEth1 = 201.78.89.131/27<br />\n\tEth2 = 201.78.89.161/27<br />\n\tEth4 = 201.78.89.162/27<br />\n\tEth3 = 201.78.89.193/27<br />\n\tEth5 = 201.78.89.194/27<br />\n\tThe number of subnets in the diagram are ________?</p>\n<p>\n\t<img alt=\"\" src=\"media/74/74c019d37fdbf2713698.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5</p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tThe number of subnets which are connected to R1, R2 are ________?</p>\n<p>\n\t<img alt=\"\" src=\"media/ed/eda11db92f5c873bd6d4.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1</p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tBandwidth of a channel is 200 kbps. Calculate the maximum throughput of S pure aloha ________ kbps?</p>\n<p>\n\t<img alt=\"\" src=\"media/9c/9c47715af91d4e7706f0.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    36.8,
+    36.8
+   ],
+   "answerText": "36.8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t36.8</p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tBandwidth of a channel is 200 kbps. Calculate the maximum throughput of S slotted aloha ________ kbps?</p>\n<p>\n\t<img alt=\"\" src=\"media/62/62b5efc60d10fa70f527.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    73.6,
+    73.6
+   ],
+   "answerText": "73.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t73.6</p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tGiven C1 IP address is 201.34.24.193/27 and C2 IP address is 201.34.24.199/27<br />\n\tThe total number of subnets in above network architecture are ________?</p>\n<p>\n\t<img alt=\"\" src=\"media/6c/6c4a2c9d1a665159d774.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5</p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tThe minimum number of outgoing paths required for a router is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1</p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tA network administrator is connecting hosts C1 and C2 directly through their ethernet interfaces as shown in figure. Ping attempts between C1 and C2 are unsuccessful. What can be done to provide connectivity between C1 and C2 or ping attempts to be successful?</p>\n<p>\n\t<img alt=\"\" src=\"media/fd/fd95ca72845b13438123.png\" /><code class=\"krutidata\">&#2378;&#2345;</code></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "C2 IP address should be changed to 192.168.1.193"
+    },
+    {
+     "key": "B",
+     "html": "C1 IP address should be changed to 192.168.1.193"
+    },
+    {
+     "key": "C",
+     "html": "Both C1 and C2 mask changed to 255.255.255.0"
+    },
+    {
+     "key": "D",
+     "html": "Both C1 and C2 mask changed to 255.255.255.192"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tRouter is connected to three subnets. Which of following is true from three subnets?</p>\n<p>\n\t<img alt=\"\" src=\"media/ef/efb1d95ab13a430ec14c.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Company requirement of 130 hosts in any one of three subnet are allowed."
+    },
+    {
+     "key": "B",
+     "html": "Company requirement of 60 hosts in any one of three subnet are allowed."
+    },
+    {
+     "key": "C",
+     "html": "The network comes under equal length subnetting."
+    },
+    {
+     "key": "D",
+     "html": "The network comes under variable length subnetting."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, d)</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tRouter is connected to four subnets. Which of following is true from four subnets?</p>\n<p>\n\t<img alt=\"\" src=\"media/d5/d58ceca2388be3d63fec.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The subnet mask for all four subnets is 255.255.255.192."
+    },
+    {
+     "key": "B",
+     "html": "Company requirement of 120 hosts in any one of four subnet are allowed."
+    },
+    {
+     "key": "C",
+     "html": "A system in the subnet 50.15.60.0/26 wants to broadcast in same subnet it uses 255.255.255.255."
+    },
+    {
+     "key": "D",
+     "html": "The network comes under variable length subnetting."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tRouter is connected to four subnets. Which of following is true from four subnets?</p>\n<p>\n\t<img alt=\"\" src=\"media/29/29985f6670ec5e2b3b7b.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "No of prefix bits in each subnet is 27."
+    },
+    {
+     "key": "B",
+     "html": "No of hosts in each subnet allowed are 30."
+    },
+    {
+     "key": "C",
+     "html": "The DBA of all subnets should have last end 4 bits should be 1."
+    },
+    {
+     "key": "D",
+     "html": "The DBA of all subnets should have last end 5 bits should be 1."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tB and C nodes and A is the access node CSMA/CA Protocol is used. Which of following is true?</p>\n<p>\n\t<img alt=\"\" src=\"media/cf/cf7c44bd7b108914fc47.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "All node B, A, C share a single shared channel."
+    },
+    {
+     "key": "B",
+     "html": "Both nodes B and C can send RTS at same time and acquire shared channel of A at same time."
+    },
+    {
+     "key": "C",
+     "html": "Each node of B, A, C has their own shared channel."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhich of following are true in case of computers connected with bridges?</p>\n<p>\n\t<img alt=\"\" src=\"media/27/27271f7b9db7d7f97c6d.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Bridge forwards or blocks data based on IP address."
+    },
+    {
+     "key": "B",
+     "html": "Number of broadcast domains in entire network are 1."
+    },
+    {
+     "key": "C",
+     "html": "When LAN’s are converted in VLAN’s , then broadcast domains be increased."
+    },
+    {
+     "key": "D",
+     "html": "Number of broadcast domains in entire network are 3."
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhich of following are true in case of computers connected with bridges?</p>\n<p>\n\t<img alt=\"\" src=\"media/1f/1f93bf73192d9b0a3b1d.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Links connected between bridge and computers are known as access links."
+    },
+    {
+     "key": "B",
+     "html": "Links connected between the bridges are known as trunk links."
+    },
+    {
+     "key": "C",
+     "html": "Between similar lans more than one bridge is connected to support fault tolerance."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)</p>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tAll the stations are connected in star topology with passive hub as centric device. Then which of following is true?</p>\n<p>\n\t<img alt=\"\" src=\"media/e0/e014e3176dc0419980e7.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "When system 1 wants to send data to system 4 with unicast mac address of station 4 Then the data will only go to station 4."
+    },
+    {
+     "key": "B",
+     "html": "When system 1 wants to send data to system 4 with unicast mac address of station 4 Then the data will go to all stations in network."
+    },
+    {
+     "key": "C",
+     "html": "When system 1 wants to send data with destination mac address FF : FF : FF : FF : FF : FF Then the data will go to all stations in network."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhich of following are true, in case of computers connected with bridges?</p>\n<p>\n\t<img alt=\"\" src=\"media/8c/8ca009932b5a16f1a853.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "When c1 broadcast data to c2, c3, it will go to c2 and c3 only."
+    },
+    {
+     "key": "B",
+     "html": "When c1 broadcast data to c2, c3, it will go to ( c2, c3) and (c4, c5, c6) also."
+    },
+    {
+     "key": "C",
+     "html": "When LAN’s are converted in VLAN’s , then broadcast domains can be increased."
+    },
+    {
+     "key": "D",
+     "html": "Number f broadcast domains in entire network are 6."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tStop and wait arq protocol is used in data link layer in which frames are transmitted. Frames are transmitted from sender to receiver with sequence number attached. Once frames reached safely, concerned acknowledgments are transmitted from receiver to sender. Find out the error in given diagram?</p>\n<p>\n\t<img alt=\"\" src=\"media/db/db8b3c5b53a65f48574a.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t2<sup>nd</sup> line should not be ack1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t3<sup>rd</sup> line should not be frame 1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t4<sup>th</sup> line should not be ack1</p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tThe computer IP addresses are given as<br />\n\tc1 = 201.78.89.33/27<br />\n\tc2 = 201.78.89.49/27<br />\n\tc3 = 201.78.89.66/27<br />\n\tc4 = 201.78.89.69/27<br />\n\tc5 = 201.78.89.97/27<br />\n\tc6 = 201.78.89.99/27<br />\n\tThree routers which are interconnected to each other by point to point links. IP addresses of<br />\n\tethernet interfaces in the diagram is given as the<br />\n\tEth0 = 201.78.89.129/27<br />\n\tEth1 = 201.78.89.131/27<br />\n\tEth2 = 201.78.89.161/27<br />\n\tEth4 = 201.78.89.162/27<br />\n\tEth3 = 201.78.89.193/27<br />\n\tEth5 = 201.78.89.194/27<br />\n\tComputer c1 connected to R1 wants to broadcast to all the systems connected to R2.<br />\n\tWhat will the value of last octet of broadcast address?</p>\n<p>\n\t<img alt=\"\" src=\"media/41/4126d882702a32d4141c.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    95,
+    95
+   ],
+   "answerText": "95",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t95</p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tThe given network supports three level hierarchy. Level 1 is net id, level 2 is subnet id’s and level 3 is hosts in each subnet. Given net ID is 201.34.67.0 and given subnet mask is 255.255.255.192. Calculate the total number of hosts in 2 subnets 201.34.67.64 and 201.34.67.128</p>\n<p>\n\t<img alt=\"\" src=\"media/d0/d00a44136144f6abc7bd.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    124,
+    124
+   ],
+   "answerText": "124",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t124</p>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhen station 1 wants to transmits the data to station 3, then the signal will go to how many stations in the below diagram:</p>\n<p>\n\t<img alt=\"\" src=\"media/d7/d716023800806de19efc.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5</p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tA, B, C are three routers. The delays from A to B, B to C, C to A are 3, 4, 5. Routers are not using periodic timers. What would be the final routing table entry for route B from A is ________.</p>\n<p>\n\t<img alt=\"\" src=\"media/64/643c0f383d2632afde0a.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t3</p>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tA, B, C are three routers. The delays from A to B, B to C, C to A are 3, 4, 5. Every router is using periodic timer to routes to other routers. How many links are still active once router C is crashed?</p>\n<p>\n\t<img alt=\"\" src=\"media/59/590823cafb1801809f8c.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1</p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tThe number of broadcast domains in the below diagram are ________.</p>\n<p>\n\t<img alt=\"\" src=\"media/11/111d4ebf765b84eb0d38.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2</p>"
+  },
+  {
+   "n": 31,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tIn the below diagram the sum value of collision domains + broadcast domains is _________.<br />\n\t(LAN is not converted into VLAN)</p>\n<p>\n\t<img alt=\"\" src=\"media/d6/d6660be7f32c9b77032d.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5</p>"
+  },
+  {
+   "n": 32,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tRouter is connected to four subnets. Which of following is true from four subnets?</p>\n<p>\n\t<img alt=\"\" src=\"media/e9/e9d2ca95b47cbcfe88b3.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Number of prefix bits in each subnet is 6."
+    },
+    {
+     "key": "B",
+     "html": "Company requirement of 60 hosts in any one of four subnets are allowed."
+    },
+    {
+     "key": "C",
+     "html": "The network comes under equal length subnetting."
+    },
+    {
+     "key": "D",
+     "html": "The network comes under variable length subnetting."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tRouter is connected to three subnets. Which of following is true from three subnets?</p>\n<p>\n\t<img alt=\"\" src=\"media/68/68a0ef27d304ba4358b5.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Total number of broadcast domains in above diagram are 3."
+    },
+    {
+     "key": "B",
+     "html": "Any system in network 30.15.60.0/25 can broadcast to all systems in subnet with address 30.15.60.255/26."
+    },
+    {
+     "key": "C",
+     "html": "The network comes under equal length subnetting."
+    },
+    {
+     "key": "D",
+     "html": "The network comes under variable length subnetting."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 11,
+   "NAT": 13,
+   "MSQ": 9
+  },
+  "withoutKey": 0
+ }
+}

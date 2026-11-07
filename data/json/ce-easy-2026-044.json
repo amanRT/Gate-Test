@@ -1,0 +1,916 @@
+{
+ "v": 1,
+ "id": "ce-easy-2026-044",
+ "title": "Subject-wise Test-18 2026 ESE CE Standards and Quality practices",
+ "sourceTitle": "Subject-wise Test-18 2026 ESE CE Standards and Quality practices",
+ "branch": "CIVIL ENGINEERING",
+ "code": "CE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering",
+ "seriesId": "ce-easy-2026",
+ "num": 44,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 1800,
+ "info": {
+  "meta": "Package: GATE 2026 + ESE 2026 Online Test Series - Civil Engineering • Questions: 25",
+  "package": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering"
+ },
+ "source": "CIVIL ENGINEERING/MADE EASY/GATE 2026 + ESE 2026 Online Test Series - Civil Engineering/036_Subject-wise Test-18 2026 ESE CE Standards and Quality practices.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding the types of quality :<br />\n1. Quality of design is all about set conditions that the product or service must essentially have to satisfy the requirements of the customer.<br />\n2. Quality of conformance is concerned with how well the manufactured product conforms to the quality of design.<br />\n3. Quality of performance is concerned with how well the manufactured product gives its performance.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following is not a contribution of Deming?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Deming cycle"
+    },
+    {
+     "key": "B",
+     "html": "Quality circle"
+    },
+    {
+     "key": "C",
+     "html": "14 points for transforming management"
+    },
+    {
+     "key": "D",
+     "html": "7 deadly diseases"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nMajor contributions of Deming are Deming cycle, 14 points for transforming management, 7 deadly<br />\ndiseases and Deming profound knowledge.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding Fishbone diagram :<br />\n1. It is used to find a relationship between a controllable variable and a desired quality characteristic while analyzing a process.<br />\n2. It is used to identify and systematically list various causes that can be attributed to a problem.<br />\n3. It is known as a fishbone diagram because of its shape, similar to the side view of a fish skeleton.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "D",
+     "html": "2 and 3 only"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nScatter plots consists of plotting data to depict the relationship between two variables and not<br />\nfishbone diagram. Fishbone diagram is also called cause and effect diagram developed by Kaoru<br />\nIshikawa.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a sampling plan developed for lot containing 100 units and sample size 10. The probability of acceptance is 0.6 and the percentage defective is 15% then the value of <em>AOQ</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.081"
+    },
+    {
+     "key": "B",
+     "html": "0.81"
+    },
+    {
+     "key": "C",
+     "html": "0.09"
+    },
+    {
+     "key": "D",
+     "html": "0.9"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/88/8842baf1a9029028a49f.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding Six-Sigma :<br />\n1. Six-Sigma requires continuous efforts to achieve stable and predictable process results by reducing variation.<br />\n2. Six-Sigma is the process that has six standard deviations on each side between the mean and the specification limit.<br />\n3. A Six-Sigma process with no shift in the mean results in 2 defects per billion opportunities.<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A part dimension is specified as 150 ± 0.4 mm. To investigate the impact of this tolerance on product performance, the company has studied its repair records to discover that if the ±0.4 mm tolerance is exceeded, there is 50% chance that the product will be returned for repairs, at a cost of<br />\n<img align=\"absmiddle\" alt=\"\" src=\"media/d7/d7d2bd35e04f42e89203.png\" /> to the company (during warranty period) or to the customer (beyond the warranty period).<br />\nWhat will be Taguchi loss function constant?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/cc/cc2d1353392a331d3c8b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/85/8584b3f469e294f51907.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/23/2373d0121e04fd7e3910.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/48/4892007a3421b28d2559.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cd/cda45582ec80a13fe6d6.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding TQM :<br />\n1. In TQM, both economy of time and economy of scope are pursued.<br />\n2. TQM aims to use manufacturing as the source, which can create value for the customers in the market place.<br />\n3. TQM is a result-oriented approach rather than a process-oriented approach.<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nTQM is a process-oriented approach as against the traditional result-oriented approach.</p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In ABC analysis of selective inventory managements, A item require:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "No safety stock"
+    },
+    {
+     "key": "B",
+     "html": "Low safety stock"
+    },
+    {
+     "key": "C",
+     "html": "Moderate safety stock"
+    },
+    {
+     "key": "D",
+     "html": "High safety stock"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n&lsquo;A&rsquo; item &rarr; Most costly and valuable items. (10 to 20)% of items accounts. For 75% of the total<br />\ncapital invested in the inventory. So no safety stock is considered.</p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The reliability of the given system is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/28/283432ab28b9de4ca67d.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ba/ba81653e395cd99aca7d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/9b/9b7447f6ab96a41503da.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/57/57d656e2ed2e75318242.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/fd/fd601c8f9edab8fc1bdc.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/87/87b5cffe34771e7c9558.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following is NOT a 7 deadly disease of management defined by Deming?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Emphasis on long term profits"
+    },
+    {
+     "key": "B",
+     "html": "Mobility of management"
+    },
+    {
+     "key": "C",
+     "html": "Running a company on visible figures alone"
+    },
+    {
+     "key": "D",
+     "html": "Excessive medical costs"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n7 Deadly diseases of management defined by Deming are :<br />\n1. Lack of constancy of purpose.<br />\n2. Emphasis on short-term profits.<br />\n3. Evaluation by performance, merit rating, or annual review of performance.<br />\n4. Mobility of management.<br />\n5. Running a company on visible figures alone.<br />\n6. Excessive medical costs.<br />\n7. Excessive costs of warranty, caused by lawyers who work for contigency fees.</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which amongst the following are the elements of TQM?<br />\n1. Leadership commitment<br />\n2. Statistical process control<br />\n3. Education and Training<br />\n4. Team work and employee empowerment<br />\n5. Recognition and rewards<br />\nSelect the correct answer using the codes given below:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 3 and 4"
+    },
+    {
+     "key": "B",
+     "html": "1, 2 and 4"
+    },
+    {
+     "key": "C",
+     "html": "1, 2, 3 and 4"
+    },
+    {
+     "key": "D",
+     "html": "1, 2, 3, 4 and 5"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nElement of TQM :<br />\n1. Leadership<br />\n2. Leadership commitment<br />\n3. Recognition and Rewards<br />\n4. Education and training<br />\n5. Customer orientation<br />\n6. Team work and employee empowerment<br />\n7. Feedback mechanisms<br />\n8. Statistical process control</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following is key objective of a six sigma project?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Developing detailed control charts for critical processes."
+    },
+    {
+     "key": "B",
+     "html": "Developing a matrix to understood the how’s and what’s of a problem process."
+    },
+    {
+     "key": "C",
+     "html": "Reduce variation in critical processes."
+    },
+    {
+     "key": "D",
+     "html": "Reducing investment costs while improving output quality."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding Kanban :<br />\n1. Kanban is a scheduling system for lean manufacturing and just-in-time (JIT) manufacturing.<br />\n2. The goal of the Kanban system is to limit the buildup of excess inventory at any point in production.<br />\n3. Kanban cards are a key component of Kanban and they signal the need to move materials within a production facility or to move materials from an outside supplier into the production facility.<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following aspects focussed by Poka-Yoke:<br />\n1. Prediction or recognising that a defect is about to occur and providing a warning.<br />\n2. Detection or recognising that a defect has occurred and stopping the process.<br />\nWhich of the above aspects is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding the risk involved in the project :<br />\n1. If the possibilities of possible outcomes of a given problem are not known, then it can be concluded that an element of risk is involved.<br />\n2. Positive risk offer benefit to the project.<br />\n3. Delphi techniques is one of the Risk information gathering technique.<br />\nWhich of the above statements is/are INCORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "B",
+     "html": "1 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "D",
+     "html": "3 only"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nIf the possibilities of possible outcomes of a given problem are not known then it can be concluded<br />\nthat an element of uncertainity is involved.<br />\nIf the possibilities of outcomes is known then it can be concluded than an element of risk is involved.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements in context of reliability :<br />\n1. The reliability of system is always less than or equal to the reliability of individual component.<br />\n2. One way to increase the product reliability is to build redundancy in the form of back up plan.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nThe reliability of system is always less than or equal to the reliability of individual component<br />\nwhen they are connected in series but if the individual components are connected in parallel then<br />\nreliability of system can be greater than or equal to the reliability of individual component.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following statement is NOT correct with respect to the difference between histogram and bar graph?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Histogram refers to a graphical representation that displays data by way of bars to show the frequency whereas bar graph is a pictorial representation of data that uses bars to compare different categories of data."
+    },
+    {
+     "key": "B",
+     "html": "In histogram, there are no spaces between bars whereas in bar graph are spaces between bars."
+    },
+    {
+     "key": "C",
+     "html": "Histogram indicates distribution of non-discrete variables whereas bar graph indicates comparison of discrete variables."
+    },
+    {
+     "key": "D",
+     "html": "Histogram represents categorical data whereas bar graph represents quantitative data."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nHistogram represents quantitative data whereas bar graph represents categorical data.</p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Malcolm Bridge national quality award (MBNQA) is for</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Total quality management"
+    },
+    {
+     "key": "B",
+     "html": "International standard organization"
+    },
+    {
+     "key": "C",
+     "html": "Total quality control"
+    },
+    {
+     "key": "D",
+     "html": "Total productive maintenance"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In context of six sigma project methodology, DMADV is used in place of DMAIC:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "To make improvements by eliminating defects"
+    },
+    {
+     "key": "B",
+     "html": "To increase quality standards"
+    },
+    {
+     "key": "C",
+     "html": "To reduce repair time"
+    },
+    {
+     "key": "D",
+     "html": "To fulfill the demands of customers with regard to quality that can’t be satisfied by existing process"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nSometimes, the demands of the customers with respect to quality cannot be satisfied by the existing<br />\nprocess. At times, an organization must decide to launch a new product or service to grab a new<br />\nbusiness opportunity offered by the environment. In all such situations, the last two steps used in<br />\nthe DMAIC, namely &ldquo;improve&rdquo; and &ldquo;control&rdquo; can be replaced by &ldquo;design&rdquo; and &ldquo;verify&rdquo; so that it<br />\nbecomes DMADV.</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following statement is NOT correct regarding operating characteristic (OC) curve?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "To obtain ideal OC curve, the sample size should be infinite."
+    },
+    {
+     "key": "B",
+     "html": "As the sample size increases, the OC curve becomes more and more discriminating."
+    },
+    {
+     "key": "C",
+     "html": "The OC curve is the primary tool for representing and investing the properties of a lot acceptance sampling plan."
+    },
+    {
+     "key": "D",
+     "html": "As the acceptance number increases keeping the lot size constant, the OC curve becomes more and more steeper."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\n&bull; As the sample size increases, the OC curve shape will become more steeper means tends to the<br />\nideal OC curve and it become more discriminating between good and bad lots.<br />\n&bull; Increasing the acceptance number does not significantly change the shape of OC curve.</p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements with respect to service quality :<br />\n1. Service quality is a measure of how well a delivered service matches customers’ expectations.<br />\n2. Objective service quality is the customers perceived conformity of working result with expected benefit.<br />\n3. Subjective service quality is the concrete measurable conformity of working result with previously defined benefit.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n&bull; Objective service quality is the concrete measurable conformity of a working result with<br />\npreviously defined benefit.<br />\n&bull; Subjective service quality is the customers perceived conformity of working result with expected<br />\nbenefit.</p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In GAP model of service quality, GAP4 is related to:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Customer satisfaction"
+    },
+    {
+     "key": "B",
+     "html": "Absence of goal setting"
+    },
+    {
+     "key": "C",
+     "html": "Service performance gap"
+    },
+    {
+     "key": "D",
+     "html": "Tendency to overpromise"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The reliability of a repairable product by exponential distribution is given <em>R</em>(<em>t</em>) = <em>e</em>–<sup>0.005t</sup> and mean time to repair is 30 hours. The mean time to failure for the product (in hours) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "200"
+    },
+    {
+     "key": "B",
+     "html": "230"
+    },
+    {
+     "key": "C",
+     "html": "170"
+    },
+    {
+     "key": "D",
+     "html": "150"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/01/01201fb691776e46894f.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is NOT the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p>Statement (I): Quality circles aim at development of employees, arousing genuine interest and dedication to their work to improve quality, productivity and cost reduction.<br />\nStatement (II): Quality circles build mutual trust among workers but create confrontation between the management and the workers.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is NOT the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p> </p>\n\n<p><strong>Statement (I):</strong> Total Productive Maintenance (TPM) focuses on keeping all equipment in top working condition to avoid breakdowns and delays in manufacturing processes.<br />\n<strong>Statement (II):</strong> TPM emphasizes proactive and preventive maintenance to maximize the operational efficiency of equipment.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 25
+  }
+ ],
+ "stats": {
+  "questions": 25,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 25
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,529 @@
+{
+ "v": 1,
+ "id": "da-easy-2026-027",
+ "title": "Topicwise Test-6 Part Syllabus GATE 2026 DA Probability and Statistics-2",
+ "sourceTitle": "Topicwise Test-6 Part Syllabus GATE 2026 DA Probability and Statistics-2",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2026",
+ "num": 27,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/071_Topicwise Test-6 Part Syllabus GATE 2026 DA Probability and Statistics-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Let <em>X</em> be a continuous random variable with following probability density function.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/de/deb8ebef3ec500f89082.png\" /></div>\n\n<div> </div>\n\n<div>Find the variance of <em>X</em>?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/7c/7cba865d9ba84b55579e.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/2b/2b034f7c025fffe50f86.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/cf/cf23b988804e4b483038.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/05/057888b68afbad2b08d8.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/16/169f3ffac898d9a8c9cb.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Number of tigers in a reserve is normally distributed with mean and variance respectively as 1200 and 9 × 10<sup>4</sup>. The probability of finding more than 1800 tiger is approx ________. (Upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.02,
+    0.03
+   ],
+   "answerText": "0.025",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.025 [0.020 - 0.030]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/97/97328724d0e61c01c22a.png\" /></div>\n\n<div><img alt=\"\" src=\"media/f8/f85f7e432375d93b431a.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>If mean and variance of a binomial distribution are <img align=\"absmiddle\" alt=\"\" src=\"media/dc/dca4f1519f66957b057a.png\" /> respectively, the probability of occurrence <em>p</em> is?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/f5/f5019977d11055602f36.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/fb/fbb13eecf0caa9cb5119.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<div> </div>\n\n<div><img alt=\"\" src=\"media/a7/a7c4c60da106cd1d5c4a.png\" /></div>"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/0f/0f3f2d304823ff2c96b3.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e2/e24e3eefb4815d303080.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Given that <em>X</em> is a discrete random variable and following is its probability distribution:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d0/d0426056b51e614fa634.png\" /></div>\n\n<div>Find the Standard deviation of <em>X</em>.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.32"
+    },
+    {
+     "key": "B",
+     "html": "0.48"
+    },
+    {
+     "key": "C",
+     "html": "0.54"
+    },
+    {
+     "key": "D",
+     "html": "0.64"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/68/6880e68d206aafec9e73.png\" /></div>\n\n<div><img alt=\"\" src=\"media/89/89675c3dad524a5aff3f.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Suppose <em>X</em> and <em>Y</em> are random variables such that<br />\n<em>E</em>(<em>X</em>) = 1, Var (<em>X</em>) = 1, <em>E</em>(<em>Y</em>) = 2, Var (<em>Y</em>) = 2, Cov (<em>X</em>, <em>Y</em>) = 1<br />\nBy using above values the following expressions are evaluated<br />\n(i) <em>E</em>(<em>X</em> + 2<em>Y</em>) = p<br />\n(ii) <em>E</em>(<em>XY</em>) = <em>q</em><br />\n(iii) Var(<em>X</em> – 2<em>Y</em> + 1) = r<br />\nThe value of <em>pq</em> + <em>r</em> is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    20,
+    20
+   ],
+   "answerText": "20",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>20</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/16/16aa8a9ffdf1d7261a5e.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Let <img align=\"absmiddle\" alt=\"\" src=\"media/a0/a0aa3fec1a96bca96b7a.png\" /> be a dataset, where μ represents the mean and σ<sup>2</sup> represents the variance of the<br />\ndataset. Let the transferred data be given by <img align=\"absmiddle\" alt=\"\" src=\"media/76/766c4dd1cb156dd17787.png\" /> where a and b are constants.<br />\nConsider the following statements about the new dataset.<br />\n1. The mean of the transferred dataset is given by aμ + <em>b</em>.<br />\n2. The variance deviation of the transferred dataset is a<sup>2</sup> σ<sup>2</sup>.<br />\n3. The standard deviation of the transformed dataset is –<em>a</em>σ.<br />\n4. If the original dataset has mode m. Then transformed dataset have mod –<em>am</em> + <em>b</em>.<br />\nWhich of the above statement is/are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 3"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "1, 3, 4"
+    },
+    {
+     "key": "D",
+     "html": "2, 4"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/42/429e0d610148886a1c78.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Suppose we have 2 bags. Bag 1 contains 3 red and 7 green balls. Bag 2 contains 4 red and 8 green balls. A person tosses a coin and if it is heads goes to bag 1 and draws a ball. If it is tails, he goes to bag 2 and draws a ball. Given that the ball draw is red, then what is probability that it came from bag 1 (upto three decimal places)?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.47,
+    0.48
+   ],
+   "answerText": "0.474",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.474 [0.470 - 0.480]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9d/9dc7839874cbed5f2e26.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Let <img align=\"absmiddle\" alt=\"\" src=\"media/c2/c2216153f9594043a42e.png\" /> be a random vector where each component is an independent standard normal random variable i.e., <img align=\"absmiddle\" alt=\"\" src=\"media/9a/9afee071c3355ee2e933.png\" /></p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/9b/9bc9cdd0649ad931c8cb.png\" /></div>\n\n<div>If the variance of the second component of <em>Y</em>(<em>y</em><sub>2</sub>) is 33, then the number of possible values of a is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "3"
+    },
+    {
+     "key": "D",
+     "html": "4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a0/a0c0df85722cba3979b1.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Box-I contains 6 red, 4 black balls, Box-II contain 4 red, 6 black and Box-III contain 5 red, 5 black balls respectively. One of the box is selected at random and a ball is drawn from it. If the ball drawn is red then the probability that it is selected from the first box ________?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.4,
+    0.4
+   ],
+   "answerText": "0.4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.4</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d661830cb5fc25200cd7.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A Jar-1 contains <em>m</em> red and <em>n</em> green marbles Jar-2 contains n red and m green marbles. It a marble is taken from 1<sup>st</sup> Jar and put into 2<sup>nd</sup> Jar, and then a marble is randomly picked from 2nd Jar, what is the probability that the marble selected is red?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/cb/cb7373dac4dbae7d1a67.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/1c/1c80a0f63f98ca4ee8bd.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/d6/d66c843bec55ea625fb6.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bf/bf377218fe30b7ac145c.png\" /></div>\n\n<div><img alt=\"\" src=\"media/72/727b86e1f9ff7e53a015.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following statements is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "For a symmetric probability distribution (about a point), the mean and the median are equal."
+    },
+    {
+     "key": "B",
+     "html": "Mean is affected by extreme values more than median."
+    },
+    {
+     "key": "C",
+     "html": "Mode is always greater than mean in left-skewed data."
+    },
+    {
+     "key": "D",
+     "html": "Mean is always greater than median in any distribution."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b,c )</p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Two random variable <em>X</em> and <em>Y</em> are exponentially distributed, each having a mean of 0.75.<br />\nLet Z = 2<em>X</em> – 2<em>Y</em> and let r denotes the correlation coefficient between <em>X</em> and <em>Y</em>.<br />\nIf the variance of Z is zero. Find the value of correlation coefficient (r) ________?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ac/ac356780158f1a62da03.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Let <em>X</em> be a continuous random variable with the following probability density function:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/44/449d62e80340e64475b7.png\" /></div>\n\n<div> </div>\n\n<div>Where <em>k</em> is a constant that normalizes the distribution. Now, assume that a defect <em>D</em> in a product occurs according to the following conditional probability.\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/41/41041afd2826ad9c307e.png\" /></div>\n\n<div>Given that a product is defective, then probability that <img align=\"absmiddle\" alt=\"\" src=\"media/6a/6aa02fe3390a88aba7e5.png\" /> is</div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/c9/c9bb39278a4159c027b2.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/86/86dd86500bd4436b1735.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/43/43de6247048220a005e8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/be/be74aa6520fe494baa33.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/09/097766a16a438dcbb883.png\" /></div>\n\n<div><img alt=\"\" src=\"media/7d/7d61a53606e9149211a8.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Let <em>X</em> be a continuous random variable uniformly distributed over the interval (2, 10).<br />\nCompute the value of <img align=\"absmiddle\" alt=\"\" src=\"media/65/651467e37c4ecc1ad39d.png\" /> (Rounded off your answer to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    34.04,
+    34.09
+   ],
+   "answerText": "34.04",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>34.04 [34.04 - 34.09]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f5/f5ee455143245f0cfc77.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In negative correlation, as one variable increases, the other variable decreases."
+    },
+    {
+     "key": "B",
+     "html": "In negative correlation, as one variable increases, the other variable does not decreases."
+    },
+    {
+     "key": "C",
+     "html": "In positive correlation, as one variable decreases, the other variable decreases."
+    },
+    {
+     "key": "D",
+     "html": "In positive correlation, as one variable increases, the other variable also decreases."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)<br />\n&bull; In negative correction, when one variable increases, the other variable decreases.<br />\n&bull; In positive correlation, when one variable increases or decreases, the other variable also<br />\nincreases or decreases.</p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>If <img align=\"absmiddle\" alt=\"\" src=\"media/04/041ae877b4eb18cdcbfa.png\" /> is a zero mean unit variance Gaussian Random variable, then the value of E <img align=\"absmiddle\" alt=\"\" src=\"media/b1/b173ca3d4470e14a6837.png\" /> is ______.<br />\n(upto two decimal places) [E [⋅] represents expectation operator]</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.8,
+    4.2
+   ],
+   "answerText": "3.99",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3.99 [3.80 - 4.20]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/20/208f327898939a47de34.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>If <em>X</em> is a random variable with PDF given by<img align=\"absmiddle\" alt=\"\" src=\"media/47/47c51ed35670a2ca6a96.png\" /> The value <em>k</em> and mean value of <em>X</em> are respectively.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/fa/fa5d8501f2f4df47b1e1.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/93/9364b14d710f77eb43d5.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/44/44ec0b8e4eeb1137bae1.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/3a/3aa7798a575f615bb82f.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/26/26caf599e25d08aa1a2b.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 8,
+   "NAT": 7,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,462 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-028",
+ "title": "DVRUO Classes CS/DA Test Series | Combinatorics | Counting | Extra Topic Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS/DA Test Series | Combinatorics | Counting | Extra Topic Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 28,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Combinatorics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/085_exam_1348_GO Classes CS-DA Test Series Combinatorics Counting Extra Topic Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "If the digits are not allowed to repeat in any number formed by using the digits $0,2,4,6,8$, then the number of all numbers greater than 10,000 is equal to",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    96,
+    96
+   ],
+   "answerText": "96",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469530\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "If ${ }^{n} P_{r}={ }^{n} P_{r+1}$ and ${ }^{n} C_{r}={ }^{n} C_{r-1}$, then the value of $r$ is equal to:<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>2</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>3</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/469528\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Team 'A' consists of 7 boys and n girls and Team 'B' has 4 boys and 6 girls. If a total of 52 single matches can be arranged between these two teams when a boy plays against a boy OR a girl plays against a girl, then n is equal to :<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>5</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>2</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>6</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/469526\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The number of ways in which a team of eleven players can be selected from $22$ players including $2$ of them and excluding $4$ of them is&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$^{16}\\large_{C_{11}}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$^{16}\\large_{C_{5}}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$^{16}\\large_{C_{9}}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$^{20}\\large_{C_{9}}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/469525\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>There are four bus lines between $A$ and $B$; and three bus lines between $B$ and $C$. The number of way a person roundtrip by bus from $A$ to $C$ by way of $B$ will be</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$12$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$7$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$144$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$264$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/469524\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "There are 15 players in a cricket team, out of which 6 are bowlers, 7 are batsmen and 2 are wicketkeepers. The number of ways a team of 11 players be selected from them so as to include at least 4 bowlers, 5 batsmen and 1 wicketkeeper, is $\\qquad$ .",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    777,
+    777
+   ],
+   "answerText": "777",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469522\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "There are 5 students in class 10, 6 students in class 11 and 8 students in class 12 . If the number of ways in which 10 students can be selected from them so as to include at least 2 students from each class and at most 5 students from the total 11 students of class 10 and 11 is 100 k , then k is equal to $\\qquad$ .",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    238,
+    238
+   ],
+   "answerText": "238",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469521\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The number of three-digit even numbers, formed by the digits $0,1,3,4$, 6,7 if the repetition of digits is not allowed, is $\\qquad$ .",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    52,
+    52
+   ],
+   "answerText": "52",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469520\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The number of six letter words (with or without meaning), formed using all the letters of the word 'VOWELS', so that all the consonants never come together, is $\\qquad$ .",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    576,
+    576
+   ],
+   "answerText": "576",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469518\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The students $\\mathrm{S}_{1}, \\mathrm{~S}_{2}, \\ldots . ., \\mathrm{S}_{10}$ are to be divided into 3 groups $\\mathrm{A}, \\mathrm{B}$ and C such that each group has at least one student and the group C has at most 3 students. Then the total number of possibilities of forming such groups is $\\qquad$ .",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    31650,
+    31650
+   ],
+   "answerText": "31650",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469516\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "A scientific committee is to be formed from 6 Indians and 8 foreigners, which includes at least 2 Indians and double the number of foreigners as Indians. Then the number of ways, the committee can be formed, is :<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1625</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>575</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>560</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1050</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/469514\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The number of times the digit 3 will be written when listing the integers from 1 to 1000 is",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    300,
+    300
+   ],
+   "answerText": "300",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469512\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A genetic sequence is a string over the 4 -letter alphabet $\\{\\mathrm{A}, \\mathrm{T}, \\mathrm{C}, \\mathrm{G}\\}$. The number of genetic sequences of length 5 with no two consecutive repeated letters (AA, CC, GG, or T T) is ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    324,
+    324
+   ],
+   "answerText": "324",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/469510\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The number of $4$ digit numbers which contain not more than two different digits is:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$576$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$567$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$513$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$504$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/469509\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>How many committees of five people can be chosen from 20 men and 12 women such that&nbsp;each committee contains at least three women</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>75240</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>52492</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>41800</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>9900</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/469507\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 8,
+   "MCQ": 7
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,574 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-015",
+ "title": "DVRUO Classes CS/DA Test Series | Aptitude | Test 9",
+ "sourceTitle": "DVRUO Classes CS/DA Test Series | Aptitude | Test 9",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 15,
+ "category": "aptitude",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Aptitude"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The given question consists of a set of three figures $\\mathrm{X}, \\mathrm{Y}$ and Z which shows the sequence of folding of a piece of paper. Fig. $Z$ shows the manner in which the folded paper has been cut. Select a figure from the options which shows the unfolded form of Fig. Z.<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"119\" src=\"media/cd/cd53058975e67f3f7197.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" width=\"80\" height=\"84\" src=\"media/af/af6c77ccec6c0de3dc34.png\"><br>&nbsp;"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" width=\"80\" height=\"68\" src=\"media/9b/9b94ce52bfb6e0b8bc2e.png\"><br>&nbsp;"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" width=\"80\" height=\"87\" src=\"media/af/afc7d0b064d7aac8d3bc.png\"><br>&nbsp;"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" width=\"80\" height=\"79\" src=\"media/5f/5f27ae80c3959b4fd989.png\">"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/540210\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Megha walks $120$ m towards East, then takes a left turn and walks $60$ m. She then turns left again and walks $80$ m. She then takes a right turn and walks $40$ m. Finally, she walks $40$ m after turning to her left. How far is she now from her starting point?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$60 $ m<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$100$ m<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$140$ m<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$40 $ m</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540209\"></a><div itemprop=\"text\"><p>Let Megha's starting point be $(0,0)$.</p><ul><li>Walks $120$ m East: $\\rightarrow(120,0)$<br>&nbsp;</li><li>Turns left (North) and walks $60 \\mathrm{~m}: \\rightarrow(120,60)$<br>&nbsp;</li><li>Turns left (West) and walks $80 \\mathrm{~m}: \\rightarrow(120-80,60)=(40,60)$<br>&nbsp;</li><li>Turns right (North) and walks $40 \\mathrm{~m}: \\rightarrow(40,60+40)=(40,100)$<br>&nbsp;</li><li>Turns left (West) and walks $40 \\mathrm{~m}: \\rightarrow(40-40,100)=(0,100)$</li></ul><p><br>Her final position is exactly $(0,100)$, which means she is directly North of her starting point.<br><br>Distance $=100 \\mathrm{~m}$</p></div></section></div><p><a href=\"https://gateoverflow.in/540208\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Ansh is the father of Tarun. Tarun is the brother of Nidhi and father of Deep. How is Ansh related to Deep?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Grandfather<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Father<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Grandson<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Uncle</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/540207\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>There is a certain relationship between the pair of terms on the either side of :: Identify the relationship between the given pair and find the missing term.<br><br>$$\\text{HWTK : SRGF :: PSEN : ?}$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{KNVI}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{KIVM}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{KXJI}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{KNVJ}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540206\"></a><div itemprop=\"text\"><p>The transformation alternates between two rules:</p><ul><li>Odd positions $(1st, 3rd)$: Use the opposite letter in the alphabet (Sum $=27$ ).<br>&nbsp;</li><li>Even positions $(2nd, 4th)$: Shift backward by 5 positions $(-5)$.</li></ul><p><br>Apply to PSEN</p><ul><li>$\\mathrm{P}(16) \\rightarrow$ Opposite $(27-16=11) \\rightarrow \\mathrm{K}$<br>&nbsp;</li><li>$\\mathrm{S}(19) \\rightarrow$ Shift back $5(19-5=14) \\rightarrow \\mathrm{N}$<br>&nbsp;</li><li>$\\mathrm{E}(5) \\rightarrow$ Opposite $(27-5=22) \\rightarrow \\mathrm{V}$<br>&nbsp;</li><li>$\\mathrm{N}(14) \\rightarrow$ Shift back $5(14-5=9) \\rightarrow \\mathrm{I}$</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/540205\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a group of $6$ persons, $\\text{Vijay}$ is taller than only three persons. $\\text{Arun}$ is taller than $\\text{Dev}$ and $\\text{Rahul}$ but shorter than $\\text{Arjun}$, who is not the tallest. $\\text{Ajay}$ is taller than $\\text{Dev}$. Who among the following is the tallest?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{Arun}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{Ajay}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{Vijay}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{Arjun}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/540204\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following text is adapted from Oscar Wilde's $1891$ novel The Picture of Dorian Gray. Dorian Gray is taking his first look at a portrait that Hallward has painted of him.<br><br>Dorian passed listlessly in front of his picture and turned towards it. When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time. He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words. The sense of his own beauty came on him like a revelation. He had never felt it before.<br><br>According to the text, what is true about Dorian?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>He wants to know Hallward&#x27;s opinion of the portrait.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>He is delighted by what he sees in the portrait.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>He prefers portraits to other types of paintings.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>He is uncertain of Hallward&#x27;s talent as an artist.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/540203\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the Synonym of \"$\\text{ABRIDGMENT}$\"?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Annihilate<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Revive<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Abbreviation<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Enact</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/540202\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The management of a university hockey team was evaluating performance of four women players - $\\text{Amla, Bimla, Harita}$ and $\\text{Sarita}$ for their possible selection in the university team for next year. For this purpose, the management was looking at the number of goals scored by them in the past $8$ matches, numbered $1$ through $8$ . The four players together had scored a total of $12$ goals in these matches. In the $8$ matches, each of them had scored at least one goal. No two players had scored the same total number of goals.<br><br>The following facts are known about the goals scored by these four players only. All the questions refer only to the goals scored by these four players.</p><ol><li>Only one goal was scored in every even numbered match.<br>&nbsp;</li><li>$\\text{Harita}$ scored more goals than $\\text{Bimla}$.<br>&nbsp;</li><li>The highest goal scorer scored goals in exactly $3$ matches including Match $4$ and Match $8$.<br>&nbsp;</li><li>$\\text{Bimla}$ scored a goal in Match $1$ and one each in three other consecutive matches.<br>&nbsp;</li><li>&nbsp;An equal number of goals were scored in Match $3$ and Match $7$, which was different from the number of goals scored in either Match $1$ or Match $5$.<br>&nbsp;</li><li>The match in which the highest number of goals was scored was unique and it was not Match $5$.</li></ol><p>How many goals were scored in Match $7$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Can not be determined</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540201\"></a><div itemprop=\"text\">Total goals = $12$ across $4$ unique players. The only distinct combination is $1,2,3,$ and $4$ goals.<br>\n<br>\nEven Matches $(2, 4, 6, 8)$: Exactly $1$ goal each (Total = $4$ goals).<br>\n<br>\nOdd Matches$(1,3,5,7)$: Must contain the remaining $12-4=8$ goals.<br>\n<br>\nFact $5$ states: Match $3=$ Match $7$ .<br>\n<br>\nIf they were $2$ goals each, odd matches would sum up to a distribution that violates the uniqueness of the highest-scoring match ($\\text{Fact 6}$).<br>\n<br>\nFor the grid to perfectly balance without contradictions, Match $3$ and Match $7$ must each have $1$ goal.</div></section></div><p><a href=\"https://gateoverflow.in/540200\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A shopping mall has a large basement parking lot with parking slots painted in it along a single row. These slots are quite narrow; a compact car can fit in a single slot but an SUV requires two slots. When a car arrives, the parking attendant guides the car to the first available slot from the beginning of the row into which the car can fit.<br><br>For our purpose, cars are numbered according to the order in which they arrive at the lot. For example, the first car to arrive is given a number $1$, the second a number $2$, and so on. This numbering does not indicate whether a car is a compact or an SUV. The configuration of a parking lot is a sequence of the car numbers in each slot. Each single vacant slot is represented by letter $V$.<br><br>For instance, suppose cars numbered $1$ through $5$ arrive and park, where cars $1,3$ and $5$ are compact cars and $2$ and $4$ are SUVs. At this point, the parking lot would be described by the sequence $1,2,3,4$, $5$. If cars $2$ and $5$ now vacate their slots, the parking lot would now be described as $1, V, V, 3,4$. If a compact car (numbered $6$) arrives subsequently followed by an SUV (numbered $7$), the parking lot would be described by the sequence $1, 6, V,3,4,7$<br><br>Initially cars numbered $1,2,3,$ and $4$ arrive among which $1$ and $4$ are SUVs while $2$ and $3$ are compact cars. Car $1$ then leaves, followed by the arrivals of car $5$ (a compact car) and car $6$ (an SUV). Car $4$ then leaves. Then car $7$ (an SUV) and car $8$ (a compact car) arrive. At this moment, which among the following numbered car is parked next to car $3$?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$6$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$8$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$7$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540199\"></a><div itemprop=\"text\">Initial (${1}$, $\\mathbf{4}$ are SUVs; ${2}$, $\\mathbf{3}$ are Compacts): [$1$, $1$] [$2$] [$3$] [$4$, $4$]<br>\n<br>\nCar ${1}$ leaves: [$V$, $V$] [$2$] [$3$] [$4$, $4$]<br>\n<br>\nCar ${5}$ (Compact) arrives: Takes the first open single slot.<br>\n<br>\n[$5$, $V$] [$2$] [$3$] [$4$, $4$]<br>\n<br>\nCar ${6}$ (SUV) arrives: Needs ${2}$ consecutive slots, goes to the end.<br>\n<br>\n[$5$, $V$] [$2$] [$3$] [$4$, $4$] [$6$, $6$]<br>\n<br>\nCar ${4}$ leaves:<br>\n<br>\n[$5$, V] [$2$] [$3$] [$V$, $V$] [$6$, $6$]<br>\n<br>\nCar ${7}$ (SUV) arrives: Takes the newly freed double slot.<br>\n<br>\n[$5$, V] [$2$] [$3$] [$7$, $7$] [$6$, $6$]<br>\n<br>\nCar ${8}$ (Compact) arrives: Fills the remaining single slot near the front.<br>\n<br>\n[$5$, $8$] [$2$] [$3$] [$7$, $7$] [$6$, $6$]<br>\n<br>\nLooking at the final arrangement ... [$2$] [$3$] [$7$ ..., Car $7$ is parked directly to the right of Car $3$.</div></section></div><p><a href=\"https://gateoverflow.in/540198\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"143\" src=\"media/42/42f3aef10881033a9e4e.png\"></p><p><br>What is the difference between the percentage of marks obtained by student ' $R$ ' in Hindi and Physics together and the percentage of marks obtained by student ' $Q$ ' in English and Chemistry together?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$11.4 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$15.8 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$12.6 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$17.5 \\%$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540197\"></a><div itemprop=\"text\">$\\%$ Marks of &nbsp;'$\\text{R}$' = $\\frac{(62+32)}{80+40} \\times 100 =\\frac{9400}{120}=78.33 \\%$<br>\n<br>\n$\\%$ marks of ' $Q$ ' $=\\frac{(48+27)}{80+40} \\times 100 =\\frac{7500}{120}=62.5 \\%$<br>\n<br>\n&nbsp;Diff $=78.33-62.5=15.83 \\%=15.8 \\%$</div></section></div><p><a href=\"https://gateoverflow.in/540196\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"178\" src=\"media/b7/b798e3ce9de8293dbb0e.png\"></p><p><br>What is the approximate average of marks obtained by all seven students in subject $\\mathrm{P}_{5}$ ? (Rounded off up to two digits)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&nbsp;$55.24$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;$56.85$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&nbsp;$57.54$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&nbsp;$58.48$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540195\"></a><div itemprop=\"text\">Total $\\mathrm{P}_{5}=0.80 \\times(77.5+83.75+55+58.75 +67.5+73.75+81.25)$<br>\n<br>\n$=0.80 \\times 497.5=398$<br>\n<br>\n$\\therefore \\operatorname{Avg}=\\frac{398}{7}=56.857=56.85$</div></section></div><p><a href=\"https://gateoverflow.in/540194\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following table shows the price (Rs. per $100$ kg) of different items during different years. Answer the questions based on this table.<br>$$<br>\\renewcommand{\\arraystretch}{1.3}<br>\\begin{array}{|l|c|c|c|c|c|}<br>\\hline<br>&nbsp;&amp; 1990 &amp; 1995 &amp; 2000 &amp; 2005 &amp; 2010 \\\\<br>\\hline<br>\\text{Rice} &amp; 800 &amp; 1150 &amp; 1680 &amp; 2400 &amp; 3500 \\\\<br>\\hline<br>\\text{Wheat} &amp; 450 &amp; 700 &amp; 1200 &amp; 1650 &amp; 2100 \\\\<br>\\hline<br>\\text{Pulses} &amp; 2000 &amp; 2700 &amp; 3650 &amp; 4600 &amp; 6400 \\\\<br>\\hline<br>\\text{Sugar} &amp; 1500 &amp; 2200 &amp; 3000 &amp; 3800 &amp; 4500 \\\\<br>\\hline<br>\\text{Groundnut} &amp; 1200 &amp; 1700 &amp; 2450 &amp; 3500 &amp; 4200 \\\\<br>\\hline<br>\\text{Oil} &amp; 4200 &amp; 5500 &amp; 6400 &amp; 8000 &amp; 11000 \\\\<br>\\hline<br>\\end{array}<br>$$<br>The price of $3$ kg wheat in the year $1995$ is what percentage more than the price of $1$ kg of groundnut in the year $1990$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$60 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$75 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$42.85 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$25 \\%$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540193\"></a><div itemprop=\"text\">In year 1995 price of $3$ kg wheat<br>\n<br>\n$=\\frac{700}{100} \\times 3=21$<br>\n<br>\nGroundnut $(1 \\mathrm{~kg})=\\frac{1200}{100}=12$<br>\n<br>\n$\\textbf{Percentage difference}$<br>\n<br>\n$=\\frac{21-12}{12} \\times 100=\\frac{9}{12} \\times 100=75 \\%$</div></section></div><p><a href=\"https://gateoverflow.in/540192\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"300\" height=\"247\" src=\"media/97/974a6cf8daafaa5e6175.png\"></p><p>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"300\" height=\"246\" src=\"media/31/31dcf0a9fb154aa3d361.png\"></p><p><br>The graphs of $f(x)$ and $g(x)$ are shown above. Choose from the options below the correct relation between $g(x)$ and $f(x)$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\quad g(x)=2 f(x)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\quad g(x)=\\frac{f(x)}{2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\quad g(x)=f(2 x)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\quad g(x)=f\\left(\\frac{x}{2}\\right)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540191\"></a><div itemprop=\"text\">If we compare the graphs of $f(x)$ and $g(x)$, it seems that $g(x)$ is less steep that $f(x)$ is. Also, we can observe that the point of intersection of $f(x)$ with the Y-axis remains unchanged in $g(x)$ while the point of intersection of $f(x)$ with the $X$-axis has changed.<br>\n<br>\nTo verify this, let us find the coordinates of the point of intersection of $f(x)$ with the $X$ -axis and the $Y$ -axis. The coordinates of the above points are $(2,0)$ and $(0,4)$. Thus, the magnitude of the slope of the line $y=f(x)$ is $\\frac{4}{2}=2$ (magnitude of the slope equals the ratio of the magnitude of the $y$ intercept and the magnitude of the $x$ intercept).<br>\n<br>\nThe corresponding points of intersection of $g(x)$ with the X -axis and the $Y$ -axis are $(4,0)$ and $(0,4)$. Thus, the magnitude of the slope of the line $y=g(x)$ is $\\frac{4}{4}=1$.<br>\n<br>\nThus, we see that at the point where the graphs intersect with the X -axis, the value of $x$ has doubled and the magnitude of the slope of the line $y=g(x)$ has halved from $y=f(x)$.<br>\n<br>\nThus, we can say that $g(x)=f\\left(\\frac{x}{2}\\right)$.<br>\n<br>\nThus, option $(D)$ satisfies the above condition.<br>\n<br>\nHence, the correct option is $(D)$.</div></section></div><p><a href=\"https://gateoverflow.in/540190\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $x+y=21$ and $2 x=5 y$, find the value of $\\sqrt{x-y}+\\left(\\frac{x}{y}\\right)^{2}$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3.16$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$9.16$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$9.25$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$15.25$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540189\"></a><div itemprop=\"text\">We know that $2 x=5 y=&gt;x=\\frac{5 y}{2}$.<br>\nHence, substituting the value of $x$ in the equation $x+y=21$, we get:<br>\n$$<br>\n\\frac{5 y}{2}+y=21 \\Rightarrow \\frac{7 y}{2}=21 \\Rightarrow y=\\frac{2}{7} * 21=6 .<br>\n$$<br>\n<br>\nThus, $x=\\frac{5}{2} * 6=15$.<br>\nAlternatively, we could say that $2 x=5 y=&gt;\\frac{x}{y}=\\frac{5}{2}=&gt;x=5 * k, y=2 * k$, where $k$ is a constant of proportionality.<br>\n<br>\nNow, $x+y=21=&gt;5 k+2 k=21=&gt;7 k=21=&gt;k=3$.<br>\nThus, $x=5 * k=5 * 3=15$ and $y=2 * k=2 * 3=6$.<br>\nThus, $\\sqrt{x-y}+\\left(\\frac{x}{y}\\right)^{2}=\\sqrt{15-6}+\\left(\\frac{5}{2}\\right)^{2}=\\sqrt{9}+(2.5)^{2}=3+6.25 = 9.25$.</div></section></div><p><a href=\"https://gateoverflow.in/540188\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following numbers has the highest exponent for any of its prime factors?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$48$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$72$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$250$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$484$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540187\"></a><div itemprop=\"text\">We need to check each number for the highest exponent of any of its prime factors. In order to do that, we need to break each number into its prime form.<br>\n<br>\nHere, we need to work with each option.<br>\n<br>\n$\\textbf{Option A:}$<br>\n$$<br>\n48=2 * 2 * 2 * 2 * 3=2^{4} * 3^{1}<br>\n$$<br>\n<br>\nThus, the highest exponent for its prime factors is $4$ since we have $2^{4}$ as a factor.<br>\n<br>\n$\\textbf{Option B:}$<br>\n$$<br>\n72=2 * 2 * 2 * 3 * 3=2^{3} * 3^{2}<br>\n$$<br>\n<br>\nThus, the highest exponent for its prime factors is $3$ since we have $2^{3}$ as a factor.<br>\n<br>\n$\\textbf{Option C:}$<br>\n$$<br>\n250=2 * 5 * 5 * 5=2^{1} * 5^{3}<br>\n$$<br>\n<br>\nThus, the highest exponent for its prime factors is $3$ since we have $5^{3}$ as a factor.<br>\n<br>\n$\\textbf{Option D:}$<br>\n$$<br>\n484=2 * 2 * 11 * 11=2^{2} * 11^{2}<br>\n$$<br>\n<br>\nThus, the highest exponent for its prime factors is $2$ since we have $2^{2}$ as well as $11^{2}$ as factors.<br>\n<br>\nHence, among the given numbers, the one with the highest exponent for any of its prime factors is $48$ and the corresponding exponent is $4$ (exponent for $2$).<br>\n<br>\nHence, the correct option is (A).</div></section></div><p><a href=\"https://gateoverflow.in/540186\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 0,
+  "types": {
+   "MCQ": 15
+  },
+  "withoutKey": 15
+ }
+}

@@ -1,0 +1,1126 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-022",
+ "title": "Subjectwise Test-9 Part Syllabus GATE 2026 CS Computer Networks",
+ "sourceTitle": "Subjectwise Test-9 Part Syllabus GATE 2026 CS Computer Networks",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 22,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/048_Subjectwise Test-9 Part Syllabus GATE 2026 CS Computer Networks.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>UDP sockets are best suited for</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Large file transfers"
+    },
+    {
+     "key": "B",
+     "html": "Real time voice or video streaming"
+    },
+    {
+     "key": "C",
+     "html": "Banking transaction"
+    },
+    {
+     "key": "D",
+     "html": "Encrypted communication"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nReal time voice or video streaming requires minimum communicate rate maintained. That can be achieved with UDP.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>What system call is used to establish a TCP connection on the client side?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Listen( )"
+    },
+    {
+     "key": "B",
+     "html": "Bind( )"
+    },
+    {
+     "key": "C",
+     "html": "Accept( )"
+    },
+    {
+     "key": "D",
+     "html": "Connect( )"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nConnect( ) system call initiates a connection from the client side of TCP.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>UDP socket can use connect( ) system call to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "set a default peer address for send/receive"
+    },
+    {
+     "key": "B",
+     "html": "establish connection"
+    },
+    {
+     "key": "C",
+     "html": "make it reliable"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nWhen connect( ) system call is used by UDP then no need to mention destination address every<br />\ntime datagram is sent and can set default peer address for send( ) and recv( ) system calls.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>In persistent http connection after accessing objects from server by client, when does connection closes?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A separate http request has to send to close the connection."
+    },
+    {
+     "key": "B",
+     "html": "A timer is initiated at TCP level and once it expires, it closes connection."
+    },
+    {
+     "key": "C",
+     "html": "Connection will never close."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nOnce objects are accessed and no more objects are left, then timer is started and connection is closed for security reasons.</p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Initial sender window size in TCP is 1 MSS then the sender window size after 3 RTTS in slow start algorithm is ________ MSS.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>8<br />\n1 &rarr; 2 &rarr; 4 &rarr; 8</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>In which scenario does a client send a request to port 80 but the actual http server or the machine listens on port 7000.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "When the http server is directly bound to port 80."
+    },
+    {
+     "key": "B",
+     "html": "When a reverse proxy listens on port 80 and forwards requests to port 7000."
+    },
+    {
+     "key": "C",
+     "html": "When the client mistakenly connects to port 80 instead of port 7000."
+    },
+    {
+     "key": "D",
+     "html": "When the server redirects all traffic to port 80 regardless of configuration."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nWhen the client wants to send any data to the server, the client should know the host name of public IP of server.<br />\nBut for the protection of server, it will use cloud or internal private IP.<br />\nThat&rsquo;s the role of reverse proxy will start where the conversion of public IP to the private IP will happen.</p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>In a reverse proxy set up where a client connects to port 80 and the proxy forwards the request to a backend server on port 50000, how many serial TCP connections are typically established? ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<p>One TCP connection from client to reverse proxy and another serial TCP connection from reverse&nbsp;proxy to backend server.</p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>How can IP address of a computer can be known?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "By checking configuration files in |etc| hosts"
+    },
+    {
+     "key": "B",
+     "html": "By using IP config command in command prompt"
+    },
+    {
+     "key": "C",
+     "html": "By using arp command in command prompt"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nBy checking in |etc| hosts will get in configuration file but not active IP address.<br />\nBut IP config command is used, can get IP address.</p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Storing the IP address of host name at local DNS server will help in</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "reducing the overall average DNS delay."
+    },
+    {
+     "key": "B",
+     "html": "applications to load fastly."
+    },
+    {
+     "key": "C",
+     "html": "routers to process packets and forward fastly"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nEvery time if IP address is available in authoritative DNS server always then searching time increases. So frequently accessed url are stored temporary in local DNS servers can reduce the overall average DNS delay.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Once the browser gets the IP address of the concerned host name from DNS then the next step is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "http request for first object can be initiated."
+    },
+    {
+     "key": "B",
+     "html": "can initiate a TCP connection to the http server."
+    },
+    {
+     "key": "C",
+     "html": "design the distributed DNS servers."
+    },
+    {
+     "key": "D",
+     "html": "design the centralized DNS servers."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nAny application for sending long messages and reliability should depend on TCP as transport layer.<br />\nSo once IP address is known, TCP connection is established.</p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of following is true in case of flow control policies of TCP and congestion policies of TCP?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It supports selective acks as per updated RFCS."
+    },
+    {
+     "key": "B",
+     "html": "It supports elastic applications."
+    },
+    {
+     "key": "C",
+     "html": "It can guarantee minimum communication rate."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)<br />\n&bull; Selective acks are supported as the sender TCP will be knowing before only about out of order segments received.<br />\n&bull; When routers are not allowing, then sender TCP can send small data like 1 MSS and same sender can send large segments like upto 2<sup>30</sup> bytes.</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which module is responsible for attaching transport layer header and network layer header in TCP/IP model?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Network NIC card"
+    },
+    {
+     "key": "B",
+     "html": "Kernel of operating system"
+    },
+    {
+     "key": "C",
+     "html": "CPU of computer"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nThe Kernel will attach the transport layer header and network layer header in TCP/IP protocol stack.</p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of following is true in case of sockets of TCP?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "When server has accepted the one client connection, then same server cannot accept further connections from different clients."
+    },
+    {
+     "key": "B",
+     "html": "When server has accepted one client connection, then same server can accept further connections from different clients."
+    },
+    {
+     "key": "C",
+     "html": "Listen( ) and accept( ) are the system calls at the server side."
+    },
+    {
+     "key": "D",
+     "html": "Listen( ) and accept( ) are the system calls at the client side."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\nOnce a client is accepted, then the server can listen for further clients.</p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which module can analyze network layer header and validate it, when data is transmitted from source to destination?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The mediating router’s Kernel."
+    },
+    {
+     "key": "B",
+     "html": "The destination station’s Kernel at network layer."
+    },
+    {
+     "key": "C",
+     "html": "Bridges at the data link layer."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)<br />\n&bull; Network layer Kernel at router will analyze the IP header and decrement TTL value.<br />\n&bull; Network layer Kernel at destination will analyze protocol field and pass the data exactly to<br />\nTCP or UDP based on protocol field number.</p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Which of following is true in case of networking devices?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Firewall is a security device."
+    },
+    {
+     "key": "B",
+     "html": "Router is a routing device."
+    },
+    {
+     "key": "C",
+     "html": "Hub is a two port device."
+    },
+    {
+     "key": "D",
+     "html": "Repeater is a active device."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)<br />\nHub is a multiport device but not a two port device, repeater is a regenerative device but it is not an active device.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>The total length field given in the IP protocol is 16 bits. If the total length field in IP header is given as 0000 0000 0000 0000 then it indicates.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "One byte"
+    },
+    {
+     "key": "B",
+     "html": "No data or zero bytes"
+    },
+    {
+     "key": "C",
+     "html": "Header size"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nIf the total length bits is all zero&rsquo;s it indicates no data. As in IPv4, the total length indicates packet size.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of following is client to server protocol and when the message is transmitted, both are fixed ports?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "HTTP"
+    },
+    {
+     "key": "B",
+     "html": "DHCP"
+    },
+    {
+     "key": "C",
+     "html": "SMTP"
+    },
+    {
+     "key": "D",
+     "html": "FTP"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nDHCP is a application layer protocol and uses fixed ports 68 amd 67.</p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of following is true in networking?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "All the computers connected in same network should have same prefix."
+    },
+    {
+     "key": "B",
+     "html": "More than one computer of a same network cannot be connected interface of router, in between bridge is required."
+    },
+    {
+     "key": "C",
+     "html": "MAC address supports hierarchical system."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)<br />\n&bull; As IP address supports hierarchical system for computers connected to same network should<br />\nhave same prefix.<br />\n&bull; Bridge (switch) can be connected between LAN and router.</p>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of following is true if server is connected to two clients at same time using TCP sockets?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Common TCP variables like SYN, ACK are provided to two connections."
+    },
+    {
+     "key": "B",
+     "html": "Separate TCP variables like SYN, ACK are provided to two connections."
+    },
+    {
+     "key": "C",
+     "html": "Still Listen( ) system call will be available for further new connections."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/58/58b9f8fbf69e603f2959.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which type of sockets are used when the application wants to use the functions of IP layer or to develop some tools like ping?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "STREAM sockets"
+    },
+    {
+     "key": "B",
+     "html": "D-GRAM sockets"
+    },
+    {
+     "key": "C",
+     "html": "RAW sockets"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nAny tools or utilities which want to use services of network layer directly by passing transport layer can use RAW sockets.<br />\nFor example purpose of RAW sockets or ping command is used to find out whether other systems can receive the data or not.</p>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider that 10 machines need to be connected in a LAN using 8 port ethernet switches. Assume that these switches do not have any separate uplink ports.<br />\nThe minimum number of switches needed are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c7/c7fc5dff6ebdf669143c.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Parity scheme is implemented for error detecting in transmitting data. Even parity concept is used for adding parity to the data bits.<br />\nThen the hamming distance between the valid codewords is always</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "odd number"
+    },
+    {
+     "key": "B",
+     "html": "even number"
+    },
+    {
+     "key": "C",
+     "html": "both odd and even numbers possible"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/296c5d3117b529c89043.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>In a communication network, a packet of length L bits takes link <em>L</em><sub>1</sub> with a probability of <em>P</em><sub>1</sub> or link <em>L</em><sub>2</sub> with a probability of <em>P</em><sub>2</sub>. Link <em>L</em><sub>1</sub> and <em>L</em><sub>2</sub> have bit error probability of <em>b</em><sub>1</sub> and <em>b</em><sub>2</sub> respectively. The probability that the packet will be received without error via either <em>L</em><sub>1</sub> or <em>L</em><sub>2</sub> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/7b/7b0b38d663197897b150.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/72/72a693a17bc80dc3c3d0.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/21/216b5cb58e638738e8db.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/c4/c4d49c378e7726bcc526.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0d/0d1b6b55a89210d3f8eb.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>A UDP server has to be configured to connect to one client only then the API on machine should support.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Bind( ) system call"
+    },
+    {
+     "key": "B",
+     "html": "Listen( ) system call"
+    },
+    {
+     "key": "C",
+     "html": "Connected UDP socket"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nWhen connected UDP socket is used by client UDP i.e., connect( ) then client can communicate<br />\nand transmit datagram to the server during this time remaining clients cannot connect to UDP server.</p>"
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Which one of following is/are  client server application?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "SFTP"
+    },
+    {
+     "key": "B",
+     "html": "Whatsapp"
+    },
+    {
+     "key": "C",
+     "html": "Ping"
+    },
+    {
+     "key": "D",
+     "html": "HTTP"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)<br />\nFor downloading file, SFTP protocol can be used in network Whatsapp comes under client server<br />\nwhere Whatsapp is client and server infrastructure is managed by Facebook, Ping is utility.</p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>For a host machine that uses the token bucket algorithm for the congestion control, the token bucket has a capacity of 1 Megabyte and the maximum output rate is the 20 Megabytes per second. Tokens arrive at a rate to sustain output at a rate of 15 Megabytes per second. The token bucket<br />\nis currently full and the machine needs to send 12 Megabytes of data.<br />\nThe minimum time required to transmit the data is ________ seconds.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.2,
+    2.2
+   ],
+   "answerText": "2.2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2.2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0f/0f0af675f306bf2aa279.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>A link of capacity 200 Mbps is carrying traffic from a number of sources. Each source generates an on-off traffic stream, when the source is on, the rate of traffic is 10 Mbps, and when the source is off, the rate of traffic is zero. The duty cycle which is ratio of on time to off time is 1 : 2. When there is no buffer at the link, the minimum number of sources that can be multiplexed on the link. So that link capacity is not wasted and no data loss occurs is <em>S</em><sub>1</sub>.<br />\nAssuming that all sources are synchronized and that the link is provided with a large buffer, the maximum number of sources that can be multiplexed so that no data loss occurs is <em>S</em><sub>2</sub>. The values of <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> respectively.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 and 30"
+    },
+    {
+     "key": "B",
+     "html": "20 and 60"
+    },
+    {
+     "key": "C",
+     "html": "5 and 33"
+    },
+    {
+     "key": "D",
+     "html": "15 and 22"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2b/2bd173eba79be1e4700c.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following functions must be implimented by a network protocol over and above the data link protocol:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "End to end connectivity"
+    },
+    {
+     "key": "B",
+     "html": "Reliable flow of data"
+    },
+    {
+     "key": "C",
+     "html": "Routing of data packets"
+    },
+    {
+     "key": "D",
+     "html": "Framing of data packets"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nThe main purpose of network layer is routing of data packets conversion of message to segments and then to packets are done at source.</p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>On a wireless link, the probability of frame error is 0.4. A stop and wait ARQ protocol is used to transfer data across the link. It is a memory less channel i.e., independents from transmission to transmission. What is the average number of transmission attempts required to transfer 96 packets?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "100"
+    },
+    {
+     "key": "B",
+     "html": "125"
+    },
+    {
+     "key": "C",
+     "html": "160"
+    },
+    {
+     "key": "D",
+     "html": "200"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/52/529c26dd95ca2b67b384.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Identify the correct order in which a server process must invoke the function calls sendto( ), recvto( ), socket( ), bind( ) according to UDP socket API.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Bind( ), socket( ), sendto( ), recvto( )"
+    },
+    {
+     "key": "B",
+     "html": "Sendto( ), recvto( ), bind( ), socket( )"
+    },
+    {
+     "key": "C",
+     "html": "Socket( ), bind( ), sendto( ), recvto( ),"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nIt is a connectionless service by UDP so directly data can be transmitted once socket creation and binding is done.</p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>The traffic generated by the device to the device in network is known as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "management plane traffic"
+    },
+    {
+     "key": "B",
+     "html": "control plane traffic"
+    },
+    {
+     "key": "C",
+     "html": "data plane traffic"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nExample when router is forwarding data to router, it is known as control plane traffic.<br />\nEx: RIP, OSPF</p>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like ethernet of wireless).<br />\nThe nodes in the system use the following carrier sense based medium access protocol.<br />\nA node that receives a packet to transmit will carrier sense the medium for 5 units of time.<br />\nIf the node does not detect any other transmission in this duration, it starts transmitting it’s packet in the next time unit.<br />\nIf the node detects another transmission, it waits until this other transmission finishes and then begins to carrier sense for 5 time units again.<br />\nOnce they start to transmit nodes does not perform any collision detection and continue transmission even it a collision occurs.<br />\nAll transmissions last for 20 units of time. Assume that the transmission signal travels at speed of 10 meters per unit time in medium.<br />\nAssume that the system has two nodes <em>P</em> and <em>Q</em> located at d distance a meters from each other. P<br />\nstarts transmitting a packet at time <em>t</em> = 0 and begins to carrier sense the medium.<br />\nThe maximum distance d (in meters, rounded to closest integer) that allows <em>Q</em> to successfully<br />\navoid a collision between its proposed transmitted and P’s ongoing transmissions is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    50,
+    50
+   ],
+   "answerText": "50",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>50</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9e/9ea7a3c019f3f8c604b6.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>An upper layer packet is split into 8 frames each of which has 40% chance of arriving damaged.<br />\nAlso assume that no error control is done at data link layer. How many times the message is sent on an average to get the entire message through?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "24.65"
+    },
+    {
+     "key": "B",
+     "html": "13.33"
+    },
+    {
+     "key": "C",
+     "html": "59.54"
+    },
+    {
+     "key": "D",
+     "html": "20"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/db/db34e2729f50952ca7ee.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 21,
+   "NAT": 5,
+   "MSQ": 7
+  },
+  "withoutKey": 0
+ }
+}

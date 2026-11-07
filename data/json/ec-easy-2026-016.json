@@ -1,0 +1,997 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-016",
+ "title": "Subjectwise Test-2 Part Syllabus GATE 2026 EC Control Systems",
+ "sourceTitle": "Subjectwise Test-2 Part Syllabus GATE 2026 EC Control Systems",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 16,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/036_Subjectwise Test-2 Part Syllabus GATE 2026 EC Control Systems.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For a unit ramp input, the steady state error for the standard second-order underdamped system is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/36/36fbc56f0d94e7a2bf26.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/9c/9ca58d66c0aebbc6b66d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/db/db770c1ee082f2462fca.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/ae/aef447d5970f92bda16f.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/87/87d66d69909ccc53c1cc.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The delay time for the system having unit step response <em>c</em>(<em>t</em>) = 1 – <em>e</em><sup>–3<em>t</em></sup> is equal to _________ sec.<br />\n(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.21,
+    0.25
+   ],
+   "answerText": "0.23",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.23 (0.21 - 0.25)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e61f2af8ef301197d3cc.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the given block diagram, if the transfer function <img align=\"absmiddle\" alt=\"\" src=\"media/72/726b09771b3403cfbf9b.png\" /> then <em>G</em>(<em>s</em>) is equal to</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/96/961432ea7a681ee3d029.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>s</em>"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/98/9899bff3e84c340de8ed.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<div> </div>\n\n<div><img alt=\"\" src=\"media/31/316df603d9b673d10b7a.png\" /></div>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9e/9e91fa959abedd3b44b1.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the Bode magnitude plot of a system shown in the figure:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c7/c760231042279bee923a.png\" /></div>\n\n<div> </div>\n\n<div>The transfer function of the system <em>H</em>(<em>s</em>) is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/e1/e14957af0f3f20a57037.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/4c/4c46cf54f7c709d852d6.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/56/56dcfb00f7a28f9cd6aa.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/47/4784b8bb332c1fcd2ede.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e1/e11965214afb29a86df6.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the system whose characteristic equation is <em>s</em><sup>6</sup> + 2<em>s</em><sup>5</sup> + 8<em>s</em><sup>4</sup> + 12<em>s</em><sup>3</sup> + 20<em>s</em><sup>2</sup> + 16<em>s</em> + 16 = 0.<br />\nWhich of the following statement(s) is/are correct for the system?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Four roots are lying on imaginary axis."
+    },
+    {
+     "key": "B",
+     "html": "Four roots are lying on left half of s-plane."
+    },
+    {
+     "key": "C",
+     "html": "Two roots are lying on left half of s-plane."
+    },
+    {
+     "key": "D",
+     "html": "The system is marginally stable."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7c/7c7de1653669bde1e3f9.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a1/a1d6100a51ab09f3bb3d.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Open loop transfer function of a system is <em>G</em>(<em>s</em>)<em>H</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/d7/d71b207d3ab50a9329a7.png\" /> Phase margin of system is _________ in degree.</p>\n\n<p>(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    62.16,
+    65.13
+   ],
+   "answerText": "64.06",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>64.06 (62.16 - 65.13)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e0/e0314a016fd52bf4e887.png\" /></div>\n\n<div><img alt=\"\" src=\"media/83/83f86e351588fe64ef7d.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The root locus plot for a system is given below. The open loop transfer function corresponding to this plot is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/95/95beab3c4020187a100b.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d3/d317dcc4cc4e22e60601.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/cc/cca61699b1e320e3d6b0.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/95/958e9a08c54bf31a0791.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/38/38d70a58fec45d3b84bd.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4b/4b091adc766cdf0f7390.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A unity feedback system has the following unit impulse response:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7f/7fea2b29323dff96b465.png\" /></div>\n\n<div> </div>\n\n<div>The open loop transfer function of the system is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/68/681e23d8f7e5548ac6f2.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/a1/a189941f2438e12d741e.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/3d/3d067a344e64ae685a0e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/94/9468dd7b38b1f4862419.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/85/857934bcd42fc3f83cc1.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The polar plot of a lead compensator is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e4/e4300d004606b4439a26.png\" /></div>\n\n<div>Maximum phase lead introduced by compensator is _______ degree.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    27,
+    33
+   ],
+   "answerText": "30",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>30 (27 - 33)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/32/32b795bfa8922b87abbd.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A plant has transfer function <em>G</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/10/10dd36473b85553659b7.png\" /> If a feedback loop is formed with transfer function (<em>s</em> + 2), then nature of response becomes</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Underdamped"
+    },
+    {
+     "key": "B",
+     "html": "Overdamped"
+    },
+    {
+     "key": "C",
+     "html": "Critical damped"
+    },
+    {
+     "key": "D",
+     "html": "Undamped"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e3/e3cc4c866c7ddc3b63ec.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Select the correct statements from below:<br />\nThe root locus for a unity feedback system</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "is the solution to the characteristics equation 1 + <em>KG</em>(<em>s</em>) = 0."
+    },
+    {
+     "key": "B",
+     "html": "represents the collection of all possible locations of the closed loop poles for all positive values of the forward path gain."
+    },
+    {
+     "key": "C",
+     "html": "is symmetric about the imaginary axis."
+    },
+    {
+     "key": "D",
+     "html": "shows the response of a system to a step input, given zero initial conditions."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)<br />\nThe root locus method involves plotting the roots of the characteristic equation (i.e. the closedloop<br />\npoles) of the closed-loop system 1 + KG(s) = 0 as the gain &ldquo;K&rdquo; varies from 0 to &infin;. The root<br />\nlocus is symmetric about the real axis and not the imaginary axis. Hence, only statements (a) and<br />\n(b) are correct.</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The block diagram of a system is shown in the figure,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/41/41a204c2b1fb01b6681b.png\" /></div>\n\n<div>Then whole system is equivalent to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "An integrator with gain = 0.5"
+    },
+    {
+     "key": "B",
+     "html": "A differentiator with gain = 2"
+    },
+    {
+     "key": "C",
+     "html": "First order system"
+    },
+    {
+     "key": "D",
+     "html": "Zero order system"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f08ccbd23bec23d7d6d5.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A phase lag compensator is to be added to provide maximum phase lag of 45° at 3 rad/sec. The pole of lag compensator in s-plane is located at _______ rad/sec. (upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -8.1,
+    -6.2
+   ],
+   "answerText": "-7.2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>-7.2 (-8.1 - -6.2)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9b/9b54322548a329f5b459.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Transfer function of a first order system is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6a/6a4b5773ad6ef87dfb71.png\" /></div>\n\n<div> </div>\n\n<div>Impulse response of the system is,</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/67/67d87c7e41ffb0d719c6.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/77/7787d9c0f510f41c3382.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/a1/a10cfddf8e094f495d48.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/18/183b54b14f6558f86d45.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ef/efefd874151605ba136c.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the system with following open loop transfer function:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/33/33146ce0990edfa88ad5.png\" /></div>\n\n<div> </div>\n\n<div>In a root locus plot, the value of <em>K</em> at point <img align=\"absmiddle\" alt=\"\" src=\"media/3c/3c79f1358016085ebab5.png\" /> is _______ .</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10.5,
+    13
+   ],
+   "answerText": "12.0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12.0 (10.5 - 13.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a1/a1064a84f1004e5abab5.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Loop transfer function of a feedback system is <em>G</em>(<em>s</em>)<em>H</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/b7/b7329a93bb94cf76566e.png\" /> Then, the Nyquist plot of <em>G</em>(<em>s</em>)<em>H</em>(<em>s</em>) encircles –1 + <em>j</em>0</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "once in clockwise direction"
+    },
+    {
+     "key": "B",
+     "html": "does not encircle"
+    },
+    {
+     "key": "C",
+     "html": "once in anticlockwise direction"
+    },
+    {
+     "key": "D",
+     "html": "twice in clockwise direction"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6d/6d3332f58eb5994b957a.png\" /></div>\n\n<div><img alt=\"\" src=\"media/25/25628e03595e2bd65617.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Bode plot of a plant transfer function with unity negative feedback is shown below</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/fa/faf9bcdabbec47aef8e5.png\" /></div>\n\n<div> </div>\n\n<div>If a lead compensator is added, then system becomes</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "more stable"
+    },
+    {
+     "key": "B",
+     "html": "less stable"
+    },
+    {
+     "key": "C",
+     "html": "marginal stable"
+    },
+    {
+     "key": "D",
+     "html": "unstable"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nLead compensators introduce a phase lead, which effectively increases the phase margin of the<br />\nsystem, making it more stable.</p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Characteristic equation of a system is given as<br />\n<em>s</em><sup>7</sup> + 9<em>s</em><sup>6</sup> + 24<em>s</em><sup>5</sup> + 24<em>s</em><sup>4</sup> + 24<em>s</em><sup>3</sup> + 24<em>s</em><sup>2</sup> + 23<em>s</em> + 15 = 0<br />\nthen number of roots that lie in RHS of s-plane is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2 (2 - 2)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d261d2cc40d643b7dfb8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/34/34f46d842a1f4ed96ac8.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Which of the following is a valid state transmission matrix <img align=\"absmiddle\" alt=\"\" src=\"media/97/97cadaab8674c4728e56.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/43/43cfc9fcb450b7a2d05f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/30/30df0bbcb47c156da337.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/e8/e886db82b6f99f7618fd.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/52/52c1c8c91027103016c1.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/dd/dd056943cab1ad813b5f.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Magnitude plot of a unity negative feedback system is shown in figure:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/70/70106c8dbd9490e90bb4.png\" /></div>\n\n<div> </div>\n\n<div>Steady state error for unit ramp input is ________ × 10<sup>–3</sup>. (Give answer upto three decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.031,
+    1.512
+   ],
+   "answerText": "1.265",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.265 (1.031 - 1.512)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/20/20d7fde6ec176eaa0da1.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A closed loop system is shown in figure</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ce/ce86efe12c57c7745336.png\" /></div>\n\n<div> </div>\n\n<div>Range of <em>K</em>, for which the system is stable is given by</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>K</em> > 0"
+    },
+    {
+     "key": "B",
+     "html": "<em>K</em> < 12"
+    },
+    {
+     "key": "C",
+     "html": "<em>K</em> > 12"
+    },
+    {
+     "key": "D",
+     "html": "0 < <em>K</em> < 12"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0e/0e7abb0b5475f575e4c6.png\" /></div>\n\n<div><img alt=\"\" src=\"media/0d/0d881aa83e27ba63271c.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Root locus plot of a control system is given in the figure,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/73/73cc6b095f3444d6185d.png\" /></div>\n\n<div> </div>\n\n<div>If radius of circle is <img align=\"absmiddle\" alt=\"\" src=\"media/c8/c8546e97e5d0ad5202ac.png\" /> then minimum value of damping ratio is ________. (Give answer upto three decimal places).</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.778,
+    0.91
+   ],
+   "answerText": "0.816",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.816 (0.778 - 0.910)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cd/cdad9d2588cd62f96738.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The closed loop frequency response <img align=\"absmiddle\" alt=\"\" src=\"media/37/376e8c1df6119f7f3204.png\" /> versus frequency of a second order prototype system is shown in figure below.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/03/03607cf0fdf256d68080.png\" /></div>\n\n<div> </div>\n\n<div>The corresponding unit step response of the system is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/37/3704a553aed3bd5e144c.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/ba/ba2a862c7c827d3d8f66.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/5e/5e2b6a29f89c4cd70dcc.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/16/162f2b0f0fc67d2bd433.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e60352422dd9a3adb36a.png\" /></div>\n\n<div><img alt=\"\" src=\"media/28/28209eee7bbdf602c58f.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Transfer function of a second order control system is given as <em>T</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/a6/a6b838de8c7556c2e80a.png\" /> Bandwidth of the system is ________ rad/sec.</p>\n\n<p>(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.35,
+    5.91
+   ],
+   "answerText": "5.37",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5.37 (4.35 - 5.91)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/dc/dc5c3d1d9cefc15eb41c.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>An electrical network is shown in figure,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b2/b2e67eaeced6f3f555c5.png\" /></div>\n\n<div> </div>\n\n<div>If output variables are <img align=\"absmiddle\" alt=\"\" src=\"media/55/5508340763746a2be61d.png\" /> then state model is,</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/10/10542b6cc96b68ec8563.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/04/041bb0dab663bac77e31.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/40/402d08f6a793ca7c82d6.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/01/0132aef5ee3b74030fb8.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f4/f4c2300b13525dd4c2be.png\" /></div>\n\n<div><img alt=\"\" src=\"media/3b/3bed32e426069c1676b4.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The open loop transfer function of a control system is given by,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/57/5743c1961e4f5426d659.png\" /></div>\n\n<div> </div>\n\n<div>If GM = 6 dB, then <em>K</em> is __________ .</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    119,
+    121
+   ],
+   "answerText": "120",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>120 (119 - 121)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bc/bc290d9b5f220d03ba72.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ec/ec6ac846fcb5a1275e06.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The frequency response of</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/12/12a4daae22801fee7e46.png\" /></div>\n\n<div> </div>\n\n<div>plotted in the complex <em>G</em>(<em>j</em>ω) plane (for 0 < ω < ∞) is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/74/74027af1721bec120236.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/2b/2b0b4b855b03c21e6b2d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/52/523155d3edf235674db9.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/26/26ab4d622879f967c600.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b1/b14369a94b1627710a23.png\" /></div>\n\n<div><img alt=\"\" src=\"media/46/46c6dee847b5945ec605.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the unity feedback control system shown in below figure (a). Its response to a unit step input is shown in figure (b).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/1c/1c56c28c0234ece30c82.png\" /></div>\n\n<div>Which of the following statements is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/3d/3d6ad66f728b3225be82.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "value of <em>K</em> = 1.427."
+    },
+    {
+     "key": "C",
+     "html": "value of <em>T</em> = 1.094."
+    },
+    {
+     "key": "D",
+     "html": "undamped natured frequency, ω<em><sub>n</sub></em> = 1.142 rad/sec"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4f/4f47202157e370cc6c68.png\" /></div>\n\n<div><img alt=\"\" src=\"media/18/180409266e8d2dcae94a.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A PD controller is tuned to get desired phase margin for second order control system.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ec/ec9e70a496f8ca9eb96e.png\" /></div>\n\n<div> </div>\n\n<div>Phase crossover frequency for compensated system is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.52 rad/sec"
+    },
+    {
+     "key": "B",
+     "html": "3.94 rad/sec"
+    },
+    {
+     "key": "C",
+     "html": "1.45 rad/sec"
+    },
+    {
+     "key": "D",
+     "html": "does not exist"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/31/319d57f205be85db89a8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/bb/bbace8b01511b37dc74d.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Open loop transfer function of a system <em>G</em>(<em>s</em>) <em>H</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/a7/a7a11071c78ba2c5d7ab.png\" /> The angle of departure at s = –1 + 2<em>j</em> is ________ degree.</p>\n\n<p>(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    201.23,
+    208.65
+   ],
+   "answerText": "206.56",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>206.56 (201.23 - 208.65)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/10/1043f64a3f8b701e135e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a5/a5f62b16d9b67810525d.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the system shown in figure, where <em>K</em> > 1</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bb/bb5c7afc1384059d3a98.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following statements is/are correct for the system?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The type of the system is 2."
+    },
+    {
+     "key": "B",
+     "html": "The velocity error constant is zero."
+    },
+    {
+     "key": "C",
+     "html": "The acceleration error constant is infinite."
+    },
+    {
+     "key": "D",
+     "html": "The value of K to yield 0.1% error in the steady state is 1.001."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fa/fa66a53c2dc05a6a6657.png\" /></div>\n\n<div><img alt=\"\" src=\"media/22/2241bdfa9de058d7a60e.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the feedback control system shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/51/51afcb64229f732f085a.png\" /></div>\n\n<div>For the closed loop system to have 3 stable poles, <em>s</em><sub>1</sub> = –1, <em>s</em><sub>2</sub> = –1 and <em>s</em><sub>3</sub> = –2, the value of <em>K</em><sub>1</sub> + <em>K</em><sub>2</sub> + <em>K</em><sub>3 </sub>is _______ .</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    12
+   ],
+   "answerText": "12",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>12 (12 - 12)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e4/e4724c766623d1d99c8c.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the open loop transfer function of a system as,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/13/13c9ef41d8b3995554ef.png\" /></div>\n\n<div> </div>\n\n<div>The Gain Margin for this system is _________ dB. (correct to two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    17.59,
+    18.61
+   ],
+   "answerText": "18.06",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>18.06 (17.59 - 18.61)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/81/81aa188b2442495852db.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "NAT": 13,
+   "MSQ": 4
+  },
+  "withoutKey": 0
+ }
+}

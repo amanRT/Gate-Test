@@ -1,0 +1,600 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-020",
+ "title": "DVRUO Classes CS Test Series | C-Programming | Topic Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | C-Programming | Topic Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 20,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "C-Programming"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/076_exam_1361_GO Classes CS Test Series C-Programming Topic Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the $k$ bit binary pattern. $\\text{T}_{\\max}$ and $\\text{T}_{\\min}$ are maximum and minimum signed numbers we can represent using $k$ bits. $\\text{U}_{\\max}$ and $\\text{U}_{\\min}$ are maximum and minimum unsigned numbers we can represent using $k$ bits. Numbers are represented using 2's complement system.</p><p>Which of the following(s) is/are true for $k =16?$</p><p>Here $|.|$ represents absolute value of a number i.e.&nbsp;$|r| = -r$ if $r&lt;0$ otherwise $|r| = r.$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$|\\text{T}_{\\min}| = \\text{T}_{\\max} + 1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{U}_{\\max} = 2\\ast \\text{T}_{\\max} +1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{U}_{\\max} = |\\text{T}_{\\min}| + \\text{T}_{\\max} + 1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{U}_{\\min} = |\\text{T}_{\\min}|$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/374144\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider Figure A and Figure B, which represent $4$ bit signed and unsigned numbers, respectively, in the $2’s$ complement system.<br><strong><img alt=\"\" height=\"311\" width=\"809\" src=\"media/d7/d76066c0d4df00b47d7a.png\"></strong><br>Assume that a few variables are defined below and initialized in such a way that places them in the spot shown in Figure C.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int s1, s2, s3, s4;\nunsigned int u1, u2, u3, u4;\n</pre><p>Which of the following(s) is/are FALSE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$s2 &gt; s4$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$s1 &gt; s2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$s1 &gt; u3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$s3 &gt; u3$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/374142\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume that $x$ is a two’s complement binary integer whose absolute value is not large (so no overflow problems). At right are four C expressions that use the $&lt;&lt;$ (shift left) and $\\sim$ (bitwise complement: flip each $0$ to $1$ and each $1$ to $0$ in the binary representation) operators. For example, $7 &lt;&lt; 1$ is $14$ and $\\sim 0$ is $-1.$</p><p>Match each expression to one of the mathematical functions at left.</p><p>$$\\begin{array}{|l|c|l|c|} \\hline&nbsp;a. &amp; 4x &amp; \\text{I.} &amp; (\\sim x) + 1 \\\\\\hline b. &amp; -x &amp; \\text{II.} &amp;&nbsp; (x&lt;&lt;1) + x&nbsp;\\\\\\hline c. &amp; 3x &amp; \\text{III.} &amp; \\sim x&nbsp; \\\\\\hline d. &amp; -x-1 &amp; \\text{IV.} &amp; x&lt;&lt;2 \\\\\\hline \\end{array}$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<br>a - IV<br>b - I<br>c - II<br>d - III"
+    },
+    {
+     "key": "B",
+     "html": "<br>a - IV<br>b - III<br>c - II<br>d - I"
+    },
+    {
+     "key": "C",
+     "html": "<br>a - II<br>b - I<br>c - IV<br>d - III"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/374141\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of the following program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nmain()\n{\n    char grade='A';\n    int result=0;\n    switch(grade)\n    {\n        case 'A':\n            result+=4;\n        case 'B':\n            result+=3;\n        case 'C':\n            result+=2;\n        default:\n            result+=1;\n    }\n    printf(\"%d\", result);\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$9$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/374134\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the logical condition under which the following while loop will terminate?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int Beta = 5;\nwhile (Beta &gt; 0 &amp;&amp; Beta &lt; 10)\n{\n    printf(\"%d\", Beta);\n    scanf(\"%d\", &amp;Beta);\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Beta $&lt;0 \\;\\&\\&\\;$ Beta $&gt;= 10$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Beta $&lt;0 \\;||$ Beta $&gt; 10$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Beta $&lt;= 0 \\;||$ Beta $&gt;= 10$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Beta $&lt;0\\; ||$ Beta $&gt;= 10$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/374133\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be output on the execution of the following code segment?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nmain()\n{\n    unsigned num1 = 1;\n    signed num2 = -1;\n    if (num1 &lt; num2)\n        printf(\"less\");\n    else if (num1 &gt; num2)\n        printf(\"greater\");\n    else if (num1 == num2)\n        printf(\"equal\");\n}\n\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>greater</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>less</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>equal</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Error</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/374146\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Imagine that our system uses a $5$-bit integer representation and does addition and subtraction using the rules for $5$-bit, two’s complement arithmetic.</p><p>Which of the following is/are TRUE?</p><p>When converting to decimal, you should treat the value as either signed or unsigned according to the rules of C, where $\\text{T}_{\\min}$ and $\\text{T}_{\\max}$ are signed, as are plain constants, but a constant ending in $\\text{U}$ is unsigned.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{-T}_{\\max} - 1\\text{U}$ is $16$ in decimal</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{-T}_{\\max} - \\text{T}_{\\min}$ is $00001$ in binary</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{T}_{\\max} + \\text{T}_{\\max}$ is $-2$ in decimal</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{T}_{\\min} - 1\\text{U}$ is $15$ in decimal</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/374139\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of the given program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nvoid main()\n{\n    int sum =1;\n    for ( unsigned int i=3; i&gt;=0; --i)\n    {\n        if(i==0) sum = sum+1;\n        else sum = sum *i;\n    }\n    printf(\"%d\", sum);\n}\n\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$7$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/374136\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following condition(s) is/are evaluated to true for a given declaration of integer $i.$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int i = -7;\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-10 &lt; i &lt;-1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$i \\;\\&\\; 0 \\;|\\; 0\\; \\& \\;1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0\\; \\&\\; 0\\; \\&\\; 0\\; |\\; i$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$!(1 &gt; 0 &gt; i \\;\\&\\; !i)$</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/374132\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The statement</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">while ( --counter &gt;= 1 )\n    counter % 2 ? printf(\"A\") : printf(\"B\");</pre><p><br>can $\\text{NOT}$ be rewritten as</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">while ( --counter &gt;= 1 )\n    if ( counter % 2 )\n        printf(\"A\");\n    else\n        printf(\"B\");</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">while ( counter &gt;= 1 )\n    if (counter % 2)\n        printf(\"A\");\n    else\n        printf(\"B\");\n    --counter;</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">while ( counter &gt; 1 )\n{\n    --counter;\n    if ( counter % 2 )\n        printf(\"A\");\n    else\n        printf(\"B\");\n}</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">do\n{\n    --counter;\n    printf( counter % 2 ? \"A\" : \"B\" );\n} while ( counter &gt;= 2 );</pre>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/374131\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following program fragment. Which of the following if condition(s) prints DVRUO Classes?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int b = 1, c = 1, d = 0;\nif (0 &amp;&amp; 0 == 0) //first if\n    printf(\"DVRUO Classes\");\nif (b || --b == 0) //Second if\n    printf(\"DVRUO Classes\");\nif (c || c-- == 0) //Third if\n    printf(\"DVRUO Classes\");\nif (d || ++d == 0) //Fourth if\n    printf(\"DVRUO Classes\");\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>First if condition</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Second if condition</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Third if condition</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Fourth if condition</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/374130\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{A}$ and $\\text{B}$ be two unknown $8$-bit $2’s$ complement numbers. We know the results of $\\text{A} \\;^{\\wedge}\\;&nbsp;&nbsp;\\text{B}$ and $\\text{A} \\;\\&amp;\\; \\text{B}$ as shown below:</p><p>$$\\begin{array}{|c|c|} \\hline&nbsp;\\text{A} \\;^{\\wedge}\\;&nbsp;&nbsp;\\text{B} &amp; 00110100 &nbsp;\\\\\\hline&nbsp;\\text{A} \\;\\&amp;\\; \\text{B} &amp; 11001001 \\\\\\hline&nbsp; \\end{array}$$</p><p>What is the sum $\\text{A} + \\text{B}$ expressed in the $8$-bit two’s complement notation?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$11000110$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$11000010$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$01000010$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$11010110$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/374129\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following if statement(s) below is/are equivalent to the given switch statement (that is, produces the same output under the same conditions)? Assume the <strong>answer</strong> is a previously declared int.</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">switch (answer)\n{\n    case 0: printf(\"0 entered\"); break;\n    case 1: printf(\"1 entered\"); break;\n    case 3: printf(\"3 entered\"); break;\n    case 5: printf(\"5 entered\"); break;\n    default: printf(\"Other value entered\");\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">if (answer == 0 || 1 || 3 || 5)\n    printf(\"%d entered\", answer);\nelse\n    printf(\"Other value entered\");\n</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">if ((answer &gt;= 1 &amp;&amp; answer &lt;= 5 &amp;&amp; \n        answer % 2 == 1) || (answer == 0))\n    printf(\"%d entered\", answer);\nelse\n    printf(\"Other value entered\");\n</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">if (answer == 0)\n    printf(\"0 entered\");\nif (answer == 1)\n    printf(\"1 entered\");\nif (answer == 3)\n    printf(\"3 entered\");\nif (answer == 5)\n    printf(\"5 entered\");\nif (answer != 0 &amp;&amp; answer != 1 \n        &amp;&amp; answer != 3 &amp;&amp; answer != 5)\n    printf(\"Other value entered\");\n</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">if (answer == 0)\n    printf(\"0 entered\");\nelse if (answer == 1)\n    printf(\"1 entered\");\nelse if (answer == 3)\n    printf(\"3 entered\");\nelse if (answer == 5)\n    printf(\"5 entered\");\nelse if (answer != 0 &amp; 1 &amp; 3 &amp; 5)\n    printf(\"Other value entered\");\n</pre>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><p><a href=\"https://gateoverflow.in/374128\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider two given C programs. Which of the following is/are true? It is also known that in C programming, $\\&amp;\\&amp;$ has higher precedence than $||.$</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 1\n#include&lt;stdio.h&gt;\nvoid main()\n{\n    int i = 0;\n    if (++i &amp;&amp; (i==0))\n        printf(“DVRUO Classes\\n”);\n    else\n        printf(“GATEOverflow\\n”);\n}</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program 2\n#include&lt;stdio.h&gt;\nvoid main()\n{\n    int x, y, z;\n    x = 1;\n    y = z = 0;\n    ++x || ++y &amp;&amp; ++z;\n    if (y || z)\n        printf(“DVRUO Classes\\n”);\n    else\n        printf(“GATEOverflow\\n”);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Program $1$ prints DVRUO Classes</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Program $1$ prints GATEOverflow</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Program $2$ prints DVRUO Classes</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Program $2$ prints GATEOverflow</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/374127\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of the following C program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nint main(){\nint x=3;\nint y;\nswitch(x++){\n    x++;\n    case 3:\n        printf(\"Three %d\",x);\n        break;\n    case 4:\n        printf(\"Four %d\",x);\n        break;\n    case 5:\n        printf(\"Five %d\",x);\n        break;\n    default: printf(\"Default %d\",x);\n    }\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Three $3$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Four $4$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Three $4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Four $5$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/374126\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "MSQ": 8,
+   "MCQ": 7
+  },
+  "withoutKey": 0
+ }
+}

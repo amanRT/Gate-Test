@@ -1,0 +1,561 @@
+{
+ "v": 1,
+ "id": "da-easy-2026-031",
+ "title": "Topicwise Test-10 Part Syllabus GATE 2026 DA Programming, Data Structures and Algorithms-1",
+ "sourceTitle": "Topicwise Test-10 Part Syllabus GATE 2026 DA Programming, Data Structures and Algorithms-1",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2026",
+ "num": 31,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/045_Topicwise Test-10 Part Syllabus GATE 2026 DA Programming, Data Structures and Algorithms-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following Python code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/80/8086cc412359a3b0465e.png\" /></div>\n\n<div>What will be the output of the above code?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "90"
+    },
+    {
+     "key": "B",
+     "html": "100"
+    },
+    {
+     "key": "C",
+     "html": "81"
+    },
+    {
+     "key": "D",
+     "html": "80"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d4/d4a0fb11337cdea8f7cf.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Which of the following is the correct output for the code given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ab/ab0a6bf09ddf3debaecb.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1525"
+    },
+    {
+     "key": "B",
+     "html": "1532"
+    },
+    {
+     "key": "C",
+     "html": "1424"
+    },
+    {
+     "key": "D",
+     "html": "2532"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c2/c2121784264242abd455.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A queue is implemented using two stack A and B.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f2/f2441824362af7f0002c.png\" /></div>\n\n<div>If enqueue( ) is implemented using two stacks A and B, using append( ) for push and pop( ) for pop, then what should replace the missing statement X to correctly implement the dequeue( ) operation</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A.append(B.pop( ))"
+    },
+    {
+     "key": "B",
+     "html": "B.append(A.pop( ))"
+    },
+    {
+     "key": "C",
+     "html": "A.pop(B.append( ))"
+    },
+    {
+     "key": "D",
+     "html": "B.pop(A.append( ))"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c3/c35b6358778d2cb2dfd7.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A binary tree can always be uniquely constructed from its postorder and inorder traversals."
+    },
+    {
+     "key": "B",
+     "html": "A binary tree can always be uniquely constructed from its postorder and preorder traversals."
+    },
+    {
+     "key": "C",
+     "html": "In a binary search tree, the smallest node always lies at a leaf position."
+    },
+    {
+     "key": "D",
+     "html": "Postorder traversal takes Ο(V) time complexity for a binary tree with V vertices."
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2c/2cab007683277a418618.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a hash table of size 10 that uses open addressing with linear probing. Let the hash function be defined as <em>h</em>(<em>k</em>) = <em>k</em> mod 10.<br />\nA sequence of records with keys 73, 74, 85, 64, 13, 76, 31, 52, 62 is inserted into an initially empty<br />\nhash table, where the bins are indexed from 0 to 9.<br />\nThe number of unsuccessful probes required to find the index of the bin that contains the last inserted element (62) is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>7</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/07/07047717579e3b3463ab.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Lists can be modified after creation."
+    },
+    {
+     "key": "B",
+     "html": "Tuples can be modified after creation."
+    },
+    {
+     "key": "C",
+     "html": "In a tuple, heterogeneous objects are allowed."
+    },
+    {
+     "key": "D",
+     "html": "In, a list, we can increase and decrease the size."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)<br />\n&bull; Lists are mutable, contents can be modified after creation by adding, removing, or changing elements.<br />\n&bull; Tuples are immutable, once they are created, their contents cannot be changed, including<br />\nadding, removing, or modifying elements.<br />\n&bull; Tuples can contain heterogeneous objects.<br />\n&bull; A list is dynamic in size.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following expressions represents the number of labelled binary tree with ‘<em>n</em>’ nodes that have the same preorder traversal?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"\" alt=\"\" src=\"media/1b/1b4cf4ecf0f4b7c2565f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/86/867534160cdcdea96a32.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/ad/adf2c80f2b31de5cea27.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/ee/ee0213a7fe6b2927b3be.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a3/a392ddb7b198630c6745.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Consider a binary tree where for every node <img align=\"absmiddle\" alt=\"\" src=\"media/b7/b798c43a0949b7056f39.png\" /> represents number of nodes in left sub tree for node S and Q represents the number of nodes in right sub tree for node S for <em>h</em> > 0. The minimum number of nodes present in such binary tree of height <em>h</em> = 4 _________. (Assume root is at height 0)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>9</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cb/cb32e1d3106708bd81bb.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider the following:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/9b/9bea22b2b8d429a2ecf7.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following represent Inorder and Postorder of the tree?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/2c/2c797e63e6d0d198d1cf.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/89/89a8830b6116a419e28f.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/6f/6f88831f8a205f3bc25e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/9f/9fc4240af9e6220435be.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/aa/aa71d1ea866099bf25b8.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Which of the following permutations can be obtained in the output (in the same order) using a stack assuming that the input is the sequence 5, 7, 8, 4, 6 in that order?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "6, 8, 4, 7, 5"
+    },
+    {
+     "key": "B",
+     "html": "6, 4, 5, 7, 8"
+    },
+    {
+     "key": "C",
+     "html": "6, 4, 7, 8, 5"
+    },
+    {
+     "key": "D",
+     "html": "7, 8, 4, 6, 5"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8c/8c0a2a853148dccdaf4d.png\" /></div>\n\n<div><img alt=\"\" src=\"media/e1/e15c9c1f6cfabdbd089f.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>The number of binary search trees possible with 12 keys, when keys 1, 2, 3, 4, ........ 12 are inserted into empty Binary Search Tree with condition such that <img align=\"absmiddle\" alt=\"\" src=\"media/31/31590d4ab2346a287d48.png\" /> is the root of binary search tree and <img align=\"absmiddle\" alt=\"\" src=\"media/30/30712889b4bd4ed4e291.png\" /> is immediate right child of <img align=\"absmiddle\" alt=\"\" src=\"media/c9/c9e0460ac03009f48245.png\" /> are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    350,
+    350
+   ],
+   "answerText": "350",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>350</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cb/cbbddcb30f9372c6de7a.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Suppose you are given an implementation of a queue of integers. The operations that can be performed on the queue are:<br />\n1. is_empty(Q): returns true if the queue is empty, false otherwise.<br />\n2. delete(Q): delete the element at the front of the queue and returns its value.<br />\n3. insert(Q, i): insert the integer i at the rear of the queue.<br />\nConsider the following function:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d3/d36eb5d471d8679a1830.png\" /></div>\n\n<div>The function must reverse the element of queue(Q). Which of the following options can be filled in the blank to perform the above operation?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/60/601d024f4d93e86c045d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/56/564241861f8103d655c6.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/17/1747a36d44ddcc160835.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/72/72234f9d4447b11a4b15.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d4/d4fde85cdfd58fe751b3.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>The minimum size of stack required to evaluate given postfix expression is ________.<br />\n25 × 6 + 43 × –</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/14/146dfe4f4dda206c014c.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider a linked list of length n is implemented using a circular array <em>P</em>[0, <em>n</em> – 1], two variables first and last are used to point the first and last element of the list present in array respectively i.e., first = <em>P</em> and last = (<em>P</em> + <em>x</em>) mod <em>n</em>, where <em>x</em> is the size of linked list.<br />\nConsider the following operations:<br />\n<em>S</em><sub>1</sub> : Delete <em>k<sup>th</sup></em> element in linked list.<br />\n<em>S</em><sub>2</sub> : Reverse the elements of linked list.<br />\nWhich of the following represent the time complexity of above two operations respectively?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Ο(<em>n</em>), Ο(<em>n</em>)"
+    },
+    {
+     "key": "B",
+     "html": "Ο(<em>n</em>), Ο(1)"
+    },
+    {
+     "key": "C",
+     "html": "Ο(1), Ο(1)"
+    },
+    {
+     "key": "D",
+     "html": "Ο(1), Ο(n)"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nOperation 1<br />\n&bull; Search k<sup>th</sup> element in array take &Omicron;(1) time.<br />\n&bull; Delete take &Omicron;(1) time<br />\n&bull; Shift all element to left if space is there &Omicron;(n)<br />\nTotal time = &Omicron;(1) + &Omicron;(1) + &Omicron;(n) = &Omicron;(n)<br />\nOperation 2<br />\n&bull; Reversal of linked list will take &Omicron;(n) time since circular array has to follow the properties of<br />\nlinked list.</p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider the linked list of integers represented by the following:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f1/f1cad2e527b5835ee109.png\" /></div>\n\n<div>Which of the following is effect of this code?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Element 24 becomes the first element of the list"
+    },
+    {
+     "key": "B",
+     "html": "Element 24 becomes the second element of the list"
+    },
+    {
+     "key": "C",
+     "html": "Element 24 becomes the third element of the list"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/74/7402ef52730c5ecec568.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Suppose we used a hash function <em>H</em>(<em>n</em>) to hash ‘<em>n</em>’ distinct elements (keys) into an array <em>T</em> of length ‘<em>m</em>’. What is the expected number of colliding pairs of elements, if we used simple uniform hashing?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/7e/7e95eac1e6746a399eaf.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/16/1605a5591debeb131701.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/62/62dc47ba360fa3f85b4d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/43/43088be4051a5ac5fd34.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/299fefc240962e666e70.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Consider the following statements:<br />\nI. Dictionary preserve the insertion order of elements.<br />\nII. A set can contain mutable objects.<br />\nIII. Keys in a dictionary must be immutable types.<br />\nHow many statements are true?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 10,
+   "MSQ": 2,
+   "NAT": 5
+  },
+  "withoutKey": 0
+ }
+}

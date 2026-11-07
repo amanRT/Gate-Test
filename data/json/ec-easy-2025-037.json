@@ -1,0 +1,543 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-037",
+ "title": "Topicwise Test-13 Part Syllabus GATE 2025 EC Analog circuit-1",
+ "sourceTitle": "Topicwise Test-13 Part Syllabus GATE 2025 EC Analog circuit-1",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 37,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/059_Topicwise Test-13 Part Syllabus GATE 2025 EC Analog circuit-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The figure below shows a circuit for charging a 12 V battery. If <em>V<sub>s</sub></em> is a cosine function with 24 V peak amplitude, then the fraction of each cycle during which diode conducts is</p>\n\n<p><img alt=\"\" src=\"media/bc/bc907152ffc674d8ec1e.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/16/16ff786265756c5c90ac.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a7/a7afbae66ebd679e4481.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "for complete cycle"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/32/3284def59bc85d9a09d3.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the circuit shown below with a non-linear device,</p>\n\n<p><img alt=\"\" src=\"media/14/14b89c104e5895b8758e.png\" /></p>\n\n<p>Characteristics of non-linear device:</p>\n\n<p><img alt=\"\" src=\"media/92/920bc93d813dc813b132.png\" /></p>\n\n<p>The operating point <em>V<sub>D</sub></em> and <img align=\"absmiddle\" alt=\"\" src=\"media/2e/2ec74ae8fd8d5d34d370.png\" /> for (VA = 12 V) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 V, 3 A"
+    },
+    {
+     "key": "B",
+     "html": "3 V, 2 A"
+    },
+    {
+     "key": "C",
+     "html": "2 V, 2 A"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/d2/d238c3adabf720eaa20e.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A NPN silicon transistor circuit uses a voltage divider bias as shown in figure with <em>V<sub>CC</sub></em> = 16 V and <em>R<sub>C</sub></em> = 1.5 kΩ. The quiescent point is chosen to be <em>V<sub>CE</sub></em> = 8 V and<img align=\"absmiddle\" alt=\"\" src=\"media/6c/6cc55b3a0507870b9ca4.png\" />mA. The desired value of the stability factor, S is 12. If β is 50, then the value of <em>R<sub>E</sub></em> for <em>V<sub>BE</sub></em> = 0.7 V is</p>\n\n<p><img alt=\"\" src=\"media/60/60fefebb8a9c157eb9fb.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "34.56 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "8.86 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "1 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "0.49 kΩ"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/66/664c23fe2bddcc011df2.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the series diode configuration shown in the figure, the value of <img align=\"absmiddle\" alt=\"\" src=\"media/65/65d0fe62b3de944ed111.png\" /> is</p>\n\n<p><img alt=\"\" src=\"media/45/45477c1bcc9eb2b88a43.png\" /></p>\n\n<p>(Given: <em>R</em> = 2.2 kΩ)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.2 mA"
+    },
+    {
+     "key": "B",
+     "html": "9 mA"
+    },
+    {
+     "key": "C",
+     "html": "3.32 mA"
+    },
+    {
+     "key": "D",
+     "html": "5 mA"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/9e/9e7a8c305b5d58e33ba4.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The silicon transistor shown in figure below has <img align=\"absmiddle\" alt=\"\" src=\"media/b8/b8f155a93e7799b89f5e.png\" /> = 0.5 μA, <em>V<sub>BE</sub></em> = 0.7 V and β = 75 at room temperature and VBE has a temperature coefficient of –2 mV/°C. Then what is the value of <img align=\"absmiddle\" alt=\"\" src=\"media/83/83ff0b17969afc860940.png\" /> if the temperature rises by 20°C? Assume β to be constant.</p>\n\n<p><img alt=\"\" src=\"media/d8/d806c282a5783bcd2337.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 mA"
+    },
+    {
+     "key": "B",
+     "html": "1.5 mA"
+    },
+    {
+     "key": "C",
+     "html": "3.24 mA"
+    },
+    {
+     "key": "D",
+     "html": "5 mA"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/6e/6ee68e1e721915612449.png\" /></p>\n\n<p><img alt=\"\" src=\"media/68/6860c952a650fd824e27.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The circuit in the figure utilizes three identical diodes having η = 1 and <img align=\"absmiddle\" alt=\"\" src=\"media/e5/e5c35bfdd83d71e50ec4.png\" /> = 10–14 A. Then the value of the current <img align=\"absmiddle\" alt=\"\" src=\"media/0e/0eaa0592132083b58986.png\" /> required to obtain voltage <em>V</em><sub>o</sub> = 2 V is ________ mA. (Take, <em>V<sub>T</sub></em> = 25 mV) (Rounded off to one decimal place)</p>\n\n<p><img alt=\"\" src=\"media/4d/4d55e2485eeb4f8a809e.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.7,
+    3.9
+   ],
+   "answerText": "3.8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3.8 (3.7 - 3.9)</p>\n\n<p><img alt=\"\" src=\"media/3b/3be71dea4c07518c56ef.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The circuit shown in figure is a model for a battery charger. Here, <img align=\"absmiddle\" alt=\"\" src=\"media/69/69fc756707526cdd396b.png\" /> is a 10 V peak sine wave, <em>D</em><sub>1 </sub>and <em>D<sub>2</sub></em> are ideal diodes, <img align=\"absmiddle\" alt=\"\" src=\"media/4e/4e68c0e8355e361a5e61.png\" /> is 100 mA current source and <em>B</em> is a 4.5 V battery. If the peak value of <img align=\"absmiddle\" alt=\"\" src=\"media/79/7975dd3c6cb818c0536d.png\" /> is reduced by 10%, then average value of <img align=\"absmiddle\" alt=\"\" src=\"media/19/19a0eabd75fd38d95be4.png\" /> becomes _____ mA.<br />\n(Rounded off to two decimal places)</p>\n\n<p><img alt=\"\" src=\"media/ec/ec07fc2a88adbedd4788.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    32.5,
+    34.5
+   ],
+   "answerText": "33.33",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>33.33 (32.50 - 34.50)</p>\n\n<p><img alt=\"\" src=\"media/c5/c5a37593073fe4d07e52.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>For the network given below total output swing voltage is ____V. (Assume RC to be very large)</p>\n\n<p><img alt=\"\" src=\"media/0d/0df94ca1d5572f150e37.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    40,
+    40
+   ],
+   "answerText": "40",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>40 (40 - 40)</p>\n\n<p><img alt=\"\" src=\"media/e6/e6b6aa95d064389d704f.png\" /></p>\n\n<p><img alt=\"\" src=\"media/96/96ac6fe5af8b6429e265.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>For the network shown below, <em>V<sub>L</sub></em> is to be maintained at 12 V for a load variation <img align=\"absmiddle\" alt=\"\" src=\"media/2a/2ad7fb1603cb6ce0442e.png\" /> from 0 to 200 mA. Then the value of <em>R<sub>S</sub></em> and VZ is given by</p>\n\n<p>(Assume the Zener diode to be ideal)</p>\n\n<p><img alt=\"\" src=\"media/0b/0b4a04015b385b6a04b8.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>V<sub>Z</sub></em> = 12 V, <em>R<sub>S</sub></em> = 20 Ω</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>V<sub>Z</sub></em> = 12 V, <em>R<sub>S</sub></em> = 10 Ω</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>V<sub>Z</sub></em> = 20 V, <em>R<sub>S</sub></em> = 12 Ω</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>V<sub>Z</sub></em> = 10 V, <em>R<sub>S</sub></em> = 12 Ω</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/26/26a696b538572669c34a.png\" /></p>\n\n<p><img alt=\"\" src=\"media/53/53658b9eb4eb954a3624.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>For the network shown below, the range of <img align=\"absmiddle\" alt=\"\" src=\"media/9d/9d496b02862e5f6d0b7a.png\" /> that maintain <em>V<sub>L</sub></em> at 8 V and not exceed the maximum power rating of the Zener diode is</p>\n\n<p><img alt=\"\" src=\"media/5a/5abc0df0ee9b20b34a1b.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10.50 V to 12.20 V"
+    },
+    {
+     "key": "B",
+     "html": "8 V to 19 V"
+    },
+    {
+     "key": "C",
+     "html": "11.30 V to 15.85 V"
+    },
+    {
+     "key": "D",
+     "html": "10 V to 40 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/11/1113287995be77da00ae.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>For the figure shown below, the value of <em>V<sub>o</sub></em> is</p>\n\n<p><img alt=\"\" src=\"media/80/800a0c4ece161909310e.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.1 V"
+    },
+    {
+     "key": "B",
+     "html": "18 V"
+    },
+    {
+     "key": "C",
+     "html": "19.3 V"
+    },
+    {
+     "key": "D",
+     "html": "6.2 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/37/37403df9ba65d952fc18.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The voltage gain <img align=\"absmiddle\" alt=\"\" src=\"media/bd/bda5a7467b740ef506b7.png\" /> for the network shown below, if <img align=\"absmiddle\" alt=\"\" src=\"media/73/73b9da50af765a1dde17.png\" /> mV and R = 1 kΩ is Assume α<sub>DC</sub> = 1.</p>\n\n<p><img alt=\"\" src=\"media/6e/6e0ae6500ab3b438a3d0.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "200"
+    },
+    {
+     "key": "B",
+     "html": "150"
+    },
+    {
+     "key": "C",
+     "html": "50"
+    },
+    {
+     "key": "D",
+     "html": "100"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/85/85a80745f2d44300b9b1.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit given below, the value of β and <em>R<sub>B</sub></em> is</p>\n\n<p><img alt=\"\" src=\"media/f1/f16e43959f07d36ebb67.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tβ = 50, <em>R<sub>B</sub></em> = 100 kΩ</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tβ = 100, <em>R<sub>B</sub></em> = 76 kΩ</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tβ = 199, <em>R<sub>B</sub></em> = 762.8 kΩ</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tβ = 99, <em>R<sub>B</sub></em> = 726.8 kΩ</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/71/71f5047d1c3a2c500e58.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A full wave rectifier produces rms voltage of 10 V from a 50 Hz line source and feeds a resistive load of 1100 Ω. If the filter uses a capacitance <em>C</em> = 50 μF, the resulting output ripple factor is _____. (Rounded of to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.049,
+    0.055
+   ],
+   "answerText": "0.052",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.052 (0.049 - 0.055)</p>\n\n<p><img alt=\"\" src=\"media/ce/ced72f9b4566c442439b.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>At what temperature (in degrees) will 10 V Zener diode have a nominal voltage of 10.75 V? Given that the temperature coefficients <em>T<sub>C</sub></em> = 0.072%/°C, <em>T</em><sub>0</sub> = 25°C.<br />\n(Rounded of to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    129.1,
+    129.3
+   ],
+   "answerText": "129.16",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>129.16 (129.10 - 129.30)</p>\n\n<p><img alt=\"\" src=\"media/be/bea7ddc50d724b78427e.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Given the measurement <em>V<sub>S</sub></em> = 1.7 V for the network shown in figure below, the value of <img align=\"absmiddle\" alt=\"\" src=\"media/78/784de2319db9e0626765.png\" /> is _______ mA. (Rounded of to two decimal places)</p>\n\n<p><img alt=\"\" src=\"media/7e/7e0023b477cf6972b98c.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9.5,
+    10.5
+   ],
+   "answerText": "10.07",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>10.07 (9.50 - 10.50)</p>\n\n<p><img alt=\"\" src=\"media/a5/a5f3901179bc8f951e46.png\" /></p>\n\n<p><img alt=\"\" src=\"media/28/28b4871a86f56a49f9b1.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The value of <em>V<sub>E</sub></em> and <img align=\"absmiddle\" alt=\"\" src=\"media/cf/cf04892fc5ac4786ecdf.png\" /> for the network shown below is given by</p>\n\n<p><img alt=\"\" src=\"media/d8/d8c8a68e2cdf7da31e36.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f8/f8f0eb2f705af384f442.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>V<sub>E</sub></em> = 2.544 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>V<sub>E</sub></em> = –2.544 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f8/f8d5d3da8a643db1de52.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<p><img alt=\"\" src=\"media/7f/7fb25ac2c0eba0a9f14c.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 10,
+   "NAT": 6,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

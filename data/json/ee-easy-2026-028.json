@@ -1,0 +1,448 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-028",
+ "title": "Topicwise Test-2 Part Syllabus GATE 2026 EE Electric Circuits-2",
+ "sourceTitle": "Topicwise Test-2 Part Syllabus GATE 2026 EE Electric Circuits-2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 28,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/074_Topicwise Test-2 Part Syllabus GATE 2026 EE Electric Circuits-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The switch <em>S</em> is kept open until steady state is reached by the network shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/59/5923faa5501bfb38779a.png\" /></div>\n\n<div> </div>\n\n<div>At <em>t</em> = 0, switch(s) is closed then the voltage across inductor at t = 0 is _____ V. (rounded off to nearest integer)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -1,
+    -1
+   ],
+   "answerText": "-1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>-1</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3f/3f8de952bf01df0bb994.png\" /></div>\n\n<div><img alt=\"\" src=\"media/dd/dde4c9aaf5da20f76f27.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>In the figure shown, a network with a steady state is reached with switch <em>K</em> open. At <em>t</em> = 0, the switch is closed</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/50/507445cd7e9fcd90e59c.png\" /></div>\n\n<div>The ratio of <img align=\"absmiddle\" alt=\"\" src=\"media/c7/c75a39792306ca693d76.png\" /> is ______ . (Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.55,
+    0.65
+   ],
+   "answerText": "0.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.6 (0.55 - 0.65)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b0/b011899c1d3114e372b8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/f5/f565f68d501408361ed1.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/22/22a3177422cbd5e3d47e.png\" /></div>\n\n<div>If the quality factor <em>Q</em> = 50, then the resonant frequency <em>f</em><sub>0</sub> is _______ kHz. (rounded off to nearest digit)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    170,
+    180
+   ],
+   "answerText": "175",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>175 (170 - 180)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2f/2f3f373a97a434f19c53.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the network shown in the figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ad/ad9b5c59cff0eae7cbe9.png\" /></div>\n\n<div>If the impedance <em>Z</em><sub>1</sub> = (40 + <em>j</em>20)Ω and Z<sub>2</sub> = (20 – <em>j</em>60) Ω then the value of <em>X</em> that will produce the resonance in the circuit is _______. (Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7.5,
+    8
+   ],
+   "answerText": "7.70",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>7.70 (7.50 - 8.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3f/3f1c9539f73400a9146b.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>For a two port network, It is given that Z<sub>11</sub> = <img align=\"absmiddle\" alt=\"\" src=\"media/68/68bda24d5a8adf71fc83.png\" /> then which of the following is true</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Network is symmetrical only"
+    },
+    {
+     "key": "B",
+     "html": "Network is reciprocal only"
+    },
+    {
+     "key": "C",
+     "html": "Neither symmetrical nor reciprocal"
+    },
+    {
+     "key": "D",
+     "html": "Both symmetrical and reciprocal"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e2/e2e33e9c9f18d9205a32.png\" /></div>\n\n<div><img alt=\"\" src=\"media/86/869b84c967a0fbbecbfa.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A combination of two-port networks is shown in the figure below.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4f/4f9ede5bc54de88c0b2b.png\" /></div>\n\n<div>For the combined network, the admittance parameter <em>Y</em><sub>21</sub> is ______ \u0003<img align=\"absmiddle\" alt=\"\" src=\"media/0f/0f7c90b520357985162a.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "– 1"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/ff/ffb9f5713e1a8d360c52.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/19/19c7cc4f538fcbaa7b72.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/09/091458905dd6fe24b362.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/27/27a30debd37033015b8a.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A balanced 3-phase star-connected load takes 30 kW at a leading current of 48 A from a 3-phase source of 500 V, 50 Hz. Then which of the following is correct–</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Load Resistance, <em>R<sub>P</sub></em> = 8.68 Ω and load Inductance, <em>L<sub>P</sub></em> = 764.62 mH"
+    },
+    {
+     "key": "B",
+     "html": "Load Resistance, <em>R<sub>P</sub></em> = 4.34 Ω and load Inductance, <em>L<sub>P</sub></em> = 164.62 mH"
+    },
+    {
+     "key": "C",
+     "html": "Load Resistance, <em>R<sub>P</sub></em> = 8.68 Ω and load capacitance, <em>C<sub>P</sub></em> = 164.62 μF"
+    },
+    {
+     "key": "D",
+     "html": "Load Resistance, <em>R<sub>P</sub></em> = 4.34 Ω and load capacitance, <em>C<sub>P</sub></em> = 764.62 μF"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ea/ea23fb1577c1a02c2e05.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a9/a9cb016f91256a45b1e7.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following circuit:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6d/6d40890157186369a811.png\" /></div>\n\n<div>Which of the following options is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Circuit is reciprocal"
+    },
+    {
+     "key": "B",
+     "html": "Circuit is not reciprocal"
+    },
+    {
+     "key": "C",
+     "html": "Circuit is symmetrical"
+    },
+    {
+     "key": "D",
+     "html": "Circuit is not symmetrial"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4b/4b2b415c7758c36293de.png\" /></div>\n\n<div><img alt=\"\" src=\"media/dd/ddef4317b7c1863d9ef4.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A 0.2 H inductor is connected in parallel with a 100 Ω resistor as shown in the figure below. At <em>t</em> = 0, the inductor current <img align=\"absmiddle\" alt=\"\" src=\"media/6a/6a4babf99dd9aa41bb46.png\" /> is 4 A. If another resistor of 100 Ω is connected in parallel with the inductor at <em>t</em> = 1 ms, then the inductor current <img align=\"absmiddle\" alt=\"\" src=\"media/3b/3b3bfb167d2b6d8b2821.png\" /> at t = 2 ms is ____ A.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6c/6c42664cec92e045a00b.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.85,
+    1.95
+   ],
+   "answerText": "1.89",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.89 (1.85 - 1.95)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/26/2620e1a1d1fc429d50ad.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>In a parallel <em>RLC</em> circuit the component values are given as <em>L</em> = 4 H and <em>C</em> = 0.50 F. In order to make the system critically damped, the value of resistance <em>R</em> should be ______ Ω. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.4,
+    1.43
+   ],
+   "answerText": "1.414",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.414 (1.40 - 1.43)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/01/0198c694f7a869198f27.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the figure shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/61/611db6e45f971fe1a30d.png\" /></div>\n\n<div>If 5 μF capacitor is initially charged with 500 μC, all other capacitors are initially relaxed and the switch is closed at t = 0, then the voltage drop <img align=\"absmiddle\" alt=\"\" src=\"media/7d/7d566990e9df90d2825f.png\" /> across the 10 Ω resistor at <em>t</em> = 5 μsec will be ______ V.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    80,
+    83
+   ],
+   "answerText": "81.87",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>81.87 (80.00 - 83.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/13/139ee03398837b00d3ae.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>For the circuit shown below, the current through the circuit and voltage across the inductor are given as</p>\n\n<div> </div>\n\n<div><img align=\"absmiddle\" alt=\"\" src=\"media/d7/d70f8aef7bd2f9d3d0b1.png\" /></div>\n\n<div> </div>\n\n<div>where the constant <em>A</em> is in ampere, <em>B</em> is in Hz and <em>C</em> is in volts and the current through the inductor before the switch is closed is zero ampere.</div>\n\n<div> </div>\n\n<div><img align=\"absmiddle\" alt=\"\" src=\"media/b6/b64d389f03c91183d568.png\" /></div>\n\n<div>If the value of <img align=\"absmiddle\" alt=\"\" src=\"media/f1/f120b8d43d82a2448a94.png\" /> is 200 sec<sup>–1</sup> then the value of the series inductance is _______ mH. (Rounded off to nearest integer )</div>\n\n<p> </p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5 (5.00 - 5.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f8/f8333b6c88e83bc11f43.png\" /></div>\n\n<div><img alt=\"\" src=\"media/c7/c7a41f77ffe16f971dca.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown in the figure below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3d/3db1b5efad95405c96bf.png\" /></div>\n\n<div>The capacitive reactance <em>X</em><sub><em>C</em>1</sub> at the source frequency of 50 Hz is 795.775 Ω. The value of the capacitance <em>C</em><sub>2</sub> for which the resonant frequency is 192.456 Hz, if the inductive reactance, <em>X</em><sub><em>L</em>1</sub> is to be 7.854 Ω, is _______ μF. (Answer nearest integer)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7.99,
+    8.005
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>8 (7.990 - 8.005)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c2/c2ecaf695b086d32045b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/d2/d24313415d41f0bd8199.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider a 2-port network consisting of resistors shown by an equivalent network in box as shown in the figure below. A resistance <img align=\"absmiddle\" alt=\"\" src=\"media/3d/3d86698e5e9cd24187d1.png\" /> is connected at the port 2<sup>nd</sup> of the network.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0a/0a2c8a993d3cc637ed99.png\" /></div>\n\n<div>The following observation was made for the give circuit:<br />\n(i) When the output terminal resistance, <em>R<sub>x</sub></em> is disconnected, <em>V</em><sub>0</sub> = 50 V.<br />\n(ii) When the output terminal resistance, <em>R<sub>x</sub></em> is short circuited, <em>I</em><sub>0</sub> = 15 A.<br />\nThe voltage gain of the circuit when <em>R<sub>x</sub></em> = 25 Ω is ________ . (Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.4,
+    0.5
+   ],
+   "answerText": "0.44",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.44 (0.40 - 0.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3c/3c1d94d2985a200e0513.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A <img align=\"absmiddle\" alt=\"\" src=\"media/da/da17acc5a30ccbba2e72.png\" /> supply of 440 V, 50 Hz is delivering power to a <img align=\"absmiddle\" alt=\"\" src=\"media/da/da17acc5a30ccbba2e72.png\" /> balanced delta connected load as shown in the figure below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/22/2282540227245beb8b98.png\" /></div>\n\n<div> </div>\n\n<div>The source voltage phasors are <img align=\"absmiddle\" alt=\"\" src=\"media/7e/7e7392fe5ed6d8ae9575.png\" /> For the per phase load impedance of 20∠45° Ω the line current, <img align=\"absmiddle\" alt=\"\" src=\"media/93/9385e5ceb8e81b9126ef.png\" /> lags the source voltage phasor <img align=\"absmiddle\" alt=\"\" src=\"media/e0/e0d36c3c9c9026039509.png\" /> by an angle of ________ . (Answer upto one decimal place)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    45,
+    45
+   ],
+   "answerText": "45.0",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>45.0 (45.0 - 45.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/65/65f80b129214b0d87189.png\" /></div>\n\n<div><img alt=\"\" src=\"media/6e/6e39baf8bd39b726936e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/0e/0ea2942e0306763cbf37.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the circuit shown in the figure below :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/1b/1b163d16a03172dae563.png\" /></div>\n\n<div>The switch ‘<em>S</em>’ has been closed for a long time and is opened at <em>t</em> = 0. Then the value of <img align=\"absmiddle\" alt=\"\" src=\"media/a3/a3484d6ea937888b0b64.png\" /> is equal to _____ V/s. </div>\n\n<div>(Rounded off to nearest integer)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10,
+    10
+   ],
+   "answerText": "10",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c1/c138c98a03239f85822b.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Which of the following circuit is/are Laplace transformed representation of given circuit?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a9/a920ec50b9aca4b3e28a.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/74/74c24699715d8cb7ddf9.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/1b/1b7bb054ed61962f7d18.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/5b/5b9e3a7195b431198dbe.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/e7/e72c030ac8a5781aa9c2.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9b/9b1edd263dbadf7de4a4.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 12,
+   "MCQ": 3,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

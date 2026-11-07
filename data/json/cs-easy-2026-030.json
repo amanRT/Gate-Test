@@ -1,0 +1,562 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-030",
+ "title": "Topicwise Test-5 Part Syllabus GATE 2026 CS Computer Organization and Architecture1",
+ "sourceTitle": "Topicwise Test-5 Part Syllabus GATE 2026 CS Computer Organization and Architecture1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 30,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/088_Topicwise Test-5 Part Syllabus GATE 2026 CS Computer Organization and Architecture1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>A CPU has 24 bits instructions and memory is byte addressable.<br />\nConsider the following below code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/88/8895d6bcbff94a91b62e.png\" /></div>\n\n<div>If Branch == 0, <em>X</em>[PC] is supposed to skip the loop and go directly to MOV <em>R</em><sub>2</sub>, SUM what should be value of <em>X</em>.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>9</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6b/6b9cb6970dbbf709a3f2.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Match <strong>List-I</strong> (Characteristics) with <strong>List-II</strong> (Processors) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0c/0caa6410a164f7e65b79.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following format:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/68/68ea4097a9be3d5758f3.png\" /></div>\n\n<div> </div>\n\n<div>What is the Hexa decimal equivalent in the memory after adding the following data.<br />\n1.1011001000 * 2<sup>+8</sup><br />\n1.0010100011 * 2<sup>+4</sup></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(DF12)<sub>H</sub>"
+    },
+    {
+     "key": "B",
+     "html": "(5F12)<sub>H</sub>"
+    },
+    {
+     "key": "C",
+     "html": "(612F)<sub>H</sub>"
+    },
+    {
+     "key": "D",
+     "html": "(F125)<sub>H</sub>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2b/2be3c428ea964370b6f4.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a 32 bits hypothetical CPU which supports instruction with 2 register operands, memory operands and 2 immediate constant fields. System supports 100 instructions, 60 registers with a register wide of 32 bits, 4 MB RAM and 13 bits constant size. Program contain 240 Instructions.<br />\nNumber of bytes required to stored the program is _________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2010"
+    },
+    {
+     "key": "B",
+     "html": "2160"
+    },
+    {
+     "key": "C",
+     "html": "2400"
+    },
+    {
+     "key": "D",
+     "html": "1620"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/11/11b5985d2ab68985cadd.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider a hypothetical CPU which supports 200 instructions with a CPI of 13. Hardware contain 300 control signals, 16 flags and uses 24 branch conditions. Micro instruction is designed with 6 control signals. Size of a CDR register in the control unit design is ________ (in bits)?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    75,
+    75
+   ],
+   "answerText": "75",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>75</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b6/b64fab8a720e1dde44ec.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider 3 ns CLK cycle CPU which consumes 4 cycles for data transfer instruction, 8 cycles for ALU instruction. 6 cycles for branch instruction, relative frequencies of these instructions are 30%, 60% and 10% respectively. System is enhanced with a respective speedups of 2, 1.6 and 2. Performance gain of an enhanced system is ________?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.69,
+    1.69
+   ],
+   "answerText": "1.69",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.69</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/76/760eef412fff3f9319aa.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider 16 bits CPU used to execute the following code.<br />\nSystem supports 1 word opcode and 2 word address @ symbol uses indirect AM, [ ] symbol uses direct AM. Register R<sub>2</sub> is designated as index register. Following code is used to execute in the<br />\nCPU. Instruction follows the standard syntax.</p>\n\n<div> </div>\n\n<div><img align=\"absmiddle\" alt=\"\" src=\"media/a0/a04e83efcee3f08df8f3.png\" /></div>\n\n<div>Number of memory references required to access the data is ________ where <img align=\"absmiddle\" alt=\"\" src=\"media/42/42e900524fd6b6283948.png\" /> instructions are executed 5 times in the code.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    45,
+    45
+   ],
+   "answerText": "45",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>45</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/76/76ee754ca3947a417844.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider 1 GHz clock frequency processor, uses different operand access modes shown below:</p>\n\n<p><img alt=\"\" src=\"media/e8/e817c08f667a641c5a8b.png\" /></p>\n\n<p>Assume that 8 cycle consumed for memory reference, 4 cycles consumed for arithmetic computation and 0 cycles consumed when the operand is in register instruction itself. What is the average operand fetch rate (in million words/sec) of the processor?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "117.45 M words/sec"
+    },
+    {
+     "key": "B",
+     "html": "113.63 M words/sec"
+    },
+    {
+     "key": "C",
+     "html": "217.45 M words/sec"
+    },
+    {
+     "key": "D",
+     "html": "316.45 M words/sec"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c6/c6598489232fc02cb2ad.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following sequence of instructions:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/eb/eb105d3afb454818108b.png\" /></div>\n\n<div>The ALU operation instruction size are 32 bits, data transfer instructions are 64 bits and branch instruction size are 16 bits.<br />\nAssume the program is loaded into memory starting at address 4000 (decimal). If an interrupt occurs during the execution of the HALT instruction, what is the return address pushed onto the stack?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4019"
+    },
+    {
+     "key": "B",
+     "html": "4023"
+    },
+    {
+     "key": "C",
+     "html": "4024"
+    },
+    {
+     "key": "D",
+     "html": "4033"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/10/107669549b6015111bc0.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>The following assembly code is to be executed in a 3-stage pipelined processor with hazard detection and resolution in each stage. The stage are IF, OF (one or more as required) and execution (including write-back operation). What are the number of possible RAW, WAW and WAR  hazards in the execution of the code.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/29/29e1b1e192866779d138.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "6, 1, 2"
+    },
+    {
+     "key": "B",
+     "html": "5, 3, 3"
+    },
+    {
+     "key": "C",
+     "html": "5, 3, 2"
+    },
+    {
+     "key": "D",
+     "html": "3, 1, 2"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e7/e7f04b762403d3bdd1f5.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following machine instruction:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/eb/eb65218bb691fe124190.png\" /></div>\n\n<div> </div>\n\n<div>Four stage pipeline, IF (fetch), ID (decode and operand fetch), IE (execute), WB (write back), are used. No data forwarding is present in the pipeline [Each operation takes one cycle in pipeline].<br />\nWhich one of the following is true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/4c/4c194c2007ddcb276752.png\" /> have structural dependency and <img align=\"absmiddle\" alt=\"\" src=\"media/9b/9b0ffbb436dd666e0a58.png\" /> have WAR dependency."
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/a9/a9385474bcd3a2c286ca.png\" /> have RAW dependency, but it will not create any hazard in pipeline."
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/5f/5f7ecb90f5948ec43cd0.png\" /> causes stalls in the pipeline to maintain data integrity."
+    },
+    {
+     "key": "D",
+     "html": "There are 2 RAW dependencies and one WAW dependency in the pipeline."
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/31/3165da6f0468196c0f69.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following code executed on a 32 bits hypothetical CPU, stored in the memory with a starting address of (4000)<sub>10</sub>. CPU cycle time is 2 ns. Each instruction on average takes 5 cycles to complete. Interrupt sub program takes 20 cycles to complete.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/03/03bd2b04a3c0965b3439.png\" /></div>\n\n<div>In the program execution interrupt occurred, during the execution of ADD instruction and MUL instruction. What is the program execution time in (ns)?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "70 ns"
+    },
+    {
+     "key": "B",
+     "html": "160 ns"
+    },
+    {
+     "key": "C",
+     "html": "150 ns"
+    },
+    {
+     "key": "D",
+     "html": "190 ns"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following format:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ff/ff5ad78346cf9d8e072e.png\" /></div>\n\n<div>Which of the following represents the value (> 16)<sub>10</sub>.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0 100011 110100000"
+    },
+    {
+     "key": "B",
+     "html": "0 011110 001011111"
+    },
+    {
+     "key": "C",
+     "html": "0 100010 0000100111"
+    },
+    {
+     "key": "D",
+     "html": "0 100100 001010000"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/00/00fb184b5326ecf5f0c9.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Relative addressing mode is best suited for calculate the target address in a branch instruction.<br />\n<em>S</em><sub>2</sub> : Immediate addressing mode is best suited for specifying the target address in a branch instruction.<br />\n<em>S</em><sub>3</sub> : Base register addressing mode can be used in branch instructions where the target segment base address is stored in a register.<br />\nWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Only <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub>"
+    },
+    {
+     "key": "D",
+     "html": "All <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nRelative addressing mode is best suited for specifying the target address in a branch instruction.<br />\nEX: Branch &gt; 0 &ndash; 16(PC)<br />\nImmediate addressing is used to provide constant data values embedded in the instruction.</p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider 5-stage pipeline with stage delays as 150, 120, 160, 180 and 140 ns respectively. Registers that are used between every two stages have a delay of 5 ns each. The total time taken to process 1000 data items on this pipeline will be ________ (in μsec up to 2 decimal places).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    185.5,
+    185.9
+   ],
+   "answerText": "185.74",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>185.74 [185.50 - 185.90]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3a/3a50bf3e7fedda9b035b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider 4 stage instruction pipeline executed on a system:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f9/f9450a05cb3c4e975b90.png\" /></div>\n\n<div>If all instructions are executed only once, what is the throughput of system?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/b1/b1eb042f51c150f2093e.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/6b/6b5d57d3dd4c4d0c8ed3.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/c9/c91f1651faab317e5cbd.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/3e/3e3d15a0aa677e3e9940.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a8/a85c62d87dc9a782a650.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following pipeline design:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c5/c5f2416ff6d7471e46de.png\" /></div>\n\n<div>Which of the following statements are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Pipeline cycle time is 12 ns."
+    },
+    {
+     "key": "B",
+     "html": "Pipeline cycle time is 14 ns."
+    },
+    {
+     "key": "C",
+     "html": "Pipeline takes 14 ns to complete the instruction when very large number of instructions are executed in the pipeline."
+    },
+    {
+     "key": "D",
+     "html": "Pipeline takes 1456 ns time to complete 100 instructions."
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 5,
+   "MCQ": 9,
+   "MSQ": 3
+  },
+  "withoutKey": 0
+ }
+}

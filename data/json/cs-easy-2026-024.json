@@ -1,0 +1,1127 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-024",
+ "title": "Subjectwise Test-11 Part Syllabus GATE 2026 CS Compiler Design",
+ "sourceTitle": "Subjectwise Test-11 Part Syllabus GATE 2026 CS Compiler Design",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 24,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/030_Subjectwise Test-11 Part Syllabus GATE 2026 CS Compiler Design.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following C code segment:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ce/ce8fefd81f4d42ebcbd1.png\" /></div>\n\n<div>Find the number of tokens produced by the lexical analysis.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "44"
+    },
+    {
+     "key": "B",
+     "html": "42"
+    },
+    {
+     "key": "C",
+     "html": "48"
+    },
+    {
+     "key": "D",
+     "html": "45"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/be/bed59f7252091fd63597.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Find the earliest error that can be produced by the compiler for the following ‘c’ code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6f/6f7057a7f4c497033182.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Lexical error"
+    },
+    {
+     "key": "B",
+     "html": "Syntax error"
+    },
+    {
+     "key": "C",
+     "html": "Semantic error"
+    },
+    {
+     "key": "D",
+     "html": "No error"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nFor loop is not closed.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>In the following grammar:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/25/25ad16dd789205d836cb.png\" /></div>\n\n<div>Which of the following is true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "‘×’ and ‘/’ both are right associative."
+    },
+    {
+     "key": "B",
+     "html": "‘/’ is right associative while ‘+’ and ‘×’ are left associative."
+    },
+    {
+     "key": "C",
+     "html": "‘×’ and ‘/’ are left associative and ‘+’ is right associative."
+    },
+    {
+     "key": "D",
+     "html": "‘/’ and ‘+’ are left associative while ‘×’ is right associative."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; Since S and A both follows left recursion so &lsquo;&times;&rsquo; and &lsquo;/&rsquo; both are left associative.<br />\n&bull; &lsquo;+&rsquo; is right associative as B follows right recursion.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following grammar:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b7/b73d6577455ac5b19061.png\" /></div>\n\n<div>Which of the following will represent the FOLLOW (A) and FIRST (S) set?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/5f/5f9d427e0824beebe5b1.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/73/737957186dfebf2edb0d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/11/11bfa0e62580c5b60183.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/da/da1578a1dc78484eace5.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8b/8bd93c6c47565f8ae883.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following SDT:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5d/5d7068a0f9c9e8fcec29.png\" /></div>\n\n<div>What is the missing translation (1) and (2), if the string “2 × 3 + 5 × 3 + 1 × 3” produces 160 instead of 24?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(1): C<sub>1</sub>.val + S.val and (2): S<sub>1</sub>.val – E.val"
+    },
+    {
+     "key": "B",
+     "html": "(1): C<sub>1</sub>.val * S.val and (2): S<sub>1</sub>.val + E.val"
+    },
+    {
+     "key": "C",
+     "html": "(1): C<sub>1</sub>.val * S.val and (2): S<sub>1</sub>.val – E.val"
+    },
+    {
+     "key": "D",
+     "html": "(1): C<sub>1</sub>.val + S.val and (2): S<sub>1</sub>.val * E.val"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3c/3cb5671298c728aa9598.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>The following grammar is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/69/69840ff7542141dd1205.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "LL(1)"
+    },
+    {
+     "key": "B",
+     "html": "SLR(1)"
+    },
+    {
+     "key": "C",
+     "html": "LALR(1)"
+    },
+    {
+     "key": "D",
+     "html": "LR(1)"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/63/6381d58607bc8ab5ce25.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following code segment:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6f/6f327e7797108db56cd2.png\" /></div>\n\n<div>The minimum number of nodes and edges in DAG graph are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8, 10"
+    },
+    {
+     "key": "B",
+     "html": "10, 12"
+    },
+    {
+     "key": "C",
+     "html": "9, 11"
+    },
+    {
+     "key": "D",
+     "html": "9, 10"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/82/822390a67e081078ff50.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following CFG:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/57/57240ba1c6cbf928e750.png\" /></div>\n\n<div>Which of the following statement(s) are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>B</em><sub>2</sub> and <em>B</em><sub>5</sub> has same live variables."
+    },
+    {
+     "key": "B",
+     "html": "<em>B</em><sub>5</sub> and <em>B</em><sub>3</sub> has same out variables."
+    },
+    {
+     "key": "C",
+     "html": "<em>B</em><sub>5</sub> and <em>B</em><sub>4</sub> has same out variables."
+    },
+    {
+     "key": "D",
+     "html": "<em>B</em><sub>2</sub> and <em>B</em><sub>4</sub> has same live variables."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/94/94c9b95082cbc2708134.png\" /></div>\n\n<div><img alt=\"\" src=\"media/78/78b7956a51b684529eb8.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following grammar:</p>\n\n<div> </div>\n\n<div><img align=\"absmiddle\" alt=\"\" src=\"media/9e/9ebc28a4cbbe7c3e150d.png\" /></div>\n\n<div> </div>\n\n<div>Let <img align=\"absmiddle\" alt=\"\" src=\"media/76/764db037dadc0d71538c.png\" /> = closure (S′ → .S). Then the number of items in Itemset returned by GOTO <img align=\"absmiddle\" alt=\"\" src=\"media/8a/8af92cf8716a24236dfc.png\" /> is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>8</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fd/fde84746a25fd6ceb3da.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following grammar:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6e/6eb7857298b525840b81.png\" /></div>\n\n<div>Which of the following is/are viable prefixes?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "@SaaA"
+    },
+    {
+     "key": "B",
+     "html": "aa*+"
+    },
+    {
+     "key": "C",
+     "html": "aaA+b"
+    },
+    {
+     "key": "D",
+     "html": "aaS*"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/49/498b6fedefdbd7afdcce.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>The number of states in CLR(1) parsing table for the following grammar is ________.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a8/a8c1260163b3f4c450ac.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    12
+   ],
+   "answerText": "12",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bb/bba075a04783370a99e2.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Following is the given syntax directed translation:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/df/df7a5343d6f461e0597c.png\" /></div>\n\n<div>Find out the abstract syntax tree structure for the following input to the SDT?<br />\nInput → 2 * 3 + 4/5</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/86/8675c1e564a352c080df.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/eb/eb048251e760da525727.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/53/5318c3f04e177090e245.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/b0/b0e85681a4fa2ce57f32.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4d/4dcb6fd9ec25ee19570d.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Which of the following statement(s) are true about lexical analysis in a compiler?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It uses regular expressions to define the patterns of valid tokens."
+    },
+    {
+     "key": "B",
+     "html": "It detects syntax error in source code."
+    },
+    {
+     "key": "C",
+     "html": "It eliminates white space and expand macros in the source code."
+    },
+    {
+     "key": "D",
+     "html": "It convert code into meaningful sequence of characters."
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)<br />\n(a) Token pattern are defined using regular expressions.<br />\n(b) Syntactic errors are handled in the syntax analysis phase not by the lexical phase.<br />\n(c) Lexer removes white space but macro expansion done by preprocessor.<br />\n(d) Lexical analysis turns the character stream into meaning tokens (line = int, a = etc.).</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following syntax directed definition:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4e/4e29edd4e96efeacc7fd.png\" /></div>\n\n<div>Select the correct option among the following.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The above SDD is S-attributed."
+    },
+    {
+     "key": "B",
+     "html": "The above SSD is L-attributed."
+    },
+    {
+     "key": "C",
+     "html": "The above SDD is neither S-attributed nor L-attributed."
+    },
+    {
+     "key": "D",
+     "html": "The above SDD is both S-attributed and L-attributed."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d24f0f097e736423c06b.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following is the correct representation for the following intermediate code in static assignment.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/9e/9ea5bd8bf0f649c79256.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/64/64138add8834ca35ef0f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/c7/c73579463ec3c6c69133.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/e5/e53115d382d6e5655996.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a4/a40990d84010c3101290.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nSSA operation: LHS variable should be unique.<br />\nNo optimization in 3-address code.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following statements about a basic block in a compiler:<br />\n<em>S</em><sub>1</sub> : A basic block contains no conditional or unconditional jump instruction.<br />\n<em>S</em><sub>2</sub> : A basic block may have multiple entry points but only one exit point.<br />\n<em>S</em><sub>3</sub> : A basic block is a sequence of instruction with only one entry and one exit point.<br />\nWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em><sub>3</sub> only"
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> only"
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em><sub>2</sub> only"
+    },
+    {
+     "key": "D",
+     "html": "All are true"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\n<em>S</em><sub>1</sub> : False: Because a basic block can contain jumps. It just can&rsquo;t have jumps into the middle of it.<br />\n<em>S</em><sub>2</sub> : False: A basic block has only one entry and exit point and no branches except at the end.<br />\n<em>S</em><sub>3</sub> : True: Standard definition of basic block.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following 3-address code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ef/efba7f093f2d33fcad29.png\" /></div>\n\n<div>Which of the following is true about Control Flow Graph (CFG) of the above code segment<br />\n(excluding start and end nodes).</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "CFG has 4 leaders and 4 edges."
+    },
+    {
+     "key": "B",
+     "html": "CFG has 5 leaders and 5 edges."
+    },
+    {
+     "key": "C",
+     "html": "CFG has on basis block, having no entry point."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ae/aed789c42c18debe9640.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following C code segment:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/30/3085704e6d87eb115abb.png\" /></div>\n\n<div>Which of the following is/are true for above code, when no memory spills is present.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Code require 7 registers without optimization."
+    },
+    {
+     "key": "B",
+     "html": "Code require 6 registers with code motion optimization."
+    },
+    {
+     "key": "C",
+     "html": "Code require 7 registers with common sub expression elimination optimization."
+    },
+    {
+     "key": "D",
+     "html": "Code has loop invariant, common sub expressions and dead code elimination possibility."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following C code segment:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8b/8bb3f63af8a75f321b43.png\" /></div>\n\n<div>Which one of the following variables at the exit point of line 4 by block analysis.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/43/4355b84f9343661a7b4b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/d5/d5e50dd4f4b6be21428b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/fb/fbb26512050d88db4f68.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/60/6036147ce482f392bee7.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following intermediate code fragment:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/80/803eef361ffc5b09382d.png\" /></div>\n\n<div>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Redundant code elimination can be applied between line 1 and line 2.<br />\n<em>S</em><sub>2</sub> : Algebraic simplification can be used to eliminate line 3 and line 4.<br />\n<em>S</em><sub>3</sub> : Copy propagation can be applied in line 8 after line 7.<br />\nWhich of the following code optimization technique is applied.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>3</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Only <em>S</em><sub>3</sub> and <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n<em>S</em><sub>1</sub> : True<br />\n<em>S</em><sub>2</sub>&nbsp;: True<br />\n<em>S</em><sub>3</sub>&nbsp;: False</p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Identify an equivalent non-left recursive CFG for the following CFG:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bb/bb50f5755b7aea4de477.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/29/29da29fc0d1804a97f80.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/12/122e033e5ac80274a9e3.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/07/07a71cba8b50814b67c2.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7f/7f7c4fa8bab26b736235.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Access link in activation record is used for referring then non-local data held in the other activation records."
+    },
+    {
+     "key": "B",
+     "html": "There is no field for local variables in the activation record."
+    },
+    {
+     "key": "C",
+     "html": "Top-down parser can parse left recursive grammar."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\n&bull; To refer the non-local held in other activation records, access links are used.<br />\n&bull; There is a field for local variables in the activation record.<br />\n&bull; Top-down parser may stuck in infinite loop while parsing left recursive grammar.</p>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the grammar and semantic rules:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/24/247ffefbfa27477311c2.png\" /></div>\n\n<div>Which of the following statement(s) are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "This grammar uses both synthesis and inherited attributes."
+    },
+    {
+     "key": "B",
+     "html": "This grammar uses only synthesized attributes."
+    },
+    {
+     "key": "C",
+     "html": "The grammar can be passed by top-down parser."
+    },
+    {
+     "key": "D",
+     "html": "The grammar is not LL(1)."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following SDT:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e6/e6e8334f2c167f11addc.png\" /></div>\n\n<div>If the input = babaab then output is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    35,
+    35
+   ],
+   "answerText": "35",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>35</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7d/7de364d40d9907b308b0.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>The number of nodes in the DAG for the following expression is ________.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/84/842d06b56b4d3a3f8051.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    14,
+    14
+   ],
+   "answerText": "14",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>14</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d65b8195ca6d0a1ffca3.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>The following grammar is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5e/5e16840799a239ec8bdd.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "LL(1) but not LL(2)"
+    },
+    {
+     "key": "B",
+     "html": "LL(2) not LL(1)"
+    },
+    {
+     "key": "C",
+     "html": "Both LL(1) and LL(2)"
+    },
+    {
+     "key": "D",
+     "html": "Neither LL(1) nor LL(2)"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/70/703f4c68cb5cbe13029a.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following incomplete grammar:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/86/86a8f111d2a694aabdd6.png\" /></div>\n\n<div>If First(S) = {a, b, c}, First(A) = {a, c, ∈} and First(B) = {a, c} then the productions (1) and (2) are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "S → AaB and A → AbS"
+    },
+    {
+     "key": "B",
+     "html": "S → BbS and A → SbA"
+    },
+    {
+     "key": "C",
+     "html": "S → Ab and A → BbS"
+    },
+    {
+     "key": "D",
+     "html": "S → AcB and A → AbS"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/14/14a1581a5ee9d77da2cc.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following grammar:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bf/bfe2ee01a0bd6d36d308.png\" /></div>\n\n<div>The entries of M[Q, *] and M[T, p] in the corresponding predictive parsing table M are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Q → T * P and T → p"
+    },
+    {
+     "key": "B",
+     "html": "Q → R – T and T → p"
+    },
+    {
+     "key": "C",
+     "html": "{Q → T * P, Q → R – T} and {T → p, T → ∈}"
+    },
+    {
+     "key": "D",
+     "html": "{Q → T * P, Q → R – T} and {T → p}"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5d/5d1ba880d602fea3050a.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following grammars:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/67/67e90c5c9db6e9218168.png\" /></div>\n\n<div>Which of the following is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>G</em><sub>1</sub> is ambiguous not <em>G</em><sub>2</sub>."
+    },
+    {
+     "key": "B",
+     "html": "<em>G</em><sub>2</sub> is ambiguous not <em>G</em><sub>1</sub>."
+    },
+    {
+     "key": "C",
+     "html": "<em>G</em><sub>1</sub> and <em>G</em><sub>2</sub> both are ambiguous."
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>G</em><sub>1</sub> nor <em>G</em><sub>2</sub> is ambiguous."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/95/95b10c28580bc3b73f9f.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Every grammar that is both left and right recursive for a non terminal is ambiguous.<br />\n<em>S</em><sub>2</sub> : Every regular set has a LR(1) grammar.<br />\n<em>S</em><sub>3</sub> : Intermediate Codes are generated by the Compiler because it is not possible to generate machine code directly for high level language programs.<br />\n<em>S</em><sub>4</sub> : Recursive Descent parsing can not use left recursive grammars.<br />\nWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub> are correct"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>4</sub> are correct"
+    },
+    {
+     "key": "C",
+     "html": "Only <em>S</em><sub>2</sub> and <em>S</em><sub>4</sub> are correct"
+    },
+    {
+     "key": "D",
+     "html": "All are correct"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following CFG:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e8/e8ac8effdb65b43a889b.png\" /></div>\n\n<div>Which of the following is true about the above grammar?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Left recursive and unambiguous"
+    },
+    {
+     "key": "B",
+     "html": "Non left recursive and ambiguous"
+    },
+    {
+     "key": "C",
+     "html": "Ambiguous and left recursive"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a4/a486ad02da148e2a06c9.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the given grammar with semantic actions given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6e/6e89751d21f94b60526c.png\" /></div>\n\n<div>The attribute value at the root S for input –id × (–id + id) is ________.<br />\n(S<sub>1</sub> and S<sub>2</sub> are same as S)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a8/a85bc48f76e78686b0c6.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following grammar:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/86/86650ea0384ebddba503.png\" /></div>\n\n<div>During SLR(1) parsing, which of the following is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only shift-reduce conflict"
+    },
+    {
+     "key": "B",
+     "html": "Only reduce-reduce conflict"
+    },
+    {
+     "key": "C",
+     "html": "Both SR and RR conflict"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bf/bf035a440cc180930a90.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 22,
+   "MSQ": 6,
+   "NAT": 5
+  },
+  "withoutKey": 0
+ }
+}

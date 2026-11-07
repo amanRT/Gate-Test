@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-084",
+ "title": "DVRUO Classes CS/DA | Linear Algebra | Weekly Quiz 5",
+ "sourceTitle": "DVRUO Classes CS/DA | Linear Algebra | Weekly Quiz 5",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 84,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Linear Algebra"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/062_exam_1017_GO Classes CS-DA Linear Algebra Weekly Quiz 5.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let<br>$$<br>A=\\left[\\begin{array}{ll}<br>a &amp; b \\\\<br>c &amp; d<br>\\end{array}\\right]<br>$$<br>be a $2 \\times 2$ real matrix. Which of the following is a necessary and sufficient condition for $A$ not to have a real eigenvalue?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(a-d)^{2}+ b c&lt;0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(a+d)^{2}-4(a d-b c)&lt;0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$a d-b c&lt;0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$a^{2}+d^{2}&lt;4 b c$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 16)</small></h4><a name=\"476443\"></a><div itemprop=\"text\"><p>For any $2\\times 2$ matrix $M$, Characteristic polynomial of $M$ is $λ^2 - tr(A)λ + |A|$</p><p>So,&nbsp;Characteristic equation of $A$ is $λ^2 - (a+d)λ + (ad-bc) =0$</p><p>For roots of quadratic equation to be imaginary, Discriminant $(b^2-4ac)$ must be less than $0$.</p><p>So, $(a+d)^2 - 4(ad-bc) &lt; 0$&nbsp;</p><p><strong>Correct Option: B</strong></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"503332\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"1280\" height=\"801\" src=\"media/c3/c3ab8ef847d64db3177e.jpg\"></p><p>.</p></div></section></div><p><a href=\"https://gateoverflow.in/474205\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Find the values of $\\alpha \\in \\mathbb{R}$ such that the matrix<br>$$<br>\\left[\\begin{array}{ll}<br>3 &amp; \\alpha \\\\<br>\\alpha &amp; 5<br>\\end{array}\\right]<br>$$<br>has 2 as an eigenvalue.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\alpha= \\pm 1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\alpha= \\pm \\sqrt{2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\alpha= \\pm \\sqrt{3}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\alpha= \\pm 2$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"474204\"></a><div itemprop=\"text\">$$<br>\n\\begin{gathered}<br>\n\\operatorname{det}(A-2 I)=0 \\\\<br>\n\\Rightarrow \\operatorname{det}\\left(\\left[\\begin{array}{cc}<br>\n3-2 &amp; \\alpha \\\\<br>\n\\alpha &amp; 5-2<br>\n\\end{array}\\right]\\right)=\\operatorname{det}\\left(\\left[\\begin{array}{cc}<br>\n1 &amp; \\alpha \\\\<br>\n\\alpha &amp; 3<br>\n\\end{array}\\right]\\right)=0<br>\n\\end{gathered}<br>\n$$<br>\n<br>\nCompute the determinant:<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; (1)(3)-\\alpha^{2}=3-\\alpha^{2}=0 \\\\<br>\n&amp; \\Rightarrow \\alpha^{2}=3 \\Rightarrow \\alpha= \\pm \\sqrt{3}<br>\n\\end{aligned}<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"537937\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\">we are given a $2 \\times 2$ real symmetric matrix and told that one of its eigenvalues is $\\lambda = 2$:</p><p>$$A = \\begin{bmatrix} 3 &amp; \\alpha \\\\ \\alpha &amp; 5 \\end{bmatrix}$$</p><p data-path-to-node=\"2,0,0\">If $\\lambda = 2$ is an eigenvalue, it must satisfy the characteristic equation $\\det(A - \\lambda I) = 0$. Substituting $\\lambda = 2$ into the matrix :</p><p>$$\\det \\begin{bmatrix} 3 - 2 &amp; \\alpha \\\\ \\alpha &amp; 5 - 2 \\end{bmatrix} = \\det \\begin{bmatrix} 1 &amp; \\alpha \\\\ \\alpha &amp; 3 \\end{bmatrix} = 0$$</p><p data-path-to-node=\"4,0,0\">Evaluating the determinant of this $2 \\times 2$ matrix involves cross-multiplying the main diagonal entries and subtracting the product of the off-diagonal entries:</p><p>$$(1)(3) - (\\alpha)(\\alpha) = 0$$</p><p>$$3 - \\alpha^2 = 0$$</p><p data-path-to-node=\"7,0,0\">Solving for $\\alpha$:</p><p>$$\\alpha^2 = 3 \\implies \\alpha = \\pm\\sqrt{3}$$</p><p data-path-to-node=\"9,0,0\">hence,&nbsp;<b data-path-to-node=\"9,0,0\" data-index-in-node=\"13\">Option C</b>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/474203\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A=\\left(a_{i j}\\right)$ be a real $3 \\times 3$ matrix such that<br>$$<br>a_{i j}=-a_{j i} \\quad \\text { for all } 1 \\leq i, j \\leq 3<br>$$<br>Suppose $3 i$ is an eigenvalue of $A$. What are the other eigenvalues of $A$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-3 i$ and $0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3 i$ and $-3 i$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-3 i$ and $3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$ and $-3$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 11)</small></h4><a name=\"478857\"></a><div itemprop=\"text\"><p><strong>In a skew-symmetric matrix, all diagonal elements are zero. This means the trace of the matrix is zero.</strong></p><p><strong>For any square matrix, the trace is equal to the sum of its eigenvalues.</strong></p><p>We are given that one eigenvalue is 3i. Since the matrix is real, its complex conjugate –3i must also be an eigenvalue.</p><p>To ensure the sum of the eigenvalues is zero (as required by the trace), the third eigenvalue must be 0.</p><p>So the eigenvalues are: 3i, –3i, and 0, which gives: 3i + (–3i) + 0 = 0.</p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"474202\"></a><div itemprop=\"text\"><ul><li>Since $A$ is a real skew-symmetric matrix ( $A^{T}=-A$ ), its eigenvalues are either purely imaginary or zero.<br>&nbsp;</li><li>Eigenvalues of real matrices occur in complex conjugate pairs.<br>&nbsp;</li><li>So, if $3 i$ is an eigenvalue, then $-3 i$ must also be an eigenvalue.<br>&nbsp;</li><li>Since it's a $3 \\times 3$ matrix, the third eigenvalue must be real.<br>&nbsp;</li><li>But skew-symmetric matrices have only imaginary or zero eigenvalues, so the third eigenvalue must be $\\mathbf{0}$.</li></ul></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"537900\"></a><div itemprop=\"text\"><p>The property given, $a_{ij} = -a_{ji}$ for all $1 \\le i, j \\le 3$, tells us that the matrix $A$ satisfies $A^T = -A$. This means $A$ is a <b data-path-to-node=\"0,0,0\" data-index-in-node=\"139\">skew-symmetric matrix</b>.</p><p>For any real skew-symmetric matrix,</p><blockquote><p data-path-to-node=\"0,1,0\">the diagonal elements must be exactly zero ($a_{ii} = -a_{ii} \\implies a_{ii} = 0$). Consequently, the sum of its diagonal elements is zero:</p><p>$$\\text{trace}(A) = 0$$</p></blockquote><p>and,</p><blockquote><p>their eigenvalues are either <b data-path-to-node=\"0,2,0\" data-index-in-node=\"92\">purely imaginary</b> or <b data-path-to-node=\"0,2,0\" data-index-in-node=\"112\">zero</b>.&nbsp;</p></blockquote><p>and,&nbsp;</p><blockquote><p data-path-to-node=\"0,2,0\">Furthermore, because $A$ contains only real coefficients, any complex eigenvalues must occur in conjugate pairs.</p></blockquote><p data-path-to-node=\"0,3,0\">We are given that one eigenvalue is $\\lambda_1 = 3i$.</p><p data-path-to-node=\"0,4,0\">Its complex conjugate must also be an eigenvalue:</p><p>$$\\lambda_2 = -3i$$</p><p data-path-to-node=\"0,5,0\">Since the sum of all eigenvalues equals the trace of the matrix, we can set up a simple equation to find the final eigenvalue, $\\lambda_3$:</p><p>$$\\lambda_1 + \\lambda_2 + \\lambda_3 = \\text{trace}(A)$$</p><p>$$3i + (-3i) + \\lambda_3 = 0 \\implies \\lambda_3 = 0$$</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/474201\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $x \\in \\mathbb{R}^{n}$ be a non-zero column vector, and define<br>$$<br>A=x x^{T}<br>$$<br>What is the necessary and sufficient condition for the matrix<br>$$<br>Q=I-2 A<br>$$<br>to be an orthogonal matrix?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x$ is an eigenvector of $A$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x$ is a unit vector (i.e., $\\|x\\|=1$ )</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x$ has all entries equal to $1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\|x\\|=0$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 18)</small></h4><a name=\"474198\"></a><div itemprop=\"text\">We want:<br>\n$$<br>\nQ^{T} Q=I<br>\n$$<br>\n<br>\nSince $A=x x^{T}$ is symmetric, we have:<br>\n$$<br>\nQ^{T}=(I-2 A)^{T}=I-2 A<br>\n$$<br>\n<br>\nNow compute:<br>\n$$<br>\nQ^{T} Q=(I-2 A)(I-2 A)=I-2 A-2 A+4 A^{2}=I-4 A+4 A^{2}<br>\n$$<br>\n<br>\nNow simplify $A^{2}$ :<br>\n$$<br>\nA^{2}=\\left(x x^{T}\\right)\\left(x x^{T}\\right)=x\\left(x^{T} x\\right) x^{T}=\\left(x^{T} x\\right)\\left(x x^{T}\\right)=\\|x\\|^{2} A<br>\n$$<br>\n<br>\nSubstitute back:<br>\n$$<br>\nQ^{T} Q=I-4 A+4\\|x\\|^{2} A=I+\\left(4\\|x\\|^{2}-4\\right) A<br>\n$$<br>\n<br>\nFor $Q^{T} Q=I$, we must have:<br>\n$$<br>\n\\left(4\\|x\\|^{2}-4\\right) A=0<br>\n$$<br>\n<br>\nSince $x \\neq 0, A=x x^{T} \\neq 0$, hence:<br>\n$$<br>\n4\\|x\\|^{2}-4=0 \\Rightarrow\\|x\\|^{2}=1<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"533440\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"466\" height=\"310\" src=\"media/1c/1cf88b6185eac47db4ec.png\"></p><p><img alt=\"\" width=\"468\" height=\"301\" src=\"media/2a/2ae97e9307d2d3b186d1.png\"></p><p><img alt=\"\" width=\"466\" height=\"306\" src=\"media/5b/5b1d0ee4c677d2ea593a.png\"></p><p><img alt=\"\" width=\"460\" height=\"235\" src=\"media/4c/4c0256e8c5c934f7d2f5.png\"></p><p>Correct Option B&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"541019\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"942\" height=\"1280\" src=\"media/45/450db2791b3400e7f916.jpg\"></p><p>&nbsp;</p><p>SO Option B is the correct answer, Analysis of other options has been done&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/474197/go-classes-cs-da-linear-algebra-weekly-quiz-5-question-5?show=537939#c537939\" target=\"_blank\">here</a></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/474197\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathbf{x}$ and $\\mathbf{y}$ be two non-zero $n \\times 1$ column vectors. Let $A=\\mathbf{x} \\mathbf{y}^{T}$ be an $n \\times n$ matrix. What are the eigenvalues of $A$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>All eigenvalues are zero.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Exactly one eigenvalue is $\\mathbf{y}^{T} \\mathbf{x}$, and the rest are zero.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>All eigenvalues are equal to $\\mathbf{y}^{T} \\mathbf{x}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The eigenvalues are $\\|\\mathbf{x}\\|\\|\\mathbf{y}\\|$ and $n-1$ zeros.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"477724\"></a><div itemprop=\"text\">Here's a breakdown of how to find the eigenvalues of \\( A = \\mathbf{xy}^T \\):<br>\n<br>\nLet \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) be non-zero \\( n \\times 1 \\) column vectors.<br>\n\\( A = \\mathbf{xy}^T \\) is an \\( n \\times n \\) matrix.<br>\n<br>\nFirst, let's consider the rank of \\( A \\). Since \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) are non-zero vectors, the outer product \\( \\mathbf{xy}^T \\) will have a rank of 1.<br>\nA matrix with rank 1 has only one non-zero eigenvalue, and all other eigenvalues are zero. This immediately tells us that options A and C are incorrect.<br>\n<br>\nNow, let's find that non-zero eigenvalue.<br>\nConsider applying \\( A \\) to the vector \\( \\mathbf{x} \\):<br>\n\\( A\\mathbf{x} = (\\mathbf{xy}^T)\\mathbf{x} \\)<br>\nSince matrix multiplication is associative, we can write this as:<br>\n\\( A\\mathbf{x} = \\mathbf{x}(\\mathbf{y}^T\\mathbf{x}) \\)<br>\n<br>\nNotice that \\( \\mathbf{y}^T\\mathbf{x} \\) is a scalar (the dot product of \\( \\mathbf{y} \\) and \\( \\mathbf{x} \\)). Let's call this scalar \\( \\lambda \\).<br>\nSo, \\( A\\mathbf{x} = \\lambda\\mathbf{x} \\), where \\( \\lambda = \\mathbf{y}^T\\mathbf{x} \\).<br>\n<br>\nThis equation \\( A\\mathbf{x} = \\lambda\\mathbf{x} \\) is the definition of an eigenvalue problem. Since \\( \\mathbf{x} \\) is a non-zero vector, \\( \\mathbf{x} \\) is an eigenvector of \\( A \\) and \\( \\lambda = \\mathbf{y}^T\\mathbf{x} \\) is the corresponding eigenvalue.<br>\n<br>\nGiven that the rank of \\( A \\) is 1, we know there's only one non-zero eigenvalue. We've just found it to be \\( \\mathbf{y}^T\\mathbf{x} \\). All other \\( n-1 \\) eigenvalues must be zero.<br>\n<br>\nTherefore, the correct option is B.<br>\n<br>\nThe final answer is \\(\\boxed{B}\\)</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"535808\"></a><div itemprop=\"text\">A = ${xy^T_{n.n}}$<br>\n<br>\nif we look at &nbsp;${y^Tx_{1.1}}$,<br>\n<br>\nAnd we know that AB and BA share the same non xero eignvalues , so 1 eigenvalue will be ${y^Tx_{1.1}}$ itself and rest will be zeroes.<br>\n<br>\nFinally answer (b) is correct.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"542334\"></a><div itemprop=\"text\"><p>x and y are both non zero column vectors.</p><p>xy^T will be a nxn matrix. It will have 3 eigen values.</p><p>but y^Tx is a scalar. y^Tx will be 1x1, it will have only one eigen value which will be y^Tx itself and it is non zero.&nbsp;</p><p>Since AB and BA share same non zero eigen values.</p><p>xy^T&nbsp;<span class=\"math-tex\" data-latex=\"\\Rightarrow\">$\\Rightarrow$</span>&nbsp; &nbsp; __<span class=\"math-tex\" data-latex=\"\\lambda\">$\\lambda$</span>__&nbsp; &nbsp;___0__&nbsp; &nbsp;__0___</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"math-tex\" data-latex=\"\\uparrow\">$\\uparrow$ just copy non zero eigen value&nbsp;</span><br>y^Tx&nbsp;<span class=\"math-tex\" data-latex=\"\\Rightarrow\">$\\Rightarrow$&nbsp; &nbsp;&nbsp;</span>__<span class=\"math-tex\" data-latex=\"\\lambda\">$\\lambda$</span>__</p><p>Hence A = xy^T will have one eigen value that will be y^Tx and rest will be zero.</p></div></section></div><p><a href=\"https://gateoverflow.in/474196\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $M$ be a real symmetric $3 \\times 3$ matrix that admits the vectors<br>$$<br>\\mathbf{v}_{1}=(1,2,3)^{T} \\quad \\text { and } \\quad \\mathbf{v}_{2}=(1,1,-1)^{T}<br>$$<br>as eigenvectors.<br><br>Which of the following vectors is surely an eigenvector of $M$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(1,-1,0)^{T}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(-5,1,1)^{T}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(3,2,1)^{T}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 11)</small></h4><a name=\"474195\"></a><div itemprop=\"text\">Key Property: For real symmetric matrices, eigenvectors corresponding to distinct eigenvalues are orthogonal.<br>\n<br>\nWe check whether $\\mathbf{v}_{1}$ and $\\mathbf{v}_{2}$ are orthogonal:<br>\n$$<br>\n\\mathbf{v}_{1} \\cdot \\mathbf{v}_{2}=1 \\cdot 1+2 \\cdot 1+3 \\cdot(-1)=1+2-3=0<br>\n$$<br>\n$\\Rightarrow \\mathbf{v}_{1} \\perp \\mathbf{v}_{2}$, so they correspond to distinct eigenvalues.<br>\nThus, the third eigenvector of $M$ must be orthogonal to both $\\mathbf{v}_{1}$ and $\\mathbf{v}_{2}$. Any vector that is orthogonal to both is surely an eigenvector of $M$.<br>\n<br>\nNow, check each option:<br>\n(a) $\\mathbf{w}_{a}=\\left[\\begin{array}{c}1 \\\\ -1 \\\\ 0\\end{array}\\right]$<br>\n$$<br>\n\\mathbf{v}_{1} \\cdot \\mathbf{w}_{a}=1 \\cdot 1+2 \\cdot(-1)+3 \\cdot 0=1-2=-1 \\neq 0<br>\n$$<br>\n<br>\nNot orthogonal to $\\mathbf{v}_{1}$<br>\n(b) $\\mathbf{w}_{b}=\\left[\\begin{array}{c}-5 \\\\ 1 \\\\ 1\\end{array}\\right]$<br>\n$$<br>\n\\begin{gathered}<br>\n\\mathbf{v}_{1} \\cdot \\mathbf{w}_{b}=1 \\cdot(-5)+2 \\cdot 1+3 \\cdot 1=-5+2+3=0 \\\\<br>\n\\mathbf{v}_{2} \\cdot \\mathbf{w}_{b}=1 \\cdot(-5)+1 \\cdot 1+(-1) \\cdot 1=-5+1-1=-5 \\neq 0<br>\n\\end{gathered}<br>\n$$<br>\n<br>\nOnly orthogonal to $\\mathbf{v}_{1}$, not both.<br>\n(c) $\\mathbf{w}_{c}=\\left[\\begin{array}{l}3 \\\\ 2 \\\\ 1\\end{array}\\right]$<br>\n$$<br>\n\\mathbf{v}_{1} \\cdot \\mathbf{w}_{c}=1 \\cdot 3+2 \\cdot 2+3 \\cdot 1=3+4+3=10 \\neq 0<br>\n$$<br>\n<br>\nNot orthogonal to $\\mathbf{v}_{1}$<br>\n<br>\nNone of the given vectors are orthogonal to both eigenvectors.</div></section></div><p><a href=\"https://gateoverflow.in/474194\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $A$ be a $3 \\times 3$ matrix with eigenvalues $-1,1,2$.<br>\nSuppose there exist real scalars $\\alpha, \\beta, \\gamma$ such that:<br>\n$$<br>\nA^{-1}=\\alpha A^{2}+\\beta A+\\gamma I<br>\n$$<br>\nThen find the value of:<br>\n$$<br>\n\\alpha+\\beta+\\gamma=?<br>\n$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"474189\"></a><div itemprop=\"text\">By the Cayley-Hamilton Theorem, every square matrix satisfies its own characteristic polynomial. This means that powers of the matrix (and even its inverse, if it exists) can be expressed as a linear combination of $A^{2}, A$, and $I$ when the matrix is $3 \\times 3$.<br>\n<br>\nSo instead of solving the matrix equation:<br>\n$$<br>\nA^{-1}=\\alpha A^{2}+\\beta A+\\gamma I<br>\n$$<br>\nwe reduce the problem to a scalar equation that must hold true for each eigenvalue $\\lambda$ of $A$.<br>\nSince the eigenvalues of $A$ are $-1,1,2$, we require:<br>\n$$<br>\n\\frac{1}{\\lambda}=\\alpha \\lambda^{2}+\\beta \\lambda+\\gamma \\quad \\text { for } \\lambda=-1,1,2<br>\n$$<br>\n<br>\nNow plug in $\\lambda=1$ to quickly find:<br>\n$$<br>\n\\frac{1}{1}=\\alpha(1)^{2}+\\beta(1)+\\gamma \\Rightarrow \\alpha+\\beta+\\gamma=1<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"537948\"></a><div itemprop=\"text\"><p data-path-to-node=\"3\">We are given that the eigenvalues of the $3 \\times 3$ matrix $A$ are $\\lambda_1 = -1$, $\\lambda_2 = 1$, and $\\lambda_3 = 2$.</p><p data-path-to-node=\"4\">The characteristic polynomial $p(\\lambda)$ is given by:</p><p>&nbsp;</p><p>$$(\\lambda + 1)(\\lambda - 1)(\\lambda - 2) = 0$$</p><p data-path-to-node=\"9\">Expanding the first two terms</p><p>$$(\\lambda^2 - 1)(\\lambda - 2) = 0$$</p><p>$$\\lambda^3 - 2\\lambda^2 - \\lambda + 2 = 0$$</p><p data-path-to-node=\"14\"><span style=\"background-color:#f1c40f;\">Replacing the scalar variable $\\lambda$ with the matrix $A$ and the constant term with the identity matrix $I$: (Cayley-Hamilton Theorem)</span></p><p>$$A^3 - 2A^2 - A + 2I = \\mathbf{0}$$</p><p data-path-to-node=\"18\">To find an expression for $A^{-1}$, multiply the entire matrix equation by $A^{-1}$:</p><p>$$A^{-1}(A^3 - 2A^2 - A + 2I) = A^{-1}(\\mathbf{0})$$</p><p>$$A^2 - 2A - I + 2A^{-1} = \\mathbf{0}$$</p><p>$$2A^{-1} = -A^2 + 2A + I$$</p><p data-path-to-node=\"23\">Divide the entire equation by 2:</p><p>$$A^{-1} = -\\frac{1}{2}A^2 + 1A + \\frac{1}{2}I$$</p><p data-path-to-node=\"27\">We are given the relation:</p><p>$$A^{-1} = \\alpha A^2 + \\beta A + \\gamma I$$</p><p data-path-to-node=\"29\">By comparing the coefficients from our derived equation with the given relation, we get:</p><ul data-path-to-node=\"30\"><li><p data-path-to-node=\"30,0,0\">$\\alpha = -\\frac{1}{2}$</p></li><li><p data-path-to-node=\"30,1,0\">$\\beta = 1$</p></li><li><p data-path-to-node=\"30,2,0\">$\\gamma = \\frac{1}{2}$</p></li></ul><p data-path-to-node=\"31\">We need to calculate the value of $\\alpha + \\beta + \\gamma$:</p><p>$$\\alpha + \\beta + \\gamma = \\left(-\\frac{1}{2}\\right) + 1 + \\left(\\frac{1}{2}\\right) = 1$$</p></div></section></div><p><a href=\"https://gateoverflow.in/474188\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $A$ be a real $3 \\times 3$ upper triangular matrix with diagonal entries $1,2,-3$.<br>\nSuppose $A^{-1}$ can be written as a linear combination of $I, A, A^{2}$, i.e.,<br>\n$$<br>\nA^{-1}=\\alpha I+\\beta A+\\gamma A^{2}<br>\n$$<br>\nFind the value of $12(\\alpha+\\beta+\\gamma)$.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"477274\"></a><div itemprop=\"text\">The **characteristic equation** is:<br>\n<br>\n$$<br>\n\\lambda^3 - 7\\lambda + 6 = 0<br>\n$$<br>\n<br>\nReplacing $\\lambda$ with matrix $A$, we get:<br>\n<br>\n$$<br>\nA^3 - 7A + 6I = 0<br>\n$$<br>\n<br>\nNow, taking the inverse:<br>\n<br>\n\\[<br>\nA^3 - 7A = -6I \\Rightarrow A(A^2 - 7I) = -6I<br>\n\\]<br>\n<br>\nDividing both sides by 6:<br>\n<br>\n\\[<br>\nA \\cdot \\frac{(7I - A^2)}{6} = I \\Rightarrow A^{-1} = \\frac{(7I - A^2)}{6}<br>\n\\]<br>\n<br>\nNow, comparing with the general form:<br>\n<br>\n\\[<br>\nA^{-1} = \\alpha I + \\beta A + \\gamma A^2<br>\n\\]<br>\n<br>\nWe get:<br>\n<br>\n- $\\alpha = \\frac{7}{6}$<br>\n- $\\beta = 0$<br>\n- $\\gamma = \\frac{-1}{6}$<br>\n<br>\nNow compute:<br>\n<br>\n\\[<br>\n12\\left( \\frac{7}{6} + 0 + \\frac{-1}{6} \\right) = 12 \\cdot \\left( \\frac{6}{6} \\right) = 12 \\cdot 1 = \\boxed{12}<br>\n\\]<br>\n<br>\n---<br>\n<br>\n### ✅ Final Answer: $\\boxed{12}$</div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"535811\"></a><div itemprop=\"text\"><p>We know that for upper triangular&nbsp; matrix, lower triangular matrix, and diagonal matrix, eigen values are its daigonal enteries only,</p><p>=&gt; $\\lambda$ = 1,2,-3</p><p>Using the cayley hamilton theorem, a matrix satisfies its own characteristic equation;</p><p><span class=\"math-tex\" data-latex=\"A^{-1} = \\alpha I + \\beta A +\\gamma A^{2}  = 1/\\lambda = \\alpha I + \\beta \\lambda +\\gamma \\lambda^{2}\">$A^{-1} = \\alpha I + \\beta A +\\gamma A^{2} =&gt; 1/\\lambda = \\alpha I + \\beta \\lambda +\\gamma \\lambda^{2}$</span></p><p><span class=\"math-tex\" data-latex=\"A^{-1} = \\alpha I + \\beta A +\\gamma A^{2}  = 1/\\lambda = \\alpha I + \\beta \\lambda +\\gamma \\lambda^{2}\">Quickly put&nbsp; $\\lambda$ = 1 =&gt; $\\alpha + \\beta + \\gamma$ = 1</span></p><p><span class=\"math-tex\" data-latex=\"A^{-1} = \\alpha I + \\beta A +\\gamma A^{2}  = 1/\\lambda = \\alpha I + \\beta \\lambda +\\gamma \\lambda^{2}\">12(1) = 12</span></p><p><span class=\"math-tex\" data-latex=\"A^{-1} = \\alpha I + \\beta A +\\gamma A^{2}  = 1/\\lambda = \\alpha I + \\beta \\lambda +\\gamma \\lambda^{2}\">Answer is 12</span></p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"474187\"></a><div itemprop=\"text\">We are given that $A$ is a $3 \\times 3$ upper triangular matrix with diagonal entries $1,2,-3$. The eigenvalues of $A$ are the diagonal entries: $1,2,-3$, which are real, distinct, and non-zero. Hence, $A$ is invertible and diagonalizable.<br>\n<br>\nThe characteristic polynomial of $A$ is:<br>\n$$<br>\n(\\lambda-1)(\\lambda-2)(\\lambda+3)=\\lambda^{3}-7 \\lambda+6<br>\n$$<br>\n<br>\nBy the Cayley-Hamilton theorem, the matrix satisfies its own characteristic equation:<br>\n$$<br>\nA^{3}-7 A+6 I=0<br>\n$$<br>\n<br>\nMultiplying both sides by $A^{-1}$, we get:<br>\n$$<br>\nA^{2}-7 I+6 A^{-1}=0 \\Rightarrow A^{-1}=-\\frac{1}{6}\\left(A^{2}-7 I\\right)<br>\n$$<br>\n<br>\nComparing with $A^{-1}=\\alpha I+\\beta A+\\gamma A^{2}$, we get:<br>\n$$<br>\n\\begin{gathered}<br>\n\\alpha=\\frac{7}{6}, \\quad \\beta=0, \\quad \\gamma=-\\frac{1}{6} \\\\<br>\n\\alpha+\\beta+\\gamma=\\frac{6}{6} \\Rightarrow 12(\\alpha+\\beta+\\gamma)=12<br>\n\\end{gathered}<br>\n$$</div></section></div><p><a href=\"https://gateoverflow.in/474186\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A \\in \\mathbb{R}^{m \\times n}$ be a real matrix of rank $m$, where $n&gt;m$. Suppose that for some real number $\\alpha$, the following holds:<br>$$<br>A A^{\\top}=\\alpha I_{m}<br>$$<br>Then, which of the following statements about<br>$A^{\\top} A \\in \\mathbb{R}^{n \\times n}$ are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A^{\\top} A$ has exactly zero distinct eigenvalues<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A^{\\top} A$ has eigenvalue 0 with multiplicity$n-m$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\alpha$ is an eigenvalue of $A^{\\top} A$ with multiplicity at least $n-2$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A^{\\top} A$ has exactly two distinct eigenvalues</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"474179\"></a><div itemprop=\"text\"><p><strong>Given:</strong></p><ul><li>$A \\in \\mathbb{R}^{m \\times n}$, with $\\operatorname{rank}(A)=m$ and $n&gt;m$</li><li>It is given that</li></ul><p>$$<br>A A^{\\top}=\\alpha I_{m} \\quad \\text { for some real } \\alpha<br>$$<br>$$<br>A A^{\\top}=\\alpha I_{m}<br>$$<br><br>This means:</p><ul><li>$A A^{\\top}$ is a symmetric matrix</li><li>All eigenvalues of $A A^{\\top}$ are equal to $\\alpha$</li></ul><p>$$<br>\\Rightarrow \\text { Eigenvalues of } A A^{\\top}=\\underbrace{\\alpha, \\alpha, \\ldots, \\alpha}_{m \\text { times }}<br>$$<br><br>So, all eigenvalues of $A A^{\\top}$ are nonzero and equal.<br><br><strong>Relationship between $A A^{\\top}$ and $A^{\\top} A$</strong><br><br>The non-zero eigenvalues of $A^{\\top} A \\in \\mathbb{R}^{n \\times n}$ and $A A^{\\top} \\in \\mathbb{R}^{m \\times m}$ are the same (with the same multiplicity).</p><ul><li>$A^{\\top} A$ has $m$ eigenvalues equal to $\\alpha$</li><li>Therefore, $n-m$ eigenvalues of $A^{\\top} A$ are 0</li></ul><p><br>Hence, the eigenvalues of $A^{\\top} A$ are:<br>$$<br>\\underbrace{\\alpha, \\ldots, \\alpha}_{m \\text { times }}, \\underbrace{0, \\ldots, 0}_{n-m \\text { times }}<br>$$<br><strong>Checking Each Option:</strong></p><ol style=\"list-style-type:upper-alpha\"><li>$A^{\\top} A$ has exactly zero distinct eigenvalues<br><br>False - It has two distinct eigenvalues: 0 and $\\alpha$</li><li>$A^{\\top} A$ has eigenvalue 0 with multiplicity $n-m$<br><br>True - Because rank of $A^{\\top} A$ is $m$</li><li>$\\alpha$ is an eigenvalue of $A^{\\top} A$ with multiplicity at least $n-2$<br><br>False - It appears $m$ times, and $m&lt;n \\Rightarrow m&lt;n-2$ is possible</li><li>$A^{\\top} A$ has exactly two distinct eigenvalues<br><br>True - Only 0 and $\\alpha$ appear as eigenvalues</li></ol></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543197\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"file:///C:/Users/acer/AppData/Local/Microsoft/Windows/Clipboard/HistoryData/%7B63141F40-1ABE-48B7-9F3D-0C253D7BE393%7D/%7B8848C664-A89B-4AD6-BB91-FEEB7748FE0A%7D/ResourceMap/%7B3D7EF118-4C61-4F99-9474-D1BC858CF275%7D\"><img alt=\"\" width=\"1200\" height=\"1532\" src=\"media/cc/cc33e559ebc1fbcc8a2a.jpg\"><br><br>$A^\\top A$ is an $n \\times n$ matrix, so it must have exactly $n$ total eigenvalues.</p></div></section></div><p><a href=\"https://gateoverflow.in/474178\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>There exists a $2 \\times 2$ real orthogonal matrix that has 2 as an eigenvalue.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There exists a $2 \\times 2$ real orthogonal matrix&nbsp; that has $i$ as an eigenvalue.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $A \\in \\mathbb{R}^{2 \\times 2}$ is orthogonal, then $\\|A x\\|=\\|x\\|$ for every $x \\in \\mathbb{R}^{2}$, where $\\|\\cdot\\|$ denotes the length of a vector.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $A \\in \\mathbb{R}^{2 \\times 2}$ is orthogonal, then all its eigenvalues are real.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"474200\"></a><div itemprop=\"text\"><p>A.&nbsp;<strong>False</strong>: Orthogonal matrices must have eigenvalues of absolute value 1 . So 2 cannot be an eigenvalue.<br>B.&nbsp;<strong>True</strong>: For example, the orthogonal matrix<br>$$<br>\\left[\\begin{array}{cc}<br>0 &amp; -1 \\\\<br>1 &amp; 0<br>\\end{array}\\right]<br>$$<br>has eigenvalues $\\pm i$. So such a matrix does exist.<br>C.<strong>True</strong>: Orthogonal matrices preserve the length of vectors. Here's a short proof:<br><br>Let $A$ be orthogonal, i.e., $A^{T} A=I$, and let $x \\in \\mathbb{R}^{2}$.<br>Then,<br>$$<br>\\|A x\\|=\\sqrt{(A x)^{T}(A x)}=\\sqrt{x^{T} A^{T} A x}=\\sqrt{x^{T} x}=\\|x\\|<br>$$<br><br>So, $\\|A x\\|=\\|x\\|$, i.e., length is preserved.<br>D.<strong>False</strong>:<br>$$<br>A=\\left[\\begin{array}{cc}<br>0 &amp; -1 \\\\<br>1 &amp; 0<br>\\end{array}\\right]<br>$$<br>is a $90^{\\circ}$ rotation matrix with eigenvalues $i$ and $-i$. Hence, not all orthogonal matrices have real eigenvalues.</p></div></section></div><p><a href=\"https://gateoverflow.in/474199\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given that the matrix<br>$$<br>A=\\left(\\begin{array}{ll}<br>\\alpha &amp; 1 \\\\<br>2 &amp; 3<br>\\end{array}\\right)<br>$$<br>has 1 as one of its eigenvalues, what are the trace and determinant of the matrix?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Trace $=4$, Determinant $=5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Trace $=5$, Determinant $=4$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Trace $=6$, Determinant $=3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Trace $=3$, Determinant $=6$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"474193\"></a><div itemprop=\"text\"><p>Let the other eigenvalue be $\\lambda$.<br>From the properties of eigenvalues for a $2 \\times 2$ matrix:</p><ul><li>Sum of eigenvalues $=$ Trace of the matrix $=\\alpha+3$</li><li>Product of eigenvalues $=$ Determinant of the matrix $=3 \\alpha-2$</li></ul><p><br>So,<br>$$<br>1+\\lambda=\\alpha+3 \\quad(\\text { from trace }) \\quad \\Rightarrow \\quad \\lambda=\\alpha+2<br>$$<br><br>Also,<br>$$<br>1 \\cdot \\lambda=3 \\alpha-2 \\quad \\text { (from determinant) } \\quad \\Rightarrow \\quad \\lambda=3 \\alpha-2<br>$$<br><br>Equating equations (1) and (2):<br>$$<br>\\alpha+2=3 \\alpha-2 \\Rightarrow 4=2 \\alpha \\Rightarrow \\alpha=2<br>$$<br><br>Now substitute $\\alpha=2$ back into the matrix to compute:</p><ul><li>Trace:</li></ul><p>$$<br>\\alpha+3=2+3=5<br>$$</p><ul><li>Determinant:</li></ul><p>$$<br>3 \\alpha-2=3 \\cdot 2-2=6-2=4<br>$$</p></div></section></div><p><a href=\"https://gateoverflow.in/474192\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Pick out the true statements from the following:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For any two $n \\times n$ matrices $A$ and $B$,<br>$$ (A+B)^{2}=A^{2}+2 A B+B^{2} $$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There exist $n \\times n$ matrices $A$ and $B$ such that<br>$$ A B-B A=I $$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For any invertible $n \\times n$ matrix $B$, and any matrix $A$.<br>$$ \\operatorname{tr}(A)=\\operatorname{tr}\\left(B^{-1} A B\\right) $$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $A$ is a real symmetric matrix, then all its eigenvalues are real.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"474191\"></a><div itemprop=\"text\"><p>(a) The formula<br>$$<br>(A+B)^{2}=A^{2}+2 A B+B^{2}<br>$$<br>only holds if $A B=B A$. In general,<br>$$<br>(A+B)^{2}=A^{2}+A B+B A+B^{2}<br>$$<br><br>Since matrix multiplication is not commutative in general, this identity does not hold for arbitrary matrices.<br><strong>Conclusion</strong>: False<br>(b) Suppose there exist matrices $A$ and $B$ such that $A B-B A=I$. Taking the trace of both sides:<br>$$<br>\\operatorname{tr}(A B-B A)=\\operatorname{tr}(A B)-\\operatorname{tr}(B A)=0<br>$$<br>(because $\\operatorname{tr}(A B)=\\operatorname{tr}(B A)$ for any square matrices)<br>But $\\operatorname{tr}(I)=n \\neq 0$, which leads to a contradiction.<br><strong>Conclusion:</strong> False<br>(c) This is a standard identity. The trace is invariant under similarity transformations:<br>$$<br>\\operatorname{tr}(A)=\\operatorname{tr}\\left(B^{-1} A B\\right)<br>$$<br>if $B$ is invertible.<br><strong>Conclusion</strong>: True<br>(d) This is a known result from linear algebra. All eigenvalues of a real symmetric matrix are real. This follows from the Spectral Theorem.</p></div></section></div><p><a href=\"https://gateoverflow.in/474190\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be a $4 \\times 4$ real matrix with eigenvalues $-1,1,1,-2$. Define<br>$$<br>B=A^{4}-5 A^{2}+5 I<br>$$<br>Then the value of $\\operatorname{tr}(A+B)$ is:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&nbsp;$0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-12$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$9$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"474185\"></a><div itemprop=\"text\">We are given the eigenvalues of $A$ as:<br>\n$$<br>\n\\lambda_{1}=-1, \\quad \\lambda_{2}=1, \\quad \\lambda_{3}=1, \\quad \\lambda_{4}=-2<br>\n$$<br>\n<br>\nSince $B=A^{4}-5 A^{2}+5 I$, and polynomials of a matrix apply to its eigenvalues, the eigenvalues of $B$ are given by:<br>\n$$<br>\n\\mu_{i}=\\lambda_{i}^{4}-5 \\lambda_{i}^{2}+5<br>\n$$<br>\n<br>\nWe compute:<br>\n$$<br>\n\\begin{aligned}<br>\n\\text { For } \\lambda=-1: &amp; \\mu=(-1)^{4}-5(-1)^{2}+5=1-5+5=1 \\\\<br>\n\\text { For } \\lambda=1: &amp; \\mu=1^{4}-5(1)^{2}+5=1-5+5=1 \\\\<br>\n\\text { For } \\lambda=-2: &amp; \\mu=(-2)^{4}-5(-2)^{2}+5=16-20+5=1<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nSo, all eigenvalues of $B$ are equal to 1 .<br>\nNow, eigenvalues of $A+B$ are simply:<br>\n$$<br>\n\\lambda_{i}+\\mu_{i}<br>\n$$<br>\nwhich gives:<br>\n$$<br>\n-1+1=0, \\quad 1+1=2, \\quad 1+1=2, \\quad-2+1=-1 .<br>\n$$<br>\n<br>\nHence, the trace is:<br>\n$$<br>\n\\operatorname{tr}(A+B)=0+2+2+(-1)=3<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"537694\"></a><div itemprop=\"text\"><p>Ignore the<img alt=\"Ans\" width=\"1200\" height=\"1291\" src=\"media/a0/a0cd1dee928e1744eb1a.jpg\"> over writing part&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/474184\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be an $n \\times n$ real matrix such that the set of all its non-zero eigenvalues has exactly $r$ elements. Which of the following statements is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\operatorname{rank}(A) \\leq r$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $r=0$, then $\\operatorname{rank}(A)&lt;n-1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\operatorname{rank}(A) \\geq r$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A^2$ has $r$ non-zero eigenvalues</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"474183\"></a><div itemprop=\"text\"><p>Option (A): $\\operatorname{rank}(A) \\leq r$<br>Explanation: This is false. The rank of a matrix is determined by the number of linearly independent columns (or rows), and is not necessarily limited by the number of different non-zero eigenvalues.<br><br>Example: Let<br>$$<br>A=\\left[\\begin{array}{ll}<br>2 &amp; 0 \\\\<br>0 &amp; 2<br>\\end{array}\\right]<br>$$<br><br>Then eigenvalues of $A$ are $2$,$2$, so $r=1$. But $\\operatorname{rank}$</p><ol style=\"list-style-type:upper-alpha\"><li>$=2&gt;r$<br>$$<br>\\Rightarrow \\text { Option } \\mathrm{A} \\text { is false.}<br>$$<br><br>&nbsp;</li><li>&nbsp;If $r=0$, then $\\operatorname{rank}(A)&lt;n-1$<br>Explanation: We know<br>$$<br>\\operatorname{rank}(A)=n-\\operatorname{dim}(\\operatorname{Null}(A))<br>$$<br><br>If all eigenvalues are zero, then $\\operatorname{dim}(\\operatorname{Null}(A)) \\geq 1$. But it can be as small as $1$ , so it's possible that:<br>$$<br>\\operatorname{rank}(A)=n-1<br>$$<br><br>Hence, the inequality $\\operatorname{rank}(A)&lt;n-1$ is not always true. It can be exactly $n-1$.<br>$$<br>\\Rightarrow \\text { Option B is false. }<br>$$<br><br>&nbsp;</li></ol><p>C.&nbsp; $\\operatorname{rank}(A) \\geq r$<br>&nbsp; &nbsp; Explanation: Let the order of $A$ be $n$, and suppose $A$ has exactly $r$ non-zero eigenvalues.</p><ul><li>The algebraic multiplicity (A.M.) of eigenvalue $0$ is $n-r$</li><li>The geometric multiplicity (G.M.) of $0$ is:</li></ul><p>$$<br>\\operatorname{dim}(\\text { null space of } A)=n-\\operatorname{rank}(A)<br>$$<br><br>Since G.M. $\\leq$ A.M., we get:<br>$$<br>n-\\operatorname{rank}(A) \\leq n-r \\Rightarrow-\\operatorname{rank}(A) \\leq-r \\Rightarrow \\operatorname{rank}(A) \\geq r<br>$$<br>$\\Rightarrow$ Option C is <strong>true.</strong><br><br>&nbsp;</p><ol style=\"list-style-type:upper-alpha\"><li>$A^{2}$ has $r$ non-zero eigenvalues<br>Explanation: If $\\lambda$ is an eigenvalue of $A$, then $\\lambda^{2}$ is an eigenvalue of $A^{2}$. But squaring can cause distinct eigenvalues to become equal, reducing the count.<br>Example:<br>$$<br>A=\\left[\\begin{array}{cc}<br>1 &amp; 0 \\\\<br>0 &amp; -1<br>\\end{array}\\right]<br>$$<br><br>Eigenvalues of $A: 1,-1 \\Rightarrow r=2$<br>Eigenvalues of $A^{2}: 1,1 \\Rightarrow$ only 1 non-zero eigenvalue<br>$\\Rightarrow$ Option D is<strong> false.</strong></li></ol></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"542344\"></a><div itemprop=\"text\"><pre>Let n be 4. We have 4x4 matrix with exactly r non zero eigen values.\nLet r = 2\n=&gt; number of eigen values as 0 will be 4-2 =2.\n\nSo we have two eigen values as 0. ( L is eigen value ) \n\n(L -0) ^ 2. It means we will have atmost 2 LI eigen vectors corresponding to lamba = 0.\n\nMeans LI eigen vectors can be 1 or 2.\n\nCase1 - when number of #LI eigen vector =1 , or we can say number of free variable in A = 1.\nhence rank = 4-1 =3.\n\nCase 2 - when number of #LI eigen vectors =2 or we can say number of free variable in A =2.\nhence rank = 4-2 =2.\n\nwe took r=2 so rank(A) is either 2 or 3 =&gt; rank(A) &gt;=r\nso option C is right.</pre></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543199\"></a><div itemprop=\"text\"><p>for option C , the A.M. of the eigenvalue of 0 is not n-r, counterexample :<br><br>let 3*3 matrix , with eigen values as 5,5,0 then non-zero set will be {5} , therefore<br><br>r = 1, A.M. of eigenvalue of 0 = 1, (which is not equal to n - r that is 3-1)<br><br>correct way:&nbsp;</p><ul><li><p data-path-to-node=\"15,0,0\">Let $k$ be the sum of the Algebraic Multiplicities of all non-zero eigenvalues.</p></li><li><p data-path-to-node=\"15,1,0\">Because there are $r$ distinct non-zero eigenvalues in the set, $k$ must be greater than or equal to $r$ ($k \\ge r$).</p></li><li><p data-path-to-node=\"15,2,0\">The A.M. of the eigenvalue $0$ is exactly $n - k$.</p></li><li><p data-path-to-node=\"15,3,0\">The G.M. of the eigenvalue $0$ is &nbsp;= n - $\\text{rank}(A)$.</p></li><li><p data-path-to-node=\"15,4,0\">Now we know : $\\text{G.M.} \\le \\text{A.M.}$</p><p>$$n - \\text{rank}(A) \\le n - k$$</p><p>$$-\\text{rank}(A) \\le -k$$</p><p>$$\\text{rank}(A) \\ge k$$</p></li><li><p data-path-to-node=\"15,5,0\">Since $k \\ge r$, :</p><p>$$\\text{rank}(A) \\ge k \\ge r \\implies \\text{rank}(A) \\ge r$$</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/474182\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ and $B$ be $n \\times n$ real matrices, and let<br>$$<br>C=\\left(\\begin{array}{ll}<br>A &amp; B \\\\<br>B &amp; A<br>\\end{array}\\right)<br>$$<br>Which of the following statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $\\lambda$ is an eigenvalue of $A+B$, then $\\lambda$ is an eigenvalue of $C$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $\\lambda$ is an eigenvalue of $A-B$, then $\\lambda$ is an eigenvalue of $C$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $\\lambda$ is an eigenvalue of $A$ or $B$, then $\\lambda$ is an eigenvalue of $C$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All eigenvalues of $C$ are real.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"474181\"></a><div itemprop=\"text\"><p>We are given:<br>$$<br>C=\\left(\\begin{array}{ll}<br>A &amp; B \\\\<br>B &amp; A<br>\\end{array}\\right), \\quad \\text { where } A, B \\in \\mathbb{R}^{n \\times n}<br>$$<br><br>Let $\\lambda$ be an eigenvalue of $C$ with eigenvector $\\binom{x}{y}$. Then,<br>$$<br>C\\binom{x}{y}=\\left(\\begin{array}{ll}<br>A &amp; B \\\\<br>B &amp; A<br>\\end{array}\\right)\\binom{x}{y}=\\binom{A x+B y}{B x+A y}=\\lambda\\binom{x}{y}<br>$$<br><br>This gives the system of equations:<br>$$<br>\\left\\{\\begin{array}{l}<br>A x+B y=\\lambda x \\\\<br>B x+A y=\\lambda y<br>\\end{array}\\right.<br>$$<br><br>Now, add and subtract these two equations:<br><strong>Adding:</strong><br>$$<br>(A x+B y)+(B x+A y)=\\lambda(x+y) \\Rightarrow(A+B)(x+y)=\\lambda(x+y)<br>$$<br><br><strong>Subtracting:</strong><br>$$<br>(A x+B y)-(B x+A y)=\\lambda(x-y) \\Rightarrow(A-B)(x-y)=\\lambda(x-y)<br>$$<br><br>Hence, any eigenvalue $\\lambda$ of $C$ must be an eigenvalue of either $A+B$ or $A-B$, depending on whether $x+y \\neq 0$ or $x-y \\neq 0$.<br><br>Conversely, for any eigenvalue of $A+B$ or $A-B$, we can construct a vector $\\binom{x}{y}$ that satisfies the above system, and thus it will also be an eigenvalue of $C$.<br><br>Now evaluate the options:<br>-</p><ol style=\"list-style-type:upper-alpha\"><li>If $\\lambda$ is an eigenvalue of $A+B$, then $\\lambda$ is also an eigenvalue of $C$.<br><strong>True</strong><br>&nbsp;</li><li>If $\\lambda$ is an eigenvalue of $A-B$, then $\\lambda$ is also an eigenvalue of $C$.<br><strong>True</strong><br>&nbsp;</li><li>If $\\lambda$ is an eigenvalue of $A$ or $B$, this does not imply it will appear in $A+B$ or $A-B$, so not necessarily in $C$. <strong>False</strong><br>&nbsp;</li><li>Unless $A=A^{T}$ and $B=B^{T}$, the matrix $C$ may not be symmetric. So eigenvalues of $C$ may not be real. <strong>False</strong></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/474180\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 21.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 4,
+  "types": {
+   "MCQ": 9,
+   "NAT": 2,
+   "MSQ": 4
+  },
+  "withoutKey": 12
+ }
+}

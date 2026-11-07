@@ -1,0 +1,2211 @@
+{
+ "v": 1,
+ "id": "da-easy-2025-001",
+ "title": "Advance Level Test-1 Full Syllabus GATE 2025 DA",
+ "sourceTitle": "Advance Level Test-1 Full Syllabus GATE 2025 DA",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2025",
+ "num": 1,
+ "category": "advance",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 10800,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 65",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/001_Advance Level Test-1 Full Syllabus GATE 2025 DA.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +2 / -0.66",
+   "html": "<p>\n\tIf <img align=\"absmiddle\" alt=\"\" src=\"media/fc/fc0908e8d510635f2c50.png\" /> and y are positive real numbers such that <img align=\"absmiddle\" alt=\"\" src=\"media/18/18c6c08d95bc3993e487.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20"
+    },
+    {
+     "key": "B",
+     "html": "6"
+    },
+    {
+     "key": "C",
+     "html": "10"
+    },
+    {
+     "key": "D",
+     "html": "8"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/c5/c5172bd1bf2bc7e3f143.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +2 / -0.66",
+   "html": "<p>\n\tA mixture <em>P</em> is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture <em>P</em> and replaced with same amount of cocoa powder to form a new mixture <em>Q</em>. If the ratio of coffee and cocoa in the mixture <em>Q</em> is 16 : 9, then the ratio of cocoa in mixutre <em>P</em> to that in mixture <em>Q</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "16 : 9"
+    },
+    {
+     "key": "B",
+     "html": "9 : 16"
+    },
+    {
+     "key": "C",
+     "html": "7 : 12"
+    },
+    {
+     "key": "D",
+     "html": "5 : 9"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/a3/a389ea19a5ca98c06834.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +2 / -0",
+   "html": "<p>Three classes A, B and C take a class test.<br />\nThe average score in class A is 83.<br />\nThe average score in class B is 76.<br />\nThe average score in class C is 85.<br />\nThe average score of all students in classes A and B is 79.<br />\nThe average score of all students in classes B and C is 81.<br />\nThe average score for all the three classes is ______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    81.5,
+    81.5
+   ],
+   "answerText": "81.50",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>81.50</p>\n\n<p><img alt=\"\" src=\"media/20/20c584133968e8ca1323.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +1 / -0",
+   "html": "<p>The value of <img align=\"absmiddle\" alt=\"\" src=\"media/88/88b6a52f05398cfbd42c.png\" /> is _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4999,
+    5001
+   ],
+   "answerText": "5000",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>5000 (4999 - 5001)</p>\n\n<p><img alt=\"\" src=\"media/e2/e259c205b9f58cd79a33.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +1 / -0.33",
+   "html": "<p>\n\t<strong>Statements :</strong><br />\n\t1. Some cars are bikes<br />\n\t2. Some bikes are pens<br />\n\t3. All laptops are bikes<br />\n\t<strong>Conclusions :</strong><br />\n\tI. All laptops are pens<br />\n\tII. Some laptops are cars<br />\n\tIII. Some cars are pens<br />\n\tWhich one of the following is correct with respect to the above statements and conclusions?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only I follows"
+    },
+    {
+     "key": "B",
+     "html": "Only II follows"
+    },
+    {
+     "key": "C",
+     "html": "Only I and II follows"
+    },
+    {
+     "key": "D",
+     "html": "None of the conclusions follow"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/60/60660dd86848fb96f187.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +2 / -0",
+   "html": "<p>\n\tThere are multiple routes to reach from node 1 to node 2, as shown in the network.</p>\n<p>\n\t<img alt=\"\" src=\"media/48/48aeb93d99579ae11779.png\" /></p>\n<p>\n\tThe cost of travel on an edge between two nodes is given in rupees. Nodes ‘<em>a</em>’, ‘<em>b</em>’, ‘<em>c</em>’, ‘<em>d</em>’, ‘<em>e</em>’, and ‘<em>f</em>’ are toll booths. The toll price at toll booths marked ‘<em>a</em>’ and ‘<em>e</em>’ is Rs. 200, and is Rs. 100 for the other toll booths. Which is the cheapest route from node 1 to node 2?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t1-<em>a</em>-<em>c</em>-2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t1-<em>f</em>-<em>b</em>-2</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t1-<em>b</em>-2</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t1-<em>f</em>-<em>e</em>-2</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/ea/ea9d4dab4e1a51e2d186.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +2 / -0.66",
+   "html": "<p>\n\tHow many triangles are there in the given figure?</p>\n<p>\n\t<img alt=\"\" src=\"media/1e/1e29894e8b40c33f448c.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10"
+    },
+    {
+     "key": "B",
+     "html": "12"
+    },
+    {
+     "key": "C",
+     "html": "11"
+    },
+    {
+     "key": "D",
+     "html": "9"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/a9/a90425aebee9031b2cfa.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +1 / -0.33",
+   "html": "<p>\n\tSelect the correct mirror image of the given figure when the mirror is placed at ‘AB’ as shown below.</p>\n<p>\n\t<img alt=\"\" src=\"media/71/7156e2298563df4fa893.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d2/d2560203196ca5082df7.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/21/2132bba334529cda71bc.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7c/7c3bd9530bc3523f913a.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7c/7c24be38adcd0e13e923.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +1 / -0.33",
+   "html": "<p>\n\tMy India by Corbett deals _________ the author’s familiarity with and love of India.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "at"
+    },
+    {
+     "key": "B",
+     "html": "with"
+    },
+    {
+     "key": "C",
+     "html": "in"
+    },
+    {
+     "key": "D",
+     "html": "of"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • MECHANICAL ENGINEERING • Expert • +1 / -0.33",
+   "html": "<p>\n\tWhich of these words most nearly means the word provided?<br />\n\t<strong>VOLUNTARY</strong></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "willing"
+    },
+    {
+     "key": "B",
+     "html": "charity"
+    },
+    {
+     "key": "C",
+     "html": "prisoner"
+    },
+    {
+     "key": "D",
+     "html": "careless"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tVoluntary means done by one&rsquo;s own will, or willing</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhat is the Standard deviation of a uniformly distributed random variable between –3 and 9.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f3/f3d40401189451ab5886.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0c/0cd2ea696f0f866881b1.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/26/26b7fe3332604883f897.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/f3/f32e0b9126008dd21bb8.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIf <em>A</em> =  <img align=\"absmiddle\" alt=\"\" src=\"media/0c/0ca162be1b55dd910408.png\" /> then <em>A</em> adj(<em>A</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6b/6b0879a5a39eb7765150.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d3/d3fd960d75ef21c1086b.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/de/deb4591ae5913ee7c391.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b5/b5a0130de4ecb4aa6333.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/cb/cb47f96ce7137c0df3cf.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following Python code:</p>\n<p>\n\t<img alt=\"\" src=\"media/93/93109bf5699b975fb651.png\" /></p>\n<p>\n\tWhat is the output of above code?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/38/3865b2cf5d38b2c57366.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/45/45d740493c5385538ddf.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/69/692927cafa0fa6be2574.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c8/c8b1ab8950369cb0233e.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tIf <em>X</em>, <em>Y</em>, <em>Z</em> are mutually exclusive and exhaustive events associated with a random experiment and <em>P</em>(<em>Y</em>) = 0.4<em>P</em>(<em>X</em>) and <em>P</em>(<em>Z</em>) = 0.3<em>P</em>(<em>X</em>), then <em>P</em>(<em>X</em>) is ________.</p>\n<p>\n\t(Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.55,
+    0.66
+   ],
+   "answerText": "0.58 [0.55 - 0.66]",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.58 [0.55 - 0.66]</p>\n<p>\n\t<img alt=\"\" src=\"media/ca/ca13249cfea94726d1da.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tThe value of <img align=\"absmiddle\" alt=\"\" src=\"media/28/28c245efc29cc9ccf6c7.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/48/48c73d1831a93eae0d4b.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/84/84c0ef3477af32e28882.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/73/734db9253cf97da0e6f6.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/8e/8ef3f08ecc970c117f58.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/9e/9e1c42ed53a5f24b8521.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tGiven a min heap tree with n elements, find the time taken to get the median element of these <em>n</em> elements using the most efficient technique?<br />\n\t[The algorithm can use auxiliary space of Ο(<em>n</em>)].</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tθ(<em>n</em><sup>2</sup>)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tθ(<em>n</em> log <em>n</em>)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tθ(<em>n</em>)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tθ(<em>n</em><sup>2</sup> log <em>n</em>)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tPerform an inorder traversal and store all the elements of the min heap tree in an array.<br />\n\tNow, find the median of this unsorted array using the median of medians algorithm which takes &Omicron;(<em>n</em>) time in worst case.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tWhich of the following techniques is used for dimension reduction?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Overfitting"
+    },
+    {
+     "key": "B",
+     "html": "Underfitting"
+    },
+    {
+     "key": "C",
+     "html": "Feature extraction"
+    },
+    {
+     "key": "D",
+     "html": "Feature selection"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : SMA* gives the optimal solution if reachable; otherwise, it returns the best reachable optimal solution.<br />\n\t<em>S</em><sub>2</sub> : Greedy Best-First Search is incomplete even if the search space is finite.<br />\n\tWhich of the above statements is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; SMA* is designed to find an optimal solution if one exists; if the optimal solution is not reachable, it returns the best reachable solution. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; Greedy Best-First Search can get stuck in local optima and may fail to find a solution even in finite search spaces, making it incomplete. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the relation <em>R</em>(A, B, C, D, E, F) holds following FD’s<br />\n\tAB → C, C → D, D → E, E → F, F → B<br />\n\tWhat will be the total number of candidate keys presents in above relation ?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "5"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\t(AB)<sup>+</sup> = A B C D E F<br />\n\t(AC)<sup>+</sup> = C D E A F B<br />\n\t(AD)<sup>+</sup> = D E A F B C<br />\n\t(AF)<sup>+</sup> = A F B C D E<br />\n\t(AE)<sup>+</sup> = A E F B C D<br />\n\tThere are 5 candidate keys are present for given relation.</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements are correct?<br />\n\t<em>S</em><sub>1</sub> : Binary search on array take less time than binary search on linked list.<br />\n\t<em>S</em><sub>2</sub> : Merge sort on array has more space complexity than merge sort on linked list.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tBinary search on array take &Omicron;(log (<em>n</em>)) time because random access is possible on array but binary search on linked list take &Omicron;(<em>n</em>) time because random access is not possible. Merge sort on array has more space complexity because it is outplace (i.e. take extra space) but merge sort on linked list take less space because it is inplace (i.e. not take extra space).</p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : In a symmetric distribution, the value of mean, mode and median are the same.<br />\n\t<em>S</em><sub>2</sub> : In positively skewed distribution: Mean > Mode > Median.<br />\n\tWhich of the above statements is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/e6/e65969e1b5afc351a601.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tThe eigen value of the matrix <em>A</em> = <img align=\"absmiddle\" alt=\"\" src=\"media/8e/8e3f2d0bb682a3c3d22e.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–3 and –8"
+    },
+    {
+     "key": "B",
+     "html": "3 and –8"
+    },
+    {
+     "key": "C",
+     "html": "3 and 8"
+    },
+    {
+     "key": "D",
+     "html": "8 and –3"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/a1/a175394e3eadea65e292.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following probability mass function (p.m.f.) of a random variable <em>X</em>.</p>\n<p>\n\t<img alt=\"\" src=\"media/46/46e6d6c0289f04bfeea2.png\" /></p>\n<p>\n\tIf <em>p</em> = 0.4, then the variance of <em>X</em> is ________. (Upto 3 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.009,
+    2.009
+   ],
+   "answerText": "2.009",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.009</p>\n<p>\n\t<img alt=\"\" src=\"media/2d/2d8ae5e1461fdd94e660.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : Decision trees use mean absolute error to split nodes in regression tasks.<br />\n\t<em>S</em><sub>2</sub> : The Naive Bayes algorithm assumes all features are dependent given the class label.<br />\n\tWhich of the above statements is/are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; Decision trees typically use the Mean Squared Error (MSE) or other criteria like Mean Absolute Error (MAE) for regression tasks, but the common practice is to use MSE for splitting. So, <em>S</em><sub>1</sub> is incorrect.<br />\n\t&bull; The Naive Bayes algorithm indeed assumes that all features are independent given the class label. So, <em>S</em><sub>2</sub> is incorrect.</p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : Systematic sampling has higher accuracy than simple random sampling.<br />\n\t<em>S</em><sub>2</sub> : PCA is used to classify data based on pre-defined labels.<br />\n\tWhich of the above statements is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\t&bull; Systematic sampling can provide higher accuracy than simple random sampling in certain contexts, particularly when the population has a regular pattern. However, it&rsquo;s essential to note that the effectiveness can vary based on the population&rsquo;s structure. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; PCA is used for dimensionality reduction by transforming the data into a new coordinate system based on variance, but it does not classify data based on pre-defined labels. It can aid classification tasks but does not perform classification itself. So, <em>S</em><sub>2</sub> is incorrect.</p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Merge sort using a linked list is efficient compared to array in terms of space complexity.<br />\n\t<em>S</em><sub>2</sub> : Insertion sort has the least number of swap operation than selection sort while sorting an input.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/fa/fa85851f56f6b35c9760.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following, five binary string each of length 8 bits:<br />\n\t11111011, 01101010, 01010010, 11011011, 10011010<br />\n\tA hash table of size S = 8 (0 to 7) using open addressing for hashing the binary strings. Assume finding an empty slot is a successful probe, while non-empty is a unsuccessful probe. The total number of unsuccessful probes needed using linear probing to hash all strings are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t8</p>\n<p>\n\t<img alt=\"\" src=\"media/82/82644d7e3f342e5a0769.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIf <em>P</em>(<em>A</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/89/899b17823d0c21fb9255.png\" /> then <em>P</em>(<em>A</em> ∩ <em>B</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/df/df26a27f60b0bb8f4890.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c1/c16011b06236a5c2fd14.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/91/919841f76d720ebdd25d.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a7/a72cf3ad82e481a3bfdf.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/6b/6b4f3772fb153bc00e36.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In a max-heap tree, the minimum value will always lie in one the leaf nodes."
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tWorst cast time complexity of searching an element in a binary search tree is Ο(<em>n</em>).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tIn an AVL tree, the smallest element can be found in Ο(log <em>n</em>) time.</p>"
+    },
+    {
+     "key": "D",
+     "html": "Stack will be used to implement depth first tree traversal."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c, d)</p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : The snowflake schema normalizes the dimension tables but keeps the fact tables unchanged.<br />\n\t<em>S</em><sub>2</sub> : The snowflake schema results in a more complex structure with multiple related dimension tables.<br />\n\t<em>S</em><sub>3</sub> : The snowflake schema requires less joins during query execution compared to the star schema.<br />\n\tWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\t&bull; Dimension tables are split into multiple related tables to reduce redundancy, while fact tables typically remain unchanged. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; Normalization leads to a more intricate design, requiring multiple tables for each dimension. So, <em>S</em><sub>2</sub> is correct.<br />\n\t&bull; More joins are necessary to retrieve data due to the normalization of dimension tables. So, <em>S</em><sub>3</sub> is incorrect.</p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : Gradient Descent can converge to a local minimum for non-convex functions, which may not be global.<br />\n\t<em>S</em><sub>2</sub> : Stochastic Gradient Descent (SGD) updates weights individually for each training instance.<br />\n\tWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; Gradient Descent can converge to a local minimum for non-convex functions, which may not be the global minimum. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; Stochastic Gradient Descent (SGD) updates the weights for each training instance individually, using only one sample (or a small batch) at a time to compute the gradient. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following predicates.</p>\n<p>\n\t<img alt=\"\" src=\"media/c4/c44f6c3b3f147915b5b9.png\" /></p>\n<p>\n\tWhich of the following equivalent predicate logic for the following statement :<br />\n\t“There does not exist a student who has written a GATE in every stream.”</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bf/bf5419a578f5ea344163.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/08/0804490498df582c9171.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ec/ec71dc43d8a4f3670ceb.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b3/b37eb96db7c2ede599b8.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/4c/4cf056728b0ec1a05e7a.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIf A is 3 × 3 matrix and Trace <em>A</em> = 9, |<em>A</em>| = 24 and one of the eigen values is 3, then sum of other eigen values is ________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5"
+    },
+    {
+     "key": "B",
+     "html": "8"
+    },
+    {
+     "key": "C",
+     "html": "6"
+    },
+    {
+     "key": "D",
+     "html": "9"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/d2/d25e99fc815ba43b7189.png\" /></p>"
+  },
+  {
+   "n": 34,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tTaylor series expansion of <img align=\"absmiddle\" alt=\"\" src=\"media/3e/3ef12b4bfa7af8d25770.png\" /> is ________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5f/5f2d02c6bb126421dc18.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6b/6bd6d273113d00989433.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5b/5bb8239a176d7b852d9a.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ca/ca196063b9bc439d67d0.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/f5/f5fc951bbd61f8869967.png\" /></p>"
+  },
+  {
+   "n": 35,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tAn unbiased coin is tossed 5 times, what is the probability of getting heads exactly 4 times?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c0/c06fdaeb06915d45f74f.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1e/1e1096765b0031936a6a.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e4/e4d180b11738e593f020.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4c/4cf23ef1adef0bab42f7.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/73/7366f781b6a9c5df8b33.png\" /></p>"
+  },
+  {
+   "n": 36,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following recurrence relation:</p>\n<p>\n\t<img alt=\"\" src=\"media/d7/d758552481ac1e74933e.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tΟ(<em>n</em><sup>3</sup>)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tΟ(<em>n</em> log <em>n</em>)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tΟ(<em>n</em><sup>2</sup>)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tΟ((log <em>n</em>)<sup>2</sup>)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/a1/a19426ca31e2344eba0e.png\" /></p>"
+  },
+  {
+   "n": 37,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tA small factory products an average of 5 defective items per day. What is the probability that exactly 7 defective items will be produced tomorrow?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.18"
+    },
+    {
+     "key": "B",
+     "html": "0.15"
+    },
+    {
+     "key": "C",
+     "html": "0.10"
+    },
+    {
+     "key": "D",
+     "html": "0.12"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/75/752ccaf4d524df85f418.png\" /></p>"
+  },
+  {
+   "n": 38,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tA polynomial Kernel SVM learned from a training set achieves 100% accuracy. Which of the following models trained using the same training set will also achieve 100% accuracy?<br />\n\t<strong>I.</strong> k-Nearest Neighbor (<em>k</em>-NN)<br />\n\t<strong>II.</strong> Linear Discriminant Analysis (LDA)<br />\n\t<strong>III.</strong> Decision Tree<br />\n\t<strong>IV.</strong> Logistic Regression</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "I and III only"
+    },
+    {
+     "key": "B",
+     "html": "II and III only"
+    },
+    {
+     "key": "C",
+     "html": "III and IV only"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/93/9366ccfc70b4c5bb0096.png\" /></p>"
+  },
+  {
+   "n": 39,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider relation R(A, B, C, D, E, F, H) and the following functional dependencies:</p>\n<p>\n\t<img alt=\"\" src=\"media/fc/fc4f465430d09b819a29.png\" /></p>\n<p>\n\tWhich of the following is minimal cover of the given functional dependencies?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "H → F, E → D, H → C, HD → E, BD → A"
+    },
+    {
+     "key": "B",
+     "html": "H → F, E → D, H → C, H → E, BD → A"
+    },
+    {
+     "key": "C",
+     "html": "H → F, E → D, H → C, HD → C, BD → A"
+    },
+    {
+     "key": "D",
+     "html": "H → F, H → D, E → D, H → C, BD → A"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\tChecking BD &rarr; A, B+ = B, D+ = D, hence BD &rarr; A is essential<br />\n\tChecking HD &rarr; C, HD &rarr; E<br />\n\tH+ = HFDCE, hence it can be decomposed to H &rarr; C, H &rarr; E so, the dependencies remained are<br />\n\tH &rarr; F, H &rarr; D, E &rarr; D, H &rarr; C, H &rarr; E, BD &rarr; A<br />\n\tNow, {H &rarr; E, E &rarr; D} by transitive rule H &rarr; D can be obtained, hence minimal cover is H &rarr; F,<br />\n\tE &rarr; D, H &rarr; C, H &rarr; E, BD &rarr; A.</p>"
+  },
+  {
+   "n": 40,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Inorder traversal of a binary tree is always sorted order."
+    },
+    {
+     "key": "B",
+     "html": "Python programming does not support machine learning applications."
+    },
+    {
+     "key": "C",
+     "html": "Towers of Hanoi applications internally uses queue data structure."
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>"
+  },
+  {
+   "n": 41,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tLet <em>A</em><sub><em>n</em> × <em>n</em></sub> be invertible matrix with real entries whose rows sums are all equal to <em>C</em>. Which of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Every row in the matrix of 2<em>A</em> sum to 2<em>C</em>.<br />\n\t<em>S</em><sub>1</sub> : Every row in the matrix of <em>A</em><sup>–1</sup> sum to <em>C</em><sup>–1</sup>.<br />\n\t<em>S</em><sub>1</sub> : Every row in the matrix of <em>A</em><sup>2</sup> sum to <em>C</em><sup>2</sup>.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/7c/7cd21f54db6d737a3c7c.png\" /></p>"
+  },
+  {
+   "n": 42,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tFind the value of is <img align=\"absmiddle\" alt=\"\" src=\"media/a3/a3a3b9014cb280d1254e.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d4/d401d6f01927fb34b22b.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/de/de5314246b15b3c828d7.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9f/9f74254f45dd61525a82.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/99/9975235d7e604efc639b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/d4/d470b0e52519ebaddc83.png\" /></p>"
+  },
+  {
+   "n": 43,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tHow many of the following statements is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Relational calculus is equivalent to relational algebra in its capabilities."
+    },
+    {
+     "key": "B",
+     "html": "Relational calculus is stronger than relational algebra."
+    },
+    {
+     "key": "C",
+     "html": "Relational calculus is weaker than relation algebra."
+    },
+    {
+     "key": "D",
+     "html": "Relational calculus is based on predicate calculus of formal logic."
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, d)<br />\n\t{Every query which can express using basic RA} = {Every query which can express using relational calculus safe TRC/safe DRC}</p>"
+  },
+  {
+   "n": 44,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tLet <img align=\"absmiddle\" alt=\"\" src=\"media/f7/f7d86cea4a7d90856697.png\" /> be a predicate which denotes that <img align=\"absmiddle\" alt=\"\" src=\"media/78/78e6405cee078dc774a9.png\" /> be a predicate which denotes that <img align=\"absmiddle\" alt=\"\" src=\"media/8c/8cd406faedfae63fad8f.png\" /> is Q.<br />\n\tWhich of the following first-order logic sentences does not represent the statements “not every <em>P </em>is <em>Q</em>”?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/68/684c73f4018ba14736e2.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5a/5aeb310b05bb85b50ca5.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/85/85ed6a33c6c9cc25a22a.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c2/c2cda2520dff02244640.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/96/96454d8c4114cbdf8c8d.png\" /></p>"
+  },
+  {
+   "n": 45,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : The relax function never increases any shortest path estimate <img align=\"absmiddle\" alt=\"\" src=\"media/60/602e1b14300804fb5412.png\" /><br />\n\t<em>S</em><sub>2</sub> : Bellman Ford algorithm for every weighted graph which contain two vertices u and <img align=\"absmiddle\" alt=\"\" src=\"media/93/93850f324cb323dab7c0.png\" /> always produce a shortest path.<br />\n\tWhich of the above statement is incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/78/78fa0f81b588e55e67ba.png\" /></p>"
+  },
+  {
+   "n": 46,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tMohan draws a card from a well shuffled pack of cards. If the card is red king, he is paid Rs. 39 and if the card is black then he is paid Rs. 26. In rest of the cases, he has to pay Rs. 13. In long run per draw of a card, he makes an average profit/loss of Rs. ________. (Consider ‘+’ sign for profit and ‘–’ sign for loss).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "+6.7"
+    },
+    {
+     "key": "B",
+     "html": "+8.5"
+    },
+    {
+     "key": "C",
+     "html": "–4.2"
+    },
+    {
+     "key": "D",
+     "html": "–5.5"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/ab/ab36ad5da3da8a392d22.png\" /></p>"
+  },
+  {
+   "n": 47,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tThe mean of 25 values in a dataset is 30. If one more value of 45 is added, what is the new mean?<br />\n\t(Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    30.55,
+    30.59
+   ],
+   "answerText": "30.57 [30.55 - 30.59]",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t30.57 [30.55 - 30.59]</p>\n<p>\n\t<img alt=\"\" src=\"media/ee/ee0a445a96b96492aeeb.png\" /></p>"
+  },
+  {
+   "n": 48,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following statments is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Joint probability works only for finite trials."
+    },
+    {
+     "key": "B",
+     "html": "Binomial works only for finite trials."
+    },
+    {
+     "key": "C",
+     "html": "Poisson distribution are two discrete probability distribution."
+    },
+    {
+     "key": "D",
+     "html": "Marginal probability refers to the probability of single event occurring without consideration of other events."
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c, d)<br />\n\tJoint probability works both infinite and finite trials.</p>"
+  },
+  {
+   "n": 49,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tLet <img align=\"absmiddle\" alt=\"\" src=\"media/8f/8f101856e628c2418177.png\" /> be a real valued function.<br />\n\tWhich of the following statement is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/26/2699745f3604466445a4.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c6/c62b358a05158770458d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "Local maxima value is 16"
+    },
+    {
+     "key": "D",
+     "html": "Local minima value is 16"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/5c/5cf0258e66358dfea1c9.png\" /></p>"
+  },
+  {
+   "n": 50,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tIn SVMs, the dual formulation of the optimization problem is used to:<br />\n\t(a) Directly solve the optimization problem with the original feature space.<br />\n\t(b) Simplify the computation by working in a higher dimensional implicitly.<br />\n\t(c) Reduces computational complexity by avoiding the Kernel function.<br />\n\t(d) Allows efficient use of Kernel functions by converting the problem into a quadratic programming problem.<br />\n\tWhich of the above is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, d)<br />\n\t&bull; The dual formulation does not solve the problem in the original feature space; it typically transforms the problem into a higher-dimensional space where the solution is found. So, option (a) is incorrect.<br />\n\t&bull; The dual formulation enables the use of kernel functions, allowing computations in a higherdimensional feature space without explicitly mapping data points to that space. So, option (b) is correct.<br />\n\t&bull; The dual formulation does not reduce computational complexity by avoiding the Kernel function; instead, it allows the Kernel function to be used efficiently. So, option (c) is incorrect.<br />\n\t&bull; The dual formulation converts the optimization problem into a quadratic programming problem, which allows for efficient use of Kernel functions. So, option (d) is correct.</p>"
+  },
+  {
+   "n": 51,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following statement is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The value of the determinant of an orthogonal matrix can only be +1."
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tIf <em>A</em> and <em>B</em> are both invertible matrices of size <em>m</em> × <em>m</em>, then <em>AB</em> is also invertible.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tThe inverse of an <em>n</em> × <em>n</em> matrix exists if and only if the rank is equal to (<em>n</em>).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tFor all 3 × 3 matrices <em>A</em> and <em>B</em>, <em>AB</em> = <em>BA</em>.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/97/97c0bcd2d61cb1c2d0c7.png\" /></p>"
+  },
+  {
+   "n": 52,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tThe minimum value of <img align=\"absmiddle\" alt=\"\" src=\"media/27/2777c867b4d9f618ef35.png\" /> in the interval [1, 5] is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12"
+    },
+    {
+     "key": "B",
+     "html": "21"
+    },
+    {
+     "key": "C",
+     "html": "11"
+    },
+    {
+     "key": "D",
+     "html": "92"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/30/302f93cf08a27c6a73ad.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/4d/4da859b5ebcdb23ea812.png\" /></p>"
+  },
+  {
+   "n": 53,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tFor all integers ∈ <em>h</em> ≥ 0, any AVL tree of height <em>h</em> + 1 contains strictly more nodes than any AVL tree of height <em>h</em>.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tDeletion of root of AVL tree will take Ο(log <em>n</em>) time.</p>"
+    },
+    {
+     "key": "C",
+     "html": "If the load factor of a hash table is less than 1, still there will be possible for collisions."
+    },
+    {
+     "key": "D",
+     "html": "As the size of hash table increases, the number of collision will decrease."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/36/360f94992160ae38cc09.png\" /></p>"
+  },
+  {
+   "n": 54,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following database tables:</p>\n<p>\n\t<img alt=\"\" src=\"media/8c/8ce202771e50a4528849.png\" /></p>\n<p>\n\tWhich of the following set computed by the above query retrieves employees whose:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Salary is more than 50000 and works for every department named ‘HR’."
+    },
+    {
+     "key": "B",
+     "html": "Salary is more than 50000 and works for some department named ‘HR’."
+    },
+    {
+     "key": "C",
+     "html": "Salary is more than 50000 and does not work for every department named ‘HR’."
+    },
+    {
+     "key": "D",
+     "html": "Salary is more than 50000 and does not work for any department named ‘HR’."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/42/4293603eaa041c35c6d7.png\" /></p>"
+  },
+  {
+   "n": 55,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following statements:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Increasing the regularization coefficient in a Lasso regression model increases model bias."
+    },
+    {
+     "key": "B",
+     "html": "Lasso regression can lead to feature selection by driving all coefficients to zero."
+    },
+    {
+     "key": "C",
+     "html": "Bagging reduces variance by averaging predictions of multiple models."
+    },
+    {
+     "key": "D",
+     "html": "Pruning a decision tree can help increase overfitting."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)<br />\n\t&bull; Increasing the regularization coefficient in Lasso regression raises model bias by penalizing coefficient sizes, leading to simpler models. So, option (a) is correct.<br />\n\t&bull; Lasso regression can drive some coefficients to zero for feature selection, but not all coefficients will necessarily be zero. So, option (b) is incorrect.<br />\n\t&bull; Bagging reduces variance by averaging predictions from multiple models trained on different data subsets, improving stability. So, option (c) is correct.<br />\n\t&bull; Pruning a decision tree reduces overfitting by removing less significant branches, enhancing generalization. So, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 56,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhat is the correct translation of the following statement into mathematical logic?<br />\n\t“If everyone respect somebody then that person is honest”<br />\n\tHere respect (a, b) represent a respect b.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a2/a281857e5bede646240f.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/11/11c04004148a3e1c38d2.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/25/2576ea22369e4c8afb9b.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/22/2275be4b041514ff343e.png\" /></p>"
+  },
+  {
+   "n": 57,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/60/60e0f3ff9be5a4c97a05.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/89/8938d3c3db59e0972a9d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/63/635ee5d243f39573c3a3.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "Both (a) and (b)"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/3b/3b45c9382bda4fecad40.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/8d/8da62c82c9845f402cd5.png\" /></p>"
+  },
+  {
+   "n": 58,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tIf matrix <em>A</em> = <img align=\"absmiddle\" alt=\"\" src=\"media/bb/bb261215017fc6e1e7f0.png\" /></p>\n<p>\n\tWhich of the following statement is correct?<br />\n\t </p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Number of linear independent vector = 3"
+    },
+    {
+     "key": "B",
+     "html": "Rank of matrix = 3"
+    },
+    {
+     "key": "C",
+     "html": "Rank of matrix = 2"
+    },
+    {
+     "key": "D",
+     "html": "Number of linear independent vector is 2"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/f4/f4d9fdd6f1ccc35b7da9.png\" /></p>"
+  },
+  {
+   "n": 59,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following function:</p>\n<p>\n\t<img alt=\"\" src=\"media/20/208e076e6202d360a9c6.png\" /></p>\n<p>\n\tThen which of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Continuous and differentiable"
+    },
+    {
+     "key": "B",
+     "html": "Continuous and not differentiable"
+    },
+    {
+     "key": "C",
+     "html": "Discontinuous and differentiable"
+    },
+    {
+     "key": "D",
+     "html": "Discontinuous and not differentiable"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/c8/c831f9a3b118b75af3ee.png\" /></p>"
+  },
+  {
+   "n": 60,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t(a) In a weighed undirected graph G = (V, E, ω), breath first search from a vertex S find single source shortest path from S (via parent node) in Ο(V + E) time.<br />\n\t(b) Dijkastra’s shortest path algorithm may relax an edge more than once in a graph with a cycle.<br />\n\t(c) TC to build max heap of n elements is θ(<em>n</em>).<br />\n\t(d) None of these<br />\n\tWhich of the above statements is/are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b)<br />\n\t&bull; In a weighed undirected graph G = (V, E), breath first search from a vertex S find single source shortest path from S (via parent node) in &Omicron;(V + E) time.<br />\n\t&bull; Dijkastra&rsquo;s algorithm always visits each node at once this is why it produces an incorrect result in the presence of negative weight edges.<br />\n\t&bull; Inserting n elements in empty binary heap takes &Omicron;(n) time because build heap method take &Omicron;(<em>n</em>).</p>"
+  },
+  {
+   "n": 61,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider an MLP model with one hidden layer and one output layer. The hidden layer has 12 neurons, and the output layer has 4 neurons. The input to the MLP is a 6-dimensional vector. Each neuron in the hidden layer is fully connected to every input neuron, and each neuron in the output layer is fully connected to every neuron in the hidden layer. Each neuron also includes a bias term.<br />\n\tCalculate the total number of trainable parameters in this MLP model.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    136,
+    136
+   ],
+   "answerText": "136",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t136</p>\n<p>\n\t<img alt=\"\" src=\"media/11/11a798c0d766cd1650a1.png\" /></p>"
+  },
+  {
+   "n": 62,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t(a) <img align=\"absmiddle\" alt=\"\" src=\"media/1b/1b13cf296ae677e1ff68.png\" /> controls the width of the Gaussian function in the RBF Kernel.<br />\n\t(b) <img align=\"absmiddle\" alt=\"\" src=\"media/1b/1b13cf296ae677e1ff68.png\" /> is always set to a negative value for optimal performance in The RBF Kernel.<br />\n\t(c) The polynomial kernel is only effective for high-dimensional data.<br />\n\t(d) High-dimensional, sparse datasets where the relationships are primarily linear in polynomial Kernel.<br />\n\tWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/8c/8cac1300a3a1d229f35c.png\" /></p>"
+  },
+  {
+   "n": 63,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following inorder and preorder traversal:<br />\n\tInorder → 7, 14, 5, 2, 1, 9, 3, 6, 8, 4<br />\n\tPreorder → 1, 5, 7, 14, 2, 4, 3, 9, 8, 6<br />\n\tFind the post order traversal sequence</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "14, 7, 2, 5, 9, 8, 6, 3, 4, 1"
+    },
+    {
+     "key": "B",
+     "html": "14, 7, 5, 2, 9, 8, 6, 3, 4, 1"
+    },
+    {
+     "key": "C",
+     "html": "14, 7, 2, 5, 9, 6, 8, 3, 4, 1"
+    },
+    {
+     "key": "D",
+     "html": "14, 7, 5, 2, 9, 6, 8, 3, 4, 1"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/5f/5fc91aa05ebb4e439438.png\" /></p>"
+  },
+  {
+   "n": 64,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tA random variable <em>X</em> has probability distribution shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/26/2617caad26b278c05696.png\" /></p>\n<p>\n\tThen <em>E</em>[(3<em>X</em> + 1)<sup>2</sup>] is ________. (Upto 1 decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    228.1,
+    228.5
+   ],
+   "answerText": "228.1 [228.1 - 228.5]",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t228.1 [228.1 - 228.5]</p>\n<p>\n\t<img alt=\"\" src=\"media/ce/cefe87ced5706c00f7bd.png\" /></p>"
+  },
+  {
+   "n": 65,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t(a) A* algorithm performs better with a Fibonacci heap than with a binary heap.<br />\n\t(b) A* Search Algorithm always produces the shortest path.<br />\n\t(c) A* search is faster than Dijkstra’s algorithm, regardless of the heuristic.<br />\n\t(d) A* search cannot handle graphs with negative weights.<br />\n\tWhich of the above statements is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, d)<br />\n\t&bull; A* can perform better with a Fibonacci heap due to its better amortized time complexity for decrease-key operations. So, option (a) is correct.<br />\n\t&bull; A* Search does not always produce the shortest path unless the heuristic is admissible (does not overestimate the cost). So, option (b) is incorrect.<br />\n\t&bull; A* is not guaranteed to be faster than Dijkstra&rsquo;s algorithm; it depends on the quality of the heuristic. So, option (c) is incorrect.<br />\n\t&bull; A* cannot handle graphs with negative edge weights unless a different algorithm, like Bellman- Ford, is used. So, option (d) is correct.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "General Aptitude",
+   "start": 0,
+   "count": 10
+  },
+  {
+   "name": "Technical",
+   "start": 10,
+   "count": 55
+  }
+ ],
+ "stats": {
+  "questions": 65,
+  "maxMarks": 100,
+  "types": {
+   "MCQ": 44,
+   "NAT": 8,
+   "MSQ": 13
+  },
+  "withoutKey": 0
+ }
+}

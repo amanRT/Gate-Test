@@ -1,0 +1,406 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-047",
+ "title": "DVRUO Classes GATE CS/DA | DBMS | Relational Algebra | Weekly Quiz 8",
+ "sourceTitle": "DVRUO Classes GATE CS/DA | DBMS | Relational Algebra | Weekly Quiz 8",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 47,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1620,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/063_exam_999_GO Classes GATE CS-DA DBMS Relational Algebra Weekly Quiz 8.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following schemas:</p><p>Branch=(Branch-name, Assets, Branch-city)</p><p>Customer = (Customer-name, Bank name, Customer-city)</p><p>Borrow = (Branch-name, Loan number, Customer account-number)</p><p>Deposit = (Branch-name, Account-number, Customer-name, Balance)</p><p>Using relational Algebra, the Query that finds customers who have balance more than 10,000 is _____</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\pi_{customer-name} (\\sigma_{balance &gt; 10000^{(Deposit)}}$)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\sigma_{customer-name} (\\sigma_{balance &gt; 10000^{(Deposit)}}$)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\pi_{customer-name} (\\sigma_{balance &gt; 10000^{(Borrow)}}$)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\sigma_{customer-name} (\\pi_{balance &gt; 10000^{(Borrow)}}$)</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"432324\"></a><div itemprop=\"text\">To find customers with a balance greater than 10,000, use the following relational algebra query:<br>\n<br>\n\\[<br>\n\\pi_{\\text{Customer-name}} (\\sigma_{\\text{Balance} &gt; 10000} (\\text{Deposit}))<br>\n\\]</div></section></div><p><a href=\"https://gateoverflow.in/432205\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>With respect to relational algebra, which of the following operations are included from mathematical set theory?</p><ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\"><li>Join</li><li>Intersection</li><li>Cartisian product</li><li>Project<ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>i and iv</li><li>ii and iii</li><li>iii and iv</li><li>ii and iv</li></ol></li></ol>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Choose option A from the question above.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Choose option B from the question above.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Choose option C from the question above.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Choose option D from the question above.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"522173\"></a><div itemprop=\"text\">Answer is Option $\\boxed{B}$<br>\n<br>\n1. Join operation is not present in set theory.<br>\n<br>\n2. Intersection: yes present in set theory<br>\n<br>\n3. Cartesian product: yes present in set theory aswell.<br>\n<br>\n4. Project operation: No, this is not present in set theory.<br>\n<br>\nRelational Algebra operation: <a href=\"https://en.wikipedia.org/wiki/Relational_algebra\" rel=\"nofollow\" target=\"_blank\">https://en.wikipedia.org/wiki/Relational_algebra</a><br>\n<br>\nSet operations: <a href=\"https://people.cs.pitt.edu/~milos/courses/cs441/lectures/Class7.pdf\" rel=\"nofollow\" target=\"_blank\">https://people.cs.pitt.edu/~milos/courses/cs441/lectures/Class7.pdf</a></div></section></div><p><a href=\"https://gateoverflow.in/432204\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given the relations</p><ul><li>employee (name, salary, dept-no), and</li><li>department (dept-no, dept-name,address),</li></ul><p>Which of the following queries cannot be expressed using the basic relational algebra operations $\\left(\\sigma, \\pi,\\times ,\\Join, \\cup, \\cap,-\\right)$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Department address of every employee</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Employees whose name is the same as their department name</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The sum of all employees&#x27; salaries</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All employees of a given department</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"475539\"></a><div itemprop=\"text\"><h3><strong>Correct Answer: C. The sum of all employees' salaries</strong></h3><p>This <strong>cannot</strong> be expressed using basic relational algebra because <strong>aggregation operations like SUM are not supported</strong> in the basic set of operations. Aggregation requires extended relational algebra or SQL.</p><h3>Queries for the other options:</h3><p><strong>A. Department address of every employee</strong></p><p>We can use a <strong>natural join</strong> or <strong>theta join</strong> on <code>dept-no</code>, then project the needed attributes.</p><pre><code>π_name, address (employee ⨝ department)\n</code></pre><p><strong>B. Employees whose name is the same as their department name</strong></p><p>This compares two attributes (from different relations), which is allowed using a <strong>theta join</strong> and a <strong>selection condition</strong>.</p><pre><code>π_name (σ_name = dept-name (employee × department))\n</code></pre><p><strong>D. All employees of a given department</strong></p><p>Assuming the department is known (say dept-no = 10):</p><pre><code>σ_dept-no = 10 (employee)\n</code>\n</pre></div></section></div><p><a href=\"https://gateoverflow.in/432203\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which operation is used to extract specified columns from a table?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Project</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Join</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Extract</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Substitute</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"522177\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{A}$</p><p>Extract and Substitute are fake options for distractions. There are no such operations in Relational algbera.&nbsp;</p><p><img alt=\"\" width=\"531\" height=\"306\" src=\"media/33/330a718b4d311afc8b85.png\" style=\"float:left\"></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><img alt=\"\" width=\"561\" height=\"422\" src=\"media/ab/abf32a1611087b2ab227.png\" style=\"float:left\"></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Source:&nbsp;<a href=\"https://www.cs.cornell.edu/projects/btr/bioinformaticsschool/slides/gehrke.pdf\" rel=\"nofollow\" target=\"_blank\">https://www.cs.cornell.edu/projects/btr/bioinformaticsschool/slides/gehrke.pdf</a></p></div></section></div><p><a href=\"https://gateoverflow.in/432202\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The join operation can be defined as</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>a cartesian product of two relations followed by a selection</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>a cartesian product of two relations</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>a union of two relations followed by cartesian product of the two relations</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>a union of two relations</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"522200\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{A}$</p><p><img alt=\"\" width=\"886\" height=\"574\" src=\"media/43/4383c6219fa1eb70ca15.jpg\"></p><p><img alt=\"\" width=\"760\" height=\"276\" src=\"media/5b/5b2ea02429dc13074d6b.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/432201\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relations $R(A, B)$ and $S(B, C)$ and the following four relational algebra queries over R ans S</p><ol style=\"list-style-type:upper-roman\"><li>$\\pi_{A, B} (R \\bowtie S)$</li><li>$R \\bowtie \\pi_B(S)$</li><li>$R \\cap (\\pi_A(R) \\times \\pi_B (S))$</li><li>$\\Pi_{A.&nbsp;R. B} (R \\times S)$ where $R.B$ refers to the column B in table R</li></ol><p>One can determine that:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I, III and IV are the same query</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II, III and IV are the same query</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>I, II&nbsp;and IV are the same query</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>I, II and III&nbsp;are the same query</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"522223\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{D}$</p><p>Lets understand each query.</p><p>I. $\\pi_{A,B}(R\\bowtie S&nbsp;)$</p><p>Perform natural join on R and S and then select Columns A and B from it.</p><p>Here we are outputing all those tuples of Relation $R(A,B)$ for which the attribute $R.B$ value is present in $S.B$</p><p>II. $R\\bowtie \\pi_B (S)$</p><p>We are doing natural join with only column S.B.&nbsp;</p><p>This will also give is all those tuple of Relation&nbsp;$R(A,B)$ for which the attribute $R.B$ value is present in $S.B$</p><p>III. $R \\cap (\\pi_A(R) \\times \\pi_B(S))$</p><p>First we are doing cross product of all values of $A$ present in $R$ with all value of $B$ present in $S$ and then taking intersection with $R$. Which will again give us&nbsp;all those tuple of Relation&nbsp;$R(A,B)$ for which the attribute $R.B$ value is present in $S.B$</p><p>IV. $\\prod_{A,R.B}(R\\times S)$</p><p>This will give some extra tuples aswell.&nbsp;</p><p>Example:&nbsp;</p><table border=\"1\" cellpadding=\"1\" style=\"width: 100px; border-spacing: 1px;\"><caption>R(A,B)</caption><thead><tr><th scope=\"col\">A</th><th scope=\"col\">B</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>1</td><td>4</td></tr></tbody></table><p>&nbsp;</p><div><table border=\"1\" cellpadding=\"1\" style=\"width: 90px; border-spacing: 1px;\"><caption>S(B,C)</caption><tbody><tr><td><strong>B</strong></td><td><strong>C</strong></td></tr><tr><td>2</td><td>10</td></tr></tbody></table><br>perform $R\\times S$ and then select columns $A$ and $R.B$&nbsp; we will get&nbsp;<table border=\"1\" cellpadding=\"1\" style=\"width: 100px; border-spacing: 1px;\"><caption>&nbsp;</caption><thead><tr><th scope=\"col\">A</th><th scope=\"col\">B</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>1</td><td>4</td></tr></tbody></table></div><div>Which is wrong .</div><div>&nbsp;</div><div>Correct result should have been&nbsp;</div><div><table border=\"1\" cellpadding=\"1\" style=\"width: 80px; border-spacing: 1px;\"><tbody><tr><td>A</td><td>B</td></tr><tr><td>1</td><td>2</td></tr></tbody></table><p>&nbsp;</p><p>Hence only statements $I, II$ and $III$ are equivalent.</p></div><div><p>&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/432200\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let R and S be two relations with the following schema</p><p>$R(\\underline{P,Q}, R1, R2, R3)$</p><p>$S(\\underline{P,Q}, S1, S2)$</p><p>where $\\left\\{P, Q\\right\\}$ is the key for both schemas. Which of the following queries are equivalent?</p><ol style=\"list-style-type:upper-roman\"><li><p>$\\Pi_P \\left(R \\bowtie S\\right)$</p></li><li><p>$\\Pi_P \\left(R\\right) \\bowtie \\Pi_P\\left(S\\right)$</p></li><li><p>$\\Pi_P \\left(\\Pi_{P, Q} \\left(R\\right) \\cap \\Pi_{P,Q} \\left(S\\right) \\right)$</p></li><li><p>$\\Pi_P \\left(\\Pi_{P, Q} \\left(R\\right) - \\left(\\Pi_{P,Q} \\left(R\\right) - \\Pi_{P,Q} \\left(S\\right)\\right)\\right)$</p></li></ol>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only I and II</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only I and III</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only I, II and III</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only I, III and IV</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"481155\"></a><div itemprop=\"text\">If we look the question from a broad view rather than focusing on each queries individually we would find that:<br>\n<br>\n&nbsp;<br>\n<br>\nI. The join is applied on R and S considering {P,Q} as common attributes and then P is projected.<br>\n<br>\nIII. First we took {P,Q} attribute on both R and S and then we applied intersection operation and after then, projected P.<br>\n<br>\nIV. Similiarly in this query, we take everything on the basis of {P,Q}, applied the operations and projected P. <br>\n<br>\n&nbsp;<br>\n<br>\nIn all the above queries, everything is taken while considering {P,Q} as common attributes and thus we got the equivalent queries. <br>\n<br>\nWhile for the II. We only use {P} attribute to project and then joining R and S and thus it may yield different result.</div></section></div><p><a href=\"https://gateoverflow.in/432199\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relation schemas:<br>$R(A, B), \\; S(B, C), \\; T(C, D)$.<br>Check equivalences that are correct under set semantics.<br>Assume that all set operations ($\\cup, -$) are applied only on union-compatible relations (i.e., relations having the same set of attributes).<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$ R \\bowtie R \\equiv R $</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$ R \\cup (S - R) \\equiv S \\cup R $<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;em&gt;(Assume $R$ and $S$ are union-compatible.)&lt;/em&gt;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$ (R \\cup S) - T \\equiv R \\cup (S - T) $<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;em&gt;(Assume $R, S,$ and $T$ are union-compatible.)&lt;/em&gt;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\pi_{A}(R \\bowtie S) \\equiv \\pi_{A}(S \\bowtie R)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"432331\"></a><div itemprop=\"text\"><p><strong>Option A:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ItLbswLCmKc&amp;t=6306s\" target=\"_blank\">Explanation of Option A</a></p><p>If two relations have the same schema, then an intersection of those relations is equivalent to a natural join of them.</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"432520\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"312\" height=\"284\" src=\"media/06/0670ed12e3de2a398250.png\"></p><p>$A)$ is trivial&nbsp;</p><p>$B)$ Now understand this with its area's</p><p>LHS =$R$&nbsp; $U$&nbsp; $(S-R)$ = ${(1,4,5,7 ) U (2,6}) $= $(1,2,4,5,6,7)$</p><p>RHS= $S$ $U $ $R$=&nbsp;$(1,2,4,5,6,7)$&nbsp;</p><p>LHS$=$RHS</p><p>$C)$&nbsp; LHS= $(RUS)$ $-$ $T$ = $(1,2,4)$</p><p>RHS=$R$&nbsp; $U$&nbsp; $(S-T)$ = $(1,2,4,5,7)$&nbsp;</p><p>LHS $\\neq$&nbsp; RHS</p><p>$D)$ it's nothing but the reversing the Attribute so will Give Same Result.</p><p>So $A,B,D$ Must be Ans</p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"433244\"></a><div itemprop=\"text\"><p><strong>For set difference, the relations must be union compatible,i.e,&nbsp;relations must have the same set of attributes.</strong></p><p><strong>option C: (R∪S)−T&nbsp;</strong><br><strong>R∪S</strong> includes the tuples that are in R or S.<br>difference operation removes tuples from R∪S that also appear in T, but since <strong>(R∪S) </strong>has attributes A,B,C and <strong>T </strong>has attributes C, D, not union compatible&nbsp;</p><p>Similarly for&nbsp;<strong>R∪(S−T)</strong><br><strong>(S-T)</strong> removes tuples from <strong>S </strong>that also appear in <strong>T.</strong> But <strong>S</strong>(B,C) <strong>T</strong>(C,D) have different schema and not union compatible.</p></div></section></div><p><a href=\"https://gateoverflow.in/432198\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose that two relations $R(A, B)$ and $S(A, B)$ have exactly the same schema. Consider the following equalities in relational algebra?</p><ol style=\"list-style-type:upper-roman\"><li>$\\quad R \\cap S=R-(R-S)$</li><li>$R \\cap S=S-(S-R)$</li><li>$R \\cap S=R$ NATURAL-JOIN $S$</li><li>$\\mathrm{R} \\cap \\mathrm{S}=\\mathrm{R} \\times \\mathrm{S}$</li></ol><p><br>Which of the equalities hold in relational algebra?</p><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>I and II only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>I, II and III</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>I, II, III and IV</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"432245\"></a><div itemprop=\"text\"><p><strong>Statement 3:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ItLbswLCmKc&amp;t=6306s\" target=\"_blank\">https://www.youtube.com/watch?v=ItLbswLCmKc&amp;t=6306s</a></p><p>If two relations have the same schema, then an intersection of those relations is equivalent to a natural join of them.</p><p><strong>Staement 1:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=HXHGCVjIUvA&amp;t=7136s\" target=\"_blank\">https://www.youtube.com/watch?v=HXHGCVjIUvA&amp;t=7136s</a></p><p><strong>Statement 2:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/iNxB_szAqUY?feature=shared\" target=\"_blank\">https://youtu.be/iNxB_szAqUY?feature=shared</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/432197\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following instances:</p><p><br><img alt=\"\" width=\"301\" height=\"139\" src=\"media/6d/6d65b2a8ad7350b080dd.png\"></p><p>Which of the following relational operations will produce the following tuple only?<br><img alt=\"\" width=\"220\" height=\"65\" src=\"media/4f/4fab73f873ebe5928448.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$($ $\\mathrm{QB}1\\cup \\mathrm{QB} 2) \\times(\\mathrm{QB} 2 \\cup \\mathrm{QB} 1)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(Q B 1-Q B 2) \\cap(Q B 2-Q B 1)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$($ $\\mathrm{QB}1-\\mathrm{QB} 2) \\times(\\mathrm{QB} 2-\\mathrm{QB} 1)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&nbsp;$(Q B 1 \\cap Q B 2)-(Q B 2 \\cap Q B 1)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"522238\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{C}$</p><p>&nbsp;</p><p>&nbsp;&nbsp;</p><article tabindex=\"-1\" dir=\"auto\" data-turn-id=\"request-WEB:c0dfc9b7-b5df-4f91-8713-ed3838a5c620-51\" data-testid=\"conversation-turn-10\" data-scroll-anchor=\"true\" data-turn=\"assistant\"><p data-start=\"185\" data-end=\"188\">QB1</p>\\begin{array}{c|c} Q &amp; Ans \\\\ \\hline 1 &amp; x \\\\ 2 &amp; y \\\\ 3 &amp; y \\end{array}​​<p data-start=\"270\" data-end=\"273\">QB2</p>\\begin{array}{c|c} Q &amp; Ans \\\\ \\hline 1 &amp; x \\\\ 1 &amp; y \\\\ 2 &amp; y \\end{array}​​<p data-start=\"355\" data-end=\"363\">Output :</p>\\begin{array}{c|c|c|c} 3 &amp; y &amp; 1 &amp; y \\end{array}​<p data-start=\"421\" data-end=\"549\">Tuple $(1,x)$ and $(2,y)$ and since we are getting columns from each table in output, then that means cross product is involved.</p><p data-start=\"551\" data-end=\"585\">option (B) and (D) can be removed.</p><p data-start=\"587\" data-end=\"638\">option (A) will give all possible $(Q, Ans)$ pairs.</p><p data-start=\"640\" data-end=\"672\">We are left with option (C) now.</p>$\\\\(QB1 - QB2) \\times (QB2 - QB1)$<p data-start=\"712\" data-end=\"725\"><br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"212\" src=\"media/c7/c787b4cdbbd655a6bf50.png\"></p><p data-start=\"712\" data-end=\"725\">&nbsp;</p>\\begin{array}{c|c|c|c} 3 &amp; y &amp; 1 &amp; y \\end{array}</article></div></section></div><p><a href=\"https://gateoverflow.in/432196\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 8,
+  "types": {
+   "MCQ": 9,
+   "MSQ": 1
+  },
+  "withoutKey": 4
+ }
+}

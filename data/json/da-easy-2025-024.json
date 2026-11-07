@@ -1,0 +1,576 @@
+{
+ "v": 1,
+ "id": "da-easy-2025-024",
+ "title": "Topicwise Test-4 Part Syllabus GATE 2025 DA Calculus and Optimization-2",
+ "sourceTitle": "Topicwise Test-4 Part Syllabus GATE 2025 DA Calculus and Optimization-2",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2025",
+ "num": 24,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/066_Topicwise Test-4 Part Syllabus GATE 2025 DA Calculus and Optimization-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>The Taylor series expansion of <img align=\"absmiddle\" alt=\"\" src=\"media/2e/2e022c66c94aa7e940c9.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/c6/c6f81b75831588620882.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/10/1004acfe980076ea6561.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/30/3083d89453cc7736c007.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/49/49bbc885d52f8271a8ce.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/4a/4a12bdca146cc426be89.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>The maximum value of function <img align=\"absmiddle\" alt=\"\" src=\"media/2a/2a4eb541d6bea95c6265.png\" /> in the interval [1, 5] will be equal to ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    56,
+    56
+   ],
+   "answerText": "56",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>56</p>\n\n<p><img alt=\"\" src=\"media/61/611868626ad2ed7abddc.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following functions would have only odd powers of <img align=\"absmiddle\" alt=\"\" src=\"media/df/df562a3ba2c54e1d810e.png\" /> in its Taylor series expansion about the point <img align=\"absmiddle\" alt=\"\" src=\"media/fd/fd4f26662c89dfcd917d.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/cf/cf5ea0d5cb9b70de6784.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/88/884252142561753d9f61.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/a7/a7cd7c12c856898c621c.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/e8/e8d30fa4b13abf5d5efa.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/e7/e7ad2f356b446998b9a6.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Let <img align=\"absmiddle\" alt=\"\" src=\"media/d3/d35ae914448612c8b53a.png\" /> The absolute minimum value of <img align=\"absmiddle\" alt=\"\" src=\"media/2f/2f177a4ed6a2b58ba69c.png\" /> over the interval [0, 2] is _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>7</p>\n\n<p><img alt=\"\" src=\"media/83/83e01e6694efd05ca5b9.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>The minimum value of the function <img align=\"absmiddle\" alt=\"\" src=\"media/4a/4ae07484a19f5584a667.png\" /> in the interval [–3, 3] is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "118"
+    },
+    {
+     "key": "B",
+     "html": "28"
+    },
+    {
+     "key": "C",
+     "html": "128"
+    },
+    {
+     "key": "D",
+     "html": "72"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/86/86c7c7ec2cd21f46e140.png\" /></p>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>The maximum value of the function <img align=\"absmiddle\" alt=\"\" src=\"media/ed/ed567cc27a26fca17c44.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0</p>\n\n<p><img alt=\"\" src=\"media/9c/9cbbb81a080e956cc7bc.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>The function <img align=\"absmiddle\" alt=\"\" src=\"media/8c/8ce88d61a3692b58d276.png\" /> has</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/a5/a583d81903f13b171ea0.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/95/955fe8b9f71578788722.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/b4/b4e1a89b36f3e2d1b817.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/59/5947c2753709aa3a2f0a.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/9a/9acb5efa86767a45c3af.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>The Taylor series expansion of the function <img align=\"absmiddle\" alt=\"\" src=\"media/fc/fc7cc3f29ac09343ed8e.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/04/04bb35413ef20111500d.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/ed/ed253defcdab9fae565f.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/4f/4f817355083b0f0a4b68.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/77/771086b6a3ab494028e5.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/91/91516c24ffbf62de2fd9.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following function:</p>\n\n<p><img alt=\"\" src=\"media/70/70edefef3e09fcb32d54.png\" /></p>\n\n<p>Find the points at which <em>f</em> has absolute minimum and absolute maximum respectively.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/02/02c6b96e1a767be9d36c.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/8b/8bf25c5bf6aa0158705c.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/02/028a90cd35fad41a922b.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/e0/e0a64492dc430ba35432.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/41/41a7f127408785fb1ebd.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider <img align=\"absmiddle\" alt=\"\" src=\"media/7f/7f62304e4e3f1b40051b.png\" /> then which of the following represents the function is increasing in the interval?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/7d/7da2e2221f525d0f8c0b.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/9f/9fc3959b798ea306d0fb.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/0c/0c8deaf574d3085e762a.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/18/18210cabd7236c699660.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A function is defined by <img align=\"absmiddle\" alt=\"\" src=\"media/5f/5f1fe61a9eddc2afc7bc.png\" /> Which of the following statements is true about the function?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/1b/1bd4d6570c4223e43898.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/1f/1f5227a0841d80c33d60.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/ba/bacfe1689d4029a7be1c.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/92/92ef80a554cc4f917d46.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<p><img alt=\"\" src=\"media/24/24584a3eac6e7989c6b9.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following statements is/are true?<br />\n<em>S</em><sub>1</sub> : The function <img align=\"absmiddle\" alt=\"\" src=\"media/71/713e86e22268745baef5.png\" /> has global minima at <img align=\"absmiddle\" alt=\"\" src=\"media/ce/ce79a1b8e1c7e2ae9381.png\" /><br />\n<em>S</em><sub>2</sub> : The function <img align=\"absmiddle\" alt=\"\" src=\"media/03/0342784e44b3cc7ab46e.png\" /> has neither global minima nor global maxima.</p>\n\n<p> </p>\n\n<p> </p>\n\n<p> </p>\n\n<p> </p>\n\n<p><br />\n </p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Either <em>S</em><sub>1</sub> or <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/66/66e8923a0e91f9efb6ba.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>The function <img align=\"absmiddle\" alt=\"\" src=\"media/c0/c01888a27b716af9ad20.png\" /> has</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/05/05b4d49b9d7284a2602c.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/f9/f945a1cc6f6934bee3b5.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/4f/4f56d251854775c75df1.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/6f/6f2432cd41655c5afbf4.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/66/66a0d6e8ff2032dfab2f.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A farmer owns 50 Mango trees. Each tree produces 600 Mangoes in a year. For each additional tree planted in the orchard, the output of each tree (including the pre-existing ones) drops by 5 Mangoes. How many tree should be added to the existing orchard in order to maximize the total production of Mangoes?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    35,
+    35
+   ],
+   "answerText": "35",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>35</p>\n\n<p><img alt=\"\" src=\"media/ec/ec12d8a07c8ac509d9ed.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Let <img align=\"absmiddle\" alt=\"\" src=\"media/44/4413be510800c742cb27.png\" /> be a real values function.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/94/949ab2b48f9c72b6a087.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/89/8914bed5feecb0f46864.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/07/07e4bdc59c2c316c64b3.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/9e/9e551e46fc573f0599f5.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<p><img alt=\"\" src=\"media/31/310005b7084e2b0c6b01.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>For function <img align=\"absmiddle\" alt=\"\" src=\"media/a8/a8bb2c2f3482b5cd4600.png\" /> the maximum occur in interval [–1, 2] when <img align=\"absmiddle\" alt=\"\" src=\"media/42/42ebc493f2d1c0fadcc9.png\" /> is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "-1"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/60/6095cdbf168834404b36.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>The infinite series <img align=\"absmiddle\" alt=\"\" src=\"media/4e/4e9a1454aa0299f2df3f.png\" /> converges to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/86/8621c34fa4754c0533f5.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/56/567d6bd8f309e3d05607.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/b6/b6f7d98e3f593516db5f.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/8e/8e9aca654409c1485c53.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/36/36941521f6341ce31865.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 4,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

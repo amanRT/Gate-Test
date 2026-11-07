@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-043",
+ "title": "Topicwise Test-18 Part Syllabus GATE 2026 EE Electrical & Electronics Measurements Part-2",
+ "sourceTitle": "Topicwise Test-18 Part Syllabus GATE 2026 EE Electrical & Electronics Measurements Part-2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 43,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/070_Topicwise Test-18 Part Syllabus GATE 2026 EE Electrical & Electronics Measurements Part-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The input impedance of a CRO is equivalent to a 1 MΩ resistance in parallel with a 90 pF capacitance.<br />\nIt is used with a compensated 10 to 1 attenuation probe. The effective input capacitance at the probe tip is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "9 pF"
+    },
+    {
+     "key": "B",
+     "html": "10 pF"
+    },
+    {
+     "key": "C",
+     "html": "90 pF"
+    },
+    {
+     "key": "D",
+     "html": "900 pF"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9d/9d1839b5e0217475440e.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the potentiometer circuit shown in figure balance is obtained. The unknown <em>E<sub>x</sub></em> is then</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/72/723bc645873a2a149b01.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.2 V"
+    },
+    {
+     "key": "B",
+     "html": "1 V"
+    },
+    {
+     "key": "C",
+     "html": "0.6 V"
+    },
+    {
+     "key": "D",
+     "html": "0.8 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/91/91eed2a7592f1fde2c17.png\" /></div>\n\n<div><img alt=\"\" src=\"media/8a/8ac74841cb00c7d21fa7.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The power flowing in a 3-phase, 3-wire balanced load system is measured by two wattmeter method. The reading of wattmeter A is 9000 W and of wattmeter B is –1800 W. If the voltage of the circuit is 440 V, then the value of capacitance which must be introduced in each phase in series, which causes the whole of the power measured to appear on wattmeter A is (Assume frequency 60 Hz)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "884 μF"
+    },
+    {
+     "key": "B",
+     "html": "780 μF"
+    },
+    {
+     "key": "C",
+     "html": "990 μF"
+    },
+    {
+     "key": "D",
+     "html": "1060 μF"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e4/e430b7dbf058736728cc.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The current coil of a dynamometer wattmeter is connected to 48 V dc source in series with a 8 Ω resistor. The potential circuit is connected through an ideal half wave rectifier in series with a 50 Hz source of 100 V. If the inductance of pressure coil circuit and current coil resistance are negligible then the reading of the wattmeter is ________ W. (Rounded off to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    265,
+    275
+   ],
+   "answerText": "270",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>270 (265 - 275)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ed/ed843d29c5a1f59c56e6.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A voltage <em>V</em>(<em>t</em>) = 200 sin ω<em>t</em> + 80 cos(3ω<em>t</em> – 30°) + 100 sin (5ω<em>t</em> + 45°) V is applied to the pressure coil of a wattmeter and through the current coil is passed a current of i(t) = 18 sin ω<em>t</em> + 12 cos(5ω<em>t</em> – 120°)A the percentage of power due to fundamental is to the total power measured by wattmeter is ________ %. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    92,
+    92.2
+   ],
+   "answerText": "92.06",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>92.06 (92.00 - 92.20)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7a/7a70a927f88413075bf3.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a Maxwell’s bridge, the fixed - value bridge components have the following values:<br />\n<em>R</em><sub>3</sub> = 5 Ω , <em>C</em> = 1 mF<br />\nIf <em>R</em><sub>1</sub> = 159 Ω and <em>R</em><sub>2</sub> = 10 Ω at balance the Q-factor for the unknown impedance (<em>L</em><sub>4</sub> , <em>R</em><sub>4</sub> unknown impedance) at a supply frequency of 50 Hz is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/46/46aa9fd507ae8e642298.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.57"
+    },
+    {
+     "key": "B",
+     "html": "3.14"
+    },
+    {
+     "key": "C",
+     "html": "6.28"
+    },
+    {
+     "key": "D",
+     "html": "0.57"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c7/c766b10daa4466ffa9da.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a2/a2ae0d9d29bf67333424.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Three voltmeter method used for power factor measurement gaves the following readings:<br />\n<em>V</em><sub>1</sub> = 180 V across an inductive load<br />\n<em>V</em><sub>2</sub> = 150 V across a non-inductive resistor and<br />\n<em>V</em><sub>3</sub> = 300 V across the two in series.<br />\nWhat is the power factor of the inductive load?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.244"
+    },
+    {
+     "key": "B",
+     "html": "0.30"
+    },
+    {
+     "key": "C",
+     "html": "0.65"
+    },
+    {
+     "key": "D",
+     "html": "0.80"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e2/e23941727c8adccfe6cd.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The waveform given below is observed on the screen of a CRO. If the time/div switch is set at 10 μsec and the volt/div at 200 mV, the frequency and peak to peak voltage are respectively</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b4/b40de13afca13d7aa09f.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "33.33 kHz, 800 mV"
+    },
+    {
+     "key": "B",
+     "html": "25 kHz, 600 mV"
+    },
+    {
+     "key": "C",
+     "html": "33.33 kHz, 600 mV"
+    },
+    {
+     "key": "D",
+     "html": "25 kHz, 400 mV"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/34/34a8c5851d6a9a114256.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A dynamometer type wattmeter connected to read power in a single phase circuit indicates the value <em>P</em><sub>1</sub>. A second reading <em>P</em><sub>2</sub> is obtained when a capacitor of reactance equal to the pressure coil resistance is connected in series with pressure coil, then phase angle of the load</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/9e/9efa7158a40050bd0717.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/df/dfc38cb89853bd567a94.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/d5/d5c8b1cd1490b070b9cd.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/6d/6d208e0a69148023f66d.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7e/7eb28c36f4b01b7e25dd.png\" /></div>\n\n<div><img alt=\"\" src=\"media/df/df550c28994df7bec1b6.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A 1000/5 A, 50 Hz current transformer has a secondary burden comparising of a non-inductance burden of 1.8 Ω. The primary winding has one turn. If iron loss in the core to be 1.5 W a full load then the flux in the core is ________ × 10<sup>–6</sup> Wb. (Neglect leakage reactance) (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    202,
+    203
+   ],
+   "answerText": "202.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>202.5 (202.0 - 203.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/af/af9ad1276f35b5c51f83.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A deflectional frequency meter working on the principle of electrical resonance, there are two parallel circuits each consisting of an inductance and capacitance in series. One circuit has <em>C</em><sub>1</sub> = 1 μF and is tuned to frequency <em>f</em><sub>1</sub> = 60 Hz. The other has <em>C</em><sub>2</sub> = 1.8 μF. The resistances of each circuit is <em>R</em><sub>1</sub> = <em>R</em><sub>2</sub> = 100 Ω. The value of inductance in second circuit for current to be same in both circuit at 50 Hz will be _______ H. (Answer upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.2,
+    2.8
+   ],
+   "answerText": "2.54",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2.54 (2.20 - 2.80)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/77/777538473a5b22823d5e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/46/4677ad6a4420f0fa24fb.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>An ac bridge with terminals ABCD has following components:<br />\nArm AB : A resistance of 800 Ω in parallel with a capacitor of 0.5 μF.<br />\nArm BC : A resistance of 400 Ω in parallel with a capacitor of 1 μF.<br />\nArm CD : A resistance of 1000 Ω<br />\nArm DA : A pure resistance R.<br />\nThe value of frequency of which the bridge is balanced is _______ kHz. (Answer upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.37,
+    0.42
+   ],
+   "answerText": "0.398",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.398 (0.37 - 0.42)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/aa/aabbe0ca1b3321f94f58.png\" /></div>\n\n<div><img alt=\"\" src=\"media/62/62ed02e3e86b41668557.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A current transformer has a single turn primary and 400 turns on secondary winding. The resistance and reactance of the secondary circuit are 2 Ω and 3 Ω respectively including transformer winding. When 6 A current is flowing in the secondary winding, the magnetizing mmf is 100 AT and iron loss is 2 W. The value of ratio error will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.42%"
+    },
+    {
+     "key": "B",
+     "html": "–4.14%"
+    },
+    {
+     "key": "C",
+     "html": "–2.24%"
+    },
+    {
+     "key": "D",
+     "html": "1.62%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2a/2ae6f5a965a454f7c3ed.png\" /></div>\n\n<div><img alt=\"\" src=\"media/62/6296530e49722c6ff8bc.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A CRO setup working in <em>x</em>-<em>y</em> mode is shown below. If the input <em>x</em>(<em>t</em>) is a sinusoidal signal with amplitude of 12 units and ω = 10 rad/sec, then the waveform observed on CRO screen will be</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ea/ea44be1259170a3a71e6.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/fc/fcddf816fec0313488b8.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/7f/7f56bdc45891db896570.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/30/30844869e1a232fe5155.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/d6/d69e821118e21b9b353d.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4a/4a4fc96bf5ed0eeb8e3f.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A 20 VA, 100/2 A bar primary current transformer has an iron loss of 0.5 W and magnetizing current of 1.2 A. If the rated output is supplied to a meter having a ratio of resistance to reactance of 4 the value of phase angle error (in degree) will be __________ . (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.28,
+    0.36
+   ],
+   "answerText": "0.32",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.32 (0.28 - 0.36)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/12/1206d097704f920e74b9.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A dc potentiometer is designed to measure upto 2 V with a slide wire of 1000 mm. A standard cell of emf 1.5 V obtains balance at 800 mm. A test cell is seen to obtain balance at 750 mm. Which of these statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Emf of test cell is 1.4062 volt."
+    },
+    {
+     "key": "B",
+     "html": "The sensitivity of potentiometer is 0.005 V/mm."
+    },
+    {
+     "key": "C",
+     "html": "Potentiometer works on principle of potential divider."
+    },
+    {
+     "key": "D",
+     "html": "Potentiometer is not accurate."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7f/7f774eac9f42cb4fc8e6.png\" /></div>\n\n<div><img alt=\"\" src=\"media/5f/5f3cf182bc74fdc86e95.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A <img align=\"absmiddle\" alt=\"\" src=\"media/41/41805294d332d9a06db2.png\" /> digital voltmeter is used for voltage measurement choose the correct statement(s) regarding <img align=\"absmiddle\" alt=\"\" src=\"media/43/43d122324bc60a2bd6ca.png\" /> DVM.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The resolution of given DVM is 0.0001"
+    },
+    {
+     "key": "B",
+     "html": "Meter cannot distinguish between values that differ from each other by less than 0.001 of full scale."
+    },
+    {
+     "key": "C",
+     "html": "12.98 would be displayed on 10 V ranges, like 12.980 V."
+    },
+    {
+     "key": "D",
+     "html": "0.81776 would be displayed on 1 V ranges, like 0.8177 volts."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4d/4dacc20ba4b9c40e88aa.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "NAT": 6,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

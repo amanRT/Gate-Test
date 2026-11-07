@@ -1,0 +1,991 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-014",
+ "title": "GATE 2027-Subjectwise Test- 10 (Digital Electronics)",
+ "sourceTitle": "GATE 2027-Subjectwise Test- 10 (Digital Electronics)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 14,
+ "category": "subjectwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 33 | Marks: 50 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/039_GATE 2027-Subjectwise Test- 10 (Digital Electronics).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The output for the following 2 &times; 1 multiplexer circuit is equivalent to</p>\n<p><img src=\"media/1d/1d22f34c9ebd1336ab92.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>NAND gate</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>OR gate</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Ex-OR gate</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>NOR gate</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/a7/a782c8701090835df169.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/59/59bdc4bba3d269b045d3.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/48/486837ca2972b21f5b28.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>An 8 bit DAC produces output voltage of 1 V for a binary input of 0110 0100. The output voltage&nbsp;for a binary input of 1011 0011 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3.58 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4.16 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>5.25 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1.79 V</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/8f/8f2cd3bd729208fea64d.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider PLA circuit shown in the figure below:</p>\n<p><img src=\"media/07/079dc276f6659d6a5364.png\"></p>\n<p>The output <em>f </em>(<em>A, B, C</em>) is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/25/2591204c5011cdc66d5b.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/be/be2968e8cf552afebc8b.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/f4/f4f79ac6ec344e30080a.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/ae/aef23a4f389a94cdaf90.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8f/8f66188ed85116f656cb.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/fe/fe6481be1baec134da66.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/1e/1e1639866bbb9cb46842.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/24/24a43ebee2c3dfbe4033.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/8a/8ad8bc36975b705f26ff.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The Boolean function <em>f(A, B, C)</em> = &Pi;<em>M</em>(1, 3, 4, 5) is to be implemented by using 4 : 1 MUX having&nbsp;select lines <em>S</em><sub>1</sub> = <em>B</em> and <em>S</em><sub>0</sub> = <em>C</em>.</p>\n<p><img src=\"media/5a/5a62b77b4616b853acba.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/73/73656d987e843d578c36.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/61/612f4e091d5a649a7f85.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/99/9987b4c5f545fe6747b1.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/4f/4f18e7d33ba4a3cb305f.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/5b/5b43ffa760d10c19e57c.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>(1)<sub>2</sub> + (2)<sub>3</sub> + (3)<sub>4</sub> + (14)<sub>5</sub> + (5)<sub>6 </sub>= (_______)<sub>7</sub></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    26,
+    26
+   ],
+   "answerText": "26",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/18/186ab5d556f33d1fffb1.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>If a full modulus counter having ten flip-flops is initially at 0, the count it holds after 4100 pulses&nbsp;will be (__________)<sub>10</sub>.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>A full modulus counter with 10 flip-flops has modulus M = 2<sup>10</sup> = 1024. So, after 1024 clock pulses&nbsp;the cycle repeats. Thus, after 2048 clock pulses or after 4096 clock pulses, the counter&rsquo;s state is 0.<br>The state of the counter at 4100 is 4100 &ndash; 4096 = 4<br>&there4; The state is (0000000100)<sub>2</sub> = (4)<sub>10</sub>.</p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A certain 12-bit BCD analog-to-digital converter has full scale output of 19.98 V. Then the&nbsp;percentage resolution will be approximately equal to __________%. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.09,
+    0.12
+   ],
+   "answerText": "0.09 - 0.12",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12-BCD bits corresponds to 3 decimal digits, i.e., the output ranges from 000 to 999. Thus, the&nbsp;percentage resolution will be</p>\n<p><img src=\"media/a3/a3713704455e8427ce40.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A two input gate having inputs &lsquo;<em>A</em>&rsquo; and &lsquo;<em>B</em>&rsquo; is implemented using 4 : 1 MUX as shown in the figure&nbsp;below.</p>\n<p><img src=\"media/a3/a30dfcec8f6619574e66.png\"></p>\n<p>Then the minimum number of NAND gates required to implement the same gate is equal to ______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/7d/7dcdd8bc89fe8e3a5f10.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>The ratio of maximum conversion time of 4-bit digital ramp type ADC to that of 4-bit successive&nbsp;approximation type ADC is ____________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.5,
+    3.9
+   ],
+   "answerText": "3.5 - 3.9",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/d1/d12b37ae6592ba96e2ac.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A switching circuit has four inputs as shown below:</p>\n<p><img src=\"media/f6/f65d6e9e9de34dcc5713.png\"></p>\n<p>The output &lsquo;<em>F </em>&rsquo; is &lsquo;1&rsquo; only when the product (<em>S</em><sub>1</sub> &times; <em>S</em><sub>2</sub>)10 is less than or equal to &lsquo;2&rsquo;. The minimized form of <em>F </em>is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/74/741c5a896133aa0c79ae.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/c5/c5634d64a0870c02f05f.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/db/dbd7dfd972d82bf48c29.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/07/07e2ad980b3888b61b56.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/ec/ec9a37a19ec063a087cf.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The below figure shows the output of a transistor level circuit connected to the select line of a&nbsp;2-input multiplexer.</p>\n<p><img src=\"media/1f/1f6f763967fe66a410a7.png\"></p>\n<p>The minterms present in the output logic function <em>F </em>are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&Sigma;<em>m</em>(1, 2, 4, 7)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&Sigma;<em>m</em>(1, 4, 5, 7)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&Sigma;<em>m</em>(3, 5, 6, 7)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&Sigma;<em>m</em>(0, 3, 6, 7)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/7d/7d40de5a994fa163916c.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n<p><img src=\"media/ff/ff2b9e0d50b3fb33e0e5.png\"></p>\n<p>If input clock frequency is 10 kHz, then the output frequency is equal to ________ kHz.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/e5/e56fa2e44236b3f38a67.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>If <em>X</em><sub>1</sub> and <em>X</em><sub>2</sub> are the inputs to the circuit as shown in the below figure, then the output <em>Q </em>will be</p>\n<p><img src=\"media/6e/6e4941a22e1aa08d77cc.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/6d/6d5bc576c57082cf6087.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/e6/e6e99fe418ed696b3281.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/e9/e91a97b4b05251116efe.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/53/53c7cb4863a1990abde1.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/8e/8ecd34b90213df916a12.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>Consider the ADC circuit shown below:</p>\n<p><img src=\"media/32/320ffa8feeb620243eb4.png\"></p>\n<p>The weight of input (<em>B</em>) is _________ V.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -1.4,
+    -1.1
+   ],
+   "answerText": "-1.4 - -1.1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/35/35cb51203ec886627f98.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/36/36c478a3927f42d33202.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>5</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>6</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>7</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/46/4694ba9c3d5f4c8e0f9f.png\"></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Consider the circuit shown below:</p>\n<p><img src=\"media/94/9452eab035a02cadbe2d.png\"></p>\n<p>The circuit will function as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Ex-NOR</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>AND</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Ex-OR</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>NOR</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>The outputs of two logic gates are directly shorted together works as a Wired-AND function.</p>\n<p><img src=\"media/e0/e0a07cc6200a629406b5.png\"></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider two different logic circuits <em>A </em>and <em>B </em>with voltage specifications for Low and High logics&nbsp;of input and output as given below :</p>\n<p><img src=\"media/de/dec79b322b38223ea853.png\"></p>\n<p>Choose the correct sequence of circuit with the best LOW-state dc noise immunity and circuit&nbsp;with the best HIGH-state dc noise immunity.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><em>A, B</em></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><em>B, A</em></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><em>A, A</em></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><em>B, B</em></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/a7/a7fddf58180f4081862e.png\"></p>\n<p>The circuit <em>A </em>has best LOW-state dc noise immunity and circuit <em>B </em>has best HIGH-state dc noise&nbsp;immunity. Thus, the correct sequence is<em> A, B</em>.</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The three-stage Johnson-Ring Counter as shown below is clocked at a constant frequency of <em>f<sub>c</sub>&nbsp;</em>from the starting state of Q<sub>0</sub> Q<sub>1</sub> Q<sub>2</sub> = 0 1 0. The frequency at the output of any flip-flop will be</p>\n<p><img src=\"media/c7/c717a7d14d1a58cf1900.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/c1/c18ae070367b03c20128.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/36/36b2235abaf26afcff1b.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/0a/0afbb524a665ffba5ebe.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/1f/1fed0b0af3a809639b5a.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8f/8ffc822272cea5cada99.png\"></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A pulse train of frequency 1 MHz is counted by using a MOD-1024 ripple counter built with&nbsp;<em>JK </em>flip flops. For proper operation of the counter, the maximum permissible propagation delay&nbsp;per flip flop stage is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>100 nsec</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>50 nsec</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>20 nsec</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>10 nsec</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/00/005e5291cb5f0474fa86.png\"></p>\n<p><img src=\"media/1e/1e6a53d533131267f8d1.png\"></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/d2/d22bdd596686b7ef35e8.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&Pi; M(4, 6)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&Sigma;m(0, 1, 2, 3, 5, 7)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&Sigma; m(4, 6)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&Pi;M(0, 1, 2, 3, 5)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/dd/dd94dbb0a1848316dba8.png\"></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A binary counter is being pulsed by a 256 kHz clock signal. The output frequency from the last&nbsp;flip-flop is 2 kHz. The MOD of the counter is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>28</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>128</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>246</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>314</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/27/274d5558bca3b44d98b1.png\"></p>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A 1-bit full adder takes 10 ns to generate output carry bit and 20 ns to generate the output sum&nbsp;bit. If four such full adders are cascaded to form a 4-bit parallel adder, then the maximum&nbsp;number of 4-bit additions per second that can be performed by the parallel adder is _________ &times;10<sup>6</sup>.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    19,
+    21
+   ],
+   "answerText": "19 - 21",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/c1/c14afdc72ad4d2022e98.png\"></p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n<p><img src=\"media/fa/fac1fb9a0028c378c853.png\"></p>\n<p>If the three bit input to the circuit is (<em>X<sub>2</sub>X<sub>1</sub>X<sub>0</sub></em>) = 101, then the decimal equivalent of the<br>corresponding output of the circuit (<em>Y<sub>2</sub>Y<sub>1</sub>Y<sub>0</sub></em>) will be equal to _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/1d/1d673574d61e92277648.png\"></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/72/724498f62a333ff58e8f.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/dc/dc33e21f1d082da31cba.png\"></p>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A logical function is given as <em>F</em>(<em>A, B, C, D</em>) = &Sigma;<em>m</em> (0, 4, 5, 10, 11, 13, 15).<br>The number of essential prime implicants in the given boolean function will be _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>Essential prime implicant is a prime implicant which is having atleast one minterm which is not<br>the part of any other prime implicant.<br>Using <em>K</em>-map for the given function, we get</p>\n<p><img src=\"media/9c/9c7f5b8065ad52c493fa.png\"></p>\n<p>Here, total number of prime implicants = 6<br><img src=\"media/93/93c71b44ee64ddc0d3f0.png\"></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A 4-bit synchronous counter uses flip-flops with a propagation delay of 15 nsec each. The AND-OR&nbsp;combinational logic feeding MSB has 30 nsec delay. The maximum operating frequency is&nbsp;_________ MHz. (upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    21,
+    23
+   ],
+   "answerText": "21 - 23",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/a8/a8c55cdfa72aace269c9.png\"></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A function <em>f</em>(<em>A, B, C</em>) is produced by using positive logic NOR-gates as shown in the figure&nbsp;below.</p>\n<p><img src=\"media/ef/efb2d68134f8f4c4e24f.png\"></p>\n<p>The function &lsquo;<em>f </em>&rsquo; can be represented as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><em>f</em> = &Sigma;<em>m</em> (0, 1, 3, 2, 7)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><em>f </em>= &Sigma;<em>m</em> (0, 1, 3)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><em>f</em> = &Sigma;<em>m</em> (5, 6)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><em>f</em> = &Sigma;<em>m</em> (1, 5, 7)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/b2/b20576a4a303812a6f08.png\"></p>\n<p><img src=\"media/42/426331fec371fb185430.png\"></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n<p><img src=\"media/9e/9ea7f3df17923683a485.png\"></p>\n<p>If <em>A </em>and <em>B </em>are connected to the select lines of the MUX circuit, then the boolean function realized&nbsp;by the circuit is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><em>f (A, B, C, D)</em> = &Pi;<em>M</em> (1, 3, 7, 8, 12, 13, 14, 15)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><em>f (A, B, C, D)</em> = &Sigma;<em>m</em> (1, 3, 7, 9, 12, 13, 14, 15)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><em>f (A, B, C, D)</em> = &Pi;<em>M</em> (0, 2, 4, 5, 6, 9, 10, 11)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><em>f (A, B, C, D)</em> = &Sigma;<em>m</em> (0, 1, 4, 5, 6, 9, 10, 11)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/6d/6d1f1d976813b8dd1277.png\"></p>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>Which of the following K-Map's can be used to represent the consensus theorem?</p>\n<p><img src=\"media/05/056a0127ca17b226bc1c.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>For application of consensus theorem, K-Map must have a redundant group in which the two 1&rsquo;s&nbsp;in a group are overlapped by other groups. In option (a), K-Map has a redundant group BC and&nbsp;in option (d), K-Map has a redundant group <em>A&prime;B</em>&prime; . For option (b) and (c), there is no redundant&nbsp;group in K-Map.</p>\n<p><img src=\"media/fe/fec4509c1736157aa21e.png\"></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider the circuit shown below:</p>\n<p><img src=\"media/8b/8bf7e1a675e552a56677.png\"></p>\n<p>If the above circuit converts a <em>D </em>flip-flop into a <em>J-K</em> flip-flop, then the combinational circuit can be&nbsp;represented as</p>\n<p><img src=\"media/5b/5b282b6bb8af3711693a.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/7b/7b534f1d561a32382f3d.png\"></p>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The characteristic table of a flip-flop is shown below:</p>\n<p><img src=\"media/32/32bc50e6350c4cf71c75.png\"></p>\n<p>The characteristic equation of the flip-flop is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/80/805eebb9b3d1d34da1e3.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/91/91826da8e779932947ed.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/eb/eb6123628b7f4c4e7c05.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/e3/e355b46b6e54aa46dc4f.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/98/984026552962881656d9.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 19,
+   "NAT": 13,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

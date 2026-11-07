@@ -1,0 +1,558 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-086",
+ "title": "DVRUO Classes GATE CS | Operating System | Multi Level Paging | Weekly Quiz 2",
+ "sourceTitle": "DVRUO Classes GATE CS | Operating System | Multi Level Paging | Weekly Quiz 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 86,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Operating System"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/031_exam_1237_GO Classes GATE CS Operating System Multi Level Paging Weekly Quiz 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose that pages are $512$B and each page table entry is $4$ bytes.<br>Assume that somehow the virtual and physical address spaces were both $4$GB and that the page table begins at address $\\mathrm{0 x 10000000}$. If we wanted to access the virtual address $\\mathrm{0x00000345}$, what is the address of the PTE we would look at?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{0 x10000000}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{0x10000001}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{0x10000004}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{0x10000345}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"502442\"></a><div itemprop=\"text\"><p><strong>answer: C</strong></p><p><br><img alt=\"\" width=\"1200\" height=\"1402\" src=\"media/46/46c24d5b925a9a2c2bc7.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"503566\"></a><div itemprop=\"text\"><p data-path-to-node=\"17\"><b>Problem:</b> Calculate the physical address of the Page Table Entry (PTE) for virtual address <code>0x00000345</code>. <b>Given:</b></p><ul data-path-to-node=\"18\"><li><p data-path-to-node=\"18,0,0\">Page Size = 512 Bytes</p></li><li><p data-path-to-node=\"18,1,0\">PTE Size = 4 Bytes</p></li><li><p data-path-to-node=\"18,2,0\">Page Table Base Address (PTBR) = <code>0x10000000</code></p></li><li><p data-path-to-node=\"18,3,0\">Target Virtual Address = <code>0x00000345</code></p></li></ul><p data-path-to-node=\"19\"><b>Step-by-Step Solution:</b></p><ol start=\"1\" data-path-to-node=\"20\"><li><p data-path-to-node=\"20,0,0\"><b>Determine Page Size in Hex:</b> 512 Bytes = 29. In Hexadecimal, 512 is <code>0x200</code>. This means addresses <code>0x000</code> to <code>0x1FF</code> belong to <b>Page 0</b>. Addresses <code>0x200</code> to <code>0x3FF</code> belong to <b>Page 1</b>.</p></li><li><p data-path-to-node=\"20,1,0\"><b>Find the Virtual Page Number (VPN):</b> We need to find which page the address <code>0x00000345</code> resides in. Since <code>0x345</code> is greater than <code>0x200</code> but less than <code>0x400</code> (2×512), it falls into the second page (Index 1).</p><p data-path-to-node=\"20,1,1\"><i>Mathematically:</i></p><p>VPN=⌊Page&nbsp;SizeVirtual&nbsp;Address​⌋</p><p>VPN=⌊0x2000x345​⌋=1</p></li><li><p data-path-to-node=\"20,2,0\"><b>Calculate the PTE Address:</b> The formula to find the specific entry address is:</p><p>PTE&nbsp;Address=Base&nbsp;Address+(VPN×PTE&nbsp;Size)</p><ul data-path-to-node=\"20,2,2\"><li><p data-path-to-node=\"20,2,2,0,0\">Base = <code>0x10000000</code></p></li><li><p data-path-to-node=\"20,2,2,1,0\">VPN = <code>1</code></p></li><li><p data-path-to-node=\"20,2,2,2,0\">PTE Size = <code>4</code> bytes</p></li></ul><p>PTE&nbsp;Address=0x10000000+(1×4)</p><p>PTE&nbsp;Address=0x10000000+0x4</p><p>PTE&nbsp;Address=0x10000004</p></li></ol><p data-path-to-node=\"21\"><b>Correct Answer:</b> <b>C. 0x10000004</b></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"497194\"></a><div itemprop=\"text\">Each page is $512$B, so we have $9$ offset bits in our virtual address. Therefore, our VPN for $\\mathrm{0x00000345}$ is $1$. We index into the first PTE in the page table (since we use the VPN to index into the page table), which will be at address $\\mathrm{0x100000004}$: each PTE is $4$ bytes.</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"529728\"></a><div itemprop=\"text\"><div class=\"markdown markdown-main-panel stronger enable-updated-hr-color\" style=\"--animation-duration: 400ms; --fade-animation-function: ease-out; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\" id=\"model-response-message-contentr_adeb8e77119e72dc\" aria-live=\"polite\" aria-busy=\"false\" dir=\"ltr\"><p data-path-to-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">&nbsp;</p><hr data-path-to-node=\"1\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h2 data-path-to-node=\"2\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Given Data</h2><ul data-path-to-node=\"3\" style=\"padding-inline-start: 32px; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,0,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Page Size:</b> <span class=\"math-inline\" data-math=\"512\\text{ B} = 2^9\\text{ B}\" data-index-in-node=\"11\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$512\\text{ B} = 2^9\\text{ B}$</span></p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,1,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">PTE Size:</b> <span class=\"math-inline\" data-math=\"4\\text{ B}\" data-index-in-node=\"10\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$4\\text{ B}$</span></p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,2,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Page Table Base Address (PTBR):</b> <span class=\"math-inline\" data-math=\"\\text{0x10000000}\" data-index-in-node=\"32\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$\\text{0x10000000}$</span></p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"3,3,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Virtual Address (VA):</b> <span class=\"math-inline\" data-math=\"\\text{0x00000345}\" data-index-in-node=\"22\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$\\text{0x00000345}$</span></p></li></ul><hr data-path-to-node=\"4\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h2 data-path-to-node=\"5\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Step 1: Extract the Page Number (p)</h2><p data-path-to-node=\"6\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">The Virtual Address is divided into two parts: the <b data-path-to-node=\"6\" data-index-in-node=\"51\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Page Number (<span class=\"math-inline\" data-math=\"p\" data-index-in-node=\"64\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$p$</span>)</b> and the <b data-path-to-node=\"6\" data-index-in-node=\"75\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Page Offset (<span class=\"math-inline\" data-math=\"d\" data-index-in-node=\"88\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$d$</span>)</b>. Since the page size is <span class=\"math-inline\" data-math=\"2^9\\text{ B}\" data-index-in-node=\"115\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^9\\text{ B}$</span>, the offset <span class=\"math-inline\" data-math=\"d\" data-index-in-node=\"140\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$d$</span> requires <b data-path-to-node=\"6\" data-index-in-node=\"151\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">9 bits</b>.</p><p data-path-to-node=\"7\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Convert the VA from Hexadecimal to Binary:</p><div data-path-to-node=\"8\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{VA (0x00000345)} = \\underbrace{00\\dots0001}_{\\text{Page Number } (p)} \\underbrace{1 \\ 0100 \\ 0101}_{\\text{Offset } (d)}\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{VA (0x00000345)} = \\underbrace{00\\dots0001}_{\\text{Page Number } (p)} \\underbrace{1 \\ 0100 \\ 0101}_{\\text{Offset } (d)}$$</div></div><ul data-path-to-node=\"9\" style=\"padding-inline-start: 32px; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"9,0,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"9,0,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Lower 9 bits (Offset):</b> <span class=\"math-inline\" data-math=\"101000101_2 = \\text{0x145}\" data-index-in-node=\"23\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$101000101_2 = \\text{0x145}$</span></p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"9,1,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"9,1,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Remaining bits (Page Number):</b> <span class=\"math-inline\" data-math=\"00\\dots0001_2 = 1\" data-index-in-node=\"30\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$00\\dots0001_2 = 1$</span></p></li></ul><p data-path-to-node=\"10\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Therefore, <b data-path-to-node=\"10\" data-index-in-node=\"11\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Page Number (<span class=\"math-inline\" data-math=\"p\" data-index-in-node=\"24\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$p$</span>) = 1</b>.</p><hr data-path-to-node=\"11\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h2 data-path-to-node=\"12\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Step 2: Calculate the PTE Address</h2><p data-path-to-node=\"13\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">The address of the Page Table Entry (PTE) in the physical memory is determined by indexing into the Page Table starting from the Base Address.</p><div data-path-to-node=\"14\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Address of PTE} = \\text{Page Table Base Address} + (\\text{Page Number} \\times \\text{PTE Size})\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Address of PTE} = \\text{Page Table Base Address} + (\\text{Page Number} \\times \\text{PTE Size})$$</div></div><p data-path-to-node=\"15\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Substituting the given values:</p><div data-path-to-node=\"16\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Address of PTE} = \\text{0x10000000} + (1 \\times 4)\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Address of PTE} = \\text{0x10000000} + (1 \\times 4)$$</div></div><div data-path-to-node=\"17\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Address of PTE} = \\text{0x10000000} + 4\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Address of PTE} = \\text{0x10000000} + 4$$</div></div><div data-path-to-node=\"18\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Address of PTE} = \\mathbf{0x10000004}\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Address of PTE} = \\mathbf{0x10000004}$$</div></div><hr data-path-to-node=\"19\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h2 data-path-to-node=\"20\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Final Answer</h2><p data-path-to-node=\"21\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">The physical address of the Page Table Entry for the given Virtual Address is <b data-path-to-node=\"21\" data-index-in-node=\"78\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">0x10000004</b>.</p></div></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"542476\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"1054\" height=\"1280\" src=\"media/7a/7af3ce01abbb72e2102e.jpg\"></p><p>option c is true</p></div></section></div><p><a href=\"https://gateoverflow.in/497193\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Select all True statements.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A process&#x27;s virtual address space can be larger than the size of the physical address space.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The physical address space can be larger than a process&#x27;s virtual address space.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A process cannot access more memory than the size of its virtual address space.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A process cannot access more memory than the size of the physical address space.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"503568\"></a><div itemprop=\"text\"><p data-path-to-node=\"3\"><b>Problem:</b> Select all True statements regarding virtual and physical address spaces.</p><p data-path-to-node=\"4\"><b>Analysis:</b></p><ul data-path-to-node=\"5\"><li><p data-path-to-node=\"5,0,0\"><b>A. A process's virtual address space can be larger than the size of the physical address space.</b></p><ul data-path-to-node=\"5,0,1\"><li><p data-path-to-node=\"5,0,1,0,0\"><b>TRUE.</b> This is the primary definition and benefit of Virtual Memory. For example, a 32-bit process has a 4GB virtual address space, even if the computer only has 512MB of Physical RAM. The OS handles this via demand paging (swapping pages in/out of the disk).</p></li></ul></li><li><p data-path-to-node=\"5,1,0\"><b>B. The physical address space can be larger than a process's virtual address space.</b></p><ul data-path-to-node=\"5,1,1\"><li><p data-path-to-node=\"5,1,1,0,0\"><b>TRUE.</b> Consider a 32-bit application running on a modern 64-bit OS with 32GB of RAM. The process is limited to a 4GB virtual space ($2^{32}$), but the physical RAM (32GB) is much larger.</p></li></ul></li><li><p data-path-to-node=\"5,2,0\"><b>C. A process cannot access more memory than the size of its virtual address space.</b></p><ul data-path-to-node=\"5,2,1\"><li><p data-path-to-node=\"5,2,1,0,0\"><b>TRUE.</b> A process is mathematically limited by the number of bits in its address pointers. If a system uses 32-bit pointers, the process can only generate addresses from 0 to $2^{32}-1$. It literally cannot \"speak\" the name of an address outside this range.</p></li></ul></li><li><p data-path-to-node=\"5,3,0\"><b>D. A process cannot access more memory than the size of the physical address space.</b></p><ul data-path-to-node=\"5,3,1\"><li><p data-path-to-node=\"5,3,1,0,0\"><b>FALSE.</b> Thanks to virtual memory and swapping (paging), a process can utilize a dataset much larger than the available physical RAM. The OS will simply store the inactive parts of the memory on the hard drive (swap space) and load them into physical RAM only when needed.</p></li></ul></li></ul><p data-path-to-node=\"6\"><b>Correct Answer:</b> <b>Statements A, B, and C are True.</b></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"542475\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><span style=\"background-color:#f1c40f;\">The true statements are A, B, and C.</span></p><p data-path-to-node=\"1\">Statement A is true because virtual memory allows the operating system to give a process a large virtual address space by keeping only the active parts in physical RAM and storing the rest on the hard drive.</p><p data-path-to-node=\"2\">Statement B is true because a system can have a large amount of physical RAM installed, like 16 GB, while a single process might be limited by a 32-bit architecture to a maximum virtual address space of only 4 GB.</p><p data-path-to-node=\"3\">Statement C is true because a process can only generate addresses that exist within its own virtual address space, so it has no way to reference or access any memory outside of that boundary.</p><p data-path-to-node=\"4\">Statement D is false because the whole point of virtual memory is to let a process run even if its memory needs are larger than the total physical RAM available, achieved by swapping pages in and out of disk storage as the program executes.</p></div></section></div><p><a href=\"https://gateoverflow.in/497192\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A processor uses $11$-bit physical addresses and $16$-bit virtual addresses.<br><br>The page size is $2^{8}$ bytes, and a two-level paging scheme is used for address translation.<br><br>The virtual address is divided into the following fields:<br>$$<br>\\begin{array}{|c|c|c|}<br>\\hline<br>5~\\text{bits} &amp; 3~\\text{bits} &amp; 8~\\text{bits} \\\\<br>\\hline<br>\\end{array}<br>$$<br>$$<br>\\text{L1 index} \\quad \\text{L2 index} \\quad \\text{Page offset}<br>$$<br>Each Page Table Entry is $2$ bytes in size and has the following format:<br>$$<br>\\begin{array}{|c|c|}<br>\\hline<br>\\text{Physical Page Number (PPN)} &amp; \\text{Control bits} \\\\<br>\\hline<br>\\end{array}<br>$$<br>Determine which of the following L1 and L2 PPN values would NOT be possible:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>L1 PPN value $=120,$ L2 PPN value $=5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>L1 PPN value $=64, $ L2 PPN value $=3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>L1 PPN value $=127, $ L2 PPN value $=7$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>L1 PPN value $=12,$ L2 PPN value $=15$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"497191\"></a><div itemprop=\"text\"><meta><p style=\"font-size:1.25rem; font-weight:600; color:#0b5394;\">Video Solution (Must Watch): <a style=\"color:#1155cc; text-decoration:underline;\" rel=\"nofollow\" href=\"https://youtu.be/hQL7TbaIPHk?t=19501\" target=\"_blank\"> https://youtu.be/hQL7TbaIPHk?t=19501 </a></p><p>The physical address is <b>11 bits long</b>, and the <b>offset</b> uses <b>8 bits</b>. Thus, the remaining bits identify the <b>physical frame number</b>:</p><div class=\"solution-container\"><div class=\"solution-part\">\\[ \\text{Physical frame bits} = 11 - 8 = 3 \\]<p>Hence, there are \\(2^3 = 8\\) physical frames in total. Each frame can be represented by a 3-bit number (0 to 7).</p><p>Each L2 page table entry (PTE) stores the frame number, so it requires 3 bits and can take:</p> \\[ \\boxed{ \\begin{array}{c} 2^3 = 8\\ \\text{possible values (0–7)} \\\\[4pt] \\text{for L2 (Inner) page table entries.} \\end{array} } \\]</div><div class=\"solution-part\"><p>Each L1 page table entry points to a second-level page table. To know how many such tables are possible:</p>\\[ \\text{Total physical memory} = 2^{11}\\ \\text{bytes} \\]<p>Each L2 page table has \\(2^3 = 8\\) entries, and each entry is 2 bytes in size.</p> \\[ \\begin{array}{c} \\text{Size of one L2 table} = 2^3 \\times 2 \\\\[4pt] = 2^4 = 16\\ \\text{bytes.} \\end{array} \\]<p>The total number of such tables that can fit in memory is:</p> \\[ \\dfrac{2^{11}}{2^4} = 2^7 = 128 \\]<p>So, an L1 entry must be able to identify one of these 128 tables, meaning it needs:</p> \\[ \\boxed{ \\begin{array}{c} \\text{7 bits (possible values 0–127)} \\\\[4pt] \\text{for L1 (Outer) page table entries.} \\end{array} } \\]</div></div><p><b>Possible values of L1 Page Table Entry:</b> 0 – 127</p><p><b>Possible values of L2 Page Table Entry:</b> 0 – 7</p><hr><p><b>Checking each option:</b></p><p>A. \\( \\text{L1} = 120 \\) (valid), \\( \\text{L2} = 5 \\) (valid) → <b>Valid</b><br><br>B. \\( \\text{L1} = 64 \\) (valid), \\( \\text{L2} = 3 \\) (valid) → <b>Valid</b><br><br>C. \\( \\text{L1} = 127 \\) (valid), \\( \\text{L2} = 7 \\) (valid) → <b>Valid</b><br><br>D. \\( \\text{L1} = 12 \\) (valid), \\( \\text{L2} = 15 \\) (<b>invalid</b>; exceeds 7) → <b>Invalid</b></p><p><b>Final Answer: (D)</b></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"542488\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"977\" height=\"1280\" src=\"media/f1/f193c591f604a11a566d.jpg\"></p><p>hence option d is invalid</p></div></section></div><p><a href=\"https://gateoverflow.in/497190\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A system uses a $47$-bit virtual address space with a page size of $\\mathbf{1 6 ~ K B}$. Each page table entry (PTE) requires $8$ bytes. Each page table must fit entirely within a single page.<br>\nHow many levels of page tables are required to map the entire virtual address space?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 3</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"542491\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"1200\" height=\"912\" src=\"media/6c/6cf37dce87f9fcac67b1.jpg\">so answer is 3</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"508015\"></a><div itemprop=\"text\"><h2 data-start=\"403\" data-end=\"440\"><strong data-start=\"406\" data-end=\"440\">Entries per page table</strong></h2><ul data-start=\"441\" data-end=\"535\"><li data-start=\"441\" data-end=\"491\"><p data-start=\"443\" data-end=\"491\">Page table size ≤ <strong data-start=\"461\" data-end=\"491\">1 page = 16 KB = 2¹⁴ bytes</strong></p></li><li data-start=\"492\" data-end=\"535\"><p data-start=\"494\" data-end=\"535\">Size of each PTE = <strong data-start=\"513\" data-end=\"535\">8 bytes = 2³ bytes</strong></p></li></ul><p>Entries&nbsp;per&nbsp;page&nbsp;table= 2^14 / 2^3 = 2^11&nbsp;</p><p data-start=\"604\" data-end=\"645\">Each page table index uses <strong data-start=\"634\" data-end=\"645\">11 bits<br>&nbsp;VAS -Pagesize =&nbsp; 47 -&nbsp; 11= 33bits&nbsp;<br>33/3 =11 , hence 3levels&nbsp;<br>so , 11,11,11,14 is the division&nbsp;<br>=&gt; 3levles required&nbsp;</strong></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"529782\"></a><div itemprop=\"text\"><div class=\"markdown markdown-main-panel stronger enable-updated-hr-color\" style=\"--animation-duration: 400ms; --fade-animation-function: ease-out; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\" id=\"model-response-message-contentr_08b70fb790705103\" aria-live=\"polite\" aria-busy=\"false\" dir=\"ltr\">&nbsp;<p data-path-to-node=\"3\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Given the following parameters for a paged memory management system:</p><ul data-path-to-node=\"4\" style=\"padding-inline-start: 32px; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"4,0,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Virtual Address (VA) Space:</b> 47 bits</p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"4,1,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"4,1,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Page Size (<span class=\"math-inline\" data-math=\"P\" data-index-in-node=\"11\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$P$</span>):</b> <span class=\"math-inline\" data-math=\"16 \\text{ KB}\" data-index-in-node=\"15\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$16 \\text{ KB}$</span> (<span class=\"math-inline\" data-math=\"2^{14} \\text{ bytes}\" data-index-in-node=\"30\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{14} \\text{ bytes}$</span>)</p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"4,2,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"4,2,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Page Table Entry (PTE):</b> <span class=\"math-inline\" data-math=\"8 \\text{ bytes}\" data-index-in-node=\"24\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$8 \\text{ bytes}$</span> (<span class=\"math-inline\" data-math=\"2^3 \\text{ bytes}\" data-index-in-node=\"41\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^3 \\text{ bytes}$</span>)</p></li></ul><p data-path-to-node=\"5\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"5\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Constraint:</b> Each page table (at any level) must fit entirely within a single page frame.</p><p data-path-to-node=\"6\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Calculate the number of levels of page tables required to map the entire Virtual Address Space (VAS).</p><hr data-path-to-node=\"7\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h2 data-path-to-node=\"8\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"8\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Solution</b></h2><h3 data-path-to-node=\"9\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"9\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">1. Calculate Number of Entries in the Full VAS</b></h3><p data-path-to-node=\"10\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">The number of pages in the Virtual Address Space is determined by dividing the total VAS by the page size.</p><div data-path-to-node=\"11\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Total Pages} = \\frac{2^{VA}}{P} = \\frac{2^{47}}{2^{14}} = 2^{33} \\text{ pages}\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Total Pages} = \\frac{2^{VA}}{P} = \\frac{2^{47}}{2^{14}} = 2^{33} \\text{ pages}$$</div></div><p data-path-to-node=\"12\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">To map these <span class=\"math-inline\" data-math=\"2^{33}\" data-index-in-node=\"14\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{33}$</span> pages, we require <span class=\"math-inline\" data-math=\"2^{33}\" data-index-in-node=\"39\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{33}$</span> Page Table Entries (PTEs) in the leaf level.</p><h3 data-path-to-node=\"13\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"13\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">2. Calculate Number of PTEs per Page Table</b></h3><p data-path-to-node=\"14\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">According to the constraint, a page table must fit within one page.</p><div data-path-to-node=\"15\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Entries per Page} = \\frac{\\text{Page Size}}{\\text{PTE size}} = \\frac{2^{14}}{2^3} = 2^{11} \\text{ entries}\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Entries per Page} = \\frac{\\text{Page Size}}{\\text{PTE size}} = \\frac{2^{14}}{2^3} = 2^{11} \\text{ entries}$$</div></div><p data-path-to-node=\"16\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">This indicates that each level of the page table uses <b data-path-to-node=\"16\" data-index-in-node=\"55\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">11 bits</b> of the virtual address for indexing.</p><h3 data-path-to-node=\"17\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"17\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">3. Determine Hierarchical Levels</b></h3><p data-path-to-node=\"18\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Let <span class=\"math-inline\" data-math=\"L_i\" data-index-in-node=\"4\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$L_i$</span> represent the number of page tables required at level <span class=\"math-inline\" data-math=\"i\" data-index-in-node=\"62\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$i$</span>, where <span class=\"math-inline\" data-math=\"L_1\" data-index-in-node=\"71\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$L_1$</span> is the innermost level.</p><ul data-path-to-node=\"19\" style=\"padding-inline-start: 32px; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"19,0,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"19,0,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Level 1 (Innermost):</b> To store <span class=\"math-inline\" data-math=\"2^{33}\" data-index-in-node=\"30\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{33}$</span> PTEs:</p><div data-path-to-node=\"19,0,1\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Number of tables} = \\frac{2^{33} \\text{ entries}}{2^{11} \\text{ entries/table}} = 2^{22} \\text{ tables}\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Number of tables} = \\frac{2^{33} \\text{ entries}}{2^{11} \\text{ entries/table}} = 2^{22} \\text{ tables}$$</div></div></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"19,1,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"19,1,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Level 2:</b> To store <span class=\"math-inline\" data-math=\"2^{22}\" data-index-in-node=\"18\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{22}$</span> pointers to the Level 1 tables:</p><div data-path-to-node=\"19,1,1\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Number of tables} = \\frac{2^{22}}{2^{11}} = 2^{11} \\text{ tables}\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Number of tables} = \\frac{2^{22}}{2^{11}} = 2^{11} \\text{ tables}$$</div></div></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"19,2,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"19,2,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Level 3 (Root):</b> To store <span class=\"math-inline\" data-math=\"2^{11}\" data-index-in-node=\"25\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{11}$</span> pointers to the Level 2 tables:</p><div data-path-to-node=\"19,2,1\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><div class=\"math-block\" data-math=\"\\text{Number of tables} = \\frac{2^{11}}{2^{11}} = 1 \\text{ table}\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$$\\text{Number of tables} = \\frac{2^{11}}{2^{11}} = 1 \\text{ table}$$</div></div></li></ul><p data-path-to-node=\"20\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Since Level 3 results in a single page table, it fits within the root frame, and the hierarchy is complete.</p><h3 data-path-to-node=\"21\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"21\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">4. Verification via Address Splitting</b></h3><p data-path-to-node=\"22\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">We can verify this by looking at the 47-bit Virtual Address:</p><ul data-path-to-node=\"23\" style=\"padding-inline-start: 32px; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"23,0,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"23,0,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Offset:</b> 14 bits (since <span class=\"math-inline\" data-math=\"2^{14} = 16 \\text{ KB}\" data-index-in-node=\"23\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{14} = 16 \\text{ KB}$</span>)</p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"23,1,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"23,1,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Remaining bits for Indexing:</b> <span class=\"math-inline\" data-math=\"47 - 14 = 33 \\text{ bits}\" data-index-in-node=\"29\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$47 - 14 = 33 \\text{ bits}$</span></p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"23,2,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Each level indexes <span class=\"math-inline\" data-math=\"2^{11}\" data-index-in-node=\"19\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$2^{11}$</span> entries (11 bits).</p></li><li style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><p data-path-to-node=\"23,3,0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"23,3,0\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Levels:</b> <span class=\"math-inline\" data-math=\"\\frac{33 \\text{ bits}}{11 \\text{ bits/level}} = 3 \\text{ levels}\" data-index-in-node=\"8\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">$\\frac{33 \\text{ bits}}{11 \\text{ bits/level}} = 3 \\text{ levels}$</span></p></li></ul><p data-path-to-node=\"24\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">The address is split as: <b data-path-to-node=\"24\" data-index-in-node=\"25\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">[L3 (11 bits) | L2 (11 bits) | L1 (11 bits) | Offset (14 bits)]</b>.</p><hr data-path-to-node=\"25\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><h3 data-path-to-node=\"26\" style=\"font-family: Google Sans, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\"><b data-path-to-node=\"26\" data-index-in-node=\"0\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">Final Answer:</b></h3><p data-path-to-node=\"27\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">The number of levels required is <b data-path-to-node=\"27\" data-index-in-node=\"33\" style=\"font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;\">3</b>.</p></div></div></section></div><p><a href=\"https://gateoverflow.in/497189\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A system uses a linear page table for a virtual address space of size $128$ bytes with $32$-byte pages.<br>Each Page Table Entry (PTE) contains the Page Frame Number (PFN) followed by a one valid bit.<br>The page table entries are as follows:<br>$$<br>\\begin{array}{c|c}<br>\\text{VPN} &amp; \\text{PTE (Hex)} \\\\<br>\\hline<br>0 &amp; \\text{0xFE} \\\\<br>1 &amp; \\text{0x0F} \\\\<br>2 &amp; \\text{0xFE} \\\\<br>3 &amp; \\text{0x09}<br>\\end{array}<br>$$<br>Now, for the following virtual addresses, determine which ones are valid (no page fault):</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{0x065}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{0x00 \\mathrm{C}}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{0x026}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{0x058}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"497188\"></a><div itemprop=\"text\">\\[ \\begin{aligned} \\textbf{VPN 0:} \\quad &amp; \\text{PTE} = \\text{0xFE} = 1111111\\color{red}{0}_2 \\\\ &amp; \\Rightarrow \\text{valid bit} = 0 \\; (\\text{invalid}) \\\\[6pt] \\textbf{VPN 1:} \\quad &amp; \\text{PTE} = \\text{0x0F} = 0000111\\color{red}{1}_2 \\\\ &amp; \\Rightarrow \\text{valid bit} = 1, \\; \\text{PFN} = 0000111_2 = 7 \\\\[6pt] \\textbf{VPN 2:} \\quad &amp; \\text{PTE} = \\text{0xFE} = 1111111\\color{red}{0}_2 \\\\ &amp; \\Rightarrow \\text{valid bit} = 0 \\; (\\text{invalid}) \\\\[6pt] \\textbf{VPN 3:} \\quad &amp; \\text{PTE} = \\text{0x09} = 0000100\\color{red}{1}_2 \\\\ &amp; \\Rightarrow \\text{valid bit} = 1, \\; \\text{PFN} = 0000100_2 = 4 \\end{aligned} \\]<br>\n<br>\n\\[ \\begin{array}{c|c|c|c|c|c} \\textbf{Option} &amp; \\textbf{VA (Hex)} &amp; \\textbf{Binary} &amp; \\textbf{Split (2|5)} &amp; \\textbf{VPN} &amp; \\textbf{Offset} \\\\[6pt] \\hline A &amp; 0\\text{x}065 &amp; {\\color{red}{0}}110\\ 0101 &amp; \\mathbf{11}|\\mathbf{00101} &amp; 3 &amp; 5 \\\\ B &amp; 0\\text{x}00C &amp; {\\color{red}{0}}000\\ 1100 &amp; \\mathbf{00}|\\mathbf{01100} &amp; 0 &amp; 12 \\\\ C &amp; 0\\text{x}026 &amp; {\\color{red}{0}}010\\ 0110 &amp; \\mathbf{01}|\\mathbf{00110} &amp; 1 &amp; 6 \\\\ D &amp; 0\\text{x}058 &amp; {\\color{red}{0}}101\\ 1000 &amp; \\mathbf{10}|\\mathbf{11000} &amp; 2 &amp; 24 \\end{array} \\]<br>\n<br>\n&nbsp;<br>\n<br>\n$ \\text{(Address is 7 bits, hence ignore the most significant 0 shown in red.)}$<br>\n<br>\n&nbsp;<br>\n<br>\nAnswer: A,C</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"503574\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">We need to determine which virtual addresses will result in a successful translation (Valid) and which will cause a page fault (Invalid).</p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b>Virtual Address Space:</b> 128 bytes.</p><ul data-path-to-node=\"4,0,1\"><li><p data-path-to-node=\"4,0,1,0,0\">Total bits for address = $\\log_2(128) = 7$ bits.</p></li></ul></li><li><p data-path-to-node=\"4,1,0\"><b>Page Size:</b> 32 bytes.</p><ul data-path-to-node=\"4,1,1\"><li><p data-path-to-node=\"4,1,1,0,0\">Offset bits = $\\log_2(32) = 5$ bits.</p></li></ul></li><li><p data-path-to-node=\"4,2,0\"><b>VPN Bits:</b> Total bits - Offset bits = $7 - 5 = 2$ bits.</p><ul data-path-to-node=\"4,2,1\"><li><p data-path-to-node=\"4,2,1,0,0\">This corresponds to $2^2 = 4$ pages (Indices 0, 1, 2, 3).</p></li></ul></li><li><p data-path-to-node=\"4,3,0\"><b>PTE Structure:</b> PFN + Valid Bit.</p><ul data-path-to-node=\"4,3,1\"><li><p data-path-to-node=\"4,3,1,0,0\">In standard page tables, the \"Valid Bit\" is typically the Least Significant Bit (LSB).</p></li><li><p data-path-to-node=\"4,3,1,1,0\"><b>Entry 0 (0xFE):</b> <code>1111 1110</code> $\\rightarrow$ Last bit is <b>0 (Invalid)</b>.</p></li><li><p data-path-to-node=\"4,3,1,2,0\"><b>Entry 1 (0x0F):</b> <code>0000 1111</code> $\\rightarrow$ Last bit is <b>1 (Valid)</b>.</p></li><li><p data-path-to-node=\"4,3,1,3,0\"><b>Entry 2 (0xFE):</b> <code>1111 1110</code> $\\rightarrow$ Last bit is <b>0 (Invalid)</b>.</p></li><li><p data-path-to-node=\"4,3,1,4,0\"><b>Entry 3 (0x09):</b> <code>0000 1001</code> $\\rightarrow$ Last bit is <b>1 (Valid)</b>.</p></li></ul></li></ul><p data-path-to-node=\"5\"><b>Evaluating the Options:</b></p><p data-path-to-node=\"6\">To check validity, we convert each Hex address to decimal, determine which \"chunk\" (Page) of 32 bytes it falls into, and check that page's status.</p><ol start=\"1\" data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><b>A. 0x065:</b></p><ul data-path-to-node=\"7,0,1\"><li><p data-path-to-node=\"7,0,1,0,0\">Decimal: $6 \\times 16 + 5 = 101$.</p></li><li><p data-path-to-node=\"7,0,1,1,0\">VPN Calculation: $\\lfloor 101 / 32 \\rfloor = 3$.</p></li><li><p data-path-to-node=\"7,0,1,2,0\">Check Table: VPN 3 is <b>Valid</b>.</p></li></ul></li><li><p data-path-to-node=\"7,1,0\"><b>B. 0x00C:</b></p><ul data-path-to-node=\"7,1,1\"><li><p data-path-to-node=\"7,1,1,0,0\">Decimal: $12$.</p></li><li><p data-path-to-node=\"7,1,1,1,0\">VPN Calculation: $\\lfloor 12 / 32 \\rfloor = 0$.</p></li><li><p data-path-to-node=\"7,1,1,2,0\">Check Table: VPN 0 is <b>Invalid</b>.</p></li></ul></li><li><p data-path-to-node=\"7,2,0\"><b>C. 0x026:</b></p><ul data-path-to-node=\"7,2,1\"><li><p data-path-to-node=\"7,2,1,0,0\">Decimal: $2 \\times 16 + 6 = 38$.</p></li><li><p data-path-to-node=\"7,2,1,1,0\">VPN Calculation: $\\lfloor 38 / 32 \\rfloor = 1$.</p></li><li><p data-path-to-node=\"7,2,1,2,0\">Check Table: VPN 1 is <b>Valid</b>.</p></li></ul></li><li><p data-path-to-node=\"7,3,0\"><b>D. 0x058:</b></p><ul data-path-to-node=\"7,3,1\"><li><p data-path-to-node=\"7,3,1,0,0\">Decimal: $5 \\times 16 + 8 = 88$.</p></li><li><p data-path-to-node=\"7,3,1,1,0\">VPN Calculation: $\\lfloor 88 / 32 \\rfloor = 2$.</p></li><li><p data-path-to-node=\"7,3,1,2,0\">Check Table: VPN 2 is <b>Invalid</b>.</p></li></ul></li></ol><p data-path-to-node=\"8\"><b>Correct Answer:</b> <b>A (0x065) and C (0x026)</b></p><hr data-path-to-node=\"9\"><h3 data-path-to-node=\"10\">&nbsp;</h3></div></section></div><p><a href=\"https://gateoverflow.in/497187\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"line-height:1.8;\">A system uses \\(15\\)-bit virtual addresses, a \\(32\\)-byte page size, and a two-level paging scheme.<br>The address bits (other than the offset) are split equally between the outer and inner page table indices.<br>Each Page Table Entry (PTE) consists of a valid bit (MSB) followed by a \\(7\\)-bit Page Frame Number (PFN).<br>The outer page table is located in physical page \\(73\\).<br><br>Partial physical memory (in hexadecimal, \\(0\\)-based indexing):</p><div style=\"background:#f2f2f2; padding:12px; border-radius:6px; font-family:monospace; line-height:1.8;\">\\(\\text{pg }6:\\;\\; \\texttt{0a 1c 01 14 0b 1a ...}\\)<br>\\(\\text{pg }73:\\;\\; \\texttt{a2 d2 97 96 f2 7f ...}\\)<br>\\(\\text{pg }114:\\;\\; \\texttt{7f 7f 7f 86 1f 0c ...}\\)</div><p style=\"line-height:1.8;\"><br>The virtual address to be translated is \\(0 \\text{x} 1787\\).<br>What is the value read from memory after translation?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(0 \\text{x} 7F\\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(0 \\text{x} 86\\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(0 \\text{x} 1A\\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Page fault occurs</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"497186\"></a><div itemprop=\"text\"><p style=\"text-align: center;\"><span style=\"font-size: 1.2em;\">MUST TRY The Variation of this question written in below comments. </span></p><p style=\"text-align: center;\">&nbsp;</p><p style=\"text-align: center; margin-top: -10px;\"><b><span style=\"font-size: 1.15em;\">Solution of this question:</span></b></p><p><b>System Setup</b></p><ul><li><b>Virtual address size:</b> \\(15\\) bits</li><li><b>Page size:</b> \\(32 = 2^5 \\Rightarrow\\) <b>offset = 5 bits</b></li><li><b>Two-level paging scheme:</b></li></ul><p>\\[ \\underbrace{5\\ \\text{bits}}_{\\text{outer page table index}} \\;\\big|\\; \\underbrace{5\\ \\text{bits}}_{\\text{inner page table index}} \\;\\big|\\; \\underbrace{5\\ \\text{bits}}_{\\text{offset}} \\]</p><p>&nbsp;</p><p>1️⃣ Translate \\( \\mathbf{VA = 0x1787} \\)</p><p>\\[ 0x1787 = (0001\\ 0111\\ 1000\\ 0111)_2 \\] \\[ = (001\\ 0111\\ 1000\\ 0111)_2 \\quad \\text{(ignoring the leftmost 0 since the address is 15-bit)} \\] \\[ = \\underbrace{\\boxed{001\\ 01}}_{\\text{outer index}} \\; \\underbrace{\\boxed{11\\ 100}}_{\\text{inner index}} \\; \\underbrace{\\boxed{0\\ 0111}}_{\\text{offset}} \\]</p><p>\\[ \\text{Outer index} = 00101_2 = 5, \\quad \\text{Inner index} = 11100_2 = 28, \\quad \\text{Offset} = 00111_2 = 7. \\]</p><p><b>Outer lookup:</b> page \\(73\\)[5] = 0x7F → valid bit = 0 → invalid.</p><p>\\[ \\boxed{0x1787 \\text{ causes a page fault (invalid outer entry).}} \\]</p><h3>&nbsp;</h3><h3><b>Page fault occurs</b> ⇒ <b>Answer: D</b></h3></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"503576\"></a><div itemprop=\"text\"><p data-path-to-node=\"23\"><b>Goal:</b> Translate virtual address <code>0x1787</code> using the provided memory dump.</p><p data-path-to-node=\"24\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"25\"><li><p data-path-to-node=\"25,0,0\"><b>Address Breakdown:</b></p><ul data-path-to-node=\"25,0,1\"><li><p data-path-to-node=\"25,0,1,0,0\"><b>Virtual Address:</b> <code>0x1787</code> (15-bit).</p></li><li><p data-path-to-node=\"25,0,1,1,0\"><b>Page Size:</b> 32 bytes ($2^5$). Offset is 5 bits.</p></li><li><p data-path-to-node=\"25,0,1,2,0\"><b>VPN Bits:</b> $15 - 5 = 10$ bits.</p></li><li><p data-path-to-node=\"25,0,1,3,0\"><b>Split:</b> \"Equally between outer and inner\" $\\rightarrow$ 5 bits (Outer) + 5 bits (Inner).</p></li><li><p data-path-to-node=\"25,0,1,4,0\"><b>Binary of <code>0x1787</code>:</b></p><ul data-path-to-node=\"25,0,1,4,1\"><li><p data-path-to-node=\"25,0,1,4,1,0,0\">Hex: <code>1</code> <code>7</code> <code>8</code> <code>7</code></p></li><li><p data-path-to-node=\"25,0,1,4,1,1,0\">Bin: <code>0001</code> <code>0111</code> <code>1000</code> <code>0111</code></p></li><li><p data-path-to-node=\"25,0,1,4,1,2,0\">We extract the lower 15 bits (bits 14 to 0): <code>0 0101 1110 0001 11</code></p></li></ul></li><li><p data-path-to-node=\"25,0,1,5,0\"><b>Fields:</b></p><ul data-path-to-node=\"25,0,1,5,1\"><li><p data-path-to-node=\"25,0,1,5,1,0,0\"><b>Outer Index (Bits 14-10):</b> <code>00101</code> = <b>5</b>.</p></li><li><p data-path-to-node=\"25,0,1,5,1,1,0\"><b>Inner Index (Bits 9-5):</b> <code>11100</code> = <b>28</b>.</p></li><li><p data-path-to-node=\"25,0,1,5,1,2,0\"><b>Offset (Bits 4-0):</b> <code>00111</code> = <b>7</b>.</p></li></ul></li></ul></li><li><p data-path-to-node=\"25,1,0\"><b>Translation Step 1 (Outer Page Table):</b></p><ul data-path-to-node=\"25,1,1\"><li><p data-path-to-node=\"25,1,1,0,0\">Located at <b>Page 73</b>. We look at <b>Index 5</b>.</p></li><li><p data-path-to-node=\"25,1,1,1,0\"><b>Dump for Page 73:</b> <code>a2</code>(0) <code>d2</code>(1) <code>97</code>(2) <code>96</code>(3) <code>f2</code>(4) <code>7f</code>(5) ...</p></li><li><p data-path-to-node=\"25,1,1,2,0\">The entry at Index 5 is <b><code>0x7f</code></b>.</p></li></ul></li><li><p data-path-to-node=\"25,2,0\"><b>Check Entry Validity:</b></p><ul data-path-to-node=\"25,2,1\"><li><p data-path-to-node=\"25,2,1,0,0\"><b>PTE Format:</b> \"Valid bit (MSB) followed by 7-bit PFN\".</p></li><li><p data-path-to-node=\"25,2,1,1,0\"><b>Entry <code>0x7f</code> in Binary:</b> <code>0111 1111</code>.</p></li><li><p data-path-to-node=\"25,2,1,2,0\"><b>MSB (Valid Bit):</b> <b>0</b>.</p></li><li><p data-path-to-node=\"25,2,1,3,0\">Since the valid bit is 0, the translation fails immediately.</p></li></ul></li></ol><p data-path-to-node=\"26\"><b>Correct Answer:</b> <b>D. Page fault occurs</b></p><p data-path-to-node=\"27\"><i>(Self-Correction/Note: If the address had been <code>0x1385</code>, the indices would have been Outer=4, Inner=3. This would follow the valid chain: <code>f2</code> (valid) $\\rightarrow$ Page 114 $\\rightarrow$ <code>86</code> (valid) $\\rightarrow$ Page 6 $\\rightarrow$ <code>1a</code>. However, for the specific address <code>0x1787</code>, it is a Page Fault).</i></p></div></section></div><p><a href=\"https://gateoverflow.in/497185\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"line-height:1.8;\">A computer system implements a two-level paging scheme with the following parameters:</p><ul style=\"line-height:1.8;\"><li>Virtual address size: \\(42\\) bits</li><li>Physical address size: \\(40\\) bits</li><li>Page size: \\(64\\ \\text{KB} = 2^{16}\\ \\text{bytes}\\)</li><li>Each page table (at both levels) occupies exactly one page (\\(64\\) KB).</li><li>Each Page Table Entry (PTE) occupies \\(8\\) bytes</li></ul><p style=\"line-height:1.8;\">The system accesses the virtual address \\(0\\text{x}\\ 00\\ 12\\ 34\\ 56\\ 78\\ 9\\).<br>Select all virtual addresses from the following that use the same outermost page table entry as this address:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(0\\text{x}\\ 00\\ 12\\ 34\\ 44\\ 44\\ 4\\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(0\\text{x}\\ 00\\ 0A\\ 98\\ 76\\ 78\\ 9\\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(0\\text{x}\\ 00\\ 13\\ 63\\ 45\\ 67\\ 8\\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(0\\text{x}\\ 00\\ 00\\ 00\\ 06\\ 78\\ 9\\)</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"497184\"></a><div itemprop=\"text\"><p style=\"line-height:1.8;\">$$ \\begin{array}{c} \\boxed{\\text{13 bits}\\;|\\;\\text{13 bits}\\;|\\;\\text{16 bits}} \\\\[6pt] \\begin{array}{ccc} \\text{L1 index} &amp; \\text{L2 index} &amp; \\text{Page offset} \\end{array} \\end{array} $$</p><p>$$ \\begin{array}{l|l|c} \\textbf{Label} &amp; \\textbf{Virtual Address (Hex)} &amp; \\textbf{First Few Bits (Binary)} \\\\ \\hline \\text{Base Address} &amp; 0\\text{x}\\ 00\\ 12\\ 34\\ 56\\ 78\\ 9 &amp; \\textcolor{red}{00}00\\ 0000\\ 0001\\ 0010 \\\\[10pt] \\text{(A)} &amp; 0\\text{x}\\ 00\\ 12\\ 34\\ 44\\ 44\\ 4 &amp; \\textcolor{red}{00}00\\ 0000\\ 0001\\ 0010 \\\\[10pt] \\text{(B)} &amp; 0\\text{x}\\ 00\\ 0A\\ 98\\ 76\\ 78\\ 9 &amp; \\textcolor{red}{00}00\\ 0000\\ 0000\\ 1010 \\\\[10pt] \\text{(C)} &amp; 0\\text{x}\\ 00\\ 13\\ 63\\ 45\\ 67\\ 8 &amp; \\textcolor{red}{00}00\\ 0000\\ 0001\\ 0011 \\\\[10pt] \\text{(D)} &amp; 0\\text{x}\\ 00\\ 00\\ 00\\ 06\\ 78\\ 9 &amp; \\textcolor{red}{00}00\\ 0000\\ 0000\\ 0000 \\end{array} $$</p><h3>Note</h3><p style=\"line-height:1.7; font-size: 1.05rem;\">It may appear that the first <b>16 bits</b> of each virtual address have been written in binary in the above table. However, the red-coloured <b>00</b> are <i>not</i> part of the actual address. Virtual addresses such as <span style=\"font-family:monospace;\">$\\text{0x}\\ 00\\ 12\\ 34\\ 56\\ 78\\ 9$</span> contain <b>11 hexadecimal digits</b>. Since each hex digit is 4 bits:<br>$ 11 \\times 4 = 44 \\text{ bits} .$<br>But the system uses a <b>42-bit</b> virtual address. Therefore, the first two hex digits (the leading red <b>00</b>) are padding and must be discarded.</p><p>&nbsp;</p><p>$$ \\begin{array}{l|l|c|c} \\textbf{Label} &amp; \\begin{array}{c} \\textbf{Virtual Address} \\\\ \\scriptsize{(\\text{Hex})} \\end{array} &amp; \\begin{array}{c} \\textbf{Real First Few Bits} \\\\ \\scriptsize{(\\text{Binary})} \\end{array} &amp; \\begin{array}{c} \\textbf{First 13 Bits} \\\\ \\scriptsize{(\\text{Binary})} \\end{array} \\\\ \\hline \\text{Base Address} &amp; 0\\text{x}\\ 00\\ 12\\ 34\\ 56\\ 78\\ 9 &amp; 00\\ 0000\\ 0001\\ 0010 &amp; 00\\ 0000\\ 0001\\ 001 \\\\[10pt] \\text{(A)} &amp; 0\\text{x}\\ 00\\ 12\\ 34\\ 44\\ 44\\ 4 &amp; 00\\ 0000\\ 0001\\ 0010 &amp; \\begin{array}{c} 00\\ 0000\\ 0001\\ 001\\\\[-2pt] \\scriptsize{(\\text{Same as Base Address})} \\end{array} \\\\[10pt] \\text{(B)} &amp; 0\\text{x}\\ 00\\ 0A\\ 98\\ 76\\ 78\\ 9 &amp; 00\\ 0000\\ 0000\\ 1010 &amp; 00\\ 0000\\ 0000\\ 101 \\\\[10pt] \\text{(C)} &amp; 0\\text{x}\\ 00\\ 13\\ 63\\ 45\\ 67\\ 8 &amp; 00\\ 0000\\ 0001\\ 0011 &amp; \\begin{array}{c} 00\\ 0000\\ 0001\\ 001\\\\[-2pt] \\scriptsize{(\\text{Same as Base Address})} \\end{array} \\\\[10pt] \\text{(D)} &amp; 0\\text{x}\\ 00\\ 00\\ 00\\ 06\\ 78\\ 9 &amp; 00\\ 0000\\ 0000\\ 0000 &amp; 00\\ 0000\\ 0000\\ 000 \\end{array} $$</p><p>&nbsp;</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/497183\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A system uses $32$-bit virtual addresses and $4$-KB pages.<br>A three-level page table is used as follows:</p><ul><li>A single root page directory points to multiple mid-level directories.<br>&nbsp;</li><li>Each mid-level directory points to page table pages that store the actual page table entries (PTEs).</li></ul><p>Assume that only two pages in the virtual address space are valid: the very first page and the very last page.<br>How many total physical pages are used to store this page table structure (including all levels of indirection)?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 11)</small></h4><a name=\"497743\"></a><div itemprop=\"text\"><p><img alt=\"Page tables required\" width=\"506\" height=\"340\" src=\"media/59/5938a2f50e6ad2f31605.jpg\"></p><p>$\\text{Total number of page tables we need to store} =1 + 2 + 2 = 5$ (Answer)</p><p>$\\text{#Valid Entries} = 2+2+2=6$</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"503575\"></a><div itemprop=\"text\"><p data-path-to-node=\"17\"><b>Goal:</b> Determine the number of physical pages used for the page table structure given a 3-level paging scheme and valid pages only at the very start and very end.</p><p data-path-to-node=\"18\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"19\"><li><p data-path-to-node=\"19,0,0\"><b>Hierarchy:</b></p><ul data-path-to-node=\"19,0,1\"><li><p data-path-to-node=\"19,0,1,0,0\"><b>Level 1 (Root):</b> Points to Mid-level.</p></li><li><p data-path-to-node=\"19,0,1,1,0\"><b>Level 2 (Mid-level):</b> Points to Page Tables.</p></li><li><p data-path-to-node=\"19,0,1,2,0\"><b>Level 3 (Page Table):</b> Points to Data Pages.</p></li></ul></li><li><p data-path-to-node=\"19,1,0\"><b>Valid Addresses:</b></p><ul data-path-to-node=\"19,1,1\"><li><p data-path-to-node=\"19,1,1,0,0\"><b>Address A (Very First Page):</b> 0x00000000.</p></li><li><p data-path-to-node=\"19,1,1,1,0\"><b>Address B (Very Last Page):</b> 0xFFFFF000.</p></li></ul></li><li><p data-path-to-node=\"19,2,0\"><b>Path Allocation:</b></p><ul data-path-to-node=\"19,2,1\"><li><p data-path-to-node=\"19,2,1,0,0\"><b>Root Table:</b> Always exists (takes <b>1 physical page</b>).</p></li><li><p data-path-to-node=\"19,2,1,1,0\"><b>Path for Address A (First):</b></p><ul data-path-to-node=\"19,2,1,1,1\"><li><p data-path-to-node=\"19,2,1,1,1,0,0\">Root Entry 0 points to a Mid-level directory (Allocates <b>1 page</b>).</p></li><li><p data-path-to-node=\"19,2,1,1,1,1,0\">Mid-level Entry 0 points to a Page Table (Allocates <b>1 page</b>).</p></li></ul></li><li><p data-path-to-node=\"19,2,1,2,0\"><b>Path for Address B (Last):</b></p><ul data-path-to-node=\"19,2,1,2,1\"><li><p data-path-to-node=\"19,2,1,2,1,0,0\">Root Entry $N$ (Last) points to a <i>different</i> Mid-level directory (Allocates <b>1 page</b>).</p></li><li><p data-path-to-node=\"19,2,1,2,1,1,0\">Mid-level Entry $N$ points to a <i>different</i> Page Table (Allocates <b>1 page</b>).</p></li></ul></li><li><p data-path-to-node=\"19,2,1,3,0\"><i>Note: Since the addresses are at opposite extremes of the 32-bit space, they cannot share Mid-level or Page Table pages.</i></p></li></ul></li><li><p data-path-to-node=\"19,3,0\"><b>Total Calculation:</b></p><ul data-path-to-node=\"19,3,1\"><li><p data-path-to-node=\"19,3,1,0,0\">1 (Root) + 2 (for First address) + 2 (for Last address) = <b>5 Pages</b>.</p></li></ul></li></ol><p data-path-to-node=\"20\"><b>Solution:</b> <b>5 total physical pages</b></p></div></section></div><p><a href=\"https://gateoverflow.in/497182\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A process has a $32$-bit virtual address space and uses two-level paging with a $4$ KB page size. Assume the process accesses one page at the top, one in the middle, and one at the bottom of its virtual address space.<br>How large (in bytes) will the page table structure be (counting only the page tables, not data pages)?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2^{12}$ bytes<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2^{13}$ bytes<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2^{14}$ bytes<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2^{15}$ bytes</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"497181\"></a><div itemprop=\"text\"><ul><li>One first-level page table is required.</li></ul><p>&nbsp;</p><ul><li>The three accessed pages (top, middle, bottom) lie in different regions of the virtual address space, hence they each need separate second-level page tables.</li></ul><p>&nbsp;</p><ul><li>Total $=1($ first-level $)+3($ second-level $)=4$ total tables.</li></ul><p>&nbsp;</p><ul><li>Each table occupies one page $=2^{12}$ bytes.</li></ul><p>&nbsp;</p><ul><li>Therefore, total size $=4 \\times 2^{12}=2^{14}$ bytes.</li></ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"503577\"></a><div itemprop=\"text\"><p data-path-to-node=\"11\"><b>Goal:</b> Calculate the size of the page table structure in bytes for a specific access pattern.</p><p data-path-to-node=\"12\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><b>Structure:</b> 32-bit address, 4 KB ($2^{12}$) page size.</p><ul data-path-to-node=\"13,0,1\"><li><p data-path-to-node=\"13,0,1,0,0\">VPN = 20 bits. In a standard 2-level setup, this is split into a <b>Page Directory (Level 1)</b> and <b>Page Tables (Level 2)</b>.</p></li><li><p data-path-to-node=\"13,0,1,1,0\">Each table fits in one page (4 KB).</p></li></ul></li><li><p data-path-to-node=\"13,1,0\"><b>Required Tables:</b></p><ul data-path-to-node=\"13,1,1\"><li><p data-path-to-node=\"13,1,1,0,0\"><b>Level 1 (Directory):</b> There is always <b>1</b> root directory to map the address space.</p></li><li><p data-path-to-node=\"13,1,1,1,0\"><b>Level 2 (Page Tables):</b> These are allocated on demand. The problem states we access pages at the <b>Top</b>, <b>Middle</b>, and <b>Bottom</b> of the address space.</p><ul data-path-to-node=\"13,1,1,1,1\"><li><p data-path-to-node=\"13,1,1,1,1,0,0\">The <b>Top</b> address maps to the first entry of the directory $\\rightarrow$ Requires <b>1</b> Level 2 table.</p></li><li><p data-path-to-node=\"13,1,1,1,1,1,0\">The <b>Bottom</b> address maps to the last entry of the directory $\\rightarrow$ Requires <b>1</b> distinct Level 2 table.</p></li><li><p data-path-to-node=\"13,1,1,1,1,2,0\">The <b>Middle</b> address maps to a middle entry of the directory $\\rightarrow$ Requires <b>1</b> distinct Level 2 table.</p></li></ul></li></ul></li><li><p data-path-to-node=\"13,2,0\"><b>Total:</b></p><ul data-path-to-node=\"13,2,1\"><li><p data-path-to-node=\"13,2,1,0,0\">Total Tables = 1 (Directory) + 3 (Level 2 Tables) = <b>4 Page Tables</b>.</p></li><li><p data-path-to-node=\"13,2,1,1,0\">Total Size = $4 \\text{ tables} \\times 4 \\text{ KB/table} = 16 \\text{ KB}$.</p></li><li><p data-path-to-node=\"13,2,1,2,0\">$16 \\text{ KB} = 2^4 \\times 2^{10} \\text{ bytes} = 2^{14} \\text{ bytes}$.</p></li></ul></li></ol><p data-path-to-node=\"14\"><b>Correct Answer:</b> <b>C. $2^{14}$ bytes</b></p></div></section></div><p><a href=\"https://gateoverflow.in/497180\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A system uses $34$-bit virtual addresses and two-level paging.<br>The page size is $2$ KB (i.e., offset $=11$ bits).<br>The virtual address is divided as:<br>$$<br>\\begin{array}{|c|c|c|}<br>\\hline<br>n\\ \\text{bits} &amp; (34 - n - 11)\\ \\text{bits} &amp; 11\\ \\text{bits} \\\\<br>\\hline<br>\\end{array}<br>$$<br>$$<br>\\text{L1 index} \\quad \\text{L2 index} \\quad \\text{Page offset}<br>$$<br>A program uses $8$ MB of virtual memory.<br>What is the minimum number of second-level page tables required to map the entire address space used by the program?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2^{n-12}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2^{(n-11)}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2^{(34-n-12)}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2^{(n-23)}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"497179\"></a><div itemprop=\"text\">Program size $=8 \\mathrm{MB}=2^{23}$ bytes<br>\nPage size $=2^{11}$ bytes<br>\n<br>\n$\\Rightarrow$ Number of pages used $=\\frac{2^{23}}{2^{11}}=2^{12}$ pages.<br>\n<br>\nEach second-level page table has $2^{(34-n-11)}$ entries, and each entry maps one page.<br>\nHence, one second-level page table covers $2^{(34-n-11)}$ pages.<br>\n<br>\nTo cover $2^{12}$ pages in total,<br>\n<br>\n$$<br>\n\\text { Minimum number of } 2 \\text { nd-level page tables }=\\frac{2^{12}}{2^{(34-n-11)}}=2^{(n-11)}<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"503583\"></a><div itemprop=\"text\"><p>Problem Statement:</p><p>A system uses 34-bit virtual addresses, 2 KB pages (11-bit offset), and 8 MB of virtual memory. What is the minimum number of second-level page tables required?</p><ul data-path-to-node=\"29\"><li><p data-path-to-node=\"29,0,0\">VPN bits = $34 - 11 = 23$.</p></li><li><p data-path-to-node=\"29,1,0\">Split: $n$ bits (L1) and $23-n$ bits (L2).</p></li></ul><p data-path-to-node=\"30\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"31\"><li><p data-path-to-node=\"31,0,0\"><b>Capacity of one L2 Table:</b></p><ul data-path-to-node=\"31,0,1\"><li><p data-path-to-node=\"31,0,1,0,0\">An L2 table is indexed by the L2 bits ($23-n$).</p></li><li><p data-path-to-node=\"31,0,1,1,0\">Number of entries in one L2 table = $2^{23-n}$.</p></li><li><p data-path-to-node=\"31,0,1,2,0\">Total memory mapped by one full L2 table = $\\text{Entries} \\times \\text{Page Size}$.</p></li><li><p data-path-to-node=\"31,0,1,3,0\">Mapped Size = $2^{23-n} \\times 2^{11} \\text{ bytes} = 2^{34-n} \\text{ bytes}$.</p></li></ul></li><li><p data-path-to-node=\"31,1,0\"><b>Program Requirement:</b></p><ul data-path-to-node=\"31,1,1\"><li><p data-path-to-node=\"31,1,1,0,0\">The program uses 8 MB = $2^{23}$ bytes.</p></li><li><p data-path-to-node=\"31,1,1,1,0\">To minimize tables, we assume the memory is contiguous.</p></li></ul></li><li><p>Calculation:</p><p>&nbsp;</p><p>$$\\text{Number of Tables} = \\frac{\\text{Total Memory Needed}}{\\text{Memory Mapped per Table}}$$</p><p>$$\\text{Number of Tables} = \\frac{2^{23}}{2^{34-n}} = 2^{23 - (34-n)} = 2^{23 - 34 + n} = 2^{n - 11}$$</p></li></ol><p data-path-to-node=\"32\"><b>Correct Answer:</b> <b>B. $2^{n-11}$</b></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"542521\"></a><div itemprop=\"text\"><ul><li><p data-path-to-node=\"0,1,0\">The L2 index field gets $34 - n - 11 = 23 - n$ bits.</p></li><li><p data-path-to-node=\"0,2,0\">One second-level (L2) page table contains $2^{23 - n}$ entries, where each entry points to a $2\\text{ KB}$ page</p></li><li><p data-path-to-node=\"0,3,0\">So, one L2 page table can cover a contiguous virtual memory space of:</p><p>$$\\text{Memory mapped by 1 L2 table} = 2^{23 - n} \\times 2^{11}\\text{ bytes} = 2^{34 - n}\\text{ bytes}$$</p></li><li><p data-path-to-node=\"0,5,0\"><span style=\"background-color:#f1c40f;\">To minimize the number of L2 page tables, we assume the program's memory allocation is contiguous and perfectly aligned to fill L2 page tables as completely as possible.</span></p></li><li><p data-path-to-node=\"0,6,0\">Calculating the minimum number of L2 tables needed:</p><p>$$\\text{Minimum L2 tables} = \\frac{\\text{Total Program Memory}}{\\text{Memory mapped by 1 L2 table}} = \\frac{2^{23}}{2^{34 - n}}$$</p></li></ul><p>$$\\text{Minimum L2 tables} = 2^{23 - (34 - n)} = 2^{23 - 34 + n} = 2^{n - 11}$$</p></div></section></div><p><a href=\"https://gateoverflow.in/497178\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose you search for an element $x$ in a sorted array of $N$ elements using a linear search.<br>Each memory page holds $p$ array elements ( $N&gt;p$ ).<br>Assume that the cost of a page fault is much higher than that of a normal memory access.<br>On average, how many page faults will be generated during the linear search?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{N}{2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{N}{2 p}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\log \\frac{N}{p}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{p}{N}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"497177\"></a><div itemprop=\"text\"><p>In a linear search, elements are checked one by one from the start.<br><br>On average, the desired element is found halfway through the array, so the average number of memory accesses is:<br><br>$$<br>\\frac{N}{2}<br>$$<br><br>The array is divided into pages, each containing $p$ elements.<br><br>This means:</p><ul><li>Page 1 contains elements 1 to $p$</li></ul><p>&nbsp;</p><ul><li>Page 2 contains elements $p+1$ to $2 p$</li></ul><p>&nbsp;</p><ul><li>and so on</li></ul><p><br>Whenever a new page is accessed for the first time, a page fault occurs.<br><br>Thus, the number of pages (and hence page faults) accessed on average is:<br><br>$$<br>\\begin{gathered}<br>\\text { Page faults }=\\frac{\\text { Elements accessed }}{\\text { Elements per page }}=\\frac{N / 2}{p} \\\\<br>\\boxed{\\text { Average page faults }=\\frac{N}{2 p}}<br>\\end{gathered}<br>$$</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"542523\"></a><div itemprop=\"text\"><ul><li><p data-path-to-node=\"0,0,0\">Linear search on an array of $N$ elements accesses $\\frac{N}{2}$ elements on average to find the target element $x$.</p></li><li><p data-path-to-node=\"0,1,0\">Since each memory page contains $p$ array elements, <span style=\"background-color:#f1c40f;\">sequentially accessing elements causes $1$ page fault for every $p$ elements loaded into memory.</span></p></li><li><p data-path-to-node=\"0,2,0\">Dividing the average number of accessed elements by the page capacity gives:</p><p>$$\\text{Average Page Faults} = \\frac{\\frac{N}{2}}{p} = \\frac{N}{2p}$$</p></li></ul></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543801\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"926\" height=\"579\" src=\"media/e8/e8b32e1f4e7418f6f250.png\"></p><p>Answer : B</p></div></section></div><p><a href=\"https://gateoverflow.in/497176\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose you search for an element $x$ in a sorted array of $N$ elements using a binary search.<br>Each page holds $p$ array elements ( $N&gt;p$ ).<br>Assume that the cost of a page fault is much higher than that of a normal memory access.<br>On average, how many page faults will be generated during the binary search?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{\\log N}{p}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\log \\frac{N}{p}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{N}{2 p}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{p}{N}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"497175\"></a><div itemprop=\"text\"><p>In a binary search, the array is repeatedly divided into two halves, and only one half is searched each time.<br><br>Thus, the number of element accesses required is proportional to $\\log N$.<br><br>On average, the number of memory accesses is:<br>$$<br>\\log N<br>$$<br><br>The array is divided into pages, each containing $p$ elements.<br>This means:</p><ul><li>Page 1 contains elements 1 to $p$</li></ul><p>&nbsp;</p><ul><li>Page 2 contains elements $p+1$ to $2 p$</li></ul><p>&nbsp;</p><ul><li>and so on</li></ul><p><br>Since binary search jumps between middle elements of the current search range, these elements are likely to be on different pages.<br><br>A page fault occurs each time a new page is accessed for the first time.<br><br>Thus, the number of pages (and hence page faults) accessed on average is:<br>$$<br>\\boxed{\\text { Page faults }=\\log \\frac{N}{p}}<br>$$</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"542524\"></a><div itemprop=\"text\"><ul><li><p data-path-to-node=\"0,0,0\">Think of the array as a large book containing $N$ pages, where each page has $p$ lines.</p></li><li><p data-path-to-node=\"0,1,0\">When we do binary search, our first access goes right to the middle of the entire array (element $\\frac{N}{2}$). Since $N &gt; p$, this first access lands on a completely new page, causing $1$ page fault.</p></li><li><p data-path-to-node=\"0,1,0\">Every time we jump, we cut the remaining array size in half: $N \\rightarrow \\frac{N}{2} \\rightarrow \\frac{N}{4} \\rightarrow \\frac{N}{8} \\dots$</p></li><li><p data-path-to-node=\"0,4,0\">As long as the remaining search range is bigger than $p$, our jumps are larger than a single page size. This forces the CPU to fetch a new page from disk on almost every single step.</p></li><li><p data-path-to-node=\"0,5,0\">Eventually, after several jumps, the remaining search range becomes smaller than or equal to $p$ elements.</p></li><li><p data-path-to-node=\"0,6,0\">At this point, all the remaining candidate elements live together on the exact same memory page that we just loaded.</p></li><li><p data-path-to-node=\"0,7,0\">So, for all remaining steps of the binary search, we are reading from that same page already in memory, resulting in $0$ further page faults.</p></li><li><p data-path-to-node=\"0,8,0\"><span style=\"background-color:#f1c40f;\">The number of page faults is simply the number of steps it takes to reduce the search range from $N$ elements down to $p$ elements:</span></p></li></ul><p>$$\\text{Steps to reach } p = \\log_2 N - \\log_2 p = \\log_2 \\left(\\frac{N}{p}\\right)$$</p><p>This equation can be understood also as:&nbsp;</p><ul><li><p data-path-to-node=\"0,0,0\">In binary search, we divide the search space by $2$ at each step.</p></li><li><p data-path-to-node=\"0,1,0\">After $k$ steps, the remaining size of the search array becomes:</p><p>$$\\text{Remaining size} = \\frac{N}{2^k}$$</p></li><li><p data-path-to-node=\"0,2,0\">We want to find the number of steps $k$ required until the search space shrinks down to a single page size $p$:</p><p>$$\\frac{N}{2^k} = p$$</p></li><li><p data-path-to-node=\"0,3,0\">Rearranging the equation to solve for $2^k$:</p><p>$$2^k = \\frac{N}{p}$$</p></li><li><p data-path-to-node=\"0,4,0\">Taking $\\log_2$ on both sides:</p><p>$$k = \\log_2 \\left(\\frac{N}{p}\\right)$$</p></li></ul></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543802\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"1036\" height=\"573\" src=\"media/ce/cee8d93bbeec1120eaac.png\"></p><p>Answer : B</p></div></section></div><p><a href=\"https://gateoverflow.in/497174\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A processor uses two-level page tables for virtual-to-physical address translation. Both levels of page tables are stored in the main memory. Virtual and physical addresses are $\\mathbf{3 2}$ bits wide, and the system uses $\\mathbf{4}$ KB pages with $4$-byte page table entries (PTEs).<br>The two-level split is such that each page table contains the same number of entries. Memory is byte-addressable.<br>A program uses only the following virtual addresses during its execution:<br><br>$\\text{0x00001000}$<br><br>$\\text{0x00002000}$<br><br>$\\text{0xFFFFFE00}$<br><br>$\\text{0xFFFFFF00}$<br><br>Assume that a page table is allocated only when needed and that each page table occupies one full page frame.<br>The total memory required to store all page table structures for this program is:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$4$ KB<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$8$ KB<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$12$ KB<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$16$ KB</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"497173\"></a><div itemprop=\"text\"><p>Virtual Address ( 32 bits) \\(=\\underbrace{[10 \\text{ bits }]}_{\\text{L1 Index}} |\\underbrace{[10 \\text{ bits }]}_{\\text{L2 Index}} | \\underbrace{[12 \\text{ bits }]}_{\\text{Page Offset}}\\)</p><p><br>$$ \\begin{array}{|l|l|l|} \\hline \\text{Region} &amp; \\text{Virtual Address} &amp; \\text{Binary Representation ( 10&nbsp; | 10 | 12 )} \\\\ \\hline \\text{Region 1} &amp; 0\\text{x} 0000\\;1000 &amp; 0000000000\\,|\\,0000000001\\,|\\,000000000000 \\\\ \\hline \\text{Region 2} &amp; 0\\text{x} 0000\\;2000 &amp; 0000000000\\,|\\,0000000010\\,|\\,000000000000 \\\\ \\hline \\text{Region 3} &amp; 0\\text{x} FFFF\\;FFE0\\;0 &amp; 1111111111\\,|\\,1111111110\\,|\\,000000000000 \\\\ \\hline \\text{Region 4} &amp; 0\\text{x} FFFF\\;FFF0\\;0 &amp; 1111111111\\,|\\,1111111111\\,|\\,000000000000 \\\\ \\hline \\end{array} $$</p><ul><li>Region 1 and Region 2 have L1 index = 0 → both share the same first-level entry → one L2 page table.</li></ul><ul><li>Region 3 and Region 4 have L1 index = 1023 → both share another L1 entry → one more L2 page table.</li></ul><p>&nbsp;</p><p>Total Tables Required: 1 (L1 table) + 2 (L2 tables) = 3 tables.</p><p>&nbsp;</p><p>Memory Required</p><p>Top-level (L1) table: \\(1 \\times 4\\,\\text{KB} = 4\\,\\text{KB}\\)</p><p>Second-level (L2) tables: \\(2 \\times 4\\,\\text{KB} = 8\\,\\text{KB}\\)</p><p>Total Memory Required: \\(4 + 8 = 12\\,\\text{KB}\\)</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"503584\"></a><div itemprop=\"text\"><p>Problem Statement:</p><p>Calculate the total memory required for page tables for a program using only these addresses:</p><ul data-path-to-node=\"36\"><li><p data-path-to-node=\"36,0,0\"><code>0x00001000</code>, <code>0x00002000</code></p></li><li><p>0xFFFFFE00, 0xFFFFFF00</p><p>(32-bit address, 4 KB pages, 2-level paging).</p></li></ul><p data-path-to-node=\"37\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"38\"><li><p data-path-to-node=\"38,0,0\"><b>Address Mapping:</b></p><ul data-path-to-node=\"38,0,1\"><li><p data-path-to-node=\"38,0,1,0,0\"><b>VPN:</b> Top 20 bits. Split into <b>10 bits (L1)</b> and <b>10 bits (L2)</b>.</p></li><li><p data-path-to-node=\"38,0,1,1,0\"><b>Group 1 (<code>0x00...</code>):</b> Both addresses share the top 10 bits (all zeros). They map to <b>L1 Index 0</b>. They require <b>1 L2 Table</b>.</p></li><li><p data-path-to-node=\"38,0,1,2,0\"><b>Group 2 (<code>0xFF...</code>):</b> Both addresses share the top 10 bits (all ones). They map to <b>L1 Index 1023</b>. They require <b>1 L2 Table</b>.</p></li></ul></li><li><p data-path-to-node=\"38,1,0\"><b>Total Allocation:</b></p><ul data-path-to-node=\"38,1,1\"><li><p data-path-to-node=\"38,1,1,0,0\"><b>Level 1 Directory:</b> Always required = <b>1 Frame</b>.</p></li><li><p data-path-to-node=\"38,1,1,1,0\"><b>Level 2 Tables:</b> One for the bottom group, one for the top group = <b>2 Frames</b>.</p></li><li><p data-path-to-node=\"38,1,1,2,0\"><b>Total Frames:</b> 3 Frames.</p></li></ul></li><li><p data-path-to-node=\"38,2,0\"><b>Size Calculation:</b></p><ul data-path-to-node=\"38,2,1\"><li><p data-path-to-node=\"38,2,1,0,0\">Each frame is 4 KB.</p></li><li><p data-path-to-node=\"38,2,1,1,0\">Total Size = $3 \\times 4 \\text{ KB} = 12 \\text{ KB}$.</p></li></ul></li></ol><p data-path-to-node=\"39\"><b>Correct Answer:</b> <b>C. 12 KB</b></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"542527\"></a><div itemprop=\"text\"><ul><li><p data-path-to-node=\"0,0,0\">Page size is $4\\text{ KB} = 2^{12}\\text{ bytes}$, which leaves $32 - 12 = 20\\text{ bits}$ for the Virtual Page Number (VPN).</p></li><li><p data-path-to-node=\"0,1,0\">Since both levels have the same number of entries, the $20$ VPN bits are split equally into $10\\text{ bits}$ for L1 index and $10\\text{ bits}$ for L2 index.</p></li><li><p data-path-to-node=\"0,2,0\">Converting the given virtual addresses to binary to extract their top 10 bits (L1 index):</p><ul data-path-to-node=\"0,2,1\"><li><p data-path-to-node=\"0,2,1,0,0\"><code data-path-to-node=\"0,2,1,0,0\" data-index-in-node=\"0\">0x00001000</code> $\\rightarrow$ MSB 10 bits are <code data-path-to-node=\"0,2,1,0,0\" data-index-in-node=\"39\">0000000000</code> (L1 Index = 0)</p></li><li><p data-path-to-node=\"0,2,1,1,0\"><code data-path-to-node=\"0,2,1,1,0\" data-index-in-node=\"0\">0x00002000</code> $\\rightarrow$ MSB 10 bits are <code data-path-to-node=\"0,2,1,1,0\" data-index-in-node=\"39\">0000000000</code> (L1 Index = 0)</p></li><li><p data-path-to-node=\"0,2,1,2,0\"><code data-path-to-node=\"0,2,1,2,0\" data-index-in-node=\"0\">0xFFFFFE00</code> $\\rightarrow$ MSB 10 bits are <code data-path-to-node=\"0,2,1,2,0\" data-index-in-node=\"39\">1111111111</code> (L1 Index = 1023)</p></li><li><p data-path-to-node=\"0,2,1,3,0\"><code data-path-to-node=\"0,2,1,3,0\" data-index-in-node=\"0\">0xFFFFFF00</code> $\\rightarrow$ MSB 10 bits are <code data-path-to-node=\"0,2,1,3,0\" data-index-in-node=\"39\">1111111111</code> (L1 Index = 1023)</p></li></ul></li><li><p data-path-to-node=\"0,3,0\">We always need $1$ top-level (L1) page table.</p></li><li><p data-path-to-node=\"0,4,0\">Addresses <code data-path-to-node=\"0,4,0\" data-index-in-node=\"10\">0x00001000</code> and <code data-path-to-node=\"0,4,0\" data-index-in-node=\"25\">0x00002000</code> share L1 index 0, so they require $1$ second-level (L2) page table.</p></li><li><p data-path-to-node=\"0,5,0\">Addresses <code data-path-to-node=\"0,5,0\" data-index-in-node=\"10\">0xFFFFFE00</code> and <code data-path-to-node=\"0,5,0\" data-index-in-node=\"25\">0xFFFFFF00</code> share L1 index 1023, so they require $1$ additional second-level (L2) page table.</p></li><li><p data-path-to-node=\"0,6,0\">Total page tables needed = $1\\text{ (L1)} + 2\\text{ (L2)} = 3\\text{ page tables}$.</p></li><li><p data-path-to-node=\"0,7,0\">Each page table occupies $1$ full page frame ($4\\text{ KB}$):</p><p>$$\\text{Total Memory} = 3 \\times 4\\text{ KB} = 12\\text{ KB}$$</p></li><li><p data-path-to-node=\"0,8,0\">Hence, the correct option is C</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/497172\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a virtual memory system that uses $\\mathbf{2}$-level paging. The page size in this system is $\\mathbf{2 5 6}$ bytes. Each individual page table fits exactly into one memory frame, and the size of each page table entry (PTE) is $\\mathbf{8}$ bytes.<br>Suppose that there is a process with a virtual address space of size $\\mathbf{1 0 2 4 0}\\left(\\mathbf{1 0 x 2}{ }^{\\mathbf{1 0}}\\right)$ bytes. Also suppose that the entire address space is in memory.<br>How many valid PTEs will exist in the page tables for this process?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$32$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$40$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$42$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$48$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"497171\"></a><div itemprop=\"text\"><ul><li>Each page $=2^{8}=256$ bytes.</li></ul><p>&nbsp;</p><ul><li>Number of pages needed $=10240 / 256=40$.</li></ul><p>&nbsp;</p><ul><li>These $40$ pages require $40$ PTEs in the second-level page tables.</li></ul><p>&nbsp;</p><ul><li>Since each page table can hold $2^{5}=32$ PTEs, we need $2$ second-level tables.</li></ul><p>&nbsp;</p><ul><li>Each of these is referenced by one entry in the first-level page table, so there are 2 more PTEs at the first level.</li></ul><p>&nbsp;</p><ul><li>Hence, total valid PTEs $=40+2=42$.</li></ul></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"503585\"></a><div itemprop=\"text\"><p data-path-to-node=\"46\"><b>Problem:</b> 2-level paging, 256B pages, 8B PTE. Process size 10240 bytes. How many valid PTEs?</p><p data-path-to-node=\"47\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"48\"><li><p data-path-to-node=\"48,0,0\"><b>Data Pages Needed:</b></p><ul data-path-to-node=\"48,0,1\"><li><p data-path-to-node=\"48,0,1,0,0\">Process Size = 10240 bytes.</p></li><li><p data-path-to-node=\"48,0,1,1,0\">Page Size = 256 bytes.</p></li><li><p data-path-to-node=\"48,0,1,2,0\">Pages = 10240/256=40 pages.</p></li><li><p data-path-to-node=\"48,0,1,3,0\">This means there are <b>40 Valid Leaf PTEs</b> (pointing to data).</p></li></ul></li><li><p data-path-to-node=\"48,1,0\"><b>Directory Pages Needed:</b></p><ul data-path-to-node=\"48,1,1\"><li><p data-path-to-node=\"48,1,1,0,0\">Entries per Table = 256&nbsp;bytes/8&nbsp;bytes=32 entries.</p></li><li><p data-path-to-node=\"48,1,1,1,0\">We need to map 40 pages.</p></li><li><p data-path-to-node=\"48,1,1,2,0\">First L2 Table maps 32 pages (Full).</p></li><li><p data-path-to-node=\"48,1,1,3,0\">Second L2 Table maps remaining 8 pages.</p></li><li><p data-path-to-node=\"48,1,1,4,0\">We need <b>2 L2 Tables</b>.</p></li><li><p data-path-to-node=\"48,1,1,5,0\">This means there are <b>2 Valid Directory PTEs</b> (pointing to the L2 tables).</p></li></ul></li><li><p data-path-to-node=\"48,2,0\"><b>Total Valid PTEs:</b></p><ul data-path-to-node=\"48,2,1\"><li><p data-path-to-node=\"48,2,1,0,0\">40(Leaf)+2(Directory)=42.</p></li></ul></li></ol><p data-path-to-node=\"49\"><b>Answer:</b> <b>C. 42</b></p></div></section></div><p><a href=\"https://gateoverflow.in/497170\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"line-height:1.8;\">A system uses \\(15\\)-bit virtual addresses, a \\(32\\)-byte page size, and a two-level paging scheme.<br>Assume both levels have equal bits in address split.<br>Each outer and inner page table entry is \\(\\mathbf{1}\\) byte (MSB = valid bit, remaining \\(\\mathbf{7}\\) bits store the frame number).<br>Physical memory has \\(\\mathbf{128}\\) pages.<br><br>The relevant portion of physical page \\(\\mathbf{93}\\) is shown below:</p><div style=\"background:#f2f2f2; padding:12px; border-radius:6px; font-family:monospace; line-height:1.8;\">\\(\\text{pg }93:\\;\\; \\texttt{15 08 08 00 11 15 07 02 12 12 0c 03 1c 1a 13 11 ...}\\)</div><p style=\"line-height:1.8;\"><br>If the virtual address that refers to a byte on this page is \\(\\mathbf{0x48CB}\\), which byte value would be returned by a load to that address?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(\\mathrm{0x0C}\\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(\\mathrm{0x02}\\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(\\mathrm{0x03}\\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(\\mathrm{0x1A}\\)</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"497169\"></a><div itemprop=\"text\"><meta><p>&nbsp;</p><ul style=\"line-height:1.8;\"><li>Page size = 32 bytes → <b>offset = 5 bits</b></li><li>Virtual address structure (Not useful for this question other than getting the offset):<br><br>$$ \\begin{array}{c} \\boxed{\\text{5 bits}\\;|\\;\\text{5 bits}\\;|\\;\\text{5 bits}} \\\\[6pt] \\begin{array}{ccc} \\text{L1 index} &amp; \\text{L2 index} &amp; \\text{Page offset} \\end{array} \\end{array} $$</li></ul><p style=\"line-height:1.8;\">$ \\text{Virtual address: }\\mathrm{0x48CB} = (0100\\ 1000\\ 1100\\ 1011)_2 $<br>$ \\phantom{= (0100\\ 1000\\ 1100\\ 1011)_2}\\text{(ignore first most significant 0 as VA is 15 bits)} $<br><br>$ \\begin{array}{c} \\boxed{\\text{10010}\\;|\\;\\text{00110}\\;|\\;\\text{01011}} \\\\[6pt] \\begin{array}{ccc} \\text{L1 index} &amp; \\text{L2 index} &amp; \\text{Page offset} \\end{array} \\end{array} $</p><p style=\"line-height:1.8; margin-top:20px;\"><b>Physical address structure:</b><br><br>$$ \\underbrace{7\\text{ bits}}_{\\text{page number}} \\;\\big|\\; \\underbrace{5\\text{ bits}}_{\\text{offset}} $$</p><ul style=\"line-height:1.8;\"><li><b>Offset</b> = lower 5 bits = <code>01011₂ = 11</code></li></ul><p style=\"line-height:1.8;\">Hence, the byte lies at <b>offset 11</b> within <b>physical page 93</b>.</p><pre style=\"line-height:1.6; font-size:15px;\">offset:  00  01  02  03  04  05  06  07  08  09  10  11  12  13  ...\nvalue:   15  08  08  00  11  15  07  02  12  12  0C  03  1C  1A  ...\n</pre></div></section></div><p><a href=\"https://gateoverflow.in/497168\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 20.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 16,
+  "types": {
+   "MCQ": 9,
+   "MSQ": 4,
+   "NAT": 2
+  },
+  "withoutKey": 3
+ }
+}

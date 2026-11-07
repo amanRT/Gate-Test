@@ -1,0 +1,549 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-034",
+ "title": "DVRUO Classes GATE CS | Computer Networks | Complete Computer Networks | Weekly Quiz 7",
+ "sourceTitle": "DVRUO Classes GATE CS | Computer Networks | Complete Computer Networks | Weekly Quiz 7",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 34,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2160,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Computer Networks"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/036_exam_1216_GO Classes GATE CS Computer Networks Complete Computer Networks Weekly Quiz 7.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a CRC in which the generator polynomial is $11$ (binary). What does this CRC effectively implement?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It detects only single-bit errors<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It ensures detection of all $2$-bit errors<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It works as a parity bit, detecting errors based on the number of $1$&#x27;s<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It detects all burst errors of length less than or equal to $2$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"489067\"></a><div itemprop=\"text\">The generator \" $11$ \" is equivalent to dividing by ( $\\mathrm{x}+1$ ). The remainder ( CRC ) is $1$ if the message has an odd number of $1$'s, and $0$ if the message has an even number of $1$'s. This is exactly how a parity bit works.</div></section></div><p><a href=\"https://gateoverflow.in/489066\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following small network: Hosts $\\mathbf{A}$ and $\\mathbf{B}$ are connected to a router $\\mathbf{R}$ through a switch $\\mathbf{S}$. Host $\\mathbf{C}$ connects directly to router $\\mathbf{R}$. There is no other host, switch, or router in the network.<br><img alt=\"\" width=\"715\" height=\"298\" src=\"media/47/47e70decfd3c93c014f9.png\"></p><p>&nbsp;</p><p>What is the maximum number of entries that could appear in the ARP table of host A? Which entities would those entries correspond to?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$ entry - only B<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$ entry - only R<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$ entries - B and R<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$ entries - B, R, and C</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"489065\"></a><div itemprop=\"text\">(i) A switch is a link-level device to interconnect between hosts. A switch interface does not have a MAC address, nor does it have an IP address.<br>\n<br>\n(ii) An IP address is associated with a network interface. Thus, $R$ has two IP addresses.<br>\n<br>\n(iii) At the link layer, $C$ only communicates with $R$, and $A$ only communicates with $B$ and $R$.<br>\n<br>\nTherefore, the ARP table of $C$ does not contain entries for $A$ and $B$; the ARP table of $A$ does not contain an entry for $C$ .</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500382\"></a><div itemprop=\"text\"><p data-path-to-node=\"16\"><b>Question:</b> What is the maximum number of entries in Host A's ARP table? Who do they correspond to?</p><p data-path-to-node=\"17\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"18\"><li><p data-path-to-node=\"18,0,0\"><b>ARP Scope:</b> ARP is a Layer 2 protocol. It is used to map IP addresses to MAC addresses <i>within the same local broadcast domain (LAN)</i>.</p></li><li><p data-path-to-node=\"18,1,0\"><b>Host A's Neighbors:</b></p><ul data-path-to-node=\"18,1,1\"><li><p data-path-to-node=\"18,1,1,0,0\">Host A is connected to a <b>Switch (S)</b>.</p></li><li><p data-path-to-node=\"18,1,1,1,0\">Host B is connected to the same Switch (S).</p></li><li><p data-path-to-node=\"18,1,1,2,0\">Router R is connected to the same Switch (S).</p></li><li><p data-path-to-node=\"18,1,1,3,0\">Host C is behind Router R.</p></li></ul></li><li><p data-path-to-node=\"18,2,0\"><b>Communication:</b></p><ul data-path-to-node=\"18,2,1\"><li><p data-path-to-node=\"18,2,1,0,0\"><b>A to B:</b> A and B are on the same subnet (connected via switch). To send to B, A needs B's MAC address. <b>ARP Entry: B</b>.</p></li><li><p data-path-to-node=\"18,2,1,1,0\"><b>A to Router R:</b> If A wants to talk to C (or the internet), it must send the packet to its Gateway (Router R). A needs R's MAC address. <b>ARP Entry: R</b>.</p></li><li><p data-path-to-node=\"18,2,1,2,0\"><b>A to C:</b> C is on a different network (separated by Router R). ARP requests are broadcast, but routers do <i>not</i> forward broadcasts. A's ARP request for C would stop at R. A does <i>not</i> resolve C's MAC. A resolves R's MAC to send packets destined for C. So, <b>C is NOT in A's ARP table</b>.</p></li><li><p data-path-to-node=\"18,2,1,3,0\"><b>Switch S:</b> Switches are transparent Layer 2 devices. Hosts do not ARP for switches. They just send frames through them. <b>S is NOT in A's ARP table</b>.</p></li></ul></li></ol><p data-path-to-node=\"19\"><b>Conclusion:</b> A can resolve the MAC addresses of <b>B</b> and <b>R</b>.</p><p data-path-to-node=\"20\"><b>Answer:</b> <b>C. 2 entries - B and R</b></p></div></section></div><p><a href=\"https://gateoverflow.in/489064\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is TRUE, if a duplicate ACK is received by a TCP sender?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The TCP sender will always retransmit a packet.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The TCP receiver must have received the same segment more than once.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The TCP sender will always ignore the duplicate ACK silently.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the other choices.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"495425\"></a><div itemprop=\"text\"><p><b>A. The TCP sender will always retransmit a packet.</b></p><p><b>Incorrect.</b> The TCP standard for <b>Fast Retransmit</b> dictates that the sender must receive <b>three</b> duplicate ACKs (i.e., four total ACKs with the same sequence number) before it assumes a packet is lost and immediately retransmits it. Receiving only one or two duplicate ACKs usually makes the sender wait, as the out-of-order delivery is often due to segment reordering, not necessarily a loss.</p><p>&nbsp;</p><p><b>B. The TCP receiver must have received the same segment more than once.</b></p><p><b>Incorrect.</b> A duplicate ACK is sent by the receiver when it receives an <b>out-of-order</b> segment. For example, if it expects segment 5 but receives segment 6, it sends an ACK for segment 5 again to tell the sender what's missing. The receiver has buffered segment 6 but has <b>not</b> received segment 5 twice.</p><p>&nbsp;</p><p><b>C. The TCP sender will ignore the duplicate ACK silently.</b></p><p><b>Incorrect.</b> The sender does <b>not</b> ignore the duplicate ACK. It is a critical signal! The sender's Fast Retransmit algorithm counts the duplicate ACKs to determine if a retransmission is necessary, which is far from silently ignoring it.</p><p>&nbsp;</p><h3>What Actually Happens</h3><p>&nbsp;</p><p>When a TCP sender receives a duplicate ACK, it is an early indicator that one of the following has occurred:</p><p><b>Segment Reordering:</b> A segment arrived at the receiver out of the expected order.</p><p><b>Segment Loss:</b> A segment was lost in the network.</p><p>&nbsp;</p><p>To distinguish between the two and avoid unnecessary retransmissions, the sender follows the <b>Fast Retransmit</b> algorithm:</p><ul><li><p>The sender keeps a count of duplicate ACKs for the unacknowledged segment.</p></li><li><p>Upon the <b>third duplicate ACK</b> (the fourth ACK total for that segment), the sender assumes the segment is lost and immediately <b>retransmits</b> the missing segment without waiting for the retransmission timeout (RTO).</p></li></ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500383\"></a><div itemprop=\"text\"><p data-path-to-node=\"23\"><b>Question:</b> Which of the following is TRUE if a duplicate ACK is received by a TCP sender?</p><p data-path-to-node=\"24\"><b>Analysis:</b></p><ul data-path-to-node=\"25\"><li><p data-path-to-node=\"25,0,0\"><b>Duplicate ACK:</b> This happens when the receiver gets a packet that is out of order (higher than expected). It re-sends the ACK for the last in-order byte it received.</p></li><li><p data-path-to-node=\"25,1,0\"><b>A. Always retransmit?</b> No. TCP typically waits for <b>3 Duplicate ACKs</b> (Fast Retransmit) before resending. A single duplicate ACK might just mean reordering.</p></li><li><p data-path-to-node=\"25,2,0\"><b>B. Receiver must have received the same segment more than once?</b> No. Duplicate ACK means the receiver sent the <i>same ACK packet</i> more than once. This happens when it receives <i>new, different</i> data (e.g., packet 3, then 4, then 5) while still waiting for packet 2. It ACKs \"1\" repeatedly. It does NOT mean packet \"1\" arrived multiple times.</p></li><li><p data-path-to-node=\"25,3,0\"><b>C. Always ignore silently?</b> No. The sender counts them. If it hits 3, it triggers retransmission. It doesn't strictly \"ignore\" them, but for a <i>single</i> one, it usually takes no immediate transmission action. However, \"always ignore\" is too strong because it <i>does</i> process it (updates state/counts). But comparing to A and B, it's the closest to \"doesn't panic yet\".</p></li><li><p data-path-to-node=\"25,4,0\"><b>Wait, let's look closer at B.</b> \"Receiver must have received the same segment more than once.\" If the sender retransmits unnecessarily, the receiver gets a duplicate <i>segment</i> and sends a duplicate ACK. BUT, the <i>cause</i> of a duplicate ACK is usually receiving <i>subsequent</i> (new) segments while a gap exists. So B is not necessarily true.</p></li><li><p data-path-to-node=\"25,5,0\"><b>Refining C:</b> \"Silently\" usually implies doing absolutely nothing. TCP does <i>count</i> them. So \"always ignore\" is technically false.</p></li><li><p data-path-to-node=\"25,6,0\"><b>Let's check D. None of the other choices.</b></p><ul data-path-to-node=\"25,6,1\"><li><p data-path-to-node=\"25,6,1,0,0\">A is false (needs 3).</p></li><li><p data-path-to-node=\"25,6,1,1,0\">B is false (usually caused by out-of-order new packets).</p></li><li><p data-path-to-node=\"25,6,1,2,0\">C is false (it triggers counting/Fast Retransmit logic).</p></li><li><p data-path-to-node=\"25,6,1,3,0\">So <b>D</b> seems correct.</p></li></ul></li></ul><p data-path-to-node=\"26\"><i>Let's double check standard definitions.</i></p><ul data-path-to-node=\"27\"><li><p data-path-to-node=\"27,0,0\">If <i>one</i> duplicate ACK arrives: The sender assumes the packet stream is just out of order. It does nothing but count it.</p></li><li><p data-path-to-node=\"27,1,0\">Is that \"ignoring silently\"? Effectively, yes, in terms of sending data.</p></li><li><p data-path-to-node=\"27,2,0\">But is B possible? If a receiver gets a duplicate segment (e.g. sender timeout retransmitted, but original wasn't lost), the receiver <i>does</i> send a duplicate ACK. So B describes <i>one possible cause</i>, but not the <i>only</i> cause (and not the most common one, which is out-of-order arrival). The statement says \"Must have received...\", which makes it <b>False</b>.</p></li><li><p data-path-to-node=\"27,3,0\">So B is False. A is False.</p></li><li><p data-path-to-node=\"27,4,0\">Is C True? Does the sender \"ignore\" it? RFCs say the sender should increment a counter. That is state change, not ignoring. Also, Fast Recovery algorithms use the stream of dup ACKs to inflate the congestion window. So \"ignore\" is definitely wrong.</p></li></ul><p data-path-to-node=\"28\"><b>Answer:</b> <b>D. None of the other choices.</b></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"541222\"></a><div itemprop=\"text\"><h3 data-start=\"2860\" data-end=\"2870\" data-section-id=\"qfmerk\" id=\"option-1\">Option 1</h3><pre><code>Duplicate ACK = Duplicate packet received</code></pre><p data-start=\"2927\" data-end=\"2935\">❌ Wrong.</p><p data-start=\"2937\" data-end=\"2987\">It can happen because an earlier segment was lost.</p><hr data-start=\"2989\" data-end=\"2992\"><h3 data-start=\"2994\" data-end=\"3004\" data-section-id=\"qfmern\" id=\"option-2\">Option 2</h3><pre><code>1 Duplicate ACK  → Retransmit</code></pre><p data-start=\"3048\" data-end=\"3056\">❌ Wrong.</p><p data-start=\"3058\" data-end=\"3118\">Traditionally,&nbsp;<strong data-start=\"3073\" data-end=\"3093\">3 duplicate ACKs</strong>&nbsp;trigger fast retransmit.</p><hr data-start=\"3120\" data-end=\"3123\"><h3 data-start=\"3125\" data-end=\"3135\" data-section-id=\"qfmerm\" id=\"option-3\">Option 3</h3><pre><code>Duplicate ACK → Ignore</code></pre><p data-start=\"3173\" data-end=\"3181\">❌ Wrong.</p><p data-start=\"3183\" data-end=\"3238\">TCP uses duplicate ACKs to detect possible packet loss.</p></div></section></div><p><a href=\"https://gateoverflow.in/489063\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume that a host A with IP $172.26.184.3$ is on a private home network, located behind a NAT home router $R$. Host $A$ sends a datagram to destination host $128.119 .40 .186$ , port $80$ , through $R$. When $R$ forwards the datagram it will replace the sender's IP and port number. Which of the following IP, port combinations would be valid to use by $R$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$172.26.184.5$, $3001$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$192.168.1.1$, $2001$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$128.125.3.4$, $3001$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$152.148.5.6$, $3001$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"534269\"></a><div itemprop=\"text\"><p>one needs to understand a bit concept before directly jumping onto the solution:<br><br>we have so many devices throughout.&nbsp;</p><p data-path-to-node=\"5\">Instead of giving every single device in your home or office a unique, expensive public IP address, NAT allows an entire network to share <b data-path-to-node=\"5\" data-index-in-node=\"138\">one</b> public IP address.<br>why so? because we have limited no. of ip's<br><br>so, NAT is currently used to slow down the exhausation of ipv4 address space.<br>so to implement this, three ranges of ip address have been declared as private.</p><p data-path-to-node=\"0\">To prevent different networks around the world from conflicting with each other, there are reserved specific blocks of IP addresses for internal use only.</p><p data-path-to-node=\"1\">These addresses are <b data-path-to-node=\"1\" data-index-in-node=\"20\">non-routable</b> on the public internet, meaning global internet routers will instantly drop any traffic originating from or destined for them.</p><p>Private IP address ranges are:</p><p>i) 10.0.0.0 to 10.255.255.255 /<strong>8&nbsp;&nbsp;</strong></p><p>ii) 172.16.0.0 to 172.31.255.255<strong>/12</strong></p><p>iii) 192.168.0.0 to 192.168.255.255/<strong>16</strong>&nbsp;</p><p data-path-to-node=\"5,1,0\"><b data-path-to-node=\"5,1,0\" data-index-in-node=\"0\">The NAT Solution:</b> The router replaces the private source IP address (and source port) with its own<b data-path-to-node=\"5,1,0\" data-index-in-node=\"99\">&nbsp;public IP address pool</b> (and a unique port from its pool) before forwarding the packet to the destination.</p><p data-path-to-node=\"6\">Therefore, for an option to be valid, the allocated IP address must be a <b data-path-to-node=\"6\" data-index-in-node=\"73\">globally routable public IP address</b>, not another private IP address.<br>so now,<br><br>option a falls in private range ii<br>option b falls in private range iii<br>option c and d&nbsp;does not fall into any private IP address blocks.<br>both are valid, globally unique <b data-path-to-node=\"17,0,0\" data-index-in-node=\"107\">public IP address.</b></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"495426\"></a><div itemprop=\"text\"><p>Private IP addresses are reserved for use <i>only</i> within a local network (LAN) and are filtered out by Internet routers.</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><tbody><tr><td><strong>Option</strong></td><td><strong>IP Address</strong></td><td><strong>Reserved Private Ranges</strong></td></tr><tr><td>A</td><td>172.26.184.3</td><td>Falls in the $\\mathbf{172.16.0.0}$ to $\\mathbf{172.31.255.255}$ range.</td></tr><tr><td>B</td><td>192.168.1.1</td><td><table><tbody><tr><td>Falls in the $\\mathbf{192.168.0.0}$ to $\\mathbf{192.168.255.255}$ range.</td></tr></tbody></table></td></tr></tbody></table><p>&nbsp;</p><p>Public IP addresses are globally unique and are the only addresses that can be used for communication across the Internet.</p></div></section></div><p><a href=\"https://gateoverflow.in/489062\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Ethernet CSMA/CD protocol uses an exponential backoff algorithm. Suppose a datagram has already experienced $\\mathbf{4}$ collisions. The sender will randomly choose a backoff value $\\mathbf{K}$ in which of the following ranges and then wait for $\\mathrm{K} \\times 512$ bit times before retransmission?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$ to $7$ (inclusive)<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0$ to $15$ (inclusive)<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1$ to $15$ (inclusive)<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0$ to $31$ (inclusive)</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"489061\"></a><div itemprop=\"text\"><ul><li>In CSMA/CD exponential backoff, after $n$ collisions, the sender chooses $K$ uniformly at random from the range $\\left[0,2^{n}-1\\right]$.</li></ul><p>&nbsp;</p><ul><li>For $n=4$, this range is $\\left[0,2^{4}-1\\right]=[0,15]$.</li></ul><p>&nbsp;</p><ul><li>Therefore, the sender waits for a time interval of $K \\times 512$ bit times before attempting retransmission.</li></ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"534272\"></a><div itemprop=\"text\"><p>For&nbsp; n collisions, the backoff value K is randomly chosen from the range :&nbsp;<span class=\"math-tex\" data-latex=\"0 \\le K \\le 2^n - 1\">$0 \\le K \\le 2^n - 1$</span><br><br>Given n = 4collisions: k is chosen from range 0 to 15<br><br>also note that [0,15] it indicates the<em><strong> \"time slots\" t</strong></em>hat can be chosen after collision by both stations.<br>( example-lets say A chooses 2 and B choose 7 so A will start transmitting 2 time slot after collision and B will start transmitting 7 time slot after collision)<br>(since both choose different value from the range , there will be no collision)<br><br><span class=\"math-tex\" data-latex=\"\\text{Actual Waiting Time} = K \\times 1 \\text{ Slot Duration}\">$\\text{Actual Waiting Time} = K \\times 1 \\text{ Slot Duration}$ = K x 512</span><br><br>point to note:&nbsp;</p><blockquote><p><br>Duration of single backoff time slot is exactly equal to tranmission time of a 512 bit frame.</p></blockquote></div></section></div><p><a href=\"https://gateoverflow.in/489060\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the given network diagram, Ethernet interface addresses ( $\\mathrm{e} 1, \\mathrm{e} 2, \\ldots$ ) are written on the diagram itself. Host $1$ uses interface $\\mathbf{e} 1$ with IP address IP H$1$, and Host $4$ uses interface $\\mathbf{e 4}$ with IP address IP H$4$. The router has interface e$5$ on Network 1 and interface e6 on Network $2$.</p><p style=\"text-align:center\"><img alt=\"\" width=\"550\" height=\"396\" src=\"media/7a/7ab266a9e546213706a6.png\"></p><p><br>When Host $1$ sends an IP packet to Host $4$, what are the correct Ethernet and IP source/destination addresses in the frame that traverses Network $2$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Eth Src: e6 | Eth Dest: e4 | IP Src: IP H1 | IP Dest: IP H4<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Eth Src: e1 | Eth Dest: e$4$ | IP Src: IP H1 | IP Dest: IP H4<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Eth Src: e5 | Eth Dest: e4 | IP Src: IP H1 | IP Dest: IP H4<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Eth Src: e4 | Eth Dest: e6 | IP Src: IP H4 | IP Dest: IP H1</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"489059\"></a><div itemprop=\"text\">For Host 1 sending a packet to Host 4, focusing on Network 2 in the diagram:<br>\n<br>\nThe Ethernet frame uses the router's interface $\\mathbf{e 6}$ as the source and Host $4$'s interface $\\mathbf{e 4}$ as the destination. The IP header remains end-to-end from Host 1 to Host $4$.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500381\"></a><div itemprop=\"text\"><p data-path-to-node=\"2\"><b>Question:</b> What are the Ethernet and IP source/destination addresses in the frame that traverses <b>Network 2</b>, when Host 1 sends a packet to Host 4?</p><p data-path-to-node=\"3\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b>Path:</b> Host 1 (Network 1) $\\rightarrow$ Router $\\rightarrow$ Host 4 (Network 2).</p></li><li><p data-path-to-node=\"4,1,0\"><b>IP Addresses:</b> The source and destination IP addresses <b>never change</b> during routing (unless NAT is used, which is not mentioned).</p><ul data-path-to-node=\"4,1,1\"><li><p data-path-to-node=\"4,1,1,0,0\"><b>Source IP:</b> IP of Host 1 (<b>IP H1</b>)</p></li><li><p data-path-to-node=\"4,1,1,1,0\"><b>Destination IP:</b> IP of Host 4 (<b>IP H4</b>)</p></li></ul></li><li><p data-path-to-node=\"4,2,0\"><b>MAC (Ethernet) Addresses:</b> These change at every hop. We are looking at the frame on <b>Network 2</b>.</p><ul data-path-to-node=\"4,2,1\"><li><p data-path-to-node=\"4,2,1,0,0\"><b>Sender on Network 2:</b> The Router's interface on Network 2 (<b>e6</b>).</p></li><li><p data-path-to-node=\"4,2,1,1,0\"><b>Receiver on Network 2:</b> Host 4's interface (<b>e4</b>).</p></li><li><p data-path-to-node=\"4,2,1,2,0\"><b>Source MAC:</b> <b>e6</b></p></li><li><p data-path-to-node=\"4,2,1,3,0\"><b>Destination MAC:</b> <b>e4</b></p></li></ul></li></ol><p data-path-to-node=\"5\"><b>Conclusion:</b></p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\">Eth Src: <b>e6</b></p></li><li><p data-path-to-node=\"6,1,0\">Eth Dest: <b>e4</b></p></li><li><p data-path-to-node=\"6,2,0\">IP Src: <b>IP H1</b></p></li><li><p data-path-to-node=\"6,3,0\">IP Dest: <b>IP H4</b></p></li></ul><p data-path-to-node=\"7\"><b>Answer:</b> <b>A</b></p></div></section></div><p><a href=\"https://gateoverflow.in/489058\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose a router receives an IP packet containing 600 data bytes and has to forward the packet to a network with a maximum transmission unit of $200$ bytes. Assume that the IP header is $20$ bytes long. What are fragment offset values for divided packets?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$22, 44, 66, 88$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0, 22, 44$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0, 22, 44, 66$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$22, 44, 66$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"489072\"></a><div itemprop=\"text\">$\\textbf{Step 1:}$ MTU = $200$ bytes, IP header = $20$ bytes. &nbsp;<br>\n<br>\nSo, maximum data per fragment $= 200 - 20 = 180$ bytes.<br>\n<br>\n&nbsp;<br>\n<br>\n$\\textbf{Step 2:}$ Total data = $600$ bytes. &nbsp;<br>\n<br>\nNumber of fragments $= \\lceil 600 / 180 \\rceil = 4$.<br>\n<br>\n&nbsp;<br>\n<br>\n$\\textbf{Step 3:}$ Fragment data distribution: &nbsp;<br>\n<br>\n\\[180,\\ 180,\\ 180,\\ 60\\]<br>\n<br>\n&nbsp;<br>\n<br>\n$\\textbf{Step 4:}$ Fragment offset is measured in units of $8$ bytes. &nbsp;<br>\n<br>\n\\[<br>\n\\begin{aligned}<br>\n\\text{Fragment 1:} &amp; \\quad 0/8 = 0 \\\\<br>\n\\text{Fragment 2:} &amp; \\quad 180/8 = 22.5 \\;\\Rightarrow\\; 22 \\\\<br>\n\\text{Fragment 3:} &amp; \\quad 360/8 = 45 \\;\\Rightarrow\\; 44 \\\\<br>\n\\text{Fragment 4:} &amp; \\quad 540/8 = 67.5 \\;\\Rightarrow\\; 66<br>\n\\end{aligned}<br>\n\\]<br>\n<br>\n&nbsp;<br>\n<br>\n$\\textbf{Final Answer:}$ Offsets = $\\{0, 22, 44, 66\\}$<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/489057\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "In a Go-Back-N ARQ protocol with a sender window size of $7$, what is the necessary and sufficient number of distinct sequence numbers required to ensure correct protocol operation and avoid ambiguity at the wrap-around point?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"489056\"></a><div itemprop=\"text\"><p>The main issue arises at the wrap-around point. If only $7$ sequence numbers are available, after transmitting $7$ frames, an ACK($0$) could mean either:</p><ul><li>All $7$ frames were received correctly, OR</li></ul><p>&nbsp;</p><ul><li>The first frame (and possibly others) was lost and needs retransmission.</li></ul><p><br>This leads to ambiguity, which violates correctness.<br><br>To avoid this, the sequence space must be at least $\\mathbf{N + 1}$, where $\\mathbf{N} \\boldsymbol{=}$ window size.<br><br>For a window size of 7 , the required set is $\\{\\mathbf{0, 1, 2, 3, 4, 5, 6, 7}\\}$, i.e., $\\mathbf{8}$ sequence numbers.</p></div></section></div><p><a href=\"https://gateoverflow.in/489055\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A sender is using the Go-Back-N protocol with:</p><ul><li>Window size $=4$<br>&nbsp;</li><li>One shared retransmission timer (timeout = $25$)<br>&nbsp;</li><li>Packets are acknowledged cumulatively<br>&nbsp;</li><li>The channel may lose packets but never reorders them</li></ul><p>At time = $6$:</p><ul><li>Packets with sequence numbers$ 2,3 $, and $4$ are unacknowledged and waiting in the buffer.<br>&nbsp;</li><li>The next packet to be sent will carry sequence number $5$.<br>&nbsp;</li><li>The retransmission timer is set to expire at time $=10$.</li></ul><p>At time $=7$, the application generates a new packet with sequence number $5$.<br><br>At time = $12$, an acknowledgement for all packets up to sequence number 3 is received.<br><br>At time $=13$, the sender still has packets $4$ and $5$ unacknowledged, and the next packet to be sent will carry sequence number $6$ . The retransmission timer is now set to expire at time $=35$.<br><br>Which packets are actually transmitted between time $=6$ and time $=13$ (in the correct order)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\{2,3,4,5\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\{5,2,3,4,5\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{2,3,5,4\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{5,4,5\\}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"489054\"></a><div itemprop=\"text\"><ul><li>At t=$6$: Unacknowledged in-flight are p2, p3, p4.</li></ul><p>&nbsp;</p><ul><li>At t=$7$: A new data packet arrives; the window has room (size $4$ , only $3$ outstanding), so p5 is sent first.</li></ul><p><br>So far: p5</p><ul><li>At t=10: The single timer expires. In Go-Back-N, the sender retransmits all unacknowledged packets starting from the oldest, in order: p2, then p3, then p4, then $\\mathbf{p 5}$.</li></ul><p><br>Added sequence: p2, p3, p4, p5<br><br>Total ordered transmissions ( $\\mathbf{t = 6 ~} \\rightarrow{\\mathbf { 1 3 }}$ ): $\\mathrm{p} 5, \\mathrm{p} 2, \\mathrm{p} 3, \\mathrm{p} 4, \\mathrm{p} 5$</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500386\"></a><div itemprop=\"text\"><p><b>Task:</b>&nbsp;Determine which packets are transmitted between time&nbsp;t=6&nbsp;and&nbsp;t=13.</p><p data-path-to-node=\"4\"><b>Given:</b></p><ul data-path-to-node=\"5\"><li><p data-path-to-node=\"5,0,0\"><b>Window Size (N):</b>&nbsp;4</p></li><li><p data-path-to-node=\"5,1,0\"><b>Timeout:</b>&nbsp;25</p></li><li><p data-path-to-node=\"5,2,0\"><b>Initial State (t=6):</b></p><ul data-path-to-node=\"5,2,1\"><li><p data-path-to-node=\"5,2,1,0,0\">Unacknowledged (in-flight): 2, 3, 4</p></li><li><p data-path-to-node=\"5,2,1,1,0\">Next to send: 5</p></li><li><p data-path-to-node=\"5,2,1,2,0\">Timer expires at:&nbsp;t=10.</p></li></ul></li><li><p data-path-to-node=\"5,3,0\"><b>Events:</b></p><ul data-path-to-node=\"5,3,1\"><li><p data-path-to-node=\"5,3,1,0,0\"><b>t=7:</b>&nbsp;Application gives packet 5.</p></li><li><p data-path-to-node=\"5,3,1,1,0\"><b>t=12:</b>&nbsp;Cumulative ACK for packet 3 arrives.</p></li><li><p data-path-to-node=\"5,3,1,2,0\"><b>t=13:</b>&nbsp;Timer reset to expire at 35.</p></li></ul></li></ul><p data-path-to-node=\"6\"><b>Timeline Analysis:</b></p><ol start=\"1\" data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><b>t=6:</b>&nbsp;Packets 2, 3, 4 are outstanding. Next is 5.</p></li><li><p data-path-to-node=\"7,1,0\"><b>t=7:</b>&nbsp;Sender gets Packet 5. Window is not full (3 outstanding &lt; 4 window size).</p><ul data-path-to-node=\"7,1,1\"><li><p data-path-to-node=\"7,1,1,0,0\"><b>Action:</b>&nbsp;Sender transmits&nbsp;<b>Packet 5</b>.</p></li><li><p data-path-to-node=\"7,1,1,1,0\">Outstanding: {2, 3, 4, 5}. Window is full.</p></li></ul></li><li><p data-path-to-node=\"7,2,0\"><b>t=10:</b>&nbsp;<b>Timeout!</b>&nbsp;The timer (set for packet 2) expires.</p><ul data-path-to-node=\"7,2,1\"><li><p data-path-to-node=\"7,2,1,0,0\"><b>Action (GBN Logic):</b>&nbsp;Retransmit all unacknowledged packets in the window.</p></li><li><p data-path-to-node=\"7,2,1,1,0\">Unacknowledged: {2, 3, 4, 5}.</p></li><li><p data-path-to-node=\"7,2,1,2,0\">Transmit:&nbsp;<b>Packet 2, Packet 3, Packet 4, Packet 5</b>.</p></li><li><p data-path-to-node=\"7,2,1,3,0\">Timer restarted (for packet 2).</p></li></ul></li><li><p data-path-to-node=\"7,3,0\"><b>t=12:</b>&nbsp;ACK for Packet 3 arrives.</p><ul data-path-to-node=\"7,3,1\"><li><p data-path-to-node=\"7,3,1,0,0\">This is cumulative, so it ACKs 2 and 3.</p></li><li><p data-path-to-node=\"7,3,1,1,0\">Window slides. Base moves to 4.</p></li><li><p data-path-to-node=\"7,3,1,2,0\">Outstanding: {4, 5}.</p></li><li><p data-path-to-node=\"7,3,1,3,0\">Window allows sending 6, 7. But we have no data for them yet? (Problem says at&nbsp;t=13, next to send is 6, implying 6 isn't sent yet).</p></li></ul></li><li><p data-path-to-node=\"7,4,0\"><b>t=13:</b>&nbsp;The problem statement just describes the state here. We stop counting transmissions.</p></li></ol><p data-path-to-node=\"8\"><b>Packets Transmitted:</b></p><ul data-path-to-node=\"9\"><li><p data-path-to-node=\"9,0,0\">At&nbsp;t=7:&nbsp;<b>5</b></p></li><li><p data-path-to-node=\"9,1,0\">At&nbsp;t=10&nbsp;(Timeout):&nbsp;<b>2, 3, 4, 5</b></p></li></ul><p data-path-to-node=\"10\"><b>Sequence:</b>&nbsp;5, then 2, 3, 4, 5.</p><p data-path-to-node=\"11\"><b>Answer:</b>&nbsp;<b>B. {5, 2, 3, 4, 5}</b></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"530701\"></a><div itemprop=\"text\"><p>&nbsp;Answer is B&nbsp; &nbsp;<img alt=\"\" src=\"media/a8/a8c2e225a523c9b7d3a5.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/489053\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A network is arranged as follows: Node $\\mathbf{A} \\rightarrow$ Node $\\mathbf{B} \\rightarrow$ Node $\\mathbf{C}$.</p><ul><li>Total data to send from $A$ to $C=\\mathbf{1 2 P}$ bits.<br>&nbsp;</li><li>Each packet requires a header of $\\mathbf{P}$ bits.<br>&nbsp;</li><li>Link $\\mathrm{A}-\\mathrm{B}$ and link $\\mathrm{B}-\\mathrm{C}$ are identical, with<br>&nbsp;</li><li>Bandwidth = R bits/sec<br>&nbsp;</li><li>Link propagation speed = S meters/sec<br>&nbsp;</li><li>Link length = D meters</li></ul><p>&nbsp;</p><ul><li>Queuing and processing delays are negligible.</li></ul><p>If all $\\mathrm{12 P}$ bits are sent in a single packet (including the header), what is the total delay for the entire data to reach $\\mathrm{C}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$12 \\mathrm{P} / \\mathrm{R}+2 \\mathrm{D} / \\mathrm{S}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$13 \\mathrm{P} / \\mathrm{R}+2 \\mathrm{D} / \\mathrm{S}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$21 \\mathrm{P} / \\mathrm{R}+2 \\mathrm{D} / \\mathrm{S}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$26 \\mathrm{P} / \\mathrm{R}+2 \\mathrm{D} / \\mathrm{S}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"489052\"></a><div itemprop=\"text\">We have $12 P$ bits of data and a header of size $P$, so the single packet size becomes $13 P$ bits.<br>\nEach link ( $A-B$ and $B-C$ ) has transmission rate $R$ and propagation delay $D / S$. Since the network uses store-and-forward switching, the entire packet must be transmitted on the first hop before being forwarded on the second hop.<br>\n<br>\nOn one hop, the transmission delay is $13 P / R$ and the propagation delay is $D / S$.<br>\nSince there are two hops, both of these delays are doubled.<br>\nHence, the total end-to-end delay is<br>\n$$<br>\n26 P / R+2 D / S<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500397\"></a><div itemprop=\"text\"><h3><b>Question:</b> What is the total delay for the entire data (sent as a single packet) to reach C?</h3><p data-path-to-node=\"3\"><b>Parameters:</b></p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b>Total Data:</b> $12P$ bits.</p></li><li><p data-path-to-node=\"4,1,0\"><b>Header:</b> $P$ bits.</p></li><li><p data-path-to-node=\"4,2,0\"><b>Total Packet Size ($L$):</b> $12P + P = 13P$ bits.</p></li><li><p data-path-to-node=\"4,3,0\"><b>Bandwidth:</b> $R$ bits/sec.</p></li><li><p data-path-to-node=\"4,4,0\"><b>Propagation Speed:</b> $S$ meters/sec.</p></li><li><p data-path-to-node=\"4,5,0\"><b>Link Length:</b> $D$ meters.</p></li><li><p data-path-to-node=\"4,6,0\"><b>Path:</b> A $\\rightarrow$ B $\\rightarrow$ C (2 Links).</p></li></ul><p>Delay Components:</p><p>The total delay over $N$ hops for a store-and-forward network is the sum of Transmission Delays and Propagation Delays.</p><ol start=\"1\" data-path-to-node=\"6\"><li><p>Transmission Delay ($T_t$): Time to push the packet onto the link.</p><p>&nbsp;</p><p>$$T_t = \\frac{\\text{Packet Size}}{\\text{Bandwidth}} = \\frac{13P}{R}$$</p></li><li><p>Propagation Delay ($T_p$): Time for a bit to travel across the link.</p><p>&nbsp;</p><p>$$T_p = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{D}{S}$$</p></li></ol><p>Total Delay Calculation:</p><p>The packet must be transmitted and propagated on the first link (A-B), received at B, and then transmitted and propagated on the second link (B-C).</p><p>&nbsp;</p><p>$$\\text{Total Delay} = (T_t + T_p)_{A \\to B} + (T_t + T_p)_{B \\to C}$$</p><p>&nbsp;</p><p>Since the links are identical:</p><p>&nbsp;</p><p>$$\\text{Total Delay} = 2 \\times (T_t + T_p)$$</p><p>$$\\text{Total Delay} = 2 \\times \\left(\\frac{13P}{R} + \\frac{D}{S}\\right)$$</p><p>$$\\text{Total Delay} = \\frac{26P}{R} + \\frac{2D}{S}$$</p><p>Wait, let's re-read the options.</p><p>The options are like $13P/R + 2D/S$.</p><p>Let's check the store-and-forward assumption. If it's a single packet, the entire packet must arrive at B before B starts sending it to C.</p><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\"><b>Step 1:</b> A transmits packet. Time = $13P/R$.</p></li><li><p data-path-to-node=\"14,1,0\"><b>Step 2:</b> Last bit arrives at B. Time = $D/S$. (Total time so far: $13P/R + D/S$)</p></li><li><p data-path-to-node=\"14,2,0\"><b>Step 3:</b> B transmits packet. Time = $13P/R$.</p></li><li><p data-path-to-node=\"14,3,0\"><b>Step 4:</b> Last bit arrives at C. Time = $D/S$.</p></li><li><p data-path-to-node=\"14,4,0\"><b>Total Time:</b> $13P/R + D/S + 13P/R + D/S = 26P/R + 2D/S$.</p></li></ul><p data-path-to-node=\"15\">This matches <b>Option D</b>.</p></div></section></div><p><a href=\"https://gateoverflow.in/489051\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A source sends 12P bits of data from node A to node C via node B.</p><ul><li>The path has two identical links (A-B and B-C).<br>&nbsp;</li><li>Each link has a bandwidth of $\\mathbf{R}$ bits/sec, a propagation speed of $\\mathbf{S}$ meters/sec, and length $\\mathbf{D}$ meters.<br>&nbsp;</li><li>Each packet requires a header of size $\\mathbf{P}$ bits.</li></ul><p>&nbsp;</p><ul><li>Queuing and processing delays are negligible.</li></ul><p>If the $12 P$ bits are divided into $\\mathbf{k}$ equal packets, then each packet has size $=(12 P / k+P)$ bits.<br>What is the optimal value of $\\mathbf{k}$ that minimizes the total end-to-end delay for all data to arrive at C ?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$k=\\sqrt{12}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$k=6$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$k=12 $<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$ k=\\sqrt{13}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"496222\"></a><div itemprop=\"text\"><p>Answer is √12<strong>&nbsp;- Option A</strong></p><p><strong><img alt=\"\" width=\"1080\" height=\"936\" src=\"media/9c/9c767faca6dfbe0fc296.jpg\"></strong></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"500387\"></a><div itemprop=\"text\"><h3><b>Task:</b> Find optimal $k$ to minimize end-to-end delay.</h3><p data-path-to-node=\"28\"><b>Variables:</b></p><ul data-path-to-node=\"29\"><li><p data-path-to-node=\"29,0,0\">Total Data: $12P$</p></li><li><p data-path-to-node=\"29,1,0\">Header: $P$</p></li><li><p data-path-to-node=\"29,2,0\">Bandwidth: $R$</p></li><li><p data-path-to-node=\"29,3,0\">Speed: $S$</p></li><li><p data-path-to-node=\"29,4,0\">Length: $D$</p></li><li><p data-path-to-node=\"29,5,0\">Path: A $\\to$ B $\\to$ C (2 links).</p></li></ul><p data-path-to-node=\"30\"><b>Packet Size Analysis:</b></p><ul data-path-to-node=\"31\"><li><p data-path-to-node=\"31,0,0\">Data per packet = $12P / k$.</p></li><li><p data-path-to-node=\"31,1,0\">Total Packet Size ($L$) = Data + Header = $\\frac{12P}{k} + P = P(\\frac{12}{k} + 1)$.</p></li></ul><p data-path-to-node=\"32\"><b>Delay Components:</b></p><ol start=\"1\" data-path-to-node=\"33\"><li><p>Transmission Time ($T_t$): Time to push one packet onto the link.</p><p>&nbsp;</p><p>$$T_t = \\frac{L}{R} = \\frac{P}{R} \\left(\\frac{12}{k} + 1\\right)$$</p></li><li><p>Propagation Time ($T_p$): Time to travel one link.</p><p>&nbsp;</p><p>$$T_p = \\frac{D}{S}$$</p><p data-path-to-node=\"33,1,2\">(This is constant regardless of $k$).</p></li></ol><p>Pipeline Timing (End-to-End for k packets over 2 links):</p><p>For a store-and-forward network with $N$ links and $k$ packets:</p><p>Total Delay = $N \\times T_p + (k + N - 1) \\times T_t$.</p><p>Here $N=2$ links.</p><p>&nbsp;</p><p>$$Total Delay = 2 T_p + (k + 1) T_t$$</p><p>We need to minimize this with respect to $k$. $T_p$ is constant, so we minimize $(k+1) T_t$.</p><p>&nbsp;</p><p>$$f(k) = (k+1) \\frac{P}{R} \\left(\\frac{12}{k} + 1\\right)$$</p><p>&nbsp;</p><p>Ignore constant $P/R$. Minimize:</p><p>&nbsp;</p><p>$$g(k) = (k+1) \\left(\\frac{12}{k} + 1\\right)$$</p><p>$$g(k) = 12 + k + \\frac{12}{k} + 1$$</p><p>$$g(k) = k + \\frac{12}{k} + 13$$</p><p>Optimization:</p><p>Take derivative with respect to $k$ and set to 0.</p><p>&nbsp;</p><p>$$g'(k) = 1 - \\frac{12}{k^2} = 0$$</p><p>$$1 = \\frac{12}{k^2}$$</p><p>$$k^2 = 12$$</p><p>$$k = \\sqrt{12}$$</p><p data-path-to-node=\"47\"><b>Answer:</b> <b>A. $k = \\sqrt{12}$</b></p></div></section></div><p><a href=\"https://gateoverflow.in/489050\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<div style=\"max-width:900px;margin:1rem auto;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;\"><p style=\"margin:0.3rem 0;\">Two hosts <strong>X</strong> and <strong>Y</strong> are communicating over an ongoing TCP connection. Each TCP segment carries <strong>100 bytes</strong> of application data. The first segment sent by <strong>X</strong> has sequence number \\(30\\) and ACK number \\(70\\).</p><p style=\"margin:0.3rem 0;\">&nbsp;</p><div style=\"display:flex; gap:16px; align-items:flex-start; padding:12px;\">&nbsp;<div style=\"flex:1; min-width:300px;\"><img alt=\"TCP exchange diagram: X and Y sending 100B segments; second segment from X is lost and later retransmitted\" style=\"width:100%; height:auto;\" src=\"media/30/3028d12e1c5171765110.png\"></div><aside style=\"flex:1; min-width:280px; padding:12px;\"><ul style=\"margin:0; padding-left:20px;\"><li style=\"margin:0.3rem 0;\">The <strong>second segment sent by X is lost</strong>.<br><br>&nbsp;</li><li style=\"margin:0.3rem 0;\">It is later <strong>retransmitted when the associated timer expires</strong>.<br><br><br>&nbsp;</li><li style=\"margin:0.3rem 0;\">No other segments are retransmitted, none are corrupted, and the receiver buffers out-of-order packets correctly.</li></ul></aside></div><div style=\"margin-top:14px; line-height:1.5;\"><p>Determine the <em>Sequence Number</em> \\(S\\) and <em>Acknowledgement Number</em> \\(A\\) in the final TCP segment sent by <strong>X</strong> in the diagram, after the timeout-based retransmission succeeds.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(S=170,\\; A=230\\)<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(S=270,\\; A=330\\)<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(S=270,\\; A=230\\)<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(S=170,\\; A=330\\)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"489049\"></a><div itemprop=\"text\"><ul><li>Each TCP segment from X carries 100 bytes. Starting at $S=30$, the segment starts are:</li></ul><p><br>$$<br>30,130,230,330, \\ldots<br>$$</p><ul><li>The second segment $(S=130)$ is lost. Until it is recovered, Y's cumulative ACK cannot advance past 130, even if it buffered out-of-order data.</li></ul><p>&nbsp;</p><ul><li>After the timeout, X retransmits the missing segment $(S=130)$. Once Y receives it, the in-order bytes up to 329 are complete, so the cumulative ACK advances to</li></ul><p>$$<br>A=330 .<br>$$</p><ul><li>In the final transmission shown from X, the segment begins at</li></ul><p>$$<br>S=270<br>$$<br><br>while acknowledging $A=330$.<br><br>Hence, $S=270, A=330$.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500398\"></a><div itemprop=\"text\"><p data-path-to-node=\"23\"><b>Question:</b> Determine $S$ and $A$ in the final TCP segment sent by X.</p><p data-path-to-node=\"24\"><b>Analysis:</b></p><ul data-path-to-node=\"25\"><li><p data-path-to-node=\"25,0,0\"><b>Given:</b></p><ul data-path-to-node=\"25,0,1\"><li><p data-path-to-node=\"25,0,1,0,0\">Payload size = 100 bytes.</p></li><li><p data-path-to-node=\"25,0,1,1,0\">First packet sent by X: $S=30, A=70$.</p></li></ul></li><li><p data-path-to-node=\"25,1,0\"><b>Sequence of Events:</b></p><ol start=\"1\" data-path-to-node=\"25,1,1\"><li><p data-path-to-node=\"25,1,1,0,0\"><b>X sends P1:</b> $S=30$. (Bytes 30 to 129).</p></li><li><p data-path-to-node=\"25,1,1,1,0\"><b>X sends P2:</b> $S=130$. (Bytes 130 to 229). <b>LOST</b>.</p></li><li><p data-path-to-node=\"25,1,1,2,0\"><b>X sends P3:</b> $S=230$. (Bytes 230 to 329). (This corresponds to the 3rd arrow).</p></li><li><p data-path-to-node=\"25,1,1,3,0\"><b>Y receives P1:</b> Sends ACK expecting 130. ($A=130$).</p></li><li><p data-path-to-node=\"25,1,1,4,0\"><b>Y receives P3:</b> Buffers it. Sends Duplicate ACK expecting 130.</p></li><li><p data-path-to-node=\"25,1,1,5,0\"><b>Timeout at X:</b> X resends P2 ($S=130$).</p></li><li><p data-path-to-node=\"25,1,1,6,0\"><b>Y receives P2:</b> Now has continuous data 30-329. Next expected is 330.</p></li><li><p data-path-to-node=\"25,1,1,7,0\"><b>Y sends ACK 330.</b></p></li><li><p data-path-to-node=\"25,1,1,8,0\"><b>X receives ACK 330:</b> Sends next packet.</p><ul data-path-to-node=\"25,1,1,8,1\"><li><p data-path-to-node=\"25,1,1,8,1,0,0\"><b>Next Sequence Number ($S$):</b> 330.</p></li></ul></li></ol></li><li><p data-path-to-node=\"25,2,0\"><b>Wait, looking at options:</b></p><ul data-path-to-node=\"25,2,1\"><li><p data-path-to-node=\"25,2,1,0,0\">A. $S=170, A=230$</p></li><li><p data-path-to-node=\"25,2,1,1,0\">B. $S=270, A=330$</p></li><li><p data-path-to-node=\"25,2,1,2,0\">C. $S=270, A=230$</p></li><li><p data-path-to-node=\"25,2,1,3,0\">D. $S=170, A=330$</p></li></ul></li><li><p data-path-to-node=\"25,3,0\"><b>Discrepancy:</b> My calculation gives $S=330$. The options have $S=170$ or $270$. This implies the question uses different numbers than derived or implies a different packet size.</p></li><li><p data-path-to-node=\"25,4,0\"><b>Let's reverse engineer:</b></p><ul data-path-to-node=\"25,4,1\"><li><p data-path-to-node=\"25,4,1,0,0\">If next $S=270$: This implies total bytes sent before = $270 - 30 = 240$.</p></li><li><p data-path-to-node=\"25,4,1,1,0\">$240 / 3$ packets = 80 bytes/packet?</p></li><li><p data-path-to-node=\"25,4,1,2,0\">If size = 80 bytes:</p><ul data-path-to-node=\"25,4,1,2,1\"><li><p data-path-to-node=\"25,4,1,2,1,0,0\">P1: $30$.</p></li><li><p data-path-to-node=\"25,4,1,2,1,1,0\">P2: $110$.</p></li><li><p data-path-to-node=\"25,4,1,2,1,2,0\">P3: $190$.</p></li><li><p data-path-to-node=\"25,4,1,2,1,3,0\">Next would be $270$.</p></li><li><p data-path-to-node=\"25,4,1,2,1,4,0\">This matches $S=270$.</p></li></ul></li><li><p data-path-to-node=\"25,4,1,3,0\">Let's check $A$ with size=80.</p><ul data-path-to-node=\"25,4,1,3,1\"><li><p data-path-to-node=\"25,4,1,3,1,0,0\">If Y sends data too... The options have $A=330$ or $230$.</p></li><li><p data-path-to-node=\"25,4,1,3,1,1,0\">If $A=330$, bytes received = $330 - 70 = 260$.</p></li><li><p data-path-to-node=\"25,4,1,3,1,2,0\">$260 / 2$ packets = 130 bytes/packet from Y?</p></li></ul></li><li><p data-path-to-node=\"25,4,1,4,0\"><b>Alternative: Typo in Question Text.</b></p><ul data-path-to-node=\"25,4,1,4,1\"><li><p data-path-to-node=\"25,4,1,4,1,0,0\">A very similar standard question exists (GATE CS 2014) where $S=70, A=30$.</p></li><li><p data-path-to-node=\"25,4,1,4,1,1,0\">If $S=70$ (Start):</p><ul data-path-to-node=\"25,4,1,4,1,1,1\"><li><p data-path-to-node=\"25,4,1,4,1,1,1,0,0\">P1: $70$.</p></li><li><p data-path-to-node=\"25,4,1,4,1,1,1,1,0\">P2: $170$.</p></li><li><p data-path-to-node=\"25,4,1,4,1,1,1,2,0\">P3: $270$.</p></li><li><p data-path-to-node=\"25,4,1,4,1,1,1,3,0\">Next $S$ would be $370$. Still no match.</p></li></ul></li></ul></li></ul></li><li><p data-path-to-node=\"25,5,0\"><b>Let's assume \"Final Segment in the diagram\" refers to P3.</b></p><ul data-path-to-node=\"25,5,1\"><li><p data-path-to-node=\"25,5,1,0,0\">P3 is the arrow <i>before</i> the timeout resend? No, the green arrow at the bottom is \"S=?\".</p></li><li><p data-path-to-node=\"25,5,1,1,0\">Is it possible <b>P3 (the crossed line)</b> was never sent?</p><ul data-path-to-node=\"25,5,1,1,1\"><li><p data-path-to-node=\"25,5,1,1,1,0,0\">\"No other segments are retransmitted\".</p></li><li><p data-path-to-node=\"25,5,1,1,1,1,0\">Diagram shows 3 blue arrows.</p></li></ul></li><li><p data-path-to-node=\"25,5,1,2,0\"><b>Let's reconsider the \"S=270\" logic.</b></p><ul data-path-to-node=\"25,5,1,2,1\"><li><p data-path-to-node=\"25,5,1,2,1,0,0\">If S=270 is the correct answer for S, and size=100.</p></li><li><p data-path-to-node=\"25,5,1,2,1,1,0\">$30 \\to 130 \\to 230 \\to 330$.</p></li><li><p data-path-to-node=\"25,5,1,2,1,2,0\">Maybe the question assumes <b>Go-Back-N</b>?</p></li><li><p data-path-to-node=\"25,5,1,2,1,3,0\">In GBN, on timeout, X resends <i>everything</i> starting from lost packet.</p></li><li><p data-path-to-node=\"25,5,1,2,1,4,0\">Resend P2 (130).</p></li><li><p data-path-to-node=\"25,5,1,2,1,5,0\">Resend P3 (230).</p></li><li><p data-path-to-node=\"25,5,1,2,1,6,0\">If the green arrow is the retransmission of P3?</p></li><li><p data-path-to-node=\"25,5,1,2,1,7,0\">Then $S=230$. Not an option.</p></li></ul></li><li><p data-path-to-node=\"25,5,1,3,0\"><b>Conclusion:</b> This question is numerically inconsistent as written (100 bytes vs options). However, looking at the pattern of similar exam questions:</p><ul data-path-to-node=\"25,5,1,3,1\"><li><p data-path-to-node=\"25,5,1,3,1,0,0\">If we assume <b>Option B</b> is correct ($S=270, A=330$):</p><ul data-path-to-node=\"25,5,1,3,1,0,1\"><li><p data-path-to-node=\"25,5,1,3,1,0,1,0,0\">It implies packet size is 80 (for S) and Y sends ~130 byte packets? Unlikely.</p></li></ul></li><li><p data-path-to-node=\"25,5,1,3,1,1,0\"><b>Wait, let's look at Option C ($S=270, A=230$).</b></p><ul data-path-to-node=\"25,5,1,3,1,1,1\"><li><p data-path-to-node=\"25,5,1,3,1,1,1,0,0\">Maybe Y sent 2 packets of 80 bytes? ($70+80=150, 150+80=230$). Then $A=230$.</p></li><li><p data-path-to-node=\"25,5,1,3,1,1,1,1,0\">And X sent packets of 80 bytes? ($30, 110, 190, \\mathbf{270}$).</p></li><li><p data-path-to-node=\"25,5,1,3,1,1,1,2,0\">If <b>Payload = 80 bytes</b>, then Option C ($S=270, A=230$) is perfectly consistent.</p></li><li><p data-path-to-node=\"25,5,1,3,1,1,1,3,0\">Why 80? Maybe \"100 bytes\" total packet size - 20 byte header?</p></li><li><p data-path-to-node=\"25,5,1,3,1,1,1,4,0\">The text says \"100 bytes of <b>application data</b>\". So payload should be 100.</p></li></ul></li></ul></li><li><p data-path-to-node=\"25,5,1,4,0\"><b>Best Guess:</b> The question is flawed/copied with errors. However, <b>Option B</b> ($S=270, A=330$) or <b>Option C</b> are the only ones with a plausible \"Next S\". If I treat the options as (A, S) pairs, then (230, 270) matches Option C. If I assume the 100 bytes is actually 80 bytes payload, Option C works.</p></li><li><p data-path-to-node=\"25,5,1,5,0\">Given the ambiguity, I will analyze the <b>Acknowledgement Number A</b>.</p><ul data-path-to-node=\"25,5,1,5,1\"><li><p data-path-to-node=\"25,5,1,5,1,0,0\">If Y sends NO data, A=70.</p></li><li><p data-path-to-node=\"25,5,1,5,1,1,0\">If Y sends data, and X ACKs it.</p></li><li><p data-path-to-node=\"25,5,1,5,1,2,0\">Let's look at <b>Option A ($S=170, A=230$)</b>.</p><ul data-path-to-node=\"25,5,1,5,1,2,1\"><li><p data-path-to-node=\"25,5,1,5,1,2,1,0,0\">$S=170$: This would be the sequence number of P2 if size=140. Or P3 if size=70.</p></li></ul></li></ul></li><li><p data-path-to-node=\"25,5,1,6,0\"><b>Let's go back to the most robust calculation:</b></p><ul data-path-to-node=\"25,5,1,6,1\"><li><p data-path-to-node=\"25,5,1,6,1,0,0\">$S_{new} = S_{old} + \\text{Bytes Sent}$.</p></li><li><p data-path-to-node=\"25,5,1,6,1,1,0\">X sends 3 packets. Total sent = 300 bytes.</p></li><li><p data-path-to-node=\"25,5,1,6,1,2,0\">Next $S = 30 + 300 = 330$.</p></li><li><p data-path-to-node=\"25,5,1,6,1,3,0\">This number <code>330</code> appears in <b>Option B</b> and <b>Option D</b> (as A).</p></li><li><p data-path-to-node=\"25,5,1,6,1,4,0\">It is highly probable that <b>Option B</b> is the intended answer, with the values potentially swapped or labels misunderstood ($S$ vs $A$). $A=330$ in the option likely represents the Sequence Number 330.</p></li></ul></li></ul></li></ul><p data-path-to-node=\"26\"><b>Answer:</b> <b>B</b> (Assuming correspondence to the calculated value 330).</p></div></section></div><p><a href=\"https://gateoverflow.in/489048\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<div style=\"max-width:900px;margin:1.2rem auto;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; line-height:1.55;\"><p style=\"margin:.3rem 0;\">Consider the following <strong>receiver pseudocode</strong> for a stop-and-wait protocol.<br>The channel may <em>lose</em> or <em>corrupt</em> packets but, if a packet is delivered, it arrives <em>in order</em>.</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">p = receive_packet()\n\nwhile (p is corrupted OR p.seq ≠ expected_seq):\n    p = receive_packet()    // keep waiting until the expected,\n                            // uncorrupted packet arrives\n\nsend_ack(p.seq)\nexpected_seq = 1 - expected_seq   // flip expected between 0 and 1\ndeliver_data(p)\n  \n</pre><ul style=\"margin:.3rem 0 .9rem 1.1rem;\"><li><code>expected_seq</code> is the sequence number (either \\(0\\) or \\(1\\)) that the receiver is waiting for.</li><li><code>deliver_data(p)</code> extracts and returns the payload from packet <code>p</code>&nbsp;to upper layer.</li><li>The <strong>receiver waits forever</strong> if it is blocked inside, <code>receive_packet()</code> awaiting a packet that will never be sent.</li><li>The <strong>sender loops forever</strong> if it keeps retransmitting the same packet indefinitely.</li></ul><p style=\"margin:.3rem 0 .4rem 0;\"><strong>Which of the following statements is correct?</strong></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A single &lt;em&gt;corrupted data packet&lt;/em&gt; can cause the &lt;strong&gt;sender&lt;/strong&gt; to loop forever.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A single &lt;em&gt;corrupted data packet&lt;/em&gt; can cause the &lt;strong&gt;receiver&lt;/strong&gt; to wait forever.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A single &lt;em&gt;lost ACK&lt;/em&gt; can cause the &lt;strong&gt;sender&lt;/strong&gt; to loop forever.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A single &lt;em&gt;lost ACK&lt;/em&gt; can cause the &lt;strong&gt;receiver&lt;/strong&gt; to wait forever.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"489047\"></a><div itemprop=\"text\">If a data packet is corrupted, the receiver keeps discarding it until the sender retransmits a correct one. Once a valid packet arrives, the protocol continues normally. So a single corrupted packet does not lead to infinite waiting or looping.<br>\n<br>\nIf an ACK is lost, the situation is different. The receiver has already accepted the packet, delivered its data, and flipped its expected_seq. But the sender does not know this, because it never got the ACK. It keeps retransmitting the same packet with the old sequence number. The receiver, now expecting the opposite sequence number, discards every duplicate without sending another ACK. The sender therefore retransmits the same packet forever.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500391\"></a><div itemprop=\"text\"><h3><b>Task:</b> Identify the flaw in the pseudocode causing an infinite loop.</h3><p data-path-to-node=\"51\"><b>Code Logic Analysis:</b></p><ul data-path-to-node=\"52\"><li><p data-path-to-node=\"52,0,0\"><code>while (p is corrupted OR p.seq != expected_seq):</code></p><ul data-path-to-node=\"52,0,1\"><li><p data-path-to-node=\"52,0,1,0,0\"><code>send_ack(p.seq)</code></p></li><li><p data-path-to-node=\"52,0,1,1,0\"><code>p = receive_packet()</code></p></li></ul></li><li><p data-path-to-node=\"52,1,0\">This loop is meant to discard bad packets and re-ACK the last good one (or the one received) to keep the sender moving or resending.</p></li><li><p data-path-to-node=\"52,2,0\"><b>Flaw:</b> Inside the <code>while</code> loop, it says <code>receive_packet()</code> but it <b>does not send an ACK</b> inside the loop to trigger the sender to do anything different.</p><ul data-path-to-node=\"52,2,1\"><li><p data-path-to-node=\"52,2,1,0,0\"><i>Correction:</i> Wait, the <code>send_ack</code> is <i>outside</i> the loop?</p></li><li><p data-path-to-node=\"52,2,1,1,0\">Let's look closely at the indentation.</p></li><li><p data-path-to-node=\"52,2,1,2,0\">The <code>send_ack(p.seq)</code> is <b>outside</b> the <code>while</code> loop.</p></li><li><p data-path-to-node=\"52,2,1,3,0\">Inside the <code>while</code> loop, it just calls <code>p = receive_packet()</code>.</p></li></ul></li></ul><p data-path-to-node=\"53\"><b>Scenario Analysis:</b></p><ul data-path-to-node=\"54\"><li><p data-path-to-node=\"54,0,0\"><b>Scenario A: Corrupted Data Packet.</b></p><ul data-path-to-node=\"54,0,1\"><li><p data-path-to-node=\"54,0,1,0,0\">Receiver enters <code>while</code> loop.</p></li><li><p data-path-to-node=\"54,0,1,1,0\">It sits at <code>p = receive_packet()</code>.</p></li><li><p data-path-to-node=\"54,0,1,2,0\">It sends <b>nothing</b> back to the sender.</p></li><li><p data-path-to-node=\"54,0,1,3,0\">The sender times out and retransmits the <i>same</i> corrupted packet (or a good copy of it).</p></li><li><p data-path-to-node=\"54,0,1,4,0\">If the retransmission arrives good, the loop breaks. System recovers. This is not an infinite loop <i>if</i> retransmissions eventually succeed.</p></li><li><p data-path-to-node=\"54,0,1,5,0\">But if the sender's timeout relies on ACKs? No, timeouts usually happen if <i>no</i> ACK is received.</p></li><li><p data-path-to-node=\"54,0,1,6,0\">The receiver is just waiting. It's not \"looping forever\" in a computational sense, but it is blocked.</p></li><li><p data-path-to-node=\"54,0,1,7,0\">However, consider <b>Scenario C: Lost ACK</b>.</p></li><li><p data-path-to-node=\"54,0,1,8,0\">Receiver gets P0. Sends ACK0. ACK0 is lost.</p></li><li><p data-path-to-node=\"54,0,1,9,0\">Receiver increments <code>expected_seq</code> to 1. Calls <code>receive_packet()</code>.</p></li><li><p data-path-to-node=\"54,0,1,10,0\">Sender times out (didn't get ACK0). Sender retransmits <b>P0</b>.</p></li><li><p data-path-to-node=\"54,0,1,11,0\">Receiver gets P0.</p></li><li><p data-path-to-node=\"54,0,1,12,0\">Check <code>while</code>: <code>p.seq (0) != expected_seq (1)</code>. True.</p></li><li><p data-path-to-node=\"54,0,1,13,0\">Enters loop. Calls <code>p = receive_packet()</code>. <b>It waits.</b></p></li><li><p data-path-to-node=\"54,0,1,14,0\"><b>CRITICAL FAILURE:</b> The receiver is waiting for a <i>new</i> packet (P1). But the sender is waiting for an ACK for P0 before it sends P1.</p></li><li><p data-path-to-node=\"54,0,1,15,0\">The sender keeps retransmitting P0.</p></li><li><p data-path-to-node=\"54,0,1,16,0\">The receiver keeps getting P0.</p></li><li><p data-path-to-node=\"54,0,1,17,0\">Inside the loop, the receiver gets P0. The condition <code>p.seq != expected</code> is checked... wait, does the loop check every packet?</p></li><li><p data-path-to-node=\"54,0,1,18,0\">The pseudocode structure:</p>Python<p><button aria-label=\"Copy code\"></button></p><pre><code role=\"text\" data-test-id=\"code-content\">while (condition):\n    p = receive_packet()\n</code></pre></li><li><ol start=\"1\" data-path-to-node=\"54,0,1,19,0\"><li><p data-path-to-node=\"54,0,1,19,0,0,0\">Receive retransmitted P0.</p></li></ol></li><li><ol start=\"2\" data-path-to-node=\"54,0,1,20,0\"><li><p data-path-to-node=\"54,0,1,20,0,0,0\">Loop condition <code>0 != 1</code> is True.</p></li></ol></li><li><ol start=\"3\" data-path-to-node=\"54,0,1,21,0\"><li><p data-path-to-node=\"54,0,1,21,0,0,0\">Execute body: <code>receive_packet()</code>. Receiver sleeps/blocks.</p></li></ol></li><li><ol start=\"4\" data-path-to-node=\"54,0,1,22,0\"><li><p data-path-to-node=\"54,0,1,22,0,0,0\">Sender sends P0 again. Receiver wakes up with P0.</p></li></ol></li><li><ol start=\"5\" data-path-to-node=\"54,0,1,23,0\"><li><p data-path-to-node=\"54,0,1,23,0,0,0\">Loop condition <code>0 != 1</code> is True.</p></li></ol></li><li><ol start=\"6\" data-path-to-node=\"54,0,1,24,0\"><li><p data-path-to-node=\"54,0,1,24,0,0,0\">Execute body: <code>receive_packet()</code>.</p></li></ol></li><li><p data-path-to-node=\"54,0,1,25,0\">The receiver never exits this loop because it never sends the ACK that the sender needs to move forward to P1. The sender is stuck sending P0, receiver is stuck rejecting P0.</p></li></ul></li></ul><p data-path-to-node=\"55\"><b>Statement Check:</b></p><ul data-path-to-node=\"56\"><li><p data-path-to-node=\"56,0,0\"><b>C. A single lost ACK can cause the sender to loop forever.</b></p><ul data-path-to-node=\"56,0,1\"><li><p data-path-to-node=\"56,0,1,0,0\">Yes. The sender loops retransmitting P0 because the receiver stops sending ACKs for P0 once it moves to expecting P1, trapping itself in the <code>while</code> loop where no ACKs are generated.</p></li></ul></li></ul><p data-path-to-node=\"57\"><b>Answer:</b> <b>C. A single lost ACK can cause the sender to loop forever.</b> (Note: Receiver also effectively loops/waits forever, but \"Sender looping forever\" is the direct consequence of the lost ACK logic failure).</p></div></section></div><p><a href=\"https://gateoverflow.in/489046\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An IP packet of $552$ bytes ($20$-byte IP header + $20$-byte TCP header) must traverse two networks in sequence:</p><ul><li>Network $1$ with MTU = $300$ bytes<br>&nbsp;</li><li>Network $2$ with MTU = $100$ bytes</li></ul><p><br>After all necessary fragmentations, the packet reaches the destination in multiple pieces.<br><br>How many fragments are finally delivered to the destination?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"489045\"></a><div itemprop=\"text\"><p>Original packet size</p><ul><li>Total size = 552 bytes.</li></ul><p><br>IP header $=20 \\mathrm{~B}$, TCP header $=20 \\mathrm{~B} \\rightarrow$ so payload $=512 \\mathrm{~B}$.</p><ul><li>But fragmentation is always considered on the IP packet, so effective payload inside IP = 532B (552-20).</li></ul><p><br>First network (MTU=300)</p><ul><li>Max payload per fragment = $300-20=280 \\mathrm{~B}$.</li></ul><p>&nbsp;</p><ul><li>Payload (532B) is split into:</li></ul><p>&nbsp;</p><ul><li>First fragment $=280 \\mathrm{~B}$ payload +20 B header $=300 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>Second fragment $=252 \\mathrm{~B}$ payload +20 B header $=272 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>So after the first hop: $\\mathbf{2}$ fragments.</li></ul><p><br>Second network (MTU = 100)<br>&nbsp;</p><ul><li>Max payload per fragment $=100-20=80 \\mathrm{~B}$.</li></ul><p>&nbsp;</p><ul><li>Fragment 1 (280B payload) $\\rightarrow$ split into 4 fragments:</li></ul><p>&nbsp;</p><ul><li>$80+20=100 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>$80+20=100 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>$80+20=100 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>$40+20=60 \\mathrm{~B}$</li></ul><p><br>Fragment 2 (252B payload) $\\rightarrow$ split into 4 fragments:</p><ul><li>$80+20=100 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>$80+20=100 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>$80+20=100 \\mathrm{~B}$</li></ul><p>&nbsp;</p><ul><li>$12+20=32 \\mathrm{~B}$</li></ul><p><br>From fragment $1 \\rightarrow 4$ pieces<br><br>From fragment $2 \\rightarrow 4$ pieces<br><br>Total = 8 fragments delivered</p></div></section></div><p><a href=\"https://gateoverflow.in/489044\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A network of $4$ routers $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ and $\\mathrm{D}$ is arranged as shown below. The routers use the distance vector routing, using the number of hops as the metric. The value &nbsp;$\\text{“8”}$ &nbsp;is used by all routers to indicate \"infinity\" (to conclude that a router is unreachable).</p><p style=\"text-align:center\"><img alt=\"\" height=\"92\" width=\"389\" src=\"media/6c/6c9ba12bc4cc6b394af3.png\"></p><p>In each round, all nodes exchange their distance vectors with their respective neighbours. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors.</p><p>The link $\\text{C-D}$ goes down. How many exchanges would it require for each of them to conclude that&nbsp;$\\text{D}$ is unreachable?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"489076\"></a><div itemprop=\"text\"><p>&nbsp;&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" height=\"320\" width=\"678\" src=\"media/13/1326c8f33d52138f9630.png\"></p><p>In the next round,</p><ul><li>A will get distance vector from B</li><li>B will get distance vectors from A and C</li><li>C will get distance vector from B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</li></ul><p style=\"text-align:center\"><img alt=\"\" height=\"114\" width=\"611\" src=\"media/71/714d8a7d24cbc014e44d.png\"></p><p>In the next exchange,</p><ul><li>A will receive vector from B hence it will update to infinity</li><li>C will receive vector from B hence it will also update to infinity</li><li>But B will receive vectors from A and C hence it will update to $7$</li></ul><p style=\"text-align:center\"><img alt=\"\" height=\"159\" width=\"537\" src=\"media/5d/5d5ff5e88d737c9ed31f.png\"></p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"500388\"></a><div itemprop=\"text\"><p data-path-to-node=\"14\"><b>Task:</b> How many exchanges does it take for each router to conclude D is unreachable after link C-D fails?</p><p data-path-to-node=\"15\"><b>Setup:</b> A --(3)-- B --(2)-- C --(1)-- D. Infinity = 8.</p><p data-path-to-node=\"16\"><b>Initial Stable State (Distance to D):</b></p><ul data-path-to-node=\"17\"><li><p data-path-to-node=\"17,0,0\">D: 0</p></li><li><p data-path-to-node=\"17,1,0\">C: 1 (via D)</p></li><li><p data-path-to-node=\"17,2,0\">B: $1 (C\\to D) + 2 (B\\to C) = 3$</p></li><li><p data-path-to-node=\"17,3,0\">A: $3 (B\\to D) + 3 (A\\to B) = 6$</p></li></ul><p data-path-to-node=\"18\"><b>Event: Link C-D Fails.</b></p><ul data-path-to-node=\"19\"><li><p data-path-to-node=\"19,0,0\"><b>C detects failure:</b> Distance to D becomes $\\infty$ (8).</p></li></ul><p data-path-to-node=\"20\"><b>Exchange Rounds:</b></p><ol start=\"1\" data-path-to-node=\"21\"><li><p data-path-to-node=\"21,0,0\"><b>Round 1:</b></p><ul data-path-to-node=\"21,0,1\"><li><p data-path-to-node=\"21,0,1,0,0\">C advertises <code>Dist(D) = 8</code> to B.</p></li><li><p data-path-to-node=\"21,0,1,1,0\">B receives this. B's old route was via C. Now B recalculates: <code>Cost(B-&gt;C) + Dist(C-&gt;D) = 2 + 8 = 10</code>.</p></li><li><p data-path-to-node=\"21,0,1,2,0\">10 is greater than infinity (8). So B sets <code>Dist(D) = 8</code>.</p></li><li><p data-path-to-node=\"21,0,1,3,0\">(Note: A still thinks <code>Dist(D) = 6</code> via B).</p></li></ul></li><li><p data-path-to-node=\"21,1,0\"><b>Round 2:</b></p><ul data-path-to-node=\"21,1,1\"><li><p data-path-to-node=\"21,1,1,0,0\">B advertises <code>Dist(D) = 8</code> to A.</p></li><li><p data-path-to-node=\"21,1,1,1,0\">A receives this. A's old route was via B. Now A recalculates: <code>Cost(A-&gt;B) + Dist(B-&gt;D) = 3 + 8 = 11</code>.</p></li><li><p data-path-to-node=\"21,1,1,2,0\">11 is greater than infinity (8). So A sets <code>Dist(D) = 8</code>.</p></li></ul></li></ol><p data-path-to-node=\"22\"><b>Conclusion:</b></p><ul data-path-to-node=\"23\"><li><p data-path-to-node=\"23,0,0\">C knows immediately.</p></li><li><p data-path-to-node=\"23,1,0\">B knows after Round 1.</p></li><li><p data-path-to-node=\"23,2,0\">A knows after Round 2.</p></li><li><p data-path-to-node=\"23,3,0\">\"For <b>each</b> of them to conclude\": This happens when the last node (A) updates. This takes <b>2 exchanges</b>.</p></li></ul><p data-path-to-node=\"24\"><b>Answer:</b> <b>B. 2</b></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"533437\"></a><div itemprop=\"text\"><p><strong>Intially,</strong><br><strong>A</strong>---3---<strong>B</strong>---2---<strong>C</strong>---1---<strong>D&nbsp;<br><br>Now the link breaks, but C doesn't update its distance routing table immediately, So following rounds are<br><br>ROUND-1 : A </strong>Updates its table with <strong>B = 3,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C = 3(A - B) + 2(B - C) = 5</strong><br><br><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B </strong>Updates its table with<strong> A = 3,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C = 2 ,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 2(B - C) + 1(C - D) = 3&nbsp;</strong></p><p><br><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C </strong>Updates its table with<strong> A = 2(B - C) + 3(A - B) = 5,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B = 2 ,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 8 (INFINITY)<br><br>ROUND-2 :&nbsp;A </strong>Updates its table with <strong>B = 3,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C = 5 ,&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 3(B - D) + 3(A - B) = 6&nbsp;</strong></p><p><br><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B </strong>Updates its table with<strong> A = 3,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C = 2 ,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 2(B - C) + 8(C - D) = 10 &gt; 8 = 8 (INFINITY)</strong></p><p><br><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C </strong>Updates its table with<strong> A = 2(B - C) + 3(A - B) = 5,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B = 2 ,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 8 (INFINITY)<br><br>ROUND-3 :&nbsp;A </strong>Updates its table with <strong>B = 3,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C = 5 ,&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 8(B - D) + 3(A - B) = 11 &gt; 8 =&nbsp;8 (INFINITY)</strong></p><p><br><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B </strong>Updates its table with<strong> A = 3,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C = 2 ,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 8 (INFINITY)</strong></p><p><br><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C </strong>Updates its table with<strong> A = 2(B - C) + 3(A - B) = 5,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B = 2 ,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D = 8 (INFINITY)<br><br>Now each A,B and C knows D is unreachable so correct answer is = (C) 3</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/489043\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 20.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 11,
+  "types": {
+   "MCQ": 12,
+   "MSQ": 1,
+   "NAT": 2
+  },
+  "withoutKey": 8
+ }
+}

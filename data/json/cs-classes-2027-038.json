@@ -1,0 +1,587 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-038",
+ "title": "DVRUO Classes DA Test Series | Data Structures and Algorithms | Topic Wise Test 1",
+ "sourceTitle": "DVRUO Classes DA Test Series | Data Structures and Algorithms | Topic Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 38,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Data Structures and Algorithms"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_76S\">&nbsp;</span>&nbsp;</p><p>Consider a function findCLL that takes a doubly circular linked list head and an integer value as input.</p><p>One example of doubly circular linked list is given below –</p><p><strong><strong><img alt=\"\" height=\"65\" width=\"672\" src=\"media/ab/ab4a85ebd15fa0a332c2.png\"></strong></strong></p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">def findCLL(first, n):\n    while first.value != n:\n        first = first.next\n    \n    if first.value == n:\n        return 1\n    else:\n        return -1</pre><p><br>Consider two statements $\\text{S1}$ and $\\text{S2}$ given below.</p><ul><li>$\\text{S1}:$ Function returns $1$ if there exists a value in linked list</li><li>$\\text{S2}:$ Function returns $-1$ if value does not exist in linked list</li></ul><p>Which of the following is the correct option.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{S1}$ is True but $\\text{S2}$ is False.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{S2}$ is True but $\\text{S1}$ is False.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both are True.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both are False.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"434016\"></a><div itemprop=\"text\"><p>Here let us take the given circular doubly linked list as the example</p><p>Say we need to find element 4</p><p>in the while loop we move forward 4 nodes as first → value != 4&nbsp;</p><p>when we arrive at 5<sup>th</sup>&nbsp;node first →&nbsp;value == 4 so we break out from the loop&nbsp;</p><p>if condition is also satisfied as first →&nbsp;value == 4&nbsp;</p><p>so we return 1&nbsp;</p><p>so S1 is TRUE</p><p>Now say we need to find element say 6</p><p>here when we check the value of each node with 6 in the while loop there is not hit because 6 is not present in the circular doubly linked list and more over the loop will break only when the we can find the element that we need&nbsp;</p><p>So if the element that we need to find is not present in linked list we go into “ INFINITE LOOP “</p><p>which means we cant return anything so S2 is FALSE</p><p>Finally option A is correct</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"444416\"></a><div itemprop=\"text\"><p><strong>Explanation:</strong><br>&nbsp; &nbsp; <strong>S1:</strong> The function correctly traverses the circular linked list and returns <strong>1</strong> if the value <strong>n</strong>&nbsp; is found. Hence, <strong>S1&nbsp; is True.</strong><br>&nbsp; &nbsp; <strong>S2: </strong>The function does not handle the circular nature of the list correctly. If&nbsp; <strong>n</strong>&nbsp; does not exist in the list, the loop can become infinite since there is no explicit break condition to stop traversal after one full cycle. Thus, <strong>S2 is False.</strong><br>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/434011\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_96S\">&nbsp;</span>&nbsp;</p><p>Consider the following Doubly Linked List:</p><p><br><strong><strong><img alt=\"\" height=\"37\" width=\"624\" src=\"media/c3/c3af9136aad6d32d1195.png\"></strong></strong></p><p>If head points to the first node of the linked list then what will be the output of the following node?</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">head = head.next.next.next.prev\nhead.next.next.prev = head\nprint(head.next.next.prev.next.value)</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$5$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$7$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"434018\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/28/283e973fa6dbf4c1a0dd.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"501162\"></a><div itemprop=\"text\"><p>If Plotted Address correctly, This Problem is Easy to solve.<br><img alt=\"\" width=\"960\" height=\"1222\" src=\"media/53/536fa0c1b92214bb41b0.jpg\"></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"505516\"></a><div itemprop=\"text\"><p>sol:<img alt=\"\" src=\"media/e1/e1c09b0c997d910901c5.jpg\"></p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"444420\"></a><div itemprop=\"text\"><p><strong>Explanation:</strong><br>&nbsp; &nbsp; Initially, <strong>head</strong> points to the first node <strong>1.</strong><br>&nbsp; &nbsp; The first statement updates <strong>head</strong> to point to <strong>head.next.next.next.prev,</strong>&nbsp;which is <strong>5.</strong><br>&nbsp; &nbsp; The second statement <strong>head.next.next.prev = head</strong>&nbsp;that means&nbsp;<strong>9-&gt;prev = head.</strong>&nbsp;</p><p><strong>print(head.next.next.prev.next.value) = 7.</strong></p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"505969\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"1200\" height=\"897\" src=\"media/ce/ce089ec602a978923e18.jpg\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/434010\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_76S\">&nbsp;</span>&nbsp;</p><p>Given a doubly linked list where each node has two references (prev and next): one that points to a previous node and another that points to a next node. Assume the linked list below and provide the output for the following two lines.</p><p><strong><strong><img alt=\"\" height=\"116\" width=\"608\" src=\"media/c9/c92306b74b3c05f9f7f1.png\"></strong></strong></p><p>The list is restored to its initial state before each line executes:</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">Line1: print(head.next.next.next.prev.prev.data)\nLine2: print(tail.prev.prev.prev.prev.next.next.data)\n</pre><p>Which of the options is correct.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Output of line $1$ is $7$ and Output of line $2$ is $9$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Output of line $1$ is $9$ and Output of line $2$ is $7$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both lines output $7$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both lines output $9$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"434019\"></a><div itemprop=\"text\"><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Line1: head.next.next.next.prev.prev.data</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">head.next is a reference to the node containing the value 7.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Similarly, head.next.next.next is a reference to the node containing 5.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">node(5).prev.prev is a reference to the node containing 7.</p><div><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>node(7).data = 7</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">&nbsp;</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Line2: tail.prev.prev.prev.prev.next.next.data</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">tail is the reference to the node containing 1.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">node(1).prev.prev.prev.prev is the reference to the node containing 3.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">node(3).next.next is the reference to the node containing 9.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>node(9).data = 9.</b></p></div><div>&nbsp;</div></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"444422\"></a><div itemprop=\"text\"><p>The correct answer is <strong>A. Output of line 1 is 7 and Output of line 2 is 9</strong>.</p><hr><p><strong>Explanation:</strong></p><ol><li><p><strong>Line 1:</strong> <code>print(head.next.next.next.prev.prev.data)</code></p><ul><li><code>head</code> points to <code>3</code>.</li><li><code>head.next</code> points to <code>7</code>.</li><li><code>head.next.next</code> points to <code>9</code>.</li><li><code>head.next.next.next</code> points to <code>5</code>.</li><li><code>head.next.next.next.prev</code> points to <code>9</code>.</li><li><code>head.next.next.next.prev.prev</code> points to <code>7</code>.</li><li><code>head.next.next.next.prev.prev.data</code> is <code>7</code>.</li></ul></li><li><p><strong>Line 2:</strong> <code>print(tail.prev.prev.prev.prev.next.next.data)</code></p><ul><li><code>tail</code> points to <code>1</code>.</li><li><code>tail.prev</code> points to <code>5</code>.</li><li><code>tail.prev.prev</code> points to <code>9</code>.</li><li><code>tail.prev.prev.prev</code> points to <code>7</code>.</li><li><code>tail.prev.prev.prev.prev</code> points to <code>3</code>.</li><li><code>tail.prev.prev.prev.prev.next</code> points to <code>7</code>.</li><li><code>tail.prev.prev.prev.prev.next.next</code> points to <code>9</code>.</li><li><code>tail.prev.prev.prev.prev.next.next.data</code> is <code>9</code>.</li></ul></li></ol><p><strong>Conclusion:</strong></p><p><br>The output of Line 1 is <code>7</code>, and the output of Line 2 is <code>9</code>.</p></div></section></div><p><a href=\"https://gateoverflow.in/434009\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the run-time complexity of inserting a new element at the beginning of a circular, doubly linked list with a head?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$O(1)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$O(\\log \\text{N})$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$O(\\text{N})$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$O(\\text{N}^2)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 48)</small></h4><a name=\"375012\"></a><div itemprop=\"text\"><p>This can be done in constant Time</p>\n\n<p><img alt=\"\" src=\"media/65/65502524189bc9bb5727.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 9)</small></h4><a name=\"382792\"></a><div itemprop=\"text\">O(1)<br>\n<br>\nWe need to change only the links. No need to traverse the linked list hence no loops.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"516609\"></a><div itemprop=\"text\">LL tricky TC questions always need a watch on how to find first and last nodes - so traversal needed or not ? that is only the way.</div></section></div><p><a href=\"https://gateoverflow.in/374992\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given a circular, doubly-linked list whose contents are sorted in ascending order, what is the run-time complexity for inserting a new element into the list so that it remains correctly sorted? (Including the time required to search for the element’s correct position.)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$O(1)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$O(\\log \\text{N})$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$O(N)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$O(\\text{N}^{2})$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 34)</small></h4><a name=\"375014\"></a><div itemprop=\"text\">It’s better to take the worst case possible<br>\n<br>\nAssume we have $1&lt;-&gt;3&lt;-&gt;4&lt;-&gt;6 &lt;-&gt; 8$ <br>\n<br>\n&nbsp;new node to be added is say 5<br>\n<br>\nso to maintain the linked list in the sorted order we have to go to the middle &nbsp;node to insert this new node<br>\n<br>\nwhich takes $O(N/2) = O(N)$ time if we $N$ elements<br>\n<br>\nso option c is correct</div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"407563\"></a><div itemprop=\"text\">total time &nbsp;= time to search suitable postion + time to reach to that position + time to insert node <br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= &nbsp;O(logn) {Binary search} + O(n) + O(1)<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= O(n)</div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"407328\"></a><div itemprop=\"text\"><p>Assume you had circular linked list had 1,2,4,5. Suppose you want to insert and element 3 for this you should traverse and insert 3 after 2 because&nbsp;we should maintain sorted list even after inserting it takes approximately O(N/2) time which is O(N) and in worst case you should insert new node after last node which takes O(N) time and insertion takes O(1) which add up’s to O(N).</p>\n\n<p><strong>correct ans)C</strong></p></div></section><section><h4>Source solution 4 <small>(score: 2)</small></h4><a name=\"409013\"></a><div itemprop=\"text\"><p>General case,&nbsp;binary search possible&nbsp;on the array which gives random access of&nbsp;an element but in case of linkedlist&nbsp;it don’t.</p>\n\n<p>Even if we apply binary search, after finding mid() we will have to traverse till mid&nbsp;element&nbsp;that’s why in worst case time complexity would be&nbsp;O(n) instead of O(log n)</p>\n\n<p>Reference:</p>\n\n<p><a href=\"https://stackoverflow.com/questions/5281053/how-to-apply-binary-search-olog-n-on-a-sorted-linked-list\" rel=\"nofollow\" target=\"_blank\">https://stackoverflow.com/questions/5281053/how-to-apply-binary-search-olog-n-on-a-sorted-linked-list</a></p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"408914\"></a><div itemprop=\"text\"><p><img alt=\"\" height=\"118\" src=\"media/5a/5a5f0b766591f5d5ed44.jpg\" width=\"488\"></p>\n\n<p>In above circular doubly linked list if we want to insert a new node 6 then we have to maintain whole linked list as we have to arrange in ascending order and find the correct position.</p>\n\n<p>So, in worst case if we want to insert a new node at the end of a linked list then we have to traverse whole linked list and if it has $N$&nbsp;elements then it will take $O(N)$ time complexity.</p>\n\n<p>$\\color{Green} Ans: C$</p></div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"409614\"></a><div itemprop=\"text\">Suppose we have to insert new node at the end of list then tc would be O(1). The head of circular doubly linked list stores a previous pointer to end node so this can be done in constant time. so what is the worst case scenario here? It would be inserting a node in the middle of list, because either you reach to end node from head and then traverse back through previous pointer or go from the head using next pointer to get at the middle node, it would take O(N/2) which accounts O(N). <br>\n<br>\nA. O(1) – only when we are inserting at end, or on the head<br>\nB. O(log N) – This case is never possible in a linked list because even applying Binary Search to find correct position and divide the list in half we would have to traverse the list till middle which is O(N/2) = O(N)<br>\nC. O(N) – After insertion at end and in the beginning the situation left is insertion in the middle so this is the correct option<br>\nD. O(N^2) – traversing a list twice would never be the case for performing insertion operation</div></section></div><p><a href=\"https://gateoverflow.in/374991\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, data, next=None):\n        self.data = data\n        self.next = next\n\ndef print_nodes(ptr):\n    if ptr:\n        print(ptr.data, end=' ')\n        while ptr.next:\n            ptr = ptr.next\n            print(ptr.data, end=' ')</pre><p>What is the output, if the address of the first node of singly linked list $1 \\rightarrow 2 \\rightarrow 3\\rightarrow&nbsp;4 \\rightarrow&nbsp;5$ is passed in the above python code?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1\\; 2 \\;3\\; 4\\; 5$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1\\; 1\\; 2\\; 3\\; 4\\; 5$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1\\; 1\\; 2\\; 3\\; 4\\; 5\\; 5$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"434020\"></a><div itemprop=\"text\"><p>The given code defines a class <code>Node</code> and a function <strong><code>print_nodes</code></strong> that prints the elements of a singly linked list.<br>Let's analyze the <strong><code>print_nodes</code></strong> function:</p><ol><li>If the input pointer <code>ptr</code> is not <strong><code>None</code></strong>, it prints the <code>data</code> of the first node.</li><li>It then enters a <strong><code>while</code></strong> loop that continues as long as <code>ptr.next</code> is not <code>None</code>. Inside the loop, <code>ptr</code> is moved to the next node, and the <code>data</code> of each node is printed.</li></ol><h3>Given Linked List:</h3><p><strong>1 → 2 → 3 → 4 → 5</strong></p><p>The first <code>print</code> statement prints the data of the first node: <strong>1</strong>.</p><p>The <code>while</code> loop then iterates over the remaining nodes, printing their data: <strong>2, 3, 4,</strong> and <strong>5</strong>.</p><h3>Output:</h3><p>The output will be: <strong>1 2 3 4 5</strong>, which matches the format <code>12345</code>.</p><h4>Correct Answer: A. 12345<a rel=\"nofollow\" href=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6108854999228608604\" target=\"_blank\">.</a></h4></div></section></div><p><a href=\"https://gateoverflow.in/434008\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_76S\">&nbsp;</span>&nbsp;</p><p dir=\"ltr\"><b id=\"docs-internal-guid-5a426627-7fff-5a72-d952-a2820a11721b\">Consider the following code fragment.</b></p><pre data-pbcklang=\"python\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-python\">class Node:\n    def __init__(self, data, next=None):\n        self.data = data\n        self.next = next\n\ndef invert_list(front):\n    curr = front\n    prev = None\n    next = curr.next\n    while curr is not None : \n\t(*)\n    front = prev\n    return front\n\n</pre><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">&nbsp;</pre><p>Which code must be added in the part marked (*) so the above code correctly inverts a non-empty singly linked list? See the figure to understand what ”invert” means.<br>&nbsp;</p><p><strong><strong><img alt=\"\" height=\"62\" width=\"756\" src=\"media/ad/ad9b6d16305b92ebc1f9.png\"></strong></strong></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">next.next = prev; prev = curr; curr = next; \nif next is not None: next = next.next</pre><p>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">curr.next = prev; prev = curr; curr = next_node; \nif next is not None: next = next.next</pre><p>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">next.next = curr; prev = curr; curr = next; \nif next is not None: next = next.next</pre><p>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">prev = curr; curr = next; curr.next = prev; \nif next is not None: next = next.next</pre>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"516466\"></a><div itemprop=\"text\">$ I\\, think \\, that \\, is \\, printing \\, mistake.$<br>\n$ if\\, treated\\, as \\, next\\, that\\, is\\, yeilding\\, the \\, Desired \\, results.$</div></section></div><p><a href=\"https://gateoverflow.in/434007\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_76S\">&nbsp;</span>&nbsp;</p><p>The following code is intended to remove a node p from a doubly linked list. Assume that we know that p is in the list, so the list is not empty.</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, value, next=None, prev=None):\n        self.value = value\n        self.next = next\n        self.prev = prev\n\ndef remove_node(p, front, rear):\n    prev = p.prev\n    succ = p.next\n    \n    if p == front:\n        front = front.next\n        if front is None:\n            rear = None\n        else:\n            front.prev = None\n    else:\n        prev.next = succ\n\n    if p == rear:\n        rear = rear.next\n        rear.next = None\n    else:\n        succ.prev = prev\n\n    return front, rear\n\n</pre><p>Given three linked lists (a),(b), and (c) as shown below.</p><p><br><strong><strong><img alt=\"\" height=\"125\" width=\"875\" src=\"media/84/849123224f07eaa41a26.png\"></strong></strong><br>Mark the correct option(s).</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Code will crash on linked list (a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Code will crash on linked list (b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Code will crash on linked list (c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Code will not crash on any of the given linked lists</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"434023\"></a><div itemprop=\"text\"><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">In test case <b>B</b> &amp; <b>C</b>:</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">We are facing (<span style=\"font-family: Roboto Mono, serif;\">None.prev</span>) or (<span style=\"font-family: Roboto Mono, serif;\">None.next</span>), which leads to an AttributeError (similar to a segmentation fault in C). Hence, the test case fails.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">So, the correct answers are <b>B</b> and <b>C</b>.</p></div></section></div><p><a href=\"https://gateoverflow.in/434006\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a mutual pair of recursive functions g() and h().</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, value, next=None):\n        self.value = value\n        self.next = next\n\ndef g(l):\n    if l is None or l.next is None:\n        return 1\n    if l.value &lt; l.next.value:\n        return h(l.next)\n    else:\n        return 0\n\ndef h(l):\n    if l is None or l.next is None:\n        return 1\n    if l.value &gt; l.next.value:\n        return g(l.next)\n    else:\n        return 0\n\n</pre><p>Let head be a pointer to a singly linked list having at least $3$ nodes.</p><p>When will the expression (g(head) || h(head)) return $1$ or $0?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>g(head) || h(head) is $1$ if the linked list is in ascending order.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>g(head) || h(head) is $1$ if the linked list is in descending order.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>g(head) || h(head) is $1$ for every unsorted linked list.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>g(head) || h(head) is $1$ for the linked list $1\\rightarrow 3\\rightarrow 2\\rightarrow 4\\rightarrow 0\\rightarrow 6$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"434024\"></a><div itemprop=\"text\"><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">$g(l)$ : It checks whether two nodes are in ascending order, then it calls $h(l)$ else it will return 0.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">$h(l)$ : It checks whether two nodes are in descending order, then it calls $g(l)$ else it will return 0.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><br>&nbsp;</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">it will return 0 for sorted array.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">If it is unsorted array it will return 0. ( Note : LL has at least 3 nodes. )</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><br>&nbsp;</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Option D : As per order of evaluation $g(l)$ will be called first.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Recursively, It will check $l$ and $l \\rightarrow n$, ascending in $g(l)$ then descending in $h(l)$</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">i.e. $g(h) 1 &lt; 3, $h(l)$: 3 &gt; 2$ and so on.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><br>&nbsp;</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">So, main call $g(l)$ will return 1 when $l \\rightarrow n$ is null.</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"500676\"></a><div itemprop=\"text\"><p><meta></p><p data-start=\"46\" data-end=\"208\"><strong data-start=\"46\" data-end=\"208\">g(head) ∥ h(head) returns 1&nbsp;<em data-start=\"76\" data-end=\"92\">if and only if</em>&nbsp;the linked list is a strictly alternating zig-zag sequence (also called strictly alternating up–down or down–up).</strong></p><p data-start=\"210\" data-end=\"221\">That means:</p><ul data-start=\"223\" data-end=\"372\"><li data-start=\"223\" data-end=\"300\"><p data-start=\"225\" data-end=\"300\">either<br data-start=\"231\" data-end=\"234\"><strong data-start=\"236\" data-end=\"266\">l₁ &lt; l₂ &gt; l₃ &lt; l₄ &gt; l₅ &lt; …</strong>&nbsp;(starts with&nbsp;<code data-start=\"280\" data-end=\"283\">&lt;</code>, handled by g)</p></li><li data-start=\"301\" data-end=\"372\"><p data-start=\"303\" data-end=\"372\">or<br data-start=\"305\" data-end=\"308\"><strong data-start=\"310\" data-end=\"340\">l₁ &gt; l₂ &lt; l₃ &gt; l₄ &lt; l₅ &gt; …</strong>&nbsp;(starts with&nbsp;<code data-start=\"354\" data-end=\"357\">&gt;</code>, handled by h)</p></li></ul><p data-start=\"374\" data-end=\"427\">Any break in alternation → both g and h return&nbsp;<strong data-start=\"421\" data-end=\"426\">0</strong></p><hr><h3 data-start=\"489\" data-end=\"551\"><strong data-start=\"493\" data-end=\"551\">A. “1 if linked list is in ascending order.” → False</strong></h3><p data-start=\"552\" data-end=\"633\">Purely increasing like&nbsp;<code data-start=\"575\" data-end=\"590\">1 → 2 → 3 → 4</code>&nbsp;fails because h(l.next) immediately fails.</p><h3 data-start=\"635\" data-end=\"698\"><strong data-start=\"639\" data-end=\"698\">B. “1 if linked list is in descending order.” → False</strong></h3><p data-start=\"699\" data-end=\"728\">Purely decreasing also fails.</p><h3 data-start=\"730\" data-end=\"786\"><strong data-start=\"734\" data-end=\"786\">C. “1 for every unsorted linked list.” → False</strong></h3><p data-start=\"787\" data-end=\"848\">Only some unsorted lists qualify (alternating ones), not all.</p><h3 data-start=\"850\" data-end=\"909\"><strong data-start=\"854\" data-end=\"909\">D. “1 for the list 1 → 3 → 2 → 4 → 0 → 6.” → True</strong></h3></div></section></div><p><a href=\"https://gateoverflow.in/434005\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following function that takes reference to head of a Doubly Linked List as parameter. Assume that a node of doubly linked list has previous pointer as $\\textit{prev}$ and next pointer as $\\textit{next}$.</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, value):\n        self.value = value\n        self.prev = None\n        self.next = None\n\ndef fun(head_ref):\n    temp = None\n    current = head_ref\n    while current is not None:\n        temp = current.prev\n        current.prev = current.next\n        current.next = temp\n        current = current.prev\n    if temp is not None:\n        head_ref = temp.prev\n</pre><p>Assume that reference of head of following doubly linked list is passed to above function</p><p>$1 \\leftrightarrow&nbsp;2 \\leftrightarrow 3 \\leftrightarrow 4 \\leftrightarrow 5 \\leftrightarrow 6$. What should be the modified linked list after the function call?&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2 \\leftrightarrow 1 \\leftrightarrow 4 \\leftrightarrow 3 \\leftrightarrow 6 \\leftrightarrow 5$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5 \\leftrightarrow 4 \\leftrightarrow 3 \\leftrightarrow 2 \\leftrightarrow 1 \\leftrightarrow 6$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6  \\leftrightarrow 5 \\leftrightarrow 4 \\leftrightarrow 3 \\leftrightarrow 2 \\leftrightarrow 1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$6 \\leftrightarrow 5 \\leftrightarrow 4 \\leftrightarrow 3 \\leftrightarrow 1 \\leftrightarrow 2$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"434025\"></a><div itemprop=\"text\"><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">First let us see how this code works for small Linked List</p><div><img alt=\"\" width=\"1200\" height=\"1549\" src=\"media/99/99989ef08e476a5828da.jpg\"></div><div>&nbsp;</div><div><img alt=\"\" src=\"media/08/0843fc5d6fb69fd11277.jpg\"></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"444629\"></a><div itemprop=\"text\"><h3>Step-by-Step Reversal</h3><p>Let’s reverse the list step by step:</p><ol><li><p>Start with <code>current = 1</code> (head of the list).</p><ul><li><code>temp = None</code> (initial value).</li><li>Swap <code>prev</code> and <code>next</code> for node <code>1</code>:<ul><li><code>prev</code> becomes <code>2</code>, and <code>next</code> becomes <code>None</code>.</li></ul></li><li>Move <code>current</code> to <code>2</code> (new <code>prev</code>).</li></ul></li><li><p>At <code>current = 2</code>:</p><ul><li><code>temp = 1</code> (previous node).</li><li>Swap <code>prev</code> and <code>next</code> for node <code>2</code>:<ul><li><code>prev</code> becomes <code>3</code>, and <code>next</code> becomes <code>1</code>.</li></ul></li><li>Move <code>current</code> to <code>3</code>.</li></ul></li><li><p>At <code>current = 3</code>:</p><ul><li><code>temp = 2</code> (previous node).</li><li>Swap <code>prev</code> and <code>next</code> for node <code>3</code>:<ul><li><code>prev</code> becomes <code>4</code>, and <code>next</code> becomes <code>2</code>.</li></ul></li><li>Move <code>current</code> to <code>4</code>.</li></ul></li><li><p>Repeat the process for nodes <code>4</code>, <code>5</code>, and <code>6</code>.</p></li></ol><p>After the final iteration:</p><ul><li>The pointers for all nodes are reversed.</li><li><code>temp</code> holds the reference to node <code>6</code> (original tail, now the head of the reversed list).</li></ul><div><h3>&nbsp;</h3><h3>Correct Answer</h3><p>The modified doubly linked list after the function call is:<br><strong>6 ↔ 5 ↔ 4 ↔ 3 ↔ 2 ↔ 1.</strong></p></div></div></section></div><p><a href=\"https://gateoverflow.in/434004\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following function Merge() that takes the head of two linked lists.</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n\ndef Merge(head1, head2):\n    if head1 is None:\n        return head2\n    if head2 is None:\n        return head1\n    head = None\n    if head1.value &lt; head2.value:\n        head = head1\n        head.next = Merge(head1.next, head2)\n    elif head1.value &gt; head2.value:\n        head = head2\n        head.next = Merge(head1, head2.next)\n    return head</pre><p>Assume that the input lists are correctly sorted. Which of the following are some of the possible behaviors when Merge() is executed with well-formed and valid inputs? Correctly merged linked list is merged&nbsp;sorted linked list.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The function will produce a correctly merged linked list.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The function may lead to a null pointer dereference.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The function may result in an incorrectly merged linked list.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Merge() will work on the following two lists.&lt;ul&gt;&lt;li&gt;$\\text{List}1: 1 \\rightarrow 3 \\rightarrow 5\\rightarrow 7\\rightarrow \\text{Null}$</p>"
+    },
+    {
+     "key": "E",
+     "html": "<p>$\\text{List}2: 2\\rightarrow 4\\rightarrow 6\\rightarrow 8\\rightarrow 10 \\rightarrow 12\\rightarrow \\text{Null}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"434026\"></a><div itemprop=\"text\"><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">The input to merge() is two pointer of type node.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">(For the sake of this discussion we’ll limit ourselves to only discuss the case where both pointers belong to different LL).</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">When both pointers are not NULL, the function creates a new pointer “head” which copies the address of one of the input pointer which points to some node that has <u>strictly lesser</u> value than that of the other and returns this “head” pointer.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>This means the merge() will always returns the pointer to the node which has </b><u><b>strictly lesser</b></u><b> value out of the two node pointers that it received.</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Then merge() calls itself with the <u>pointer of next node of selected node</u> and <u>same pointer of other node</u> and merge() will save whatever address of the next merge() call returns in current head-&gt;next.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>This means the merge() will recursively keep rearranging the resultant LL such that the order is always strictly increasing.</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">(We’ll see why this strictly word comes in again and again later)</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">When one of the pointers is NULL, then merge() returns the other pointer.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>This means there are no more elements in one of the LL so it simply returns the other LL node pointer. Since, both input LL are already sorted, there’s no need to check further. It directly appends the remaining nodes of non-empty LL into the resultant LL.</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">When both the pointers are NULL, then merge() returns NULL.</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>This means there are no more elements in both LL, so it returns NULL.</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>Both the above conditions are our base case conditions to end the recursion (in favorable conditions).</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>*** So far so good ***</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Now, suppose both input pointers point to some node with have same value. Then both if and else if condition will fail. And we’ll directly return NULL (since no assignment happened to head).</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>This means if both LL has distinct values in their nodes then the merge() correctly merges both LL in sorted order.</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">&nbsp;</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>But if both LL has at least one value common in their nodes. Then resultant LL will only contain nodes which are less than that common value.</b></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">For example –</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><span style=\"font-family: Arial Unicode MS, serif;\">List1 → 2 → 4 → 6 → 8 → 10 → 12 → NULL</span></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><span style=\"font-family: Arial Unicode MS, serif;\">List1 → 5 → 10 → 15 → 20 → 25 → NULL</span></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">List = merge(List1, List2)</p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Then <span style=\"font-family: Arial Unicode MS, serif;\"><b>List → 2 → 4 → 5 → 6 → 8 → NULL</b></span></p><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\"><b>Answer :- C, D.</b></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/434003\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following program. printlist() is a function that takes the head of a linked list and prints all nodes values separated by comma. Node can be assumed to be declared as class Node.</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">def insert1(head, data):\n    new_node = Node(data)\n    new_node.next = head\n    head = new_node\n\ndef insert2(head_ref, data):\n    new_node = Node(data)\n    new_node.next = head_ref[0]\n    head_ref[0] = new_node\n\n# create a linked list 1-&gt;2-&gt;3-&gt;4-&gt;5 and head points to the first node.\nhead = insert1(head, 9)\nprintlist(head)  # Line X\n\n# The list is restored to its initial state\nhead_ref = [head]\ninsert2(head_ref, 9)\nprintlist(head_ref[0])  # Line Y\n</pre><p>Which of the following is/are true about the above program?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Line $\\text{X}$ prints $9,1,2,3,4,5$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Line $\\text{Y}$ prints $9,1,2,3,4,5$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Line $\\text{X}$ prints $1,2,3,4,5$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Line $\\text{Y}$ prints $1,2,3,4,5$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"434027\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/fd/fd090245251ee95fb956.png\"></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"500686\"></a><div itemprop=\"text\"><p><strong>insert_1(head, data)</strong></p><p><strong data-start=\"244\" data-end=\"274\">This does NOT return head.</strong></p><p>It just reassigns the local variable&nbsp;<code data-start=\"314\" data-end=\"320\">head</code>&nbsp;inside the function.</p><p>Python passes references&nbsp;<strong data-start=\"369\" data-end=\"381\">by value</strong>, so the caller’s&nbsp;<code data-start=\"399\" data-end=\"405\">head</code>&nbsp;is unchanged unless returned.</p><p>head = insert1(head, 9) = None</p><p><meta>Thus&nbsp;<strong data-start=\"544\" data-end=\"554\">Line X</strong>&nbsp;prints&nbsp;<strong data-start=\"562\" data-end=\"573\">nothing</strong>&nbsp;(or raises error if printlist isn't null-safe).</p><hr><p><strong>insert_2(head_ref, data)</strong></p><p><meta>Here&nbsp;<code data-start=\"791\" data-end=\"801\">head_ref</code>&nbsp;is a&nbsp;<strong data-start=\"807\" data-end=\"835\">list containing the head</strong>:</p><p>head_ref = [head]</p><p><meta>So modifying&nbsp;<code data-start=\"878\" data-end=\"891\">head_ref[0]</code>&nbsp;modifies the real head.</p><p data-start=\"962\" data-end=\"995\">insert2(head_ref, 9)</p><p data-start=\"962\" data-end=\"995\">correctly inserts 9 at the front.</p><p data-start=\"962\" data-end=\"995\"><strong data-start=\"1052\" data-end=\"1070\">Line Y prints:</strong></p><p data-start=\"962\" data-end=\"995\"><code data-start=\"1073\" data-end=\"1091\">9, 1, 2, 3, 4, 5</code></p></div></section></div><p><a href=\"https://gateoverflow.in/434002\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following function fun() that takes the head of a linked list.</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, value=0, next=None):\n        self.value = value\n        self.next = next\n\ndef fun(head):\n    if head is None:\n        return 1\n    p = head\n    q = p.next\n    while q is not None and q != p:\n        q = q.next\n        if q is None:\n            return 1\n        q = q.next\n        p = p.next\n    return 1 if q is None else 0</pre><p><br>We say, a linked list has a loop if the last node of linked list points to some node of linked list and does not point to NULL.</p><p>What does the above function do?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Returns $0$ is there is loop in linked list</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Returns $1$ is there is loop in linked list</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Returns $0$ is length of the linked list is even</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Function may go to infinite loop if there is a loop in linked list</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"434028\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"600\" height=\"774\" src=\"media/c2/c2f6196860ee45c65552.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"501198\"></a><div itemprop=\"text\"><p>Option D,<br><img alt=\"\" width=\"1200\" height=\"1136\" src=\"media/c6/c6fc510f42b84ec95227.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/434001\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_108S\">&nbsp;</span>&nbsp;</p><p>Consider the following function foo() which takes the head pointer of two singly-linked lists.</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, value=0, next=None):\n        self.value = value\n        self.next = next\n\ndef foo(head1, head2):\n    if head1 is None:\n        return head2\n    if head2 is None:\n        return head1\n    temp = foo(head1.next, head2.next)\n    final = head1\n    head1.next = head2\n    head2.next = temp\n    return final</pre><p><br>What will be the final linked list returned by foo() if executed upon following linked lists?</p><p><strong><strong><img alt=\"\" height=\"43\" width=\"624\" src=\"media/4d/4def14515950640b6a00.png\"></strong></strong></p><p><strong><strong><img alt=\"\" height=\"43\" width=\"407\" src=\"media/29/29823a7ca919cf0f0454.png\"></strong></strong></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1,2,3,4,5,7,8,9,10$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1,2,3,4,5,7,8,10,9,10$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1,2,3,4,5,8,7,10,9,10$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"439815\"></a><div itemprop=\"text\"><p>Answer:<strong> C</strong></p><p><img alt=\"\" width=\"1039\" height=\"1361\" src=\"media/e8/e80db8b706fa2ef949f7.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/434000\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A doubly linked list is declared as:</p><pre class=\"prettyprint linenums lang-python\" data-pbcklang=\"python\" data-pbcktabsize=\"4\">class Node:\n    def __init__(self, value=0, prev=None, next=None):\n        self.value = value\n        self.prev = prev\n        self.next = next</pre><p>Which of the following segment of code deletes the node pointed to by $\\text{X}$ from the doubly linked list, if it is assumed that $\\text{X}$ points to neither the first nor the last node of the list?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{X}$.prev.next $= \\text{X}$.next $; \\text{X}$.next.prev $= \\text{X}$.prev; free(X);</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{X}$.prev.next $ = \\text{X}$.next $; X.$ next.prev $ = \\text{X}$.prev; free(X);</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{X}$.prev.next $= \\text{X}.$prev $; \\text{X}$.next.prev $= \\text{X}.$prev; free(X);</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{X}$.prev.next $= \\text{X}$.prev $; \\text{X}$.next.prev $= \\text{X}$.next; free(X);</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"434029\"></a><div itemprop=\"text\"><p style=\"line-height: 100%; orphans: 2; widows: 2; margin-top: 0.42cm; margin-bottom: 0.42cm; text-align: left;\">Answer is option A and we will see why other options are not correct</p><p><img alt=\"\" width=\"600\" height=\"774\" src=\"media/8e/8e7e025f8f31e91788db.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/433999\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 11,
+  "types": {
+   "MCQ": 11,
+   "MSQ": 4
+  },
+  "withoutKey": 8
+ }
+}

@@ -1,0 +1,1028 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-023",
+ "title": "Subjectwise Test-11 Part Syllabus GATE 2025 EE Analog Electronics",
+ "sourceTitle": "Subjectwise Test-11 Part Syllabus GATE 2025 EE Analog Electronics",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 23,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/031_Subjectwise Test-11 Part Syllabus GATE 2025 EE Analog Electronics.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIn the figure shown in below,</p>\n<p>\n\t<img alt=\"\" src=\"media/71/711f751ee3be0a0f7465.png\" /></p>\n<p>\n\tthe maximum phase shift possible for the circuit is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "60°"
+    },
+    {
+     "key": "B",
+     "html": "90°"
+    },
+    {
+     "key": "C",
+     "html": "180°"
+    },
+    {
+     "key": "D",
+     "html": "200°"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/1e/1ebc7f87ad033ec5c436.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tWhich of the following statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "MOSFETs have lower power dissipation than BJTs."
+    },
+    {
+     "key": "B",
+     "html": "MOSFETs requires lower area for the process of fabrication than BJTs."
+    },
+    {
+     "key": "C",
+     "html": "MOSFETs are less noise than BJTs."
+    },
+    {
+     "key": "D",
+     "html": "MOSFETs can drive a larger current than BJTs due to presence of majority carriers only."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)<br />\n\tBJTs can supply more current than MOSFETs because the channel formed in the MOS is smaller than the channel in BJTs.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider the circuit shown in the figure below,</p>\n<p>\n\t<img alt=\"\" src=\"media/34/34f7e42578356bf5e3ee.png\" /></p>\n<p>\n\tAssuming the <em>V</em><sub><em>EB</em> (on)</sub> = 0.7 V, then the value of output voltage <em>V</em><sub>0</sub> is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–2.12 V"
+    },
+    {
+     "key": "B",
+     "html": "–3.15 V"
+    },
+    {
+     "key": "C",
+     "html": "–3.45 V"
+    },
+    {
+     "key": "D",
+     "html": "–1.52 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/26/26ebe7c337f089f0de33.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe input voltage, <img align=\"absmiddle\" alt=\"\" src=\"media/8b/8b7f11a31fc4e1e181eb.png\" /> is applied to a circuit as shown in the figure. Assuming all the elements of the circuit are ideal, then the minimum value of <em>V</em><sub>0</sub> at steady state would be equal to</p>\n<p>\n\t<img alt=\"\" src=\"media/16/16f5cc19f35a649330cc.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–3 V"
+    },
+    {
+     "key": "B",
+     "html": "–8 V"
+    },
+    {
+     "key": "C",
+     "html": "–5 V"
+    },
+    {
+     "key": "D",
+     "html": "–6 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/6a/6a95e41400dab313e736.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIn the transistor amplifier circuit shown in the figure, the transistor has the following parameters:</p>\n<p>\n\t<img alt=\"\" src=\"media/63/6324ae43a2d57a40094a.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/f8/f8fa8cf4d01f4b10d1de.png\" /></p>\n<p>\n\tUnder the dc conditions, the collector-to-emitter voltage drop is ________ V. (Answer upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5.5,
+    6
+   ],
+   "answerText": "6.00 (5.50 - 6.00)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t6.00 (5.50 - 6.00)</p>\n<p>\n\t<img alt=\"\" src=\"media/df/df8d1ccd302586404b4a.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor the circuit shown, the value of <em>V</em><sub>0</sub> is _______ sin ωt mV.<br />\n\t(Assume thermal voltage <em>V<sub>T</sub></em> = 26 mV and cut in voltage <img align=\"absmiddle\" alt=\"\" src=\"media/b2/b24d5f81dc95e18fb994.png\" /> capacitor is short circuited at signal frequency).</p>\n<p>\n\t<img alt=\"\" src=\"media/3b/3be53bdbb7909bfa454a.png\" /></p>\n<p>\n\t(Answer upto two decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.2,
+    0.28
+   ],
+   "answerText": "0.24 (0.20 - 0.28)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.24 (0.20 - 0.28)</p>\n<p>\n\t<img alt=\"\" src=\"media/3c/3cdb4c3e416929c9b213.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/4c/4c1786eb39b426a7162d.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tAn op-amp circuit is given below.</p>\n<p>\n\t<img alt=\"\" src=\"media/5d/5d92e26869de998757b6.png\" /></p>\n<p>\n\tThe overall voltage gain for the circuit will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4"
+    },
+    {
+     "key": "B",
+     "html": "2"
+    },
+    {
+     "key": "C",
+     "html": "-16"
+    },
+    {
+     "key": "D",
+     "html": "-8"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/02/02e87051ec9afe47b05e.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the amplifier circuit shown in figure,</p>\n<p>\n\t<img alt=\"\" src=\"media/94/9437a103fd431de9afe3.png\" /></p>\n<p>\n\tIf the value of <img align=\"absmiddle\" alt=\"\" src=\"media/29/2979174066c4c889ca4e.png\" /> then the value of A is ________ . (Answer upto one decimal place)</p>\n<p>\n\t(Consider <em>V<sub>T</sub></em> = 25 mV, and β to be very large)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    145,
+    155
+   ],
+   "answerText": "150 (145.0 - 155.0)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t150 (145.0 - 155.0)</p>\n<p>\n\t<img alt=\"\" src=\"media/4a/4a56fc1851244f5aac4b.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tIn the figure shown below, all the diodes are ideal.</p>\n<p>\n\t<img alt=\"\" src=\"media/9a/9a79e4eb23bcabcede3b.png\" /></p>\n<p>\n\tThe value of current <img align=\"absmiddle\" alt=\"\" src=\"media/e7/e7b659f15cbe97a0a57d.png\" /> is ________ mA. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.3,
+    4.8
+   ],
+   "answerText": "4.50 (4.30 - 4.80)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4.50 (4.30 - 4.80)</p>\n<p>\n\t<img alt=\"\" src=\"media/a6/a6f2ede35398b1f95743.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the circuit shown in the figure. Assume base-to-emitter voltage <em>V<sub>BE</sub></em> = 0.8 V and commonbase current gain (α) of the transistor is unity.</p>\n<p>\n\t<img alt=\"\" src=\"media/10/102a356fe7866332ec03.png\" /></p>\n<p>\n\tThe value of the collector-to-emitter voltage <em>V<sub>CE</sub></em></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 V"
+    },
+    {
+     "key": "B",
+     "html": "4 V"
+    },
+    {
+     "key": "C",
+     "html": "5 V"
+    },
+    {
+     "key": "D",
+     "html": "6 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/fb/fb30edc242bafdbf84f8.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tAssume that the supply voltage in the figure shown starts decreasing from 50 V to 0 V. The maximum supply voltage at which the zener diode loses its regulating ability is _______ V. (Answer upto two decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/98/98db704cd672486e1ecf.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    39.85,
+    41.2
+   ],
+   "answerText": "40.5 (39.85 - 41.20)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t40.5 (39.85 - 41.20)</p>\n<p>\n\t<img alt=\"\" src=\"media/30/302ab34a43a5e6c0c89b.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tAssuming <em>V</em><sub><em>CE</em> sat</sub> = 0.2 V and β = 50, the minimum base current <img align=\"absmiddle\" alt=\"\" src=\"media/d6/d69a774bab2fa5027b39.png\" /> required to drive the transistor in the figure to saturation is</p>\n<p>\n\t<img alt=\"\" src=\"media/9a/9a06a131aa4c60176081.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 μA"
+    },
+    {
+     "key": "B",
+     "html": "60 μA"
+    },
+    {
+     "key": "C",
+     "html": "140 mA"
+    },
+    {
+     "key": "D",
+     "html": "116 μA"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/8a/8a9e8ec6ee091ee23073.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe op-amp circuit shown below represents a</p>\n<p>\n\t<img alt=\"\" src=\"media/1a/1acbccfd931a09685bb5.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "high pass filter"
+    },
+    {
+     "key": "B",
+     "html": "low pass filter"
+    },
+    {
+     "key": "C",
+     "html": "band pass filter"
+    },
+    {
+     "key": "D",
+     "html": "band reject filter"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/dc/dcd2a4039d5fa752e51f.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tFor the given voltage regulator circuit,</p>\n<p>\n\t<img alt=\"\" src=\"media/0c/0c6404bfc1987ee22549.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/e4/e458694440cdb1e07219.png\" /></p>\n<p>\n\tthe zener diode current <img align=\"absmiddle\" alt=\"\" src=\"media/eb/eb33d5acaa66f12c1c7f.png\" /> is _______ .</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.68 mA"
+    },
+    {
+     "key": "B",
+     "html": "2.5 mA"
+    },
+    {
+     "key": "C",
+     "html": "4.8 mA"
+    },
+    {
+     "key": "D",
+     "html": "1.2 mA"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/46/46d355dd237da855ea53.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIn a centre tap full-wave rectifier, 200 V is the peak voltage between the centre tap and one end of the secondary. What is the maximum voltage across the reverse biased diode?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "400 V"
+    },
+    {
+     "key": "B",
+     "html": "141 V"
+    },
+    {
+     "key": "C",
+     "html": "100 V"
+    },
+    {
+     "key": "D",
+     "html": "86 V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tThe PIV rating of full-wave rectifier with centre tap is 2 <em>V<sub>m</sub></em> = 2 &times; 200 = 400 V</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tFor the voltage divider bias of FET amplifier shown in figure. If <em>V<sub>D</sub></em> = 12 V and <em>V<sub>GSQ</sub></em> = –2 V. Then the value of <em>R<sub>S</sub></em> is</p>\n<p>\n\t<img alt=\"\" src=\"media/63/63e41d1f0a6a70487e01.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5.42 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "2.22 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "7.44 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "3.35 kΩ"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/96/96a0feac71ee55921c61.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tCalculate the constant current <img align=\"absmiddle\" alt=\"\" src=\"media/9a/9a903fb896ccaf08ff1d.png\" /> in the circuit shown is</p>\n<p>\n\t<img alt=\"\" src=\"media/60/60c020c1dafe821fbefb.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4.16 mA"
+    },
+    {
+     "key": "B",
+     "html": "3.20 mA"
+    },
+    {
+     "key": "C",
+     "html": "2.5 mA"
+    },
+    {
+     "key": "D",
+     "html": "0"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/64/64176a39a2bb07f08152.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tFor obtaining very high input and output impedance in a feedback amplifier, the most frequently used configuration is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "voltage series"
+    },
+    {
+     "key": "B",
+     "html": "current series"
+    },
+    {
+     "key": "C",
+     "html": "voltage shunt"
+    },
+    {
+     "key": "D",
+     "html": "current shunt"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tCurrent series feedback amplifier has very high input and very high output impedances.<br />\n\tIt is also called as series fed amplifier or transconductance amplifier.</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the circuit shown,</p>\n<p>\n\t<img alt=\"\" src=\"media/a8/a81eeea26067bbc6a0cf.png\" /></p>\n<p>\n\tIf the opamp is ideal, then which of the given below inference is/are INCORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tThe value of current through 10 kΩ is <img align=\"absmiddle\" alt=\"\" src=\"media/88/883e7fdacf55e76c6e85.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tThe value of transfer impedance Z<sub>21</sub>  for above circuit is 105 kΩ.</p>"
+    },
+    {
+     "key": "C",
+     "html": "An ideal opamp has infinite open loop voltage gain."
+    },
+    {
+     "key": "D",
+     "html": "Opamps can be used in linear response based application only."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/25/255f32b319fb0894942d.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/bf/bf75cbaa8dfd55f77eb5.png\" /></p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tAssuming that the diodes in the given circuit are ideal, the voltage <em>V</em><sub>0</sub> is ________ V.</p>\n<p>\n\t<img alt=\"\" src=\"media/c1/c185c852fa5089922313.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5</p>\n<p>\n\t<img alt=\"\" src=\"media/a4/a42f16e065632d42a765.png\" /></p>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tFET amplifier circuit shown in figure has the following circuit values <em>R</em><sub>0</sub> = 10 kΩ, <em>R<sub>D</sub></em> = 10 kΩ and <em>g<sub>m</sub></em> = 4000 μS.</p>\n<p>\n\t<img alt=\"\" src=\"media/cb/cbcb5ae7d16a62fafaf5.png\" /></p>\n<p>\n\tVoltage gain of the amplifier is _______ . (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -20.5,
+    -19.5
+   ],
+   "answerText": "-20 (-20.5 - -19.5)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-20 (-20.5 - -19.5)</p>\n<p>\n\t<img alt=\"\" src=\"media/cb/cb14662698431410d121.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tFollowing BJT amplifier has h-parameter <img align=\"absmiddle\" alt=\"\" src=\"media/ea/ea9e78037d21663ed5b5.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/dc/dc64378606d6d3015eea.png\" /></p>\n<p>\n\tThen the input impedance of the above amplifier is _______ kΩ. (Answer upto 3 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.169,
+    1.172
+   ],
+   "answerText": "1.171 (1.169 - 1.172)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.171 (1.169 - 1.172)</p>\n<p>\n\t<img alt=\"\" src=\"media/97/978898438c7f56f13e16.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tCurrent <img align=\"absmiddle\" alt=\"\" src=\"media/c7/c7ac6af941cccf8503a0.png\" /> in the circuit shown below is _______ mA. (Assuming β to be very larger) (Answer upto 2 decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/67/670778b2d9aa1ae112a2.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    21,
+    21.3
+   ],
+   "answerText": "21.18 (21.00 - 21.30)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t21.18 (21.00 - 21.30)</p>\n<p>\n\t<img alt=\"\" src=\"media/0b/0b80ac0e368b12a98ac1.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider a differential amplifier as shown in figure,</p>\n<p>\n\t<img alt=\"\" src=\"media/d3/d3a04557fcb8430a67f8.png\" /></p>\n<p>\n\t </p>\n<p>\n\tWhere the first set of signals is <em>V</em><sub>1</sub> = 50 μV, <em>V</em><sub>2</sub> = –50 μV and the second set of signals is <em>V</em><sub>1</sub> = 1050 μV, <em>V</em><sub>2</sub> = 950 μV. If the common mode rejection ratio is 100, then the percentage difference in output voltage obtained for the two sets of input signals is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10%"
+    },
+    {
+     "key": "B",
+     "html": "15%"
+    },
+    {
+     "key": "C",
+     "html": "20%"
+    },
+    {
+     "key": "D",
+     "html": "25%"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/58/589464a3f6cecfb5ebdc.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIn the circuit shown in the figure, <img align=\"absmiddle\" alt=\"\" src=\"media/da/dacce6965a303d06796d.png\" /> mA is a dc current and <em>V</em><sub>in</sub>(t) is a sinusoidal voltage with small amplitude:</p>\n<p>\n\t<img alt=\"\" src=\"media/ba/ba9361370c5f7381bc5a.png\" /></p>\n<p>\n\tBy taking diode by its small resistance <em>r<sub>d</sub></em> , the cut off frequency <em>f<sub>H</sub></em> is ________ kHz.<br />\n\t(Assume <em>V<sub>T</sub></em> = 25 mV at room temperature) (Answer upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    635,
+    637
+   ],
+   "answerText": "636.62 (635.00 - 637.00)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t636.62 (635.00 - 637.00)</p>\n<p>\n\t<img alt=\"\" src=\"media/50/50b906d38e12c2d7f06e.png\" /></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tIn the circuit shown, the diodes used are ideal. The values of <em>V</em> and <img align=\"absmiddle\" alt=\"\" src=\"media/9b/9b27e5d50feb66952d9d.png\" /> indicated in the figure are</p>\n<p>\n\t<img alt=\"\" src=\"media/7e/7ecb5fe83fcd8872a702.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4 V and 0.5 mA"
+    },
+    {
+     "key": "B",
+     "html": "6 V and 0.7 mA"
+    },
+    {
+     "key": "C",
+     "html": "4 V and 0.2 mA"
+    },
+    {
+     "key": "D",
+     "html": "6 V and 0.5 mA"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/53/5383865ce67a643f9c90.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the circuit shown in figure, op-amp used is ideal,</p>\n<p>\n\t<img alt=\"\" src=\"media/75/75641118371a86244d9d.png\" /></p>\n<p>\n\tThe values of <em>V<sub>p</sub></em>, <em>V<sub>n</sub></em> and <em>V</em><sub>out</sub> respectively are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0, 0, 1 V"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/16/1623959b5c104ec8e7aa.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cc/ccf1f3eb9c9a01f4d4d6.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "2 V, 2 V and 4 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/c1/c174b6fe15aaedd6bb11.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tAn amplifier has a bandwidth of 500 kHz and a voltage gain of 100. If a negative feedback is introduced to extend the bandwidth to 5 MHz, then the value of new gain is ________ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10,
+    10
+   ],
+   "answerText": "10",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t10</p>\n<p>\n\t<img alt=\"\" src=\"media/a2/a26adf1764ea87ed5588.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor the circuit shown in figure, the transistor used is ideal with β = 200 and <em>V<sub>BE</sub></em> = 0.7 V. If the device operates at Q point (10 V, 5 mA), then the which of the below given inference(s) is/are correct.</p>\n<p>\n\t<img alt=\"\" src=\"media/62/626feec6d6c67c5ccae7.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The value of base current of transistor is 0.025 mA"
+    },
+    {
+     "key": "B",
+     "html": "The value of emitter current is 5.025 mA"
+    },
+    {
+     "key": "C",
+     "html": "The value of emitter resistance is 0.295 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "Input characteristic describe the changes in output current versus input voltage keeping input current constant."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/60/6012530abfcd8db5ae28.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor the circuit shown in fiugre if opamp is ideal and capacitor is initially charged with <em>V<sub>C</sub></em> = 3 V.<br />\n\tAt <em>t</em> = 0, dc voltage of 10 V is applied at input, then which of the given statement(s) is/are correct?</p>\n<p>\n\t<img alt=\"\" src=\"media/1a/1a7138ce575ac4db90d1.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Virtual short is a circuit node with steady voltage that is not directly connected to a voltage reference like dc voltage or ground."
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tThe value of capacitor voltage at <em>t</em> = 10 seconds is 10 V.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tThe output voltage <em>V</em><sub>0</sub> of opamp at <em>t</em> = 10 seconds is –4 V.</p>"
+    },
+    {
+     "key": "D",
+     "html": "Input impedance of opamp is very high as compared to output impedance."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/cb/cb812a74592485dbd89e.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tIf an amplifier has peak to peak output voltage of 10 V across a load resistor of 1 kΩ, if the input power to amplifier is 100 μW. The power gain will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "125"
+    },
+    {
+     "key": "B",
+     "html": "500"
+    },
+    {
+     "key": "C",
+     "html": "250"
+    },
+    {
+     "key": "D",
+     "html": "225"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/02/029a4645e2511c828a49.png\" /></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider the opamp circuit shown in figure below,</p>\n<p>\n\t<img alt=\"\" src=\"media/6b/6b874a5f930f40a58130.png\" /></p>\n<p>\n\tThe value of input resistance <em>R</em><sub>in</sub> of the circuit will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "5 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "8 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f7/f754c4397f52fb932f4a.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/a1/a1710bfaeae6c9014be4.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tAn amplifier was designed using NMOS as shown below,</p>\n<p>\n\t<img alt=\"\" src=\"media/7f/7fc446278bdb6578994e.png\" /></p>\n<p>\n\tThe device is biased at <img align=\"absmiddle\" alt=\"\" src=\"media/34/345c31e4a76faedf208e.png\" /> μF then the minimum value of frequency of input signal so that output is not distorted is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "248.32 Hz"
+    },
+    {
+     "key": "B",
+     "html": "154.48 Hz"
+    },
+    {
+     "key": "C",
+     "html": "192.40 Hz"
+    },
+    {
+     "key": "D",
+     "html": "284.63 Hz"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/25/256ecde0404a3f7bbc8a.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/b2/b2e2b62bcb0ce78deeec.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 19,
+   "MSQ": 3,
+   "NAT": 11
+  },
+  "withoutKey": 0
+ }
+}

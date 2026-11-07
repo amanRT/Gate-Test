@@ -1,0 +1,464 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-049",
+ "title": "Topicwise Test-24 Part Syllabus GATE 2026 EE Electromagnetic Fields Part-2",
+ "sourceTitle": "Topicwise Test-24 Part Syllabus GATE 2026 EE Electromagnetic Fields Part-2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 49,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/084_Topicwise Test-24 Part Syllabus GATE 2026 EE Electromagnetic Fields Part-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Faraday’s law of electromagnetic induction is mathematically described by which one of the following equations?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/0d/0de3afb1ddc4a0b0477d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/48/481c288f33b6dbd6b025.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/a0/a0c659a69fb5460f3f03.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/63/63b26d6031b15003b14a.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/ebe79cc2286f1b443053.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Given magnetic field <img align=\"absmiddle\" alt=\"\" src=\"media/37/374a1a5194363b42c1ae.png\" /> A/m free space, the value of <img align=\"absmiddle\" alt=\"\" src=\"media/eb/ebb46dec5595f56ab5f2.png\" /> where the anticlockwise closed path for the integration is the boundary defined by the closed surface 2 m < <em>x</em> < 3 m, 3 m < y < 6 m and z = 3 m.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 A"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/75/750c5c0a6eee9bc1a60b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/d5/d55a0f37978f8f36ce4b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/91/91bc0f8cddbeaa056cd3.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4e/4e1c3dfdab60bc747cc1.png\" /></div>\n\n<div><img alt=\"\" src=\"media/82/82c091aa0e1bbe0b98e3.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The Maxwell’s equation, <img align=\"absmiddle\" alt=\"\" src=\"media/ce/cee2e0df4c5bdfe3d4a4.png\" /> is based on</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Ampere’s law"
+    },
+    {
+     "key": "B",
+     "html": "Gauss’s law"
+    },
+    {
+     "key": "C",
+     "html": "Faraday’s law"
+    },
+    {
+     "key": "D",
+     "html": "Coulomb’s law"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0b/0bd3ded1d27ef670d4e2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A square loop of 2 m side is placed in <em>xy</em>-plane with its centre at the origin and sides along the co-ordinate axes. If the magnetic flux density in the region is given by,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/10/10f63a59726c7aa5f57c.png\" /></div>\n\n<div>The emf induced in the loop at <em>t</em> = 10 sec will be ________ mV. (Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    66,
+    68
+   ],
+   "answerText": "67.379",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>67.379 (66.00 - 68.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/290ff67d0cd8a02edac5.png\" /></div>\n\n<div><img alt=\"\" src=\"media/65/652028b5651585576947.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>In a material the magnetic field intensity is H = 1400 A/m when magnetic flux density B = 2 Wb/m<sup>2</sup>. When H is reduces to 700 A/m at B = 1.4 Wb/m<sup>2</sup>, the absolute change in permeability is _________. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    454,
+    456
+   ],
+   "answerText": "454.73",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>454.73 (454 - 456)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9f/9fa8c8fa2b5f6c363da9.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>In a certain material for which μ<em><sub>r</sub></em> = 4, the magnetic field is given by,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f2/f2089f4dccb1d45d680a.png\" /></div>\n\n<div>The corresponding magnetic energy density is _______ μJ/m<sup>2</sup>. (Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    210,
+    213
+   ],
+   "answerText": "211.00",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>211.00 (210.00 - 213.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/26/26efbf00bb14e7ff5fc7.png\" /></div>\n\n<div><img alt=\"\" src=\"media/05/0505cf28f92d11b07509.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider square loop of length ‘a’ through which a current of 2 Amp is passing in clockwise direction as shown in figure. The magnitude of magnetic field <img align=\"absmiddle\" alt=\"\" src=\"media/fc/fc559565a658acf5854c.png\" /> at the centre of square loop will be _______ A/m.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/30/305519f8b1c6c09ae23c.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    44.5,
+    46.5
+   ],
+   "answerText": "45.02",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>45.02 (44.50 - 46.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/96/96a97337c32fa9c1d4d4.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A toroid of diameter 0.2 m with a 10 sq. cm. Core of cross sectional area is uniformly wound with 250 turns of wire. If the flux density in the core is to be 1 Tesla and μ<sub>r (iron)</sub> = 500, then the energy stored in the inductor will be ________ J. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.2,
+    0.8
+   ],
+   "answerText": "0.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.5 (0.2 - 0.8)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/51/51d28d5055624befaaac.png\" /></div>\n\n<div><img alt=\"\" src=\"media/db/db2919c0e34a55668776.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A circuit has 2000 turns enclosing a magnetic circuit 30 cm<sup>2</sup> in section. A current of 10 A in the circuit produces a field of flux density 1(Tesla) and when current is doubled, flux density increases only by 50%. The mean value of inductance of the circuit between 10 A and 20 A is _______ H.<br />\n(Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.25,
+    0.35
+   ],
+   "answerText": "0.30",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.30 (0.25 - 0.35)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8e/8ec70b043282dc17f3ab.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider a coaxial cable with inner radius of 1 mm and outer radius of 5 mm. The region in between inner surface and outer surface is filled with dielectric material μ<sub>1</sub> = 1, ε<sub>r</sub> = 1 and has zero initial inductance. The inductance for a coaxial cable of length 1 km is __________μH. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    320,
+    322
+   ],
+   "answerText": "321.88",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>321.88 (320 - 322)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1a9267ade965a2214cd6.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In the given figure the circuit is energized from source <img align=\"absmiddle\" alt=\"\" src=\"media/83/838ecbe1a227299933a8.png\" /> with a frequency of 50 Hz. which produces a peak current of 5 A.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/9b/9b1c7335bc8ee4358906.png\" /></div>\n\n<div>Area of cross-section is 500 cm<sup>2</sup>. The core has relative permeability of 1000. If above figure is modified with an airgap of 5 cm in core. (Assume current flowing is same in both the cases).<br />\nChoose the correct statement.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Magnetomotive force developed is less in case-1."
+    },
+    {
+     "key": "B",
+     "html": "The value of inductance difference in (<em>L</em><sub>1</sub> – <em>L</em><sub>2</sub>) is 0.795 H. (Where <em>L</em><sub>1</sub> is self inductance of first case and <em>L</em><sub>2</sub> is self inductance of second case)."
+    },
+    {
+     "key": "C",
+     "html": "Reluctance is same in both cases."
+    },
+    {
+     "key": "D",
+     "html": "Source voltage in case-1 is 1314.76 volts."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/76/76870b8f97ea19c13747.png\" /></div>\n\n<div><img alt=\"\" src=\"media/c0/c0299cbe1baa9b170996.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A particle with charge 6 nC is moving in a uniform magnetic field <img align=\"absmiddle\" alt=\"\" src=\"media/b5/b5ccb67b8ab7a50e764c.png\" /> The magnetic force on a particle is measured to be <img align=\"absmiddle\" alt=\"\" src=\"media/98/987e4c98e749647ee67d.png\" /> Select the correct statement(s).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The dot product of velocity of particle and magnetic force is zero."
+    },
+    {
+     "key": "B",
+     "html": "The component of velocity in y-direction is always zero."
+    },
+    {
+     "key": "C",
+     "html": "Magnetic field intensity in air is 9.78 × 10<sup>5</sup> A/m"
+    },
+    {
+     "key": "D",
+     "html": "Total force on particle when it is moving in both electric and magnetic field with electric field<img align=\"absmiddle\" alt=\"\" src=\"media/c4/c498d61ce6c1aa99d778.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b3/b3ca428d7d7af19965e3.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>In a 1000 turns coil, if the flux passing through each turn is (4<em>t</em><sup>4</sup> – 3<em>t</em><sup>3</sup> – 2<em>t</em>) mWb. The magnitude of induced emf in the coil at t = 4 sec is ______ Volts.</p>\n\n<p>(Rounded off to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    870,
+    890
+   ],
+   "answerText": "878",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>878 (870 - 890)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7f/7f713e88e4ab3cc0d304.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A nonmagnetic wire of circular cross-section has radius 10 mm and a length 100 m. It carries a total current of <img align=\"absmiddle\" alt=\"\" src=\"media/b5/b56a8c85ab6e61ba52e3.png\" /> A and has potential difference between ends is 10 V. Let <img align=\"absmiddle\" alt=\"\" src=\"media/7e/7eb372cec0e3967258f8.png\" /> where K is an unknown constant. The value of <em>K</em> = _______ × 10<sup>8</sup> A/m<sup>3</sup>.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.15,
+    3.25
+   ],
+   "answerText": "3.18",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3.18 (3.15 - 3.25)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/10/1053c592b215a9526bbd.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Select the incorrect statements related to a vector field <img align=\"absmiddle\" alt=\"\" src=\"media/98/98caab78178eb62c6270.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/57/5732eeaa01f5582311d0.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/e3/e3806b1d4c5eb9f5d15a.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/b9/b90d65208138694d6cdf.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/21/21b69b7589111e588f55.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f02c64b0b9b41b498c7d.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The electric motor shown in figure below has field,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d5/d586d87ff0d06fe833a6.png\" /></div>\n\n<div> </div>\n\n<div>The amount of flux passing through the air-gap if the axial length of pole is 30 cm will be _____ Wb.<br />\n(Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.27,
+    0.29
+   ],
+   "answerText": "0.282",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.282 (0.27 - 0.29)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3f/3f4f15e2a5ebcae57ab3.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A hemispherical shell carries a current density represented by <img align=\"absmiddle\" alt=\"\" src=\"media/86/862d983c7adf8e75a7b1.png\" /></p>\n\n<p>The amount of current passing through hemispherical shell of radius 100 cm, <img align=\"absmiddle\" alt=\"\" src=\"media/ed/ed0556060961ba04ca15.png\" /> will be ________ A. (Answer upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12.45,
+    12.65
+   ],
+   "answerText": "12.56",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>12.56 (12.45 - 12.65)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/60/60ce739ce5633f03ee2f.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 5,
+   "NAT": 11,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,566 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-031",
+ "title": "GATE 2027-Topicwise Test-10 (Engineering Mathematics -2)",
+ "sourceTitle": "GATE 2027-Topicwise Test-10 (Engineering Mathematics -2)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 31,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/050_GATE 2027-Topicwise Test-10 (Engineering Mathematics -2).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The general solution of partial differential equation given below is:</p>\n<p><img src=\"media/d0/d0d7fa0127c7ebaaf2a8.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/30/306728946f71a59bae53.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/27/27eb0f40383c3d5b010b.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/f5/f53dcd08c0e072f8810a.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/44/443bdbe2529eb3ff4e00.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/ae/aef4cdbf65cb463055df.png\"></p>\n<p><img src=\"media/0c/0c6604523a3a12b64a53.png\"></p>\n<p><img src=\"media/96/9613d4977700bc082c5d.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>Select the incorrect statement(s) from the given below options.<br>A buffalo is tied with a pole of 200 m long rope. At some point of time,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>the probability that the buffalo is at least 50 m away from the pole is 1/4</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>the probability that the buffalo is within the distance of 40 m of the pole is 1/5</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>the probability that buffalo is at least 100 m away from the pole is 1/2</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>the probability that the buffalo is atmost 150 m from the pole is 3/4</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, A, D, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>The buffalo can be anywhere within the circular area defined by the length of the rope (<em>R </em>= 200 m).<br>Let &lsquo;<em>x</em>&rsquo; denote the distance of the buffalo from the pole. The probability that the buffalo is within&nbsp;a certain distance &lsquo;<em>r</em>&rsquo; from the pole is proportional to the area of the circle with radius '<em>r</em>' divided&nbsp;by the total area of the circle with radius &lsquo;<em>r</em>&rsquo; i.e.</p>\n<p><img src=\"media/e2/e2f949582ad25b560a7e.png\"></p>\n<p><img src=\"media/f7/f71b54cc0a631559020d.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p><img src=\"media/2d/2d136233df2516422ae4.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/54/54f57747b3d9c7f31c04.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/76/768103a6d238e3cce1e3.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/1d/1d421b838cb43b31d835.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/fa/fa742d347e42080e85e5.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b9/b9e0c688739a4ed4d590.png\"></p>\n<p><img src=\"media/4e/4eab9e1c68a45959dd2d.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Let <em>x </em>be a random variable having probability density function,</p>\n<p><img src=\"media/57/57aba2d8e5b1c9fda4f6.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3/8</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1/2</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>5/8</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1/4</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/b0/b04bb8865845d231f787.png\"></p>\n<p><img src=\"media/3a/3a637955c2fbf1157844.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>If <em>x </em>is a continuous random variable whose probability density function is given by</p>\n<p><img src=\"media/23/23db4e23a5b37a097f08.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3/14</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4/5</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>14/17</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>17/28</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/13/132b088fcf861a5f5bea.png\"></p>\n<p><img src=\"media/1b/1bf1a0f47a885bd1b289.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/17/17a4edb408fa7011609b.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/3e/3eeec7015a36cda54c0c.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/20/2014b84117cbbb9cad18.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/68/68230be9a180940265dc.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/a8/a86cb90a202b07ce40e3.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/15/1530be799ed8b872ffa2.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p><img src=\"media/a4/a4679725090009b75d4b.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Order 1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Order 2</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Degree 3</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Degree 4</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/6a/6acab343f395afda998a.png\"></p>\n<p><img src=\"media/ec/ecd5273b1d03f4b47c1a.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>Consider a differential equation:</p>\n<p><img src=\"media/09/090aa484f7096a8f33a5.png\"></p>\n<p>&nbsp;</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.2,
+    2.3
+   ],
+   "answerText": "2.2 - 2.3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/74/74275b1033481c8ac282.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>If <em>x</em> is a normal random variable with mean &mu; = 10 and variance &sigma;<sup>2</sup> = 9, then which of the following&nbsp;are TRUE?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/c7/c77c198e71f222b32867.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/f4/f439fab4927f2793216a.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/f4/f413a71d5401918fb464.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/38/385d5218f85f256844b9.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b0/b04524e884a921917674.png\"></p>\n<p><img src=\"media/ec/ec0192a5b72f64de4f46.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A random variable x has the following probability distribution:<br><img src=\"media/1d/1db0418ae9dc64e9930c.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.02,
+    1.11
+   ],
+   "answerText": "1.02 - 1.11",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/6b/6b7601b5d9d8d7653340.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>Three numbers are chosen at random without replacement from {1, 2, _ _ _ _ 10}. The probability&nbsp;that the minimum of the chosen number is 3 or their maximum is 7, is _____.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.25,
+    0.3
+   ],
+   "answerText": "0.25 - 0.3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/68/687c64d5c4e8cf107299.png\"></p>\n<p><img src=\"media/3d/3d74c34aa86d524e76d1.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The random variable x take on the values 1, 2 or 3 with probabilities<br><img src=\"media/b9/b9d4c5569f9acec3743f.png\"><br>respectively. The value of <em>P </em>and <em>E</em>(<em>x</em>) are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.05, 1.87</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1.90, 5.87</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.05, 1.10</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.25, 1.40</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/66/663d5d456bdf5a6a25b2.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>How many 3-digit numbers can be formed using three distinct single digit prime numbers?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>64</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>24</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>12</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>4</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>The set of single-digit prime numbers is {2, 3, 5, 7}.<br>The number of ways to select 3 digits out of 4 is 4.<br>The number of ways to arrange them to form a 3-digit number = 3! = 6<br>Total possible 3 digit numbers = Number of ways to select &times; Ways to arrange<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = 4 &times; 6 = 24</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/21/217f2b2ad212a0ee00af.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/0b/0b0f1dcea73a9347c795.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/e0/e0b8fb2d918b04e25f0a.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/c1/c1c79783654608c03fd0.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/9d/9d04aa223fd516a7b1f3.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/87/87ad241f82e867b9c871.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/ab/abc4a4f9dae76e87a374.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.4,
+    1.6
+   ],
+   "answerText": "1.4 - 1.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/66/66d5a6bdace6bcb0ed33.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/61/61d1ba3280bf6e888ce3.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    14,
+    14.6
+   ],
+   "answerText": "14 - 14.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/e2/e2245587a7e92f255ae0.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/fb/fb85b8ceb376bb9cbece.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/88/883365179874e52f6187.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/b7/b7c409346fccf27beb44.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/a1/a180776c24997c1f01fc.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/3f/3f603282b4861e214c64.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/cd/cd82dda1e8a443070756.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 8,
+   "MSQ": 4,
+   "NAT": 5
+  },
+  "withoutKey": 0
+ }
+}

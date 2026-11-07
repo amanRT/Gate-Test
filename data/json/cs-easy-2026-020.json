@@ -1,0 +1,1084 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-020",
+ "title": "Subjectwise Test-7 Part Syllabus GATE 2026 CS Database",
+ "sourceTitle": "Subjectwise Test-7 Part Syllabus GATE 2026 CS Database",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 20,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/044_Subjectwise Test-7 Part Syllabus GATE 2026 CS Database.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a relation S = (A, B, C, D). For which of the following sets of FD’s in S is not in 3<sup>rd </sup>normal form?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "{ABC → D, ACD → B, A → D, BCD → A}"
+    },
+    {
+     "key": "B",
+     "html": "{AD → C, BC → A, BD → C, CD → B}"
+    },
+    {
+     "key": "C",
+     "html": "{AC → D, D → A, D → B, D → C}"
+    },
+    {
+     "key": "D",
+     "html": "{AC → B, A → D, C → A, D → B}"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nFor (i): For FD A &rarr; D, the LHS is not the super key but RHS is a prime attribute. Therefore, it is<br />\nin 3NF.<br />\nFor (ii): The candidate keys are AD, BD and CD. Thus, for FD BC &rarr; A, the LHS is not the<br />\nsuperkey but RHS is a prime attribute. Therefore, it is in 3NF.<br />\nFor (iii), The candidate keys are AC and D. Thus, all the FD&#39;s satisfy the 3NF condition and thus<br />\nit is in 3NF.<br />\nFor (iv), the candidate key is C, therefore, FD AC &rarr; B, A &rarr; D, D &rarr; B neither LHS is the super<br />\nkey nor RHS is having the prime attribute, therefore, it is not in 3NF.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following correctly matches the levels of data abstraction in DBMS?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/3d/3df0e5544051ad1ecc8f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/99/99a3760a36fee1957a97.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/8c/8ca142fb15a90d48aa32.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/50/50981266ee0e32ddc9df.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\n&bull; External level: User view<br />\n&bull; Conceptual level: Logical design, how information is connected<br />\n&bull; Internal level: How data is actually stored</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider following relations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/18/186a81fa4d999b7accd3.png\" /></div>\n\n<div> </div>\n\n<div><em>P</em> has 10 records and <em>Q</em> has 20 records. The non-null attribute ‘<em>A</em>’ in <em>Q</em> is referencing to attribute ‘<em>A</em>’ in <em>P</em>. Let X be the minimum number of records in <em>P</em> <img align=\"absmiddle\" alt=\"\" src=\"media/aa/aa5b6943f1e252053f67.png\" /> \u0001\u0002 <em>Q</em> and <em>Y</em> be the maximum number of records in <em>P</em> <img align=\"absmiddle\" alt=\"\" src=\"media/aa/aa5b6943f1e252053f67.png\" />\u0001\u0002 <em>Q</em> then <em>Y</em> – <em>X</em> is ________.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20"
+    },
+    {
+     "key": "B",
+     "html": "0"
+    },
+    {
+     "key": "C",
+     "html": "10"
+    },
+    {
+     "key": "D",
+     "html": "30"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ba/ba85185e05ebba62166c.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the given relation Student(SID, Name, Age) where not all students age known. What<br />\ndoes the following SQL query returns?<br />\nSELECT COUNT(∗) FROM Student WHERE Age < > 20;</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "All students not aged 20."
+    },
+    {
+     "key": "B",
+     "html": "All students age excluding NULL and 20."
+    },
+    {
+     "key": "C",
+     "html": "All students not aged 20 including NULL."
+    },
+    {
+     "key": "D",
+     "html": "Error due to NULL comparison."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nNULL &lt; &gt; 20 is unknown, so such rows are not selected.<br />\nSQL ignores NULLs in inequality comparisons unless explicitly handled.</p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider two relations Department and Employee:<br />\nDept(DID, DName)<br />\nEmp(EID, EName, DID)<br />\nWhere DID and EID are the primary key in Dept and Emp relation respectively. Assume DID in Emp referencing to Dept DID.<br />\nWhich of the following operations will not violate referential integrity.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Inserting a new Department with DID = 5."
+    },
+    {
+     "key": "B",
+     "html": "Deleting an Employee with DID = 5."
+    },
+    {
+     "key": "C",
+     "html": "Updating a Department with DID = 5."
+    },
+    {
+     "key": "D",
+     "html": "Inserting an Employee with DID = 5."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)<br />\n(a) Violates primary key constraint if DID = 5 exist.<br />\n(b) Does not affect Dept and Emp relations.<br />\n(c) May violates if DID referenced by Employee.<br />\n(d) May violates if no DID exist in Department.</p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>A hospital database stores information about doctors, patients and treatments. Each doctor has a unique ID and a name. Each patient has a unique ID and a set of phone number. A doctor can treat multiple patients and each treatment records the date and diagnosis. A patient can be treated by multiple doctors over time.<br />\nWhich of the following ER-diagram correctly represents the given information.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/be/beef64e787db4f74062b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/ff/ff84e3f25cfce2d134b2.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/29/293ea1222ff7f9ee0ba8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/6e/6e1e1131112069612028.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)<br />\n&bull; Option (b): False : Not all patient done treatment, phone no. is a multivalued attribute.<br />\n&bull; Option (c): False: Not all doctors done treatment.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the given ER diagram:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/15/153dff3bf0620210429a.png\" /></div>\n\n<div>Where <em>E</em><sub>1</sub>, <em>E</em><sub>2</sub> and <em>E</em><sub>3</sub> are the entity sets with their attributes. Underlined attributes are the key attributes in respective entity.<br />\nWhich of the following is/are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Relation model required minimum 5 tables."
+    },
+    {
+     "key": "B",
+     "html": "Relation <em>R</em><sub>1</sub> merged with <em>E</em><sub>2</sub> and <em>R</em><sub>2</sub> merged with <em>E</em><sub>1</sub>."
+    },
+    {
+     "key": "C",
+     "html": "<em>E</em><sub>3</sub> and <em>R</em><sub>3</sub> together required two tables."
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/84/848a0d718c53b6f80ffc.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9a/9ac7e840997ab64b6de3.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the relation database, where primary keys are underlined:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f3/f3abbf15be8edcae38f3.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Name of students whose marks are less than any of the students living in city Mumbai."
+    },
+    {
+     "key": "B",
+     "html": "Name of students whose marks are more than equal to any of the students living in city Mumbai."
+    },
+    {
+     "key": "C",
+     "html": "Name of students whose marks are less than all students living in city Mumbai."
+    },
+    {
+     "key": "D",
+     "html": "Name of students whose marks are more than all students living in city Mumbai."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nGiven query produces the name of students whose marks are more than that of student living in city Mumbai.<br />\nAccording to option (d), there should not exist a student <em>S</em><sub>2</sub> who has more marks than <em>S</em><sub>1</sub>, when <em>S</em><sub>2</sub> lives in Mumbai. Which is another way of saying <em>S</em><sub>1</sub> has more marks than all students living in Mumbai.</p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Which of the following statements is/are TRUE about weak entity set?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Weak entities can be deleted automatically when their corresponding strong entity is deleted."
+    },
+    {
+     "key": "B",
+     "html": "A weak entity set avoids the data duplication and consequent possible inconsistencies caused by duplicating the key of the strong entity."
+    },
+    {
+     "key": "C",
+     "html": "A weak entity set has no primary keys unless attributes of the strong entity on which it depends are included"
+    },
+    {
+     "key": "D",
+     "html": "Tuples in a weak entity set are not partitioned according to their relationship with tuples in a strong entity set."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)<br />\nWeak entities can be deleted automatically when their strong entity is deleted. Correct<br />\nWeak entity set avoids the data duplication and consequent possible inconsistencies caused by<br />\nduplicating the key of the strong entity. Correct<br />\nA weak entity set has no primary keys unless attributes of the strong entity on which it depends<br />\nare included. Correct<br />\nTuples in a weak entity set are not partitioned according to their relationship with tuples in a<br />\nstrong entity set. This is Incorrect, because tuples in a weak entity set are partitioned according to<br />\ntheir relationship with tuples in a strong entity set.</p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider a relation <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>) with functional dependencies:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a5/a503a2cdaeb74b68289a.png\" /></div>\n\n<div> </div>\n\n<div>What is the total number of super keys relation <em>R</em> can have?</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>6</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f3/f381a1a2393ebb50f8e9.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider a schema <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F</em>) and functional dependencies:<br />\n<em>E</em> → <em>D</em>, <em>C</em> → <em>AB</em>, <em>A</em> → <em>DB</em>, <em>C</em> → <em>D</em>, <em>BC</em> → <em>A</em>, <em>B</em> → <em>F</em><br />\nThe decomposition of R into <em>R</em><sub>1</sub>(<em>ACDE</em>), <em>R</em><sub>2</sub>(<em>ABF</em>) and <em>R</em><sub>3</sub>(<em>DE</em>).<br />\nWhich of the following statements is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Lossless and dependency preserving."
+    },
+    {
+     "key": "B",
+     "html": "Lossless but not dependency preserving."
+    },
+    {
+     "key": "C",
+     "html": "Lossy join but dependency preserving."
+    },
+    {
+     "key": "D",
+     "html": "Neither lossless join nor dependency preserving."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3a/3a402469e25a724cb445.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider relation schema <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) and the two sets of functional dependency:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b6/b670df0028ee3607b404.png\" /></div>\n\n<div>Which of the following is true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em><sub>1</sub> covers <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em><sub>2</sub> covers <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> are equivalent"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c4/c4f0fbc01150f81cbded.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Given <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>), <em>C</em> → <em>B</em> hold then <em>AC</em> → <em>B</em> also holds.<br />\n<em>S</em><sub>2</sub> : Relation in 2NF, doesn’t have any transitive dependency on a candidate key.<br />\n<em>S</em><sub>3</sub> : Strict 2PL schedules do not have blind writes.<br />\n<em>S</em><sub>4</sub> : Cascadeless schedules have blind writes.<br />\nThe number of incorrect statement(s) are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/92/92a0c4685a6bbbc30302.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Given relation <em>M</em>(<em>P</em>, <em>Q</em>, <em>R</em>, <em>S</em>, <em>T</em>) with FDs {<em>PR</em> → <em>Q</em>, <em>R</em> → <em>T</em>, <em>QS</em> → <em>R</em>, <em>P</em> → <em>Q</em>, <em>S</em> → <em>P</em>}.<br />\nWhich of the following statement(s) are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Relation <em>M</em> is in 2NF but not in 3NF."
+    },
+    {
+     "key": "B",
+     "html": "<em>PR</em> → <em>Q</em> is a redundant FD in relation <em>M</em>."
+    },
+    {
+     "key": "C",
+     "html": "Relation <em>M</em> has two candidate keys."
+    },
+    {
+     "key": "D",
+     "html": "{<em>S</em> → <em>P</em>, <em>QS</em> → <em>R</em>, <em>P</em> → <em>Q</em>, <em>R</em> → <em>T</em>} is a minimal cover for relation <em>M</em>."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/33/33087c0ab9be13f96588.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider following instance of relation course:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5c/5cc8ac1a871a4eaaca09.png\" /></div>\n\n<div>Underline attribute is primary key. Following SQL query applied on this instance:</div>\n\n<div> </div>\n\n<div>\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cd/cd6de0a7523e38c16628.png\" /></div>\n\n<div>Number of tuples return by above query is ________.</div>\n</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/65/650b5cf1c7316c7a8993.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider two relations <em>r</em><sub>1</sub>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) and <em>r</em><sub>2</sub>(<em>A</em>, <em>B</em>, <em>X</em>, <em>Y</em>). With number of tuples <em>n</em><sub>1</sub> and <em>n</em><sub>2 </sub>respectively. Which of the following statements is/are correct?<br />\n( <img align=\"absmiddle\" alt=\"\" src=\"media/6c/6ca42391f4ab917a5b16.png\" />\u0001\u0002 is natural join, assume domain (<em>r</em><sub>1</sub>.<em>A</em>) = domain (<em>r</em><sub>2</sub>.<em>A</em>) and domain (<em>r</em><sub>1</sub>.<em>B</em>) = domain (<em>r</em><sub>2</sub>.<em>B</em>)).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/bc/bc1b3a070060dd34c8c7.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/0f/0f08c5cf973b75993f64.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/2e/2edfff20b5120ca73e79.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/3e/3e8c675b343dad2aec41.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/56/563699c5bc20879455af.png\" /></div>\n</div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following <em>B</em><sup>+</sup> tree with the order of internal and leaf nodes as 3 and 2 respectively:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7a/7a1c0d3cf95fce1d6357.png\" /></div>\n\n<div>The minimum number of key insertions that causes a new level to be introduced in the above <em>B</em><sup>+</sup> tree ________. (Assume key redistribution is not allowed)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3<br />\nIf we insert keys 45,48,55 in same order, then on insertion of key 55, root will be overflow and new level will be created.</p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Given a sorted data file, having 5500 records with Anum as a key. Block size is 1024 B, utilized 90% of size for storing records. Each record has 100 B of extra information to store, with each size 10 B. Size of key is 10 B, record pointer is 12 B and block pointer is 14 B.<br />\nWhat are the number of index block in index file, index on Anum.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "18"
+    },
+    {
+     "key": "B",
+     "html": "19"
+    },
+    {
+     "key": "C",
+     "html": "17"
+    },
+    {
+     "key": "D",
+     "html": "20"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b6/b681571122a7278c6284.png\" /></div>\n</div>"
+  },
+  {
+   "n": 19,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following schedules:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bb/bbf04733a5ae71679eec.png\" /></div>\n\n<div> </div>\n\n<div>The number of above schedules irrecoverable are ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4e/4e808d5b089792d6eaef.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following schedule:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4b/4b28519b81919895641c.png\" /></div>\n\n<div>The number of serial schedules which are view equal to schedule (S) ___________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10,
+    10
+   ],
+   "answerText": "10",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>10</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/70/70fca3e97baacb3897e3.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following interleaved schedule S including transactions <em>T</em><sub>1</sub>, <em>T</em><sub>2</sub> on data items <em>P</em> and <em>Q</em>.<br />\n<em>S</em> : <em>R</em><sub>T1</sub>(<em>P</em>), <em>W</em><sub><em>T</em>2</sub>(<em>P</em>), <em>R</em><sub><em>T</em>2</sub>(<em>P</em>), <em>W</em><sub><em>T</em>2</sub>(<em>P</em>), <em>R</em><sub><em>T</em>1</sub>(<em>Q</em>), <em>W</em><sub><em>T</em>1</sub>(<em>Q</em>), <em>R</em><sub><em>T</em>1</sub>(<em>Q</em>), <em>W</em><sub><em>T</em>2</sub>(<em>Q</em>), <em>C</em><sub>1</sub>, <em>C</em><sub>2</sub><br />\nWhich of the following statement(s) are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em> is non-serializable schedule"
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em> is recoverable schedule"
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em> is cascadeless schedule"
+    },
+    {
+     "key": "D",
+     "html": "<em>S</em> is serializable schedule"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b,c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f9/f9d666b68d277d516d63.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Basic timestamp ordering protocol recoverability.<br />\n<em>S</em><sub>2</sub> : Cascadeless schedules are always possible under basic timestamp ordering protocol.<br />\nWhich of the following statement(s) are not true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em><sub>1</sub> only"
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em><sub>2</sub> only"
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> both"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6c/6ce5e98549ad2d4706d8.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Match <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/98/9825a5732f1e70c9451f.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nThe following conflicts leads to respective problems<br />\nWR conflict : Reading uncommitted data.<br />\nRW conflict : Unrepeatable read.<br />\nWW conflict : Overwriting uncommitted data.</p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following schedule:</p>\n\n<div> </div>\n\n<div><img align=\"absmiddle\" alt=\"\" src=\"media/21/21aff3037900953e49ac.png\" /></div>\n\n<div> </div>\n\n<div>Where <img align=\"absmiddle\" alt=\"\" src=\"media/76/761cadb3c4b018b9666e.png\" /> are read and write operations on item <img align=\"absmiddle\" alt=\"\" src=\"media/24/243b3c2517fbb1d093c4.png\" /> is the commit operation.<br />\nWhich of the following are correct for above schedule?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Schedule is conflict and view serializable."
+    },
+    {
+     "key": "B",
+     "html": "Schedule is not possible under basic timestamp protocol."
+    },
+    {
+     "key": "C",
+     "html": "Schedule is recoverable and cascadeless."
+    },
+    {
+     "key": "D",
+     "html": "Schedule is not possible under strict 2PL."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/aa/aad076f614d58660fbcf.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following relation SQL query:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ef/ef5485b23a2e9d69d671.png\" /></div>\n\n<div> </div>\n\n<div>Consider the following query:\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f4/f4e731b7d887148e2731.png\" /></div>\n\n<div>Which of the following is correct?</div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> are valid query not <em>Q</em><sub>3</sub>."
+    },
+    {
+     "key": "B",
+     "html": "<em>Q</em><sub>3</sub> output same number of tuples to <em>Q</em><sub>2</sub>."
+    },
+    {
+     "key": "C",
+     "html": "<em>Q</em><sub>2</sub> and <em>Q</em><sub>3</sub> output more number of tuples than <em>Q</em><sub>1</sub>."
+    },
+    {
+     "key": "D",
+     "html": "<em>Q</em><sub>1</sub>, <em>Q</em><sub>2</sub> and <em>Q</em><sub>3</sub> outputs same number of tuples."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bd/bdbef80f7609fa6ffcf9.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider following 2 queries with relation schema :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/df/df14fc6290c2c36d8951.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following query results “all students who never got a grade above 4.0”?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>Q</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>Q</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of them"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\n&bull; Query 1 uses a correlated subquery with NOT EXISTS, implementing an anti-join to exclude<br />\nstudents having any course with Grade &gt; 4.0. It also includes student with no enrollment<br />\nrecords. Since, no matching tuple exist in course.<br />\n&bull; Query 2 performs a set difference between all student.ID S and those in course with grade &gt; 4.0,<br />\nfollowed by a join with student to get complete records. This also retains student who never<br />\nenrolled in any course.<br />\nSo, both queries return the same result.</p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>There is a database of the dealers of a Products_deal. Following is the snapshot.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7c/7c6bcdad2fb340532b07.png\" /></div>\n\n<div> </div>\n\n<div>Consider the following query:<br />\nSELECT DISTINCT A.Dealer-no<br />\nFROM Product_deal A, Product_deal B<br />\nWHERE A.Dealer-no = B.Dealer-no<br />\nand A.color.id < > B.color.id;<br />\nThe number of tuples contained in the output will be ________.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "Empty relation"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d613c8dd0c88d8820fda.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following relation:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a7/a758dde67ea8db633c6e.png\" /></div>\n\n<div>Where of the following queries retrieve the Sid of supplier who supply some red or green part?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/58/58de6bc19e45a721e7f1.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/26/26f4e403bbbccdff1e02.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/3b/3b3b4641dcbee2798250.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/f6/f61d73cf04b7d974a539.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider a relation schema <em>R</em>(<u><em>A</em></u>,<u><em>B</em></u>,<em>C</em>) and following is an instance of relation R:</p>\n\n<p> </p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4d/4db89ac511704b9c2bb3.png\" /></div>\n\n<div> </div>\n\n<div>Where underlined attributes forms primary key of <em>R</em>.<br />\nFollowing SQL query applied on above instance of <em>R</em>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2a/2a497ff8d6306f242d36.png\" /></div>\n\n<div>Number of tuples in relation return by above query is ________.</div>\n</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f8/f8f137ed0f18af097252.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider a relation <em>R</em>(<em>a</em>, <em>b</em>, <em>c</em>, <em>d</em>, <em>e</em>) containing 2000 records, where each data page holds 100 records.<br />\n<em>R</em> is organized as a sorted files on candidate key. Assume <em>R</em>.<em>a</em> is a candidate key for <em>R</em>, with values lying in the range 0 to 1999.<br />\nGiven the following relational algebra queries.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a9/a99e19272fa15e33981c.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is a true statement?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Linear hashed index is most efficient for <em>Q</em><sub>2</sub>, but inefficient for <em>Q</em><sub>1</sub> and <em>Q</em><sub>3</sub>."
+    },
+    {
+     "key": "B",
+     "html": "A clustered <em>B</em><sup>+</sup> tree is optimal for both <em>Q</em><sub>1</sub> and <em>Q</em><sub>3</sub> but not useful for <em>Q</em><sub>2</sub> and <em>Q</em><sub>4</sub>."
+    },
+    {
+     "key": "C",
+     "html": "Full scan is optimal for <em>Q</em><sub>1</sub> but not for <em>Q</em><sub>4</sub>."
+    },
+    {
+     "key": "D",
+     "html": "Hashing is preferable to clustering for <em>Q</em><sub>3</sub> but inefficient for <em>Q</em><sub>1</sub> and <em>Q</em><sub>4</sub>."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f7/f79d510fd65b7641e818.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Let Student(Sid, Name, DeptID) and Department(DeptID, Location) be two relation.<br />\nWhere DeptID in Student is a foreign key referencing Department DeptID and no null in any table.<br />\nWhich of the following are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Natural join removes duplicate DeptID."
+    },
+    {
+     "key": "B",
+     "html": "Equi-join retains both DeptID’s."
+    },
+    {
+     "key": "C",
+     "html": "Left outer join may produce nulls in DeptID."
+    },
+    {
+     "key": "D",
+     "html": "Full outer join may produce nulls in location."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/08/087777fa61e676dc640d.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the given schedule, for transaction <em>T</em><sub>1</sub> and <em>T</em><sub>2</sub>.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4b/4b57f4d9238a1c5fcade.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em> is possible under 2PL but not regrows 2PL."
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em> is not possible under basic timestamp protocol."
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em> is recoverable and cascading schedule."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d20e844b3facc837f3f5.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Assume there are 10 transaction : <em>T</em><sub>1</sub>, <em>T</em><sub>2</sub>, ... <em>T</em><sub>10</sub>. Every transaction writes a value of variable X that is read by its successive transaction, like T1 writes a value of X that is read by <em>T</em><sub>2</sub>, <em>T</em><sub>2</sub> writes a value of <em>X</em>, that is read by <em>T</em><sub>3</sub>, ..., <em>T</em><sub>9</sub> writes a value of <em>X</em> that is read by <em>T</em><sub>10</sub>. Now, if T1 fails, then total number of transactions required to recover the schedule are __________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10,
+    10
+   ],
+   "answerText": "10",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(10)<br />\nIn order to recover the schedule, all the 10 transactions are required as the successive transaction is dependent on the data updated by previous transaction like <em>T</em><sub>2</sub>&nbsp;is dependent on a variable which is updated by <em>T</em><sub>1</sub>. As <em>T</em><sub>1</sub> fails, <em>T</em><sub>2</sub>&nbsp;is also required to be recovered. Now if <em>T</em><sub>2</sub>&nbsp;is recovered,&nbsp;<em>T</em><sub>3</sub>&nbsp;is also recovered as <em>T</em><sub>3</sub>&nbsp;depends on data updated by <em>T</em><sub>2</sub>. Likewise, it happens for all the transactions till <em>T</em><sub>10</sub>.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MSQ": 11,
+   "MCQ": 14,
+   "NAT": 8
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,616 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-033",
+ "title": "Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2",
+ "sourceTitle": "Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 33,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/094_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following interleaved schedule S involving transaction <em>T</em><sub>1</sub>, <em>T</em><sub>2</sub> on data item <em>X</em> and <em>Y</em>.<br />\n<em>S</em> : <em>R</em><sub>1</sub>(<em>X</em>); <em>W</em><sub>1</sub>(<em>X</em>); <em>R</em><sub>2</sub>(<em>X</em>); <em>W</em><sub>2</sub>(<em>X</em>); <em>R</em><sub>2</sub>(<em>Y</em>); <em>W</em><sub>2</sub>(<em>Y</em>); <em>R</em><sub>1</sub>(<em>Y</em>); <em>W</em><sub>1</sub>(<em>Y</em>); <em>C</em><sub>2</sub>, <em>C</em><sub>1</sub><br />\nwhere <img align=\"absmiddle\" alt=\"\" src=\"media/59/59d1d31ea972e02d77f6.png\" /> represents read and write operations on items <em>X</em> and <em>Y</em> and C<sub>1/2</sub> are commits of <em>T</em><sub>1</sub> and <em>T</em><sub>2</sub> respectively.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em> is neither conflict, nor view-serializable and never results serializable."
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em> is serializable away procedure result equal to serial schedule."
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em> is not serializable, but may results equal to serial if read, write of <em>X</em>, <em>Y</em> in <em>T</em><sub>1</sub> <em>T</em><sub>2</sub> are commutative."
+    },
+    {
+     "key": "D",
+     "html": "<em>S</em> is serializable and consistent for all data items <em>X</em> and <em>Y</em>."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d8/d8a1d35eeedddffe9343.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider a relation <em>R</em>(<em>a</em>, <em>b</em>, <em>c</em>, <em>d</em>, <em>e</em>) containing 500000 records, where each data page holds 100 records.<br />\nR is organized as a sorted files on candidate key. Assume R.a is a candidate key for R, with values<br />\nlying in the range 0 to 4, 999, 99.<br />\nGiven the following relational algebra queries.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ba/bae95983c58aeaec6f20.png\" /></div>\n\n<div>Which of the following is a false statement?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Linear hashed index is most efficient for <em>Q</em><sub>2</sub>, but inefficient for <em>Q</em><sub>1</sub> and <em>Q</em><sub>3</sub>."
+    },
+    {
+     "key": "B",
+     "html": "A clustered <em>B</em><sup>+</sup> tree is optimal for both <em>Q</em><sub>1</sub> and <em>Q</em><sub>3</sub> but not useful for <em>Q</em><sub>2</sub> and <em>Q</em><sub>4</sub>."
+    },
+    {
+     "key": "C",
+     "html": "Full scan is optimal for <em>Q</em><sub>4</sub> but not for <em>Q</em><sub>1</sub>."
+    },
+    {
+     "key": "D",
+     "html": "Hashing is preferable to clustering for <em>Q</em><sub>3</sub> but inefficient for <em>Q</em><sub>1</sub> and <em>Q</em><sub>4</sub>."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/25/25814ba4fd52c50d920d.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the given schedule, for transaction <em>T</em><sub>1</sub>, <em>T</em><sub>2</sub> :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/30/30c3ffbbc7a7b2af26df.png\" /></div>\n\n<div>Which of the following is a correct statement?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em> is non-recoverable since <em>T</em><sub>2</sub> commit before <em>T</em><sub>1</sub>."
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em> is allow under strict 2PL but not under rigorous 2PL."
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em> is not strict schedule as <em>T</em><sub>2</sub> write on same data without previous R/W commit."
+    },
+    {
+     "key": "D",
+     "html": "Both strict and rigorous 2PL, schedule S efficiently."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nSchedule work under strict 2PL.<br />\nRigorous 2PL search for commit of <em>T</em><sub>1</sub> to release lock and trap in CPU cycles.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the relations <em>r</em><sub>1</sub>(<em>A</em>, <em>B</em>, <em>C</em>), <em>r</em><sub>2</sub>(<em>C</em>, <em>D</em>, <em>E</em>) and <em>r</em><sub>3</sub>(<em>E</em>, <em>F</em>), having 1000, 1500 and 750 tuples reoperatively.<br />\nAssume that their are no primary keys, except the entire schema (i.e., all values are uniformly distributed).<br />\nLet <em>V</em>(<em>X</em>, <em>R</em>) represents, the distinct values of attribute <em>X</em> in relation <em>R</em>.<br />\n<em>V</em>(<em>C</em>, <em>r</em><sub>1</sub>) = 900, <em>V</em>(<em>C</em>, <em>r</em><sub>2</sub>) = 1100, <em>V</em>(<em>E</em>, <em>r</em><sub>2</sub>) = 50 and <em>V</em>(<em>E</em>, <em>r</em><sub>3</sub>) = 100.<br />\nWhich of the following is the efficient strategy for computing the size of <img align=\"absmiddle\" alt=\"\" src=\"media/ff/ff24e2d128f088ac1730.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/87/8766db08f62a7fb3e0ed.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/3d/3dcb6f909fca1b7045a8.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/55/55300bede21f4c8bbec4.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cc/cc42e1576e846c4c1eed.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>A bank maintains checking account data in a relational database, while customer (owner) information is stored in a separate file system on a different server. An operation in performed that adds a new owner to the file system and associates that owner with a newly created account<br />\nin that database.<br />\nAssume there is no distributed transaction management between the database and the file system.<br />\nWhich of the following is true regarding the ACID properties of this operation?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Atomicity is not guaranteed, as failure in one system may not roll back change in the other."
+    },
+    {
+     "key": "B",
+     "html": "Isolation is not always ensured as the operations occurs independently on separate system."
+    },
+    {
+     "key": "C",
+     "html": "Durability is satisfied only if both system independently ensure persistence after commit."
+    },
+    {
+     "key": "D",
+     "html": "Consistency is always maintained, as each system handles its own constraints."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)<br />\n<strong>DB + File system on another server:</strong><br />\nTwo independent systems:<br />\n&bull; Relational data base<br />\n&bull; Separate file system<br />\nNo distributed transaction:<br />\n&bull; Manager to co-ordinate them.<br />\n<strong>RDBMS server File System server</strong><br />\nRequired distributed<br />\nTransaction manager to coordinate system of RDBMS server, FS servers.</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>A relation database contains two tables.<br />\nStudent and Marks as shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ad/ad588480b9186b5a689a.png\" /></div>\n\n<div>The primary key of the Student table is R_no.<br />\nFor the Marks table, the column R_no and Subject together for the composite key and R_no is the<br />\nforeign key referencing to R_no. in Student table.<br />\nSelect Sum(M.marks), S.S_name<br />\nFrom Student S, Marks M<br />\nwhere M.mark > 70<br />\nGroup By S.S_name;<br />\nThe number of rows returned by the above SQL query is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5<br />\nCondition applied on Mark in Marks table.<br />\nGroup by Sname, in final table so remain with 5 unique S_name tuples.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following four queries on the relations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ba/ba7e56e369f0842b2c6d.png\" /></div>\n\n<div>Which of the following statements is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Query A, B and D always produce same output."
+    },
+    {
+     "key": "B",
+     "html": "Query B and D always produce the same output but Query A and C may differ."
+    },
+    {
+     "key": "C",
+     "html": "All four queries produce the output for distinct Sname in both relations."
+    },
+    {
+     "key": "D",
+     "html": "Query A and C may produce same result but not Query B and D."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a7/a729d9deb482cb1e8627.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider a database with two data items <em>X</em> and <em>Y</em> and two concurrent transactions <em>T</em><sub>1</sub> and <em>T</em><sub>2 </sub>operating as follows:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/35/353ebeed43c3970f1c38.png\" /></div>\n\n<p><br />\nWhich of the following statements is/are not true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The schedule involves a read-write conflict, where <em>T</em><sub>2</sub> observes an unrepeatable read on <em>X</em>, violating isolation."
+    },
+    {
+     "key": "B",
+     "html": "Transaction <em>T</em><sub>1</sub> performs a dirty read on X, violating isolation."
+    },
+    {
+     "key": "C",
+     "html": "The schedule contain write-write conflict on <em>X</em>, <em>T</em><sub>1</sub> may over-write uncommitted data of <em>T</em><sub>2 </sub>which causes lost update problem if <em>T</em><sub>1</sub> abort before <em>T</em><sub>2</sub> commit."
+    },
+    {
+     "key": "D",
+     "html": "Under strict-2PL, schedule S would be allowed and prevent dirty read."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)<br />\n&bull; No unrepeatable read as <em>T</em><sub>1</sub> reads both <em>X</em> and <em>Y</em> before <em>T</em><sub>1</sub> perform any writes.<br />\n&bull; If <em>T</em><sub>2</sub> abort at any stage, we can abort <em>T</em><sub>1</sub> as well to prevent atomicity and restart schedules.<br />\n&bull; Strict-2PL, does not allow to run given schedule as their is a dirty read.</p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Let <em>R</em>(<em>A</em>) be a relation that contain both integer and NULL values in attribute <em>A</em>.<br />\nConsider the following two queries:<br />\nQuery 1: SELECT FROM R WHERE A NOT IN (5, 10, NULL;)<br />\nQuery 2: SELECT FROM R WHERE A <> 5 AND A <> 10 AND A IS NOT NULL;<br />\nWhich of the following statements is/are false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Query 1 and Query 2 return same tuples."
+    },
+    {
+     "key": "B",
+     "html": "Query 1 will not return any tuple for any value of A."
+    },
+    {
+     "key": "C",
+     "html": "Query 1 returns rows where A is not NULL and is neither 5 nor 10."
+    },
+    {
+     "key": "D",
+     "html": "Query 2 will return all rows where A is neither 5 nor 10."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)<br />\n&bull; Query 1 always gives empty relation.<br />\n&bull; Query 2 return tuples where A is not NULL, neither 5 nor 10.</p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following schedules:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8d/8dc55c81bb8303e473d5.png\" /></div>\n\n<div>Identify the number of recoverable schedules.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3<br />\n<em>S</em><sub>1</sub>, <em>S</em><sub>2</sub>, <em>S</em><sub>4</sub> are recoverable schedule.</p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following relational schemas:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/92/924e5ff27a6cfe896cf9.png\" /></div>\n\n<div>Which of the following statement is true regarding the evaluation of the above query?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The composite <em>B</em><sup>+</sup> tree index on (Sid, age) in Sailors can be used to efficiently evaluate S.sid > 500 but not S.age > 25 together."
+    },
+    {
+     "key": "B",
+     "html": "The <em>B</em><sup>+</sup> tree index on Reserves.Sid helps in efficiently selecting only those tuples of R that satisfies R.Sid < 1000 before the join."
+    },
+    {
+     "key": "C",
+     "html": "Since R.sid is used in the selection of tuples, using the <em>B</em><sup>+</sup> tree on <em>R</em>.sid is not helpful as multiple tuples may match."
+    },
+    {
+     "key": "D",
+     "html": "The index on Sailors helps to reduce the number of sailors tuples participating in the join, by scanning S.sid > 500 and S.age > 2.5"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)<br />\n(a) The index can be used to find tuples where Sid &gt; 500 first and then within these check age &gt; 25.<br />\n(c) Duplicate does not reduce index usefulness.</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the schedules <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub> below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e5/e52024dfc975b0a5282b.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following options correctly classifies each schedule?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/46/46b1fd72020be8e3dc23.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/38/38cc5fa84b3e8530fea0.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/01/01a153aeae40daf18de4.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/89/89d9c3a6753574677415.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\n<em>S</em><sub>1</sub> : Recoverable, cascadeless, strict recoverable.<br />\n<em>S</em><sub>2</sub>&nbsp;: Dirty read, not recoverable.<br />\n<em>S</em><sub>3</sub>&nbsp;: Recoverable and cascadeless but not strict recoverable.</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following relational schemas:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/12/12463b2a42b8d8f2921f.png\" /></div>\n\n<div> </div>\n\n<div>What does the final result of the above query?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Names of students who have takes at least one course offered by their department."
+    },
+    {
+     "key": "B",
+     "html": "Names of students who have not taken any course from their own department, but may have taken courses from other department."
+    },
+    {
+     "key": "C",
+     "html": "Names of students who have not taken any course at all."
+    },
+    {
+     "key": "D",
+     "html": "Names of students who have taken all courses offered by their own department."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following transactions:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e3/e30801981a219b276f45.png\" /></div>\n\n<div>The time stamps of <em>T</em><sub>1</sub>, <em>T</em><sub>2</sub> and <em>T</em><sub>3</sub> are 3, 1, 2 respectively.<br />\nWhich of the following is the correct option under Time stamp Ordering Protocol (TOP).</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "S is not possible under basic TOP and <em>T</em><sub>3</sub> force <em>T</em><sub>1</sub> to abort/rollback."
+    },
+    {
+     "key": "B",
+     "html": "S is possible under Thomas Write Rule TOP and S is view serializable."
+    },
+    {
+     "key": "C",
+     "html": "<em>T</em><sub>2</sub> and <em>T</em><sub>3</sub> both rollback to preserve data consistency."
+    },
+    {
+     "key": "D",
+     "html": "Only <em>T</em><sub>3</sub> rollback, under basic TOP while <em>T</em><sub>2</sub> and <em>T</em><sub>1</sub> complete their operation successfully."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b1/b11c974090bcdedd7b00.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Suppose, a relation <em>R</em>(<em>A</em>, <em>B</em>), have following schema:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bd/bd94e25f3f664270635f.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "{(0, Null,), (Null, Null)}"
+    },
+    {
+     "key": "B",
+     "html": "{(0, 0), (Null, 0)}"
+    },
+    {
+     "key": "C",
+     "html": "{(Null, 1), (0, 0)}"
+    },
+    {
+     "key": "D",
+     "html": "{(0, 0), (Null, 1)}"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/56/5637c7493a672db037f0.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following relation schemas:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b7/b75bae9359bb25542086.png\" /></div>\n\n<div>Where the primary keys are shown underlined. The number of tuples in the purchase relation is<br />\n100, and in the Supplier relation is 50, respectively.<br />\nWhat are the maximum and minimum number of tuples that can be present in (Purchase * Supplier)<br />\nwhere ‘*’ denotes natural full outer join. (Pid in Supplier may/may not foreign key to Pid in Purchase).</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "149, 100"
+    },
+    {
+     "key": "B",
+     "html": "50, 50"
+    },
+    {
+     "key": "C",
+     "html": "150, 100"
+    },
+    {
+     "key": "D",
+     "html": "0, 50"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/19/193a5c435860a4d2709c.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following log file, contains log records of the following form.<br />\n<tranid, variable=\"\"></tranid,></p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e6/e63b53f8d71580bfd1ed.png\" /></div>\n\n<div>Identify the correct statement.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Transaction <em>T</em><sub>1</sub>, <em>T</em><sub>3</sub> redo and <em>T</em><sub>2</sub> undo after abort."
+    },
+    {
+     "key": "B",
+     "html": "Transaction <em>T</em><sub>2</sub>, <em>T</em><sub>3</sub> redo and <em>T</em><sub>4</sub> undo after abort."
+    },
+    {
+     "key": "C",
+     "html": "Transaction <em>T</em><sub>1</sub> store permanently, <em>T</em><sub>3</sub> redo and <em>T</em><sub>2</sub>, <em>T</em><sub>4</sub> undo."
+    },
+    {
+     "key": "D",
+     "html": "System cannot recover properly as <em>T</em><sub>2</sub> and <em>T</em><sub>3</sub> working on same variable."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; <em>T</em><sub>1</sub> commit before check point so store it.<br />\n&bull; <em>T</em><sub>3</sub> commit before abort so redo it.<br />\n&bull; <em>T</em><sub>2</sub>, <em>T</em><sub>4</sub> not commit till abort so undo them.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "MSQ": 6,
+   "NAT": 2
+  },
+  "withoutKey": 0
+ }
+}

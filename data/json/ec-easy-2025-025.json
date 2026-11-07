@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-025",
+ "title": "Topicwise Test-1 Part Syllabus GATE 2025 EC Network -1",
+ "sourceTitle": "Topicwise Test-1 Part Syllabus GATE 2025 EC Network -1",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 25,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/052_Topicwise Test-1 Part Syllabus GATE 2025 EC Network -1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit shown in the figure, the value of current <img align=\"absmiddle\" alt=\"\" src=\"media/83/8301d5e7f81a40ccd5c1.png\" /> is</p>\n\n<p><img alt=\"\" src=\"media/2c/2c52d7080232448e5ae9.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.43 A"
+    },
+    {
+     "key": "B",
+     "html": "1.48 A"
+    },
+    {
+     "key": "C",
+     "html": "1.37 A"
+    },
+    {
+     "key": "D",
+     "html": "1.67 A"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/1e/1edaeea6d244ddabab4e.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The capacitors (C) are arranged as shown in figure below, to obtain a capacitance value of 4 μF rated for 900 V.</p>\n\n<p><img alt=\"\" src=\"media/30/308d52ed475e9cf9e0a0.png\" /></p>\n\n<p>The maximum charge stored by a capacitor is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.6 mC"
+    },
+    {
+     "key": "B",
+     "html": "1.2 mC"
+    },
+    {
+     "key": "C",
+     "html": "2.2 mC"
+    },
+    {
+     "key": "D",
+     "html": "2.4 mC"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/b7/b7b3a7569e6c65439a9d.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit shown below, choose which of the following KCL equations is correct for node <em>A</em>?</p>\n\n<p><img alt=\"\" src=\"media/9e/9e1ede485696fef5b10a.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/52/523a646a4a0e99a9ebcd.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/91/91ca9bcecd337fef2776.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/47/47e3a5dea938af7f1a4e.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/6e/6ef4287e07296c90a092.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/b5/b5418db5bf03e2ee1b5a.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>In the interconnection of ideal sources shown in the figure, it is known that the 90 V source is absorbing power.</p>\n\n<p><img alt=\"\" src=\"media/f3/f3771c5e0cc80b75de91.png\" /></p>\n\n<p>Which of the following can be the value of current source <img align=\"absmiddle\" alt=\"\" src=\"media/ca/ca078ad173c77d9c8161.png\" /> and resistance ‘R’?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12 A; 15.625 Ω"
+    },
+    {
+     "key": "B",
+     "html": "18 A; 10 Ω"
+    },
+    {
+     "key": "C",
+     "html": "12 A; 10 Ω"
+    },
+    {
+     "key": "D",
+     "html": "21 A; 15.625 Ω"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/4e/4eebe8813a23cd8807a1.png\" /></p>\n\n<p><img alt=\"\" src=\"media/c8/c8ec45448792e28d44b5.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit shown below, what should be the value of resistance ‘<em>R<sub>s</sub></em>’ so that load <em>R<sub>L</sub></em> = 2 kΩ will get maximum power?</p>\n\n<p><img alt=\"\" src=\"media/22/229b1abcf0011502b9ac.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "4 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "8 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "0 kΩ"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nTo get maximum power to load resistance (<em>R<sub>L</sub></em>), &lsquo;<em>R<sub>s</sub></em>&rsquo; should be as minimum as possible. Hence, option (d) is most suitable answer.</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<p><img alt=\"\" src=\"media/0b/0b093e57a5948debeb0a.png\" /></p>\n\n<p>The Thevenin’s equivalent resistance seen across the terminal <em>A</em> and <em>B</em> is ________ Ω.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10.1,
+    10.7
+   ],
+   "answerText": "10.4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10.4 (10.1 - 10.7)</p>\n\n<p><img alt=\"\" src=\"media/e1/e13ac5c38c11d93c29c0.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>In a series RLC circuit, <em>L</em> = 40 mH is given. If the instantaneous voltage and current are 50 cos <img align=\"absmiddle\" alt=\"\" src=\"media/cf/cfcf9179806f8807cec5.png\" /> and 20 cos(628<em>t</em> – 25°) A respectively, the quality factor of the circuit is ________. (correct to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10,
+    11.05
+   ],
+   "answerText": "10.29",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10.29 (10.00 - 11.05)</p>\n\n<p><img alt=\"\" src=\"media/65/65ecd87a338da95ff656.png\" /></p>\n\n<p><img alt=\"\" src=\"media/77/7775f137a2948e9d9893.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown in the figure below, the Norton’s current across the load <em>R<sub>L</sub></em> is 10 A. Then, the value of <em>R</em> is ________ Ω.</p>\n\n<p><img alt=\"\" src=\"media/25/2552a882d416056f22dd.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.6,
+    0.6
+   ],
+   "answerText": "0.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.6 (0.6 - 0.6)</p>\n\n<p><img alt=\"\" src=\"media/29/29650ad01de05a216ff5.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown below:</p>\n\n<p><img alt=\"\" src=\"media/44/44137b44f87e111ddf3f.png\" /></p>\n\n<p>Which of the following option(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The current through 10 Ω resistance is 7 A."
+    },
+    {
+     "key": "B",
+     "html": "<p>The Norton’s current (Short circuit current) <img align=\"absmiddle\" alt=\"\" src=\"media/5d/5d7999a5f1686f05aad5.png\" /> across 10 Ω is 14.92 A.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The open circuit voltage (<em>V</em><sub><em>O</em>.<em>C</em></sub>) across 10 Ω is approx. 85 V.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The Thevenin’s equivalent impedance (Z<sub>th</sub>) across 20 Ω is approx. 5.72 Ω.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<p><img alt=\"\" src=\"media/ea/ea33343bec87102cdd43.png\" /></p>\n\n<p><img alt=\"\" src=\"media/84/84a227d8738d5f216896.png\" /></p>\n\n<p><img alt=\"\" src=\"media/c6/c6e47aaaa0695e6b05fd.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit shown in the figure below:</p>\n\n<p><img alt=\"\" src=\"media/4d/4d46851cf4c64b70fed9.png\" /></p>\n\n<p>The equivalent capacitance seen across the terminal <em>a</em> and <em>b</em> is _______ F.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7 F"
+    },
+    {
+     "key": "B",
+     "html": "3.34 F"
+    },
+    {
+     "key": "C",
+     "html": "2.34 F"
+    },
+    {
+     "key": "D",
+     "html": "6 F"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/9a/9aa9c44a20185088930c.png\" /></p>\n\n<p><img alt=\"\" src=\"media/39/39e547bd9a46130f12b9.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<p><img alt=\"\" src=\"media/71/718109adc3765dd112ed.png\" /></p>\n\n<p>What should be the value of resistor ‘<em>R</em>’ such that the energy stored in the circuit is 512 J?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "25 Ω"
+    },
+    {
+     "key": "B",
+     "html": "50 Ω"
+    },
+    {
+     "key": "C",
+     "html": "8.33 Ω"
+    },
+    {
+     "key": "D",
+     "html": "12.33 Ω"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/92/92ee5779cf34310a3760.png\" /></p>\n\n<p><img alt=\"\" src=\"media/d1/d150997783261edbc0ed.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Two currents are represented by <img align=\"absmiddle\" alt=\"\" src=\"media/84/84ef06ca1f9024f2c874.png\" /> These currents are fed into a common conductor. If the conductor has a resistance of 5 Ω, the energy loss in 24 hours will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "91.4 × 10<sup>6</sup> J"
+    },
+    {
+     "key": "B",
+     "html": "9.14 mJ"
+    },
+    {
+     "key": "C",
+     "html": "914 Joule"
+    },
+    {
+     "key": "D",
+     "html": "9.14 × 10<sup>8</sup> J"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/e4/e4407996084fa18f17cd.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A resistor <em>R</em> in series with a capacitance <em>C</em> is connected to a 240 V-50 Hz ac apply. The value of <em>C </em>so that <em>R</em> absorbs 150 W at 50 V is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "80 μF"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/22/2245f024fb9e559f735d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "40.68 μF"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/82/8246503844d9eb248acc.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>For the circuit shown below:</p>\n\n<p><img alt=\"\" src=\"media/34/340f0e083ec3e8b2f97d.png\" /></p>\n\n<p>The phase difference between <img align=\"absmiddle\" alt=\"\" src=\"media/50/50bdfbd8be68f0e9bfad.png\" /> and <em>V</em><sub>2</sub> is _______ degree. (correct to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    64,
+    65.8
+   ],
+   "answerText": "65.05",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>65.05 (64.00 - 65.80)</p>\n\n<p><img alt=\"\" src=\"media/9c/9ce4efc7da14af9b43dd.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>For the circuit shown below,</p>\n\n<p><img alt=\"\" src=\"media/d5/d52b30ca32e843c3558a.png\" /></p>\n\n<p>The current <img align=\"absmiddle\" alt=\"\" src=\"media/ca/cac3f70482929ce79a3c.png\" /> through 5 V voltage source is _________ A. (correct to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.25,
+    4.29
+   ],
+   "answerText": "4.28",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4.28 (4.25 - 4.29)</p>\n\n<p><img alt=\"\" src=\"media/73/73baf4126fe4f03ea094.png\" /></p>\n\n<p><img alt=\"\" src=\"media/d8/d85f9820bf98b168e431.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In the series circuit shown in figure, for given V-I values, the value of the coupling coefficient K will be ________. (correct to two decimal places)</p>\n\n<p><img alt=\"\" src=\"media/86/863fb830d147422816e4.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.42,
+    0.44
+   ],
+   "answerText": "0.43",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.43 (0.42 - 0.44)</p>\n\n<p><img alt=\"\" src=\"media/35/357cec201235dbf2681e.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A RLC circuit having resistance <em>R</em> = 10 Ω, inductance <em>L</em> = 2 mH and capacitance <em>C</em> is connected such that:<br />\n<strong>Condition I:</strong> For getting quick oscillation free output for an ac input in series connect RLC circuit.<br />\n<strong>Condition II:</strong> We get quality factor (Q) equal to 3 if the above elements are connected in parallel.<br />\nConsidering the above information, select the correct option(s).</p>\n\n<p> </p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "For condition-I to satisfy; <em>C</em> must be 80 μF."
+    },
+    {
+     "key": "B",
+     "html": "For condition-I to satisfy; <em>C</em> must be 0.05 F."
+    },
+    {
+     "key": "C",
+     "html": "For condition-II to satisfy; <em>C</em> must be 0.18 mF."
+    },
+    {
+     "key": "D",
+     "html": "Both the conditions can’t be satisfied at a time for any value of <em>C</em>."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<p><img alt=\"\" src=\"media/68/6817d565ce5c0a3b2c8e.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "NAT": 6,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

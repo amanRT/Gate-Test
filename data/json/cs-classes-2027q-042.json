@@ -1,0 +1,572 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-042",
+ "title": "DVRUO Classes GATE CS/DA | DBMS | Normalization, Relational Model | Weekly Quiz 3",
+ "sourceTitle": "DVRUO Classes GATE CS/DA | DBMS | Normalization, Relational Model | Weekly Quiz 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 42,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/078_exam_976_GO Classes GATE CS-DA DBMS Normalization, Relational Model Weekly Quiz 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relation state for $R(A, B, C)$</p><p style=\"text-align:center\"><img alt=\"\" height=\"225\" width=\"238\" src=\"media/3c/3c5c9d5e11cefc3bf4bd.png\"></p><p>Which of the following dependencies may hold in the above relation?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A B \\rightarrow C$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$C \\rightarrow A B$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$B \\rightarrow C$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A C \\rightarrow B$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"492644\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{B,D}$</p><p>Here in question its is asked FDs which may hold means chance of having FD in given relation<br><br>so &nbsp;by verifying row 1 and row 2 we got that &nbsp;AB-&gt; C is incorrect<br><br>by seeing same row we see that &nbsp;B-&gt;C is also incorrect<br><br>so &nbsp;AC-&gt;B and C-&gt;AB hold in the given relation<br><br>B,D are correct answers.</p><div class=\"qa-voting-container qa-voting-main-post\"><div class=\"qa-voting qa-voting-net\" id=\"voting_414619\"><div class=\"qa-vote-buttons qa-vote-buttons-net\"><div itemprop=\"text\"><p>Detailed Video Solution:&nbsp;<a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://www.youtube.com/watch?v=Knd_buS1Scw&amp;t=451s\">https://www.youtube.com/watch?v=Knd_buS1Scw&amp;t=451s</a>&nbsp;</p></div></div></div></div><div class=\"qa-a-item-main\">&nbsp;</div></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"414619\"></a><div itemprop=\"text\"><p>Detailed Video Solution:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Knd_buS1Scw&amp;t=451s\" target=\"_blank\">https://www.youtube.com/watch?v=Knd_buS1Scw&amp;t=451s</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/414618\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements best describes the main reason for representing a relational database in BCNF?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>To achieve physical data independence.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>To remove data anomalies (insertion, update, deletion anomalies).</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>To save space on disk.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>To achieve logical data independence.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"414617\"></a><div itemprop=\"text\"><p>BCNF has $0\\%$ redundancy due to Functional Dependencies.</p><p>BCNF may have other types of redundancies. But BCNF is Free $(100\\% \\;\\text{free})$ from redundancies due to FDs.<br><br>Less the redundancies, less the data anomalies.<br><br><strong>Watch this lecture</strong> to understand the relationship between BCNF $\\&amp;$ Redundancies<strong>: <a rel=\"nofollow\" href=\"https://youtu.be/zypcOTF-Lxw\" target=\"_blank\">https://youtu.be/zypcOTF-Lxw</a>&nbsp; </strong></p></div></section></div><p><a href=\"https://gateoverflow.in/414616\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is/are true?</p><ol start=\"1\" style=\"list-style-type:decimal\"><li>Each superkey is a superset of some candidate key.</li><li>Each primary key is also a candidate key, but there may be candidate keys that are not primary keys.</li></ol>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>only $1$ is true</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>only $2$ is true</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>both $1$ and&nbsp;$2$ are true</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>neither $1$ nor $2$ are true</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 12)</small></h4><a name=\"414615\"></a><div itemprop=\"text\">Both statements are True.<br>\n<br>\nEvery superkey can be minimized to some candidate key.<br>\n<br>\nEach superset of a candidate key is a superkey $\\&amp;$ Each superkey is a superset of some candidate key.<br>\n<br>\nEach primary key is also a candidate key, but there may be candidate keys that are not primary keys. Every relation in the relational model has exactly one primary key, But can have any number of candidate keys.</div></section></div><p><a href=\"https://gateoverflow.in/414614\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relational scheme $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E}, \\mathrm{F}, \\mathrm{G}, \\mathrm{H})$ and the following functional dependencies over $$\\mathrm{R}&nbsp;: \\mathrm{A} \\rightarrow \\mathrm{BCD} ; \\mathrm{AD} \\rightarrow \\mathrm{E} ; \\mathrm{EFG} \\rightarrow \\mathrm{H} ; \\mathrm{F} \\rightarrow \\mathrm{GH}$$</p><p>Based on these functional dependencies, there is one key for $\\mathrm{R}$. One of these four functional dependencies can be removed without altering the key. Which one?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{A} \\rightarrow \\mathrm{BCD}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{AD} \\rightarrow \\mathrm{E}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{EFG} \\rightarrow \\mathrm{H}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{F} \\rightarrow \\mathrm{GH}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"523482\"></a><div itemprop=\"text\">Answer is option $\\boxed{\\text{C. EFG} \\to H}$<br>\n<br>\nR(A,B,C,D,E,F,G,H)<br>\n<br>\nFD: <br>\n$$<br>\n\\{ A \\rightarrow BCD,\\; AD \\rightarrow E,\\; EFG \\rightarrow H,\\; F \\rightarrow GH \\}<br>\n$$<br>\n<br>\nCandidate key: $AF^+ = ABCDEFGH \\;\\checkmark$<br>\n<br>\n1) Lets remove $\\{A \\rightarrow BCD\\}$ and check if $AF$ is still CK.<br>\n<br>\n$$<br>\nAF^+ = AFGH \\;\\times<br>\n$$<br>\n<br>\nWe cant remove this FD.<br>\n<br>\n2) Lets remove $\\{AD \\rightarrow E\\}$<br>\n<br>\n$$<br>\nAF^+ = AFBCDGH \\;\\times<br>\n$$<br>\n<br>\nWe can't remove this functional dependency.<br>\n<br>\n3) Lets remove $\\{EFG \\rightarrow H\\}$<br>\n<br>\n$$<br>\nAF^+ = AFBCDEGH \\;\\checkmark<br>\n$$<br>\n<br>\nWe can remove this FD.<br>\n<br>\n4) Lets remove $\\{F \\rightarrow GH\\}$<br>\n<br>\n$$<br>\nAF^+ = AFBCDE \\;\\times<br>\n$$<br>\n<br>\nWe can't remove this FD.</div></section></div><p><a href=\"https://gateoverflow.in/414612\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relational schema $\\text{R(A B C D)}$ with following functional dependency set $F=\\{A\\rightarrow BC,C\\rightarrow D\\};$ The relation $\\text{R}$ is in</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$ NF</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>BCNF</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$ NF</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1$ NF</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"433306\"></a><div itemprop=\"text\"><p><strong><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"237134\">A relation is Not in 3NF if and only if there exists a non-trivial FD where Non-superkey determines a Non-prime attribute.&nbsp;</span></strong></p><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"237134\">Here, $C \\rightarrow D$ violates 3NF because $C$ is Non-superkey &amp; it determines $D$ which is non-prime attribute. So, the relation is Not in 3NF.</span></p><hr><p><strong><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"237134\">A relation is Not in 2NF if and only if there exists a non-trivial FD where proper subset of a candidate key determines a Non-prime attribute.&nbsp;</span></strong></p><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"237134\">Since, the only candidate key here is $A,$ which doesn't have any proper subset, So, there is No violation of 2NF. Hence, $R$ is in 2NF.</span></p><p><strong><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"237134\">Normalization Complete Playlist:&nbsp;<a rel=\"nofollow\" href=\"https://youtube.com/playlist?list=PLIPZ2_p3RNHhJjQGnZB2jORa0JxLdMp4X&amp;feature=shared\" target=\"_blank\">https://youtube.com/playlist?list=PLIPZ2_p3RNHhJjQGnZB2jORa0JxLdMp4X&amp;feature=shared</a></span></strong></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"414726\"></a><div itemprop=\"text\"><p>Here Candidate key is <strong>A⁺(BCD)&nbsp;</strong></p>\n\n<p>Given F</p>\n\n<p>A→&nbsp;BC&nbsp;</p>\n\n<p>C→&nbsp;D&nbsp;</p>\n\n<p>No any multivalue attribute or all are in atomic values So , <strong>1NF</strong></p>\n\n<p>No any partial dependency so , <strong>2NF</strong></p>\n\n<p>A→&nbsp;BC then C→&nbsp;D Transitivity dependency occur so<strong> NOT </strong>in 3NF<br>\n<br>\ntherefore , <strong>Option</strong> A <strong>2NF</strong> is <strong>correct answer</strong></p>\n\n<p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/414611\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relation $\\mathbf{R}(\\underline{\\mathbf{A}, \\mathbf{B}}, \\mathbf{C}, \\mathbf{D}, \\mathbf{E}, \\mathbf{F})$ with $\\{\\mathrm{A}, \\mathrm{B}\\}$ as a composite primary key and the following dependencies:</p><ul><li>$\\{\\mathrm{A}, \\mathrm{B}\\} \\rightarrow \\mathrm{C}, \\mathrm{D}, \\mathrm{E}, \\mathrm{F}$</li><li>$\\mathrm{E} \\rightarrow \\mathrm{D}$</li><li>$\\mathrm{C} \\rightarrow \\mathrm{F}$</li></ul><p>Which of the following options are true? (Select all correct choices)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{R}$ is in $3 \\mathrm{NF}$ (i.e. $3^{\\text {rd }}$ Normal Form)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{R}$ is in $2 \\mathrm{NF}$ (i.e. $2^{\\text {nd }}$ Normal Form)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{R}$ is in $1 \\mathrm{NF}$ (i.e. $1^{\\text {st }}$ Normal Form)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{R}$ is in $2 \\mathrm{NF}$ but not in $3 \\mathrm{NF}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"433601\"></a><div itemprop=\"text\"><p>Since every relation is in 1NF, here we'll start checking for 2NF and look if we find a 2NF violation:<br><br>According to 2NF,<br><br>Every Non-prime attribute is fully dependent on every candidate key ( No partial dependency should exist).<br><br>Thus, any dependency of the sort:<br><br>Some proper subset of C.K ------&gt; Non-Prime attribute should not exist.<br><br>In this relation, the Candidate Key is AB, and the three dependencies do not violate 2NF. Thus, the above relation is in 2NF.<br><br>3NF violation:<br><br>Nonprime ----&gt; Non-prime is a violation of 3NF, and we see that dependencies are satisfying this. Thus, the above relation is not in 3NF.<br><br>Thus, options B,C,D are the answers.</p><div class=\"qa-voting-container qa-voting-main-post\"><div class=\"qa-voting qa-voting-net\" id=\"voting_414610\"><div class=\"qa-vote-buttons qa-vote-buttons-net\">&nbsp;<div itemprop=\"text\"><p>Detailed Video Solution: <a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://youtu.be/Knd_buS1Scw\">https://youtu.be/Knd_buS1Scw</a></p></div></div></div>&nbsp;</div><div class=\"qa-a-item-main\">&nbsp;</div></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"414610\"></a><div itemprop=\"text\"><p>Detailed Video Solution: <a rel=\"nofollow\" href=\"https://youtu.be/Knd_buS1Scw\" target=\"_blank\">https://youtu.be/Knd_buS1Scw</a></p></div></section></div><p><a href=\"https://gateoverflow.in/414609\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following relational schema and set of functional dependencies.<br>\n<br>\n$R(A, B, C, D, E)$ with functional dependencies $A B \\rightarrow E$ and $D \\rightarrow C$. Let $\\mathrm{X}$ be the number of superkeys for this relation.<br>\n<br>\nLet $Y$ be the number of minimal superkeys for this relation. What is $\\mathrm{X}+\\mathrm{Y}?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 9)</small></h4><a name=\"414608\"></a><div itemprop=\"text\">A key is a set of attributes which form a superkey and for which no subset is a superkey. In our example, $\\{A, B, D\\}$ is the only key.<br>\n<br>\nA superkey is a set of attributes $\\mathrm{X}$ s.t. $X^{+}=$ all attributes.<br>\n<br>\nFrom the FDs above, we can derive:<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; \\{A, B, D\\}^{+}=\\{A, B, C, D\\}^{+}=\\{A, B, D, E\\}^{+}=\\{A, B, C, D, E\\}^{+}=\\{A, B, C, D, E\\} \\\\<br>\n&amp; \\text { Hence, } \\\\<br>\n&amp; \\{A, B, D\\},\\{A, B, C, D\\},\\{A, B, D, E\\} \\text {, and }\\{A, B, C, D, E\\} \\text { are all superkeys. }<br>\n\\end{aligned}<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 12)</small></h4><a name=\"414659\"></a><div itemprop=\"text\"><p>( A B D) is only the candidate key&nbsp;<br>\nso total no of super keys = 2^n&nbsp;where n is number of&nbsp;non prime attribute ( here n is C and E )&nbsp;</p>\n\n<p><strong>X</strong> = no of super keys = 2^2 = 4&nbsp;</p>\n\n<p><strong>Y</strong>= minimal super key is only 1 , i.e, candidate key ( A B D )&nbsp;</p>\n\n<p>so X + Y = 4 + 1 =&nbsp;<strong>5</strong>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"533919\"></a><div itemprop=\"text\"><p>$ABD$ is not present on RHS, hence $ABD$ is the $CK$ here as it is minimal $SK$ and can determine every attributes in $R$.</p><p>$\\left( ABD\\right)^+ \\Rightarrow \\left( ABCDE\\right)$</p><p>Now, Superkey is the supersets of $CK$.</p><hr><p>$\\therefore$&nbsp;$\\left(ABD \\ldots. \\ldots \\right) \\Rightarrow$ 1 x 2 x 2.&nbsp;&nbsp;</p><p>($\\because$&nbsp;ABD must be present and C,E have 2 choices each i.e. can be present or not)</p><p>$\\therefore$ $X$ = No. of superkeys in a relation&nbsp;$\\Rightarrow$&nbsp;4.</p><p>&nbsp; &nbsp;$Y$ = minimal&nbsp;$SK$&nbsp;i.e. $CK$ = $ABD$ $\\Rightarrow$ 1.</p><p><br><span style=\"color:#f1c40f;\">$\\therefore$ $X$ $+$ $Y$ = $4$ $+$ $1$ $\\Rightarrow$ 5.</span></p><p><br>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/414607\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a Relation $\\mathrm{R}(\\mathrm{ABCD})$. For which of the following set of functional dependencies (FDs), relation $\\mathrm{R}$ is in Boyce-Codd Normal Form (BCNF)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{BD} \\rightarrow \\mathrm{AC} ; \\mathrm{AB} \\rightarrow \\mathrm{D} ; \\mathrm{AC} \\rightarrow \\mathrm{B}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{A} \\rightarrow \\mathrm{C} ; \\mathrm{B} \\rightarrow \\mathrm{AC} ; \\mathrm{C} \\rightarrow \\mathrm{D}$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{A} \\rightarrow \\mathrm{BCD} ; \\mathrm{B} \\rightarrow \\mathrm{ACD}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{BC} \\rightarrow \\mathrm{AD} ; \\mathrm{D} \\rightarrow \\mathrm{B}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 6)</small></h4><a name=\"414606\"></a><div itemprop=\"text\">Option A:<br>\nKeys are $\\mathrm{BD}, \\mathrm{AB}, \\mathrm{AC}$. So, No $\\mathrm{FD}$ in the given $\\mathrm{FD}$ set violates $\\mathrm{BCNF}$.<br>\n<br>\nOption B:<br>\nThe only key is $\\mathrm{B}$. So, the $\\mathrm{FD~~ A} \\rightarrow \\text{C}$ violates $\\mathrm{BCNF}$.<br>\n<br>\nOption C:<br>\nKeys are $\\text{A, B.}$ So, No $\\mathrm{FD}$ in the given $\\mathrm{FD}$ set violates $\\mathrm{BCNF}$.<br>\n<br>\nOption D:<br>\nKeys are $\\mathrm{BC}, \\mathrm{CD}$. So, the $\\mathrm{FD~~} \\mathrm{D} \\rightarrow \\mathrm{B}$ violates $\\mathrm{BCNF}$.</div></section></div><p><a href=\"https://gateoverflow.in/414605\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose $R$ and $S$ are two relations. Let $C$ be the referential integrity constraint that says: whenever $R$ has a tuple with some values $v_1, v_2, \\ldots, v_n$ in particular attributes $A_1, A_2, \\ldots, A_n$, there must be a tuple of $S$ that has the same values $v_1, v_2, \\ldots, v_n$ in particular attributes $B_1, B_2, \\ldots, B_n$.</p><p>Which of the following operations on $R, S$ can cause violation of the constraint $\\mathrm{C}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Insert into $\\mathrm{R}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Insert into $\\mathrm{S}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Delete from $\\mathrm{R}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Delete from $\\mathrm{S}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"419710\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{A,D}$</p><p>Since relation $R$ refers to $S$, so, if we delete a tuple from $R$, it doesn’t cause referential integrity violation.&nbsp;</p><p><img alt=\"\" width=\"523\" height=\"147\" src=\"media/84/84c8d1441f40d0480118.jpg\"></p><p>According to refrential integrity constraint , The values in the attributes of $R$ either can be null or a value already present in the&nbsp;<span><span class=\"wqLW9c pb3iw RES9jf\">corresponding</span></span> $S$</p><p><strong>A.</strong> Insert in R can cause violation because what if the value is not present in S.&nbsp;</p><p>B. Insert in S will not cause violation.&nbsp;</p><p>C. Delete from R will not cause violation.&nbsp;</p><p><strong>D</strong>. Delete from S will cause a problem because what is the value is being used by R.&nbsp;</p><p>&nbsp;</p><p><strong>Learn it Here (with All GATE PYQs):</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/FyIIaY1rOpY\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a>&nbsp;&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/414604\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which one of the following statements about normal forms is $\\text{FALSE}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{BCNF}$ is stricter than $\\text{3NF}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Lossless, dependency-preserving decomposition into $\\text{3NF}$ is always possible</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Lossless, dependency-preserving decomposition into $\\text{BCNF}$ is always possible</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Any relation with two attributes is in $\\text{BCNF}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 6)</small></h4><a name=\"414603\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{C}$</p><p>A. Yes true, BCNF is stricter than 3NF. Refer the diagram below. Hence <strong>True</strong><br><img alt=\"\" width=\"171\" height=\"161\" src=\"media/53/530be53c91bc95e3bfa8.png\"></p><p>B. 3NF synthesis Algorithm <span><span class=\"wqLW9c pb3iw RES9jf\">guarantees&nbsp;</span></span>lossless dependency preserving decomposition. Hence <strong>True</strong>.&nbsp;</p><p>C. BCNF decomposition might or might not be dependency preserving but it is always lossless. Hence <strong>False</strong>.&nbsp;</p><p>D. Any relation in $2$ Attribute is always in BCNF.&nbsp;&nbsp;</p><p>Let the relation be $R(A,B)$ Now for FDs there are only $3$ possibilties.</p><p>Case 1:</p><p>FD = { $A \\rightarrow B$, $B \\rightarrow A$ }</p><p>Since R has only 2 attributes. Therefore both A and B here will form a candidate key.</p><p>This Relation is in BCNF.</p><p>--------------------------------------------------</p><p>Case 2:</p><p>FD = { $A \\rightarrow B$ }</p><p>Here only A is candidate key.</p><p>This Relation is also in BCNF.</p><p>--------------------------------------------------</p><p>Case 3:</p><p>FD = { }</p><p>That is no Functional Dependency in FD set.</p><p>NO candidate key Here.</p><p>This is also in BCNF.</p><p>Hence <strong>True</strong></p><p><strong>Detailed Video Solution:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Epy_Vw4gFpo&amp;t=2226s\" target=\"_blank\">https://www.youtube.com/watch?v=Epy_Vw4gFpo&amp;t=2226s</a></strong></p><p><strong>Option D Proof:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=SffSx6Kyv_s&amp;list=PLIPZ2_p3RNHhJjQGnZB2jORa0JxLdMp4X&amp;index=20&amp;ab_channel=GOClassesforGATECS\" target=\"_blank\">https://youtu.be/SffSx6Kyv_s</a></p><hr><p>Source of the question:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/1365/gate-cse-2005-question-29-ugcnet-june2015-iii-9\" target=\"_blank\">https://gateoverflow.in/1365/gate-cse-2005-question-29-ugcnet-june2015-iii-9</a></p><p>Similar Question in GATE 1994:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Epy_Vw4gFpo&amp;t=3107s\" target=\"_blank\">https://www.youtube.com/watch?v=Epy_Vw4gFpo&amp;t=3107s</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/414602\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following functional dependencies in a database:</p><ul><li>$A \\rightarrow B$</li><li>$B&nbsp;\\rightarrow C$</li><li>$D&nbsp;\\rightarrow E$</li><li>$E&nbsp;\\rightarrow D$</li><li>$F&nbsp;\\rightarrow G$</li><li>$F&nbsp;\\rightarrow H$</li><li>$(E,F)&nbsp;\\rightarrow&nbsp;I$</li></ul><p>The relation $(E,D,A,B)$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$ NF</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$ NF</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>BCNF</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"489403\"></a><div itemprop=\"text\">The relation only consists of attributes E,D,A and B<br>\n<br>\nso the required function dependencies are:<br>\n<br>\nA-&gt;B, &nbsp;D-&gt;E, &nbsp;E-&gt;D<br>\n<br>\nthe candidate keys are AD and AE<br>\n<br>\nAccording to 2NF defnition, if a proper subset of candidate key determines a non-prime attribute then that is a violation and the relation is not in 2NF and here the non-prime attribute is B and B is getting determined by A which is a subset of candidate key AD and AE.<br>\n<br>\nTherefore the relation is not in 2NF</div></section></div><p><a href=\"https://gateoverflow.in/414601\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the functional dependencies (FDs) of a relation $\\mathrm{R}$ and below-mentioned properties:</p><ul><li>$\\text{P1:}$ A non-prime attribute determines a different non-prime attribute.</li><li>$\\text{P2:}$ A proper subset of a candidate key determines a non-prime attribute.</li></ul><p>Choose the correct option:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If some FD of $\\mathrm{R}$ has property $\\mathrm{P} 1, \\mathrm{R}$ can&#x27;t be in $2 \\mathrm{NF}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If some FD of $\\mathrm{R}$ has property $\\mathrm{P} 2, \\mathrm{R}$ can&#x27;t be in $2 \\mathrm{NF}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{P} 1$ and $\\mathrm{P} 2$ won&#x27;t affect $\\mathrm{R}$ being in $2 \\mathrm{NF}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If some FD of $\\mathrm{R}$ has property $\\mathrm{P} 2, \\mathrm{R}$ can still be in $2 \\mathrm{NF}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 0)</small></h4><a name=\"523535\"></a><div itemprop=\"text\"><p>Answer is option $\\boxed{B}$</p><p>If some relation has Property $P1$ then it can't be in $3NF$ . Because its a violation of $3NF$</p><p>Poperty P2 is violation of $2NF$. So if a relation has property P2 then it can't be in $2NF$.</p><p>A.&nbsp;If some FD of <span id=\"MathJax-Element-88-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-723\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-724\" class=\"mjx-mrow\"><span id=\"MJXc-Node-725\" class=\"mjx-texatom\"><span id=\"MJXc-Node-726\" class=\"mjx-mrow\"><span id=\"MJXc-Node-727\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">R</span></span></span></span></span></span></span> has property <span id=\"MathJax-Element-89-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;P&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-728\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-729\" class=\"mjx-mrow\"><span id=\"MJXc-Node-730\" class=\"mjx-texatom\"><span id=\"MJXc-Node-731\" class=\"mjx-mrow\"><span id=\"MJXc-Node-732\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">P</span></span></span></span><span id=\"MJXc-Node-733\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">1</span></span><span id=\"MJXc-Node-734\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.163em; padding-bottom: 0.556em;\">,</span></span><span id=\"MJXc-Node-735\" class=\"mjx-texatom MJXc-space1\"><span id=\"MJXc-Node-736\" class=\"mjx-mrow\"><span id=\"MJXc-Node-737\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">R</span></span></span></span></span></span></span> can't be in <span id=\"MathJax-Element-90-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-738\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-739\" class=\"mjx-mrow\"><span id=\"MJXc-Node-740\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">2</span></span><span id=\"MJXc-Node-741\" class=\"mjx-texatom\"><span id=\"MJXc-Node-742\" class=\"mjx-mrow\"><span id=\"MJXc-Node-743\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">N</span></span><span id=\"MJXc-Node-744\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">F.</span></span></span></span></span></span></span></p><p><span class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span class=\"mjx-math\" aria-hidden=\"true\"><span class=\"mjx-mrow\"><span class=\"mjx-texatom\"><span class=\"mjx-mrow\"><span class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">This statement is <strong>False </strong>because there is relation possible which is not in 3NF but are in 2NF.</span></span></span></span></span></span></span></p><p><span class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span class=\"mjx-math\" aria-hidden=\"true\"><span class=\"mjx-mrow\"><span class=\"mjx-texatom\"><span class=\"mjx-mrow\"><span class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">B.&nbsp;</span></span></span></span></span></span></span>If some FD of <span id=\"MathJax-Element-91-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-745\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-746\" class=\"mjx-mrow\"><span id=\"MJXc-Node-747\" class=\"mjx-texatom\"><span id=\"MJXc-Node-748\" class=\"mjx-mrow\"><span id=\"MJXc-Node-749\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">R</span></span></span></span></span></span></span> has property <span id=\"MathJax-Element-92-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;P&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-750\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-751\" class=\"mjx-mrow\"><span id=\"MJXc-Node-752\" class=\"mjx-texatom\"><span id=\"MJXc-Node-753\" class=\"mjx-mrow\"><span id=\"MJXc-Node-754\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">P</span></span></span></span><span id=\"MJXc-Node-755\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">2</span></span><span id=\"MJXc-Node-756\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.163em; padding-bottom: 0.556em;\">,</span></span><span id=\"MJXc-Node-757\" class=\"mjx-texatom MJXc-space1\"><span id=\"MJXc-Node-758\" class=\"mjx-mrow\"><span id=\"MJXc-Node-759\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">R</span></span></span></span></span></span></span> can't be in <span id=\"MathJax-Element-93-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-760\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-761\" class=\"mjx-mrow\"><span id=\"MJXc-Node-762\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">2</span></span><span id=\"MJXc-Node-763\" class=\"mjx-texatom\"><span id=\"MJXc-Node-764\" class=\"mjx-mrow\"><span id=\"MJXc-Node-765\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">N</span></span><span id=\"MJXc-Node-766\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">F</span></span></span></span></span></span></span></p><p><span class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span class=\"mjx-math\" aria-hidden=\"true\"><span class=\"mjx-mrow\"><span class=\"mjx-texatom\"><span class=\"mjx-mrow\"><span class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">This is <strong>True </strong>because P2 is a violation of 2NF.</span></span></span></span></span></span></span></p><p><span class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span class=\"mjx-math\" aria-hidden=\"true\"><span class=\"mjx-mrow\"><span class=\"mjx-texatom\"><span class=\"mjx-mrow\"><span class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">C.&nbsp;</span></span></span></span></span></span></span><span id=\"MathJax-Element-94-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;P&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-767\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-768\" class=\"mjx-mrow\"><span id=\"MJXc-Node-769\" class=\"mjx-texatom\"><span id=\"MJXc-Node-770\" class=\"mjx-mrow\"><span id=\"MJXc-Node-771\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">P</span></span></span></span><span id=\"MJXc-Node-772\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">1</span></span></span></span></span> and <span id=\"MathJax-Element-95-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;P&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-773\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-774\" class=\"mjx-mrow\"><span id=\"MJXc-Node-775\" class=\"mjx-texatom\"><span id=\"MJXc-Node-776\" class=\"mjx-mrow\"><span id=\"MJXc-Node-777\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">P</span></span></span></span><span id=\"MJXc-Node-778\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">2</span></span></span></span></span> won't affect <span id=\"MathJax-Element-96-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-779\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-780\" class=\"mjx-mrow\"><span id=\"MJXc-Node-781\" class=\"mjx-texatom\"><span id=\"MJXc-Node-782\" class=\"mjx-mrow\"><span id=\"MJXc-Node-783\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">R</span></span></span></span></span></span></span> being in <span id=\"MathJax-Element-97-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-784\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-785\" class=\"mjx-mrow\"><span id=\"MJXc-Node-786\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">2</span></span><span id=\"MJXc-Node-787\" class=\"mjx-texatom\"><span id=\"MJXc-Node-788\" class=\"mjx-mrow\"><span id=\"MJXc-Node-789\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">N</span></span><span id=\"MJXc-Node-790\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">F.</span></span></span></span></span></span></span></p><p>This is <strong>False</strong>. As seen previously P2 is a violation of 2NF.</p><p>D.&nbsp;If some FD of <span id=\"MathJax-Element-98-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-791\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-792\" class=\"mjx-mrow\"><span id=\"MJXc-Node-793\" class=\"mjx-texatom\"><span id=\"MJXc-Node-794\" class=\"mjx-mrow\"><span id=\"MJXc-Node-795\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">R</span></span></span></span></span></span></span> has property <span id=\"MathJax-Element-99-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;P&lt;/mi&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-796\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-797\" class=\"mjx-mrow\"><span id=\"MJXc-Node-798\" class=\"mjx-texatom\"><span id=\"MJXc-Node-799\" class=\"mjx-mrow\"><span id=\"MJXc-Node-800\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">P</span></span></span></span><span id=\"MJXc-Node-801\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">2</span></span><span id=\"MJXc-Node-802\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.163em; padding-bottom: 0.556em;\">,</span></span><span id=\"MJXc-Node-803\" class=\"mjx-texatom MJXc-space1\"><span id=\"MJXc-Node-804\" class=\"mjx-mrow\"><span id=\"MJXc-Node-805\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">R</span></span></span></span></span></span></span> can still be in <span id=\"MathJax-Element-100-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-806\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-807\" class=\"mjx-mrow\"><span id=\"MJXc-Node-808\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">2</span></span><span id=\"MJXc-Node-809\" class=\"mjx-texatom\"><span id=\"MJXc-Node-810\" class=\"mjx-mrow\"><span id=\"MJXc-Node-811\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">N</span></span><span id=\"MJXc-Node-812\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">F</span></span></span></span></span></span></span></p><p><span class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;N&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;F&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span class=\"mjx-math\" aria-hidden=\"true\"><span class=\"mjx-mrow\"><span class=\"mjx-texatom\"><span class=\"mjx-mrow\"><span class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">Again this is <strong>False</strong>. Because P2 is a violation of 2NF</span></span></span></span></span></span></span></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"476125\"></a><div itemprop=\"text\"><p>this proper subset of c.k&nbsp; can detemines non prime attribute&nbsp;</p><p><strong>this directly match the violation rule of 2 nf so ,if any fd has p2 the relation must not be in 2nf</strong></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/414600\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Following table has two attributes Employee_id and Manager_id, where Employee_id is a primary key and manager_id is a foreign key referencing Employee_id with on-delete cascade:</p><p>$$\\begin{array}{|c|c|} \\hline \\text{Employee_id} &amp; \\text{Manager_id} \\\\ \\hline 20 &amp; 40 \\\\ \\hline 25 &amp; 40 \\\\ \\hline 30 &amp; 35 \\\\ \\hline 35 &amp; 20 \\\\ \\hline 40 &amp; 45 \\\\ \\hline 45 &amp; 25 \\\\ \\hline \\end{array}$$</p><p>On deleting the table $(20,40)$, the set of other tuples that must be deleted to maintain the referential integrity of table is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(30, 35)$ only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(30, 35)$ and $(35, 20)$ only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(35, 20)$ only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(40, 45)$ and $(25, 40)$ only</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"430107\"></a><div itemprop=\"text\">Given, Manager_id refers Employee_id and (20, 40) deleted.<br>\n<br>\nSince Employee_id = 20 deleted, all records with Manager_id = 20 must be deleted.<br>\n<br>\nSo, (35, 20) &nbsp;must be deleted.<br>\n<br>\nSince Employee_id = 35 deleted, all records with Manager_id = 35 must be deleted.<br>\n<br>\nSo, (30, 35) &nbsp;must be deleted.<br>\n<br>\nAnd no Manager_id equals 30, so stop.<br>\n<br>\nANSWER &nbsp;: B</div></section></div><p><a href=\"https://gateoverflow.in/414599\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relational schema and set of functional dependencies.</p><p>$\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})$ with functional dependencies $\\mathrm{ABC} \\rightarrow \\mathrm{D} ; \\mathrm{CD} \\rightarrow \\mathrm{A} ; \\mathrm{AD} \\rightarrow \\mathrm{E}$.</p><p>Which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$R$ is in $1 \\mathrm{NF}$ but not in $2 \\mathrm{NF}$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$R$ is in $2 \\mathrm{NF}$ but not in $3 \\mathrm{NF}$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{R}$ is in $3 \\mathrm{NF}$ but not in BCNF.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{R}$ is in BCNF.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 39)</small></h4><a name=\"415280\"></a><div itemprop=\"text\"><p>So for the given Relation R(A, B, C, D, E),</p><p>Candidate keys are: ABC and BCD&nbsp;</p><p>Prime attribute: A, B, C, D</p><p>Non-prime attribute: E</p><p>To check whether the given relation is in <strong>2NF</strong> or not we are checking for</p><p><strong>&nbsp;proper subset of candidate key -&gt;Non prime attribute</strong>(This type of FDs are violation of 2NF)</p><p>Closure of proper subset of candidate key: A*={A},&nbsp; B*={B},&nbsp; c*={C},&nbsp; D*={D},&nbsp; AB*={A,B},&nbsp; AC*={A,C},&nbsp; BC*={B,C},</p><p><strong>CD*={C,D,A,E}</strong> , BD*={B,D}</p><p>Here CD is a proper subset of CK BCD and CD determines E(Non-prime Attribute)(CD-&gt;E) which is a violation of 2NF.</p><p>So, the <strong>Answer is A.</strong></p><p><strong>Note: To check whether the given relation is in 2NF,3NF we have to check FD closure not only given FDs</strong>.</p><p>&nbsp;</p><div class=\"qa-voting-container qa-voting-main-post\"><div class=\"qa-voting qa-voting-net\" id=\"voting_414598\"><div class=\"qa-vote-buttons qa-vote-buttons-net\">&nbsp;<div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong> <a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://youtu.be/AtNoMrTB_Nk\">https://youtu.be/AtNoMrTB_Nk</a></p></div></div></div>&nbsp;</div><div class=\"qa-a-item-main\">&nbsp;</div></div></section><section><h4>Source solution 2 <small>(score: 11)</small></h4><a name=\"414598\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong> <a rel=\"nofollow\" href=\"https://youtu.be/AtNoMrTB_Nk\" target=\"_blank\">https://youtu.be/AtNoMrTB_Nk</a></p></div></section></div><p><a href=\"https://gateoverflow.in/414597\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An attribute $A$ is called prime if $A$ is in any of the candidate keys. Assume in the following statements, $\\mathrm{A}$ is an attribute $\\&amp;\\;\\mathcal{X}$ is a set of attributes.</p><p>Consider the following statements:</p><ol start=\"1\" style=\"list-style-type:upper-alpha\"><li>Domain of each attribute is an elementary type; that is, not a set or a record structure.<br>&nbsp;</li><li>Whenever $\\mathcal{X} \\mapsto A$ is a functional dependency that holds in relation $\\mathbf{R}$ and $A \\notin \\mathcal{X}$, then either<ul><li>$A$ is prime, or</li><li>$\\quad \\mathcal{X}$ is a key or a super-key for $\\mathbf{R}$.<br>&nbsp;</li></ul></li><li>Whenever $\\mathcal{X} \\mapsto A$ is a functional dependency that holds in relation $\\mathbf{R}$ and $A \\notin \\mathcal{X}$, then either<ul><li>$A$ is prime, or</li><li>$\\mathcal{X}$ is not a proper subset of any key for $\\mathbf{R}$.<br>&nbsp;</li></ul></li><li>Whenever $\\mathcal{X} \\mapsto A$ is a functional dependency that holds in relation $\\mathbf{R}$ and $A \\notin \\mathcal{X}$, then<ul><li>$\\mathcal{X}$ is a key or a super-key for $\\mathbf{R}$.</li></ul></li></ol><p>Which of the following is a correct match??</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{A – 1NF, B – 2NF, C – 3NF, D – BCNF}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{A – 1NF, B – BCNF, C – 2NF, D – 3NF}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{A – 1NF, B – 3NF, C – 2NF, D – BCNF}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{A – BCNF, B – 3NF, C – 2NF, D – 1NF}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 6)</small></h4><a name=\"414738\"></a><div itemprop=\"text\">Answer is option $\\boxed{C}$<br>\n<br>\n(A)<br>\n<br>\nIts talking about $1NF$.<br>\n<br>\n--------------------------------------------------<br>\n<br>\n(B)<br>\n<br>\n$X \\rightarrow A$<br>\n<br>\nHere, either<br>\n<br>\n1) $A$ is prime, so here $X \\rightarrow A$ can be of type<br>\n<br>\n&nbsp;&nbsp;&nbsp;(i) $C_k \\rightarrow prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n&nbsp;&nbsp;&nbsp;(ii) $prime \\rightarrow prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n<br>\nor<br>\n<br>\n2) $X$ is $C_k$ or $S_k$, so here $X \\rightarrow A$ can be of type<br>\n<br>\n&nbsp;&nbsp;&nbsp;(i) $C_k \\rightarrow prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n&nbsp;&nbsp;&nbsp;(ii) $C_k \\rightarrow non\\text{-}prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n<br>\nSo B is in 3NF (basically the cases don’t provide any counter eg).<br>\n<br>\n--------------------------------------------------<br>\n<br>\n(C)<br>\n<br>\n$X \\rightarrow A$<br>\n<br>\nHere, either<br>\n<br>\n1) $A$ is prime, so here $X \\rightarrow A$ can be of type<br>\n<br>\n&nbsp;&nbsp;&nbsp;(i) $C_k \\rightarrow prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n&nbsp;&nbsp;&nbsp;(ii) $prime \\rightarrow prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n<br>\nor<br>\n<br>\n2) $X$ is not proper subset of any key of $R$,<br>\n<br>\nso here $X$ is either non prime, then $X \\rightarrow A$ can be of type<br>\n<br>\n&nbsp;&nbsp;&nbsp;(i) $nonprime \\rightarrow nonprime $ only &nbsp;$\\Rightarrow$ in 3NF violation!!!<br>\n<br>\nor<br>\n<br>\n&nbsp;&nbsp;&nbsp;$X$ is candidate key itself<br>\n<br>\n&nbsp;&nbsp;&nbsp;(i) $C_k \\rightarrow prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n&nbsp;&nbsp;&nbsp;(ii) $C_k \\rightarrow non\\text{-}prime$ &nbsp;$\\Rightarrow$ in 3NF &nbsp;<br>\n<br>\nSo C is not in 3NF, BUT is in 2NF.<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/414596\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 16,
+  "types": {
+   "MSQ": 6,
+   "MCQ": 8,
+   "NAT": 1
+  },
+  "withoutKey": 6
+ }
+}

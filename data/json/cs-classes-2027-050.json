@@ -1,0 +1,1053 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-050",
+ "title": "DVRUO Classes Test Series | DBMS | Subject Wise Test 3",
+ "sourceTitle": "DVRUO Classes Test Series | DBMS | Subject Wise Test 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 50,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/077_exam_1356_GO Classes Test Series DBMS Subject Wise Test 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $\\mathrm{B+}$ Tree of order $d=2$&nbsp; (Note: Order is defined as maximum pointers = $2d+1$, minimum entries = $d$).</p><ul><li>Max pointers per node = $5$.<br> </li><li>Max keys per node = $4$.<br> </li><li>Min keys per node = $2$.</li></ul><p>We insert the following keys in this specific order into an initially empty tree:<br>$$1, 2, 3, 4, 5, 6, 7, 8, 9, 10$$<br>However, the insertion strategy is Standard Insertion (splitting nodes as they fill), NOT \"Bulk Loading\".<br><br>How many node splits (including leaf and internal nodes) occur during this entire process?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 3</p><p><a href=\"https://gateoverflow.in/507951\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a database using WaitDie deadlock prevention protocol:</p><ul><li>Transaction $T_{old}$ has timestamp $10$.<br> </li><li>Transaction $T_{young}$ has timestamp $20$.<br><br>(Smaller timestamp = Older transaction)</li></ul><p>Which of the following scenarios are allowed/true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $T_{old}$ requests a lock held by $T_{young}$, $T_{old}$ waits.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $T_{old}$ requests a lock held by $T_{young}$, $T_{old}$ is aborted (dies).<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $T_{young}$ requests a lock held by $T_{old}$, $T_{young}$ waits.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $T_{young}$ requests a lock held by $T_{old}$, $T_{young}$ is aborted (dies).</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/507950\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Table $T$ has attributes $\\mathrm{(A, B, C)}$. $\\mathrm{A}$ is the Primary Key.<br><br>Query:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT T1.A\nFROM T AS T1, T AS T2\nWHERE T1.C = T2.C</pre><p><br><br>If table $T$ has $1000$ tuples, and the attribute $C$ has $1000$ distinct values (all unique), what is the cardinality of the result set?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1000,
+    1000
+   ],
+   "answerText": "1000",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/507949\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database file has $1,000,000$ records.The file is ordered by the primary key ID.</p><ul><li>Block Size = $4096$ bytes<br> </li><li>Record Size = $100$ bytes<br> </li><li>Key Size = $10$ bytes<br> </li><li>Pointer Size = $6$ bytes</li></ul><p>We construct a Primary Sparse Index on ID.<br>What is the maximum number of block I/Os required to fetch a random record using this index (worst case), assuming the index and data are on disk and no caching?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$ \\lceil \\log_2 (1000000) \\rceil + 1 $<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$ \\lceil \\log_{256} (25000) \\rceil + 1 $<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$ \\lceil \\log_{256} (25000) \\rceil + 2 $<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$ \\lceil \\log_{256} (1000000) \\rceil + 1 $</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/507948\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation schema<br>$$\\mathrm{R(E, F, G, H)}$$<br>It is given that:</p><ul><li>E is a key for R.<br> </li><li>No other non-trivial functional dependencies are known to hold.<br> </li><li>Attribute E is atomic and does not contain NULL values.<br> </li><li>The term superkey is used in its formal relational sense.</li></ul><p>The maximum number of superkeys for the relation schema $\\mathrm{R(E, F, G, H)}$ is ________&nbsp;</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 8</p><p><a href=\"https://gateoverflow.in/507947\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relational schemas used in a university library database:<br>$$\\mathrm{Book(Title, Author, Catalog_{no}, Publisher, Year, Price)}$$<br>$$\\mathrm{Collection(Title, Author, Catalog_{no})}$$<br>The following functional dependencies are known to hold:</p><ol><li>$\\mathrm{\\{Title, Author\\} \\rightarrow Catalog_{no}}$<br> </li><li>$\\mathrm{Catalog_{no} \\rightarrow Title, Author, Publisher, Year}$<br> </li><li>$\\mathrm{\\{Publisher, Title, Year\\} \\rightarrow Price}$</li></ol><p>Assume that {Title, Author} is a candidate key for both Book and Collection.<br>Which of the following statements is TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Both Book and Collection are in BCNF<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Both Book and Collection are in 3NF only<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Book is in 2NF but not in 3NF, and Collection is in 3NF<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both Book and Collection are in 2NF only</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/507946\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation schema<br>$$\\mathrm{R (A, B, C, D, E)}$$<br>With the following set of functional dependencies:<br>$$F=\\mathrm{\\{A \\rightarrow B, C \\rightarrow D, A C \\rightarrow E\\}}$$<br>A student proposes the following decomposition of R :<br>$$\\mathrm{R} 1(\\mathrm{~A}, \\mathrm{~B}), \\mathrm{R} 2(\\mathrm{C}, \\mathrm{D}), \\mathrm{R} 3(\\mathrm{~A}, \\mathrm{C}, \\mathrm{E})$$<br>Which of the following statements about the above decomposition is CORRECT?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The decomposition is lossless join and dependency preserving.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The decomposition is lossless join but not dependency preserving.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The decomposition is dependency preserving but not lossless join.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The decomposition is neither lossless join nor dependency preserving.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/507945\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ and $B$ be two relations, and let&nbsp;$C$ be an arbitrary join condition involving attributes from both $A$ and $B$.<br><br>In relational algebra, the inner join of $A$ and $B$ with respect to condition $C$ is denoted as:<br>$$A \\bowtie_{C} B$$<br>Assume that:</p><ul><li>No outer join semantics are implied.</li><li>No projection is applied unless explicitly stated, and</li><li>Tuples are combined strictly according to relational algebra definitions.</li></ul><p>Which of the following most accurately describes the result of the operation $A \\bowtie_{C} B$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For every pair of tuples $(a, b)$ such that $a \\in A$ and $b \\in B$, the tuples are concatenated if and only if condition $C$ evaluates to true; all other tuples are excluded from the result.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>For every tuple in $A$, if no tuple in $B$ satisfies condition $C$, the tuple from $A$ appears in the result with NULL values for attributes of $B$.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For every tuple in $B$, if no tuple in $A$ satisfies condition $C$, the tuple from $B$ appears in the result with NULL values for attributes of $A$.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The result consists of all possible concatenations of tuples from $A$ and $B$, irrespective of condition $C$.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/507944\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let the relation schema be:<br>$$\\mathrm{R(cid, title, year, dept)}$$<br>Assume the following set of functional dependencies holds on R :<br>$$\\mathrm{F =\\{ cid \\rightarrow title, title \\rightarrow dept, (cid, year) \\rightarrow dept \\}}$$<br>No other functional dependencies hold except those implied by Armstrong's axioms.<br>Which of the following tuple sets can exist in a legal instance of $R$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\mathrm{c1}, \\mathrm{DB}, 2010, \\mathrm{CS}), (\\mathrm{c1}, \\mathrm{DB}, 2011, \\mathrm{EE})$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(\\mathrm{c1}, \\mathrm{DB}, 2010, \\mathrm{CS}), (\\mathrm{c2}, \\mathrm{DB}, 2012, \\mathrm{CS})$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(\\mathrm{c1}, \\mathrm{DB}, 2010, \\mathrm{CS}), (\\mathrm{c1}, \\mathrm{AI}, 2011, \\mathrm{CS})$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(\\mathrm{c1}, \\mathrm{DB}, 2010, \\mathrm{CS}), (\\mathrm{c2}, \\mathrm{AI}, 2012, \\mathrm{EE})$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/507943\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{R(A, B, C, D)}$ be a relation schema, and let $X \\rightarrow Y$ be a functional dependency defined on $R$.</p><ol><li>A functional dependency is said to be trivial if $Y \\subseteq X$.<br> </li><li>A functional dependency is said to be completely non-trivial if no attribute on the right-hand side appears on the left-hand side.</li></ol><p>Which of the following statements best characterizes a completely non-trivial functional dependency?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A functional dependency $\\mathrm{X} \\rightarrow \\mathrm{Y}$ where $\\mathrm{Y} \\subseteq \\mathrm{X}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A functional dependency $\\mathrm{X} \\rightarrow \\mathrm{Y}$ where $\\mathrm{X} \\cap \\mathrm{Y}=\\varnothing$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A functional dependency $\\mathrm{X} \\rightarrow \\mathrm{Y}$ where $\\mathrm{Y} \\not \\subset \\mathrm{X}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/507941\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following two relations $\\mathbf{T 1}(\\mathbf{P}, \\mathbf{Q})$ and $\\mathbf{T 2}(\\mathbf{R}, \\mathbf{S})$ with the instances shown below.</p><ul><li>In relation T1, attribute $\\mathbf{p}$ is the primary key.</li><li>In relation T2, attribute $\\mathbf{R}$ is the primary key.</li><li>Attribute $\\mathbf{S}$ in T2 is a foreign key that references T1(P).</li></ul><p>The referential integrity constraints are defined as follows:</p><ul><li>ON DELETE CASCADE</li><li>ON UPDATE SET NULL</li></ul><p><br>The current contents of the relations are:<br>$$<br>\\text{T1}(P, Q) =<br>\\begin{array}{|c|c|}<br>\\hline<br>P &amp; Q \\\\<br>\\hline<br>2 &amp; 2 \\\\<br>3 &amp; 8 \\\\<br>5 &amp; 8 \\\\<br>6 &amp; 9 \\\\<br>7 &amp; 3 \\\\<br>8 &amp; 5 \\\\<br>9 &amp; 8 \\\\<br>\\hline<br>\\end{array}<br>$$<br>$$<br>\\text{T2}(R, S) =<br>\\begin{array}{|c|c|}<br>\\hline<br>R &amp; S \\\\<br>\\hline<br>2 &amp; 2 \\\\<br>3 &amp; 2 \\\\<br>5 &amp; 7 \\\\<br>7 &amp; 2 \\\\<br>8 &amp; 3 \\\\<br>9 &amp; 7 \\\\<br>\\hline<br>\\end{array}<br>$$<br>Now, the following sequence of SQL operations is issued in the given order:<br> </p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">1. UPDATE T1 SET P = 10 WHERE P = 2;\n\n2. DELETE FROM T1 WHERE P = 7;\n\n3. UPDATE T1 SET P = 3 WHERE P = 8;</pre><p><br><br>Assume that:</p><ul><li>All constraints are immediately enforced</li><li>No other constraints exist</li><li>No transaction rollback occurs unless explicitly forced by a constraint violation</li></ul><p>After the execution of all the above operations, how many tuples remain in relation T2?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><p><a href=\"https://gateoverflow.in/507940\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{R}_1(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})$ and $\\mathrm{R}_2(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})$ be two relations in a relational database, and the attribute \"a\"&nbsp;of relation $R_1$ is a foreign key that references the primary key $x$ of relation $R_2$.<br><br>Assume that:</p><ul><li>No ON DELETE or ON UPDATE actions (CASCADE / SET NULL / SET DEFAULT) are specified.<br> </li><li>Referential integrity constraints are immediately enforced.<br> </li><li>All attributes are NOT NULL, unless forced otherwise by constraint semantics.</li></ul><p>Consider the following operations issued independently (each operation is applied to the initial database state, not cumulatively):</p><ol><li>Insert a tuple into $R_1$<br> </li><li>Insert a tuple into $R_2$<br> </li><li>Delete a tuple from $R_1$<br> </li><li>Delete a tuple from $R_2$</li></ol><p>Which of the following pairs of operations may cause a violation of the referential integrity constraint, depending on the data values involved?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Operations $1$ and $2$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Operations $2$ and $3$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Operations $3$ and $4$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Operations $4$ and $1$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/507939\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let the relation schema be:<br>$$\\mathrm{R(cid, title, year, dept)}$$<br>Assume the following set of functional dependencies holds on R:<br><br>$$\\mathrm{F=\\{ cid \\rightarrow title, title \\rightarrow dept, (cid, year) \\rightarrow dept \\}}$$<br>No other functional dependencies hold except those implied by Armstrong's axioms.<br>Which of the following statements are necessarily true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{\\{ cid \\}}$ is a candidate key of $R$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{\\{cid, year\\}}$ is a superkey but not a candidate key<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The dependency (cid, year) &nbsp;dept is redundant<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Two tuples with the same title but different dept values can never co-exist in any legal instance of $R$</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/507938\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following database schema:</p><ul><li>$\\mathrm{Sailors(sid, sname, rating, age)}$<br> </li><li>$\\mathrm{Boats(bid, bname, color)}$<br> </li><li>$\\mathrm{Reserves(sid, bid, day)}$</li></ul><p>Assume the following:</p><ol><li>sid is the primary key of Sailors.<br> </li><li>bid is the primary key of Boats.<br> </li><li>(sid, bid, day) is the primary key of Reserves.<br> </li><li>SQL follows set semantics (that is, duplicate tuples are eliminated).<br> </li><li>Every sailor may reserve the same boat on multiple days.<br> </li><li>Boats can have colors other than 'red' and 'green'.</li></ol><p>Now consider the following SQL query:<br> </p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT S.sid\nFROM Sailors S, Reserves R, Boats B\nWHERE S.sid = R.sid\n&nbsp;&nbsp;&nbsp;&nbsp;AND R.bid = B.bid\n&nbsp;&nbsp;&nbsp;&nbsp;AND B.color = 'red'\nEXCEPT\nSELECT S2.sid\nFROM Sailors S2, Reserves R2, Boats B2\nWHERE S2.sid = R2.sid\n&nbsp;&nbsp;&nbsp;&nbsp;AND R2.bid = B2.bid\n&nbsp;&nbsp;&nbsp;&nbsp;AND B2.color = 'green';</pre><p><br><br><br>Which of the following statements MOST ACCURATELY describes the result produced by the above query?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The query returns the sid of every sailor who has reserved at least one red boat and has never reserved any green boat.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The query returns the sid of every sailor who has reserved only red boats and no boat of any other color.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The query returns the sid of every sailor who has reserved all red boats in the database but no green boat.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The query returns the sid of every sailor who has reserved a red boat and a green boat on different days.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/507937\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relational table STUDENT, which stores exactly one tuple for each registered student in a university.<br>The table has the following attributes:<br><br>1. Registration_Num: A unique registration number assigned by the university to each registered student.<br><br>2. UID: A unique identity number assigned at the national level to each citizen.<br><br>3. BankAccount_Num: A bank account number.</p><ul><li>A student may have multiple bank accounts.<br> </li><li>A bank account may be a joint account shared by multiple individuals.<br> </li><li>This attribute stores only one (primary) account number for the student.</li></ul><p>4. Name: Name of the student.<br><br>5. Hostel_Room: Hostel room number assigned to the student (if any).<br><br>Assume the following:</p><ul><li>The table contains no duplicate tuples.<br> </li><li>NULL values may appear wherever logically applicable.<br> </li><li>No additional integrity constraints are enforced other than those explicitly stated above.</li></ul><p>Which of the following statements is INCORRECT?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>BankAccount_Num is a candidate key.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Registration_Num can be chosen as a primary key.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>UID is a candidate key if all students are from the same country.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $\\mathbf{S}$ is a superkey such that $\\mathrm{S \\cap UID}$ $=\\varnothing$, then $\\mathrm{S \\cup UID}$ is also a superkey.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/507936\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation $\\mathrm{R}(\\mathrm{A}, \\mathrm{B})$ where:</p><ul><li>Attribute A may contain duplicate values,<br> </li><li>Attribute B may contain duplicate values as well as NULLs.</li></ul><p>Assume that the SQL engine strictly follows the SQL standard.<br>Let the following SQL queries be executed on relation R:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">Q1: SELECT COUNT(*) FROM R;\n\nQ2: SELECT COUNT(DISTINCT A) FROM R;\n\nQ3: SELECT COUNT(DISTINCT B) FROM R;\n\nQ4: SELECT COUNT(DISTINCT *) FROM R;\n\nQ5: SELECT MAX(DISTINCT A) FROM R;</pre><p><br>Which of the following statements is CORRECT?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Queries Q1, Q2, Q3, and Q5 are valid SQL queries, but Q4 is syntactically invalid.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Queries Q2, Q3, and Q5 are valid SQL queries, but Q1 and Q4 are syntactically invalid.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Queries Q1, Q2, Q3, and Q4 are valid SQL queries, but Q5 is syntactically invalid.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only queries Q1, Q2, and Q3 are valid SQL queries.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/507935\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation $R(A, B)$ with the following multiset (bag) of tuples:<br>$$<br>\\begin{aligned}<br>&amp;(1,10)\\\\<br>&amp;(2,\\mathrm{NULL})\\\\<br>&amp;(3,\\mathrm{NULL})\\\\<br>&amp;(4,10)\\\\<br>&amp;(5,\\mathrm{NULL})<br>\\end{aligned}<br>$$<br>Assume that the SQL system strictly follows the SQL standard regarding NULL values and aggregate function semantics.<br>Now consider the following SQL queries executed independently on relation R:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">Q1: SELECT COUNT(*) FROM R;\n\nQ2: SELECT COUNT(B) FROM R;\n\nQ3: SELECT COUNT(DISTINCT B) FROM R;\n\nQ4: SELECT SUM(B) FROM R;\n\nQ5: SELECT AVG(B) FROM R;\n\nQ6: SELECT SUM(DISTINCT B) FROM R;</pre><p><br>Which of the following options gives the CORRECT ordered result<br>$$(\\mathrm{Q} 1, \\mathrm{Q} 2, \\mathrm{Q} 3, \\mathrm{Q} 4, \\mathrm{Q} 5, \\mathrm{Q} 6) ?$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(5,2,1,20,10,10)$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(5,2,1,20,20,10)$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>( $5,5,2$, NULL, NULL, NULL)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(5,2,2,20,10,20)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/507934\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation $\\mathrm{R(A, B, C)}$, where $\\mathrm{C}$ is an integer-valued attribute that is allowed to take NULL values.<br>Assume that the SQL system follows the SQL standard semantics, including three-valued logic (TRUE, FALSE, UNKNOWN).<br>Consider the following SQL query:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT *\nFROM R\nWHERE (C&gt;10)OR(C&lt;=10);\n</pre><p><br>Which of the following statements about the result of the above query are CORRECT?<br>(Select ALL correct options.)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every tuple in $\\mathrm{R}$ for which $\\mathrm{C}$ is NOT NULL will appear in the result.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Every tuple in $\\mathrm{R}$ for which $\\mathrm{C}$ is NULL will appear in the result.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The result of the query is identical to the result of: $\\verb|SELECT * FROM R WHERE C IS NOT NULL;|$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For any tuple $t$ in $\\mathrm{R}$, if $\\mathrm{C}$&nbsp;evaluates to UNKNOWN in both comparisons, then $t$ is excluded from the result.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><p><a href=\"https://gateoverflow.in/507933\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following relation:<br>$$\\mathrm{Scores(Team, Day, Opponent, Runs)}$$<br>Given that:</p><ul><li>Each tuple represents the number of runs scored by Team against Opponent on a given Day.</li><li>A team plays at most one match per day.</li><li>The attribute Runs is an integer and never NULL.</li><li>There are multiple matches on the same day.</li></ul><p>Query Q1</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT S1.Team, S1.Day\nFROM Scores S1\nWHERE S1.Runs &lt;= ALL (\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT S2.Runs\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM Scores S2\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHERE S2.Day = S1.Day\n&nbsp;&nbsp;&nbsp;&nbsp;);</pre><p><br>Query Q2</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT S1.Team, S1.Day\nFROM Scores S1\nWHERE NOT EXISTS (\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT *\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM Scores S2\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHERE S2.Day = S1.Day\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AND S2.Runs &lt; S1.Runs\n&nbsp;&nbsp;&nbsp;&nbsp;);</pre><p><br>Query Q3</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT S1.Team, S1.Day\nFROM Scores S1\nWHERE S1.Runs = (\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT MIN(S2.Runs)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM Scores S2\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHERE S2.Day = S1.Day\n&nbsp;&nbsp;&nbsp;&nbsp;);\n</pre><p><br>Which of the following statements are CORRECT?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Query Q1 and Query Q2 always produce identical results.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Query Q1 and Query Q3 always produce identical results.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Query Q2 and Query Q3 always produce identical results.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For a given day, if multiple teams have the same minimum runs, all such teams appear in the output of all three queries.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/507932\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Entity-Relationship (ER) model of a banking system.</p><p style=\"text-align:center\"><img alt=\"\" width=\"592\" height=\"156\" src=\"media/5a/5a749fe358f18f1c103c.jpg\"></p><p><br>There are two entity sets:</p><ol><li>Account, with attributes: account_number (key attribute), balance<br> </li><li>Check, with attributes: check_number (partial key), check_date, recipient, amount, memo</li></ol><p>The entity set Check is related to Account through a relationship check_txn, as shown in the ER diagram.<br>The relationship check_txn is an identifying relationship, and Check is a weak entity set.<br>Assume the following semantics derived from the ER diagram:</p><ul><li>Every Check is associated with exactly one Account.</li><li>An Account may be associated with zero or more Checks.</li><li>A Check cannot exist without being associated with an Account.</li><li>The attribute check_number is unique only within an Account, but not globally unique.</li><li>No additional constraints are assumed unless logically implied by the ER model.</li></ul><p>Which of the following statements is/are CORRECT?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The primary key of the relation corresponding to Check must include account_number along with check_number.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The participation of Check in the relationship check_txn is total, whereas the participation of Account in check_txn is partial.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The relationship check_txn must be many-to-one from Check to Account.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It is possible for two different Accounts to have Checks with the same check_number.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/507931\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following ER model used by a financial institution.</p><ul><li>Customer is a strong entity with attributes: cust_id (primary key), name, and city.<br> </li><li>Loan is a strong entity with attributes: loan_id (primary key) and amount.<br> </li><li>Payment is a weak entity with attributes: payment_no (partial key) and payment_date.<br> </li><li>A Payment is related to Loan via an identifying relationship pays_for.</li></ul><p>The model satisfies the following constraints:</p><ol><li>Every Payment is associated with exactly one Loan.<br> </li><li>A Loan may have zero or more Payments.<br> </li><li>Payment has total participation in pays_for.<br> </li><li>payment_no is unique only within a Loan, not across all Loans.<br> </li><li>No other business rules are assumed.</li></ol><p>The ER model is converted into relations using standard ER-to-relational mapping rules.<br>Which of the following statements are TRUE? (Select ALL that apply)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The primary key of the relation corresponding to Payment must be (loan_id, payment_no).<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Deleting a Loan tuple may require deletion of multiple Payment tuples.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It is possible for two different Loans to have a Payment with the same payment_no.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All constraints of the ER model can be enforced using only PRIMARY KEY, FOREIGN KEY, and NOT NULL constraints in SQL.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/507930\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a database with two integer variables A and B.<br>The only consistency constraint on the database is:<br>$$0&lt;=\\mathrm{A}&lt;=\\mathrm{B}$$<br>A transaction is said to preserve consistency if for every initial state satisfying the constraint, the final committed state also satisfies the constraint.<br>Given:</p><ul><li>Each transaction executes atomically</li><li>Statements inside a transaction are executed sequentially</li><li>No overflow occurs</li><li>No concurrency (single transaction at a time)</li></ul><div>Transaction&nbsp; T:</div><p>$$<br>\\begin{aligned}<br>1.\\;&amp; A := A + B\\\\<br>2.\\;&amp; B := B + 1\\\\<br>3.\\;&amp; A := B - A\\\\<br>4.\\;&amp; B := A + B<br>\\end{aligned}<br>$$<br>Which of the following statements are TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Transaction T preserves the consistency constraint for all valid initial states.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Transaction T violates the constraint for some valid initial state.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>At some intermediate step, the constraint may be violated, but the final state always satisfies the constraint.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There exists an initial state satisfying the constraint such that after step (1) itself, the constraint is violated.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/507929\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a database system that supports transactions with the following guarantees:</p><ul><li>Atomicity is implemented using write-ahead logging (WAL).</li><li>Durability is ensured by forcing the log to stable storage at commit.</li><li>Isolation is implemented using strict two-phase locking (Strict 2PL).</li><li>Consistency is enforced only through application-level constraints, not by the DBMS itself.</li></ul><p>Assume the database enforces the invariant $A+B=100$, where $A$ and $B$ are integer-valued database items.<br><br>Two transactions $T_1$ and $T_2$ execute concurrently as follows:<br><br>Transaction $T_1$:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">read(A);\nA := A - 10;\nwrite(A);\nCommit;</pre><p><br>Transaction $T_2$:</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">read(B);\nB := B + 10;\nwrite(B);\nCommit;\n</pre><p><br>Assume:</p><ul><li>Both transactions individually preserve the invariant when executed alone.</li><li>A system crash occurs immediately after both transactions have written their updates to the database buffer but before any commit record is written to disk.</li><li>Recovery follows the standard ARIES protocol.</li></ul><p>Which of the following statements is/are TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Atomicity guarantees that either both updates of each transaction appear in the database or none appear.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>After recovery, the database state is guaranteed to satisfy the invariant $\\mathrm{A}+\\mathrm{B}=100$.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Durability plays no role in preserving the invariant in this execution.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It is possible for the database to violate consistency after recovery even though Atomicity, Isolation, and Durability are all correctly implemented.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/507928\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider two database items $\\mathbf{A}$ and $\\mathbf{B}$, with initial values:<br>$$A=25, B=25$$<br>Two transactions $T_1$ and $T_2$ execute concurrently under an unspecified concurrency control protocol, following the interleaved schedule shown below.<br>Transaction $T_1$</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">READ(A, t)\nt := t + 100\nWRITE(A, t)\nREAD(B, t)\nt := t + 100\nWRITE(B, t)</pre><p><br>Transaction $T_2$</p><pre data-pbcklang=\"text\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-text\">READ(A, s)\ns := s * 2\nWRITE(A, s)\nREAD(B, s)\ns := s * 2\nWRITE(B, s)</pre><p><br>Assume:</p><ul><li>All read and write operations occur exactly in the order shown.</li><li>No transaction aborts.</li><li>There is no crash.</li><li>The DBMS does not enforce serializability.</li><li>All writes overwrite the previous value immediately.</li></ul><p>Let $S=A+B$ be the final sum of database values after both transactions are complete.<br><br>What is the value of $S$ ?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    500,
+    500
+   ],
+   "answerText": "500",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/507927\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following schedule $S$ consisting of three transactions $T_1, T_2,$ and $T_3$ operating on data items $X, Y,$ and $Z$.<br>(Note: $R(A)$ denotes Read $A$, and $W(A)$ denotes Write $A$).<br>$$S: R_1(X), W_2(X), W_1(X), R_3(X), W_3(Y), W_2(Y), C_1, C_3, C_2$$<br>Which of the following statements is TRUE regarding schedule $S$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$S$ is Conflict Serializable but not Recoverable.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S$ is View Serializable but not Conflict Serializable.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$S$ is not View Serializable because of a blind write on $X$.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$S$ is Recoverable and Cascadeless.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/507926\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $\\mathrm{B+}$ Tree with the following specifications:</p><ul><li>Block Size: $1024$ Bytes</li><li>Block Pointer Size: $8$ Bytes</li><li>Record Pointer Size: $9$ Bytes</li><li>Search Key Size: $15$ Bytes</li></ul><p>The nodes are completely filled to their maximum capacity ( $100\\%$ fill factor for calculation). If the B+ tree is used to index a table with $1,000,000$ ($1$ million) records, what is the minimum depth (height) of the index? (Assume root is at level $1$, children at level $2$, etc.)</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><p><a href=\"https://gateoverflow.in/507925\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $R(A, B, C, D, E)$ be a relation schema with the following Functional Dependencies (FDs):<br>$$F = \\{ AB \\rightarrow C, \\quad C \\rightarrow D, \\quad D \\rightarrow E, \\quad E \\rightarrow A \\}$$<br>Which of the following statements are CORRECT?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The decomposition of $R$ into $R_1(A, B, C)$ and $R_2(C, D, E)$ is Lossless.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The relation $R$ is in 3NF but not in BCNF.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The attribute $B$ is a prime attribute.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The decomposition of $R$ into $R_1(A, B, C)$, $R_2(C, D)$, $R_3(D, E)$, $R_4(E, A)$ is Dependency Preserving.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/507924\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following schedule involving 3 transactions:<br>$$S: R_1(X), R_2(Z), R_1(Z), R_3(X), R_3(Y), W_1(X), C_1, W_3(Y), C_3, R_2(Y), W_2(Z), W_2(Y), C_2$$<br>Why does the Thomas Write Rule fail to make this schedule Serializable, or does it?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Thomas Write Rule applies, making it Serializable.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Thomas Write Rule only applies to obsolete writes; here we have Read-Write conflicts that form a cycle.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The schedule is not View Serializable.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both B and C are correct.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/507923\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Table $\\verb|Emp|$ has column $\\verb|Salary|$ with values: $\\mathrm{\\{1000,2000, N U L L, 3000\\}}$.&nbsp;</p><p>Consider the query:</p><pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-sql\">SELECT count(*) FROM Emp\nWHERE Salary &gt; ALL (SELECT Salary FROM Emp WHERE Salary = 2000);</pre><p><br><br><br>What is the output?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$ (The value $3000$)<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$ (Values NULL and $3000$)<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Error</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/507922\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a B+ Tree index constructed on a database relation containing &nbsp;$\\mathrm{~N}=1,000,000$ &nbsp;(one million) records.<br>The system parameters are as follows:</p><ul><li>Disk Block Size: $1024$ Bytes<br> </li><li>Search Key Size: $14$ Bytes<br> </li><li>Block Pointer Size (Tree Pointer): $8$ Bytes<br> </li><li>Record Pointer Size (Data Pointer): $10$ Bytes<br> </li><li>Leaf Node Structure: Each leaf node contains a sequence of $\\mathrm{(&nbsp;Key , RecordPointer)}$ pairs and one \"Next Leaf\" pointer ($8$ Bytes) to maintain the linked list.<br> </li><li>Internal Node Structure: Each internal node contains a sequence of $&nbsp;\\mathrm{~K} $ keys and $&nbsp;\\mathrm{~K}+1 $ block pointers.</li></ul><p>Assume the B+ Tree is in its worst-case space utilization (i.e., every node is filled to the minimum requirement allowed by the B+ Tree properties).<br><br>What is the maximum height of this B+ Tree?<br>(Note: Root is at Height $1$).</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$4$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$7$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/507921\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 50.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 50,
+  "types": {
+   "NAT": 6,
+   "MSQ": 11,
+   "MCQ": 13
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,564 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-030",
+ "title": "DVRUO Classes CS Test Series | Compiler Design | Topic Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | Compiler Design | Topic Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 30,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Compiler Design"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/059_exam_1379_GO Classes CS Test Series Compiler Design Topic Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is true about the relationship between $\\text{LALR(1)}$ and $\\text{SLR(1)}$ parsers?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>There are grammars that can be parsed by $\\text{SLR(1)}$ parsers that cannot be parsed by $\\text{LALR(1)}$ parsers.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There are grammars that can be parsed by $\\text{LALR(1)}$ parsers that cannot be parsed by $\\text{SLR(1)}$ parsers.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{LALR(1)}$ parsers are as powerful as $\\text{SLR(1)}$ parsers, so any grammar that can be parsed by an $\\text{LALR(1)}$ parser can be parsed by a $\\text{SLR(1)}$ parser.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For any grammar $\\text{G}$ which can be parsed by a $\\text{SLR(1)}$ parser, number of states in the $\\text{SLR(1)}$ parser can be less than number of states in the $\\text{LALR(1)}$ parser for $\\text{G}$.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/386753\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is the name of the data structure in a compiler that is responsible for managing information about variables and their attributes?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Abstract Syntax Tree (AST)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Attribute Grammar</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Symbol Table</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Parse Table</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/386751\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is true about grammar ambiguity?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A grammar is said to be ambiguous if it can produce more than one parse tree for some sentence/string.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A grammar is said to be ambiguous when, for some sentence, two different sequences of leftmost derivations can produce the same sentence from the same start symbol.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A grammar is ambiguous if there is some string $w$ such that $w\\text{’s}$ right-most derivation differs from its left-most derivation.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A grammar is said to be ambiguous if and only if, for some sentence, two different sequences of rightmost derivations can produce the same sentence from the same start symbol.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><p><a href=\"https://gateoverflow.in/386749\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In $\\text{SLR}$ parsing to get a shift-reduce conflict for state $\\text{I}$ on terminal symbol ' $a$ ',</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{A} \\rightarrow \\alpha . \\beta$ with $\\text{First}\\;( \\beta)$ containing &#x27; $a$ &#x27; should be in $\\text{I}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{A} \\rightarrow \\delta$. be in $\\text{I}$ with $\\text{Follow(A)}$ having &#x27; $a$ &#x27;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{A} \\rightarrow \\alpha . a\\beta$&nbsp;should be in $\\text{I}$ and $\\text{X} \\rightarrow \\delta$. be in $\\text{I}$ with $\\text{Follow (X)}$ having &#x27; $a$ &#x27;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the other options</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/386747\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following grammar:<br>\n$\\mathrm{A} \\rightarrow \\mathrm{A}$ and $\\mathrm{A} \\mid \\mathrm{A}$ or $\\mathrm{A} \\mid \\mathrm{(A}) \\mid$ true $\\mid$ false<br>\nWhich of the following is/are true about First sets for each production and nonterminal?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{FIRST(true) = \\{ “true&quot; \\}}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{FIRST( false )= \\{ “false&quot; \\}}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{FIRST((A))=\\{“(&quot;}\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{FIRST( A and A ) = FIRST(A or A ) = FIRST(A ) = \\{“true&quot;, “false&quot; \\}}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/386745\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In $\\text{LR}$ parsing, If the parser is in a state containing an $\\text{LR}(k)$ item $[\\mathrm{A} \\rightarrow \\alpha \\bullet \\mathrm{\\gamma}, \\delta]$, what must be at the top of the stack?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\alpha$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\gamma$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\delta$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{A}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/386743\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In $\\text{LR}$ parsing, Given an $\\text{LR(}k)$ item $[\\mathrm{A} \\rightarrow \\alpha \\bullet \\mathrm{\\gamma}, \\delta]$, what lookahead allows a shift to be performed (ignoring any other $\\text{LR}(k)$ items added to the state by closure)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The terminal at the beginning of $\\gamma$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The terminal at the ending of $\\alpha$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The terminal at the beginning of $\\alpha$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The terminal at the beginning of $\\delta$.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/386741\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In $\\text{LR(1)}$ parsing, what constitutes a shift/reduce conflict?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A DFA state contains both LR items allowing shift and reduce for the different lookahead.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A DFA state contains both LR items allowing shift and reduce for the same lookahead.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A DFA state contains both LR items allowing shifts for the same lookahead.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A DFA state contains both LR items allowing shifts for the different lookahead.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/386739\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following sets of $\\text{LR(1})$ items in the states of a $\\text{LR(1)}$ parser.<br>\n$$<br>\n\\begin{array}{ll}<br>\n\\text { State 0: } &amp; \\text { State 2: } \\\\<br>\n{[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} &amp; {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{c}]} \\\\<br>\n{[\\mathrm{A} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{c}]} &amp; {[\\mathrm{A} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} \\\\<br>\n{[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} &amp; {[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{a}]}<br>\n\\end{array}<br>\n$$<br>\n$$\\begin{array}{ll}\\text { State 1: } &amp; \\text { State } 3: \\\\ {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{a}]} &amp; {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} \\\\ {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} &amp; {[\\mathrm{B} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} \\\\ {[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} &amp; \\end{array}$$<br>\nWhat states would be merged in a $\\text{LALR(1)}$ parser?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>States $1$ and $2.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>States $0$ and $1.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>States $0$ and $2.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>States $2$ and $3.$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/386737\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following sets of $\\text{LR(1)}$ items in the states of a $\\text{LR(1)}$ parser.<br>\n$$<br>\n\\begin{array}{ll}<br>\n\\text { State 0: } &amp; \\text { State 2: } \\\\<br>\n{[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} &amp; {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{c}]} \\\\<br>\n{[\\mathrm{A} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{c}]} &amp; {[\\mathrm{A} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} \\\\<br>\n{[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} &amp; {[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{a}]} \\\\<br>\n\\text { State } 1: &amp; \\text { State } 3: \\\\<br>\n{[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{a}]} &amp; {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} \\\\<br>\n{[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} &amp; {[\\mathrm{B} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} \\\\<br>\n{[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} &amp;<br>\n\\end{array}<br>\n$$<br>\nWhat happens when we merge states(which can be merged according to $\\text{LALR(1)}$ parser) in a $\\text{LALR(1)}$ parser?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A new reduce/reduce conflicts introduced in the $\\text{LALR(1)}$ parser</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A new shift/reduce conflicts introduced in the $\\text{LALR(1)}$ parser</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>New reduce/reduce and shift/reduce conflicts introduced in the $\\text{LALR(1)}$ parser</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No new conflicts introduced in the $\\text{LALR(1)}$ parser</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/386735\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following sets of $\\text{LR(1)}$ items in the states of a $\\text{LR(1)}$ parser for some grammar $\\text{G}.$<br>\n$$<br>\n\\begin{array}{ll}<br>\n\\text { State 0: } &amp; \\text { State 2: } \\\\<br>\n{[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} &amp; {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{c}]} \\\\<br>\n{[\\mathrm{A} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{c}]} &amp; {[\\mathrm{A} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} \\\\<br>\n{[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} &amp; {[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{a}]}<br>\n\\end{array}<br>\n$$<br>\n$$<br>\n\\begin{array}{ll}<br>\n\\text { State 1: } &amp; \\text { State } 3: \\\\<br>\n{[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{a}]} &amp; {[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} \\\\<br>\n{[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} &amp; {[\\mathrm{B} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]} \\\\<br>\n{[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]} &amp;<br>\n\\end{array}<br>\n$$<br>\nWhich of the following is true for the given set of $\\text{LR1}$ items and the given $\\text{LR1}$ parser (Assume the parser has only the given set of $\\text{LR1}$ items for $\\text{G)}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{G}$ is $\\text{LR1}$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{G}$ is not $\\text{LR1}$ because reduce/reduce conflict is caused by $\\left[\\mathrm{A} \\rightarrow \\mathrm{a}{\\bullet}, \\mathrm{c}\\right]$ and $[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{b}]$ in state $1.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{G}$ is not $\\text{LR1}$ because Shift/reduce conflict is caused by $[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{c}]$ and $[\\mathrm{B} \\rightarrow \\mathrm{a} \\bullet, \\mathrm{a}]$ on lookahead $\\mathrm{a}$ in state $2.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{G}$ is not $\\text{LR1}$ because Shift/shift conflict is caused by $[\\mathrm{A} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]$ and $[\\mathrm{B} \\rightarrow \\bullet \\mathrm{a}, \\mathrm{b}]$ on lookahead $\\mathrm{a}$ in state $3.$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/386733\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following grammar:</p><p style=\"margin-left:40px;\">$$ S \\rightarrow S;a \\mid a $$</p><p>Form the <b>augmented grammar</b> as:&nbsp; $ S' \\rightarrow S\\$ $</p><p>Determine the total number of states in the canonical collection of <b>SLR(1)</b> items for this augmented grammar, including the state that contains the accept production $ \\boxed{S' \\rightarrow S\\$\\mathbf{\\large .}} $.</p><p> </p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 6</p><p><a href=\"https://gateoverflow.in/386731\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following grammar:</p><p style=\"margin-left:40px;\">$$ S \\rightarrow abS \\mid acS \\mid c $$</p><p>Form the <b>augmented grammar</b> as:&nbsp; $$ {S' \\rightarrow S\\$} $$</p><p>Construct the <b>canonical collection of LR(0) items</b> for this augmented grammar. How many distinct states (item sets) are present in the canonical collection of LR(0) items, <b>excluding the state that contains the production</b>&nbsp; $ \\boxed{S' \\rightarrow S\\$\\mathbf{\\large .}} $ Count all other states.</p><p> </p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 8</p><p><a href=\"https://gateoverflow.in/386729\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>We have a scanner (lexical analyzer) \"flex\". Consider the following tokens and their associated regular expressions, given as a flex scanner specification :<br>$$\\begin{array}{|l|l|}<br>\\hline \\text { Regular expression } &amp; \\text { Token }\\\\<br>\\hline(01 \\mid 10) &amp; \\text{printf(“&nbsp;}\\mathrm{X} \\text { \") }\\\\<br>\\hline 0(01)^{\\ast} 1 &amp; \\text{printf(“&nbsp;Y&nbsp;\")}\\\\<br>\\hline\\left(1010^{\\ast} 1 \\mid 0101^{\\ast} 0\\right) &amp; \\text{printf(“&nbsp;Z&nbsp;\") }\\\\<br>\\hline<br>\\end{array}$$<br>When using regular expressions to scan an input, we resolve conflicts by taking the largest possible match at any point. If two longest matches are of same length then we give preference in the below order $: \\mathrm{X}&gt;\\mathrm{Y}&gt;\\mathrm{Z}$</p><p>For Which of the following inputs to this scanner, we will get a Lexical error?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0101$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$010101$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$01010101$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0101010101$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/386727\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In lexical analysis, when using regular expressions to scan an input, for resolving conflicts that occur, our approach is usually to use \"maximal­-munch\" (i.e. to always choose the longest possible match at any point), and if, even with maximal-munch we have multiple matching regular expressions, then we break ties based on the priorities of the regular expressions.</p><p><br>Consider the following scanner (lexical analyzer) “flex”.<br>Consider the following tokens and their associated regular expressions, given as a flex scanner specification :<br>$$<br>\\begin{array}{|c|l|}<br>\\hline \\text{Regular expression} &amp; \\text{Token}\\\\<br>\\hline aa &amp; \\text{print(“1\")}\\\\<br>\\hline a &amp;\\text{print( “2\")}\\\\<br>\\hline ab &amp; \\text{print(“3\")}\\\\<br>\\hline<br>\\end{array}$$<br>If two longest matches are of same length then we give preference in the below order : $1&gt;2&gt;3$<br> </p><p>For which of the following input strings: The string can be broken apart into substrings, where each substring matches one of the regular expressions, but $\\bullet$ The maximal-munch algorithm will fail to break the string apart in a way where each piece matches one of the regular expressions.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$cabab$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$aab$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$abb$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$aba$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/386725\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "MSQ": 4,
+   "NAT": 2
+  },
+  "withoutKey": 0
+ }
+}

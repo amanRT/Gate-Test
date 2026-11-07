@@ -1,0 +1,523 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-092",
+ "title": "DVRUO Classes GATE CS | Relations | Weekly Quiz 2 | Equivalence Relation",
+ "sourceTitle": "DVRUO Classes GATE CS | Relations | Weekly Quiz 2 | Equivalence Relation",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 92,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Relations"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/104_exam_467_GO Classes GATE CS Relations Weekly Quiz 2 Equivalence Relation.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following relations on the set of ordered pairs of positive integers is not an equivalence relation?</p><ul><li>$\\text{S1}: \\{((a, b),(c, d)) \\mid a+d=b+c\\}$<br>&nbsp;</li><li>$\\text{S2}: \\{((a, b),(c, d)) \\mid a+c=b+d\\}$</li></ul>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Both<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>None<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only $\\text{S1}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only $\\text{S2}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"403898\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;</p>\n\n<p>- $S1 : \\{((a, b),(c, d)) \\mid a+d=b+c\\}$<br>\nYes.<br>\nReflexivity: $((a, b),(a, b)) \\in R$ as $a+b=a+b$.<br>\nSymmetry: if $((a, b),(c, d)) \\in R$ then $a+d=b+c$ so $c+b=d+a$ so $((c, d),(a, b)) \\in R$.<br>\nTransitivity: if $((a, b),(c, d)) \\in R$ and $((c, d),(e, f)) \\in R$ then $a+d=b+c$ and $c+f=d+e$. So $d=c+f-e$ and thus $a+c+f-e=b+c$. Subtracting $c$ and adding $e$ to both sides gives $a+f=b+e$ so $((a, b),(e, f)) \\in R$<br>\nThere is exactly one equivalence class for every non-negative integer. The class of an integer $n$ consists of all pairs of integers $(a, b)$ such that $a-b=n$.</p>\n\n<p>Check <a href=\"https://gateoverflow.in/403897/go-classes-2024-weekly-quiz-equivalence-relation-question?show=404142#c404142\" rel=\"nofollow\" target=\"_blank\">This Comment</a>&nbsp;also for $S1.$<br>\n<br>\n- $S2: \\{((a, b),(c, d)) \\mid a+c=b+d\\}$<br>\nNo. It is not reflexive, for example, $((1,2),(1,2)) \\notin R$ because $1+1 \\neq 2+2$.</p>\n\n<p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/403897\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following relations represented by these zero-one matrices are equivalence relations?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\left[\\begin{array}{lll}1 \\& 1 \\& 1 \\\\ 0 \\& 1 \\& 1 \\\\ 1 \\& 1 \\& 1 \\end{array} \\right]$&lt;p&gt;&nbsp;&lt;/p&gt;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left[\\begin{array}{llll}1 \\& 0 \\& 1 \\& 0 \\\\ 0 \\& 1 \\& 0 \\& 1 \\\\ 1 \\& 0 \\& 1 \\& 0 \\\\ 0 \\& 1 \\& 0 \\& 1\\end{array}\\right]$&lt;p&gt;&nbsp;&lt;/p&gt;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left[\\begin{array}{llll}1 \\& 1 \\& 1 \\& 0 \\\\ 1 \\& 1 \\& 1 \\& 0 \\\\ 1 \\& 1 \\& 1 \\& 0 \\\\ 0 \\& 0 \\& 0 \\& 1\\end{array}\\right]$&lt;p&gt;&nbsp;&lt;/p&gt;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\left[\\begin{array}{llll}1 \\& 0 \\& 1 \\& 0 \\\\0 \\& 1 \\& 1 \\& 0 \\\\0 \\& 0 \\& 1 \\& 1 \\\\1 \\& 1 \\& 0 \\& 1\\end{array}\\right]$&lt;p&gt;&nbsp;&lt;/p&gt;</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"403913\"></a><div itemprop=\"text\"><p>Equivalence relations are reflexive, symmetric and transitive.</p>\n\n<p>Check if all diagonal entries of given matrices&nbsp;are $1$ for reflexive relational property&nbsp;–&nbsp;All are</p>\n\n<p>Check if matrices are symmetric to check symmetric relational property –&nbsp;Option A and D can be eliminated</p>\n\n<p>Drawing the Graphical representation helps to detect transitive realtion property easily</p>\n\n<p>Option B&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"70\" src=\"media/44/442f832e9d1cdeeb07dc.png\" width=\"78\"></p>\n\n<p>Option&nbsp; C</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"123\" src=\"media/03/03077a96106544e00d49.png\" width=\"156\"></p>\n\n<p>B, C is the answer</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"403959\"></a><div itemprop=\"text\"><p>We know that for equivalence relations ${\\text{Reflexive, Symmetric &amp; Transitive [RST]}}$ these properties should be satisfied.</p>\n\n<p>Option by option analysis:</p>\n\n<p><img alt=\"\" src=\"media/6c/6c5b8bd3cd9bac8f41c7.jpg\"></p>\n\n<p>$\\color{Green}\\text{Ans: B;C}$</p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"404143\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>Reflexive because all diagonal elements are 1. Not symmetric because matrix is not symmetric.</li>\n\t<li>Reflexive because all diagonal elements are 1. Symmetric because matrix is symmetric. For transitive see whether the partition is possible by seeing the matrix&nbsp;:- 1st&nbsp;row:1R3, 2nd&nbsp;row:2R4, 3rd&nbsp;row:3R1, 4th&nbsp;row:4R2&nbsp; =&gt; partition possible&nbsp;{{1,3}, {2,4}}&nbsp; =&gt; transitive.</li>\n\t<li>Reflexive because all diagonal elements are 1. Symmetric because matrix is symmetric. For transitive see whether the partition is possible by seeing the matrix&nbsp;:- 1st&nbsp;row:1R2&nbsp;&amp; 1R3, 2nd&nbsp;row:2R1&nbsp;&amp; 2R3, 3rd&nbsp;row:3R1 &amp; 3R2&nbsp;&nbsp;=&gt; partition possible&nbsp;{{1,2,3}, {4}}&nbsp; =&gt; transitive.</li>\n\t<li>Reflexive because all diagonal elements are 1. Not symmetric because matrix is not symmetric.</li>\n</ol>\n\n<p>(If we will try to see the partition from matrix then we don’t need to draw the graph.)</p></div></section></div><p><a href=\"https://gateoverflow.in/403896\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathbf{Z}$ be the set of all integers. Define a relation $\\text{S}$ on $\\mathbf{Z} \\times \\mathbf{Z}$ by $(w,x)\\text{S}(y,z)$ if and only if $w-x = y-z.$<br>Which of the following is true about $\\text{S}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{S}$ is not an equivalence relation.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{S}$ is an equivalence relation and the equivalence class of $(a,b)$ is the same as the equivalence class of $(b,a),$ for all $a,b \\in \\mathbf{Z}.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{S}$ is an equivalence relation and the equivalence class of $(a,b)$ is the same as the equivalence class of $(-b,-a),$ for all $a,b \\in \\mathbf{Z}.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{S}$ is an equivalence relation and the equivalence class of $(a,b)$ is disjoint from the equivalence class of $(a+1,b+1),$ for all $a,b \\in \\mathbf{Z}.$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 16)</small></h4><a name=\"375379\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;&nbsp;</p>\n\n<p>$\\text{S}$ is reflexive $: (a,b)\\text{S}(a,b)$ because $a-b=a-b.$<br>\n<br>\n$\\text{S}$ is symmetric: Suppose $(a,b)\\text{S}(c,d).$ Then $a-b=c-d.$ But then also $c-d=a-b,$ so $(c,d)\\text{S}(a,b).$<br>\n<br>\n$\\text{S}$ is transitive: Suppose $(a,b)\\text{S}(c,d)$ and $(c,d)\\text{S}(e,f).$ Then $a-b=c-d$ and $c-d=e-f.$ But then by transitivity of equality $a-b=e-f.$ So $(a,b)\\text{R}(e,f).$<br>\n<br>\n$\\text{S}$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br>\nFor an equivalence relation $\\text{R}$ on a set $\\text{A},$ the set of the elements of $\\text{A}$ that are related to an element, say $a,$ of $\\text{A}$ is called the equivalence class of element $a$ and it is denoted by $[a].$<br>\n<br>\nEach equivalence class is a subset of the base set $\\mathbf{Z} \\times \\mathbf{Z}$ on which relation has been defined.<br>\nEach equivalence class has ordered pairs with the same result of subtracting the second element from the first and there is one equivalence class for each possible difference$: \\dots, [(-2,0)], [(-1,0)], [(0,0)], [(1,0)], [(2,0)], \\dots$ are all distinct equivalence classes.<br>\n<br>\nNOTE that in any equivalence relation $\\text{R}$ on set $\\text{A},$ equivalence class of an element $x \\in \\text{A}$ with respect to $\\text{R}$ i.e. $[x]$ is same as &nbsp;equivalence class of element $y\\in \\text{A}$ with respect to $\\text{R}$ i.e. $[y]$ if and only if $x\\text{R}y.$<br>\nSo, for this question, say for Option C, we only need to check whether $(a,b)\\text{S}(-b,-a),$ which is true as $a-b = -b -(-a)$<br>\n<br>\nNOTE that in any equivalence relation $\\text{R}$ on set $\\text{A},$ equivalence class of an element $x \\in \\text{A}$ with respect to $\\text{R}$ i.e. $[x]$ is disjoint from the &nbsp;equivalence class of element $y \\in \\text{A}$ with respect to $\\text{R}$ i.e. $[y]$ if and only if $x$ is Not related to $y.$</p>\n\n<p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/375378\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{R}$ be an equivalence relation on a Set $\\text{A}.$</p><p>Which of the following statements is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every equivalence class of $\\text{R}$ is a subset of $\\text{R}.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Every equivalence class of $\\text{R}$ is a subset of $\\text{A}.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Set of equivalence classes of $\\text{R}$ is a subset of $\\text{A}.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Set of equivalence classes of $\\text{R}$ is a subset of $\\text{P(A)},$ where $\\text{P(A)}$ is the power set of $\\text{A}.$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"385547\"></a><div itemprop=\"text\">Let’s take any arbitrary A and R where R must be an Equivalence Relation.<br>\n<br>\n&nbsp;A= {a,b,c} , R = {(a,a),(b,b),(c,c),(a,b)(b,a)}<br>\n<br>\nEquivalence class of a is [a] = {a, b}<br>\n<br>\nEquivalence class of b is [b] = {a, b}<br>\n<br>\nEquivalence class of c is [c] = {c}<br>\n<br>\nEquivalence class of a is [a] = Equivalence class of b is [b]<br>\n<br>\nSo, there are 2 equivalence class of A – {a, b} and {c}<br>\n<br>\nBoth the equivalence class are subsets of A not R.<br>\n<br>\nSet of equivalence classes of R = { {a, b} , {c} }<br>\n<br>\nPower set of A = P(A) = { {} , {a} , {b} , {c} , {a,b} , {a,c} , {b,c} , {a,b,c} }<br>\n<br>\nSo, We can say that the set of equivalence classes of R is a subset of P(A) but not A.<br>\n<br>\nAnswer: B,D</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"379788\"></a><div itemprop=\"text\">Let A={1,2,3,4,5}<br>\n<br>\nSuppose the equiv classes are as follows<br>\n<br>\n[1]={1,2}<br>\n<br>\n[2]={3,4}<br>\n<br>\n[3]={5}<br>\n<br>\n[4]={3,4}<br>\n<br>\n[5]={5}.<br>\n<br>\nSo my set of &nbsp;equiv classes are {{1,2},{3,4},{5}} which is not a $\\subseteq$ of A but is definitely of P(A).</div></section></div><p><a href=\"https://gateoverflow.in/374293\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{R}$ be an equivalence relation on a Set $\\text{A}.$</p><p>Which of the following statements is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Two different equivalence classes of $\\text{R}$ are necessarily disjoint.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Set of equivalence classes of $\\text{R}$ is a partition of $\\text{A}.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Set of equivalence classes of $\\text{R}$ is partition of $\\text{P(A)},$ where $\\text{P(A)}$ is the powerset of $\\text{A}.$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Set of equivalence classes of $\\text{R}$ is a partition of $\\text{R}.$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"375604\"></a><div itemprop=\"text\"><p>option A:</p>\n\n<p>A={1,2,3,4}</p>\n\n<p>R={(1,1) (2,2) (3,3) (4,4) (1,2) (2,1) (2,3) (1,3)&nbsp; (3,2) (3,1) }</p>\n\n<p>r is equivalence relation</p>\n\n<p>[1]={1,2,3}</p>\n\n<p>[2]={2,1,3}</p>\n\n<p>[3]={3,2,1}</p>\n\n<p>[4]={4}</p>\n\n<p>[a]$_{R}$&nbsp;∩ [b]$_{R}$&nbsp;= ∅,<br>\nwhen [a]$_{R}$&nbsp;≠&nbsp;[b]$_{R}$.</p>\n\n<p>like [1]={1,2,3}&nbsp;and [4]={4}&nbsp;so either the disjoint or they will be same&nbsp;</p>\n\n<p>this not possible [a]={a,b,c}</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[b]={a,b}</p>\n\n<p>so option A is true.</p>\n\n<p>Option B</p>\n\n<p><img alt=\"\" src=\"media/f7/f7b4fcd71e7f2e3ed5e9.jpg\"></p>\n\n<p>like the above example equivalence classes are {1,2,3} and {4}which is&nbsp;partion of set A ={1,2,3,4}</p>\n\n<p>so&nbsp; Set of equivalence classes of&nbsp;R&nbsp;is a partition of&nbsp;A.</p></div></section></div><p><a href=\"https://gateoverflow.in/374292\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\sim$ be an equivalence relation on a set $X$. For any $x \\in X$, let<br>$$<br>[x]=\\{y \\in X: x \\sim y\\}<br>$$<br>$[x]$ is called the equivalence class of $x$.</p><p>Let $\\sim$ be an equivalence relation on a set $\\mathrm{X}$. Then which of the following statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For any $x \\in X, x \\in[x]$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>For any $x, y \\in X$, either $[x]=[y]$ or $[x]$ and $[y]$ are disjoint.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{[x]: x \\in X\\}$ is a partition of $X$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For $x, y \\in X, x \\sim y$ if and only if $y \\in[x]$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"403931\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>we know, the union of&nbsp;all equivalence classes is the Base set X. So, any element belonging to A belongs to any of the eq. classes.</li>\n\t<li>Property of Eq. Class</li>\n\t<li>We know, the set of all equivalence&nbsp;classes is called a partition of base set( here X).</li>\n\t<li>Property of Eq. Class</li>\n</ol>\n\n<p>Therefore, Ans: A,B,C,D</p></div></section></div><p><a href=\"https://gateoverflow.in/403895\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $X$ be the set of all nonempty subsets of the set $\\{1,2,3, \\ldots, 10\\}$. Define the relation $R$ on $X$ by: for all $A, B \\in X, A R B$ if and only if the smallest element of $A$ is equal to the smallest element of $B$. For example $\\{1,2,3\\} R\\{1,3,5,8\\}$ because the smallest element of each set is $1.$<br>\n<br>\nLet $M$ be the number of equivalence classes of $R$.<br>\n<br>\nLet $\\mathrm{N}$ be the number of elements in the equivalence class $\\{2,6,7\\}$.<br>\n<br>\nWhat is $\\mathrm{M}+\\mathrm{N}?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 9)</small></h4><a name=\"403978\"></a><div itemprop=\"text\"><p><samp>M = No. of Equivalence classes of R</samp></p>\n\n<p><samp>Since X is Basically Power set of {1,2,….10} without null set we can have,</samp></p>\n\n<p><samp>[{1}]={{1},{1,2},{1,3}………}&nbsp;upto 2^9 combinations </samp></p>\n\n<p><samp>[{2}]={{2},{2,3}………………} upto 2^8 combinations</samp></p>\n\n<p><samp>.</samp></p>\n\n<p><samp>.</samp></p>\n\n<p><samp>.</samp></p>\n\n<p><samp>.[{10}]={{10}}&nbsp;</samp></p>\n\n<p><samp>&nbsp;We don’t really need the No. of combinations </samp></p>\n\n<p><samp>Therefore the total No. of Equivalence classes is 10.</samp></p>\n\n<p>&nbsp;</p>\n\n<p><samp>N = No. of elements in EQ class [{2,6,7}]={{2},{2,3},{2,4}…} upto&nbsp;2^8 combinations which is 256.</samp></p>\n\n<p>As there should be no 1 present and there should always be a 2 present.</p>\n\n<p>M+N = 10+256</p>\n\n<p>M+N = 266</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 10)</small></h4><a name=\"403894\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/3HDTFOZU74E\" target=\"_blank\">Detailed Video Solution, with Complete Analysis (Click HERE)</a></p>\n\n<p>$M=10$ (for each element in $\\{1,2, \\ldots, 10\\}$, we get a equivalence class)</p>\n\n<p>$\\mathrm{N}=256$<br>\n<br>\n<strong>For M:</strong><br>\nIf $A$ and $B$ are in the same equivalence class $[A]$, the $A$ is related to $B$. That is, $A$ and $B$ have the same smallest element. How many possible smallest elements are there? That is, how many elements are there in $\\{1,2, \\ldots, 10\\} ?$<br>\n<br>\n<strong>For N:</strong><br>\nAny set which contains $2$ but does not contain $1$ is related to $\\{2,6,7\\}$. How many nonempty subsets can you construct which contain $2$ but do not contain $1?$</p>\n\n<p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/3HDTFOZU74E\" target=\"_blank\">Detailed Video Solution, with Complete Analysis (Click HERE)</a></p></div></section></div><p><a href=\"https://gateoverflow.in/403893\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $R$ is an equivalence relation over a set $A$ and $x \\in A$, then the equivalence class of $\\boldsymbol{x}$ with respect to $R$, denoted $[x]_R$, is the set<br>$$<br>[x]_R=\\{y \\in A \\mid x R y\\}<br>$$<br>Intuitively, $[x]_R$ consists of all the elements of $A$ that $x$ is related to by $R$.<br>Now, a new definition. If $R$ is an equivalence relation over a set $A$, then the set $\\boldsymbol{A} / \\boldsymbol{R}$ is the set of all the equivalence classes of the elements of $A$. Formally speaking, we say that<br>$$<br>A / R=\\left\\{[x]_R \\mid x \\in A\\right\\}<br>$$<br>This set is sometimes called the quotient set of $R$.<br>Consider the following binary relation $E$ over the set $\\mathbb{N}^2&nbsp;:$</p><p>$\\left(m_1, n_1\\right) E\\left(m_2, n_2\\right)\\quad$ if $\\; m_1+m_2$ is even and $n_1+n_2$ is even. (Remember that this \"if\" means \"is defined as\" and is not an implication.)</p><p>What is $\\left|\\mathbb{N}^2 / E\\right|?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Infinite</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"403892\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;&nbsp;</p>\n\n<p>There are $4$ equivalence classes, one containing all (even, even) type ordered pairs, one containing all (odd, even) type ordered pairs, one containing all (even, odd) type ordered pairs, one containing all (odd, odd) type ordered pairs.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"418411\"></a><div itemprop=\"text\"><p>lets first simplify the definition of quotient set&nbsp;given in the problem</p>\n\n<p>$$A/R = \\text{partition formed by equivalence&nbsp;classes of A on relation R}$$</p>\n\n<p>$$(a,b) \\in N\\times N$$</p>\n\n<p>given 2 pairs (a,b) and (c,d) they will be related only when a + c is even and b+d is even It can only happen <strong>parity of a,c is equal and parity of b,d is equal.This can happen in exactly 4 ways which will form our equivalent classes.</strong></p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>class1 = [(odd,odd)]</li>\n\t<li>class2 = [(even,even)]</li>\n\t<li>class3 = [(odd,even)]</li>\n\t<li>class4 =&nbsp;&nbsp;[(even,odd)]</li>\n</ol>\n\n<p>hence ans is C. 4</p></div></section></div><p><a href=\"https://gateoverflow.in/403891\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>As a refresher, if $R$ is an equivalence relation over a set $A$ and $x \\in A$, then the equivalence class of $\\boldsymbol{x}$ in $\\boldsymbol{R}$, denoted $[x]_R,$&nbsp;is the set<br>$$<br>[x]_R=\\{y \\in A \\mid x R y\\}<br>$$<br>Let's now introduce some new notation. If $R$ is an equivalence relation over a set $A,$&nbsp;the index of $R,$&nbsp;denoted $\\boldsymbol{I}(\\boldsymbol{R}),$&nbsp;is the number of equivalence classes in $R$. Additionally, the width of $R,$&nbsp;denoted $\\boldsymbol{W}(\\boldsymbol{R}),$&nbsp;is the number of elements in the largest equivalence class in $R$.</p><p>If $R$ is an equivalence relation over a set $A$ and $|A|=n^2+1$ for some positive natural number $n$, then which of the following must be true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{I}(\\mathrm{R}) \\geq n+1$ and $\\mathrm{W}(\\mathrm{R}) \\geq n+1$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{I}(\\mathrm{R}) \\leq n$ and $\\mathrm{W}(\\mathrm{R}) \\leq n$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{I}(\\mathrm{R}) \\geq n+1$ or $\\mathrm{W}(\\mathrm{R}) \\geq n+1$ (or both).<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{I}(\\mathrm{R})=n / 2$ and $\\mathrm{W}(\\mathrm{R})=n / 2$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"404148\"></a><div itemprop=\"text\">you can do it by eliminating the options, by taking appropriate example<br>\nEg: n=1, hence accordingly size of base set , A , will be n^2+1=1+1=2<br>\nso let A={1,2}<br>\nnow consider the equivalence relation R={(1,1),(2,2)}<br>\nnow you can see that I(R)=2<br>\nhence B and D got eliminated<br>\nnow A and C remain:<br>\n<br>\nW(R)=1<br>\n<br>\ntherefore I(R)&gt;=n+1 “and” W(R)&gt;=n+1 &nbsp;&nbsp;can’t be true <br>\n<br>\ntherefore A also can’t be correct<br>\n<br>\nlastly C will remain<br>\n<br>\nso C is correct</div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"403890\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;&nbsp;</p>\n\n<p>If the largest equivalence class has $\\leq n$ elements, then how many equivalence classes will we need?? Think.<br>\n<br>\nIf the number of equivalence classes is $\\leq n,$ then can all equivalence classes contain $\\leq n$ elements ?? Think.<br>\n<br>\nVery Easy $\\&amp;$ Interesting Question... But Think. We will discuss solutions in a Live Session.</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"430761\"></a><div itemprop=\"text\"><p><strong>SHORTCUT :&nbsp;</strong></p><p>If we partition the set (containing n²+1 elements) into n²+1 classes then : ꕯ = n²+1; W=1</p><p>If we partition the same set into 1 class then : ꕯ = 1; W=n²+1</p><p>Thus we can clearly say that option a), b), d) are incorrect and we are only left with option c).</p><p><strong>NOW LET'S UNDERSTAND WHY OPTION C IS CORRECT:&nbsp;</strong></p><p>Minimum possible value of W is when we distribute equal elements in all classes thus giving W = (n²+1) / ꕯ</p><p>Maximum possible value of W is when we distribute one-one element in (Ｉ-1) classes and the remaining i.e. (n² + 1)-(Ｉ-1) elements in the Ｉᵗʰ class. Thus giving W = n²+2- ꕯ</p><p>&nbsp;</p><p>Therefore :<span style=\"color:#3498db;\">&nbsp;(n²+1) / ꕯ </span><strong>≤</strong> <span style=\"color:#e74c3c;\">W</span>&nbsp;<strong>≤</strong><span style=\"color:#3498db;\">&nbsp;n²+2- ꕯ</span></p><p>From the 1st equation :&nbsp;(n²+1)​​​​​​ <strong>≤</strong> W.ꕯ</p><p>Now clearly both W and&nbsp;ꕯ can't be&nbsp;<strong>≤n</strong> i.e. <strong>&lt;(n+1)</strong> at the same time.</p><p>Thus option b) is correct.</p></div></section></div><p><a href=\"https://gateoverflow.in/403889\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the partition $A 1=\\{a, b\\}$ and $A 2=\\{c, d\\}$ of the set $A=\\{a, b, c, d\\}$. How many equivalence relations are there on the set $A$ so that the equivalence classes of this equivalence relation are exactly $A 1$ and $A 2 ?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>None<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"403915\"></a><div itemprop=\"text\">An Equivalence relation $R$ on Set $S$ will partition the set in one and only one way<br>\n<br>\nOption is $B$</div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"403962\"></a><div itemprop=\"text\">The given base set is $A = \\{a,b,c,d\\}$ &amp; The partitions are $A1 = \\{a,b\\}\\; \\&amp;\\; A2 = \\{c,d\\}$<br>\n<br>\n$\\color{DarkBlue}\\text{Equivalence relation R on set A gives unique partition of A.}$<br>\n<br>\nLet’s understand relation $R$,<br>\n<br>\nEquivalence relation $R = (A1 \\times A1) \\cup (A2 \\times A2)$ Here, $(A1 \\times A1)\\; \\&amp; \\;(A2 \\times A2)$ are $\\color{Red}\\text{Disjoint}$<br>\n<br>\nSo, $R = \\{(a,a),(b,a),(a,b),(b,b),(c,c),(d,c),(c,d),(d,d)\\}$ only this equivalence relation on set $A$ can give us $A1\\; \\&amp; \\;A2$<br>\n<br>\n$\\color{Green}\\text{Ans: B}$</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"424284\"></a><div itemprop=\"text\"><p><span style=\"font-size:14px\">Recall definition of partition: a collection (set) of subsets of base set A which are pairwise disjoint, non-empty and cover all the elements of base set A.</span></p><p><span style=\"font-size:14px\">so, here,</span></p><ul><li><span style=\"font-size:14px\">A1 = {a,b} and A2 = {c,d} are the subsets of base set A</span></li><li><span style=\"font-size:14px\">A1 and A2 are pairwise disjoint i.e.&nbsp;A1 = {a,b}&nbsp;<span style=\"color:#202124; font-family:&quot;Google Sans&quot;,arial,sans-serif\">∩</span><span style=\"color:#202124; font-family:&quot;Google Sans&quot;,arial,sans-serif\"> </span>{c,d} = Φ</span></li><li><span style=\"font-size:14px\">A1 and A2 cover all the elements of base set A i.e. A1 U A2 = A</span></li><li><span style=\"font-size:14px\">A1 and A2 are <strong><em>two-part partition</em></strong> of base set A</span></li></ul><p><br><span style=\"font-size:14px\">given A1 and A2 are <em>two-part&nbsp;partition </em>of base set A.. its actually like this.. { {a,b}, {c,d} }</span></p><p></p><p><span style=\"font-size:14px\">and we know each “partition” is called equivalence class.. and in an equivalence class, every element is related to every element. Therefore in this partition, all the relations looks like this { aRa, aRb, bRb, bRa, cRc, cRd, dRd, dRc }</span></p><p></p><p><span style=\"font-size:14px\">and there is only one way we can have this relation is by taking <em>cross product of the two given parts of the partition and taking union of them</em>.&nbsp;</span></p><p></p><p><span style=\"font-size:14px\">{ A1 x A1 U A2 x A2 } = { {(a,a), (a,b), (b,b), (b,a)} U&nbsp; {(c,c), (c,d), (d,d), (d,c)} }</span></p><p></p><p><span style=\"font-size:14px\">also, equivalence relation R -----&gt; gives a unique partition of base set A</span></p><p><span style=\"font-size:14px\">and</span></p><p><span style=\"font-size:14px\">any partition of base set A ——-&gt; gives a unique equivalence relation R</span></p></div></section></div><p><a href=\"https://gateoverflow.in/403888\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\mathrm{A}=\\{1,2,3,4,5\\} . \\mathrm{P}(\\mathrm{A})$ is the powerset of $\\mathrm{A}$. Define a relation on $\\mathrm{P}(\\mathrm{A})$ as follows:<br>\n$$<br>\n\\mathrm{R}=\\{(\\mathrm{X}, \\mathrm{Y}) \\in \\mathrm{P}(\\mathrm{A}) \\times \\mathrm{P}(\\mathrm{A}) \\mid \\mathrm{X} \\cap\\{1,3,5\\}=\\mathrm{Y} \\cap\\{1,3,5\\}\\} .<br>\n$$<br>\nWhat is the cardinality of the equivalence class of $\\{1,2,3\\}?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"403887\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;&nbsp;</p>\n\n<p>The equivalence class of $\\{1,2,3\\}$ is equal to $\\{\\{1,3\\},\\{1,3,2\\} 1,3,4\\},\\{1,3,2,4\\}\\}$<br>\n<br>\nFor $X, Y \\in \\mathcal{P}(A)$ (equivalently $X, Y \\subseteq A), X \\sim Y \\Longleftrightarrow X \\cap\\{1,3,5\\}=Y \\cap\\{1,3,5\\}$.<br>\n<br>\nThe relation $\\mathrm{R}$ is \"made of\" couples : $(X, Y)$, where $X, Y \\subset A$ (i.e. $X, Y$ are members of $\\mathcal{P}(A)$, that is the power-set of $A$, where the power-set of $A$ is the set of all subsets of $A).$<br>\n<br>\nThus $R$ takes as \"input\" an $X\\; ($subset of $A)$ and \"couple\" it to an $Y\\; ($subset of $A),$ provided that the \"defining condition\" is satisfied.<br>\n<br>\nWhich is the \"defining condition\"? It is :<br>\n$$<br>\nX \\cap\\{1,3,5\\}=Y \\cap\\{1,3,5\\}<br>\n$$<br>\nNow, consider $X=\\{1,2,3\\}$;<br>\n<br>\nWhat is $X \\cap\\{1,3,5\\}$ ? It will be $\\{1,2,3\\} \\cap\\{1,3,5\\}=\\{1,3\\}$.<br>\n<br>\nWe have to find all $Y$ subset of $A$ such that :<br>\n$$<br>\nY \\cap\\{1,3,5\\}=\\{1,3\\}<br>\n$$<br>\nHence$, Y$ is a subset of $A$ such that it contains $1,3$ But not $5.$ There are $4$ such subsets, $\\{1,3\\},\\{1,3,2\\} 1,3,4\\},\\{1,3,2,4\\}$.</p>\n\n<p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/403886\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume $R$ is an equivalence relation defined on a non-empty set $S$. A subset $P$ of $S$ is called an independent set if no element of $P$ is related to any other element of $P$ under relation $\\mathrm{R}$ i.e. $\\forall x, y \\in P,$ If $x \\neq y$ then $x$ is not related to $y$ under $\\mathrm{R}$.<br>Which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The size of the largest independent set is the same as the number of equivalence classes of $R$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The size of the largest independent set is greater than or equal to the number of equivalence classes of $R$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The size of the largest independent set is less than or equal to the number of equivalence classes of $R$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The size of the largest independent set may be greater than or equal to or less than the number of equivalence classes of $R$.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"403885\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;<strong>&nbsp;</strong></p>\n\n<p>To create the largest independent set, we can take one element from each equivalence class of $R.$ Note that, we can't take more than one element from any equivalence class. So, The size of the largest independent set is the same as the number of equivalence classes of $R$.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"411481\"></a><div itemprop=\"text\"><p>Its given that we have a set S and equivalence relation is defined on this set.</p>\n\n<p>P: Defined as a set that have elements that are not related to any other elements under relation R. From this statement,</p>\n\n<p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;we can infer that a element in P can be related to itself</strong>.</p>\n\n<p>&nbsp; &nbsp; &nbsp;Now, we can assume that <strong>S is partitioned into N parts</strong>, i.e <strong>total we have N equivalent&nbsp; classes.</strong></p>\n\n<p>Each of the equivalent class have some elements that are related to it, so P will obviously not contain those elements ( because as defined elements of p are not related to any other elements).</p>\n\n<p>so <strong>P will contain all the contain N elements because they are not related.</strong></p>\n\n<p><strong>therefore A is correct</strong>.</p>\n\n<p>&nbsp;</p>\n\n<p>Eg: set S = {a,x,y,z,b,d,e,f,g,m,n,i}</p>\n\n<p>lets say [a] = {a,x,y,z};&nbsp; [b] = {b,d,e,f};&nbsp; [g] = {g,m,n,i}</p>\n\n<p>P will have {a,b,g} or {x,d,g} or {y,d,m} …..&nbsp; so no of elements in p is equal to no. of equivalent</p>\n\n<p>classes of R. <strong>Notice that P will have only one element from each of the equivalent class.</strong></p>\n\n<p>I was not able to answer this question in exam</p></div></section></div><p><a href=\"https://gateoverflow.in/403884\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the relation $\\text{T}$ defined on set $\\text{S} =\\{0,1,2,3,4,5,6,7,8,9\\}$ defined by $x\\text{T}y$ if and only if $3|(x^{3}-y^{3}).\\; \\text{T}$ is an equivalence relation. For any $x \\in \\text{S},$ let $[x]$ denote the equivalence class of $\\text{T}$ containing $x.$<br>\n<br>\nWhat is the cardinality of $[6]?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"374287\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;&nbsp;</p>\n\n<p>$\\text{T}$ is reflexive: let $x\\in \\text{S}.$ Then $x^3-x^3=0$ and $3|0$ so $x\\text{T}x.$<br>\n<br>\n$\\text{T}$ is symmetric: let $x,y\\in \\text{S}$ and suppose $x\\text{T}y.$ Then by definition of $\\text{T}, 3|(x^3-y^3)$ and by properties of divisibility $3|(y^3-x^3).$ So $y\\text{T}x.$<br>\n<br>\n$\\text{T}$ is transitive: let $x,y,z\\in\\text{S}$ and suppose $x\\text{T}y$ and $y\\text{T}z.$ The by definition of $\\text{T}$ we have $3|(x^3-y^3)$ and $3|(y^3-z^3).$ Now by properties of divisibility we have $3|(x^3-z^3)$, so $x\\text{T}z$ (use $a|b \\wedge a|c \\Rightarrow a|(b+c)$ with $a=3, b=x^3-y^3$ and $c=y^3-z^3).$<br>\n<br>\nThe equivalence classes are $[0]=\\{0,3,6,9\\}, [1]=\\{1,4,7\\},[2]=\\{2,5,8\\},$ and $[6] = \\{0,3,6,9\\}.$</p></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"382457\"></a><div itemprop=\"text\">[6] = set of y where yR6 means x value 6.<br>\n<br>\n3|(6^3 - y^3) is equal to<br>\n<br>\n6^3 mod 3 = y^3 mod 3<br>\n<br>\n6^3 mod 3 = 0 <br>\n<br>\nSo we have to find y so that y^3 mod 3 =0<br>\n<br>\nMeans y^3 multiple of 3 so {0^3 ,3^3 ,6^3, 9^3}is multiple of 3 so [6] = {0,3,6,9} so cardinality is 4</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"403963\"></a><div itemprop=\"text\">Relation $T$ defined on base set $S=\\{0,1,2,3,4,5,6,7,8,9\\}$ by <br>\n<br>\n$x\\text{T}y$ iff $3|(x^{3}-y^{3})$ means $\\text{3 divides}\\; (x^{3} -y^{3})$<br>\n<br>\n$[6]$ denote equivalence class of $\\text{T}$ containing $6$.<br>\n<br>\n$6\\text{T}0$ as $3|(6^{3}-0^{3})$<br>\n<br>\n$6\\text{T}3$ as $3|(6^{3} -3^{3})$<br>\n<br>\n$6\\text{T}6$ as $3|(6^{3}-6^{3})$<br>\n<br>\n$6\\text{T}9$ as $3|(6^{3}-9^{3})$<br>\n<br>\nSo, $[6]_{T} = \\{0,3,6,9\\}$<br>\n<br>\n$\\therefore |[6]_{T}| = 4$<br>\n<br>\n$\\color{Green}\\text{Ans: 4}$</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"533093\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"1200\" height=\"788\" src=\"media/c0/c08a02127eec1d16c80c.jpg\"></p><p>.........</p></div></section></div><p><a href=\"https://gateoverflow.in/374286\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Define an equivalence relation $\\text{R}$ on the positive integers $A = \\{2, 3, 4, \\dots , 20\\}$ by $m \\text{R} n$ if the largest prime divisor of $m$ is the same as the largest prime divisor of $n.$ The number of equivalence classes of $\\text{R}$ is ________",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"374267\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:&nbsp;</strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Rfc5CavStLM\" target=\"_blank\">https://www.youtube.com/watch?v=Rfc5CavStLM</a>&nbsp;&nbsp;</p>\n\n<p>All the prime numbers will have to go to different equivalence classes. Remaining all elements will go to some of these classes. So, total $8$ equivalence classes because there are $8$ prime numbers below $20.$<br>\n<br>\nPrime numbers that can divide some number from 2 to 20 are 2,3,5,7,11,13,17,19.. So, total 8 prime numbers are there, &amp; each prime number corresponds to an equivalence class.<br>\n<br>\nHere are the blocks of the partition associated with the equivalence relation (i.e. the equivalence classes of $R$):<br>\n<br>\n$\\{ 2,4,8,16 \\}$, $\\{ 3,6,9,12,18\\}$, $\\{ 5,10,15,20 \\}$ , $\\{ 7,14 \\}$, $\\{11 \\}$, $\\{13 \\}$, $\\{ 17 \\}$, $\\{19 \\}$.<br>\n<br>\nNOTE: “block of the partition” = “part of the partition” = “equivalence class of $R$”.</p></div></section></div><p><a href=\"https://gateoverflow.in/374266\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{A, B}$ be two non-empty sets such that $\\text{P(A)} \\subset \\text{P(B)},$ where $\\text{P(S)}$ denotes Power set of set $\\text{S},$ and $\\subset$ denotes “proper subset”. Let $\\text{M}$ be the universal set and $\\text{A, B}$ are proper subsets of $\\text{M}.$ For any set $\\text{S}$, let $\\text{S}'$ be the set of those elements which are in $\\text{M},$ but not in $\\text{S}.$</p><p>Which of the following sets forms a partition of $\\text{M}$ ?(Mark all correct options)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\{\\text{A} \\cap \\text{B},\\text{A}&#x27; \\cap \\text{B}\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\{\\text{A} \\cap \\text{B},\\text{A}&#x27; \\cap \\text{B}, \\text{A} \\cap \\text{B}&#x27;,\\text{A}&#x27; \\cap \\text{B}&#x27;\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{\\text{A} \\cap \\text{B},\\text{A}&#x27; \\cap \\text{B},\\text{A}&#x27;\\cap \\text{B}&#x27;\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{\\text{A} \\cap \\text{B},\\text{A}&#x27; \\cap \\text{B}&#x27;\\}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 21)</small></h4><a name=\"373931\"></a><div itemprop=\"text\"><p>Partition of a set A is a set of disjoint non-empty subsets of A such that union of all these subsets is equal to original set A.</p>\n\n<p>P(A) ⊂&nbsp;P(B) → every subset of A is also a subset of B.</p>\n\n<p>Moreover, P(B) has more elements than P(A). Thus,&nbsp;<strong>A is proper subset of B.&nbsp;</strong>Thus,&nbsp;</p>\n\n<p><strong><img alt=\"\" height=\"315\" src=\"media/b7/b72ff809a2e45db86ee2.jpg\" width=\"396\"></strong></p>\n\n<p><strong>A&nbsp;∩ B = 1;&nbsp; A’ ∩ B = 2;&nbsp; A&nbsp;∩ B’ =&nbsp;∅;&nbsp; A’ ∩ B’ = 3</strong></p>\n\n<p>Option A = { 1, 2 }. This is missing 3.</p>\n\n<p>Option B = { 1, 2,&nbsp;∅, 3 }. This contains&nbsp;∅.</p>\n\n<p>Option C = { 1, 2, 3 }. This contains all areas of M.</p>\n\n<p>Option D = { 1, 3 }. This is missing 2.</p>\n\n<p><strong>Answer :- C</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/373920\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 17,
+  "types": {
+   "MCQ": 6,
+   "MSQ": 5,
+   "NAT": 4
+  },
+  "withoutKey": 5
+ }
+}

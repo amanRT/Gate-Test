@@ -1,0 +1,1106 @@
+{
+ "v": 1,
+ "id": "da-easy-2025-016",
+ "title": "Subjectwise Test-4 Part Syllabus GATE 2025 DA Programming, Data Structures and Algorithms",
+ "sourceTitle": "Subjectwise Test-4 Part Syllabus GATE 2025 DA Programming, Data Structures and Algorithms",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2025",
+ "num": 16,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/032_Subjectwise Test-4 Part Syllabus GATE 2025 DA Programming, Data Structures and Algorithms.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tMatch <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n<p>\n\t<img alt=\"\" src=\"media/d5/d5d5db4d94a20297e2a5.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; Merge sort used divide and conquer.<br />\n\t&bull; Prim&rsquo;s and Dijkstra&rsquo;s algorithm both are used greedy algorithm.<br />\n\t&bull; All pair shortest path uses dynamic programming.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following has best case lower bound time complexity?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Selection sort"
+    },
+    {
+     "key": "B",
+     "html": "Merge sort"
+    },
+    {
+     "key": "C",
+     "html": "Insertion sort"
+    },
+    {
+     "key": "D",
+     "html": "Quick sort"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/6a/6a151806352bf4f1da56.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhat is the time complexity of the following recurrence relation?</p>\n<p>\n\t<img alt=\"\" src=\"media/96/96b140c2f426c84d0de2.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tΟ(<em>n</em><sup>2</sup>)</p>"
+    },
+    {
+     "key": "B",
+     "html": "Ο(n log n)"
+    },
+    {
+     "key": "C",
+     "html": "Ο(n)"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tΟ(n (log <em>n</em>)<sup>2</sup>)</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/a8/a83540fd43e8b1919bc4.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following algorithm has minimum number of swap in worst case?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Merge sort"
+    },
+    {
+     "key": "B",
+     "html": "Bubble sort"
+    },
+    {
+     "key": "C",
+     "html": "Quick sort"
+    },
+    {
+     "key": "D",
+     "html": "Selection sort"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\tSelection sort takes minimum number of swap &Omicron;(n) in worst case.</p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tSuppose <em>f</em> (<em>n</em>) = Ο(n<sup>2</sup>), <em>g</em>(<em>n</em>) = Ω(<em>n</em><sup>2</sup>) and <em>h</em>(<em>n</em>) = Ω(<em>n</em>).<br />\n\tThen [ <em>f</em>(<em>n</em>) + (<em>g</em>(<em>n</em>) ⋅ <em>h</em>(<em>n</em>))] will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Ω(n)"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tΩ(<em>n</em><sup>2</sup>)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tO(<em>n</em><sup>3</sup>)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tΩ(<em>n<sup>3</sup></em>)</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/9d/9d000fb9c32969151595.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Counting sort is a stable, in-place sorting algorithm.<br />\n\t<em>S</em><sub>2</sub> : In merge sort execution time, roughly the same amount of work is done at each level of tree.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/6f/6f313e93e90538024db7.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following recursive function:</p>\n<p>\n\t<img alt=\"\" src=\"media/47/47bb7064b5077920222e.png\" /></p>\n<p>\n\tWhat is the worst case time complexity of the above function?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tΟ(log <em>n</em>)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tΟ(<em>n</em>)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tΟ(<em>n</em> log <em>n</em>)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tΟ(<em>n</em><sup>2</sup>)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/7c/7c76a48d0a8384bcfa8c.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following python code:</p>\n<p>\n\t<img alt=\"\" src=\"media/1b/1b69c3d4d9589c4f9d24.png\" /></p>\n<p>\n\tWhat is output of the above code?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 + 20+"
+    },
+    {
+     "key": "B",
+     "html": "1020"
+    },
+    {
+     "key": "C",
+     "html": "+10 +20"
+    },
+    {
+     "key": "D",
+     "html": "+10 20+"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are false?<br />\n\t<em>S</em><sub>1</sub> : Every directed acyclic graph has exactly one topological order.<br />\n\t<em>S</em><sub>2</sub> : Dijkstra’s may not terminate if graph contains negative height edges.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S<sub>2</sub></em></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S<sub>2</sub></em></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/d0/d08f8a5597c118dc699d.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tConsider a complete bipartite graph with ‘<em>m</em>’ and ‘<em>n</em>’ vertices. If <em>m</em>, <em>n</em> are 3, 3 respectively then the number of spanning trees of bipartite graph ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    81,
+    81
+   ],
+   "answerText": "81",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t81</p>\n<p>\n\t<img alt=\"\" src=\"media/16/16030125bd8792f54b81.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following function:</p>\n<p>\n\t<img alt=\"\" src=\"media/4c/4c8619f01ecb7dd8d8c2.png\" /></p>\n<p>\n\tWhich of the following recurrence relation depicts the running time of a function, as function of ‘n’?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e4/e4af588b0a30dec80479.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c8/c8c28eaae35ae0f321ec.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b8/b8f3e19b77d8e37fc5b3.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0b/0b9577add4e0f54d8207.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/c5/c509bed325eaf35114bd.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following graph:</p>\n<p>\n\t<img alt=\"\" src=\"media/1c/1c642cc83989fae3c1d7.png\" /></p>\n<p>\n\tWhich of the following sequences are BFS traversal?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a3/a3dbd31a92420a7a9f3e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/97/9782611f4a6a9cb3f6a0.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/39/3964c59ed44c5f346f90.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fc/fc072e8ce314b34979ce.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : Radix sort works in a linear time only if the elements to sort are integers in the range {0, 1 ..... <em>c<sub>n</sub></em>} for same <em>c</em> = Ο(1).<br />\n\t<em>S</em><sub>2</sub> : The running time of radix sort is effectively independent of whether the input is already sorted.<br />\n\tWhich of the above is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S<sub>2</sub></em></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/51/51a8c2fffff558c53383.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following Python code:</p>\n<p>\n\t<img alt=\"\" src=\"media/2f/2f5fc73733284440e2bf.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Print all leaf node of a BT from left to right."
+    },
+    {
+     "key": "B",
+     "html": "Print all internal node form left to right."
+    },
+    {
+     "key": "C",
+     "html": "Print all leaf node of BT from right to left."
+    },
+    {
+     "key": "D",
+     "html": "Print all internal node right to left."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tThe preorder traversal of a binary search tree:<br />\n\t60 40 55 50 80 70 75<br />\n\tThe what will be its postorder traversal.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "55 50 40 75 80 70 60"
+    },
+    {
+     "key": "B",
+     "html": "50 40 55 70 75 80 60"
+    },
+    {
+     "key": "C",
+     "html": "50 55 40 75 70 80 60"
+    },
+    {
+     "key": "D",
+     "html": "50 55 40 70 75 80 60"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/28/284bde21ebbdf9864960.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following represents most appropriate asymptotic solution for given recurrence.</p>\n<p>\n\t<img alt=\"\" src=\"media/89/89d17b4cfc1a45a66e08.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b2/b26345ec43f4ada8a53f.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a2/a23935f176ff3dd60ecf.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d1/d1c167de950410659535.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/65/65097959b07bfa326663.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/05/0506765cc887e6bdab2f.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following cases of quick sort to sort an array of n elements:<br />\n\t(i) Choosing the pivot element randomly from the given array.<br />\n\t(ii) Choosing middle element as pivot.<br />\n\t(iii) Choosing median element as pivot.<br />\n\tFor which of the above cases quick sort always gives Ο(<em>n</em> log <em>n</em>) time complexity?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(i) and (ii)"
+    },
+    {
+     "key": "B",
+     "html": "(ii) and (iii)"
+    },
+    {
+     "key": "C",
+     "html": "(i) and (iii)"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/ee/ee6e96359a8dc92ed6ba.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following graph:</p>\n<p>\n\t<img alt=\"\" src=\"media/13/13e96afd5d571956ed0c.png\" /></p>\n<p>\n\tThe maximum number of queue entries required when performing BFS on the above graph is ________.<br />\n\t<strong>Note:</strong> Size of queue is represented by maximum number of element of any point of time.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5</p>\n<p>\n\t<img alt=\"\" src=\"media/09/09b82a1dff8fd0371671.png\" /></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Given an max-heap of height Ο(log n) it will take Ο(n) time to delete the root element of the max heap.<br />\n\t<em>S</em><sub>2</sub> : In quick sort at first iteration, no element change its position iff given input is already sorted.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\tGiven a max-heap of height &Omicron;(log <em>n</em>) to delete root if set &Omicron;(<em>n</em>) time, heap property is not maintained, to maintain heap property &Omicron;(log <em>n</em>) time required, total time &Omicron;(log <em>n</em>).</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConider the following Python code:</p>\n<p>\n\t<img alt=\"\" src=\"media/5e/5e83caa38d80c5a203a9.png\" /></p>\n<p>\n\tWhat will be time complexity of given code?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tO(<em>n</em><sup>2</sup><sub> </sub>)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tO(log <em>n</em>)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tO(<em>n</em> log <em>n</em>)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tO(<em>n</em><sup>3</sup>)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/ae/aeb9faa4995935af90f0.png\" /></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are true?<br />\n\t<em>S</em><sub>1</sub> : The bidirection Dijkstra algorithm runs asymptotically faster than the Dijkstra algorithm.<br />\n\t<em>S</em><sub>2</sub> : Bellman Ford algorithm for every weighted graph which contain two vertices u and <img align=\"absmiddle\" alt=\"\" src=\"media/08/0833fdf7b07c9dd60786.png\" /> always produce a shortest path.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/17/176852047ef6cf95bf13.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following ‘python’ function foo1( ) and foo2( ) take a single linked list of integers as a parameters and print the elements of the list in random order. The function is called with linked list containing the integers 7, 6, 5, 4, 3, 2, 1 in given orders:</p>\n<p>\n\t<img alt=\"\" src=\"media/3e/3e96b2bbbef79c7b9cce.png\" /></p>\n<p>\n\tLet the order of the elements printed by foo1( ) be <img align=\"absmiddle\" alt=\"\" src=\"media/49/49264bdfd87eac25956f.png\" /> and the order of elements printed by foo2( )<br />\n\tbe ‘<em>y</em>’. An element that are at same index in both <img align=\"absmiddle\" alt=\"\" src=\"media/49/49264bdfd87eac25956f.png\" /> and ‘y’ are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t4</p>\n<p>\n\t<img alt=\"\" src=\"media/0c/0c077a32ab093b445041.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following python code:</p>\n<p>\n\t<img alt=\"\" src=\"media/85/85b85f3506bb0cd8fb2f.png\" /></p>\n<p>\n\tWhat will be output of the above code?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Niraj 1030"
+    },
+    {
+     "key": "B",
+     "html": "3010 Niraj"
+    },
+    {
+     "key": "C",
+     "html": "1030 Niraj"
+    },
+    {
+     "key": "D",
+     "html": "Compile time error"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tUsing Kruskal’s algorithm how many distinct minimum cost spanning trees are possible?</p>\n<p>\n\t<img alt=\"\" src=\"media/18/1807c2a8ec0356cfa416.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3"
+    },
+    {
+     "key": "B",
+     "html": "4"
+    },
+    {
+     "key": "C",
+     "html": "5"
+    },
+    {
+     "key": "D",
+     "html": "6"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/9e/9ee3ef4c43bde8eced50.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements are true?<br />\n\t<em>S</em><sub>1</sub> : Time complexity to construct binary heap of <em>n</em> elements by inserting elements is θ(<em>n</em> log <em>n</em>).<br />\n\t<em>S</em><sub>2</sub>: A label binary tree can be uniquely constructed using the level order with inorder traversals.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t<em>S</em><sub>1</sub> : Because build heap method take &Omicron;(n).<br />\n\t<em>S</em><sub>2</sub>: Combination with inorder and level order we can construct unique binary tree.</p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhat will be the output of Python code :</p>\n<p>\n\t<img alt=\"\" src=\"media/f9/f922c23de98b0a64e5b1.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    15
+   ],
+   "answerText": "15",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t15</p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider a max heap, represented by array:</p>\n<p>\n\t<img alt=\"\" src=\"media/d7/d71a1cf24fadd8283923.png\" /></p>\n<p>\n\tNow consider that value 87 is inserted into this heap and inorder predecessor of root is deleted from the tree the new heap is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "89, 87, 77, 40, 52, 57, 63, 35, 31"
+    },
+    {
+     "key": "B",
+     "html": "89, 77, 87, 52, 40, 63, 57, 31, 35"
+    },
+    {
+     "key": "C",
+     "html": "89, 87, 77, 52, 40, 63, 57, 31, 35"
+    },
+    {
+     "key": "D",
+     "html": "89, 87, 77, 52, 40, 57, 63, 35, 31"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/e9/e9c3295a36356b7697ed.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following statement:<br />\n\t<em>S</em><sub>1</sub> : Merge sort on linked list take Ο(n log n) time to sort input of length n.<br />\n\t<em>S</em><sub>2</sub>: Inplace merge sort on array will take Ο(n log n) time.<br />\n\t<em>S</em><sub>3</sub>: Merge sort on linked list give better space complexity then on array.<br />\n\tWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tOnly <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\t<em>S</em><sub>2</sub>: Inplace merge sort on array will take &Omicron;(<em>n</em><sup>2</sup>) time.</p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following Python code:</p>\n<p>\n\t<img alt=\"\" src=\"media/3c/3cf09a48403796df2f05.png\" /></p>\n<p>\n\tWhat will be the output above code?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Equal"
+    },
+    {
+     "key": "B",
+     "html": "Not equal"
+    },
+    {
+     "key": "C",
+     "html": "Run time error"
+    },
+    {
+     "key": "D",
+     "html": "Compile time error"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/ad/ada857aa49a0e94f1287.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider a modified binary search tree given below with each nodes storing value and its priority.<br />\n\tThe priority of parent always higher than it’s children. The priority of root node is higher than other nodes.</p>\n<p>\n\t<img alt=\"\" src=\"media/30/302219ffc5a3b6778460.png\" /></p>\n<p>\n\tAfter insertion of value 26 with priority 28.<br />\n\tThe level at which 13, 16 present in modified binary search tree at level ________ (assume root at level 0).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t3</p>\n<p>\n\t<img alt=\"\" src=\"media/b4/b4b78c194204bc788e95.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A binary min-heap with n elements supports INSERT in Ο(logn) time and DELETE-MIN in constant time."
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tThe quick sort algorithm that uses linear-time median finding algorithm takes θ(<em>n</em><sup>2</sup>) time in worst-case.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/e1/e1d3a765b80b628ec8d7.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0c/0c0e21b4da0d57b525db.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/bb/bbd8a156604109251516.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/9e/9edc7cf34c4234aefca5.png\" /></p>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following statements:</p>\n<p>\n\t<img alt=\"\" src=\"media/13/137f23d46a72d28bfaa4.png\" /></p>\n<p>\n\tThe number of statements holds true are ______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2</p>\n<p>\n\t<img alt=\"\" src=\"media/01/0185253c169da5908f7c.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following graph:</p>\n<p>\n\t<img alt=\"\" src=\"media/05/05edd45e4c6014e57fca.png\" /></p>\n<p>\n\tWhich one of the following represents the sequence of edges added in order to make a minimum spanning tree using Prim’s algorithm?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/80/809fc34b07ea883ff835.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4d/4dc904e6e2128526e444.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/44/44682b9de2116d66d60f.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/26/26a33edbc1cbbf3ecbad.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/bd/bd2de018946534830dc7.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 24,
+   "MSQ": 3,
+   "NAT": 6
+  },
+  "withoutKey": 0
+ }
+}

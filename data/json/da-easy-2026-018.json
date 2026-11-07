@@ -1,0 +1,1115 @@
+{
+ "v": 1,
+ "id": "da-easy-2026-018",
+ "title": "Subjectwise Test-5 Part Syllabus GATE 2026 DA Database Management and Warehouse",
+ "sourceTitle": "Subjectwise Test-5 Part Syllabus GATE 2026 DA Database Management and Warehouse",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2026",
+ "num": 18,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/035_Subjectwise Test-5 Part Syllabus GATE 2026 DA Database Management and Warehouse.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Match <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/24/2484770309ca8da83033.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\n&bull; 2NF can&rsquo;t have partial functional dependencies.<br />\n&bull; 3NF can&rsquo;t have transitive dependencies.<br />\n&bull; 4NF deals with multi-valued dependencies.<br />\n&bull; 5NF deals with join dependencies.</p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>A software company monitors the average number of bugs per release over 100 releases, which is recorded as 12. If the 101st release has 16 bugs, what is the updated average number of bugs per release after including the 101st release? ______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12.01,
+    12.08
+   ],
+   "answerText": "12.03",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12.03 [12.01 - 12.08]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1e/1e2391e94993acf7d877.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Consider the following relation <em>R</em>(A, B, C, D, E, F, G, H).<br />\nThe maximum number of super key possible it 5 simple candidate keys in relation <em>R</em> are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    248,
+    248
+   ],
+   "answerText": "248",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>248<br />\n= (2<sup>5</sup> &ndash; 1) (2<sup>3</sup>)<br />\n= 31 &times; 8 = 248</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Min-max normalization is useful when data boundaries are known and fixed.<br />\n<em>S</em><sub>2</sub> : Z-score is suitable when the data follows a Gaussian distribution.<br />\nWhich of the above statement is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; Min-max normalization rescales data to a fixed range (commonly [0, 1]).<br />\nIt is most useful when minimum and maximum boundaries are known and stable, such as in image pixel normalization. So, <em>S</em><sub>1</sub> is correct.<br />\n&bull; Z-score normalization standardizes data to have mean = 0 and standard deviation = 1.<br />\nIt assumes data is approximately normally distributed (bell-shaped) for effectiveness in tasks<br />\nlike PCA or statistical analysis. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A file is organized so that the ordering of data record is same as or close to the ordering of data block in some index. Then that index is called</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Dense"
+    },
+    {
+     "key": "B",
+     "html": "Sparse"
+    },
+    {
+     "key": "C",
+     "html": "Clustered"
+    },
+    {
+     "key": "D",
+     "html": "Unclustered"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\n&bull; In sparse index number of entries depends on number of data block in previous level.<br />\n&bull; In dense index number of entries depends on number of data record in previous level.</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : The data field records in secondary index can be in hashed form.<br />\n<em>S</em><sub>2</sub> : The attribute or set of attributes which is used to look up records in a file is called search field.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em><sub>1</sub> only"
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em><sub>2</sub> only"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\n&bull; A secondary index provides a secondary means of accessing a data file for which some primary<br />\naccess already exists. The data file records could be ordered, unordered or hashed.<br />\n&bull; Search Key is an attribute or set of attributes used to look up records in a file.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider a relation S = (A, B, C, D). For which of the following sets of FD’s in S is not in 3<sup>rd</sup> normal form?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "{ABC → D, ACD → B, A → D, BCD → A}"
+    },
+    {
+     "key": "B",
+     "html": "{AD → C, BC → A, BD → C, CD → B}"
+    },
+    {
+     "key": "C",
+     "html": "{AC → D, D → A, D → B, D → C}"
+    },
+    {
+     "key": "D",
+     "html": "{AC → B, A → D, C → A, D → B}"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nFor (i): For FD A &rarr; D, the LHS is not the super key but RHS is a prime attribute. Therefore, it is<br />\nin 3NF.<br />\nFor (ii): The candidate keys are AD, BD and CD. Thus, for FD BC &rarr; A, the LHS is not the<br />\nsuperkey but RHS is a prime attribute. Therefore, it is in 3NF.<br />\nFor (iii), The candidate keys are AC and D. Thus, all the FD&#39;s satisfy the 3NF condition and thus<br />\nit is in 3NF.<br />\nFor (iv), the candidate key is C, therefore, FD AC &rarr; B, A &rarr; D, D &rarr; B neither LHS is the super<br />\nkey nor RHS is having the prime attribute, therefore, it is not in 3NF.</p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider the relation Recruitment (CandidateNo, InterviewDate, InterviewTime, StaffNo, RoomNo) and the following functional dependencies<br />\n<strong>FD<sub>1</sub> :</strong> CandidateNo, InterviewDate → InterviewTime, StaffNo, RoomNo<br />\n<strong>FD<sub>2</sub> :</strong> RoomNo, InterviewDate, InterviewTime → StaffNo, CandidateNo<br />\n<strong>FD<sub>3</sub> :</strong> StaffNo, InterviewDate → RoomNo<br />\nWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The relation recruitment is in 3NF."
+    },
+    {
+     "key": "B",
+     "html": "The relation recruitment is in BCNF."
+    },
+    {
+     "key": "C",
+     "html": "The FD<sub>3</sub> violates 3NF."
+    },
+    {
+     "key": "D",
+     "html": "The FD<sub>2</sub> violates 2NF."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b0/b0ebd1fe8b7de81281f8.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Consider the following relations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/20/2031b1e162a1f4441caf.png\" /></div>\n\n<div> </div>\n\n<div><em>R</em><sub>1</sub> has 500 records and <em>R</em><sub>2</sub> has 800 records. The non-Null attribute ‘<em>P</em> ’ in R<sub>2</sub> is referencing attribute ‘<em>P</em>’ in <em>R</em><sub>1</sub>. The maximum number of records present in <img align=\"absmiddle\" alt=\"\" src=\"media/17/179c2cc30b881ad53b77.png\" /> are ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    800,
+    800
+   ],
+   "answerText": "800",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>800<br />\nSince &lsquo;<em>P</em> &rsquo; in <em>R</em><sub>2</sub> is not key, hence all value of &lsquo;<em>P</em>&rsquo; may or may not be unique. Hence every entry<br />\nunder &lsquo;<em>P</em>&rsquo; in <em>R</em><sub>2</sub> will match with &lsquo;<em>P</em>&rsquo; in <em>R</em><sub>1</sub>. Hence maximum is 800.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A salary of $ 96000 has been normalized to a Z-score of 4. What must be the mean of the data if the standard deviation is $ 3000?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "92000"
+    },
+    {
+     "key": "B",
+     "html": "84000"
+    },
+    {
+     "key": "C",
+     "html": "87000"
+    },
+    {
+     "key": "D",
+     "html": "88000"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/63/632ddaa840f7d6ba5ce2.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following is/are false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The expressive power of basic RA queries is not same as safe TRC queries."
+    },
+    {
+     "key": "B",
+     "html": "Average of attribute values can be calculated in safe TRC."
+    },
+    {
+     "key": "C",
+     "html": "‘NOT IN’ never true if result of inner query to test NOT IN function is consist NULL value."
+    },
+    {
+     "key": "D",
+     "html": "Every query with having clause condition over aggregate function may not be rewrite with where clause condition."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)<br />\n&bull; The expressive power of basic RA queries is same as safe TRC queries.<br />\n&bull; Average of attribute values cannot be calculated in safe TRC.<br />\n&bull; Every query with having clause condition over aggregate function can rewrite where clause<br />\ncondition.</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Suppose we have a relation R(A, B, C, D, E) with FD’s {A → B, AB → C, D → AC, D → E}. R is decomposed as <em>R</em><sub>1</sub>(A, C, D), <em>R</em><sub>2</sub>(D, E), R3(A, B, C). Which of the following statement is true regarding the decomposition?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Lossless and depending preserving."
+    },
+    {
+     "key": "B",
+     "html": "Lossless but not depending preserving."
+    },
+    {
+     "key": "C",
+     "html": "Lossy and dependency preserving."
+    },
+    {
+     "key": "D",
+     "html": "Lossy and not dependency preserving."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3b/3bfc80061d6725eb652e.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Equal-width binning divides the range of data into fixed-size intervals, while equal-frequency binning adjusts interval size to balance record count.<br />\n<em>S</em><sub>2</sub> : Equal-width binning is range-based, whereas equal-frequency binning is count-based.<br />\nWhich of the above statement is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; Equal-width binning divides the total data range into fixed-size bins, while equal-frequency<br />\nbinning adapts bin widths to ensure equal number of records per bin. So, <em>S</em><sub>1</sub> is correct.<br />\n&bull; Equal-width binning is based on the range of data, while equal-frequency binning is based on<br />\nmaintaining the same number of records in each bin. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : SQL’s aggregation Sum, Avg, Count can not be expressed in relational algebra.<br />\n<em>S</em><sub>2</sub> : Select clause with distinct in SQL is same as project in relational algebra.<br />\n<em>S</em><sub>3</sub> : In SQL the arithmetic operator (+, –, *, ÷,) all return null if one of the their arguments is null.<br />\nWhich of the above statement is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> only"
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em><sub>1</sub> and <em>S</em><sub>3</sub> only"
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub>"
+    },
+    {
+     "key": "D",
+     "html": "<em>S</em><sub>2</sub> and <em>S</em><sub>3</sub> only"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n<em>S</em><sub>1</sub> : SQL&rsquo;s aggregation can not be expressed in relational algebra.<br />\n<em>S</em><sub>2</sub>&nbsp;: Select clause is same as project in relation algebra.<br />\n<em>S</em><sub>3</sub>&nbsp;: Arithmetic operation is return null if one of the value is null.<br />\nAll <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub>&nbsp;and <em>S</em><sub>3</sub>&nbsp;are correct.</p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Equal frequency discretization always ensures bins of equal width."
+    },
+    {
+     "key": "B",
+     "html": "Min-max normalization may distort data relationships if outliers are present."
+    },
+    {
+     "key": "C",
+     "html": "A fact table in a star schema contains quantitative data and foreign keys to dimension tables."
+    },
+    {
+     "key": "D",
+     "html": "In a star schema, dimension tables are connected hierarchically before linking to the fact table."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\n&bull; Equal frequency discretization creates bins with an equal number of data points, not equalwidth<br />\nranges. Bin widths may vary based on data distribution. So, option (a) is incorrect.<br />\n&bull; Min-max normalization uses extreme values (min and max) for scaling, so outliers can skew<br />\nthe transformation, compressing the majority of data. So, option (b) is correct.<br />\n&bull; A fact table contains measurable numerical data (facts) and foreign keys referencing the<br />\nassociated dimension tables in a star schema. So, option (c) is correct.<br />\n&bull; That describes a snowflake schema. In a star schema, each dimension table connects directly<br />\nto the central fact table without hierarchy. So, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Given relation R(A, B, C, D, E) and set of functional dependencies<br />\nF = {AB → C, AB → D, D → A, BC → D, BC → E}<br />\nWhat will be the highest normal form satisfied by R?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1NF"
+    },
+    {
+     "key": "B",
+     "html": "2NF"
+    },
+    {
+     "key": "C",
+     "html": "3NF"
+    },
+    {
+     "key": "D",
+     "html": "BCNF"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nCandidate keys for the relation are: AB, BD and BC<br />\nD &rarr; A, prime attribute &rarr; prime attribute (not allowed in BCNF but allowed in 3NF).<br />\n&rArr; Relation R is in 3NF but not in BCNF since D &rarr; A does not have a superkey on the left hand<br />\nside.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider the relation database, where primary keys are underlined:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0e/0e30cb74f1ce3a7c94fd.png\" /></div>\n\n<div> </div>\n\n<div>What does the following tuple relational calculus query produce?\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7d/7d4861d2d6ba3b24ba96.png\" /></div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Name of students whose marks are less than any of the students living in city Mumbai."
+    },
+    {
+     "key": "B",
+     "html": "Name of students whose marks are more than equal to any of the students living in city Mumbai."
+    },
+    {
+     "key": "C",
+     "html": "Name of students whose marks are less than all students living in city Mumbai."
+    },
+    {
+     "key": "D",
+     "html": "Name of students whose marks are more than all students living in city Mumbai."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nGiven query produces the name of students whose marks are more than that of student living in city Mumbai.<br />\nAccording to option (d), there should not exist a student <em>S</em><sub>2</sub> who has more marks than <em>S</em><sub>1</sub>, when S<sub>2</sub> lives in Mumbai. Which is another way of saying <em>S</em>1 has more marks than all students living in Mumbai.</p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the relation <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) which of the following relational algebra expression returns the lowest value of <em>B</em>? (<em>R</em><sub>1</sub> and <em>R</em><sub>2</sub> are renames of <em>R</em>)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/b7/b7a40cc3ce8214943ae3.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/65/65d697c9ecb85d5fdd0d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/71/71466a50a163e5e97c0a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/30/3000c0246bbb9ff2273a.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a hospital which has various departments. Each doctor belongs to only one department.<br />\nA patient gets registered to a department under one doctor in that department. It may be required that he/she may be treated by other doctor of same/different departments also. Doctor suggests various tests for patients, and these are noted along with their reports.<br />\nIf we want to design a schema for the above system what are the possible entities?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Report"
+    },
+    {
+     "key": "B",
+     "html": "Doctor"
+    },
+    {
+     "key": "C",
+     "html": "Patient"
+    },
+    {
+     "key": "D",
+     "html": "Test"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2d/2d26fe3e48be8cfd8329.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following relation:<br />\n<em>R</em>(<em>A B C D E F</em>) with FD set of relation <em>R</em>. {<em>A</em> → <em>B</em>, <em>C</em> → <em>D</em>, <em>E</em> → <em>F</em>}<br />\nWhat is the minimum number of relations required to decompose relation <em>R</em> into 2NF which satisfy lossless join and dependency preserving decomposition?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "5"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1e/1ece60e4d16d7ad030bb.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider the following ER diagram:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0b/0bc78f3b1d66802aa580.png\" /></div>\n\n<div>The minimum number of RDBMS tables required for the above ER diagram is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4"
+    },
+    {
+     "key": "B",
+     "html": "5"
+    },
+    {
+     "key": "C",
+     "html": "6"
+    },
+    {
+     "key": "D",
+     "html": "3"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c2/c2377194f4d1016a9b08.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider the following relations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8e/8e1428c354ecd4b7af4e.png\" /></div>\n\n<div> </div>\n\n<div>The number of tuples returned by the above SQL query is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/30/3097da1ecffbd65bd354.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : In a Fact Constellation schema, dimension tables are shared among multiple fact tables.<br />\n<em>S</em><sub>2</sub> : In a Star Schema, dimension tables are shared among multiple fact tables.<br />\n<em>S</em><sub>3</sub> : In a Snowflake Schema, dimension tables are shared among multiple fact tables.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em><sub>1</sub> and S<sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n&bull; Fact Constellation supports multiple fact tables sharing common dimension tables.<br />\nIt is suitable for complex systems involving interrelated subjects. So, <em>S</em><sub>1</sub> is correct.<br />\n&bull; In Star Schema, each fact table has its own dimension tables.<br />\nDimension tables are not typically shared across multiple fact tables. So, <em>S</em><sub>2</sub> is incorrect.<br />\n&bull; Snowflake Schema normalizes dimension tables into sub-tables for optimization.<br />\nIt does not imply sharing of dimension tables between fact tables. So, <em>S</em><sub>3</sub> is incorrect.</p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/cd/cd5cfa3a506381589321.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "Projection operation is commutative"
+    },
+    {
+     "key": "C",
+     "html": "Selection operation is commutative"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/5e/5ed24585f704faee2a60.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)<br />\n&bull; First operation holds true only because <em>A</em><sub>1</sub> is subset of <em>A</em><sub>2</sub>.<br />\n&bull; Projection operation is not commutative.<br />\n&bull; Selection operation is commutative.<br />\n&bull; It is not equivalent because first one contains duplicate values and second one doesn&rsquo;t. Also<br />\nequality is not checked in first one.</p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a B-tree in the given figure, where each node has atleast 2 and atmost 4 keys.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/63/63fd1f426fa38841fd2b.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a4/a411fa7c43f1333b9953.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Drill-down provides insight into specific trends by unfolding summarized information."
+    },
+    {
+     "key": "B",
+     "html": "Pivot operation reduces data volume by aggregating facts into higher levels."
+    },
+    {
+     "key": "C",
+     "html": "Roll-up uses random grouping of data without considering dimension hierarchies."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\n&bull; Drill-down increases data granularity by navigating from higher to lower levels in a hierarchy.<br />\nIt helps analyze finer details hidden under aggregated summaries. So, option (a) is correct<br />\n&bull; Pivot operation rearranges the orientation of dimensions for alternative views.<br />\nIt does not perform aggregation or reduce data volume like roll-up. So, option (b) is incorrect<br />\n&bull; Roll-up aggregates data using well-defined concept hierarchies, not random groupings.<br />\nThis structured hierarchy guides summarization from detailed to general levels. So, option (c)<br />\nis incorrect.</p>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a table <em>T</em> in a relational database with a key field <em>K</em>. A B-tree of order <em>p</em> is used as an access structure on <em>K</em>, where <em>p</em> denotes the maximum number of tree pointers in a B-tree index node. Assume that <em>K</em> is 12 bytes long; disk block size is 256 bytes; each data pointer <em>P<sub>D</sub></em> is 10 bytes along and each block pointer <em>P<sub>B</sub></em> is 7 bytes long in order for each <em>B</em> tree node to fit in a single disk block, the maximum value of <em>p</em> is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>9</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/66/664648038e2c2b975190.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ae/ae75bc3dc7dc9f793d18.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a dataset containing income values as follows:<br />\n$ 52,000, $ 64,000, $ 72,000, $ 88,000, $ 96,000<br />\nIf the income attribute is to be normalized to a new scale ranging from 2 to 5 using min-max<br />\nnormalization, calculate the normalized value corresponding to $ 72,000. Additionally, determine<br />\nthe normalized value for $ 64,000 within the same scale.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Normalized value of $ 72000 is 3.36"
+    },
+    {
+     "key": "B",
+     "html": "Normalized value of $ 72000 is 2.81"
+    },
+    {
+     "key": "C",
+     "html": "Normalized value of $ 64000 is 2.81"
+    },
+    {
+     "key": "D",
+     "html": "Normalized value of $ 64000 is 3.36"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a8/a83ca305a1d2467258bb.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A dataset contains the following 20 sorted pollution index readings (in μg/m<sup>3</sup>):<br />\n12, 14, 18, 19, 21, 24, 27, 30, 33, 35, 39, 41, 44, 48, 51, 53, 55, 59, 63, 68<br />\nThe data is divided into 4 equal width bins, where each bin is of the form:<br />\nLower bound (inclusive) ≤ <em>x</em> ≤ upper bound (inclusive).<br />\nWhich bin contains the median value of the dataset?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Bin 1"
+    },
+    {
+     "key": "B",
+     "html": "Bin 2"
+    },
+    {
+     "key": "C",
+     "html": "Bin 3"
+    },
+    {
+     "key": "D",
+     "html": "Bin 4"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a4/a47130ed4884549c08c0.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following statement false of relation R is in 3NF but not BCNF?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Relation <em>R</em> must consist atleast two over-lapped candidate keys."
+    },
+    {
+     "key": "B",
+     "html": "Relation <em>R</em> must consist proper subset of candidate key determines proper subset of some other candidate key."
+    },
+    {
+     "key": "C",
+     "html": "Relation <em>R</em> must consist atmost one compound candidate key and other candidate keys simple candidate key."
+    },
+    {
+     "key": "D",
+     "html": "Relation <em>R</em> must consist atleast two compound candidate keys."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nIf relation <em>R</em> in 3NF but not BCNF then atleast two compound keys must exists where non-trivial<br />\nFD with determinant not superkey.</p>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>In a relation <em>R</em>(<em>A</em><sub>1</sub>, <em>A</em><sub>2</sub>, ..... <em>A<sub>n</sub></em>). The set of attributes Σ ⊆ <em>R</em>{<em>A</em><sub>1</sub>, <em>A</em><sub>2</sub>, ..... <em>A<sub>n</sub></em>} is called a superkey if :</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Σ<sup>+</sup> = <em>R</em>{<em>A</em><sub>2</sub>, <em>A</em><sub>3</sub>, ..... <em>A<sub>n</sub></em>} and Σ may not minimal."
+    },
+    {
+     "key": "B",
+     "html": "Σ<sup>+</sup> = <em>R</em>{<em>A</em><sub>1</sub>, <em>A</em><sub>2</sub>, ..... <em>A</em><sub><em>n</em> – 1</sub>} and Σ is minimal."
+    },
+    {
+     "key": "C",
+     "html": "Σ<sup>+</sup> = <em>R</em>{<em>A</em><sub>1</sub>, <em>A</em><sub>2</sub>, ..... <em>A<sub>n</sub></em>} and Σ may not minimal."
+    },
+    {
+     "key": "D",
+     "html": "Σ<sup>+</sup> = <em>R</em>{<em>A</em><sub>1</sub>, <em>A</em><sub>3</sub>, ..... <em>A<sub>n</sub></em>} and Σ is minimal."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n[Superkey = Candidate key + Optional attributes]<br />\nA candidate key is always a super key but a super key may not be a minimal candidate key (it<br />\nmay have extra attributes).</p>"
+  },
+  {
+   "n": 32,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "MLOP identifies the most frequently taken path and leverages this for future predictions,improving accuracy for stable branching behavior."
+    },
+    {
+     "key": "B",
+     "html": "ROLP gives higher accuracy than MLOP in irregular branch scenarios because it relies on the most recent path taken."
+    },
+    {
+     "key": "C",
+     "html": "MLOP typically requires maintaining frequency counts or path statistics, leading to higher storage overhead compared to ROLP."
+    },
+    {
+     "key": "D",
+     "html": "Both MLOP and ROLP are inherently compatible with two-level global branch history predictors without any conflict."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)<br />\n&bull; MLOP tracks the most frequently taken execution path to enhance prediction reliability.<br />\nThis approach improves accuracy for branches with consistent and stable behavior. So, option (a)<br />\nis correct.<br />\n&bull; ROLP focuses on the most recently observed path, adapting quickly to changes.<br />\nHence, it performs better in scenarios with irregular or dynamic control flow. So, option (b)<br />\nis correct.<br />\n&bull; MLOP maintains path frequency statistics, which requires additional counters.<br />\nThis leads to a higher storage overhead compared to ROLP&#39;s minimal tracking. So, option (c)<br />\nis correct.<br />\n&bull; MLOP and ROLP are not inherently conflict-free with two-level global predictors.<br />\nIntegration can cause aliasing or interference depending on indexing and history length.<br />\nSo, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a relation R(A, B, C, D, E, F) with the following functional dependencies.<br />\n{AB → C, C → D, AF → B, B → E}<br />\nWhich of the following is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Relation is in 2NF, but not in 3NF."
+    },
+    {
+     "key": "B",
+     "html": "{B → E} is a partial dependency, so relation violates 2NF."
+    },
+    {
+     "key": "C",
+     "html": "The FD : {C → D} violates BCNF, as C is not a super key."
+    },
+    {
+     "key": "D",
+     "html": "Replacing {C → D} with {AB → D} and keeping all other FD’s, make the relation BCNF complaint."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)<br />\nAF is the only candidate key.<br />\n&bull; No partial dependency exist, so relation is in 2NF.<br />\n&bull; There exist transitive dependency from AF &rarr; B &rarr; E hence relation is not in 3NF.<br />\n&bull; Replacing FD : {C &rarr; D} with {AB &rarr; D} do not make relation in BCNF.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 17,
+   "NAT": 6,
+   "MSQ": 10
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,1112 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-021",
+ "title": "Subjectwise Test-8 Part Syllabus GATE 2026 CS Programming and Data Structures",
+ "sourceTitle": "Subjectwise Test-8 Part Syllabus GATE 2026 CS Programming and Data Structures",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 21,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/046_Subjectwise Test-8 Part Syllabus GATE 2026 CS Programming and Data Structures.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following C program:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/95/95ae79333eaa3c3afc1e.png\" /></div>\n\n<div>Which is the correct description of the Program’s behaviour?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Compiles without error but run time issue."
+    },
+    {
+     "key": "B",
+     "html": "Run without error with output 8."
+    },
+    {
+     "key": "C",
+     "html": "Run without error with output 6."
+    },
+    {
+     "key": "D",
+     "html": "Run without error but undefined behaviour."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\n*ptr + = *ptr + n++ accesses and modifies n multiple times in the same expression. This is undefined<br />\nbehaviour due to unsequenced modifications.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following C code:</p>\n\n<div> </div>\n\n<div>\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cf/cfe545e69e97e2e83062.png\" /></div>\n</div>\n\n<div>Which of the following statement is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The expression inside sizeof( ) is evaluated in each iteration."
+    },
+    {
+     "key": "B",
+     "html": "The loop executes 5 times, but sum += i is never executed."
+    },
+    {
+     "key": "C",
+     "html": "The final value printed by the program is 15."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4c/4c123847ace20b0a2db1.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the given array:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2b/2bfcb98f2931a46227fc.png\" /></div>\n\n<div>Which of the following statement(s) are correct?</div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Line 1 is an invalid assignment for B."
+    },
+    {
+     "key": "B",
+     "html": "Line 2 may cause a run time issue due to invalid pointer access."
+    },
+    {
+     "key": "C",
+     "html": "Line 3 refers to a illegal address in array B, and may give error."
+    },
+    {
+     "key": "D",
+     "html": "Line 4 may cause undefined behaviour due to out-of-bound access."
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8c/8c127bbda07635d431f0.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : In a binary search tree, the insertion operation is commutative.<br />\n<em>S</em><sub>2</sub> : In a binary search tree, the deletion operation is commutative.<br />\nWhich of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em><sub>1</sub> is true, <em>S</em><sub>2</sub> is true"
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em><sub>1</sub> is true, <em>S</em><sub>2</sub> is false"
+    },
+    {
+     "key": "C",
+     "html": "<em>S</em><sub>1</sub> is false, <em>S</em><sub>2</sub> is true"
+    },
+    {
+     "key": "D",
+     "html": "<em>S</em><sub>2</sub> is false, <em>S</em><sub>2</sub> is false"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ee/ee5f41e06f84f7fd2dac.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following C code function ‘fun’, where P is a placeholder holding either, the static or register storage class.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/da/da6c2ab380b76a9ff7a3.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is/are incorrect?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "fun(3) return 14 if P is register."
+    },
+    {
+     "key": "B",
+     "html": "fun(n) causes a runtime error as n does not decrease properly regardless of P."
+    },
+    {
+     "key": "C",
+     "html": "The printed output is 11 11 11 if P is static, for fun(3)."
+    },
+    {
+     "key": "D",
+     "html": "Value of x does not depends on P."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/62/628dba43148101eafbfd.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following C code for switch( ):</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/fe/fe74df47eae42cfe0b50.png\" /></div>\n\n<div>Which of the following is true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Code 1 has compilation error not Code 2."
+    },
+    {
+     "key": "B",
+     "html": "Code 2 has compilation error not Code 1."
+    },
+    {
+     "key": "C",
+     "html": "print(“%d”, b) treated as default case in both codes."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\n&bull; Code 1 doesn&rsquo;t has compilation error. printf statement is simply ignored.<br />\n&bull; Code 2 does not has compilation error because printf(&ldquo;%d&rdquo;, b) print at last along with case 2.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Which of the following is true about linked list implementation of queue?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In enqueue operation, if new node is inserted at the beginning of linked list, then in dequeue operation node must be removed from end with time complexity of Ο(<em>n</em>)."
+    },
+    {
+     "key": "B",
+     "html": "In enqueue operation, if new node is inserted at the end, then in dequeue operation node must be removed from the beginning."
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nTo keep the first in first out order a queue can be implemented using linked list in 2 ways.<br />\n1. If a new node is inserted at the beginning of linked list, then in dequeue operation node must be removed from end.<br />\n2. If new node is inserted at the end of linked list then, in dequeue operation, node must be<br />\nremoved from beginning.</p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider a stack S with the following operations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/52/521997366c2aeb7bff9c.png\" /></div>\n\n<div>After a sequence of these operations, the stack contain the elements.\n<div> </div>\n\n<div><img alt=\"\" src=\"media/85/8546a688f97e31b9be11.png\" /></div>\n\n<div>Where 2 is the top of the stack.<br />\nWhich of the following could be a valid sequence of operations to build this stack?</div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Push(3), push(1), push(5), rev(2), rev(3), push(4), top( ), push(2)"
+    },
+    {
+     "key": "B",
+     "html": "Push(4), pop( ), push(1), push(3), push(5), rev(2), push(4), push(2), top( ), rev(2), rev(2)"
+    },
+    {
+     "key": "C",
+     "html": "Push(1), push(4), push(3), rev(2), push(5), rev(2), push(2)"
+    },
+    {
+     "key": "D",
+     "html": "Push(1), push(5), push(4), push(3), rev(3), rev(2), push(4), push(2)"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/71/7159c7b12a603b73bce0.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the following program in C:</p>\n\n<p> </p>\n\n<p><img alt=\"\" src=\"media/46/461f202c35a4947602d5.png\" /></p>\n\n<p>The output of above program on execution is ________. (Write ‘0’ if compiler error)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -2,
+    -2
+   ],
+   "answerText": "-2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>-2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/21/218c8c1ec27a4e91abe8.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider two queues <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> with standard Enqueue( ) and Dequeue( ) operations. Initial content of <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cc/ccefad22a8f65606f698.png\" /></div>\n\n<div>But, do not use Dequeue( ) operation on <em>Q</em><sub>2</sub> and any extra variable for above conversion. The minimum number of Enqueue( ) operation on <em>Q</em><sub>1</sub> required for above conversion is ________.<br />\n(Assume <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> have large space)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8a/8a172b88c89db232ba72.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following balanced AVL tree T:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3a/3a54b461a2c6ec037f84.png\" /></div>\n\n<div>The keys 33, 24, 31 and 26 are inserted into T in the given order. What is the postorder traversal of T after all insertions?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10, 20, 15, 26, 24, 23, 31, 30, 35, 33, 27"
+    },
+    {
+     "key": "B",
+     "html": "10, 20, 26, 24, 23, 15, 31, 30, 35, 33, 27"
+    },
+    {
+     "key": "C",
+     "html": "10, 20, 15, 24, 26, 23, 31, 30, 35, 33, 27"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0f/0f2add32fad618fd0fd3.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following function foobar( ), which takes a binary tree as input:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/86/863be86fa9f077dc9e93.png\" /></div>\n\n<div>What does the above function foobar compute?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Sum of internal nodes of the binary tree"
+    },
+    {
+     "key": "B",
+     "html": "Number of leaves of the binary tree"
+    },
+    {
+     "key": "C",
+     "html": "Sum of leaves of the binary tree"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fc/fc3803a960d1787f7f10.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the following function :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/68/68cfb803ea80508fef6e.png\" /></div>\n\n<div>The value returned by CALL (CALL (5)) is __________ .</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    17,
+    17
+   ],
+   "answerText": "17",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>17</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b5/b5e8b12d02e7c69feb3e.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The following C function takes a singly linked list as input argument. It prints its elements from the end using with the help of some other data structure. Some part of the code is left blank.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2d/2dfdbc5eb6f5a06560f9.png\" /></div>\n\n<div>Choose the correct alternative to replace the blank line.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/f1/f1a8fe2eb932a35535eb.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/39/39a385fd278d2fceae5b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/47/47c2ba236b6b421be0e9.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nApplying recursion, traverse the linked list till the last element, hence at every step, the element of the linked list will be stored in the stack. While coming back, print the elements, hence the elements will be start printing from the end.<br />\nif (!head) return;<br />\nprintlist (head &rarr; next);<br />\nprintf(&ldquo;%d&rdquo;, head &rarr; data);</p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following 3 programs:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/15/153142e04a4e04cee7f8.png\" /></div>\n\n<div>Which of the above three functions are likely to cause problems with pointers?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>P</em><sub>2</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>P</em><sub>1</sub> and <em>P</em><sub>3</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Only <em>P</em><sub>1</sub> and <em>P</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "<em>P</em><sub>1</sub>, <em>P</em><sub>2</sub> and <em>P</em><sub>3</sub>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/37/371ae178975d85d0941a.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Assume that the operators × and + are left associative, and operators – and ÷ are right associative.<br />\nThe order of precedence from highest to lowest is ÷, +, ×, –.<br />\nConsider the following expression:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b2/b2d6332f378fba3f173f.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following expression is postfix expression of above infix expression.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/34/348bd729da067845c1f7.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/80/80fa434a969f67af721f.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/ca/ca8b3b9cd0798c8c48dd.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/88/880a4c7db3c93ab34579.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/be/bee3d35fac913b07d28d.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following C program:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/42/42fcad5bbc4185cbea99.png\" /></div>\n\n<div>What is the output printed?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "30"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "40"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/52/525ea20dab4b4797683e.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following C program segment:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/52/524cd19e6a63a938f59b.png\" /></div>\n\n<div>What is the output of above C program when it runs on a root node of a binary tree? (Assume level numbering starts from 1 (the root is at level 1)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "prints node at K distance from root node, when binary tree has more than 1 level."
+    },
+    {
+     "key": "B",
+     "html": "print nodes of K<sup>th</sup> level of binary tree."
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe above program segment print the node value when it is at distance &lsquo;<em>K</em>&rsquo; from root node otherwise it return &lsquo;0&rsquo;, If length of binary tree from root node is less than &lsquo;<em>K</em>&rsquo; then program return &lsquo;0&rsquo;.<br />\nOnly when height is greater than &lsquo;<em>K</em>&rsquo; the program prints the node value of distance &lsquo;<em>K</em>&rsquo; from root node.</p>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In a Binary Search Tree, the smallest vertex always lies in one of leaf nodes."
+    },
+    {
+     "key": "B",
+     "html": "Searching time complexity of binary search is Ο(n) when linked list are used."
+    },
+    {
+     "key": "C",
+     "html": "Evaluating reverse polish notation internally uses operand stack."
+    },
+    {
+     "key": "D",
+     "html": "sizeof( ) is compile time unary operator."
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e7/e78df407a5170d611cb6.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider an empty AVL tree A, elements 1, 2, 3, 4, 5, 6, 7 are inserted into A in different possible orders such that A always remain balanced.<br />\nWhich of the following is/are correct for A.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A is a complete tree with root 4."
+    },
+    {
+     "key": "B",
+     "html": "A can not have 5 and 6 as a root node."
+    },
+    {
+     "key": "C",
+     "html": "2, 1, 4, 5, 7, 6, 3 is a possible postorder traversal for A."
+    },
+    {
+     "key": "D",
+     "html": "Maximum possible height of A is 3."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5c/5c2a1d7d63fa7cea3839.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the following code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c1/c17623f0da543a40db6a.png\" /></div>\n\n<div>The output of the following program will be ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>8</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3a/3aa7f71f1994b599dd75.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following defined in C program:<br />\nint **fun (int**);<br />\nWhat does the above definition means:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A function accepting pointer to pointer to an int and returns pointer to pointer to an int."
+    },
+    {
+     "key": "B",
+     "html": "A function accepting pointer to an int and returns pointer to point to an int."
+    },
+    {
+     "key": "C",
+     "html": "A function accepting pointer to pointer to an int and returns pointer to an int."
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\n&bull; int indicates an integer variable.<br />\n&bull; int * indicates a pointer to an integer variable.<br />\n&bull; int ** indicate a pointer to pointer to an integer variable.</p>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following C code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/46/46f2fc69683ca113481e.png\" /></div>\n\n<div>The output of this program will be ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -5,
+    -5
+   ],
+   "answerText": "-5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>-5</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c8/c81f5ae7af0f3c93aa5f.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following pseudo C program:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8d/8d56d09eab9e00cfe5b7.png\" /></div>\n\n<div> </div>\n\n<div>head is a pointer to the head of a linked list of points that is built. How do you access the member X of the head node of the list?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "head → Pt → X"
+    },
+    {
+     "key": "B",
+     "html": "head → Pt.X"
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nA pointer to a structure lets access to the member variables using &ldquo;&rarr;&rdquo; operator and a normal variable lets access Hooligan the &ldquo;.&rsquo; operator.</p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A node in a linked list is defined as:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/19/19f63e0d2f5b3e85238f.png\" /></div>\n\n<div> </div>\n\n<div>What is the output of print (head, 1)?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 3 5 5"
+    },
+    {
+     "key": "B",
+     "html": "3 3 2 5 5"
+    },
+    {
+     "key": "C",
+     "html": "3 3 5"
+    },
+    {
+     "key": "D",
+     "html": "Runtime error"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nCode has runtime issue as pointer access unallocated memory.</p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following statements:<br />\n<strong>I.</strong> In BST, the time taken to find a non existent elements ‘<em>x</em>’ in the best case is Ο(1).<br />\n<strong>II.</strong> In AVL, the time taken to find a non-existent element ‘<em>x</em>’ in the best case is Ο(log n).<br />\n<strong>III.</strong> In binary tree, the time taken to find a non-existent element ‘<em>x</em>’ in the best case is Ο(n).<br />\nHow many number of statements is correct?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/52/52cb4b417afb8bea8178.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Suppose that queue operations are implemented using stack operation. Enqueue (x) and Dequeue<br />\n( ) are queue operations whereas Pop( ) and Push(x) are stack operations.<br />\n[<strong>Note:</strong> Consider two states S<sub>1</sub> and S<sub>2</sub>]<br />\nConsider the following pseudocode:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7a/7a5d40689d7aa80be9f5.png\" /></div>\n\n<div> </div>\n\n<div>What are the messing values of <em>B</em><sub>1</sub> and <em>B</em><sub>2</sub> to perform Dequeue operation correctly where <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> are two stacks.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Push(<em>S</em><sub>2</sub>, Pop(<em>S</em><sub>1</sub>)), Pop(<em>S</em><sub>2</sub>)"
+    },
+    {
+     "key": "B",
+     "html": "Push(<em>S</em><sub>1</sub>, Pop(<em>S</em><sub>2</sub>)), Pop(<em>S</em><sub>1</sub>)"
+    },
+    {
+     "key": "C",
+     "html": "Push(<em>S</em><sub>1</sub>, Pop(S<sub>2</sub>)), Pop(<em>S</em><sub>2</sub>)"
+    },
+    {
+     "key": "D",
+     "html": "Push(<em>S</em><sub>2</sub>, Pop(<em>S</em><sub>1</sub>)), Pop(<em>S</em><sub>1</sub>)"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nIf <em>S</em><sub>2</sub> stack is empty and <em>S</em><sub>1</sub> stack is not empty then we have to pop the element from stack <em>S</em><sub>2</sub>&nbsp;and<br />\npush that element into stack <em>S</em><sub>2</sub>&nbsp;and return the stack <em>S</em><sub>2</sub>&nbsp;which contain newly inserted element.</p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following keys that are hashed into the hash table in the given order using the hash function H(key) = key mod 11.<br />\n12, 44, 13, 88, 23, 94, 11, 39, 20, 16<br />\nWhere hash table using separate chaining.<br />\nWhich of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Hash table has 4 length chain"
+    },
+    {
+     "key": "B",
+     "html": "Hash table has 5 empty slot"
+    },
+    {
+     "key": "C",
+     "html": "Keys 44, 48 and 11 present in separate slot"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7e/7eb8326a71f4205662bf.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following C code: when int is 2B and char is 1B.</p>\n\n<div>\n<div> </div>\n\n<div><img alt=\"\" src=\"media/59/5951c5fb299afb40d76b.png\" /></div>\n</div>\n\n<div> </div>\n\n<div>Which of the following is correct output?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3, 4"
+    },
+    {
+     "key": "B",
+     "html": "3, 6"
+    },
+    {
+     "key": "C",
+     "html": "3, 5"
+    },
+    {
+     "key": "D",
+     "html": "Compilation error"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f0d1fe68b7eda99421ed.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In Binary search tree deletion of any internal node having left and right child both, we need inorder successor of a node (deleted node). Which of the following is true about inorder successor needed in deletion operation ?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Inorder successor is always either leaf node or a node with empty right child."
+    },
+    {
+     "key": "B",
+     "html": "Inorder successor maybe a an ancestor of the node."
+    },
+    {
+     "key": "C",
+     "html": "Inorder successor is always a leaf node."
+    },
+    {
+     "key": "D",
+     "html": "Inorder successor is always either a leaf node or a node with empty left child."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4a/4ad862d23a0beae7db39.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following Binary search tree:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d0/d01a7ff2cad0c9fb67be.png\" /></div>\n\n<div>Which of the following is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Nodes <em>X</em>, <em>Z</em>, <em>B</em>, <em>C</em> can be inserted in any order."
+    },
+    {
+     "key": "B",
+     "html": "Given BST is balanced binary search tree like AVL tree."
+    },
+    {
+     "key": "C",
+     "html": "If <em>B</em>, <em>C</em> inserted in given order before <em>A</em>, it increase BST height."
+    },
+    {
+     "key": "D",
+     "html": "<em>Y</em> is inorder predecessor of <em>X</em>."
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9d/9dc0be2551ba94b8726a.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following C program:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/48/48e2c22cf7f99aa5464d.png\" /></div>\n\n<div>Which of the following is correct regarding above program?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Segmentation error possible in the above program."
+    },
+    {
+     "key": "B",
+     "html": "Memory leak possible in above program."
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nAfter &ldquo;free(<em>p</em>);&rdquo; line, pointer p become dangling pointer. Because now <em>p</em> is pointing to deallocated memory.<br />\nIn &lsquo;if&rsquo; condition, the value is &ndash;1 and it is not zero, so if condition is true and program will execute<br />\nstatements inside &lsquo;if&rsquo;. Here malloc( ) function allocate new memory to pointer p and program will<br />\nlost the old allocated memory to <em>p</em>. So, it is memory leak.</p>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Following is inorder traversal of a Binary search tree T :<br />\n3, 5, 7, 9, 11, 16, 17, 28, 29, 40<br />\nWhich of the following traversal is correctly possible?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Postorder is 5, 7, 3, 11, 17, 28, 40, 29, 16, 9"
+    },
+    {
+     "key": "B",
+     "html": "Preorder is 9, 5, 3, 7, 28, 16, 11, 17, 28, 40 if T converted to AVL."
+    },
+    {
+     "key": "C",
+     "html": "Height of BST is 3."
+    },
+    {
+     "key": "D",
+     "html": "BST to AVL conversion takes 3RL rotations."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/95/950b92fae9c6be8efb2e.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 20,
+   "MSQ": 7,
+   "NAT": 6
+  },
+  "withoutKey": 0
+ }
+}

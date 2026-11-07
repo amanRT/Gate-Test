@@ -1,0 +1,591 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-042",
+ "title": "Topicwise Test-18 Part Syllabus GATE 2025 EE Electrical & Electronics Measurements-2",
+ "sourceTitle": "Topicwise Test-18 Part Syllabus GATE 2025 EE Electrical & Electronics Measurements-2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 42,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/069_Topicwise Test-18 Part Syllabus GATE 2025 EE Electrical & Electronics Measurements-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe input impedance of a CRO is equivalent to a 1 MΩ resistance in parallel with 54 pF capacitance.<br />\n\tIt is used with a compensated 10 : 1 attenuation probe. The effective input capacitance at the probe tip is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4.5 pF"
+    },
+    {
+     "key": "B",
+     "html": "600 pF"
+    },
+    {
+     "key": "C",
+     "html": "5.4 pF"
+    },
+    {
+     "key": "D",
+     "html": "450 pF"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/77/77bec44267fab0977e71.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIn a test on a bakelite sample at 20 kV, 50 Hz by schering bridge shown in below figure. Then the values of <img align=\"absmiddle\" alt=\"\" src=\"media/55/556e62cbc05a3879afe4.png\" /> respectively are</p>\n<p>\n\t<img alt=\"\" src=\"media/3d/3dcaf506a61f1fc9dbec.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "327 pF, 259 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "518.58 pF, 858.50 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "227 pF, 450 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "628.20 pF, 1216.25 kΩ"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/23/23fcd7c803981b957bd1.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe X input of a CRO is supplied with a signal 4 cos100t and <em>Y</em> input is supplied with signal 6 sin100<em>t</em>. The gain of <em>X</em> channel is 5/2 and <em>Y</em> channel is 5/3, then CRO screen will display</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a sinusoidal signal"
+    },
+    {
+     "key": "B",
+     "html": "a straight line"
+    },
+    {
+     "key": "C",
+     "html": "an ellipse"
+    },
+    {
+     "key": "D",
+     "html": "a circle"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/21/210effb76b9cb44313f7.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIf the oscillator frequency of a digital voltmeter was 800 kHz, and the ramp voltage falls from 10 V to 0 V is 40 ms. The number of pulse counted by the counter will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4000"
+    },
+    {
+     "key": "B",
+     "html": "8000"
+    },
+    {
+     "key": "C",
+     "html": "16000"
+    },
+    {
+     "key": "D",
+     "html": "32000"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/65/657b0b588fdbc002970b.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA Q-meter was used for measurement of distributed capacitance. The resonances were obtained with values of tuning capacitor as <em>C</em><sub>1</sub> and <em>C</em><sub>2</sub> for the frequencies adjusted to <em>f</em><sub>1</sub> and 3<em>f</em><sub>1</sub> respectively. The value of distributed capacitance will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fe/fe68ae41af9828f080b1.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/06/06a1b5978ca635ab5b4a.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ec/ecec654e1b789e7d582f.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/dc/dc1a890e3d0ad7b2ba4a.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/fe/feb7a0dd2fbf57b42684.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe impedances of a basic ac bridge arm are</p>\n<p>\n\t<img alt=\"\" src=\"media/f2/f2d5ff9d11c1c89d6d35.png\" /></p>\n<p>\n\tIf ω = 500 rad/sec the component of unknown branch will have resistance <img align=\"absmiddle\" alt=\"\" src=\"media/97/97d0b5345ab5fb740053.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "series with capacitor of 5.55 μF"
+    },
+    {
+     "key": "B",
+     "html": "parallel with inductor of 5.55 μF"
+    },
+    {
+     "key": "C",
+     "html": "series with inductor of 5.55 μH"
+    },
+    {
+     "key": "D",
+     "html": "parallel with inductor of 5.55 μH"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/80/8020eaeb7903c9856916.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA Cathode Ray Tube has an anode voltage of 2500 V and parallel deflecting plates 2.5 cm long and 0.5 cm apart. The screen is 20 cm away from the centre of the plates. The input voltage required to deflect the beam through 4 cm in vertical direction is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50 V"
+    },
+    {
+     "key": "B",
+     "html": "100 V"
+    },
+    {
+     "key": "C",
+     "html": "200 V"
+    },
+    {
+     "key": "D",
+     "html": "300 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/23/231f11fbd49925c5ccf7.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA <img align=\"absmiddle\" alt=\"\" src=\"media/67/6712e3d440175114b593.png\" /> digit DVM has an accuracy specification of (±2% of full scale reading ± 5counts). A reading of 100 mA is obtained on its 200 mA full scale range. The worst case error in the reading is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "± 4.5 mA"
+    },
+    {
+     "key": "B",
+     "html": "± 1 mA"
+    },
+    {
+     "key": "C",
+     "html": "± 2 mA"
+    },
+    {
+     "key": "D",
+     "html": "± 2.5 mA"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/74/74eda3e96f14d3e2e620.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tWhat is a reading of 0.8245 on 1 V range in four and half digit voltmeter displayed as?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.8245"
+    },
+    {
+     "key": "B",
+     "html": "00.824"
+    },
+    {
+     "key": "C",
+     "html": "000.82"
+    },
+    {
+     "key": "D",
+     "html": "0000.8"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/91/912fe04e6552a9f4442a.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tTwo sinusoidal signals of frequency ‘<em>f</em> ’ and ‘3<em>f</em> ’ are applied as <em>X</em> and <em>Y</em> inputs respectively to an oscilloscope. Which one of the following patterns could be observed on the screen?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5f/5f166aa612d5581adeff.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/19/1901e7847fae83571476.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/12/129b439cc04ff4a4c41b.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9c/9ccd91845dd32dc698fd.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/b7/b76466793b6824b41588.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe elliptical Lissajous pattern shown in figure was observed from two sinusoidal signal sources of same frequency on a CRO.</p>\n<p>\n\t<img alt=\"\" src=\"media/5c/5c316a821843af2341fb.png\" /></p>\n<p>\n\tThe phase angle between the two sinusoidal signals is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "45°"
+    },
+    {
+     "key": "B",
+     "html": "60°"
+    },
+    {
+     "key": "C",
+     "html": "30°"
+    },
+    {
+     "key": "D",
+     "html": "90°"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/33/33d738ea87005812807e.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA digital to analog converter has full scale output of 4.2 V. The converter has resolution close to 20 mV, then bit size of digital to analog converter will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8"
+    },
+    {
+     "key": "B",
+     "html": "10"
+    },
+    {
+     "key": "C",
+     "html": "6"
+    },
+    {
+     "key": "D",
+     "html": "12"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/5d/5d1b38ee01586a443985.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA slide wire in a potentiometer is 200 cm long and has resistance value of 500 Ω. This potentiometer has a working battery voltage of 5 V. The setup is standardized with 1.018 V standard cell with sliding contact at length of 101.8 cm of slide wire. The value of measurement range will be _________ V.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.8,
+    2
+   ],
+   "answerText": "2 (1.8 - 2.0)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2 (1.8 - 2.0)</p>\n<p>\n\t<img alt=\"\" src=\"media/c2/c210dd8fff8228a0d1f3.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA current transformer has a single turn primary and 400 turns on secondary winding. The resistance and reactance of the secondary circuit are 2 Ω and 3 Ω respectively including transformer winding. When 6 A current is flowing in the secondary winding, the magnetizing mmf is 100 AT and iron loss is 2 W. The value of ratio error will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.42%"
+    },
+    {
+     "key": "B",
+     "html": "–4.14%"
+    },
+    {
+     "key": "C",
+     "html": "–2.24%"
+    },
+    {
+     "key": "D",
+     "html": "1.62%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/3e/3e483408a2d3003a5ab9.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/fa/fa86d916136df2937a02.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tAC bridge shown below is at balance at 2500 Hz with following branch elements value.</p>\n<p>\n\t<img alt=\"\" src=\"media/49/49c3260adb1ff9d5b124.png\" /></p>\n<p>\n\tand a coil of unknown resistance and reactance in arm-1.</p>\n<p>\n\t<img alt=\"\" src=\"media/12/127231dee9b0524a9fe0.png\" /></p>\n<p>\n\tThe <em>Q</em> factor of coil connected in arm 1 will be ________ . (upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6.46,
+    6.56
+   ],
+   "answerText": "6.52 (6.46 - 6.56)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t6.52 (6.46 - 6.56)</p>\n<p>\n\t<img alt=\"\" src=\"media/fd/fdd61a5c910a3aa23bd2.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/e9/e918f6c0a7408932d371.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA 20 VA, 100/2 A current transformer has an iron loss of 0.5 W and magnetizing current of 1.2 A. If the rated output is supplied to a meter having a ratio of resistance to reactance of 5 the value of phase angle (in degree) will be __________ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.38,
+    0.4
+   ],
+   "answerText": "0.393 (0.380 - 0.400)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.393 (0.380 - 0.400)</p>\n<p>\n\t<img alt=\"\" src=\"media/be/be5c27f38325ea8b12d1.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA dc potentiometer is designed to measure upto 2 V with a slide wire of 2000 mm. A standard cell of emf 1.5 V obtains balance at 1600 mm. A test cell is seen to obtain balance at 1500 mm. Which of these statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Emf of test cell is 1.4062 volt."
+    },
+    {
+     "key": "B",
+     "html": "The sensitivity of potentiometer is 0.005 V/mm."
+    },
+    {
+     "key": "C",
+     "html": "Potentiometer works on principle of potential divider."
+    },
+    {
+     "key": "D",
+     "html": "Potentiometer is not accurate."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/7a/7a9e549c201de7263d52.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 13,
+   "NAT": 3,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,547 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-042",
+ "title": "GATE 2027-Topicwise Test-21 (Analog Electronics -1)",
+ "sourceTitle": "GATE 2027-Topicwise Test-21 (Analog Electronics -1)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 42,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/061_GATE 2027-Topicwise Test-21 (Analog Electronics -1).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/9c/9c17a5a616361e509fc7.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    41,
+    42.5
+   ],
+   "answerText": "41 - 42.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/ef/ef5ebff6d892783ede48.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>In the voltage regulator circuit shown in figure, of <em>R<sub>s</sub> </em>and maximum power dissipation across&nbsp;zener diode respectively (Consider zener diode as ideal)</p>\n<p><img src=\"media/9a/9a7f7546cf644d92a477.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>140 &Omega;, 2.6 Watts</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>40 &Omega;, 2 Watts</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>70 &Omega;, 1.6 Watts</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>20 &Omega;, 2.4 Watts</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/19/198f8135db1899a8825c.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/b2/b24b1721bd826d4f241c.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15.5,
+    15.8
+   ],
+   "answerText": "15.5 - 15.8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/a2/a2a68fececa1a4c28e5a.png\"></p>\n<p><img src=\"media/c7/c72842f65f614af4f994.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>In the circuit shown in figure, the cut-in voltage of diode used <em>V<sub>&gamma;</sub></em><sub> </sub>= 0.6 V. Considering the piecewise&nbsp;linear model of diode, the dc current through the diode and ON resistance of the diode&nbsp;respectively at a thermal voltage of 25 mV are</p>\n<p><img src=\"media/fb/fb969a8c6a3efd33f7a5.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0, &infin;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.94 mA, 25 &Omega;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1.06 mA, 24.5 &Omega;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.937 mA, 26.6 &Omega;</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/17/17a5ff301ddae0cebeb3.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>Consider the following circuit:</p>\n<p><img src=\"media/2d/2de0cff865a3835e62d9.png\"></p>\n<p>which of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/21/2166115e376098c0bbf9.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/8c/8ccb0f3d6488f72639e7.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/a4/a4159337c44aeee37d72.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/bd/bdeb5ebefe7ccea1fdb1.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/4c/4ca06f81b85d256d4917.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>In the circuit shown below,</p>\n<p><img src=\"media/ab/ab2b6f83d1f29bbe7d7a.png\"></p>\n<p><img src=\"media/07/073674752a81df3e42a1.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.92,
+    0.99
+   ],
+   "answerText": "0.92 - 0.99",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/5b/5bb1e126bf839fd4e450.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>In the circuit shown in figure, the BJT has <em>V<sub>EB</sub> </em>0.7 V and finite &beta; value. If the voltage at base node,<br><em>V<sub>B</sub> </em>= 1 V, the value of <em>V<sub>C</sub> </em>is</p>\n<p><img src=\"media/bc/bcba149f6b4352a04854.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1.75 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&ndash;1.75 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&ndash; 1.45 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1.45 V</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/fb/fbeb147bebb36bf761d4.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p><img src=\"media/ed/ed973f880b927580daa8.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/40/407852a1f73f3004cd08.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/cd/cd7340cd470b96dda947.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The power rating required for the load resistor is 350 mW.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The power rating of the zener diode is 250 mW.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/fd/fd7c6dd4e9a7da87247c.png\"></p>\n<p><img src=\"media/ca/ca847df38aceba53561a.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Consider the circuit and the input voltage shown in the figure below :</p>\n<p><img src=\"media/2c/2cbc844050aa8bdcd74d.png\"></p>\n<p>Assume the RC time constant is very large and cut-in voltage of diode is zero. The output voltage <em>V<sub>0</sub> </em>is</p>\n<p><img src=\"media/c6/c6bc387bc67e2517b1ec.png\"></p>\n<p>&nbsp;</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/0a/0a0d748b52f2bea922ad.png\"></p>\n<p><img src=\"media/fe/fe43d09ea9cbe5a91f1d.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Consider the circuit and the waveform of the input voltage, shown in the figure below. The cutin&nbsp;voltage of the diode is zero.</p>\n<p><img src=\"media/25/2599103ba8897752e701.png\"></p>\n<p>The waveform of output voltage <em>V</em><sub>0</sub> is</p>\n<p><img src=\"media/e3/e300d2dceecdd87a17da.png\"></p>\n<p><img src=\"media/bd/bd42fb2e7b02af25aa00.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/08/089ce078fc32aef2d039.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A voltage signal 6 sin &omega;t volt is applied to the circuit with ideal diodes, as shown in figure below:</p>\n<p><img src=\"media/18/18b9e256f439cf9d7208.png\"></p>\n<p>The maximum and minimum values of the output waveform V<sub>out</sub> of the circuit are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>4 V, &ndash;2 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>2 V, &ndash;4 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>4 V, &ndash;4 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>2 V, &ndash;2 V</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/29/2914d7482e0f5b49838a.png\"></p>\n<p><img src=\"media/e3/e3300c035f27bb6aab82.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/aa/aa47069e541873962364.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>9.58 k&Omega;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>12.6 k&Omega;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>18.75 k&Omega;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>26.9 k&Omega;</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/d7/d70dcdd85c91141ff8d4.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/ff/ff42d25b81de6787ba2a.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -4.1,
+    -3.9
+   ],
+   "answerText": "-4.1 - -3.9",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/36/36f005c46daf545128b6.png\"></p>\n<p><img src=\"media/0c/0c492a4bf8f2c80d5e8b.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>For the circuit shown below, <em>V</em><sub>in</sub> range from &ndash;10 V to +10 V and diodes are ideal.</p>\n<p><img src=\"media/37/379a32ea4b8a14cb67e4.png\"></p>\n<p>The transfer characteristics for the circuit is</p>\n<p><img src=\"media/50/50b57af1e716508227ae.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/5d/5de42ed9e51f4778ae30.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>For the BJT amplifier in given figure,</p>\n<p><img src=\"media/84/848db87f7bd9de6b49f0.png\"></p>\n<p>The correct statement(s) is/are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/b8/b8c3ecda2890739aa543.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/29/2918e9abaabdaa08926f.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/20/206e46a025493195f4b8.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/a1/a18cb58def77a8b1e6e4.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D, A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b6/b6c2d41c8e2c1726a535.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/0a/0a548b5beeb9a0f5c1fa.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    44,
+    46
+   ],
+   "answerText": "44 - 46",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/19/19964d6b28d4983efe9e.png\"></p>\n<p><img src=\"media/82/82b0262ba73e5a319b25.png\"></p>\n<p><img src=\"media/f5/f5da22c110e5e4b4fc28.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/91/9162a63e97ca929fb586.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -65,
+    -55
+   ],
+   "answerText": "-65 - -55",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/92/9236235bb10f48c87311.png\"></p>\n<p><img src=\"media/4d/4d4d704b60a0fce5c8f1.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 24,
+  "types": {
+   "NAT": 6,
+   "MCQ": 8,
+   "MSQ": 3
+  },
+  "withoutKey": 0
+ }
+}

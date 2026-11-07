@@ -1,0 +1,460 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-015",
+ "title": "DVRUO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 3",
+ "sourceTitle": "DVRUO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 15,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "CO and Architecture"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which cache mapping function does not require a replacement algorithm?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Direct mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Set associative mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Fully associative mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"487376\"></a><div itemprop=\"text\"><p>When a new block of data comes from memory, but the cache is already full, the cache must <strong data-start=\"188\" data-end=\"227\">decide which old block to throw out</strong>.&nbsp;This decision rule is called a <strong data-start=\"359\" data-end=\"384\">replacement algorithm</strong>.</p><ul><li data-start=\"621\" data-end=\"744\"><p data-start=\"623\" data-end=\"744\">In a <strong data-start=\"628\" data-end=\"651\">direct-mapped cache</strong>, each memory block can go to <strong data-start=\"681\" data-end=\"705\">exactly one location</strong> in the cache (it’s “mapped directly”).</p></li><li data-start=\"745\" data-end=\"832\"><p data-start=\"747\" data-end=\"832\">So when a new block comes in, it <strong data-start=\"780\" data-end=\"788\">must</strong> overwrite the old block at that exact spot.</p></li><li data-start=\"833\" data-end=\"878\"><p data-start=\"835\" data-end=\"878\">No choice = no replacement policy required.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/487246\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which cache mapping function is least likely to thrash, i.e., it has the lowest chance of two blocks contending with each other to be stored in the same line?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Direct mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Set associative mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Fully associative mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All are equally likely</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"487380\"></a><div itemprop=\"text\"><p>Thrashing means <strong data-start=\"104\" data-end=\"177\">two (or more) memory blocks keep replacing each other again and again</strong> because they are forced to go to the same cache line.</p><p><strong data-start=\"629\" data-end=\"656\">Fully associative cache</strong> has the <strong data-start=\"665\" data-end=\"695\">lowest chance of thrashing</strong> because any block can go into <strong data-start=\"726\" data-end=\"744\">any cache line</strong>.&nbsp;There’s no fixed slot, so blocks rarely evict each other unless the entire cache is full.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"496353\"></a><div itemprop=\"text\"><p dir=\"auto\">In direct mapped: every contending block fights for 1 line → 100% replacement chance after fill-up.</p><p dir=\"auto\">In 2-way set associative: 3rd block (same set) contends across 2 lines → 50% chance of two blocks contending in the same line (one gets replaced).</p><p dir=\"auto\">In n-way: contention across n lines → 1/n chance (only one replacement out of n eligible).</p><p dir=\"auto\">In fully associative: no set restriction, contention across <em>all</em> cache lines → 1/total_lines chance (one replacement out of maximum eligible lines).</p><p dir=\"auto\">Hence, fully associative has the lowest chance—one replacement out of maximum eligible lines</p><p dir=\"auto\">&nbsp;</p><p dir=\"auto\">&nbsp;</p><p dir=\"auto\">—— correct me if i am wrong</p></div></section></div><p><a href=\"https://gateoverflow.in/487245\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which is the fastest cache mapping function? (\"Fastest\" in terms of access/lookup speed)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Direct mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Set associative mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Fully associative mapping<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All are equally fast</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"487244\"></a><div itemprop=\"text\">Direct Mapping is the fastest because the mapping is fixed (simple modulo arithmetic). Only one comparator is required to check the tag. Hardware is simple and fast.<br>\n<br>\nSet Associative and Fully Associative require multiple comparisons $\\rightarrow$ slower.</div></section></div><p><a href=\"https://gateoverflow.in/487243\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $4$-way set associative cache ( $\\mathrm{E}=4$ ). Which one of the following statements is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The cache has $4$ blocks per line.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The cache has $4$ sets per line.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The cache has $4$ lines per set.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The cache has $4$ sets per block.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"495767\"></a><div itemprop=\"text\"><p><strong>Option C</strong></p><p>4-way associative mapping is a mapping method in which 4 addressible cells (aka lines) of a cache are grouped as set for associativity. Hence option C, four lines per set.</p></div></section></div><p><a href=\"https://gateoverflow.in/487242\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which one of the following statements about cache memories is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Fully associative caches offer better latency, while direct-mapped caches have lower miss rates.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Fully associative caches offer lower miss rates, while direct-mapped caches have better latency.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Direct-mapped caches have both better miss rates and better latency.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both generally have similar latency and miss rates.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"487381\"></a><div itemprop=\"text\"><ul><li data-start=\"225\" data-end=\"284\"><p data-start=\"227\" data-end=\"284\"><strong data-start=\"227\" data-end=\"250\">Direct-mapped cache</strong> → no replacement policy needed.</p></li><li data-start=\"285\" data-end=\"345\"><p data-start=\"287\" data-end=\"345\"><strong data-start=\"287\" data-end=\"314\">Fully associative cache</strong> → least chance of thrashing.</p></li><li data-start=\"346\" data-end=\"408\"><p data-start=\"348\" data-end=\"408\"><strong data-start=\"348\" data-end=\"371\">Direct-mapped cache</strong> → fastest lookup (lowest latency).</p></li><li data-start=\"409\" data-end=\"501\"><p data-start=\"411\" data-end=\"501\"><strong data-start=\"411\" data-end=\"438\">Fully associative cache</strong> → lower miss rate; <strong data-start=\"458\" data-end=\"481\">Direct-mapped cache</strong> → better latency.</p></li></ul></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"539314\"></a><div itemprop=\"text\"><p><strong>Latency:&nbsp;</strong>&nbsp;the time from when the CPU requests a piece of data to when that data is actually delivered is called latency.&nbsp;<br>In direct- mapped cache, we need to check only one cache line for a given address. Whereas for fully associative cache requires searching all caches simultaneously.&nbsp;</p><p><strong>Miss rates</strong>: Fully associative caches have the lowest miss rates because a block can be placed anywhere in the cache, reducing conflict misses. Direct-mapped caches have higher miss rates because each block has only one possible location, leading to more conflict misses.</p></div></section></div><p><a href=\"https://gateoverflow.in/487241\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following cache represents a 2-way set associative cache, i.e., there are two lines per set. Notice that the set ID values start at 011011012 and increment every other row. This is meant to imply that you are looking at a group of lines/sets toward the middle of the cache and not the entire cache. There are 14 bits for the tag, 8 bits for the set ID, and 2 bits for the word ID.<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"490\" height=\"300\" src=\"media/60/605c5c1fff9c4d71b0e1.jpg\"></p><p><br><br>How many lines are contained in this cache?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"487240\"></a><div itemprop=\"text\">Since there are eight bits identifying the set, then there are $2^{8}=256$ sets. Since there are two lines per set, then there are $2 \\times 256=512$ lines.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"499221\"></a><div itemprop=\"text\">We really do not require this table to solve this question.<br>\nIt simply asks no. of blocks of cache which turns out to be =<br>\nsince there are 8 bits for set no, and two way set associative memory, (think of as direct mapped, we will shift a tag bit to left and cache like bits log(2)+8 bits)<br>\ni.e. 9 bits, so 512 lines</div></section></div><p><a href=\"https://gateoverflow.in/487239\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following cache represents a $2$-way set associative cache, i.e., there are two lines per set. Notice that the set ID values start at $011011012$ and increment every other row. This is meant to imply that you are looking at a group of lines/sets toward the middle of the cache and not the entire cache. There are $14$ bits for the tag, $8$ bits for the set id, and $2$ bits for the word id.</p><p style=\"text-align:center\"><img alt=\"\" width=\"506\" height=\"310\" src=\"media/0a/0a5344e699f6f9c92728.jpg\"></p><p><br>If the number of blocks contained in the memory space (not the cache, but the memory) of the cache system defined above is $2^{\\mathrm{n}}$, then what is $\\mathrm{n}$ ?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"487238\"></a><div itemprop=\"text\">Remember that a block is a division of memory. The number of words in a block is identified by the number of bits set aside for the word id. Since there are 24 bits in the address and two of them are for the word id, then 22 bits are left for the block id. This means that memory has $2^{22}=4 \\mathrm{Meg}$ blocks.</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"530166\"></a><div itemprop=\"text\"><p>solution :-&nbsp;<a href=\"https://www.youtube.com/watch?v=DpsKSpUD-Aw&amp;t=2668s\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=DpsKSpUD-Aw&amp;t=2668s</a></p><p><b id=\"docs-internal-guid-06c832bc-7fff-12f7-4580-3174bb5b11ad\"><img width=\"624\" alt=\"\" style=\"max-width: 100%;\" src=\"media/11/11c1eb496a1c057058b6.jpg\"></b></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"499222\"></a><div itemprop=\"text\">Again we do not require table , <br>\nsince main memory block no. is broken into tag + cache memory line no , <br>\nso 14 + 8 =22 bits for mm block no.</div></section></div><p><a href=\"https://gateoverflow.in/487237\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following cache represents a $2$-way set associative cache, i.e., there are two lines per set. Notice that the set ID values start at $011011012$ and increment every other row. This is meant to imply that you are looking at a group of lines/sets toward the middle of the cache and not the entire cache. There are $14$ bits for the tag, $8$ bits for the set id, and $2$ bits for the word id.</p><p style=\"text-align:center\"><img alt=\"\" width=\"476\" height=\"291\" src=\"media/94/94ae3943d98cec94f6c8.jpg\"></p><p><br>A copy of the data from memory address $\\text{7121C5}$ (hex) is contained in the portion of the cache shown above. Enter the value that was retrieved from that address as an eight-bit binary number with no base identification, e.g., $\\text{0x4F}$ (hexadecimal 4F) should be entered as $01001111$.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"487236\"></a><div itemprop=\"text\">$$<br>\n7121 C 5_{16}=011100010010000111000101_{2}<br>\n$$<br>\n<br>\nThe last two bits, $01$ , identify the word position within the block. $01$ means that it is in the second column of data.<br>\n<br>\nThe next eight bits, $01110001$ , should identify the set. $01110001$ identifies the set consisting of the third and fourth rows from the bottom.<br>\n<br>\nThe fourth row from the bottom has the matching tag of $0111000100100$ . Therefore, the data is in the second column of the fourth row from the bottom, i.e., A5.</div></section></div><p><a href=\"https://gateoverflow.in/487235\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a $256$ KB $4$-way set associative cache with $256$ byte cache lines for a processor that uses $64$-bit data words and $48$-bit byte addresses. What is the size (in bits) of the tag field per cache block?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"487234\"></a><div itemprop=\"text\">64 -bit word $/ 8$ bits per byte $=8$ bytes per word $\\Rightarrow 3$ bits to select byte in word 256 byte line $/ 8$ bytes per word $=32$ words per line $\\Rightarrow 5$ bits to select word in line 256 k cache $/ 256$ bytes per line $/ 4$ ways per set $=256$ sets $\\Rightarrow 8$ bits to select set The rest of the bits are the tag $\\Rightarrow 32$ bit tag.<br>\n<br>\n$$<br>\n\\begin{array}{|c|c|c|c|}<br>\n\\hline<br>\n47:16 &amp; 15:8 &amp; 7:3 &amp; 2:0 \\\\<br>\n\\hline<br>\n\\text{tag} &amp; \\text{set} &amp; \\text{word in line} &amp; \\text{byte in word} \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"489490\"></a><div itemprop=\"text\">Given , 48bit byte addresses. Means total &nbsp;address space is 48bits. <br>\n<br>\n&nbsp;• 256 bytes cache lines which means each cache line (block) is of 256 bytes i.e, block offset equals to 256bytes = 8 bits. <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• 256kB is the cache size therefore no of cache lines is equal to (cache size/cache block size) = 256kb/256 = 2^10 lines <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•In cache there are 2^10 lines for index bits 2^10/4(since 4 way set associative) = 2^8. <br>\n<br>\n8 bits for offset. <br>\n<br>\n8bits for index. <br>\n<br>\nFinally tag bits = 48bits-8bits(index)-8bits(offset) <br>\n<br>\n32 bits remaining for tag bits. <br>\n<br>\nTherefore 32 is the answer.</div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"499972\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Based on the problem provided in the image, here is the step-by-step solution to find the size of the tag field.</p><p data-path-to-node=\"1\">&nbsp;</p><h3><b>Given Data:</b></h3><p>&nbsp;</p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b>Total Cache Size:</b> $256 \\text{ KB}$</p></li><li><p data-path-to-node=\"2,1,0\"><b>Block Size (Line Size):</b> $256 \\text{ bytes}$</p></li><li><p data-path-to-node=\"2,2,0\"><b>Associativity:</b> $4$-way set associative</p></li><li><p data-path-to-node=\"2,3,0\"><b>Physical Address Size:</b> $48 \\text{ bits}$</p></li><li><p data-path-to-node=\"2,4,0\"><b>Note:</b> The \"$64$-bit data words\" is extra information regarding the data bus width and does not affect the address bit calculation because the problem specifies the system uses <b>byte addresses</b>.</p></li></ul><hr data-path-to-node=\"3\"><p data-path-to-node=\"4\">&nbsp;</p><h3><b>Step 1: Calculate Block Offset Bits</b></h3><p>&nbsp;</p><p>The block offset bits determine the specific byte within a cache block.</p><p>&nbsp;</p><p>$$\\text{Block Offset} = \\log_2(\\text{Block Size})$$</p><p>$$\\text{Block Offset} = \\log_2(256) = \\log_2(2^8) = \\mathbf{8 \\text{ bits}}$$</p><p data-path-to-node=\"8\">&nbsp;</p><h3><b>Step 2: Calculate the Number of Sets</b></h3><p>&nbsp;</p><p>To find the number of index bits, we first need to know how many sets are in the cache.</p><p>&nbsp;</p><p>$$\\text{Number of Sets} = \\frac{\\text{Total Cache Size}}{\\text{Block Size} \\times \\text{Associativity}}$$</p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\">Convert Cache Size to bytes: $256 \\text{ KB} = 256 \\times 1024 \\text{ bytes} = 2^{18} \\text{ bytes}$</p></li><li><p data-path-to-node=\"11,1,0\">Block Size: $256 \\text{ bytes} = 2^8 \\text{ bytes}$</p></li><li><p data-path-to-node=\"11,2,0\">Associativity: $4 = 2^2$</p></li></ul><p>$$\\text{Number of Sets} = \\frac{2^{18}}{2^8 \\times 2^2} = \\frac{2^{18}}{2^{10}} = 2^8 = \\mathbf{256 \\text{ Sets}}$$</p><p data-path-to-node=\"13\">&nbsp;</p><h3><b>Step 3: Calculate Set Index Bits</b></h3><p>&nbsp;</p><p>The index bits identify which set the address belongs to.</p><p>&nbsp;</p><p>$$\\text{Set Index Bits} = \\log_2(\\text{Number of Sets})$$</p><p>$$\\text{Set Index Bits} = \\log_2(256) = \\log_2(2^8) = \\mathbf{8 \\text{ bits}}$$</p><p data-path-to-node=\"17\">&nbsp;</p><h3><b>Step 4: Calculate Tag Bits</b></h3><p>&nbsp;</p><p>The physical address is split into Tag, Set Index, and Block Offset.</p><p>&nbsp;</p><p>$$\\text{Tag Bits} = \\text{Total Address Bits} - (\\text{Set Index Bits} + \\text{Block Offset Bits})$$</p><p>$$\\text{Tag Bits} = 48 - (8 + 8)$$</p><p>$$\\text{Tag Bits} = 48 - 16$$</p><p>$$\\text{Tag Bits} = \\mathbf{32 \\text{ bits}}$$</p><hr data-path-to-node=\"23\"><p data-path-to-node=\"24\">&nbsp;</p><h3><b>Final Answer:</b></h3><p>&nbsp;</p><p data-path-to-node=\"25\">The size of the tag field per cache block is <b>32 bits</b>.</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"530167\"></a><div itemprop=\"text\"><p>solution :-&nbsp;<img alt=\"\" src=\"media/8e/8e9dfdbd228da0b561d3.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/487233\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a $256$ KB $4$-way set associative cache with $256$ byte cache lines for a processor that uses $64$-bit data words and $48$-bit byte addresses. Assume the variable x, of type uint64_t, is stored in memory at location 0x4A85 B413 A518. (uint64_t means an unsigned $64$-bit integer)<br>Assume that x is present in the cache, and char* ptr $=0 \\times 4 \\mathrm{~A} 85$ B400 0000. (Note: sizeof(char) = 1)<br><br>Consider the accesses in the following options. For each access, it can be a MISS or HIT or NOT ENOUGH INFO. For each access, it is a MISS if it \"must\" cause a miss, HIT if it will \"never\" cause a miss, or NOT ENOUGH INFO.<br>Determine which of the following accesses will cause a cache HIT.<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>*(ptr $+0 \\times 11$ A538)<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>*(ptr $+0 \\times 13$ A588)<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>*(ptr $+0 \\times 13$ 0218)<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"487232\"></a><div itemprop=\"text\">$$<br>\n\\begin{array}{llll}<br>\n*\\left(\\mathrm{ptr}+0 \\times 11_A538\\right) &amp; \\text{MISS} &amp; \\text{HIT} &amp; \\text{(NOT ENOUGH INFO)} \\\\<br>\n*\\left(\\mathrm{ptr}+0 \\times 13_A588\\right) &amp; \\text{MISS} &amp; \\text{(HIT)} &amp; \\text{NOT ENOUGH INFO} \\\\<br>\n*\\left(\\mathrm{ptr}+0 \\times 13_0218\\right) &amp; \\text{MISS} &amp; \\text{HIT} &amp; \\text{(NOT ENOUGH INFO)} \\\\<br>\n\\end{array}<br>\n$$<br>\n<br>\n* (ptr + 0x11_A538) is in the same set but has a different tag, it may or may not be in another way in that set. *(ptr + 0x13_A588) is in same the line as $x$ (it is in the same set and has the same tag), and since $x$ in present in the cache, it must be also. *(ptr + 0x13_0218) has the same tag, but is in a different set, so it may or may not be in the cache.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"499973\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Based on the problem statement and the cache configuration provided in the image, here is the step-by-step solution to determine which access will result in a guaranteed cache HIT.</p><p data-path-to-node=\"1\">&nbsp;</p><h3><b>1. Analyze the Cache Configuration</b></h3><p>&nbsp;</p><p data-path-to-node=\"2\">First, we need to break down how the 48-bit physical address is interpreted by the cache.</p><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b>Block Offset:</b></p><ul data-path-to-node=\"3,0,1\"><li><p data-path-to-node=\"3,0,1,0,0\">Block Size = $256$ bytes = $2^8$ bytes.</p></li><li><p data-path-to-node=\"3,0,1,1,0\"><b>Offset Bits = 8 bits</b> (Corresponds to the last <b>2 Hex digits</b>).</p></li></ul></li><li><p data-path-to-node=\"3,1,0\"><b>Set Index:</b></p><ul data-path-to-node=\"3,1,1\"><li><p data-path-to-node=\"3,1,1,0,0\">Number of Sets = $\\frac{\\text{Cache Size}}{\\text{Associativity} \\times \\text{Block Size}}$</p></li><li><p data-path-to-node=\"3,1,1,1,0\">Number of Sets = $\\frac{256 \\text{ KB}}{4 \\times 256 \\text{ Bytes}} = \\frac{256 \\times 1024}{1024} = 256 \\text{ Sets}$.</p></li><li><p data-path-to-node=\"3,1,1,2,0\">Index Bits = $\\log_2(256) = \\mathbf{8 \\text{ bits}}$ (Corresponds to the <b>2 Hex digits</b> preceding the offset).</p></li></ul></li><li><p data-path-to-node=\"3,2,0\"><b>Tag:</b></p><ul data-path-to-node=\"3,2,1\"><li><p data-path-to-node=\"3,2,1,0,0\">Remaining bits = $48 - (8 \\text{ Index} + 8 \\text{ Offset}) = 32$ bits.</p></li><li><p data-path-to-node=\"3,2,1,1,0\"><b>Tag Bits = 32 bits</b> (Corresponds to the first <b>8 Hex digits</b>).</p></li></ul></li></ul><p>Address Structure (Hexadecimal):</p><p>[ Tag (8 digits) ] [ Index (2 digits) ] [ Offset (2 digits) ]</p><hr data-path-to-node=\"5\"><p data-path-to-node=\"6\">&nbsp;</p><h3><b>2. Analyze the Address of Variable <code>x</code></b></h3><p>&nbsp;</p><p data-path-to-node=\"7\">We are told that variable <code>x</code> is present in the cache. This means the specific <b>cache block</b> containing <code>x</code> is loaded. For another access to be a guaranteed HIT, it must target the <b>exact same block</b> (i.e., it must have the exact same <b>Tag</b> and <b>Index</b>).</p><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b>Address of <code>x</code>:</b> <code>0x4A85 B413 A518</code></p></li><li><p data-path-to-node=\"8,1,0\"><b>Breakdown:</b></p><ul data-path-to-node=\"8,1,1\"><li><p data-path-to-node=\"8,1,1,0,0\"><b>Offset:</b> <code>18</code> (Last 2 digits)</p></li><li><p data-path-to-node=\"8,1,1,1,0\"><b>Index:</b> <code>A5</code> (Next 2 digits)</p></li><li><p data-path-to-node=\"8,1,1,2,0\"><b>Tag:</b> <code>4A85 B413</code> (First 8 digits)</p></li></ul></li></ul><p data-path-to-node=\"9\"><b>Condition for HIT:</b> The target address must have <b>Tag = <code>4A85 B413</code></b> and <b>Index = <code>A5</code></b>.</p><hr data-path-to-node=\"10\"><p data-path-to-node=\"11\">&nbsp;</p><h3><b>3. Evaluate the Options</b></h3><p>&nbsp;</p><p>We need to calculate the address for each option by adding the offset to the base pointer ptr.</p><p>Base ptr address: 0x4A85 B400 0000</p><p data-path-to-node=\"13\"><b>Option A: <code>*(ptr + 0x11A538)</code></b></p><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\">Calculation: <code>0x4A85 B400 0000</code> + <code>0x11A538</code> = <code>0x4A85 B411 A538</code></p></li><li><p data-path-to-node=\"14,1,0\"><b>Breakdown:</b></p><ul data-path-to-node=\"14,1,1\"><li><p data-path-to-node=\"14,1,1,0,0\">Offset: <code>38</code></p></li><li><p data-path-to-node=\"14,1,1,1,0\">Index: <code>A5</code> (Matches <code>x</code>)</p></li><li><p data-path-to-node=\"14,1,1,2,0\">Tag: <code>4A85 B411</code> (<b>Mismatch</b> with <code>x</code>'s tag <code>4A85 B413</code>)</p></li></ul></li><li><p data-path-to-node=\"14,2,0\"><b>Result:</b> Different block. No guaranteed HIT.</p></li></ul><p data-path-to-node=\"15\"><b>Option B: <code>*(ptr + 0x13A588)</code></b></p><ul data-path-to-node=\"16\"><li><p data-path-to-node=\"16,0,0\">Calculation: <code>0x4A85 B400 0000</code> + <code>0x13A588</code> = <code>0x4A85 B413 A588</code></p></li><li><p data-path-to-node=\"16,1,0\"><b>Breakdown:</b></p><ul data-path-to-node=\"16,1,1\"><li><p data-path-to-node=\"16,1,1,0,0\">Offset: <code>88</code></p></li><li><p data-path-to-node=\"16,1,1,1,0\">Index: <code>A5</code> (<b>Matches</b> <code>x</code>)</p></li><li><p data-path-to-node=\"16,1,1,2,0\">Tag: <code>4A85 B413</code> (<b>Matches</b> <code>x</code>)</p></li></ul></li><li><p data-path-to-node=\"16,2,0\"><b>Result:</b> This address maps to the exact same cache block as <code>x</code>. Since <code>x</code> is present, this block is present. <b>Guaranteed HIT.</b></p></li></ul><p data-path-to-node=\"17\"><b>Option C: <code>*(ptr + 0x130218)</code></b></p><ul data-path-to-node=\"18\"><li><p data-path-to-node=\"18,0,0\">Calculation: <code>0x4A85 B400 0000</code> + <code>0x130218</code> = <code>0x4A85 B413 0218</code></p></li><li><p data-path-to-node=\"18,1,0\"><b>Breakdown:</b></p><ul data-path-to-node=\"18,1,1\"><li><p data-path-to-node=\"18,1,1,0,0\">Offset: <code>18</code></p></li><li><p data-path-to-node=\"18,1,1,1,0\">Index: <code>02</code> (<b>Mismatch</b> with <code>x</code>'s index <code>A5</code>)</p></li><li><p data-path-to-node=\"18,1,1,2,0\">Tag: <code>4A85 B413</code></p></li></ul></li><li><p data-path-to-node=\"18,2,0\"><b>Result:</b> Different set. No guaranteed HIT.</p></li></ul><p data-path-to-node=\"19\">&nbsp;</p><h3><b>Conclusion</b></h3><p>&nbsp;</p><p data-path-to-node=\"20\">Only the address in Option B has the same Tag and Set Index as variable <code>x</code>. Therefore, it accesses the same cache block that is already known to be in the cache.</p><p data-path-to-node=\"21\"><b>Correct Answer: B</b></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"536578\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"0\">&nbsp;</h3><p data-path-to-node=\"1,0,0\"><strong>Address Space:</strong> 48 bits</p><p data-path-to-node=\"1,1,0\"><strong>Block Size (Line Size):</strong> 256 bytes = $2^8$ bytes $\\implies$ 8 bits for Block Offset</p><p data-path-to-node=\"1,2,0\">Cache Size: 256 KB = $2^{18}$ bytes</p><p data-path-to-node=\"1,3,0\"><strong>Total Blocks in Cache: </strong>$\\frac{256\\text{ KB}}{256\\text{ B}} = 1024$ blocks</p><p data-path-to-node=\"1,4,0\">Associativity: 4-way set associative $\\implies$ Each set contains 4 blocks.</p><p data-path-to-node=\"1,5,0\"><strong>Total Sets in Cache: </strong>$\\frac{1024\\text{ blocks}}{4} = 256 = 2^8$ sets $\\implies$ 8 bits for Set Index</p><p data-path-to-node=\"2\">Now we find the Tag bits:</p><p>$$\\text{Tag bits} = 48 - (\\text{Set Index bits} + \\text{Block Offset bits}) = 48 - (8 + 8) = 32\\text{ bits}$$</p><p>$$\\text{Address Format: } \\underbrace{\\texttt{T T T T T T T T}}_{32\\text{ bits (Tag)}} \\ \\underbrace{\\texttt{S S}}_{8\\text{ bits (Set)}} \\ \\underbrace{\\texttt{O O}}_{8\\text{ bits (Offset)}}$$</p><p data-path-to-node=\"5\">in hexadecimal format</p><p data-path-to-node=\"6\">We know the variable x is currently present in the cache at address 0x4A85 B413 A518. Let's parse it:</p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><strong>Tag: 4A85B413</strong></p></li><li><p data-path-to-node=\"7,1,0\"><strong>Set Index: A5</strong></p></li><li><p data-path-to-node=\"7,2,0\"><strong>Block Offset: 18</strong></p></li></ul><p data-path-to-node=\"8\">Because x is guaranteed to be in the cache, anyy future access that maps to this exact same Tag and Set Index will cause a Cache HIT.</p><p data-path-to-node=\"9\">Given the base pointer: ptr = 0x4A85 B400 0000</p><h4 data-path-to-node=\"12\">Option A</h4><p>$$\\text{Address} = \\texttt{0x4A85 B400 0000} + \\texttt{0x11 A538} = \\texttt{0x4A85 B411 A538}$$</p><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\">Tag: 4A85B411 (Mismatch)</p></li><li><p data-path-to-node=\"14,1,0\">Set Index: A5</p></li><li><p data-path-to-node=\"14,2,0\">Result: MISS</p></li></ul><h4 data-path-to-node=\"15\">Option B</h4><p>$$\\text{Address} = \\texttt{0x4A85 B400 0000} + \\texttt{0x13 A588} = \\texttt{0x4A85 B413 A588}$$</p><ul data-path-to-node=\"17\"><li><p data-path-to-node=\"17,0,0\">Tag: 4A85B413 ($\\color{green}{\\text{Matches!}}$)</p></li><li><p data-path-to-node=\"17,1,0\">Set Index: A5 ($\\color{green}{\\text{Matches!}}$)</p></li><li><p data-path-to-node=\"17,2,0\">Result: HIT (Since it targets the exact same memory block currently holding x).</p></li></ul><h4 data-path-to-node=\"18\">Option C</h4><p>$$\\text{Address} = \\texttt{0x4A85 B400 0000} + \\texttt{0x13 0218} = \\texttt{0x4A85 B413 0218}$$</p><ul data-path-to-node=\"20\"><li><p data-path-to-node=\"20,0,0\">Tag: 4A85B413</p></li><li><p data-path-to-node=\"20,1,0\">Set Index: 02 (Mismatch)</p></li><li><p data-path-to-node=\"20,2,0\">Result: MISS</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/487231\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose a computer has an $8$-bit address space. It has a $2$-way set-associative cache with LRU replacement policy. Cache size is $64$ Bytes and block size is $8$ Bytes.<br>\nWhat is the length of the tag field (in bits) ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"487372\"></a><div itemprop=\"text\"><ul><li data-start=\"52\" data-end=\"78\"><p data-start=\"54\" data-end=\"78\">Address size = 8 bits.</p></li><li data-start=\"79\" data-end=\"142\"><p data-start=\"81\" data-end=\"142\">Block size = 8 bytes → block offset bits = log⁡2(8)=3</p></li><li data-start=\"143\" data-end=\"207\"><p data-start=\"145\" data-end=\"207\">Cache size = 64 bytes → number of lines = 64÷8=8</p></li><li data-start=\"208\" data-end=\"270\"><p data-start=\"210\" data-end=\"270\">2-way set-associative → number of sets = 8÷2=4</p></li><li data-start=\"271\" data-end=\"304\"><p data-start=\"273\" data-end=\"304\">Index bits = log⁡2(4)=2</p></li><li data-start=\"305\" data-end=\"336\"><p data-start=\"307\" data-end=\"336\">Tag bits = 8−3−2=3</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/487230\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose a computer has an 8-bit address space. It has a $2$-way set-associative cache with LRU replacement policy. Cache size is $64$ Bytes and block size is $8$ Bytes. The addresses of memory access are as follows; the sequence is from the top to bottom in the table.<br>\n$$<br>\n\\begin{array}{|l|l|}<br>\n\\hline<br>\n\\textbf{Address} &amp; \\textbf{Hit or Miss} \\\\<br>\n\\hline<br>\n0b10001000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b10011000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b10001001 &amp; \\text{Hit} \\\\<br>\n\\hline<br>\n0b00001000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b00001001 &amp; \\\\<br>\n\\hline<br>\n0b10010001 &amp; \\\\<br>\n\\hline<br>\n0b11001001 &amp; \\\\<br>\n\\hline<br>\n0b00001010 &amp; \\\\<br>\n\\hline<br>\n0b10001001 &amp; \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\nWhat is the hit rate (in $\\%$) of the memory accesses in the above table? (up to two decimal places)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"487229\"></a><div itemprop=\"text\">$$<br>\n\\begin{array}{|l|l|}<br>\n\\hline<br>\n\\textbf{Address} &amp; \\textbf{Hit or Miss} \\\\<br>\n\\hline<br>\n0b10001000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b10011000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b10001001 &amp; \\text{Hit} \\\\<br>\n\\hline<br>\n0b00001000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b00001001 &amp; \\text{Hit} \\\\<br>\n\\hline<br>\n0b10010001 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b11001001 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b00001010 &amp; \\text{Hit} \\\\<br>\n\\hline<br>\n0b10001001 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\n<br>\nHit rate $=(3 / 9) * 100=33.33 \\%$</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"491708\"></a><div itemprop=\"text\"><p>HIT RATE 33.33%</p><p><strong><img alt=\"\" width=\"905\" height=\"1280\" src=\"media/92/9294a7bac6e4aea113db.jpg\"></strong></p></div></section></div><p><a href=\"https://gateoverflow.in/487228\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose a computer has an $8$-bit address space. It has a direct mapping cache. Cache size is $64$ Bytes and block size is $8$ Bytes. The addresses of memory access are as follows; the sequence is from the top to bottom in the table.<br>\n$$<br>\n\\begin{array}{|l|l|}<br>\n\\hline<br>\n\\textbf{Address} &amp; \\textbf{Hit or Miss} \\\\<br>\n\\hline<br>\n0b10001000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b10011000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b10001001 &amp; \\text{Hit} \\\\<br>\n\\hline<br>\n0b00001000 &amp; \\text{Miss} \\\\<br>\n\\hline<br>\n0b00001001 &amp; \\\\<br>\n\\hline<br>\n0b10010001 &amp; \\\\<br>\n\\hline<br>\n0b11001001 &amp; \\\\<br>\n\\hline<br>\n0b00001010 &amp; \\\\<br>\n\\hline<br>\n0b10001001 &amp; \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\nWhat is the hit rate (in $\\%$) of the memory accesses in the above table? (up to two decimal places)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"487227\"></a><div itemprop=\"text\">Number of lines in the cache $=64 \\mathrm{~B} / 8 \\mathrm{~B}=8$<br>\n<br>\nThe length of tag, line index and block offset fields $=2,3,3$<br>\n<br>\nHit rate $=(2 / 9)^{*} 100=22.22 \\%$</div></section></div><p><a href=\"https://gateoverflow.in/487226\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A direct-mapped cache has $64$ blocks and a block size of $16$ bytes. To what block number in the cache does byte address $1220_{10}$ map?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$11$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$13$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$12$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the other choices</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"487225\"></a><div itemprop=\"text\">First find the main memory block number to which the byte address 1220 belongs to, which can be found by $1220 / 16$, so, block number 76 (NOTE that block numbers start with 0 ).<br>\n<br>\nNow, block number 76 maps to line number $76 \\% 64=12$.</div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"529505\"></a><div itemprop=\"text\"><p><strong>Answer:</strong> 12</p><p><strong><em>Easiest Explaination:</em></strong></p><p>\\[<br>\\text{Number of bits for block offset} = \\log_2(16) = 4 \\text{ bits}<br>\\]</p><p>\\[<br>\\text{Number of bits for line number} = \\log_2(64) = 6 \\text{ bits}<br>\\]</p><p>\\[<br>(1220)_{10} = (10011000100)_2<br>\\]</p><p>\\[<br>\\text{Address format: } \\quad 1 \\;|\\; 001100 \\;|\\; 0100<br>\\]</p><p>\\[<br>\\text{Line number} = (001100)_2 = (12)_{10}<br>\\]</p><p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"501605\"></a><div itemprop=\"text\"><ul><li><p data-path-to-node=\"25,0,0\"><b>Question:</b> Block number for address 1220 (64 blocks, 16B block size).</p></li><li><p data-path-to-node=\"25,1,0\"><b>Calc:</b></p><ol start=\"1\" data-path-to-node=\"25,1,1\"><li><p data-path-to-node=\"25,1,1,0,0\">Block Address = $1220 / 16 = 76$ (integer division).</p></li><li><p data-path-to-node=\"25,1,1,1,0\">Cache Block Number = $76 \\pmod{64} = 12$.</p></li></ol></li><li><p data-path-to-node=\"25,2,0\"><b>Answer:</b> <b>C. 12</b></p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/487224\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The size of the physical&nbsp;address space of a processor is $2^P$ bytes. The word length is $2^W$ bytes. The capacity of cache memory is $2^N$ bytes. The size of each cache block is $2^M$ words. For a $K$-way set-associative cache memory, the length (in number of bits) of the tag field is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$P-N- \\log_2K$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$P-N+ \\log_2 K$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P-N-M-W- \\log_2 K$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$P-N-M-W+ \\log_2 K$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"487263\"></a><div itemprop=\"text\">$\\text{Physical Address Space} =2^P$ Bytes, i.e., $P$ bits to represent the size of total memory.<br>\n<br>\n$\\text{Cache Size} = 2^N$ Bytes, i.e., $N$ bits to represent Cache memory.<br>\n<br>\n$\\text{Tag size} = 2^X$ Bytes, i.e., $X$ bits to represent Tag.<br>\n<br>\nCache is $K-$way associative.<br>\n<br>\n$\\text{(Size of Tag)} \\times \\frac{\\text{Cache Size}}{K} = \\text{Total Memory Size}$<br>\n<br>\n$\\implies 2^X \\times \\frac{2^N}{K} = 2^P $<br>\n<br>\n$\\implies 2^{X+N-\\log(K)} = 2^P $<br>\n<br>\n$\\implies 2^{X} = 2^{P-N+\\log(K)} $<br>\n<br>\n$\\implies X (\\text{Size of Tag in bits}) = P - N + \\log(K)$<br>\n<br>\nCorrect Answer: $B$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"529509\"></a><div itemprop=\"text\"><p><strong>Answer:</strong> (B)</p><p>\\[<br>\\begin{aligned}<br>\\textbf{Physical Address Bits:} \\quad<br>&amp; \\log_2(2^P) = P \\\\[6pt]<br><br>\\textbf{Block Size:} \\quad<br>&amp; 2^M \\text{ words} = 2^M \\cdot 2^W = 2^{M+W} \\\\<br>&amp; \\Rightarrow \\text{Block offset bits} = M + W \\\\[6pt]<br><br>\\textbf{Number of Lines:} \\quad<br>&amp; \\frac{2^N}{2^{M+W}} = 2^{N - M - W} \\\\[6pt]<br><br>\\textbf{K-way Set Associative Cache:} \\quad<br>&amp; \\text{Number of sets} = \\frac{2^{N - M - W}}{K} \\\\<br>&amp; \\Rightarrow \\text{Set index bits} = \\log_2\\left(\\frac{2^{N - M - W}}{K}\\right) \\\\<br>&amp; = N - M - W - \\log_2 K \\\\[6pt]<br><br>\\textbf{Let Tag Bits} = x \\\\[6pt]<br><br>\\textbf{Address Breakdown:} \\quad<br>&amp; x + \\text{Set bits} + \\text{Offset bits} = P \\\\<br>&amp; x + (N - M - W - \\log_2 K) + (M + W) = P \\\\[6pt]<br><br>\\textbf{Final Result:} \\quad<br>&amp; x = P - N + \\log_2 K<br>\\end{aligned}<br>\\]</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"530480\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"1200\" height=\"900\" src=\"media/5a/5a2ae7b0f8ce95e1556a.jpg\"></p><p>Sorry for the poor formating, I was not able to rotate the image. I hope this helps</p></div></section></div><p><a href=\"https://gateoverflow.in/487223\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 6,
+  "types": {
+   "MCQ": 7,
+   "NAT": 7,
+   "MSQ": 1
+  },
+  "withoutKey": 12
+ }
+}

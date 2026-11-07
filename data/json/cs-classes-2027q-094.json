@@ -1,0 +1,552 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-094",
+ "title": "DVRUO Classes GATE CS | Theory of Computation | Finite Automata and Regular Expression | Weekly Quiz 2",
+ "sourceTitle": "DVRUO Classes GATE CS | Theory of Computation | Finite Automata and Regular Expression | Weekly Quiz 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 94,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Theory of Computation"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/072_exam_988_GO Classes GATE CS Theory of Computation Finite Automata and Regular Expression Weekly Quiz 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following four languages is different from the other three?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\emptyset$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\emptyset^*$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{\\lambda\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{\\lambda\\}^*$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"408484\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;&nbsp;<strong><a rel=\"nofollow\" href=\"https://youtu.be/XF2ygVBjlTg?t=125\" target=\"_blank\">https://youtu.be/XF2ygVBjlTg?t=125</a></strong></p><p>The language $\\emptyset$ is empty, which means that it contains no words. All other languages are equal to $\\{\\lambda\\}$. If you concatenate zero words from the empty language, you get the empty word. If you concatenate zero or more times the empty word, it will still be the empty word.<br><br>Correct Answer: A</p></div></section></div><p><a href=\"https://gateoverflow.in/408483\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following four languages is different from the other three?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\{a, b\\})^*$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(\\{b, a, a\\})^*$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left(\\{a\\}^* \\cup\\{b\\}^*\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(\\{a\\} \\cup\\{b\\})^*$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"408482\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;&nbsp;<strong><a rel=\"nofollow\" href=\"https://youtu.be/XF2ygVBjlTg?t=596\" target=\"_blank\">https://youtu.be/XF2ygVBjlTg?t=596</a>&nbsp;</strong></p><p>The languages $(\\{a, b\\})^*,(\\{b, a, a\\})^*$, and $(\\{a\\} \\cup\\{b\\})^*$ basically all state: choose either $a$ or $b$ and do that as often as you want. This gives all words over the alphabet $\\{a, b\\}$. The language $\\left(\\{a\\}^* \\cup\\{b\\}^*\\right)$, however, states: take any amount of $a$'s or any amount of $b$'s. In particular this last language doesn't contain words like $a b$ that contain $a$'s and $b$'s.</p><p>Regular expression for&nbsp;$(\\{a, b\\})^*,(\\{b, a, a\\})^*$, and $(\\{a\\} \\cup\\{b\\})^*$ is $(a+b)^*$</p><p>Regular expression for&nbsp;$\\left(\\{a\\}^* \\cup\\{b\\}^*\\right)$ is $a^* + b^*$<br><br>Correct Answer: C</p></div></section></div><p><a href=\"https://gateoverflow.in/408481\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Is there for all non-deterministic finite automata a deterministic finite automaton that recognizes the same language?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Yes, you can construct such an automaton using the power set construction.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Yes, because you are not required to have non-determinism in a nondeterministic automaton.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, because in a non-deterministic automaton $\\lambda$ transitions are allowed.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No, because non-deterministic automata are more efficient than deterministic automata.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"408480\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;&nbsp;<strong><a rel=\"nofollow\" href=\"https://youtu.be/XF2ygVBjlTg?t=1178\" target=\"_blank\">https://youtu.be/XF2ygVBjlTg?t=1178</a></strong></p><p>The second option makes no sense because this only explains that some NFAs are in fact already DFAs, but it doesn't explain why the other NFAs have an equivalent DFA.<br><br>The third and fourth options make no sense because the answer is 'yes'.<br><br>Correct Answer: A</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"408902\"></a><div itemprop=\"text\"><p>Option A: CORRECT, Every DFA is a&nbsp;NFA, but every NFA is a DFA that can be done by Power set construction.&nbsp;<strong>Because the DFA states consist of sets of NFA states, an n-state NFA may be converted to a DFA with at most $2^{n}$ states</strong>.&nbsp;</p><p>Options B,C: WRONG, we have the power of non-determinism and&nbsp;λ transition in a NFA.</p><p>Option D: Wrong, Every regular language is recognized by DFA and we know for every DFA NFA exists then we can say the regular language is also recognized by NFA&nbsp;&nbsp;, so NFA and DFA are equally efficient.</p></div></section></div><p><a href=\"https://gateoverflow.in/408479\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Is the complement of a regular language always regular?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Yes, because the regular languages are exactly the languages that can be recognized with a DFA, and it is easy to construct a DFA for the complement.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Yes, because the complement of the complement is the language itself, so no information is lost by complementation.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, because the complement symbol $\\overline{\\text{L}}$&nbsp;is not allowed in a regular expression.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No, because if the words in a language are regular, all words that are not regular will be in the complement.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"408478\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;&nbsp;<strong><a rel=\"nofollow\" href=\"https://youtu.be/XF2ygVBjlTg?t=1746\" target=\"_blank\">https://youtu.be/XF2ygVBjlTg?t=1746</a></strong></p><p>It is true that the regular languages correspond to the languages generated by DFAs. By swapping all final states and non-final states in a DFA, we can compute the complement of a language with a new DFA, which by definition corresponds to a regular language again.<br><br>The option $B$ is saying that \"Yes, because $\\bar {\\bar L} = L$\". This is true for all langauge but this is not correct reason/answer to the given question.<br><br>The third and the fourth option make no sense because the answer is 'yes'.<br><br>Correct Answer: A</p></div></section></div><p><a href=\"https://gateoverflow.in/408477\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Are there languages for which every deterministic finite automaton has a sink (a non-final state for which each transition will loop back to that state)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Yes, when there is a word $w$ for which any extension $w w^{\\prime}$ will not be in the language.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Yes, because each state needs to have a transition for each symbol.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, because you can always split a sink in multiple states.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No, because you can always use a non-deterministic automaton.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"408476\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=XF2ygVBjlTg&amp;t=2404s\" target=\"_blank\">Detailed Video Solution (Must Watch)</a><strong>&nbsp;</strong></p><p>The idea of a sink is that you create a 'black hole' in a DFA: once you get in there, you can never get out anymore. This can be done using a single state with the 'sink property'. However, it can also be done using two non-final states $q$ and $q^{\\prime},$ where for each symbol $s$ in the alphabet we have $\\delta(q, s)=q^{\\prime}$ and $\\delta\\left(q^{\\prime}, s\\right)=q$. This has the same effect, but the 'looping' is not done directly to a single state, but indirectly between two states.<br><br>The first and the second answer make no sense because the answer is 'no'.<br><br>The fourth answer makes no sense because the question was about <em>deterministic</em> automata, and what is possible in a non-deterministic automaton is irrelevant for this.<br><br>Correct Answer: C</p><p><strong>Helpful Comment:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/408475/classes-weekly-finite-automata-regular-expression-question?show=408774#c408774\" target=\"_blank\">https://gateoverflow.in/408475/classes-weekly-finite-automata-regular-expression-question?show=408774#c408774</a>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"481317\"></a><div itemprop=\"text\">\"Every DFA has a sink\"<br>\nMost people read this as \"Every DFA has atleast one sink\" - sure, we can always add some kind of dead state without changing what the language accepts<br>\nbut this is where it gets tricky<br>\n\"Every DFA has a sink\" means \"Every DFA has only ONE sink\"<br>\nNo, we can split sinks and can have more than ONE sinks. This is a play on words.</div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"433459\"></a><div itemprop=\"text\"><p>Options B and D are bogus. Please see below pdf for explanation of options A and C.<br><a rel=\"nofollow\" href=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=13125053781369064585\" target=\"_blank\">PDF answer</a></p></div></section></div><p><a href=\"https://gateoverflow.in/408475\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Are there languages for which every non-deterministic finite automaton does <em>not</em> have a sink (a non-final state for which each transition will loop back to that state)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Yes, in the case that each word $w$ has an extension $w w^{\\prime}$ that is in the language, there cannot be a sink.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Yes, in non-deterministic automata there never are sinks.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, one can always add a sink to an automaton without changing the language that is accepted.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No, there are languages for which each non-deterministic finite automaton has a sink.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"408474\"></a><div itemprop=\"text\"><p>$\\color{red}{\\text{Detailed Video Solution:}}$&nbsp;&nbsp;<strong><a rel=\"nofollow\" href=\"https://youtu.be/XF2ygVBjlTg?t=4073\" target=\"_blank\">https://youtu.be/XF2ygVBjlTg?t=4073</a></strong></p><p>One can indeed always add a sink without changing the accepted language, because it will not lead to more accepted words.<br><br>The first and the second answer make no sense because the answer is 'no'.<br><br>The fourth answer makes no sense because you can always remove any sink without changing the accepted language.<br><br>Correct Answer: C</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"433476\"></a><div itemprop=\"text\"><p>Here, main confusing is between option <span style=\"color:#c0392b;\"><strong>(B)</strong></span> and <strong><span style=\"color:#c0392b;\">(C)</span></strong>. But if we think properly then we <strong>add a sink</strong> state also in NFA .Check by drawing the NFA&nbsp; and another thing is that we often think that&nbsp; NFA has power of no-move that eliminate the sink state situation but if we donot use that power then still it will be NFA.</p><p>Option (B): One line written that NFA there never have sink state<span style=\"color:#f39c12;\"><em><strong>[that is wrong]</strong></em></span>&nbsp;.It will also urge you to think can i add.....</p><p>Hence option (C) is correct.</p><p>P.S:- Please correct me if anything wrong.</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"481314\"></a><div itemprop=\"text\">The question did not ask about minimal NFA, it asked just about NFA, any NFA. We can add an unreachable dead state to any NFA, that way we can make any NFA have a \"sink\".</div></section></div><p><a href=\"https://gateoverflow.in/408473\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{M}$ be a DFA. Say strings $x$ and $y$ in $\\Sigma^*$ are <em>indistinguishable</em>, written $x \\equiv y$ if and only if<br>$$<br>\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, y\\right)<br>$$<br>Which of the following is/are necessarily true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every pair of strings in $\\text{L(M)}$ are indistinguishable.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Two different strings in $\\mathrm{L}(\\mathrm{M})$ are never indistinguishable.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Indistinguishable relation on strings in $\\Sigma^*$ is an equivalence relation.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Indistinguishable relation on strings in $\\Sigma^*$ is a partial order relation.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"408472\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution, with Complete Analysis:&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/ldychl4M6fE?t=80\" target=\"_blank\">https://youtu.be/ldychl4M6fE?t=80</a></strong></p><p>Since $\\delta^*()$ is a function, the following hold<br>$$<br>\\begin{aligned}<br>\\text {Reflexive } &amp; \\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, x\\right) \\\\<br>\\text {Symmetric } &amp; \\left(\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, y\\right)\\right) \\Rightarrow\\left(\\delta^*\\left(q_0, y\\right)=\\delta^*\\left(q_0, x\\right)\\right) \\\\<br>\\text {Transitive } &amp; \\left(\\left(\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, y\\right)\\right) \\wedge\\left(\\delta^*\\left(q_0, y\\right)=\\delta^*\\left(q_0, z\\right)\\right)\\right) \\Rightarrow\\left(\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, z\\right)\\right)<br>\\end{aligned}<br>$$<br>Therefore, <em>indistinguishable</em> is an equivalence relation on strings.</p><p>Basically, two strings are <em>indistinguishable</em>&nbsp;if, starting from the initial state, both strings lead to the same state.</p><p>Option $A$ is not correct. Conside this DFA $\\text{M}$ as a counter example:</p><p style=\"text-align:center\"><img alt=\"\" width=\"316\" style=\"max-width: 100%;\" src=\"media/a5/a58902f61b1410d7f8ef.png\"></p><p>Strings $aa$ and $bb$ are in $\\text{L(M)}$ but both are not <em>indistinguishable</em>&nbsp;because both strings end up in the different states.</p><p>Option $B$ is not correct. Strings $aa$ and $aaa$ are in $\\text{L(M)}$ but both are <em>indistinguishable</em>&nbsp;because both strings end up in the same state.</p><p>Option $D$ is not correct because indistinguishable relation is not antisymmetric. This doesn't fullfil requirement for a relation to be partial order.</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"409072\"></a><div itemprop=\"text\">Option A is wrong , because L(M) may contain “epsilon” which is always distinguishable with other strings<br>\n<br>\nOptionB is wrong , &nbsp;because L(M) contains strings which are equivalent always<br>\n<br>\nOption C is correct, by myhill nerode theorem<br>\n<br>\nOption D is wrong, because they dont follow antisymmetricity</div></section></div><p><a href=\"https://gateoverflow.in/408471\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $M$ be a DFA. Say strings $x$ and $y$ in $\\Sigma^*$ are <em>indistinguishable</em>, written $x \\equiv y$ if and only if<br>$$<br>\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, y\\right)<br>$$<br>Which of the following is/are necessarily true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If strings $x, y$ are indistinguishable then $x a, ya$ are also indistinguishable, for every alphabet symbol $a.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If strings $x a, y a$ are indistinguishable then $x, y$ are also indistinguishable, where a is an alphabet symbol.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If strings $x, y$ are indistinguishable then $x w, y w$ are also indistinguishable, for all strings $w$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If strings $xw, yw$ are indistinguishable then $x, y$ are also indistinguishable, where $w$ is a string.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"408470\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution, with Complete Analysis:&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/ldychl4M6fE?t=2359\" target=\"_blank\">https://youtu.be/ldychl4M6fE?t=2359</a></strong></p><p>Since $\\delta^*()$ is a function, the following hold<br>$$<br>\\begin{aligned}<br>\\text { Reflexive } &amp; \\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, x\\right) \\\\<br>\\text { Symmetric } &amp; \\left(\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, y\\right)\\right) \\Rightarrow\\left(\\delta^*\\left(q_0, y\\right)=\\delta^*\\left(q_0, x\\right)\\right) \\\\<br>\\text { Transitive } &amp; \\left(\\left(\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, y\\right)\\right) \\wedge\\left(\\delta^*\\left(q_0, y\\right)=\\delta^*\\left(q_0, z\\right)\\right)\\right) \\Rightarrow\\left(\\delta^*\\left(q_0, x\\right)=\\delta^*\\left(q_0, z\\right)\\right)<br>\\end{aligned}<br>$$<br>Therefore, <em>indistinguishable</em> is an equivalence relation on strings.<br>&nbsp;</p><p><strong>NOTE:&nbsp;</strong><br>If strings $x, y$ are <em>indistinguishable</em> then $xw,&nbsp;yw$ are also indistinguishable, for all strings $w$.</p><p>Easy to prove, by definition $\\&amp;$ properties of a DFA.</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"494782\"></a><div itemprop=\"text\">δ*(q0​,x)=δ*(q0​,y) - this means that after reading the complete string x,y from the start state q0, the DFA ends in the same state.<br>\n<br>\nA. If strings x,y are indistinguishable then xa,ya are also indistinguishable, for every alphabet symbol a. So, True.<br>\n<br>\nThis means x,y end on the same state so any transition on same symbol from there will lead to same next state. <br>\n<br>\nB.If strings xa,ya are indistinguishable then x,y are also indistinguishable, where a is an alphabet symbol.<br>\n<br>\nThis means they land on the same state after reading the same symbol, but it is not necessary they take the same path before that so here x,y need not be indistinguishable if xa,ya are. Ex - δ*(q0,x)=P, δ*(q0,y)=Q, but &nbsp;δ*(q0,xa)=Z, and &nbsp;δ*(q0,ya)=Z.So, False.<br>\n<br>\nC.If strings x,y are indistinguishable then xw,yw are also indistinguishable, for all strings w.<br>\n<br>\nSame reasoning as A but with a string w. So True.<br>\n<br>\nD. If strings xw,yw are indistinguishable then x,y are also indistinguishable, where w is a string.<br>\n<br>\nSame reasoning as B but with a string. So False. <br>\n<br>\nAnswer - A,C</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"462163\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/31/3154bfe5e32b51e5e8d4.jpg\">soption B&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/408469\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Give a deterministic finite automaton with the least number of states for the language:<br>\n<br>\n$\\text{L}_8:=\\left\\{w \\in\\{a, b\\}^* \\mid\\right.$ the number of $a$'s in $w$ is even iff the number of $b$'s is even $\\}$<br>\n<br>\n(The abbreviation 'iff' stands for 'if and only if')<br>\n<br>\nWhat is the number of states?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 23)</small></h4><a name=\"408468\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution, with Complete Analysis:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ldychl4M6fE&amp;t=3227s\" target=\"_blank\">https://www.youtube.com/watch?v=ldychl4M6fE&amp;t=3227s</a>&nbsp;</p><p>You may think that this is the proper solution:</p><p style=\"text-align:center\"><img alt=\"\" width=\"300\" src=\"media/21/21ed811242612c7253a5.png\"></p><p>This automaton generates the correct language. Words $w$ for which it holds that the number of $a$'s in $w$ is even iff the number of $b$'s in $w$ is even, must have either an even number of $a$'s and an even number of $b$ 's, or an odd number of $a$'s and an odd number of $b$'s. In the automaton the four states represent whether the number of $a$'s and $b$'s are even or odd.</p><ul><li>$q_0$ represents the situation that both numbers are even, which is allowed, so it is a final state.</li><li>$q_1$ represents the situation that the number of $a$'s is odd and the number of $b$'s is even, which is not allowed, so it is not a final state.</li><li>$q_2$ represents the situation that the number of $a$'s is even and the number of $b$'s is odd, which is not allowed, so it is not a final state.</li><li>$q_3$ represents the situation that both numbers are odd, which is allowed, so it is a final state.</li></ul><p>However, the automaton is not minimal. If you look at the words in this language you can see that the characterizing feature of this language is the fact that all words have an even length. And with that in mind it is easy to see that there is an automaton with fewer states that gives the same language:</p><p style=\"text-align:center\"><img alt=\"\" height=\"168\" width=\"265\" src=\"media/82/8241271178eafb104754.png\"></p><p><strong>Helpful Comment:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/408467/classes-weekly-finite-automata-regular-expression-question?show=408740#c408740\" target=\"_blank\">https://gateoverflow.in/408467/classes-weekly-finite-automata-regular-expression-question?show=408740#c408740</a>&nbsp;&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/408467\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Give a deterministic finite automaton with the least number of states for the language:<br>\n<br>\n$\\text{L}_8:=\\left\\{w \\in\\{a, b\\}^* \\mid\\right.$ the number of $a$'s in $w$ is odd iff the number of $b$'s is odd $\\}$<br>\n<br>\n(The abbreviation 'iff' stands for 'if and only if')<br>\n<br>\nWhat is the number of states?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"408466\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution, with Complete Analysis:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ldychl4M6fE&amp;t=4311s\" target=\"_blank\">https://www.youtube.com/watch?v=ldychl4M6fE&amp;t=4311s</a></p><p>You may think that this is the proper solution:</p><p style=\"text-align:center\"><img alt=\"\" width=\"300\" src=\"media/96/965dcec6a3078bc370d2.png\"></p><p>This automaton generates the correct language. Words $w$ for which it holds that the number of $a$'s in $w$ is odd iff the number of $b$'s in $w$ is odd, must have either an odd number of $a$'s and an odd number of $b$'s, or an even number of $a$'s and an even number of $b$'s. In the automaton the four states represent whether the number of $a$'s and $b$'s are even or odd.</p><ul><li>$q_0$ represents the situation that both numbers are even, which is allowed, so it is a final state.</li><li>$q_1$ represents the situation that the number of $a$'s is odd and the number of $b$'s is even, which is not allowed, so it is not a final state.</li><li>$q_2$ represents the situation that the number of $a$'s is even and the number of $b$'s is odd, which is not allowed, so it is not a final state.</li><li>$q_3$ represents the situation that both numbers are odd, which is allowed, so it is a final state.</li></ul><p>However, the automaton is not minimal. If you look at the words in this language you can see that the characterizing feature of this language is the fact that all words have an even length. And with that in mind it is easy to see that there is an automaton with fewer states that gives the same language:</p><p style=\"text-align:center\"><img alt=\"\" height=\"164\" width=\"267\" src=\"media/29/2976977eb2745df64514.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/408465\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If for a language $\\text{L}$ is given that $\\text{L}^*=\\text{L},$&nbsp;what does not necessarily follow?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{L L = L}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\lambda \\in \\text{L}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{L}$ is infinite</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{L}$ is non-empty</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 14)</small></h4><a name=\"408464\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution, with Complete Analysis:&nbsp;</strong><a rel=\"nofollow\" href=\"https://youtu.be/ldychl4M6fE?t=4605\" target=\"_blank\">https://youtu.be/ldychl4M6fE?t=4605</a></p><p>If $\\text{L}=\\{\\lambda\\}$, then $\\text{L}^*=\\text{L}$. So the assumption that $\\text{L}^*=\\text{L}$ does not imply that $\\text{L}$ is infinite.<br><br>Statement $\\text{LL}=\\text{L}$ holds, because if $w \\in \\text{LL},$ then $w=w_1 w_2 \\in L^*=\\text{L}$, and if $w \\in \\text{L},$ then $w=w \\lambda \\in \\text{LL},$ because by definition $\\lambda \\in \\text{L}^*$ and hence $\\lambda \\in \\text{L}$.<br><br>Statement $\\lambda \\in \\text{L}$ holds, because by definition $\\lambda \\in \\text{L}^*,$ and hence $\\lambda \\in \\text{L}$.<br><br>Statement $\\text{L}$ is non-empty holds, because if $\\text{L}=\\emptyset$, then $\\text{L}^*=\\{\\lambda\\}$ which contradicts $\\text{L}^*=\\text{L}$.<br><br>Correct Answer: C</p></div></section></div><p><a href=\"https://gateoverflow.in/408463\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If for a language $\\text{L}$ is given that $\\text{L}^\\text{R}=\\text{L},$&nbsp;what does necessarily follow?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>if $w \\in \\text{L}^*$ then also $w^\\text{R} \\in \\text{L}^*$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>there is a $w \\in \\text{L}$ for which also $w^\\text{R} \\in \\text{L}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\lambda \\in \\text{L},$&nbsp;because $\\lambda^\\text{R}=\\lambda$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>there is a $w \\in \\text{L}$ with $w^\\text{R}=w$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 30)</small></h4><a name=\"408462\"></a><div itemprop=\"text\">Statement 'if $w \\in \\text{L}^*$ then also $w^\\text{R} \\in \\text{L}^*$' holds. Let $w \\in \\text{L}^*$. Then there exists $k \\in \\mathbb{N}$ such that $w=w_1 \\cdots w_k$ and $w_i \\in \\text{L}$ for $i \\in\\{1, \\ldots, k\\}$. Note that $w^\\text{R}=\\left(w_1 \\cdots w_k\\right)^\\text{R}=w_k^\\text{R} \\cdots w_1^\\text{R}$. However, because $\\text{L}^\\text{R}=\\text{L}$, we have that $w_i^\\text{R} \\in \\text{L}$ for $i \\in\\{1, \\ldots, k\\}$. Hence $w^\\text{R}=w_k^\\text{R} \\cdots w_1^\\text{R} \\in \\text{L}^*$.<br>\n<br>\nStatement 'there is a $w \\in \\text{L}$ for which also $w^\\text{R} \\in \\text{L}$ ' does not hold. Take $\\text{L}=\\emptyset$. Then $\\text{L}^\\text{R}=\\emptyset=\\text{L}$. However, there is no $w \\in \\text{L}$, so certainly no $w \\in \\text{L}$ for which $w^\\text{R} \\in \\text{L}$.<br>\n<br>\nStatement ' $\\lambda \\in \\text{L}$, because $\\lambda^\\text{R}=\\lambda$ ' does not hold. Take $\\text{L}=\\{a\\}$. Then $\\text{L}^\\text{R}=\\text{L}$, but $\\lambda \\notin \\text{L}$.<br>\n<br>\nStatement 'there is a $w \\in \\text{L}$ with $w^\\text{R}=w$ ' does not hold. Take $\\text{L}=$ $\\{a b, b a\\}$. Then $\\text{L}^\\text{R}=\\text{L}$, but $(a b)^\\text{R}=b a \\neq a b$ and $(b a)^\\text{R}=a b \\neq b a$.<br>\n<br>\nCorrect Answer: A</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"494334\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"668\" height=\"463\" src=\"media/45/4521679f0a66a0756732.png\"></p><p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"526694\"></a><div itemprop=\"text\"><p>Thought process while solving this question:-</p><p>All the examples given below will follow the alphabet set = {a,b}.</p><p>Given L is Language such that&nbsp;L<sup>R&nbsp;</sup>= L&nbsp;so while understanding the language&nbsp;</p><p>we can generate infinite as well as finite strings sets that follows this condition</p><p>i.e.&nbsp;L&nbsp;= {&nbsp;λ&nbsp;(follows w<sup>R</sup>=w),a,b,aa,bb,aaa,bbb,aba,aab,baa,abab,baba,………}</p><p>the language is created while keeping in mind about when we reverse the language all the strings will eventually make it the same language set again.</p><p>Observations:- to make a&nbsp;<strong>non-empty language</strong>&nbsp;set following this condition we can add palindromes freely into the set without worrying about anything, the moment we add non-palindromes into the set we have to intentionally add its reverse as well so that it can follow the trend of w<sup>R</sup>=w and eventually making the language&nbsp;L<sup>R&nbsp;</sup>= L.</p><p>a).&nbsp;For this option we won’t have to worry about the palindromes as taking the&nbsp;L<sup>*</sup>&nbsp;will not affect the palindromes as they already follow the w<sup>R</sup>=w template ,for non-palindromes they occur in pairs {w,w<sup>R</sup>} as we already observed while making the language. so If we have any w&nbsp;<strong>∈</strong>&nbsp;L*&nbsp;then w<sup>R&nbsp;</sup>∈&nbsp;L* whether the original language&nbsp;L&nbsp;is finite or infinite<strong>,&nbsp;True.</strong></p><p>b). <strong>Very sensitive option, </strong>we have to keep in mind about the boundaries cases such as whether we can create empty as well as non-empty languages with the given condition</p><p>Let’s see<strong> </strong>if L<strong>=</strong>φ&nbsp;will it follow the given condition?</p><p>Yes, it will so empty language too follows the given condition but&nbsp;there exist&nbsp;no witness string to satisfy the option condition hence no witness =<strong>False</strong>.</p><p>(for option a if we consider the empty language then the lack of witness will make the option a condition to be &nbsp;False -&gt; Anything = True, hence option a will still be <strong>true</strong>)</p><p>c).Very easy to create a finite counter example such as&nbsp;L={a,b} or&nbsp;L={aab,baa}...... and so on which will not even include the empty string hence this option is also&nbsp;<strong>False</strong>.</p><p>d).Very easy to create a counter example for this as well as we have already observed that without taking palindromes also we can create a language set which will follow the given condition like L={abab,baba} or L={abbb,bbba} and so on … as we can observe there is no witness following the option condition and still we can create the language hence this option is also&nbsp;<strong>False</strong>.</p></div></section></div><p><a href=\"https://gateoverflow.in/408461\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let be given a language $\\text{L}$. Which of the following languages is not necessarily equal to the others?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{L L}^*$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{L L}^* \\cup\\{\\lambda\\}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{L}^* \\text{L}^*$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{L}^*$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"408460\"></a><div itemprop=\"text\">Note that if $\\lambda \\notin \\text{L},$ then $\\text{L L}^*$ does not include $\\lambda$ and therefore $\\text{L L}^*$ is not necessarily equal to the other three languages.<br>\n<br>\nAlso note that $\\text{L L}^* = \\text{L}^+$.<br>\n<br>\n$\\text{L}^* = \\text{L}^0 + \\text{L}^ 1+ \\text{L}^2 + \\text{L}^3 + \\dots$<br>\n<br>\nSo, $\\text{L L}^* = \\text{L} (\\text{L}^0 + \\text{L}^ 1+ \\text{L}^2 + \\text{L}^3 + \\dots) = \\text{L}^ 1+ \\text{L}^2 + \\text{L}^3 + \\dots = \\text{L}^+$</div></section></div><p><a href=\"https://gateoverflow.in/408459\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following regular expressions describes a language different from the others?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(a \\cup b)^*$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left(a^* b^*\\right)^*$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left(b^* a^*\\right)^*$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\left(a^* \\cup b^*\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"408458\"></a><div itemprop=\"text\">Note that<br>\n$$<br>\n\\mathcal{L}\\left((a \\cup b)^*\\right)=\\mathcal{L}\\left(\\left(a^* b^*\\right)^*\\right)=\\mathcal{L}\\left(\\left(b^* a^*\\right)^*\\right)=\\{a, b\\}^*<br>\n$$<br>\nand that<br>\n$$<br>\n\\mathcal{L}\\left(a^* \\cup b^*\\right)=\\{a\\}^* \\cup\\{b\\}^*<br>\n$$<br>\nSo in particular $a b \\notin\\{a\\}^* \\cup\\{b\\}^*$, but $a b \\in\\{a, b\\}^*$.<br>\n<br>\nCorrect Answer: D</div></section></div><p><a href=\"https://gateoverflow.in/408457\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following regular expressions describes a language different from the others?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$a^* b^*$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(\\lambda \\cup a a)^*(\\lambda \\cup b b)^*$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(a \\cup a a)^*(b \\cup b b)^*$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(\\lambda \\cup a)^*(\\lambda \\cup b)^*$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"408456\"></a><div itemprop=\"text\">Note that<br>\n$$<br>\n\\mathcal{L}\\left(a^* b^*\\right)=\\mathcal{L}\\left((a \\cup a a)^*(b \\cup b b)^*\\right)=\\mathcal{L}\\left((\\lambda \\cup a)^*(\\lambda \\cup b)^*\\right)=\\left\\{a^n b^m \\mid n, m \\in \\mathbb{N}\\right\\}<br>\n$$<br>\nand that<br>\n$$<br>\n\\mathcal{L}\\left((\\lambda \\cup a a)^*(\\lambda \\cup b b)^*\\right)=\\left\\{a^{2 n} b^{2 m} \\mid n, m \\in \\mathbb{N}\\right\\}<br>\n$$<br>\nSo in particular $a b \\notin\\left\\{a^{2 n} b^{2 m} \\mid n, m \\in \\mathbb{N}\\right\\}$, but $a b \\in\\left\\{a^n b^m \\mid n, m \\in \\mathbb{N}\\right\\}$.<br>\n<br>\nCorrect Answer: B</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"413776\"></a><div itemprop=\"text\">Just check &nbsp;we can make $ab$ &nbsp;in every regular expression &nbsp;but can’t make it from $2^{nd}$ regular expression that’s why it is different from others.</div></section></div><p><a href=\"https://gateoverflow.in/408455\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 15,
+  "types": {
+   "MCQ": 8,
+   "MSQ": 5,
+   "NAT": 2
+  },
+  "withoutKey": 6
+ }
+}

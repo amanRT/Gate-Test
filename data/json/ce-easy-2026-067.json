@@ -1,0 +1,581 @@
+{
+ "v": 1,
+ "id": "ce-easy-2026-067",
+ "title": "Topicwise Test-7 Part Syllabus GATE 2026 CE Fluid Mechanics and Hydraulics - 1",
+ "sourceTitle": "Topicwise Test-7 Part Syllabus GATE 2026 CE Fluid Mechanics and Hydraulics - 1",
+ "branch": "CIVIL ENGINEERING",
+ "code": "CE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering",
+ "seriesId": "ce-easy-2026",
+ "num": 67,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + ESE 2026 Online Test Series - Civil Engineering • Questions: 17",
+  "package": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering"
+ },
+ "source": "CIVIL ENGINEERING/MADE EASY/GATE 2026 + ESE 2026 Online Test Series - Civil Engineering/082_Topicwise Test-7 Part Syllabus GATE 2026 CE Fluid Mechanics and Hydraulics - 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>If the shear stress at a point in the fluid is 0.2452 N/m<sup>2</sup> and velocity gradient at that point is 0.2 per second and the density of fluid is 981 kg/m<sup>3</sup> then the kinematic viscosity of the fluid will be _______stokes. (Round off to one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    13
+   ],
+   "answerText": "12.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12.5 (12 - 13)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1d/1d39ef241d7c9bd78bb2.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>The figure given below shows a tank full of water having width of tank normal to paper as 2 m. The ratio of the total pressure force on the bottom of the tank and the weight of water in the tank is ________. (Round off to nearest integer).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2d/2d2442b5541328cec5c3.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4 (4 - 4)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b9/b999b5800b12474215ef.png\" /></div>\n\n<div><img alt=\"\" src=\"media/82/829fff0cebf705b0aa41.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>Air is flowing over a smooth plate with a velocity of 10 m/s. The length of the plate is 1.2 m and width is 0.8 m. Laminar boundary layer exists upto a value of <em>R<sub>e</sub></em> = 2 × 10<sup>5</sup>. If the kinematic viscosity of air is 0.15 stokes then the maximum thickness of laminar boundary layer is _______mm.<br />\n(Round off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.2,
+    3.7
+   ],
+   "answerText": "3.35",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3.35 (3.2 - 3.7)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/07/074ef46d8009d951469c.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>The velocity distribution in the boundary layer over a flat plate, set parallel to the direction of an incompressible free stream, is given by the one sixth power law as</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3d/3d65f2418c12f4cf4911.png\" /></div>\n\n<div>If δ* denotes displacement thickness and θ denotes momentum thickness, then the ratio <img align=\"absmiddle\" alt=\"\" src=\"media/2a/2aa1172353871a379961.png\" /> will be ___. (Round off to two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.25,
+    1.4
+   ],
+   "answerText": "1.33",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.33 (1.25 - 1.40)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ed/edab49ef79e87fc056fb.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>Which of the following statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Head loss must be equal for pipes connected in parallel."
+    },
+    {
+     "key": "B",
+     "html": "Head lost due to friction must be equal to one-third of total head for maximum power transmission through a pipeline."
+    },
+    {
+     "key": "C",
+     "html": "Cavitation can be prevented by reducing the velocity head."
+    },
+    {
+     "key": "D",
+     "html": "When the flow contracts, it tends to become rotational due to increase in pressure."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)<br />\n&bull; Cavitation can be prevented by reducing the velocity head as pressure head increases.<br />\n&bull; When the flow contracts, it becomes rotational due to eddy formation and pressure decreases<br />\nafter contraction instead of increase.</p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>The capillary rise or depression in a small diameter tube is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "directly proportional to the specific weight of the fluid."
+    },
+    {
+     "key": "B",
+     "html": "inversely proportional to the diameter of tube."
+    },
+    {
+     "key": "C",
+     "html": "directly proportional to the surface tension of fluid."
+    },
+    {
+     "key": "D",
+     "html": "inversely proportional to the area of tube."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/78/78e405fb7b147d45afae.png\" /></div>\n\n<div><img alt=\"\" src=\"media/33/335f56797751b7016188.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>The pressure gradient in the direction of laminar flow between fixed parallel plates is equal to the</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "shear gradient parallel to the direction of flow."
+    },
+    {
+     "key": "B",
+     "html": "shear gradient normal to the direction of flow."
+    },
+    {
+     "key": "C",
+     "html": "velocity gradient parallel to the direction of flow."
+    },
+    {
+     "key": "D",
+     "html": "velocity gradient normal to the direction of flow."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9c/9cf12b428ba7394554d5.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider a steady uniform flow of water in a pipe of diameter 325 mm. If average velocity is 2 m/s and the friction factor is 0.024, then the boundary shear stress will be:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "6.4 N/m<sup>2</sup>"
+    },
+    {
+     "key": "B",
+     "html": "8.0 N/m<sup>2</sup>"
+    },
+    {
+     "key": "C",
+     "html": "16.8 N/m<sup>2</sup>"
+    },
+    {
+     "key": "D",
+     "html": "12.0 N/m<sup>2</sup>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/db/db57f86daed2ebebe3d6.png\" /></div>\n\n<div><img alt=\"\" src=\"media/2f/2fade592c1c8e977916f.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>Which of the following represents TEL (Total Energy Line) and HGL (Hydraulic Gradient Line) correctly?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" lign=\"absmiddle\" src=\"media/e5/e5185a1e09fca0d16ba7.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/94/943b5f531acc214081c3.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/bd/bd65c6a023e8be97032d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/11/11ceadd1f5fa25fa6f61.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/37/3745eb8052f60cb6b172.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>The relation between pressure and shear stress for one-dimensional laminar flow in <em>x</em>-direction is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/17/172dce9357aebd313106.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/9c/9c8a7ac012cc69a5ab54.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/15/1563cfd979b27d493cf8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/1d/1d6d165ee827fbb353f8.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A tank containing water is rotated with constant angular velocity, ω = 8 rad/s about a vertical axis situated at 0.1 m to the left from the centre. What will be the difference in levels of the water at walls of the container? (Take assume g = 10 m/s<sup>2</sup>).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/34/342bb39607e9917f81f8.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.5 m"
+    },
+    {
+     "key": "B",
+     "html": "0.64 m"
+    },
+    {
+     "key": "C",
+     "html": "0.82 m"
+    },
+    {
+     "key": "D",
+     "html": "1 m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/db/db3524e66cf7cb8201b2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>A differential manometer reading of Δ<em>h</em> is equivalent to the difference of</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "pressure heads between two points"
+    },
+    {
+     "key": "B",
+     "html": "total energy heads between two points"
+    },
+    {
+     "key": "C",
+     "html": "elevation heads between two points"
+    },
+    {
+     "key": "D",
+     "html": "piezometric heads between two points"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>The value of the local drag coefficient for Reynold’s number of 7 × 10<sup>5</sup> on a plate considering Blasius results for the given flow regime is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4 × 10<sup>–3</sup>"
+    },
+    {
+     "key": "B",
+     "html": "3.4 × 10<sup>–3</sup>"
+    },
+    {
+     "key": "C",
+     "html": "11.2 × 10<sup>–4</sup>"
+    },
+    {
+     "key": "D",
+     "html": "7 × 10<sup>–4</sup>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/71/7106151030038cb7a82a.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 5 cm diameter pipe is connected to a tank and discharges the fluid 2 m below the level of fluid in tank as shown in the figure. What should be the maximum length of pipe to maintain the velocity of fluid above 5 m/s? Assume friction factor = 0.01. Neglect the minor losses and take g = 10 m/s<sup>2</sup> .</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0e/0e3e6e36d081f70bbfb1.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.5 m"
+    },
+    {
+     "key": "B",
+     "html": "3 m"
+    },
+    {
+     "key": "C",
+     "html": "3.5 m"
+    },
+    {
+     "key": "D",
+     "html": "4 m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/55/55ff327020119c550910.png\" /></div>\n\n<div><img alt=\"\" src=\"media/97/975956d8b3b2615902a6.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The distance from the pipe wall at which the local velocity is equal to the average velocity for turbulent flow in pipes is given by <em>kR</em>, where <em>R</em> is the radius of the pipe. The value of <em>k</em> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.391"
+    },
+    {
+     "key": "B",
+     "html": "0.101"
+    },
+    {
+     "key": "C",
+     "html": "0.223"
+    },
+    {
+     "key": "D",
+     "html": "0.412"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/98/98b26de4bafe15fe57b7.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A tube of diameter 25 mm is used (as shown in the below figure) as a syphon to discharge water from a large open vessel into a drain at atmospheric pressure,<br />\nGiven: Atmospheric pressure = 101.325 kPa and ignore friction losses.<br />\n(Take g = 9.81 m/s<sup>2</sup>)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c1/c1dab3117759fa4c0160.png\" /></div>\n\n<div>Which of the following statement(s) is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Velocity of flow through syphon is 2.17 m/s"
+    },
+    {
+     "key": "B",
+     "html": "Discharge through the syphon is 1.065 lit/sec"
+    },
+    {
+     "key": "C",
+     "html": "The minimum pressure inside the syphon is 98 kN/m<sup>2</sup>"
+    },
+    {
+     "key": "D",
+     "html": "The minimum pressure inside the syphon is 9.8 bar."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d1/d142f497ed2c6ae6cdc6.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e629964f1119eb08c856.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A metal plate of aluminium 1.5 m × 1.5 m × 6 mm and weighing 150 N is placed mid way in the 24 mm gap between the two vertical plane surfaces and lifted upwards as shown in figure. The gap is filled with an oil of specific gravity 0.90 and dynamic viscosity 3 N-s/m<sup>2</sup>. For the data given above choose the correct statements. [Take g = 10 m/s<sup>2</sup>]</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/60/609709b4d1aaa53ba948.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Total force required to lift the plate with a constant velocity of 0.20 m/s is 300 N"
+    },
+    {
+     "key": "B",
+     "html": "Buoyant force on the plate is 121.5 N."
+    },
+    {
+     "key": "C",
+     "html": "Effective weight of plate is 28.5 N."
+    },
+    {
+     "key": "D",
+     "html": "Total force required to lift the plate with a constant velocity of 0.20 m/s is 328.5 N."
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/20/201437eb4cb7e329fb72.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 4,
+   "MSQ": 4,
+   "MCQ": 9
+  },
+  "withoutKey": 0
+ }
+}

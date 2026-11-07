@@ -1,0 +1,547 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-074",
+ "title": "DVRUO Classes CS | Discrete Mathematics | Relations, Lattice & Poset | Weekly Quiz 11",
+ "sourceTitle": "DVRUO Classes CS | Discrete Mathematics | Relations, Lattice & Poset | Weekly Quiz 11",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 74,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/098_exam_889_GO Classes CS Discrete Mathematics Relations, Lattice & Poset Weekly Quiz 11.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Complements are unique in a complemented lattice.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There are no totally ordered Boolean lattices with eight elements.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There are no Boolean lattices with six elements.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There is a Boolean lattice with eight elements.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"427059\"></a><div itemprop=\"text\">( A ) : A lattice is a complemented lattice iff every element have \"atleast\" one complement.<br>\n<br>\n( B ) : Boolean lattices are complemented and distributive. Total orders with more than 2 elements cannot be complemented because elements other than \"least\" and \"greatest\" will not be having complements.<br>\n<br>\n( C ) : Since boolean lattices are distributive, every element can have atmost 1 complement ( It is a property ). Boolean lattices are complemented so every element have atleast 1 complement. From this we can conclude that elements of boolean lattices have exactly 1 complement. Lattice with 6 elements will have 3 pairs of elements which are complements to each other. One pair is (0,1) of lattice. Try to place remaining 2 pairs, we cant create a boolean lattice. <br>\n<br>\n( Bonus : A boolean lattice will be isomorphic to a power set lattice with subset operation, so there won't be such a lattice with 6 elements since 6 is not a power of 2. Remember that power set lattice consists of all subsets of a set so cardinality will be some powers of 2 )<br>\n<br>\n( D ) : It exists. Eg: ( power set of { 1,2,3 } , subset operation )</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"427045\"></a><div itemprop=\"text\"><p><strong>Option A, B:</strong> Detailed Video Solution:</p><p><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=th55It9GvoM&amp;t=6144s\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a></p><p><strong>Option C, D:</strong> Detailed Video Solution:</p><p><a rel=\"nofollow\" href=\"https://youtu.be/th55It9GvoM?feature=shared&amp;t=1582\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a></p></div></section></div><p><a href=\"https://gateoverflow.in/427000\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Any elements $\\mathrm{x}, \\mathrm{y}$ in a poset can be compared: either $\\mathrm{x} \\leq \\mathrm{y}$ or $\\mathrm{y} \\leq \\mathrm{x}$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A lattice with eight elements is a boolean lattice.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $\\mathrm{M}$ is the maximum of a set $\\mathrm{S}$, then $\\mathrm{M}$ is a maximal element.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Every total order is an equivalence relation.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"427047\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/mp-78-WKs04\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a></p><p><strong>Option B</strong> is false. See here:&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/th55It9GvoM?feature=shared&amp;t=2336\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"427061\"></a><div itemprop=\"text\">( A ) : If every element is comparable, it is a special type of poset called a toset.<br>\n<br>\n( B ) : Not necessarily. Counter example : A toset with 8 elements is a lattice but not a boolean lattice.<br>\n<br>\n( C ) : Every maximum element is a maximal element, but not vice versa.<br>\n<br>\n( D ) : If number of elements in a total order is more than 1, it cannot be symmetric because of anti- symmetric propoerty of poset. So not all tosets are equivalence relations.</div></section></div><p><a href=\"https://gateoverflow.in/426999\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\mathrm{X}$ be a finite set with 5 elements. The number of total orders on $\\mathrm{X}$ is ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"426998\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=mp-78-WKs04&amp;t=318s\" target=\"_blank\">Detailed Video Explanation with Complete Analysis (Click HERE)</a>&nbsp;</p><p>Let $\\mathrm{X}$ be a finite set with $\\mathrm{n}$ elements. Then there is a one-to-one correspondence between the total orders on $\\mathrm{X}$ and the permutation of $\\mathrm{X}$. Therefore, the number of total orders on $\\mathrm{X}$ is $\\mathrm{n!}$.<br><br>A set $\\mathrm{X}$ on which a partial order relation $\\leq$ is defined is called a partially ordered set (poset). If $\\mathrm{R}$ is a relation on $\\mathrm{X}$, then $\\mathrm{x}$ and $\\mathrm{y}$ are comparable if xRy or $y R x$; otherwise, they are incomparable. If every pair of a partial order $\\mathrm{R}$ on set $\\mathrm{X}$ is comparable, then $\\mathrm{R}$ is said to be a total ordering or a total order. Example. ( $\\mathrm{R}, \\leq$ ) is a total order, whereas $(\\mathrm{N}, \\mid)$ is not.</p></div></section></div><p><a href=\"https://gateoverflow.in/426997\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" width=\"360\" height=\"257\" src=\"media/45/45232b6af3cd838c59e5.png\"><br>Find the number of complements for the element 'a'.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>2</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>5</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"427063\"></a><div itemprop=\"text\">Only complement of \"a\" is \"i\". ( a ^ i = j &nbsp;and a v i = f )</div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"434501\"></a><div itemprop=\"text\">Complement of an element a is b if ....... a v b =1(Greatest).....and .....a ^b =0(least).......<br>\n<br>\nSo in the Given Question &nbsp;there is only 1 element that is i &nbsp;for which ......a v i=f.....and a ^ i=j......<br>\n<br>\nSo the correct answer is 1.</div></section></div><p><a href=\"https://gateoverflow.in/426996\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $L$ be a lattice. Then for every $a$ and $b$ in $L$ which one of the following is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$a\\lor b = a\\land \\:b$<br>&nbsp;&nbsp;&nbsp;&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$a\\lor(b\\lor c)=(a\\lor b)\\lor c$<br>&nbsp;&nbsp;&nbsp;&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$a\\lor(b\\land \\:c)=a$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$a\\lor(b\\lor c)=b$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"471824\"></a><div itemprop=\"text\"><p><strong>Answer: B</strong><br>Every lattice satisfies the following laws</p><ol><li><p><strong>Commutativity</strong></p>a∨b=b∨a<br>a∧b=b∧a</li><li><p><strong>Associativity</strong></p>a∨(b∨c)=(a∨b)∨c<br>a∧(b∧c)=(a∧b)∧c</li><li><p><strong>Idempotency</strong></p>a∨a=a<br>a∧a=a</li><li><p><strong>Absorption</strong></p>a∨(a∧b)=a<br>a∧(a∨b)=a</li></ol></div></section></div><p><a href=\"https://gateoverflow.in/426995\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose ( $A, \\leq$ ) is a poset such that every nonempty subset of A has a least element. Which of the following is/are necessarily true for $(\\mathrm{A}, \\leq)$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\leq$ is a total ordering on $A.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(A, \\leq)$ is a lattice.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There exists a greatest element in ( $\\mathrm{A}, \\leq$ ).</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(\\mathrm{A}, \\leq)$ is a distributive lattice.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"426994\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=mp-78-WKs04&amp;t=1423s\" target=\"_blank\">https://www.youtube.com/watch?v=mp-78-WKs04&amp;t=1423s</a></p><p>If ( $A, \\leq$ ) is a poset such that every nonempty subset of $A$ has a least element, then $\\leq$ is a total ordering on $\\mathrm{A}$.<br><br>Proof: Take ANY two elements x,y in A. Since every nonempty subset of A has a least element, So, $\\{\\mathrm{x}, \\mathrm{y}\\}$ also has a least element. Assume $\\mathrm{x}$ is the least element in $\\{x, y\\}$ then $x R y$, So, $x, y$ are comparable.<br><br>Hence, every pair of elements are comparable, and so, $\\leq$ is a total ordering on A.<br><br>Every total order is a distributive lattice.<br><br>Counter Example for Option C:<br><br>$(\\mathrm{N},&lt;=)$; It has the least element for every non-empty subset, But doesn't have a greatest element.</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"467790\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"796\" height=\"838\" src=\"media/e9/e97badccbfc3909cd24e.jpg\"></p><p><strong>Option A, B, D</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/426993\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose $(A, \\leq)$ is a finite nonempty poset. Which of the following is/are true $?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A has a minimal element.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A has a maximal element.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A has a minimum element.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A has a maximum element.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"426992\"></a><div itemprop=\"text\"><p><strong>Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=g0utoFh0yQQ\\&amp;t=1164s\" target=\"_blank\">Video Explanation (Click HERE)</a></p></div></section></div><p><a href=\"https://gateoverflow.in/426991\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $(\\mathrm{A}, \\leq)$ be a lattice. Which of the following properties necessarily hold true for any $\\mathrm{x}, \\mathrm{y}, \\mathrm{z} \\in \\mathrm{A}$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x \\wedge y \\leq\\{x, y\\} \\leq x \\vee y$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x \\leq y$ if and only if $x \\wedge y=x$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x \\leq y$ if and only if $x \\vee y=y$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x \\wedge(y \\vee z)=(x \\wedge y) \\vee(x \\wedge z)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"426990\"></a><div itemprop=\"text\"><p><strong>Video Solution with Proof:</strong></p><p><a rel=\"nofollow\" href=\"https://youtu.be/rOEEEuWUqzE\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a></p><p>NOTE that Option D is the distributive property which holds only for distributive lattices, not for every lattice.&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"480402\"></a><div itemprop=\"text\"><p>Option A:&nbsp; x∧y ≤ {x,y} ≤ x∨y</p><ul><li>x∧y ≤ x and&nbsp;x∧y ≤ y means it<code>x∧y</code>&nbsp;is defined as the <b>Greatest Lower Bound</b> of, <code>x</code> and <code>y.&nbsp;</code>for it to be a <i>lower bound</i> at all, it must precede&nbsp;both <code>x</code> <code>y</code>in the partial order.</li></ul><div>&nbsp;</div><ul><li>x&nbsp;≤&nbsp;x∨y and y&nbsp;≤&nbsp;x∨y&nbsp;is defined as the <b>Least Upper Bound</b> of <code>x</code> and <code>y</code>. For it to be an <i>upper bound</i> at all, x and y must be related to (≤)&nbsp;it.</li></ul><div>&nbsp;</div><div>Option B: x ≤ y&nbsp;if and only if&nbsp;x∧y=x</div><ul><li>If <code>x ≤ y</code>, then, <code>x</code> is a lower bound for the set <code>{x, y}</code>. Since it&nbsp;<code>x ∧ y</code> is the <i>greatest</i> lower bound, it&nbsp;<code>x</code> must be equal to it.</li></ul><div>&nbsp;</div><div>Option C:&nbsp;x ≤ y&nbsp;if and only if&nbsp;x∨y=y</div><ul><li>If <code>x ≤ y</code>, then, <code>y</code> is an upper bound for the set <code>{x, y}</code>. Since it&nbsp;<code>x ∨ y</code> is the <i>least</i> upper bound, it&nbsp;<code>y</code> must be equal to it.</li></ul><div>&nbsp;</div><div>Option D:&nbsp;This is the <b>distributive property</b>. While it's a familiar rule from regular algebra, it <b>does not hold true for all lattices</b>.</div></div></section></div><p><a href=\"https://gateoverflow.in/426989\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $(\\mathrm{A}, \\leq)$ be a lattice. Which of the following properties necessarily hold true for any $\\mathrm{x}, \\mathrm{y}, \\mathrm{z} \\in \\mathrm{A}$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x \\wedge y=y \\wedge x$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(x \\vee y) \\vee z=x \\vee(y \\vee z)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x \\wedge(x \\vee y)=x$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x \\wedge(y \\vee z)=(x \\wedge y) \\vee(x \\wedge z)$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"426988\"></a><div itemprop=\"text\"><p><strong>Video Solution with Proof:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=3jdrEC2tEiE\\&amp;t=4955s\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"471825\"></a><div itemprop=\"text\"><p><strong>Answer: A,B,C</strong><br>Every lattice satisfies the following laws</p><ol><li><p><strong>Commutativity</strong></p>a∨b=b∨a<br>a∧b=b∧a</li><li><p><strong>Associativity</strong></p>a∨(b∨c)=(a∨b)∨c<br>a∧(b∧c)=(a∧b)∧c</li><li><p><strong>Idempotency</strong></p>a∨a=a<br>a∧a=a</li><li><p><strong>Absorption</strong></p>a∨(a∧b)=a<br>a∧(a∨b)=a</li></ol></div></section></div><p><a href=\"https://gateoverflow.in/426987\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a Boolean lattice, if $b \\wedge \\bar{c}=0$, then</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{b} \\leq \\mathrm{c}$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$c \\leq b$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>b,c are incomparable.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{b}=\\mathrm{c}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"432863\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"449\" height=\"482\" src=\"media/63/633717e8fd1aa93cd19f.jpg\"></p><p>This is the standard Boolean lattice where $c^{-1}=b$ and $b^{-1}=c$ and $b∧c⪯$ {b,c} $⪯ b∨c$</p><p>As given,&nbsp; $b∧c^{-1} =0$ (Here 0 is the least element ) $⇒$&nbsp;$b∧c^{-1} =b∧c$</p><p>$⇒$ $b∧b =b∧c $&nbsp; &nbsp; &nbsp; &nbsp;$(c^{-1}=b)$</p><p>$⇒$$ b =b∧c $&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$(b∧b=b)$</p><p>$⇒$ {$b∧c= b$} $⪯ c$&nbsp;</p><p><strong>Answer (A)</strong></p></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"426986\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/mp-78-WKs04\" target=\"_blank\">Detailed Video Explanation (Click HERE)</a>&nbsp;</p><p>Join this equation's expression with \"c\" on both sides.<br><br>We get: $\\mathrm{b} \\vee \\mathrm{c}=\\mathrm{c}$; which imply $\\mathrm{b} \\leq \\mathrm{c}$.</p></div></section><section><h4>Source solution 3 <small>(score: 4)</small></h4><a name=\"467789\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"420\" height=\"204\" src=\"media/b0/b0c25ab690929601f7ad.jpg\"></p><p>Option (A)</p></div></section></div><p><a href=\"https://gateoverflow.in/426985\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a lattice ( $\\mathrm{A}, \\leq$ ), an element \" $\\mathrm{u}$ \" is called the dominator for join operation iff $\\mathrm{x} \\vee \\mathrm{u}=\\mathrm{u}$, for all $\\mathrm{x} \\in \\mathrm{A}$.<br>In a lattice $(\\mathrm{A}, \\leq)$, an element \" $\\mathrm{g}$ \" is called the dominator for meet operation iff $x \\wedge g=g$, for all $x \\in A$.<br>A lattice is said to satisfy Domination Law iff there exists a dominator for join operation &amp; meet operation.<br>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A lattice satisfies domination law if and only if it is a bounded lattice.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A lattice satisfies domination law if and only if it is a complemented lattice.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>In any lattice, the dominator for join operation is the greatest element.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>In any lattice, the dominator for meet operation is the greatest element.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"426984\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution</strong> (<strong>MUST WATCH</strong>):&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=HBAZEv2Lj00\" target=\"_blank\">https://www.youtube.com/watch?v=HBAZEv2Lj00 </a><br><br>A lattice satisfies domination law if and only if it is a bounded lattice.<br><br>A lattice satisfies identity property if and only if it is a bounded lattice.<br><br><strong>Watch the following as well:</strong></p><p><strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=3jdrEC2tEiE&amp;t=6751s\" target=\"_blank\">https://www.youtube.com/watch?v=3jdrEC2tEiE&amp;t=6751s </a></strong></p></div></section></div><p><a href=\"https://gateoverflow.in/426983\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a lattice $(A, \\leq)$, an element \" $u$ \" is called the identity for join operation iff $x \\vee u=x$, for all $x \\in A$.<br>In a lattice $(A, \\leq)$, an element \" $g$ \" is called the identity for meet operation iff $\\mathrm{x} \\wedge \\mathrm{g}=\\mathrm{x}$, for all $\\mathrm{x} \\in \\mathrm{A}$.<br>A lattice is said to satisfy Identity Property iff there exists an identity element for join operation &amp; meet operation.<br>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A lattice satisfies Identity Property if and only if it is a bounded lattice.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A lattice satisfies Identity Property if and only if it is a complemented lattice.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>In any lattice, the identity element for join operation is the greatest element.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>In any lattice, the identity element for meet operation is the greatest element.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"426982\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=HBAZEv2Lj00\" target=\"_blank\">Detailed Video Explanation</a><br><br>A lattice satisfies identity property if and only if it is a bounded lattice.<br><br>Watch the following as well:</p><p><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=3jdrEC2tEiE\\&amp;t=6751s\" target=\"_blank\">Bounded Lattice &amp; Identity Property in Lattices (Click HERE)</a></p></div></section></div><p><a href=\"https://gateoverflow.in/426981\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following hasse diagram represents a POSET (A,R), where $R$ is a partial order relation on set A.<br>The number of ordered pairs in the partial ordering $\\mathrm{R}$ with the following Hasse diagram is ?? (i.e. Find the cardinality of R)</p><p><br><img alt=\"\" width=\"351\" height=\"323\" src=\"media/46/46328473eb8f7a2d1025.png\"></p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"426980\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/ShiJXnRgz20?feature=shared\\&amp;t=3744\" target=\"_blank\">Detailed Video Solution with Complete Analysis</a></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"443150\"></a><div itemprop=\"text\"><p>The number of ordered pairs in the given Hasse diagram can be calculated as follows:</p><ol><li><p><strong>Reflexive pairs</strong>: Every element is related to itself, so we have 7 pairs:<br>(a,a),(b,b),(c,c),(d,d),(e,e),(f,f),(g,g)&nbsp;</p></li><li><p><strong>Direct relations</strong>: Based on the diagram, there are 6 direct relations:<br>a ≤ b, a ≤ c, a ≤ g, g ≤ d, g ≤ e, g ≤ f&nbsp;&nbsp;</p></li><li><p><strong>Transitive relations</strong>: Using transitivity, we get 9 additional pairs:<br>a ≤ d, a ≤ e, a ≤ f, b ≤ d, b ≤ e, b ≤ f, c ≤ d, c ≤ e, c ≤ f&nbsp;&nbsp;</p></li></ol><p>Total number of ordered pairs = <strong>7 (reflexive) + 6 (direct) + 9 (transitive) = 22 pairs</strong>.</p></div></section></div><p><a href=\"https://gateoverflow.in/426979\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{T}$ be a relation defined on $\\mathrm{Z}$ by $\\mathrm{xTy}$ if and only if $|\\mathrm{x}|&lt;|\\mathrm{y}|$ or $\\mathrm{x}=\\mathrm{y}$. Which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$T$ is Not a partial order relation.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{T}$ is a partial order relation, but not total order relation.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{T}$ is a total order relation.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{T}$ is an equivalence relation.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"426978\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/mp-78-WKs04\" target=\"_blank\">Detailed Video Solution with Complete Analysis</a>&nbsp;</p><p>Note that $3,-3$ are incomparable, So, $\\mathrm{T}$ is not a total ordering.</p></div></section></div><p><a href=\"https://gateoverflow.in/426977\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which one of the following relations is a total order?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Let $A=\\{a, b, c, d\\}$ and let $R$ be the relation<br>$ R=\\{(a, a),(b, b)(c, c),(d, d),(c, a),(a, d),(c, d),(b, c),(b, d),(b, a)\\} $</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A=\\{2,3,4\\}$ ordered by the relation $R$ on $A$ defined as follows:<br>$\\forall a, b \\in A, a R b \\longleftrightarrow(5 \\bmod a)=(6 \\bmod b)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The set $A=\\{12,24,48,3,9\\}$ ordered by the divides relation.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"427049\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=mp-78-WKs04&amp;t=3574s\" target=\"_blank\">Detailed Video Explanation with Complete Analysis (Click HERE)</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/426976\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 6,
+  "types": {
+   "MCQ": 7,
+   "NAT": 2,
+   "MSQ": 6
+  },
+  "withoutKey": 11
+ }
+}

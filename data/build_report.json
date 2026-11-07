@@ -1,0 +1,3501 @@
+{
+ "counters": {
+  "img_inline": 41590,
+  "media_dedup_hits": 74081,
+  "nat_range_widened": 2060,
+  "papers": 1061,
+  "questions": 34339,
+  "img_external": 32491,
+  "questions_without_key": 1158,
+  "zeal_marks_known": 180,
+  "zeal_marks_solved": 1975,
+  "zeal_marks_approx": 3730,
+  "nat_floor_cap_range": 22,
+  "gate_sections_inferred": 1,
+  "source_issue_options_missing": 4,
+  "source_issue_key_outside_options": 3,
+  "source_issue_empty_question": 10,
+  "nat_accepted_range": 635
+ },
+ "elapsedSec": 114.2,
+ "nat_solution_range_inconsistent": {
+  "count": 11,
+  "items": [
+   [
+    "CIVIL ENGINEERING/MADE EASY/GATE 2026 + ESE 2026 Online Test Series - Civil Engineering/002_Advance Level Test-2 Full Syllabus GATE 2026 CE.html",
+    61,
+    [
+     0.186,
+     0.186
+    ],
+    [
+     0.186,
+     -0.2,
+     0.16
+    ]
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/001_Advance Level Test-1 Full Syllabus GATE 2025 CS.html",
+    44,
+    [
+     1.95,
+     1.99
+    ],
+    [
+     1.99,
+     1.95,
+     1.98
+    ]
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/035_Subjectwise Test-3 Part Syllabus GATE 2025 CS Computer Organization and Architecture.html",
+    9,
+    [
+     163.7,
+     163.9
+    ],
+    [
+     163.9,
+     163.1,
+     163.7
+    ]
+   ],
+   [
+    "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/069_Topicwise Test-5 Part Syllabus GATE 2026 DA Probability and Statistics-1.html",
+    5,
+    [
+     0.36,
+     0.36
+    ],
+    [
+     0.36,
+     0.367,
+     0.37
+    ]
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/040_Subjectwise Test-4 Part Syllabus GATE 2026 EE Power Systems.html",
+    4,
+    [
+     15.53,
+     15.53
+    ],
+    [
+     15.53,
+     14.0,
+     15.0
+    ]
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/013_Basic Level Test-3 Full Syllabus GATE 2025 EE.html",
+    30,
+    [
+     -0.95,
+     -0.105
+    ],
+    [
+     -1.0,
+     -0.95,
+     -0.105
+    ]
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/065_Topicwise Test-16 Part Syllabus GATE 2025 EE Power Electronics-2.html",
+    12,
+    [
+     214,
+     215
+    ],
+    [
+     215.66,
+     214.0,
+     215.0
+    ]
+   ],
+   [
+    "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/005_Advance Level Test-3 Full Syllabus GATE 2025 EC.html",
+    46,
+    [
+     0.02,
+     0.03
+    ],
+    [
+     0.226,
+     0.02,
+     0.03
+    ]
+   ],
+   [
+    "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/063_Topicwise Test-15 Part Syllabus GATE 2025 EC Analog circuit-3.html",
+    6,
+    [
+     0.28,
+     0.34
+    ],
+    [
+     2.0,
+     0.28,
+     0.34
+    ]
+   ],
+   [
+    "MECHANICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Mechanical_Engineering/024_Mock Level Test-4 Full Syllabus GATE 2025 ME.html",
+    25,
+    [
+     33,
+     33
+    ],
+    [
+     33.025,
+     33.0,
+     33.0
+    ]
+   ],
+   [
+    "MECHANICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Mechanical_Engineering/028_Subjectwise Test-10 Part Syllabus GATE 2025 ME IC Engine, Power Plant, Refrigeration & Air.html",
+    27,
+    [
+     2400,
+     2420
+    ],
+    [
+     2713.37,
+     2400.0,
+     2420.0
+    ]
+   ]
+  ]
+ },
+ "nat_range_repaired_from_solution": {
+  "count": 6,
+  "items": [
+   [
+    "CIVIL ENGINEERING/MADE EASY/GATE 2026 + ESE 2026 Online Test Series - Civil Engineering/006_Basic Level Test-2 Full Syllabus GATE 2026 CE.html",
+    61,
+    [
+     848.45,
+     848.45
+    ],
+    [
+     848,
+     849
+    ]
+   ],
+   [
+    "CIVIL ENGINEERING/MADE EASY/GATE 2026 + ESE 2026 Online Test Series - Civil Engineering/053_Subjectwise Test-2 Part Syllabus GATE 2026 CE Concrete Structures.html",
+    32,
+    [
+     5961,
+     5961
+    ],
+    [
+     5900,
+     6000
+    ]
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/021_EE - DEMO TEST.html",
+    57,
+    [
+     -1,
+     1.009
+    ],
+    [
+     -1.0095,
+     -1.0085
+    ]
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/089_Topicwise Test-5 Part Syllabus GATE 2025 EE Electrical Machines-1.html",
+    10,
+    [
+     2585,
+     2585
+    ],
+    [
+     2584,
+     2586
+    ]
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/081_Topicwise Test-23 Part Syllabus GATE 2025 EE Electromagnetic Fields-1.html",
+    11,
+    [
+     -0.08,
+     0.04
+    ],
+    [
+     -0.08,
+     -0.04
+    ]
+   ],
+   [
+    "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/004_Advance Level Test-2 Full Syllabus GATE 2026 EC.html",
+    53,
+    [
+     27.8,
+     27.8
+    ],
+    [
+     26,
+     28.5
+    ]
+   ]
+  ]
+ },
+ "nat_range_fixed": {
+  "count": 2,
+  "items": [
+   [
+    "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/001_Advance Level Test-1 Full Syllabus GATE 2025 CS.html",
+    12,
+    [
+     0.571,
+     579.0
+    ],
+    [
+     0.571,
+     0.579
+    ]
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/047_GATE 2027-Topicwise Test-7 (Power Systems -1).html",
+    14,
+    [
+     0.74,
+     770.0
+    ],
+    [
+     0.74,
+     0.77
+    ]
+   ]
+  ]
+ },
+ "unknown_qtype_B": {
+  "count": 1,
+  "items": [
+   [
+    "COMPUTER SCIENCE ENGINEERING/GATE ZEAL/GATE - 2025/Test_ID_-_55_Round_1_OS_Test_-_1_-_2025.html",
+    22,
+    "integer"
+   ]
+  ]
+ },
+ "no_correct_option": {
+  "count": 841,
+  "items": [
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/013_exam_2464_GO Classes CS-DA Test Series Aptitude Test 2.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/013_exam_2464_GO Classes CS-DA Test Series Aptitude Test 2.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/013_exam_2464_GO Classes CS-DA Test Series Aptitude Test 2.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/013_exam_2464_GO Classes CS-DA Test Series Aptitude Test 2.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/013_exam_2464_GO Classes CS-DA Test Series Aptitude Test 2.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/013_exam_2464_GO Classes CS-DA Test Series Aptitude Test 2.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/013_exam_2464_GO Classes CS-DA Test Series Aptitude Test 2.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/010_exam_2471_GO Classes CS-DA Test Series Aptitude Test 3.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/009_exam_2472_GO Classes CS-DA Test Series Aptitude Test 4.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/008_exam_2473_GO Classes CS-DA Test Series Aptitude Test 5.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/007_exam_2474_GO Classes CS-DA Test Series Aptitude Test 6.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/006_exam_2475_GO Classes CS-DA Test Series Aptitude Test 7.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/005_exam_2476_GO Classes CS-DA Test Series Aptitude Test 8.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/004_exam_2477_GO Classes CS-DA Test Series Aptitude Test 9.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/003_exam_2483_GO Classes CS-DA Test Series Aptitude Test 10.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/060_exam_1378_GO Classes CS Test Series Computer Networks Topic Wise Test 4.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/034_exam_2386_GO Classes DA Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/049_exam_1389_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/049_exam_1389_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 1.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/033_exam_2387_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 2.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/033_exam_2387_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 2.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/033_exam_2387_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 2.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/033_exam_2387_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 2.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/033_exam_2387_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 2.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/033_exam_2387_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 2.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/033_exam_2387_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 2.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/048_exam_1390_GO Classes Test Series Data Structure and Algorithms Topic Wise Test 2.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/048_exam_1390_GO Classes Test Series Data Structure and Algorithms Topic Wise Test 2.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/048_exam_1390_GO Classes Test Series Data Structure and Algorithms Topic Wise Test 2.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    18
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    20
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    22
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    24
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    25
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    28
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    30
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/080_exam_1353_GO Classes CS Test Series Databases Topic Wise Test 5.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    16
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    18
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    21
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    22
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    23
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    25
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    27
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    29
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    30
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/105_exam_1320_GO Classes Test Series Discrete Mathematics Topic Wise Test 5.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/105_exam_1320_GO Classes Test Series Discrete Mathematics Topic Wise Test 5.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/105_exam_1320_GO Classes Test Series Discrete Mathematics Topic Wise Test 5.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    18
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    19
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/104_exam_1322_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 1.html",
+    20
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    19
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/028_exam_2443_GO Classes CS Test Series Mock GATE Test 6.html",
+    57
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/025_exam_2446_GO Classes CS Test Series Mock GATE Test 9.html",
+    50
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/022_exam_2449_GO Classes CS Test Series Mock GATE Test 12.html",
+    35
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/020_exam_2451_GO Classes CS Test Series Mock GATE Test 14.html",
+    62
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/070_exam_1367_GO Classes CS Test Series Theory of Computation Topic Wise Test 1.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/070_exam_1367_GO Classes CS Test Series Theory of Computation Topic Wise Test 1.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/066_exam_1371_GO Classes CS Test Series Theory of Computation Topic Wise Test 5.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/066_exam_1371_GO Classes CS Test Series Theory of Computation Topic Wise Test 5.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/066_exam_1371_GO Classes CS Test Series Theory of Computation Topic Wise Test 5.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/029_exam_2400_GO Classes CS Test Series Theory of Computation Topic Wise Test 6.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/033_exam_1222_GO Classes CS-DA Algorithms Shortest Paths Weekly Quiz 3.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/084_exam_962_GO Classes GATE CS C-Programming Number representation & Integer promotion Weekly Quiz 1Popular.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/083_exam_964_GO Classes GATE CS C-Programming Functions, Storage classes & Loops Weekly Quiz 2Popular.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/082_exam_968_GO Classes GATE CS C-Programming Pointers, Storage classes & Recursion Weekly Quiz 3.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/082_exam_968_GO Classes GATE CS C-Programming Pointers, Storage classes & Recursion Weekly Quiz 3.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/081_exam_969_GO Classes GATE CS C-Programming Structures, Pointers & Storage Classes Weekly Quiz 4.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/081_exam_969_GO Classes GATE CS C-Programming Structures, Pointers & Storage Classes Weekly Quiz 4.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/081_exam_969_GO Classes GATE CS C-Programming Structures, Pointers & Storage Classes Weekly Quiz 4.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/081_exam_969_GO Classes GATE CS C-Programming Structures, Pointers & Storage Classes Weekly Quiz 4.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    16
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    18
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    22
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    24
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    25
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    16
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    17
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/058_exam_1029_GO Classes GATE CS Calculus Weekly Quiz 2.html",
+    18
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    16
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    18
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    19
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    8
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    7
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    5
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    3
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    11
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    12
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    1
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    2
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    4
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    6
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    9
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    13
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    14
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    15
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    10
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    14
+   ]
+  ]
+ },
+ "nat_without_answer": {
+  "count": 297,
+  "items": [
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/032_exam_2388_GO Classes Test Series 2026 Data Structures and Algorithms Topic Wise Test 3.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/047_exam_1391_GO Classes Test Series Data Structures and Algorithms Topic Wise Test 3.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    17,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    19,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    21,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    26,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    27,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+    29,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/082_exam_1351_GO Classes CS-DA Test Series Databases Topic Wise Test 3.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/081_exam_1352_GO Classes CS-DA Test Series Databases Topic Wise Test 4.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/102_exam_1327_GO Classes CS Test Series Discrete Mathematics Subject Wise Test 1.html",
+    17,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/107_exam_1318_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 3.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/105_exam_1320_GO Classes Test Series Discrete Mathematics Topic Wise Test 5.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/105_exam_1320_GO Classes Test Series Discrete Mathematics Topic Wise Test 5.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/105_exam_1320_GO Classes Test Series Discrete Mathematics Topic Wise Test 5.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/103_exam_1323_GO Classes CS&DA Test Series Linear Algebra Topic Wise Test 2.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/043_exam_1416_GO Classes CS Test Series Mock GATE Test 1.html",
+    36,
+    "D"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/019_exam_2453_GO Classes CS Test Series Mock GATE Test 15.html",
+    56,
+    "a;b;c:d"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/070_exam_1367_GO Classes CS Test Series Theory of Computation Topic Wise Test 1.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/070_exam_1367_GO Classes CS Test Series Theory of Computation Topic Wise Test 1.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/034_exam_1221_GO Classes CS-DA Algorithms DFS BFS Algorithms Weekly Quiz 2.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    17,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    19,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    21,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    27,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/085_exam_960_GO Classes GATE CS-DA Calculus Weekly Quiz 1.html",
+    30,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/056_exam_1036_GO Classes GATE CS Calculus Weekly Quiz 3.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/022_exam_2391_GO Classes GATE CS CO and Architecture Addressing Modes Weekly Quiz 1.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/020_exam_2396_GO Classes GATE CS CO and Architecture Instruction Set Architecture Weekly Quiz 2.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/041_exam_1205_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 3.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/040_exam_1206_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 4.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/039_exam_1211_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 5.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/038_exam_1212_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 6.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/021_exam_2394_GO Classes GATE CS CO and Architecture Pipelining Weekly Quiz 8.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/002_exam_2469_GO Classes GATE CS CO and Architecture IO Interfacing Weekly Quiz 9.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/001_exam_2484_GO Classes CS CO and Architecture Floating Point Rep & Booth's Algo Weekly Quiz 10.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/001_exam_2484_GO Classes CS CO and Architecture Floating Point Rep & Booth's Algo Weekly Quiz 10.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/001_exam_2484_GO Classes CS CO and Architecture Floating Point Rep & Booth's Algo Weekly Quiz 10.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/001_exam_2484_GO Classes CS CO and Architecture Floating Point Rep & Booth's Algo Weekly Quiz 10.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/027_exam_1246_GO Classes CS Compiler Design Lexical Analysis Weekly Quiz 1.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/027_exam_1246_GO Classes CS Compiler Design Lexical Analysis Weekly Quiz 1.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/027_exam_1246_GO Classes CS Compiler Design Lexical Analysis Weekly Quiz 1.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/014_exam_2409_GO Classes GATE CS Compiler Design Bottom Up Parsing Weekly Quiz 3.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/017_exam_2405_GO Classes GATE CS Compiler Design Syntax Directed Translation & SDD Weekly Quiz 4.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/017_exam_2405_GO Classes GATE CS Compiler Design Syntax Directed Translation & SDD Weekly Quiz 4.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/017_exam_2405_GO Classes GATE CS Compiler Design Syntax Directed Translation & SDD Weekly Quiz 4.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/015_exam_2408_GO Classes GATE CS Compiler Design Intermediate Code Generation and Optimization Weekly Quiz 5.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/015_exam_2408_GO Classes GATE CS Compiler Design Intermediate Code Generation and Optimization Weekly Quiz 5.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/015_exam_2408_GO Classes GATE CS Compiler Design Intermediate Code Generation and Optimization Weekly Quiz 5.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/015_exam_2408_GO Classes GATE CS Compiler Design Intermediate Code Generation and Optimization Weekly Quiz 5.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/074_exam_986_GO Classes GATE CS Computer Networks Subnetting Weekly Quiz 2.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/052_exam_1060_GO Classes GATE CS Computer Networks Flow control Weekly Quiz 4.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/051_exam_1064_GO Classes GATE CS Computer Networks Network layer Weekly Quiz 5.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/037_exam_1215_GO Classes GATE CS Computer Networks TCP Protocol Weekly Quiz 6.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/037_exam_1215_GO Classes GATE CS Computer Networks TCP Protocol Weekly Quiz 6.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/036_exam_1216_GO Classes GATE CS Computer Networks Complete Computer Networks Weekly Quiz 7.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/036_exam_1216_GO Classes GATE CS Computer Networks Complete Computer Networks Weekly Quiz 7.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/043_exam_1114_GO Classes CS-DA DS Complete Data structure Syllabus Weekly Quiz 4.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/079_exam_975_GO Classes GATE CS-DA DBMS Functional Dependency Weekly Quiz 2Popular.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/078_exam_976_GO Classes GATE CS-DA DBMS Normalization, Relational Model Weekly Quiz 3.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/065_exam_997_GO Classes GATE CS-DA DBMS Normalization Weekly Quiz 6.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/065_exam_997_GO Classes GATE CS-DA DBMS Normalization Weekly Quiz 6.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/065_exam_997_GO Classes GATE CS-DA DBMS Normalization Weekly Quiz 6.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/065_exam_997_GO Classes GATE CS-DA DBMS Normalization Weekly Quiz 6.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/065_exam_997_GO Classes GATE CS-DA DBMS Normalization Weekly Quiz 6.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/067_exam_995_GO Classes GATE CS-DA DBMS SQL Weekly Quiz 10.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/067_exam_995_GO Classes GATE CS-DA DBMS SQL Weekly Quiz 10.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/067_exam_995_GO Classes GATE CS-DA DBMS SQL Weekly Quiz 10.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/066_exam_996_GO Classes GATE CS-DA DBMS SQL Weekly Quiz 11.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/009_exam_2421_GO Classes GATE CS-DA DBMS Indexing Weekly Quiz 14.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/009_exam_2421_GO Classes GATE CS-DA DBMS Indexing Weekly Quiz 14.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/009_exam_2421_GO Classes GATE CS-DA DBMS Indexing Weekly Quiz 14.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/008_exam_2423_GO Classes GATE CS-DA DBMS B Tree and B+ Tree Weekly Quiz 15.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/005_exam_2436_GO Classes GATE CS DBMS Transaction and Concurrency Weekly Quiz 16.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/005_exam_2436_GO Classes GATE CS DBMS Transaction and Concurrency Weekly Quiz 16.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/005_exam_2436_GO Classes GATE CS DBMS Transaction and Concurrency Weekly Quiz 16.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/005_exam_2436_GO Classes GATE CS DBMS Transaction and Concurrency Weekly Quiz 16.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/005_exam_2436_GO Classes GATE CS DBMS Transaction and Concurrency Weekly Quiz 16.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/007_exam_2426_GO Classes GATE CS-DA DBMS ER Model Weekly Quiz 17.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/007_exam_2426_GO Classes GATE CS-DA DBMS ER Model Weekly Quiz 17.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/089_exam_953_GO Classes Digital Logic Boolean Algebra, Minimization, Number System Weekly Quiz 5.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/048_exam_1105_GO Classes GATE CS Digital Logic Number System Weekly Quiz 6.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/048_exam_1105_GO Classes GATE CS Digital Logic Number System Weekly Quiz 6.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/048_exam_1105_GO Classes GATE CS Digital Logic Number System Weekly Quiz 6.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/047_exam_1107_GO Classes GATE CS Digital Logic Number System Weekly Quiz 7.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/047_exam_1107_GO Classes GATE CS Digital Logic Number System Weekly Quiz 7.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/086_exam_959_GO Classes CS Digital Logic Combinational Circuits Weekly Quiz 12.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/086_exam_959_GO Classes CS Digital Logic Combinational Circuits Weekly Quiz 12.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/086_exam_959_GO Classes CS Digital Logic Combinational Circuits Weekly Quiz 12.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/055_exam_1045_GO Classes CS Digital Logic K-map Weekly Quiz 13.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/055_exam_1045_GO Classes CS Digital Logic K-map Weekly Quiz 13.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/055_exam_1045_GO Classes CS Digital Logic K-map Weekly Quiz 13.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/101_exam_886_GO Classes CS Discrete Mathematics Set theory Weekly Quiz 9.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/098_exam_889_GO Classes CS Discrete Mathematics Relations, Lattice & Poset Weekly Quiz 11.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/098_exam_889_GO Classes CS Discrete Mathematics Relations, Lattice & Poset Weekly Quiz 11.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/100_exam_887_GO Classes CS Discrete Mathematics Functions Weekly Quiz 12.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/103_exam_476_GO Classes GATE CS Discrete Mathematics Group Theory Weekly Quiz 13.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/103_exam_476_GO Classes GATE CS Discrete Mathematics Group Theory Weekly Quiz 13.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/096_exam_909_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 15.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/095_exam_924_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 16.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/094_exam_931_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 17.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/016_exam_2406_GO Classes GATE CS Discrete Mathematics Combinatorics Weekly Quiz 18.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    4,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    12,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/023_exam_2368_GO Classes CS Discrete Mathematics Graph Theory Weekly Quiz 19.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/061_exam_1021_GO Classes CS-DA Linear Algebra Rank, System of equation.html",
+    3,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/061_exam_1021_GO Classes CS-DA Linear Algebra Rank, System of equation.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/061_exam_1021_GO Classes CS-DA Linear Algebra Rank, System of equation.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/062_exam_1017_GO Classes CS-DA Linear Algebra Weekly Quiz 5.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/062_exam_1017_GO Classes CS-DA Linear Algebra Weekly Quiz 5.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/068_exam_992_GO Classes GATE CS Operating System Process Synchronization Weekly Quiz 1.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/031_exam_1237_GO Classes GATE CS Operating System Multi Level Paging Weekly Quiz 2.html",
+    8,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    1,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    15,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    16,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/093_exam_948_GO Classes CS-DA Probability Distributions Weekly Quiz 2.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/093_exam_948_GO Classes CS-DA Probability Distributions Weekly Quiz 2.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/104_exam_467_GO Classes GATE CS Relations Weekly Quiz 2 Equivalence Relation.html",
+    7,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/104_exam_467_GO Classes GATE CS Relations Weekly Quiz 2 Equivalence Relation.html",
+    11,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/104_exam_467_GO Classes GATE CS Relations Weekly Quiz 2 Equivalence Relation.html",
+    14,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/072_exam_988_GO Classes GATE CS Theory of Computation Finite Automata and Regular Expression Weekly Quiz 2.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/072_exam_988_GO Classes GATE CS Theory of Computation Finite Automata and Regular Expression Weekly Quiz 2.html",
+    10,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/071_exam_989_GO Classes GATE CS Theory of Computation Finite Automata and Regular Expression Weekly Quiz 3.html",
+    5,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/071_exam_989_GO Classes GATE CS Theory of Computation Finite Automata and Regular Expression Weekly Quiz 3.html",
+    6,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/071_exam_989_GO Classes GATE CS Theory of Computation Finite Automata and Regular Expression Weekly Quiz 3.html",
+    13,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/013_exam_2410_GO Classes GATE CS Theory of Computation Closure Properties Weekly Quiz 9.html",
+    9,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/004_exam_2452_GO Classes GATE CS Theory of Computation Pumping Lemma Weekly Quiz 12.html",
+    2,
+    ""
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/004_exam_2452_GO Classes GATE CS Theory of Computation Pumping Lemma Weekly Quiz 12.html",
+    3,
+    ""
+   ],
+   [
+    "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/024_GATE 2027-Full Syllabus Test -3 (Basic Level).html",
+    10
+   ]
+  ]
+ },
+ "unresolvable_src": {
+  "count": 24,
+  "items": [
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    "denied:blob:https://gateoverflow.in/818fd40c-5c9f-46bd-a01b-a675e15f8b8e"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+    "denied:There arehttps://cdn.corenexis.com/view/?img=d/jl4/scET0m.jpg five people of different heights. In how many ways can they stand in a line, so there are no  3  consecutive people with increasing"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    "denied:blob:https://gateoverflow.in/3229530a-ba11-443f-83cc-527be51270bc"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/035_exam_1219_GO Classes CS-DA Algorithms Sorting Algorithms Weekly Quiz 1.html",
+    "denied:blob:https://gateoverflow.in/6f273dbc-9567-4525-ad8b-ea72f43d7042"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/083_exam_964_GO Classes GATE CS C-Programming Functions, Storage classes & Loops Weekly Quiz 2Popular.html",
+    "denied:blob:https://gateoverflow.in/9e863ec4-2df4-4cdc-94dc-7e4dbe157119"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/083_exam_964_GO Classes GATE CS C-Programming Functions, Storage classes & Loops Weekly Quiz 2Popular.html",
+    "denied:blob:https://gateoverflow.in/44d9acd1-816c-4179-9ae0-7c15654b6a3c"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/083_exam_964_GO Classes GATE CS C-Programming Functions, Storage classes & Loops Weekly Quiz 2Popular.html",
+    "denied:blob:https://gateoverflow.in/afd01229-960d-4f24-aba6-3280c3512a4f"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/083_exam_964_GO Classes GATE CS C-Programming Functions, Storage classes & Loops Weekly Quiz 2Popular.html",
+    "denied:blob:https://gateoverflow.in/a7150906-c2d0-4b0b-82ac-66bf5910973b"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/017_exam_2405_GO Classes GATE CS Compiler Design Syntax Directed Translation & SDD Weekly Quiz 4.html",
+    "denied:blob:https://gateoverflow.in/0a7c27bb-70ed-4304-a611-2c0c9e2d85ce"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/074_exam_986_GO Classes GATE CS Computer Networks Subnetting Weekly Quiz 2.html",
+    "denied:blob:https://gateoverflow.in/15571f80-bede-409b-b3f0-3cad2da2636d"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/074_exam_986_GO Classes GATE CS Computer Networks Subnetting Weekly Quiz 2.html",
+    "denied:blob:https://gateoverflow.in/2f2cb37e-dfc5-488c-b9d1-408c230a943f"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/074_exam_986_GO Classes GATE CS Computer Networks Subnetting Weekly Quiz 2.html",
+    "denied:blob:https://gateoverflow.in/dedd92a3-be47-4819-928c-fbebcf3c8416"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/074_exam_986_GO Classes GATE CS Computer Networks Subnetting Weekly Quiz 2.html",
+    "denied:blob:https://gateoverflow.in/1912809a-5a52-4dc7-8f01-952cc19ba4b8"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/074_exam_986_GO Classes GATE CS Computer Networks Subnetting Weekly Quiz 2.html",
+    "https://Password@1009gateoverflow.in/?qa=blob&amp;qa_blobid=8205620616292688852"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/051_exam_1064_GO Classes GATE CS Computer Networks Network layer Weekly Quiz 5.html",
+    "denied:blob:https://gateoverflow.in/09f71d8d-0cb4-446d-9de1-796474fd51d6"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/005_exam_2436_GO Classes GATE CS DBMS Transaction and Concurrency Weekly Quiz 16.html",
+    "denied:blob:https://gemini.google.com/792a42e5-5c94-4e34-806f-c9f5c38c963f"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/089_exam_953_GO Classes Digital Logic Boolean Algebra, Minimization, Number System Weekly Quiz 5.html",
+    "denied:blob:https://web.whatsapp.com/5b12a29b-4473-4415-9d16-fb54384bd616"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/062_exam_1017_GO Classes CS-DA Linear Algebra Weekly Quiz 5.html",
+    "file:///C:/Users/acer/AppData/Local/Microsoft/Windows/Clipboard/HistoryData/%7B63141F40-1ABE-48B7-9F3D-0C253D7BE393%7D/%7B8848C664-A89B-4AD6-BB91-FEEB7748FE0A%7D/ResourceMap/%7B3D7EF118-4C61-4F99-9474"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    "denied:blob:https://gateoverflow.in/6e3735e0-6ba2-4c84-a1d3-bc5296acd989"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    "denied:blob:https://gateoverflow.in/257ebd24-e822-4c0e-93d2-eb8ec2384cc6"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    "denied:blob:https://gateoverflow.in/4a5638dc-d72b-4de1-b661-6e5a231d36c4"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    "denied:blob:https://gateoverflow.in/333b5801-fef0-49f8-90cc-a9a195f54016"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+    "denied:blob:https://gateoverflow.in/1bbb8dca-acc0-48c3-a17c-94181c0b0cfa"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/019_exam_2403_GO Classes GATE CS Theory of Computation Identify Class Language Weekly Quiz 8.html",
+    "denied:blob:https://web.whatsapp.com/e97853b5-7414-4498-b1d4-2bcb7556b970"
+   ]
+  ]
+ },
+ "missing_media": {
+  "count": 4,
+  "items": [
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/082_exam_968_GO Classes GATE CS C-Programming Pointers, Storage classes & Recursion Weekly Quiz 3.html",
+    "ext_media/media.discordapp.net/attachments/1486042666037674097/1509820808715829279/20260529_125817.jpg__q_ex_6a1a91b3_is_6a194033_hm_da47a2231da53f287383f223e62454499"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/082_exam_968_GO Classes GATE CS C-Programming Pointers, Storage classes & Recursion Weekly Quiz 3.html",
+    "ext_media/media.discordapp.net/attachments/1486042666037674097/1509991399670419687/20260530_001608.jpg__q_ex_6a1b3093_is_6a19df13_hm_5253b05ba4329c7e1df030bef73ce03a8"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/081_exam_969_GO Classes GATE CS C-Programming Structures, Pointers & Storage Classes Weekly Quiz 4.html",
+    "ext_media/media.discordapp.net/attachments/1486042666037674097/1509588233976156282/20260528_213214.jpg__q_ex_6a19b919_is_6a186799_hm_f4f291f415a591de7316ada7636678c44"
+   ],
+   [
+    "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/069_exam_991_GO Classes GATE CS Theory of Computation FA, CFL, DCFL Weekly Quiz 5.html",
+    "ext_media/ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/d741901d23b4522588e267177c77d10d_MIT18_404f20_lec2.pdf"
+   ]
+  ]
+ }
+}

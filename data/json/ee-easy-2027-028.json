@@ -1,0 +1,541 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-028",
+ "title": "GATE 2027-Topicwise Test-7 (Power Systems -1)",
+ "sourceTitle": "GATE 2027-Topicwise Test-7 (Power Systems -1)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 28,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/047_GATE 2027-Topicwise Test-7 (Power Systems -1).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Five synchronous generators are connected in parallel as shown in below figure. The rating of&nbsp;each generator is 22 kV, 20 MVA, 0.5 pu reactance. If fault occurs at location &lsquo;<em>P</em>&rsquo;, then current&nbsp;carried by shown circuit breaker CB when fault occurs at point &lsquo;<em>P</em>&rsquo; will be ______ pu.</p>\n<p><img src=\"media/e6/e6731805b642d1ab26e8.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/82/821e77bf35732ec906c6.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/1f/1f217952c8590230eda0.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/56/56f526bb84fceb2cbc20.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/0d/0d84909f5e69fb7908f2.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/88/8831e35048d8b14040d1.png\"></p>\n<p><img src=\"media/a6/a660199af3f7ba87e4f5.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A lead sheath power cable is graded by using three dielectrics of &epsilon;<sub><em>r</em></sub> = 5, 4, 3 respectively, the&nbsp;conductor diameter is 2 cm and overall diameter cable is 8 cm. It all the dielectric are assumed&nbsp;working at same maximum electrical stress of 40 kV/cm, the safe working rms voltage of cable&nbsp;will be _________ kV. (Answer upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    57.5,
+    58.5
+   ],
+   "answerText": "57.5 - 58.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/c3/c38f1f08a4c8b808099c.png\"></p>\n<p><img src=\"media/f1/f16f1bfafa00f767648a.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Two generators <em>G</em><sub>1</sub> and <em>G</em><sub>2</sub> rated as 200 MW and 400 MW respectively, are operating in parallel.&nbsp;The droop characteristics of their governors are 4% and 5% respectively from no load to full&nbsp;load. At no load the generators are operating at a system frequency of 50 Hz. If total load of&nbsp;600 MW is being shared by the generators, then power generation in <em>G</em><sub>1</sub> and <em>G</em><sub>2</sub> are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>266.67 MW, 333.33 MW</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>300 MW, 300 MW</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>231 MW, 369 MW</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>150 MW, 450 MW</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/5c/5cdc510b5d886dd0ad2a.png\"></p>\n<p><img src=\"media/23/23a1ee2d38e653eb48c1.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The total susceptance and total reactance of a lossless overhead EHV line, operating at 50 Hz are&nbsp;given by 1.4 p.u. and 0.025 p.u. respectively. The approximate length of the line is<br>(The velocity of wave propagation is 3 &times; 10<sup>5</sup> km/s)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>146.4 km</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>178.6 km</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>162.6 km</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>152.1 km</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/16/164d80f2501375e60bc6.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/c8/c844bbda5ccb855daa3f.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/f9/f9fe2acbaa29963554eb.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/f1/f1bc23435a5092e4dab1.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/66/660ac2f97e508afefa69.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/ee/eea16364e5851f9218e7.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/79/797d36c910c2ba142efe.png\"></p>\n<p><img src=\"media/b0/b044ad0f271eef1708af.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A 11 kV, 3-phase, 50 Hz underground line, 7 km long uses three single core cables. Each cable has&nbsp;a core diameter 2.5 cm and the radial thickness of insulation is 1 cm. The relative permittivity of&nbsp;the dielectric is 3.5. The maximum electrostatic stress is _______ MV/m.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.05,
+    1.4
+   ],
+   "answerText": "1.05 - 1.4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/56/565dc02b5c9cabd5f9f2.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>In the system shown below consider the grid as infinite bus choose 6 MVA as base,</p>\n<p><img src=\"media/1b/1b00ea357ab7f7b8a65f.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    44,
+    44.5
+   ],
+   "answerText": "44 - 44.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/fb/fb6d2410fea5c246cea5.png\"></p>\n<p><img src=\"media/22/225729114f90cf6e439d.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A certain 3-phase equilateral transmission line has a total corona loss of 53 kW at 106 kV and a&nbsp;loss of 98 kW at 110.9 kV the disruptive critical voltage is _______ kV.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    54,
+    54
+   ],
+   "answerText": "54",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/3b/3b14e28aed6e6b7dfb40.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A ring distributor system is supplied through a feeder <em>EA </em>as shown in the figure,</p>\n<p><img src=\"media/64/64fcf63ef603fb0f63bc.png\"></p>\n<p>the point of minimum potential.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><em>B</em></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><em>C</em></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><em>D</em></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8f/8f2d888cd9a1648ee7ff.png\"></p>\n<p><img src=\"media/2c/2ce89e0ad70da5db0271.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/18/1863b447c1b3ae375066.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.04</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.03</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.02</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.05</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/5e/5e210cb54bf967e147ef.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A string insulator has 4 units. The voltage across the bottom most unit is 30% of the total voltage.&nbsp;Its string efficiency is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>50%</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>75%</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>83.33%</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>95.50%</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/4e/4ede90157052c5e0ee78.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A 200 kV transmission line has the following line constants <em>A </em>= 0.85&ang;5&deg;, <em>B </em>= 100&ang;75&deg; the voltage&nbsp;profile at each end is to be maintained at 220 kV, the power received at unity power factor for&nbsp;satisfying the above condition is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>224.237 W</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>260.20 W</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>280.40 W</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>294.20 W</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/74/743b55785e4f79f54931.png\"></p>\n<p><img src=\"media/e4/e4b033d0dedf13c5bd88.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A 3-core, 3-phase, 50 Hz, 11 kV cable whose conductors are denoted as <em>A</em>, <em>B </em>and <em>C </em>in the figure.&nbsp;The effective capacitance of each core to be earthed neutral is _______ &mu;F.</p>\n<p><img src=\"media/3b/3bc8be0baa8b5db8db20.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    20,
+    20
+   ],
+   "answerText": "20",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/24/24fb1692adb5a5fc43b0.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>A 500 kV, 300 km, 50 Hz, lossless transmission line has a series inductance of 0.97 mH/km and a&nbsp;shunt capacitance of 0.0115 &mu;F/km per phase. The sending end power factor when the receiving&nbsp;end is connected to a 800 MW load at 0.8 power factor lagging is ______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.74,
+    0.77
+   ],
+   "answerText": "0.74 - 770",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/c3/c30e7cd1b3cd52c71174.png\"></p>\n<p><img src=\"media/3a/3a30122b180548edd545.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A single phase line composed of four equal strands as shown in below figure. The radius of each&nbsp;subconductor is 0.5 cm. The capacitance between two conductors for 100 km is</p>\n<p><img src=\"media/04/041756bb80716f4f8593.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.00899 &mu;F</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.0045 &mu;F</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.0179 &mu;F</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.012 &mu;F</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/0a/0a27b8a8a54b22fbdcac.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>For a typical long transmission lines the characteristic impedance is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>inductive in nature along with resistive component.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>capacitive in nature along with resistive component</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>resistive in nature</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>can be either inductive, capacitive or resistive depending on the length of transmission line.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/6c/6c74e2259b60675e6f1f.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>In a 220 kV transmission lines suspended by a string of insulators the maximum voltage that may&nbsp;be possible across the string of insulators due to switching surges is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>179.6 kV</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>254.04 kV</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>359.26 kV</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>103.69 kV</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/df/df3f5ee9952b4e5bebc8.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 6
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,534 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-031",
+ "title": "DVRUO Classes GATE CS | Computer Networks | Flow control | Weekly Quiz 4",
+ "sourceTitle": "DVRUO Classes GATE CS | Computer Networks | Flow control | Weekly Quiz 4",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 31,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2160,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Computer Networks"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/052_exam_1060_GO Classes GATE CS Computer Networks Flow control Weekly Quiz 4.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a Go-Back-N (GBN) protocol, the sender uses a window size of $4$ and sequence numbers range from $0$ to $1023$ (modulo $1024$). Suppose the sender had transmitted packets with sequence numbers $500,501,502$, and $503$ , and $500$ was the base of the sender's window. After a while, the sender receives an ACK for packet $500$.<br><br>Assume:</p><ul><li>The ACK is cumulative.</li><li>No other ACKs have been received.</li><li>No timeouts have occurred yet.</li></ul><p><br>Which of the following statements is/are correct?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The sender can now send packet $504$ immediately.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The sender must retransmit packet $500$, since no ACK for $501$ has been received.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The new sender window is [$501, 504$], and packets $501-503$ can be retransmitted if timeout occurs.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The base of the sender window remains unchanged until ACKs for all packets $500-503$ are received.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"500952\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Based on the principles of the <b>Go-Back-N (GBN)</b> protocol, the correct statements are <b>A and C</b>.</p><p data-path-to-node=\"1\">Here is the step-by-step breakdown of the logic:</p><h3 data-path-to-node=\"2\">1. Initial State</h3><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b>Window Size ($N$):</b> 4</p></li><li><p data-path-to-node=\"3,1,0\"><b>Transmitted Packets:</b> $500, 501, 502, 503$</p></li><li><p data-path-to-node=\"3,2,0\"><b>Sender Window:</b> The window covers the sequence numbers of packets that have been sent but not yet acknowledged. Since $500$ is the base, the window is <b>$[500, 501, 502, 503]$</b>.</p></li><li><p data-path-to-node=\"3,3,0\"><b>Window Capacity:</b> The window is currently \"full\" (4 packets sent, 4 is the window size). The sender cannot send any new packets until the window slides.</p></li></ul><h3 data-path-to-node=\"4\">2. The Event: \"Receives an ACK for packet 500\"</h3><p data-path-to-node=\"5\">In the Go-Back-N protocol, acknowledgments are <b>cumulative</b>.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\">Receiving an \"ACK for packet 500\" means that packet $500$ has been successfully received and processed by the receiver.</p></li><li><p data-path-to-node=\"6,1,0\">This acknowledgment allows the sender to mark packet $500$ as \"done\" and slide the window forward.</p></li></ul><h3 data-path-to-node=\"7\">3. The New State (After Sliding the Window)</h3><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b>Slide:</b> The window slides one position to the right because the oldest packet ($500$) is acknowledged.</p></li><li><p data-path-to-node=\"8,1,0\"><b>New Base:</b> The new base becomes the next unacknowledged packet, which is <b>$501$</b>.</p></li><li><p data-path-to-node=\"8,2,0\"><b>New Window Range:</b> $[501, 501 + 4 - 1]$ = <b>$[501, 504]$</b>.</p></li><li><p data-path-to-node=\"8,3,0\"><b>Packet Status:</b></p><ul data-path-to-node=\"8,3,1\"><li><p data-path-to-node=\"8,3,1,0,0\"><b>$501, 502, 503$:</b> These were already sent in the previous step and are now the \"outstanding\" packets inside the new window.</p></li><li><p data-path-to-node=\"8,3,1,1,0\"><b>$504$:</b> This sequence number has just entered the window. It has <b>not</b> been sent yet.</p></li></ul></li></ul><h3 data-path-to-node=\"9\">4. Evaluating the Options</h3><ul data-path-to-node=\"10\"><li><p data-path-to-node=\"10,0,0\"><b>A. The sender can now send packet 504 immediately.</b></p><ul data-path-to-node=\"10,0,1\"><li><p data-path-to-node=\"10,0,1,0,0\"><b>CORRECT.</b> Since the window slid to include $504$, and $504$ has not been transmitted yet, the sender is allowed to send it immediately.</p></li></ul></li><li><p data-path-to-node=\"10,1,0\"><b>B. The sender must retransmit packet 500, since no ACK for 501 has been received.</b></p><ul data-path-to-node=\"10,1,1\"><li><p data-path-to-node=\"10,1,1,0,0\"><b>INCORRECT.</b> Packet $500$ was acknowledged. There is no need to retransmit it. The absence of an ACK for $501$ just means $501$ is still pending; it does not trigger a retransmission of previous successful packets.</p></li></ul></li><li><p data-path-to-node=\"10,2,0\"><b>C. The new sender window is $[501, 504]$, and packets $501 - 503$ can be retransmitted if timeout occurs.</b></p><ul data-path-to-node=\"10,2,1\"><li><p data-path-to-node=\"10,2,1,0,0\"><b>CORRECT.</b></p><ul data-path-to-node=\"10,2,1,0,1\"><li><p data-path-to-node=\"10,2,1,0,1,0,0\">The window is indeed $[501, 504]$.</p></li><li><p data-path-to-node=\"10,2,1,0,1,1,0\">In Go-Back-N, if a timeout occurs for the base packet (now $501$), the sender must retransmit <b>all</b> packets in the current window that have already been sent. Currently, those packets are $501, 502,$ and $503$.</p></li></ul></li></ul></li><li><p data-path-to-node=\"10,3,0\"><b>D. The base of the sender window remains unchanged until ACKs for all packets $500 - 503$ are received.</b></p><ul data-path-to-node=\"10,3,1\"><li><p data-path-to-node=\"10,3,1,0,0\"><b>INCORRECT.</b> This describes a logic closer to a \"Selective Repeat\" variation or a misunderstanding of cumulative ACKs. In GBN, the window slides immediately as soon as the base packet ($500$) is acknowledged. It does not wait for the entire batch to clear.</p></li></ul></li></ul><h3 data-path-to-node=\"11\">Final Answer:</h3><p data-path-to-node=\"12\">The correct statements are <b>A and C</b>.</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"488378\"></a><div itemprop=\"text\"><p><em><strong>What happens after ACK(500)?</strong></em><br>--------------------------------<br>- New base = 501</p><p>- New window = [501, 502, 503, 504]</p><p>- Outstanding packets = 501, 502, 503 (not yet acked)</p><p>- One slot is free → sender *<strong>can</strong>* send 504 immediately</p><p>- ✅ <strong>This makes Option (1) true.</strong></p><p><em><strong>Timeout behavior in GBN</strong></em><br>--------------------------------<br>- Timeout is always tied to the oldest unacked packet (the base).</p><p>- When base times out, **all outstanding packets (sent but unacked) starting from base** are retransmitted.</p><p>- Current base = 501 → if 501’s timer expires, retransmission starts from 501 onward.</p><p><strong>Two cases for packet 504</strong><br>--------------------------------<br>1. **504 is sent before timeout occurs**</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Outstanding = {501, 502, 503, 504}</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - On timeout of 501 → retransmit {501, 502, 503, 504}</p><p>2. **504 is not sent before timeout occurs**</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Outstanding = {501, 502, 503}</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- On timeout of 501 → retransmit {501, 502, 503}<br><br><strong>Because of the word \"can\" in the option A we are considering case 2 for option (c).</strong><br>&nbsp;</p><h3><strong>I too made a mistake and only marked option (A) only&nbsp; 😅, but no worries — I learned something new. Hope this clears your doubt 🍀.</strong></h3></div></section></div><p><a href=\"https://gateoverflow.in/479317\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A sender using the Go-Back-N protocol has a current window of size $4$ , which includes the sequence numbers $100,101,102$, and $103$ . The sender has sent packets $100$ and $101$ so far.<br><br>Which of the following statements <strong>must be true</strong>?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Packet $100$ has been sent and acknowledged.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Packet $103$ is outside the window and cannot be sent yet.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If packet $102$ is sent, then packet $101$ must have already been sent.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If packet $102$ has not been sent, then packet $101$ must not have been sent either.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"479314\"></a><div itemprop=\"text\"><p><strong>Explanation:</strong><br>Go-Back-N requires that packets be sent in-order. So if packet $102$ is sent, all earlier packets ($100$ and $101$) must have been sent before it. However, the reverse is not necessarily true-just because $102$ is not sent doesn't mean $101$ wasn't sent.<br><br><br><strong>Option A: False.</strong><br>If $p_{k}$ were acknowledged, the sender's window would have moved forward. Since $p_{k}$ is still the first packet in the window, it means it has been sent but not yet acknowledged.<br><br><strong>Option B: False.</strong><br>$p_{k+3}$ is within the sender's window, so it is usable. However, the statement \"not sent\" is not necessarily true - the sender may or may not have sent it. So this option does not must be true.<br><br><strong>Option C: True.</strong><br>In Go-Back-N, packets are sent in order. Therefore, if $p_{k+2}$ is sent, it implies that $p_{k+1}$ must have already been sent.<br><br><strong>Option D: False.</strong><br>Even if $p_{k+2}$ has not been sent, it is still possible that $p_{k+1}$ has been sent. There is no strict dependency in this direction.</p></div></section></div><p><a href=\"https://gateoverflow.in/479313\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Two hosts $A$ and $B$ are 2000 km apart and are connected using a direct link. The propagation speed on the link is $2.5 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$. Host $A$ is sending packets of size $\\mathbf{1 0 0}$ bytes to host $B$ over this link. If the transmission rate of the link is $R$ bits per second, how much time does it take to transmit one packet?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{100}{R}$ seconds<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{100 \\times 8}{R}$ seconds<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{2000 \\times 10^{3}}{2.5 \\times 10^{8}}$ seconds<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{R}{100 \\times 8}$ seconds</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"479307\"></a><div itemprop=\"text\"><p>The correct Answer is Option B</p><p><strong>Explaination:</strong></p><p>Transmission time $=\\frac{\\text { Packet size }(\\text { in bits })}{\\text { Transmission rate }}=\\frac{100 \\times 8}{R}$</p></div></section></div><p><a href=\"https://gateoverflow.in/479306\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a sliding window protocol, the sender and receiver both use a window size of $N=5$. The sequence number space ranges from $0$ to $15$ . At a certain time, the sender's window includes the sequence numbers $0$ to $4$ , and the receiver's window includes the sequence numbers $2$ to $6$ . Which of the following best describes the current state?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The sender has received ACKs for packets $0$ and $1$ , and has sent packets $2$ to $4$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The receiver is expecting packet $0$ , as it has not received any packets yet.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The sender has sent packets $0$ to $4$ , and packets $0$ and $1$ have been acknowledged.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The receiver has received packets $0$ to $2$ , and is waiting for $3$ to $7$ .</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"480191\"></a><div itemprop=\"text\"><p>&nbsp;</p><p>Solution as per the position of the windows given.&nbsp;<br><em><span style=\"text-decoration: line-through;\"><img alt=\"\" width=\"1200\" height=\"732\" src=\"media/a3/a38e1758dc6f27ecbd09.jpg\"></span></em></p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"483157\"></a><div itemprop=\"text\"><p>&nbsp;</p><ul><li>The sender’s window is \\([0,1,2,3,4]\\). This means packets \\(0\\) and \\(1\\) have already been acknowledged, otherwise the sender’s window would have started earlier. Hence, the sender has sent packets \\(0\\) to \\(4\\), and ACKs for \\(0\\) and \\(1\\) are received. &nbsp;<br>&nbsp;</li><li>The receiver’s window is \\([2,3,4,5,6]\\). This indicates that it has already received packets \\(0\\) and \\(1\\), and is now expecting packet \\(2\\) as the next in-order packet. &nbsp;</li></ul><p>Thus, the correct description is that the sender has sent packets \\(0\\) to \\(4\\), and packets \\(0\\) and \\(1\\) have been acknowledged. &nbsp;</p><p>\\[<br>\\boxed{\\text{Option C}}<br>\\]</p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"500953\"></a><div itemprop=\"text\"><p data-path-to-node=\"8\"><b>Answer: C. The sender has sent packets 0 to 4, and packets 0 and 1 have been acknowledged.</b></p><p data-path-to-node=\"9\"><b>Reasoning:</b> To solve this, we must look at the specific range of sequence numbers inside the windows for both the sender and the receiver.</p><p data-path-to-node=\"10\"><b>1. Analyze the Sender's State:</b></p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><b>Sender Window:</b> [0,4] (Packets 0,1,2,3,4)</p></li><li><p data-path-to-node=\"11,1,0\"><b>Meaning:</b> The Sender window starts at <b>0</b>. This means the sender has <b>not yet received</b> the acknowledgment (ACK) for packet 0. It is still waiting. The window is full (size 5), so the sender has likely sent all allowed packets (0 through 4).</p></li></ul><p data-path-to-node=\"12\"><b>2. Analyze the Receiver's State:</b></p><ul data-path-to-node=\"13\"><li><p data-path-to-node=\"13,0,0\"><b>Receiver Window:</b> [2,6] (Packets 2,3,4,5,6)</p></li><li><p data-path-to-node=\"13,1,0\"><b>Meaning:</b> The Receiver window starts at <b>2</b>. This means the receiver has <b>successfully received and processed</b> packets 0 and 1. It has slid its window forward and is now waiting for packet 2.</p></li></ul><p data-path-to-node=\"14\"><b>3. Correlate the States (The \"Gap\"):</b></p><ul data-path-to-node=\"15\"><li><p data-path-to-node=\"15,0,0\">The receiver has moved past 0 and 1 (implying it sent ACKs for them).</p></li><li><p data-path-to-node=\"15,1,0\">The sender is still stuck at 0 (implying it hasn't received those ACKs yet).</p></li><li><p data-path-to-node=\"15,2,0\">This discrepancy is a standard \"ACKs in flight\" or \"ACKs lost\" scenario. The ACKs for 0 and 1 are currently traveling back to the sender or were lost.</p></li></ul><p data-path-to-node=\"16\"><b>4. Evaluate the Options:</b></p><ul data-path-to-node=\"17\"><li><p data-path-to-node=\"17,0,0\"><b>A. (Incorrect)</b> If the sender had received ACKs for 0 and 1, its window would start at 2, not 0.</p></li><li><p data-path-to-node=\"17,1,0\"><b>B. (Incorrect)</b> The receiver is not expecting 0; its window starts at 2, so it is expecting 2.</p></li><li><p data-path-to-node=\"17,2,0\"><b>C. (Correct)</b> The sender has utilized its window (sent 0-4). Packets 0 and 1 are \"acknowledged\" in the sense that the receiver has accepted them and sent the ACKs, creating the state where the receiver is ahead of the sender.</p></li><li><p data-path-to-node=\"17,3,0\"><b>D. (Incorrect)</b> The receiver is waiting for packet 2 (the base of its window). If it had already \"received packets 0 to 2,\" its window would start at 3.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/479305\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose it takes $1$ ms to send a packet, and the one-way propagation delay between the sender and receiver is $\\mathbf{1 0} \\mathbf{~ m s}$. The sliding window size is again $N=4$. What is the channel (or link) utilization?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$19.05 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$25 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$33.3 \\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$40 \\%$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"479304\"></a><div itemprop=\"text\"><p>Correct Answer: A. 19.05%<br><strong>Explanation:</strong></p><ul><li>Transmission time per packet $=1 \\mathrm{~ms}$</li><li>One-way propagation delay $=10 \\mathrm{~ms}$</li><li>Round-trip time $(\\mathrm{RTT})=2 \\times 10=20 \\mathrm{~ms}$</li><li>Sliding window size $N=4$</li><li>Channel utilization $U$ is given by:</li></ul><p>$$<br>U=\\frac{N \\times \\text { Transmission Time }}{\\text { RTT }+ \\text { Transmission Time }}=\\frac{4 \\times 1}{20+1}=\\frac{4}{21} \\approx 0.1905=19.05 \\%<br>$$</p></div></section></div><p><a href=\"https://gateoverflow.in/479303\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A sender is using a sliding window protocol with a window size of $4$ . It has sent packets $0$ to $3$ , and ACKs for packets $0,1,2$, and $3$ are currently propagating from the receiver to the sender. No ACK has yet been received by the sender. Assume cumulative ACKs are used and that the sender takes action only when an ACK is received or a timeout occurs.<br>Which of the following statements about the next possible event at the sender is/are correct?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If the next event is ACK1 (ACK0 was lost), the sender will slide the window and send packet $4$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If the next event is ACK2 (ACK0 and ACK1 were lost), the sender will note that packet $2$ is ACKed but will not move the window or send any packet.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If the next event is ACK0, the sender will slide the window and send packet $4$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If all ACKs (ACK0, ACK1, ACK2, and ACK3) are lost, the sender will receive a duplicate ACK for packet $3$ and move the window accordingly.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"481412\"></a><div itemprop=\"text\"><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"263836\"><a class=\"pupi_dm_user_mention\" rel=\"nofollow\" href=\"https://gateoverflow.in/user/Madhav107\" target=\"_blank\">@Madhav107</a>&nbsp;U are ryt answer should be option A if ACK0 has occured then then sender will not slide its window it will re-transmit the packets once again</span></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"501705\"></a><div itemprop=\"text\"><p><b>Answer: C. </b><strong>If the next event is ACK0, the sender will slide the window and send packet&nbsp;.<br><br>Explanation:</strong></p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\">Receiving an \"ACK for packet 0\" means that packet 0 has been successfully received and processed by the receiver.</p></li><li><p data-path-to-node=\"6,1,0\">This acknowledgment allows the sender to mark packet 0 as \"done\" and slide the window forward.</p></li></ul><div><p data-path-to-node=\"7\"><em><strong>What happens after ACK0?</strong></em></p></div><div>- New window = [1, 2, 3, 4]</div><div>&nbsp;</div><div>- Outstanding packets = 1,2, 3 (not yet acked)</div><div>&nbsp;</div><div>- One slot is free → sender *<strong>can</strong>* send 4 immediately</div><div>&nbsp;</div><div><strong>This makes Option (C) true.</strong></div></div></section></div><p><a href=\"https://gateoverflow.in/479302\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume a sender using Go-Back-N ARQ transmits segments $10$ to $19$ after all previous segments have been acknowledged. The receiver receives segments: $10,11,12,13,16,17,18$, $19$. Which ACK will be sent by the receiver?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Cumulative ACK till segment $13$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Cumulative ACK till&nbsp;segment $14$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>ACKs for $13$ and $16$ separately</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Cumulative ACK till $10$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"479296\"></a><div itemprop=\"text\">In Go-Back-N, the receiver sends an ACK for the highest in-order received segment. Since 14 and 15 are missing, it sends ACK for 13, indicating it is still waiting for segment 14.</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"492476\"></a><div itemprop=\"text\"><blockquote><p><button id=\"downvote-btn-53133400\" title=\"This answer is not useful\" aria-pressed=\"false\" aria-label=\"Down vote\" data-selected-classes=\"fc-theme-primary bc-theme-primary bg-theme-primary-100\" data-unselected-classes=\"bc-black-225 f:bc-theme-secondary-400 f:bg-theme-secondary-400 f:fc-black-050 h:bg-theme-primary-200\"></button><button type=\"button\" id=\"saves-btn-53133400\" data-controller=\"s-tooltip\" data-s-tooltip-placement=\"right\" data-s-popover-placement=\"\" data-is-saved=\"false\" aria-label=\"Save\" data-post-id=\"53133400\" data-post-type-id=\"2\" data-user-privilege-for-post-click=\"0\" aria-controls=\"\" data-s-popover-auto-show=\"false\" aria-describedby=\"--stacks-s-tooltip-fzfbya3y\"></button></p><p>For Go-Back-N, the receiver uses cumulative acknowledgment, which sends the sequence number of largest correctly received in order packet. Two example to help you understand. 1. The receiver has correctly received packet n and sent ACK=n. Later the receiver received packet n+1, then it will send ACK=n+1. 2. The receiver has correctly received packet n and sent ACK=n. Later the receiver received packet n+2, then it will send ACK=n.</p><p>Now, what you have searched on the web is talking about&nbsp;<strong>TCP</strong>&nbsp;not&nbsp;<strong>Go-Back-N</strong>. For TCP, ACK is different from Go-Back-N. Although TCP still uses cumulative acknowledgment, but acknowledgment number is the sequence number of the next byte the receiver is expecting from the sender, i.e.,&nbsp;<strong>n+1</strong>.</p></blockquote><p><a href=\"https://stackoverflow.com/questions/52685735/what-is-the-ack-number-using-go-back-n\" rel=\"nofollow\" target=\"_blank\">https://stackoverflow.com/questions/52685735/what-is-the-ack-number-using-go-back-n</a></p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"495325\"></a><div itemprop=\"text\"><p>Go-Back-N (GBN) is an Automatic Repeat Request (ARQ) protocol that uses a cumulative acknowledgment scheme.&nbsp;The receiver sends a single acknowledgment (ACK) for the highest-numbered segment received&nbsp;<i>in order</i>.&nbsp;If a segment is missing, the receiver will not acknowledge any subsequent segments, even if they are received.&nbsp;Instead, it will continue to send an ACK for the last correctly received in-order segment.</p><ol data-hveid=\"CBkQAQ\" data-ved=\"2ahUKEwjYu8_MpdiQAxUvU2wGHSMAAfcQnPYKegQIGRAB\"><li><p>The sender transmits segments 10, 11, 12, 13, 14, 15, 16, 17, 18, 19.</p></li><li><p>The receiver receives segments 10, 11, 12, and 13 in order.</p></li><li><p>The receiver does not receive segment 14.</p></li><li><p>The receiver does not receive segment 15.</p></li><li><p>The receiver receives segments 16, 17, 18, and 19, but they are considered out of order because segments 14 and 15 are missing.</p></li><li><p>According to the Go-Back-N protocol, the receiver will only send a cumulative ACK for the last correctly received in-order segment, which is segment 13. It will keep sending an ACK for segment 13 until it receives segment 14.</p></li></ol><p>Therefore, the receiver will send a cumulative ACK for all segments up to and including segment 13</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"523682\"></a><div itemprop=\"text\"><p>1. GBN ACKs are <strong>cumulative</strong> — ACK <em>n</em> means \"I have received everything up to and including segment <em>n-1</em>, and I expect segment <em>n</em> next.\"</p><p>2. Segments 14 and 15 were <strong>never received</strong>, so 16–19 are all discarded.</p><p>3. The final cumulative ACK sent is <strong>ACK 14</strong>, meaning \"all segments up through 13 are confirmed.\"</p></div></section></div><p><a href=\"https://gateoverflow.in/479295\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a Go-Back-N ARQ protocol with a maximum sender window size of $10$ segments, what is the minimum number of bits required to represent the sequence number field?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>5</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>10</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"479294\"></a><div itemprop=\"text\"><p><strong>Explanation:</strong><br><br>In Go-Back-N, the number of sequence numbers must be at least one greater than the window size to avoid ambiguity:<br>$$<br>\\begin{aligned}<br>&amp; \\text { Number of sequence numbers } \\geq W+1=10+1=11 \\\\<br>&amp; \\Rightarrow \\text { Minimum bits }=\\left\\lceil\\log _{2} 11\\right\\rceil=4<br>\\end{aligned}<br>$$</p></div></section></div><p><a href=\"https://gateoverflow.in/479293\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a Go-Back-N (GBN) protocol, the sender uses a window size of $4$, and sequence numbers range from $0$ to $1023$ (modulo $1024$). At a certain moment, the receiver is waiting for packet number $200$ to arrive in order.<br><br>Due to network propagation delay, some ACKs sent earlier by the receiver may still be in transit to the sender. Which of the following ranges correctly describes the possible ACK numbers that the sender may still receive at this point?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$200$ to $203$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$197$ to $199$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$196$ to $199$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$196$ to $200$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"479316\"></a><div itemprop=\"text\"><ul><li>Since the receiver is waiting for packet $200$, it has already acknowledged all packets up to $199$.&nbsp;</li><li>However, ACKs for earlier packets such as $196 to 199$ could still be propagating back due to delay.&nbsp;</li><li>These ACKs would still be valid and interpretable by the sender.&nbsp;</li><li>Hence, the possible ACK values seen by the sender could be in the range $196 to 199$.</li></ul></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"539640\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/9f/9f5ed325f3841cbbcdd5.png\"></p><pre><strong>Hope it will helpful.. </strong>\n</pre></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"507749\"></a><div itemprop=\"text\"><p>Answer : (C)<br><br><img alt=\"Image not available\" width=\"500\" height=\"316\" src=\"media/f9/f95bc5fbfb810fafafe4.jpg\"></p><p>&nbsp;</p><p>Receiver wait for 200 , So what it means :&nbsp;<br>&nbsp;</p><p>Suppose receiver first receives any one packet from pac2,pac3,pac4 then it will reject and ask for pack-1 (196)..</p><p>But receiver here waiting for pac-5 ( 200) , it means pac1,pac2,pac3,pac4 all received successfully at receiver and now receiver waiting for pac-5(200),&nbsp;</p><p>It mean receiver has sent ack for pac1,pac2,pac3,pac4.. but now these acks may be in flight or may be received by sender..</p><p>&nbsp;</p><p>Therefore sender can receive ack of 196,197,198,199</p></div></section></div><p><a href=\"https://gateoverflow.in/479315\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Node A wants to send a large amount of data to Node C via an intermediate Node B using the<strong> Selective Repeat protocol</strong> .</p><ul><li>Each <strong>bit</strong> transmitted on link $A-B$ has a probability $p$ of getting corrupted</li><li>Each <strong>bit</strong> transmitted on link B-C has a probability $q$ of getting corrupted</li><li>Bit errors occur <strong>independently</strong> across links and across bits</li></ul><p><br>Each data packet is $d$ bits long, and each ACK is $a$ bits long. The ACK is sent end-to-end from C to A (via B $\\rightarrow A$ )<br><br><strong>What is the expected number of transmissions required by A to successfully send one packet and get it acknowledged?</strong><br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1 / X$, where $X=(1-p)^{d}(1-q)^{d}(1-q)^{a}(1-p)^{a}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1 / X$, where $X=(1-p)^{d}(1-q)^{a}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1 / X$, where $X=(1-p)^{d}(1-q)^{d}(1-p)^{a}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1 / X$, where $X=(1-p)^{d}(1-q)^{d}(1-q)^{a}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"479311\"></a><div itemprop=\"text\"><ul><li>Probability that the packet is transmitted from A to B without error:</li></ul><p>$$<br>P_{\\mathrm{A} \\rightarrow \\mathrm{~B}}=(1-p)^{d}<br>$$</p><ul><li>Probability that the packet is transmitted from B to C without error:</li></ul><p>$$<br>P_{\\mathrm{B} \\rightarrow \\mathrm{C}}=(1-q)^{d}<br>$$<br>The ACK travels from C to A via B:<br>$$<br>P_{\\mathrm{ACK}}=(1-q)^{a} \\cdot(1-p)^{a}<br>$$<br><strong>Total Success Probability</strong><br>$$<br>X=(1-p)^{d}(1-q)^{d}(1-q)^{a}(1-p)^{a}<br>$$<br><strong>Expected Number of Transmissions</strong><br>$$<br>E[\\text { transmissions }]=\\frac{1}{X}=\\frac{1}{(1-p)^{d}(1-q)^{d}(1-q)^{a}(1-p)^{a}}<br>$$</p></div></section></div><p><a href=\"https://gateoverflow.in/479310\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A packet of size $N$ bits is sent from Host $A$ to Host $B$ via switch $C$ using Hop-by-Hop Stop-and-Wait ARQ. Each link $(\\mathrm{A} \\rightarrow \\mathrm{C}$ and $\\mathrm{C} \\rightarrow \\mathrm{B})$ has the same packet success probability $P_{\\text {packet }}$. The transmission rate on both links is $R$ bits per second. Ignoring ACK transmission delays, queueing, and processing delays, what is the expected total transmission delay (in seconds) for a packet to be successfully delivered from $A$ to $B$ ?</p><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{N}{R}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{2 N}{R}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{2 N}{R \\cdot P_{\\text{packet}}}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{2 N}{R} \\cdot \\frac{1}{P_{\\mathrm{packet}}^{2}}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"488405\"></a><div itemprop=\"text\"><p><img alt=\".\" width=\"700\" height=\"328\" src=\"media/a6/a6b7afe2d1e909663bd3.png\"></p><p>Hope This helps !!</p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 9)</small></h4><a name=\"479309\"></a><div itemprop=\"text\"><ul><li>Transmission time per attempt per hop: $\\frac{N}{R}$</li><li>Expected number of transmissions per hop: $\\frac{1}{P_{\\text {packet }}}$</li><li>Expected delay per hop:</li></ul><p>$$<br>\\frac{N}{R} \\cdot \\frac{1}{P_{\\text {packet }}}<br>$$</p><ul><li>Total expected delay (2 hops):</li></ul><p>$$<br>2 \\cdot\\left(\\frac{N}{R} \\cdot \\frac{1}{P_{\\mathrm{packet}}}\\right)=\\frac{2 N}{R \\cdot P_{\\mathrm{packet}}}<br>$$</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"529087\"></a><div itemprop=\"text\">Think of it like this if the given probability was 2/11 then it means out of 11 packets 2 have a chance of succeeding, so basically for two packets to succeed I would need 11 packets(transmissions), so for 1 packet to succeed I would need 11/2.<br>\n<br>\nFrom this reasoning we can clearly see that we need 1/p transmissions for 1 packet to succeed. Now we can see the transmission time is clearly N/R.<br>\nSo expected delay from A to C= Transmission time for 1 packet to get on the link * Number of transmissions required for a chance at success<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= N/R * 1/p<br>\n&nbsp;<br>\n<br>\nand from C to B= N/R * 1/p<br>\n<br>\nAdding both of them we get expected delay from A to B = 2N/R * 1/p, Which is Option C.</div></section></div><p><a href=\"https://gateoverflow.in/479308\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A Go-Back-N protocol uses a window size of $5$ and cumulative acknowledgments. The parameters are as follows:</p><ul><li>Timeout $=100 \\mathrm{~ms}$, measured from the time the first bit of the packet is sent</li><li>Packet transmission time $=1 \\mathrm{~ms}$</li><li>One-way link latency $=10 \\mathrm{~ms}$</li></ul><p><br>The sender begins transmitting packets $0$ to $4$ at $t=0$. All packets are received correctly except packet number $3$, which is lost.<br><br>When is packet $3$ first retransmitted (i.e., sent again after timeout expiry)?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$t=24 \\mathrm{~ms}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$t=102 \\mathrm{~ms}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$t=103 \\mathrm{~ms}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$t=100 \\mathrm{~ms}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"479301\"></a><div itemprop=\"text\"><p><strong>Explanation:</strong><br><br>At $t=0$, sender starts transmitting:</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><thead><tr><th scope=\"col\">Packet</th><th scope=\"col\">Sent at (ms)</th></tr></thead><tbody><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>2</td></tr><tr><td>3</td><td>3 (Lost)</td></tr><tr><td>4</td><td>4</td></tr></tbody></table><p><strong>Receiver side:</strong></p><ul><li>Packet $0$ reaches at $0+10=10 \\mathrm{~ms} \\rightarrow \\mathrm{ACK}$ at $20$ ms</li><li>Packet $1 \\rightarrow \\mathrm{ACK}$ at $21$ ms</li><li>Packet $2 \\rightarrow \\mathrm{ACK}$ at $22$ ms</li><li>Packet $3$ is lost $\\Rightarrow$ No ACK beyond packet $2$ is sent</li></ul><p><br><strong>Sender view:</strong></p><ul><li>ACKs for packets $0,1,2$ received by $t=22 \\mathrm{~ms}$</li><li>No ACK for packet $3$ or beyond</li></ul><p><br><strong>Timeout:</strong></p><ul><li>Timeout for packet 3 starts at $t=3 \\mathrm{~ms}$</li><li>Timeout expires at $3+100=103 \\mathrm{~ms}$</li></ul><p>At $t=103 \\mathrm{~ms}$, the sender retransmits packet $3$. Since this is Go-Back-N, it will go back and retransmit packet $3$ and subsequent packets as needed.</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"483459\"></a><div itemprop=\"text\"><p>Time Out starts for left most last oustanding packet in gbn ,for packet 3 it will start from 22 ms, so retranmission will be done at 22+100 i.e 122 ms<img alt=\"\" width=\"960\" height=\"1280\" src=\"media/43/43cb22460beed12e8556.jpg\"></p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"500260\"></a><div itemprop=\"text\"><h3><b>Question:</b> When is packet 3 first retransmitted?</h3><ul data-path-to-node=\"10\"><li><p data-path-to-node=\"10,0,0\"><b>Parameters:</b> Window=5, Timeout=100ms, $T_t=1$ms, $T_p=10$ms.</p></li><li><p data-path-to-node=\"10,1,0\"><b>Events:</b> Packets 0-4 sent at $t=0$. Packet 3 is lost.</p></li></ul><p data-path-to-node=\"11\"><b>Analysis:</b></p><ol start=\"1\" data-path-to-node=\"12\"><li><p data-path-to-node=\"12,0,0\"><b>Sending Schedule:</b></p><ul data-path-to-node=\"12,0,1\"><li><p data-path-to-node=\"12,0,1,0,0\">$P_0$ starts at $t=0$. Ends $t=1$.</p></li><li><p data-path-to-node=\"12,0,1,1,0\">$P_1$ starts at $t=1$. Ends $t=2$.</p></li><li><p data-path-to-node=\"12,0,1,2,0\">$P_2$ starts at $t=2$. Ends $t=3$.</p></li><li><p data-path-to-node=\"12,0,1,3,0\"><b>$P_3$ starts at $t=3$. Ends $t=4$.</b> (This packet is lost).</p></li><li><p data-path-to-node=\"12,0,1,4,0\">$P_4$ starts at $t=4$. Ends $t=5$.</p></li></ul></li><li><p data-path-to-node=\"12,1,0\"><b>Timeout Calculation:</b></p><ul data-path-to-node=\"12,1,1\"><li><p data-path-to-node=\"12,1,1,0,0\">The timeout is <b>100 ms</b>, measured from the time the <b>first bit</b> of the packet is sent.</p></li><li><p data-path-to-node=\"12,1,1,1,0\">For Packet 3, the first bit is sent at <b>$t=3$</b>.</p></li><li><p data-path-to-node=\"12,1,1,2,0\">The timeout will expire at $3 + 100 = 103$ ms.</p></li></ul></li><li><p data-path-to-node=\"12,2,0\"><b>Retransmission Logic:</b></p><ul data-path-to-node=\"12,2,1\"><li><p data-path-to-node=\"12,2,1,0,0\">In Go-Back-N, the sender waits for the timeout of the specific lost packet ($P_3$) to expire before resending it and all subsequent packets.</p></li><li><p data-path-to-node=\"12,2,1,1,0\">Therefore, the retransmission happens exactly when the timer expires.</p></li></ul></li></ol><p data-path-to-node=\"13\"><b>Answer:</b> <b>C. $t = 103$ ms</b></p></div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"532739\"></a><div itemprop=\"text\"><p><img alt=\"-\" width=\"1200\" height=\"667\" src=\"media/ec/ecf47d5bea31255e6ee6.jpg\">Show left side&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/479300\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<div style=\"font-family: 'Segoe UI', sans-serif; max-width: 900px; margin: auto; line-height: 1.6;\"><p>A sender and receiver implement a sliding window protocol using selective retransmission with the following parameters:</p><div style=\"display: flex; gap: 30px; align-items: flex-start; margin-bottom: 20px;\"><div style=\"flex: 1;\"><ul style=\"line-height: 2;\"><li>Frame sequence number space: 0 to 4</li><li>Send window and receive window size: 2</li><li>One-way propagation delay: slightly less than 1 ms</li><li>Sender transmits one packet per ms</li><li>Timeout interval at sender: 4 ms</li><li>Receiver sends cumulative ACKs</li><li>ACK 1 is lost (as shown in the figure)</li></ul></div><div style=\"flex: 1; text-align: center;\"><img alt=\"Sliding Window Protocol Diagram\" style=\"max-width: 100%; border: 1px solid #ccc; padding: 4px;\" src=\"media/5c/5cf084ac272c80a682ea.png\"><div style=\"font-size: 0.9em; color: #555;\">Figure: Sliding Window Timeline</div></div></div><p>Using the above setup and the timeline of packet exchanges shown, which of the following statements are correct?</p><p style=\"background: #f9f9f9; border-left: 4px solid #007acc; padding: 10px; margin-bottom: 20px;\">Note: In this question, <code>ACK n</code> refers to the cumulative acknowledgment for Frame n, i.e., all frames up to and including Frame n have been received successfully.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The sender receives ACK 4 at t = 7 ms, confirming delivery of Frame 4.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Frame 0 is retransmitted at t = 6 ms, even though it was previously acknowledged.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>ACK 1 is not retransmitted by the receiver after being lost.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Frame 2 is not retransmitted by the sender.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"494198\"></a><div itemprop=\"text\"><p>The answer will be - A,C,D.</p><p>First, let me cover the confusing part -&nbsp;</p><blockquote><p>Note: In this question, <code>ACK n</code> refers to the cumulative acknowledgment for Frame n, i.e., all frames up to and including Frame n have been received successfully.</p></blockquote><p>This line <strong>does not </strong>make this system GB-N, which someone might think.&nbsp;</p><p>It just means that, if the sender recieves ACK2, the sender will assume packet 0,1 and 2 has been recieved. ACK1 need not be sent again. Getting ACK2 will itself means that packet 1 was reached and hence will also cover for the fact that ACK1 was sent but got lost. Please understand this correctly to avoid confusion which others are having.&nbsp;</p><p><strong>Hence Option C is correct</strong> - Sender will recieve ACK2 at t=4 and assume packet 1 and 2 has reached. So the window size will go to 0-1-2-{3-4}. No ACK1 is retransmitted by the reciever, despite being lost.&nbsp;</p><p><strong>Option A is correct</strong>&nbsp; -&nbsp;</p><p>At t=4, frame 3 will be sent, as soon as ack 2 is recieved.&nbsp;</p><p>At t=5, frame 4 will be sent. Tp=1 sec. At t=6 ( at reciever), frame 4 will reach receiver and ack will be sent and again tp=1, <strong>hence at t=7, frame 4 will be acknowledged.&nbsp;</strong></p><p>At t=6 ( at sender ) - A new frame 0 will be <strong>sent (Difference between sent and retransmit). </strong>This is a new frame 0 and not the old frame 0 which was acknowledged before. <strong>Hence Option B is False</strong></p><p><strong>Option D is also correct</strong> since frame 2 was sent and acknowledgement and hence frame 2 won't be retransmitted.&nbsp;</p><blockquote><p>If you have truly understood the concept regarding what I have written, you'll understand the fact that - Any frame will be retransmitted only if all ACK are lost during TOT of the frame.&nbsp;</p></blockquote><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"480228\"></a><div itemprop=\"text\"><p><strong>OPTION A: FALSE</strong></p><p>at t=2 ms as ack 0 has been received hence the base of the window will shift and the window should be 1,2 . At t =3 ms the ack 1 should have been received by the receiver but as it is lost retransmission will happen at t=5ms (1ms +4ms). at t=7ms sender will receive ack for 1 and as the receiver had already received packet 2 so now window will shift and new window will have 3,4 .3 will be sent as soon as ack for 1 received that is at t=7ms and 4 will be sent at t=8ms and ack for packet 4 will be received by the sender at t=10ms (approx as given in ques). this is under assumption that no packet or ack is lost apart from ack1.</p><p><strong>OPTION B : FALSE&nbsp;</strong></p><p>As 0 has been acknowledged by sender therefore it will not be retransmitted. Altough sequence will repeat after wrap around but it will be another data packet so retransmission is not done.</p><p><strong>OPTION C : TRUE</strong></p><p>ACK1 will not be retransmitted by receiver , sender will retransmit 1 after timeout.</p><p><strong>OPTION D:&nbsp;</strong></p><p>if the ack 2 is not lost from the reciever to sender then it won't be retransmitted so that should be given in question I think.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"479299\"></a><div itemprop=\"text\"><p><strong>Explaination:</strong></p><p><strong>Option A is True</strong></p><p>The sender receives ACK $4$ at $\\mathrm{t}=7 \\mathrm{~ms}$, confirming delivery of Frame $4$.<br>&nbsp;</p><p><strong>Option C is True</strong></p><p>ACK $1$ is not retransmitted by the receiver after being lost.<br>&nbsp;</p><p><strong>Option D is True</strong></p><p>Frame $2$ is not retransmitted by the sender.<br>&nbsp;</p><p><strong>Option B is False</strong></p><p>Frame $0$ is retransmitted at $\\mathrm{t}=6 \\mathrm{~ms}$, even though it was previously acknowledged. (Incorrect-Frame $0$ was not retransmitted; it was sent again as a new packet due to its sequence number wrapping around in modulo $5$.)</p></div></section></div><p><a href=\"https://gateoverflow.in/479298\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a sliding window flow control protocol between hosts $A$ and $B$. Suppose the link propagation delay is $1$ time unit, the retransmission timeout is $3$ time units, and the window size is $3$. Assume the link drops every third data packet, i.e., the link drops the $1$ st, $4 t h, 7 t h, \\ldots$. data packets. (Note that here \"kth packet\" means the kth packet transmitted on the link, and not the sequence number of the packet.) How long (in ms ) does it take to transmit 6 packets between $A$ and $B$ ? (Note: Ignore the transmission times and the queueing delay, and assume that no acknowledgements are lost.)<br>\nAssume sender has an unlimited number of packets to send.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"479326\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"268\" height=\"746\" src=\"media/42/422e4a5971c869928439.png\"></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"532745\"></a><div itemprop=\"text\"><p>Sliding window visualization<img alt=\"-\" src=\"media/ce/ce812b6fbef6015f00c9.jpg\"></p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"533479\"></a><div itemprop=\"text\"><p>some points clarification:<br><br>1. Even though which sliding window protocol is not given in the question. still it is clear that GBN cannot be used.</p><p data-path-to-node=\"1\">1st, 4th, and so on packets are lost.</p><p><span class=\"math-tex\" data-latex=\"1^{\\times}, 2, 3, 4^{\\times}, 5, 6, 7^{\\times}, 8, 9, 10^{\\times} \\\\[0.5em] [1, 2, 3] \\quad [1, 2, 3] \\quad [1, 2, 3] \\quad [1, 2, 3]\">$1^{\\times}, 2, 3, 4^{\\times}, 5, 6, 7^{\\times}, 8, 9, 10^{\\times} \\\\[0.5em] [1, 2, 3] \\quad [1, 2, 3] \\quad [1, 2, 3] \\quad [1, 2, 3]$</span><br><br>so GBN would never work. so choice left is SR<br><br>2. Note that while the question asks for the time taken to successfully transmit 6 packets, it does not mean the sender only has 6 packets available. The problem explicitly states that</p><blockquote><p>&nbsp;<br>the sender has an unlimited no. of packets to send</p></blockquote><p><br>&nbsp;meaning the window will continue to be filled with subsequent packets (like $D_7$) as slots open up.<br><br><img alt=\"\" src=\"media/24/24ecd4aa84067288bada.jpg\"><br>Ans should be 14 as question ask:<br><br>&nbsp;<strong>How long (in ms ) does it take to transmit 6 packets between&nbsp;A&nbsp;and&nbsp;B&nbsp;?</strong><br><br>it doesnot ask time at which packet 6 ack propogates back to A.<br><br>Additionally note that,<br><br>question says to:<br><strong>Ignore the transmission times and the queueing delay, and assume that no acknowledgements are lost.<br><br>so only propogation time for a packet to send and ack to receive is calculated as 2ms.</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/479297\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 20.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 14
+  }
+ ],
+ "stats": {
+  "questions": 14,
+  "maxMarks": 10,
+  "types": {
+   "MSQ": 2,
+   "MCQ": 11,
+   "NAT": 1
+  },
+  "withoutKey": 7
+ }
+}

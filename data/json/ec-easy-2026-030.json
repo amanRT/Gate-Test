@@ -1,0 +1,544 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-030",
+ "title": "Topicwise Test-4 Part Syllabus GATE 2026 EC Control System-2",
+ "sourceTitle": "Topicwise Test-4 Part Syllabus GATE 2026 EC Control System-2",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 30,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/088_Topicwise Test-4 Part Syllabus GATE 2026 EC Control System-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The open-loop transfer function of a system is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b6/b605b8d5139082392107.png\" /></div>\n\n<div>The value of k so that the phase margin is 40° is __________. (Rounded upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.3,
+    1.7
+   ],
+   "answerText": "1.44",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.44 (1.30 - 1.70)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e1/e1935d839d02f5c3f3ac.png\" /></div>\n\n<div><img alt=\"\" src=\"media/44/4446fb7d8c0bf5576940.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A unity feedback control system has an amplifier with gain <em>k<sub>A</sub></em> = 16 and gain ratio <img align=\"absmiddle\" alt=\"\" src=\"media/b4/b42bec4887ad6fc23422.png\" /> in the forward path. A derivative feedback <em>H</em>(<em>s</em>) = sk<sub>0</sub> is introduced as a minor loop around G(s). The derivative feedback constant <em>k</em><sub>0</sub> so that the system damping factor is 0.8 is ________. (Rounded upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.3,
+    2.5
+   ],
+   "answerText": "2.4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2.4 (2.3 - 2.5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1c/1cc3eae0eb5f027c3319.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A portion of the polar plot of an open-loop transfer function is shown in the given figure. The phase margin and gain margin will be respectively</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c8/c8f82772973c10ce6f93.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "30° and 0.75"
+    },
+    {
+     "key": "B",
+     "html": "60° and 1.38"
+    },
+    {
+     "key": "C",
+     "html": "60° and 0.75"
+    },
+    {
+     "key": "D",
+     "html": "30° and 1.38"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8a/8aec28248f2f41099b38.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Which one of the following is the polar plot of a typical type zero system with open-loop transfer function as given below?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/9b/9b22f83972a408a2f828.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/f0/f0b41d8cd8b1c8e320e0.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/fd/fd71e77b8f7ec8257c71.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/ca/ca10e46cf2fb063d83b1.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/ac/ac8596df71ce9138eded.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/eb8df9b8275934bbb930.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Bode plot of a unity feedback system is given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b6/b65299fcc4f50d0b1366.png\" /></div>\n\n<div>Which of the below statements are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The open loop transfer function of the system has 4 poles and 4 zeroes."
+    },
+    {
+     "key": "B",
+     "html": "The open loop transfer function of the system has 4 poles and 2 zeroes."
+    },
+    {
+     "key": "C",
+     "html": "Acceleration error constant of the system is 100."
+    },
+    {
+     "key": "D",
+     "html": "System has finite positional error constant."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e9/e92c825b2138b9aaf5ae.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The maximum phase shift (in degrees) that can be obtained using a compensator with the transfer function, <img align=\"absmiddle\" alt=\"\" src=\"media/db/dbb991a32eead4349f84.png\" /> is __________. (Rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    40.2,
+    42.3
+   ],
+   "answerText": "41.8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>41.8 (40.2 - 42.3)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d9/d93b26842ed2510dfc38.png\" /></div>\n\n<div><img alt=\"\" src=\"media/31/3158ea7879e369d0a30f.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A control system is described by state equation,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/71/71e87bc3d5b82bf4f687.png\" /></div>\n\n<div>Considering the unit impulse input, select the correct statement(s) from the options given below:</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/4d/4d900d40d07691c9f897.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/52/52eb963f943f7564ccac.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/40/402ea6b2d3bf6f4ad598.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/f9/f9d038cf8916c91ff3df.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7f/7f8bbeef4aa1615251b7.png\" /></div>\n\n<div><img alt=\"\" src=\"media/61/61d8eddca8a3a846d362.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the state equations of a system given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b4/b4f5c1196c0ca5b4a7d9.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following statements is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(1) is unobservable, (2) is controllable"
+    },
+    {
+     "key": "B",
+     "html": "(1) is observable, (2) is not controllable"
+    },
+    {
+     "key": "C",
+     "html": "(1) is controllable, (2) is controllable"
+    },
+    {
+     "key": "D",
+     "html": "(1) is not controllable, (2) is not controllable"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/46/466de4abbfa2a3329a60.png\" /></div>\n\n<div><img alt=\"\" src=\"media/b6/b64fdd7fe9627dd21767.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The transfer function of a lead compensator is given as,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/1c/1c56245738573f954791.png\" /></div>\n\n<div>If the maximum phase provided by this compensator is 60°, then the time constant of the compensator will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.54 sec"
+    },
+    {
+     "key": "B",
+     "html": "7.14 sec"
+    },
+    {
+     "key": "C",
+     "html": "0.34 sec"
+    },
+    {
+     "key": "D",
+     "html": "3.48 sec"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/98/980a82652719e0a6f32c.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The loop transfer function of a system is given by <img align=\"absmiddle\" alt=\"\" src=\"media/1d/1d5464a3d5c49b244f1b.png\" /> The phase crossover frequency is 9 rad/s. The value of the dead time <em>L</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/48/486d5861a7786a25a516.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/e8/e806e60649e652292e2e.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/9a/9aecdfc0f9b1cd4b92b0.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/dc/dce0e3b41f1eb5bac94a.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f08285c4963487cb2d6c.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The transient response of a second order system when subjected to unit step input is found to have peak overshoot of 18.6 percent, occurring at time  <img align=\"absmiddle\" alt=\"\" src=\"media/05/05cb425a801f043122ad.png\" /> seconds. If this system is subjected to a sinusoidal input of 1.5 volt, the frequency of input at which amplitude of steady state response will have maximum value and the maximum value of steady state output are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7.625 rad/sec and 1.201"
+    },
+    {
+     "key": "B",
+     "html": "5.658 rad/sec and 1.155"
+    },
+    {
+     "key": "C",
+     "html": "5.658 rad/sec and 1.8"
+    },
+    {
+     "key": "D",
+     "html": "7.625 rad/sec and 1.8"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c4/c4a1ac976a8a97d48c9d.png\" /></div>\n\n<div><img alt=\"\" src=\"media/9b/9bd03bd38bde17c0e649.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The Nyquist plot of an all pole second order open loop system is shown in figure. The transfer function of the system is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/39/3963df956f73a07ec5ab.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/07/07691c59d09a9ff170ac.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/d9/d998df07b07527b34cfc.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/f8/f8e82fcd83042ce781c6.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/a8/a832e34d8874bb9c15ee.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/20/20f7aae4b3e09aa20175.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/70/70ad752fe42059f43eee.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The open loop transfer function of a unity feedback control system is given by the expression</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/de/dee0e3e239ed99f04087.png\" /></div>\n\n<div>If <em>N</em> is the number of encirclements of (–1 + <em>j</em>0) point by the Nyquist plot in the anti-clockwise direction, then which of the following statements is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "System is stable with <em>N</em> = 2"
+    },
+    {
+     "key": "B",
+     "html": "System is stable with <em>N</em> = 0."
+    },
+    {
+     "key": "C",
+     "html": "System is unstable with <em>N</em> = –2"
+    },
+    {
+     "key": "D",
+     "html": "System is unstable with <em>N</em> = 0"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/81/81033633167b0ca318cc.png\" /></div>\n\n<div><img alt=\"\" src=\"media/77/77a87b1cb94316a5523d.png\" /></div>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The state space representation of an LTI system is described as,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a1/a1b0845222c7d57687b5.png\" /></div>\n\n<div> </div>\n\n<div>The value of k to yield a 15% overshoot with a settling time of 0.6 sec for a step input is _______.<br />\n(Rounded upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    41.55,
+    41.59
+   ],
+   "answerText": "41.57",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>41.57 (41.55 - 41.59)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6b/6b6aa1a64addd25eff67.png\" /></div>\n\n<div><img alt=\"\" src=\"media/0a/0a3a21c67916642d7839.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The system described by the state model shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cc/cca787c3b6498a665fd8.png\" /></div>\n\n<div> </div>\n\n<div>becomes uncontrollable if α = _________. (Rounded upto one decimal place)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10.3,
+    10.7
+   ],
+   "answerText": "10.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10.5 (10.3 - 10.7)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/54afbc55bfe32b16792b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A PD controller is tuned to get desired phase margin for second order control system as shown below.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3b/3b1b23f0f8ddb4f64ddd.png\" /></div>\n\n<div>The phase crossover frequency for compensated system is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.52 rad/sec"
+    },
+    {
+     "key": "B",
+     "html": "3.94 rad/sec"
+    },
+    {
+     "key": "C",
+     "html": "1.45 rad/sec"
+    },
+    {
+     "key": "D",
+     "html": "does not exist"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/aa/aa180a697f41a839f9d8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/31/316396767cf03ff959e4.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The bode plot of a sytem with open loop gain ‘<em>k</em>' is shown below. The value of difference between <em>k</em> and magnitude at ω = 50 rad/sec is ________. (Rounded upto one decimal place)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e8/e851b10e82aec076f500.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    768.5,
+    772.5
+   ],
+   "answerText": "770.7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>770.7 (768.5 - 772.5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/94/947c1a93e0ed8f073355.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 6,
+   "MCQ": 9,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

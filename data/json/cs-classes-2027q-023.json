@@ -1,0 +1,355 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-023",
+ "title": "DVRUO Classes CS | Compiler Design | Lexical Analysis | Weekly Quiz 1",
+ "sourceTitle": "DVRUO Classes CS | Compiler Design | Lexical Analysis | Weekly Quiz 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 23,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1800,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Compiler Design"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/027_exam_1246_GO Classes CS Compiler Design Lexical Analysis Weekly Quiz 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which data structure in a compiler is used for managing information about variables and their attributes?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Abstract syntax tree<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Symbol table<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Semantic stack<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Parse table</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"498978\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=f-yJP8KTNrk&amp;t=7321s\">Watch Solution here! </a></p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"499145\"></a><div itemprop=\"text\">The correct answer is the Symbol Table. Since the symbol table is used to store information about the entire source program, it is used by all the phases of the compiler.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"526858\"></a><div itemprop=\"text\">Ans - B. Symbol Table is used for managing information about variables and their attributes</div></section></div><p><a href=\"https://gateoverflow.in/498977\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a compiler, keywords of a language are recognized during<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>parsing of the program<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>the code generation<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>the lexical analysis of the program<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>dataflow analysis</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"498976\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=f-yJP8KTNrk&amp;t=7359s\">Watch Solution here! </a></p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"526863\"></a><div itemprop=\"text\">$$ Ans - C $$<br>\n<br>\n$Keywords$ of a language are recognized as tokens by the lexical analyzer<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/498975\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a compiler the module that checks every character of the source text is called:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The code generator.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The code optimiser.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The lexical analyser.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The syntax analyser.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"498974\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=f-yJP8KTNrk&amp;t=7395s\">Watch Solution here! </a></p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"526864\"></a><div itemprop=\"text\">Lexical Analyzer is responsible for checking every character and converting them to tokens</div></section></div><p><a href=\"https://gateoverflow.in/498973\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following statements related to the errors detected during lexical analysis:<br><br>$\\text{S1}$ : A character sequence that cannot be scanned into any valid token is a lexical error.<br><br>$\\text{S2}$ : Misspellings of identifiers, keywords, or operators are considered as lexical errors.<br><br>Which of the above statements is/are CORRECT ?<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only $\\text{S1}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only $\\text{S2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both $\\text{S1}$ and $\\text{S2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Neither $\\text{S1}$ or $\\text{S2}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"498972\"></a><div itemprop=\"text\"><p><strong>Complete List of Lexical Errors:</strong></p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=BcY7bi5SZ-c&amp;t=10032s\">Watch Complete List of Lexical Errors here </a></p></div><p><br><br><strong>Paragraph from Stanford:</strong><br><br>The lexical analyzer takes a source program as input, and produces a stream of tokens as output.<br><br>A lexeme is the actual character sequence forming a token, the token is the general class that a lexeme belongs to.<br><br>The scanner is tasked with determining that the input stream can be divided into valid symbols in the source language, but has no smarts about which token should come where. Few errors can be detected at the lexical level. The scanner can report about characters that are not valid tokens (e.g., an illegal or unrecognized symbol) and a few other malformed entities (illegal characters within a string constant, unterminated comments, etc.) But it does not look for or detect garbled sequences, tokens out of place, undeclared identifiers, misspelled keywords, mismatched types and the like.<br><br>For example, the following input will not generate any errors in the lexical analysis phase, because the scanner has no concept of the appropriate arrangement of tokens for a declaration. The syntax analyzer will catch this error later in the next phase.<br><br>$\\verb|int a double } switch b[2]=;|$<br><br>Furthermore, the scanner has no idea how tokens are grouped. In the above sequence, it returns b, [, 2, and ] as four separate tokens, having no idea they collectively form an array access.<br><br>The lexical analyzer can be a convenient place to carry out some other chores like stripping out comments and white space between tokens.<br><br><strong>Paragraph from Ullman:</strong><br><br>It is hard for a lexical analyzer to tell, without the aid of other components, that there is a source-code error. For instance, if the string fi is encountered for the first time in a C program in the context:<br><br>$\\verb|fi (a==f(x)) ...|$<br><br>a lexical analyzer cannot tell whether fi is a misspelling of the keyword if or an undeclared function identifier. Since fi is a valid lexeme for the token id, the lexical analyzer must return the token id to the parser and let some other phase of the compiler - probably the parser in this case - handle an error due to transposition of the letters.<br><br>However, suppose a situation arises in which the lexical analyzer is unable to proceed because none of the patterns for tokens matches any prefix of the remaining input. Such errors can be detected at the lexical level.<br>&nbsp;</p><p><strong>Complete List of Lexical Errors:</strong></p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=BcY7bi5SZ-c&amp;t=10032s\">Watch Complete List of Lexical Errors here </a></p></div><p><br>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"499167\"></a><div itemprop=\"text\">SYNTAX ANALYZER works for S2</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"501439\"></a><div itemprop=\"text\">Since we are talking about Lexical analyser , any misspellings will be treated as identifier .</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"526866\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><b data-path-to-node=\"3\" data-index-in-node=\"0\">Analysis of Statements:</b></p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\">S1 is True:</b> A lexical analyzer does not flag a misspelled keyword as an error if the resulting character sequence still matches the rules for another valid token (typically an <b data-path-to-node=\"4,0,0\" data-index-in-node=\"177\">Identifier</b>).</p></li><li><p data-path-to-node=\"4,1,0\"><b data-path-to-node=\"4,1,0\" data-index-in-node=\"0\">S2 is False:</b> Misspelled keywords like <code data-path-to-node=\"4,1,0\" data-index-in-node=\"37\">whiles</code> or <code data-path-to-node=\"4,1,0\" data-index-in-node=\"47\">intt</code> are perfectly valid identifiers. The scanner will simply return a token like $\\langle \\text{id}, \\text{\"whiles\"} \\rangle$.</p></li></ul><hr data-path-to-node=\"5\"><p data-path-to-node=\"6\"><b data-path-to-node=\"6\" data-index-in-node=\"0\">Explanation:</b></p><p data-path-to-node=\"7\">The Lexical Analyzer (Scanner) uses a <b data-path-to-node=\"7\" data-index-in-node=\"38\">DFA (Deterministic Finite Automaton)</b> to recognize tokens based on regular expressions. It typically follows two tie-breaking rules:</p><ol start=\"1\" data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">Longest Prefix Match:</b> The scanner groups the longest possible sequence of characters that forms a valid token.</p></li><li><p data-path-to-node=\"8,1,0\"><b data-path-to-node=\"8,1,0\" data-index-in-node=\"0\">Priority Rule:</b> If a string matches both a Keyword and an Identifier (e.g., <code data-path-to-node=\"8,1,0\" data-index-in-node=\"75\">\"while\"</code>), the Keyword rule is given higher priority.</p></li></ol><p data-path-to-node=\"9\"><b data-path-to-node=\"9\" data-index-in-node=\"0\">Why \"whiles\" is not a Lexical Error:</b></p><p data-path-to-node=\"10\">In the case of <code data-path-to-node=\"10\" data-index-in-node=\"15\">whiles</code>, the string does not match the exact pattern for the keyword <code data-path-to-node=\"10\" data-index-in-node=\"83\">while</code>. However, it satisfies the regular expression for an identifier:</p><p>$$\\text{Identifier} = [a-zA-Z][a-zA-Z0-9]^*$$</p><p data-path-to-node=\"12\">Because a valid pattern is matched, <b data-path-to-node=\"12\" data-index-in-node=\"36\">no lexical error is raised</b>.</p><p data-path-to-node=\"13\"><b data-path-to-node=\"13\" data-index-in-node=\"0\">Phases where the error is caught:</b></p><p data-path-to-node=\"14\">The mistake will eventually be caught in later stages of the compiler:</p><ul data-path-to-node=\"15\"><li><p data-path-to-node=\"15,0,0\"><b data-path-to-node=\"15,0,0\" data-index-in-node=\"0\">Syntax Analysis (Parser):</b> The parser will find an <code data-path-to-node=\"15,0,0\" data-index-in-node=\"50\">id</code> where the grammar strictly expects a <code data-path-to-node=\"15,0,0\" data-index-in-node=\"90\">while</code> keyword.</p></li><li><p data-path-to-node=\"15,1,0\"><b data-path-to-node=\"15,1,0\" data-index-in-node=\"0\">Semantic Analysis:</b> The compiler will check the symbol table and find that <code data-path-to-node=\"15,1,0\" data-index-in-node=\"74\">whiles</code> is an \"undeclared identifier.\"</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/498971\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is/are true ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Lexical analysis is recursive in order to handle nested parentheses.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Scanners don&#x27;t know anything about the grammar of a language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A regular expression is a type of pattern used to classify lexemes.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>You can change state in a DFA without reading any input character.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"499102\"></a><div itemprop=\"text\"><p data-start=\"262\" data-end=\"534\"><strong data-start=\"262\" data-end=\"276\">A is false</strong> – Lexical analysers cannot handle nested structures. Why? Because lexers use regular expressions, and regular languages cannot count or match nested parentheses. Nested parentheses require context-free grammar, which is handled by the parser, not the lexer.</p><p data-start=\"536\" data-end=\"613\"><strong data-start=\"536\" data-end=\"549\">B is true</strong> – Scanners only recognise tokens and do not know grammar rules.</p><p data-start=\"615\" data-end=\"721\"><strong data-start=\"615\" data-end=\"628\">C is true</strong> – Regular expressions are exactly the patterns used to classify lexemes in lexical analysis.</p><p data-start=\"723\" data-end=\"817\"><strong data-start=\"723\" data-end=\"737\">D is false</strong> – DFA has no ε-moves. It cannot change state without consuming an input symbol.</p><p data-start=\"819\" data-end=\"850\"><strong data-start=\"819\" data-end=\"850\">Correct statements: B and C</strong></p></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"498970\"></a><div itemprop=\"text\">Lex cannot be used to recognize nested structures such as parentheses.</div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"526913\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><b data-path-to-node=\"3\" data-index-in-node=\"0\">Correct Statements: B and C</b></p><p data-path-to-node=\"4\">Here is the detailed analysis of each statement:</p><ul data-path-to-node=\"5\"><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\">A is False:</b> Lexical analysis is implemented using Finite Automata (based on Regular Grammars). Finite Automata do not have auxiliary memory (like a stack) to keep track of counting, so they cannot handle arbitrarily nested parentheses. Nested structures are handled by the next phase, the Syntax Analyzer (Parser), which uses a Pushdown Automaton.</p></li><li><p data-path-to-node=\"5,1,0\"><b data-path-to-node=\"5,1,0\" data-index-in-node=\"0\">B is True:</b> Scanners (Lexical Analyzers) simply group streams of characters into tokens based on Regular Expressions. They do not know anything about the structural syntax or the context-free grammar of the programming language.</p></li><li><p data-path-to-node=\"5,2,0\"><b data-path-to-node=\"5,2,0\" data-index-in-node=\"0\">C is True:</b> A regular expression is formally used to define the pattern for a token. When a sequence of characters in the source code matches this defined pattern, that specific sequence is called a lexeme.</p></li><li><p data-path-to-node=\"5,3,0\"><b data-path-to-node=\"5,3,0\" data-index-in-node=\"0\">D is False:</b> By definition, a DFA (Deterministic Finite Automaton) must consume exactly one input character for every state transition. Changing states without reading an input character is called an epsilon-transition (or null transition), which is only allowed in an NFA, not a DFA.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/498969\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The number of tokens in the following C statement is</p><pre class=\"prettyprint lang-c_cpp\">printf(\"i=%d, &amp;i=%x\", i, &amp;i);</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$26$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$21$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"498968\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=f-yJP8KTNrk&amp;t=6466s\">Watch Solution here! </a></p></div></div></section></div><p><a href=\"https://gateoverflow.in/498967\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The number of tokens in the following C code segment is</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">switch(inputvalue)\n{\n    case 1 : b =c*d; break;\n    default : b =b++; break;\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$27$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$29$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$26$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$24$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"498966\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=f-yJP8KTNrk&amp;t=6910s\">Watch Solution here! </a></p></div></div></section></div><p><a href=\"https://gateoverflow.in/498965\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The number of tokens in the following C statement is:<br>\n<br>\n$$\\verb|printf(\"Total = %d \\n\", score);|$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"498964\"></a><div itemprop=\"text\"><div style=\"text-align: center;\">\n  <p>\n    <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=f-yJP8KTNrk&amp;t=5890s\">\n      Watch Solution here!\n    </a>\n  </p>\n</div></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"500889\"></a><div itemprop=\"text\"><p>7 is correct answer, \" \"&nbsp; is counted as string and contributes only 1 token, so tokens are&nbsp;</p><p>&nbsp;</p><pre><em>printf</em>\n\n<em> (</em>\n\n<em> \"total=%d\\n\" </em>\n\n<em>, </em>\n\n<em>score</em>\n\n<em>)</em>\n\n<em>;  </em></pre></div></section></div><p><a href=\"https://gateoverflow.in/498963\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The number of tokens in the following C code segment is:<br><br><strong>Input text</strong></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">// this statement does very little\nif (x &gt;= y) y = 42;</pre><p><br>&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"498962\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=f-yJP8KTNrk&amp;t=6316s\">Watch Solution here! </a></p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500890\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/22/22a46f80046e374bfb5a.png\"><br>Refer:&nbsp;<a rel=\"nofollow\" href=\"https://www.cs.mcgill.ca/~cs520/2024/slides/lexer-handout.pdf\" target=\"_blank\">lexer-handout.pdf</a></p></div></section></div><p><a href=\"https://gateoverflow.in/498961\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "In Ada, an identifier must begin with a letter and can be followed by zero or more letters, digits, or underscore symbols. However, two underscore symbols may not appear in a row and the last character in an identifier may not be an underscore.<br>\nThe minimum number of states required for a DFA to accept all valid ADA identifiers ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"499298\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/fe/fed7cd734223b1dea02f.png\">&nbsp;there are 4 states</p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"498960\"></a><div itemprop=\"text\">Minimum number of states in DFA: 4<br>\n<br>\nmDFA has 1 Dead State, 1 Final State..</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"499016\"></a><div itemprop=\"text\"><p><strong data-start=\"47\" data-end=\"262\">Start → (on letter) Accepting state (loops on letter/digit) → (on <code data-start=\"115\" data-end=\"118\">_</code>) go to After-underscore (non-accepting) → (on letter/digit) back to Accepting; any <code data-start=\"202\" data-end=\"205\">_</code> from After-underscore or any invalid char goes to Trap</strong> — states: <strong data-start=\"273\" data-end=\"317\">Start, Accepting, After-underscore, Trap</strong>.</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"499028\"></a><div itemprop=\"text\"><p>For 1st state we have to check where it goes when (a-z / A-Z) comes i.e it goes to let's say 2nd state, and will go to dead state if ( _&nbsp; /&nbsp; 0-9 )&nbsp; comes&nbsp; then for 2nd state (final state) we will loop to same state when&nbsp;(a-z/ A-Z /0-9) comes and will go to 3rd state when _ comes now in 3rd state when&nbsp;(a-z/ A-Z /0-9) comes we will go back to 2nd state and if _ comes we will go to dead state.&nbsp;</p><p>In the dead state we will loop whatever comes.</p><p><strong>Total state = 3 + 1 (dead state) = 4&nbsp;</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/498959\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 3,
+  "types": {
+   "MCQ": 5,
+   "MSQ": 2,
+   "NAT": 3
+  },
+  "withoutKey": 7
+ }
+}

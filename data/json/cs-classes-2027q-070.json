@@ -1,0 +1,580 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-070",
+ "title": "DVRUO Classes CS | Digital Logic | K-map | Weekly Quiz 14",
+ "sourceTitle": "DVRUO Classes CS | Digital Logic | K-map | Weekly Quiz 14",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 70,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Digital Logic"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/054_exam_1050_GO Classes CS Digital Logic K-map Weekly Quiz 14.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" height=\"141\" width=\"257\" src=\"media/5d/5df40dac93eab534feb1.png\"></p><p>What will be the equation of the given $K$-map?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A’B’D’+C’D+AB’C’$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$B’CD’+AB’C’+A’C’$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$B’D’+C’D$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$C’D+B’CD’$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"477382\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/e1/e19821751c3b05623078.jpg\"></p><p>The equation of the given K-map is c’d+b’d’..</p></div></section></div><p><a href=\"https://gateoverflow.in/477380\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The most simplified form of the Boolean function</p><p>$x (A, B, C, D) = \\sum (7, 8, 9, 10, 11, 12, 13, 14, 15)$</p><p>(expressed in sum of minterms) is?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A + A&#x27;BCD$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$AB + CD$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A + BCD$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$ABC + D$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"477383\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/ac/acd501b321c921adeb06.jpg\"></p><p>Option C</p></div></section></div><p><a href=\"https://gateoverflow.in/477379\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The boolean expression $\\text{AB + A}\\text{B}'+\\text{A}'\\text{C + AC}$ is independent of the boolean variable</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{A}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{B}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{C}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"477385\"></a><div itemprop=\"text\">$A(B+B')+C(A+A')=A+C$ &nbsp;which is independent on $B$<br>\n<br>\nOption (B) is correct.</div></section></div><p><a href=\"https://gateoverflow.in/477378\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The switching expression corresponding to $f(\\text{A, B, C, D}) = \\Sigma(1, 4, 5, 9, 11, 12)$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$BC&#x27;D&#x27; + A&#x27;C&#x27;D + AB&#x27;D$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$ABC&#x27; + ACD + B&#x27;C&#x27;D$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$ACD&#x27; + A&#x27;BC&#x27; + AC&#x27;D&#x27;$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A&#x27;BD + ACD&#x27; + BCD&#x27;$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"477386\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/ec/ec4cadcd5c150b213dfb.png\"></p><p>&nbsp; &nbsp;=BC'D'+A'C'D+AB'D</p><p>So Option A</p></div></section></div><p><a href=\"https://gateoverflow.in/477377\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" height=\"135\" width=\"246\" src=\"media/f6/f6225bad8041f71933c2.png\"></p><p>Which will be the equation of simplification of the given $K$-map?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$AB&#x27; + B&#x27;CD&#x27; + A&#x27;B&#x27;C&#x27;$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$AB&#x27; + A&#x27;B&#x27;D&#x27; + A&#x27;B&#x27;C&#x27;$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$B&#x27;D&#x27; + AB&#x27; + B&#x27;C&#x27;$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$B&#x27;D&#x27; + A&#x27;B&#x27;C&#x27; + AB&#x27;$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495372\"></a><div itemprop=\"text\"><article tabindex=\"-1\" dir=\"auto\" data-turn-id=\"7cb2f619-fc13-4582-ba33-2f8cf200b800\" data-testid=\"conversation-turn-4\" data-scroll-anchor=\"true\" data-turn=\"assistant\"><p data-start=\"69\" data-end=\"221\">CORRECT ANSWER IS&nbsp; :- (<strong>C</strong>)</p><p data-start=\"69\" data-end=\"221\">K-map (rows AB = 00,01,11,10; cols CD = 00,01,11,10) mein ones at m1(0001), m2(0010), m9(1001), m11(1011). Don’t-cares at m0(0000), m8(1000), m10(1010).</p><p data-start=\"224\" data-end=\"314\">Badi group (A=1, B=0) → AB′AB'AB′ covers m8,m9,m10,m11 (uses don’t-cares to include m9,m11).</p><ul data-start=\"67\" data-end=\"606\" data-is-last-node=\"\" data-is-only-node=\"\"><li data-start=\"315\" data-end=\"508\"><p data-start=\"317\" data-end=\"399\">Remaining ones m1 and m2 can be covered by two 4-cell groups that use don’t-cares:</p><ul data-start=\"402\" data-end=\"508\"><li data-start=\"402\" data-end=\"453\"><p data-start=\"404\" data-end=\"453\">B′C′B'C'B′C′ (B=0,C=0) covers m0,m1,m8,m9 → gives m1,</p></li><li data-start=\"456\" data-end=\"508\"><p data-start=\"458\" data-end=\"508\">B′D′B'D'B′D′ (B=0,D=0) covers m0,m2,m8,m10 → gives m2.</p></li><li data-start=\"456\" data-end=\"508\"><p data-start=\"458\" data-end=\"508\">Combine: AB′+B′C′+B′D′AB' + B'C' + B'D'AB′+B′C′+B′D′ — same as option <strong data-start=\"559\" data-end=\"564\">C</strong>&nbsp;</p></li><li data-start=\"456\" data-end=\"508\"><p data-start=\"458\" data-end=\"508\">(order different: B′D′+AB′+B′C′B'D' + AB' + B'C'B′D′+AB′+B′C′).</p></li></ul></li></ul></article></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"535328\"></a><div itemprop=\"text\"><p>solved check out<img alt=\"\" src=\"media/eb/eb6dd5ed5ff877bdb7cf.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/477381\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following boolean function of four variables $f(w,x,y,z) = \\Sigma(1,3,4,6,9,11,12,14)$, the function is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Independent of one variable</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Independent of two variables</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Independent of three variables</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Dependent on all variables</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"477387\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/a0/a0c628bd3a4f1053bd95.png\"></p><p>= XZ' +X'Z</p><p>Therefore &nbsp;the result is independent of 2 variables</p><p><strong>Answer is Option B</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/477376\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The $K-map$ below defines a function $\\mathrm{G}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})$. Mark the answer below that corresponds to a minimal <strong>SOP</strong> expression for the function $\\mathrm{G}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})$ ?<br>&nbsp;</p><p><img alt=\"\" src=\"media/a5/a55382fb445e7b2d620d.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{BD}+\\mathrm{B}^{\\prime} \\mathrm{CD}^{\\prime}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$B^{\\prime} D^{\\prime}+A^{\\prime} B^{\\prime} C+B D$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$B D+A^{\\prime} B^{\\prime} C D^{\\prime}+A B^{\\prime} C$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$B^{\\prime} D^{\\prime}+B D$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"528901\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/26/26f70545a6708f6f520c.jpg\">option D is correct.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"535329\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"1200\" height=\"1139\" src=\"media/4e/4e5fee5a4e973a45a21c.jpg\">Check out</p></div></section></div><p><a href=\"https://gateoverflow.in/477375\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" src=\"media/37/37cc76ec7ff0babb6cf4.png\"></p><p>The truth table for implementing a Boolean variable $\\text{F}$ is given where $d$ represents don't care states. The minimized expression for $\\text{F}$ is:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$BC&#x27; +AC&#x27;+AB$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$AB+ C&#x27;$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A&#x27;BC&#x27;+ AB&#x27;C&#x27;+ABC$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"528906\"></a><div itemprop=\"text\"><p>option B is correct.&nbsp;<img alt=\"\" src=\"media/68/688870749de30f5edf5a.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"535331\"></a><div itemprop=\"text\"><p>Check out<img alt=\"\" width=\"1200\" height=\"666\" src=\"media/19/19d0e114c5954f39c69e.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/477374\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is the Boolean function for majority voting, assuming $\\text{A, B, C}$ are inputs and $\\text{Y}$ is output?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{Y = AB + AC + BC}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{Y = A + B + C}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{Y =  ABC}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{Y= AB + BC}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"497279\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"873\" height=\"500\" src=\"media/8a/8a805bafb0ce5dc0ace2.jpg\"></p><p><strong>Option A)</strong></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"478826\"></a><div itemprop=\"text\"><p>option A<br>A majority voter function outputs&nbsp;1&nbsp;when&nbsp;<strong data-start=\"534\" data-end=\"570\">at least 2 out of 3 inputs are 1&nbsp;</strong>(by definition)<br>In &nbsp;A , B , C ..<br>exactly 2 are true at once when y = AB + BC + AC &nbsp;(which is a majority)</p></div></section></div><p><a href=\"https://gateoverflow.in/477373\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A number of Boolean functions conform to the map shown below:<br><img alt=\"\" src=\"media/02/02aca65ad08a5f67e22e.png\"><br>What is the minimum \"sum of product\" expression among the particular functions, having a prime implicant that can not appear in the minimum \"sum of products\" representation (that conform to the above map) ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{B}^{\\prime}+\\mathrm{C}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A^{\\prime} B^{\\prime}+A C$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime}+\\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime}+\\mathrm{BC}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"477393\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/live/AW2otTa-6RM?feature=shared\">Watch Video Solution here! </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/477372\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Simplify Boolean function represented in sum of product of min-terms, $\\text{F}(x, y, z)= \\Sigma(0, 2, 4,5, 6)$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&nbsp;$z&#x27; + xy&#x27;$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x&#x27; y&#x27;z&#x27; + xyz+ xy&#x27;z&#x27;$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$xyz + x&#x27; + y&#x27; + z&#x27;$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$xy+yz+zx$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"528912\"></a><div itemprop=\"text\"><p>Option A is correct&nbsp;</p><p>one quad and one pair formation.</p><p><img alt=\"\" src=\"media/d1/d1a2f3ec7edbd50d196d.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/477371\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The simplified SOP (Sum of Product) from the Boolean expression</p><p>$$(\\text{P} + \\overline{\\text{Q}} + \\overline{\\text{R}}) . (\\text{P} + \\text{Q&nbsp;+ R) . (P + Q} +\\overline{\\text{R}})$$ is&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\overline{\\text{P}}.\\text{Q}+\\overline{\\text{R}})$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(\\text{P + Q}.\\overline{\\text{R}})$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(\\text{P}.\\overline{\\text{Q}}+\\text{R})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{(P.Q + R)}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"477388\"></a><div itemprop=\"text\"><p><span style=\"font-size:18px;\"><span style=\"font-family:verdana,geneva,sans-serif;\"><span style=\"line-height: 20.8px;\">$(P + \\bar{Q} + \\bar{R}) . (P + {Q} + R) . (P + Q +\\bar{R})$</span></span></span></p><p><span style=\"font-size:18px;\"><span style=\"font-family:verdana,geneva,sans-serif;\">$(P + \\bar{Q} + \\bar{R}) . (P +(Q+R)(Q+\\bar{R}))$</span></span></p><p><span style=\"font-size:18px;\"><span style=\"font-family:verdana,geneva,sans-serif;\"><span style=\"line-height: 20.8px;\">$(P + \\bar{Q} + \\bar{R}) . (P + Q)$</span></span></span></p><p><span style=\"font-size:18px;\"><span style=\"font-family:verdana,geneva,sans-serif;\"><span style=\"line-height: 20.8px;\">$(P + (\\bar{Q}+ \\bar{R})Q)$</span></span></span></p><p><span style=\"line-height: 20.8px; font-family: verdana, geneva, sans-serif; font-size: 18px;\">$P+Q \\bar{R}$</span></p><p><span style=\"font-size:18px;\"><span style=\"font-family:verdana,geneva,sans-serif;\">Hence,option(B)$P+Q \\bar{R}$ is the correct choice.</span></span></p></div></section></div><p><a href=\"https://gateoverflow.in/477370\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following expression</p><p>$a\\bar d + \\bar a \\bar c + b\\bar cd$</p><p>Which of the following expressions does not correspond to the Karnaugh Map obtained for the given expression?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\bar c \\bar d+ a\\bar d + ab\\bar c + \\bar a \\bar cd$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\bar a\\bar c + \\bar c\\bar d + a\\bar d + ab\\bar cd$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\bar a\\bar c + a\\bar d + ab\\bar c + \\bar cd$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\bar b\\bar c \\bar d + ac\\bar d + \\bar a \\bar c + ab\\bar c$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532912\"></a><div itemprop=\"text\"><p>$ad'$&nbsp; [fill minterm in K-map in front for $a$ and $d'$ ]</p><p><img alt=\"\" height=\"230\" width=\"232\" src=\"media/d7/d70d5512dc728644ac46.jpg\"></p><p>Similarly, fill all minterms &nbsp;for $ad'+a'c' +bc'd$, resulting K-map will be:</p><p><img alt=\"\" height=\"258\" width=\"261\" src=\"media/fe/fed1539291936e5c1f19.jpg\"></p><p><strong>&nbsp;Option (a)</strong> $c'd'+ ad' + abc' + a'c'd$</p><p><img alt=\"\" height=\"249\" width=\"251\" src=\"media/62/623a49911121e36cc39c.jpg\"></p><p>is equivalent to given expression</p><p> </p><p>Option (<strong>b) </strong>$a'c' + c'd' + ad' + abc'd$</p><p><img alt=\"\" height=\"259\" width=\"262\" src=\"media/95/95f00c1925b03bcae8b6.jpg\"></p><p>is equivalent to given expression.</p><p> </p><p>Option (<strong>c)</strong> $a'c' + ad' + abc' + c'd$</p><p><img alt=\"\" height=\"259\" width=\"261\" src=\"media/7b/7ba4cd9b962f44c6c67a.jpg\"></p><p>is not equivalent to given expression.</p><p> </p><p><strong>Option (d)</strong>&nbsp;$b'c'd' + acd' + a'c' + abc'$</p><p><img alt=\"\" height=\"285\" width=\"288\" src=\"media/ff/ff814227c0306455712d.jpg\"></p><p>is equivalent to given expression.</p><p>So, answer is <strong>C.</strong></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540242\"></a><div itemprop=\"text\"><p>We can do it without K-map this way too.&nbsp;<br><img alt=\"\" width=\"1200\" height=\"821\" src=\"media/07/0796fdef1ac32cecf927.jpg\"></p><p><img alt=\"\" width=\"1090\" height=\"838\" src=\"media/a4/a44529ccd129eedbe4ea.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/477369\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>\\</p><p><img alt=\"\" src=\"media/5c/5cef106b3f4c0a99aaae.png\"></p><p>The function shown in the figure when simplified will yield a result with _______ terms</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$7$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$14$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"477391\"></a><div itemprop=\"text\">If a minterm is covered by only one prime implicant, that prime implicant is said to be essential, and must be included in the minimum sum of products (SOP)<br>\n<br>\nhere in Kmap all 1's in cell represent minterm and each 1(minterm) not covered by any of prime implicant so these are actually EPI.<br>\n<br>\nand all EPI must be included in minimal SOP. so 7 is the ans<br>\n<br>\n<a href=\"http://ece.gmu.edu/~clorie/Spring11/ECE-301/Lectures/Lecture_8.pdf\" rel=\"nofollow\" target=\"_blank\">http://ece.gmu.edu/~clorie/Spring11/ECE-301/Lectures/Lecture_8.pdf</a></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540243\"></a><div itemprop=\"text\">None of the cells containing 1 are adjacent, that leaves no room for simplification. That means it leaves in same 7 terms.</div></section></div><p><a href=\"https://gateoverflow.in/477368\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Find minimal POS (product of sum) expression for $F(a, b, c, d)$ given by the following K-map. Identify the Prime Implicants &amp; Essential Prime Implicants clearly.<br><img alt=\"\" src=\"media/1d/1d28584b8f92835e1d85.png\"><br>Which of the following is/are correct statements about F?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Minimal POS: $\\left(a^{\\prime}+b\\right)\\left(b^{\\prime}+c^{\\prime}+d^{\\prime}\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The number of Prime Implicants is $6$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The number of Prime Implicants is $4$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The number of Essential Prime Implicants is $1$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"477392\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/94/943c354441c7c6ea1832.png\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"502144\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"801\" height=\"1280\" src=\"media/6c/6ce4b4206e82fa394ad8.jpg\"></p><p>A ,C</p></div></section></div><p><a href=\"https://gateoverflow.in/477367\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 26.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 10,
+  "types": {
+   "MCQ": 14,
+   "MSQ": 1
+  },
+  "withoutKey": 10
+ }
+}

@@ -1,0 +1,593 @@
+{
+ "v": 1,
+ "id": "da-easy-2025-026",
+ "title": "Topicwise Test-6 Part Syllabus GATE 2025 DA Probability and Statistics-2",
+ "sourceTitle": "Topicwise Test-6 Part Syllabus GATE 2025 DA Probability and Statistics-2",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2025",
+ "num": 26,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/070_Topicwise Test-6 Part Syllabus GATE 2025 DA Probability and Statistics-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider a random variable X with probability distribution given by:</p>\n<p>\n\t<img alt=\"\" src=\"media/32/32b32dc9037c1bf14463.png\" /></p>\n<p>\n\tWhat is the conditional expectation of <em>X</em> given that <em>X</em> ≥ 2?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.5"
+    },
+    {
+     "key": "B",
+     "html": "2.2"
+    },
+    {
+     "key": "C",
+     "html": "3.3"
+    },
+    {
+     "key": "D",
+     "html": "3.5"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/7a/7a935880484534685a50.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tThe standard deviation of the set {18, 23 ,14, 3, 17} is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "6.66"
+    },
+    {
+     "key": "B",
+     "html": "14.2"
+    },
+    {
+     "key": "C",
+     "html": "18.6"
+    },
+    {
+     "key": "D",
+     "html": "More than one of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/72/7299267627f172803030.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tThe mean and standard deviation of 75 observations are 45 and 10, respectively. If 2 is added to each observation, the new mean and standard deviation will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "47, 12"
+    },
+    {
+     "key": "B",
+     "html": "47, 14"
+    },
+    {
+     "key": "C",
+     "html": "47, 10"
+    },
+    {
+     "key": "D",
+     "html": "46, 12"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tIf 2 is added to each observation, the mean will also increase by 2.<br />\n\tTherefore, the new mean will be 45 + 2 = 47.<br />\n\t&bull; The standard deviation is a measure of how spread out the data is. Adding 2 to each observation will not change how spread out the data is. Therefore, the standard deviation will remain the same, which is 10.<br />\n\t&bull; Therefore, the new mean and standard deviation will be 47 and 10, respectively.<br />\n\tThe other options are not correct:<br />\n\t&bull; 47, 12: This option is incorrect because the standard deviation will not change when 2 is added to each observation.<br />\n\t&bull; 47, 14: This option is incorrect because the standard deviation will not increase by 4 when 2 is added to each observation.<br />\n\t&bull; 46, 12: This option is incorrect because the mean will increase by 2 when 2 is added to each observation.<br />\n\tTherefore, the correct answer is (c).</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tGiven the dataset: 4, 5, 6, 8, 10, 12, 15, 15, 18. What is the median of the dataset?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8"
+    },
+    {
+     "key": "B",
+     "html": "10"
+    },
+    {
+     "key": "C",
+     "html": "12"
+    },
+    {
+     "key": "D",
+     "html": "15"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tTo find the median, we first arrange the dataset in ascending order: 4, 5, 6, 8, 10, 12, 15, 15, 18.<br />\n\tSince there are 9 data points, the median is the middle value, which is 10.<br />\n\tSo, the median of the dataset is 10.<br />\n\tTherefore, the correct answer is option (b).</p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tIf the correlation coefficient between two variables is –0.8, what does this indicate about the relationship between the variables?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Strong positive correlation"
+    },
+    {
+     "key": "B",
+     "html": "Weak positive correlation"
+    },
+    {
+     "key": "C",
+     "html": "Strong negative correlation"
+    },
+    {
+     "key": "D",
+     "html": "Weak negative correlation"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c)<br />\n\tThe correlation coefficient measures the strength and direction of the linear relationship between two variables. A correlation coefficient of &ndash;0.8 indicates a strong negative linear relationship between the variables. This means that as one variable increases, the other variable tends to decrease, and vice-versa.<br />\n\tSo, a correlation coefficient of &ndash;0.8 indicates a strong negative correlation.<br />\n\tTherefore, the correct answer is (c).</p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tIn a dataset, the mode occurs at 12 and the mean is 15. If one value of the dataset is changed to 20,<br />\n\tWhich of the following are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Mode increases"
+    },
+    {
+     "key": "B",
+     "html": "Mode decreases"
+    },
+    {
+     "key": "C",
+     "html": "Mode remains unchanged"
+    },
+    {
+     "key": "D",
+     "html": "Mode cannot be determined"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)<br />\n\tThe mode represents the most frequently occurring value in a dataset. Since the mode is 12 and&nbsp; changed to 20, the mode remains unchanged.<br />\n\tSo, the mode remains unchanged. Therefore, the correct answer is (c).</p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tGiven two random variables <em>X</em> and <em>Y</em> with the following values:<br />\n\t<em>X</em> : 1, 2, 3, 4, 5<br />\n\t<em>Y</em> : 2, 3, 4, 5, 6<br />\n\tCompute the covariance between <em>X</em> and <em>Y</em>.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.5,
+    2.5
+   ],
+   "answerText": "2.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.5</p>\n<p>\n\t<img alt=\"\" src=\"media/0c/0c39a9d8f710e505068c.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tIf the mean of a dataset is 25 and the standard deviation is 5, what is the coefficient of variation (CV)?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.2,
+    0.2
+   ],
+   "answerText": "0.20",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.20</p>\n<p>\n\t<img alt=\"\" src=\"media/bf/bf93ea0c040f2e6a3a7d.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements about joint probability distributions is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Joint probability distributions only deal with discrete random variables."
+    },
+    {
+     "key": "B",
+     "html": "Joint probability distributions describe the probability of multiple events occurring simultaneously."
+    },
+    {
+     "key": "C",
+     "html": "Joint probability distributions are only applicable to independent events."
+    },
+    {
+     "key": "D",
+     "html": "Joint probability distributions always result in a single probability value."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tJoint probability distributions describe the probabilities associated with combinations of values of multiple random variables.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tLet <em>X</em> be a random variable representing the number of heads obtained when two fair coins are tossed. What is the probability distribution of <em>X</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>X</em> ~ Binomial (2, 0.5)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>X</em> ~ Bernoulli (0.5)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>X</em> ~ Poisson (2)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>X</em> ~ Uniform (0, 2)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/17/170ffcd5f32314da3cab.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tIf X is a discrete random variable with probability mass function given by <em>P</em>(<em>X</em> = 1) = 0.4, <em>P</em>(<em>X</em> = 2) = 0.3 and P(X = 3) = 0.3, what is the expected value of <em>X</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.1"
+    },
+    {
+     "key": "B",
+     "html": "1.9"
+    },
+    {
+     "key": "C",
+     "html": "1.7"
+    },
+    {
+     "key": "D",
+     "html": "2.0"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/3e/3e6e5aa0100f5deb42bb.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tLet X be a continuous random variable with probability density function given by <img align=\"absmiddle\" alt=\"\" src=\"media/0a/0a4610e4fac585e11eff.png\" /> for 0 <img align=\"absmiddle\" alt=\"\" src=\"media/70/70e5de2f1ab0d04c1ebe.png\" /> What is the variance of X?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/72/72387c7dfe059b514280.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d8/d8a6d8eff52a5eecb434.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/63/6399c6fdfb9c051c2028.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fb/fbd0ca791197f11018af.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/a5/a5223e54d9f2473cb65d.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tCovariance measures:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The strength of the relationship between two random variables."
+    },
+    {
+     "key": "B",
+     "html": "The spread of a single random variable."
+    },
+    {
+     "key": "C",
+     "html": "The sum of squared deviations from the mean."
+    },
+    {
+     "key": "D",
+     "html": "The probability of two events occurring simultaneously."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\tCovariance measures how much two random variables change together. It indicates the direction of the linear relationship between variables.</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements about correlation coefficient is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Correlation coefficient is a measure of the spread of data points."
+    },
+    {
+     "key": "B",
+     "html": "Correlation coefficient ranges from –1 to 1, where –1 indicates a strong negative correlation."
+    },
+    {
+     "key": "C",
+     "html": "Correlation coefficient measures the absolute relationship between two variables."
+    },
+    {
+     "key": "D",
+     "html": "Correlation coefficient is always positive when there is a negative correlation between variables."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\tThe correlation coefficient measures the strength and direction of the linear relationship between two variables. It ranges from &ndash;1 to 1, where &ndash;1 indicates a perfect negative correlation, 1 indicates a perfect positive correlation, and 0 indicates no linear correlation.</p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tIf the difference between the expectation of the square of a random variable <img align=\"absmiddle\" alt=\"\" src=\"media/d4/d4ee6ef2a28ec597a86f.png\" /> and the square of the expectation of the random variable <img align=\"absmiddle\" alt=\"\" src=\"media/0d/0df5616a33aeef4bbdb6.png\" /> is denoted by <em>R</em>, then</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>R</em> = 0</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>R</em> < 0</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>R</em> ≥ 0</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>R</em> > 0</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(C)</p>\n<p>\n\t<img alt=\"\" src=\"media/5f/5f816a37b8d7a8323d97.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements about conditional probability is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Conditional probability is always equal to the joint probability of two events."
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tConditional probability can be calculated using the formula <img align=\"absmiddle\" alt=\"\" src=\"media/16/164de7f7aa9a93eb3a7c.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "If two events are independent, their conditional probabilities are also independent."
+    },
+    {
+     "key": "D",
+     "html": "Conditional probability allows us to update our beliefs about an event based on new information."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)<br />\n\tConditional probability helps us update our understanding of the likelihood of an event occurring based on new information or conditions. It is fundamental in Bayesian statistics and decisionmaking processes.</p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tGiven the following dataset representing a random variable <em>X</em>:<br />\n\t<em>X</em> : 2, 4, 6, 8, 10<br />\n\tCalculate the standard deviation of <em>X</em>.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.83,
+    2.83
+   ],
+   "answerText": "2.83",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.83</p>\n<p>\n\t<img alt=\"\" src=\"media/33/33806fc6ca731692033f.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 12,
+   "MSQ": 2,
+   "NAT": 3
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-043",
+ "title": "Topicwise Test-19 Part Syllabus GATE 2025 EC Communications",
+ "sourceTitle": "Topicwise Test-19 Part Syllabus GATE 2025 EC Communications",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 43,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/071_Topicwise Test-19 Part Syllabus GATE 2025 EC Communications.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The bandwidth required for the frequency modulated signal is<br />\n(Assume <em>f<sub>m</sub></em> is the maximum frequency present in the message signal)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t(β + 1)2 <em>f<sub>m</sub></em></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t2 <em>f<sub>m</sub></em></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>f<sub>m</sub></em></p>"
+    },
+    {
+     "key": "D",
+     "html": "infinite"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\n&bull; Ideally, for frequency modulated signal, requirement of bandwidth is infinite.<br />\n&bull; The bandwidth required to obtain the most significant sidebands in the FM signal is given by Carson&rsquo;s rule as BW = (&beta; + 1)2<em>f<sub>m</sub></em>.<br />\nSince, here nothing is mentioned. Therefore by default we assume for ideal case. Hence, option (d) is correct.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A setup is made to calculate the modulation index, μ of an AM signal using trapezoidal display.</p>\n\n<p><img alt=\"\" src=\"media/16/167b9fd441af529cafd2.png\" /></p>\n\n<p>If the tapezoidal pattern as shown above is obtained, the modulation index, μ is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/da/dae4a2c2df24fdb9a7a7.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "0"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5c/5cac33563644faf1dce3.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/e9/e9a943d6b5bd3edcf8c4.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>An angle modulated signal <img align=\"absmiddle\" alt=\"\" src=\"media/af/af0e35d3592adb2f1d6e.png\" /> as 250. Then, the maximum frequency deviation for phase modulated signal is given as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t5<em>K<sub>f</sub></em> kHz</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t1.25<em>K<sub>p</sub></em> kHz</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t1.25<em>K<sub>f</sub></em> kHz</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t500<em>K<sub>p</sub></em> kHz</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/57/571c2f75f3e474a70bca.png\" /></p>\n\n<p><img alt=\"\" src=\"media/18/185d82a46c107095983a.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A DSB-SC signal is generated using the carrier cos(ω<em><sub>c</sub>t</em> + θ) and modulating signal <em>m</em>(<em>t</em>). The envelope of the resulting DSB-SC signal is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>m</em>(<em>t</em>)cos<sup>2</sup>θ</p>"
+    },
+    {
+     "key": "B",
+     "html": "directly proportional to θ"
+    },
+    {
+     "key": "C",
+     "html": "inversely proportional to θ"
+    },
+    {
+     "key": "D",
+     "html": "independent of θ"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/84/8423b8ac11a55c83e0ce.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The RF stage of a super heterodyne receiver is tuned to a frequency of 1200 kHz. If intermediate frequency is 455 kHz, then the image frequency (in kHz) of the tuned station is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "290 kHz"
+    },
+    {
+     "key": "B",
+     "html": "1655 kHz"
+    },
+    {
+     "key": "C",
+     "html": "745 kHz"
+    },
+    {
+     "key": "D",
+     "html": "Both (c) and (d)"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/d0/d04f73ede9c8f5bb4612.png\" /></p>\n\n<p><img alt=\"\" src=\"media/d6/d6d9a41d2de0e9643fa3.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>An unmodulated AM transmitter power is given by 10 kW. When carrier is modulated by 1<sup>st </sup>message signal, AM power is increased to 15 kW. If carrier is simultaneously modulated by 2<sup>nd</sup> message signal with 50% of modulation, then resultant AM power will be _______ kW.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    16,
+    16.5
+   ],
+   "answerText": "16.25",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>16.25 (16.00 - 16.50)</p>\n\n<p><img alt=\"\" src=\"media/b4/b42708f35213d427584d.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The maximum phase deviation of angle modulated signal</p>\n\n<p><img align=\"absmiddle\" alt=\"\" src=\"media/30/307083dd5d52c333fd24.png\" /> with carrier frequency 1000 kHz is _______ degree. (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1890.7,
+    1890.79
+   ],
+   "answerText": "1890.76",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1890.76 (1890.70 - 1890.79)</p>\n\n<p><img alt=\"\" src=\"media/e4/e4163082435b8c01e6a6.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The input given to an envelope detector of a singletone modulated signal is given by</p>\n\n<p><img align=\"absmiddle\" alt=\"\" src=\"media/ba/baffd3d2240a2d0c653d.png\" /> The maximum value of time constant “<em>RC</em>” of the detector that can follow the envelope of the modulated signal is _________ μsec. (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    76.35,
+    76.4
+   ],
+   "answerText": "76.38",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>76.38 (76.35 - 76.40)</p>\n\n<p><img alt=\"\" src=\"media/ca/cab599127db23834aeed.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the following statements about superheterodyne receiver:<br />\n(a) IF used in AM receiver is 455 kHz.<br />\n(b) IF used in FM receiver is 10.7 kHz.<br />\n(c) The bandwidth of IF amplifier in AM is 10 kHz.<br />\n(d) The bandwidth of IF amplifier in FM is 200 Hz.<br />\nWhich of the above statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)<br />\nThe bandwidth of a single channel for an FM radio is 200 kHz. So, the bandwidth of IF amplifier<br />\nin FM is 200 kHz. Hence, option (d) is not correct.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A 15 watts, 1 MHz unmodulated carrier is frequency modulated with a sinusoidal signal such that the peak deviation is 6 kHz. The frequency of modulating signal is 2 kHz. The average power contained in the bandwidth as per Carson’s rule is<br />\n(For modulation index β, consider Bessel coefficients <em>J<sub>n</sub></em>(β), <em>J</em><sub>0</sub> = –0.26, <em>J</em><sub>1</sub> = 0.34, <em>j<sub>2</sub></em> = 0.44, <em>J</em><sub>3</sub> = 0.31, <em>J</em><sub>4</sub> = 0.13, <em>J</em><sub>5</sub> = 0.04, <em>J</em><sub>6</sub> = 0.01)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "13.68 Watt"
+    },
+    {
+     "key": "B",
+     "html": "15 Watt"
+    },
+    {
+     "key": "C",
+     "html": "1.0084 Watt"
+    },
+    {
+     "key": "D",
+     "html": "13.73 Watt"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/8d/8d8beed353941d97ef0c.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>In a superheterodyne receiver having no RF amplifier the loaded Q of the antenna coupling circuit (at the input of mixer) is 90. If the intermediate frequency is 455 kHz and the receiver is tuned at 950 kHz, then the image frequency rejection ratio is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "288.2"
+    },
+    {
+     "key": "B",
+     "html": "144.81"
+    },
+    {
+     "key": "C",
+     "html": "162"
+    },
+    {
+     "key": "D",
+     "html": "130.5"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/9a/9ab5d0f4532a11dc58cd.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The resonant frequency of RF amplifier of a receiver is 1 MHz and its bandwidth is 10 kHz, then the quality factor <em>Q</em> of the amplifier is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "99"
+    },
+    {
+     "key": "B",
+     "html": "100"
+    },
+    {
+     "key": "C",
+     "html": "101"
+    },
+    {
+     "key": "D",
+     "html": "50"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/3a/3a5305456ad401dd64dd.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>An amplifier has a bandwidth of 4 MHz with 10 kΩ as the input resistor. The rms noise voltage at the input to this amplifier at room temperature (25°C) is _______.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t6.58 × 10<sup>–10</sup> V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t5.52 × 10<sup>–11</sup> V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t2.57 × 10<sup>–5</sup> V</p>"
+    },
+    {
+     "key": "D",
+     "html": "Insufficient data"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/dd/ddce1a60c03f58d07fcf.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The carrier of an AM transmitter is modulated by a sinusoidal message signal. The unmodulated carrier power is 80 W. If the transmitting antenna can withstand upto 100 W, then the maximum allowed value of modulation index of the AM wave will be _________.<br />\n(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.65,
+    0.75
+   ],
+   "answerText": "0.707",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.707 (0.65 - 0.75)</p>\n\n<p><img alt=\"\" src=\"media/59/59c4ac7d390449385192.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A DSB-SC signal <em>s</em>(<em>t</em>) = Acos(ω<em><sub>c</sub>t</em>) <em>m</em>(<em>t</em>) is passed through the receiver circuit shown below:</p>\n\n<p><img alt=\"\" src=\"media/69/690c1990d8d45bf4317a.png\" /></p>\n\n<p>If the bandwidth of the LPF is equal to the bandwidth of the message signal <em>m</em>(<em>t</em>) and <em>P<sub>m</sub></em> is the average power of the message signal m(t), then the average power of the signal y(t) for <em>A</em> = 16 V is _________ <em>P<sub>m</sub></em> Watt.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12280,
+    12299
+   ],
+   "answerText": "12288",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>12288 (12280 - 12299)</p>\n\n<p><img alt=\"\" src=\"media/01/018adeae4f36e57d2c1f.png\" /></p>\n\n<p><img alt=\"\" src=\"media/11/11cabf6d5517209fe145.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A frequency modulated signal with a carrier frequency of “<em>f<sub>c</sub></em>” is given by,</p>\n\n<p><img alt=\"\" src=\"media/a5/a5057351245e38f57675.png\" /></p>\n\n<p>The maximum frequency deviation of the signal s(t) is equal to ______ kHz.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    15
+   ],
+   "answerText": "15",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>15 (15 - 15)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3b/3ba2f4355d0bad7c7d76.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the amplitude modulated signal shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ba/ba3e889520c8ddf76d26.png\" /></div>\n\n<div>For the above signal, which of the following statement(s) is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The modulation index, μ is 0.25."
+    },
+    {
+     "key": "B",
+     "html": "<p>The message signal, <img align=\"absmiddle\" alt=\"\" src=\"media/2e/2ea1aac2999a78f19802.png\" /> Volt</p>"
+    },
+    {
+     "key": "C",
+     "html": "To get modulation index, μ = 0.2, extra 20 V AC amplitude is required in the carrier signal."
+    },
+    {
+     "key": "D",
+     "html": "<p>The message signal, <img align=\"absmiddle\" alt=\"\" src=\"media/f6/f6565e9a045ee21e9efa.png\" /> Volt.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<p><img alt=\"\" src=\"media/55/5574d2f20807e6b418ba.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "NAT": 6,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

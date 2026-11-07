@@ -1,0 +1,565 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-059",
+ "title": "DVRUO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 3",
+ "sourceTitle": "DVRUO Classes CS | Digital Logic | Boolean Algebra | Weekly Quiz 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 59,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Digital Logic"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/060_exam_1026_GO Classes CS Digital Logic Boolean Algebra Weekly Quiz 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "For $4$ input boolean variables, the number of boolean functions possible is $?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    16,
+    16
+   ],
+   "answerText": "16",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"476423\"></a><div itemprop=\"text\">For 4 input there are 16 combination.<br>\n<br>\nand the function is 16 combination &nbsp;to {0,1}<br>\n<br>\nthen number of function 2^16 =65536</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"474847\"></a><div itemprop=\"text\"><p>For $n$ input boolean variables, the number of boolean functions possible is $2^{(2^n)}$.</p><p>To see why, notice that a truth table for $n$ variables has $2^n$ rows. Each of these rows can have a $1$ or a $0$ as the value of the boolean function. Thus, the total number of functions is $2^{(2^n)}$.</p><p>For $2$ variables, the answer is $16$ and for $3$ variables, the answer is $256$.</p><p>&nbsp;</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=qHnouulwPoc&amp;ab_channel=GOClassesforGATECS\">Watch Detailed Video Solution here! </a> &nbsp;&nbsp;</p></div></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"488357\"></a><div itemprop=\"text\">key point: <br>\n<br>\nn veriable =&gt; 2^(2^n) boolean fxn =&gt; 2^(2^(n-1)) self dual</div></section></div><p><a href=\"https://gateoverflow.in/474845\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For the identity $AB + A' C + BC = AB + A' C$, the dual form is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(A+B) (A&#x27;+C)(B+C)= (A+B)(A&#x27;+C)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(A&#x27;+ B&#x27;) ( A&#x27; + C&#x27;) (B&#x27;+C&#x27;)= (A&#x27;+ B&#x27;) (A +C&#x27;)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(A+B) (A&#x27;+C) (B+C) = (A&#x27;+ B&#x27;) (A+ C&#x27;)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A&#x27;B&#x27;+AC&#x27;+ B&#x27;C&#x27;= A&#x27;B&#x27;+AC&#x27;$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"488356\"></a><div itemprop=\"text\">Key points in self dual : <br>\n<br>\n1 : replace 0 with 1 and vice versa .<br>\n<br>\n2: Replace &nbsp;dot (.) with + and vice -versa<br>\n<br>\n3. do not change the variables amd bars.<br>\n<br>\nand dual or<br>\n<br>\nnand dual nor <br>\n<br>\nxor dual xnor <br>\n<br>\nbuffer dual duffer<br>\n<br>\nnot dual not</div></section></div><p><a href=\"https://gateoverflow.in/474844\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For the switch circuit, taking open as $0$ and closed as $1$, the expression for the circuit is $\\text{Y}$.</p><p><img alt=\"\" src=\"media/9c/9c28a7434c2624bc4d54.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A+ (B+C) D$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A+ BC +D$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A (BC+D)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"475425\"></a><div itemprop=\"text\">For the circuit B,C,D, &nbsp;B,C are in serial connection so BC and D is in parallel connection to B,C so BC+D..<br>\n<br>\nThe whole circuit is in serial connection with A so A(BC+D).<br>\n<br>\nso correct option is C<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"475084\"></a><div itemprop=\"text\">A + BCD <br>\nFor the current to flow through A should be closed (1) and then there is paralllel connection - it can either pass through BC or D</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"488358\"></a><div itemprop=\"text\">Solve by hit and trail method like :<br>\n<br>\nA=0 disconnected and B=1 and C=1 still we know the output shoud y=0 bec cicuit is disconnected .<br>\n<br>\n(A) put A=0,B=1,c=1 it gives 1 wrong need to give 0 <br>\n<br>\nsame as A , B will be eliminated only C is correct tht will give 0.</div></section></div><p><a href=\"https://gateoverflow.in/474843\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Refer to the following figure. If $\\mathbf{A}=\\mathbf{0}$ and $\\mathbf{B}=\\mathbf{1}$, what will be the logic states at $\\mathbf{X}, \\mathbf{Y}$ and $\\mathbf{Z}$ ?<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt=\"\" src=\"media/60/608be1b933fa941b96a6.png\"></p><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{X}=1, \\mathrm{Y}=1, \\mathrm{Z}=0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{X}=1, \\mathrm{Y}=0, \\mathrm{Z}=0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{X}=0, \\mathrm{Y}=0, \\mathrm{Z}=1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{X}=0, \\mathrm{Y}=1, \\mathrm{Z}=0$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"474849\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/3Wj-BXY41MU?t=459&amp;feature=shared\">Detailed Video Solution </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/474842\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" src=\"media/97/970d78ac8896a1944724.png\"></p><p>Given circuit represents</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>INVERTER<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>AND<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>OR<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>NOR</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"474850\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/3Wj-BXY41MU?t=1720\">Watch Video Solution here! </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/474841\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" src=\"media/57/5752cbdea7e9d664eea7.png\"></p><p>In the given network of AND and OR gates <strong>f</strong> can be written as:<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$X0 X1 X2 .....Xn + X1 X2 . ....Xn + X2 X3 ....Xn.... Xn$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;$X0 X1 + X2 + X3 +....... +Xn-1 . Xn$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$X0+X1+ X2+ .......+ Xn$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$X0 X1 X3........  Xn-1 + X2 X3 X5 ......... Xn-1 + ........+ Xn-2 Xn-1 +Xn$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"475091\"></a><div itemprop=\"text\">O/P at 1st And gate - X0X1<br>\nO/P at 2nd Or gate - (X0X1+X2)<br>\nO/P at 2rd And gate - (X0X1 + X2)X3<br>\nO/P at 2nd Or gate - ((X0X1 + X2 ) X3)+ X4) = (X0X1X3 + X2X3) + X4<br>\nO/P at 3rd And gate - (X0X1X3 + X2X3+ X4)X5 = X0X1X3X5 + X2X3X5 + X4X5<br>\nSo like wise if u follow the pattern answer will be Option D</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"525596\"></a><div itemprop=\"text\"><p>Just observe the pattern for n =&nbsp; 4&nbsp; and genralize it&nbsp; &nbsp;option D is correct.&nbsp;</p><p><br><img alt=\"\" src=\"media/71/71ba7de1cea5770825e1.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/474840\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Boolean expression for the output of the logic circuit shown&nbsp; in the figure is</p><p><img alt=\"\" src=\"media/ec/ecc97154dbfe05c17fa1.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$Y=AB+ A&#x27;B&#x27;+C$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$Y=  AB+A&#x27;B&#x27;+ C&#x27;$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$Y=A B&#x27;+ A&#x27;B+C$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$Y=AB+ A&#x27;B+ C&#x27;$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"481402\"></a><div itemprop=\"text\">A EX-OR B = A'B+AB' ------------1<br>\n<br>\n(A EX-OR B)' + C' ==&gt; AB+A'B+C'</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"530810\"></a><div itemprop=\"text\">The first one would directly be XOR, and second one would be NAND operation with first XOR<br>\n<br>\ni.e. Y = ( ( A$\\oplus$B ) $\\uparrow$ C )<br>\n$\\therefore$ Y = ( ( A$\\oplus$B ) . C )'<br>\n<br>\n$\\therefore$ Y = ( (A$\\odot$B) + C' )<br>\n$\\therefore$ Y = AB + A'B' + C' <br>\ni.e. Option B would be correct.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"541950\"></a><div itemprop=\"text\"><p>The correct option is <strong>B</strong>.</p><p><strong>Step-by-step Solution:</strong></p><ol><li><strong>First Gate (XOR Gate):</strong></li></ol><ul><li>Inputs: $A$ and $B$</li><li>Output: $A \\oplus B = AB' + A'B$</li></ul><ol><li><strong>Final Gate (NAND Gate):</strong></li></ol><ul><li>Inputs: $(A \\oplus B)$ and $C$</li><li>Output expression $Y$:</li></ul><p>$$Y = \\overline{(A \\oplus B) \\cdot C}$$</p><ol><li><strong>Simplification using De Morgan's Law:</strong></li></ol><ul><li>Using $\\overline{X \\cdot Y} = \\overline{X} + \\overline{Y}$:</li></ul><p>$$Y = \\overline{(A \\oplus B)} + \\overline{C}$$</p><ul><li>Since the complement of XOR is XNOR ($\\overline{A \\oplus B} = AB + A'B'$):</li></ul><p>$$Y = AB + A'B' + C'$$</p><p>This matches <strong>Option B</strong>.</p></div></section></div><p><a href=\"https://gateoverflow.in/474839\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Boolean algebra has an interesting property called duality.<br>The dual form of $\\mathrm{A}+\\mathrm{BC}$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{AB}+\\mathrm{C}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A^{\\prime} B^{\\prime}+C^{\\prime}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A(B+C)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A^{\\prime}\\left(B^{\\prime}+C^{\\prime}\\right)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"474838\"></a><div itemprop=\"text\"><p>Be careful not to change the order of operations when finding a dual form.<br><br>For example, the dual form of $\\mathrm{A}+\\mathrm{BC}$ is $\\mathrm{A}(\\mathrm{B}+\\mathrm{C})$.<br><br>In $\\mathrm{A}+\\mathrm{BC}$, the operation on B and C must happen before the other operation.<br><br>So, $\\mathrm{A}+\\mathrm{BC}=\\mathrm{A}+(\\mathrm{BC})$<br>Dual of $\\mathrm{A}+(\\mathrm{BC})$ will be $\\mathrm{A}(\\mathrm{B}+\\mathrm{C})$</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/3Wj-BXY41MU?t=3171&amp;feature=shared\">Watch Video Solution here! </a> &nbsp;&nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"488360\"></a><div itemprop=\"text\">Using basic property of boolean algebra :<br>\n<br>\nA+BC = (A+B)(A+C)<br>\nDual : <br>\n<br>\n(A.B)+(A.C)<br>\n<br>\nA(B+C).</div></section></div><p><a href=\"https://gateoverflow.in/474837\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Some of the theorems of Boolean algebra are not true for ordinary algebra. Similarly, some of the theorems of ordinary algebra are not true for Boolean algebra.<br>Which of the following cancellation laws is/are not true for Boolean algebra ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $\\mathrm{A}+\\mathrm{B}=\\mathrm{A}+\\mathrm{C}$, then $\\mathrm{B}=\\mathrm{C}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $\\mathrm{AB}=\\mathrm{AC}$, then $\\mathrm{B}=\\mathrm{C}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $\\mathrm{A} \\oplus \\mathrm{B}=\\mathrm{A} \\oplus \\mathrm{C}$, then $\\mathrm{B}=\\mathrm{C}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $\\mathrm{A} \\odot \\mathrm{B}=\\mathrm{A} \\odot \\mathrm{C}$, then $\\mathrm{B}=\\mathrm{C}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"474836\"></a><div itemprop=\"text\"><p>In Boolean Algebra, cancellation law holds for <strong>XOR</strong>, <strong>XNOR</strong>:<br>If $\\mathrm{A} \\oplus \\mathrm{B}=\\mathrm{A} \\oplus \\mathrm{C}$, then we can <strong>XOR</strong> both sides with $A$ :<br><br><br>$\\Rightarrow \\mathrm{A} \\oplus \\mathrm{A} \\oplus \\mathrm{B}=\\mathrm{A} \\oplus \\mathrm{A} \\oplus \\mathrm{C} \\Rightarrow \\mathbf{0} \\oplus \\mathrm{B}=\\mathbf{0} \\oplus \\mathrm{C} \\Rightarrow \\mathrm{B}=\\mathrm{C}$<br><br><strong>OR</strong>, <strong>AND</strong> do NOT satisfy this property.<br><br><strong>XNOR</strong> also satisfies the cancellation law, just like <strong>XOR.</strong><br><br>If $\\mathrm{A} \\odot \\mathrm{B}=\\mathrm{A} \\odot \\mathrm{C}$,<br><br>then taking <strong>XNOR</strong> with $A$ on both sides:<br><br>$$<br>\\begin{aligned}<br>&amp; A \\odot A \\odot B=A \\odot A \\odot C \\\\<br>&amp; \\Rightarrow \\mathbf{1} \\odot B=\\mathbf{1} \\odot C \\\\<br>&amp; \\Rightarrow B=C<br>\\end{aligned}<br>$$</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"488362\"></a><div itemprop=\"text\">In this type of ques always try to make LHS true and RHS false<br>\n(A) : A+B=A+C -&gt; B=C<br>\ntake B=0 and C=1 RHS false<br>\n<br>\nNOW LHS A=1 <br>\n<br>\n1+0=1+1 &nbsp;-&gt; &nbsp;0 != 1<br>\n<br>\n1=1 -&gt; false<br>\n<br>\ntrue -&gt; false so A is flase <br>\n<br>\nsame as othr options.</div></section></div><p><a href=\"https://gateoverflow.in/474835\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Some of the theorems of Boolean algebra are not true for ordinary algebra. Similarly, some of the theorems of ordinary algebra are not true for Boolean algebra.<br>Which of the following is/are true for Boolean algebra?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $x+y=x+z$, then $y=z$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $x y=x z$, then $y=z$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $\\mathrm{y}=\\mathrm{z}$, then $\\mathrm{x}+\\mathrm{y}=\\mathrm{x}+\\mathrm{z}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $y=z$, then $x y=x z$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"478616\"></a><div itemprop=\"text\">A) If X = 1, Y = 0. Z = 1, false<br>\nB) If X =0. Y = 0, Z = 1, false<br>\nC) Always True<br>\nD) Always True<br>\nBasicaly , try to make each statement false, if you cant then it is true..</div></section></div><p><a href=\"https://gateoverflow.in/474834\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are always true, in Boolean algebra?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $A+B=C$, then $A D^{\\prime}+B D^{\\prime}=C D^{\\prime}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $A^{\\prime} B+A^{\\prime} C=A^{\\prime} D$, then $B+C=D$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $A+B=C$, then $A+B+D=C+D$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $A+B+C=C+D$, then $A+B=D$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"474833\"></a><div itemprop=\"text\">Cancellation Laws do NOT hold for OR, AND in Boolean Algebra.</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"498136\"></a><div itemprop=\"text\">CORRECT ANSWER IS :- A,C</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"519112\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Analysis of Statements</p><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\">A. If $A + B = C$, then $AD' + BD' = CD'$</b></p><ul data-path-to-node=\"4,0,1\"><li><p data-path-to-node=\"4,0,1,0,0\"><b data-path-to-node=\"4,0,1,0,0\" data-index-in-node=\"0\">Status: ALWAYS TRUE.</b></p></li><li><p data-path-to-node=\"4,0,1,1,0\"><b data-path-to-node=\"4,0,1,1,0\" data-index-in-node=\"0\">Reason:</b> This follows the <b data-path-to-node=\"4,0,1,1,0\" data-index-in-node=\"25\">Distributive Law</b>. If you multiply (AND) both sides of the equation by $D'$, you get $(A + B)D' = CD'$. Distributing $D'$ gives $AD' + BD' = CD'$.</p></li></ul></li><li><p data-path-to-node=\"4,1,0\"><b data-path-to-node=\"4,1,0\" data-index-in-node=\"0\">B. If $A'B + A'C = A'D$, then $B + C = D$</b></p><ul data-path-to-node=\"4,1,1\"><li><p data-path-to-node=\"4,1,1,0,0\"><b data-path-to-node=\"4,1,1,0,0\" data-index-in-node=\"0\">Status: FALSE.</b></p></li><li><p data-path-to-node=\"4,1,1,1,0\"><b data-path-to-node=\"4,1,1,1,0\" data-index-in-node=\"0\">Reason:</b> This assumes you can \"cancel\" $A'$. In Boolean algebra, you cannot divide or cancel terms. For example, if $A' = 0$ (meaning $A = 1$), then $0 \\cdot B + 0 \\cdot C = 0 \\cdot D$ is $0 = 0$, which is true regardless of what $B, C$, and $D$ are. Thus, $B + C$ does not <i data-path-to-node=\"4,1,1,1,0\" data-index-in-node=\"257\">have</i> to equal $D$.</p></li></ul></li><li><p data-path-to-node=\"4,2,0\"><b data-path-to-node=\"4,2,0\" data-index-in-node=\"0\">C. If $A + B = C$, then $A + B + D = C + D$</b></p><ul data-path-to-node=\"4,2,1\"><li><p data-path-to-node=\"4,2,1,0,0\"><b data-path-to-node=\"4,2,1,0,0\" data-index-in-node=\"0\">Status: ALWAYS TRUE.</b></p></li><li><p data-path-to-node=\"4,2,1,1,0\"><b data-path-to-node=\"4,2,1,1,0\" data-index-in-node=\"0\">Reason:</b> This is the <b data-path-to-node=\"4,2,1,1,0\" data-index-in-node=\"20\">Property of Equality</b>. If two expressions are equal, adding (ORing) the same variable $D$ to both sides will maintain that equality.</p></li></ul></li><li><p data-path-to-node=\"4,3,0\"><b data-path-to-node=\"4,3,0\" data-index-in-node=\"0\">D. If $A + B + C = C + D$, then $A + B = D$</b></p><ul data-path-to-node=\"4,3,1\"><li><p data-path-to-node=\"4,3,1,0,0\"><b data-path-to-node=\"4,3,1,0,0\" data-index-in-node=\"0\">Status: FALSE.</b></p></li><li><p data-path-to-node=\"4,3,1,1,0\"><b data-path-to-node=\"4,3,1,1,0\" data-index-in-node=\"0\">Reason:</b> Similar to statement B, this relies on a \"cancellation law\" for addition (OR) that doesn't exist. For example, if $C = 1$, then $A + B + 1 = 1 + D$ becomes $1 = 1$. This is true for any values of $A, B$, and $D$, so $A + B$ is not necessarily equal to $D$.</p></li></ul></li></ul><p data-path-to-node=\"4,3,1,1,0\"><b data-path-to-node=\"8\" data-index-in-node=\"0\">Correct Statements: A and C.</b>​​​​​​​</p></div></section></div><p><a href=\"https://gateoverflow.in/474832\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a Boolean algebra, which of the following statements are true $?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $x\\left(y+a^{\\prime}\\right)=x\\left(y+b^{\\prime}\\right)$, then $a=b$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $a^{\\prime} b+a b^{\\prime}=a^{\\prime} c+a c^{\\prime}$, then $b=c$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A \\oplus B C=(A \\oplus B)(A \\oplus C)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$ x+y=x \\oplus y \\oplus x y $</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"474831\"></a><div itemprop=\"text\"><p>Hint for Option A, Take $\\mathrm{x}=0, \\mathrm{a}=0, \\mathrm{~b}=1$<br><br>Option B Explanation:<br><br>In Boolean Algebra, cancellation law holds for <strong>XOR</strong>, <strong>XNOR</strong>:<br>If $\\mathrm{A} \\oplus \\mathrm{B}=\\mathrm{A} \\oplus \\mathrm{C}$, then we can <strong>XOR</strong> both sides with A :<br>$\\Rightarrow A \\oplus A \\oplus B=A \\oplus A \\oplus C \\Rightarrow 0 \\oplus B=0 \\oplus C \\Rightarrow B=C$<br><br>For Option C, D: Apply By Case Method.</p></div></section></div><p><a href=\"https://gateoverflow.in/474830\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a Boolean algebra, which of the following statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x(y \\oplus z)=x y \\oplus x z$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x+(y \\oplus z)=(x+y) \\oplus(x+z)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x(y \\equiv z)=x y \\equiv x z$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x+(y \\equiv z)=(x+y) \\equiv(x+z)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"474829\"></a><div itemprop=\"text\">Use By Case Method. Case 1: $\\mathrm{X}=0$; Case 2: $\\mathrm{X}=1$</div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"481010\"></a><div itemprop=\"text\"><p><strong>True:</strong> A and D<br><strong>False:</strong> B and C</p><ul><li><p><strong>A.</strong>&nbsp;when x = 0 , LHS =&nbsp;RHS =0. When x=1 , LHS = RHS = y EXOR z</p></li><li><p><strong>B.</strong>&nbsp; when x = 1 , LHS = 1 and RHS = 0</p></li><li><p><strong>C.</strong>&nbsp;when x = 0 , LHS = 0 and RHS = 1</p></li><li><p><strong>D.</strong>&nbsp; when x =&nbsp; 0, LHS = RHS =&nbsp; y EXNOR Z and when x =1 , LHS = RHS = 1</p></li></ul><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/474828\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><img alt=\"\" src=\"media/46/467c3f32e7020867fc79.png\"></p><p>&nbsp;The Boolean expression for the shaded area in the Venn diagram is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$X&#x27;+Y&#x27;+Z$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$X Y&#x27; Z + X&#x27; Y Z$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$X+Y +Z$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$X&#x27;Y&#x27;Z \\ +$ $XY$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"474852\"></a><div itemprop=\"text\"><p><strong>D) X'Y'Z+XY</strong></p><p><img alt=\"\" src=\"media/ab/ab80b5ab57f6c453dba5.png\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540260\"></a><div itemprop=\"text\"><p>x&nbsp;∩ y = xy</p><p>x∪y = x+y</p><p>x-y = xy'</p><p><strong>now here,</strong></p><p>xy+z(y+z)'&nbsp;</p><p>=&gt; xy + x'y'z</p></div></section></div><p><a href=\"https://gateoverflow.in/474827\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The simplification of the Boolean expression $(\\overline{\\overline{\\boldsymbol{A}} \\boldsymbol{B} \\overline{\\boldsymbol{C}}})+(\\overline{\\boldsymbol{A} \\overline{\\boldsymbol{B}} \\boldsymbol{C}})$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$BC$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"474851\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/3Wj-BXY41MU?t=2659\">Watch Video Solution here! </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/474826\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 6,
+  "types": {
+   "NAT": 1,
+   "MCQ": 9,
+   "MSQ": 5
+  },
+  "withoutKey": 11
+ }
+}

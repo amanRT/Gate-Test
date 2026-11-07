@@ -1,0 +1,533 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-097",
+ "title": "DVRUO Classes CS Test Series | Operating Systems | Topic Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | Operating Systems | Topic Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 97,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Operating Systems"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/052_exam_1386_GO Classes CS Test Series Operating Systems Topic Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A user-level process cannot modify its own page table entries.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The scheduler is the part of an Operating System that determines the priority of each process.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Shortest Remaining Time First is the best preemptive scheduling algorithm that can be implemented in an Operating System.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No process will starve for CPU in round robin scheduling.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/384353\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A starvation-free job-scheduling policy guarantees that no job waits indefinitely for service. Which of the following job-scheduling policies is starvation-free?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Round-robin</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Priority queuing</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Shortest job first</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Youngest job first</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/384351\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following transition diagram in which a thread moves between each of the $3$ states :</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/de/dec6768cfa426345c218.png\"></p><p><br>Below we give some conditions that cause the thread to move between each of the $3$ states, and causes each arrow :</p><ul><li>$\\text{P} :$&nbsp; process is scheduled by the scheduler and executed by CPU.</li><li>$\\text{Q} :$ Time slice runs out, but the process is still wanting to run.</li><li>$\\text{R} :$ I/O completes, or lock is acquired. Woken up by a semaphore or conditional.</li><li>$\\text{S} :$ Any blocking action. I/O request, lock blocks.</li></ul><p>Match the transitions in the diagram with the conditions that cause them :<br>Which of the following is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{1 – P}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{2 – Q}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{6 – R}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{5 – S}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><p><a href=\"https://gateoverflow.in/384349\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are true?:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The processor can be switched to kernel mode during execution of a user process, if the user process issues a system call.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The processor can be switched to kernel mode during execution of a user process, without the user process issuing a system call.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The number of threads in the system may exceed the number of CPU cores.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>To safely process system calls, the kernel MUST&nbsp;maintain a separate stack in the kernel for each thread in each user process.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/384347\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following are (virtually) shared by threads within a single process?<br>\nIn other words, is it instantiated per process instead of per thread? Select all that apply.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Heap</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Stack</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Code/Program Text</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Registers</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/384344\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider three processes $\\text{P1, P2,}$ and $\\text{P3}$ with respective arrival times of $0 \\mathrm{~ms}, 10 \\mathrm{~ms}$, and $20 \\mathrm{~ms}$ and respective processing times of $30 \\mathrm{~ms}, 15 \\mathrm{~ms}$, and $30 \\mathrm{~ms}$. The three processes are preemptively scheduled on a single-CPU system using the shortest-remaining-processing-time-first scheduling policy. Which of the following shows the order in which the processes complete, from first to last?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{P}1 \\quad \\mathrm{P} 2 \\quad \\mathrm{P} 3$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{P}1 \\quad \\mathrm{P} 3 \\quad \\mathrm{P} 2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{P} 2 \\quad \\mathrm{P} 1 \\quad \\mathrm{P} 3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{P} 2 \\quad \\mathrm{P} 3 \\quad \\mathrm{P} 1$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/384343\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Four processes- $\\text{P}_1, \\text{P}_2, \\text{P}_3,$ and $\\text{P}_4-$ are scheduled to use a single processor. The following table shows the arrival time and duration of each of the four processes.<br>$$<br>\\begin{array}{|c|c|c|}<br>\\hline \\textbf{Process} &amp; \\textbf{Arrival Time (seconds)} &amp; \\textbf{Duration (seconds)} \\\\<br>\\hline \\hline \\text{P}_1 &amp; 0 &amp; 7 \\\\<br>\\hline \\text{P}_2 &amp; 2 &amp; 4 \\\\<br>\\hline \\text{P}_3 &amp; 4 &amp; 1 \\\\<br>\\hline \\text{P}_4 &amp; 5 &amp; 4 \\\\<br>\\hline<br>\\end{array}<br>$$<br>If the system uses a preemptive shortest-job-first scheduling algorithm, what is the average waiting time for the four processes, in seconds?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$5$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/384342\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following table showing a set of jobs to be processed on a single processor, the number of seconds of service that each requires, and each job's arrival time.</p>\n\n<p>$$\\begin{array}{ccll}\\text { Job } &amp; \\begin{array}{c}\\text { Service Time } \\\\ \\text { (sec.) }\\end{array} &amp; \\text { Arrival time } \\\\\\hline 1 &amp; 2 &amp; t_0 \\\\ 2 &amp; 5 &amp; t_0 \\\\ 3 &amp; 1 &amp; t_0+1 \\;\\mathrm{sec} . \\\\ 4 &amp; 9 &nbsp;&amp; t_0+5\\; \\mathrm{sec} . \\\\ 5 &amp; 3 &amp; t_0+10 \\;\\mathrm{sec} . \\\\ 6 &amp; 2 &amp; t_0+15\\; \\mathrm{sec} .\\end{array}$$<br>\nIf a round-robin scheduling algorithm with a time slice of $10$ milliseconds is assumed, then at approximately what time is Job $3$ completed?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$t_0+22 \\; \\mathrm{sec}$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$t_0+8\\; \\mathrm{sec}$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$t_0+4\\; \\mathrm{sec}$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$t_0+2 \\;\\mathrm{sec}$.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/384341\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following table showing a set of jobs to be processed on a single processor, the number of seconds of service that each requires, and each job's arrival time.<br>\n$$\\begin{array}{ccll}\\text { Job } &amp; \\begin{array}{c}\\text { Service Time } \\\\ \\text { (sec.) }\\end{array} &amp; \\text { Arrival time } \\\\\\hline 1 &amp; 2 &amp; t_0 \\\\ 2 &amp; 5 &amp; t_0 \\\\ 3 &amp; 1 &amp; t_0+1 \\;\\mathrm{sec} . \\\\ 4 &amp; 9 &nbsp;&amp; t_0+5\\; \\mathrm{sec} . \\\\ 5 &amp; 3 &amp; t_0+10 \\;\\mathrm{sec} . \\\\ 6 &amp; 2 &amp; t_0+15\\; \\mathrm{sec} .\\end{array}$$<br>\nIf a first-come-first-served scheduling algorithm is assumed, where ties are resolved in favor of the smaller numbered job, what is the average (arithmetic mean) number of seconds that a job waits before being assigned to the processor?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$20 / 6$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$21 / 6$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$23 / 6$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$31 / 6$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/384340\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "An arriving thread is run at the beginning of its arrival time, if the scheduling policy allows it. Turnaround time is defined as the time a process takes to complete after it arrives.\n\nNow Consider the following data available for FIFO CPU Scheduling where we have $4$ processes $\\text{A, B, C, D.}$\n\n$$\\textbf{Entry Times}$$$$\\begin{array}{|c|c|}\n\\hline \\mathrm{A} & 1 \\\\\n\\hline \\mathrm{B} & 2 \\\\\n\\hline \\mathrm{C} & \\\\\n\\hline \\mathrm{D} & 8 \\\\\n\\hline\n\\end{array}\n$$\n$$\n\\begin{array}{|c|c|}\n\\hline \\downarrow \\textbf{Current Time} \\\\ \\qquad \\qquad \\qquad\n\\textbf{Scheduler} \\rightarrow &  \\textbf{FIFO} \\\\\n\\hline 1 & \\text{A} \\\\\n\\hline 2 & \\text{A} \\\\\n\\hline 3 & \\text{A} \\\\\n\\hline 4 & \\text{B} \\\\\n\\hline 5 & \\text{B} \\\\\n\\hline 6 & \\text{B} \\\\\n\\hline 7 & \\text{C} \\\\\n\\hline 8 & \\text{D} \\\\\n\\hline 9 & \\text{D} \\\\\n\\hline 10 & \\text{D} \\\\\n\\hline \\text{Avg Turnaround Time} & 3.5 \\\\\n\\hline\n\\end{array}\n$$\nWhat is the entry time for process $\\text{C}?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 5</p><p><a href=\"https://gateoverflow.in/384339\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If there are $\\mathrm{N}$ jobs, arrived at almost same time in the system, all of the same length(burst time) $\\text{L}.$ Round robin algorithm is used by the scheduler. Where $\\mathrm{T}$ is the length of the time slice, $\\mathrm{L}&gt;\\mathrm{T}$ and $\\mathrm{L}$ is multiple of $\\mathrm{T}$.<br>\nThen the first job will finish at approximately</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{L}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{N}\\ast \\mathrm{~L}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{N}\\ast \\mathrm{~L}-(\\mathrm{N}-1) \\ast \\mathrm{~T}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{N}\\ast \\mathrm{~L}-(\\mathrm{N}) \\ast \\mathrm{~T}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/384337\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following Scheduling Algorithm \"Least Used First(LUF)\":\n\n$\\text{Least Used First (LUF):}$ When given the choice to schedule two processes on the run queue, the scheduler will select the one that has used the fewest CPU cycles thus far. In case of a tie, the queue is otherwise FIFO. When a process is descheduled it goes to the end of the queue.\n\n$\\text{Duration of a process:}$ The amount of CPU time it will need, in time units.\n\nConsider the following $4$ processes:\n$$\n\\begin{array}{|c|c|c|}\n\\hline \\textbf{Job} & \\textbf{Arrival Time} & \\textbf{Duration} \\\\\n\\hline \\text{A} & 0 & 25 \\\\\n\\hline \\text{B} & 15 & 25 \\\\\n\\hline \\text{C} & 25 & 5 \\\\\n\\hline \\text{D} & 40 & 5 \\\\\n\\hline\n\\end{array}\n$$\nSupposing a running job is only preempted when a new job arrives (no interrupts).\n\nAssume all jobs are purely CPU-bound.\n\nWhat is the average turn around time using LUF scheduling algorithm?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    27.5,
+    27.5
+   ],
+   "answerText": "27.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 5</p><p><a href=\"https://gateoverflow.in/384335\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a system with a single CPU core and three processes $\\text{A, B, C}.$ Process $\\text{A}$ arrives at $t=0$, and runs on the CPU for $10$ time units before it finishes. Process $\\mathrm{B}$ arrives at $t=6$, and requires an initial $\\mathrm{CPU}$ time of $3$ units, after which it blocks to perform I/O for $3$ time units. After returning from I/O wait, it executes for a further $5$ units before terminating. Process $\\mathrm{C}$ arrives at $t=8$, and runs for $2$ units of time on the CPU before terminating. Recall that only the size of the current CPU burst (excluding the time spent for waiting on I/O ) is considered as the \"job size\" in these schedulers.\n\nFor Shortest Remaining Time First (preemptive) scheduling policy, what is the time of completion of process $\\text{C}?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    11,
+    11
+   ],
+   "answerText": "11",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/384333\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following processes with CPU burst time in ms. Assume all processes arrive at time $0.$<br>\n$$<br>\n\\begin{array}{|c|c|}<br>\n\\hline \\textbf{Process} &amp; \\textbf{Burst Time (ms)} \\\\<br>\n\\hline \\text{P1} &amp; 10 \\\\<br>\n\\hline \\text{P2} &amp; 3 \\\\<br>\n\\hline \\text{P3} &amp; 8 \\\\<br>\n\\hline \\text{P4} &amp; 5 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\nIf the processes use First Come First Served Scheduling, for which of the following process order, the average waiting time of the processes will be minimum?</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>$\\text{Order 1: P1 P2 P3 P4}$</li>\n\t<li>$\\text{Order 2: P2 P3 P4 P1}$</li>\n\t<li>$\\text{Order 3: P4 P3 P2 P1}$</li>\n\t<li>$\\text{Order 4: P4 P2 P3 P1}$</li>\n</ol>\n\n<p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{Order 1}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{Order 2}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{Order 3}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{Order 4}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/384331\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following set of jobs to be scheduled for execution on a single CPU system.\n$$\n\\begin{array}{|c|c|c|l|} \\hline\n\\textbf{Job} & \\textbf{Arrival Time} & \\textbf{Size(msec)} & \\textbf{Priority} \\\\\n\\hline \\text{J}_1 & 0 & 10 & 2 \\;\\text{(Silver)} \\\\\n\\text{J}_2 & 2 & 8 & 1 \\;\\text{(Gold)} \\\\\n\\text{J}_3 & 3 & 3 & 3 \\;\\text{(Bronze)} \\\\\n\\text{J}_4 & 10 & 4 & 2 \\;\\text{(Silver)} \\\\\n\\text{J}_5 & 12 & 1 & 3 \\;\\text{(Bronze)} \\\\\n\\text{J}_6 & 15 & 4 & 1 \\;\\text{(Gold)} \\\\\n\\hline\n\\end{array}\n$$\nThe completion time of process $\\text{J}_{5}$ using non-preemptive PRIORITY scheduling for these jobs is _________\n\nIn non-preemptive PRIORITY scheduling, jobs are executed based on their PRIORITY, and ties are broken in favor of the earliest arrival time.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    30,
+    30
+   ],
+   "answerText": "30",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/384329\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "MSQ": 4,
+   "MCQ": 7,
+   "NAT": 4
+  },
+  "withoutKey": 0
+ }
+}

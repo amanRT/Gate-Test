@@ -1,0 +1,592 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-002",
+ "title": "DVRUO Classes CS Test Series | Algorithms | Topic Wise Test 2",
+ "sourceTitle": "DVRUO Classes CS Test Series | Algorithms | Topic Wise Test 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 2,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Algorithms"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/038_exam_2375_GO Classes CS Test Series Algorithms Topic Wise Test 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $S(n)$ be<br>\n$$<br>\nS(n)=S(n / 2)+\\log (n) .<br>\n$$<br>\nWhat will be asymptotic bound on $S(n)$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(n \\log n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(\\log n)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(\\log \\log n)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left((\\log n)^ 2\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/376903\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)=T(a n)+T(b n)+n,$&nbsp;where $a+b&lt;1$.</p>\n\n<p>What will be asymptotic bound on $T(n)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta\\left(n^ 2\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(n \\log n)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta((a+b) \\log n)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/376902\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)$ be<br>\n$$<br>\nT(n)=16 T(n / 4)+n^{2}(\\log n)^{3}<br>\n$$<br>\nWhat will be asymptotic bound on $T(n)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta\\left(n^ 2(\\log n)^ 3\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta\\left(n^ 2(\\log n)^ 4\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta\\left(n^ 3 \\log n\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(n^ 3(\\log n)^ 3\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/376900\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)$ be<br>\n$$<br>\nT(n)=64 T(n / 4)+8^{\\log _{2} n}<br>\n$$<br>\nWhat will be asymptotic bound on $T(n)?$&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta\\left(n^ 3(\\log n)^ 3\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta\\left(n^ 3\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta\\left(n^ 3 \\log n\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(n^ 4\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/376898\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)=2 T(n / 2)+O(n),$&nbsp;where \"$O$\" is big-oh. What will be asymptotic bound on $T(n)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(n \\log n)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta\\left(n^ 2\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$O\\left(n^ 3\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/376897\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)$ be<br>\n$$<br>\nT(n)=T(\\sqrt{n})+\\log \\log n<br>\n$$<br>\nWhat will be asymptotic bound on $T(n)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(\\log n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta((\\log \\log n)^2)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(\\log \\log \\log n)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta(\\log \\log \\log \\log n)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/376896\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)$ be<br>\n$$<br>\nT(n)=2 T(\\sqrt{n})+\\log n<br>\n$$<br>\nWhat will be asymptotic bound on $T(n) ?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(\\log n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(\\log \\log n)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(\\log n \\log \\log n)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta(n \\log n)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/376895\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)$ be<br>\n$$<br>\nT(n)=n^{2}+T(n / 2)+T(n / 4)<br>\n$$<br>\nWhat will be asymptotic bound on $T(n)?$&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta\\left(n^ 2\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta\\left(n^ 3\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta\\left(n^ 4\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(n^ 2 \\log n\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/376893\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let&nbsp;<br>\n$$<br>\nT(n)=\\sqrt{n} \\cdot T(\\sqrt{n})+n<br>\n$$<br>\nWhat will be asymptotic bound on $T(n) ?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(\\sqrt{n} \\log n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(\\log \\log n)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(n \\log \\log n)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta(\\sqrt{n} \\log \\log n)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/376892\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)$ be<br>\n$$<br>\nT(n)= \\begin{cases}2 T(n / 2)+8 T(n / 4)+n^{2} &amp; \\text { if } n \\geq 4 \\\\<br>\n1 &amp; \\text { if } n \\leq 3\\end{cases}<br>\n$$<br>\nWhat will be asymptotic bound on $T(n)?$&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta\\left(n^ 2 \\log n\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta\\left(n^ 2\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta\\left(n^ 3\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(n^ 3 \\log n \\right)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/376891\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Select the correct asymptotic complexity of an algorithm with runtime $T(n, n)$ where</p>\n\n<ul>\n\t<li>$T(x, c)=\\Theta(x) \\quad$ for $c \\leq 2$,</li>\n\t<li>$T(c, y)=\\Theta(y) \\quad$ for $c \\leq 2$, and</li>\n\t<li>$T(x, y)=\\Theta(x)+T(x, y / 2) $</li>\n</ul>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(\\log n)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(n)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(n \\log n)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(n \\log ^{2} n\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/376887\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider mutually recursive definitions of $T(a, b)$ and $S(c, d)$ :<br>\n$$<br>\n\\begin{array}{rlr}<br>\nT(x, c) &amp; =\\Theta(x) &amp; \\text { for } c \\leq 2 \\\\<br>\nT(x, y) &amp; =\\Theta(x)+S(x, y / 2), &amp;\\\\<br>\nS(c, y) &amp; =\\Theta(y) &amp; \\text { for } c \\leq 2, \\text { and }\\\\<br>\nS(x, y) &amp; =\\Theta(y)+T(x / 2, y) &amp;<br>\n\\end{array}<br>\n$$<br>\nSelect the correct asymptotic complexity of an algorithm with run-time $T(n, n)$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta(\\log n)$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta(n)$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(n \\log n)$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(n \\log ^{2} n\\right)$.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/376885\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A list of $n$ arrays, each of length $n,$&nbsp;is passed to an algorithm like merge-sort. The algorithm recursively divides a set of arrays into two parts until there are only two arrays.</p>\n\n<p>If there are two arrays, then, as a base case, the algorithm combines or merges both in cost of $\\mathrm{O}(p+q)$ where $p$ and $q$ are sizes of arrays.</p>\n\n<p>What will be the time complexity recurrence relation of such algorithm?</p>\n\n<p>Let $T(n)$ be time taken for $n$ arrays.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$T(n)=2 T(n / 2)+n^ 2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$T(n)=2 T(n / 2)+n$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$T(n)=2 T(n / 2)+n^ 3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/376883\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a recurrence relation.<br>\n$$<br>\nT(n)=\\alpha T(n / 2)+n^{2} .<br>\n$$<br>\nLet $a \\geq 1$ be an integer.</p>\n\n<p>Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For $\\alpha&gt;4, T(n)=\\theta\\left(n^{\\lg \\alpha}\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>For $\\alpha=4, T(n)=\\theta\\left(n^{2} \\lg n\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For $\\alpha&lt;4, T(n)=\\theta\\left(n^{2}\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For all values of $\\alpha, T(n)=\\theta\\left(n^{2} \\lg n\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/376881\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $T(n)$ be<br>\n$$<br>\nT(n)=2 T\\left(\\frac{n}{2}\\right)+\\frac{n}{\\lg n}<br>\n$$</p>\n\n<p>$T(2) =1$</p>\n\n<p>What will be asymptotic bound on $T(n) ?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Theta\\left(n^ 2(\\log n)\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\Theta\\left(n(\\log n)^ 2\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Theta(n \\log \\log n)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\Theta\\left(n^ 2 \\log \\log n\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/376879\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 13,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

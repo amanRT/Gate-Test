@@ -1,0 +1,599 @@
+{
+ "v": 1,
+ "id": "cs-easy-2025-044",
+ "title": "Topicwise Test-21 Part Syllabus GATE 2025 CS Discrete Mathematics-1",
+ "sourceTitle": "Topicwise Test-21 Part Syllabus GATE 2025 CS Discrete Mathematics-1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2025",
+ "num": 44,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/075_Topicwise Test-21 Part Syllabus GATE 2025 CS Discrete Mathematics-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>How many order pairs of integer (a, b) are needed to guarantee that there are two ordered pairs<br />\n(<em>a</em><sub>1</sub>, b<sub>1</sub>) and (<em>a</em><sub>2</sub>, <em>b</em><sub>2</sub>) such that <em>a</em><sub>1</sub> mod 6 = <em>a</em><sub>2</sub> mod 6 and <em>b</em><sub>1</sub> mod 8 = <em>b</em><sub>2</sub> mod 8?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "48"
+    },
+    {
+     "key": "B",
+     "html": "49"
+    },
+    {
+     "key": "C",
+     "html": "50"
+    },
+    {
+     "key": "D",
+     "html": "52"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nFor a in (a, b) there different congruence class possible in mod 6 i.e. 0, 1, 2, 3, 4, 5 and 8 different congruence classes possible for mod 8 i.e., 0, 1, 2, 3, 4, 5, 6, 7, 8.<br />\nSo, number of different order pair where (<em>a</em><sub>1</sub>, <em>b</em><sub>1</sub>) and (a<sub>2</sub>, b<sub>2</sub>) such that a1 mod 6 = a<sub>2</sub> mod 6 and b<sub>1</sub> mod 8 = b<sub>2</sub> mod 8 not possible are = 6 &times; 8 = 48.<br />\nSo, to get two pair with given condition we need 48 + 1 = 49.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>How many bit strings contain exactly five 0’s and eleven 1’s if every 0 must be immediately followed by a’1?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "460"
+    },
+    {
+     "key": "B",
+     "html": "461"
+    },
+    {
+     "key": "C",
+     "html": "462"
+    },
+    {
+     "key": "D",
+     "html": "463"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/4a/4a438c8234e5db82293f.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>How many ways are there to distribute five indistinguishable fishes into eight distinguishable lakes?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "790"
+    },
+    {
+     "key": "B",
+     "html": "791"
+    },
+    {
+     "key": "C",
+     "html": "792"
+    },
+    {
+     "key": "D",
+     "html": "793"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/42/4298f2c575891bd0ae2a.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>A bag contain 5 red marbles, 8 blue marbles, 11 green marbles, 15 yellow marbles. We draw marbles uniformly at random without replacement from the bag. What is the minimum number of marbles to be drawn to ensure that out of the marbles drawn atleast 7 are of the same colour?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "23"
+    },
+    {
+     "key": "B",
+     "html": "24"
+    },
+    {
+     "key": "C",
+     "html": "7"
+    },
+    {
+     "key": "D",
+     "html": "8"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/8f/8f1b7178dfd74841fcb0.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>Let <em>u </em>is a universal set <em>A</em>, <em>B</em> are subset of <em>u</em>.</p>\n\n<p><img align=\"absmiddle\" alt=\"\" src=\"media/80/80f7af605ee3ad8b6f2b.png\" /> then <img align=\"absmiddle\" alt=\"\" src=\"media/9c/9cd593e120a049f38c95.png\" /> is _________.</p>\n\n<p>(<em>A<sup>C</sup></em> is  complement of <em>A</em> with respect to <em>u</em> and same for others)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "86"
+    },
+    {
+     "key": "B",
+     "html": "87"
+    },
+    {
+     "key": "C",
+     "html": "88"
+    },
+    {
+     "key": "D",
+     "html": "89"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Consider the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tIf <em>A</em> and <em>B</em> are countable sets, then <em>A</em> ∪ <em>B</em> is not countable.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tIf <em>A</em> and <em>B</em> are countable sets, then <em>A</em> ∪ <em>B</em> is also countable.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tIf <em>A</em> and <em>B</em> are countable sets, then <em>A</em> × <em>B</em> is countable.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tIf <em>A</em> and <em>B</em> are countable sets, then <em>A</em> × <em>B</em> is not countable.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>Consider the following statements:</p>\n\n<p><img alt=\"\" src=\"media/66/665d6a830d1d33e02b4f.png\" /></p>\n\n<p>Which of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> is correct</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> is correct</p>"
+    },
+    {
+     "key": "C",
+     "html": "Both are correct"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/1f/1fae537cd26845873b3f.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>In propositional logic, given <em>P</em> and <em>P</em> → <em>Q</em>, we can infer ________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f3/f33c4e625128393b8010.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/60/608a51b6afcfb347bd35.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/96/960975b3b355efe39a52.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0c/0c71cbdb7f54193744b4.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<p><img alt=\"\" src=\"media/f3/f36701d64de9b10c2dec.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Let S be the set {1, 2, 3, ..., 8}. Let <em>n</em> be the number of sets of two non-empty disjoint subsets of <em>S</em>.<br />\nThe value of n is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3025,
+    3025
+   ],
+   "answerText": "3025",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3025</p>\n\n<p><img alt=\"\" src=\"media/ba/bad6eea0a7d813432603.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Consider the following first order logic statements, where <em>P</em>(<em>n</em>) and <em>Q</em>(<em>n</em>) are predicates, which of the following statements is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a7/a74e4ad6dd5eb88d3194.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9b/9beb17ccf4b77568256b.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/43/434334e6081af78abd30.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/36/367075f2cc787d05a3d1.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c, d)</p>\n\n<p><img alt=\"\" src=\"media/9d/9d3e661c158222c8b77f.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Let <em>A</em><sub>1</sub>, <em>A</em><sub>2</sub>, <em>A</em><sub>3</sub> ..... <em>A</em><sub>3</sub>5 are thirty five set each having 8 elements and <em>B</em><sub>1</sub>, <em>B</em><sub>2</sub>, <em>B</em><sub>3</sub> ..... <em>B<sub>n</sub></em> are <em>n</em> sets each having 4 element. Let <img align=\"absmiddle\" alt=\"\" src=\"media/5d/5da84533bdddf9053a6a.png\" /> and each elements of S belongs to exactly 10 of <img align=\"absmiddle\" alt=\"\" src=\"media/86/86592a1887416ca94de8.png\" /> and exactly 7 of <img align=\"absmiddle\" alt=\"\" src=\"media/ac/ac6e83e93dc62c0e2cfa.png\" /> Then value of <em>n</em> is ________. (Assume element are not repeated)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    49,
+    49
+   ],
+   "answerText": "49",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>49</p>\n\n<p><img alt=\"\" src=\"media/51/510f2b5340132d94b169.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Consider the following statement:<br />\n“No prime except 11 by divisible by 11”<br />\nConsider the domain is over natural number.<br />\nWhich of the following are equivalent predicate logic for above statement?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ca/caf32367965b6d77e2c9.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/71/710e4d21bd6f55907af7.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f0/f0bfeec10e9be1990dd4.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d8/d82fcd00e25c50ba5f05.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<p><img alt=\"\" src=\"media/46/468e4dacf39eab222437.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>What is the cardinality of</p>\n\n<p><img alt=\"\" src=\"media/08/085e177e57a05736e39c.png\" /></p>\n\n<p>Number of positive integer ≤ 147 not divisible by 2, 3 or 5.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    39,
+    39
+   ],
+   "answerText": "39",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>39</p>\n\n<p><img alt=\"\" src=\"media/f8/f88dbad0372d40ce0d3e.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Which of the following is/are tautology?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a3/a31356406160f63e7b53.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e4/e4254c5f05a95e5b5ac8.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e8/e8606ff29beb93e91a26.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bc/bc5fe41672c533297c4c.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<p><img alt=\"\" src=\"media/03/03001b0e70b8aac5766d.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>What is the coefficient of <img align=\"absmiddle\" alt=\"\" src=\"media/ee/ee063eef2c26680893ec.png\" /> in the expansion of <img align=\"absmiddle\" alt=\"\" src=\"media/cc/cc5b5a07f2ad52581b68.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/04/043749d7e89ea6f59456.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/93/93b078fcc5e503e84eb5.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/04/0413136270cf3049e0fd.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cc/cc50e98ac716d017894c.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/9f/9fffaf842d32a6cf15e4.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding relations:<br />\n<em>S</em><sub>1</sub> : Every asymmetric relation is irreflexive.<br />\n<em>S</em><sub>2</sub> : Every asymmetric relation is antisymmetric.<br />\n<em>S</em><sub>3</sub> : There are some relations which are neither reflexive nor irreflexive.<br />\nWhich of the above statements are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>S</em><sub>1</sub>, <em>S</em><sub>3</sub> but not <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tS2 only</p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nFor <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>: If a relation is asymmetric, then it has to be both irreflexive and antisymmetric.<br />\nTherefore <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> are correct.<br />\nFor <em>S</em><sub>3</sub>: It is true that there are some relations which are neither irreflexive (contain at least one self loop) nor reflexive (don&rsquo;t contain all self loops).<br />\nSo all the statements are correct.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>The number of ways of arranging the letters GGGGGAAATTTECCS in a row when no two T’s are together is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/14/14324004877915df762e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d5/d577e637a24e2c2fcf31.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3b/3b874564242c96830908.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/95/9536f3cadd427eaa2caf.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/38/380ebfa0334f30166e9c.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "MSQ": 5,
+   "NAT": 3
+  },
+  "withoutKey": 0
+ }
+}

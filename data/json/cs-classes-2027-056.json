@@ -1,0 +1,1117 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-056",
+ "title": "DVRUO Classes CS Test Series | Digital Logic | Subject Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | Digital Logic | Subject Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 56,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Digital Logic"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/088_exam_1344_GO Classes CS Test Series Digital Logic Subject Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Match the logic gates in Column $\\text{A}$ with their equivalents in Column $\\mathrm{B}$.</p><p style=\"text-align:center\"><img alt=\"\" height=\"248\" width=\"336\" src=\"media/49/49120d1a80230c6c6fba.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{P-2, Q-4, R-1, S-3}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{P-4, Q-2, R-1, S-3}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{P-2, Q-4, R-3. S-1}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{P-4, Q-2, R-3, S-1}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/393043\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following logic circuit:</p><p style=\"text-align:center\"><img alt=\"\" height=\"171\" width=\"398\" src=\"media/ae/ae2e4a22c3d9e4f399e6.png\"></p><p><br>The number of input combinations $(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$ for which the output $\\mathrm{F}$ becomes $1$ is ?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><p><a href=\"https://gateoverflow.in/393041\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A decoder may be described as</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Multiple-input single-output logic circuit which converts coded inputs into a coded output where the input and output codes are different.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Single-input single-output logic circuit which converts the coded input into a coded output where the input and output codes are different.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Multiple-input multiple-output logic circuit which converts coded inputs into coded outputs where the input and output codes are different.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Single-input multiple-output logic circuit which converts the coded input into coded outputs where the input and output codes are different.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/390844\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A bulb in a staircase has two switches, one switch being at the ground floor and the other one at the first floor. The bulb can be turned ON and also can be turned OFF by any one of the switches irrespective of the state of the other switch. The logic of switching of the bulb resembles.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>an AND gate</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>an OR gate</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>an XOR gate</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>a NAND gate</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/390842\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$\\mathrm{X}=01110$ and $\\mathrm{Y}=11001$ are two $5$-bit binary numbers represented in two's complement format. The sum of $\\mathrm{X}$ and $\\mathrm{Y}$ represented in two's complement format using $6$ bits is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$100111$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$001000$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$000111$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$101001$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/389635\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Boolean expression $Y=\\overline{\\text{A}} \\;\\overline{\\text{B}}\\; \\overline{\\text{C}}\\; \\text{D}+\\overline{\\text{A}} \\text{ B C } \\overline{\\text{D}}+\\text{A} \\;\\overline{\\text{B}} \\;\\overline{\\text{C }}\\; \\text{D + A B } \\overline{\\text{C}} \\;\\overline{\\text{D}}$ can be minimized to</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$Y=\\overline{\\text{A}} \\;\\overline{\\text{B}}\\; \\overline{\\text{C}}\\; \\text{D}+\\overline{\\text{A}}\\; \\text{B} \\;\\overline{\\text{C}}+\\text{A}\\; \\overline{\\text{C}}\\; \\text{D}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$Y=\\overline{\\text{A}}\\; \\overline{\\text{B}}\\; \\overline{\\text{C}} \\;\\text{D}+ \\text{B C}\\; \\overline{\\text{D}}+\\text{A}\\; \\overline{\\text{B}}\\; \\overline{\\text{C}} \\;\\text{D}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$Y=\\overline{\\text{A}} \\;\\text{B C}\\; \\overline{\\text{D}}+\\overline{\\text{B}}\\; \\overline{\\text{C}} \\;\\text{D + A}\\; \\overline{\\text{B}}\\; \\overline{\\text{C}} \\;\\text{D}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$Y=\\overline{\\text{A}} \\;\\text{B C} \\;\\overline{\\text{D}}+\\overline{\\text{B}}\\; \\overline{\\text{C}}\\;\\text{ D + A B}\\; \\overline{\\text{C}}\\; \\overline{\\text{D}}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/389624\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the following circuit, $\\text{X}$ is given by</p><p style=\"text-align:center\"><img alt=\"\" height=\"185\" width=\"375\" src=\"media/2a/2a4bcc1bd82a3213333c.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{X}=\\text{A}\\; \\overline{\\text{B}}\\; \\overline{\\text{C}}+\\overline{\\text{A}} \\;\\text{B}\\; \\overline{\\text{C}}+\\overline{\\text{A}}\\; \\overline{\\text{B}} \\;\\text{C}+\\text{A B C}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{X}=\\overline{\\text{A}} \\;\\text{B C + A} \\;\\overline{\\text{B}}\\; \\text{C + A B} \\;\\overline{\\text{C}}+\\overline{\\text{A}}\\; \\overline{\\text{B}}\\; \\overline{\\text{C}}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{X = A B + B C + A C}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{X}=\\overline{\\text{A}} \\;\\overline{\\text{B}}+\\overline{\\text{B}}\\; \\overline{\\text{C}}+\\overline{\\text{A}} \\;\\overline{\\text{C}}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/389622\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Two $\\text{D}$ Flip flops are connected as a synchronous counter that goes through following sequence<br>$$<br>00 \\rightarrow 01 \\rightarrow 11 \\rightarrow 10 \\rightarrow 00<br>$$<br>Inputs $\\text{D}_0$ and $\\text{D}_1$ should be connected as$? ($Flip flop $\\text{D}_1$ provides the $\\text{MSB)}$</p><p style=\"text-align:center\"><img alt=\"\" height=\"171\" width=\"371\" src=\"media/06/06fd64f56f2eb22de59b.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\overline{\\text{Q}}_1$ and $\\text{Q}_0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\overline{\\text{Q}}_0$ and $\\text{Q}_1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\overline{\\text{Q}}_1 \\text{Q}_0$ and $\\overline{\\text{Q}}_0 \\text{Q}_1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\overline{\\text{Q}}_0 \\overline{\\text{Q}}_1$ and $\\text{Q}_0 \\text{Q}_1$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/388737\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the $ \\text{2–bit}$ multiplexer $\\text{(MUX)}$ shown in the figure. For $\\text{OUTPUT}$ to be the $\\text{XOR}$ of $\\text{C}$ and $\\text{D},$ the values for $A_{0}, A_{1}, A_{2},$ and $A_{3}$ are _______________.</p><p style=\"text-align:center\"><img alt=\"\" width=\"350\" src=\"media/6d/6df605e5c36b782fbd74.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A_{0} = 0, A_{1} = 0, A_{2} = 1, A_{3} = 1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A_{0} = 1, A_{1} = 0, A_{2} = 1, A_{3} = 0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A_{0} = 0, A_{1} = 1, A_{2} = 1, A_{3} = 0$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A_{0} = 1, A_{1} = 1, A_{2} = 0, A_{3} = 0$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/387858\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the minimum (most negative) value of a $\\text{32-bit}$ two's complement integer?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-2^{32}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-2^{32}+1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-2^{31}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$-2^{31}+1$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/387856\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the Boolean function $F(w,x,y,z) = wy + xy + \\overline{w}\\:xyz + \\overline{w}\\:\\overline{x}\\:y + xz + \\overline{x}\\:\\overline{y}\\:\\overline{z}.$ Which one of&nbsp; the following is the complete set of essential prime implicants?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$w,y,xz,\\overline{x}\\:\\overline{z}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$w,y,xz$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$y, \\overline{x}\\:\\overline{y}\\:\\overline{z}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$y,xz,\\overline{x}\\:\\overline{z}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/436775\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$\\text{P, Q},$&nbsp;and $\\text{R}$ are the decimal integers corresponding to the $4$-bit binary number $1100$ considered in signed magnitude, $1$’s&nbsp;complement, and $2$’s&nbsp;complement representations, respectively. The $6$-bit $2$’s&nbsp;complement representation of $\\text{(P+Q+R)}$ is&nbsp; ________.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$110101$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$110010$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$111101$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$111001$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/436774\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_96S\">&nbsp;</span>&nbsp;</p><p>The circuit below uses two $2$-to-$4$ decoders, and inverter, and an OR gate to implement a function $\\mathrm{F}(\\mathrm{X}, \\mathrm{Y}, \\mathrm{Z})$. $\\mathrm{X}$ is the most significant bit.</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/79/79689dd38cd748dc1fc6.png\"></p><p><br>$\\mathrm{F}(\\mathrm{X}, \\mathrm{Y}, \\mathrm{Z})$ can be expressed as (Encircle all that applies):</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\sum \\mathrm{m}(0,3,4,6)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\sum \\mathrm{m}(0,2,4,7)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\prod \\text{M}(1,3,5,6)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\prod \\text{M}(1,2,5,7)$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/436773\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_107S\">&nbsp;</span>&nbsp;</p><p>A demultiplexer can be implemented using a decoder circuit.<br>For example, the $2$-to-$4$ decoder can be used as a $1$-to-$4$ demultiplexer. Which input of decoder serves as the data input for the demultiplexer?<br>$$<br>\\begin{array}{ccc|cccc}<br>\\text{En} &amp; w_{1} &amp; w_{0} &amp; y_{0} &amp; y_{1} &amp; y_{2} &amp; y_{3} \\\\<br>\\hline 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\\\<br>1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\\\<br>1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 \\\\<br>1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\\\<br>0 &amp; \\times &amp; \\times &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\\\<br>\\end{array}<br>$$ $$\\text{(a) Truth Table of Decoder}$$<br><br> </p><p style=\"text-align:center\"><img alt=\"\" height=\"301\" width=\"287\" src=\"media/d7/d70f1540aca72f3d80c2.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$w_{0}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{E}_{n}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$w_{1}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>We can not implement a demultiplexer using a decoder.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/436772\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $(1235)_{x}\\:=\\:(3033)_{y}$, where $x$ and $y$ indicate the bases of the corresponding numbers, then</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x\\:=\\:7$ and $y\\:=\\:5$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x\\:=\\:8$ and $y\\:=\\:6$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x\\:=\\:6$ and $y\\:=\\:4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x\\:=\\:9$ and $y\\:=\\:7$&nbsp;</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/436771\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A function of Boolean variables $X, Y$ and $Z$ is expressed in terms of the min-terms as $$F(X, Y, Z) = \\Sigma&nbsp;(1, 2, 5, 6, 7)$$</p><p>Which one of the product of sums given below is equal to the function $F(X, Y, Z)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\overline{X} + \\overline{Y} + \\overline{Z} )\\cdot(\\overline{X} + Y + Z)\\cdot(X + \\overline{Y} + \\overline{Z} )$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(X + Y + Z)\\cdot(X + \\overline{Y} + \\overline{Z} )\\cdot(\\overline{X} + Y + Z)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(\\overline{X} + \\overline{Y} + Z)\\cdot(\\overline{X} + Y + \\overline{Z} )\\cdot(X + \\overline{Y} + Z)\\cdot(X + Y + \\overline{Z} )\\cdot(X + Y + Z)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(X + Y + \\overline{Z} )\\cdot(\\overline{X} + Y + Z)\\cdot(\\overline{X} + Y + \\overline{Z} )\\cdot(\\overline{X} + \\overline{Y} + Z)\\cdot(\\overline{X} + \\overline{Y} + \\overline{Z})$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/436770\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_93S\">&nbsp;</span>&nbsp;</p><p>The combinatorial circuit shown below takes three 1-bit inputs: A, B, and C, and produces one 1-bit output. The relationship between the inputs and the output is shown below as a truth table. The circuit contains two identical, unknown gates $\\mathrm{X}$.<br><img alt=\"\" width=\"1022\" height=\"407\" src=\"media/f1/f12ac48452729a834a07.png\"><br>What is gate $X$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>AND</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>XNOR</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>NAND</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>XOR</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/436768\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A logic circuit implements the boolean function $F=\\overline{X} \\cdot Y+X \\cdot \\overline{Y} \\cdot \\overline{Z}$. It is found that the input combination $X=Y=1$ can never occur. Taking this into account, a simplified expression for $F$ is given by</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\overline{X}+\\overline{Y} \\cdot \\overline{Z}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$X+Z$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$X+Y$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$Y+X \\cdot \\overline{Z}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/436767\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a Boolean gate $\\text{(D)}$ where the output $Y$ is related to the inputs $A$ and $B$ as, $Y = A + \\overline{B},$ where $+$ denotes logical $\\text{OR}$ operation. The Boolean inputs $’0’$ and $’1’$ are also available separately. Using instances of only $\\text{D}$ gates and inputs $’0’$ and $’1’,$ _______________ (select the correct option(s)).</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{NAND}$ logic can be implemented</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{OR}$ logic cannot be implemented</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{NOR}$ logic can be implemented</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{AND}$ logic cannot be implemented</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/436766\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assuming that all flip-flops are in reset condition initially. the count sequence observed at $\\text{Q}_\\text{A}$ in the circuit shown is</p><p style=\"text-align:center\"><img alt=\"\" height=\"204\" width=\"576\" src=\"media/7b/7bd6af694ba462c81970.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0010111 \\ldots$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0001011 \\ldots$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0101111 \\ldots$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0110100 \\ldots$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/392984\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Boolean function realized by the logic circuit shown is</p><p style=\"text-align:center\"><img alt=\"\" height=\"285\" width=\"528\" src=\"media/5f/5f0f8b86ccee5d288b79.png\"></p><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{F}=\\Sigma_{m}(0,1,3,5,9,10.14)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{F}=\\Sigma_{m}(2,3,5,7,8,12,13)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{F}=\\Sigma_{m}(1,2,4,5,11,14,15)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{F}=\\Sigma_m(2,3,5,7,8,9 ,12)$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/392982\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the circuit diagram shown below, the logic gates operate with a supply voltage of $1 \\mathrm{~V}$. NAND and XNOR have $200 \\mathrm{~ps}$ and $400 \\mathrm{~ps}$ input-to-output delay, respectively.</p><p><br>At time $t=\\text{T, A}(t)=0,\\text{B}(t)=1$ and $\\text{Z}(t)=0$. When the inputs are changed to $\\text{A}(t)=1, \\text{B}(t)=0$ at $t=2\\text{T},$&nbsp;a $1 \\mathrm{~V}$ pulse is observed at $\\text{Z}$. The pulse width of the $1 \\mathrm{~V}$ pulse is _______ $\\text{ps}.$</p><p style=\"text-align:center\"><img alt=\"\" width=\"300\" src=\"media/29/2911d494d494ff381025.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$100$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$200$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$400$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$600$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/390781\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An synchronous finite state machine (FSM) with input $\\text{“A”}$ has the function described in the following state diagram and is to be implemented using two synchronously clocked $\\text{D-Type}$ flip-flops $\\text{D}_1, \\text{D}_2$ as the state registers.</p><p style=\"text-align:center\"><img alt=\"\" height=\"332\" width=\"435\" src=\"media/af/afe6a54fd6b751b291a1.png\"></p><p><br>The Flip-Flop outputs are $\\left\\{\\text{Q}_2, \\text{Q}_1\\right\\}$ where $\\text{Q}_1, \\text{Q}_2$ are output of $\\text{D}_1, \\text{D}_2$ respectively and $\\text{Q}_1$ represents the least significant bit of the FSM output.</p><p>Then which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{D}_1=\\text{A}, \\text{D}_2=\\text{Q}_1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{D}_1=\\text{Q}_2, \\text{D}_2=\\text{A}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{D}_1=\\text{Q}_2, \\text{D}_2=\\text{Q}_1 \\oplus \\text{A}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/390779\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following binary values were applied to the $\\mathrm{X}$ and $\\mathrm{Y}$ inputs of the $\\text{NAND}$ latch shown in the figure in the sequence indicated below:<br>$$<br>\\mathrm{X}=0, \\mathrm{Y}=1 ; \\qquad \\quad \\mathrm{X}=0, \\mathrm{Y}=0 ; \\qquad \\quad \\mathrm{X}=1, \\mathrm{Y}=1 \\text {. }<br>$$<br>The corresponding stable $\\text{P, Q}$ outputs will be</p><p style=\"text-align:center\"><img alt=\"\" width=\"300\" src=\"media/4a/4a52ca8cb85dd8453b54.png\"></p><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{P}=1, \\mathrm{Q}=0 ; \\quad \\quad \\mathrm{P}=1, \\mathrm{Q}=0 ; \\qquad \\qquad \\qquad \\qquad \\mathrm{P}=1, \\mathrm{Q}=0$ or $\\mathrm{P}=0, \\mathrm{Q}=1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{P}=1, \\mathrm{Q}=0 ; \\quad \\quad \\mathrm{P}=0, \\mathrm{Q}=1$ or $\\mathrm{P}=0, \\mathrm{Q}=1 ; \\quad  \\mathrm{P}=0, \\mathrm{Q}=1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{P}=1, \\mathrm{Q}=0 ; \\quad \\quad \\mathrm{P}=1, \\mathrm{Q}=1 ; \\qquad \\qquad \\qquad  \\qquad \\mathrm{P}=1, \\mathrm{Q}=0$ or $\\mathrm{P}=0, \\mathrm{Q}=1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{P}=1, \\mathrm{Q}=0 ; \\quad \\quad \\mathrm{P}=1, \\mathrm{Q}=1 ; \\qquad \\qquad \\qquad \\qquad \\mathrm{P}=1, \\mathrm{Q}=1$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/389574\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For the circuit shown, the counter state $\\left(\\mathrm{Q}_1 \\mathrm{Q}_0\\right)$ follows the sequence</p><p style=\"text-align:center\"><img alt=\"\" height=\"227\" width=\"408\" src=\"media/12/129426339876f8b525bd.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$00,01,10,11,00, \\ldots$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$00,01,10,00,01, \\ldots$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$00,01,11,00,01, \\ldots$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$00,10,11,00,10, \\ldots$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/389572\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Match the Boolean expression with its minimal realization<br>$$<br>\\begin{array}{|l|l|l|l|}<br>\\hline &amp; \\text { Boolean expression } &amp; &amp; \\text { Minimal realization } \\\\<br>\\hline \\mathrm{P} &amp; \\overline{\\text{X}}\\; \\overline{\\text{Y}}\\; \\overline{\\text{Z}}+\\overline{\\text{X}} \\;\\text{Y}\\; \\overline{\\text{Z}}+\\overline{\\text{X}} \\text{Y Z} &amp; \\mathrm{K} &amp; \\text{X(Y+Z)} \\\\<br>\\hline \\mathrm{Q} &amp; \\text{XYZ + X} \\overline{\\text{Y}} \\text{Z + XY} \\overline{\\text{Z}} &amp; \\mathrm{L} &amp; \\overline{\\text{X}}(\\text{Y}+\\overline{\\text{Z}}) \\\\<br>\\hline \\mathrm{R} &amp; \\text{XY + XYZ + XY} \\overline{\\text{Z}}+\\overline{\\text{X}} \\text{YZ} &amp; \\mathrm{M} &amp; \\text{Z} \\\\<br>\\hline \\mathrm{S} &amp; \\overline{\\text{X}}\\; \\overline{\\text{Y}} \\text{Z}+\\overline{\\text{X}} \\text{YZ + X} \\overline{\\text{Y}} \\text{Z + XYZ} &amp; \\mathrm{N} &amp; \\text{Y(X+Z)} \\\\<br>\\hline<br>\\end{array}$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{P-K, Q-L, R-N, S-M}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{P-L, Q-K, R-N, S-M}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{P-L, Q-N, R-M, S-K}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{P-M, Q-K, R-L, S-N}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/388674\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the circuit shown below, $\\text{Y}$ is a $\\text{2-bit} \\left(\\text{Y}_1 \\text{Y}_0\\right)$ output of the combinational logic. What is the maximum value of $\\text{Y}$ for any given digital inputs, $\\text{A}_1 \\text{A}_0$ and $\\mathrm{B}_1 \\mathrm{~B}_0?$</p><p style=\"text-align:center\"><img alt=\"\" height=\"120\" width=\"363\" src=\"media/8c/8c944396ab2665cb46e7.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$01$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$00$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$11$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/388672\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Input bits $\\mathrm{X}$ and $\\mathrm{Y}$ are added by using the combinational logic as shown below. $\\text{S}$ represents the sum of the two bits. For a correct implementation of the sum, the signals $\\text{D}_0, \\text{D}_1, \\text{D}_2, \\text{D}_3$ are, respectively.<br> </p><p style=\"text-align:center\"><img alt=\"\" height=\"339\" width=\"323\" src=\"media/34/3437187de7bbdece8c61.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1,0,0,1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0,1,0,1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1,0,1,1$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0,1,1,0$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/388670\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $b_q b_{q-1} \\ldots b_0$ be the binary representation of integer $b$. The integer $3$ is a divisor of $b$ if and only if</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$b_1=b_0=1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The sum of the binary digits $b_i$ is divisible by $3 .$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The alternating sum $b_0-b_1+b_2-\\ldots$ is zero.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The alternating sum $b_0-b_1+b_2-\\ldots$ is divisible by $3 .$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/387821\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The propagation delays of the $\\text{XOR}$ gate, $\\text{AND}$ gate and multiplexer $\\text{(MUX)}$ in the circuit shown in the figure are $4\\;\\text{ns} , 2\\;\\text{ns} $ and $1\\;\\text{ns} $, respectively.</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/6a/6abf88715db5325b0cc1.png\"></p><p>If all the inputs $\\text{P, Q, R, S&nbsp;and T}$ are applied simultaneously and held constant, the maximum propagation delay of the circuit is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3\\;\\text{ns} $</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5\\;\\text{ns} $</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6\\;\\text{ns} $</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$7\\;\\text{ns} $</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/387804\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 50.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 27,
+   "NAT": 1,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,1162 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-025",
+ "title": "Subjectwise Test-12 Part Syllabus GATE 2026 CS Discrete Mathematics",
+ "sourceTitle": "Subjectwise Test-12 Part Syllabus GATE 2026 CS Discrete Mathematics",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 25,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/032_Subjectwise Test-12 Part Syllabus GATE 2026 CS Discrete Mathematics.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>In a finite directed graph, every vertex has exactly three incoming edges. Which of the following statements is guaranteed to be true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Some vertex has at least three edges leaving it."
+    },
+    {
+     "key": "B",
+     "html": "Exactly three edges leave every vertex."
+    },
+    {
+     "key": "C",
+     "html": "Some vertex has exactly three edges leaving it."
+    },
+    {
+     "key": "D",
+     "html": "None of the above is true."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/66/666f22fef03131982f6e.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Let <em>X</em> be a set of size n. What is the size of the set <img align=\"absmiddle\" alt=\"\" src=\"media/fa/faa2953a0ed2025bdd3a.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/3b/3ba26c134b27310aa126.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/85/85256ddd94a8e5bc8c6f.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/bf/bf909a38e6d7e3cf3dbf.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/c3/c383d0c96d9eface0f03.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6d/6d9a7f74eae6d9096808.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Given <img align=\"absmiddle\" alt=\"\" src=\"media/6d/6da2102e8c4a5b66e8c9.png\" /> which function is not onto?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d7/d7e89d15156b6f556eab.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/a8/a846cf6a944922848010.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/a4/a4ea7421bb257ab069c7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/cd/cd366c28e5c99f5ff5c6.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ce/cefc1a2b8062e573fd1a.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Let the following statements <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> are true:<br />\n<em>S</em><sub>1</sub> : “If Shristi qualified GATE 2026 then she will get admission in IISc Bangalore”.<br />\n<em>S</em><sub>2</sub> : “Shristi qualified GATE 2026”.<br />\nConsider the following conclusions:<br />\n<em>C</em><sub>1</sub> : “Shristi will get admission in IISc Bangalore”.<br />\n<em>C<sub>2</sub></em> : “Shristi will get admission in IISc Bangalore and she qualified GATE 2026”.<br />\nWhich of the above conclusions are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>C</em><sub>1</sub> is correct"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>C</em><sub>2</sub> is correct"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>C</em><sub>1</sub> and <em>C</em><sub>2</sub> are correct"
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>C</em><sub>1</sub> nor <em>C</em><sub>2</sub> is correct"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/56/56c598b1a7f795e200b9.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Let <img align=\"absmiddle\" alt=\"\" src=\"media/1c/1cd902fe3334ce048360.png\" /> be the set of all integers. Define:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/19/196d4e4a66c9ccc3c423.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following statements is/are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/78/783f544ffd9b8d880b6b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/04/040811546076cf098081.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/37/37622aafa3c984a29763.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/b1/b11b5f11ec2d6dc20cd9.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/95/95a9d7074659669feeae.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>In a poset (A, ≤), if there is no element <img align=\"absmiddle\" alt=\"\" src=\"media/b3/b367f2663c15e5e04a37.png\" /> then which of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/30/309cc7246ef1726f9ded.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/c1/c12827eac564d4aea05b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "A set with the same subset of poset."
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/0b/0bef98b3ecf9657beab3.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cc/ccb3deaa374a4ca3cac6.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider (<em>S</em>, ∗) is a semigroup where <em>S</em> = {<em>a</em>, <em>b</em>, <em>c</em>, <em>d</em>}. Assume <em>a</em> ∗ <em>b</em> = <em>c</em>, <em>b</em> ∗ <em>b</em> = <em>a</em> and <em>d</em> ∗ <em>a</em> = <em>b</em>. Then <em>d</em> ∗ <em>c</em> =</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>a</em>"
+    },
+    {
+     "key": "B",
+     "html": "<em>b</em>"
+    },
+    {
+     "key": "C",
+     "html": "<em>c</em>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/22/22f73eea4dc9ce672be5.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>What is the converse of the following assertion?<br />\n“I can top the exam only if I study”</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "I can top the exam if I study"
+    },
+    {
+     "key": "B",
+     "html": "If I can top the exam then I study"
+    },
+    {
+     "key": "C",
+     "html": "If I do not study then I cannot top the exam"
+    },
+    {
+     "key": "D",
+     "html": "If I cannot top the exam then I study"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3a/3a59aee6fba349010810.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>A binary relation R defined on a set S is said to be antisymmetric if for x, y ∈ S,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d8/d8032d2efe3f0fd4cecf.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following statements is/are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A binary relation cannot be both symmetric and antisymmetric."
+    },
+    {
+     "key": "B",
+     "html": "A binary relation can be both transitive and antisymmetric."
+    },
+    {
+     "key": "C",
+     "html": "The union of two equivalence relations is always an equivalence relation."
+    },
+    {
+     "key": "D",
+     "html": "The intersection of two equivalence relations is always an equivalence relation."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b1/b18cb89b59c3ccc32769.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Let f be a function from set A to B. Consider the following statement:<br />\n<strong><em>P</em></strong> : For each <em>a</em> ∈ <em>A</em>, there exists unique <em>b</em> ∈ <em>B</em> such that <em>f</em>(<em>a</em>) = <em>b</em>.<br />\n<strong><em>Q</em></strong> : For each <em>b</em> ∈ <em>B</em>, there exists a ∈ A such that <em>f</em>(<em>a</em>) = <em>b</em>.<br />\n<strong><em>R</em></strong> : There exists <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub> ∈ <em>A</em> such that <em>a</em><sub>1</sub> ≠ <em>a</em><sub>2</sub> and <em>f</em>(<em>a</em><sub>1</sub>) = <em>f</em>(<em>a</em><sub>2</sub>).<br />\nThe negation of the statement “<em>f</em> is one-one and onto” is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>P</em> or not <em>R</em>"
+    },
+    {
+     "key": "B",
+     "html": "<em>R</em> or not <em>P</em>"
+    },
+    {
+     "key": "C",
+     "html": "<em>R</em> or not <em>Q</em>"
+    },
+    {
+     "key": "D",
+     "html": "<em>P</em> and not <em>R</em>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8e/8ed8391a74b0c3adfd5c.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider a simple undirected graph <em>G</em>(<em>V</em>, <em>E</em>) with 102 nodes labelled V<sub>0</sub>, V<sub>1</sub>, V<sub>2</sub>, ..... V<sub>101</sub>. For node<br />\n<img align=\"absmiddle\" alt=\"\" src=\"media/24/24434697c00b18fbf1f5.png\" /> Other than this,<br />\n(<em>V</em><sub>0</sub>, <em>V</em><sub>1</sub>) and (<em>V</em><sub>101</sub>, <em>V</em><sub>100</sub>) are in <em>E</em>. What is the chromatic number of graph <em>G</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1"
+    },
+    {
+     "key": "B",
+     "html": "2"
+    },
+    {
+     "key": "C",
+     "html": "3"
+    },
+    {
+     "key": "D",
+     "html": "4"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2c/2cecce44d94f6ad63556.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following predicates with the domain as set of integers for all variables.<br />\n<em>P</em>(<em>m</em>) : <em>m</em><sup>2</sup> > –1<br />\n<em>Q</em>(<em>m</em>) : <em>m</em><sup>2</sup> –6<em>m</em> + 8 = 0<br />\n<em>R</em>(<em>m</em>, <em>n</em>) : <em>m</em><sup>2</sup> = <em>n</em><br />\nWhich of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/33/336f044652c4a523955c.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/d3/d30c12bebdde5f953da0.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/cf/cfb7559fbb32c9bc7f54.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "Both (a) and (c)"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7d/7dd440977c7e64ad1ddc.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p><em>p</em>, <em>q</em> and <em>r</em> be propositions as given below:<br />\n<em>p</em> : Program requested a page<br />\n<em>q</em> : Page fault occurred<br />\n<em>r</em> : Error occurred<br />\nConsider a system with following specifications:<br />\n<em>S</em><sub>1</sub> : “If program requested a page, then page fault occurred or error occurred”.<br />\n<em>S</em><sub>2</sub> : “Error occurred if and only if program requested a page and page fault occurred”.<br />\n<em>S</em><sub>3</sub> : “Error occurred”.<br />\nFor how many possible truth assignments to <em>p</em>, <em>q</em> and <em>r</em> such that the above system specifications are consistent?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/94/94abeeff67134e8bcc03.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Let <em>f</em> is a function from set of integers to the set of integers. Find which of the following function is neither one to one nor onto function.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d9/d9f006d270f72bc2808e.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/0f/0f4688422ac0a57d473a.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/cd/cd4474ee4cf1b360868e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/56/56c7dcbdbbc1e90f4d19.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4e/4edd0d7a536111665899.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Find the middle term in the expansion of <img align=\"absmiddle\" alt=\"\" src=\"media/62/62ea2dceac293fa02941.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/14/14ec1fcab20b373d56de.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/a4/a4057e413cf03a07592b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/cc/cc4ab18cd0a3843cd7e4.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/af/affd29ccb4f3dc8dc0aa.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/41/4121e4d07b4f3efaa94a.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Let <img align=\"absmiddle\" alt=\"\" src=\"media/88/884c08cfbaea254ce53d.png\" /> be a group where G is a set and <img align=\"absmiddle\" alt=\"\" src=\"media/29/2910116d7f6c82564ff6.png\" />\u0001 is a binary operation on G. Consider G′ is a nonempty<br />\nfinite subset of G. And G′ is closed under \u0001<img align=\"absmiddle\" alt=\"\" src=\"media/29/2910116d7f6c82564ff6.png\" /> . Then which of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/0b/0b1740083bc7fd67a641.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/bf/bf0194886516d80b5273.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "There may be an element in <em>G</em>′ whose inverse is not in <em>G</em>′."
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/fd/fd2681c3fa2a28578984.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/70/708f08f69ddd7a73716e.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the directed graph given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e1/e10151f043f3f3e7a0c0.png\" /></div>\n\n<div>Which of the following is TRUE?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The graph does not have topological ordering."
+    },
+    {
+     "key": "B",
+     "html": "DMACBEYS is one of the topological ordering."
+    },
+    {
+     "key": "C",
+     "html": "DMCABEYS is one of the topological ordering."
+    },
+    {
+     "key": "D",
+     "html": "Both (a) and (c)"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nIn finding topological ordering of any graph<br />\n1. Choose vertex which has &lsquo;0&rsquo; indegree. If not present &lsquo;0&rsquo; indegree vertex then topological ordering not possible.<br />\n2. If &lsquo;0&rsquo; degree node present then, remove it and find next &ldquo;zero&rdquo; indegree vertex.<br />\n3. If &lsquo;0&rsquo; degree node present then, remove it and find next &ldquo;zero&rdquo; indegree vertex.<br />\n4. Topological ordering is : &ldquo;DMACBEYS&rdquo;.</p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a complete undirected simple graph G with 4 nodes. Each vertex and each edge in <em>G</em> are labelled (different). How many different maximal matchings possible for above graph <em>G</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4"
+    },
+    {
+     "key": "B",
+     "html": "6"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f5/f5b658ff97ddcf486817.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p><em>G</em> be a connected graph in which only one node have degree > ‘1’ and rest of nodes are of degree ‘1’. Add an edge between every two node of degree ‘1’ in such a way that if <em>a</em>, <em>b</em>, <em>c</em>, <em>d</em> are node then <em>a</em> to <em>b</em> one edge, <em>b</em> to <em>c</em> one edge, <em>c</em> to <em>d</em> one edge and <em>d</em> to a one edge. The resultant graph is sure to be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Regular"
+    },
+    {
+     "key": "B",
+     "html": "Complete"
+    },
+    {
+     "key": "C",
+     "html": "Hamiltonian"
+    },
+    {
+     "key": "D",
+     "html": "Euler"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9e/9e6afba3ccd47e3ad77b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Let (G, *) be a group such that O(G) = 8, where O(G) denotes the order of the group G. Which of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "There exists no element a in G whose order is 6."
+    },
+    {
+     "key": "B",
+     "html": "There must exist an element a in G whose order is 4."
+    },
+    {
+     "key": "C",
+     "html": "There exists more than one element a in G such that O(a) = 1."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nTheorem: If a is an element of G, then O(a) must divide O(G).<br />\nTherefore (a) is true, as O(a) = 6 and 6 doesn&rsquo;t divide 8.<br />\nHowever the converse of the above theorem need not be true, therefore (b) is false.<br />\n(c) says there are at least two elements in G with order 1, however this violates the fact that every<br />\ngroup can have only one identity element. So (c) is also wrong. So the appropriate choice is (d).</p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following predicates with the domain as set of integers for all variables.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/1d/1ddace1f7f2f6c8525a9.png\" /></div>\n\n<div>Which of the following is true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/7d/7ddfbc9db2005389596f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/23/23ae5b0270e24de54098.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/ac/acb7cf42149e4cd3313b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a0/a00fe74a70a3583b7c16.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of the following is/are false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Set of integers on addition operation is Monoid but not group."
+    },
+    {
+     "key": "B",
+     "html": "Set of integers on subtraction operation is Monoid but not group."
+    },
+    {
+     "key": "C",
+     "html": "Set of integers on multiplication operation is group but not Abelian group."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)<br />\n(Z, +) is both group and Abelian group, as it satisfies commutative property and inverse element<br />\nis &ndash;a &forall;a &isin; Z.<br />\n(Z, &ndash;) is never semigroup, because subtraction operation is not associative and hence cannot be<br />\nmonoid too.<br />\n(Z, &times;) is monoid but not group, because inverse does not exist i.e. for any integer &lsquo;a&rsquo; it&rsquo;s inverse is<br />\n1/a which is a rational number.<br />\nHence it is monoid only.</p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : In a distributive lattice, if <img align=\"absmiddle\" alt=\"\" src=\"media/3c/3c8ce968c4df6b272a5f.png\" /> are elements of set of this distributive lattice.<br />\n<em>S</em><sub>2</sub> : In a distributive lattice L, a given element a can have at most one complement.<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/55/558a8639fea524affba4.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following is correct statement ?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Every distributive lattice is complemented lattice."
+    },
+    {
+     "key": "B",
+     "html": "Every complemented lattice is distributive lattice."
+    },
+    {
+     "key": "C",
+     "html": "Every distributive lattice is bounded."
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/67/6762e9ee265e4b1f2ce5.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Let <em>s</em> = {<em>a</em>, <em>b</em>, <em>c</em>} and <em>P</em>(<em>s</em>) is power set of s. <em>X</em> = (<em>P</em>(<em>s</em>), ⊆) is partially ordered set (poset) with partial order as ⊆. Which of the following is/are correct for poset <em>X</em>.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Poset <em>X</em> is a lattice."
+    },
+    {
+     "key": "B",
+     "html": "For every element <em>z</em> of <em>P</em>(<em>s</em>), <em>s</em> – z is complement of z in poset <em>X</em>."
+    },
+    {
+     "key": "C",
+     "html": "Poset <em>X</em> is a distributive lattice."
+    },
+    {
+     "key": "D",
+     "html": "Hasse diagram of <em>X</em> has 9 edges."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8a/8a31bad4e0ffffefdac5.png\" /></div>\n\n<div><img alt=\"\" src=\"media/c1/c15a6cc2a029ba2d232c.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following graphs:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/31/318be44b1d21e592442a.png\" /></div>\n\n<div>The number of graphs which are Euler ________.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>G</em><sub>1</sub> and <em>G</em><sub>3</sub> only"
+    },
+    {
+     "key": "B",
+     "html": "<em>G</em><sub>2</sub> and <em>G</em><sub>3</sub> only"
+    },
+    {
+     "key": "C",
+     "html": "<em>G</em><sub>1</sub> only"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9d/9d0fa69d6cab38637599.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>In a college’s mathematics department, there are 7 women and 9 men. How many distinct ways can a committee of 5 members be formed such that the committee includes atleast one women and atleast one men?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4221,
+    4221
+   ],
+   "answerText": "4221",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4221</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5c/5c62129a0d58e34d3a19.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following graphs have Hamiltonian cycle?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/9d/9de2f26f566cc88ab2c7.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/51/515db21941116c34fd52.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/70/70dc961ae65823157f3b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/8c/8cb2cdb3c375bdfa61b2.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7b/7b792b9572d3cb278d26.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>The number of solutions are there to the equation <em>x</em><sub>1</sub> + <em>x</em><sub>2</sub> + <em>x</em><sub>3</sub> + <em>x</em><sub>4</sub> + <em>x</em><sub>5</sub> + <em>x</em><sub>6</sub> = 31 are ________.<br />\nWhere <em>x</em><sub>1</sub> ≥ 1, <em>x</em><sub>2</sub> ≥ 2, <em>x</em><sub>3</sub> ≥ 2, <em>x</em><sub>4</sub> ≥ 4, <em>x</em><sub>5</sub> ≥ 6, <em>x</em><sub>6</sub> ≥ 5?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4368,
+    4368
+   ],
+   "answerText": "4368",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4368</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7c/7c77872379a60bc1ec0d.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Let a set <em>S</em> defined as</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/61/61787916f65ab2e41f1b.png\" /></div>\n\n<div> </div>\n\n<div>Find the cardinality of the set.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "25"
+    },
+    {
+     "key": "B",
+     "html": "60"
+    },
+    {
+     "key": "C",
+     "html": "63"
+    },
+    {
+     "key": "D",
+     "html": "43"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/90/90ce78601584f911f3d6.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Let <em>D<sub>x</sub></em> = N (the set of natural numbers excluding zero) and <em>D<sub>y</sub></em> = <em>N</em><sup>0</sup> (the set of natural numbers<br />\ninclude zero). Define the predicate <em>P</em>(<em>x</em>, <em>y</em>) as ‘<em>x</em> divides <em>y</em>’.<br />\nWhich of these following quantified statement is/are true?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4a/4a4747226493aa60e8a3.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only 1 and 4 are true"
+    },
+    {
+     "key": "B",
+     "html": "Only 1 and 3 are true"
+    },
+    {
+     "key": "C",
+     "html": "Only 2 is true"
+    },
+    {
+     "key": "D",
+     "html": "All of them above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d5/d5364ad59a00faa0b265.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>For the composition table of a cyclic group shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e8/e8a43eb0e720a683122e.png\" /></div>\n\n<div> </div>\n\n<div>Which one of the following is/are generators?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>a</em>"
+    },
+    {
+     "key": "B",
+     "html": "<em>b</em>"
+    },
+    {
+     "key": "C",
+     "html": "<em>c</em>"
+    },
+    {
+     "key": "D",
+     "html": "<em>d</em>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d65f15d1e61074edcd1b.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Let <em>M</em> denote the set of all lines in a plane. Let <em>R</em> and <em>S</em> be two relations on <em>M</em> defined such that,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e6/e6653a603dfae3a71283.png\" /></div>\n\n<div>Then which of the following is correct about <em>R</em>, <em>S</em>, <em>T</em> and <em>U</em>?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Both <em>R</em> and <em>S</em> are equivalence relations."
+    },
+    {
+     "key": "B",
+     "html": "<em>R</em> is an equivalence relation, but <em>S</em> is not an equivalence relation."
+    },
+    {
+     "key": "C",
+     "html": "<em>T</em> is antisymmetric relation ."
+    },
+    {
+     "key": "D",
+     "html": "<em>U</em> is both asymmetric and antisymmetric relation."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fa/fa18b74bbbe80d414b8c.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 23,
+   "MSQ": 7,
+   "NAT": 3
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,575 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-042",
+ "title": "Topicwise Test-17 Part Syllabus GATE 2026 EE Electrical & Electronics Measurements Part-1",
+ "sourceTitle": "Topicwise Test-17 Part Syllabus GATE 2026 EE Electrical & Electronics Measurements Part-1",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 42,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/068_Topicwise Test-17 Part Syllabus GATE 2026 EE Electrical & Electronics Measurements Part-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A 300 V, 5 A, 0.2 power factor, low power factor wattmeter is used to measure the power consumed by a load. The wattmeter scale has 300 division and the pointer is on the 150<sup>th</sup> division. The power consumed by the load (in watts) is _______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    150,
+    150
+   ],
+   "answerText": "150",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>150</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/61/615c676b2056e63082ab.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The operating coil of a 300 V moving iron voltmeter has a resistance of 500 Ω and an inductance of 1.0 H. The series resistance is 2000 Ω. The instrument reads correctly when a direct voltage of 300 V is applied. What will it read when 300 V at 50 Hz is applied and the value of capacitance must the series resistance be shunted to make the meter read correctly at 50 Hz are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "297.62 V and 0.10 μF"
+    },
+    {
+     "key": "B",
+     "html": "297.62 V and 1 μF"
+    },
+    {
+     "key": "C",
+     "html": "302.4 V and 0.1 μF"
+    },
+    {
+     "key": "D",
+     "html": "302.4 V and 1 μF"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1b/1b33c617ae130171b82a.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A moving coil voltmeter has 300 turns and effective depth and width of 2.5 cm and 3.0 cm respectively. The meter shows full scale deflection with a current of 10 mA. The controlling torque for full scale deflection provided by control spring is 3.92 × 10<sup>–5</sup> N-m, then the flux density in air gap will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.025 Wb/m<sup>2</sup>"
+    },
+    {
+     "key": "B",
+     "html": "0.25 Wb/m<sup>2</sup>"
+    },
+    {
+     "key": "C",
+     "html": "0.017 Wb/m<sup>2</sup>"
+    },
+    {
+     "key": "D",
+     "html": "0.0025 Wb/m<sup>2</sup>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a8/a87550895e57afdb0e8f.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>If a voltmeter is connected across either of the two 100 kΩ resistors in figure, shows a reading of 90 V. Then the internal resistance of the voltmeter being used is ________ kΩ.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8c/8c0846e3cdac2198cd72.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    450,
+    450
+   ],
+   "answerText": "450",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>450</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/94/94792cbeefea3561f2de.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 20 A dynamometer ammeter has a full scale deflection of 90°. The rate of mutual inductance with deflection is constant and its value is 0.006 μH/degree the deflection, if the current to be measured is 10 A is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "22.5°"
+    },
+    {
+     "key": "B",
+     "html": "45°"
+    },
+    {
+     "key": "C",
+     "html": "90°"
+    },
+    {
+     "key": "D",
+     "html": "135°"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cf/cf4205a4207173e04063.png\" /></div>\n\n<div><img alt=\"\" src=\"media/31/3187ad77f5fbbbda7b66.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Two equal resistances, each of 100Ω ± 1% (standard deviation) are connected in parallel. The standard deviation of the parallel combination will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.5%"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/07/07c81609a404a5b4753d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/67/67aac572ea3ce08bbceb.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "2%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/81/8129cfdab755d24ea372.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>If two 600 V full-scale voltmeters <em>V</em><sub>1</sub> and <em>V</em><sub>2</sub> having sensitivities of 100 kΩ/V and 150 kΩ/V respectively are connected in series to measure 1000 V, then</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c7/c7abdbc13deeb72ddbe9.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>V</em><sub>1</sub> and <em>V</em><sub>2</sub> will read 500 V each"
+    },
+    {
+     "key": "B",
+     "html": "<em>V</em><sub>1</sub> will read 400 V and <em>V</em><sub>2</sub> will read 600 V"
+    },
+    {
+     "key": "C",
+     "html": "<em>V</em><sub>1</sub> will read 600 V and <em>V</em><sub>2</sub> will read 400 V"
+    },
+    {
+     "key": "D",
+     "html": "<em>V</em><sub>1</sub> and <em>V</em><sub>2</sub> will read 0 V each"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0b/0baf36843474a4185be3.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A current of <img align=\"absmiddle\" alt=\"\" src=\"media/07/070febaa3aee7464ded6.png\" /> is measured with a thermocouple type,5 A full scale meter. What is the meter reading?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 A"
+    },
+    {
+     "key": "B",
+     "html": "3 A"
+    },
+    {
+     "key": "C",
+     "html": "5 A"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/74/742497957ab04465e569.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b4/b4d0e457abe50f09c97d.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A (0 - 1)A moving-iron ammeter has an internal resistance of 50 mΩ and inductance of 0.1 mH.<br />\nA shunt coil is connected to extend its range to (0 - 10)A for all operating frequencies. The time constant and resistance of the shunt coil are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 msec and 5.55 mΩ"
+    },
+    {
+     "key": "B",
+     "html": "4 msec and 11.10 mΩ"
+    },
+    {
+     "key": "C",
+     "html": "8 msec and 22.20 mΩ"
+    },
+    {
+     "key": "D",
+     "html": "1 msec 2.775 mΩ"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3b/3bd7573b195e41134daa.png\" /></div>\n\n<div><img alt=\"\" src=\"media/31/31721163f38ab14cdfa9.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A (0 - 100)mA moving iron ammeter is converters to a (0 - 400)V, 50 Hz voltmeter by adding a series resistance with the coil. Assume, the coil has negligible resistance and an inductance of <img align=\"absmiddle\" alt=\"\" src=\"media/b1/b18bf5cf1f6908d78f51.png\" /> Henry. If θ is deflection in radian and the total angular span of the meter is 100° then the value of series resistance required is _______ Ω. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3997,
+    3999.2
+   ],
+   "answerText": "3998.42",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3998.42 (3997.00 - 3999.20)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e69fdde4e25b346a926e.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The law of deflection of a galvanometer is <img align=\"absmiddle\" alt=\"\" src=\"media/f7/f75317f49c9a65674dee.png\" /> is the current <em>K</em> is a constant and θ is the deflection. If the angle of deflection θ is known to be with in ± 0.1° (standard deviation) of 15°, the percentage standard deviation of current <img align=\"absmiddle\" alt=\"\" src=\"media/68/683d8afa826c87af9af1.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.71%"
+    },
+    {
+     "key": "B",
+     "html": "0.91%"
+    },
+    {
+     "key": "C",
+     "html": "1.1%"
+    },
+    {
+     "key": "D",
+     "html": "2.2%"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ad/ad289ac6d5bde0351803.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>An electrostatic voltmeter reading upto 2000 V is controlled by a spring with a torsion constant of 5 × 10<sup>–6</sup> Nm/rad has a full scale deflection of 90°. The capacitance at zero voltage is 20 pF. What is the capacitance when the pointer indicates 2000 V?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "26.16 pF"
+    },
+    {
+     "key": "B",
+     "html": "20 pF"
+    },
+    {
+     "key": "C",
+     "html": "6.16 pF"
+    },
+    {
+     "key": "D",
+     "html": "8.84 pF"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b3/b36493227fb0a3adb7b7.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>An energy meter rated as 5 A, 230 V makes 600 revolutions per kWh. If in a test at full load upf, it makes 6 revolutions in 30 seconds. Which of these given statement(s) is/are not correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Meter runs faster than its nominal speed."
+    },
+    {
+     "key": "B",
+     "html": "The error associated with particular meter is 4.16%."
+    },
+    {
+     "key": "C",
+     "html": "Meter makes 720 revolutions in one hour during test."
+    },
+    {
+     "key": "D",
+     "html": "Meter can be corrected by placing a braking magnet closer to the center of the disc to slow down its speed."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/46/46bfde4ae214487d7bc5.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Three 200 V full scale PMMC DC voltmeter have figure of merit 3 kΩ/V, 6 kΩ/V and 9 kΩ/V respectively. The series combination of these voltmeters can measure a maximum DC voltage equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "400 V"
+    },
+    {
+     "key": "B",
+     "html": "556.6 V"
+    },
+    {
+     "key": "C",
+     "html": "485.2 V"
+    },
+    {
+     "key": "D",
+     "html": "580.4 V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/11/114fb719c7bb97174a84.png\" /></div>\n\n<div><img alt=\"\" src=\"media/0c/0c3b7de4e9a797ab4b82.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A dynamometer type wattmeter with pressure coil angle of 2° measure 400 W for 1 - <img align=\"absmiddle\" alt=\"\" src=\"media/6f/6f953893f70b835f7732.png\" /> inductive load supplied by 230 V. If this wattermeter is replaced by another wattmeter with pressure coil angle 1° reading obtained is 320 W. The value of current drawn by load is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10.45 A"
+    },
+    {
+     "key": "B",
+     "html": "12.42 A"
+    },
+    {
+     "key": "C",
+     "html": "19.99 A"
+    },
+    {
+     "key": "D",
+     "html": "16.32 A"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/64/64bf75109c95c6089a96.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Three milliammeters with full scale currents 2 mA, 20 mA and 200 mA are connected in parallel and they read 0.4 mA, 1 mA and 5 mA respectively. Their internal resistances will be in ratio</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 : 5 : 25"
+    },
+    {
+     "key": "B",
+     "html": "1 : 10 : 100"
+    },
+    {
+     "key": "C",
+     "html": "100 : 10 : 1"
+    },
+    {
+     "key": "D",
+     "html": "25 : 5 : 2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/33/33ddd9235a480bf13dda.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The variable ‘<em>A</em>’ is related to three other variables <em>B</em>, <em>C</em> and <em>D</em> as <em>A</em> = <img align=\"absmiddle\" alt=\"\" src=\"media/08/08eac85bd307d942ee83.png\" /> The variables <em>B</em>, <em>C</em> and <em>D</em> are measured with meters of accuracy ± 0.5% of reading, ±1.2% of full scale value and ±1.5% of reading respectively. If actual readings are respectively 90, 20 and 60 with 100 being full scale value for <em>B</em>, <em>C</em> and <em>D</em>. The maximum limiting error in reading of <em>A</em> will be ± ________ % of reading. (Answer upto 1 decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7.9,
+    8.1
+   ],
+   "answerText": "8.0",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>8.0 (7.9 - 8.1)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bb/bb5b7fd219e002780969.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 4,
+   "MCQ": 12,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-038",
+ "title": "Topicwise Test-14 Part Syllabus GATE 2025 EC Analog circuit-2",
+ "sourceTitle": "Topicwise Test-14 Part Syllabus GATE 2025 EC Analog circuit-2",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 38,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/061_Topicwise Test-14 Part Syllabus GATE 2025 EC Analog circuit-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA CE amplifier is driven by a voltage source of internal resistance <em>R<sub>s</sub></em> = 800 Ω. The load impedance is a resistance of 2 kΩ. If the <em>h</em>-parameters are <img align=\"absmiddle\" alt=\"\" src=\"media/49/4915c91b7b0cba7f6b96.png\" /> then the current gain is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–90.91"
+    },
+    {
+     "key": "B",
+     "html": "54.28"
+    },
+    {
+     "key": "C",
+     "html": "–47.62"
+    },
+    {
+     "key": "D",
+     "html": "–88.46"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/ac/acacf32898bdce73156b.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIn the transformer coupled amplifier stage shown <em>V<sub>BE</sub></em> = 0.7 V, β = 50, and the quiescent voltage is <em>V<sub>CB</sub></em> = 4 V. Then value of <em>R<sub>e</sub></em> is</p>\n<p>\n\t<img alt=\"\" src=\"media/96/967544e18212ff40ce8b.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.57 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "10 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "5 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "2.04 Ω"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/e8/e8d49727be129b26accf.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA transistor is biased at 5 mA, 10 V if <img align=\"absmiddle\" alt=\"\" src=\"media/3c/3c217ab7b4b5471d918b.png\" /> = 600 Ω, <em>h<sub>fe</sub></em> = 100, <em>C<sub>C</sub></em> = 3 pF and current gain is 10 at a frequency of 10 MHz, then the beta cut-off frequency is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.2 MHz"
+    },
+    {
+     "key": "B",
+     "html": "0.2 MHz"
+    },
+    {
+     "key": "C",
+     "html": "0.159 MHz"
+    },
+    {
+     "key": "D",
+     "html": "1.005 MHz"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/63/63fa733be0ad55d54bd1.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tWhen a Ge PNP transistor is biased at 2 mA, 15 V, it has a base width of 1 micron. The value of diffusion capacitance of emitter-base junction, <em>C<sub>e</sub></em> is ________ pF. (Given that, <em>D<sub>B</sub></em> = 47 cm<sup>2</sup>/sec)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1"
+    },
+    {
+     "key": "B",
+     "html": "8.18"
+    },
+    {
+     "key": "C",
+     "html": "7.2"
+    },
+    {
+     "key": "D",
+     "html": "20"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/06/06aac21f169826d58be9.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tWhat is the magnitude of voltage gain of the FET amplifier shown in figure assuming blocking capacitor <em>C<sub>b</sub></em> to be large? Take <em>g<sub>m</sub></em> = 2 mA/V and <em>r<sub>d</sub></em> = 10 kΩ</p>\n<p>\n\t<img alt=\"\" src=\"media/17/1712fff90a1d1a22ac12.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10"
+    },
+    {
+     "key": "B",
+     "html": "14.28"
+    },
+    {
+     "key": "C",
+     "html": "20"
+    },
+    {
+     "key": "D",
+     "html": "22"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/17/176ad9297d988e5bd004.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tFor the network shown in figure</p>\n<p>\n\t<img alt=\"\" src=\"media/77/772c523fe8c2b4db4a6a.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/9b/9b28fe4259186da27a55.png\" /></p>\n<p>\n\tThe value of <em>V<sub>GS</sub></em> is given by __________ V. (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -2.5,
+    -2.45
+   ],
+   "answerText": "-2.48 (-2.50 - -2.45)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-2.48 (-2.50 - -2.45)</p>\n<p>\n\t<img alt=\"\" src=\"media/2a/2ae99a2a0de54d353214.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/b8/b8f17092beb159549abd.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA FET is used as a simple CS amplifier. If the gain of the amplifier is found to be 40 and 30 with load resistance of 80 kΩ and 40 kΩ respectively, the value of transconductance is _______ mS.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.4,
+    1.6
+   ],
+   "answerText": "1.5 (1.4 - 1.6)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.5 (1.4 - 1.6)</p>\n<p>\n\t<img alt=\"\" src=\"media/15/1524a88b8cfa8361fe30.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe value of current <img align=\"absmiddle\" alt=\"\" src=\"media/59/5958e8cb15ffc0659c70.png\" /> through each of the transistors <em>Q</em><sub>2</sub> and <em>Q</em><sub>3</sub> in the following circuit is approximately ___________ mA.</p>\n<p>\n\t<img alt=\"\" src=\"media/31/3117135263733fa777fc.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.92,
+    2.92
+   ],
+   "answerText": "2.92",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.92</p>\n<p>\n\t<img alt=\"\" src=\"media/41/41fd0c13fb2c9597b4bd.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe DC bias values of <img align=\"absmiddle\" alt=\"\" src=\"media/9e/9eddcb3f5c80e36c4b9b.png\" /> and <em>V<sub>C</sub></em> for the transistor circuit shown below is<br />\n\t(Assume β to be very large)</p>\n<p>\n\t<img alt=\"\" src=\"media/54/54e3897926f3a1294eef.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>V<sub>C</sub></em> = –0.7 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a6/a6e2ed22bb782c7f1abb.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/00/00d60e186e316ee83d53.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>V<sub>C</sub></em> = 7.85 V</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/c4/c420668f1f6fb26058bd.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/9c/9cc33b0cdca4f6d5f3f9.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tIn the circuit shown in figure, there are two identical transistors <em>T</em><sub>1</sub> and <em>T</em><sub>2</sub> with current gain β. Another transistor <em>T</em><sub>3</sub> has current gain β′. The relation between <img align=\"absmiddle\" alt=\"\" src=\"media/21/217967fe4ecd857891f4.png\" /> in terms of β and β′ is</p>\n<p>\n\t<img alt=\"\" src=\"media/d1/d10219c7a3d38f70c5a3.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c2/c24dfb358cbdccd107e4.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/59/59173e9e090e771204b2.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f9/f9bc3a1ca5c61b5161fa.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bb/bb294808972995b39e96.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/f4/f48e3c7c0e9822d36a2b.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/ba/ba69e086468c78a8ef9e.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tTwo transistors are direct coupled with first transistor emitter connected to the second transistor base, and the two collectors are connected as indicated. For the circuit shown, α<sub>1</sub> = 0.99, α<sub>2</sub> = 0.98, <em>V<sub>CC</sub></em> = 22 V, <em>R<sub>C</sub></em> = 120 Ω and <img align=\"absmiddle\" alt=\"\" src=\"media/1b/1b5f8c43fd537173a5c8.png\" /> = +120 mA.<br />\n\tNeglect reverse saturation current and assume both transistors in the active region. The current ratio <img align=\"absmiddle\" alt=\"\" src=\"media/bd/bdb98e786be17af7edc4.png\" /> is</p>\n<p>\n\t<img alt=\"\" src=\"media/b0/b0125caec843675730bb.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1500"
+    },
+    {
+     "key": "B",
+     "html": "2000"
+    },
+    {
+     "key": "C",
+     "html": "5000"
+    },
+    {
+     "key": "D",
+     "html": "9900"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/fd/fd104e3394e2e48beca0.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/9d/9d8db244bb39947d080d.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe common mode input to a certain differential amplifier, having differential gain of 125 is <img align=\"absmiddle\" alt=\"\" src=\"media/a2/a2870f645450cb1c3622.png\" /> V. Then the common mode output if CMRR is 60 dB is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d2/d28d9869ab3ea52e347e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ec/ec0deb7872c59dfc9f45.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f7/f7a97f0c2936c1b463ec.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5b/5b61500834f584ae664c.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/e8/e8ff6374a6bc47f489c4.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tFor the circuit shown in figure, the transistor parameters are <em>V<sub>TN</sub></em> = –2 V and <img align=\"absmiddle\" alt=\"\" src=\"media/71/7158c0b6cd338625cbe7.png\" /> Assume that <em>V<sub>DD</sub></em> = 5 V and <em>R<sub>S</sub></em> = 5 kΩ. The value of <em>V<sub>DS</sub></em> is</p>\n<p>\n\t<img alt=\"\" src=\"media/d2/d27cda211b18c68aaedd.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 V"
+    },
+    {
+     "key": "B",
+     "html": "0 V"
+    },
+    {
+     "key": "C",
+     "html": "3 V"
+    },
+    {
+     "key": "D",
+     "html": "2 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/5b/5b006915e3b3972ba32a.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the circuit shown below,</p>\n<p>\n\t<img alt=\"\" src=\"media/8c/8c06909bce69cfd0956f.png\" /></p>\n<p>\n\ttransistor parameters are: <img align=\"absmiddle\" alt=\"\" src=\"media/98/981cd9983ad41a43d22f.png\" /> and</p>\n<p>\n\t<img alt=\"\" src=\"media/fe/fe7c6cd215dad0593223.png\" /></p>\n<p>\n\tThe value of <em>V<sub>o</sub></em> for <img align=\"absmiddle\" alt=\"\" src=\"media/56/56ca0f00d35bcf15d541.png\" /> is _________ V. (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.08,
+    0.12
+   ],
+   "answerText": "0.10 (0.08 - 0.12)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.10 (0.08 - 0.12)</p>\n<p>\n\t<img alt=\"\" src=\"media/4f/4fc718a69aada4053739.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe value of the corner frequency of a MOSFET amplifier shown below is _______ MHz.<br />\n\t(Rounded off to two decimal places)</p>\n<p>\n\tFor the circuit, the parameters are: <em>R<sub>s</sub></em> = 3.2 kΩ, <em>R<sub>D</sub></em> = 10 kΩ, <em>R<sub>L</sub></em> = 20 kΩ and <em>C<sub>L</sub></em> = 10 pF.<br />\n\tThe transistor parameters are: <em>V<sub>TP</sub></em> = –2 V, <em>K<sub>p</sub></em> = 0.25 mA/V<sup>2</sup> and <img align=\"absmiddle\" alt=\"\" src=\"media/61/618f20a14a743c63ba95.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/59/59c4a28371dcbe3c3891.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.35,
+    2.43
+   ],
+   "answerText": "2.39 (2.35 - 2.43)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.39 (2.35 - 2.43)</p>\n<p>\n\t<img alt=\"\" src=\"media/df/df5705aeeccb83cee2d7.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider a transistor that has parameters<img align=\"absmiddle\" alt=\"\" src=\"media/34/349683880343caf447af.png\" /></p>\n<p>\n\tThe capacitance <em>C<sub>p</sub></em> of the transistor is ________ pF. (Rounded off to one decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    11.5,
+    12.5
+   ],
+   "answerText": "11.9 (11.5 - 12.5)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t11.9 (11.5 - 12.5)</p>\n<p>\n\t<img alt=\"\" src=\"media/65/65546739fab98cf1dd76.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tWhat are the values of bias current <img align=\"absmiddle\" alt=\"\" src=\"media/a1/a15a095359dfd9dbce94.png\" /> the gate to source voltage of the transistors, and the drain to source voltage of M1? Assume circuit parameters of <img align=\"absmiddle\" alt=\"\" src=\"media/aa/aaa4d80557fbab4c86c7.png\" /> 2.5 V. Assume transistor parameters of VTN = 0.4 V (all transistors), <img align=\"absmiddle\" alt=\"\" src=\"media/56/56aef445b6a7fe936532.png\" />  (all transistors),<br />\n\t<em>K</em><sub><em>n</em>1</sub> =0.25mA/V<sup>2</sup> ,  and <img align=\"absmiddle\" alt=\"\" src=\"media/c9/c9e7788f41dc28f9f873.png\" /> is _________.</p>\n<p>\n\t<img alt=\"\" src=\"media/7f/7fe2c9b7491d5042b016.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ab/ab38e1eb953ee0b5be89.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f6/f6bb747f22200b3113ca.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/15/15563b0fc3edd9f2c663.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bc/bc03ce4b04e26d272870.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/61/6186d9c2b9917a794358.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "NAT": 6,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,546 @@
+{
+ "v": 1,
+ "id": "me-easy-2026-031",
+ "title": "Topicwise Test-6 Part Syllabus GATE 2026 ME Fluid Mechanics & Hydraulic Machines-2",
+ "sourceTitle": "Topicwise Test-6 Part Syllabus GATE 2026 ME Fluid Mechanics & Hydraulic Machines-2",
+ "branch": "MECHANICAL ENGINEERING",
+ "code": "ME",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Mechanical Engineering",
+ "seriesId": "me-easy-2026",
+ "num": 31,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Mechanical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Mechanical Engineering"
+ },
+ "source": "MECHANICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Mechanical_Engineering/091_Topicwise Test-6 Part Syllabus GATE 2026 ME Fluid Mechanics & Hydraulic Machines-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Figure below shows a nozzle at the end of a pipe discharging oil from a tank to atmosphere. When the head H in the tank is 5.0 m. The loss in the pipe can be taken as 30 V<sup>2</sup>/2g, where V is the velocity of oil in the pipe. The loss of energy in the nozzle can be assumed to be zero. The pressure at the base of the nozzle is _____ kPa. (Round off to two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/84/84e6d72c14a6c97fcd40.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    34,
+    35.5
+   ],
+   "answerText": "34.99",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>34.99 (34.0 - 35.5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/39/39735f7368a233ee5352.png\" /></div>\n\n<div><img alt=\"\" src=\"media/3f/3f3a4a4d51a469665f89.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Oil of density 920 kg/m<sup>3</sup> and dynamic viscosity 0.30 Pa.s flows in a pipe of diameter 18 cm at a velocity of 2.3 m/s, what would be the velocity of flow of water in a 1.5 cm diameter pipe, to make the two flow dynamically similar _____ m/s (Round off to two decimal places) [Take density and viscosity of water to be 998 kg/m<sup>3</sup> and 1.30 × 10<sup>–3</sup> Pa-s]</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.1,
+    0.12
+   ],
+   "answerText": "0.11",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.11 (0.10 - 0.12)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7e/7e670cab305f27f49407.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>A viscous liquid was flowing in laminar regime in a 8 cm radius circular pipe. A pitot tube at radial distance of 3 cm from the pipe center line axis, indicated a velocity of 0.7 m/s. The discharge in the pipe is ______ <img align=\"absmiddle\" alt=\"\" src=\"media/22/2213077820b1ff1ef979.png\" /> (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8.1,
+    8.3
+   ],
+   "answerText": "8.2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>8.2 (8.1 - 8.3)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/67/67b53f8de026df09fd26.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Oil of relative density 0.9 and dynamic viscosity 3 poise is pumped through a 120 mm diameter pipe 550 m long at a rate of 3 <img align=\"absmiddle\" alt=\"\" src=\"media/80/80fa37ee66dce3ebeca8.png\" /> The head loss due to friction is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10.02 m"
+    },
+    {
+     "key": "B",
+     "html": "11.02 m"
+    },
+    {
+     "key": "C",
+     "html": "12.02 m"
+    },
+    {
+     "key": "D",
+     "html": "13.02 m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/55/5511fd3d60568dd17bb8.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A Kaplan turbine develops 25000 kW at a head of 40 m and at a rotational speed of 500 rpm. The outer diameter of the blades is 3 m and the hub diameter is 0.90 m. If the overall efficiency is 80%, then the flow velocity at inlet will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10.98 m/s"
+    },
+    {
+     "key": "B",
+     "html": "11.26 m/s"
+    },
+    {
+     "key": "C",
+     "html": "12.38 m/s"
+    },
+    {
+     "key": "D",
+     "html": "15.82 m/s"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e3/e3b3250cdbd560cf5fd7.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A venturimeter having a throat diameter of 150 mm is installed in a horizontal 300 mm diameter water main, as shown in the figure. The coefficient of discharge is 0.982. The difference in level of the mercury columns of the differential manometer attached to the venturimeter if the discharge is 0.142 m<sup>3</sup>/sec is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b5/b5e597f3ab4479161878.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "169 mm"
+    },
+    {
+     "key": "B",
+     "html": "254 mm"
+    },
+    {
+     "key": "C",
+     "html": "312 mm"
+    },
+    {
+     "key": "D",
+     "html": "389 mm"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/86/864948f88d4ae4891284.png\" /></div>\n\n<div><img alt=\"\" src=\"media/8b/8b6040c7649e5fed69d4.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In the laminar flow of a fluid in a circular pipe, the velocity profile is exactly a true parabola and given by <img align=\"absmiddle\" alt=\"\" src=\"media/aa/aab08f9838959620afa5.png\" /> as shown in figure below. The rate of discharge is represented by the volume of a paraboloid. The ratio of the mean velocity to the maximum velocity is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e8/e811e57070508a3a44b7.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.71"
+    },
+    {
+     "key": "B",
+     "html": "0.50"
+    },
+    {
+     "key": "C",
+     "html": "1.41"
+    },
+    {
+     "key": "D",
+     "html": "1.73"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/44/44af43ac96fac8a6bcbd.png\" /><img alt=\"\" src=\"media/da/da0749715d09d33ea1a3.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Match <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b9/b9495c17572ebd5acbde.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>For the flow through pipes, which of the following options is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Flow is established in a pipe when the boundary layer thickness is equal to the radius of the pipe."
+    },
+    {
+     "key": "B",
+     "html": "For laminar flow, the friction factor in Darcy Weisbach equation varies inversely as the Reynolds number."
+    },
+    {
+     "key": "C",
+     "html": "For turbulent flow, the friction factor in Darcy Weisbach equation varies inversely as the square of Reynolds number."
+    },
+    {
+     "key": "D",
+     "html": "When the boundary is rough, the friction factor varies with the relative roughness of the pipe."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Under which of the following conditions will the equation <img align=\"absmiddle\" alt=\"\" src=\"media/1a/1abb1695cb3f2798d46b.png\" /> will be valid in the whole flow field.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Flow is laminar"
+    },
+    {
+     "key": "B",
+     "html": "Flow is irrotational"
+    },
+    {
+     "key": "C",
+     "html": "Flow is incompressible"
+    },
+    {
+     "key": "D",
+     "html": "Flow is steady"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Match <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a4/a4d43b0cf9624bd7325e.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>For the velocity profile <img align=\"absmiddle\" alt=\"\" src=\"media/ed/ed7377433e426e8cfc63.png\" /> The shape factor <em>H</em> is ______. (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1.4
+   ],
+   "answerText": "1.28",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.28 (1.0 - 1.40)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0c/0c21248907676d70c46c.png\" /></div>\n\n<div><img alt=\"\" src=\"media/28/289ecb8fd4446e0fd629.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In a turbulent flow in a pipe of radius <em>r</em><sub>0</sub> the friction factor <em>f</em> was found to be 0.03. The shear velocity <em>U</em><sub>*</sub> in terms of mean velocity <em>V</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.05 V"
+    },
+    {
+     "key": "B",
+     "html": "0.06 V"
+    },
+    {
+     "key": "C",
+     "html": "0.07 V"
+    },
+    {
+     "key": "D",
+     "html": "0.08 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/05/052d27091eb127249b99.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>A 6 cm diameter pipe has a discharge of 0.008 m<sup>3</sup>/sec. At a section the pipe has a sudden expansion to a size of 8 cm diameter. The loss of head due to sudden expansion is ______ m. (Rounded off to three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.07,
+    0.08
+   ],
+   "answerText": "0.078",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.078 (0.070 - 0.080)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a3/a32a54b0b32993c20cf0.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Three pipes are connected in series. Then</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The head loss in each pipe is the same."
+    },
+    {
+     "key": "B",
+     "html": "The total discharge is the sum of the discharge in the individual pipes."
+    },
+    {
+     "key": "C",
+     "html": "The discharge through each pipe is the same."
+    },
+    {
+     "key": "D",
+     "html": "The Reynolds number for each pipe is the same."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>A Pelton turbine is to operate under a head of 600 m at 450 rpm. If a single jet with diameter 20 cm is used, then the specific speed of the machine is _______. (Take <em>C<sub>V</sub></em> = 0.95, and overall efficiency η<sub>0</sub> = 0.80) (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    18,
+    19
+   ],
+   "answerText": "18.71",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>18.71 (18 - 19)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/64/645eed56d590b8b362c0.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A flat plate 2 m wide and length L is kept parallel to a uniform stream of air of velocity 3.5 m/s in a wind tunnel. If it is desired to have a laminar boundary layer only on the plate, then the maximum length of the plate is<br />\n[Take ρ<sub>air</sub> = 1.2 kg/m<sup>3</sup>, ν<sub>air</sub> = 1.45 × 10<sup>–5</sup> m<sup>2</sup>/s]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.07 m"
+    },
+    {
+     "key": "B",
+     "html": "2.07 m"
+    },
+    {
+     "key": "C",
+     "html": "3.07 m"
+    },
+    {
+     "key": "D",
+     "html": "4.07 m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7f/7f787dc4fca033fc6997.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 6,
+   "MCQ": 9,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

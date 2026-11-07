@@ -1,0 +1,566 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-041",
+ "title": "GATE 2027-Topicwise Test-20 (Digital Electronics-2)",
+ "sourceTitle": "GATE 2027-Topicwise Test-20 (Digital Electronics-2)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 41,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/060_GATE 2027-Topicwise Test-20 (Digital Electronics-2).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider the below edge triggered JK flipflops, Present output at <em>Q</em><sub>1</sub><em>Q</em><sub>0</sub> is 00, The output for next&nbsp;3 clocks is</p>\n<p><img src=\"media/1d/1da6f5adccb2a42332aa.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>11, 01, 01</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>11, 01, 10</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>11, 10, 01</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>11, 11, 11</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/d7/d74cb38848e83428a9a0.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Initially the counter is started at \"00\". After how many number of clock pulses the counter can&nbsp;restart from initial state 00.</p>\n<p><img src=\"media/16/1698dc84efb2ba442b90.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>3</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>5</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/1e/1eff2596464e78a27c8c.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A 4-bit-synchronous counter uses flip-flop with propagation delay of 40 ns each. The maximum&nbsp;possible time required for change of state will be equal to ___________ ns.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    40,
+    40
+   ],
+   "answerText": "40",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f4/f481779a7f9434a3a887.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>The below logic diagram represents a sequential synchronous circuit:</p>\n<p><img src=\"media/84/843fc99ab7c2cba3dc8d.png\"></p>\n<p>The block-B can be replaced by,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Storage element</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Flip-flop</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Buffer</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Memoryless element</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<div>In the sequential synchronous circuit, the block-B can be replaced by a Flip-Flop (or) storage&nbsp;element (or) memory element (or) buffer.</div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider the sequential circuit shown below:</p>\n<p><img src=\"media/7c/7c68369e6de0e44807bc.png\"></p>\n<p>The state diagram for the above circuit is</p>\n<p><img src=\"media/b3/b38283f55ef6018b1af0.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/12/1256ec73d44a0201f733.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>In the figure, the clock signal CLK A has a 67% duty cycle and CLK <em>B </em>is a one-third period&nbsp;delayed version of CLK-A. If the time period of the clock signal CLK A is 20 &mu;s (<em>T</em><sub>CLK)</sub>, then the&nbsp;frequency of the output signal Y given in T-flip flop is ______ kHz. (Initial condition of Q = 0)</p>\n<p><img src=\"media/5a/5ac53892ef8c37df5ddc.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    25,
+    25
+   ],
+   "answerText": "25",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/2e/2e095d4aab3a04174b44.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A sequence detector with four states is shown below:</p>\n<p><img src=\"media/31/3196fd046c24061a7945.png\"></p>\n<p>If the state machine takes 1.25 &mu;sec to travel from one state to another state, then minimum time&nbsp;required to detect a sequence (assume sequence start from state <em>A</em>) is _______ &mu;sec. (Answer&nbsp;upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.7,
+    3.8
+   ],
+   "answerText": "3.7 - 3.8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/cc/cc1bb95e3495538830d4.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>Consider the following positive edge triggered SR flip-flop&rsquo;s timing diagram.<img src=\"media/22/22e2b462117c5e5010ef.png\"></p>\n<p>&nbsp;</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f8/f8640570bbf9a388ab24.png\"></p>\n<p><img src=\"media/c1/c13b9f818b24b6f16612.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The synchronous sequential circuit shown below works at a clock frequency of 10 GHz. The latency&nbsp;is</p>\n<p><img src=\"media/63/63f05ac159c5f7cb9160.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>4 nsec</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.4 nsec</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.8 nsec</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.2 nsec</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/07/0789d91cc6744a6c716e.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider a sequential circuit with S-R flip flop and input &lsquo;<em>X</em>&rsquo; as shown below:</p>\n<p><img src=\"media/02/026b7f83faa428f961d5.png\"></p>\n<p>The characteristic equation of the circuit will form</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>XOR gate</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>XNOR gate</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>AND gate</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>NOT gate</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/18/184e20a34123f851de20.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>Consider a modulo-8 counter uses JK flip flops with propagation delay of each flip flop as 50 ns.<br>The maximum clock frequency that can be used is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>6.66 MHz for synchronous counter.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>6.66 MHz for Asynchronous counter.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>20 MHz for synchronous counter.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>20 MHz for Asynchronous counter.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/31/31490af251ead44c0b56.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Select the circuit which will produce the given output <em>Q </em>for the input signals <em>X</em><sub>1</sub> and <em>X</em><sub>2</sub> given in&nbsp;the figure</p>\n<p><img src=\"media/7f/7fda69eb9d127472f4c9.png\"></p>\n<p><img src=\"media/aa/aa27681b4ed915ff3f4e.png\"></p>\n<p><img src=\"media/3b/3baf1b85ff1bb6310822.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/c7/c72f8d113f0a02ddb870.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>For a flip-flop with provisions for preset and clear.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Preset and clear operations are performed simultaneously</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>While presetting, clear is disabled.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>While clearing, preset is disabled.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both (b) and (c) are true.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>The preset input drives the flip-flop to a set state while the clear input drives it to a reset state.<br>Hence, both are disabled or only one is enabled at a time.</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A binary ripple counter is required to count upto 65536<sub>10</sub>. If the clock frequency is 25 MHz, the&nbsp;frequency at the output of MSB ( <em>f</em><sub>MSB</sub>) and number of flip-flops N required are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>381.469 Hz and 16</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/2f/2f55bf701ce7451471e8.png\"></p>",
+   "sourceIssue": "Most options are missing in the source paper, so it is not graded.",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The table which shows the necessary levels at <em>J </em>and <em>K </em>inputs to produce every possible flip-flop&nbsp;state transition is called</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Truth table (<em>J</em>-<em>K</em>)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>State transition table (<em>J</em>-<em>K</em>)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Excitation table (<em>J</em>-<em>K</em>)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>The excitation table of the flip-flop shows the required excitation to the flip-flop, or the required&nbsp;input to the flip-flop, to go from the given state to the next particular state.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>The digital logic shown in the figure satisfies the given state diagram when <em>Q</em><sub>2</sub> is connected to&nbsp;input<em> A</em> of the X-NOR gate</p>\n<p><img src=\"media/88/88e973574d52b9408e2f.png\"></p>\n<p>Suppose the XNOR gate is replaced by an XOR gate. Which one of the following options preserve&nbsp;the state diagram?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/6c/6c8ca3cb0db16d956340.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/b9/b97958ed231ce9c94798.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/8b/8ba8ca65b1542eb6fa6a.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/9b/9ba574fdf7fb182ea790.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/cf/cfed22f79ce86eeb81bd.png\"></p>\n<p><img src=\"media/97/97856fce8bd22b5cd13a.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A 4-bit shift register circuit is shown below with an arrangement with EX-NOR gate does a right&nbsp;shift operation with every clock pulse. If initial state of <em>ABCD </em>is 1010 before applying clock pulse.<br>Then content of register <em>ABCD </em>at the end eight clock pulse will be</p>\n<p><img src=\"media/42/4239ed6eddbc20e826e8.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1001</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1010</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1101</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1110</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/72/7209748fbbe2513ddafa.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 23,
+  "types": {
+   "MCQ": 10,
+   "NAT": 4,
+   "MSQ": 3
+  },
+  "withoutKey": 1
+ }
+}

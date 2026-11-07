@@ -1,0 +1,544 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-042",
+ "title": "Topicwise Test-18 Part Syllabus GATE 2025 EC Digital circuits-2",
+ "sourceTitle": "Topicwise Test-18 Part Syllabus GATE 2025 EC Digital circuits-2",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 42,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/069_Topicwise Test-18 Part Syllabus GATE 2025 EC Digital circuits-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tSelect the circuit which will produce the given output <em>Q</em> for the input signals <em>X</em><sub>1</sub> and <em>X</em><sub>2</sub> given in the figure</p>\n<p>\n\t<img alt=\"\" src=\"media/95/95e5a73866bfde72426f.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/75/7573c5ed45b14a1245b2.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e6/e61e198a6211e529d14e.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1f/1fcee59cc1d0b47bbc0d.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/28/2800930971bb89f5c47d.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/b7/b7cb5d37f10997172c19.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tFor a flip-flop with provisions for preset and clear.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Preset and clear operations are performed simultaneously"
+    },
+    {
+     "key": "B",
+     "html": "While presetting, clear is disabled."
+    },
+    {
+     "key": "C",
+     "html": "While clearing, preset is disabled."
+    },
+    {
+     "key": "D",
+     "html": "Both (b) and (c) are true."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\tThe preset input drives the flip-flop to a set state while the clear input drives it to a reset state. Hence, both are disabled or only one is enabled at a time.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA binary ripple counter is required to count upto 65536<sub>10</sub>. If the clock frequency is 25 MHz, the frequency at the output of MSB ( <em>f</em><sub>MSB</sub> ) and number of flip-flops <em>N</em> required are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "331.325 kHz and 17"
+    },
+    {
+     "key": "B",
+     "html": "375.135 kHz and 15"
+    },
+    {
+     "key": "C",
+     "html": "381.463 kHz and 17"
+    },
+    {
+     "key": "D",
+     "html": "305.256 kHz and 16"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/a7/a76b53c516a6374bb986.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA twisted ring counter consists of 4 flip-flops. Number of used states and duty cycle at the output of the MSB flip-flop are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4 states and 25%"
+    },
+    {
+     "key": "B",
+     "html": "8 states and 50%"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t2<sup>4</sup> states and 100%</p>"
+    },
+    {
+     "key": "D",
+     "html": "8 states and 12.5%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/b7/b7f14bd873bf93362104.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe table which shows the necessary levels at <em>J</em> and <em>K</em> inputs to produce every possible flip-flop state transition is called</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tTruth table (<em>J</em>-<em>K</em>)</p>"
+    },
+    {
+     "key": "B",
+     "html": "State transition table (J-K)"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tExcitation table (<em>J</em>-<em>K</em>)</p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tThe excitation table of the flip-flop shows the required excitation to the flip-flop, or the required input to the flip-flop, to go from the given state to the next particular state.</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tFor a 20-bit counter type A/D converter using a 2.5 MHz clock, the minimum conversion rate is ________ conversions/sec<br />\n\t(Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.35,
+    2.43
+   ],
+   "answerText": "2.38 (2.35 - 2.43)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.38 (2.35 - 2.43)</p>\n<p>\n\t<img alt=\"\" src=\"media/47/472d20cc044c9ee000b3.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Given 4-stage ladder DAC using. 15 kΩ and 30 kΩ resistors. For a reference voltage of 5 V, the output voltage for an input of 1011 to the circuit is ______.<br />\n(Rounded off to two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/94/940262df74e040233369.png\" /></div>\n\n<div>(Rounded off to two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8.25,
+    12.36
+   ],
+   "answerText": "10.33",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10.33 (8.25 - 12.36)</p>\n\n<p><img alt=\"\" src=\"media/70/70249c18118372692a11.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA 5-bit shift register circuit configured for right-shift operation, i.e. Din → A, A → B, B → C, C → D, D → E is shown. If the present state of the shift register is <em>ABCDE</em> = 10110, the number of clock cycles required to reach the state <em>ABCDE</em> = 11111 is _______.</p>\n<p>\n\t<img alt=\"\" src=\"media/54/545316a8cb7d54254018.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4 (4 - 4)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4 (4 - 4)</p>\n<p>\n\t<img alt=\"\" src=\"media/f6/f6877c032a282319da1a.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0a7567993e9be516c0c2.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the given circuit</p>\n<p>\n\t<img alt=\"\" src=\"media/83/837d28e84a6be49a4b99.png\" /></p>\n<p>\n\tIn this circuit <img align=\"absmiddle\" alt=\"\" src=\"media/28/2886f728f453b4863493.png\" /> then which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Race around does not occur."
+    },
+    {
+     "key": "B",
+     "html": "Race around occurs when CLK = 1 and A = B = 1."
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/20/2092daf7f6908e2c664a.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/90/90fc2141d2b3dcd31047.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/09/09afc0c48d06390b7f25.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider given sequence diagram as shown below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/59/595a94ddfdbe7adc1c47.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following logic circuit represents the given sequential circuit?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<div> </div>\n\n<div><img alt=\"\" src=\"media/09/092d57f664645a6211b3.png\" /></div>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/d6/d68f1b2f5e1d9ca1f5f4.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/32/32ea1deaa7537a3297db.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/e1/e169fc53de72d9ff9c6b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/82/827938344bcef221a0a3.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe a circuit realisation of a combinational logic block as shown in figure to obtain the following truth table involves</p>\n<p>\n\t<img alt=\"\" src=\"media/a6/a6bf8c5db72902885208.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "NOT and EX-OR gate."
+    },
+    {
+     "key": "B",
+     "html": "NOT and EX-NOR gate."
+    },
+    {
+     "key": "C",
+     "html": "OR and NAND gate."
+    },
+    {
+     "key": "D",
+     "html": "Only EX-OR gates."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/6c/6cb7a08245f457ea3048.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider a negative edge triggered <em>J</em>-<em>K</em> flip-flop with inputs <em>J</em> and <em>K</em> as shown in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/c7/c7ca0fe43232a047ca2a.png\" /></p>\n<p>\n\tThe input to the LED is connected to the <img align=\"absmiddle\" alt=\"\" src=\"media/b1/b1ee0ac5412e998640d1.png\" /> of the flip-flop (assuming that initially the flip-flop was reset). The duration for which the LED will be ON in the time duration of <em>T</em> sec is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 sec"
+    },
+    {
+     "key": "B",
+     "html": "2 sec"
+    },
+    {
+     "key": "C",
+     "html": "3 sec"
+    },
+    {
+     "key": "D",
+     "html": "5 sec"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/6c/6ca98a2b07f0ff959370.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tOut of the given state diagram of a Moore type sequence detector, which of it represents a “101” sequence detector?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/38/386c8eaef5485a8d979d.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/38/38210b2a8e28ee8c8cdd.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a8/a84a7bda7066247a0e80.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/b6/b6615a0d095e5e3b8874.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIf the initial state (<em>Q</em><sub>2</sub>, <em>Q</em><sub>1</sub>, <em>Q</em><sub>0</sub>) of the following counter is (000), the modulus of the counter is ________.</p>\n<p>\n\t<img alt=\"\" src=\"media/41/41c8fe0a8ee68e8f764d.png\" /><img alt=\"\" src=\"media/41/41c8fe0a8ee68e8f764d.png\" /><img alt=\"\" src=\"media/41/41c8fe0a8ee68e8f764d.png\" /><img alt=\"\" src=\"media/41/41c8fe0a8ee68e8f764d.png\" />v</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2 (2 - 2)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2 (2 - 2)</p>\n<p>\n\t<img alt=\"\" src=\"media/40/4001382ff5ea959ccbc8.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA dual-slope A/D converter has a resolution of 8-bits. The clock rate is 4.8 kHz. The maximum rate of sample conversion is ______ samples/sec.<br />\n\t(Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9.2,
+    9.6
+   ],
+   "answerText": "9.37 (9.20 - 9.60)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t9.37 (9.20 - 9.60)</p>\n<p>\n\t<img alt=\"\" src=\"media/c6/c612975373afe85f87f6.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe exponential F.S. coefficient of output <em>V<sub>o</sub></em> (assume <em>V<sub>CC</sub></em> = 10 V) considering the hold time as <em>T </em>and <img align=\"absmiddle\" alt=\"\" src=\"media/9b/9b50ddfbabd225800ca0.png\" /> is given by ________.<br />\n\tAssume the clock ON time to be negligible.</p>\n<p>\n\t<img alt=\"\" src=\"media/36/363bf0d05f3097d31595.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0 (0 - 0)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0 (0 - 0)</p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0ae0ab5eb41f6ce7e788.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe digital logic shown in the figure satisfies the given state diagram when <em>Q</em><sub>2</sub> is connected to input A of the X-NOR gate</p>\n<p>\n\t<img alt=\"\" src=\"media/aa/aad933a6a0d8ea2d76e3.png\" /></p>\n<p>\n\tSuppose the XNOR gate is replaced by an XOR gate. Which one of the following options preserve the state diagram?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tInput <em>A</em> is connected to <em>Q</em><sub>2</sub> .</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ce/ce91b588c5ab08088516.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/40/408e345bb9e443de0306.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tInput <em>A</em> is connected to <em>Q</em><sub>2</sub> and S is complemented.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/24/242cc3cd6afc42a3eea6.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "NAT": 6,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

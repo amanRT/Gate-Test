@@ -1,0 +1,1065 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-071",
+ "title": "DVRUO Classes CS Test Series | Engineering Mathematics | Subject Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | Engineering Mathematics | Subject Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 71,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Engineering Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/095_exam_1337_GO Classes CS Test Series Engineering Mathematics Subject Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are true? Note that more than one statement may be true. You should indicate all the true statements.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Eigen values can never be zero.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Eigen vectors can never be the zero vector.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $\\vec{x}$ is an eigen vector of a matrix $A$, then $2 \\vec{x}$ is also an eigen vector of $A$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The maximum possible rank of $5 \\times 7$ matrix is $5.$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><p><a href=\"https://gateoverflow.in/426299\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "If $\\operatorname{det}\\left[\\begin{array}{lll}a_{11} & a_{12} & a_{13}\\\\<br />a_{21} & a_{22} & a_{23} \\\\<br />a_{31} & a_{32} & a_{33}\\end{array}\\right]=3$, what is $\\operatorname{det}\\left[\\begin{array}{ccc}a_{31} & a_{32} & a_{33}\\\\<br />2 a_{21} & 2 a_{22} & 2 a_{23}\\\\<br />a_{11} & a_{12} & a_{13}\\end{array}\\right] ?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -6,
+    -6
+   ],
+   "answerText": "-6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 6</p><p><a href=\"https://gateoverflow.in/426298\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\mathbf{u}=\\left[\\begin{array}{l}4 \\\\\n1 \\\\\n3\\end{array}\\right], \\mathbf{v}=\\left[\\begin{array}{r}2\\\\\n5\\\\\n-1\\end{array}\\right]$, and $\\mathbf{w}=\\left[\\begin{array}{r}-4\\\\\n17\\\\\n-13\\end{array}\\right].$\nIt can shown that $3 \\mathbf{u}-4 \\mathbf{v}+\\mathbf{w}=\\mathbf{0}$. Use this fact to find a solution to the system $A \\mathbf{x}=\\mathbf{b}$ where\n$$\nA=\\left[\\begin{array}{cc}\n2 & 4\\\\\n5 & 1\\\\\n-1 & 3\n\\end{array}\\right], \\quad \\mathbf{x}=\\left[\\begin{array}{l}\nx_{1}\\\\\nx_{2}\n\\end{array}\\right], \\quad \\text { and } \\mathbf{b}=\\left[\\begin{array}{r}\n-4\\\\\n17\\\\\n-13\n\\end{array}\\right]\n$$\n    A. $\\mathbf{x}=\\left[\\begin{array}{r}\n    3\\\\\n    -4\n    \\end{array}\\right] $\n    \n    B. $\\mathbf{x}=\\left[\\begin{array}{r}\n    -4\\\\\n    3\n    \\end{array}\\right]$\n    \n    C. $\\mathbf{x}=\\left[\\begin{array}{r}\n    4\\\\\n    -3\n    \\end{array}\\right]$\n    \n    D. $\\mathbf{x}=\\left[\\begin{array}{r}\n    -3\\\\\n    4\n    \\end{array}\\right]$",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/426296\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "$A, B$ and $C$ are arbitrary, non-singular matrices. $\\operatorname{det}\\left(A^{T} B\\right)$ must equal which of the following?<br />    A. $\\operatorname{det}(A) \\operatorname{det}(B)$<br />    <br />    B. $\\dfrac{\\operatorname{det}(B)}{\\operatorname{det}(A)}$<br />    <br />    C. $\\operatorname{det}\\left(A^{-1}\\right) \\operatorname{det}(B)$<br />    <br />    D. $\\dfrac{\\operatorname{det}(B)}{\\operatorname{det}\\left(A^{-1}\\right)}$",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/426294\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following vectors are eigenvectors of the matrix: $\\left[\\begin{array}{lll}1 & 3 & 6\\\\<br />2 & 1 & 4\\\\<br />1 & 0 & 3\\end{array}\\right]$<br />    A. $\\left[\\begin{array}{c}1\\\\<br />    3\\\\<br />    -2\\end{array}\\right]$<br />    <br />    B. $\\left[\\begin{array}{c}-2\\\\<br />    -2\\\\<br />    1\\end{array}\\right]$<br />    <br />    C. $\\left[\\begin{array}{c}0\\\\<br />    1\\\\<br />    -5\\end{array}\\right]$<br />    <br />    D. None of these",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/426292\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "A sequence of independent experiments is conducted. Each experiment succeeds with probability $p$, fails with probability $q$, and has a neutral outcome with probability $1-p-q$. The sequence terminates as soon as some experiment succeeds or fails. Let $X$ be the number of experiments conducted. Let $S$ be the event that the outcome of the last experiment is a success. What is the conditional expectation of $X$ given $S$ ?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$p /(p+q)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$q /(p+q)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1 /(p+q)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$p q /(p+q)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/426259\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Landon is $80 \\%$ sure he forgot his textbook either at the Union or in Monteith. $\\mathrm{He}$ is $40 \\%$ sure that the book is at the union, and $40 \\%$ sure that it is in Monteith. Given that Landon already went to Monteith and noticed his textbook is not there, what is the probability that it is at the Union (round off to two decimal places)?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.67,
+    0.67
+   ],
+   "answerText": "0.67",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/426257\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $X$ be a random variable with the density function:<br>$$<br>f(x)=\\left\\{\\begin{array}{lc}<br>3 x^2 &amp; 0 \\leq x \\leq 1 \\\\<br>0 &amp; \\text { else }<br>\\end{array}\\right.<br>$$<br><br>Find the density function $f_Y(y)$ of $Y=X^2$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$$ f_Y(y)=\\left\\{\\begin{array}{lc} \\frac{3}{2} \\sqrt{y} \\& 0&lt;y&lt;1 \\\\ 0 \\& \\text { else } \\end{array}\\right. $$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$$ f_Y(y)=\\left\\{\\begin{array}{cc} 3 \\sqrt{y} \\& 0&lt;y&lt;1 \\\\ 0 \\& \\text { else } \\end{array}\\right. $$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$$ f_Y(y)=\\left\\{\\begin{array}{cc} \\frac{3}{2 y} \\& 0&lt;y&lt;1 \\\\ 0 \\& \\text { else } \\end{array}\\right. $$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$$ f_Y(y)=\\left\\{\\begin{array}{lc} \\frac{3}{2} y^2 \\& 0&lt;y&lt;1 \\\\ 0 \\& \\text { else } \\end{array}\\right. $$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/426249\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What does the following limit evaluate to?<br>$$<br>\\lim _{t \\rightarrow 0} \\frac{\\sin t-t}{t^{3}}<br>$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-1 / 6$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1 / 6$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-1 / 3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1 / 3$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/426247\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose that $f$ is continuous and differentiable on the interval [$1$,$6$]. Also suppose that $f(1)=-8$ and $f^{\\prime}(x) \\leq 4$ for all $x$ in the interval $[1,6]$. What is the largest possible value for $f(6)$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    12
+   ],
+   "answerText": "12",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/426243\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $a, b$ be in $\\mathbb{R}$. Consider the three vectors<br />$$<br />\\boldsymbol{v}_1=\\left[\\begin{array}{l}<br />a \\\\<br />0 \\\\<br />0<br />\\end{array}\\right], \\quad \\boldsymbol{v}_2=\\left[\\begin{array}{l}<br />0 \\\\<br />b \\\\<br />1<br />\\end{array}\\right], \\quad \\boldsymbol{v}_3=\\left[\\begin{array}{l}<br />0 \\\\<br />1 \\\\<br />1<br />\\end{array}\\right] .<br />$$<br />For which values of $a$ and $b$ are $\\boldsymbol{v}_1, \\boldsymbol{v}_2, \\boldsymbol{v}_3$ independent?<br />    A. $a=0$ and $b=1$<br />    <br />    B. $a \\neq 0$ and $b \\neq 1$<br />    <br />    C. $a=0$ and $b \\neq 1$<br />    <br />    D. $a \\neq 0$ and $b=1$",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/426290\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "$\\mathrm{S} 1:$ A set of two vectors in $\\mathbb{R}^n$ is Linealy dependent if at least one vector is a multiple of the other.\n$\\text{S2}:$ A set of $n$ vectors in $\\mathbb{R}^n$ is Linealy independent if and only if none of the vectors are a multiple of any other vector.\n    A. $\\text{S1}$ and $\\text{S2}$ both are correct\n    \n    B. $\\mathrm{S} 1$ is correct and $\\mathrm{S} 2$ is incorrect\n    \n    C. $\\text{S} 2$ is correct and $\\text{S} 1$ is incorrect\n    \n    D. $\\text{S} 1$ and $\\text{S} 2$ both are incorrect",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/426288\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose $A$ is $3$ by $4,$ and $A x=0$ has all solutions in the following form -<br />$$<br />\\mathrm{x}=\\mathrm{s}\\left[\\begin{array}{l}<br />1 \\\\<br />1 \\\\<br />1 \\\\<br />0<br />\\end{array}\\right]+\\mathrm{t}\\left[\\begin{array}{r}<br />-2 \\\\<br />-1 \\\\<br />0 \\\\<br />1<br />\\end{array}\\right]<br />$$<br />We do some unknown elementary row transformations on $A$ and get the following matrix $R$ -<br />$$<br />R=\\left[\\begin{array}{llll}<br />1 & 0 & \\mathrm{a} & \\mathrm{b} \\\\<br />0 & 1 & \\mathrm{c} & \\mathrm{d} \\\\<br />0 & 0 & 0 & 0<br />\\end{array}\\right]<br />$$<br />What will be the values of $a, b, c,$ and $d?$<br />   A. $a=-1$<br />    <br />   B. $b=2$<br />   <br />   C. $c=-1$<br />   <br />   D. $d=1$",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/426286\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the vectors $\\mathbf{u}=\\left[\\begin{array}{l}1\\\\<br />1\\end{array}\\right], \\mathbf{v}=\\left[\\begin{array}{c}1\\\\<br />c^{2}\\end{array}\\right], \\mathbf{b}=\\left[\\begin{array}{l}1\\\\<br />c\\end{array}\\right]$, where $c$ is a constant.<br />Consider two statements.<br />    $\\mathrm{S} 1: \\;c=1$ is the ONLY possibility where $b$ is a linear combination of $u$ and $v$.<br />    $\\mathrm{S} 2:\\; c=-1$ is the ONLY possibility where $b$ is NOT a linear combination of $u$ and $v$.<br />Which of the following is/are true?<br />    A. $\\mathrm{S} 1$ is correct but $\\mathrm{S} 2$ is incorrect<br />    <br />    B. $\\mathrm{S} 1$ is incorrect but $\\mathrm{S} 2$ is correct<br />    <br />    C. Both are correct<br />    <br />    D. Both are incorrect",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/426284\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following is/are TRUE ?\n    A. Suppose an $m \\times n$ matrix $A$ has $n$ pivot columns. Then for each $\\mathbf{b} \\in \\mathbb{R}^{m}$, the equation $A \\mathbf{x}=\\mathrm{b}$ has at most one solution.\n    \n    B. Suppose $A x=b$ has the solution, the solution unique solution if and only if $A x=0$ has unique solution.\n    \n    C. If $A$ is an $m \\times n$ matrix and $A x=0$ has a unique solution, then $A x=b$ is consistent for every $b$ in $\\mathbf{R}^{m}$.\n    \n    D. If for some matrix $A$, and some vectors $x$ and $b$, we have $A x=b$, then $b$ is linear combination of columns of $A$.",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><p><a href=\"https://gateoverflow.in/426282\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the matrices $A$ and $R$ given below.<br />$$<br />A=\\left[\\begin{array}{cccc}<br />1 & 2 & 1 & b\\\\<br />2 & a & 1 & 8\\\\<br />\\star & \\star & \\star & \\star<br />\\end{array}\\right], \\quad R=\\left[\\begin{array}{llll}<br />1 & 2 & 0 & 3\\\\<br />0 & 0 & 1 & 2\\\\<br />0 & 0 & 0 & 0<br />\\end{array}\\right]<br />$$<br />Suppose we get $\\mathrm{R}$ after performing some unknown elementary row operations on $\\mathrm{A}$. What will be the value of $a$ and $b$ ?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$a=2, b=5$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$a=0, b=3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$a=4, b=5$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/426280\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "If the characteristic polynomial of $A$ is $=\\lambda^{2}(\\lambda-3)^{4}$, then the $\\operatorname{rank}(A)$ could be<br />    A.$3$<br />    <br />    B.$4$<br />    <br />    C.$5$<br />    <br />    D.$6$",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/426278\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following is/are FALSE ?<br />    A.Let $A$ be an $m \\times n$ matrix, and assume that the matrix $A$ has a pivot in every column. Additionally, assume $A \\vec{v}=A \\vec{w}$ for some vectors $\\vec{v}, \\vec{w} \\in \\mathbb{R}^{n}$.<br />    Then $\\vec{v}=\\vec{w}$.<br />    B.If $\\mathrm{A}$ and $\\mathrm{B}$ are both invertible $n \\times n$ matrices, then $A B$ is invertible.<br />    C.Let $A$ be an $m \\times n$ matrix. Then, the homogeneous equation $A \\vec{x}=\\overrightarrow{0}$ is consistent<br />    if and only if the augmented matrix $[A \\mid \\overrightarrow{0}]$ has a pivot in every row.<br />    D.Let $A$ be a $3 \\times 2$ matrix and $B$ a $2 \\times 3$ matrix. Then the determinant of $A B$ MUST be zero.",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/426276\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which one of the following statements is NOT correct?<br />    A.An eigenvalue of $A$ is a scalar $\\lambda$ such that $A-\\lambda I$ is not invertible.<br />    <br />    B.An eigenvalue of $A$ is a scalar $\\lambda$ such that $(A-\\lambda I) v=0$ has a solution.<br />    <br />    C.An eigenvalue of $A$ is a scalar $\\lambda$ such that $A v=\\lambda v$ for a nonzero vector $v$.<br />    <br />    D.An eigenvalue of $A$ is a scalar $\\lambda$ such that $\\operatorname{det}(A-\\lambda I)=0$.",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/426274\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be $n\\times n$ matrix with real coefficients. Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A must have an even number of non-real eigenvalues.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $v_{1}, v_{2} \\in \\mathbb{R}^{n}$ are eigenvectors of $A$ with different eigenvalues $\\lambda_{1} \\neq \\lambda_{2}$, then $v_{1}$ and $v_{2}$ are linearly independent.&nbsp;&nbsp;<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $v_{1}, v_{2} \\in \\mathbb{R}^{n}$ are eigenvectors of $A$ with different eigenvalues $\\lambda_{1} \\neq \\lambda_{2}$, then $v_{1}$ and $v_{2}$ are orthogonal<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The eigenvalues of $A B$ are the product of the eigenvalues of $A$ and $B$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/426272\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "It is known that $\\boldsymbol{A} \\in \\mathbb{R}^{3 \\times 3}$ has eigenvalues $\\lambda_{1}=0, \\lambda_{2}=1, \\lambda_{3}=2$.<br />Which of the following is true?<br />    A.Linear system $A x=b$ always has solution for any $b$<br />    <br />    B.Linear system $A x=b$ has solution for some $b \\neq 0$<br />    <br />    C.Linear system $A x=b$ can not have solution for any non zero $b$<br />    <br />    D.Linear system $A x=b$ has solution iff $b=0$.",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/426270\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "For any real numbers $a, b, c$, let $A=\\left[\\begin{array}{ccc}1 & a & b\\\\<br />-a & 1 & c\\\\<br />-b & -c & 1\\end{array}\\right]$ and let $B=\\left[\\begin{array}{rrr}0 & a & b\\\\<br />-a & 0 & c\\\\<br />-b & -c & 0\\end{array}\\right]$. Which of the following is/are true ?<br />    A.$A$ is invertible for all values of $a, b, c$.<br />    <br />    B.$B$ is not invertible for any values of $a, b, c$.<br />    <br />    C.$B$ is invertible for all values of $a, b, c$.<br />    <br />    D.$A$ is not invertible for any values of $a, b, c$.",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/426268\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be an $m \\times n$ matrix and $\\mathbf{b}$ be a vector in $\\mathbb{R}^{m}$. Which of the following statements implies that the matrix equation $A \\mathrm{x}=\\mathrm{b}$ is consistent?</p><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every row of $A$ contains a pivot position.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\operatorname{rank} A=n$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$m=n$ and $A$ is invertible</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$m &lt; n$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/426267\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $A$ be a $12 \\times 9$ matrix (i.e., $A$ has $12$ rows and $9$ columns) and $b$ be a vector in $\\mathbb{R}^{12}$. We know that the matrix equation $A \\mathbf{x}=\\mathrm{b}$ has infinitely many solutions. Which of the following statements are false?<br />    A.$\\mathrm{b}$ can be written as a linear combination of the columns of $A$.<br />    <br />    B.Every row of $A$ has a pivot position.<br />    <br />    C.The columns of $A$ are linearly dependent.<br />    <br />    D.$\\operatorname{rank} A \\geq 9$.",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/426265\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $A$ be $5 \\times 4$ matrix. If all solutions of $A x=0$ are scalar multiple of one nonzero vector then what will be the rank of $A?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 3</p><p><a href=\"https://gateoverflow.in/426263\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $X$ and $Y$ be independent random variables with $E[X]=1, \\operatorname{Var}(X)=3$, $E[Y]=1$, and $\\operatorname{Var}(Y)=2$. What is $E\\left[(X+Y)^{\\wedge} 2\\right]$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 9</p><p><a href=\"https://gateoverflow.in/426261\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose you are taking a multiple-choice test with $c$ choices for each question. In answering a question on this test, the probability that you know the answer is $p$. If you don't know the answer, you choose one at random. What is the probability that you knew the answer to a question, given that you answered it correctly?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$p$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{p}{p / c+1-p}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{p}{p+(1-p) / c}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{p}{1-p}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/426255\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose that buses are scheduled to arrive at a bus stop at noon but are always $X$ minutes late, where $X$ is an exponential random variable with probability density function $f_{X}(x)=\\lambda \\mathrm{e}^{-\\lambda x}$. Suppose that you arrive at the bus stop precisely at noon. Suppose that you have already waiting for 10 minutes. Compute the probability that you have to wait an additional five minutes or more.<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$e^{-15 \\lambda}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$e^{-5 \\lambda}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$e^{-10 \\lambda}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/426253\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In $n+m$ independent Bernoulli $(p)$ trials, let $S_{n}$ be the number of successes in the first $n$ trials and $T_{m}$ the number of successes in the last $m$ trials. Then which of the following statement(s) is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The distribution of $S_{n}$ is Binomial.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The distribution of $T_{n}$ is Binomial.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The distribution of $S_{n}+T_{n}$ is not Binomial.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$S_{n}$ and $T_{n}$ are dependent.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/426251\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If the graph of $f^{\\prime}(x)$ is shown below, then which of the following could be the graph of $f(x)$ ?<br><img alt=\"\" width=\"343\" height=\"168\" src=\"media/d3/d3b061f6eb704a6fec55.png\"></p><p> </p><p><img alt=\"\" width=\"297\" height=\"484\" src=\"media/53/53c21c3d9abd96119797.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/426245\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 50.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 50,
+  "types": {
+   "MSQ": 11,
+   "NAT": 5,
+   "MCQ": 14
+  },
+  "withoutKey": 0
+ }
+}

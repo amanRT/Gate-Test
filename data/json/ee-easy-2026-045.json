@@ -1,0 +1,560 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-045",
+ "title": "Topicwise Test-20 Part Syllabus GATE 2026 EE Digital Electronics -2",
+ "sourceTitle": "Topicwise Test-20 Part Syllabus GATE 2026 EE Digital Electronics -2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 45,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/076_Topicwise Test-20 Part Syllabus GATE 2026 EE Digital Electronics -2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A <em>T</em>-flip-flop and a <em>D</em>-flip-flop are interconnected as shown in the following figure. A timing diagram showing their operation through six complete clock cycles. Assuming <em>Q<sub>A</sub>Q<sub>B</sub></em> = 00 initially is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0e/0ec9e59cb180777571a9.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/34/3444032377a1f7c768cc.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/5f/5f546f4ca8b48d23c648.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/f8/f80b7e1d9af7582f34e3.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/4e/4ebdedaa35128381f4a9.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9c/9cb583233019a956e8ee.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The 4-bit ripple counter which is composed of flip-flops with a propagation delay of 10 nsec,would have the maximum counting speed of</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 MHz"
+    },
+    {
+     "key": "B",
+     "html": "8 MHz"
+    },
+    {
+     "key": "C",
+     "html": "25 MHz"
+    },
+    {
+     "key": "D",
+     "html": "200 MHz"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c0/c09ecc5100a1fc57dd35.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A 6-bit DAC produces <em>V</em><sub>0</sub> = 0.25 V for a input code of 000001. <em>V</em><sub>0</sub> for the input code 111101 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.5 V"
+    },
+    {
+     "key": "B",
+     "html": "25 V"
+    },
+    {
+     "key": "C",
+     "html": "30.50 V"
+    },
+    {
+     "key": "D",
+     "html": "15.25 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/43/43fe99a6fb9968d33339.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A 10-bit D/A converter has step size 20 mV. The full-scale output voltage is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20.46 V"
+    },
+    {
+     "key": "B",
+     "html": "5.12 V"
+    },
+    {
+     "key": "C",
+     "html": "9.23 V"
+    },
+    {
+     "key": "D",
+     "html": "10.24 V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ec/ec6e706c3e67e9832c68.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a given sequential circuit, initial states are <em>Q</em><sub>1</sub> = 1 and <em>Q</em><sub>2</sub> = 0. If the frequency of signal <em>Q</em><sub>2</sub> is 500 kHz, then the clock frequency is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/23/23299103865c21114953.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "500 kHz"
+    },
+    {
+     "key": "B",
+     "html": "1000 kHz"
+    },
+    {
+     "key": "C",
+     "html": "2000 kHz"
+    },
+    {
+     "key": "D",
+     "html": "225 kHz"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8d/8de6c501c463cd05141e.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 4-bit shift register circuit configuration for right-shift operation, i.e. <em>D</em><sub>in</sub> → <em>A</em>, <em>A</em> → <em>B</em>, <em>B</em> → <em>C</em>, <em>C</em> → <em>D</em>, is shown. If the present state of the shift register is <em>ABCD</em> = 1101, after 10 clock cycles which of the following state reach.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ab/ab9a2e4393767b9ba3ab.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>ABCD</em> = 1101"
+    },
+    {
+     "key": "B",
+     "html": "<em>ABCD</em> = 1000"
+    },
+    {
+     "key": "C",
+     "html": "<em>ABCD</em> = 1111"
+    },
+    {
+     "key": "D",
+     "html": "<em>ABCD</em> = 0111"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f3/f3350c17c77238883f97.png\" /></div>\n</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The minimum number of JK flip-flops required to construct a synchronous counter with the count sequence (0, 0, 1, 1, 2, 2, 3, 3, 0, 0,...) is ________ . (Answer rounded off to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3 (3.0 - 3.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/11/111f74b354eb24692dad.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A positive edge-triggered D flip-flop is connected to a positive edge-triggered JK flip-flop as follows. The Q output of the D flip-flop is connected to both the J and K inputs of the JK flip-flop, while the Q output of the JK flip-flop is connected to the input of the D flip-flop. Initially, the output of the D flip-flop is set to logic one and the output of the JK flip-flop is cleared.Which one of the following is the bit sequence (including the initial state) generated at the Q output of the JK flip-flop when the flip-flops are connected to a free-running common clock? Assume that J = K = 1 is the toggle mode and J = K = 0 is the state-holding mode of the JK flipflop. Both the flip-flops have non-zero propagation delays.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0110110..."
+    },
+    {
+     "key": "B",
+     "html": "0100100..."
+    },
+    {
+     "key": "C",
+     "html": "011101110..."
+    },
+    {
+     "key": "D",
+     "html": "011001100..."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/57/57907d53d310d1249b32.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>An analog transducer with a 0 - 10 V input is able to distinguish a change of 1 mV in its signal.<br />\nWhich of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Resolution = 1 mV."
+    },
+    {
+     "key": "B",
+     "html": "The minimum number of bits of ADC so that the digital output has almost the same resolution as transducer is 12."
+    },
+    {
+     "key": "C",
+     "html": "Quantization interval = 6.1 × 10<sup>–5</sup> V."
+    },
+    {
+     "key": "D",
+     "html": "Number of decision levels = 16383"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/03/037d62764e899a557970.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the counter circuit and propagation delay table shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e8/e81648043b9368bde1cc.png\" /></div>\n\n<div>(Assume all the devices are ideal except for some propagation delay).<br />\nFor proper functioning, the maximum clock frequency that can be applied to the above counter is<br />\n_______ kHz. (Answer rounded off to nearest integer)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    100,
+    100
+   ],
+   "answerText": "100",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>100 (100.00 - 100.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/de/dea4a61a3cb81316b965.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following circuit consisting of three <em>D</em>-flip flops.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cc/cc827978e22e3aa5e037.png\" /></div>\n\n<div>If all the flip-flops are initially reset, then the output (<em>Q<sub>A</sub></em> <em>Q<sub>B</sub></em> <em>Q<sub>C</sub></em>) after 3rd cycle is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "001"
+    },
+    {
+     "key": "B",
+     "html": "010"
+    },
+    {
+     "key": "C",
+     "html": "011"
+    },
+    {
+     "key": "D",
+     "html": "100"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6b/6be57e0343ef5280737b.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A 6-bit DAC produces an output 0.2 Volt for a digital input 000010, what will be the output for an input 011110?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4 Volt"
+    },
+    {
+     "key": "B",
+     "html": "5 Volt"
+    },
+    {
+     "key": "C",
+     "html": "6 Volt"
+    },
+    {
+     "key": "D",
+     "html": "3 Volt"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ea/ea47ccd0e185bd21d19a.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The digital circuit shown in figure generates a modified clock pulse at the output. Choose the correct output waveform.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/28/28a53a4b960c4fc2f28b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/6a/6a99145f6a246cc1f18d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/25/258fb1c22772d366bf52.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/06/06ba3474688efd83cef8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/ce/cefa0ac5ffd522ab89c9.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/16/16763ab505fe34c96e6d.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The full scale output of a DAC is 5 mA. If the resolution is to be less than 40 μA, the minimum number of bits required are _______ . (Answer rounded off to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>7 (7.0 - 7.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/be/be0b73645bd18bb1c55c.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Three 4-bit shift registers are connected in cascade as shown in figure below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/82/82fac1d32d997c797f9f.png\" /></div>\n\n<div>A 4-bit data 1011 is applied to the shift register 1. The minimum number of clockpulses required to get same input data at output are _________ .</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    12
+   ],
+   "answerText": "12",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>12</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/42/42d8139c1006993f7484.png\" /></div>\n\n<div><img alt=\"\" src=\"media/d0/d0161f08a319b293ea4b.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the circuit given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/68/689550f2cd49816a657e.png\" /></div>\n\n<div>The MSB and LSB of MOD-10 ripple up counter act as clock to 4-bit ripple down and up counters respectively. Initially all the counters were cleared and output of comparator was <em>A</em> = <em>B</em>. The clock signal is applied. The minimum number of clock cycles required to make <em>A</em> = <em>B</em> again is ______. (Answer rounded off to nearest integer)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    17,
+    17
+   ],
+   "answerText": "17",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>17 (17.0 - 17.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fd/fdf7df2c2135f470905a.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The function performed by the following arrangement of J-K flip-flop is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7f/7facd601e1ef88d7c363.png\" /></div>\n\n<div>(Assume initially all flip-flops are cleared)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "MOD-1 counter"
+    },
+    {
+     "key": "B",
+     "html": "MOD-2 counter"
+    },
+    {
+     "key": "C",
+     "html": "MOD-3 counter"
+    },
+    {
+     "key": "D",
+     "html": "Shift register"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b4/b4dd887dedb96f4b72a5.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 5,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

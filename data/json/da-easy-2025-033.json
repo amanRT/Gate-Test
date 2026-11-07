@@ -1,0 +1,560 @@
+{
+ "v": 1,
+ "id": "da-easy-2025-033",
+ "title": "Topicwise Test-13 Part Syllabus GATE 2025 DA Machine Learning-2",
+ "sourceTitle": "Topicwise Test-13 Part Syllabus GATE 2025 DA Machine Learning-2",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2025",
+ "num": 33,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/050_Topicwise Test-13 Part Syllabus GATE 2025 DA Machine Learning-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tLinear Discriminant Analysis (LDA) is a dimensionality reduction technique that</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Maximize the variance in the original features."
+    },
+    {
+     "key": "B",
+     "html": "Minimize the correlation between features."
+    },
+    {
+     "key": "C",
+     "html": "Create new feature that are linear combinations of the original features."
+    },
+    {
+     "key": "D",
+     "html": "Maximizes the separability between different class."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\tLDA aims to maximize the distinction between different classes with in the data by deriving a linear combination of features. This facilitates effective separation between classes.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhat does the assumption of linearity in linear regression imply?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The relationship between the independent and dependent variables is non-linear."
+    },
+    {
+     "key": "B",
+     "html": "The residuals exhibit a constant variance."
+    },
+    {
+     "key": "C",
+     "html": "The relationship between the independent and dependent variables can be represented by a straight line."
+    },
+    {
+     "key": "D",
+     "html": "The residuals are normally distributed."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\tThe assumption of linearity in linear regression implies that the relationship between the<br />\n\tindependent and dependent variables can be captured by a straight-line model.<br />\n\tTherefore, option (c) is the correct answer.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following may help to reduce underfitting demonstrated by a model.<br />\n\t<em>S</em><sub>1</sub> : Increase model complexity.<br />\n\t<em>S</em><sub>2</sub> : Increase the number of optimization routine step.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tReduce underfitting<br />\n\t<em>S</em><sub>1</sub> : Increase model complexity.<br />\n\t<em>S</em><sub>2</sub> : Increase the number of optimization routine step.</p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tConsider a simple linear regression model <img align=\"absmiddle\" alt=\"\" src=\"media/0c/0c0b7b10c25956630738.png\" /> What is the predicted value of y when <img align=\"absmiddle\" alt=\"\" src=\"media/80/80778e245b9f7bbc74f6.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    13,
+    13
+   ],
+   "answerText": "13",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t13</p>\n<p>\n\t<img alt=\"\" src=\"media/6d/6d6527eb3b9119fba0f1.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIn Ridge Regression, what does the penalty term added to the cost function in ridge regression penalize?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Large coefficients"
+    },
+    {
+     "key": "B",
+     "html": "Small coefficients"
+    },
+    {
+     "key": "C",
+     "html": "Constant terms"
+    },
+    {
+     "key": "D",
+     "html": "Residuals"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tIn Ridge Regression, the penalty term (<em>L</em><sub>2</sub> regularization) penalizes large coefficients by adding the sum of squared coefficients to the cost function. This helps in preventing overfitting by shrinking the coefficients towards zero.</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tIn a linear regression model, if the observed value of y is 8 and the predicted value is 10, what is the residual?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -2,
+    -2
+   ],
+   "answerText": "-2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-2</p>\n<p>\n\t<img alt=\"\" src=\"media/9a/9a20fc795cc3c7e9a764.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIn Lasso Regression, what does the penalty term added to the cost function encourage?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Sparse coefficients"
+    },
+    {
+     "key": "B",
+     "html": "Large coefficients"
+    },
+    {
+     "key": "C",
+     "html": "Small coefficients"
+    },
+    {
+     "key": "D",
+     "html": "Constant terms"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tIn Lasso Regression, the penalty term (<em>L</em><sub>1</sub> regularization) encourages sparsity in the coefficients by adding the sum of absolute values of coefficients to the cost function. This leads to some coefficients being exactly zero, effectively performing feature selection.</p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider a decision tree with 5 levels and 32 leaves. How many nodes does it have?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "32"
+    },
+    {
+     "key": "B",
+     "html": "64"
+    },
+    {
+     "key": "C",
+     "html": "63"
+    },
+    {
+     "key": "D",
+     "html": "31"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/1b/1b948a8f3faeae12db48.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Linear support vector machine is a parametric algorithm.<br />\n\t<em>S</em><sub>2</sub> : KNN is a non-parametric algorithm.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\t<em>S</em><sub>1</sub> : Linear support vector machine is a parametric because it can only produce linear boundaries.<br />\n\tSo, <em>S</em><sub>1</sub> is true.<br />\n\t<em>S</em><sub>2</sub> : KNN is a non-parametric algorithm because it avoids a priori assumption about the shape of the class boundary and can thus adapt more closely to non-linear boundaries as the amount of training data increases.<br />\n\tSo, <em>S</em><sub>2</sub> is true.</p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tIn a linear regression model with 50 observations and 2 predictor variables, if the confidence level for a confidence interval is 95%, what is the degrees of freedom for the t-distribution?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    47,
+    47
+   ],
+   "answerText": "47",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t47</p>\n<p>\n\t<img alt=\"\" src=\"media/2d/2d82c3fe52f8e3f525e9.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following is the correct way to preprocess the data for performing classification and regression?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Normalize the data → PCA → training"
+    },
+    {
+     "key": "B",
+     "html": "PCA → normalize PCA output → training"
+    },
+    {
+     "key": "C",
+     "html": "Normalize the data → PCA → normalize PCA output → training"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\tNeed to always normalize the data first, if not PCA or other techniques that are used to reduce dimension will give different result.</p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tIn a linear regression model, if the Total Sum of Squares (TSS) is 100 and the Residual Sum of Squares (RSS) is 20, what is the coefficient of determination (<em>R</em><sup>2</sup>)?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.8,
+    0.8
+   ],
+   "answerText": "0.8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.8</p>\n<p>\n\t<img alt=\"\" src=\"media/d5/d58caf32ec5b4cdc8ee3.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements regarding bias and variance are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Models which overfit have a high bias and underfit have a high variance."
+    },
+    {
+     "key": "B",
+     "html": "Models which overfit have a high bias and underfit have a low variance."
+    },
+    {
+     "key": "C",
+     "html": "Models which overfit have a low bias and underfit have a high variance."
+    },
+    {
+     "key": "D",
+     "html": "Models which overfit have a low bias and underfit have a low variance."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\tModels which overfit have a high bias and underfit have a high variance.</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tIn a decision tree, if a node has 6 possible outcomes with probabilities 0.1, 0.2, 0.1, 0.2, 0.2 and 0.2.<br />\n\tWhat is its Gini index?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.16"
+    },
+    {
+     "key": "B",
+     "html": "0.20"
+    },
+    {
+     "key": "C",
+     "html": "0.82"
+    },
+    {
+     "key": "D",
+     "html": "1"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/69/6967a26dca93366f3ac1.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tHow, can one address the bias-variance tradeoff in practice to enhance model performance?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "By increasing the complexity of the model."
+    },
+    {
+     "key": "B",
+     "html": "By decreasing the complexity of the model."
+    },
+    {
+     "key": "C",
+     "html": "By collecting more training data."
+    },
+    {
+     "key": "D",
+     "html": "By using a more complex optimization algorithm."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\tTo address the bias-variance tradeoff, one can reduce model complexity by using simpler models, regularization techniques, or feature selection methods to prevent overfitting and improve generalization to unseen data.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Large K value implies less bias for K cross-validation."
+    },
+    {
+     "key": "B",
+     "html": "Large K-value implies more bias for K cross-validation."
+    },
+    {
+     "key": "C",
+     "html": "Smaller K-value implies less variance for K cross-validation."
+    },
+    {
+     "key": "D",
+     "html": "Large K-value implies more variance for K cross-validation."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c, d)<br />\n\t&bull; K cross-validation large K value implies less bias.<br />\n\t&bull; K cross-validation smaller K-value implies less variance.<br />\n\t&bull; K cross-validation large K-value implies more variance.</p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tIn a decision tree, if a node has 3 possible outcomes with probabilities 0.4, 0.3 and 0.3 what is the entropy? (Rounded up to 2 decimal)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.57,
+    1.57
+   ],
+   "answerText": "1.57",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.57</p>\n<p>\n\t<img alt=\"\" src=\"media/d3/d3e186027e3555e09b4f.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 5,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

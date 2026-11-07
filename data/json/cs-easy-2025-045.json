@@ -1,0 +1,546 @@
+{
+ "v": 1,
+ "id": "cs-easy-2025-045",
+ "title": "Topicwise Test-22 Part Syllabus GATE 2025 CS Discrete Mathematics-2",
+ "sourceTitle": "Topicwise Test-22 Part Syllabus GATE 2025 CS Discrete Mathematics-2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2025",
+ "num": 45,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/077_Topicwise Test-22 Part Syllabus GATE 2025 CS Discrete Mathematics-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tThere are 65 questions and each question can be answered with any one of four choices. Find the number of ways, in which they can be answered.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "65"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t65<sup>4</sup></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t4<sup>65</sup></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/1f/1fa9ca63b726e8b259b2.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Assumed undirected graph G is connected. G has 6-vertices and 10 edges. Find the minimum number of edges whose deletion from graph G is always guarantee that it will become disconnected.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>6</p>\n\n<p><img alt=\"\" src=\"media/c0/c01146c757f6be22a2d4.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Find number of possible cut vertices in the following graph?</p>\n\n<p><img alt=\"\" src=\"media/aa/aa7e067b0d8c47fad508.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>5<br />\nDelete B, graph can be disconnected.<br />\nBy deleting any of B, G, C, D, E the graph will be disconnected.<br />\nHence 5 possible cut vertices in the graph.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the recurrence relation <em>a<sub>k</sub></em> = –5a<sub><em>k</em> – 1</sub> – 6a<sub><em>k</em> – 2</sub> with the initial conditions <em>q</em><sub>0</sub> = 0 and <em>q</em><sub>1</sub> = 1.<br />\n\tWhich of the following is an explicit solution to this recurrence relation?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/47/470d1856e18cb216c2fe.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/80/807219c9ef030b0283f2.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6c/6cba4389673c685f003e.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ef/ef2e033e7e1a8327888d.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/f2/f2e19e11be618a4ddf14.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhich of the following is correct statement?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Every distributive lattice is modular."
+    },
+    {
+     "key": "B",
+     "html": "Every modular lattice is distributive."
+    },
+    {
+     "key": "C",
+     "html": "Every complete lattice is bounded lattice."
+    },
+    {
+     "key": "D",
+     "html": "Every bounded lattice is complete lattice."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statement is false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>L</em>(<em>L</em>, * ⊕) be a lattice and <em>S</em> ⊆ <em>L</em> be a subset of <em>L</em>. The algebra (<em>S</em>, *, ⊕) is a sub lattice of <em>L</em>(<em>L</em>, * ⊕) if and only if <em>S</em> is closed under both operation * and ⊕.</p>"
+    },
+    {
+     "key": "B",
+     "html": "Every chain is distributive lattice."
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tIf a lattice said to be complementary lattice then every element of <em>L</em> has only one complement.</p>"
+    },
+    {
+     "key": "D",
+     "html": "A lattice is called complete if each of it’s non-empty subset has least upper bound and a great lower bound."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\tComplementary lattice may not have unique complement for every element.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tThe degree sequence of a simple graph is the sequence of the degree of the nodes in the graph in decreasing order. Which of the following sequence can be the degree sequence of any graph?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7, 6, 5, 4, 4, 3, 2, 1"
+    },
+    {
+     "key": "B",
+     "html": "7, 6, 6, 4, 4, 3, 2, 2"
+    },
+    {
+     "key": "C",
+     "html": "6, 6, 6, 6, 3, 3, 2, 2"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b)<br />\n\tUsing Havell-Hakimi algorithm:<br />\n\t(i) Remove top node of the sequence.<br />\n\t(ii) Substract 1 from as many nodes in remaining sequence as the degree of top node that was removed.<br />\n\t(iii) Rearrange the sequence in non-increasing order.<br />\n\t(iv) Check if result sequence is a graph.<br />\n\t(v) Proceed again step (i)<br />\n\tIf the given sequence is not a graph. We will see a violation in step (iv). Such as presence of negative degrees in the sequence. Otherwise the algorithm will bottom out with a degree sequence consisting of only even number of 1&rsquo;s and any number of 0&rsquo;s.</p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Number of subgraphs of <em>k</em><sub>3</sub>  with atleast one vertex are ________. (Assume all vertices are different and labelled)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    17,
+    17
+   ],
+   "answerText": "17",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>17</p>\n\n<p><img alt=\"\" src=\"media/3e/3e1b4adcd9e5522a663f.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tLet (<em>G</em>, *) be a group such that Ο(<em>G</em>) = 8. Where Ο(<em>G</em>) denotes the order of the group. Which of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tThere exist no element a in <em>G</em> whose order is 6.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tThere exist an element a in <em>G</em> whose order is 4.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tThere exist more than one element in <em>G</em> whose order is 1.</p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tLet G be a finite group of order k then every element of <em>G</em> will have order <em>m</em> such that k and <em>m</em> = 0<br />\n\t(a) True<br />\n\t8 mod 6 = 2<br />\n\t(b) False<br />\n\t8 mod 4 = 0 but it not necessary that there must exist an element with order 4.<br />\n\t(c) False<br />\n\tThere must exist only 1 identity element in a group.</p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>A simple graph undirected graph <em>X</em> has 10 vertices. If <em>X</em> has 5 equally sized connected components, the maximum number of edges in graph ‘<em>X</em>’ is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>5</p>\n\n<p><img alt=\"\" src=\"media/ca/ca7642e1715c7bc54e29.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following graph:</p>\n<p>\n\t<img alt=\"\" src=\"media/2c/2c8f95cac13de5b31476.png\" /></p>\n<p>\n\tThe chromatic number of the above graph is ________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "5"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/a0/a06654f6f8d6a1b81c76.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tLet <em>G</em> be a finite group on 84 elements. The size of largest possible proper subgroup of <em>G</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "84"
+    },
+    {
+     "key": "B",
+     "html": "42"
+    },
+    {
+     "key": "C",
+     "html": "21"
+    },
+    {
+     "key": "D",
+     "html": "14"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/59/5933a3ce9c39ebcb1f20.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>A certain tree ‘<em>T</em>’ has 15 vertices of degree 4, 20 vertices of degree 3, and 30 vertices of degree 2. If all of the rest of vertices are of degree 1, then the number of vertices ‘<em>T</em>’ have is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    117,
+    117
+   ],
+   "answerText": "117",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>117</p>\n\n<p><img alt=\"\" src=\"media/79/793c6295891c97de74cf.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tA connected cubic planner graph with no bridge has exactly 5 edges in bounded of each region.<br />\n\tThe number of edge of the graph is ________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "15"
+    },
+    {
+     "key": "B",
+     "html": "20"
+    },
+    {
+     "key": "C",
+     "html": "30"
+    },
+    {
+     "key": "D",
+     "html": "10"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/27/27758fe66e30e24b9125.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following sentences:</p>\n<p>\n\t<img alt=\"\" src=\"media/f5/f56020960d6805ac10f2.png\" /></p>\n<p>\n\tWhich of the above statements is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only 1"
+    },
+    {
+     "key": "B",
+     "html": "Only 2"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/f5/f5e81845c1f9fc97009e.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Suppose <em>A</em> is a finite set of five elements. Then the cardinality of the largest partial order relation possible on <em>A</em> is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    15
+   ],
+   "answerText": "15",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>15</p>\n\n<p><img alt=\"\" src=\"media/0d/0d0dae97220d8acfc9f3.png\" /></p>\n\n<p><img alt=\"\" src=\"media/74/74a68d76f47571f65bd7.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : <em>D</em><sub>85</sub> is Boolean Algebra.<br />\n\t<em>S</em><sub>2</sub> : Every finite lattice has a least element.<br />\n\t<em>S</em><sub>3</sub> : Every Poset has a greatest element.<br />\n\tWhich of the following is always true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>3</sub> only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>S</em><sub>2</sub> and <em>S</em><sub>3</sub> only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> only</p>"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/74/74992e1df69885bbffbc.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 8,
+   "NAT": 6,
+   "MSQ": 3
+  },
+  "withoutKey": 0
+ }
+}

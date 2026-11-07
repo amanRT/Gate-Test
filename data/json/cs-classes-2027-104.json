@@ -1,0 +1,1118 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-104",
+ "title": "DVRUO Classes CS Test Series | Theory of Computation | Subject Wise Test 2",
+ "sourceTitle": "DVRUO Classes CS Test Series | Theory of Computation | Subject Wise Test 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 104,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Theory of Computation"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/064_exam_1374_GO Classes CS Test Series Theory of Computation Subject Wise Test 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is <strong>FALSE</strong> about Recursive/Recursive Enumerable Languages?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Recursive enumerable languages are not closed under complementation<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Complement of context $-$ free language must be recursive<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Membership problem is not decidable under recursive languages<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504155\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Regarding regular languages, consider the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>Regular languages can be expressed by Moore and Mealy machines.</li><li>Regular languages can be expressed by a finite automaton.</li><li>If A and B are regular languages, then $\\mathrm{A} \\cap \\mathrm{B}$ is also regular.</li><li>Let $\\mathrm{B}=\\{b a, n a\\}$. It can be said that $\\mathrm{B}^{*}=\\{\\lambda, ba, na, ab, an, baba, bana, naba, anab, nana$, $aban, bababa, babana, banaba, banana, nababa, nabana, nanaba, nanana, abanba, babababa,$&nbsp;.....}.</li></ol><p>Select the correct alternative.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only statements I and II are correct.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only statements I and IV are correct.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only statements III and IV are correct.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Only statements I, II, and III are correct.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504154\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If the initial state is also the final state in a finite automaton, then that automaton</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>does not accept the empty string.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>accepts the empty string.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>is deterministic.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>has no other final states.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504153\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a Non Deterministic Finite Automaton (NFA) with $6$ states. Applying the subset construction algorithm for converting an NFA to a Deterministic Finite Automaton (DFA), what is the maximum number of states that the DFA would have?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    64,
+    64
+   ],
+   "answerText": "64",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/504152\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Regarding closure for context free languages, assign $T$ (true) or $F$ (false) to the following operations.<br><br>( ) Concatenation.<br><br>( ) Complement.<br><br>( ) Homomorphism.<br><br>( ) Intersection.<br><br>( ) Reverse.<br><br>Select the option that contains, from top to bottom, the correct sequence.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$T, T, F, F, T$.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$T, F, T, T, F$.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$T, F, T, F, T$.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F, T, T, F, F$.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504151\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Mark the FALSE option</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The set of all Turing machines is countable.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The set of all Regular Expressions is enumerable.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Every Regular Language is enumerable.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No infinite set is countable.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504150\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Analyze the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>Every non deterministic finite automaton can be simulated by a deterministic finite automaton.<br> </li><li>Every deterministic finite automaton can be simulated by a non deterministic finite automaton.<br> </li><li>Every non deterministic finite automaton can be simulated by a deterministic pushdown automaton.<br> </li><li>Every deterministic pushdown automaton can be simulated by a non deterministic finite automaton.<br> </li><li>Every non deterministic finite automaton can be simulated by a deterministic Turing machine.<br> </li></ol><p>The analysis allows us to conclude that,</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>only statements I, II, III, and IV are CORRECT.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>only statements II, III, and V.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>only statements I, II, III, and V are CORRECT.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>only statements II and IV.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504149\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Analyze the following regular expression equalities:</p><ol style=\"list-style-type:upper-roman\"><li>$\\mathrm{a}^{*}=\\left(\\mathrm{a}^{*}\\right)^{*}$<br> </li><li>$\\mathrm{(a+b)^{*}=(b+a)^{*}}$<br> </li><li>$\\mathrm{a}^{*}+\\mathrm{b}^{*}=(\\mathrm{a}+\\mathrm{b})^{*}$<br> </li></ol><p>The analysis allows us to conclude that</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>only equalities I and II are true.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>only equality I is true.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>only equalities II and III are true.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>all equalities are true.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504148\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$\\text{S1} :$ If $\\mathrm{A}, \\mathrm{B}$ and $\\mathrm{C}$ are all mutually disjoint languages such that $\\mathrm{A \\cap B=C}$ and $\\mathrm{B}, \\mathrm{C}$ are both regular, then $\\mathrm{A}$ must also be regular.<br><br>$\\text{S2} :$ If $L$ is regular, then so is the language $\\{x y \\mid x \\in L, y ~\\text{not belongs to} ~L$$\\}$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only $\\text{S1}$ is true<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only $\\text{S2}$ is true<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both $\\text{S1}$ and $\\text{S2}$&nbsp;are true<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both $\\text{S1}$ and $\\text{S2}$&nbsp;are false</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504147\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Given a Turing machine $\\mathbf{M}$ with input alphabet $\\boldsymbol{\\Sigma}$ and a string $\\boldsymbol{w} \\in \\boldsymbol{\\Sigma}^{*}$, it is not known whether the computation of $\\mathbf{M}$ with input $\\boldsymbol{w}$ will halt or not.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The halting problem is undecidable.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There is no algorithm that determines when an arbitrary context-free grammar is ambiguous.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There is no deterministic finite automaton that recognizes a&nbsp;context-free language.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504146\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is false?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every non-deterministic finite automaton with empty transitions can be reduced to a deterministic finite automaton.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Not every non-deterministic pushdown automaton can be reduced to a deterministic pushdown automaton.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Every Turing machine with $\\mathrm{N} \\geq 1 $&nbsp;tapes can be reduced to a standard Turing machine with one tape.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>To prove that a language is regular, it suffices to use the pumping lemma of regular languages.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504145\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\Sigma=\\{a, b\\}$.<br><br>A regular expression denoting the language<br><br>$\\mathrm{L}=\\left\\{w \\in \\Sigma^{*}\\right.$ such that every occurrence of '$a$' in $w$ is immediately followed by '$b$' $\\}$ is:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\left(a^{*} b\\right)^{*}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(b+a b)^{*}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$a ^* b$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$b+(ab)^{*}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504144\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following regular expressions denote the languages $\\mathrm{P}, \\mathrm{Q}, \\mathrm{L}$, and R , respectively: $(1+10)^{*},(0+01)^{*},(0+1)^{*}, 0(11)^{*}+1(00)^{*}$.<br><br>It cannot be stated that:<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{P} \\cap \\mathrm{Q} \\neq \\varnothing$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{P} \\cup \\mathrm{Q} \\neq \\mathrm{L}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{P} \\cap \\mathrm{Q}=\\{\\varepsilon\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(1+0)^{*} \\backslash \\mathrm{P}=\\mathrm{Q}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504143\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following statements about finite automata and regular expressions:</p><ol style=\"list-style-type:upper-roman\"><li>The class of languages accepted by a Deterministic Finite Automaton (DFA) is not the same as that of a Non Deterministic Finite Automaton (NFA).<br> </li><li>For some regular expressions, it is not possible to construct a DFA.<br> </li><li>The regular expression $(b+ba$)$^+$&nbsp;accepts strings of $b$'s and $a$'s starting with $b$ and not having two consecutive $a$'s.<br> </li></ol><p>Select the correct statement:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Statements I and II are true<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Statements I and III are false<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only statement III is true<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Statements II and III are false</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504141\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Regarding Chomsky's hierarchy, we can state that:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A recursively enumerable language cannot be a regular language<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Context-free languages and context-sensitive languages exclude each other<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>A language that is not regular is context-free<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There are languages that are neither context-free nor context-sensitive</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504140\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Indicate how many character sequences below are recognized by the finite automaton below. The four character sequences (separated by commas) are$: 0, +567,-89.5,-3 \\mathrm{e} 3$.<br><br><img alt=\"\" width=\"661\" height=\"217\" src=\"media/be/be51b0829fe91ad3dd5e.jpg\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504139\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given that a language $L_A=L_1 \\cup L_2$, where $L_1$&nbsp;$\\&amp;$ $L_2$ are two other languages. If $L_A$ is known to be a regular language, then which of the following statements is <strong>necessarily TRUE</strong>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $L_1$ is regular, then $L_2$ will also be regular<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $L_1$ is regular and&nbsp;finite, then $L_2$ will be regular<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $L_1$ is regular and&nbsp;finite, then $L_2$ will be regular and&nbsp;finite<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504138\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following statements :</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>if a deterministic finite automaton $\\text{M}$ over the alphabet $\\Sigma$ accepts all strings of length less than or equal to the number of states in $\\text{M}$&nbsp;, then it must accept all strings over $\\Sigma$.<br> </li><li>if a non-deterministic finite automaton $\\text{M}$&nbsp;over alphabet $\\Sigma$ accepts all strings of length less than or equal to the number of states in $\\text{M}$, then it must accept all strings over $\\Sigma$.<br> </li><li>if a deterministic finite automaton $\\text{M}$&nbsp;over alphabet $\\Sigma$ accepts any string at all, then it accepts some string whose length is less than the number of states in $\\text{M}$.<br> </li><li>if a non-deterministic finite automaton $\\text{M}$&nbsp;over alphabet $\\Sigma$ accepts any string at all, then it accepts some string whose length is less than the number of states in $\\text{M}$.</li></ol><div> </div><div>Which of the above statements is/are correct?<br> </div>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only III.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only I, III, IV<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only I, II, III<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>ALL</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504137\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following program snippet:<br>1. i := 1;<br>2. while i &lt;= n do begin<br>3. sum := sum + a[i];<br>4. i := i + 1; end;<br><br>Consider that:</p><ul><li>&nbsp;I represents the initialization of variable $\\mathrm{i}:=1$ on line 1 ;</li><li>&nbsp;T represents the test on line 2;</li><li>&nbsp;A represents the commands on line 3;</li><li>&nbsp;P represents the increment on line 4.</li></ul><p>What is the regular expression that represents all possible sequences of steps that can be executed by this program snippet?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{I}(\\mathrm{TAP})^{+}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$I(TAP)*$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$IT+AP$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$IT(APT)*$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504136\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider an output-producing, deterministic finite state automaton (DFA) of the kind indicated in the figure below, in which it is assumed that every state is a final state.</p><p style=\"text-align:center\"><img alt=\"\" width=\"402\" height=\"222\" src=\"media/b7/b758793d1312b9d35ed7.png\"></p><p> </p><p>Assume that the input is at least four bits long. Which of the following is(are) true?</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>The last bit of the output depends on the start state.<br> </li><li>If the input ends with \"$1100$\", then the output must end with \"$1$\".<br> </li><li>The output cannot end with \"$1$\" unless the input ends with \"$1100$\".</li></ol><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I only<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II only<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>II and III only<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>I and II only</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504135\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let the formal language be $L=\\left\\{a^{n} b^{2 n} c, n \\geq 0\\right\\}$. Analyze the following statements.</p><ol style=\"list-style-type: upper-roman;\" start=\"1\"><li>$L$ is a context free language.<br> </li><li>The grammar $\\mathrm{G}=(\\{\\mathrm{S}, \\mathrm{X}\\},\\{a, b, c\\},\\{\\mathrm{S} \\rightarrow \\mathrm{X}c, \\mathrm{X} \\rightarrow a \\mathrm{X}bb \\mid \\varepsilon\\}, \\mathrm{S})$ generates the language $L$.<br> </li><li>$L$ cannot be recognized by a pushdown automaton.</li></ol><div> </div>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>only statements I and II<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>only statements I and III<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>only statements II and III<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>all statements.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/504134\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Select the option that presents the FALSE statement.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every regular language is recognized by an NFA with exactly $374$ accepting states.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A problem is said to be decidable if the language associated with that problem is recursive.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The set of all programs that halt for a given input is a recursive set but not recursively enumerable.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For every language $L$, if there is a DFA that accepts every string not in $L$, then $L$ is&nbsp;regular.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504133\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following grammars :<br><br><img alt=\"\" width=\"479\" height=\"172\" src=\"media/b4/b4a0f9cc8d0e9e8826f5.png\"><br>In this regard, mark the FALSE statement.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Grammar I is context free.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Grammar II is context free.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Grammar III is context free.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Grammar IV is context free.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504132\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the finite automaton shown in the figure below, which operates on the alphabet $\\Sigma=\\{\\mathrm{a}, \\mathrm{b}\\}$ (the bold circle indicates a terminal state):<br><br><img alt=\"\" width=\"232\" height=\"158\" src=\"media/b1/b1bbdfab5f29171a2e77.png\"><br><br>Analyze the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>The finite automaton shown in the figure is deterministic.<br> </li><li>The finite automaton shown in the figure is non deterministic.<br> </li><li>The finite automaton shown in the figure recognizes the empty word.<br> </li></ol><p>The analysis allows us to conclude that&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>all statements are false.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>only statement I is false.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>only statement II is false.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>only statement III is false.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504131\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let the alphabet be $\\Sigma=\\{\\mathrm{a}, \\mathrm{b}\\}$ and the regular language<br>$\\mathrm{L}=\\left\\{\\omega \\mid \\omega \\in \\Sigma^{*}\\right.$ and the number of a's in $\\omega$ is even $\\}$.<br>Which of the regular expressions below generates this language?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(a b * a b *)^{*}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>((aa)* $\\left.\\mid b^{*}\\right)^{*}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(b* $\\left.\\left|(\\mathrm{aa})^{*}\\right| \\mathrm{b}^{*}\\right)^{*}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(b* a b* a b*)*</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/504130\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If DFA denotes \"deterministic finite automata\" and NDFA denotes \"nondeterministic finite automata,\" which of the following is <strong>FALSE</strong>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For any language $L$, if $L$ can be recognized by a DFA, then $\\bar{L}$ can be recognized by a DFA.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>For any language $L$, if $L$ can be recognized by an NDFA, then $\\bar{L}$ can be recognized by an NDFA.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For any language $L$, if $L$ is context-free, then $\\bar{L}$ is context-free.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For any language $L$, if $L$ can be recognized in polynomial time, then $\\bar{L}$ can be recognized in polynomial time.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/504129\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Considering the languages, $\\mathrm{L}_{1}=\\left\\{a^{l} c^{m} b^{n} ; l \\geq 0, m \\geq 0, n \\geq 0\\right\\}$ and $\\mathrm{L}_{2}=\\left\\{a^{l} c^{m} b^{n} ; l \\geq 0, m \\geq 0, n=l+m\\right\\}$ over the alphabet $\\Sigma=\\{a, b, c\\}$, consider the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>$\\mathrm{L}_{1}$ is a regular language.<br> </li><li>$\\mathrm{L}_{2}$ is a regular language.<br> </li><li>There is a deterministic pushdown automaton that recognizes $\\mathrm{L}_{1}$.<br> </li><li>The language $L_{2}$ can be generated by $\\mathrm{G}=(\\{\\mathrm{X}, \\mathrm{Y}\\},\\{a, b, c\\},\\{\\mathrm{X} \\rightarrow a \\mathrm{Xb}, \\mathrm{X} \\rightarrow \\mathrm{Y}, \\mathrm{Y} \\rightarrow \\mathrm{cYb}, \\mathrm{Y} \\rightarrow \\varepsilon\\}, \\mathrm{X}$ ), where $\\varepsilon$ is the empty string.</li></ol><p><br>Which of the above statements are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>III<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>IV</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><p><a href=\"https://gateoverflow.in/504128\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>With regard to languages and their acceptors, consider the following statements.</p><ol style=\"list-style-type:upper-roman\"><li>$\\quad\\left\\{\\mathrm{ww}^{\\text {rev }} \\mid \\mathrm{w} \\in\\{\\mathrm{a}, \\mathrm{b}\\}^{*}\\right\\}$ is accepted by a deterministic pushdown automaton.</li><li>$\\quad\\left\\{\\mathrm{wcw}^{\\text {rev }} \\mid \\mathrm{w} \\in\\{\\mathrm{a}, \\mathrm{b}\\}^{*}\\right\\}$ is accepted by a non-deterministic finite automaton.</li><li>$\\quad\\{\\mathrm{a}, \\mathrm{b}\\}^{*}-\\left\\{\\mathrm{ww} \\mid \\mathrm{w} \\in\\{\\mathrm{a}, \\mathrm{b}\\}^{*}\\right\\}$ is accepted by a non-deterministic pushdown automaton.</li><li>$\\quad\\{\\mathrm{M} \\mid \\mathrm{M}$ is a Turing Machine and M halts $\\}$ is accepted by a non-deterministic Turing Machine.</li></ol><p>which of the above is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>III</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>IV</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/504126\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the language accepted by the following $\\text{CFG}$?</p><p>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow b S \\mid a B \\\\<br>&amp; A \\rightarrow b A \\mid b \\mid a S \\\\<br>&amp; B \\rightarrow a S \\mid b A \\mid b<br>\\end{aligned}<br>$$<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Strings over $\\Sigma=\\{a, b\\}$ contains even number of $a$&#x27;s and ends with $b$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Strings over $\\Sigma=\\{a, b\\}$ contains odd number of $a$&#x27;s and ends with $b$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Strings over $\\Sigma=\\{a, b\\}$ contains odd number of $b$&#x27;s and ends with $a$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504125\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Comments in the C programming language are introduced by the characters $/*$ and terminated by the characters $*/$.</p><p>A comment begins with $/*$ and includes all characters through the next occurrence of the character sequence $*/$.</p><p>Comments do not nest i.e. Comments consist of a string surrounded by $/*$ and $*/$, without an intervening $*/$.</p><p>Which of the following regular expressions describe precisely the set of all valid C comments.<br><br>Assume for convenience that the character set is $\\{*, /, \\mathrm{a})$.</p><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$/*(/|\\mathrm{a}|*)^**/$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$/ *(\\mathrm{a}|/)^* *\\left(*| \\mathrm{a}(\\mathrm{a} | /)^* *\\right)^* /$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$/*(\\mathrm{a}|/)^**(*|\\mathrm{a}(\\mathrm{a}|/)^**)^**/$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$/ *(\\mathrm{a}|/| * * ^* \\mathrm{a})^* */$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/504124\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 45.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 45,
+  "types": {
+   "MCQ": 25,
+   "MSQ": 4,
+   "NAT": 1
+  },
+  "withoutKey": 0
+ }
+}

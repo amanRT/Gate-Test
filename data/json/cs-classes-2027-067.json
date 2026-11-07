@@ -1,0 +1,518 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-067",
+ "title": "DVRUO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 2",
+ "sourceTitle": "DVRUO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 67,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/108_exam_1317_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For each of the given (input, output) relationships in Tables One and Two; answer the following:</p><p><img alt=\"\" width=\"349\" height=\"211\" src=\"media/90/90f29f9dab81127c7527.png\"></p><p>Which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A a function of $B$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>B a function of $A$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>C a function of D</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>D a function of C</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"469570\"></a><div itemprop=\"text\"><p data-start=\"358\" data-end=\"396\">In Table One</p><ul><li data-start=\"356\" data-end=\"512\"><p data-start=\"358\" data-end=\"396\">Check if <strong data-start=\"367\" data-end=\"372\">A</strong> is a function of <strong data-start=\"390\" data-end=\"395\">B</strong>:</p><ul data-start=\"399\" data-end=\"512\"><li data-start=\"399\" data-end=\"471\"><p data-start=\"401\" data-end=\"471\">For B = 3, A = 1&nbsp;and 2&nbsp;→ <strong data-start=\"426\" data-end=\"470\">Two different values of A for the same B</strong>.</p></li><li data-start=\"474\" data-end=\"512\"><p data-start=\"476\" data-end=\"512\">Hence, <strong data-start=\"483\" data-end=\"511\">A is not a function of B</strong>.</p></li></ul></li><li data-start=\"514\" data-end=\"648\"><p data-start=\"516\" data-end=\"554\">Check if <strong data-start=\"525\" data-end=\"530\">B</strong> is a function of <strong data-start=\"548\" data-end=\"553\">A</strong>:</p><ul data-start=\"557\" data-end=\"648\"><li data-start=\"557\" data-end=\"614\"><p data-start=\"559\" data-end=\"614\">Every value of A has a unique corresponding value of B.</p></li><li data-start=\"617\" data-end=\"648\"><p data-start=\"619\" data-end=\"648\">So, <strong data-start=\"623\" data-end=\"647\">B is a function of A</strong>.</p></li></ul></li></ul><div><hr>In Table Two</div><div>&nbsp;</div><div><ul><li data-start=\"356\" data-end=\"512\"><p data-start=\"358\" data-end=\"396\">C and D has one-to-one correspondence.</p><ul data-start=\"399\" data-end=\"512\"><li data-start=\"399\" data-end=\"471\"><p data-start=\"401\" data-end=\"471\">Hence, <strong data-start=\"623\" data-end=\"647\">C is&nbsp;a function of D</strong></p></li><li data-start=\"474\" data-end=\"512\"><p data-start=\"476\" data-end=\"512\"><strong data-start=\"623\" data-end=\"647\">D is a function of C</strong>.</p></li></ul></li></ul></div></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"466668\"></a><div itemprop=\"text\">$A$ is not a function of $B$ because element 3 of $B$ maps to more than one element of A .<br>\n&nbsp;</div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"475568\"></a><div itemprop=\"text\">For any relation to be a function there must be only one image of Domain in range .<br>\nOption A says :\"A is a function of B\" i.e. A=f(B)<br>\nhere for B=3 we will be having two images on A , So it is not a function .<br>\nOther option has either One-One , ore Many - One relation.</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"469505\"></a><div itemprop=\"text\">Cannot understand the solutions</div></section></div><p><a href=\"https://gateoverflow.in/466667\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$\\{2,4\\}$ is an element of the following sets:</p><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&nbsp;$\\{\\{\\{2,4\\}\\}\\}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;$\\{1,2,3,4,\\{2,4\\}\\}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&nbsp;$\\{\\{1\\},\\{4\\},\\{2,4\\}\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&nbsp;$\\left\\{\\left(x, x^{2}\\right) \\mid x \\in \\mathbb{Z}\\right\\}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"466666\"></a><div itemprop=\"text\">$\\{2,4\\}$ is an element of the following sets:<br>\n<br>\n(a) $\\{\\{\\{2,4\\}\\}\\}$ False <br>\n<br>\n&nbsp;(b) $\\{1,2,3,4,\\{2,4\\}\\}$ True <br>\n<br>\n&nbsp;(c) $\\{\\{1\\},\\{4\\},\\{2,4\\}\\}$ True <br>\n<br>\n(d) $\\left\\{\\left(x, x^{2}\\right) \\mid x \\in \\mathbb{Z}\\right\\}$ False<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"498153\"></a><div itemprop=\"text\">{2,4} is a set having 2 and 4 as an element, now for the following options:<br>\n<br>\nA. {{{2,4}}} -&gt; {2,4} is an element of a set ie {{2,4}} which is itself an element of a set ie {{{2,4}}} so false. {2,4} is not an element. False<br>\n<br>\nB. {1,2,3,4,{2,4}} -&gt; {2,4} is a direct element. True<br>\n<br>\nC. {{1},{4},{2,4}} -&gt; again {2,4} is a direct element, also each element is a set in itself. True<br>\n<br>\nD. This is some ordered pair maybe for a function or a relation, also one thing to observe (2,4) is an ordered pair but we can't write (4,2) as in the elements for the set {2,4}. Therefore false.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"469506\"></a><div itemprop=\"text\">give me the link of DVRUO Classes private telegram group<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/466665\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ and $B$ be arbitrary sets and consider the set $S$ defined below:<br>$$<br>S=\\{x \\mid \\neg(x \\in A \\rightarrow x \\in B)\\}<br>$$<br>What is the correct expression for $S$ in terms of $A$ and $B$ using the standard set operators?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A \\cup B$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A \\cap B$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A \\backslash B$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$B \\backslash A$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 15)</small></h4><a name=\"403691\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=36s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=36s</a>&nbsp;(with Complete Analysis)</p><p><img alt=\"\" src=\"media/3a/3abcc8291dc4c565585a.jpg\"></p><p>Set difference operator is represented by A-B = A \\ B.</p><p>Set Operators:<a rel=\"nofollow\" href=\"https://www.cs.sfu.ca/~ggbaker/zju/math/set-oper.html\" target=\"_blank\">https://www.cs.sfu.ca/~ggbaker/zju/math/set-oper.html</a></p><p>Hence correct ans is C.</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=36s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=36s</a>&nbsp;(with Complete Analysis)</p></div></section></div><p><a href=\"https://gateoverflow.in/403073\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $A=\\{1,2,3,4,5\\}$ and $B=\\{2,3,4\\}$. How many sets $C$ have the property that $C \\subseteq A$ and $B \\subseteq C?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 24)</small></h4><a name=\"403692\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=347s\" target=\"_blank\">Detailed Video Solutions with Complete Analysis</a>&nbsp;(with Complete Analysis)&nbsp;</p><p><img alt=\"\" src=\"media/8f/8f4c291f730eed914b78.jpg\"></p><p>Correct answer is 4.</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=347s\" target=\"_blank\">Detailed Video Solutions with Complete Analysis</a>&nbsp;(with Complete Analysis)&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"403634\"></a><div itemprop=\"text\">$\\because B\\subseteq C$ <br>\n<br>\nC is having all elements of B {2, 3, 4}<br>\n<br>\nNow &nbsp;$\\because C\\subseteq A$ , <br>\n<br>\nC can have extra elements from A which are {1, 5}<br>\n<br>\neach of these can be present or absent in C <br>\n<br>\nTherefore, 2 * 2 = 4 ways to form C set</div></section></div><p><a href=\"https://gateoverflow.in/403072\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose that $S$ and $T$ are sets. Which of the following first-order logic statements are translations of the statement \" $S$ is not a subset of $T$ ?\" Check all that apply.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\forall x .(x \\in S \\rightarrow x \\notin T)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\forall x .(x \\in S \\wedge x \\notin T)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\exists x .(x \\in S \\rightarrow x \\notin T)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\exists x .(x \\in S \\wedge x \\notin T)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 19)</small></h4><a name=\"403636\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=600s\" target=\"_blank\">Detailed Video Explanation with Complete Analysis</a>&nbsp;(with Complete Analysis)&nbsp;</p><ul><li>If we do it directly by intuition, then if S is not a subset of T then there is definitely some element in S which is not in T&nbsp;</li></ul><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\\textup{}\\therefore \\exists x (x \\in S \\wedge x \\notin T)$</p><ul><li>It can also be done by writing FOL expression for ‘S is a subset of T’ and then negating it :&nbsp;</li></ul><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;$\\sim \\forall x(x \\in S\\rightarrow x\\in T) \\\\ = \\exists x\\sim(x\\in S\\rightarrow x\\in T) \\\\ = \\exists x(x\\in S\\wedge x\\notin T) \\\\ = \\exists x(x \\in S-T) \\\\$</p><ul><li>All this is equivalent to :&nbsp;$S - T\\neq \\phi$</li></ul><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=600s\" target=\"_blank\">Detailed Video Explanation with Complete Analysis</a>&nbsp;(with Complete Analysis)&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"498320\"></a><div itemprop=\"text\"><p>Now we know to S not belong T for that condition&nbsp;<br><br><strong>There must be atleast 1 element in S which is not present in T</strong><br><br>Still by taking simple example you can get counter for wrong options !!!<br><br><em>Upvote If You found this helpful !!</em><br><br><img alt=\"\" src=\"media/be/be7290a9108473724d0e.jpg\"><br><br>Here A and B are false even though S is not subset of T&nbsp;<br><br>Now C is True for S = {1 , 2} and T = {1 , 2 , 3}<br>&nbsp;</p><p>In C option,&nbsp; <strong>S is subset of T</strong> <strong>still it is giving <em>True</em></strong> for Statement \"<strong> S is not subset of T </strong>\"</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"484220\"></a><div itemprop=\"text\">Lets carefully go throught each option<br>\n<br>\nA) ∀x.(x∈S→x∉T):<br>\n<br>\nThis option says that for all x if x belongs to S then x should not belong to T . To counter this lets take one example let S={1,2,3,4} and T={1,2,5,6,7}. We can see that clearly S is not a subset of T but according to the option we will get the answer of FOL translation as false as it will be false for both elements 1 and 2 that belong to both S and T. So this is not the answer.<br>\n<br>\n&nbsp;<br>\n<br>\nB) ∀𝑥.(𝑥∈𝑆∧𝑥∉𝑇):<br>\n<br>\nThis option says that for all x , x belongs to S and x doesnot belong to T. Again we can take previous example and see that S is not a subset of T then too the FOL gives false.<br>\n<br>\nC) ∃x.(x∈S→x∉T):<br>\n<br>\nThis option says that there exist an x such that x doesnot belong to S OR x doesnot beloing to T (p----&gt;q= ~p V q logic). Now consider an example S={1,2,3} and T={1,2,3,4}. The FOL translation will give True as 4 doesnot belong to S so overall answer will be True . But you can clearly see that S is a subset of T so this optio gets eliminated.<br>\n<br>\nD)∃x.(x∈S∧x∉T):<br>\n<br>\nOverall correct translation.<br>\n<br>\nAnswer- D)</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"498158\"></a><div itemprop=\"text\">I think this is a good way to understand this.<br>\n<br>\nS $ \\subseteq T $ means for every x if x belong to S then it belongs to T which is equivalent to for every x, x does not belong to S or x belong to T<br>\n<br>\n$S \\not\\subseteq T $ means : negation of (for every x if x belong to S then it belongs to T) which is equivalent to \"not(for every x, x does not belong to S or x belong to T)\"<br>\n<br>\n=&gt; there exist x such that x belong to S and x doesnot belong to T</div></section></div><p><a href=\"https://gateoverflow.in/403071\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\mathrm{A}=\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\}$. How many different binary relations are there over $\\mathrm{A}$ that are partial orders?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 47)</small></h4><a name=\"467561\"></a><div itemprop=\"text\"><p>I found the total number of possible Hasse diagram structures (i.e., partial orders) for 3 elements. It lists 5 distinct poset shapes and calculates how many ways each can be labeled with 3 elements, considering symmetry. For example, in structure 2 (a V-shape), although there are 6 total labelings, only 3 are distinct due to symmetry between the two upper elements. After accounting for such cases in all structures, the total number of distinct posets is <strong data-start=\"468\" data-end=\"474\">19</strong>.</p><p><br><img alt=\"\" width=\"352\" height=\"500\" src=\"media/c6/c6d1d2b7ed1fd038d868.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 11)</small></h4><a name=\"469872\"></a><div itemprop=\"text\">For A={a,b,c} .<br>\n<br>\nRXR = {(a,a),(b,b),(c,c)}<br>\n<br>\nFor partial order relation:<br>\n<br>\n1) Reflexive:<br>\n<br>\nR = {(a,a),(b,b),(c,c), _} (Fixed for any POR)<br>\n<br>\n2) AntiSymmetric: We can satisy Antisymmetry for POR as follows<br>\n<br>\n(a,b) or (b,a) or nothing = 3<br>\n<br>\n(b,c) or (c,b) or nothing = 3<br>\n<br>\n(a,c) or (c,a) or nothing = 3<br>\n<br>\nTotal choices =3X3X3= 27<br>\n<br>\n3) Transitive: After adding antisymmetry we might have added invalid transitive cases so we need to remove those cases.<br>\n<br>\n(a,b) --- (b,c) --- (c,a) or nothing<br>\n<br>\n1 &nbsp;x &nbsp;&nbsp;1 &nbsp;&nbsp;x &nbsp;&nbsp;2 = 2<br>\n<br>\nsimilarly for (a,c) = 2 cases and (b,c) .= 2 cases<br>\n<br>\nTotal invalid transitive cases = 2 x 2x 2 = 8<br>\n<br>\nTotal POR possible = 27 -8 = 19.</div></section><section><h4>Source solution 3 <small>(score: 5)</small></h4><a name=\"466672\"></a><div itemprop=\"text\">Hint: It might be useful to draw some pictures.<br>\n<br>\nCreate different cases &amp; count each case.</div></section><section><h4>Source solution 4 <small>(score: 5)</small></h4><a name=\"483996\"></a><div itemprop=\"text\"><blockquote><p>may be this is helpful for you</p><p><br><img alt=\"......\" width=\"963\" height=\"1280\" src=\"media/a0/a08229645ff20d693b5d.jpg\"></p></blockquote></div></section><section><h4>Source solution 5 <small>(score: 1)</small></h4><a name=\"467679\"></a><div itemprop=\"text\">With 3 elements, we can draw 5 non‑isomorphic Hasse diagrams:<br>\n<br>\nDiagram &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrangements of a,b,c<br>\nNo edges &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<br>\nOne edge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6<br>\nV‑shape &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3<br>\nΛ‑shape &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3<br>\nChain &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6<br>\n<br>\nTotal: 19</div></section><section><h4>Source solution 6 <small>(score: 1)</small></h4><a name=\"475569\"></a><div itemprop=\"text\"><p>This question is easy to understand like this ,<br>Partial = Reflexive , antisymmetric , transitive .</p><hr><p>A={a,b,c}<br>&nbsp;\\begin{bmatrix}<br>(a,a) &amp;(a,b) &nbsp;&amp;(a,c) &nbsp;\\\\<br>(b,a) &amp;(b,b) &nbsp;&amp; (b,c) \\\\<br>&nbsp;(c,a)&amp; (c,b) &amp;(c,c)&nbsp;<br>\\end{bmatrix}<br>we want diagonal in all cases , now just see upper triangle and lower traiangle,<br>3 elements we can get $2^3 $ subsets&nbsp;<br>so $2^3 + 2^3 -1 +(cross triangle elements)$<br>cross triangle elements $ (b,a)(b,c) , (b,a)(a,c)(b,c)$ and similarly for c,b total 4<br>16-1+4=19<br>answer.<br><br>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/466671\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $<br>R_{1} \\text { and } R_{2} \\text { be relations on a set } A \\text {. }<br>$</p><p>Consider the following statements:</p><p>M: if $R_{1}$ and $R_{2}$ are both reflexive, then so is $R_{1} \\cup R_{2}$.</p><p>N: if $R_{1}$ and $R_{2}$ are both symmetric, then so is $R_{1} \\cup R_{2}$.</p><p>Which of the above statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only M&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only N&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"466670\"></a><div itemprop=\"text\">(a) Prove that if $R_{1}$ and $R_{2}$ are both reflexive, then so is $R_{1} \\cup R_{2}$.<br>\n<br>\nProof. Suppose that $R_{1}$ and $R_{2}$ are both reflexive and let $a \\in A$. Then, since $R_{1}$ is reflexive, we have that $(a, a) \\in R_{1}$, which means that $(a, a) \\in R_{1} \\cup R_{2}$.<br>\n<br>\n(b) Prove that if $R_{1}$ and $R_{2}$ are both symmetric, then so is $R_{1} \\cup R_{2}$.<br>\n<br>\nProof. Suppose that $R_{1}$ and $R_{2}$ are both symmetric and let $(a, b) \\in R_{1} \\cup R_{2}$. Then either $(a, b) \\in R_{1}$ or $(a, b) \\in R_{2}$. In the former case, we have that $(b, a) \\in R_{1}$, since $R_{1}$ is symmetric, and in the latter case we have that $(b, a) \\in R_{2}$, since $R_{2}$ is symmetric. In either case we have that $(b, a) \\in R_{1} \\cup R_{2}$.<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/466669\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $f$ be a function from a set $X$ to a set $Y$. Consider the following statements.</p><ul><li>$P$ : For each $x \\in X$, there exists $y \\in Y$ such that $f(x)=y$.</li><li>$Q$ : For each $y \\in Y$, there exists $x \\in X$ such that $f(x)=y$.</li><li>$R$ : There exist $x_1, x_2 \\in X$ such that $x_1 \\neq x_2$ and $f\\left(x_1\\right)=f\\left(x_2\\right)$.</li></ul><p>The negation of the statement \" $f$ is one-to-one and onto $Y$ \" is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$P$ or not $R$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$R$ or not $P$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$R$ or not $Q$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$P$ and not $R$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"403070\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3446s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3446s</a>&nbsp;(with Complete Analysis)</p><p>Since $f$ is a function from $X$ to $Y.$ So, statement $P$ is redundant.<br>Statement $Q$ is the definition of Onto function.<br>Statement $R$ is the definition of \"Not one-one\" function.</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3446s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3446s</a>&nbsp;(with Complete Analysis)</p></div></section><section><h4>Source solution 2 <small>(score: 11)</small></h4><a name=\"415380\"></a><div itemprop=\"text\"><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;solution&nbsp;<img alt=\"\" height=\"500\" src=\"media/a0/a0e9b001b932ddc1fd94.jpg\" width=\"500\"></p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"474492\"></a><div itemprop=\"text\">&nbsp;<br>\n<br>\nThe negation of the statement \" f is one-to-one and onto \" - f is not one to one or not onto.<br>\n<br>\nP: this is a valid function.<br>\n<br>\nQ: this is onto function.<br>\n<br>\nR: Not a one to one function.</div></section></div><p><a href=\"https://gateoverflow.in/403069\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let's suppose that we have a function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$. We'll say that $f$ is an odd function if the following is true:<br>$$<br>\\forall x \\in \\mathbb{R} . f(-x)=-f(x)<br>$$<br>We can define even functions as follows. A function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is called even if the following is true:<br>$$<br>\\forall x \\in \\mathbb{R} . f(-x)=f(x)<br>$$<br>Which of the following statements is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ are odd, then $g \\circ f$ is also odd.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is odd and is a bijection, then $f^{-1}$ is also odd.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is an even function, then $f$ is not a bijection.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be any function. Then $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined as $g(x)=f(x)-f(-x)$ is odd.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 32)</small></h4><a name=\"403941\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3922s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3922s</a>&nbsp;(with Complete Analysis)</p><p><strong>$\\textbf{OPTION A :}$</strong></p><p>Given : f and g are odd means →&nbsp;$f(-x)=-f(x) \\ AND \\ g(-x)=-g(x)$</p><p>prove that :&nbsp; $gof(-x)=-gof(x)$</p><p>$\\Rightarrow gof(-x)= g[f(-x)] \\\\$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$= g[-f(x)] \\\\$&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;$\\because \\ f(x) \\ is \\ odd$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$=-g[f(x)]$&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\\because \\ g(x) \\ is \\ odd$&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$=-gof(x)$</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>$\\textbf{OPTION B:}$</strong></p><p>Given : f is odd and a bijection&nbsp;</p><p>Prove :&nbsp;$f^{-1}$ is also odd</p><p>Here’s the reasoning :</p><p><span class=\"marker\"><strong>Method 1 –&nbsp;</strong></span></p><p>$Let's \\ say \\ f^{-1}(x) = g(x)$</p><p>$Also \\ \\Rightarrow fog(x) = gof(x) = x \\ \\ \\ \\ (property \\ of \\ bijection \\ and \\ inverse\\ of\\ a \\ function)$</p><p>$\\because f \\ is\\ odd \\Rightarrow f[-g(x)] = -f[g(x)])=-fog(x)$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\Rightarrow f(-g(x))=-x$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\Rightarrow -g(x)=f^{-1}(-x)$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\Rightarrow -g(x)=g(-x)$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\Rightarrow -f^{-1}(x)=f^{-1}(-x)$</p><p><strong><span class=\"marker\">Method 2 –</span></strong></p><p>assume the given Hypothesis true and try to make the conclusion false, from the false conclusion we may arrive at a contradiction which proves the statement invalid</p><p>$Let's \\ say \\ f^{-1} \\ is \\ not \\ odd \\ \\ \\ \\ \\ \\ \\ \\ (Note : not\\ odd\\ \\not\\equiv even\\ function)$</p><p>$For \\ some \\ x \\ and \\ -x : f^{-1}(-x)\\neq -f^{-1}(x)$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\Rightarrow fof^{-1}(-x)\\neq f[-f^{-1}(x)]$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\Rightarrow fof^{-1}(-x)\\neq -(fof^{-1}(x))]$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\Rightarrow -x\\neq -x$</p><p>$This \\ is \\ a \\ contradiction, \\ \\therefore \\ f^{-1} \\ must \\ be \\ odd \\ if \\ f \\ is \\ odd \\ and \\ bijection$</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>$\\textbf{OPTION C&nbsp;:}$</strong></p><p>It is very obvious by the defintion itself that an even function cannot be a bijection. Here’s the reason :</p><p>$\\begin{Bmatrix} f(x)=f(x)\\\\ f(-x)=f(x) \\end{Bmatrix} \\Rightarrow bijection \\ not \\ possible \\ as \\ even \\ function \\ not \\ one-one$</p><p>$For\\&nbsp; eg. \\ Let's \\ say \\ f(x)=x^{2}\\ (an \\ even \\ function)$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $f(2)=4 \\ and \\ f(-2)=4 \\ \\ \\ \\ \\therefore Not \\ a \\ bijection$</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>$\\textbf{OPTION D&nbsp;:}$</strong></p><p>Given : f and g where&nbsp; $g(x)=f(x)-f(-x)$</p><p>Prove : g(x) is odd&nbsp;$\\Rightarrow g(-x)=-g(x)$</p><p>Here’s the reasoning :&nbsp;</p><p>$\\Rightarrow g(-x)=f(-x)-f(-(-x))$</p><p>$\\Rightarrow g(-x)=f(-x)-f(x)$</p><p>$\\Rightarrow g(-x)=-(f(x)-f(-x))= -g(x)$</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3922s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=3922s</a>&nbsp;(with Complete Analysis)</p></div></section></div><p><a href=\"https://gateoverflow.in/403068\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{R}$ be an equivalence relation on a non-empty set $\\text{A}.$ Let $a,b \\in \\text{A}.$</p><p>For any $x \\in A,$ let $[x]$ denote the equivalence class of $\\text{R}$ containing $x.$</p><p>Which of the following is/are correct statements?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$a\\text{R}b$ iff $[a] = [b]$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$a\\text{R}b$ iff $[a] \\cap [b] \\neq \\phi$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $\\text{A}$ is non-empty finite set then $\\text{R}$ can never have more than $|\\text{A}|$ equivalence classes, where $|\\text{A}|$ is the cardinality of $\\text{A}.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{R} = \\text{A} \\times \\text{A}$ iff $R$ has only one equivalence class.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"375603\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/vpb5qsolNrM\" target=\"_blank\">Equivalence Relation - Complete Analysis</a>&nbsp;</p><p><strong>MUST Watch the FULL lecture</strong> for Clear, Complete Understanding of Equivalence Relation &amp; this question.&nbsp;</p><p><strong><u>Definition of equivalence class</u></strong>:-Let R be an equivalence relation on a set A. The set of all elements that are related to an element a of A is called the equivalence class of a. The equivalence class of a with respect<br>to R is denoted by [a]$_{R}$. When only one relation is under consideration, we can delete the<br>subscript R and write [a] for this equivalence class</p><p>example:-</p><p>A={1,2,3,4}</p><p>R={(1,1) (2,2) (3,3) (4,4) (1,2) (2,1) (2,3) (1,3)&nbsp; (3,2) (3,1) }</p><p>[1]={1,2,3}</p><p>[2]={2,1,3}</p><p>[3]={3,2,1}</p><p>[4]={4}</p><p>let a=1 and b=2</p><p><strong>option A:</strong> 1R2&nbsp; →&nbsp;[1]=[2]&nbsp; true</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [1]=[2] →&nbsp;1R2 true</p><p><strong>option B:</strong>- 1R2 →&nbsp;[1] ∩ [2]&nbsp; ≠ ϕ&nbsp;True</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;[1] ∩ [2]&nbsp; ≠ ϕ →&nbsp;1R2 True</p><p><strong>option c</strong>:-The union of the equivalence classes of R is all of A, because<br>an element a of A is in its own equivalence class, namely, [a]$_{R}$. In other words,</p><p>$\\bigcup_{a∈A}^{}$&nbsp;[a]$_{R}$&nbsp;= A.</p><p>for this example [1]&nbsp;∪ [2]&nbsp;∪ [3]&nbsp;∪[4]={1,2,3,4}=A</p><p>so option c is true.</p><p><strong>option&nbsp; D:</strong> if R=A x A</p><p>then [1]={1,2,3,4}</p><p>&nbsp; &nbsp; &nbsp; &nbsp; [2]={1,2,3,4}</p><p>&nbsp; &nbsp; &nbsp; &nbsp; [3]={1,2,3,4}</p><p>&nbsp; &nbsp; &nbsp; &nbsp; [4]={1,2,3,4}</p><p>so &nbsp;representative of equivalence class {1,2,3,4} is [1] or [2] or [3] or [4]&nbsp; so we can represent {1,2,3,4}</p><p>with any one of them&nbsp;let [1]={1,2,3,4}.</p><p>so option D is &nbsp;true&nbsp;</p><p>&nbsp; &nbsp;</p><p>more information&nbsp;</p><p>[a]$_{R}$&nbsp;∩ [b]$_{R}$&nbsp;= ∅,<br>when [a]$_{R}$&nbsp;≠&nbsp;[b]$_{R}$.</p><p>like [1]={1,2,3}&nbsp;and [4]={4}&nbsp;so either the disjoint or they will be same&nbsp;</p><p>this not possible [a]={a,b,c}</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[b]={a,b}</p><p>for reference &nbsp;Rosen&nbsp;page(608-614)</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/vpb5qsolNrM\" target=\"_blank\">Equivalence Relation - Complete Analysis</a>&nbsp;</p><p><strong>MUST Watch the FULL lecture</strong> for Clear, Complete Understanding of Equivalence Relation &amp; this question.&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp;&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"374291\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/vpb5qsolNrM\" target=\"_blank\">Equivalence Relation - Complete Analysis</a></p><p>Let $R$ be an equivalence relation on a set $A$. These statements for elements $a$ and $b$ of $A$ are equivalent:</p><ol start=\"1\" style=\"list-style-type:lower-roman\"><li>$a R b$</li><li>$[a]=[b]$</li><li>$[a] \\cap[b] \\neq \\varnothing$</li></ol></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"498331\"></a><div itemprop=\"text\"><p>First of all keep this thing in mind \"<span style=\"color:#2ecc71;\"><strong>EQUIVALENCE CLASSES PARTITION A SET</strong></span>\" means they are disjoint. No two classes has any element in common.</p><p>A. aRb iff [a] = [b] // there should be a parentheses just to avoid confusion, cause some may read this as (<span style=\"color:#2ecc71;\"><strong> aRb iff [a] </strong></span>) = (<strong><span style=\"color:#2ecc71;\">&nbsp;[b] </span></strong>), however the actual statement is <span style=\"color:#1abc9c;\"><strong>aRb </strong></span>iff ( <strong><span style=\"color:#1abc9c;\">[a] = [b] </span></strong>). But keep in mind&nbsp;(<span style=\"color:#2ecc71;\"><strong> aRb iff [a] </strong></span>) = (<strong><span style=\"color:#2ecc71;\">&nbsp;[b] </span></strong>) while considering this it will mean you haven't consider logic principles in place. Cause we can't compare a proposition with a set. I have done this mistake in the first place while solving.</p><p>Let's understand A and see why this is true</p><p>understand it by the definition of equivalence class itself, we are given [a] = [b] means&nbsp;</p><p>[a] will have a itself because every element is reflexive to itself, and since [a] = [b] it means [b] will also have 'a', and hence aRb</p><p>&nbsp;</p><p>B. aRb iff [a] intersection [b] is not equal to phi</p><p>[a] intersection [b] is not phi means there is an element x both in [a] and [b] but equivalence classes are disjoint, that means either a or b is that common element and if that is true then again aRb. So B is also true.</p><p>&nbsp;</p><p>C. Yes true look it as a logical way that a finite set will have n finite elements in it. Now if every element is an equivalence class then they can never be more than the set elements itself.</p><p>&nbsp;</p><p>D. R = A X A iff there is only one equivalence class.</p><p>This is also true as if the relation is the entire A X A element then every element is related to every other element.</p><p>Ex: A = {1,2}</p><p>now A X A is the set of all ordered pairs</p><p>they are { (1,1), (1,2), (2,1), (2,2) }</p><p>now R if have all these ordered pairs in it then every element is related to every other element and therefore only one equivalence class.</p></div></section></div><p><a href=\"https://gateoverflow.in/374290\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\text{A, B}$ be two non-empty sets, with cardinality $3,4$ respectively. Let $\\text{R}$ be a relation defined on the power set of $\\text{A} \\times \\text{B}.$ Relation $\\text{R}$ is reflexive, symmetric, transitive, and antisymmetric. Hence, &nbsp;Relation $ \\text{R}$ is also equivalence relation.<br>\n<br>\nThe cardinality of the largest equivalence class of relation $\\text{R}$ is?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 35)</small></h4><a name=\"374561\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=5228s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=5228s</a>&nbsp;(with Complete Analysis)&nbsp;</p><p>Relation $R$ is defined on $P(A\\times B)$,&nbsp;<em>i.e.,</em>&nbsp;Power set of $A\\times B$.</p><p>Since, $R$ is reflexive, every element of $P(A\\times B)$ is related to itself.</p><p>Now, by symmetric and antisymmetric property of $R$, we cannot have $aRb$, such that $a\\neq b$.</p><p>So, the only element related to $a\\in&nbsp;P(A\\times B)$, is $a$ itself. So, no two distinct elements of $P(A\\times B)$ are related to each other.&nbsp;</p><p>So, each equivalence class which will be formed by&nbsp;$R$ has exactly one element only.</p><p><strong>The cardinality of the largest equivalence class of relation $R$ is 1.</strong></p><p><strong>NOTE :&nbsp;</strong>There is nothing specific about the set&nbsp;$P(A\\times B)$ such that this outcome occurred. This will be true for any set, provided that $R$ is Reflexive, Symmetric, Transitive and Anti-Symmetric.</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=5228s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=5228s</a>&nbsp;(with Complete Analysis)&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 16)</small></h4><a name=\"375582\"></a><div itemprop=\"text\">let A={1,2,3} B={1,2,3,4}<br>\n<br>\nAxB={(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3)(3,4)}<br>\n<br>\nif R is ref,symmetric,antisymmetric,transitive then R ={(1,1),(2,2),(3,3)}<br>\n<br>\nif symmetric,antisymmetric both need to be satisfied then aRb &amp; bRa both<br>\n<br>\nwill not present if a$\\neq$b<br>\n<br>\nso equivalence class will be<br>\n<br>\n[1]={1}<br>\n<br>\n[2]={2}<br>\n<br>\n[3]=={3}<br>\n<br>\nso max cardinality will be 1.</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"490022\"></a><div itemprop=\"text\"><p>Solution</p><ol><li><p>Base sets<br>Let<br>$A = {a_1, a_2, a_3}, \\quad B = {b_1, b_2, b_3, b_4}$.</p></li><li><p>Cartesian product<br>The Cartesian product is<br>$A \\times B = {(a_i,b_j) \\mid i=1,2,3;\\ j=1,2,3,4}$.<br>This has $3 \\times 4 = 12$ ordered pairs.<br>For convenience, label them as<br>$A \\times B = {p_1, p_2, \\ldots, p_{12}}$.</p></li><li><p>Power set<br>The universe of our relation is the power set:<br>$S = \\mathcal{P}(A \\times B) = { X \\mid X \\subseteq A \\times B }$.</p><p>Each element of $S$ is a subset of $A \\times B$, possibly of any size between 0 and 12.</p><p>Examples:</p><ul><li><p>$X_1 = \\varnothing$</p></li><li><p>$X_2 = {p_1}$</p></li><li><p>$X_3 = {p_1,p_5,p_{10}}$</p></li><li><p>$X_4 = {p_2,p_3,\\ldots,p_{12}}$</p></li></ul><p>Total number of subsets:<br>$|S| = 2^{12} = 4096$.</p></li><li><p>Relation $R$<br>We are told that $R$ on $S$ is reflexive, symmetric, transitive, and antisymmetric.</p><ul><li><p>Reflexive: $X R X$ for all $X \\in S$.</p></li><li><p>Symmetric: If $X R Y$ then $Y R X$.</p></li><li><p>Transitive: If $X R Y$ and $Y R Z$, then $X R Z$.</p></li><li><p>Antisymmetric: If $X R Y$ and $Y R X$, then $X=Y$.</p></li></ul></li><li><p>Effect of symmetry + antisymmetry<br>Take two distinct subsets $X,Y \\in S$. Suppose $X R Y$.</p><ul><li><p>By symmetry: $Y R X$.</p></li><li><p>By antisymmetry: $X=Y$. Contradiction.</p></li></ul><p>Hence, no two distinct elements of $S$ can be related.</p><p>Therefore, the only possible pairs in $R$ are of the form $(X,X)$.</p></li><li><p>Reflexivity ensures<br>Because $R$ is reflexive, every $(X,X)$ must be in $R$.<br>Thus<br>$R = { (X,X) \\mid X \\in S }$.</p><p>This is exactly the identity relation on $S$.</p></li><li><p>Equivalence classes<br>For any $X \\in S$,<br>$[X] = { Y \\in S \\mid X R Y }$.</p><p>But $X$ is related only to itself, so<br>$[X] = {X}$.</p><p>Every equivalence class is a singleton set.</p></li><li><p>Largest equivalence class<br>Since all equivalence classes contain exactly one element, the size of the largest equivalence class is<br>$1$.</p></li></ol><hr><p>Final Answer: The cardinality of the largest equivalence class of $R$ is<br>$\\boxed{1}$</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374284\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For any set $\\text{X},$ let $|\\text{X}|$ be the cardinality of set $\\text{X}.$ Let $\\text{A}$ and $\\text{B}$ be two finite sets such that $|\\text{A}| = |\\text{B}|$. There is a one to one function $f$ from $\\text{A}$ to $\\text{B}.$</p><p>Which of the following must be true for $f?$</p><ul><li>$\\text{S1:}\\; f$ is onto function</li><li>$\\text{S2:}\\;f$ has an inverse</li></ul>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only $\\text{S1}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only $\\text{S2}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both $\\text{S1}$ and $\\text{S2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"377950\"></a><div itemprop=\"text\"><p>Lets take for example following two sets A , B with same&nbsp;cardinality 3</p>\n\n<p>A={1,2,3}</p>\n\n<p>B={4.5.6}</p>\n\n<p>Now, lets define a one-to-one&nbsp;function f for (a,b) such that b=a+3 where&nbsp;a $\\epsilon$ A and b $\\epsilon$ B</p>\n\n<p>R={(1,4),(2,5),(3,6)}</p>\n\n<p>As we can see , f is onto and so <strong>S1 is true</strong></p>\n\n<p>For inverse function to exist, f must be one-to-one and onto which is already the case.</p>\n\n<p>Lets calculate inverse of f</p>\n\n<p>inverse of f is&nbsp;a=b-3&nbsp;$\\Rightarrow$ {(4,1),(5,2),(6,3)}</p>\n\n<p>Hence <strong>S2 is also true</strong></p>\n\n<p>Correct answer is <strong>C</strong></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"403718\"></a><div itemprop=\"text\">As cardinality of A and B are same and f is one-one from A to B, then also onto hence bijective function.<br>\n<br>\nAs bijective therefore inverse also possible.<br>\n<br>\nTherefore both S1 and S2 are correct.<br>\n<br>\nCorrect option : C</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"378532\"></a><div itemprop=\"text\">f is one to one function which implies it is one one and onto. so S1 is true.<br>\n<br>\n&nbsp;<br>\n<br>\nfor f to have an inverse every element of its codmain must have a preimage (codomain = range) and no two elements of domain share the same image in codomain (one one), so S2 is also true.</div></section></div><p><a href=\"https://gateoverflow.in/374277\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Given a set of values $\\text{R} = \\{1,2,3,4,5,6,7\\}.$ The number of relations on this set which are both partial-order and equivalence relation is?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 1</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 28)</small></h4><a name=\"374297\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=1761s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=1761s</a>&nbsp;(with Complete Analysis)&nbsp;&nbsp;</p><p>Answer$: 1$<br><br>Let’s understand by taking base set $\\text{R} = \\{1,2,3,4\\}.$<br><br>Given a set of values, suppose $\\text{R} = \\{1,2,3,4\\}$ we need to find the number of relations on the set, which are both partial-order and equivalence relations.<br><br>Since the relation must be reflexive, it must contain the elements $(1,1),(2,2),(3,3)$, and $(4,4)$. It is not difficult to show (do it if it does not seem clear to you!) that the only relations that are both symmetric and anti-symmetric are identity relations of the form $\\{(a, a),(b, b), \\ldots\\}$. Hence $\\{(1,1),(2,2),(3,3),(4,4)\\}$ is the only relation on the set $\\{1,2,3,4\\}$ that is reflexive, symmetric, and anti-symmetric. Clearly, it is also transitive, and hence it is the only relation that is both a partial order and an equivalence relation.<br><br>The same argument goes for any set $S:$ The only relation that is both a partial order and an equivalence relation is the identity relation $R=\\{(x, x) \\mid x \\in S\\}$.</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=1761s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=1761s</a>&nbsp;(with Complete Analysis)&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"426831\"></a><div itemprop=\"text\">Equivalence relation means that the relation should be reflexive, symmetric and transitive. Partial order relation means that the relation should be transitive, anti-symmetric and reflexive. In the matrix representation of relation on set R, we should consider all the pairs along the diagonal as the relation must be reflexive. Number of ways of choosing all of them is 1. For the pairs (a,b) and (b,a) where a is not equal to b, there are four options: i) donot take (a,b) and (b,a), ii) take (a,b) and donot take (b,a), iii) take (b,a) and donot take (a,b), iv) take both of them. Equivalence relation says that only option iv) is allowed. Partial order relation says that option ii) and option iii) are allowed. So if we consider both the cases, we can neither take (a,b) nor (b,a). So final conclusion is that we have to consider all the pairs along the diagonal. We cannot consider any non diagonal pair. Therefore number of relations which are both equivalence and partial order is 1.</div></section></div><p><a href=\"https://gateoverflow.in/374276\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A binary relation $\\text{R}$ on a set $\\text{A}$ is called connected iff for all elements $x$ and $y$ of $\\text{A},$ either $x \\text{R} y$ or $y \\text{R} x$ or both. i.e. $\\text{R}$ is connected iff $\\forall x,y \\in \\text{A} ((x \\text{R} y)$ $\\vee$&nbsp;&nbsp;$(y \\text{R} x))$</p><p>Which of the following is/are true ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Every connected relation is reflexive.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Every connected relation is partial order.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Every connected relation is symmetric.&nbsp;&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Every connected relation is transitive.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"374265\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/CgbRXyhMSfM?t=4254&amp;feature=shared\" target=\"_blank\">https://youtu.be/CgbRXyhMSfM?t=4254&amp;feature=shared</a>&nbsp;</p><p>In the above video solution, Total Relation is SAME as Connected Relation.&nbsp;</p><p>Every connected relation is reflexive because for every pair $(x,y), x \\text{R} y$ or $y \\text{R} x.$ So, for pair $(a,a)$ we have $a \\text{R} a.$<br><br>Consider the following relation on set $\\{a,b,c\\} :<br>\\text{R} = \\{ (a,a), (b,b), (c,c), (a,b), (b,c), (c,a) \\}$<br>Clearly it is connected. But it is Not transitive, Not symmetric, Not partial order, Not total order.<br><br>A binary relation $\\text{R}$ on a set $\\text{A}$ is a total order / linear order on $\\text{A}$ iff $\\text{R}$ is a connected partial order on $\\text{A}.$</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/CgbRXyhMSfM?t=4254&amp;feature=shared\" target=\"_blank\">https://youtu.be/CgbRXyhMSfM?t=4254&amp;feature=shared</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374264\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{R}$ be a relation from a set $\\text{A}$ to a set $\\text{B}.$ The inverse relation from $\\text{B}$ to $\\text{A},$ denoted by $\\text{R}^{-1},$&nbsp;is the set of ordered pairs $\\{(b,a) \\mid (a,b) \\in \\text{R}\\}$.</p><ul><li>$\\text{S1: R}$ is reflexive relation iff $\\text{R}^{-1} = \\text{R}$</li><li>$\\text{S2: R}$ is a symmetric relation iff $\\text{R}^{-1} = \\text{R}$</li></ul><p>Which one of the following statements is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only $\\text{S1}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only $\\text{S2}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both $\\text{S1}$ and $\\text{S2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 21)</small></h4><a name=\"374562\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=2312s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=2312s</a>&nbsp;(with Complete Analysis)&nbsp;</p><p><strong>S1: $R$ </strong>is reflexive relation<strong> <em>iff&nbsp;&nbsp;</em></strong>$R^{-1}=R$</p><p>If $R$ is reflexive then&nbsp;$R^{-1}=R$. Is this true?</p><p>Let, $A=\\{1,2\\}$, and&nbsp;&nbsp;$R=\\{(1,1),(2,2),(1,2)\\}$. This, $R$ is reflexive but&nbsp;$R^{-1}\\neq R$.</p><p>So,&nbsp;<strong>S1</strong>&nbsp;is False.</p><hr><p><strong>S2:</strong>&nbsp;$R$ is symmetric&nbsp;<strong><em>iff&nbsp;</em></strong><em>&nbsp;</em>$R^{-1}=R$</p><p>$\\Longrightarrow$ $R$ is symmetric then&nbsp;$R^{-1}=R$.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Let, $(a,b)\\in R$, then&nbsp;$(b,a)\\in R$. Since,&nbsp;$(b,a)\\in R$, then&nbsp;$(a,b)\\in R^{-1}$. So, $R\\subseteq R^{-1}$.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Similarly, we can prove&nbsp;$R^{-1}\\subseteq R$. Hence,&nbsp;$R=R^{-1}$.</p><p>$\\Longleftarrow$ $R^{-1}=R$&nbsp;then&nbsp;$R$ is symmetric.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;Let, $(a,b)\\in R$, then&nbsp;$(b,a)\\in R^{-1}$. Since,&nbsp;$R^{-1}=R$, so $(b,a)\\in R$.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Thus, $R$ is symmetric.</p><p>So,&nbsp;<strong>S2</strong>&nbsp;is True.</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=2312s\" target=\"_blank\">https://www.youtube.com/watch?v=ZmfaSa1TKm4&amp;t=2312s</a>&nbsp;(with Complete Analysis)&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"385510\"></a><div itemprop=\"text\"><p>A&nbsp;&nbsp;iff&nbsp;B = ( A →&nbsp;B &amp;&nbsp;B →&nbsp;A)</p>\n\n<p>So, to prove A iff B is True we have to show both A→&nbsp;B and B→&nbsp;A as True.</p>\n\n<p>But to prove A iff B is False we can show&nbsp;A→&nbsp;B or&nbsp;B→&nbsp;A as False.</p>\n\n<p>----------------------------------</p>\n\n<p>S1: R is reflexive relation iff R$^{-1}$ = R</p>\n\n<p>Proof: We can easily disprove it by counter-example.</p>\n\n<p>S1 →&nbsp;if&nbsp;&nbsp;(R$^{-1}$ = R) then&nbsp; R is a reflexive relation.</p>\n\n<p>Example&nbsp;&nbsp;:&nbsp;&nbsp; Base set A = {a,b} and Relation R = {(a,b),(b,a)}&nbsp; ,&nbsp; R$^{-1}$ = {(b,a),(a,b)}</p>\n\n<p>Here, R$^{-1}$ = R but R is not reflexive.</p>\n\n<p>So, S1 is<strong> FALSE</strong>.</p>\n\n<hr>\n<p>S2: R is a symmetric relation iff&nbsp; R$^{-1}$ = R</p>\n\n<p>S2 →&nbsp; if&nbsp; R$^{-1}$ = R then R is symmetric.</p>\n\n<p>Proof: We can easily prove it by contradiction.</p>\n\n<p>Base set A = {a,b}</p>\n\n<p>S2&nbsp;→&nbsp;if&nbsp;&nbsp;(R$^{-1}$ = R) then&nbsp; R is a symmetric&nbsp;relation.&nbsp;</p>\n\n<p>suppose,&nbsp;(R$^{-1}$ = R) but R is <strong>NOT&nbsp;</strong>a symmetric relation.</p>\n\n<p>R$^{-1}$ = R and (a,b)&nbsp;$\\epsilon$ R and (b,a)&nbsp;$\\notin$ R</p>\n\n<p>(a,b)&nbsp;$\\epsilon$ R →&nbsp;(a,b)&nbsp;$\\epsilon$&nbsp;R$^{-1}$ →&nbsp;(b,a)&nbsp;&nbsp;$\\epsilon$ R</p>\n\n<p>so, R is symmetric.</p>\n\n<p>Now, this is&nbsp;not enough to prove S2.</p>\n\n<p>S2 →&nbsp;If&nbsp; R is symmetric.then&nbsp;&nbsp;R$^{-1}$ = R.</p>\n\n<p>Proof: We can easily prove it by contradiction.</p>\n\n<p>Base set A = {a,b}</p>\n\n<p>suppose. (a,b)&nbsp;$\\epsilon$&nbsp; R$^{-1}$ and (a,b)&nbsp;$\\notin$ R and R is symmetric.</p>\n\n<p>So, (a,b)&nbsp;&nbsp;$\\epsilon$&nbsp; R$^{-1}$ →&nbsp;(b,a)&nbsp;$\\epsilon$&nbsp; R →&nbsp;(a,b) $\\epsilon$&nbsp; R</p>\n\n<p>So, R=R$^{-1}$</p>\n\n<p>S2 is <strong>TRUE.</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374255\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 11,
+  "types": {
+   "MSQ": 6,
+   "MCQ": 5,
+   "NAT": 4
+  },
+  "withoutKey": 8
+ }
+}

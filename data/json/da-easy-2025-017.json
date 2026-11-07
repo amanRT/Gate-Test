@@ -1,0 +1,1049 @@
+{
+ "v": 1,
+ "id": "da-easy-2025-017",
+ "title": "Subjectwise Test-5 Part Syllabus GATE 2025 DA Database Management and Warehouse",
+ "sourceTitle": "Subjectwise Test-5 Part Syllabus GATE 2025 DA Database Management and Warehouse",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2025",
+ "num": 17,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/034_Subjectwise Test-5 Part Syllabus GATE 2025 DA Database Management and Warehouse.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider a relation <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>) with functional dependencies:</p>\n<p>\n\t<img alt=\"\" src=\"media/c2/c263d2b58363583cd24a.png\" /></p>\n<p>\n\tHow many candidates key in the above relation?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1"
+    },
+    {
+     "key": "B",
+     "html": "2"
+    },
+    {
+     "key": "C",
+     "html": "3"
+    },
+    {
+     "key": "D",
+     "html": "4"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/4b/4b08a135a06438ca15ee.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider a relation <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>) with functional dependencies <em>F</em> = {<em>A</em> → <em>B</em>, <em>BC</em> → <em>E</em>, <em>ED</em> → <em>A</em>}.<br />\n\tHow many additional relations required to convert it into 3NF with lossless and dependency preserving?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "3"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/dd/dd05fbf4cb0398205cb6.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the relation <em>r</em><sub>1</sub>(<em>A</em>, <em>B</em>, <em>C</em>) and <em>r</em><sub>2</sub>(C, D, E) with primary keys <em>C</em> and <em>D</em> respectively. The relation <em>r</em><sub>1</sub> contains 2000 tupples and <em>r</em><sub>2</sub> contains 3500 tupples. The maximum size of the join <img align=\"absmiddle\" alt=\"\" src=\"media/7d/7deded44a3a880af2fd7.png\" /> is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1500"
+    },
+    {
+     "key": "B",
+     "html": "2000"
+    },
+    {
+     "key": "C",
+     "html": "3500"
+    },
+    {
+     "key": "D",
+     "html": "5000"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/33/3370929402eabb71d3ca.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the Two sets of FD’s for the relation <em>R</em>(<em>ABCDE</em>):</p>\n<p>\n\t<img alt=\"\" src=\"media/7a/7acd53678fffe4538298.png\" /></p>\n<p>\n\tWhich of the following statement true about FD set?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e7/e78b6312847cb4d809a1.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/00/0068d24b705006a51a2d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/94/94fdd9098579f625c113.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/44/447a68f8ba56998e4920.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements about ER models is/are correct?<br />\n\t<strong>I.</strong> Many-many relationships cannot be represented in ERD.<br />\n\t<strong>II.</strong> Relationship sets can have attributes of their own.<br />\n\t<strong>III.</strong> All many to one relationships are represented by the relationships between a weak && a non weak entity set.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "II only"
+    },
+    {
+     "key": "B",
+     "html": "III only"
+    },
+    {
+     "key": "C",
+     "html": "II, III only"
+    },
+    {
+     "key": "D",
+     "html": "I and II only"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/fe/fe2867d4179eee494a00.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tThe order of an internal node in a B<sup>+</sup> tree index is the maximum number of children it can have. Suppose that a child pointer takes 3 bytes, the search field value takes 17 bytes, and the block size is 1024 bytes. The order of the internal node is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    52,
+    52
+   ],
+   "answerText": "52",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t52</p>\n<p>\n\t<img alt=\"\" src=\"media/e0/e009157828574f11eecc.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/53/5377a6a0682c646bb688.png\" /></p>\n<p>\n\tWhere EXISTS (Select count (*) FROM S Where R.C > S.D and S.F > 10)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)<br />\n\tResult of inner query is non empty because even no record satisfy where condition of inner query count (*) produces one record.<br />\n\tSo every record of R where condition true.</p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following statements given below:<br />\n\t<em>S</em><sub>1</sub> : In a relation <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>), <em>C</em> → <em>A</em> holds is true then <em>BC</em> → <em>A</em> also holds.<br />\n\t<em>S</em><sub>2</sub> : The join is a basic operation in a relational algebra.<br />\n\t<em>S</em><sub>3</sub> : If a relation is in 4NF surely it will be in a BCNF as well.<br />\n\tThe number of the correct statements is/are _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2</p>\n<p>\n\t<img alt=\"\" src=\"media/76/76c1baff5308f1c12908.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tLet <em>R</em><sub>1</sub>, <em>R</em><sub>2</sub>, ..., <em>R</em><sub>n</sub> be a decomposition of schema <em>U</em>. Let <em>u</em>(<em>U</em>) be a relation, and the <img align=\"absmiddle\" alt=\"\" src=\"media/97/97af05d16699dd707d12.png\" /><br />\n\tWhich of the following holds true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d8/d85f33dcac5bab362931.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/86/86276eb75417e47c286d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c9/c9d37dd3ee631803fc0c.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/69/69bed6da91180f3386bc.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/da/da0078048f3ee9028637.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following table SQL query:</p>\n<p>\n\t<img alt=\"\" src=\"media/19/197b950dfa1a52c10cfb.png\" /></p>\n<p>\n\tThe tuple (0, 1), (1, 2), (2, 3), (3, 2), (3, 2)<br />\n\tFind the number of tuples deleted additionally due to following query:<br />\n\tDelete from Gate_DA where y = 3</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t3</p>\n<p>\n\t<img alt=\"\" src=\"media/57/572108a048756e55ae98.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following relation:<br />\n\tSuppliers (Sid, Sname, Address)<br />\n\tParts (Pid, Pname, Color)<br />\n\tCatalog (SidPid, Cost)<br />\n\tWhat does the following relations algebra query produce?</p>\n<p>\n\t<img alt=\"\" src=\"media/54/549cb763669a03ab2f2a.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Supplier names of those supply a red part cost less than 100."
+    },
+    {
+     "key": "B",
+     "html": "Supplier names of those supply a red part cost exact 100."
+    },
+    {
+     "key": "C",
+     "html": "Supplier names of those supply a red part cost more than 100."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\tGiven query retrieve the names of supplier who provide red parts that cost less than 100 dollars. It first filters red parts and catalog with cost less 100 then join these result to find matching suppliers IDs and finally uses these IDs to get the corresponding supplier names from suppliers table.</p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<strong>I.</strong> Primary index may or may not be sparse.<br />\n\t<strong>II.</strong> Secondary index may or may not be dense.<br />\n\t<strong>III.</strong> Unspanned strategy is suitable for fixed length records.<br />\n\tThe number of the correct statements is/are _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t3<br />\n\t&bull; Primary index may or may not be sparse. It depends on the attribute used for indexing same case with statement II.<br />\n\t&bull; Unspanned strategy is suitable for fixed length records and spanned strategy suitable for variable length records.</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIf table <em>R</em> has only one candidate key, then which of the following is always true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "R is in 2NF, but is not in 3NF"
+    },
+    {
+     "key": "B",
+     "html": "R is in 3NF, it is also in BCNF"
+    },
+    {
+     "key": "C",
+     "html": "R is in 2NF, but may not be in 3NF"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/95/956b9af46df80d5de898.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tWhich of the following is/are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "B-trees are for storing data on disk and B+ trees are for main memory."
+    },
+    {
+     "key": "B",
+     "html": "Range queries are faster on B+ trees."
+    },
+    {
+     "key": "C",
+     "html": "B-trees are for primary indexes and B+ trees are for secondary indexes."
+    },
+    {
+     "key": "D",
+     "html": "The height of a B+ tree is independent of the number of records."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c, d)</p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t1. The redundancy in the set of relation that have been arised after decomposing a relation <em>R </em>into BCNF is zero irrespective of the type of dependencies.<br />\n\t2. BCNF decompositions are always lossless as well as dependency preserving.<br />\n\t3. A prime attribute of a relation schema <em>R</em> is an attribute that appears in all candidate key of <em>R</em>.<br />\n\t4. A relation <em>R</em> is in 3NF, if every non-prime attribute of <em>R</em>, is fully functionally dependent on some key of <em>R</em>.<br />\n\tThe number of statements are correct _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1<br />\n\t1. The redundancy in the set of relation that have been arised after decomposing a relation R into BCNF is more than zero but less than 3NF decomposition if multivalued dependencies are considered.<br />\n\t2. BCNF decompositions are lossless but always need not to be dependency preserving.<br />\n\t3. A prime attribute of a relation schema <em>R</em> is an attribute that appears in some candidate key of <em>R</em>.<br />\n\t4. A relation <em>R</em> is in 3NF, if every non-prime attribute of <em>R</em>, is fully functionally dependent on some key, because then there will be no transitive dependency.</p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider a B-tree in the given figure, where each node has atleast 2 and atmost 4 keys.</p>\n<p>\n\t<img alt=\"\" src=\"media/74/742a8fa35bdca92d3bcd.png\" /></p>\n<p>\n\tKeys 6 and 21 are inserted into this tree in that order. The number of nodes (disregarding the links) present with exactly same structure given below in the tree after the two insertions is _______.</p>\n<p>\n\t<img alt=\"\" src=\"media/0b/0ba87adc92b1fd3a46f4.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4</p>\n<p>\n\t<img alt=\"\" src=\"media/d1/d1fabaee9034a21ecb4a.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following ER diagram:</p>\n<p>\n\t<img alt=\"\" src=\"media/d3/d314b697796d891646ec.png\" /></p>\n<p>\n\tThe minimum number of tables needed to represent ER-diagram are __________ such that the relational database satisfies 1NF.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4</p>\n<p>\n\t<img alt=\"\" src=\"media/45/45d10b44690dfd02bea5.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following relation:</p>\n<p>\n\t<img alt=\"\" src=\"media/2a/2a5fc8aefb7fdf4aac2d.png\" /></p>\n<p>\n\tWhere of the following is correct regarding the above SQL? (Assume Sid means supplier ID)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It returns Pid of parts supplied by atmost two different supplier."
+    },
+    {
+     "key": "B",
+     "html": "It returns Pid of parts supplied by atleast two different supplier."
+    },
+    {
+     "key": "C",
+     "html": "It returns Pid of parts supplied by atleast one different supplier"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\tSid is part of candidate key and uniquely identities supplier. If a Pid appears in the result Pid is associated with multiple Sid values.</p>"
+  },
+  {
+   "n": 19,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tConsider the following relations:</p>\n<p>\n\t<img alt=\"\" src=\"media/3e/3e1d38caac958b8b1702.png\" /></p>\n<p>\n\t<em>R</em><sub>1</sub> has 1000 records and <em>R</em><sub>2</sub> has 2000 records. The non-Null attribute ‘<em>P</em> ’ in <em>R</em><sub>2</sub> is referencing attribute ‘<em>P</em> ’ in <em>R</em><sub>1</sub>. Let X be minimum number of records in <img align=\"absmiddle\" alt=\"\" src=\"media/8d/8dab5a699a453c828ef4.png\" /> and Y be the maximum number of records in <img align=\"absmiddle\" alt=\"\" src=\"media/ba/ba052aa9ae91bfa357fc.png\" /> is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6000,
+    6000
+   ],
+   "answerText": "6000",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t6000</p>\n<p>\n\t<img alt=\"\" src=\"media/ce/cea0f51f7efb2928c77c.png\" /></p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following relation:</p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0ac0b36876af2812ccb5.png\" /></p>\n<p>\n\tWhere of the following queries retrieve the Sid of supplier who supply some red or green part?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cb/cbc5500ddd73ca6ba6c1.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/15/15c14facaa5624295631.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cc/cc2bd8c409ec8326665d.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/da/dafb887ce4eb240e1e22.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statement true about B tree and B<sup>+</sup> tree index? Assume order of B tree node same as order of B<sup>+</sup> tree node.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tB tree index has more levels than B<sup>+</sup> tree index for large number of keys.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tB<sup>+</sup> tree index has more levels than B tree index for large number of keys.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth B tree B<sup>+</sup> tree best for sequential access of records.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tB tree index nodes more than B<sup>+</sup> tree for large number of keys.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tB+ tree index has more levels than B-tree index for large number of keys. Since in B-tree every key appears at only single level but which is not the case for B+ tree.</p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider two relations R and S have <em>n</em> and <em>m</em> tupples respectively. Match the following expression with maximum and minimum number of tupples as result:</p>\n<p>\n\t<img alt=\"\" src=\"media/e9/e985deaaae034bd852c2.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/23/232c07ac07d15391d5c1.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Roll-up operation reduces data detail by collapsing lower-level attributes into higher-level summaries.<br />\n\t<em>S</em><sub>2</sub> : Drill-down decreases data granularity, providing less detailed views of the data.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\t<em>S</em><sub>1</sub> : Roll-up reduces data detail by summarizing or collapsing lower-level data into higher levels.<br />\n\tSo, <em>S</em><sub>1</sub> is correct.<br />\n\t<em>S</em><sub>2</sub> : Drill-down increases granularity, providing more detailed view of data. So, <em>S</em><sub>2</sub> is incorrect.</p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following are true concerning OLTP systems?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "OLTP systems often involve complex joins in queries."
+    },
+    {
+     "key": "B",
+     "html": "OLTP systems require strong data consistency and integrity mechanisms."
+    },
+    {
+     "key": "C",
+     "html": "OLTP systems are primarily used for generating business intelligence reports."
+    },
+    {
+     "key": "D",
+     "html": "OLTP systems typically involve high-frequency transactions with small amounts of data."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, d)<br />\n\t(a) OLTP systems focus on fast transaction with simple queries. So, option (a) is incorrect.<br />\n\t(b) OLTP systems need strong data consistency and integrity due to high volume of transaction.<br />\n\tSo, option (b) is correct.<br />\n\t(c) OLTP systems are for transaction processing, not generating business intelligence reports. So,<br />\n\toption (c) is incorrect.<br />\n\t(d) OLTP systems handle many high frequency transaction with small amount of data. So,<br />\n\toption (d) is correct.</p>"
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following is an accurate description of the equal-width binning method in discretization?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The range of data is divided into intervals of equal size, and each data point is assigned to the corresponding interval."
+    },
+    {
+     "key": "B",
+     "html": "Data is grouped based on frequency, ensuring each bin contains an equal number of data points."
+    },
+    {
+     "key": "C",
+     "html": "Data points are assigned to bins based on their proximity to the bin's mean value."
+    },
+    {
+     "key": "D",
+     "html": "The data range is split into bins based on predefined thresholds that vary in width."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\t(a) Equal-width binning divides the entire data range into intervals (bins) of equal size, with each data point assigned to the appropriate bin based on its value. So, option (a) is correct.<br />\n\t(b) This describes equal-frequency binning, not equal-width binning. So, option (b) is incorrect.<br />\n\t(c) Bins in equal-width binning are not based on proximity to a mean but are of uniform width.<br />\n\tSo, option (c) is incorrect.<br />\n\t(d) In equal-width binning, the intervals have the same width, not varying widths. So, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 26,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIn binning, which of the following methods replaces each value in a bin with the bin’s mean value?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Mean binning"
+    },
+    {
+     "key": "B",
+     "html": "Median binning"
+    },
+    {
+     "key": "C",
+     "html": "Equal-width binning"
+    },
+    {
+     "key": "D",
+     "html": "Frequency binning"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\t(a) Mean binning replaces each value in a bin with the mean (average) value of all the data points within that bin. So, option (a) is correct.<br />\n\t(b) Median binning would replace each value with the median, not the mean. So, option (b) is incorrect.<br />\n\t(c) Equal-width binning refers to dividing the data range into equal-sized bins, not replacing values with the mean. So, option (c) is incorrect.<br />\n\t(d) Frequency binning refers to bins containing equal numbers of data points, not mean replacement. So, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 27,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following are true about the data storage in OLTP systems?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "OLTP systems use normalized tables to reduce redundancy."
+    },
+    {
+     "key": "B",
+     "html": "OLTP systems store historical data for long-term analysis."
+    },
+    {
+     "key": "C",
+     "html": "OLTP systems require efficient indexing to ensure fast data retrieval."
+    },
+    {
+     "key": "D",
+     "html": "OLTP systems are typically used for strategic decision-making."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)<br />\n\t(a) OLTP systems use normalized tables to reduce data redundancy and ensure data integrity. So, option (a) is correct.<br />\n\t(b) OLTP systems focus on current transaction data, not on storing historical data for long-term analysis, which is more typical of OLAP systems. So, option (b) is incorrect.<br />\n\t(c) Efficient indexing is crucial in OLTP systems to allow for quick retrieval of transaction data.<br />\n\tSo, option (c) is correct.<br />\n\t(d) OLTP systems are used for day-to-day transaction processing, not for strategic decisionmaking, which is the role of OLAP systems. So, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tA factory monitors the average number of defects per batch over the first 50 batches, which is recorded as 8. If the 51st batch has 12 defects, what is the updated average number of defects per batch after including the 51st batch? ________ (Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8.06,
+    8.09
+   ],
+   "answerText": "8.07 [8.06 - 8.09]",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t8.07 [8.06 - 8.09]</p>\n<p>\n\t<img alt=\"\" src=\"media/68/685ce4bdf44156819fd4.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Roll-up is an OLAP operation that reduces the dimensionality of data.<br />\n\t<em>S</em><sub>2</sub> : Drill-down operation can be used to decrease the number of dimensions in an OLAP cube.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> or <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\t<em>S</em><sub>1</sub> : Roll-up does not reduce dimensionality; it aggregates data within existing dimensions. So, <em>S</em><sub>1 </sub>is incorrect.<br />\n\t<em>S</em><sub>2</sub> : Drill-down is an OLAP operation that increase data details by moving down a concept hierarchy, providing more specific, granular data. So, <em>S</em><sub>2</sub> is incorrect.</p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are false?<br />\n\t<em>S</em><sub>1</sub> : A snowflake schema generally provides better performance for complex queries due to its normalized structure.<br />\n\t<em>S</em><sub>2</sub> : In a star schema, dimension tables are often highly normalized.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; Snowflake schema generally does not provide better performance for complex queries; it often requires more joins. So <em>S</em><sub>1</sub>, is incorrect.<br />\n\t&bull; Dimension tables in a star schema are typically denormalized. So <em>S</em><sub>2</sub>, is incorrect.</p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : In a snowflake schema, dimension tables are normalized into multiple related tables.<br />\n\t<em>S</em><sub>2</sub> : The star schema is typically more scalable compared to snowflake schema.<br />\n\t<em>S</em><sub>3</sub> : Snowflake schema is ideal for scenarios where minimizing redundancy is a priority.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; Snowflake schema involves normalized dimension tables. So <em>S</em><sub>1</sub>, is correct.<br />\n\t&bull; Star schema is generally more scalable due to its simpler structure. So <em>S</em><sub>2</sub>, is incorrect.<br />\n\t&bull; Snowflake schema is preferred for minimizing data redundancy. So <em>S</em><sub>3</sub>, is correct.</p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tA Gate DA candidate scored 85 in an exam where the average score (μ) was 70, with a standard deviation (σ) of 10. Calculate the z-score normalized value of the candidate’s score.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.5"
+    },
+    {
+     "key": "B",
+     "html": "0.5"
+    },
+    {
+     "key": "C",
+     "html": "2.0"
+    },
+    {
+     "key": "D",
+     "html": "1.0"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/63/63c92d8518938d256dc4.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tSuppose a group of 12 sales price records has been sorted methods as follows:<br />\n\t5, 10, 11, 13, 15, 35, 50, 55, 72, 92, 204, 215<br />\n\tPartition into three bins using equal-width partitioning what will be the value of Bin 2</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    92,
+    92
+   ],
+   "answerText": "92",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t92</p>\n<p>\n\t<img alt=\"\" src=\"media/ba/babcf721d9da6369e5d5.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 17,
+   "NAT": 10,
+   "MSQ": 6
+  },
+  "withoutKey": 0
+ }
+}

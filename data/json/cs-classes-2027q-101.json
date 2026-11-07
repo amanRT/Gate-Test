@@ -1,0 +1,391 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-101",
+ "title": "DVRUO Classes GATE CS | Theory of Computation | Closure Properties | Weekly Quiz 9",
+ "sourceTitle": "DVRUO Classes GATE CS | Theory of Computation | Closure Properties | Weekly Quiz 9",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 101,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1800,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Theory of Computation"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/013_exam_2410_GO Classes GATE CS Theory of Computation Closure Properties Weekly Quiz 9.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\Sigma$ be a finite alphabet, and let $w^{R}$ denote the reversal of a string $w$. Suppose a language $L \\subseteq \\Sigma^{*}$ is given, and we define the operation:<br>$$<br>L^{R}=\\left\\{w^{R} \\mid w \\in L\\right\\}<br>$$<br>If it is known that $L^{R}$ always belongs to the exact same language class as $L$ for any choice of $L$ within that class, which of the following language families could $L$ belong to?<br>(Select all the correct options.)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The class of Regular Languages<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The class of Deterministic Context-Free Languages (DCFLs)<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The class of Context-Free Languages (CFLs)<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The class of Recursive Languages</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532524\"></a><div itemprop=\"text\">Question is asking which language families are closed under reversal operation.<br>\n<br>\nDCFLs are not closed under reversal operation.<br>\n<br>\nRegular languages, CFLs, Recursive languages, RE languages are closed under reversal operation.</div></section></div><p><a href=\"https://gateoverflow.in/532523\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Imagine two context-free languages, $L_{1}$ and $L_{2}$, as two different valid programming syntaxes. A software engineer wants to create a new language, $L_{\\text {new }}$, that only accepts code that is valid in both syntaxes simultaneously.<br>Which of the following statements is TRUE regarding $L_{\\text {new }}$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$L_{\\text {new }}$ is guaranteed to be a context-free language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L_{\\text {new }}$ is guaranteed to be a regular language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$L_{\\text {new }}$ may or may not be a context-free language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$L_{\\text {new }}$ is guaranteed to be a context-sensitive language but never context-free.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532519\"></a><div itemprop=\"text\">CFLs are not closed under intersection operation. So, intersection of two context free language may or may not be context free.</div></section></div><p><a href=\"https://gateoverflow.in/532518\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\Sigma=\\{a, b\\}$ be an alphabet. Consider two formal languages over $\\Sigma$, where $L_{1}$ is known to be a regular language and $L_{2}$ is known to be a nonregular language. Let $L_{\\text {new }}$ be a new language constructed by performing an operation on $L_{1}$ and $L_{2}$.<br>Which of the following operations guarantees that $L_{\\text {new }}$ will always be a nonregular language, regardless of the specific choices of $L_{1}$ and $L_{2}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$L_{\\text {new }}=L_{1} \\cup L_{2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L_{\\text {new }}=L_{1} \\cap L_{2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$L_{\\text {new }}=L_{1}-L_{2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$L_{\\text {new }}=\\overline{L_{2}}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536459\"></a><div itemprop=\"text\">Here we analyze each option with a counter example<br>\n<br>\nA) take L1= (a+b)* &nbsp;;L2={a^n b^n,n&gt;=0} &nbsp;make L1UL2 =(a+b)* which is regular<br>\n<br>\nB)take L1={ e } ; L2={a^n b^n,n&gt;=0} &nbsp;make L1nL2={e} &nbsp;which is also regular<br>\n<br>\nC)take L1=(e) ; L2={a^n b^n,n&gt;=0} &nbsp;make &nbsp;L1-L2={ } which is regular<br>\n<br>\nD)we know complement of any nonregular language cannot be regular<br>\n<br>\nso option D is approximate answer for above question</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536992\"></a><div itemprop=\"text\">$\\text{A.}$ $L_{new}$ may not be non-regular<br>\nTake $L_1 = (a+b)^*$ and $L_2 = \\{ a^n b^n \\mid n \\ge 0\\}$<br>\n$L_{new} = L_1 \\cup L_2 = (a+b)^* \\implies REG$<br>\n<br>\n$\\text{B. }$ $L_{new}$ may not be non-regular<br>\nTake $L_1 = \\phi$ and $L_2 = \\{ a^n b^n \\mid n \\ge 0\\}$<br>\n$L_{new} = L_1 \\cup L_2 = \\phi \\implies REG$<br>\n<br>\n$\\text{C. }$ $L_{new}$ may not be non-regular<br>\nTake $L_1 = \\phi$ and $L_2 = \\{ a^n b^n \\mid n \\ge 0\\}$<br>\n$L_{new} = L_1 - L_2 = \\phi \\implies REG$<br>\n<br>\n$\\text{D. }$ $L_{new}$ must be non-regular<br>\nSince, if ${L_{new}}$ were regular, then $L_2=\\overline{{L_{new}}}$ would also be regular (since regular langauges are closure under complementation), contradicting that $L_2$ is non-regular.<br>\n<br>\nCorrect Answer: $D$</div></section></div><p><a href=\"https://gateoverflow.in/532517\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $L_{1}$ and $L_{2}$ be two regular languages over the same alphabet $\\Sigma$. Suppose $M_{1}=\\left(S_{1}, \\Sigma, \\delta_{1}, s_{1}, F_{1}\\right)$ and $M_{2}=\\left(S_{2}, \\Sigma, \\delta_{2}, s_{2}, F_{2}\\right)$ are Deterministic Finite Automata (DFAs) such that $L\\left(M_{1}\\right)=L_{1}$ and $L\\left(M_{2}\\right)=L_{2}$.<br>To prove that the class of regular languages is closed under union, we construct a product DFA $M=\\left(S_{1} \\times S_{2}, \\Sigma, \\delta,\\left(s_{1}, s_{2}\\right), F\\right)$ that accepts the language $L_{1} \\cup L_{2}$.<br>Which of the following correctly defines the set of accept states $F$ for the product DFA $M$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$F=F_{1} \\times F_{2}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$F=\\left(F_{1} \\times S_{2}\\right) \\cup\\left(S_{1} \\times F_{2}\\right)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$F=\\left(F_{1} \\times\\left(S_{2} \\backslash F_{2}\\right)\\right) \\cup\\left(\\left(S_{1} \\backslash F_{1}\\right) \\times F_{2}\\right)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F=\\left(S_{1} \\times S_{2}\\right) \\backslash\\left(F_{1} \\times F_{2}\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533576\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">The correct answer is:</p><p>$$F = (F_1 \\times S_2) \\cup (S_1 \\times F_2)$$</p><h3 data-path-to-node=\"3\">Why? (The Product Automaton Logic)</h3><p data-path-to-node=\"4\">The product DFA $M$ tracks the processing of a string through both $M_1$ and $M_2$ <b data-path-to-node=\"4\" data-index-in-node=\"77\">simultaneously</b> in parallel. Each state in the product DFA is a pair $(q_a, q_b)$, where $q_a \\in S_1$ and $q_b \\in S_2$.</p><p data-path-to-node=\"5\">Since we want the product machine to accept the <b data-path-to-node=\"5\" data-index-in-node=\"48\">union</b> ($L_1 \\cup L_2$), it needs to accept a string if <b data-path-to-node=\"5\" data-index-in-node=\"101\">either</b> $M_1$ accepts it, <b data-path-to-node=\"5\" data-index-in-node=\"124\">or</b> $M_2$ accepts it, <b data-path-to-node=\"5\" data-index-in-node=\"143\">or both</b> accept it.</p><p data-path-to-node=\"6\">Let's look at what the correct mathematical expression actually means:</p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><b data-path-to-node=\"7,0,0\" data-index-in-node=\"0\">$F_1 \\times S_2$</b>: This means the first machine lands in an accepting state ($q_a \\in F_1$), while the second machine can be in <i data-path-to-node=\"7,0,0\" data-index-in-node=\"123\">any state whatsoever</i> ($q_b \\in S_2$).</p></li><li><p data-path-to-node=\"7,1,0\"><b data-path-to-node=\"7,1,0\" data-index-in-node=\"0\">$S_1 \\times F_2$</b>: This means the first machine can be in <i data-path-to-node=\"7,1,0\" data-index-in-node=\"55\">any state whatsoever</i> ($q_a \\in S_1$), while the second machine lands in an accepting state ($q_b \\in F_2$).</p></li><li><p data-path-to-node=\"7,2,0\"><b data-path-to-node=\"7,2,0\" data-index-in-node=\"0\">$\\cup$ (Union)</b>: Combines these two conditions. As long as at least one of the machines is in an accepting state when the string ends, the product DFA outputs an <b data-path-to-node=\"7,2,0\" data-index-in-node=\"159\">Accept.</b></p></li></ul><p data-path-to-node=\"10\">You can easily decode what the other options represent to cross-verify your answer:</p><ul data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><b data-path-to-node=\"11,0,0\" data-index-in-node=\"0\">$F = F_1 \\times F_2$</b></p><ul data-path-to-node=\"11,0,1\"><li><p data-path-to-node=\"11,0,1,0,0\"><i data-path-to-node=\"11,0,1,0,0\" data-index-in-node=\"0\">What it means:</i> Both machines must be in an accepting state simultaneously.</p></li><li><p data-path-to-node=\"11,0,1,1,0\"><i data-path-to-node=\"11,0,1,1,0\" data-index-in-node=\"0\">Language it defines:</i> <b data-path-to-node=\"11,0,1,1,0\" data-index-in-node=\"21\">Intersection ($L_1 \\cap L_2$)</b></p></li></ul></li><li><p data-path-to-node=\"11,1,0\"><b data-path-to-node=\"11,1,0\" data-index-in-node=\"0\">$F = (F_1 \\times (S_2 \\setminus F_2)) \\cup ((S_1 \\setminus F_1) \\times F_2)$</b></p><ul data-path-to-node=\"11,1,1\"><li><p data-path-to-node=\"11,1,1,0,0\"><i data-path-to-node=\"11,1,1,0,0\" data-index-in-node=\"0\">What it means:</i> Exactly one machine must accept, while the other must reject.</p></li><li><p data-path-to-node=\"11,1,1,1,0\"><i data-path-to-node=\"11,1,1,1,0\" data-index-in-node=\"0\">Language it defines:</i> <b data-path-to-node=\"11,1,1,1,0\" data-index-in-node=\"21\">Symmetric Difference / XOR ($L_1 \\oplus L_2$)</b></p></li></ul></li><li><p data-path-to-node=\"11,2,0\"><b data-path-to-node=\"11,2,0\" data-index-in-node=\"0\">$F = (S_1 \\times S_2) \\setminus (F_1 \\times F_2)$</b></p><ul data-path-to-node=\"11,2,1\"><li><p data-path-to-node=\"11,2,1,0,0\"><i data-path-to-node=\"11,2,1,0,0\" data-index-in-node=\"0\">What it means:</i> Total possible states minus the states where both accept.</p></li><li><p data-path-to-node=\"11,2,1,1,0\"><i data-path-to-node=\"11,2,1,1,0\" data-index-in-node=\"0\">Language it defines:</i> <b data-path-to-node=\"11,2,1,1,0\" data-index-in-node=\"21\">NAND ($\\overline{L_1 \\cap L_2}$)</b></p></li></ul></li></ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536994\"></a><div itemprop=\"text\"><p>Correct Answer: $\\boxed{B}$</p><p>In the product DFA $M$, each state is of the form $(p,q)$, where $p \\in S_1$ and $q \\in S_2$. A string $w$ is accepted by the $M$ iff <strong>at least one</strong> of the component DFAs accepts $w$, since the $L(M)$ is $L_1 \\cup L_2$.</p><p>Thus, a state $(p,q)$ must be accepting whenever:</p><ul><li><p>$p \\in F_1$&nbsp;(i.e., $M_1$&nbsp;accepts)&nbsp;or</p></li><li><p>$q \\in F_2$&nbsp;(i.e., $M_2$&nbsp;accepts)</p></li></ul><p>Hence, the set of accepting states is</p><p>$$<br>\\boxed{F=(F_1\\times S_2)\\ \\cup\\ (S_1\\times F_2)}<br>$$</p></div></section></div><p><a href=\"https://gateoverflow.in/532516\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $L$ be a regular language. We define a new language $L_{\\text {sym }}$ that contains all strings in $L$ whose reversals are also in $L$ :<br>$$<br>L_{\\mathrm{sym}}=\\left\\{w \\in L \\mid w^{R} \\in L\\right\\}<br>$$<br>Is the language $L_{\\text {sym }}$ guaranteed to be regular ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>No, because checking if a string matches its reversal requires a stack.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Yes, because $L_{\\text {sym }}$ can be written as $L \\cup L^{R}$. Since regular languages are closed under reversal and union, $L_{\\text {sym }}$ is regular.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, because regular languages are not closed under the reversal operation unless the language is finite.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Yes, because $L_{\\text {sym }}$ can be written as $L \\cap L^{R}$. Since regular languages are closed under reversal and intersection, $L_{\\text {sym }}$ is regular.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"533577\"></a><div itemprop=\"text\">The above question defines a new language such that it contains both w and w reverse now we need the language to contain both L and L reverse or neither so it means we need intersection of L and L reverse. since it is closed under regular operation we can say that it is regular.<br>\n<br>\n&nbsp;<br>\n<br>\n(D) is correct</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536995\"></a><div itemprop=\"text\">Correct Answer: $\\boxed{D}$<br>\n$$<br>\nL_{\\text{sym}}=\\{w\\in L \\mid w^R\\in L\\}<br>\n=\\{w\\mid w\\in L \\text{ and } w\\in L^R\\}<br>\n= L\\cap L^R<br>\n$$<br>\nSince $L$ is regular, $L^R$ is also regular (closure under reversal). Moreover, regular languages are closed under intersection. Therefore, $L_{\\text{sym}}=L\\cap L^R$ is regular.</div></section></div><p><a href=\"https://gateoverflow.in/532514\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For any language $L$, we define the operation $L_{1 / 2}$ to be the language containing the first halves of all strings in $L$ that have an even length. Formally:<br>$$<br>L_{1 / 2}=\\{x \\mid x y \\in L \\text { for some } y \\text { with }|x|=|y|\\}<br>$$<br>If $L$ is a Decidable language, then which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$L_{1 / 2}$ must be Decidable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L_{1 / 2}$ is guaranteed to be Recursively Enumerable, but it is not necessarily Decidable.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Length of every string in $L_{1 / 2}$ is even.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$L_{1 / 2}$ may or may not&nbsp;be Recursively Enumerable.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532522\"></a><div itemprop=\"text\"><p>Since $L$ is decidable, there exists a decider $M$ for $L$.</p><p>Now suppose we want to decide whether a given string $x$ belongs to $L_{1 / 2}$.<br><br>Consider this algorithm:</p><ol><li>Input $x$, let $n=|x|$.<br>&nbsp;</li><li>Enumerate all strings $y$ such that $|y|=n$.<br>&nbsp;</li><li>For each such $y$, run decider $M$ on $x y$.<br>&nbsp;</li><li>If any $x y \\in L$, accept.<br>&nbsp;</li><li>If none work, reject.</li></ol><p><br>This always halts because:</p><ul><li>there are finitely many candidate $y$,<br>&nbsp;</li><li>and $M$ halts on every input.</li></ul><p><br>Therefore $L_{1 / 2}$ is decidable.</p></div></section></div><p><a href=\"https://gateoverflow.in/532521\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\Sigma$ be a finite alphabet. Let $L_{1}, L_{2} \\subseteq \\Sigma^{*}$ be two languages such that $L_{1}$ is a regular language and $L_{2}$ is not a regular language. In addition, we are given the following conditions:</p><ul><li>$L_{2} \\nsubseteq L_{1}$<br>&nbsp;</li><li>$L_{1} \\nsubseteq L_{2}$<br>&nbsp;</li><li>$L_{1} \\cap L_{2}$ is an infinite set.</li></ul><p>Which of the following statements is/are FALSE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$L_{1} \\cap L_{2}$ can be a regular language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$L_{1} \\cap L_{2}$ can be a non-regular language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$L_{1} \\cap L_{2}$ must be a non-regular language.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$L_{1} \\cap L_{2}$ must be a regular language.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"534276\"></a><div itemprop=\"text\"><p><strong>Option A:&nbsp; </strong>L1<strong>&nbsp;</strong>∩ L2 can be regular&nbsp;</p><p>&nbsp; L1 is regular. So let L1 = {a*}</p><p>&nbsp;L2 is non regular. So let L2 = { aⁿ bⁿ | n ≥ 1 } U&nbsp;{a*} It is a non regular as the first part of language is non-regular.</p><p>L1<strong>&nbsp;</strong>∩ L2 =&nbsp;{a*}&nbsp; It is infinite and a regular language.&nbsp;</p><p>✅&nbsp;<strong>Option A is True</strong></p><p>&nbsp;</p><p><strong>Option B:&nbsp;</strong>L1<strong>&nbsp;</strong>∩ L2 can be non-regular</p><p>Let L1 = Σ* It is a regular language.</p><p>Let L2 =&nbsp;{ aⁿ bⁿ | n ≥ 0 }&nbsp; It is a non-regular language.</p><p>L1<strong>&nbsp;</strong>∩ L2 =&nbsp;{ aⁿ bⁿ | n ≥ 0 }&nbsp; It is infinite and a non-regular language.</p><p>✅&nbsp;<strong>Option B is True</strong></p><p>&nbsp;</p><p><strong>Option C:&nbsp;</strong>L1<strong>&nbsp;</strong>∩ L2 must be a non-regular language</p><p>It is false. Valid example is given for Option A</p><p>❌&nbsp;&nbsp;<strong>Option C is False</strong></p><p>&nbsp;</p><p><strong>Option D:&nbsp;</strong>L1<strong>&nbsp;</strong>∩ L2 must be a regular language</p><p>It is false. Valid example is given for Option B</p><p>❌&nbsp;&nbsp;<strong>Option D is False</strong></p><p><strong>Therefore, the false statements are&nbsp; C and D.</strong></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"536996\"></a><div itemprop=\"text\"><p>$\\boxed{\\textbf{C and D}}$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><p>True.&nbsp;$L_1 \\cap L_2$&nbsp;can be regular.</p><p>Eg: Let $L_1=L(a^*)$ and $L_2=\\{a^n b^n\\mid n\\ge1\\}\\cup \\{a^n \\mid n\\ge5\\}$.&nbsp;Then $L_1\\cap L_2=\\{a^n \\mid n\\ge5\\}$, which is regular.</p></li><li><p>True.&nbsp;$L_1 \\cap L_2$&nbsp;can be non-regular.</p><p>Eg: Let $L_1= L(a^* b^*) $&nbsp;and $L_2=\\{a^n b^n \\mid n\\ge1\\}\\cup\\{b^n a^m\\mid n \\ge 1\\}$. Then $L_1\\cap L_2=\\{a^n b^n\\mid n\\ge1\\}$,&nbsp;which is non-regular.</p></li><li><p>False. Since $L_1 \\cap L_2$&nbsp;can be regular (Option A), it is not necessary that it is non-regular.</p></li><li><p>False. Since $L_1 \\cap L_2$&nbsp;can be non-regular (Option B), it is not necessary that it is regular.</p></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/532520\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be a finite automaton that accepts a regular language $L$. We want to build a new automaton $\\overline{A}$ that accepts the reversed language $L^{R}$ (the language containing all strings of $L$ written backward).<br>To do this, we reverse the direction of all arrows in the transition diagram of $A$. What must we do with the start and accepting states to complete the construction of $\\overline{A}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>In $\\overline{A}$, create a new start state with $\\varepsilon$-transitions to all accepting states of $A$, and keep the accepting states of $A$ as accepting while also making the start state of $A$ an accepting state of $\\overline{A}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Keep the start state of $A$ as the start state of $\\overline{A}$, and make all accepting states of $A$ the new accepting states of $\\overline{A}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Create a single new start state that connects to all of $\\text{A&#x27;s}$&nbsp;accepting states using $\\varepsilon$-transitions, and make the original start state of $A$ the only accepting state of $\\overline{A}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Make the start state of $A$ the only accepting state of $\\overline{A}$, and turn all accepting states of $A$ into multiple start states of $\\overline{A}$.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536443\"></a><div itemprop=\"text\"><p>Option <b>c</b>&nbsp;is correct.</p><h3>Why This Works</h3><p>When you reverse a language, you need to reverse <em>everything</em> about the automaton — not just the arrows, but also the roles of the start and accepting states.</p><p>Here's the intuition: a string w=a1a2⋯anw = a_1 a_2 \\cdots a_n w=a1​a2​⋯an​ is accepted by AA A if there's a path from the <strong>start state</strong> to some <strong>accepting state</strong>. The reversed string wR=an⋯a2a1w^R = a_n \\cdots a_2 a_1 wR=an​⋯a2​a1​ should be accepted by A′A' A′ if that same path can be traversed <strong>backwards</strong> — meaning we now start from the old accepting state(s) and need to reach the old start state.</p><p>So the role-swap is:</p><table><thead><tr><th scope=\"col\">In AA A</th><th scope=\"col\">In A′A' A′</th></tr></thead><tbody><tr><td>Start state</td><td>Accepting state</td></tr><tr><td>Accepting states</td><td>Start state(s)</td></tr></tbody></table><h3>The Problem That Option 3 Solves</h3><p>After reversing all arrows, there may be <strong>multiple</strong> old accepting states that should each serve as a starting point. But a standard DFA requires exactly <strong>one</strong> start state. The clean solution is:</p><ol><li><strong>Introduce a new start state q0′q_0' q0′​</strong></li><li><strong>Add ε\\varepsilon ε-transitions</strong> from q0′q_0' q0′​ to every accepting state of AA A</li><li><strong>Make the original start state of AA A the sole accepting state of A′A' A′</strong></li></ol><p>This correctly models \"start anywhere a valid path used to end\" without requiring the reversal automaton to be a DFA — it produces an <strong>NFA with ε\\varepsilon ε-transitions</strong> (an ε\\varepsilon ε-NFA), which can then be converted to a DFA if needed. The existence of this construction is actually one of the standard proofs that the <strong>class of regular languages is closed under reversal</strong>.</p><h3>Why the Others Fail</h3><table><thead><tr><th scope=\"col\">Option</th><th scope=\"col\">Problem</th></tr></thead><tbody><tr><td><strong>1</strong></td><td>Keeps the same start and accepting states — this just builds the same automaton with reversed arrows, which doesn't correctly trace reversed paths</td></tr><tr><td><strong>2</strong></td><td>The <em>direction</em> is right (swap start ↔ accept), but having \"multiple independent start states\" is not valid in standard automata; you need the ε\\varepsilon ε-NFA trick to unify them</td></tr><tr><td><strong>4</strong></td><td>Merging all accepting states destroys the automaton's structure and swapping all state roles has no theoretical justification</td></tr></tbody></table></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536998\"></a><div itemprop=\"text\"><p>Option $C$ is correct</p><p style=\"text-align:center\"><img alt=\"\" width=\"527\" height=\"327\" src=\"media/cc/cc56d142272d845955fa.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/532515\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "For any two languages $A$ and $B$, we define the operation $\\operatorname{CHOP}(A, B)$ as the language containing all strings $w$ that can be formed by chopping off a suffix $x \\in B$ from a string $w x \\in A$ :<br>\n$$<br>\n\\operatorname{CHOP}(A, B)=\\{w \\mid \\exists x \\in B \\text { such that } w x \\in A\\}<br>\n$$<br>\nLet $X, Y$, and $Z$ be three languages defined over the alphabet $\\Sigma=\\{\\mathrm{a}, \\mathrm{b}\\}$ as follows:<br>\n$$<br>\n\\begin{aligned}<br>\nX &amp; =\\{\\mathrm{aab}, \\mathrm{aba}, \\mathrm{bba}, \\mathrm{bbb}\\} \\\\<br>\nY &amp; =\\{\\mathrm{ba}, \\mathrm{bbb}\\} \\\\<br>\nZ &amp; =\\left\\{\\mathrm{a}^{n} \\mathrm{~b}^{n} \\mid n \\geq 0\\right\\}<br>\n\\end{aligned}<br>\n$$<br>\nLet $N_{1}$ be the cardinality of $\\operatorname{CHOP}(X, Y)$, and let $N_{2}$ be the cardinality of $\\operatorname{CHOP}(X, Z)$. What is value of $N_{1}+N_{2}$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533579\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">To find the value of $N_1 + N_2$, we need to evaluate the $\\text{CHOP}(A,B)$ operation for both pairs step-by-step.</p><p data-path-to-node=\"1\">Remember the core rule of the operation: <b data-path-to-node=\"1\" data-index-in-node=\"41\">$\\text{CHOP}(A,B)$ is the set of all prefixes $w$ that remain after chopping off a valid suffix $x \\in B$ from a complete string $wx \\in A$.</b></p><p data-path-to-node=\"2\">Let's break down the sets provided:</p><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\">$X = \\{aab, aba, bba, bbb\\}$</p></li><li><p data-path-to-node=\"3,1,0\">$Y = \\{ba, bbb\\}$</p></li><li><p data-path-to-node=\"3,2,0\">$Z = \\{a^n b^n \\mid n \\ge 0\\} = \\{\\epsilon, ab, aabb, aaabbb, \\dots\\}$</p></li></ul><h3 data-path-to-node=\"5\">Step 1: Finding $N_1$ (The Cardinality of $\\text{CHOP}(X,Y)$)</h3><p data-path-to-node=\"6\">We need to test strings $wx \\in X$ and see if we can chop off a suffix $x \\in Y$ (which can either be <code data-path-to-node=\"6\" data-index-in-node=\"98\">ba</code> or <code data-path-to-node=\"6\" data-index-in-node=\"104\">bbb</code>).</p><ol start=\"1\" data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\">Let's look for strings in $X$ ending with <b data-path-to-node=\"7,0,0\" data-index-in-node=\"40\">$x = ba$</b>:</p><ul data-path-to-node=\"7,0,1\"><li><p data-path-to-node=\"7,0,1,0,0\"><code data-path-to-node=\"7,0,1,0,0\" data-index-in-node=\"0\">aba</code> ends in <code data-path-to-node=\"7,0,1,0,0\" data-index-in-node=\"12\">ba</code>. Chopping it off leaves $w = \\mathbf{a}$.</p></li><li><p data-path-to-node=\"7,0,1,1,0\"><code data-path-to-node=\"7,0,1,1,0\" data-index-in-node=\"0\">bba</code> ends in <code data-path-to-node=\"7,0,1,1,0\" data-index-in-node=\"12\">ba</code>. Chopping it off leaves $w = \\mathbf{b}$.</p></li></ul></li><li><p data-path-to-node=\"7,1,0\">Let's look for strings in $X$ ending with <b data-path-to-node=\"7,1,0\" data-index-in-node=\"40\">$x = bbb$</b>:</p><ul data-path-to-node=\"7,1,1\"><li><p data-path-to-node=\"7,1,1,0,0\"><code data-path-to-node=\"7,1,1,0,0\" data-index-in-node=\"0\">bbb</code> ends in <code data-path-to-node=\"7,1,1,0,0\" data-index-in-node=\"12\">bbb</code>. Chopping it off completely leaves the empty string $w = \\mathbf{\\epsilon}$.</p></li></ul></li></ol><p data-path-to-node=\"8\">Collecting all the unique resulting prefix strings $w$, we get:</p><p>$$\\text{CHOP}(X,Y) = \\{a, b, \\epsilon\\}$$</p><ul data-path-to-node=\"10\"><li><p data-path-to-node=\"10,0,0\"><b data-path-to-node=\"10,0,0\" data-index-in-node=\"0\">$N_1 = 3$</b> (Unique strings: <code data-path-to-node=\"10,0,0\" data-index-in-node=\"25\">a</code>, <code data-path-to-node=\"10,0,0\" data-index-in-node=\"28\">b</code>, and <code data-path-to-node=\"10,0,0\" data-index-in-node=\"35\">\\epsilon</code>)</p></li></ul><h3 data-path-to-node=\"12\">Step 2: Finding $N_2$ (The Cardinality of $\\text{CHOP}(X,Z)$)</h3><p data-path-to-node=\"13\">We need to test strings $wx \\in X$ and see if we can chop off a suffix $x \\in Z$.</p><p data-path-to-node=\"13\">The valid strings in $Z$ are $\\epsilon, ab, aabb, \\dots$. Let's test each string in $X$:</p><ol start=\"1\" data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\"><b data-path-to-node=\"14,0,0\" data-index-in-node=\"0\">Using $x = \\epsilon$ (which is always in $Z$ for $n=0$):</b></p><ul data-path-to-node=\"14,0,1\"><li><p data-path-to-node=\"14,0,1,0,0\">Chopping $\\epsilon$ off from any string leaves the string completely intact.</p></li><li><p data-path-to-node=\"14,0,1,1,0\">This gives us back all the original strings: $\\{\\mathbf{aab}, \\mathbf{aba}, \\mathbf{bba}, \\mathbf{bbb}\\}$.</p></li></ul></li><li><p data-path-to-node=\"14,1,0\"><b data-path-to-node=\"14,1,0\" data-index-in-node=\"0\">Using $x = ab$ (for $n=1$):</b></p><ul data-path-to-node=\"14,1,1\"><li><p data-path-to-node=\"14,1,1,0,0\">Do any strings in $X$ end with <code data-path-to-node=\"14,1,1,0,0\" data-index-in-node=\"29\">ab</code>? Yes! <code data-path-to-node=\"14,1,1,0,0\" data-index-in-node=\"38\">aab</code> ends in <code data-path-to-node=\"14,1,1,0,0\" data-index-in-node=\"50\">ab</code>.</p></li><li><p data-path-to-node=\"14,1,1,1,0\">Chopping <code data-path-to-node=\"14,1,1,1,0\" data-index-in-node=\"9\">ab</code> off from <code data-path-to-node=\"14,1,1,1,0\" data-index-in-node=\"21\">aab</code> leaves $w = \\mathbf{a}$.</p></li></ul></li><li><p data-path-to-node=\"14,2,0\"><b data-path-to-node=\"14,2,0\" data-index-in-node=\"0\">Using longer strings in $Z$ (like $aabb$):</b></p><ul data-path-to-node=\"14,2,1\"><li><p data-path-to-node=\"14,2,1,0,0\">None of the strings in $X$ are long enough to hold these as suffixes, so no more strings can be generated.</p></li></ul></li></ol><p data-path-to-node=\"15\">Collecting all the unique prefix strings $w$ together:</p><p>$$\\text{CHOP}(X,Z) = \\{aab, aba, bba, bbb, a\\}$$</p><ul data-path-to-node=\"17\"><li><p data-path-to-node=\"17,0,0\"><b data-path-to-node=\"17,0,0\" data-index-in-node=\"0\">$N_2 = 5$</b> (Unique strings: <code data-path-to-node=\"17,0,0\" data-index-in-node=\"25\">aab</code>, <code data-path-to-node=\"17,0,0\" data-index-in-node=\"30\">aba</code>, <code data-path-to-node=\"17,0,0\" data-index-in-node=\"35\">bba</code>, <code data-path-to-node=\"17,0,0\" data-index-in-node=\"40\">bbb</code>, and <code data-path-to-node=\"17,0,0\" data-index-in-node=\"49\">a</code>)</p></li></ul><h3 data-path-to-node=\"19\">Final Calculation</h3><p>$$N_1 + N_2 = 3 + 5 = 8$$</p><p data-path-to-node=\"21\">The final value of $N_1 + N_2$ is <b data-path-to-node=\"21\" data-index-in-node=\"32\">8</b>.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536999\"></a><div itemprop=\"text\"><p>$\\boxed{N_1+N_2 =8}$</p><hr><p>$\\mathrm{CHOP}(X,Y) :$</p><p>$$<br>X=\\{aab,\\ a ba,\\ bba,\\ bbb\\},\\\\<br>Y=\\{ba,\\ bbb\\}<br>$$</p><ul><li><p>Removing suffix $ba$:</p><ul><li><p>$aba \\rightarrow a$</p></li><li><p>$bba \\rightarrow b$</p></li></ul></li><li><p>Removing suffix $bbb$:</p><ul><li><p>$bbb \\rightarrow \\epsilon$</p></li></ul></li></ul><p>Hence, $\\mathrm{CHOP}(X,Y)=\\{a,\\ b,\\ \\varepsilon\\}$</p><p>So, $N_1= | \\mathrm{CHOP}(X,Y) | = 3$</p><hr><p>$\\mathrm{CHOP}(X,Z) :$</p><p>$$<br>X=\\{aab,\\ aba,\\ bba,\\ bbb\\}, \\\\<br>Z=\\{a^n b^n\\mid n\\ge0\\}=\\{\\varepsilon,\\ ab,\\ aabb,\\ aaabbb,\\ldots\\}<br>$$</p><p>Since $\\epsilon \\in Z$, every string in $X$ contributes itself: ${aab,\\ aba,\\ bba,\\ bbb}$</p><p>The only other suffix from $Z$ that appears is $ab:$</p><ul><li><p>$aab = a\\cdot ab \\Rightarrow a$</p></li></ul><p>No string in $X$ ends with $aabb, aaabbb,\\ldots$</p><p>Thus, $\\mathrm{CHOP}(X,Z)=\\{aab,\\ aba,\\ bba,\\ bbb,\\ a\\}$</p><p>Therefore, $N_2 = |\\mathrm{CHOP}(X,Z)| =5$</p><p>Hence, $\\boxed{N_1+N_2=3+5=8}$</p></div></section></div><p><a href=\"https://gateoverflow.in/532513\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For any language $A$, we define the prefix language $\\operatorname{PREFIX}(A)$ as the set of all strings $w$ that form a string in $A$ when some suffix string $x$ is appended to them:<br>$$<br>\\operatorname{PREFIX}(A)=\\left\\{w \\mid \\exists x \\in \\Sigma^{*} \\text { such that } w x \\in A\\right\\}<br>$$<br>Let $M=\\left(Q, \\Sigma, \\delta, q_{0}, F\\right)$ be a DFA that recognizes the regular language $A$. We want to construct a new finite automaton $M^{\\prime}=\\left(Q, \\Sigma, \\delta, q_{0}, F^{\\prime}\\right)$ that precisely recognizes $\\operatorname{PREFIX}(A)$.<br>To achieve this without changing the states, alphabet, transition function, or start state of $M$, how should the new set of accepting states $F^{\\prime}$ be defined?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$F^{\\prime}=\\{q \\in Q \\mid q \\notin F\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$F^{\\prime}=\\left\\{q \\in Q \\mid\\right.$ there is a path from $q_{0}$ to $\\left.q\\right\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$F^{\\prime}=\\{q \\in Q \\mid$ there is a path from $q$ to some state in $F\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$F^{\\prime}=\\{q \\in F \\mid \\delta(q, \\sigma) \\in F$ for all $\\sigma \\in \\Sigma\\}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"533578\"></a><div itemprop=\"text\"><ul><li><p data-path-to-node=\"15,0,0\"><b data-path-to-node=\"15,0,0\" data-index-in-node=\"0\">$F' = \\{q \\in Q \\mid q \\notin F\\}$</b></p><ul data-path-to-node=\"15,0,1\"><li><p data-path-to-node=\"15,0,1,0,0\"><i data-path-to-node=\"15,0,1,0,0\" data-index-in-node=\"0\">What it means:</i> Swapping accepting and non-accepting states.</p></li><li><p data-path-to-node=\"15,0,1,1,0\"><i data-path-to-node=\"15,0,1,1,0\" data-index-in-node=\"0\">What it actually constructs:</i> The <b data-path-to-node=\"15,0,1,1,0\" data-index-in-node=\"33\">Complement language ($\\overline{A}$)</b>, not the prefix.</p></li></ul></li><li><p data-path-to-node=\"15,1,0\"><b data-path-to-node=\"15,1,0\" data-index-in-node=\"0\">$F' = \\{q \\in Q \\mid \\text{there is a path from } q_0 \\text{ to } q\\}$</b></p><ul data-path-to-node=\"15,1,1\"><li><p data-path-to-node=\"15,1,1,0,0\"><i data-path-to-node=\"15,1,1,0,0\" data-index-in-node=\"0\">What it means:</i> Every reachable state accepts.</p></li><li><p data-path-to-node=\"15,1,1,1,0\"><i data-path-to-node=\"15,1,1,1,0\" data-index-in-node=\"0\">What it actually constructs:</i> A machine that blindly accepts <i data-path-to-node=\"15,1,1,1,0\" data-index-in-node=\"60\">any</i> string that doesn't crash the DFA, which for a complete DFA is just $\\Sigma^*$.</p></li></ul></li><li><p data-path-to-node=\"15,2,0\"><b data-path-to-node=\"15,2,0\" data-index-in-node=\"0\">$F' = \\{q \\in F \\mid \\delta(q, \\sigma) \\in F \\text{ for all } \\sigma \\in \\Sigma\\}$</b></p><ul data-path-to-node=\"15,2,1\"><li><p data-path-to-node=\"15,2,1,0,0\"><i data-path-to-node=\"15,2,1,0,0\" data-index-in-node=\"0\">What it means:</i> Only looks at states that are already final and can never leave $F$. This restricts the language heavily rather than expanding it to prefixes.</p></li></ul></li><li>Meaning of others is done now for the answer :</li></ul><div><p data-path-to-node=\"10\">Imagine you are tracing a string $w$ in the original DFA $M$, and you end up at a state $q$ (so, $\\delta^*(q_0, w) = q$).</p><ol start=\"1\" data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><b data-path-to-node=\"11,0,0\" data-index-in-node=\"0\">If there is a path from $q$ to some state in $F$:</b> It means there exists some sequence of characters $x$ that can take you from $q$ to a final state ($\\delta^*(q, x) \\in F$). Therefore, the combined string $wx$ is accepted by $M$ (meaning $wx \\in A$). This makes $w$ a valid prefix, so $q$ <b data-path-to-node=\"11,0,0\" data-index-in-node=\"269\">must be an accepting state</b> in our new machine $M'$.</p></li><li><p data-path-to-node=\"11,1,0\"><b data-path-to-node=\"11,1,0\" data-index-in-node=\"0\">If there is NO path from $q$ to any state in $F$:</b> It means you have hit a \"dead end\" or a trap state. No matter what characters $x$ come next, you can never reach a final state. Therefore, no string starting with $w$ can ever be in $A$, so $q$ <b data-path-to-node=\"11,1,0\" data-index-in-node=\"232\">should reject</b>.</p></li></ol><p data-path-to-node=\"12\">By making every state $q$ accepting if it can <i data-path-to-node=\"12\" data-index-in-node=\"44\">eventually</i> find a path to the original target $F$, the machine $M'$ will immediately accept the string the moment it knows a valid path to the future exists</p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"537000\"></a><div itemprop=\"text\"><p>Option $C$ is correct.</p><p style=\"text-align:center\"><img alt=\"\" width=\"534\" height=\"329\" src=\"media/7b/7b2634a60b8f17f2e095.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/532512\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 9,
+  "types": {
+   "MSQ": 3,
+   "MCQ": 6,
+   "NAT": 1
+  },
+  "withoutKey": 4
+ }
+}

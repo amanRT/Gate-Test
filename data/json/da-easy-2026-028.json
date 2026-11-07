@@ -1,0 +1,527 @@
+{
+ "v": 1,
+ "id": "da-easy-2026-028",
+ "title": "Topicwise Test-7 Part Syllabus GATE 2026 DA Probability and Statistics-3",
+ "sourceTitle": "Topicwise Test-7 Part Syllabus GATE 2026 DA Probability and Statistics-3",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2026",
+ "num": 28,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/073_Topicwise Test-7 Part Syllabus GATE 2026 DA Probability and Statistics-3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>A company manufactures smartphones and on average 2% of the smartphones produced are defective. These smartphones are packed into boxes of 200 units. What is the probability that random selected box will contain 2 or more defective smartphones ________. (Round off upto<br />\ntwo decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.9,
+    0.98
+   ],
+   "answerText": "0.9085",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.9085 [0.90 - 0.98]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cf/cfa48a6a482d4242ceea.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>A sample of 50 people was selected, and their average height was found to be 170 cm with a Standard deviation of 10 cm. Construct a 95% confidence interval for the true average height of all people in the population. Given the Z-value for 95% confidence is 1.96.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(168.00, 172.00)"
+    },
+    {
+     "key": "B",
+     "html": "(169.50, 170.50)"
+    },
+    {
+     "key": "C",
+     "html": "(167.23, 172. 77)"
+    },
+    {
+     "key": "D",
+     "html": "(169.00, 171.00)"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3c/3c009c6724a7023944b1.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Consider a random variable to which a Poisson, distribution is best fitted. It is noticed that <img align=\"absmiddle\" alt=\"\" src=\"media/fb/fbfbeb784e7105b1f2bf.png\" /> on the distribution plot. The variance of this distribution is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3 [3.00 - 3.00]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/70/70152dba84bd6742ad76.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>If probability density function of a random variable <em>X</em> is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/53/536415690d6cf8100c24.png\" /></div>\n\n<div>then, the probability <img align=\"absmiddle\" alt=\"\" src=\"media/87/87a6a0b2a801d4cb8f7a.png\" /> is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1ade49991f4cab88a4f3.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following statements is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The first moment about the origin of a Binomial distribution is equal to variance."
+    },
+    {
+     "key": "B",
+     "html": "The first moment about the origin for a Binomial distribution is the same as its expected value."
+    },
+    {
+     "key": "C",
+     "html": "A Chi-square test when the population variance is known and the sample size is small."
+    },
+    {
+     "key": "D",
+     "html": "The Chi-squared statistic increases as the observed frequencies deviate more from expected frequencies."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/38/38f67178f834bf4de750.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : As the value of α increases, the acceptance region in a hypothesis test decreases.<br />\n<em>S</em><sub>2</sub> : The rejection region increases as α increases.<br />\nWhich of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nWhen the significance level &alpha; increases, the rejection region becomes larger because we are more wiling to reject the null hypothesis. As a result, the acceptance region becomes smaller. So, both statements are correct and describe the same inverse relation between &alpha; and the acceptance region.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>For a binomial distributed random variable <em>X</em>, the mean is 6 and the variance is 2. Find the probability <em>P</em>(<em>X</em> = 1) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.058"
+    },
+    {
+     "key": "B",
+     "html": "0.029"
+    },
+    {
+     "key": "C",
+     "html": "0.0029"
+    },
+    {
+     "key": "D",
+     "html": "0.048"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/eb85d29b1711baa1cbf1.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>If the density function of a continuous random variable <img align=\"absmiddle\" alt=\"\" src=\"media/05/05c88a9bf0419dd9d49c.png\" /> is given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2e/2ed9be304ba964e2a029.png\" /></div>\n\n<div> </div>\n\n<div>The value of a is _______.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.25,
+    0.25
+   ],
+   "answerText": "0.25",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.25</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5e/5e42cd9dc7baf02fa3bd.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>In a survey of employee, the mean salary for the entire company is 80000. A random sample of 36 employees has a mean salary of 85000, with a sample standard deviation of 15000. What is the <em>t</em>-value?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.5"
+    },
+    {
+     "key": "B",
+     "html": "1.5"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "–2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b3/b350464892bbff7460de.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A biased coin with probability of heads <em>P</em> = 0.6 is tossed four times. Let the random variable <em>X</em> be<br />\nthe number of heads observed.<br />\nDefine a new random variable <img align=\"absmiddle\" alt=\"\" src=\"media/34/346150320b86c504ec5b.png\" />i.e., the absolute deviation of X from.<br />\nWhat is the expected value <em>E</em>[<em>Y</em>] ________? (Rounded of answer to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.19,
+    1.19
+   ],
+   "answerText": "1.19",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.19</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e6887b0da3b902eeb0dc.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Ten fair six-sided dice are thrown simultaneously. What is the approximate probability that the total score lies between 30 and 40, inclusive?<br />\nGiven <em>P</em>(Z < 1.02) ≈ 0.8461 and P(Z < –1.02) ≈ 0.1539</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.8461"
+    },
+    {
+     "key": "B",
+     "html": "0.1539"
+    },
+    {
+     "key": "C",
+     "html": "0.6922"
+    },
+    {
+     "key": "D",
+     "html": "0.6074"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a6/a6530370fadde0df8ca6.png\" /></div>\n\n<div><img alt=\"\" src=\"media/23/23c42c2267452dcc6913.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>In a cloud server, tasks arrive according to a Poisson process at a rate of 6 task per minute let the arrival times be denoted as <em>T</em><sub>1</sub>, <em>T</em><sub>2</sub>, ....., Tn where Tk is the time (in minutes) of the <em>k</em><sup>th</sup> task arrival.<br />\nLet’s define the following events.<br />\n• A : Exactly 2 task arrive in the first minute.<br />\n• B : First arrival occurred before 30 seconds.<br />\nLet <em>P</em> = Pr(<em>B</em>|<em>A</em>), what is the value of <em>P</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/a2/a2e6f8b0470ed1f4ef31.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/95/953646a0f1a8a4fff608.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/04/0476704cc0a717b7475a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/5f/5fb9bb9be201ea9f067f.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8c/8c4d33df1ecabd45f8dd.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>The average salary in a company is claimed to be Php 920000 with a Standard deviation of Php 21000.<br />\nA random sample of 49 employees is selected. The Z-value is 2.0 what is the sample mean <img align=\"absmiddle\" alt=\"\" src=\"media/c9/c98e6b4483c261772c1c.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "92000"
+    },
+    {
+     "key": "B",
+     "html": "98000"
+    },
+    {
+     "key": "C",
+     "html": "94000"
+    },
+    {
+     "key": "D",
+     "html": "84000"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b6/b63e8e0c4b00878074ae.png\" /></div>\n\n<div><img alt=\"\" src=\"media/7d/7df20fdcaf0cbcfe3449.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Let <em>X</em> be a continuous random variable uniformly distributed over the internal [2, 10] another random variable <em>Y</em> is defined as</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0c/0cb3162058dbf156d12d.png\" /></div>\n\n<div>What is the expected value of <em>E</em>[<em>Y</em>]?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.455"
+    },
+    {
+     "key": "B",
+     "html": "0.565"
+    },
+    {
+     "key": "C",
+     "html": "0.625"
+    },
+    {
+     "key": "D",
+     "html": "0.35"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0e/0e6672ddaa96dc03c3bb.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : The null hypothesis is always rejected if the p-value is less than the significance level.<br />\n<em>S</em><sub>2</sub> : A one-tailed test can only test for deviations in one direction (either greater than or less than).<br />\nWhich of the following is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\n&bull; If the p-value is less than the significance level, we reject the null hypothesis. However, we do<br />\nnot always reject it &mdash; this is just the decision rule. So, <em>S</em><sub>1</sub> is false.<br />\n&bull; A one-tailed test only tests for deviations in one direction, either greater than or less than.<br />\nSo, <em>S</em><sub>2</sub> is true.</p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>A university database stores student details in the relation:<br />\nStudent(SID, Name, Course, Grade) with functional dependency SID → Name, Course, Grade<br />\nDuring a immigration process, each attribute of a record is independently corrupted with probability<br />\n0.01. A record is considered to violate the functional dependency if any attribute on the RHS<br />\n(Name, Course, Grade) is corrupted, but SID remains unchanged.<br />\nIn a batch of 10 records, what is the approximate percentage (Round off upto two decimal value)<br />\nthat more than 2 records violate the functional dependency.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.26,
+    0.27
+   ],
+   "answerText": "0.27",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.27 [0.26 - 0.27]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/65/65fd39faec12cfa973f4.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Let <img align=\"absmiddle\" alt=\"\" src=\"media/51/519c3b464b22f6d6c230.png\" /> ....., 10 be independent uniform (0, 1) random variables. Use an approximation to find</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6b/6b7a23bc32609dcb6ab9.png\" /></div>\n\n<div> </div>\n\n<div>Given: P(Z ≤ 1.0954) ≈ 0.8633</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.1367,
+    0.1367
+   ],
+   "answerText": "0.1367",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.1367</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/eb9b8d6829ef67dd9ece.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 7,
+   "MCQ": 9,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

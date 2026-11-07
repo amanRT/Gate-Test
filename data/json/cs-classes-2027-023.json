@@ -1,0 +1,777 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-023",
+ "title": "DVRUO Classes CS Test Series | Calculus | Topic Wise Test 5",
+ "sourceTitle": "DVRUO Classes CS Test Series | Calculus | Topic Wise Test 5",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 23,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 3600,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Calculus"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/096_exam_1336_GO Classes CS Test Series Calculus Topic Wise Test 5.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Evaluate the limit<br>$$<br>\\lim _{x \\rightarrow 0} \\frac{1-\\cos x}{\\sin ^{2} x}<br>$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{1}{2}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381709\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Determine the value of following limit<br>$$<br>\\lim _{x \\rightarrow \\infty}\\left(\\sqrt{x^{2}+4 x+1}-x\\right)<br>$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{1}{2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/381707\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The function $f(x)=x^{4}-6 x^{2}$ is increasing on the intervals</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(0, \\sqrt{3})$ only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(\\sqrt{3}, \\infty)$ only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(-\\infty,-\\sqrt{3})$ and $(0, \\sqrt{3})$ only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(-\\sqrt{3}, 0)$ and $(\\sqrt{3}, \\infty)$ only</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/381705\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The function $f(x)=\\cos x-x$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>is an even function</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>is an odd function</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>is neither an even nor an odd function</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/381703\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following functions satisfy the conditions of Rolle's Theorem on the interval $[-1,1]?$&nbsp;<br>$$<br>\\begin{aligned}<br>&amp;f(x)=1-x^{2 / 3}\\\\<br>&amp;g(x)=x^{3}-2 x^{2}-x+2\\\\<br>&amp;h(x)=\\cos \\left(\\frac{\\pi}{4}(x+1)\\right)<br>\\end{aligned}<br>$$<br>Rolle's Theorem applies to:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>both $f$ and $g$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>both $g$ and $h$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$g$ only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$h$ only</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/381701\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose that the derivative of a function $h$ is given by:<br>$$<br>h^{\\prime}(x)=x(x-1)^{2}(x-2)<br>$$<br>On what interval(s) is $h$ increasing?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(-\\infty, 0)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(-\\infty, 0)$ and $(2, \\infty)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(0,2)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(0,1)$ and $(2, \\infty)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381699\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $q(x)$ be a continuous function which is defined for all real numbers. A portion of the graph of $q^{\\prime}(x)$, the derivative of $q(x)$, is shown below.</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/1d/1dd106e5afbd1e2f778b.png\"></p><p><br>On which of the following interval(s) is $q(x)$ increasing?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(0,2)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(2,4)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(7,9)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/381698\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Choose the CORRECT statement -</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The function $f(x)=\\exp \\left(-x^{2}\\right)-1$ has the root $x=0$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If a function $f$ is differentiable on $[-1,1]$, then there is a point $x$ in that interval where $f^{\\prime}(x)=0$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $1$ is a root of $f$, then $f^{\\prime}(x)$ changes sign at $1 .$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $f^{\\prime \\prime}(0)&lt;0$ and $f^{\\prime \\prime}(1)&gt;0$ then there is a point in $(0,1)$, where $f$ has an inflection point.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/381696\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Evaluate $y^{\\prime \\prime}(1)$ where $y=e^{x}+x^{e}$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$e^{2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$e$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/381694\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following statements:</p><ol style=\"list-style-type:upper-roman\"><li>$f(x)$ is continuous on $[a, b]$</li><li>$f(x)$ is differentiable on $(a, b)$</li><li>$f(a)=f(b)$</li></ol><p>Which of the above statements are required in order to guarantee a $c \\in(a, b)$ such that $f^{\\prime}(c)(b-a)=f(b)-f(a) ?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>I and II only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>I, II, and III</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>I and III only</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381693\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $I=(a, b)$ be an open interval and let $f$ be a function which is differentiable on $I$. Which of the followings is/are true statements -</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If $f^{\\prime}(x)=0$ for all $x \\in I$, then there is a constant $r$ such that $f(x)=r$ for all $x \\in I$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $f^{\\prime}(x)&gt;0$ for all $x \\in I$, then $f(x)$ is strictly increasing on $I$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If $f^{\\prime}(x)&lt;0$ for all $x \\in I$, then $f(x)$ is strictly decreasing on $I$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $f^{\\prime}(x)&gt;0$ for all $x \\in I$, then $f(x)$ is strictly decreasing on $I$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/381692\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are FALSE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The absolute maximum value of $f(x)=\\dfrac{1}{x}$ on the interval $[2,4]$ is $2.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $f(x)$ is a continuous function and $f(3)=2$ and $f(5)=-1$, then $f(x)$ has a root between $3$ and $5 .$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The function $g(x)=2 x^{3}-12 x+5$ has $5$ real roots.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $h(x)$ is a continuous function and $h(1)=4$ and $h(2)=5$, then $h(x)$ has no roots between $1$ and $2.$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><p><a href=\"https://gateoverflow.in/381690\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose $g(x)$ is a polynomial function such that $g(-1)=4$ and $g(2)=7$. Then there is a number $c$ between $-1$ and $2$ such that</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$g(c)=1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$g^{\\prime}(c)=1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$g(c)=0$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$g^{\\prime}(c)=0$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381688\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following limit is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\displaystyle{}\\lim _{x \\rightarrow \\infty} \\sqrt[x]{x}=1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\displaystyle{}\\lim _{x \\rightarrow \\infty} \\sqrt[x]{x}=e$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\displaystyle{}\\lim _{x \\rightarrow \\infty}\\left(1+\\frac{2}{x}\\right)^{x}=e^{2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\displaystyle{}\\lim _{x \\rightarrow \\infty}\\left(1+\\frac{2}{x}\\right)^{x}=e$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/381686\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose $f$ is twice differentiable with<br>$$<br>f^{\\prime \\prime}(x)=7 x-2, \\quad f^{\\prime}(-2)=0, \\quad \\text { and } \\quad f(-2)=-2 .<br>$$<br>Find $f(0)$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-337 / 6$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-74 / 3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$23 / 9$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$37 / 4$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381684\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The sum of three positive numbers is $12$ and two of them are equal. Find the largest possible product.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$86$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$64$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$48$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$72$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381682\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $f(x)=e^{x} g(x), g(0)=2$ and $g^{\\prime}(0)=1$, then $f^{\\prime}(0)$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381680\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $f$ be differentiable for all $x$. If $f(1)=-2$ and $f^{\\prime}(x) \\geq 2$ for $x \\in[1,6]$, then</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$f(6) \\geq 8$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$f(6)&lt;8$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$f(6)&lt;5$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$f(6)=5$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/381678\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The equation $x^{5}+x+1=0$ has a solution in the interval</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$[0,1]$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$[-1,0]$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$[-2,-1]$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$[1,2]$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381676\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following expression evaluates to given integral<br>$$<br>\\int \\frac{\\ln (\\ln x)}{x \\ln x} d x<br>$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\dfrac{\\ln x}{x}+C$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{1}{2}(\\ln \\ln x)^{2}+C$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(\\ln x)^{2}+C$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(\\ln \\ln x)+C$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/381674\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 30.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 20
+  }
+ ],
+ "stats": {
+  "questions": 20,
+  "maxMarks": 30,
+  "types": {
+   "MCQ": 15,
+   "MSQ": 5
+  },
+  "withoutKey": 0
+ }
+}

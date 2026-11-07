@@ -1,0 +1,391 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-051",
+ "title": "DVRUO Classes GATE CS | DBMS | Disk | Weekly Quiz 12",
+ "sourceTitle": "DVRUO Classes GATE CS | DBMS | Disk | Weekly Quiz 12",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 51,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/006_exam_2433_GO Classes GATE CS DBMS Disk Weekly Quiz 12.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a disk with the following characteristics:</p><ul><li>Number of surfaces: $8\\;(=2^3)$<br>&nbsp;</li><li>Number of tracks/surface: $512K\\;(=2^{19})$<br>&nbsp;</li><li>Number of bytes/track: $8MB\\;(=2^{23}\\text{ bytes})$<br>&nbsp;</li><li>Number of sectors/track: $8K\\;(=2^{13})$</li></ul><p>What is the total capacity of this disk?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2^{42}$ Bytes<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2^{45}$ Bytes<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2^{35}$ Bytes<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2^{38}$ Bytes</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536123\"></a><div itemprop=\"text\"><ul data-path-to-node=\"0\"><li><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">Surfaces:</b> $8 = 2^3$</p></li><li><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Tracks per surface:</b> $512K = 2^{19}$</p></li><li><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Bytes per track:</b> $8\\text{ MB} = 2^{23}$ bytes</p></li><li><p data-path-to-node=\"0,3,0\"><b data-path-to-node=\"0,3,0\" data-index-in-node=\"0\">Formula:</b> $\\text{Total Capacity} = \\text{Surfaces} \\times \\text{Tracks/Surface} \\times \\text{Bytes/Track}$</p></li><li><p data-path-to-node=\"0,4,0\"><b data-path-to-node=\"0,4,0\" data-index-in-node=\"0\">Calculation:</b> $2^3 \\times 2^{19} \\times 2^{23} = 2^{3 + 19 + 23} = 2^{45}$ bytes</p></li></ul><p data-path-to-node=\"0,4,0\">&nbsp;<b data-path-to-node=\"0,5,0\" data-index-in-node=\"16\">B</b></p></div></section></div><p><a href=\"https://gateoverflow.in/534971\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A disk spins at $10,000$ rpm, has $256K$ tracks per surface, an average of $512$ sectors per track, and four platters; data is stored on both sides of the platters. The average seek time is $5$ ms but the time to seek from one track to an adjacent track is $1$ ms. Assume the sector size is $512$ bytes and the block size is $16$ sectors. How many I/Os are required to read the file of size $500$ MB? (Here $K=1024$)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"536124\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">Block Size:</b> $16 \\text{ sectors} \\times 512 \\text{ bytes} = 8,192 \\text{ bytes} = 8 \\text{ KB}$</p><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">File Size:</b> $500 \\text{ MB} = 500 \\times 1024 \\text{ KB} = 512,000 \\text{ KB}$</p><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Formula:</b> $\\text{Number of I/Os} = = Number of Blocks= \\frac{\\text{File Size}}{\\text{Block Size}}$</p><p data-path-to-node=\"0,3,0\"><b data-path-to-node=\"0,3,0\" data-index-in-node=\"0\">Calculation:</b> $\\frac{512,000 \\text{ KB}}{8 \\text{ KB}} = \\mathbf{64000}$</p><p data-path-to-node=\"0,3,0\">why here&nbsp;Number of I/Os = Number of Blocks?</p><p data-path-to-node=\"0,3,0\">The operating system communicates with the disk in units of blocks because:</p><blockquote><p data-path-to-node=\"0,3,0\">The block is the smallest unit of data transfer between the disk and main memory&nbsp;</p></blockquote><p>Hope it helps!&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"535772\"></a><div itemprop=\"text\"><p>\"I/O\" refers to the number of <b data-path-to-node=\"3\" data-index-in-node=\"133\">read operations required to access the data across the disk geometry.</b></p><p>1 sector size = 512 Byte</p><p>so, For 500MB we need =&gt; {500 * (2^20)}/(w^9) sectors =&gt; 500 * (2^11) sectors</p><p>now 1 block have 16 sectors&nbsp;</p><p>So the no. of those block accesses required will be 500 * (2^11) / 16 =&gt; 500 * (2^7) =&gt; 64000 blocks access required!!</p><p>so answer should be 64000</p></div></section></div><p><a href=\"https://gateoverflow.in/534970\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a disk with a sector size of $512$ bytes, $2000$ tracks per surface, $50$ sectors per track, five double sided platters, and average seek time of $10$ msec. The disk platters rotate at $5400$ rpm. What is maximum rotational delay in seconds (answer should be rounded off to $2$ decimal places)?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"535363\"></a><div itemprop=\"text\">Here the question is asking for the answer in second but the answer here is in milli sec ...<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;<br>\n<br>\nSolution:-<br>\n<br>\nAs the question is asking for the max. rotational delay -&gt; it is case when the block is exactly before the current block head is at and so the platter has to rotate by 360 degree.<br>\n<br>\nso <br>\n<br>\n5400 round in 60 sec<br>\n<br>\nsay for 1 round it take x sec<br>\n<br>\nthen x = 60 /5400 = 0.011111 second<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536125\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\">The rotation speed of the disk drive is given as 5400 rpm.</p><p data-path-to-node=\"0,1,0\">One minute contains exactly 60 seconds of time.</p><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Time for 1 Full Rotation:</b> $\\frac{60 \\text{ seconds}}{5400} = \\frac{1}{90} \\text{ seconds} \\approx 0.01111 \\text{ seconds}$</p><p data-path-to-node=\"0,3,0\">The <strong>maximum </strong>rotational delay represents the worst-case scenario where the read head just misses the required sector.</p><p data-path-to-node=\"0,5,0\">means&nbsp; the head must wait for the disk platter to make one complete full rotation to bring the sector back.</p><p data-path-to-node=\"0,6,0\">&nbsp;</p><p data-path-to-node=\"0,7,0\">Rounding this value to two decimal places = 0.01.</p></div></section></div><p><a href=\"https://gateoverflow.in/534969\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose you are given a disk with $5000$ cylinders (numbered $0$ - $4999$). Suppose also that the drive is currently servicing cylinder $143$, and previously serviced cylinder $125$.<br><br>Requests to the following cylinders have been made to the disk in the following time sequence order and are all pending (i.e. they have not been done yet).<br><br>$86,\\ 1470,\\ 913,\\ 1774,\\ 948,\\ 1509,\\ 1022,\\ 1750,\\ 130$<br><br>If we use the C-SCAN algorithm to service the requests, then what is the order in which the requests are serviced for the requests listed above?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$913,\\ 948,\\ 1022,\\ 1470,\\ 1509,\\ 1750,\\ 1774,\\ 86,\\ 130$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$913,\\ 948,\\ 1022,\\ 1470,\\ 1509,\\ 1750,\\ 1774,\\ 130,\\ 86$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$130,\\ 86,\\ 913,\\ 948,\\ 1022,\\ 1470,\\ 1509,\\ 1750,\\ 1774$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$130,\\ 86,\\ 1774,\\ 1750,\\ 1509,\\ 1470,\\ 1022,\\ 948,\\ 913$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536126\"></a><div itemprop=\"text\"><ul data-path-to-node=\"0\"><li><p data-path-to-node=\"0,0,0\">The disk arm is at cylinder 143 and moving toward higher-numbered cylinders.</p></li><li><p data-path-to-node=\"0,1,0\">The pending requests are split into two groups based on the current position:</p><ul data-path-to-node=\"0,1,1\"><li><p data-path-to-node=\"0,1,1,0,0\"><b data-path-to-node=\"0,1,1,0,0\" data-index-in-node=\"0\">Higher requests (Right side):</b> 913, 948, 1022, 1470, 1509, 1750, 1774</p></li><li><p data-path-to-node=\"0,1,1,1,0\"><b data-path-to-node=\"0,1,1,1,0\" data-index-in-node=\"0\">Lower requests (Left side):</b> 86, 130</p></li></ul></li><li><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">First Pass (Moving Right):</b></p><p>$$143 \\rightarrow \\mathbf{913} \\rightarrow \\mathbf{948} \\rightarrow \\mathbf{1022} \\rightarrow \\mathbf{1470} \\rightarrow \\mathbf{1509} \\rightarrow \\mathbf{1750} \\rightarrow \\mathbf{1774} \\rightarrow \\text{End (4999)}$$</p></li><li><p data-path-to-node=\"0,3,0\"><b data-path-to-node=\"0,3,0\" data-index-in-node=\"0\">Wrap-Around:</b></p><p>$$\\text{End (4999)} \\rightarrow \\text{Reset to Start (0) without serviccing any requests}$$</p></li><li><p data-path-to-node=\"0,4,0\"><b data-path-to-node=\"0,4,0\" data-index-in-node=\"0\">Second Pass (Moving Right from 0):</b></p><p>$$\\text{Start (0)} \\rightarrow \\mathbf{86} \\rightarrow \\mathbf{130}$$</p></li><li><p data-path-to-node=\"0,5,0\"><b data-path-to-node=\"0,5,0\" data-index-in-node=\"0\">Final Service Order:</b></p><p>$$\\mathbf{913, 948, 1022, 1470, 1509, 1750, 1774, 86, 130}$$</p></li></ul><p data-path-to-node=\"0,6,0\">matches with option&nbsp;<b data-path-to-node=\"0,6,0\" data-index-in-node=\"16\">A</b></p></div></section></div><p><a href=\"https://gateoverflow.in/534968\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following two statements:<br><br>$\\mathbf{S_1}$: Compared to FIFO, disk scheduling using shortest-seek-time first reduces average seek time but also reduces fairness<br><br>$\\mathbf{S_2}$: The disk scheduling algorithm is attempting to minimize overall time wasted to moving the disk arm<br><br>Which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only $\\mathbf{S_1}$ is correct<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only $\\mathbf{S_2}$ is correct<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both are correct<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None are correct</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536127\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">Statement $S_1$:</b></p><p data-path-to-node=\"0,0,1,0,0\"><b data-path-to-node=\"0,0,1,0,0\" data-index-in-node=\"0\">SSTF vs. FIFO:</b> SSTF always services the closest request to the disk head, drastically reducing the average seek time compared to FIFO.</p><p data-path-to-node=\"0,0,1,1,0\"><b data-path-to-node=\"0,0,1,1,0\" data-index-in-node=\"0\">Fairness:</b> SSTF is unfair because distant requests can be bypassed indefinitely by incoming closer requests, causing <b data-path-to-node=\"0,0,1,1,0\" data-index-in-node=\"116\">starvation</b>.</p><p data-path-to-node=\"0,0,1,2,0\"><b>so&nbsp;</b>$S_1$ is <b data-path-to-node=\"0,0,1,2,0\" data-index-in-node=\"19\">correct</b>.</p><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Statement $S_2$:</b></p><p data-path-to-node=\"0,1,1,0,0\">head movement (seeking) is the biggest performance bottleneck in disk</p><p data-path-to-node=\"0,1,1,1,0\">Disk scheduling algorithms are specifically designed to minimize these head movements by reducing the distance and time spent moving the disk arm.</p><p data-path-to-node=\"0,1,1,2,0\"><b data-path-to-node=\"0,1,1,2,0\" data-index-in-node=\"0\">so</b> $S_2$ is <b data-path-to-node=\"0,1,1,2,0\" data-index-in-node=\"19\">correct</b>.</p><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"14\">hence C</b> (Both are correct)</p></div></section></div><p><a href=\"https://gateoverflow.in/534967\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume the disk head is at cylinder $18$ and moving towards higher cylinders. Assume a stream of requests arrives for the following cylinders:<br>\n<br>\n$5,\\ 20,\\ 1,\\ 60,\\ 3,\\ 8,\\ 90,\\ 2,\\ 20,\\ 40,\\ 6,\\ 70$<br>\n<br>\nLet $A$ and $B$ be the total seek distances to service all requests using FCFS and SSTF scheduling policies, respectively. What is the value of $A-B$?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"536128\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">FCFS Seek Distance ($A$):</b></p><p data-path-to-node=\"0,0,1,0,0\"><b data-path-to-node=\"0,0,1,0,0\" data-index-in-node=\"0\">Sequence:</b> $18 \\rightarrow 5 \\rightarrow 20 \\rightarrow 1 \\rightarrow 60 \\rightarrow 3 \\rightarrow 8 \\rightarrow 90 \\rightarrow 2 \\rightarrow 20 \\rightarrow 40 \\rightarrow 6 \\rightarrow 70$</p><p data-path-to-node=\"0,0,1,1,0\">so ,$$|5-18| + |20-5| + |1-20| + |60-1| + |3-60| + |8-3| + |90-8| + |2-90| + |20-2| + |40-20| + |6-40| + |70-6|$$</p><p>$$= 13 + 15 + 19 + 59 + 57 + 5 + 82 + 88 + 18 + 20 + 34 + 64$$</p><p data-path-to-node=\"0,0,1,2,0\"><b data-path-to-node=\"0,0,1,2,0\" data-index-in-node=\"0\">$A$:</b> <b data-path-to-node=\"0,0,1,2,0\" data-index-in-node=\"9\">474</b></p><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">SSTF Seek Distance ($B$):</b></p><p data-path-to-node=\"0,1,1,0,0\"><b data-path-to-node=\"0,1,1,0,0\" data-index-in-node=\"0\">Initial state:</b> Head at 18, moving up. Nearest request is 20.</p><p data-path-to-node=\"0,1,1,1,0\"><b data-path-to-node=\"0,1,1,1,0\" data-index-in-node=\"0\">First :</b> $18 \\rightarrow 20$ (services both requests at 20) $\\rightarrow$ Distance = $2$</p><p data-path-to-node=\"0,1,1,2,0\"><b data-path-to-node=\"0,1,1,2,0\" data-index-in-node=\"0\">Second:</b> From 20, services all lower pending requests down to 1 in descending order ($8 \\rightarrow 6 \\rightarrow 5 \\rightarrow 3 \\rightarrow 2 \\rightarrow 1$) $\\rightarrow$ Distance = $|1 - 20| = 19$</p><p data-path-to-node=\"0,1,1,3,0\"><b data-path-to-node=\"0,1,1,3,0\" data-index-in-node=\"0\">Third :</b> From 1, services remaining higher requests up to 90 in ascending order ($40 \\rightarrow 60 \\rightarrow 70 \\rightarrow 90$) $\\rightarrow$ Distance = $|90 - 1| = 89$</p><p data-path-to-node=\"0,1,1,4,0\"><b data-path-to-node=\"0,1,1,4,0\" data-index-in-node=\"0\">Total $B$:</b> $2 + 19 + 89 = \\mathbf{110}$</p><p data-path-to-node=\"0,1,1,4,0\">finally,&nbsp;</p><p>$$A - B = 474 - 110 = \\mathbf{364}$$</p></div></section></div><p><a href=\"https://gateoverflow.in/534966\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are FALSE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>With a $15000$ RPM disk, the expected rotation time for a random access is $4$ ms.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Transfer time for disk sectors is significantly longer for random accesses than for sequential accesses.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Doubling the rotation speed of a disk also doubles the transfer rate.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The elevator algorithm does not take rotational time into account when scheduling I/O requests.&nbsp;</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"541569\"></a><div itemprop=\"text\">Random access would take the average rotational delay and that would be 2msec and sequential access would take longer than random access because random access has to access 1 sector randomly but sequential access would have to access every sector on the track leading up to that sector. Please correct me if I am wrong.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543063\"></a><div itemprop=\"text\"><section dir=\"auto\" data-turn-id=\"af90baac-422c-4437-bc9f-50c0c8cac1c6\" data-turn-id-container=\"af90baac-422c-4437-bc9f-50c0c8cac1c6\" data-testid=\"conversation-turn-21\" data-turn=\"user\"><pre>&nbsp;</pre></section><section dir=\"auto\" data-turn-id=\"request-WEB:1182afc6-38aa-41f0-9987-c702b5e66cb0-10\" data-turn-id-container=\"request-WEB:1182afc6-38aa-41f0-9987-c702b5e66cb0-10\" data-testid=\"conversation-turn-22\" data-turn=\"assistant\"><pre data-start=\"1319\" data-end=\"1372\" data-is-last-node=\"\" data-is-only-node=\"\">The correct answer should be A and B.\n\n<strong>A. False</strong>\n\nFor a 15000 RPM disk,\n\nTime for one complete rotation = 60 / 15000 = 0.004 s = 4 ms.\n\nHowever, for a random access, the expected (average) rotational latency is half a rotation, i.e., 2 ms, not 4 ms. Therefore, the statement is false because it uses the full rotation time instead of the average rotational latency.\n\n<strong>B. False</strong>\n\nThe statement talks about transfer time, not access time.\n\nAccess Time = Seek Time + Rotational Latency + Transfer Time\n\nRandom access significantly increases seek time and rotational latency, but transfer time itself remains approximately the same for reading the same amount of data at the same disk speed. Hence, the statement is false. If it had said access time instead of transfer time, it would have been true.\n\n<strong>C. True</strong>\n\nAssuming the amount of data per rotation remains unchanged, doubling the disk's rotational speed doubles the number of rotations per second, thereby doubling the transfer rate.\n</pre><p data-start=\"0\" data-end=\"46\">Here's a simple numerical example you can use.</p><pre data-start=\"129\" data-end=\"163\">Example\n\nSuppose a disk stores 100 KB of data in one complete rotation.\n\nCase 1: Disk speed = 6000 RPM</pre><ul data-start=\"165\" data-end=\"247\"><li data-section-id=\"1vx261h\" data-start=\"165\" data-end=\"202\"><pre>6000 RPM = 100 rotations/second</pre></li><li data-section-id=\"25qjkm\" data-start=\"203\" data-end=\"247\"><pre>Data transferred per rotation = 100 KB</pre></li></ul><pre data-start=\"249\" data-end=\"305\">Transfer rate = 100 × 100 KB = 10,000 KB/s = 10 MB/s</pre><pre data-start=\"312\" data-end=\"364\">Case 2: Disk speed = 12000 RPM (double the RPM)</pre><ul data-start=\"366\" data-end=\"449\"><li data-section-id=\"t5eaxv\" data-start=\"366\" data-end=\"404\"><pre>12000 RPM = 200 rotations/second</pre></li><li data-section-id=\"qhrshi\" data-start=\"405\" data-end=\"449\"><pre>Data per rotation = 100 KB (unchanged)</pre></li></ul><pre data-start=\"451\" data-end=\"507\">Transfer rate = 200 × 100 KB = 20,000 KB/s = 20 MB/s</pre><pre data-start=\"514\" data-end=\"517\">So,</pre><ul data-start=\"519\" data-end=\"591\"><li data-section-id=\"1r9i532\" data-start=\"519\" data-end=\"547\"><pre>RPM: 6000 → 12000 (2×)</pre></li><li data-section-id=\"1of231q\" data-start=\"548\" data-end=\"591\"><pre>Transfer rate: 10 MB/s → 20 MB/s (2×)</pre></li></ul><pre data-start=\"858\" data-end=\"881\" data-is-last-node=\"\" data-is-only-node=\"\">Hence, doubling the rotational speed doubles the transfer rate, assuming the amount of data read per rotation remains the same.\n\nTherefore, if Data per Rotation is constant, then:\n\nTransfer Rate ∝ RPM</pre><pre data-start=\"1319\" data-end=\"1372\" data-is-last-node=\"\" data-is-only-node=\"\"><strong>D. True</strong>\n\nThe Elevator (SCAN) algorithm schedules requests based on cylinder numbers to minimize seek time. It does not consider the rotational position of sectors while scheduling I/O requests. Hence, rotational latency is not taken into account by the algorithm.\n\nTherefore, the false statements are A and B only.</pre></section><div id=\"08FA6F55_83C5_001B_2D44_6CB55FE504C6\">&nbsp;</div><div>&nbsp;</div></div></section></div><p><a href=\"https://gateoverflow.in/534965\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume a hard drive that has a $6{,}000$ rpm rotational speed, a $3$ ms average seek time, and that overhead is negligible. Each disk track has $64$ sectors, and each sector holds $1$ KB of data. The drive can read or write data as fast as it rotates. You may assume that $1$ KB $= 1{,}000$ bytes and $1$ MB $= 1{,}000$ KB and $1$ GB $= 1{,}000$ MB. Compute the time (in sec) to read a $1$ GB file if the file is randomly spread across disk sectors. (Answer should be rounded off to $2$ decimal places)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"535806\"></a><div itemprop=\"text\">To move across a whole track. Total time required = 60000 / (given RPM speed) =&gt; 60000/6000 =&gt; 10msec<br>\n<br>\nnow &nbsp;givem that 1 sector holds 1KB data<br>\n<br>\nSo to store 1GB =&gt; 1GB/1KB =&gt; 10⁶ sectors are required!!<br>\n<br>\nsince data is spread across the disk (random)<br>\n<br>\nHence, total time = No. of sectors * (avg. seek time + avg. rotational time + transfer time)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 10⁶ *( 3 + 10/2 + 10/64) ms<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 10⁶ *(64*3+10*32+10)/64 =&gt; 10⁶ * 522 /64 ms =&gt; 8156250 ms =&gt; 8156.25 sec</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536129\"></a><div itemprop=\"text\"><p>&nbsp;</p><p data-path-to-node=\"0,0,1,0,0\">Time for 1 full rotation = $\\frac{60,000 \\text{ ms}}{6,000 \\text{ rpm}} = 10 \\text{ ms}$</p><p data-path-to-node=\"0,0,1,1,0\">Average rotational delay = $\\frac{10 \\text{ ms}}{2} = 5 \\text{ ms}$</p><p data-path-to-node=\"0,0,1,2,0\">Transfer time for 1 single sector = $\\frac{10 \\text{ ms}}{64 \\text{ sectors}} = 0.15625 \\text{ ms}$</p><p>$$\\text{Time per Sector} = \\text{Average Seek Time} + \\text{Average Rotational Delay} + \\text{Transfer Time}$$</p><p>$$\\text{Time per Sector} = 3 \\text{ ms} + 5 \\text{ ms} + 0.15625 \\text{ ms} = 8.15625 \\text{ ms}$$</p><p>$$\\text{Total Time (ms)} = 1,000,000 \\text{ sectors} \\times 8.15625 \\text{ ms/sector} = 8,156,250 \\text{ ms}$$</p><p>which is 8156.25 sec</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/534964\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume a hard drive that has a $6{,}000$ rpm rotational speed, a $3$ ms average seek time, and that overhead is negligible. Each disk track has $64$ sectors, and each sector holds $1$ KB of data. The drive can read or write data as fast as it rotates. Compute the time (in ms) to read a $1$ GB file if the file is written sequentially onto tracks, but the tracks are spread randomly across the disk. Assume that for each seek to a track, wait for rotational delay. (Here, $1$ KB $= 1{,}000$ bytes, $1$ MB $= 1{,}000$ KB and $1$ GB $= 1{,}000$ MB.)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"535757\"></a><div itemprop=\"text\">To move across a whole track. Total time required = 60000 / (given RPM speed) =&gt; 60000/6000 =&gt; 10msec<br>\n<br>\nNow, as given, 1 track has 64 sectors; now 1 sector holds 1KB =&gt; 1 track holds 64KB data!!<br>\n<br>\nNow, since data is organized sequentially on the track.<br>\n<br>\nTo store 1GB, we need (1GB/64KB) tracks =&gt; 15625 tracks.<br>\n<br>\nNow calculating total time!!<br>\n<br>\n1.) 3 ms is required to reach the starting track, let's say track no. 0<br>\n<br>\n2.) Avg rotational latency = 10/2 msec =&gt; 5 msec (to find the start location from where data had been stored)<br>\nSince tracks are placed randomly, after reading a track, we need 3 ms to go to that next track and 5 ms to reach the exact location of the next subsequent data. =&gt; {1track reading + 8 ms time}<br>\n<br>\nSo total time = {3+5+(10+3+5)*15624 [reached the last track] + 10} ms =&gt; 8+282232+10 =&gt; 281250 ms</div></section></div><p><a href=\"https://gateoverflow.in/534963\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume a hard drive that has a $6{,}000$ rpm rotational speed, a $3$ ms average seek time, and that overhead is negligible. Each disk track has $64$ sectors, and each sector holds $1$ KB of data. The drive can read or write data as fast as it rotates. Compute the time (in ms) to read a $1$ GB file if the file is written sequentially onto sequential tracks. You can assume it takes only $1$ ms to seek to a neighboring track. Assume that rotational delay is required only once. (Here, $1$ KB $= 1{,}000$ bytes, $1$ MB $= 1{,}000$ KB and $1$ GB $= 1,000$ MB.)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"535756\"></a><div itemprop=\"text\">To move across a whole track. Total time required = 60000 / (given RPM speed) =&gt; 60000/6000 =&gt; 10msec<br>\n<br>\nNow, as given, 1 track has 64 sectors; now 1 sector holds 1KB =&gt; 1 track holds 64KB data!!<br>\n<br>\nNow, since data is organized sequentially!<br>\n<br>\nTo store 1GB, we need (1GB/64KB) tracks=&gt; 15625 tracks.<br>\n<br>\nNow calculating total time!!<br>\n<br>\n1.) 3 ms is required to reach the starting track, let's say track no. 0<br>\n<br>\n2.) Avg rotational latency = 10/2 msec =&gt; 5 msec (to find the start location from where data had been stored)<br>\n<br>\nNow from here we have to read everything till the end of track no. 15624.<br>\n<br>\n3.) 10 ms to move across the whole track + 1 ms to move to the next track<br>\n<br>\nso in between, we need to read whole total 15625 tracks, and we need to move across 15624 tracks in between<br>\n<br>\nSo total time = {3 + 5 + (10 + 1) * 15624 [reached the last track] + 10} msec =&gt; 3 + 5 + 171864 + 10 =&gt; 171882 msec</div></section></div><p><a href=\"https://gateoverflow.in/534962\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a hard disk that has $500$ GB of hard disk space. It has the following performance characteristics:</p><ul><li>$5000$ RPM rotation rate<br>&nbsp;</li><li>$200$ cylinders, numbered from $1$ to $200$<br>&nbsp;</li><li>Takes $1 + (\\tau/20)$ milliseconds to move heads across $\\tau$ cylinders (e.g., from $i$ to $i+\\tau$)<br>&nbsp;</li><li>A constant transfer rate of $100$ MB/s on all tracks</li></ul><p>Calculate the average time taken to read a $1$ MB block from the hard disk. Assume that, for an average read, the head travels half the cylinders and half a revolution.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"534961\"></a><div itemprop=\"text\">$1+((200 / 2) / 20)=6 \\mathrm{~ms}$ to move to the right cylinder<br>\n<br>\n$(0.5 \\mathrm{rev} / 5000 \\mathrm{rev}) * 60000 \\mathrm{~ms}=6 \\mathrm{~ms}$ to move to right track<br>\n<br>\n$1 / 100$ seconds to read $1 \\mathrm{MB}=10 \\mathrm{~ms}$<br>\n<br>\nTotal: $22$ ms</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"535754\"></a><div itemprop=\"text\">As Written:<br>\n<br>\nAssume that,<br>\nFor an average read, the head travels half the cylinders and half a revolution.<br>\n<br>\nso,<br>\n<br>\n1. We need to travel across 100 cylinders =&gt; 1+100/20 msec = 1+5 = 6 msec.<br>\n<br>\n2. 1 full rotation time = (60000/5000) msec =&gt; 12 msec (as given 5000 rpm)<br>\n<br>\nbut here is the requirement of half rotation =&gt; 6 ms<br>\n<br>\n3. Now we have reached the exact location and need to transfer 1 MB, so transfer time = 1 MB/100 MBps =&gt; 1/100 sec =&gt; 10 msec.<br>\n<br>\nTotal time = 6 + 6 + 10 =&gt; 22 ms</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"536132\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">Average Seek Time ($\\text{Time}_{\\text{seek}}$):</b></p><blockquote><p data-path-to-node=\"0,0,0\">&nbsp;Assume that, for an average read, the head travels half the cylinders</p></blockquote><p data-path-to-node=\"0,0,1,0,0\">Average cylinders traveled ($\\tau$) = $\\frac{200}{2} = 100 \\text{ cylinders}$</p><p data-path-to-node=\"0,0,1,1,0\">$\\text{Time}_{\\text{seek}} = 1 + \\left(\\frac{100}{20}\\right) = 1 + 5 = 6 \\text{ ms}$</p><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Average Rotational Latency ($\\text{Time}_{\\text{rot}}$):</b></p><p data-path-to-node=\"0,1,1,0,0\">$5000 \\text{ revolutions} \\rightarrow 1 \\text{ min } (60 \\text{ sec})$</p><p data-path-to-node=\"0,1,1,1,0\">$1 \\text{ revolution} = \\frac{60 \\text{ sec}}{5000} = 0.012 \\text{ sec} = 12 \\text{ ms}$</p><blockquote><p data-path-to-node=\"0,1,1,1,0\">&nbsp;Assume that, for an average read, the head travels half the revolution</p></blockquote><p data-path-to-node=\"0,1,1,2,0\">$\\text{Time}_{\\text{rot}} = \\text{Half a revolution} = \\frac{12 \\text{ ms}}{2} = 6 \\text{ ms}$</p><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Data Transfer Time ($\\text{Time}_{\\text{trans}}$):</b></p><p data-path-to-node=\"0,2,1,0,0\">$100 \\text{ MB} \\rightarrow 1 \\text{ sec } (1000 \\text{ ms})$</p><p data-path-to-node=\"0,2,1,1,0\">$1 \\text{ MB} = \\frac{1000 \\text{ ms}}{100} = 10 \\text{ ms}$</p><p data-path-to-node=\"0,3,0\"><b data-path-to-node=\"0,3,0\" data-index-in-node=\"0\">Total Average Access Time:</b></p><p>$$\\text{Total Time} = \\text{Time}_{\\text{seek}} + \\text{Time}_{\\text{rot}} + \\text{Time}_{\\text{trans}}$$</p><p>$$\\text{Total Time} = 6 \\text{ ms} + 6 \\text{ ms} + 10 \\text{ ms} = \\mathbf{22 \\text{ ms}}$$</p></div></section></div><p><a href=\"https://gateoverflow.in/534960\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A disk contains $100$ cylinders numbered from $0$ to $99$. Each cylinder has $10$ tracks, and each track contains $20$ sectors. The sectors on the disk are numbered sequentially starting from sector $0$, beginning at cylinder $0$.<br>\n<br>\nAssume the disk head is currently positioned at sector number $7198$ and is moving towards higher numbered cylinders. A stream of requests arrives for the following sector numbers:<br>\n<br>\n$4268,\\ 8111,\\ 2146,\\ 18009,\\ 15100$<br>\n<br>\nUsing the SSTF disk scheduling policy, find the total seek distance (in cylinders) required to service all the requests.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"535753\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"1\">1. Understanding the Disk Geometry</h3><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b data-path-to-node=\"2,0,0\" data-index-in-node=\"0\">Total Cylinders:</b> 100 (numbered 0 to 99).</p></li><li><p data-path-to-node=\"2,1,0\"><b data-path-to-node=\"2,1,0\" data-index-in-node=\"0\">Tracks per Cylinder:</b> 10.</p></li><li><p data-path-to-node=\"2,2,0\"><b data-path-to-node=\"2,2,0\" data-index-in-node=\"0\">Sectors per Track:</b> 20.</p></li><li><p data-path-to-node=\"2,3,0\"><b data-path-to-node=\"2,3,0\" data-index-in-node=\"0\">Sectors per Cylinder:</b> $10 \\text{ tracks} \\times 20 \\text{ sectors/track} = 200 \\text{ sectors/cylinder}$.</p></li></ul><p data-path-to-node=\"3\">The sectors are numbered sequentially, starting from sector 0 at cylinder 0. Therefore, the cylinder number for any given sector $S$ can be found using the formula:</p><p>$$\\text{Cylinder} = \\lfloor S / 200 \\rfloor$$</p><h3 data-path-to-node=\"5\">2. Converting Requests to Cylinder Numbers</h3><p data-path-to-node=\"6\">Using the formula above, we convert the current head position and requested sector numbers into cylinder numbers:</p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><b data-path-to-node=\"7,0,0\" data-index-in-node=\"0\">Initial Head Position:</b> $7198 / 200 = 35.99 \\rightarrow$ <b data-path-to-node=\"7,0,0\" data-index-in-node=\"54\">Cylinder 35</b></p></li><li><p data-path-to-node=\"7,1,0\"><b data-path-to-node=\"7,1,0\" data-index-in-node=\"0\">Request 4268:</b> $4268 / 200 = 21.34 \\rightarrow$ <b data-path-to-node=\"7,1,0\" data-index-in-node=\"45\">Cylinder 21</b></p></li><li><p data-path-to-node=\"7,2,0\"><b data-path-to-node=\"7,2,0\" data-index-in-node=\"0\">Request 8111:</b> $8111 / 200 = 40.55 \\rightarrow$ <b data-path-to-node=\"7,2,0\" data-index-in-node=\"45\">Cylinder 40</b></p></li><li><p data-path-to-node=\"7,3,0\"><b data-path-to-node=\"7,3,0\" data-index-in-node=\"0\">Request 2146:</b> $2146 / 200 = 10.73 \\rightarrow$ <b data-path-to-node=\"7,3,0\" data-index-in-node=\"45\">Cylinder 10</b></p></li><li><p data-path-to-node=\"7,4,0\"><b data-path-to-node=\"7,4,0\" data-index-in-node=\"0\">Request 18009:</b> $18009 / 200 = 90.045 \\rightarrow$ <b data-path-to-node=\"7,4,0\" data-index-in-node=\"48\">Cylinder 90</b></p></li><li><p data-path-to-node=\"7,5,0\"><b data-path-to-node=\"7,5,0\" data-index-in-node=\"0\">Request 15100:</b> $15100 / 200 = 75.5 \\rightarrow$ <b data-path-to-node=\"7,5,0\" data-index-in-node=\"46\">Cylinder 75</b></p></li></ul><p data-path-to-node=\"8\"><b data-path-to-node=\"8\" data-index-in-node=\"0\">Request List (Cylinders):</b> $\\{21, 40, 10, 90, 75\\}$</p><p data-path-to-node=\"8\"><b data-path-to-node=\"8\" data-index-in-node=\"49\">Initial Head Position:</b> 35 (moving towards higher numbers)</p><h3 data-path-to-node=\"9\">3. Applying the SSTF Algorithm</h3><p data-path-to-node=\"10\" id=\"p-rc_6876f88adef84c49-19\">The SSTF (Shortest Seek Time First) algorithm always selects the request closest to the current head position.</p><ol start=\"1\" data-path-to-node=\"11\"><li><p data-path-to-node=\"11,0,0\"><b data-path-to-node=\"11,0,0\" data-index-in-node=\"0\">Start at 35.</b> Available: $\\{10, 21, 40, 75, 90\\}$</p><ul data-path-to-node=\"11,0,1\"><li><p data-path-to-node=\"11,0,1,0,0\">Distances: $|35-21|=14$, $|35-40|=5$, $|35-10|=25$, $|35-75|=40$, $|35-90|=55$.</p></li><li><p data-path-to-node=\"11,0,1,1,0\">Closest is <b data-path-to-node=\"11,0,1,1,0\" data-index-in-node=\"11\">40</b>. Move $35 \\rightarrow 40$ (Distance: <b data-path-to-node=\"11,0,1,1,0\" data-index-in-node=\"49\">5</b>).</p></li></ul></li><li><p data-path-to-node=\"11,1,0\"><b data-path-to-node=\"11,1,0\" data-index-in-node=\"0\">At 40.</b> Available: $\\{10, 21, 75, 90\\}$</p><ul data-path-to-node=\"11,1,1\"><li><p data-path-to-node=\"11,1,1,0,0\">Distances: $|40-21|=19$, $|40-10|=30$, $|40-75|=35$, $|40-90|=50$.</p></li><li><p data-path-to-node=\"11,1,1,1,0\">Closest is <b data-path-to-node=\"11,1,1,1,0\" data-index-in-node=\"11\">21</b>. Move $40 \\rightarrow 21$ (Distance: <b data-path-to-node=\"11,1,1,1,0\" data-index-in-node=\"49\">19</b>).</p></li></ul></li><li><p data-path-to-node=\"11,2,0\"><b data-path-to-node=\"11,2,0\" data-index-in-node=\"0\">At 21.</b> Available: $\\{10, 75, 90\\}$</p><ul data-path-to-node=\"11,2,1\"><li><p data-path-to-node=\"11,2,1,0,0\">Distances: $|21-10|=11$, $|21-75|=54$, $|21-90|=69$.</p></li><li><p data-path-to-node=\"11,2,1,1,0\">Closest is <b data-path-to-node=\"11,2,1,1,0\" data-index-in-node=\"11\">10</b>. Move $21 \\rightarrow 10$ (Distance: <b data-path-to-node=\"11,2,1,1,0\" data-index-in-node=\"49\">11</b>).</p></li></ul></li><li><p data-path-to-node=\"11,3,0\"><b data-path-to-node=\"11,3,0\" data-index-in-node=\"0\">At 10.</b> Available: $\\{75, 90\\}$</p><ul data-path-to-node=\"11,3,1\"><li><p data-path-to-node=\"11,3,1,0,0\">Distances: $|10-75|=65$, $|10-90|=80$.</p></li><li><p data-path-to-node=\"11,3,1,1,0\">Closest is <b data-path-to-node=\"11,3,1,1,0\" data-index-in-node=\"11\">75</b>. Move $10 \\rightarrow 75$ (Distance: <b data-path-to-node=\"11,3,1,1,0\" data-index-in-node=\"49\">65</b>).</p></li></ul></li><li><p data-path-to-node=\"11,4,0\"><b data-path-to-node=\"11,4,0\" data-index-in-node=\"0\">At 75.</b> Available: $\\{90\\}$</p><ul data-path-to-node=\"11,4,1\"><li><p data-path-to-node=\"11,4,1,0,0\">Distance: $|75-90|=15$.</p></li><li><p data-path-to-node=\"11,4,1,1,0\">Closest is <b data-path-to-node=\"11,4,1,1,0\" data-index-in-node=\"11\">90</b>. Move $75 \\rightarrow 90$ (Distance: <b data-path-to-node=\"11,4,1,1,0\" data-index-in-node=\"49\">15</b>).</p></li></ul></li></ol><h3 data-path-to-node=\"12\">4. Total Seek Distance</h3><p data-path-to-node=\"13\">Total distance = $5 + 19 + 11 + 65 + 15 = 115$.</p><p data-path-to-node=\"14\">The total seek distance required is <b data-path-to-node=\"14\" data-index-in-node=\"36\">115 cylinders</b>.</p></div></section></div><p><a href=\"https://gateoverflow.in/534959\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following disk: Assume a hard drive that has a $10,000$ rpm rotational speed, a $3$ ms average seek time, and a negligible amount of overhead. The disk track has $600$ sectors, and each sector holds $8$ kB of data. The drive can read or write data as fast as it rotates. How long does it take to read a random single sector on average? (You may assume that $1$ kB $= 1,000$ bytes and $1$ MB $= 1,000,000$ bytes.)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"534958\"></a><div itemprop=\"text\">Rotational delay $=$ time for half rotation $= 0.5$ rotations $/\\,10000$ rpm $\\times 60000$ ms/minute $= 3$ ms<br>\n<br>\ntransfer $1$ sector $=$ spin across $1/600$ of disk $= \\frac{1}{600}$ rotation $/\\,10000$ rpm $\\times 60000$ ms/minute $= 0.01$ ms<br>\n&nbsp;<br>\nTotal read time for random sector $=$ rotation $+$ seek $+$ overhead $+$ transfer $= 3 + 3 + 0 + 0.01 = 6.01$ ms</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536133\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\">Given directly in the problem: $\\text{Time}_{\\text{seek}} = 3 \\text{ ms}$</p><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Average Rotational Latency ($\\text{Time}_{\\text{rot}}$):</b></p><p data-path-to-node=\"0,1,1,0,0\">$10,000 \\text{ revolutions} \\rightarrow 1 \\text{ min } (60 \\text{ sec})$</p><p data-path-to-node=\"0,1,1,1,0\">$1 \\text{ revolution} = \\frac{60 \\text{ sec}}{10,000} = 0.006 \\text{ sec} = 6 \\text{ ms}$</p><p data-path-to-node=\"0,1,1,2,0\">$\\text{Time}_{\\text{rot}} = \\text{Average delay (half a revolution)} = \\frac{6 \\text{ ms}}{2} = 3 \\text{ ms}$</p><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Sector Data Transfer Time ($\\text{Time}_{\\text{trans}}$):</b></p><p data-path-to-node=\"0,2,1,0,0\">$1 \\text{ full track rotation (600 sectors)} \\rightarrow 6 \\text{ ms}$</p><p data-path-to-node=\"0,2,1,1,0\">$1 \\text{ sector} = \\frac{6 \\text{ ms}}{600} = 0.01 \\text{ ms}$</p><p data-path-to-node=\"0,3,0\"><b data-path-to-node=\"0,3,0\" data-index-in-node=\"0\">Total Average Access Time to Read a Single Sector:</b></p><p>$$\\text{Total Time} = \\text{Time}_{\\text{seek}} + \\text{Time}_{\\text{rot}} + \\text{Time}_{\\text{trans}}$$</p><p>$$\\text{Total Time} = 3 \\text{ ms} + 3 \\text{ ms} + 0.01 \\text{ ms} = \\mathbf{6.01 \\text{ ms}}$$</p></div></section></div><p><a href=\"https://gateoverflow.in/534957\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose that we are scheduling I/O requests for the disk. The average seek, latency and transfer times are $6.5$, $7.8$, and $0.5$ milliseconds. The time it takes the head to move $n$ tracks is $1 + \\frac{n}{500}$ ms.<br>\n<br>\nInitially the head is at cylinder $4000$, and then the following requests come in this order:<br>\n<br>\n$4000,\\ 6000,\\ 1000,\\ 7000,\\ 3000$<br>\n<br>\nIf we use the FCFS algorithm, what is the total time (in ms) required to completely service all the requests? (Consider the seek time, rotational latency, and data transfer time wherever applicable).",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"534956\"></a><div itemprop=\"text\">Avg. latency + transfer time $= 7.8 + 0.5 = 8.3$ ms<br>\n<br>\nseek time $= 1 + \\frac{n}{500}$, where $n =$ number of tracks to travel<br>\n<br>\nRequest $1$: Cylinder $4000$<br>\n<br>\naccess time $= 8.3$ ms<br>\n<br>\nsince the disk head is already on cylinder $4000$, no seek is needed.<br>\n<br>\ncompletion time $= 8.3$ ms<br>\n<br>\n------<br>\n<br>\nRequest $2$: Cylinder $6000$<br>\n<br>\naccess time $=$ seek time $+ 8.3$<br>\n<br>\n$\\phantom{\\text{access time}} = 1 + \\frac{2000}{500} + 8.3$<br>\n<br>\n$\\phantom{\\text{access time}} = 13.3$ ms<br>\n<br>\nCompletion time $= 8.3 + 13.3 = 21.6$ ms<br>\n<br>\n------<br>\n<br>\nRequest $3$: Cylinder $1000$<br>\n<br>\naccess time $=$ seek time $+ 8.3$<br>\n<br>\n$\\phantom{\\text{access time}} = 1 + \\frac{5000}{500} + 8.3 = 19.3$ ms<br>\n<br>\ncompletion time $= 21.6 + 19.3 = 40.9$ ms<br>\n<br>\n------<br>\n<br>\nRequest $4$: Cylinder $7000$<br>\n<br>\naccess time $=$ seek time $+ 8.3$<br>\n<br>\n$\\phantom{\\text{access time}} = 1 + \\frac{6000}{500} + 8.3$<br>\n<br>\n$\\phantom{\\text{access time}} = 21.3$ ms<br>\n<br>\ncompletion time $= 40.9 + 21.3 = 62.2$ ms<br>\n<br>\n------<br>\n<br>\nRequest $5$: Cylinder $3000$<br>\n<br>\naccess time $=$ seek time $+ 8.3$<br>\n<br>\n$\\phantom{\\text{access time}} = 1 + \\frac{4000}{500} + 8.3 = 17.3$ ms<br>\n<br>\ncompletion time $= 62.2 + 17.3 = 79.5$ ms</div></section></div><p><a href=\"https://gateoverflow.in/534955\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A hard disk has the following specification: $52$ sectors per track, $8$ platters each with $2$ recording surfaces, and $500$ cylinders. The address of a sector is given as a triple $(c,p,s)$, where $c$ is the cylinder number, $p$ is the surface number and $s$ is the sector number. Thus, the $0$th sector is addressed as $(0,0,0)$, the $1$st sector as $(0,0,1)$ and so on. The sector number that corresponds to the address $&lt;300,6,27&gt;$ is",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"535371\"></a><div itemprop=\"text\"><h3 data-start=\"29\" data-end=\"46\">&nbsp;</h3><p>52 sectors/track</p><p>8 platters × 2 surfaces = <strong data-start=\"95\" data-end=\"110\">16 surfaces</strong></p><p>&nbsp;</p><p>500 cylinders</p><p data-start=\"128\" data-end=\"143\">Address format : (c,p,s)</p><p>c = cylinder p&nbsp;= surface s= sector</p><p>&nbsp;</p><p data-start=\"223\" data-end=\"249\">The numbering starts from:</p><p>(0,0,0)=0 th sector</p><p data-start=\"270\" data-end=\"323\">sector number corresponding to : (300,6,27)</p><p data-start=\"270\" data-end=\"323\">&nbsp;</p><p data-start=\"381\" data-end=\"404\">Each cylinder contains:</p><p>16×52=83216 sector , 52 = 83216×52=832</p><p data-start=\"432\" data-end=\"440\">sectors.</p><p data-start=\"442\" data-end=\"462\">Before cylinder no.300:</p><p>300 * 16 * 52 = 249600 sectors</p><p>Before surface no.6&nbsp; in cylinder no. 300</p><p>6 * 52 = 312</p><p>and there is 27 sector&nbsp;</p><p>&nbsp;</p><p>sum = 249600 +312 +27 = 249939</p><p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"536136\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\">we convert from chs to lba</p><p data-path-to-node=\"0,0,1,1,0\">$\\text{Sectors per Cylinder} = 8 \\text{ platters} \\times 2 \\text{ surfaces/platter} \\times 52 \\text{ sectors/track} = 832 \\text{ sectors}$</p><p data-path-to-node=\"0,0,1,1,0\">$\\text{Sectors per Track} = 52$</p><p data-path-to-node=\"0,0,1,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">$\\langle c, p, s \\rangle = \\langle 300, 6, 27 \\rangle$):</b></p><p data-path-to-node=\"0,1,1,0,0\"><b data-path-to-node=\"0,1,1,0,0\" data-index-in-node=\"0\">Cylinder ($c = 300$):</b> $300 \\text{ completely skipped cylinders} \\times 832 \\text{ sectors/cylinder} = 249,600 \\text{ sectors}$</p><p data-path-to-node=\"0,1,1,1,0\"><b data-path-to-node=\"0,1,1,1,0\" data-index-in-node=\"0\">Surface ($p = 6$):</b> $6 \\text{ completely skipped surfaces} \\times 52 \\text{ sectors/track} = 312 \\text{ sectors}$</p><p data-path-to-node=\"0,1,1,2,0\"><b data-path-to-node=\"0,1,1,2,0\" data-index-in-node=\"0\">Sector offset ($s = 27$):</b> $27 \\text{ sectors within the current track}$</p><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Total Sector Number Computation:</b></p><p>$$\\text{Total Sectors} = (c \\times \\text{Sectors/Cylinder}) + (p \\times \\text{Sectors/Track}) + s$$</p><p>$$\\text{Total Sectors} = 249,600 + 312 + 27 = \\mathbf{249939}$$</p></div></section></div><p><a href=\"https://gateoverflow.in/534954\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 2,
+  "types": {
+   "MCQ": 3,
+   "NAT": 11,
+   "MSQ": 1
+  },
+  "withoutKey": 14
+ }
+}

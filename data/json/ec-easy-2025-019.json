@@ -1,0 +1,992 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-019",
+ "title": "Subjectwise Test-7 Part Syllabus GATE 2025 EC Analog Circuits",
+ "sourceTitle": "Subjectwise Test-7 Part Syllabus GATE 2025 EC Analog Circuits",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 19,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/045_Subjectwise Test-7 Part Syllabus GATE 2025 EC Analog Circuits.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the transistor circuit given below, where <em>V<sub>CC</sub></em> = 23 V, <em>R<sub>C</sub></em> = 5.6 kΩ, <em>R<sub>E</sub></em> = 2 kΩ, <em>R</em><sub>2</sub> = 12 kΩ, <em>R</em><sub>1</sub> = 80 kΩ, β = 50 and <em>V<sub>BE</sub></em> = 0.7 V. The transistor operates in the active region. The operating point of transistor and the stability factor are given by</p>\n<p>\n\t<img alt=\"\" src=\"media/30/300e8cc84c9fd62c1b25.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/46/46c87e30aa7717b8bea0.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/de/de573c5a3ce6c7ae1e90.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1c/1c83c6d619b3d09ddde2.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/83/8322f7312ccd8c2e29d2.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/bf/bfb9cbec6e13c2057d58.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/4d/4dc2165d713e64773911.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tIn the circuit given below, assume the op-amp to be ideal. The current <img align=\"absmiddle\" alt=\"\" src=\"media/a8/a8585c0d9d9ae7b9a703.png\" /> through 2 kΩ resistor is ________ mA.</p>\n<p>\n\t<img alt=\"\" src=\"media/4a/4a9f814fd307ddb8328e.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    12
+   ],
+   "answerText": "8 (4 - 12)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t8 (4 - 12)</p>\n<p>\n\t<img alt=\"\" src=\"media/f7/f727fb9d4cc8b14e8e0b.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIn the cascode amplifier shown in the figure, if the common-emitter stage (<em>Q</em><sub>1</sub>) has a transconductance <em>g</em><sub><em>m</em>1</sub>, and common base stage (<em>Q</em><sub>2</sub>) has a transductance <em>g</em><sub><em>m</em>2</sub>, then the overall transconductance <img align=\"absmiddle\" alt=\"\" src=\"media/0c/0c60bd8bd326f4e379ea.png\" /> of the cascode amplifier is</p>\n<p>\n\t<img alt=\"\" src=\"media/df/df18b91ada97fdd80554.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7a/7aed18e1f5f1325f37d7.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/86/860572c41a49346a0bd2.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7c/7c57f604590339ce6634.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1d/1d1293ffbcd6dec6d75f.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/6e/6e3838a8ef1e3ebfa67a.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tAssuming that the diodes in the below circuit are ideal, the value of labelled voltage ‘<em>V</em>’ is _________ V. (Rounded upto two decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/22/22d97013b2931e8381f1.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -2.32,
+    -1.23
+   ],
+   "answerText": "-1.67 (-2.32 - -1.23)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-1.67 (-2.32 - -1.23)</p>\n<p>\n\t<img alt=\"\" src=\"media/f7/f70a77cec7452e14b3fa.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIn the figure shown below, op-amps have saturation voltage of ±12 V, a capacitor <em>C</em> = 0.02 μF and resistor <em>R</em><sub>1</sub> = 15 kΩ and <em>R</em><sub>2</sub> = 20 kΩ. The value of <em>R</em> to generate 1.2 kHz signal at <em>V</em><sub>01</sub> is</p>\n<p>\n\t<img alt=\"\" src=\"media/5c/5c4c7a49372566b7aa24.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>R</em> = 62 kΩ</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>R</em> = 13.88 kΩ</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>R</em> = 50 kΩ</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>R</em> = 18.65 kΩ</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/25/255977cdc3b3b71a18c0.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe output voltage of circuit shown in figure is</p>\n<p>\n\t<img alt=\"\" src=\"media/aa/aa39c28c76653e214a5a.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t50 + 20 sin ω<em>t</em> mV</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t20 + 50 cos ω<em>t</em> mV</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t20 + 50 sin ω<em>t</em> mV</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t50 – 20 cos ω<em>t</em> mV</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/91/91f8e14db8f8e66c7ea5.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tFor the given network with Vin as 5.2 V, desired output level is 0 V. Assuming <em>V<sub>BE</sub></em> as 0.712 V and <em>R</em><sub>1</sub> as 1.47 kΩ, the constant current <img align=\"absmiddle\" alt=\"\" src=\"media/39/39b7ec2958ac1f7566f0.png\" /> supplied by transistor <em>Q</em><sub>1</sub> is</p>\n<p>\n\t<img alt=\"\" src=\"media/d9/d95cf68c0bf2b0afdd05.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.923 mA"
+    },
+    {
+     "key": "B",
+     "html": "2.568 mA"
+    },
+    {
+     "key": "C",
+     "html": "2.84 mA"
+    },
+    {
+     "key": "D",
+     "html": "2.125 mA"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/36/36a27d5ad9864c45761a.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA non-inverting amplifier shown in figure has the input voltage <em>V<sub>s</sub></em> = 100 mV with a source resistance of <em>R<sub>s</sub></em> = 500 Ω. The circuit parameters are <em>R<sub>F</sub></em> = 398 kΩ, <em>R</em><sub>1</sub> = 5 kΩ and A<sub>0</sub> = 2 × 10<sup>5</sup>. The percentage error in the output voltage <em>V</em><sub>0</sub> and the gain <em>A<sub>f</sub></em> compared to when A0 tends to infinity is given by</p>\n<p>\n\t<img alt=\"\" src=\"media/a4/a49ee74f1c0aba13d6b0.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bd/bd0427268d6b3290b84e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7f/7f3039eba8a830504213.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f6/f61c5d0a7c43d63d2887.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c8/c8f8252d226418afd3f3.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/5b/5bdc7b771fa242041f07.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tFor an op-amp shown in figure, the input offset voltage is 12 mV, the biasing current is 500 mA and input offset current is 90 nA. Consider <img align=\"absmiddle\" alt=\"\" src=\"media/55/559bf7cef5a3f02ee79c.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/32/3271379cab10053f81c2.png\" /></p>\n<p>\n\tTotal output offset voltage with compensating resistor is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "132 mV"
+    },
+    {
+     "key": "B",
+     "html": "162 mV"
+    },
+    {
+     "key": "C",
+     "html": "118 mV"
+    },
+    {
+     "key": "D",
+     "html": "141 mV"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/08/081b2741f7a607a532fc.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the circuit shown in the figure below:</p>\n<p>\n\t </p>\n<p>\n\t<img alt=\"\" src=\"media/74/749bff274af178bab859.png\" /></p>\n<p>\n\tThe transistor is biased in such a way that it is operating with <em>g<sub>m</sub></em> = 40 mA/V and β = 100. The value of corner frequency due to capacitor <em>C</em><sub>1</sub> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10.59 Hz"
+    },
+    {
+     "key": "B",
+     "html": "105.9 Hz"
+    },
+    {
+     "key": "C",
+     "html": "1.059 Hz"
+    },
+    {
+     "key": "D",
+     "html": "159.05 Hz"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/b4/b4987190dff8f0a7cb40.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe closed loop gain <img align=\"absmiddle\" alt=\"\" src=\"media/89/8963c70489b2d5bfcc2e.png\" /> of the feedback circuit shown in figure below is: (Assume early voltage as infinity)</p>\n<p>\n\t<img alt=\"\" src=\"media/55/55ff4ffb6585eb17a2d5.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/49/49e333c8e1f113dac66e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/21/2195d462aae675f08f81.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/71/7127865254060681a35e.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bd/bd9e328b28227f7375c1.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/1a/1a8fbfbf72778659aac1.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tFor the network shown in figure, the range of <img align=\"absmiddle\" alt=\"\" src=\"media/81/81ad81470f670583dd40.png\" /> that will maintain <em>V<sub>L</sub></em> at 8 V and not exceed the maximum power rating of the zener diode is given by</p>\n<p>\n\t<img alt=\"\" src=\"media/98/98b4be7b3fa34125316d.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7.86 V to 11.3 V"
+    },
+    {
+     "key": "B",
+     "html": "–15.86 V to 7.86 V"
+    },
+    {
+     "key": "C",
+     "html": "–11.3 V to 15.86 V"
+    },
+    {
+     "key": "D",
+     "html": "11.3 V to 15.86 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/e4/e45aaf4447fcb6b6bf48.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/c6/c6d650bc3b7de9c5cf99.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor the Schmitt trigger shown in the figure, <em>V</em><sub>sat</sub> = ±13.5 V. If the resistances have tolerance of ±5%, the minimum hysteresis is _________.</p>\n<p>\n\t(Rounded upto 2 decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/75/75e43101a15c099aa5cd.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.48,
+    0.61
+   ],
+   "answerText": "0.53 (0.48 - 0.61)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.53 (0.48 - 0.61)</p>\n<p>\n\t<img alt=\"\" src=\"media/d7/d7c7490002483458be7d.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/bb/bbbb0bf40616a1b2f7a8.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe value of I for the network shown below is:</p>\n<p>\n\t<img alt=\"\" src=\"media/93/9358e010b068b63cab4d.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "18.45 mA"
+    },
+    {
+     "key": "B",
+     "html": "0.851 mA"
+    },
+    {
+     "key": "C",
+     "html": "1.845 mA"
+    },
+    {
+     "key": "D",
+     "html": "19.3 mA"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/ce/ce3b3921b5bf7b27e78f.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the following circuit,</p>\n<p>\n\t<img alt=\"\" src=\"media/f4/f441a9b2bb1e642543cf.png\" /></p>\n<p>\n\tIf <img align=\"absmiddle\" alt=\"\" src=\"media/9a/9abafaf7ccf5332f6138.png\" /> and <img align=\"absmiddle\" alt=\"\" src=\"media/82/82579934c2a2c82dc073.png\" /> = Early voltage = 120 V both for n and p devices. The small signal voltage gain of the amplifier circuit is _________. (Rounded to nearest integer value)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -130,
+    -110
+   ],
+   "answerText": "-120 (-130 - -110)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-120 (-130 - -110)</p>\n<p>\n\t<img alt=\"\" src=\"media/db/dba6ee663f16a05500c2.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/29/2946721ea899fff7944b.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe open-circuit (<em>R<sub>L</sub></em> = ∞) voltage gain of the ac equivalent source follower circuit shown in figure is AV = 0.98. When <em>R<sub>L</sub></em> is set to 1 kΩ, the voltage gain is reduced to <em>A<sub>V</sub></em> = 0.49. The values of <em>g<sub>m</sub></em> and <em>r</em><sub>0</sub> are given by</p>\n<p>\n\t<img alt=\"\" src=\"media/e6/e6d30786d128a39c349f.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/76/76a1ac5f1dbf6acf3757.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/34/34df06849e0d39931380.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ec/ecca8d3b6a34bf138477.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/40/40216e1276d0606fe836.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/19/19c6ff24bce77206318f.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/82/823c6542f5db70fb632d.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe input voltage to the half wave rectifier with capacitor filter is <img align=\"absmiddle\" alt=\"\" src=\"media/f7/f7d2d2a9b967d1a3de59.png\" />Assume a diode cut-in voltage of<img align=\"absmiddle\" alt=\"\" src=\"media/59/599bd33249548320d132.png\" /> The peak to peak ripple voltage is to be no more than <em>V<sub>r</sub></em>  = 4 V. If the filter capacitor is 50 μF, the minimum load resistance that can be connected to the output is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.256 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "6.08 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "31.25 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "22.56 kΩ"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/7f/7f849cd0f5ad73f59380.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/c5/c574f19a507d8897666d.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor the circuit shown in figure the transistor parameters are : <em>K</em><sub><em>n</em>1</sub> = 0.2 mA/V<sup>2</sup>,<em>K</em><sub><em>n</em>2</sub> = <em>K</em><sub><em>n</em>3</sub> = <em>K</em><sub><em>n</em>4</sub> = 0.1 mA/V<sup>2</sup>, and <em>V</em><sub><em>TN</em>1</sub> = <em>V</em><sub><em>TN</em>2</sub> = <em>V</em><sub><em>TN</em>3</sub> = <em>V</em><sub><em>TN</em>4</sub> = 1 V.</p>\n<p>\n\t<img alt=\"\" src=\"media/3d/3d2e7b42d128b542c6e7.png\" /></p>\n<p>\n\tThe value of <img align=\"absmiddle\" alt=\"\" src=\"media/28/28cef030fae75c99ddce.png\" /> (in mA) is _________. [Rounded upto 2 decimal places]</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.19,
+    0.26
+   ],
+   "answerText": "0.22 (0.19 - 0.26)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.22 (0.19 - 0.26)</p>\n<p>\n\t<img alt=\"\" src=\"media/57/57fdbdc48f4666059046.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/78/78551fb8674c6d06461f.png\" /></p>"
+  },
+  {
+   "n": 19,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the circuit given below:</p>\n<p>\n\t<img alt=\"\" src=\"media/5f/5f91de8d2aad9279a25c.png\" /></p>\n<p>\n\tAssume the diode is ideal. The average current passing through the resistor <em>R</em> is found to be 5 mA. Then the value of resistance <em>R</em> is equal to ________ kΩ.</p>\n<p>\n\t(Round upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.42,
+    0.49
+   ],
+   "answerText": "0.47 (0.42 - 0.49)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.47 (0.42 - 0.49)</p>\n<p>\n\t<img alt=\"\" src=\"media/20/206a537f99b1ca3277e3.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/d2/d266be97bacb2f277318.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the circuit shown in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/84/846be885029782845a24.png\" /></p>\n<p>\n\tA diode <em>D</em><sub>1</sub> is connected in parallel with a diode <em>D</em><sub>2</sub> with reverse saturation current equal to 10<sup>–11</sup> A and 10<sup>–9</sup> A respectively. The diodes are connected across a voltage source (<em>V<sub>s</sub></em>) in series with a resistance of 3 kΩ. Then the value of voltage <em>V<sub>s</sub></em> in (V) is approximately equal to _________. (Assume η = 2 and <em>V<sub>T</sub></em> = 26 mV) (Rounded upto 1 decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12.4,
+    13.2
+   ],
+   "answerText": "12.8 (12.4 - 13.2)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t12.8 (12.4 - 13.2)</p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0a1910d782f1a0e4bbfc.png\" /></p>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tFor given circuit, the load current <img align=\"absmiddle\" alt=\"\" src=\"media/c0/c08de4d28db7d84e844d.png\" /> is __________ mA. (Rounded upto two decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/75/75c049e46903e6a3153a.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5.25,
+    6.35
+   ],
+   "answerText": "5.71 (5.25 - 6.35)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5.71 (5.25 - 6.35)</p>\n<p>\n\t<img alt=\"\" src=\"media/40/405db67402bc8aff767b.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tBoth the transistors have β<sub>0</sub> = 150 and operated at <img align=\"absmiddle\" alt=\"\" src=\"media/4f/4fcdcffead3738a5dacb.png\" /> = 2.5 mA. Assume <em>R<sub>s</sub></em> = 0.85 kΩ and <em>R<sub>C</sub></em> = 1.8 kΩ. <em>V</em><sub>T</sub> = 26 mV, <em>r</em><sub>0</sub> = ∞.</p>\n<p>\n\t<img alt=\"\" src=\"media/a4/a41197f33819dadb52c6.png\" /></p>\n<p>\n\tThe overall voltage gain <em>A<sub>V</sub></em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–9002.509"
+    },
+    {
+     "key": "B",
+     "html": "1312.786"
+    },
+    {
+     "key": "C",
+     "html": "9002.509"
+    },
+    {
+     "key": "D",
+     "html": "–1312.786"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/8d/8dff40ad7d04602bb684.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/e3/e3252b7be1594d2cbaf5.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the shunt-shunt feedback amplifier shown in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/d1/d16c0da016d43f4bc8cd.png\" /></p>\n<p>\n\tIf the transistor is biased at <img align=\"absmiddle\" alt=\"\" src=\"media/fa/fa40f2510f62bd1258ca.png\" /> = 4.32 mA, then the value of output resistance <em>R</em><sub>0</sub> is equal to _______ Ω. [<em>V<sub>T</sub></em> = 26 mV] (Rounded upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    79.5,
+    86.7
+   ],
+   "answerText": "82.9 (79.5 - 86.7)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t82.9 (79.5 - 86.7)</p>\n<p>\n\t<img alt=\"\" src=\"media/b3/b3650ed9186de3c3bd68.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/10/10984cecbad3dd10f09a.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the amplifier circuit shown in figure:</p>\n<p>\n\t<img alt=\"\" src=\"media/8c/8cfd98bf3113fd5eea32.png\" /></p>\n<p>\n\tThe transistors parameters are <em>V</em><sub><em>EB</em>(ON)</sub> = 0.7 V, β = 80, <em>V<sub>T</sub></em> = 26 mV and <em>V<sub>A</sub></em> = ∞. Then the value of small signal voltage gain is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–26.24 V/V"
+    },
+    {
+     "key": "B",
+     "html": "1.931 V/V"
+    },
+    {
+     "key": "C",
+     "html": "26.24 V/V"
+    },
+    {
+     "key": "D",
+     "html": "–1.931 V/V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/15/15259bce025246831dea.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/81/81b8f12f41b7cf592d64.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor a modified current mirror shown in figure, the current through collector resistor <em>R<sub>C</sub></em> is ________ mA. Assume <em>V<sub>BE</sub></em> = 0.7 V and β = 100.</p>\n<p>\n\t<img alt=\"\" src=\"media/39/39daf0c0d5610abdae81.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.256,
+    4.825
+   ],
+   "answerText": "4.125 (3.256 - 4.825)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4.125 (3.256 - 4.825)</p>\n<p>\n\t<img alt=\"\" src=\"media/fe/fe42579a794c5e650e06.png\" /></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the voltage reference circuit shown in figure below. Assume the op-amp to be ideal, then the value of current <img align=\"absmiddle\" alt=\"\" src=\"media/0b/0b17de52cddf6c0d267b.png\" /> is equal to _________ mA.</p>\n<p>\n\t(Rounded upto 3 decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/87/872b31d2a0ac9dc6ec74.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.638,
+    0.756
+   ],
+   "answerText": "0.714 (0.638 - 0.756)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.714 (0.638 - 0.756)</p>\n<p>\n\t<img alt=\"\" src=\"media/e5/e518c08e63741f016e67.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tDifferential amplifier shown in figure, uses a transistor with β = 200 and is biased at <img align=\"absmiddle\" alt=\"\" src=\"media/33/33c5124bed2e11a24aef.png\" />μA. The value of <em>R<sub>C</sub></em> and <em>R<sub>E</sub></em> if <img align=\"absmiddle\" alt=\"\" src=\"media/df/df37c00e7b6ca03f2c90.png\" /> = 500 and <em>CMRR</em> = 80 dB is given by (Assume <em>V<sub>T</sub></em> = 25 mV) Consider unbiased output.</p>\n<p>\n\t<img alt=\"\" src=\"media/99/994b4ed2302aef185cd3.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>R<sub>E</sub></em> = 25 MΩ</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>R<sub>E</sub></em> = 2.5 MΩ</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>R<sub>C</sub></em> = 250 kΩ</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>R<sub>C</sub></em> = 25 kΩ</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/ee/ee29907b1c600648d793.png\" /></p>\n<p>\n\t&nbsp;</p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tFor the differential amplifier shown in figure, the differential voltage gain is [Assume β<sub>0</sub> = 100, <em>V<sub>T</sub></em> = 25 mV]</p>\n<p>\n\t<img alt=\"\" src=\"media/38/38ae5d6adae458b94245.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–60 V/V"
+    },
+    {
+     "key": "B",
+     "html": "–40 V/V"
+    },
+    {
+     "key": "C",
+     "html": "60 V/V"
+    },
+    {
+     "key": "D",
+     "html": "20 V/V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/30/3055ee60074f58a48bf5.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the circuit shown in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/b9/b9d1e6e61dc34b39ba2f.png\" /></p>\n<p>\n\tThe complete biasing of the MOSFET is not shown for simplicity but it can be taken as a fact that <em>M</em><sub>1</sub> is switched ON for positive value of <em>V</em><sub>in</sub> greater than 2.8 V with <em>r</em><sub><em>ds</em>(on)</sub> = 0 Ω. When <em>M</em><sub>1</sub> is switched off, then the value of <em>r<sub>ds</sub></em> = ∞. A D.C. current source <img align=\"absmiddle\" alt=\"\" src=\"media/b8/b88ba5ce11b4dfad2708.png\" /> is also connected across the MOS transistor. Assuming <em>V<sub>C</sub></em> has negligible ripple voltage. If the source <em>V</em><sub>in</sub> has a duty cycle of <em>D</em>, then the value of <em>V<sub>C</sub></em> after 4 input pulses will be (Assume resistance <em>R</em> to be very large).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b5/b505bb1ed77d2963b10e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9c/9cb5b8b214ac49fd7a34.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c1/c1bfaa66f73981822df2.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0c/0c51d1f61c1750b251b6.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/b7/b7719472cd5d8f54d4f3.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/4f/4ff49ce71f6e3b01eecf.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider a square wave astable multivibrator circuit shown in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/23/23b88ccc95faaa1fc8bd.png\" /></p>\n<p>\n\tThen, the value of output frequency of the multivibrator circuit is equal to __________ Hz. (Rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.28,
+    1.42
+   ],
+   "answerText": "1.34 (1.28 - 1.42)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.34 (1.28 - 1.42)</p>\n<p>\n\t<img alt=\"\" src=\"media/77/77b539e69feb81d92b3b.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tIn the circuit shown in figure, the transistor operates at <img align=\"absmiddle\" alt=\"\" src=\"media/2d/2d0d7f68594e01007485.png\" /> mA and <em>V<sub>D</sub></em> = 0.5 V. The NMOS transistor has <em>V<sub>t</sub></em> = 0.7 V, <img align=\"absmiddle\" alt=\"\" src=\"media/df/df86b9e89a79f28b40ef.png\" /> μA/V<sup>2</sup>, <em>L</em> = 1 μm and</p>\n<p>\n\t<em>W</em> = 32 μm (assume that <img align=\"absmiddle\" alt=\"\" src=\"media/3a/3a7d4051393864dde611.png\" /> = 0)</p>\n<p>\n\t<img alt=\"\" src=\"media/49/49a90dc94d0e18c64ade.png\" /></p>\n<p>\n\tThe sum of <em>R<sub>D</sub></em> and <em>R<sub>S</sub></em> is _________ kΩ.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7.75,
+    8.52
+   ],
+   "answerText": "8.25 (7.75 - 8.52)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t8.25 (7.75 - 8.52)</p>\n<p>\n\t<img alt=\"\" src=\"media/02/02e8e06f6de074f4b062.png\" /></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThree diodes with cut in voltage of 0.7 V each are connected as shown in figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/f0/f0da15cd8521d9bb502a.png\" /></p>\n<p>\n\tWhich of the following option is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>D</em><sub>2</sub> and <em>D</em><sub>3</sub> is forward biased</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>D</em><sub>1</sub> and <em>D</em><sub>3</sub> is forward biased</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/04/0477b7f70ee3b9efac33.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f6/f640f46c540f321eb785.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/ce/cece4e9a2b2222dc71af.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the circuit shown in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/52/52b873f019089c963cec.png\" /></p>\n<p>\n\tFor the BJT, the value of β = 98 and <em>V<sub>BE</sub></em> = 0.7 V.<br />\n\tWhich of the following options are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2e/2ee4794c08c656bfd626.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/dc/dc2aa75baf0b5df5d1e9.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/29/29a6da25a87bf3695725.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5c/5c223f4801a50e30bf31.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/58/58ac63e07aa38899244e.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 18,
+   "NAT": 13,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

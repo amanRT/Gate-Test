@@ -1,0 +1,5291 @@
+{
+ "v": 1,
+ "id": "ce-easy-2026-013",
+ "title": "Full Syllabus Test-4 2026 ESE CE Engineering Discipline",
+ "sourceTitle": "Full Syllabus Test-4 2026 ESE CE Engineering Discipline",
+ "branch": "CIVIL ENGINEERING",
+ "code": "CE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering",
+ "seriesId": "ce-easy-2026",
+ "num": 13,
+ "category": "full-syllabus",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 10800,
+ "info": {
+  "meta": "Package: GATE 2026 + ESE 2026 Online Test Series - Civil Engineering • Questions: 150",
+  "package": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering"
+ },
+ "source": "CIVIL ENGINEERING/MADE EASY/GATE 2026 + ESE 2026 Online Test Series - Civil Engineering/016_Full Syllabus Test-4 2026 ESE CE Engineering Discipline.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a cantilever beam, the bending moment at any section of the beam is equal to the</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "area of shear force diagram between the fixed end of the beam and at that section."
+    },
+    {
+     "key": "B",
+     "html": "area of shear force diagram between the free end and at that section."
+    },
+    {
+     "key": "C",
+     "html": "area of bending moment diagram between free end and at that section."
+    },
+    {
+     "key": "D",
+     "html": "vertical ordinate at that section in the shear force diagram."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ae/ae9acfbfc3c320bed09f.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A cube of side 60 mm is subjected to shear stress and a graph between shear stress and shear strain is plotted. It is observed that elastic limit shear stress is 260 N/mm<sup>2</sup>. If shear modulus of material is 85 kN/mm<sup>2</sup>, then the proof resilience will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "85.9 N-mm"
+    },
+    {
+     "key": "B",
+     "html": "75.8 N-mm"
+    },
+    {
+     "key": "C",
+     "html": "85.9 N-m"
+    },
+    {
+     "key": "D",
+     "html": "75.8 N-m"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/95/95a730a2ee67fb3ca0b3.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Cross-sections shown in figure below have equal area. The ratio of section modulus <img align=\"absmiddle\" alt=\"\" src=\"media/b2/b248bcad148672497547.png\" /> for these sections is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0a/0a226e8fc8912f6cc717.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/33/33608855cb1aadce4268.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/35/35b2c1cf0a8dd23345b0.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/b5/b5fd94a79ba7ef32d1ec.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/5b/5bc7464d2c7c64b48052.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/29195e80eff8500f65cc.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A solid uniform metal bar of diameter <em>D</em> and length <em>L</em> is hanging vertically from its upper end.<br />\nThe elongation of the bar due to self weight is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "proportional to <em>L</em> and inversely proportional to <em>D</em><sup>2</sup>."
+    },
+    {
+     "key": "B",
+     "html": "proportional to <em>L</em><sup>2</sup> and inversely proportional to <em>D</em><sup>2</sup>."
+    },
+    {
+     "key": "C",
+     "html": "proportional to <em>L</em> but independent of <em>D</em>."
+    },
+    {
+     "key": "D",
+     "html": "proportional to <em>L</em><sup>2</sup> but independent of <em>D</em>."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/40/4043c255c05c979a1d58.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which one of the following statements is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In the principal planes, both normal and shear stress are always zero"
+    },
+    {
+     "key": "B",
+     "html": "In the principal planes, shear stress may or may not be zero and in the maximum shear planes, normal stresses may or may not be zero"
+    },
+    {
+     "key": "C",
+     "html": "In the principal planes, shear stress is always zero and in the maximum shear planes normal stresses are always zero."
+    },
+    {
+     "key": "D",
+     "html": "In the principal planes, shear stresses are always zero but in the maximum shear planes,normal stress may or may not be zero."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The figure below shows the Mohr’s circle for a particular loading condition</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/dc/dc4bf9417cc08a7a1461.png\" /></div>\n\n<div>Absolute maximum value of shear stress is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "25 MPa"
+    },
+    {
+     "key": "B",
+     "html": "15 MPa"
+    },
+    {
+     "key": "C",
+     "html": "40 MPa"
+    },
+    {
+     "key": "D",
+     "html": "45 MPa"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0e/0ef7965b95bf854380ca.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If a shaft is subjected to a torque loading then</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Angle of twist is proportional to length and shear strain is proportional to radius."
+    },
+    {
+     "key": "B",
+     "html": "Angle of twist is proportional to radius and shear strain is proportional to length."
+    },
+    {
+     "key": "C",
+     "html": "Angle of twist is inversely proportional to length and shear strain is inversely proportional to radius."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/43/43562c83c619529fd8f4.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the beam as shown is figure, the deflection at point <em>B</em> is:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7e/7e649e08d6b458480c24.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/32/3263d4051c879f31bb2d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/42/42af7c103c21142f2209.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/59/5962085e7f421857f1d1.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/41/417b9aea89df94e51a7a.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0e/0ea235b506a093e120a8.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. If only shear stress is acting then volume of the specimen does not change.<br />\n2. The ultimate shear strength observed from shear stress-strain curve is almost the same as ultimate normal strength observed from normal stress-strain curve.<br />\n3. For an isotropic and homogeneous material, number of independent and distinct elastic constants are 21.<br />\nWhich of the statement are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "1 only"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nFor isotropic and homogeneous material, number of independent elastic constants is 2 i.e. (E and &mu;).<br />\nIf body are stressed by shear stress as in pure shear case, then the change in volume of stressed<br />\nbody is zero.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The product of inertia of a section is equal to zero if</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "the axis passes through the centroid."
+    },
+    {
+     "key": "B",
+     "html": "the axis passes through the neutral layer."
+    },
+    {
+     "key": "C",
+     "html": "the section is essentially symmetrical about atleast one of the axis."
+    },
+    {
+     "key": "D",
+     "html": "the section is essentially symmetrical about both axes."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nProduct of inertia is zero about principal axis and atleast one of the principal axis is always<br />\nsymmetrical axis.</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. For most of the brittle materials, the ultimate strength in compression is much larger than ultimate strength in tension.<br />\n2. The presence of flaws such as microscopic cracks as cavities, which tend to weaken the brittle material in tension, does not appreciably affect its resistance to compressive failure.<br />\nWhich of the above statements is/are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1-only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements for a simply supported beam carrying a couple somewhere in the span.<br />\n1. Shear force diagram is rectangular<br />\n2. Bending moment diagram is parabolic<br />\n3. Both positive and negative BMs are maximum at the point of application of the couple.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/48/484544ab00305b3822d9.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Theory of failure) with <strong>List-II</strong> (Failure envelope) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7f/7fa6564cd393fc1ca4e8.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The distribution factors for members <em>CB</em>, <em>CD</em> and <em>CG</em> respectively are:<br />\n[Assume: <em>EI</em> = Constant]</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bc/bc059ed26e02874b694f.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.375, 0.25 and 0.375"
+    },
+    {
+     "key": "B",
+     "html": "0.25, 0.25 and 0.5"
+    },
+    {
+     "key": "C",
+     "html": "0.375, 0.375 and 0.25"
+    },
+    {
+     "key": "D",
+     "html": "0.25, 0.375 and 0.375"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/da/da17d2a525103283960c.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A fixed beam <em>AB</em> is subjected to a triangular load uniformly varying from zero at end <em>A</em> to 10 kN/m at end <em>B</em>. The ratio of magnitudes of fixed end moments at <em>A</em> to <em>B</em> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.50"
+    },
+    {
+     "key": "B",
+     "html": "0.33"
+    },
+    {
+     "key": "C",
+     "html": "0.67"
+    },
+    {
+     "key": "D",
+     "html": "1.50"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/65/6553400dc67e48ca1ac1.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A portal frame is shown in the figure below. If <img align=\"absmiddle\" alt=\"\" src=\"media/68/68e9ed2afbef43bc07e6.png\" /> radian, then the value of moment <em>M<sub>BC</sub></em> will be</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5f/5f455ca7a5d2412061e4.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "110 kN-m"
+    },
+    {
+     "key": "B",
+     "html": "130 kN-m"
+    },
+    {
+     "key": "C",
+     "html": "220 kN-m"
+    },
+    {
+     "key": "D",
+     "html": "260 kN-m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/90/90e14456a50b39691e4b.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If the stiffness matrix of a beam element is given as <img align=\"absmiddle\" alt=\"\" src=\"media/de/deec6685988f30188c27.png\" /> then the corresponding flexibility matrix will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d3/d3bf2f91a70ad3372156.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/14/1462af482ad366ede51d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/6d/6df35e9e89c35a053c14.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/3e/3e1a9bfdfb159095bf11.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/10/10c7aeb8158ff042ed26.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A single wheel load of 25 kN rolls on a girder of 20 m span. The absolute maximum bending moment occurring over the span is _____ kN-m. (Correct upto two decimal places).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "75 kNm"
+    },
+    {
+     "key": "B",
+     "html": "100 kNm"
+    },
+    {
+     "key": "C",
+     "html": "150 kNm"
+    },
+    {
+     "key": "D",
+     "html": "125 kNm"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/96/9678272d3ace1be8fd8d.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The method of “principle of super position” for analysis of structure is applicable when<br />\n1. The material obeys Hooke’s law<br />\n2. The effect of temperature changes are taken into consideration.<br />\n3. The effects of settlement of supports are taken into consideration.<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nMethod of super position is applicable when<br />\n&bull; Material obeys Hooke&rsquo;s law<br />\n&bull; The effect of temperature changes are take into consideration.<br />\n&bull; The effects of settlement of supports are taken into consideration.</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Method) with <strong>List-II</strong> (Attribute) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/51/51746c23680ad7e0e292.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e6e9da3789462d7530f2.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In slope deflection equation, deformations are considered to be caused by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "bending moment"
+    },
+    {
+     "key": "B",
+     "html": "shear force"
+    },
+    {
+     "key": "C",
+     "html": "axial force"
+    },
+    {
+     "key": "D",
+     "html": "all of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nIn slope-deflection equations, deformations (specifically angular and transverse displacements)<br />\nare primarily considered to be caused by bending moment because the method is a displacement<br />\nmethod that directly relates moments to rotations and deflections, while neglecting the effects of<br />\naxial and shear forces on these angular deformations.</p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following three-hinged parabolic arch :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b0/b00900a4beaa887e1b71.png\" /></div>\n\n<div>The ratio of span <em>l</em><sub>1</sub> to <em>l</em><sub>2</sub> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.50"
+    },
+    {
+     "key": "B",
+     "html": "1.414"
+    },
+    {
+     "key": "C",
+     "html": "0.707"
+    },
+    {
+     "key": "D",
+     "html": "2.0"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cd/cdf8dd65a3038e5dcfab.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Factor load method of approximate analysis deals with vertical loads only.<br />\n2. Portal method and cantilever method of approximate analysis deal with horizontal loads.<br />\nWhich of the above statement(s) is/are INCORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe approximate &ldquo;factor method&rdquo; is used for analyzing multistory frames subjected to horizontal<br />\nor lateral loads, such as wind and seismic forces. The analysis for vertical loads is typically done<br />\nusing other approximate methods, like the substitute frame method.<br />\nThe portal method and cantilever method are both approximate analysis techniques specifically<br />\nfor frames subjected to horizontal loads.</p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>An SDOF system consists of a weight of 10 kN and a spring of stiffness 9 N/mm. The system has damping force of 250 N with velocity of 280 mm/sec. If the damping ratio is 0.1 then the damped natural frequency is: [Take. <em>g</em> = 10 m/sec<sup>2</sup>].</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 rad/sec"
+    },
+    {
+     "key": "B",
+     "html": "2.98 rad/sec"
+    },
+    {
+     "key": "C",
+     "html": "9 rad/sec"
+    },
+    {
+     "key": "D",
+     "html": "8.95 rad/sec"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d5/d55bab812d804ab6ad2a.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the beam section as shown in figure, what is the shape factor?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8b/8b7a13806a0caa963f23.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.46"
+    },
+    {
+     "key": "B",
+     "html": "1.54"
+    },
+    {
+     "key": "C",
+     "html": "1.74"
+    },
+    {
+     "key": "D",
+     "html": "1.64"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6a/6a226ef9ad95b724ef56.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following statements are correct about conditions in plastic analysis?<br />\n1. When a mechanism forms, the ultimate load is reached.<br />\n2. In equilibrium condition, mechanism condition and yield condition are satisfied and a unique value of highest plastic limit, is obtained.<br />\n3. In yield condition, bending moment at any section must not exceed the full plastic moment of the section.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "All of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nIn equilibrium condition, mechanism condition and yield condition are satisfied and a unique<br />\nvalue i.e. the lowest plastic limit, is obtained. This is also called kinematic method of plastic<br />\nanalysis.</p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A continuous beam is loaded as shown in the figure below. Assuming the plastic moment capacity as <em>M<sub>p</sub></em>, the minimum load at which the beam will collapse is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/70/70d6c2f3062ef6f1773d.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/1f/1fe20e3e29c483b99431.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/32/329fc85b830b87a63423.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/d9/d9ca615a01be055f988a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/e5/e52c9f3f712350efd22e.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/05/051d708d8699ca5c2e55.png\" /></div>\n\n<div><img alt=\"\" src=\"media/df/dfe359bc2fbfc8e02e21.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A circular plate 150 mm in diameter is welded to another plate by means of 6 mm fillet weld. If the permissible shearing stress in the weld equals 10 kg/mm<sup>2</sup>, then the greatest twisting moment that can be resist the weld will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/73/735701c9470d608f0ee9.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/ed/ed376223122f8d0b0c6c.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/fd/fd079ca39d71a050345c.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/31/318b81fd0709e4bf36c6.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/74/747827df1602d9e0d536.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Intermediate vertical stiffeners are provided in the plate girders to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "eliminate web buckling"
+    },
+    {
+     "key": "B",
+     "html": "eliminate local buckling"
+    },
+    {
+     "key": "C",
+     "html": "transfer concentrated loads"
+    },
+    {
+     "key": "D",
+     "html": "prevent excessive deflection"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nIntermediate vertical stiffeners in plate girders are primarily designed to prevent the web from<br />\nbuckling under shear stresses. Buckling occurs when a thin plate experiences excessive compression,<br />\ncausing it to deform and lose stability. These stiffeners divide the web into smaller panels,<br />\nincreasing its resistance to buckling and maintaining the structural integrity of the girder.</p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Splices are provided when the available length is higher than the required length of a tension member.<br />\n2. In design of a tension splice, the effect of eccentricity is neglected as far as possible.<br />\n3. If sections to spliced are not of same thickness, packings are introduced.<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3"
+    },
+    {
+     "key": "D",
+     "html": "All of above"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nSplices are used to join two sections of a member when the available length of a single rolled<br />\nsection is less than the required length.</p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Local buckling in beam can controlled by:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Width-to-thickness ratio of each element of cross-section."
+    },
+    {
+     "key": "B",
+     "html": "Width-to-depth ratio of each element of cross-section."
+    },
+    {
+     "key": "C",
+     "html": "Span-to-width ratio of each element of cross-section."
+    },
+    {
+     "key": "D",
+     "html": "Span-to-depth ratio of each element of cross-section."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nLocal buckling in beams is controlled by the width to thickness ratio of each element of the crosssection.<br />\nA lower width-to-thickness ratio makes an element more resistant to local buckling, as a<br />\nsmaller ratio signifies a thicker, more stable plate element relative to its width.</p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A slab base in designed for ISHB 300 having flange width of 250 mm and the base plate provided has the dimensions of 360 mm × 300 mm. The thickness of base plate is determined by the formula given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/78/789bf239b29384eb225f.png\" /></div>\n\n<div>The values of <em>a</em> and <em>b</em> in the above formula are respectively</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "30 mm and 30 mm"
+    },
+    {
+     "key": "B",
+     "html": "25 mm and 30 mm"
+    },
+    {
+     "key": "C",
+     "html": "30 mm and 25 mm"
+    },
+    {
+     "key": "D",
+     "html": "30 mm and 20 mm"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b5/b5e87366e034926d1bc9.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Intermittent fillet welds are not economical, unless the weld is of minimum size.<br />\n2. Intermittent welding should not be used when a structure is subjected to dynamic or repetitive loads.<br />\n3. At the ends, the longitudinal intermittent fillet weld should be of length not less than the width of the member, otherwise transverse welds should be provided.<br />\nWhich of the above statements are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 34,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the given stress block, determine the balancing moment of resistance of the section. Take Fe500 grade of steel</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/00/00e7329e31192b65a517.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.1325 <em>f<sub>ck</sub></em> <em>bd</em><sup>2</sup>"
+    },
+    {
+     "key": "B",
+     "html": "0.1335 <em>f<sub>ck</sub></em> <em>bd</em><sup>2</sup>"
+    },
+    {
+     "key": "C",
+     "html": "0.1435 <em>f<sub>ck</sub></em> <em>bd</em><sup>2</sup>"
+    },
+    {
+     "key": "D",
+     "html": "0.1425 <em>f<sub>ck</sub></em> <em>bd</em><sup>2</sup>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/aa/aad27ab26b00bcba8705.png\" /></div>"
+  },
+  {
+   "n": 35,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/22/22c4acd892c3c8da6864.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 36,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Maximum spacing of reinforcement in slab of effective depth 90 mm for main and distribution bars respectively are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "270 mm and 450 mm"
+    },
+    {
+     "key": "B",
+     "html": "300 mm and 450 mm"
+    },
+    {
+     "key": "C",
+     "html": "270 mm and 300 mm"
+    },
+    {
+     "key": "D",
+     "html": "300 mm and 270 mm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/15/151a8f6384cbdb14a502.png\" /></div>"
+  },
+  {
+   "n": 37,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If a beam of cross-section 300 mm × 600 mm is subjected to a torsional moment of 60 kN-m, then the equivalent shear force is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "168 kN"
+    },
+    {
+     "key": "B",
+     "html": "320 kN"
+    },
+    {
+     "key": "C",
+     "html": "640 kN"
+    },
+    {
+     "key": "D",
+     "html": "450 kN"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/00/004d30eb92cdd4bb1dc0.png\" /></div>"
+  },
+  {
+   "n": 38,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>While designing a combined footing, the resultant the column loads passes through the centre of gravity of the footing so that the net upward soil pressure obtained is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "uniform"
+    },
+    {
+     "key": "B",
+     "html": "non uniform"
+    },
+    {
+     "key": "C",
+     "html": "parabolic"
+    },
+    {
+     "key": "D",
+     "html": "trapezoidal"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nWhen the resultant load is centered, the pressure distribution across the footing is evenly<br />\ndistributed, resulting in a uniform soil pressure.</p>"
+  },
+  {
+   "n": 39,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A beam is prestressed by a cable carrying an initial prestress of 500 N/mm<sup>2</sup>. The loss of prestress due to shrinkage of concrete, if the beam is post-tensioned and age of concrete at transfer stage 8 days, is<br />\n[Take <em>E<sub>S</sub> </em>= 2 × 10<sup>5</sup> N/mm<sup>2</sup>]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20 N/mm<sup>2</sup>"
+    },
+    {
+     "key": "B",
+     "html": "40 N/mm<sup>2</sup>"
+    },
+    {
+     "key": "C",
+     "html": "60 N/mm<sup>2</sup>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2b/2b8b407a419dca3c6524.png\" /></div>"
+  },
+  {
+   "n": 40,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which one of the following represents the ratio of volume of helical reinforcement to volume of core?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/98/98e49e64ebd1f3fbc09f.png\" /></div>\n\n<div>where <em>A<sub>g</sub></em>, <em>A<sub>S</sub></em> and <em>A</em><sub><em>C</em> </sub>are gross cross sectional area of the member, area of steel and core area; and <em>f<sub>ck</sub></em> and <em>f<sub>y</sub></em> are characteristic strength of concrete and steel respectively.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8b/8bab378f1cd5c8b8f1d9.png\" /></div>"
+  },
+  {
+   "n": 41,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The splicing of reinforcement bars in RCC beam can be done at a section where</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "bending moment is zero"
+    },
+    {
+     "key": "B",
+     "html": "bending moment is less than the maximum bending moment"
+    },
+    {
+     "key": "C",
+     "html": "bending moment is less than the one half of the maximum bending moment"
+    },
+    {
+     "key": "D",
+     "html": "shear force is zero"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nAccording to IS 456 : 2000, splices should not be placed at sections where the bending moment<br />\nexceeds 50% of the moment of resistance at that section. This means the bending moment must be<br />\nless than one half of the maximum bending moment.</p>"
+  },
+  {
+   "n": 42,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If creep coefficient for concrete at 7 days is α and at 28 days is β then</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "α < β"
+    },
+    {
+     "key": "B",
+     "html": "α > β"
+    },
+    {
+     "key": "C",
+     "html": "α = β"
+    },
+    {
+     "key": "D",
+     "html": "Can’t say"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/be/befb8f4d711353f02873.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 43,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a reinforced concrete section, shear stress distribution is diagrammatically,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Wholly parabolic"
+    },
+    {
+     "key": "B",
+     "html": "Wholly rectangular"
+    },
+    {
+     "key": "C",
+     "html": "Parabolic above <em>NA</em> and rectangular below <em>NA</em>"
+    },
+    {
+     "key": "D",
+     "html": "Rectangular above <em>NA</em> and parabolic below <em>NA</em>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9d/9d69cc075585a4dd2772.png\" /></div>"
+  },
+  {
+   "n": 44,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding flanged beams:<br />\n1. A slab which is assumed to act as a compression flange should be casted integrally with the web or bonded together in any other manner.<br />\n2. If the main reinforcement of slab is parallel to the beam, transverse reinforcement should not be less than 60% of main reinforcement at mid span of slab.<br />\nWhich of the above statement(s) is/are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nRefer Cl 23.1.1 or IS 456 : 2000.</p>"
+  },
+  {
+   "n": 45,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. The chances of diagonal tension crack in RCC members reduce when axial compression and shear force act simultaneously.<br />\n2. The maximum permissible shear stress τ<sub>max</sub> given in IS : 456 - 2000 is based on diagonal tension failure.<br />\n3. In limit state design, permissible bond stress in the case of deformed bar is more than that in plain bars by 60%.<br />\nWhich of the above statements are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\n&tau;<sub>c max</sub> is based on diagonal compression failure.</p>"
+  },
+  {
+   "n": 46,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The original cost of an equipment is Rs. 40,000. Its salvage value at the end of its total useful life of five years is Rs. 5000. Its book value at the end of two years of its useful life (as per straight line method of evaluation of depreciation) will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Rs. 35000"
+    },
+    {
+     "key": "B",
+     "html": "Rs. 32500"
+    },
+    {
+     "key": "C",
+     "html": "Rs. 30000"
+    },
+    {
+     "key": "D",
+     "html": "Rs. 26000"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/84/84500265c889a2c26561.png\" /></div>"
+  },
+  {
+   "n": 47,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The optimistic, most likely and pessimistic time estimates of an activity are 10, 20 and <em>X</em> days respectively. If the variance is 25, then the value of <em>X</em> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20 days"
+    },
+    {
+     "key": "B",
+     "html": "30 days"
+    },
+    {
+     "key": "C",
+     "html": "40 days"
+    },
+    {
+     "key": "D",
+     "html": "50 days"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b9/b9c126e17d11be213ecf.png\" /></div>"
+  },
+  {
+   "n": 48,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Free float affects only the succeeding activity.<br />\n2. Independent float affects only the particular concerned activity.<br />\n3. Total float affects both successive and preceding activity.<br />\nWhich of the above statements are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\n<strong>&bull; Independent float</strong> is the amount of time by which an activity can be delayed without affecting<br />\nany preceding or succeeding activities. It is the most restricted type of float and is defined by<br />\na delay that does not impact any other activity in the project network.<br />\n&bull; <strong>Total float</strong> is the amount of time by which an activity can be delayed without delaying the<br />\nproject&#39;s overall completion date. Though total float can affect the floats of both preceding<br />\nand succeeding activities in the same path, as it consumes a shared buffer time.</p>"
+  },
+  {
+   "n": 49,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following statements are CORRECT regarding ladder network?<br />\n1. It is used to isolate repetitive works.<br />\n2. It enables uninterrupted utilization of equipment.<br />\n3. It is difficult to find activity on critical path.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\n&bull; Ladder networks are used in project management to model and manage projects that involve<br />\nrepetitive activities, such as those in construction.<br />\n&bull; This technique, also referred to as &quot;laddering&quot; is a form of multi-tasking where work can<br />\ncontinue without interruption, allowing for the continuous use of resources.<br />\n&bull; The use of a ladder network can make identifying the critical path difficult. It can even lead<br />\nto more than one critical path, which increases the complexity and risk of the project schedule.</p>"
+  },
+  {
+   "n": 50,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In the network shown below, the earliest expected time for event 6 to be attained is:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/12/123d045a05996946b3e7.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20 units"
+    },
+    {
+     "key": "B",
+     "html": "16 units"
+    },
+    {
+     "key": "C",
+     "html": "17 units"
+    },
+    {
+     "key": "D",
+     "html": "23 units"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/35/353d1379602c5e34e981.png\" /></div>"
+  },
+  {
+   "n": 51,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\nThe salient features of a bar chart over network are that<br />\n1. It is simple to draw and easy to understand.<br />\n2. It is unable to depict interdependencies of activities.<br />\n3. It clearly distinguishes between critical and non-critical activities.<br />\n4. It is not possible to crash activities to get optimum and minimum duration of the project.<br />\nWhich of the above statements are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 2, 3 and 4"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1, 2 and 4"
+    },
+    {
+     "key": "D",
+     "html": "1, 3 and 4"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nThe salient features of bar chart are:<br />\n(i) Simple to draw and easy to understand<br />\n(ii) Unable to depict interdependencies<br />\n(iii) Cannot distinguish critical and non-critical activities<br />\n(iv) Not possible to crash activities</p>"
+  },
+  {
+   "n": 52,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. One of the disadvantage of bar chart is that it does not depict the interdependencies of the activities.<br />\n2. In work breakdown structure, top-down approach is adopted.<br />\nWhich of the above statement(s) is/are INCORRECT.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 both"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nLimitations of bar chart:<br />\n&bull; Lack of degree of details.<br />\n&bull; Review of project progress.<br />\n&bull; It does not show interdependencies and relationship between various activities of the project.<br />\n&bull; Time uncertainties.<br />\n&bull; It does not indicate the critical activities of the project.<br />\nWork Breakdown Structure (WBS):<br />\n&bull; Work Breakdown Structure is a graphical representation of functional elements of entire<br />\nproject.<br />\n&bull; It follows top to bottom approach.</p>"
+  },
+  {
+   "n": 53,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A project consists of six activities (jobs) designated from <em>A</em> to <em>F</em> as shown below in the network diagram</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/98/9835d538329877f972b5.png\" /></div>\n\n<div>In reference to above network diagram, which of the following relationships are correct?<br />\n1. <em>B</em> and <em>C</em> can be performed concurrently and must follow <em>A</em>.<br />\n2. <em>B</em> must precede <em>D</em>.<br />\n3. <em>E</em> must precede <em>C</em>, but it cannot be started until <em>B</em> is complete.<br />\n4. <em>F</em> is the last operation and depends on the completion of only activity <em>D</em>.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "3 and 4"
+    },
+    {
+     "key": "D",
+     "html": "1 and 4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n&bull; <em>E</em> must succeed <em>C</em>, but it cannot be started until <em>B</em> is complete.<br />\n&bull; <em>F</em> is the last operation and depends on the completion of both <em>D</em> and <em>E</em>.</p>"
+  },
+  {
+   "n": 54,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In the network shown below, what is the total float for activity ‘<em>D</em>’?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/75/75d36294607ffde01a15.png\" /></div>\n\n<div> </div>\n\n<div>(Activity duration in days)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5 days"
+    },
+    {
+     "key": "B",
+     "html": "6 days"
+    },
+    {
+     "key": "C",
+     "html": "7 days"
+    },
+    {
+     "key": "D",
+     "html": "8 days"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e9/e9d2cf9b43c900e7623c.png\" /></div>"
+  },
+  {
+   "n": 55,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The duration for which 95% confidence of completion of project with standard deviation of 4.24 days and expected completion time of 31 days is<br />\n(For 95% confidence, Z = 1.64)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "32.92 days"
+    },
+    {
+     "key": "B",
+     "html": "34.85 days"
+    },
+    {
+     "key": "C",
+     "html": "36.75 days"
+    },
+    {
+     "key": "D",
+     "html": "37.95 days"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/2965673a0b44e76b9321.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 56,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Sinking funds are created out of earnings or depreciations.<br />\n2. To amortize is to pay off or satisfy, a debt by means of a sinking fund<br />\n3. Equivalence implies that unequal usage is compensated by the ROR realizable by the investor<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3"
+    },
+    {
+     "key": "C",
+     "html": "2 only"
+    },
+    {
+     "key": "D",
+     "html": "2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 57,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Cost) with <strong>List-II</strong> (Feature) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bd/bd44ad0972c39a4b0c75.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nFixed indirect cost is independent of the progress of project. It includes initial expenditure for<br />\npurchase of equipment, installation and storage charge required for different activities.</p>"
+  },
+  {
+   "n": 58,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Negative value of cost variance (CV) of construction project indicates that project is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Behind schedule"
+    },
+    {
+     "key": "B",
+     "html": "Exceeding the budget"
+    },
+    {
+     "key": "C",
+     "html": "Within the budget"
+    },
+    {
+     "key": "D",
+     "html": "On schedule"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\n<strong>&bull; Cost Variance (CV)</strong> is a metric used in project management to measure financial performance.<br />\nIt is calculated by subtracting the actual cost (AC) from the earned value (EV) of the work<br />\nperformed (CV = EV &ndash; AC).<br />\n&bull; <strong>A negative value</strong> of cost variance indicates that the actual cost is greater than the earned<br />\nvalue, meaning the project has spend more money than was budgeted for the work. Therefore,<br />\nthe project is exceeding the budget.</p>"
+  },
+  {
+   "n": 59,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a9/a9d512fa4a200ca244b2.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nLow heat Portland cement can be used for mass concreting in very large structures while rapid<br />\nhardening Portland cement is unsuitable for mass concreting.<br />\nAir entraining Portland cement provides greater resistance to frost attack and hydrophobic.<br />\nPortland cement can be stored safely under unfavourable conditions of humidity.</p>"
+  },
+  {
+   "n": 60,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Blast furnace slag has approximately</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "45% calcium oxide and about 35% silica."
+    },
+    {
+     "key": "B",
+     "html": "50% alumina and 20% calcium oxide."
+    },
+    {
+     "key": "C",
+     "html": "25% magnesia and 15% silica."
+    },
+    {
+     "key": "D",
+     "html": "25% calcium sulphate and 15% alumina."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a7/a7c019ee31932bce85e3.png\" /></div>"
+  },
+  {
+   "n": 61,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Gypsum is used as an admixture in cement grouts for</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "accelerating the setting time"
+    },
+    {
+     "key": "B",
+     "html": "increasing the plasticity"
+    },
+    {
+     "key": "C",
+     "html": "retarding the setting time"
+    },
+    {
+     "key": "D",
+     "html": "reducing the grout shrinkage"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nIn cement grouts, generally it is required to be in mobile condition for about 3 to 4 hours without<br />\ngetting set. Hence gypsum is used in cement grout for retarding the setting time.</p>"
+  },
+  {
+   "n": 62,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Tri-calcium silicate<br />\n2. Di-calcium silicate<br />\n3. Tri-calcium aluminate<br />\n4. Tetra-calcium alumino ferrite<br />\nWhich of the above is/are responsible for initial setting of cement?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "3 and 4"
+    },
+    {
+     "key": "D",
+     "html": "1 and 2"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nTri-calcium aluminate is only responsible for initial setting of cement.</p>"
+  },
+  {
+   "n": 63,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Presence of uncombined lime<br />\n2. Binding qualities<br />\n3. Insoluble residues<br />\n4. Fineness of cement<br />\nS. Setting time of cement<br />\nThe object of soundness test of cement is to determine</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 3 and 5"
+    },
+    {
+     "key": "B",
+     "html": "2, 3 and 4"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "1 only"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nUncombined lime in cement causes unsoundness. Therefore soundness test is done to determine<br />\nthe excess lime.</p>"
+  },
+  {
+   "n": 64,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Constituent of cement) with <strong>List-II</strong> (Function) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/dd/dd4cc4cf862085576760.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nSilica prevents shrinkage.<br />\nAlumina provides hardness.<br />\nLime provides bondage to clay particles.<br />\nRed colour of brick is due to iron oxides.</p>"
+  },
+  {
+   "n": 65,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Super plasticizers or super water reducers result in greatly increased workability.<br />\n2. Super plasticizers or super water reducers result in an increased tendency to segregate.<br />\n3. Super plasticizers facilitate production of flowing concrete.<br />\n4. Super plasticizers contain sulphonated melamine formaldehyde resin<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 2 and 3"
+    },
+    {
+     "key": "B",
+     "html": "1, 2 and 4"
+    },
+    {
+     "key": "C",
+     "html": "2, 3 and 4"
+    },
+    {
+     "key": "D",
+     "html": "All are correct"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nAll statements are correct<br />\nSuper plasticizer contain SMF or SNF.<br />\nThey increase workability for same water-cement ratio.</p>"
+  },
+  {
+   "n": 66,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>To make one cubic meter of 1 : 2 : 4 concrete by volume, the volume of coarse aggregates required is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.95 m<sup>3</sup>"
+    },
+    {
+     "key": "B",
+     "html": "0.88 m<sup>3</sup>"
+    },
+    {
+     "key": "C",
+     "html": "0.75 m<sup>3</sup>"
+    },
+    {
+     "key": "D",
+     "html": "0.68 m<sup>3</sup>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fb/fbd9d23e3c7b47730f02.png\" /></div>"
+  },
+  {
+   "n": 67,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The mix design for pavement concrete is based on the</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "flexural strength"
+    },
+    {
+     "key": "B",
+     "html": "characteristic compressive strength"
+    },
+    {
+     "key": "C",
+     "html": "shear strength"
+    },
+    {
+     "key": "D",
+     "html": "bond strength"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe stress induced in concrete pavement is mainly flexural stress.<br />\n&there4; Flexural strength is more often specified than compressive strength in the design of concrete<br />\nmixes for pavement construction.</p>"
+  },
+  {
+   "n": 68,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The percentage of fine aggregates to coarse aggregates is equal to</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/47/4713bacbdc81baec91f3.png\" /></div>\n\n<div>where <em>x</em>, <em>y</em>, <em>z</em> are fineness moduli of coarse, fine and combined aggregates respectively.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2a/2aa4f6d630f199049cf4.png\" /></div>"
+  },
+  {
+   "n": 69,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The heat of hydration of cement can be reduced by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "reducing the proportion of <em>C</em><sub>3</sub><em>A</em> and <em>C</em><sub>3</sub><em>S</em>"
+    },
+    {
+     "key": "B",
+     "html": "increasing the proportion of <em>C</em><sub>3</sub><em>A</em> and <em>C</em><sub>3</sub><em>S</em>"
+    },
+    {
+     "key": "C",
+     "html": "increasing the fineness of cement"
+    },
+    {
+     "key": "D",
+     "html": "Both (b) and (c)"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n<em>C</em><sub>3</sub><em>A</em> produces maximum amount of heat during hydration. Therefore heat of hydration can be reduced by reducing the amount of <em>C</em><sub>3</sub><em>A</em>.</p>"
+  },
+  {
+   "n": 70,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For a constant water-cement ratio, a decrease in aggregate-cement ratio causes</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "increase in workability"
+    },
+    {
+     "key": "B",
+     "html": "decrease in workability"
+    },
+    {
+     "key": "C",
+     "html": "no change in workability"
+    },
+    {
+     "key": "D",
+     "html": "none of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nFor a constant water-cement ratio, an increase in aggregate-cement ratio will decrease the<br />\nworkability. Also more cementitious material is needed when finer aggregate grading is used.<br />\nOn the other hand, on decreasing aggregate-cement ratio will increase the workability of concrete<br />\nas more cement is available to lubricate the aggregates.</p>"
+  },
+  {
+   "n": 71,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Select the correct statement</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Absolute pressure = Gauge pressure – Atmospheric pressure."
+    },
+    {
+     "key": "B",
+     "html": "Gauge pressure = Absolute pressure – Atmospheric pressure."
+    },
+    {
+     "key": "C",
+     "html": "Absolute pressure = Atmospheric pressure + Vacuum pressure."
+    },
+    {
+     "key": "D",
+     "html": "Gauge pressure = Atmospheric pressure + Vacuum pressure."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 72,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A stream function is given by ψ = 2 <em>x</em><sup>2</sup><em>y</em> + <em>xy</em><sup>2</sup>. The flow rate across a line joining points <em>A</em>(3, 0) and <em>B</em>(4, 1) is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12 units"
+    },
+    {
+     "key": "B",
+     "html": "1.5 units"
+    },
+    {
+     "key": "C",
+     "html": "8 units"
+    },
+    {
+     "key": "D",
+     "html": "36 units"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/27/2783c7a1cccfbae49016.png\" /></div>"
+  },
+  {
+   "n": 73,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The capillary rise of water at 20°C in a clean glass tube, 1.0 mm in diameter is about<br />\n(Assume surface tension of water at 20°C as 0.07 N/m). [Take <em>g</em> = 9.81 m/s<sup>2</sup>]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "28.54 mm"
+    },
+    {
+     "key": "B",
+     "html": "28.20 mm"
+    },
+    {
+     "key": "C",
+     "html": "27.65 mm"
+    },
+    {
+     "key": "D",
+     "html": "27.30 mm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/90/900acfe58ff9e264dcf2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 74,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A circular disc of diameter <em>D</em> is immersed vertically in a liquid of density ρ. The top most point of disc just touches the liquid surface. The depth of the center of pressure from the water surface is :</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d8/d8c2adb70f371e448632.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/70/70ca3143913f426efd2f.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/2b/2b87e7eee724e6cfe533.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/54/5411fdf8d1a6d753d94b.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ce/ce36afb7333895372606.png\" /></div>"
+  },
+  {
+   "n": 75,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If <em>u</em> and <em>v</em> are the components of velocity is x and y directions respectively and are given by <em>u</em> = <em>ax </em>+ by and <em>v</em> = <em>cx</em> + <em>dy</em> then the condition to be satisfied for continuity of flow is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>a</em> + <em>c</em> = 0"
+    },
+    {
+     "key": "B",
+     "html": "<em>a</em> + <em>d</em> = 0"
+    },
+    {
+     "key": "C",
+     "html": "<em>a</em> + <em>b</em> + <em>c</em> + <em>d</em> = 0"
+    },
+    {
+     "key": "D",
+     "html": "<em>b</em> + <em>c</em> = 0"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/14/1403a6511b5c1a6963cb.png\" /></div>"
+  },
+  {
+   "n": 76,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a rectangular channel, depth of flow is 0.9 m and initial flow velocity is 3 m/sec. If an upstream moving surge is created with very small height waves, then absolute velocity of wave will be given as<br />\n[Take g = 10 m/s<sup>2</sup>]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 m/sec"
+    },
+    {
+     "key": "B",
+     "html": "6 m/sec"
+    },
+    {
+     "key": "C",
+     "html": "0 m/sec"
+    },
+    {
+     "key": "D",
+     "html": "4 m/sec"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d1/d17a402b33d0d9621075.png\" /></div>"
+  },
+  {
+   "n": 77,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The sequent depth ratio at a section where a hydraulic jump has formed is 2.5. If the initial depth is found to be 10 m, then estimate the energy lost in the jump.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.350 m"
+    },
+    {
+     "key": "B",
+     "html": "3.370 m"
+    },
+    {
+     "key": "C",
+     "html": "3.380 m"
+    },
+    {
+     "key": "D",
+     "html": "3.375 m"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1ae22457f95b49228bcb.png\" /></div>"
+  },
+  {
+   "n": 78,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For a turbulent boundary layer (under zero pressure gradient), the velocity profile is described by one-fifth power law. What is the ratio of displacement thickness to boundary layer thickness?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/03/03cbb3b190882b2ed30f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/64/649218b57b0cc9eb040b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/48/48afd9290399413075e4.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/4b/4b08290a8a415103a0b1.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/71/711f3161f5224051ceb1.png\" /></div>"
+  },
+  {
+   "n": 79,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A water turbine develops 150 kW at 250 rpm, under a head of 16 m, and a similar machine generates 750 kW power under a head of 25 m. Then scale ratio (w.r.t to first turbine) is :</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.2"
+    },
+    {
+     "key": "B",
+     "html": "1.4"
+    },
+    {
+     "key": "C",
+     "html": "1.6"
+    },
+    {
+     "key": "D",
+     "html": "1.8"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5d/5d325df5691c41671dd4.png\" /></div>"
+  },
+  {
+   "n": 80,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the figure shown below with a body completely submerged water.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8c/8c1f6a63037d3c25d0f1.png\" /></div>\n\n<div>What will be the downward force on the top edge of the body <em>ABCDEF</em> ?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The weight of the liquid column <em>ABCHG</em>"
+    },
+    {
+     "key": "B",
+     "html": "The weight of the liquid column <em>DEFGH</em>"
+    },
+    {
+     "key": "C",
+     "html": "The weight of the liquid column <em>ABCHG</em> – the weight of the liquid column <em>DEFGH</em>"
+    },
+    {
+     "key": "D",
+     "html": "The weight of the liquid column <em>ABCHG</em> + the weight of the liquid column <em>DEFGH</em>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe downward force on the top of the body <em>ABCDEF</em> will be equal to the weight of the liquid<br />\ncontained in the portion <em>ABC</em> extending vertically above the curved surface upto the free<br />\nsurface of water.</p>"
+  },
+  {
+   "n": 81,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following pairs are correctly matched?</p>\n\n<div><img alt=\"\" src=\"media/e7/e715917a9d4499e72ebf.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 2 and 3 only"
+    },
+    {
+     "key": "B",
+     "html": "1, 3 and 4 only"
+    },
+    {
+     "key": "C",
+     "html": "2, 3 and 4 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2, 3 and 4"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ff/ff0b1898495329931cb1.png\" /></div>"
+  },
+  {
+   "n": 82,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A venturimeter has a differential mercury-water manometer connected to its inlet and throat.<br />\nThe gauge reading <em>y</em> of the manometer for a given discharge in the pipe</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "depends on the orientation of the venturimeter"
+    },
+    {
+     "key": "B",
+     "html": "is independent of the orientation of the venturimeter"
+    },
+    {
+     "key": "C",
+     "html": "varies as the slope of the venturimeter with respect to the horizontal"
+    },
+    {
+     "key": "D",
+     "html": "depends on whether the manometer is above or below the pipe centreline"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nChange in the piezometric head between the inlet and throat of a venturimeter is measured by a<br />\ndifferential U-tube manometer. The piezometric head difference depends upon the gauge reading<br />\nregardless of the orientation of the venturimeter, weather it is horizontal, vertical or inclined.</p>"
+  },
+  {
+   "n": 83,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a triangular notch, there is an error of 4% in observing the head. The corresponding error in the computed discharge is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4%"
+    },
+    {
+     "key": "B",
+     "html": "10%"
+    },
+    {
+     "key": "C",
+     "html": "6%"
+    },
+    {
+     "key": "D",
+     "html": "2.5%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e1/e1cb3142c73ae3a7e1dc.png\" /></div>"
+  },
+  {
+   "n": 84,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a super-critical open channel flow, if depth of flow increases, the specific energy</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "increases"
+    },
+    {
+     "key": "B",
+     "html": "decreases"
+    },
+    {
+     "key": "C",
+     "html": "remains constant"
+    },
+    {
+     "key": "D",
+     "html": "increases upto certain critical value."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/14/14892f3c44aa9a65028f.png\" /></div>"
+  },
+  {
+   "n": 85,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a model built on Froude’s law of similarity, a phenomenon lasts for 20 minutes. If the model scale is 1/25 then the duration (in minutes) of the phenomenon in the prototype will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50"
+    },
+    {
+     "key": "B",
+     "html": "100"
+    },
+    {
+     "key": "C",
+     "html": "2500"
+    },
+    {
+     "key": "D",
+     "html": "4"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/59/59a9a0056276470f5caa.png\" /></div>"
+  },
+  {
+   "n": 86,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The laboratory tests on a soil sample gave the following results:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/34/34925dc41ad2221a3c46.png\" /></div>\n\n<div>The value of activity number for the soil will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.61"
+    },
+    {
+     "key": "B",
+     "html": "2.69"
+    },
+    {
+     "key": "C",
+     "html": "1.48"
+    },
+    {
+     "key": "D",
+     "html": "1.65"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bf/bfdf172749b0c70253f5.png\" /></div>"
+  },
+  {
+   "n": 87,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Hydraulic gradient required to initiate ‘quick’ condition is independent of the ratio of volume of voids to volume of solids, in a soil mass.<br />\n2. Initiation of piping under hydraulic structures can be prevented by increasing the length of flow of water.<br />\nWhich of the above statement(s) is/are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a6/a61a5633e688ff8c446d.png\" /></div>"
+  },
+  {
+   "n": 88,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Given that the effective angle of internal friction of a soil is 10°. The angle between the failure plane the major principal plane will be:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "17.5°"
+    },
+    {
+     "key": "B",
+     "html": "27.5°"
+    },
+    {
+     "key": "C",
+     "html": "40°"
+    },
+    {
+     "key": "D",
+     "html": "50°"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e1/e1f6119a2a164763a02e.png\" /></div>"
+  },
+  {
+   "n": 89,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. Weep holes are provided to reduce the active earth pressure on the walls.<br />\n2. Wall friction of the retaining wall decreases active earth pressure.<br />\n3. Pressure on the back of a cantilever sheet pile wall near the embedded end is passive.<br />\nWhich of the above statements are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 2 and 3"
+    },
+    {
+     "key": "B",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1 and 3 only"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/80/80d2d7979105cbf72ad1.png\" /></div>"
+  },
+  {
+   "n": 90,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A saturated clay layer of 2 m thickness has following properties: <em>w<sub>n</sub></em> = 30% and <em>G<sub>s</sub></em> = 2.70. It was found that after application of a certain load, the water content is reduced to 26%. The approximate amount by which the clay layer has settled is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "40 mm"
+    },
+    {
+     "key": "B",
+     "html": "80 mm"
+    },
+    {
+     "key": "C",
+     "html": "120 mm"
+    },
+    {
+     "key": "D",
+     "html": "160 mm"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/49/49a70d7e6fe136364b33.png\" /></div>"
+  },
+  {
+   "n": 91,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In compaction test, <em>MDD</em> stands for maximum dry density and <em>OMC</em> for optimum moisture content. As compaction energy increases</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Both <em>MDD</em> and <em>OMC</em> increases"
+    },
+    {
+     "key": "B",
+     "html": "<em>MDD</em> decreases and <em>OMC</em> increases"
+    },
+    {
+     "key": "C",
+     "html": "<em>MDD</em> increases and <em>OMC</em> decreases"
+    },
+    {
+     "key": "D",
+     "html": "No change in <em>MDD</em> and <em>OMC</em>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/49/4964c4ce6ed906c3a395.png\" /></div>"
+  },
+  {
+   "n": 92,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>During a laboratory consolidation test with double-drainage system, a 30 mm thick clay sample underwent 90% consolidation in 10 minutes. If another sample of the same soil is tested with single drainage with all other conditions remaining same, what would be the time required for it<br />\nto undergo 90% consolidation?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 minutes"
+    },
+    {
+     "key": "B",
+     "html": "20 minutes"
+    },
+    {
+     "key": "C",
+     "html": "30 minutes"
+    },
+    {
+     "key": "D",
+     "html": "40 minutes"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/dd/ddbdeef56a31c704deb2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 93,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>What is Newmark's chart used for?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "To know the safe bearing capacity of a footing"
+    },
+    {
+     "key": "B",
+     "html": "To know settlement of a foundation"
+    },
+    {
+     "key": "C",
+     "html": "To know the stress intensity at any depth due to a loaded foundation"
+    },
+    {
+     "key": "D",
+     "html": "To know the allowable bearing pressure on the foundation"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nNewmark has constructed a circular influence chart to compute the vertical stress at any point at<br />\na depth &#39;Z&#39; under a circular footing, carrying a uniform load of intensity &#39;<em>q</em>&#39;. This chart incidentally<br />\ncan be used not only for circular footing but for all other types of footing like square, rectangular<br />\nor any other shape making it a very useful tool in our hands.</p>"
+  },
+  {
+   "n": 94,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. In a constant head permeameter, if the head causing flow is decreased then the value of coefficient of permeability of a given soil will increase.<br />\n2. Constant head permeability test is not used for fine-grained soils.<br />\n3. In a falling head permeability test, if the diameter of the stand pipe is reduced then the value of coefficient of permeability of a given soil will decrease.<br />\n4. Permeability of soil decreases as the effective stress acting on the soil increases.<br />\nWhich of the above statements are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 and 4"
+    },
+    {
+     "key": "B",
+     "html": "1, 2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "2, 3 and 4"
+    },
+    {
+     "key": "D",
+     "html": "1, 2, 3 and 4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f6/f6195a2ed49120ad0fa0.png\" /></div>"
+  },
+  {
+   "n": 95,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>From the figure below, what can safely be concluded about the permeabilities (<em>k</em><sub>1</sub>, <em>k</em><sub>2</sub>, <em>k</em><sub>3</sub>) of the soils?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/47/47e61ebb920e492cb5b7.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/b7/b7c3f771d0cace61febd.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/30/309221b2e4a362de04f4.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/a8/a8741a18b460f5b3065d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "Data insufficient"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/67/678d6dfa60e9eb05bdaa.png\" /></div>"
+  },
+  {
+   "n": 96,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The critical height of a clay slope if height is 12 m and unit weight is 17.5 kN/m<sup>3</sup>, angle of internal friction is zero will be:<br />\nTake: <em>C</em> = 28 kN/m<sup>2</sup> and <em>S<sub>n</sub></em> = 0.060</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "22.64 m"
+    },
+    {
+     "key": "B",
+     "html": "25.53 m"
+    },
+    {
+     "key": "C",
+     "html": "26.64 m"
+    },
+    {
+     "key": "D",
+     "html": "28.35 m"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/de/def0fea21f13df668734.png\" /></div>"
+  },
+  {
+   "n": 97,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A waste water sample of 2 mL is made upto 300 mL in a BOD bottle with distilled water. Initial DO of the sample is 8 mg/L and after 5 days it is 2 mg/L. What is its BOD?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "894 mg/L"
+    },
+    {
+     "key": "B",
+     "html": "900 mg/L"
+    },
+    {
+     "key": "C",
+     "html": "300 mg/L"
+    },
+    {
+     "key": "D",
+     "html": "1200 mg/L"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f6/f65c9c70cc24320c6c9b.png\" /></div>"
+  },
+  {
+   "n": 98,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 12.5 mL sample of treated waste-water requires 187.5 mL of odor-free distilled water to reduce the odor to a level that is just perceptible. What is the threshold odor number (TON) for the wastewater sample?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.07"
+    },
+    {
+     "key": "B",
+     "html": "1.07"
+    },
+    {
+     "key": "C",
+     "html": "15"
+    },
+    {
+     "key": "D",
+     "html": "16"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ec/ec62bd55b1e212da762c.png\" /></div>"
+  },
+  {
+   "n": 99,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Air-binding in rapid sand filters is encountered when</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "there is excessive negative head"
+    },
+    {
+     "key": "B",
+     "html": "the water is subjected to prolonged aeration"
+    },
+    {
+     "key": "C",
+     "html": "the raw water contains dissolved gases"
+    },
+    {
+     "key": "D",
+     "html": "the filter bed comprises largely of coarse sand"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe negative pressure in filter media tends to release the dissolved air and other gases present in water. The gas bubbles gets attached to the sand grains and seriously affects the working of the filter. This is called air binding. Algae may also produce oxygen and cause air binding. So algae growth should be controlled by using algicides.<br />\nIncrease in water temperature reduces solubility of dissolved air and it gets released to cause air<br />\nbinding. So this should be avoided.<br />\nThe filter should be cleaned as soon as loss of head exceeds the optimum allowable values. Here<br />\ncompressed air and water can be used.</p>"
+  },
+  {
+   "n": 100,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. When facultative ponds are used to treat municipal waste water, it is a common practice to use at least three ponds in service to minimize short circuits.<br />\n2. The primary disadvantage for the facultative pond is the high suspended-solids concentrations in the effluent.<br />\nWhich of the above statements are TRUE?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 both"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 101,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The correct sequence with time of biomass growth for secondary treatment of wastewater is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Lag-phase → Endogenous phase → Log-growth phase → Stationary phase"
+    },
+    {
+     "key": "B",
+     "html": "Stationary-phase → Lag phase → Endogenous phase → Log growth phase"
+    },
+    {
+     "key": "C",
+     "html": "Stationary-phase → Lag phase → Log growth phase → Endogenous phase"
+    },
+    {
+     "key": "D",
+     "html": "Lag-phase → Log growth phase → Stationary phase → Endogenous phase"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nIn secondary wastewater treatment, the biomass growth follows a typical bacterial growth curve<br />\nwith distinct phases:<br />\n&bull; <strong>Lag phase:</strong> Initially, the bacteria adapt to the new environment and prepare for rapid growth,<br />\nwith minimal cell division.<br />\n&bull; <strong>Log phase (exponential phase):</strong> The bacteria actively divide and rapidly increase in number<br />\ndue to optimal conditions.<br />\n&bull; <strong>Stationary phase:</strong> The population growth slows down as the nutrient availability becomes<br />\nlimited, and the rate of cell birth equals the rate of cell death.<br />\n&bull; <strong>Endogenous phase:</strong> In some cases, after the stationary phase, there might be a decline in the<br />\npopulation due to nutrient depletion or accumulation of waste products.</p>"
+  },
+  {
+   "n": 102,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Best quality of water is to be drawn for public water supply scheme from a lake. What must is the required state of the lake?<br />\n1. Oligotrophic<br />\n2. Mesotrophic<br />\n3. Eutrophic<br />\n4. Senescent<br />\nSelect the CORRECT answer using the codes given below</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "3 and 2"
+    },
+    {
+     "key": "D",
+     "html": "2 and 1"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n<strong>Oligotrophic takes:</strong> Oligotrophic lakes have a low level of productivity due to severely limited<br />\nsupply of nutrients to support algal growth<br />\n<strong>Mesotropic lakes:</strong> The lakes having medium productivity levels, with medium growth of algae<br />\nand turbidity are usually classified as mesotropic lakes,<br />\n<strong>Eutropic lakes:</strong> Eutropic lakes do have a high level of productivity because of abundant supply of<br />\nalgal nutrients.<br />\n<strong>Senescent lakes:</strong> These are very old shallow lakes, having thick organic sediment deposits at their bottoms.</p>"
+  },
+  {
+   "n": 103,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The sag in the dissolved oxygen curve results because<br />\n1. it is a function of the rate of addition of oxygen to the stream.<br />\n2. it is a function of the rate of depletion of oxygen from stream.<br />\n3. it is a function of both addition and depletion of oxygen from the stream<br />\n4. the rate of addition is linear but the rate of depletion is non-linear<br />\nSelect the correct answer using the codes given below.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 1"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3"
+    },
+    {
+     "key": "D",
+     "html": "4 only"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/64/64cd7e026ee464df82df.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 104,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a certain situation, waste water discharged into a river mixes with the river water instantaneously and completely. Following is the data available:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0b/0b0ab439c430c9c69e83.png\" /></div>\n\n<div>Initial amount of <em>DO</em> in the mixture of waste and river water will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/1c/1cce3ceefd9889782c26.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/6f/6ffe9d7ac0c62d100497.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/67/67332259755bc3581291.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/c8/c8f237da5e5f94902382.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f1/f13e3fcdefbbcdb871c8.png\" /></div>"
+  },
+  {
+   "n": 105,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A water supply of 10 MLD is to be coagulated with alum where minimum amount of alkalinity required is 9 mg/<em>l</em> as CaCO<sub>3</sub> and alkalinity present in water is 6 mg/<em>l</em>. The quantity of quick lime required (in terms of 10<sup>6</sup> mg per year as CaO) will be rearly:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2500"
+    },
+    {
+     "key": "B",
+     "html": "3000"
+    },
+    {
+     "key": "C",
+     "html": "4200"
+    },
+    {
+     "key": "D",
+     "html": "6100"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b1/b1e50f96c38f788b0099.png\" /></div>"
+  },
+  {
+   "n": 106,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Electrostatic precipitator is a device to control</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "SO<sub>2</sub> emission"
+    },
+    {
+     "key": "B",
+     "html": "particulate emission"
+    },
+    {
+     "key": "C",
+     "html": "both SO<sub>2</sub> and particulate emission"
+    },
+    {
+     "key": "D",
+     "html": "precipitation of Al(OH)<sub>3</sub> in water coagulation"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nElectrostatic precipitator used for large industrial plants particularly in thermal power plants are<br />\nvoltage single stage units. There are four steps in their working: (i) Electrical charging of the<br />\nparticulates. (ii) Collection of charged particles on a ground surface. (iii) Neutralization of the<br />\ncharged at the collector. (iv) Removal of the particulate for disposal.</p>"
+  },
+  {
+   "n": 107,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Calculate the hardness in mg/<em>l</em> of CaCO<sub>3</sub> for the following water sample:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/40/402f3c63a5875f153543.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "233 mg/<em>l</em>"
+    },
+    {
+     "key": "B",
+     "html": "120 mg/<em>l</em>"
+    },
+    {
+     "key": "C",
+     "html": "235 mg/<em>l</em>"
+    },
+    {
+     "key": "D",
+     "html": "157 mg/<em>l</em>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1d/1dd6ef83dd36835922ef.png\" /></div>"
+  },
+  {
+   "n": 108,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The length of a survey line when measured with a chain of 20 m nominal length was found to be 850.5 m. If the chain used is 0.1 m too long, then the correct length of the measured line is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "846.27 m"
+    },
+    {
+     "key": "B",
+     "html": "858.65 m"
+    },
+    {
+     "key": "C",
+     "html": "854.75 m"
+    },
+    {
+     "key": "D",
+     "html": "860.50 m"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fe/fe6d43be1a77d8af9eba.png\" /></div>"
+  },
+  {
+   "n": 109,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following can be used as a map substitute?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Terrestrial photographs"
+    },
+    {
+     "key": "B",
+     "html": "Vertical aerial photographs"
+    },
+    {
+     "key": "C",
+     "html": "Oblique aerial photographs"
+    },
+    {
+     "key": "D",
+     "html": "Vertical aerial photo-mosaics"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nPhotomaps are the aerial photographs which are used as a substitute for maps. The photomap may consist of one photograph, but usually photomaps are obtained by assembling two or more photographs to form a large map.<br />\nThe large photomaps from two or more photographs are called mosaics.<br />\nThe mosaic has an overall average scale comparable to the scale of a planimetric map.</p>"
+  },
+  {
+   "n": 110,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>In an instrument, the bubble tube with divisions of 1 mm and radius of 1 m has the sensitivity of</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/2f/2fac5d2281f5448556ca.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/c5/c55daad7bf80c36934c2.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/9b/9b3d2eabd1290f68aa5b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/57/5771000e3ba9c736aeda.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/68/68e22afe50b989ee8485.png\" /></div>"
+  },
+  {
+   "n": 111,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The magnetic needle in a prismatic compass is placed</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "at the bottom of the graduated aluminium ring"
+    },
+    {
+     "key": "B",
+     "html": "above the graduated aluminium ring"
+    },
+    {
+     "key": "C",
+     "html": "below the brass box"
+    },
+    {
+     "key": "D",
+     "html": "below the needle lifter, but above the bottom inside the compass"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe magnetic needle is attached to the graduated aluminium ring. The ring is graduated from 0&deg;<br />\nto 360&deg;. Degrees are subdivided into half degrees.</p>"
+  },
+  {
+   "n": 112,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The whole circle bearings of lines <em>AB</em> and <em>BC</em> are 30°45′ and 115° 15′ respectively. What is the included angle <em>ABC</em> between the lines <em>AB</em> and <em>BC</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "264°30′"
+    },
+    {
+     "key": "B",
+     "html": "95°30′"
+    },
+    {
+     "key": "C",
+     "html": "260°30′"
+    },
+    {
+     "key": "D",
+     "html": "99°30′"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d7/d73fc459a0060b77e1ce.png\" /></div>"
+  },
+  {
+   "n": 113,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A lighthouse is visible just above the horizon at a certain station at the sea level. The distance between the station and the lighthouse is 50 km. The height of the lighthouse is approximately</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "168.25 m"
+    },
+    {
+     "key": "B",
+     "html": "189.5 m"
+    },
+    {
+     "key": "C",
+     "html": "172.25 m"
+    },
+    {
+     "key": "D",
+     "html": "125.5 m"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7f/7f981f95fb748e0aa09e.png\" /></div>"
+  },
+  {
+   "n": 114,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For a chord of 100 m length, the mid-ordinate for a circular curve of 60 m radius will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "9.5 m"
+    },
+    {
+     "key": "B",
+     "html": "26.83 m"
+    },
+    {
+     "key": "C",
+     "html": "10.5 m"
+    },
+    {
+     "key": "D",
+     "html": "23.45 m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/297138a3ad3aaef7c68c.png\" /></div>"
+  },
+  {
+   "n": 115,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements about theodolites:<br />\n1. Transit theodolite is a theodolite in which the telescope can be transited.<br />\n2. EDMI is a theodolite fitted with a micrometer for measurements.<br />\n3. A double reading theodolite is the one in which diametrically opposite segments of the graduated circle are brought into view and the readings are averaged.<br />\nWhich of these statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 2 and 3"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "D",
+     "html": "2 and 3 only"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nA theodolite is a precision instrument used for measuring angles both horizontally and vertically.<br />\nTheodolites can rotate along their horizontal axis as well as their vertical axis. A transit is a<br />\nsurveying instrument that also takes accurate angular measurements. Transits use vernier scales<br />\nand external graduated metal circles for angular readings.<br />\nA double reading theodolite is the one in which images of diametrically opposite parts of the<br />\ngraduated circle are brought into the field of view by a suitable optical arrangement and are read<br />\nand averaged in one stroke.</p>"
+  },
+  {
+   "n": 116,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following best defines a mineral and a rock?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A rock has an orderly, repetitive, geometrical, internal arrangement of minerals while a mineral is a lithified or consolidated aggregated of rocks."
+    },
+    {
+     "key": "B",
+     "html": "A mineral consists of its constituent atoms arranged in a geometrically repetitive structure while in a rock, the atoms are randomly bonded without any geometric pattern."
+    },
+    {
+     "key": "C",
+     "html": "In a mineral the constituent atoms are bonded in a regular, repetitive, internal structure, while a rock is a lithified or consolidated aggregate of different mineral grains."
+    },
+    {
+     "key": "D",
+     "html": "A rock consists of atoms bonded in a regular, geometrically predictable arrangement while a mineral is a consolidated aggregated of different rock particles."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nA mineral is defined by its specific internal crystal structure, where the atoms are arranged in a<br />\nregular, repeating pattern. A rock, on the other hand, is composed of various minerals that are<br />\ncompacted and cemented together.</p>"
+  },
+  {
+   "n": 117,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>How many photographs of size 250 mm × 250 mm are required to cover an area of 20 km × 16 km if the longitudinal overlap is 60% and side overlap is 30%?<br />\nScale of photograph is 1 cm = 150 m</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "90"
+    },
+    {
+     "key": "B",
+     "html": "112"
+    },
+    {
+     "key": "C",
+     "html": "105"
+    },
+    {
+     "key": "D",
+     "html": "120"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/28/28fbb840262e6a5b5976.png\" /></div>"
+  },
+  {
+   "n": 118,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> with <strong>List-II</strong> and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5b/5b40b76bcc897b63ea40.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 119,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If ‘<em>d</em>’ is the thickness of concrete pavement and ‘<em>a</em>’ is the radius of contact area, then the equivalent radius of resisting section ‘<em>b</em>’ for an interior loading is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/38/38e248b2238ab60d4670.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/36/36282d548dd7a4945855.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/ac/ac8a121aaaf267606e49.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/61/61151d83544b9cfcea19.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/53/53443ed83571c634e594.png\" /></div>"
+  },
+  {
+   "n": 120,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For a cement concrete pavement in heavy rainfall area, ruling gradient is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4%"
+    },
+    {
+     "key": "B",
+     "html": "3.3%"
+    },
+    {
+     "key": "C",
+     "html": "5%"
+    },
+    {
+     "key": "D",
+     "html": "6.7%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/40/40a3aa78997b24154301.png\" /></div>"
+  },
+  {
+   "n": 121,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A vehicle is travelling on a curved road of radius R, with a speed of 12 m/sec. The camber for the road is 1 in 40. What will be the radius of curve beyond which no super elevation is required? [Take g = 10 m/sec<sup>2</sup>].</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "256 m"
+    },
+    {
+     "key": "B",
+     "html": "335 m"
+    },
+    {
+     "key": "C",
+     "html": "284 m"
+    },
+    {
+     "key": "D",
+     "html": "324 m"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8a/8a25aa669a99afe698b1.png\" /></div>"
+  },
+  {
+   "n": 122,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For horizontal alignment of pavement, spiral transition curve is preferred because<br />\n1. Rate of change of centrifugal acceleration is consistent (smooth).<br />\n2. Calculation and field implementation are easy<br />\n3. Radius of transition curve changes smoothly from infinite to radius of curve.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\n<strong>1. Constant rate of change:</strong> The centrifugal acceleration experienced by a vehicle changes<br />\nuniformly along the spiral, which ensures a smooth and comfortable transition for passengers.<br />\n<strong>2. Gradual change in radius:</strong> The spiral curve connects a straight section (of infinite radius) to<br />\na circular curve (of finite radius) by smoothly decreasing its own radius. This allows drivers<br />\nto gradually adjust their steering.<br />\n<strong>3. Simplicity in implementation:</strong> While its properties ensure ideal performance, the spiral<br />\ncurve is also geometrically straightforward, which simplifies calculations and field<br />\nimplementation.</p>"
+  },
+  {
+   "n": 123,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Select the correct statement regarding traffic rotary:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Traffic flow is regulated in many directions and limits the severe conflicts between crossing movement."
+    },
+    {
+     "key": "B",
+     "html": "Cumulative delay at rotary is less than channelized intersection."
+    },
+    {
+     "key": "C",
+     "html": "Rotary is suitable when proportion of the right turn traffic is very high."
+    },
+    {
+     "key": "D",
+     "html": "Rotary is suitable when pedestrian movement is high."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nRotary is suitable when proportion of the right turn traffic is very high, typically when more than<br />\n30% of the total traffic is right-turning traffic. This is because rotaries convert severe conflicts to<br />\nmilder merging/diverging movements, allowing vehicles to flow more smoothly when there is a<br />\nhigh volume of right turns.</p>"
+  },
+  {
+   "n": 124,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the design of runways, if the standard atmospheric temperature at sea level is 15°C, then the standard temperature at an altitude of 1 km will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8.5°C"
+    },
+    {
+     "key": "B",
+     "html": "9.5°C"
+    },
+    {
+     "key": "C",
+     "html": "10.5°C"
+    },
+    {
+     "key": "D",
+     "html": "11°C"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nStandard temperature = 0.0065 &times; 1000 = 6.5&deg;C<br />\n&there4; Temperature at an altitude of 1 km = (15 &ndash; 6.5 &times; 1)&deg;C = 8.5&deg;C.</p>"
+  },
+  {
+   "n": 125,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Element) with <strong>List-II</strong> (Functions) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/bb/bb7167808f245afbbc26.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 126,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Three vehicles with speeds 60 m/sec, 50 m/sec and 40 m/sec are passing through the 10 m length of road. The space mean speed and time mean speed of vehicles are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "180 kmph and 19.46 kmph"
+    },
+    {
+     "key": "B",
+     "html": "175.14 kmph and 180 kmph"
+    },
+    {
+     "key": "C",
+     "html": "19.46 kmph and 180 kmph"
+    },
+    {
+     "key": "D",
+     "html": "180 kmph and 175. 13 kmph"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/66/66f51e1dd4f137cc26da.png\" /></div>"
+  },
+  {
+   "n": 127,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding CBR test:<br />\n1. <em>CBR</em> test cannot be related accurately with any fundamental property of the soil or pavement material tested.<br />\n2. <em>CBR</em> test gives a measure of resistance to penetration of a soil or flexible pavement material of standard plunger under controlled test conditions.<br />\nWhich of the above statement is/are incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 128,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>An S-curve has been obtained from a catchment of 270 km<sup>2</sup> from a 3 hour unit hydrograph. The equilibrium discharge of the <em>S</em>-curve is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "750 m<sup>3</sup>/s"
+    },
+    {
+     "key": "B",
+     "html": "277.8 m<sup>3</sup>/s"
+    },
+    {
+     "key": "C",
+     "html": "250 m<sup>3</sup>/s"
+    },
+    {
+     "key": "D",
+     "html": "18.7 m<sup>3</sup>/s"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d3/d3cecb5609ec2b136646.png\" /></div>"
+  },
+  {
+   "n": 129,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The least accurate method of computing mean depth of rainfall is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Theissen polygon method"
+    },
+    {
+     "key": "B",
+     "html": "Isohyetal method"
+    },
+    {
+     "key": "C",
+     "html": "Arithmetic mean method"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nThe arithmetic mean method simply calculates the average rainfall by adding up all the rainfall<br />\nmeasurements from different stations and dividing by the total number of stations. This method<br />\ndoesn&#39;t account for spatial variations in rainfall within the area, which can lead to inaccurate<br />\nestimations, especially when rainfall varies significantly across the region.</p>"
+  },
+  {
+   "n": 130,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The Muskingum channel routing equation is written for the outflow from the reach (<em>Q</em>) in terms of inflow and coefficients <em>C</em><sub>0</sub>, <em>C</em><sub>1</sub> and <em>C</em><sub>2</sub> as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/d0/d01265cb94b3cf21d719.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/f1/f1657ee8bb7bf4af7533.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/a8/a89518ebab77277c98b7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/75/7597004834c34ac1b739.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7d/7de082da4fe03c09ea36.png\" /></div>"
+  },
+  {
+   "n": 131,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A bridge has an expected life of 30 years and is designed for a flood magnitude of return period 100 years. What is the risk associated with this hydrologic design?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(0.99)<sup>30</sup>"
+    },
+    {
+     "key": "B",
+     "html": "(0.67)<sup>100</sup>"
+    },
+    {
+     "key": "C",
+     "html": "1 – (0.99)<sup>30</sup>"
+    },
+    {
+     "key": "D",
+     "html": "1 – (0.67)<sup>100</sup>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5d/5d6cf8839dcc94d32720.png\" /></div>"
+  },
+  {
+   "n": 132,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the statements given below is INCORRECT?<br />\nIn a drip irrigation system:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "deep percolation and runoff are practically eliminated"
+    },
+    {
+     "key": "B",
+     "html": "the water application efficiency is very high"
+    },
+    {
+     "key": "C",
+     "html": "the evaporation and percolation losses can not be eliminated"
+    },
+    {
+     "key": "D",
+     "html": "the fertilizer can be applied economically along with the irrigation water"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nWhile drip irrigation significantly reduces evaporation and percolation losses compared to other<br />\nmethods, it&#39;s important to remember that these losses can&#39;t be entirely eliminated. Factors like<br />\nenvironmental conditions (humidity, temperature, wind speed) and system design can influence<br />\nthe amount of water lost through evaporation and percolation from the soil surface and root zone.</p>"
+  },
+  {
+   "n": 133,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If the duty for a crop having base period of 120 days is 1728 ha/cumecs, then the delta of the crop is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50 cm"
+    },
+    {
+     "key": "B",
+     "html": "60 cm"
+    },
+    {
+     "key": "C",
+     "html": "80 cm"
+    },
+    {
+     "key": "D",
+     "html": "9o cm"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/45/45e462d2290a89817f5e.png\" /></div>"
+  },
+  {
+   "n": 134,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Control Structure) with <strong>List-II</strong> (Function of the Control Structures) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f4/f468f8edf0612bde8749.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nCanal drop is to control bed grade/slope.<br />\nCanal escape is to control the <em>FSL</em><br />\nCross regulator is to control the flow depth.<br />\nCanal outlet is to control the discharge.</p>"
+  },
+  {
+   "n": 135,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If the sensitivity of an irrigation module is 0.5, then what percent variation in outlet discharge will be caused by 50% variation in canal water depth?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "100%"
+    },
+    {
+     "key": "B",
+     "html": "50%"
+    },
+    {
+     "key": "C",
+     "html": "25%"
+    },
+    {
+     "key": "D",
+     "html": "12.5%"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0c/0ca96606ef6098216c93.png\" /></div>"
+  },
+  {
+   "n": 136,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>If a 6-h rainstorm with hourly intensities of 7, 18, 25, 17, 11 and 3 mm/h produced a runoff of 39 mm then, the <img align=\"absmiddle\" alt=\"\" src=\"media/d7/d7550441bd5ecb5c93ec.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7 mm/h"
+    },
+    {
+     "key": "B",
+     "html": "7.8 mm/h"
+    },
+    {
+     "key": "C",
+     "html": "6 mm/h"
+    },
+    {
+     "key": "D",
+     "html": "6.8 mm/h"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/75/75952315bcb6ee32ae72.png\" /></div>"
+  },
+  {
+   "n": 137,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following terms relating to irrigation requirements:<br />\n1. Consumptive irrigation requirement<br />\n2. Field irrigation requirement<br />\n3. Net irrigation requirement<br />\n4. Gross irrigation requirement<br />\nWhich one of the following is the correct relation?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 < 2 < 3 < 4"
+    },
+    {
+     "key": "B",
+     "html": "2 < 1 < 3 < 4"
+    },
+    {
+     "key": "C",
+     "html": "1 < 3 < 2 < 4"
+    },
+    {
+     "key": "D",
+     "html": "3 < 2 < 1 < 4"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/04/043171b792b3aa132867.png\" /></div>"
+  },
+  {
+   "n": 138,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>The infiltration capacity in a basin is represented by Horton's equation as <em>f<sub>p</sub></em> = 5 + <em>e</em><sup>–<em>t</em></sup>, where <em>f<sub>p</sub></em> is in cm/hr and t is in hours. Depth of infiltration in a 60 min storm will be:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5.63 cm"
+    },
+    {
+     "key": "B",
+     "html": "5.54 cm"
+    },
+    {
+     "key": "C",
+     "html": "5.44 cm"
+    },
+    {
+     "key": "D",
+     "html": "5.85 cm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e5/e5e26edddfac15dc7787.png\" /></div>"
+  },
+  {
+   "n": 139,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following statement is CORRECT regarding analytical methods of evaporation estimation?<br />\n1. Water-budget method uses the hydrological continuity equation and it is least reliable.<br />\n2. Energy-budget method uses the law of conservation of energy and uses the Bowen's ratio.<br />\n3. Mass-transfer method uses the theories of turbulent mass transfer in boundary layer and<br />\ngives satisfactory results with the use of quantities measured by sophisticated instruments.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 140,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> Plasticizer permits the reduction in water-cement ratio at the same workability.<br />\n<strong>Statement (II):</strong> Plasticizer acts as a deflocculating agent.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nPlasticizers get adsorbed over the surface of cement particles and thereby create repulsion between<br />\nthe particles and makes certain amount of entrapped water free for hydration process and thus,<br />\nacts as deflocculating agent.</p>"
+  },
+  {
+   "n": 141,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> Crop period is slightly more than the base period for any crop.<br />\n<strong>Statement (II):</strong> Crop period is the period between the first watering and the last watering of the crop.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nThe time period that elapses from the instant of its sowing to the instant of its harvesting is called<br />\nthe crop period while the time between first watering of a crop at the time of its sowing to its last<br />\nwatering before harvesting is called the base period.</p>"
+  },
+  {
+   "n": 142,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> Water flows through a pipe connecting two reservoirs. The line joining the water surface levels is reservoir is the hydraulic gradient.<br />\n<strong>Statement (II):</strong> There will be no negative gauge pressure anywhere is the pipeline as long as the pipeline lies below the hydraulic gradient.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nHGL is not properly defined at the entrance due to loss at the upstream of reservoir.</p>"
+  },
+  {
+   "n": 143,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I): </strong>Primary air pollutants often combine with other or with water vapours in the presence of sunlight and leads to formation of secondary air pollutants.<br />\n<strong>Statement (II):</strong> Photochemical smog is a mixture of ozone, formaldehydes and PAN.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 144,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> Duty always gets reduced as we move away in the field from the main canal.<br />\n<strong>Statement (II):</strong> Losses occur in the course of movement of water from main canal to the field.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2c/2c8ccb84af816697f2d4.png\" /></div>"
+  },
+  {
+   "n": 145,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> Total shrinkage of concrete depends upon constituents of concrete, size of member and environmental conditions.<br />\n<strong>Statement (II):</strong> For a given humidity and temperature, the total shrinkage of concrete is most influenced by cement content.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nFor a given humidity and temperature, the total shrinkage of concrete is most influenced by the<br />\ntotal amount of water present in the concrete at that time of mixing.</p>"
+  },
+  {
+   "n": 146,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> The input power curve for pumps shall not pass through the origin.<br />\n<strong>Statement (II):</strong> Even at zero discharge some power is needed to overcome mechanical losses.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ea/ea13b392a512a9f961aa.png\" /></div>"
+  },
+  {
+   "n": 147,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> In a cantilever, the ILD for deflection at free end is same as elastic curve of the beam due to unit load placed at the free end.<br />\n<strong>Statement (II):</strong> By Maxwell's reciprocal theorem, the deflection at the free end, due to various positions of unit load on the span equals deflection at those places of unit moving load due to static unit load at free end.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>"
+  },
+  {
+   "n": 148,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> Post tensioning is generally uneconomical for vertical prestressing.<br />\n<strong>Statement (II):</strong> Large number of anchorages are required for post tensioning in vertical prestressing.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nPost tensioning is generally uneconomical for vertical prestressing due to large number of<br />\nanchorages required.</p>"
+  },
+  {
+   "n": 149,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> If the tunnel alignment contains curves or the changing grades, then the quantity of natural air supposed to provide natural ventilation gets considerably increased.<br />\n<strong>Statement (II):</strong> The tunnel length upto which natural draft can be expected to be sufficient for natural ventilation gets drastically reduced.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nIf the tunnel alignment contains curves or the changing grades, then the quantity of natural air<br />\nsupposed to provide natural ventilation gets considerably reduced.</p>"
+  },
+  {
+   "n": 150,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Each of the next <strong>Ten (10)</strong> items consists of two statements, one labelled as the ‘Statement (I)’ and the other as ‘Statement (II)’. You are to examine these two statements carefully and select the answers to these items using the codes given below:<br />\n<strong>Codes:</strong><br />\n(a) Both Statement (I) and Statement (II) are individually true and Statement (II) is the correct explanation of Statement (I).<br />\n(b) Both Statement (I) and Statement (II) are individually true but Statement (II) is not the correct explanation of Statement (I).<br />\n(c) Statement (I) is true but Statement (II) is false.<br />\n(d) Statement (I) is false but Statement (II) is true.</p>\n\n<p><strong>Statement (I):</strong> If the wall rotates about its toe, thus moving away from the backfill, the soil mass expands, resulting in a decrease of the earth pressure.<br />\n<strong>Statement (II):</strong> When wall moves away from backfill, the shear resistance mobilises in a direction opposing the movement of the earth mass.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nWhen the wall moves away from the backfill, a portion of the backfill located next to the retaining<br />\nwall tends to break away from the rest of the soil mass and tends to move downwards and<br />\noutwards relative to the wall. Since the shear resistance is mobilised in direction away from the<br />\nwall, there is a resultant decrease in the earth pressure.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 150
+  }
+ ],
+ "stats": {
+  "questions": 150,
+  "maxMarks": 300,
+  "types": {
+   "MCQ": 150
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,529 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-032",
+ "title": "Topicwise Test-8 Part Syllabus GATE 2025 EE Power Systems-2",
+ "sourceTitle": "Topicwise Test-8 Part Syllabus GATE 2025 EE Power Systems-2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 32,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/095_Topicwise Test-8 Part Syllabus GATE 2025 EE Power Systems-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe reactance of a generator designated X is given as 0.2 p.u. based on the generator’s name plate rating of 20 kV, 500 MVA. The reactance of the generator at base quantities as 25 kV, 100 MVA will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.0256 p.u."
+    },
+    {
+     "key": "B",
+     "html": "0.05 p.u."
+    },
+    {
+     "key": "C",
+     "html": "0.0625 p.u."
+    },
+    {
+     "key": "D",
+     "html": "1 p.u."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/db/dbfbcb5dce269a30b607.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA power plant has two generators of 10 MVA, 15% reactance each and two 5 MVA generator’s of 10% reactance paralleled at a common bus bar from which load is taken through a 4 MVA step up transformer having a reactance of 5%. The short circuit capacity of breaker on the high voltage side of transformer is ______ MVA. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    59,
+    60
+   ],
+   "answerText": "59.56 (59.00 - 60.00)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t59.56 (59.00 - 60.00)</p>\n<p>\n\t<img alt=\"\" src=\"media/02/02b57ebbcb79efc5464b.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/fa/fa574447d27b5db39886.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe current flowing to the Δ-connected load through line A is 20 A in given circuit. One conductor of a three phase line is open. With the current in line <em>A</em> as reference and assuming line <em>C</em> is open. The negative sequence component of current in line <em>C</em> is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ed/ed7115407afe00fa62f0.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c6/c6ad149c8b9dcfd4f627.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/07/077c29a4f752ad037917.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c5/c58b166bb8c3f869c77b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/ec/eca0e990376fdf50a887.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA 4-pole, 50 Hz, 22 kV turbo alternator has a rating of 100 MVA, pf 0.8 lag. The moment of inertia of the rotor is 8000 kg-m<sup>2</sup>. The inertia constant (H) is in mJ/MVA.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.9869"
+    },
+    {
+     "key": "B",
+     "html": "0.8321"
+    },
+    {
+     "key": "C",
+     "html": "0.7453"
+    },
+    {
+     "key": "D",
+     "html": "0.6566"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/c0/c0b4f9c967f13675a300.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/22/22714cb74b86615a0614.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA 110 bus power system 87 <em>PQ</em> buses 22 PV buses. In the general case, to obtain the load flow solution using newton raphson method in polar coordinates, the minimum number of simultaneous equations to be solved are ________ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    196,
+    196
+   ],
+   "answerText": "196",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t196</p>\n<p>\n\t<img alt=\"\" src=\"media/41/41e75fab1170181a6426.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA bus power system network consist of 3 transmission line. The bus admittance matrix of the uncompensated system is given below,</p>\n<p>\n\t<img alt=\"\" src=\"media/17/17b2abeff03b60940e61.png\" /></p>\n<p>\n\tIf the shunt capacitance of all the transmission lines is 50% compensated, the magnitude of imaginary part of the 3<sup>rd</sup> row 3<sup>rd</sup> column element in p.u. of the bus admittance matrix after compensation is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "9"
+    },
+    {
+     "key": "B",
+     "html": "7.5"
+    },
+    {
+     "key": "C",
+     "html": "7"
+    },
+    {
+     "key": "D",
+     "html": "8.5"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/74/74944331c0c44245e650.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tIn a simple two unit system, the loss coefficients are <em>B</em><sub>11</sub> = 0.02 per MW, <em>B</em><sub>12</sub> = –0.003 per MW and <em>B</em><sub>22</sub> = 0.024 per MW. The incremental production cost for two units are</p>\n<p>\n\t<img alt=\"\" src=\"media/98/983a9c4467663267bb93.png\" /></p>\n<p>\n\tThe power generation <em>P</em><sub>1</sub> and <em>P</em><sub>2</sub> for <img align=\"absmiddle\" alt=\"\" src=\"media/ea/ea81c69107cc8a4cb485.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>P</em><sub>1</sub> = 11.7 MW, <em>P</em><sub>2</sub> = 9.59 MW</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>P</em><sub>1</sub> = 9.59 MW, <em>P</em><sub>2</sub> = 11.07 MW</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>P</em><sub>1</sub> = 5.01 MW, <em>P</em><sub>2</sub> = 7.23 MW</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>P</em><sub>1</sub> = 6.66 MW, <em>P</em><sub>2</sub> = 9.6 MW</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/03/03be7f4e8db6effe0a84.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA three phase to ground fault takes place at locations <em>F</em><sub>1</sub> and <em>F</em><sub>2</sub> in the system shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/f3/f33f09b0ce7556895d1a.png\" /></p>\n<p>\n\tIf the fault takes place at location <em>F</em><sub>1</sub> , then the voltage and current at bus B are <img align=\"absmiddle\" alt=\"\" src=\"media/dc/dcb1ee23842b9618a64b.png\" /> and If 1respectively. If the fault takes place at location <em>F</em><sub>2</sub> , then the voltage and current at bus B are <em>Vf</em> <sub>2</sub> and <img align=\"absmiddle\" alt=\"\" src=\"media/54/549298b8680ed1b6fd29.png\" /> respectively. The correct statements about voltage and current during <em>F</em><sub>1</sub> and <em>F</em><sub>2</sub> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/df/dfa9882a61581d70a07f.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/86/86d5a056b438258bb566.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/11/11dfe85ba4622014769f.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/78/7877c2feecdff8a8ea95.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/5d/5deeb4603e505a80271a.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA 60 Hz synchronous generator having inertia constant <em>H</em> = 9.94 sec and a transient reactance of <em>X</em>′ = 0.5 p.u. is connected to infinite bus as shown in figure below,</p>\n<p>\n\t<img alt=\"\" src=\"media/de/de55e6faaa7b20924b2a.png\" /></p>\n<p>\n\tThe generator is delivering real power of 0.6 p.u. at 0.8 p.f. lag to the infinite bus at a voltage of <em>V</em> = 1 p.u. for small disturbance natural frequency of oscillation will be _______ Hz. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.85,
+    0.95
+   ],
+   "answerText": "0.90 (0.85 - 0.95)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.90 (0.85 - 0.95)</p>\n<p>\n\t<img alt=\"\" src=\"media/6b/6bb83dea1e8a91aedaa5.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA 60 Hz generator having inertia constant H = 5 MJ/MVA is connect to an infinite bus through a purely reactive circuit as shown in figure. The generator is delivering <em>P<sub>e</sub></em> = 0.80 p.u and <em>Q<sub>c</sub></em> = 0.074 p.u. to the infinite bus at a voltage of 1 p.u. A temporary 3-Φ fault occurs at the sending end of one of the line. When the fault is cleared both lines are intact. The critical clearing angle is ________ degree. (Answer upto two decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/ea/ead6afe7a16f93d7f92d.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    84,
+    85
+   ],
+   "answerText": "84.77 (84.00 - 85.00)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t84.77 (84.00 - 85.00)</p>\n<p>\n\t<img alt=\"\" src=\"media/14/147d2f24b9938bb3532d.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/ca/ca4e7de82a4fd25ef10a.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the following single line diagram consisting a source, transmission line, shunt capacitor bank and load. Magnitudes of bus voltages <img align=\"absmiddle\" alt=\"\" src=\"media/0f/0f4ed8638596b8273661.png\" /> by 45°. The current given <img align=\"absmiddle\" alt=\"\" src=\"media/b4/b40850df7d69fff6ba1c.png\" /> p.u. and the reactance of capacitor bank is 1.5 p.u.</p>\n<p>\n\t<img alt=\"\" src=\"media/48/48a6de62e20cb5a6c38c.png\" /></p>\n<p>\n\tWhich of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "source power factor is 0.906 lagging"
+    },
+    {
+     "key": "B",
+     "html": "load power factor is 0.886 lagging"
+    },
+    {
+     "key": "C",
+     "html": "source power factor is 0.906 leading"
+    },
+    {
+     "key": "D",
+     "html": "load power factor is 0.886 leading"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b)</p>\n<p>\n\t<img alt=\"\" src=\"media/08/082eb573d924ceb9aa2c.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/7d/7d396f96276cac7be5ae.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA power system consisting of a generator of equivalent reactance 0.5 p.u connected to an infinite bus through a series reactance of 0.5 p.u. The terminal voltage of generator is held at 1.5 p.u and the voltage of the infinite bus is 1 p.u. The steady state power limit ______ (in p.u.).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.828,
+    2.828
+   ],
+   "answerText": "2.828",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.828</p>\n<p>\n\t<img alt=\"\" src=\"media/e8/e8dbdcf17a366fc859a5.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA 1000 × 1000 bus admittance matrix for an electric power system has 6000 non-zero elements.<br />\n\tThe minimum number of branches in the system is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3500"
+    },
+    {
+     "key": "B",
+     "html": "3000"
+    },
+    {
+     "key": "C",
+     "html": "2500"
+    },
+    {
+     "key": "D",
+     "html": "3300"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/e0/e0de65826e64261cb209.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA synchronous generator is rated 25 MVA 11 kV. It is star connected with the neutral point solidly grounded. The generator is operating at no load rated voltage. Its reactances are <em>X</em><sub>1</sub> = <em>X</em><sub>2</sub> = 0.20 p.u. and <em>X</em><sub>0</sub> = 0.08 p.u. The symmetrical subtransient line current for double line fault is _______ kA.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5.6,
+    5.8
+   ],
+   "answerText": "5.68 (5.60 - 5.80)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5.68 (5.60 - 5.80)</p>\n<p>\n\t<img alt=\"\" src=\"media/e8/e8a3d2ed907db51fa891.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA single phase load of 100 kVA connected across lines bc of a 3-phase supply of 3.3 kV.<br />\n\tThen which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Phase ‘a’ current is zero."
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tMagnitudes of both phase ‘<em>b</em>’ and phase ‘<em>c</em>’ current are equal.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tSum of phase ‘<em>b</em>’ and phase ‘<em>c</em>’ currents is 60.6 A.</p>"
+    },
+    {
+     "key": "D",
+     "html": "Zero sequence component of phase a current is zero."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/e7/e7f62ac63d3c1fd8ff0a.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/95/951fd0f946f8e49eb107.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe series impedance matrix of a short 3-Φ transmission line in phase coordinates is represented by Z,</p>\n<p>\n\t<img alt=\"\" src=\"media/2a/2adb4fa9ae68c9ae9316.png\" /></p>\n<p>\n\tIf the positive sequence impedance is (4 + j16) Ω and zero sequence impedance is (8 + <em>j</em>32) Ω, then value of imaginary of Z<em><sub>m</sub></em> is _______ Ω.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5.1,
+    5.5
+   ],
+   "answerText": "5.33 (5.10 - 5.50)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5.33 (5.10 - 5.50)</p>\n<p>\n\t<img alt=\"\" src=\"media/c9/c90ffbc6cf41fdcff56e.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA transmission line of inductance 0.1 H and resistance 5 Ω is suddenly short-circuit at the far end as shown in figure.<br />\n\tSelect the correct statement(s)</p>\n<p>\n\t<img alt=\"\" src=\"media/33/33fb7773d0dbb160dd41.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tThe complementary solution of short circuit current is given by 3.1435 <img align=\"absmiddle\" alt=\"\" src=\"media/ae/aed7c9df421891b0fcec.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tThe particular solution of short circuit current is given by 2.871 e<em><sup>–50t</sup></em> A.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tExpression of short circuit current is 3.1435 <img align=\"absmiddle\" alt=\"\" src=\"media/9f/9fafd1196ec7882e9f7a.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "If switch is closed when v is maximum then value of short circuit current at that moment is 5.65 A."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/a0/a0f3d3b1f3b8f6ec6183.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 8,
+   "NAT": 7,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

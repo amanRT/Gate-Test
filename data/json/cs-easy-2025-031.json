@@ -1,0 +1,577 @@
+{
+ "v": 1,
+ "id": "cs-easy-2025-031",
+ "title": "Topicwise Test-8 Part Syllabus GATE 2025 CS Databases-2",
+ "sourceTitle": "Topicwise Test-8 Part Syllabus GATE 2025 CS Databases-2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2025",
+ "num": 31,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/093_Topicwise Test-8 Part Syllabus GATE 2025 CS Databases-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following concurrency control protocol ensure both conflict serializability and free from deadlock?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Time stamp ordering"
+    },
+    {
+     "key": "B",
+     "html": "2 phase locking"
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nBoth time stamp ordering and 2 phase locking protocol ensure conflict serializable but only time stamp ordering protocol provides freedom from deadlock.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following schedule involving three transaction:</p>\n\n<p><img alt=\"\" src=\"media/4d/4d932e49292c220b5575.png\" /></p>\n\n<p>Which of the following is correct about the above schedule S?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "S is not recoverable and has dirty read operation."
+    },
+    {
+     "key": "B",
+     "html": "S is conflict serializable and has blind write."
+    },
+    {
+     "key": "C",
+     "html": "S contain dirty read but does not have blind write."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/f8/f8268cd31764a785e1b0.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following relation table (where keys are underlined) and SQL:</p>\n\n<p><img alt=\"\" src=\"media/69/69238313b3d9575b2dda.png\" /></p>\n\n<p>Select Snum from Student S where S.Snum NOT IN<br />\n(Select E.Snum from enroll E)<br />\nThe number of tuples returned by the SQL query is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3</p>\n\n<p><img alt=\"\" src=\"media/54/54a328173aa97f73f0a2.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following two tables and four queries in SQL:</p>\n\n<p><img alt=\"\" src=\"media/b3/b32aa166eedb44ef4ebc.png\" /></p>\n\n<p>Which one of the queries above is certain to have an output that is superset of the output of the other three queries?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Query 1"
+    },
+    {
+     "key": "B",
+     "html": "Query 2"
+    },
+    {
+     "key": "C",
+     "html": "Query 3"
+    },
+    {
+     "key": "D",
+     "html": "Query 4"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/ed/ed1f2c2565bd84bf63b0.png\" /></p>\n\n<p><img alt=\"\" src=\"media/dd/dd2447f4e7b1d71cea15.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Null can be used to leave column in a tuple marked as ‘unknown’ when the attribute value does not exist for that particular tuple."
+    },
+    {
+     "key": "B",
+     "html": "Time stamp protocol is deadlock free."
+    },
+    {
+     "key": "C",
+     "html": "Both are true"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nSince the question doesn&rsquo;t say that the attribute is a prime attribute, hence if the value to some attribute is not known then null can be used time stamp protocol has no deadlock.</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>The SQL query<br />\nSELECT columns<br />\nFROM TableA<br />\nRIGHT OUTER JOIN TableB<br />\nON A.columnName = B.columnName<br />\nWHERE A.columnName IS NULL<br />\nreturns the following:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "All records of Table B those are failed JOIN condition."
+    },
+    {
+     "key": "B",
+     "html": "All rows in Table A, which meets equality condition above and none from Table B, which meets the condition."
+    },
+    {
+     "key": "C",
+     "html": "All rows in Table B, which meets the equality condition."
+    },
+    {
+     "key": "D",
+     "html": "All rows in Table A, which meets the equality condition."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/2f/2fc8b6dbfcd201125885.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following statements are TRUE about an SQL query?<br />\n<strong>P :</strong> An SQL query can contain a HAVING clause even if it does not have a GROUP BY clause.<br />\n<strong>Q :</strong> An SQL query can contain a HAVING clause only if it has a GROUP BY clause.<br />\n<strong>R :</strong> All attributes used in the GROUP BY clause must appear in the SELECT clause.<br />\n<strong>S :</strong> Not all attributes used in the GROUP BY clause need to appear in the SELECT clause.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "P and R"
+    },
+    {
+     "key": "B",
+     "html": "P and S"
+    },
+    {
+     "key": "C",
+     "html": "Q and R"
+    },
+    {
+     "key": "D",
+     "html": "Q and S"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/03/037e8ad95885a25ad9ed.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of the following statements are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "B<sup>+</sup> tree index faster for range queries compared to B tree index."
+    },
+    {
+     "key": "B",
+     "html": "<p>If disk block allocated for B<sup>+</sup> tree index and same size disk block allocated for B tree index. Then number of index blocks and <img align=\"absmiddle\" alt=\"\" src=\"media/e6/e6b6948e44a0e3da6f26.png\" /> cost of B<sup>+</sup> tree index less than or equal to B tree index for given distinct keys.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>If disk allocated for B<sup>+</sup> tree index and same size disk block allocated for B tree index. Then B tree index access cost less than as equal to B<sup>+</sup> tree index for given distinct keys.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If number of keys that can store in B tree and B<sup>+</sup> tree index is same then <img align=\"absmiddle\" alt=\"\" src=\"media/97/978845d4ddff1f5622b4.png\" /> cost of B tree index less than equal to <img align=\"absmiddle\" alt=\"\" src=\"media/97/978845d4ddff1f5622b4.png\" /> cost of B<sup>+</sup> tree index for.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)<br />\nIf disk block allocated for B<sup>+</sup> tree index and same size disk block is allocated for B tree index.<br />\nThen B tree index access cost is greater than B+ tree index for given distinct keys.<br />\nSo option (c) is false.</p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>The number of schedule which is/are conflict serializable:</p>\n\n<p><img alt=\"\" src=\"media/4a/4ab7ebc2667dddea46ec.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1</p>\n\n<p><img alt=\"\" src=\"media/b4/b4042e4dde9869e67e75.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider a table in a relational database with key field K. A B-tree of order <em>P</em> is used as an access structure on K, where <em>P</em> denotes the maximum, number of tree pointer in a B-tree index node. Assume that K is 12 bytes long; disk block size is 256 bytes; each data pointer <em>P<sub>D</sub></em> is 10 bytes along and each block pointer <em>P<sub>B</sub></em> is 7 bytes long is order fore each B tree node to fit in a single disk block, the maximum value of <em>P</em> is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>9</p>\n\n<p><img alt=\"\" src=\"media/93/93a1e66647da3cc7e876.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>The given query is executed Employee <img align=\"absmiddle\" alt=\"\" src=\"media/a0/a06f92e40217f970915a.png\" /> and the given query is executed on the relation:</p>\n\n<p><img alt=\"\" src=\"media/d4/d4a2e1856af46827ab77.png\" /></p>\n\n<p>Which of the following will be represent the output of above query?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Name of all the Employee with their respective salary is less than 10000."
+    },
+    {
+     "key": "B",
+     "html": "Name of all the Employee having same name with their individual salary is less than 10000."
+    },
+    {
+     "key": "C",
+     "html": "Name of all the Employee having same name with their total salary less than 10000."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(C)</p>\n\n<p><img alt=\"\" src=\"media/cf/cfaf8e1c6f4852bd364c.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a database system where transactions are executed concurrently. If transaction T1 holds an exclusive lock on resource R1 and requests a shared lock on resource R2, while transaction T2 holds a shared lock on resource R2 and requests an exclusive lock on resource R1, what will happen, transactions executed by using 2PL restriction?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Deadlock"
+    },
+    {
+     "key": "B",
+     "html": "Starvation"
+    },
+    {
+     "key": "C",
+     "html": "Lock contention"
+    },
+    {
+     "key": "D",
+     "html": "Priority inversion"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nDeadlock occurs when transactions are waiting for locks held by each other, causing a circular dependency that prevents any transaction from progressing.</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following relational schema:</p>\n\n<p><img alt=\"\" src=\"media/f4/f44aea2f96ca2ad2c832.png\" /></p>\n\n<p>Assume that, in the suppliers relation above, each supplier and each street within a city has unique name, and (sname, city) forms a candidate key No other functional dependencies are implied other than those implied by primary and candidate keys. Which one of the following is<br />\nTRUE about the above schema?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The schema is in BCNF"
+    },
+    {
+     "key": "B",
+     "html": "The schema is in 3NF but not in BCNF"
+    },
+    {
+     "key": "C",
+     "html": "The schema is in 2NF but not in 3NF"
+    },
+    {
+     "key": "D",
+     "html": "The schema is not in 2NF"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe non-trivial FDs are<br />\n1. (sname, city) &rarr; street<br />\n2. sid &rarr; street<br />\n3. (sname, city) &rarr; sid<br />\n4. sid &rarr; name<br />\n5. sid &rarr; city</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>The employee information in a company is stored in the relation:</p>\n\n<p><img alt=\"\" src=\"media/c3/c344b89228c5ac2297b0.png\" /></p>\n\n<p>It returns the names of the department in which</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "the average salary is more than the average salary in the company."
+    },
+    {
+     "key": "B",
+     "html": "the average salary of male employees is more than the average salary of all male employees in the company."
+    },
+    {
+     "key": "C",
+     "html": "the average salary of male employees is more than the average salary of employees in same the department."
+    },
+    {
+     "key": "D",
+     "html": "the average salary of male employees is more than the average salary in the company."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/ba/ba2a567be8661749df0e.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following table:<br />\nCreate table TEST (<br />\none integer,<br />\ntwo integer,<br />\nprimary key(one, two),<br />\ncheck (one between 1 and 10),<br />\ncheck (two between 1 and 5)<br />\n);<br />\nHow many tuples at most can this table contain?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50"
+    },
+    {
+     "key": "B",
+     "html": "500"
+    },
+    {
+     "key": "C",
+     "html": "100"
+    },
+    {
+     "key": "D",
+     "html": "10"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/f9/f96b2e712231ab3706ba.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider a given schedule S:</p>\n\n<p><img alt=\"\" src=\"media/11/1163e9e36b28689673a4.png\" /></p>\n\n<p>Which of the following is true about schedule <em>S</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "S is conflict serializable."
+    },
+    {
+     "key": "B",
+     "html": "S is strict recoverable."
+    },
+    {
+     "key": "C",
+     "html": "S is allowed by strict 2PL."
+    },
+    {
+     "key": "D",
+     "html": "S is allowed by 2PL"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<p><img alt=\"\" src=\"media/7a/7a0bd08eeb4adb7922cf.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following table with attribute <em>A</em> is primary key and <em>B</em> is foreign key referencing <em>A </em>with on delete cascade.</p>\n\n<p><img alt=\"\" src=\"media/9d/9d30217b58112f452418.png\" /></p>\n\n<p>When the tuple (7, 3) is deleted the number of tuples that must be additionally deleted to pressure referential integrity are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4</p>\n\n<div>\n<p><img alt=\"\" src=\"media/26/265fd089a86bd265e773.png\" /></p>\n</div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 4,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

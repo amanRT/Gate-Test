@@ -1,0 +1,1103 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-073",
+ "title": "DVRUO Classes CS Test Series | Engineering Mathematics | Subject Wise Test 3",
+ "sourceTitle": "DVRUO Classes CS Test Series | Engineering Mathematics | Subject Wise Test 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 73,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Engineering Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/093_exam_1339_GO Classes CS Test Series Engineering Mathematics Subject Wise Test 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The graph of the derivative $g^{\\prime}$ of a function $g$ with domain $[0,7]$ is shown above. Which of the following must be true about $g$ ?<br>&nbsp; &nbsp;<b id=\"docs-internal-guid-9191b835-7fff-76c2-8394-ce2144d8967f\"><img width=\"268\" height=\"177\" alt=\"\" src=\"media/74/7491fd9df823fb83d273.png\"></b></p><ol style=\"list-style-type:upper-roman\"><li>$g$ has a local maximum value at $x=0$ and a local minimum value at $x=4$.</li><li>$g$ has a local maximum value at $x=2$ and a local minimum value at $x=5$.</li><li>$g(2)=g(5)$</li></ol><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>III only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>I and II</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/474319\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\\lim _{x \\rightarrow 0} \\frac{\\cos (3 x)-1}{x^{2}}=$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{9}{2}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{3}{2}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-\\frac{2}{3}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$-\\frac{9}{2}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/474318\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $y=x^{3}+3 x^{2}+5$, then $\\frac{d y}{d x}=$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3 x^{3}+6 x^{2}+5$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3 x^{2}+6 x$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{x^{4}}{4}+x^{3}+5 x$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$15 x^{5}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/474317\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Find $\\frac{d}{d x} \\int_{1}^{x}\\left(t-t^{4}\\right) d t$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x-x^{4}+1$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x^{4}-x+1$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x^{4}-x$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x-x^{4}-1$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/474316\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$\\lim _{x \\rightarrow 0}\\left(\\frac{2 \\sin 3 x}{3 \\sin 2 x}\\right)=$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-1$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\infty$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/474313\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let<br><br>If $f(x)=2 \\sin (\\cos x)$, then $f^{\\prime}(x)=$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-2 \\sin x \\cdot \\cos (\\cos x)$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-2 \\cos x \\cdot \\sin (\\sin x)$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2 \\sin x \\cdot \\cos x$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$-2 \\sin x \\cdot \\cos x$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/474311\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $X$ be a random variable with Poisson distribution $p(k ; \\lambda)$ Let $Y=(X+2)(X+1)$. What is the value of $E(Y)$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\lambda^{2}+3 \\lambda+1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\lambda^{2}+3 \\lambda+2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\lambda^{2}+4 \\lambda+2$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3 \\lambda^{2}+3 \\lambda+2$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/473287\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A rectangle has <strong>length</strong> $X$ and <strong>height</strong> $Y$, where $X$ and $Y$ are <strong>independent random variables</strong>, each <strong>uniformly distributed</strong> over the interval $[0,1]$.<br>Define:</p><ul><li>$A=X Y$ : the <strong>area</strong> of the rectangle</li><li>$L=2(X+Y)$ : the <strong>perimeter</strong> of the rectangle</li></ul><p>Which of the following statements are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathbb{E}[A]=\\frac{1}{4}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathbb{E}[A]=\\frac{1}{2}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathbb{E}[L]=2$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathbb{E}[L]=1$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/473271\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The lifetime (in years) of a certain type of electrical switch follows an exponential distribution with a <strong>mean of 2 years.</strong><br>What is the probability that the switch <strong>fails during the first year</strong>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1-e^{-1 / 4}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1-e^{-2}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1-e^{-1 / 2}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1-e^{-1}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/473251\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $A=\\left[\\begin{array}{rrrr}1 &amp; 0 &amp; a &amp; 2 \\\\ -2 &amp; -1 &amp; b &amp; 3 \\\\ 3 &amp; 1 &amp; c &amp; 1\\end{array}\\right]$ and the reduced row-echelon form of $A$ is $R=\\left[\\begin{array}{rrrr}1 &amp; 0 &amp; 3 &amp; 0 \\\\ 0 &amp; 1 &amp; -2 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 1\\end{array}\\right]$, then $(a, b, c)=$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(3,-2,0)$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(3,-4,7)$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(0,0,1)$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(3,-2,7)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/472449\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $A$ be a $4 \\times 4$ matrix such that $\\operatorname{det}(A)=-2$. What is the value of $\\operatorname{det}(\\operatorname{adj}(A))$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -8,
+    -8
+   ],
+   "answerText": "-8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 8</p><p><a href=\"https://gateoverflow.in/472431\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $A$ and $B$ are $3 \\times 3$ matrices such that $\\operatorname{det}(A)=2$ and $\\operatorname{det}(B)=-3$, then the value of $\\operatorname{det}\\left(A^{2} B^{-1} A^{T} B^{3}\\right)$ is<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-72$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$72$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-108$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$108$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/472417\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $A$ be a $5 \\times 7$ real matrix whose rows are linearly independent. What is the dimension of the null space of $A$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 2</p><p><a href=\"https://gateoverflow.in/472415\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $B$ be a square matrix such that $C=\\operatorname{adj}(B)$, where $\\operatorname{adj}(B)$ denotes the adjugate of $B$. Suppose $|B| \\neq 0$.<br>What is the value of the determinant of the matrix $C^{-1} B^2$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$|B|$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$|B|^2$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{1}{|B|^{n-3}}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{1}{|B|^2}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/471325\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $A$ be a $4 \\times 4$ matrix. If $\\mathbf{p}=\\left[\\begin{array}{l}p_1 \\\\ p_2 \\\\ p_3 \\\\ p_4\\end{array}\\right]$ and $\\mathbf{q}=\\left[\\begin{array}{l}q_1 \\\\ q_2 \\\\ q_3 \\\\ q_4\\end{array}\\right]$ are solutions of the system of linear equations $A\\left[\\begin{array}{l}x_1 \\\\ x_2 \\\\ x_3 \\\\ x_4\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 1 \\\\ 3\\end{array}\\right]$, then which of the following is also a solution?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathbf{p}-\\mathbf{q}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathbf{q}-2 \\mathbf{p}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2 \\mathbf{p}-\\mathbf{q}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All of the above</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/471315\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $a$ and $b$ are positive numbers, then $\\lim _{x \\rightarrow 0}\\left(1+\\frac{x}{a}\\right)^{b / x}=$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$e^{a b}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$e^{b / a}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$e^{a / b}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/474320\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Find the derivative of $y=\\frac{\\ln \\left(2 x^{3}\\right)}{e^{2 x}}$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{3+2 \\ln \\left(2 x^{3}\\right)}{e^{2 x}}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{3-2 \\ln \\left(2 x^{3}\\right)}{e^{2 x}}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{3}{x e^{2 x}}-\\frac{2 \\ln \\left(2 x^{3}\\right)}{e^{2 x}}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{3}{x e^{2 x}}+\\frac{2 \\ln \\left(2 x^{3}\\right)}{e^{2 x}}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/474314\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $f(x)=\\frac{x^{3}+2 x-1}{x^{2}+x}$, then $f^{\\prime}(x)=$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{\\left(x^{2}+x\\right)\\left(3 x^{2}+2\\right)-\\left(x^{3}+2 x-1\\right)(2 x+1)}{\\left(x^{2}+x\\right)}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{\\left(x^{2}+x\\right)(3 x+2)-\\left(x^{3}+2 x-1\\right)(2 x+1)}{\\left(x^{2}+x\\right)^{2}}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{\\left(x^{2}+x\\right)\\left(3 x^{2}+2\\right)-\\left(x^{3}+2 x-1\\right)(2 x+1)}{\\left(x^{2}+x\\right)^{2}}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{\\left(x^{2}+x\\right)\\left(3 x^{2}+2\\right)-2 x\\left(x^{3}+2 x-1\\right)}{\\left(x^{2}+x\\right)^{2}}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/474312\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $X_1, X_2, \\ldots, X_6$ be independent random variables such that</p><p>$$<br>P\\left(X_i=-1\\right)=P\\left(X_i=1\\right)=\\frac{1}{2}, i=1,2,3, \\ldots, 6<br>$$</p><p><br>Then $P\\left[\\sum_{i=1}^6 X_i=4\\right]$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{3}{32}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{3}{4}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{3}{64}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{3}{16}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/473303\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $X_{1}, X_{2}, \\ldots, X_{n+1}$ be independent random variables, each distributed as $\\operatorname{Bernoulli}(p)$.<br>Define<br>$$<br>Y=\\sum_{i=1}^{n} X_{i} X_{i+1}<br>$$<br>Each term $X_{i} X_{i+1}$ equals 1 if and only if both $X_{i}$ and $X_{i+1}$ are 1 .<br><br>Which of the following statements are <strong>true</strong>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Each term $X_{i} X_{i+1}$ is a Bernoulli random variable with parameter $p^{2}$.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The terms $X_{i} X_{i+1}$ are dependent due to overlapping variables.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The expectation of $Y$ is $n p^{2}$.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Each term $X_{i} X_{i+1}$ is independent, since all $X_{i}$ are independent.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/473295\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $E$ and $F$ be two events with $P(E)&gt;0, P(F \\mid E)=0.3$ and $P\\left(E \\cap F^c\\right)=0.2$. Then $P(E)$ equals</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{1}{7}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{2}{7}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{4}{7}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{5}{7}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/473293\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Two coins with probability of heads $u$ and $v$, respectively, are tossed independently. If $P$ (both coins show up tails) $=P$ (both coins show up heads), then $u+v$ equals</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{1}{4}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{1}{2}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{3}{4}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/473289\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $X_1, X_2, X_3$ and $X_4$ be independent random variables. Then which of the following pairs of random variables are independent?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\left(X_1+X_2, X_2+X_3\\right)$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;$\\left(X_1, X_1+X_3\\right)$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&nbsp;$\\left(X_1+X_2, X_3\\right)$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&nbsp;$\\left(X_2, X_1+X_2+X_3\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/473277\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose $A$ and $B$ are events with $P(A)=0.5, P(B)=0.4$ and $P\\left(A \\cap B^c\\right)=0.2$. Then $P\\left(B^c \\mid A \\cup B\\right)$ is equal to</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1 / 2$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1 / 3$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1 / 4$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/473275\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $E$ and $F$ be two events with $0&lt;P(E)&lt;1,0&lt;P(F)&lt;1$ and $P(E \\mid F)&gt;P(E)$. Which of the following statements is (are) TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$P(F \\mid E)&gt;P(F)$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$P\\left(E \\mid F^c\\right)&gt;P(E)$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P\\left(F \\mid E^C\\right)&lt;P(F)$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$E$ and $F$ are independent</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/473273\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A miner is trapped in a mine with <strong>three doors</strong>:</p><ul><li><strong>Door 1</strong> leads to <strong>safety</strong> in <strong>2 hours</strong>.</li><li><strong>Door 2</strong> leads back to the mine after <strong>3 hours</strong>.</li><li><strong>Door 3</strong> leads back to the mine after <strong>5 hours</strong>.</li></ul><p>Every time the miner faces the doors, he picks one <strong>uniformly at random</strong> (i.e., with equal probability). What is the expected time (in hours) for the miner to r<strong>each safety</strong>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$6$ hours</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$9$ hours</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10$ hours</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$12$ hours</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/473265\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The jobs arrive at a facility randomly over time. The number of jobs arriving in a fixed time interval follows which distribution?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Normal</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Poisson</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Exponential</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Uniform</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/473259\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A coin is tossed thrice. Let $X$ be the event that head occurs in each of the first two tosses. Let $Y$ be the event that a tail occurs on the third toss. Let $Z$ be the event that two tails occur in three tosses. Based on the above information, which one of the following statements is TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$X$ and $Y$ are not independent<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$Y$ and $Z$ are dependent<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$Y$ and $Z$ are independent<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$X$ and $Z$ are independent</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/473255\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\{1,2,3,4\\}$ represent the outcomes of a random experiment, and $P(\\{1\\})=P(\\{2\\})=$ $P(\\{3\\})=P(\\{4\\})=1 / 4$. Suppose that $A_1=\\{1,2\\}, A_2=\\{2,3\\}, A_3=\\{3,4\\}$, and $A_4=$ $\\{1,2,3\\}$. Then which of the following statements is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A_1$ and $A_2$ are not independent.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A_3$ and $A_4$ are independent.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A_1$ and $A_4$ are not independent.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A_2$ and $A_4$ are independent.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/473249\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$A$ is an $m \\times n$ matrix and $\\mathbf{b}$ is an $m \\times 1$ vector. The equation $A \\mathbf{x}=\\mathbf{b}$ has infinitely many solutions. Consider the following statements:<br>(i) $m \\leq n$<br><br>(ii) $n \\leq m$<br><br>(iii) the rank of $A=n$<br><br>(iv) the rank of $A&lt;n$</p><p>(v) $\\operatorname{det} A=0$<br><br>Which must be true?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>only (i) and (v)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>only (iv)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>only (v)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>only (iii) and (v)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/471313\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 45.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 45,
+  "types": {
+   "MCQ": 25,
+   "MSQ": 3,
+   "NAT": 2
+  },
+  "withoutKey": 0
+ }
+}

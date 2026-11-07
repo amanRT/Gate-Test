@@ -1,0 +1,323 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-045",
+ "title": "DVRUO Classes GATE CS/DA | DBMS | Normalization | Weekly Quiz 6",
+ "sourceTitle": "DVRUO Classes GATE CS/DA | DBMS | Normalization | Weekly Quiz 6",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 45,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1800,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/065_exam_997_GO Classes GATE CS-DA DBMS Normalization Weekly Quiz 6.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose R is a relation with attributes A1, A2, ... , A6.<br>\nHow many superkeys R has, if the only keys are A1 and A2?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 5)</small></h4><a name=\"431761\"></a><div itemprop=\"text\"><p>Answer is $\\boxed{48}$</p><p>No. of superkeys due to key A1 = A1 union {all possible subsets of other attributes}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 2^5<br><br>Similarly due to A2 = 2^5<br>&nbsp;<br><br>Common super keys covered by A1 and A2 would be = &nbsp;A1A2 union {all possible subsets of other attributes}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 2^4<br><br>So, total superkeys from A1 and A2 only as key are :<br><br>= &nbsp;|superkeys due to A1| + |superkeys due to A2| - |superkeys due to A1,A2|<br><br>= &nbsp;32 + 32 - 16<br><br>= &nbsp;48</p><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://youtu.be/-WV9ZPDKvyM?feature=shared\">https://youtu.be/-WV9ZPDKvyM?feature=shared</a>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"431280\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/-WV9ZPDKvyM?feature=shared\" target=\"_blank\">https://youtu.be/-WV9ZPDKvyM?feature=shared</a></p></div></section></div><p><a href=\"https://gateoverflow.in/431279\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose R is a relation with attributes A1, A2, ... , A6.<br>\nHow many superkeys R has, if the only keys are $\\{\\mathrm{A} 1, \\mathrm{~A} 2\\}$ and $\\{\\mathrm{A} 3, \\mathrm{~A} 4\\}$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"431922\"></a><div itemprop=\"text\">As {A1,A2} and {A3,A4} are the two Candidate Keys(CK), for each CK rest of the attributes have two choices eitther to be present along with CK to form a Super Key or the other choice is to be not involved in formation of Superkey.<br>\n<br>\nWith {A1,A2}, rest of the each $4$ attributes (A3,A4,A5,A6) has two choices. Hence, we can form $2^4$ superkeys.<br>\n<br>\nSimilarly with {A3,A4} we can form $2^4$ superkeys.<br>\n<br>\nThe keys which are over counted are the keys containg {A1,A2,A3,A4}, so the number of such keys are $2^2$<br>\n<br>\nHence, total number of superkeys of $R = 2^4+2^4-2^2=28$</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"431278\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/-WV9ZPDKvyM?feature=shared\" target=\"_blank\">https://youtu.be/-WV9ZPDKvyM?feature=shared</a></p></div></section></div><p><a href=\"https://gateoverflow.in/431277\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose R is a relation with attributes A1, A2, ... , A6.<br>\nHow many superkeys $R$ has, if the only keys are $\\{\\mathrm{A} 1, \\mathrm{~A} 2\\}$ and $\\{\\mathrm{A} 1, \\mathrm{~A} 3\\}$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"431276\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/-WV9ZPDKvyM?feature=shared\" target=\"_blank\">https://youtu.be/-WV9ZPDKvyM?feature=shared</a></p><p>Number of Superkeys containing key $A_1A_2=2^4$&nbsp; Why? coz each of ${A_3,A_4,A_5,A_6}$ has $2$ choices to either be present in the superkey or not.</p><p>Number of Superkeys containing key $A_1A_3 = 2^4$</p><p>Number of Superkeys containing key $A_1A_2A_3=2^3$</p><p>Using Inclusion-Exclusion principle:&nbsp;</p><p>Number of Superkeys : $2^4+2^4-2^3=24$</p><p>Learn Inclusion-Exclusion:&nbsp;<a href=\"https://www.youtube.com/watch?v=Q3MAJAJrgz0\" rel=\"nofollow\" target=\"_blank\">https://www.youtube.com/watch?v=Q3MAJAJrgz0</a></p></div></section></div><p><a href=\"https://gateoverflow.in/431275\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>We say a set of attributes $X$ is closed (with respect to a given set of FD's) if $\\mathrm{X}^{+}=\\mathrm{X}$.</p><p>For which of the following set of functions dependencies does the relation $R(A, B, C, D)$ has $AB, CD$ as closed sets?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$A \\rightarrow B, B \\rightarrow A, C \\rightarrow D$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A \\rightarrow B, B \\rightarrow C, C \\rightarrow D, D \\rightarrow A$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A \\rightarrow B, B \\rightarrow A, C \\rightarrow A, D \\rightarrow A$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A \\rightarrow B, B \\rightarrow A, C \\rightarrow D, D \\rightarrow C$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 10)</small></h4><a name=\"431281\"></a><div itemprop=\"text\"><p><strong>\"Closed\" Set of Attributes, Definition:</strong></p><p>We say a set of attributes $X$ is closed (with respect to a given set of FD’s) if $X^+ = X.$ (Source: Ullman Book for DBMS)</p><hr><p>So, $AB$ is closed iff $(AB)^+ = AB.$</p><p>$CD$ is closed iff $(CD)^+ = CD$</p><p>So, answer will be <strong>Option A &amp; D.</strong></p><p><strong>Watch this Beautiful question on this concept:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=1157s\" target=\"_blank\">https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=1157s</a></p></div></section></div><p><a href=\"https://gateoverflow.in/431274\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a relation with attributes $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})$ that satisfies the following functional dependencies:<br>\n$\\mathrm{AC} \\rightarrow \\mathrm{B}$<br>\n$\\mathrm{BD} \\rightarrow \\mathrm{C}$<br>\n$\\mathrm{CE} \\rightarrow \\mathrm{D}$<br>\n$\\mathrm{DA} \\rightarrow \\mathrm{E}$<br>\n$\\mathrm{EB} \\rightarrow \\mathrm{A}$<br>\nWhat is the number of keys that contain the attribute A?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 10)</small></h4><a name=\"431273\"></a><div itemprop=\"text\">Exp:<br>\n<br>\n$\\mathrm{AB}+=\\mathrm{AB}$<br>\n<br>\n$\\mathrm{AC}+=\\mathrm{ABC}$<br>\n<br>\n$\\mathrm{AD}+=\\mathrm{ADE}$<br>\n<br>\n$\\mathrm{AE}+=\\mathrm{AE}$<br>\n<br>\n$\\mathrm{ABD}+=\\mathrm{ABCDE}$<br>\n<br>\n$\\mathrm{ABE}+=\\mathrm{ABE}$<br>\n<br>\n$\\mathrm{ACD}+=\\mathrm{ABCDE}$<br>\n<br>\n$\\mathrm{ACE}+=\\mathrm{ABCDE}$<br>\n<br>\n$\\mathrm{ADE}+=\\mathrm{ADE}$<br>\n<br>\nKeys that contain A are: ABD, ACD, ACE.</div></section></div><p><a href=\"https://gateoverflow.in/431272\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $X$ and $Y$ be sets of attributes.<br>Which of the following statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If a relation has no attribute that is functionally determined by all the other attributes combined, then the relation has no nontrivial FD&#x27;s at all.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If $\\mathrm{X} \\subseteq \\mathrm{Y}$, then $\\mathrm{X}^+\\subseteq \\mathrm{Y}^+$ (where the closures are taken with respect to the same set of FD&#x27;s)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left(X^{+}\\right)^{+}=X^{+}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If $A B \\rightarrow C$ and $A \\rightarrow C$, then $B \\rightarrow C$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"431271\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong><br><br><strong>Option A:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=-WV9ZPDKvyM&amp;t=354s\" target=\"_blank\">Detailed Video Solution - Ullman Book Question</a><br><br><strong>Option B:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=-WV9ZPDKvyM&amp;t=607s\" target=\"_blank\">Detailed Video Solution - Ullman Book Question</a><br><br><strong>Option C:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/EU5O_8wH3Xw?feature=shared\" target=\"_blank\">Detailed Video Solution - Ullman Book Question</a><br><br><strong>Option D:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=-WV9ZPDKvyM&amp;t=257s\" target=\"_blank\">Detailed Video Solution - Ullman Book Question</a></p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"522407\"></a><div itemprop=\"text\"><p>Answer is $\\boxed{A,B,C}$</p><p><u>A.&nbsp;If a relation has no attribute that is functionally determined by all the other attributes combined, then the relation has no nontrivial FD's at all.</u><br><br>Lets assume we have a Relation with R(A,B,C) with only 1 non-trivial functional dependencies {$A\\to B$} , we can extrapolate the FD as $AC\\to B$. We can easliy conclude that since the contrapositive if given statemen true , the statement itself becomes true.&nbsp;</p><p><u>B.&nbsp;If <span id=\"MathJax-Element-22-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;X&lt;/mi&gt;&lt;/mrow&gt;&lt;mo&gt;&amp;#x2286;&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;Y&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-241\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-242\" class=\"mjx-mrow\"><span id=\"MJXc-Node-243\" class=\"mjx-texatom\"><span id=\"MJXc-Node-244\" class=\"mjx-mrow\"><span id=\"MJXc-Node-245\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">X</span></span></span></span><span id=\"MJXc-Node-246\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.335em; padding-bottom: 0.501em;\">⊆</span></span><span id=\"MJXc-Node-247\" class=\"mjx-texatom MJXc-space3\"><span id=\"MJXc-Node-248\" class=\"mjx-mrow\"><span id=\"MJXc-Node-249\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">Y</span></span></span></span></span></span></span>, then <span id=\"MathJax-Element-23-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;X&lt;/mi&gt;&lt;/mrow&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/msup&gt;&lt;mo&gt;&amp;#x2286;&lt;/mo&gt;&lt;msup&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;Y&lt;/mi&gt;&lt;/mrow&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/msup&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-250\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-251\" class=\"mjx-mrow\"><span id=\"MJXc-Node-252\" class=\"mjx-msubsup\"><span class=\"mjx-base\"><span id=\"MJXc-Node-253\" class=\"mjx-texatom\"><span id=\"MJXc-Node-254\" class=\"mjx-mrow\"><span id=\"MJXc-Node-255\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">X</span></span></span></span></span><span class=\"mjx-sup\" style=\"font-size: 70.7%; vertical-align: 0.615em; padding-left: 0px; padding-right: 0.071em;\"><span id=\"MJXc-Node-256\" class=\"mjx-mo\" style=\"\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.279em; padding-bottom: 0.445em;\">+</span></span></span></span><span id=\"MJXc-Node-257\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.335em; padding-bottom: 0.501em;\">⊆</span></span><span id=\"MJXc-Node-258\" class=\"mjx-msubsup MJXc-space3\"><span class=\"mjx-base\"><span id=\"MJXc-Node-259\" class=\"mjx-texatom\"><span id=\"MJXc-Node-260\" class=\"mjx-mrow\"><span id=\"MJXc-Node-261\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.39em; padding-bottom: 0.335em;\">Y</span></span></span></span></span><span class=\"mjx-sup\" style=\"font-size: 70.7%; vertical-align: 0.615em; padding-left: 0px; padding-right: 0.071em;\"><span id=\"MJXc-Node-262\" class=\"mjx-mo\" style=\"\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.279em; padding-bottom: 0.445em;\">+</span></span></span></span></span></span></span> (where the closures are taken with respect to the same set of FD's)</u></p><p>This is straightaway true.&nbsp;</p><p><u>C. $(X^+)^{+} = X^+$</u></p><p>This is true because closure of a set of attributes is equal to closure of clsoure of set of attributes. This property is known as&nbsp;Idempotency of Attribute Closure</p><p><u>D.&nbsp;If <span id=\"MathJax-Element-25-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-283\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-284\" class=\"mjx-mrow\"><span id=\"MJXc-Node-285\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.501em; padding-bottom: 0.279em;\">A</span></span><span id=\"MJXc-Node-286\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.445em; padding-bottom: 0.279em;\">B</span></span><span id=\"MJXc-Node-287\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.224em; padding-bottom: 0.335em;\">→</span></span><span id=\"MJXc-Node-288\" class=\"mjx-mi MJXc-space3\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.501em; padding-bottom: 0.279em; padding-right: 0.045em;\">C</span></span></span></span></span> and <span id=\"MathJax-Element-26-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-289\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-290\" class=\"mjx-mrow\"><span id=\"MJXc-Node-291\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.501em; padding-bottom: 0.279em;\">A</span></span><span id=\"MJXc-Node-292\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.224em; padding-bottom: 0.335em;\">→</span></span><span id=\"MJXc-Node-293\" class=\"mjx-mi MJXc-space3\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.501em; padding-bottom: 0.279em; padding-right: 0.045em;\">C</span></span></span></span></span>, then <span id=\"MathJax-Element-27-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 113%; position: relative;\" data-mathml=\"&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/math&gt;\" role=\"presentation\"><span id=\"MJXc-Node-294\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-295\" class=\"mjx-mrow\"><span id=\"MJXc-Node-296\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.445em; padding-bottom: 0.279em;\">B</span></span><span id=\"MJXc-Node-297\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.224em; padding-bottom: 0.335em;\">→</span></span><span id=\"MJXc-Node-298\" class=\"mjx-mi MJXc-space3\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.501em; padding-bottom: 0.279em; padding-right: 0.045em;\">C</span></span></span></span></span></u>.</p><p>This need not be true, if we have $AB\\to C$ and $A\\to C$ then it need not be the case that $B\\to C$ is true. Hence this is false.&nbsp;</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/431270\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a relation with schema $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})$ and FD's $\\mathrm{AB} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{D}$, and $\\mathrm{D} \\rightarrow \\mathrm{A}$.<br>\nWhat are all the nontrivial FD's that follow from the given FD's ? You should restrict yourself to FD's with single attributes on the right side.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"431671\"></a><div itemprop=\"text\"><p>Consider the given functional dependencies (FDs):<br>\\[<br>AB \\rightarrow C, \\quad C \\rightarrow D, \\quad \\text{and} \\quad D \\rightarrow A.<br>\\]<br><br>From these, we can infer:<br>\\[<br>AB \\rightarrow D, \\quad C \\rightarrow A \\quad \\text{(Transitivity)}, \\quad \\text{and} \\quad BD \\rightarrow C \\quad \\text{(Pseudo Transitivity)}.<br>\\]<br><br>\\[<br>\\Rightarrow \\text{The FD } AB \\rightarrow D \\text{ can also be written as } ABC \\rightarrow D.<br>\\]<br>\\[<br>\\Rightarrow \\text{The FD } C \\rightarrow A \\text{ can be rewritten as } BC \\rightarrow A, \\, CD \\rightarrow A, \\text{ and } BCD \\rightarrow A.<br>\\]<br>\\[<br>\\Rightarrow \\text{The FD } BD \\rightarrow C \\text{ can be rewritten as } ABD \\rightarrow C \\text{ as well.}<br>\\]<br><br>This makes a total of 11 FDs (3 given, 3 inferred, and 5 from rewriting the inferred attributes).<br><br>Now consider rewriting the given FDs.<br>\\[<br>C \\rightarrow D \\text{ is equivalent to } BC \\rightarrow D \\text{ and } AC \\rightarrow D.<br>\\]<br>\\[<br>\\text{and, } D \\rightarrow A \\text{ is equivalent to } BD \\rightarrow A.<br>\\]<br><br>So that it makes a total of 11 + 3 = 14 FDs. Please note that attempting systematically and sequentially helps avoid counting duplicate FDs.</p><div class=\"qa-voting-container qa-voting-main-post\"><div class=\"qa-voting qa-voting-net\" id=\"voting_431269\"><div class=\"qa-vote-buttons qa-vote-buttons-net\">&nbsp;<div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://youtu.be/qXSKNl9fLco?feature=shared\">https://youtu.be/qXSKNl9fLco?feature=shared</a></p></div></div></div>&nbsp;</div><div class=\"qa-a-item-main\">&nbsp;</div></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"431269\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/qXSKNl9fLco?feature=shared\" target=\"_blank\">https://youtu.be/qXSKNl9fLco?feature=shared</a></p></div></section></div><p><a href=\"https://gateoverflow.in/431268\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a relational database relation, we say a non-empty set of attributes $\\mathrm{X}$ is closed (with respect to a given set of functional dependencies FD) if $X^{+}=X$ (where $X^{+}$is the closure of $X).$ Consider a relation with schema $\\mathrm{R}\\{\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})$ and an unknown set of FD's.</p><p>If we are told which sets of attributes are closed, we can discover the FD's.</p><p>Assume that the only closed sets are $\\{\\mathrm{A}, \\mathrm{B}\\},\\{\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}\\}$.</p><p>Which of the following is/are true for $R?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The number of candidate keys is $2.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The number of non-prime attributes is $2.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$R$ is in $2 N F$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$R$ is in $3 N F$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 25)</small></h4><a name=\"431282\"></a><div itemprop=\"text\"><p>This is a <strong>beautiful question from the Ullman DBMS Book</strong>. Find <strong>Detailed Video Solution</strong> with Many more Variations:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=1157s\" target=\"_blank\">https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=1157s</a> &nbsp;</p><p>First, notice that $\\{A\\}^{+}$is not $\\{A\\}$, and since $\\{A, B\\}^{+}=\\{A, B\\}$, it must be that $A \\rightarrow B$ is an FD&nbsp;. With a similar argument, we have that $B \\rightarrow A$ is another fd we must include.<br><br>The FDs will be:<br>$$<br>\\{\\mathrm{C} \\rightarrow \\mathrm{ABD}, \\mathrm{D} \\rightarrow \\mathrm{ABC}, \\mathrm{A} \\rightarrow \\mathrm{B}, \\mathrm{B} \\rightarrow \\mathrm{A}\\} \\text {. }<br>$$<br>The candidate keys are $C, D$.<br><br><strong>Detailed Video Solution</strong> with Many more Variations:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=1157s\" target=\"_blank\">https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=1157s</a> &nbsp;<strong> </strong></p></div></section></div><p><a href=\"https://gateoverflow.in/431267\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation $\\mathrm{R}\\{\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$ such that each attribute functionally determines the other two attributes. Relation R and its FD's have several minimal bases.<br>Which of the following is/are a minimal base (canonical cover) for FDs of R ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{A} \\rightarrow \\mathrm{B}, \\mathrm{B} \\rightarrow \\mathrm{A}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{B}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{A} \\rightarrow \\mathrm{B}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{A}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{A} \\rightarrow \\mathrm{C}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{A}, \\mathrm{C} \\rightarrow \\mathrm{B}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{A} \\rightarrow \\mathrm{C}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{A}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"431266\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=4140s\" target=\"_blank\">https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=4140s</a></p><p data-start=\"149\" data-end=\"250\">Answer is option $\\boxed{A,B,C}$</p><p data-start=\"149\" data-end=\"250\">Original FD :{ ${ A \\to B, A \\to C,<br data-start=\"176\" data-end=\"179\">B \\to A, B \\to C,<br data-start=\"198\" data-end=\"201\">C \\to A, C \\to B }$ }</p><p data-start=\"252\" data-end=\"291\"><u><strong>A)</strong></u>&nbsp; $A \\to B, B \\to A, B \\to C, C \\to B$</p><p data-start=\"293\" data-end=\"314\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for minimal}}$</strong></p><p data-start=\"316\" data-end=\"411\">remove $A \\to B$ and using remaining functional dep. find out if we can determine $B$ from $A$.</p><p data-start=\"413\" data-end=\"493\">$A^+ : A \\ \\times$ NOPE, hence $A \\to B$ is not redundant functional dependency.</p><p data-start=\"495\" data-end=\"532\">lets check if $B \\to A$ is Redundant.</p><p data-start=\"534\" data-end=\"620\">$B^+ : BC \\ \\times$ we can't determine $A$ from $B$. hence $B \\to A$ is not Redundant.</p><p data-start=\"622\" data-end=\"658\">lets check if $B \\to C$ is redundant</p><p data-start=\"660\" data-end=\"694\">$B^+ : BA \\ \\times$ Not redundant.</p><p data-start=\"696\" data-end=\"733\">lets check if $C \\to B$ is redundant.</p><p data-start=\"735\" data-end=\"768\">$C^+ : C \\ \\times$ NOT Redundant.</p><p data-start=\"770\" data-end=\"799\">Hence This FD set is minimal.</p><p data-start=\"801\" data-end=\"821\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for cover}}$</strong></p><p data-start=\"823\" data-end=\"918\">$A^+ : ABC$<br data-start=\"834\" data-end=\"837\">$B^+ : BCA$<br data-start=\"904\" data-end=\"907\">$C^+ : CBA$</p><p data-start=\"823\" data-end=\"918\">which covers the original set of functional dependency.</p><p data-start=\"920\" data-end=\"980\">Hence option A is correct coz its minimal cover of FDs of R.</p><hr data-start=\"982\" data-end=\"985\"><p data-start=\"987\" data-end=\"1017\"><strong>B</strong>) $A \\to B, B \\to C, C \\to A$</p><p data-start=\"1019\" data-end=\"1040\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for minimal}}$</strong></p><p data-start=\"1042\" data-end=\"1058\">yes its minimal.</p><p data-start=\"1060\" data-end=\"1079\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for cover}}$</strong></p><p data-start=\"1081\" data-end=\"1140\">$A^+ : ABC$<br data-start=\"1092\" data-end=\"1095\">$B^+ : BCA$<br data-start=\"1126\" data-end=\"1129\">$C^+ : CAB$</p><p data-start=\"1081\" data-end=\"1140\">It covers FDs of R.</p><p data-start=\"1142\" data-end=\"1168\" data-is-last-node=\"\" data-is-only-node=\"\">Hence option B is correct.</p><hr data-start=\"982\" data-end=\"985\"><p data-start=\"987\" data-end=\"1017\"><strong>C</strong>) $A \\to C, B \\to C, C \\to A, C \\to B$</p><p data-start=\"188\" data-end=\"209\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for minimal}}$</strong></p><p data-start=\"211\" data-end=\"256\">$A^+ : A$ , hence $A \\to C$ is not Redundant.</p><p data-start=\"258\" data-end=\"309\">$B^+ : B$ , hence $B \\to C$ is not Redundant aswell</p><p data-start=\"311\" data-end=\"363\">$C^+ : CB$ , hence $C \\to A$ is not redundant aswell</p><p data-start=\"365\" data-end=\"416\">$C^+ : CA$ , hence $C \\to B$ is also not Redundant.</p><p data-start=\"418\" data-end=\"452\">Hence this set of FDs are minimal.</p><p data-start=\"454\" data-end=\"473\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for cover}}$</strong></p><p data-start=\"475\" data-end=\"512\">$A^+ : ACB$ yes, it covers FDs of R.</p><p data-start=\"514\" data-end=\"525\">$B^+ : BCA$</p><p data-start=\"527\" data-end=\"538\">$C^+ : CBA$</p><p data-start=\"540\" data-end=\"566\">Hence option C is correct.</p><hr data-start=\"568\" data-end=\"571\"><p data-start=\"573\" data-end=\"603\"><strong>D)</strong> $A \\to C, B \\to C, C \\to A$</p><p data-start=\"605\" data-end=\"626\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for minimal}}$</strong></p><p data-start=\"628\" data-end=\"643\">yes its minimal</p><p data-start=\"645\" data-end=\"664\"><strong data-start=\"293\" data-end=\"314\">$\\boxed{\\text{check for Cover}}$</strong></p><p data-start=\"666\" data-end=\"712\">$A^+ : AC$ $\\rightarrow$ Doesn't determine $B$</p><p data-start=\"714\" data-end=\"725\">$B^+ : BCA$</p><p data-start=\"727\" data-end=\"773\">$C^+ : CA$ $\\rightarrow$ Doesn't determine $B$</p><p data-start=\"775\" data-end=\"805\">Hence not a cover of FDs of R.</p><p data-start=\"807\" data-end=\"825\" data-is-last-node=\"\" data-is-only-node=\"\">option D is wrong.</p><p data-start=\"1142\" data-end=\"1168\" data-is-last-node=\"\" data-is-only-node=\"\">&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/431265\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider relation $R(A, B, C, D, E)$ with functional dependencies $A B \\rightarrow C, B C$ $\\rightarrow \\mathrm{D}, \\mathrm{CD} \\rightarrow \\mathrm{E}, \\mathrm{DE} \\rightarrow \\mathrm{A}$, and $\\mathrm{AE} \\rightarrow \\mathrm{B}$. If we project R onto the relation $S(A, B, C, D)$, that is, $S=\\pi_{A, B, C, D}(R)$, then certain functional dependencies must hold in S. These are the FD's that can be inferred from those of R, but that involve only the attributes of S. Note that the inference itself is not restricted only to attributes of S, just the result. Which of the following FD's holds in S?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{AC} \\rightarrow \\mathrm{B}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{DE} \\rightarrow \\mathrm{A}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{B} \\rightarrow \\mathrm{A}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{ABD} \\rightarrow \\mathrm{C}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 2)</small></h4><a name=\"431335\"></a><div itemprop=\"text\"><p>Here We can make these Fd's Only<br><br>$AB$ $ \\rightarrow $ $CD$<br><br>$BC$ $ \\rightarrow $ $AD$<br><br>$CD$ $ \\rightarrow $ $AB$<br><br>$ABC$ $ \\rightarrow $ $D$<br><br>$ABD$ $ \\rightarrow $ $C$<br><br>$ACD$ $ \\rightarrow $ $B$<br><br>$BCD$ $ \\rightarrow $ $A$</p><p>&nbsp;</p><p><strong>Projection of FD Set is discussed here:</strong>&nbsp;<a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=5616s\">https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=5616s</a></p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"431264\"></a><div itemprop=\"text\"><p>Just find the closure of LHS in each option &amp; also make sure that all the attributes in LHS &amp; RHS are from S only.<br><br><strong>Projection of FD Set is discussed here:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=5616s\" target=\"_blank\">https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=5616s</a></p></div></section></div><p><a href=\"https://gateoverflow.in/431263\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 5,
+  "types": {
+   "NAT": 5,
+   "MSQ": 5
+  },
+  "withoutKey": 7
+ }
+}

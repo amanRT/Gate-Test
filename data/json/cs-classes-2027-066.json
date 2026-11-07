@@ -1,0 +1,586 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-066",
+ "title": "DVRUO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | Discrete Mathematics | Topic Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 66,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/109_exam_1316_GO Classes CS Test Series Discrete Mathematics Topic Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For a given predicate $\\mathrm{P}(\\mathrm{x}),$&nbsp;you might believe that the statements $\\forall \\mathrm{xP}(\\mathrm{x})$ or $\\exists \\mathrm{xP}(\\mathrm{x})$ are either true or false.</p>\n\n<p>To prove $\\exists \\text{x P(x)}$ is false:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Give an example of an element $n$ in the domain for which $P(n)$ is true.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Give an example of an element $n$ in the domain for which $P(n)$ is false.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Show for every element $n$ in the domain, that $P(n)$ is true.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Show for every element $n$ in the domain, that $P(n)$ is false.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/402514\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the statement $\\text{S}&nbsp;:$ \"For all natural numbers $n,$&nbsp;if $n$ is prime, then $n$ is antisocial.\"<br>\nYou do not need to know what antisocial means for this problem, just that it is a property that some numbers have and others do not.<br>\nAssume that we know that natural number $10$ is not a prime number$, \\&amp;$ that natural number $7$ is a prime number.</p>\n\n<p>Which of the following statements can be inferred from the statement $\\mathrm{S}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10$ is antisocial.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10$ is not antisocial.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$7$ is antisocial.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$7$ is not antisocial.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/402512\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is the negation of “there is a successful person who is grateful”?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>There is a successful person who is ungrateful.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Every grateful person is unsuccessful.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Every unsuccessful person is grateful.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Every successful person is ungrateful.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/373956\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following predicates.</p>\n\n<ul>\n\t<li>$\\text{Rabbit}(x) = x$ is a rabbit.</li>\n\t<li>$\\text{Cute}(x) = x$ is cute.</li>\n</ul>\n\n<p>Consider the following statement $\\text{E},$ where the domain of every variable is set of all animals in a jungle $\\text{J}.$<br>\n$\\text{E} = \\forall x ( \\text{Rabbit}(x) \\wedge \\text{Cute}(x) )$</p>\n\n<p>If statement $\\text{E}$ is true, then which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>There is no animal other than rabbits in the jungle $\\text{J}.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Every rabbit is cute in jungle $\\text{J}.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It is possible that there is some animal in $\\text{J}$ who is not a rabbit but is cute.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There is some rabbit who is cute in jungle $\\text{J}.$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><p><a href=\"https://gateoverflow.in/373953\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following proposition :\n\n$\\text{A}_{n} = \\underbrace{(p \\rightarrow (q \\rightarrow (p \\rightarrow (q \\rightarrow (\\dots)))))}_{\\text{number of p’s + number of q’s = n}}.$\n\nWhich of the following is false for $\\text{A}_{n}:$\nA. For every $n > 2, \\text{A}_{n}$ is a tautology.\nB. For every $n > 2, \\text{A}_{n}$ is a contradiction.\nC. For every $n = 2, \\text{A}_{n}$ is a contingency.\nD. For every $n > 2, \\text{A}_{n}$ is Not contingency.",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/373950\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose $P(x, y)$ is some binary predicate defined on a very small domain of discourse: just the integers $1,2,3$, and $4.$ For each of the $16$ pairs of these numbers, $P(x, y)$ is either true or false, according to the following table $( x$ values are rows, $y$ values are columns).<br>\n$$<br>\n\\begin{array}{c|cccc}<br>\n&amp; 1 &amp; 2 &amp; 3 &amp; 4 \\\\<br>\n\\hline 1 &amp; \\mathrm{~T} &amp; \\mathrm{~F} &amp; \\mathrm{~F} &amp; \\mathrm{~F} \\\\<br>\n2 &amp; \\mathrm{~F} &amp; \\mathrm{~T} &amp; \\mathrm{~T} &amp; \\mathrm{~F} \\\\<br>\n3 &amp; \\mathrm{~T} &amp; \\mathrm{~T} &amp; \\mathrm{~T} &amp; \\mathrm{~T} \\\\<br>\n4 &amp; \\mathrm{~F} &amp; \\mathrm{~F} &amp; \\mathrm{~F} &amp; \\mathrm{~F}<br>\n\\end{array}<br>\n$$<br>\nFor example, $P(1,3)$ is false, as indicated by the $\\mathrm{F}$ in the first row, third column.<br>\n<br>\nWhich of the following statements are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\forall x \\exists y P(x, y)$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\forall y \\exists x P(x, y)$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\exists x \\forall y P(x, y)$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\exists y \\forall x P(x, y)$.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/402510\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $P(x)$ and $Q(x)$ be predicates and let $D$ denote the domain of the predicate variable $x$. Consider the following universal conditional statement,<br>\n$$<br>\n\\forall x \\in D, P(x) \\rightarrow Q(x) .<br>\n$$<br>\nWhich of the following conditions implies that the above universal conditional statement is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$P(x) \\wedge Q(x)$ is false for all $x \\in D$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$P(x) \\wedge(\\sim Q(x))$ is false for all $x \\in D$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$Q(x)$ is true for all $x \\in D$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$P(x) \\vee Q(x)$ is true for all $x \\in D$.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/402508\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $P(x), Q(x), R(x)$ and $S(x)$ denote the following predicates with domain $\\mathbb{Z}$ :<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; P(x): x^2-x-12=0, \\\\<br>\n&amp; Q(x): x \\text { is odd, } \\\\<br>\n&amp; R(x): x&lt;0, \\\\<br>\n&amp; S(x): x^2-9=0 .<br>\n\\end{aligned}<br>\n$$<br>\nWhich of the following statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\forall x \\in \\mathbb{Z}, \\quad P(x) \\rightarrow Q(x)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\forall x \\in \\mathbb{Z}, \\quad(P(x) \\vee Q(x)) \\rightarrow R(x)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\exists x \\in \\mathbb{Z} \\text { such that } P(x) \\rightarrow(Q(x) \\wedge R(x))$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\forall x \\in \\mathbb{Z}, \\quad S(x) \\rightarrow(Q(x) \\wedge S(x))$</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/402506\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let's make a trip to a new world called \"Never Never Land\".</p>\n\n<p>Regular, ordinary first-order logic has two quantifiers: $\\forall$ and $\\exists$.</p>\n\n<p>Now, let's imagine we lived in a world in which these quantifiers didn't exist, and instead we only had one quantifier, $\\mathrm{N}$. The quantifier $\\mathrm{N}$ is the \"never\" quantifier, and the expression<br>\n$$\\mathrm{N} x.\\; [\\text{some formula}]$$<br>\nmeans \"[some formula] is never true, regardless of what choice of $x$ we pick.\" For example, the expression<br>\n$\\mathrm{Nx}(\\mathrm{P}(\\mathrm{x}))$ says \"There is No element $\\mathrm{x}$ in the domain, such that $\\mathrm{P}(\\mathrm{x})$ is true\".</p>\n\n<p>For predicates $\\mathrm{A}(\\mathrm{x})$ and $\\mathrm{B}(\\mathrm{x})$, Which of the following is the correct expression for $\\text{“All A's are B's\" }?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\neg \\mathrm{Nx}(\\mathrm{A}(\\mathrm{x}) \\rightarrow \\mathrm{B}(\\mathrm{x}))$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\neg \\mathrm{Nx}(\\mathrm{A}(\\mathrm{x}) \\wedge \\neg \\mathrm{B}(\\mathrm{x}))$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{Nx}(\\mathrm{A}(\\mathrm{x}) \\wedge \\neg \\mathrm{B}(\\mathrm{x}))$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{Nx}(\\neg A(x) \\wedge B(x))$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/402504\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following formulas is a formalization of the sentence :</p><p>“There is a barber who shaves all men in the town who do not shave themselves”</p><p>Where $\\text{shave}(x,y)$ means “$x\\;\\text{shaves}\\; y$”</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\exists x [\\text{Barber}(x) \\wedge \\exists y [[\\text{man}(y) \\wedge \\neg \\text{shaves}(y, y)] \\rightarrow \\text{shaves}(x, y)]]$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\exists x [\\text{Barber}(x) \\wedge \\forall y [[\\text{man}(y) \\wedge \\neg \\text{shaves}(y, y)] \\wedge \\text{shaves}(x, y)]]$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\exists x [\\text{Barber}(x) \\wedge \\forall y [[\\text{man}(y) \\wedge \\neg \\text{shaves}(y, y)] \\rightarrow \\text{shaves}(x, y)]]$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\exists x [\\text{Barber}(x) \\wedge \\forall y [[\\text{man}(y) \\rightarrow \\neg \\text{shaves}(y, y)] \\rightarrow \\text{shaves}(x, y)]]$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/373983\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>We define a new quantifier, uniqueness quantifier, the symbol of which is $\\exists!.$</p>\n\n<p>For any predicate $\\text{P}$ and universe $\\text{U}, \\exists! x \\text{P}(x)$ means there is exactly one element in the universe for which $\\text{P}$ is true.</p>\n\n<p>Which of the following statements is(are) Valid ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>$\\exists!x \\text{P}(x) \\wedge \\exists!x \\text{Q}(x) \\Rightarrow \\exists!x (\\text{P}(x) \\wedge \\text{Q}(x))$</li>\n\t<li>$\\exists!x (\\text{P}(x) \\wedge \\text{Q}(x)) \\Rightarrow \\exists!x \\text{P}(x) \\wedge \\exists!x \\text{Q}(x)$</li>\n\t<li>$\\exists!x \\text{P}(x) \\vee \\exists!x \\text{Q}(x) \\Rightarrow \\exists!x (\\text{P}(x) \\vee \\text{Q}(x))$</li>\n\t<li>$\\exists!x (\\text{P}(x) \\vee \\text{Q}(x)) \\Rightarrow \\exists!x \\text{P}(x) \\vee \\exists!x \\text{Q}(x)$</li>\n</ol>\n\n<p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I, II, IV</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>I, III</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>II, III, IV</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>IV only</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/373979\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Translate the following sentences into First-order logic (FOL): “ If someone is noisy, everybody is annoyed.”</p>\n\n<p>Use the following predicates :</p>\n\n<ul>\n\t<li>$\\text{N}(x)\\;:$ “$x$ is noisy”</li>\n\t<li>$\\text{A}(x)\\;:$ “$x$ is annoyed”</li>\n</ul>\n\n<p>Which of the following is correct translation :</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\exists x(\\text{N}(x) \\rightarrow \\forall y(\\text{A}(y)))$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\exists x(\\text{N}(x)) \\rightarrow \\forall y(\\text{A}(y))$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\forall x(\\text{N}(x)) \\rightarrow \\forall y(\\text{A}(y))$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\forall x(\\text{N}(x) \\rightarrow \\forall y(\\text{A}(y)))$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/373974\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\text{P}$ be a compound proposition over $4$ propositional variables $: a,b,c,d.$\n\nWe know that for a compound proposition over n propositional variables, we have $2^{n}$ rows in the truth table.\nEvery row of the truth table of P is called an “Interpretation” of $\\text{P}.$ A row in the truth table of $\\text{P}$ is called “model” iff $\\text{P}$ is true for that row. Let $\\text{P}$ be the sentence $(a \\wedge b) \\vee (b \\wedge c)$\n\nHow many models are there for $\\text{P}?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 6</p><p><a href=\"https://gateoverflow.in/373960\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Many programming languages support a ternary conditional operator. For example, in $\\text{C, C++},$ and $\\text{Java}$, the expression $x ? y : z$ means “evaluate the boolean expression $x.$ If it's true, the entire expression evaluates to $y.$ If it's false, the entire expression evaluates to $z.$”</p>\n\n<p>In the context of propositional logic, we can introduce a new ternary connective $?:$ such that $p ? q: r$ means “if $p$ is true, the connective evaluates to the truth value of $q,$ and otherwise it evaluates to the truth value of $r$.”</p>\n\n<p>Let $p,q,r$ be three propositional variables. Which of the following is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Probability of $p ? q : r,$ being true is $\\dfrac{1}{2}.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$p ? p : p$ is tautology.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$p ? p : (\\neg p)$ is tautology.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(\\neg p) ? p : (\\neg p)$ is tautology.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/373955\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following predicates.</p>\n\n<ul>\n\t<li>$\\text{Rabbit}(x) = x$ is a rabbit.</li>\n\t<li>$\\text{Cute}(x) = x$ is cute.</li>\n</ul>\n\n<p>Consider the following statement $\\text{E},$ where the domain of every variable is set of all animals in a jungle $\\text{J}.$<br>\n$\\text{E} = \\exists x ( \\text{Rabbit}(x) \\rightarrow \\text{Cute}(x) )$</p>\n\n<p>If statement $\\text{E}$ is false, then which of the following is necessarily true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>There is no animal other than rabbits in the jungle $\\text{J}.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There is no cute animal in the jungle $\\text{J}.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There is no cute rabbit in jungle $\\text{J}.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There is some rabbit who is not cute in jungle $\\text{J}.$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/373954\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 5,
+   "MSQ": 9,
+   "NAT": 1
+  },
+  "withoutKey": 0
+ }
+}

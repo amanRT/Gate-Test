@@ -1,0 +1,1058 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-016",
+ "title": "GATE 2027-Subjectwise Test- 12 (Electromagnetic Fields)",
+ "sourceTitle": "GATE 2027-Subjectwise Test- 12 (Electromagnetic Fields)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 16,
+ "category": "subjectwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 33 | Marks: 50 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/041_GATE 2027-Subjectwise Test- 12 (Electromagnetic Fields).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Two infinite line charges, each having linear charge density +5 &mu;C/m, are placed parallel to the&nbsp;z-axis at (2,0) m and (-2,0) m. The magnitude of the electric field at the origin is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>22.5 &times; 10<sup>3</sup> V/m</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>45 &times; 10<sup>3</sup> V/m</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>90 &times; 10<sup>3</sup> V/m</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>The fields due to the two identical positive line charges at the origin are equal in magnitude and&nbsp;opposite in direction.<br>Therefore, E<sub>net</sub> = 0</p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>A long solid cylindrical conductor of radius R carries a uniformly distributed current I. Which&nbsp;statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Magnetic field inside increases linearly with radius.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Magnetic field outside varies as 1/r.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Magnetic field is maximum at the conductor surface.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Magnetic field inside is constant.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/9a/9ab29e9423821985b703.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The magnetic dipole moment of a circuit formed by the triangular loop shown below, will be</p>\n<p><img src=\"media/2e/2e6cd685f8eecefdc096.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/37/373666ed99508bd99efe.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/bc/bcf5fc5226cfcab375b0.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/af/af553d162edb65c4816e.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/db/dba8037ae694ec9002a2.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/cd/cd2584937ee3531737ed.png\"></p>\n<p><img src=\"media/90/902011d72e0ab5244407.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A conducting spherical shell has inner radius 4 cm and outer radius 6 cm. A point charge of 10 nC&nbsp;is placed at the center. Find the electric field magnitude at a point 5 cm from the center.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>The point lies inside the conducting material. In electrostatic equilibrium, the electric field inside&nbsp;a conductor is zero.</p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/a0/a0c05f5fc4117c7ee05b.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12.2,
+    12.7
+   ],
+   "answerText": "12.2 - 12.7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/93/9394352c115973db0575.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/88/886dfed67d299e285d56.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -1,
+    -0.9
+   ],
+   "answerText": "-1 - -0.9",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/07/07ecd5920021f70d7524.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>The electric field intensity in polystyrenes (&epsilon;<sub>r</sub> = 2.55) filling the space between the plates of a&nbsp;parallel plate capacitor is 10 kV/m. The distance between the plates is 1.5 mm. The surface&nbsp;charge density of free charge on the plates is _________ (&mu;C/m<sup>2</sup>).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.21,
+    0.25
+   ],
+   "answerText": "0.21 - 0.25",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/e8/e82c26eb9dfd984c4854.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A circuit has 2000 turns enclosing a magnetic circuit 30 cm<sup>2</sup> in section. A current of 5 A in the&nbsp;circuit produces a field of flux density 1(Tesla) and when current is doubled, flux density increases&nbsp;only by 50%. The mean value of inductance of the circuit between 5 A and 10 A is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.4 H</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.5 H</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.6 H</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.7 H</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/e9/e92ddb77eba61a5178e3.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/80/80c38e43b26a477cfd25.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;20 &mu;C</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&ndash;30 &mu;C</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&ndash;40 &mu;C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&ndash;50 &mu;C</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/76/76833d3f9df29b455e13.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The parallel conducting disks as shown in the figure are separated by 5 mm and contain a dielectric&nbsp;for which &isin;<sub>r</sub> = 2.2.</p>\n<p><img src=\"media/67/678da666c64590bea352.png\"></p>\n<p>The charge density on the upper plate is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;4.26 &times; 10<sup>&ndash;6</sup> C/m<sup>2</sup></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>+4.26 &times; 10<sup>&ndash;6</sup> C/m<sup>2</sup></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>+5.83&times; 10<sup>&ndash;7</sup> C/m<sup>2</sup></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>-5.83&times; 10<sup>&ndash;7</sup> C/m<sup>2</sup></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/5c/5c44710a82eaef359a4e.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/cb/cb7ed3e3baf44a3f1064.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/33/33687661bd7a085b4723.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/80/809e816c83c5437b03b6.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/ba/ba8d08c3b8563686de71.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/d4/d4f636d1954954740840.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/b4/b45b4a7193c41ed82fc8.png\"></p>\n<p>&nbsp;</p>\n<p><img src=\"media/c1/c109b886398160a3ea80.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A point charge Q = 30 nC is located at the origin in Cartesian coordinates. The magnitude of&nbsp;electric flux density <img src=\"media/2b/2b2ba4dfc17c70ba401a.png\">at (1, 3, &ndash;4) m is</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    91.6,
+    91.99
+   ],
+   "answerText": "91.6 - 91.99",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/52/52b5bd42d5bbc257c859.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>In cylindrical coordinates, V = 0, at &rho; = 2 m and V = 60 V at &rho; = 5 m due to charge distribution&nbsp;</p>\n<p><img src=\"media/81/81338e7156ac7cfe5a54.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/94/940bed8ed721eaaa69d6.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/d9/d907fde79b05f5a85ebe.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/03/03f3b767b852aab2c8fa.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/22/2230abd3497bcb31916d.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/07/0736d0540028404e697d.png\"></p>\n<p><img src=\"media/2f/2fcafd773f369de9eac2.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>An electron (q<sub>1</sub>) is moving in free space with 105 m/sec towards a stationary electron (q<sub>2</sub>) at some&nbsp;distance. The closest distance that this moving electron can approach stationary electron before&nbsp;the repulsive force diverts its path is ________ 10<sup>&ndash;8 </sup>m. (Answer upto 2 decimal places).<br>(Assume, electron mass, m = 9.11 &times; 10<sup>&ndash;31</sup> kg, charge q = &ndash;1.6 &times; 10<sup>&ndash;19</sup> C and permittivity,</p>\n<p><img src=\"media/92/92baed997f432ff5d3bb.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5.1
+   ],
+   "answerText": "5 - 5.1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f8/f823526506c398ad6959.png\"></p>\n<p><img src=\"media/41/41a6709f3ed10abfdf5c.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A stationary 10 turn square coil of 1 metre-side is situated with its lower left corner coincident&nbsp;with the origin and with sides x<sub>1</sub> and y<sub>1</sub> along x-axis and y-axis. If the field B is normal to the plane of coil and has its amplitude given by</p>\n<p><img src=\"media/92/928b4d861f8f73b50b47.png\"></p>\n<p>The rms value of emf induced in the coil if B varies harmonically at a frequency of 1 kHz</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>14 kV</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>18 kV</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>22 kV</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>28 kV</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/44/4440c811682c3e5091cd.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/b4/b4e08df043ea1f10c94d.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/2d/2d06b11290a315d0e8fa.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/f1/f1d405fc1ea912f152f8.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/7f/7f45255ffe7d67898466.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/8a/8a893e280b65db21c8cf.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8b/8bb19eabdde41dc94d68.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A positively charged circular ring with charge density 5 nC/m and radius 5 m. At what distance&nbsp;from its centre the electric field will be maximum ________ m. (rounded up to two decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.52,
+    3.54
+   ],
+   "answerText": "3.52 - 3.54",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/41/41ea1ac2a70582dc3e89.png\"></p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>Half of the space between the plates of a parallel plate capacitor is filled with a dielectric material&nbsp;of dielectric constant K. The remaining half contains air as shown in figure. The capacitor is now&nbsp;given a charge Q. Then</p>\n<p><img src=\"media/8d/8d7db0b603786e4c5e68.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Electric field in the dielectric region is higher than air filled region.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Charged densities of air filled and dielectric region are equal.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Plate towards air-filled part will have charge <img src=\"media/d4/d4616ac523df560979a6.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Capacitance of the capacitor shown in figure is <img src=\"media/34/34bf25a8b603448b98a8.png\">where C<sub>0</sub> is capacitance of same<br>capacitor without dielectric.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/12/124b955fa07510f5810f.png\"></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/33/33b064341fc10828f572.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;8.255 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&ndash;6.255 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>11.250 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&ndash;20.25 V</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/c8/c88d61eee12221143f09.png\"></p>\n<p><img src=\"media/8a/8a85b519c332bd9990b0.png\"></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A solid conducting sphere having charge density 25 nC/m and radius 5 cm. Calculate the potential&nbsp;at a distance 2 mm from the centre of sphere is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3.53 V</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>5.329 V</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>9.125 V</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.0078 V</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/f8/f80d4e09a9838e455c74.png\"></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The magnetic field intensity at the centre of Arc due to the current in portion AB.</p>\n<p><img src=\"media/c3/c3b04157d98235424572.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/8b/8bfdfa39e87d5ed6d019.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/38/388fd9b3bff7e5e503f3.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/74/7442f97d450fe98b6675.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>none of the above</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>Magnetic field at O due to current in portion AB will be zero. Because O lies on AB when extended.</p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The value of B at the centre O in the figure shown</p>\n<p><img src=\"media/c7/c70ac1dd70d9aa950754.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/ff/ff9cd7292d75a5fa956d.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/0f/0fd3fea01c44e7b6aff0.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/51/51705d82d11f64da01f3.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/25/25bcf5aea02d9597d9bf.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/31/31085a3d3e8c19503071.png\"></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/d9/d9df35d0a32a1622bba5.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/15/15091130373d60e096f2.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/1a/1a185c1e267d24324e37.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/a3/a3b310c093842beacbe6.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/d7/d7a87a7386859ebc854d.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/12/12410a14f520dbec3aad.png\"></p>\n<p><img src=\"media/b2/b200b088400085d1f08f.png\"></p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +1",
+   "html": "<p>Consider the following statements about equipotential surface and choose the correct statements:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Work done by tangential component of E-field on equipotential surface is zero.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Work done by normal component of E-field on equipotential surface is zero.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>E-field and equipotential surface intersect each other at 90&deg;.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Normal component of E-field on equipotential surface is zero.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>Properties of Equipotential surface (EPS)<br>(i) Tangential component of E-field on EPS is zero.<br>(ii) Normal component of E-field on EPS is non-zero.<br>(iii) E-field and EPS intersect each other at 90&deg;<br>(iv) Perfect conductor behaves as EPS.</p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>An infinite length line charge with charge density 5&pi; c/m, lying along z-axis. Potential of A with&nbsp;respect to B. Point A(4, 3, 6), Point B(3, 4, 5) _________ volts.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/9b/9b36f6428e6fa7079e3c.png\"></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/a8/a82a9780daa82388f483.png\"></p>\n<p><img src=\"media/0f/0fc59d60174faa38dd31.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/1c/1cb3634af5d97556c862.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/49/49ab1a268eefaffa39d0.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/d2/d2882e81c85e644d8d76.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/ce/ce9c5894a33a2b986a09.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/ea/ea72ca6250610ebe7cc0.png\"></p>\n<p><img src=\"media/17/170dc1b5d33dd8b43137.png\"></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Three concentric thin conducting spherical shells A, B and C have radii a, 2a and 4a respectively.&nbsp;The region between shell A and shell B is filled with a dielectric material of relative permittivity&nbsp;&isin;<sub>r</sub> = 2. The region between shell B and shell C is filled with air. Shell A and shell C are electrically&nbsp;connected together by a thin conducting wire. Equivalent capacitance of the system measured&nbsp;between shell B and the common connection of shells A and C is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>32&pi;&isin;<sub>0</sub>a</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>16&pi;&isin;<sub>0</sub>a</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>24&pi;&isin;<sub>0</sub>a</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>8&pi;&isin;<sub>0</sub>a</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/71/71e6b440d42d67b17bb8.png\"></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/e8/e85d0c6607997a527a63.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/c8/c8b2c822e22dc758422e.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/cd/cdf5bfb20a275e8da2ac.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/b6/b6275d6b41c16fd038fa.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/54/54abf9e858ba476b0957.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/50/503ae9b12abd670dc458.png\"></p>\n<p><img src=\"media/e3/e3529f45dbd415a786ec.png\"></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A uniform thin conducting wire of total Length L, carries a current I. The wire is first bent to&nbsp;form a closed equilateral triangle. Later, the same wire is reshaped to form a closed regular&nbsp;Hexagon.<br>If B<sub>3</sub> and B<sub>6</sub> denote the magnitudes of magnetic flux density at the centers of equilateral triangle&nbsp;and regular hexagon respectively</p>\n<p><img src=\"media/fa/fa5da64ea34df70aa717.png\">.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/be/be50b78926413614004d.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/39/39af385b1530ba9b126b.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/5d/5d83cb6a79a9900aa2b0.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/99/991e588a5a999974614f.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/4f/4f76e8f2ee2835b6c578.png\"></p>\n<p><img src=\"media/fd/fd8d73754cac8efbd3d9.png\"></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/ff/ff531d0d61b7bd9d3a71.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/fe/feeda43fe0822f1ca5eb.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/a5/a5e184cc4ade01cefba1.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/b9/b9a540cf905834952013.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/98/982d878b2388ed6490d9.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/14/14875e8aa9eabed2b939.png\"></p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A point charge +Q is placed at a perpendicular distance d from an infinite, grounded, perfectly&nbsp;conducting plane. What is the total work done by an external agent in moving this charge slowly&nbsp;along the perpendicular axis from its initial position d to a new distance of 2d from the conducting<br>plane.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/02/02ac3333a4c842fe2d2e.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/55/55efa62c9728dfde66cb.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/be/bee9e0655142222df358.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/36/363610d71ca39a949733.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/45/45c8196a75d0f06cbcf8.png\"></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/e0/e03c90c195c64f188da5.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/07/071360b98f2f9ad5ea58.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/64/64337443bd297efeab46.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/08/087dd789308c078ff5fb.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/14/1459d6bf76e5782d5a69.png\"></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/4c/4c0a8b30661ffe269f0e.png\"></p>\n<p><img src=\"media/8b/8b95eae8047b82c12950.png\"></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p><img src=\"media/f0/f0f4305cac55057141e8.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.5,
+    3.5
+   ],
+   "answerText": "3.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/19/19e2bf6d8cf82cac758a.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 21,
+   "MSQ": 3,
+   "NAT": 9
+  },
+  "withoutKey": 0
+ }
+}

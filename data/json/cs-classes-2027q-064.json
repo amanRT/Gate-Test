@@ -1,0 +1,554 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-064",
+ "title": "DVRUO Classes GATE CS | Digital Logic | Number System | Weekly Quiz 8",
+ "sourceTitle": "DVRUO Classes GATE CS | Digital Logic | Number System | Weekly Quiz 8",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 64,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Digital Logic"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/045_exam_1111_GO Classes GATE CS Digital Logic Number System Weekly Quiz 8.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Excess-$3$&nbsp;code is also called</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Cyclic Redundancy Code<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Weighted Code<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Self-Complementing Code<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Algebraic Code</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"498461\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">The correct answer is <b>C. Self-Complementing Code</b>.</p><p data-path-to-node=\"0\">&nbsp;</p><p data-path-to-node=\"2\">The <b>Excess-3</b> code is a unique Binary Coded Decimal (BCD) code with a special property: the 9's complement of a decimal number can be obtained directly by taking the <b>1's complement</b> (inverting the bits) of its Excess-3 code.</p><p data-path-to-node=\"3\">Because performing a logical NOT operation on the binary code produces the arithmetic complement of the number, it is defined as <b>self-complementing</b>.</p><p data-path-to-node=\"4\"><b>Let's look at an example:</b></p><ol start=\"1\" data-path-to-node=\"5\"><li><p data-path-to-node=\"5,0,0\">Take the decimal digit <b>2</b>.</p><ul data-path-to-node=\"5,0,1\"><li><p data-path-to-node=\"5,0,1,0,0\">In Excess-3, we add 3 to the digit: $2 + 3 = 5$.</p></li><li><p data-path-to-node=\"5,0,1,1,0\">Convert 5 to binary: <b>0101</b>.</p></li></ul></li><li><p data-path-to-node=\"5,1,0\">Now, find the 9's complement of 2 (which is $9 - 2 = 7$).</p><ul data-path-to-node=\"5,1,1\"><li><p data-path-to-node=\"5,1,1,0,0\">In Excess-3, we add 3 to the digit: $7 + 3 = 10$.</p></li><li><p data-path-to-node=\"5,1,1,1,0\">Convert 10 to binary: <b>1010</b>.</p></li></ul></li></ol><p>Observation:</p><p>Compare the binary for 2 (0101) and 7 (1010). They are exact opposites (bitwise inverses) of each other. This property simplifies subtraction operations in digital hardware.</p><p data-path-to-node=\"7\">&nbsp;</p><h3>&nbsp;Why the other options are incorrect</h3><p>&nbsp;</p><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b>A. Cyclic Redundancy Code:</b> This is an error-detecting code used in networks and storage devices to detect accidental changes to raw data. It is not related to BCD representations.</p></li><li><p data-path-to-node=\"8,1,0\"><b>B. Weighted Code:</b> Excess-3 is a <b>non-weighted</b> code. In weighted codes (like 8421 BCD), each bit position has a specific value (weight). In Excess-3, the bits do not correspond to a fixed weight formula like $8x + 4x + 2x + 1x$.</p></li><li><p data-path-to-node=\"8,2,0\"><b>D. Algebraic Code:</b> This is a broad category of error-control codes (like Hamming or Reed-Solomon codes) based on algebraic structures, not a specific name for Excess-3.</p></li></ul><p data-path-to-node=\"9\">&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/480224\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is the most efficient to perform arithmetic operations on the numbers?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Sign-magnitude<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1&#x27;s$ complement<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2&#x27;s$ complement<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$9&#x27;s$ complement</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495589\"></a><div itemprop=\"text\"><p><b>C. 2's complement&nbsp;</b>✅<br>i) it is the most efficient representation because it allows the same binary addition hardware to perform both addition and subtraction&nbsp;<br>ii) has only one zero<br>iii) it simplifies overflow handling.<br>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/480223\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>When two $n$-bit binary numbers are added the sum will contain at the most</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$n$&nbsp;bits<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$n + 2$ bits<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$n + 3$ bits<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$n + 1$ bits</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"484670\"></a><div itemprop=\"text\"><p>Option D..</p><p>For an n bit,the maximum number is&nbsp;2^{n} - 1</p><p>So the largest possible sum is,</p><p>2^{n} - 1 +&nbsp;2^{n} - 1 =&nbsp;2^{n+1} - 2</p><p>Worst case we'd require <strong>n+1</strong> bits&nbsp;</p><p>&nbsp;</p><p><strong>Good posts related to the question</strong></p><p><a href=\"https://atekihcan.github.io/CLRS/02/E02.01-04/\" rel=\"nofollow\" target=\"_blank\">https://atekihcan.github.io/CLRS/02/E02.01-04/</a></p><p><a href=\"https://stackoverflow.com/questions/22049866/why-should-i-discard-carry-out-in-adding-binary-numbers\" rel=\"nofollow\" target=\"_blank\">https://stackoverflow.com/questions/22049866/why-should-i-discard-carry-out-in-adding-binary-numbers</a><br>&nbsp;</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/480222\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Hexadecimal equivalent of $01111100110111100011$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\textsf{CD73E}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\textsf{ABD3F}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\textsf{7CDE3}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\textsf{FA4CD}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"527623\"></a><div itemprop=\"text\"><p>This is nothing but binary to hexadecimal conversion :&nbsp;</p><p>Hexadecimal number ( 0 to 9&nbsp; and A(10) to F(15) )</p><p>Traverse from right&nbsp; to left&nbsp; and group them in to 4 bits group . <strong>(From LSB to MSB).</strong></p><p><strong>1st Group = 0011 -&gt; 3&nbsp;</strong></p><p><strong>2nd Group = 1110 - &gt;14(E)&nbsp;</strong></p><p><strong>3rd Group =&nbsp; 1101 -&gt; 13(D)&nbsp;</strong></p><p><b>4th Group = 1100 -&gt; 12(C)&nbsp;</b></p><p><b>5th Group = 0111 -&gt; 7&nbsp;&nbsp;</b></p><p><b>which matches option C.</b></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/480221\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $12A7C_{16} = X_8$ then the value of $X$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$224174$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$425174$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6173$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$225174$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"527625\"></a><div itemprop=\"text\"><p>This is a hexdecimal conversion to octal ;</p><p>For this we need&nbsp; to convert first Hexadecimal to binary&nbsp; by represnting 1bit&nbsp; of hexa&nbsp; &nbsp;to 4bit of binary.</p><p>(12A7C)16&nbsp; = (X)8&nbsp; we required to find x&nbsp;</p><p>(12A7C)16 - &gt; binaray .&nbsp; = 0001 0010 1010 0111 1100</p><p>now group&nbsp; them int to 3 bits from LSB to MSB.</p><p><strong>1st Group =&nbsp; 100 (4) .</strong></p><p><strong>2nd Group = 111 (7).</strong></p><p><strong>3rd Group =&nbsp; 001(1)&nbsp;</strong></p><p><b>4th Group = 101(5)</b></p><p><b>5th Group = 010 (2).</b></p><p><b>6th Group = 010 (2).&nbsp;</b></p><p><b>so option D is correct.&nbsp;</b></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/480220\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Add the following numbers in $8$-bit $2's$ complement representation.<br>a) $10101101+110$<br>b) $01010111+011$<br>Which of the above operations result in an overflow ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only a</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only b</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"480219\"></a><div itemprop=\"text\"><div style=\"text-align: center; margin: 20px 0;\"><a target=\"_blank\" style=\"display: inline-block; background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-family: sans-serif;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=UO8TTFJC9OE&amp;t=4550s\">Watch Similar Question </a></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"527626\"></a><div itemprop=\"text\"><p>Note : By default it is signed number&nbsp; addition in&nbsp; 2's complement.&nbsp;</p><p>option D is correct.&nbsp;&nbsp;<img alt=\"\" src=\"media/c9/c939aaf7aa4392448674.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/480218\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the answers below corresponds to the sum and overflow result when the following addition is performed using $8$-bit $2's$ complement: $10101101+110$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10101011$, with no overflow<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10101011$, with overflow<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10110011$, with no overflow<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$10110011$, with overflow</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"483682\"></a><div itemprop=\"text\"><p><strong><img alt=\"\" src=\"media/0a/0a8362fb01b24b0933ba.jpg\"></strong></p><p>&nbsp;</p><p><strong>Correct Answer :- Option A&nbsp;</strong></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"480217\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution of a Similar Question:</strong></p><div style=\"text-align: center; margin: 20px 0;\"><a target=\"_blank\" style=\"display: inline-block; background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-family: sans-serif;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=UO8TTFJC9OE&amp;t=4550s\">Watch Detailed Video Solution </a></div></div></section></div><p><a href=\"https://gateoverflow.in/480216\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the decimal system with digits in the set $\\{0, \\ldots, 9\\}$, a notation like $234$ stands for $2 \\times 10^{2}+3 \\times 10+4$; but in a different base $r$ with digits in the set $\\{0, \\ldots, r-1\\}$, the notation $234$ will stand for the number $2 \\times r^{2}+3 \\times r+4$. If the relation $430+240=1000$ holds when numbers are represented in a certain base $r$, then $r$ equals</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&nbsp;$5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;$6$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&nbsp;$7$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&nbsp;$8$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"493199\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"1200\" height=\"1971\" src=\"media/0d/0d2707851f129fa2f278.jpg\"></p><p>Please suggest another way to solve this?</p></div></section></div><p><a href=\"https://gateoverflow.in/480215\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $N=2^{150}$. How many bits are required to write $N$ in binary (base 2)?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    151,
+    151
+   ],
+   "answerText": "151",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"484671\"></a><div itemprop=\"text\">Brilliant trap question....<br>\n<br>\nJust analyse it by taking smaller number...<br>\n<br>\nN = 2^3 = 8.... 8 can be represented in 3+1 = 4 bits...<br>\n<br>\nSimilar fashion, for 2^150 you'd need 150+1 = 151 bits<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"495786\"></a><div itemprop=\"text\"><p data-start=\"212\" data-end=\"333\">In binary:<br data-start=\"255\" data-end=\"258\">2⁰ = 1 → takes 1 bit<br data-start=\"278\" data-end=\"281\">2¹ = 10₂ → takes 2 bits<br data-start=\"304\" data-end=\"307\">2² = 100₂ → takes 3 bits</p><p data-start=\"335\" data-end=\"388\">In general, the number 2ᵏ in binary has (k + 1) bits</p><p data-start=\"335\" data-end=\"388\">N = 2¹⁵⁰<br data-start=\"431\" data-end=\"434\">Number of bits required = 150 + 1 = 151 bits</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"489597\"></a><div itemprop=\"text\">In decimal for 8 there is need only 3 bit <br>\n<br>\nbut in binary for 8 =1000 there is 3+1=4 bit <br>\n<br>\nans 151,</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"532493\"></a><div itemprop=\"text\"><p>General formula to calculate digits (<em>or bits in case of Binary number system</em>) for a number <strong>N</strong> in a number system with base <strong>b</strong>:</p><p>$\\lfloor \\log_b(N) \\rfloor + 1$</p><p>Here, $b = 2$ and N = $2^{150}$. Therefore:</p><p>&nbsp;$\\lfloor \\log_2(2^{150})\\rfloor + 1 = \\lfloor150*\\log_22\\rfloor + 1&nbsp;= 150*1+1 = 151$&nbsp;</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/480214\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $N=2^{150}$.<br>\n<br>\nHow many digits are required to write $N$ in decimal (base 10)? You may assume that $\\log _{10} 2=0.30103$.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    46,
+    46
+   ],
+   "answerText": "46",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"495395\"></a><div itemprop=\"text\"><p>Answer is 46</p><p>&nbsp;</p><p><img alt=\"\" width=\"707\" height=\"600\" src=\"media/54/5477fa68d3d86436ecf8.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"480728\"></a><div itemprop=\"text\">just you have to use calculator <br>\n<br>\n2^150<br>\n<br>\nand this value put it in log base 10 with celing function=46</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"484678\"></a><div itemprop=\"text\"><p>Beautiful explaination to this concept :&nbsp;</p><p><a href=\"https://stackoverflow.com/questions/24176789/how-does-using-log10-correctly-calculate-the-length-of-a-integer&nbsp;\" rel=\"nofollow\" target=\"_blank\">https://stackoverflow.com/questions/24176789/how-does-using-log10-correctly-calculate-the-length-of-a-integer&nbsp;</a></p><p><strong>With numerical example:</strong></p><p>Consider a number 123....</p><p>So it lies between 10^2 = 100(inclusive) to 10^3 (not included).... (i.e. 10^n-1 to 10^n)</p><p>So,log of this number gives us n-1 with fractional part(or no fractional part).....i.e log value will always be [2,3)</p><p>So, we just remove the fractional part by floor and add 1 to get 3...</p><p>&nbsp;</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"501933\"></a><div itemprop=\"text\">log == log base 10<br>\n<br>\nfloor(log N) +1</div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"532494\"></a><div itemprop=\"text\">General formula to calculate digits (or bits in case of Binary number system) for a number N in a number system with base b:<br>\n<br>\n$\\lfloor \\log_b(N) \\rfloor + 1$<br>\n<br>\nHere, $b = 10$ and N = $2^{150}$. Therefore:<br>\n<br>\n&nbsp;$\\lfloor \\log_{10}(2^{150})\\rfloor + 1 = \\lfloor150*\\log_{10}2\\rfloor + 1 = \\lfloor150*0.30103\\rfloor+1 = \\lfloor45.1545\\rfloor + 1=45+1 = 46$</div></section></div><p><a href=\"https://gateoverflow.in/480213\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $(12x)_3 = (123)_x$, then the value of $x$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$ or $4$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of these</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D, A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"481887\"></a><div itemprop=\"text\">Actually the Answer is D none because option A is not possible because if base is 3 then it can support numbers 0,1,2 here 3 is also there so base x can't be 3. It cannot be binary that is base 2 because in binary base numbers supported are 0 and 1 here in the digits we have 2 as well so its incorrect so base 2 is not possible. Hence Answer is option D None of these.</div></section></div><p><a href=\"https://gateoverflow.in/480212\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $73_{x}$ (in base $x$ number system) is equal to $54_{y}$ (in base $y$ number system), the possible values of $x$ and $y$ are</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$8$ and $16$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10$ and $12$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$9$ and $13$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$8$ and $11$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"527632\"></a><div itemprop=\"text\"><p>By making a equation&nbsp;&nbsp;</p><p>A.T.Q&nbsp;</p><p>(73)x = (54)y</p><p>7*x + 3 = 5*y + 4&nbsp;</p><p>now simplifying it&nbsp;</p><p>7*x = 5*y + 1&nbsp;</p><p>Now satisfy value of x and y form option&nbsp;&nbsp;</p><p>put x&nbsp; = 8 and y = 11&nbsp;</p><p>7*8 = 11*5 +1&nbsp;</p><p>56 = 56&nbsp;</p><p><strong>so option D is correct.&nbsp;</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/480211\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>One approach to handling fuzzy logic data might be to design a computer using ternary (base-$3$) logic so that data could be stored as “true,” “false,” and “unknown.” If each ternary logic element is called a flit, how many flits are required to represent at least $256$ different values?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$4$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$7$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"480232\"></a><div itemprop=\"text\">Computer using ternary $(base-3)$ logic to store data as “true”, “false” and “unknown”.<br>\n<br>\nSo, $3^{5} = 243$ is not enough to hold $256$ different values.<br>\n<br>\nSo, $3^{6} = 729$ is enough to hold $256$ different values.<br>\n<br>\n$\\therefore$ Minimum $6$ flits required to represent $256$ different values.</div></section></div><p><a href=\"https://gateoverflow.in/480210\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>How many different $\\text{BCD}$ numbers can be stored in $12$ switches ? (Assume two position or on-off switches).</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2^{12}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2^{12}-1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10^{12}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$10^3$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"495409\"></a><div itemprop=\"text\"><p>&gt;&gt; There are 16 possible 4-bit combinations, but only 10 of them are valid in BCD (for 0–9).<br><br>&nbsp; &nbsp; &nbsp; Each BCD digit needs 4 switches.<br><br>&gt;&gt; So with 12 switches, how many BCD digits can we represent?<br><br>&nbsp; &nbsp; &nbsp; &nbsp;12 switches &nbsp;/ &nbsp;4 per digit = 3 &nbsp;BCD digits<br><br>&gt;&gt; We know that each BCD digit can represent 10 values (0–9)<br><br>&nbsp; &nbsp; &nbsp; Therefore, total different BCD numbers we can form = 10 * 10 * 10 = 10^3 = 1000</p><p>&nbsp;</p><p>&nbsp; &nbsp; &nbsp; <strong>Answer is option D</strong>)&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 3)</small></h4><a name=\"483679\"></a><div itemprop=\"text\"><p>- BCD is a 4 bit binary ( <strong>We need 4bits in order to store 1 BCD Digit</strong> )&nbsp;<br>- Here we have 12 bits ( <strong>we can only store 3 BCD Digit</strong> )&nbsp;<br><br>Total # of BCD Digits we can Store = 10 * 10 * 10 = 1000<br><br><strong>Option D is Correct Only&nbsp;</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/480209\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $N^2 = (7601)_8$ where $N$ is a positive integer, then the value of $N$ is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(241)_5$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(143)_6$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(165)_7$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(39)_{16}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495785\"></a><div itemprop=\"text\"><p>N² = (7601)₈</p><p><strong data-start=\"262\" data-end=\"300\">Step 1: Convert (7601)₈ to decimal</strong></p><p data-start=\"304\" data-end=\"341\">(7601)₈ = 7×8³ + 6×8² + 0×8¹ + 1×8⁰ =&nbsp;3969</p><p data-start=\"304\" data-end=\"341\">So,<br data-start=\"519\" data-end=\"522\">N² = 3969</p><p data-start=\"304\" data-end=\"341\"><strong data-start=\"540\" data-end=\"558\">Step 2: Find N</strong></p><p data-start=\"562\" data-end=\"578\">N = √3969 = 63</p><p data-start=\"542\" data-end=\"604\"><strong data-start=\"542\" data-end=\"604\">Step 3: Convert 63 to the given bases to match the options</strong></p><p data-start=\"606\" data-end=\"774\">(241)₅ = 2×25 + 4×5 + 1 = 50 + 20 + 1 = 71<br data-start=\"648\" data-end=\"651\">(143)₆ = 1×36 + 4×6 + 3 = 36 + 24 + 3 = 63<br data-start=\"693\" data-end=\"696\">(165)₇ = 1×49 + 6×7 + 5 = 49 + 42 + 5 = 96<br data-start=\"738\" data-end=\"741\">(39)₁₆ = 3×16 + 9 = 48 + 9 = 57</p><p data-start=\"606\" data-end=\"774\">Hence, N = (143)₆</p><p data-start=\"343\" data-end=\"405\">&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/480208\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 16,
+  "types": {
+   "MCQ": 12,
+   "NAT": 2,
+   "MSQ": 1
+  },
+  "withoutKey": 6
+ }
+}

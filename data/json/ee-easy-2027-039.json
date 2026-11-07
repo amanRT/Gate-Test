@@ -1,0 +1,559 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-039",
+ "title": "GATE 2027-Topicwise Test-18 (EMI -2)",
+ "sourceTitle": "GATE 2027-Topicwise Test-18 (EMI -2)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 39,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/058_GATE 2027-Topicwise Test-18 (EMI -2).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A basic slide wire Potentiometer has a working battery voltage of 3 V with negligible internal&nbsp;resistance. The resistance of the slide wire is 400 &Omega; and its length is 200 cm. A 200 cm scale is&nbsp;placed along the slide wire. The slide wire has 1 mm scale divisions and it is possible to read up&nbsp;to 1/5 of a division. The instrument is standardized with 1.018 V standard cell with sliding&nbsp;contact at the 101.8 cm mark on scale. The working current and resistance of series rheostat are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>5 mA, 200 &Omega;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>6 mA, 100 &Omega;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>4 mA, 250 &Omega;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>6.8 mA, 103 &Omega;</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/f6/f6086892b61c75e97f4a.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The no load current components of a current transformer are, magnetizing component is 120 A,&nbsp;core loss component is 30 A. The current transformer is 1000/5 A, then the percentage ratio error&nbsp;is _____ . (Assume secondary winding is purely resistive).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;2.9%</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>+2.9%</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&ndash;1.4%</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>+1.4%</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/6b/6bd4b643d317be733830.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A CRO probe has an impedance of 250 k&Omega; in parallel with a capacitance of &lsquo;<em>c</em>&rsquo; F. The probe is used&nbsp;to measure the voltage between <em>P </em>&amp; <em>Q </em>and observed as 3.82 V. Then the value of &lsquo;<em>C</em>&rsquo; will be&nbsp;________ nF. (Answer upto two decimal places)</p>\n<p><img src=\"media/dd/dd13a4d7fb60c6f2af09.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    26,
+    27
+   ],
+   "answerText": "26 - 27",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/ad/ad7354e66e03b1d15570.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>In the potentiometer circuit shown in figure balance is obtained.</p>\n<p><img src=\"media/a5/a5b04c232ef8a3378972.png\"></p>\n<p>The value of <em>R<sub>h </sub></em>is ______ &Omega;.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    200,
+    200
+   ],
+   "answerText": "200",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f5/f5c82e1f9c09d477f118.png\"></p>\n<p><img src=\"media/46/4671b5f1ebe67046ac41.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>The impedances of a basic a.c bridge arm are:<br><img src=\"media/a1/a1ff09124dd0abad4bbb.png\"><br><img src=\"media/f6/f67d82b4afa3bf5d4df0.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>series with a capacitor of 4 &mu;F</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>parallel with a capacitor of 4 &mu;F</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>series with an inductor of 4 &mu;F</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>parallel with an inductor of 4 &mu;F</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/92/92c8cc4e8f42949d4712.png\"></p>\n<p><img src=\"media/f1/f19e1ed2674e20ac5dea.png\"><img src=\"media/72/72f6c529a8d0e9886a0d.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>In a Schering bridge, a sample of insulation forms the branch AB. The bridge is balanced using a&nbsp;supply at 50 Hz. The other arms of the bridge are found to be as follows:<br>branch BC: a loss free capacitor of 109 &mu;F,<br>branch CD: a non-inductive resistance of 309 &Omega; in parallel with a loss free capacitor of 0.5 &mu;F.<br>branch DA: a non&ldquo;inductive resistance of 100 &Omega;.<br>The capacitance, equivalent series resistance and loss factor of the capacitor are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>337 pF, 0.3256 M&Omega;, 0.0485</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>230 pF, 0.224 M&Omega;, 0.0485</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>337 pF, 0.4587 M&Omega;, 0.0485</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>337 pF, 0.523 M&Omega;, 0.06</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/e8/e870f869e0cc24384f07.png\"></p>\n<p><img src=\"media/06/069cbff53e6177a5efad.png\"></p>\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/23/23d1a78dd597a9ed2370.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/96/9676371d4971d6402032.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/72/729b8ac869e3f0e4a322.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/76/760000cab2dcce225a1e.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/fb/fb46568e8b36cd6d2079.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/04/0472d7e5732617694367.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A dynamometer type of wattmeter is rated at 10 A and 100 V with full scale reading of 1000 watt.&nbsp;The inductance of the voltage circuit is 5 mH and its resistance is 3000 ohm. The error due to&nbsp;pressure coil inductance at rated VA with zero power factor load at 50 Hz will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.523 Watt</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>523 Watt</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1.046 Watt</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.261 Watt</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/02/0214fb8d19ee747467dc.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>In the given circuit, the current through the galvanometer and voltage between terminal (a) and&nbsp;(b) will be</p>\n<p><img src=\"media/b4/b4aa302b676a39d2fb38.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.027 mA, &ndash;0.5 volt</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.027 mA, + 0.5 volt</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.054 mA, &ndash;1 volt</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.054 mA, +1 volt</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/d2/d2e05ced08d8c0ef5750.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A current transformer rated 200/20, has magnetizing current and loss component of exciting current&nbsp;as 10 A and 5 A respectively. The phase angle between secondary winding induced emf and&nbsp;current is 45&deg;. The phase angle error in degree at rated current is _______ degrees.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.9,
+    1.05
+   ],
+   "answerText": "0.9 - 1.05",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/8e/8e242e67a02a9f46f674.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/dc/dc54ff7330ee3a7e1b9e.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.6,
+    0.7
+   ],
+   "answerText": "0.6 - 0.7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/5a/5a3846a26a9153e05f15.png\"></p>\n<p><img src=\"media/9e/9e969bb9e2c555094ccf.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><img src=\"media/90/90b5bd7b02607418b207.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/fa/fa823611d826ef8e0b44.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A cathode ray tube has anode voltage of 1800 V and parallel plate of length 1.8 cm each and 4 mm&nbsp;apart. The screen is 40 cm away from the centre of the plates. The amplifier gain before signal is&nbsp;applied to deflecting plate is 40, then input voltage for a deflection of 6 cm will be ______ V.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.5,
+    3.5
+   ],
+   "answerText": "2.5 - 3.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/cd/cd8fa1b3250c848576c7.png\"></p>\n<p><img src=\"media/63/63d28969bb1fe6901899.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/a1/a1c9db43c5107368e027.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>3.14</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1.05</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>6.28</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.57</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/8a/8a0803e47872aa177fda.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/6b/6ba15ae64288053e3a16.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/40/40a1bc6b7800734bb9e6.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/4a/4a06106257c3624cd360.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/5e/5e382dcf7a33fc9b04b3.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/ca/caa2b35fb6df0bd644a0.png\"></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/6e/6e3fb1f2802722a3c819.png\"></p>\n<p><img src=\"media/63/63a9f652e1a610e29e5e.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "multi | Marks +2",
+   "html": "<p>A dc potentiometer is designed to measure upto 2 V with a slide wire of 1000 mm. A standard&nbsp;cell of emf 1.5 V obtains balance at 800 mm. A test cell is seen to obtain balance at 750 mm. Which&nbsp;of these statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Emf of test cell is 1.4062 volt</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The sensitivity of potentiometer is 0.005 V/mm.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Potentiometer works on principle of potential divider.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Potentiometer is not accurate.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/c9/c978fca2ad68a27b0a55.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Two sinusoidal voltage signals of equal frequency are applied to the vertical and horizontal&nbsp;deflection plates of a CRO. The output observed on the screen is shown in the following figure.<br>The phase difference between applied signal is</p>\n<p><img src=\"media/0c/0c9aeac21bf58d851064.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>42.19&deg;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>53.13&deg;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>36.86&deg;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>126.87&deg;</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/1f/1fd027928cd059ee0dbe.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 5,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

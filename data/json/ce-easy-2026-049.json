@@ -1,0 +1,1026 @@
+{
+ "v": 1,
+ "id": "ce-easy-2026-049",
+ "title": "Subjectwise Test-1 Part Syllabus GATE 2026 CE Solid Mechanics",
+ "sourceTitle": "Subjectwise Test-1 Part Syllabus GATE 2026 CE Solid Mechanics",
+ "branch": "CIVIL ENGINEERING",
+ "code": "CE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering",
+ "seriesId": "ce-easy-2026",
+ "num": 49,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + ESE 2026 Online Test Series - Civil Engineering • Questions: 33",
+  "package": "GATE 2026 + ESE 2026 Online Test Series - Civil Engineering"
+ },
+ "source": "CIVIL ENGINEERING/MADE EASY/GATE 2026 + ESE 2026 Online Test Series - Civil Engineering/049_Subjectwise Test-1 Part Syllabus GATE 2026 CE Solid Mechanics.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>The SFD and BMD for a beam are shown in the figures below. Corresponding loading diagram would be:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/28/28d2d7a41ccdf1f5862b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/c5/c52eec450a5727c728e3.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/31/31e9b7e245424fd33298.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/98/98aec32c8fe346c053a7.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/8c/8c5dc81e5be6f1ed4496.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nThe SFD does not change, while the sudden change in BMD denotes a concentrated moment at point C.<br />\nThe triangular shape of BMD shows concentrated load is applied at free end.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the structure shown in figure below the slope at point <em>C</em> will be</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/40/40fafd0a44c4a343545f.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/c4/c4929a75b21ae189f482.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/9a/9ab8b7066901521930dd.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/ee/ee7bbcce589440b2b98d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/f3/f34118644c885b650475.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8a/8a77900c42af78ef025c.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>A bar of length 6.0 m is made up of a structural steel having stress-strain diagram as shown in figure. The yield stress of steel is 250 MPa and slope of initial linear part of stress-strain curve is 200 GPa. The bar is loaded axially until it elongates 8.5 mm and then load is removed. The<br />\nelongation of the bar after removing the load is _____ mm. (Round off to three decimal places).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7a/7a8959622f9dc316d9b9.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1.0003
+   ],
+   "answerText": "1.0002",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.0002 (1.0000 - 1.0003)</p>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/28/28613828208ea0361c82.png\" /><img alt=\"\" src=\"media/84/84f79ba05eab39e08844.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A curved bar <em>AB</em> is in the form of quarter circle of radius R as shown in figure. The bar has fixed support at support <em>A</em> and carries a vertical load at free end <em>B</em>. If the horizontal deflection at point B is given by <img align=\"absmiddle\" alt=\"\" src=\"media/7e/7ef4ce696daab2be5dcb.png\" /> then what is the value of α? (Correct upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/41/41022d2b116faa9fd235.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.45,
+    0.55
+   ],
+   "answerText": "0.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.5 (0.45 - 0.55)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ab/abb5a6d4e9060578ea71.png\" /></div>\n\n<div><img alt=\"\" src=\"media/51/5169a5a63e9fbfe684c3.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>The stress at a point in a body is given by <img align=\"absmiddle\" alt=\"\" src=\"media/c6/c631ef8b1fe40ac80aaf.png\" /> If Young’s modulus of elasticity, <em>E</em> = 2 × 10<sup>5</sup> N/mm<sup>2</sup>, Poisson’s ratio, μ = 0.30, then normal strain in x-direction is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.05 × 10<sup>–5</sup>"
+    },
+    {
+     "key": "B",
+     "html": "4.1 × 10<sup>–5</sup>"
+    },
+    {
+     "key": "C",
+     "html": "6.05 × 10<sup>–5</sup>"
+    },
+    {
+     "key": "D",
+     "html": "3.1 × 10<sup>–5</sup>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8a/8a250dba2411a756e823.png\" /></div>\n</div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>The Mohr’s circle of 2 D stress at a point is represented by a 2 × 2 matrix<img align=\"absmiddle\" alt=\"\" src=\"media/79/795a68fa738cc7a8ac0d.png\" /> The maximum shear stress will be ____ MPa. (Correct upto two decimal places).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    53.5,
+    54.5
+   ],
+   "answerText": "53.85",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>53.85 (53.5 &ndash; 54.5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3c/3cd66c7feb2edcb3113d.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>A propped cantilever beam carries a concentrated load of 10 kN and a 2 kNm moment at point <em>B </em>as shown in figure.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8b/8bedb53e4c69847f1679.png\" /></div>\n\n<div>Choose the correct options:</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The vertical support reaction at <em>C</em> is 6.422 kN"
+    },
+    {
+     "key": "B",
+     "html": "The vertical support reaction at <em>C</em> is 4.824 kN"
+    },
+    {
+     "key": "C",
+     "html": "The moment induced at <em>A</em> is 7.88 kN-m (Anticlockwise)"
+    },
+    {
+     "key": "D",
+     "html": "The moment induced at <em>A</em> is 7.88 kNm (clockwise)"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d8/d8f206a1886832720984.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>At a point in a material subjected to two dimensional stresses, the stresses on a certain plane are 75 N/mm2 (tension) and 50 N/mm<sup>2</sup> (shear) and on another plane the stresses are 45 N/mm<sup>2 </sup>(tension) and 40 N/mm<sup>2</sup> (shear) as shown in figure.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2a/2adb73619a309c27884f.png\" /></div>\n\n<div>Choose the correct option(s):</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Major principal stress is 125 (tensile)"
+    },
+    {
+     "key": "B",
+     "html": "Minor principal stress is 25 (tensile)"
+    },
+    {
+     "key": "C",
+     "html": "Major principal stress is 125 (compressive)"
+    },
+    {
+     "key": "D",
+     "html": "Minor principal stress is 25 (compressive)"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f5/f5c0b5e12d7b7da76a18.png\" /></div>\n\n<div><img alt=\"\" src=\"media/b9/b90d26018220b60cd3f7.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A simply supported beam of span <img align=\"absmiddle\" alt=\"\" src=\"media/64/64a5aaab2b7bd3d8ebbf.png\" /> is subjected to a concentrated load <em>P</em> at mid span. The cross section of beam is rectangular. The ratio of shear stress at <img align=\"absmiddle\" alt=\"\" src=\"media/6e/6e7d1ceaec547961d7eb.png\" /> from top to shear stress at centre of cross section is: (<em>d</em> is depth of beam).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/37/37714d6a1a5e72f066fb.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/a4/a4a119fcbddf232f0f1a.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/67/6703fdbc9319540aba4e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/50/5064ec9f34db74fae158.png\" /></div>\n\n<div><img alt=\"\" src=\"media/48/4883e3785de82ad324d0.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>A wooden beam 100 mm wide and 150 mm deep is simply supported over a span of 4 m. If bending moment at a section of beam is 4 kNm then the force acting on the shaded portion of the cross section is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/16/164d2360810fad1f16ab.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "25.33 kN"
+    },
+    {
+     "key": "B",
+     "html": "26.67 kN"
+    },
+    {
+     "key": "C",
+     "html": "22.67 kN"
+    },
+    {
+     "key": "D",
+     "html": "30.67 kN"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d0/d0aa3611ecf27f31aa41.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>A hollow shaft (<em>d<sub>o</sub></em> = 2 <em>d<sub>i</sub></em>) where <em>d<sub>o</sub></em> and <em>d<sub>i</sub></em> are outer and inner diameters respectively needs to transmit 20 kW power at 300 rpm. If the maximum permissible shear stress is 30 MPa then identify correct option(s).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Maximum torque that the shaft can transmit by shaft is 0.636 kNm."
+    },
+    {
+     "key": "B",
+     "html": "External dia of shaft (<em>d<sub>o</sub></em>) = 48.65 mm"
+    },
+    {
+     "key": "C",
+     "html": "Maximum torque that the shaft can transmit by shaft 0.729 kNm."
+    },
+    {
+     "key": "D",
+     "html": "External dia of shaft (<em>d<sub>o</sub></em>) = 43.8 mm"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fc/fc59e138144ab7ed086e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/e0/e0c582d6e1897d9fb839.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A concrete block of weight W and length 4 m is supported by wires of aluminium and steel as shown in figure. If block is to remain horizontal then the ratio of area of cross section of aluminium wire to steel wire is _______. (Round off upto nearest integer).<br />\n(Take <em>E</em><sub>steel</sub> = 3<em><sub>Eal</sub></em>).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f9/f982316a85c9710cf8e0.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2 (2 - 2)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e7/e7188df634db56c29a8c.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A rectangular timber beam is simply supported at the ends and carries a concentrated load at mid span. The maximum bending stress is 12 N/mm<sup>2</sup> and maximum shear stress is 1.2 N/mm<sup>2</sup>. Ratio of span to depth would be _____ . (Round off to nearest integer).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5 (5 - 5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/85/85fe39564b5a718780a5.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A uniform beam of length <em>L</em> is simply supported over a span l such that over hang portions are same. The ratio <img align=\"absmiddle\" alt=\"\" src=\"media/aa/aaea6d48b4ec288db0bc.png\" /> so that upward deflection at each free end is equal to downward deflection at mid span due to central point load <em>W</em> is:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d1/d137d92f9d1625529a21.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/49/497908676cb91cf489ec.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/9f/9f68938fd5fb83c368dd.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/07/07aa45f977bdc9258410.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/29/29257c943eef0776708d.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/77/777ec2e5e8ef23198943.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>A uniform slender rod of length ‘<em>L</em>’ and cross-section area <em>A</em> is rotating in a horizontal plane` about a vertical axis through one end. The unit mass of rod is ρ and it is rotating at a constant angular velocity of ‘ω’ rad/sec. The total elongation of rod is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ee/ee90d506ab999f2377f3.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/40/4014b94a477c2cb3a8dc.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/95/95a1e04d27a08320cdd3.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/49/4959c99bc22bfc5ce11f.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/38/38da28b23737458708e2.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>The state of stress at a point is shown with respect to the x-y axis.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/47/47e3f89cb962580e0527.png\" /></div>\n\n<div>Which of the following is/are CORRECT?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The magnitude of normal stress with respect to x′y′ axis is 4 MPa"
+    },
+    {
+     "key": "B",
+     "html": "The magnitude of normal stress with respect to x′y′ axis is 6.93 MPa"
+    },
+    {
+     "key": "C",
+     "html": "The magnitude of shear stress with respect to x′y′ axis is 6.93 MPa"
+    },
+    {
+     "key": "D",
+     "html": "The magnitude of shear stress with respect to x′y′ axis is 4 MPa"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ed/edfe23a0037b9e001b53.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A circular log of timber has diameter D. The ratio of b/d of strongest section to resist moment that can be cut from this log, is ______ . (Correct upto three decimal places).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/85/85d69916efd4ad3d1ad5.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.68,
+    0.73
+   ],
+   "answerText": "0.707",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.707 (0.68 - 0.73)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c1/c15a4857037737026412.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>The lists given below refer to a bar of length <em>L</em>, cross sectional area A, Young’s modulus <em>E</em>, Poisson’s ratio μ which is subjected to axial stress ‘σ’. Match <strong>List I</strong> with <strong>List II</strong> and select correct answer using the codes given below the lists.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/fe/feb43ea198160def482c.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f4/f4978223857e259068b9.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A steel wire of diameter 4 mm is bend into a circle in order to make ring and ends of wire just touch each other. If maximum permissible stress in steel is 250 N/mm<sup>2</sup> and Young’s modulus of elasticity is 2.05 × 10<sup>5</sup> N/mm<sup>2</sup>, then mean length of wire that can be used is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10.3 m"
+    },
+    {
+     "key": "B",
+     "html": "1.6 m"
+    },
+    {
+     "key": "C",
+     "html": "1.03 m"
+    },
+    {
+     "key": "D",
+     "html": "3.28 m"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1f/1f5b3773df203b25108d.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A shaft tapers uniformly from radius (<em>r</em> – <em>a</em>) at one end to (<em>r</em> + <em>a</em>) at the other. It is under the action of an axial torque <em>T</em> and <em>a</em> = 0.1 <em>r</em>. Find percentage error in the angle of twist for a given length when calculated on the assumption of constant radius of shaft.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.15%"
+    },
+    {
+     "key": "B",
+     "html": "3.29%"
+    },
+    {
+     "key": "C",
+     "html": "4.1%"
+    },
+    {
+     "key": "D",
+     "html": "5.4%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7d/7dea0c306dfb835bbd69.png\" /></div>\n\n<div><img alt=\"\" src=\"media/d9/d96a2ca8250552117ada.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>A mild steel bar circular in cross section tapers from 40 mm to 20 mm diameter over its length of 800 mm. It is subjected to an axial pull of 20 kN. If increase in length of rod is <img align=\"absmiddle\" alt=\"\" src=\"media/75/75bc6961dba735daf860.png\" /> mm, then the value of α is _______ (correct upto two decimal places).<br />\n(Take <em>E</em> = 2 × 10<sup>5</sup> MPa)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.38,
+    0.42
+   ],
+   "answerText": "0.4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.4 (0.38 - 0.42)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f4/f466c72aef10e6fbf2ad.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A circular shaft <em>AB</em> of radius <em>R</em> as shown in the figure below is subjected to torsion <em>T</em> at the free end <em>B</em>. The torque resisted by the hatched portion of the shaft cross-section is <em>T</em><sub>1</sub>.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/64/6400110b32bb4dba7c89.png\" /></div>\n\n<div> </div>\n\n<div>Ratio of <img align=\"absmiddle\" alt=\"\" src=\"media/69/697a33c2a89c3d6de9ba.png\" /> is ________ .</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.012"
+    },
+    {
+     "key": "B",
+     "html": "0.023"
+    },
+    {
+     "key": "C",
+     "html": "0.030"
+    },
+    {
+     "key": "D",
+     "html": "0.040"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/20/20a887b16a1f163f4539.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>An overhanging beam of uniform flexural rigidity <em>EI </em>is loaded as shown. The deflection at free end is <img align=\"absmiddle\" alt=\"\" src=\"media/f6/f6659fef67aaf80403b8.png\" /> The value of α is _______ .</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/fc/fc2df377c8cf1165257c.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.5"
+    },
+    {
+     "key": "B",
+     "html": "0.125"
+    },
+    {
+     "key": "C",
+     "html": "0.0625"
+    },
+    {
+     "key": "D",
+     "html": "1.5"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a3/a3acfd6f80b40c624a6b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/36/36ba5d4554210f8b545e.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>A fixed beam is subjected to <img align=\"absmiddle\" alt=\"\" src=\"media/f6/f6d87fc27bd08ba512b2.png\" /> kN/m of uniformly distributed load over the entire span. The distance of point of contraflexure from mid span of beam is:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/20/20bdd9caab6508bd802f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/3d/3da4691c3ac433abf026.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/78/785292252df7a0096465.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/7d/7db1b27e7224bd100b3f.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f062dcf216fb1b506e74.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A straight circular bar of steel 1 cm in diameter and 120 cm long is mounted in testing machine and loaded axially in compression till it buckles. Assuming the Euler’s formula for pinned ends to be applicable, estimate the maximum central deflection before the material reaches its yield stress of 350 MPa.<br />\n[Take: <em>E</em> = 2.1 × 10<sup>5</sup> N/mm<sup>2</sup>]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "40.45 mm"
+    },
+    {
+     "key": "B",
+     "html": "47.38 mm"
+    },
+    {
+     "key": "C",
+     "html": "35.48 mm"
+    },
+    {
+     "key": "D",
+     "html": "52.38 mm"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/49/496b4d57cb004202ce11.png\" /></div>\n\n<div><img alt=\"\" src=\"media/2d/2d2db355346a068978a7.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>A rigid bar supported by two vertical bars is shown in figure. The aluminium and steel bars has area 600 mm<sup>2</sup> and 800 mm<sup>2</sup> respectively. Young's moduli of aluminium and steel are 70 GPa and 200 GPa respectively. For the load of 40 kN applied at free end, the deflection of <em>B</em> is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8b/8b71d701b214608f7822.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.76 mm (downward)"
+    },
+    {
+     "key": "B",
+     "html": "1.14 mm (upward)"
+    },
+    {
+     "key": "C",
+     "html": "0.76 mm (upward)"
+    },
+    {
+     "key": "D",
+     "html": "1.14 mm (downward)"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f3/f397da7fc99c529279fc.png\" /></div>\n\n<div><img alt=\"\" src=\"media/9d/9d88050c3c77558bb736.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>A bar 3 m long and 5 cm in diameter hangs vertically and has a collar attached to it at its lower end. The maximum instantaneous stress induced in the bar when 3000 kg mass falls by 1 cm on collar is ________ N/mm<sup>2</sup> (Correct upto two decimal places)<br />\nTake <em>E</em> = 2 × 105 N/mm<sup>2</sup>)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    156,
+    158
+   ],
+   "answerText": "157.15",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>157.15 (156 - 158)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1ab02b2170c91a2cc686.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0",
+   "html": "<p>A stepped column carries a load as shown below. The ratio of maximum normal stress to minimum normal stress in column is______ .</p>\n\n<p>(Correct upto two decimal places).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/34/3475cb357c27525d4db6.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.3,
+    1.35
+   ],
+   "answerText": "1.33",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.33 (1.30 - 1.35)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5a/5a7d7001141eef276ba5.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0.66",
+   "html": "<p>Two wires <em>AB</em> and <em>BC</em> have original lengths 1.5 m and 2 m and diameters of 20 mm and 35 mm respectively. These wires are made of a material with the stress-strain behavior as shown in figure.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/87/873e7bfb0932a16bf691.png\" /></div>\n\n<div> </div>\n\n<div>The elongation of wire <em>AB </em>is _______</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "38.925 mm"
+    },
+    {
+     "key": "B",
+     "html": "35.925 mm"
+    },
+    {
+     "key": "C",
+     "html": "40.625 mm"
+    },
+    {
+     "key": "D",
+     "html": "42.625 mm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c3/c3c984bdc53d31cdb173.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>Choose the correct <em>BMD </em>for the following <em>SFD</em>.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/02/02d4169f32ca4fffa338.png\" /></div>\n\n<div><img alt=\"\" src=\"media/83/83217baec312c755bf19.png\" /></div>\n\n<div> </div>\n\n<div>BMD values in kNm.</div>\n\n<div> </div>\n\n<div> </div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e2/e28e17a4543964b34d20.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +1 / -0.33",
+   "html": "<p>Match <strong>List-I</strong> (Properties) with <strong>List-II</strong> (Definition) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/14/146c93a174ddc082b0c1.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A- 4, B- 2, C- 1, D- 3"
+    },
+    {
+     "key": "B",
+     "html": "A-1, B-3, C-4, D-1"
+    },
+    {
+     "key": "C",
+     "html": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "key": "D",
+     "html": "A-4, B-1, C-2, D-3"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nToughness - Area under load-deflection curve.<br />\nResilience - Area under the elastic part of the load-deflection curve.<br />\nCreep - Time dependent permanent deformation under constant load.<br />\nHardness - Resistance against scratching.</p>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A 12 mm diameter rod is subjected to an axial pull of 14 kN. If change in diameter was observed to be 3.6 × 10<sup>–3</sup> mm, then the Poisson’s ratio of the material is ______ . (Correct upto two decimal places)<br />\n(Take modulus of rigidity of material as 0.5 × 10<sup>5</sup> N/mm<sup>2</sup>).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.3,
+    0.34
+   ],
+   "answerText": "0.32",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.32 (0.30 - 0.34)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c7/c7875b8d62ea81f0ece8.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • CIVIL ENGINEERING • +2 / -0",
+   "html": "<p>A steel section as shown in figure is subjected to a shear force of 20 kN. The shear stress at the centre of section is __________ MPa.</p>\n\n<p>(Correct upto two decimal places).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/92/92bea331ab029f8bbdd2.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    13.1,
+    13.9
+   ],
+   "answerText": "13.60",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>13.60 (13.10 - 13.90)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/16/16ed26ea73a02dc6c14f.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 18,
+   "NAT": 11,
+   "MSQ": 4
+  },
+  "withoutKey": 0
+ }
+}

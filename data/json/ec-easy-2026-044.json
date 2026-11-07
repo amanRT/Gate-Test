@@ -1,0 +1,544 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-044",
+ "title": "Topicwise Test-18 Part Syllabus GATE 2026 EC Digital circuits-2",
+ "sourceTitle": "Topicwise Test-18 Part Syllabus GATE 2026 EC Digital circuits-2",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 44,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/070_Topicwise Test-18 Part Syllabus GATE 2026 EC Digital circuits-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A 5-bit binary counter starts with 00000. If 144 input clock pulses are applied, the number of times counter will be reset is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>4 (4 - 4)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/49/492c1cc69460b571d4db.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>A shift register is operating/connected with 25 kHz clock. The time taken to feed the 2 nibbles of data serially into shift register is,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.2 msec"
+    },
+    {
+     "key": "B",
+     "html": "32 msec"
+    },
+    {
+     "key": "C",
+     "html": "0.32 msec"
+    },
+    {
+     "key": "D",
+     "html": "32 μsec"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7d/7dcd038dcb1e1ed6bb9c.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The final values of <em>Q</em><sub>1</sub> and <em>Q</em><sub>0</sub> respectively after 4 clock pulses, if initial values are 00 in the sequential circuit shown below is:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/01/015c2e9186a1acea26fb.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10"
+    },
+    {
+     "key": "B",
+     "html": "11"
+    },
+    {
+     "key": "C",
+     "html": "00"
+    },
+    {
+     "key": "D",
+     "html": "01"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/61/6151823ee802c64cba57.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>All the logic gates in the circuit shown below have finite propagation delay. The circuit can be used as a clock generator, if</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2b/2b5468fefc038d6c4e3b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>X</em> = 0"
+    },
+    {
+     "key": "B",
+     "html": "<em>X</em> = 1"
+    },
+    {
+     "key": "C",
+     "html": "<em>X</em> = Y"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/72/721a31845c22bc7e4cdb.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/11/11d07df11f64ca6d0cc1.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The integrated output waveform for a dual slope <em>ADC</em> is shown in the figure. If the ADC uses 16 bit counter with 8 MHz clock, then the time ‘<em>T</em>’ will be</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7c/7c18c8ad0c360a153daa.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.64 msec"
+    },
+    {
+     "key": "B",
+     "html": "8.192 msec"
+    },
+    {
+     "key": "C",
+     "html": "0.128 msec"
+    },
+    {
+     "key": "D",
+     "html": "0.064 msec"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5a/5aaf86e63dc7b6a3fc4b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Given below is a synchronous sequential circuit with two T flip-flops <em>T<sub>A</sub></em> and <em>T<sub>B</sub></em> with their outputs denoted as <em>A</em> and <em>B</em> respectively, with <img align=\"absmiddle\" alt=\"\" src=\"media/32/329d6f06fabc0adb1f03.png\" /></p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a8/a8689bff6143a40877d1.png\" /></div>\n\n<div>Starting from initial state (<em>AB</em> = 00), the sequence of states visited by the circuit is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "00 → 10 → 01 → 11 → 00"
+    },
+    {
+     "key": "B",
+     "html": "00 → 10 → 01 → 11 → 10"
+    },
+    {
+     "key": "C",
+     "html": "00 → 01 → 11 → 00"
+    },
+    {
+     "key": "D",
+     "html": "00 → 01 → 10 → 11 → 00"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2e/2e4bb4ae63181b4a8ddf.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A logic circuit implements the boolean function <img align=\"absmiddle\" alt=\"\" src=\"media/5d/5dda7f3facbefeafca3e.png\" /> It is found that the input combination Z = 1, Y = 1 can never occur. Taking this into account, a simplified expression for <em>F</em> is given by:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/66/6623727105a34db8744b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/8d/8d450742351997056553.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/1b/1b921e7b37b9cecd714a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/aa/aa82946d4c2b649896cd.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c2/c25359a45fccc4816ef5.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A 4-bit synchronous series carry counter has flip-flops having propagation delay of 40ns each and AND gates having propagation delay of 10 ns each. The minimum time period of clock pulses can be:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "100 nsec"
+    },
+    {
+     "key": "B",
+     "html": "90 nsec"
+    },
+    {
+     "key": "C",
+     "html": "50 nsec"
+    },
+    {
+     "key": "D",
+     "html": "60 nsec"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/ebf748a0507eb83b1abf.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The circuit shown below is a ring oscillator made up of identical inverters. If the output waveform has frequency of 20 MHz, then propagation delay of each inverter is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ec/ec777beb548f0c9c778f.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 nsec"
+    },
+    {
+     "key": "B",
+     "html": "20 nsec"
+    },
+    {
+     "key": "C",
+     "html": "15 nsec"
+    },
+    {
+     "key": "D",
+     "html": "5 nsec"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/34/3444f1b52ac378f86019.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>In the circuit shown below <em>A</em>, <em>B</em>, <em>C</em> are the inputs and <em>P</em>, <em>Q</em> are the two outputs. The circuit is a</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e7/e74b17099d38ae2a03f9.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Half subtractor where <em>Q</em> is the subtracted value and <em>P</em> is the borrow."
+    },
+    {
+     "key": "B",
+     "html": "Full subtractor where <em>Q</em> is the borrow and <em>P</em> is the subtracted value."
+    },
+    {
+     "key": "C",
+     "html": "Full adder where <em>Q</em> is the sum and <em>P</em> is the carry."
+    },
+    {
+     "key": "D",
+     "html": "Full adder where <em>P</em> is the sum and <em>Q</em> is the carry."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d2/d284ff1cf2d022533221.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit below, which of the following options correctly represents <img align=\"absmiddle\" alt=\"\" src=\"media/a2/a2cd5c9e3f8a172bc034.png\" /></p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/c1/c19d09b748b725a39d1a.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/e5/e58c9c7c3610763626f3.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/c5/c59421fd4966cbd4139a.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/47/47b48d787b712ccf9ed1.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/6a/6ac5d63321c67c589e59.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0d/0dff5b1f18029ba68096.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A 5-bit ripple carry adder is made using 5 identical full adders such that the worst case delay of the 5-bit ripple carry adder is 125 ns. If the carry propagation delay [<em>t</em><sub><em>pd</em>(carry)</sub>] is more than [<em>t</em><sub><em>pd</em>(sum)</sub>], then the value of <em>t</em><sub><em>pd</em> (carry)</sub> is _______ (in nsec).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    25,
+    25
+   ],
+   "answerText": "25",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>25 (25 - 25)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a0/a0bcad944650bbed95c6.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the combinational circuit below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/81/81b064d08e2eafda8e9f.png\" /></div>\n\n<div> </div>\n\n<div>The duration for which the output Y will be high is ________ (in nsec).</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4 (4 - 4)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/00/00e451fbdf743d3b1f89.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A 4-bit serial-in-parallel-out right shift register with initial content as 1010 is shown in the figure below. The content of the shift register will be 1111 after ________ clock pulses.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/42/429e1a18e7f642b6d2e6.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3 (3 - 3)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9d/9d42f2403832cd4c5f30.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A 4-bit MOD-6 ripple counter uses J-K flip-flops. If propagation delay of each flip-flop is 20 nsec, then the maximum clock frequency that can be used is ________ MHz.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    13
+   ],
+   "answerText": "12.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12.5 (12.0 - 13.0)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1e/1e05b8cdfa3db1adf3a3.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In the latch circuit shown, the NAND gates have non-zero, but unequal propagation delays. The present input condition is ; <em>P</em> = <em>Q</em> = ‘0’. If the input condition is changed simultaneously to <em>P</em> = <em>Q</em> = ‘1’, the possible outputs <em>X</em> and <em>Y</em> are</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/86/86bff0f643a36b418092.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>X</em> = 1, <em>Y</em> = 1"
+    },
+    {
+     "key": "B",
+     "html": "<em>X</em> = 1, <em>Y</em> = 0"
+    },
+    {
+     "key": "C",
+     "html": "<em>X</em> = 0, <em>Y</em> = 1"
+    },
+    {
+     "key": "D",
+     "html": "<em>X</em> = 0, <em>Y</em> = 0"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1c/1c1b1bee3e3c0fedfe8c.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>An 8-bit binary DAC produces output voltage of 2 V for a binary input (01100100). The output voltage for the binary input (10100010) is _________ V.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3.5
+   ],
+   "answerText": "3.24",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3.24 (3.00 - 3.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/47/47e38a1fefb6947047bd.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 6,
+   "MCQ": 9,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

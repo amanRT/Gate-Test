@@ -1,0 +1,545 @@
+{
+ "v": 1,
+ "id": "me-easy-2026-029",
+ "title": "Topicwise Test-4 Part Syllabus GATE 2026 ME Thermodynamics-2",
+ "sourceTitle": "Topicwise Test-4 Part Syllabus GATE 2026 ME Thermodynamics-2",
+ "branch": "MECHANICAL ENGINEERING",
+ "code": "ME",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Mechanical Engineering",
+ "seriesId": "me-easy-2026",
+ "num": 29,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Mechanical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Mechanical Engineering"
+ },
+ "source": "MECHANICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Mechanical_Engineering/087_Topicwise Test-4 Part Syllabus GATE 2026 ME Thermodynamics-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Which among the following statements is/are CORRECT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A heat transfer approaches a reversible process as the temperature difference between the two bodies tends to infinity."
+    },
+    {
+     "key": "B",
+     "html": "Heat is a form of energy that is transferred across the system boundary by virtue of temperature difference between the system and its surroundings."
+    },
+    {
+     "key": "C",
+     "html": "A heat transfer approaches a reversible process as the temperature difference between the two bodies approaches zero."
+    },
+    {
+     "key": "D",
+     "html": "Heat transfer through a finite temperature difference is an irreversible process."
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)</p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>A household refrigerator is maintained at a temperature of 3°C. Everytime the door is opened, warm material is placed inside, introducing an average of 400 kJ, but making only a small change in the temperature of the refrigerator. The door is opened 10 times a day, and the refrigerator operates at 20% of the ideal COP. The cost of work is <img align=\"absmiddle\" alt=\"\" src=\"media/cf/cf119f66fa5f4bc7ac3d.png\" /> per kWh. Atmosphere is at 27°C,<br />\nmonthly bill for the refrigerator will be<img align=\"absmiddle\" alt=\"\" src=\"media/cd/cd751e27c3db7c86d8fa.png\" /> (Approx to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    13,
+    15
+   ],
+   "answerText": "14",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>14 (13 - 15)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4f/4f06bb329f658ad7385b.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A heat engine is used to drive a heat pump. The heat transfer from the heat engine and from the heat pump are used to heat the water circulating through the radiators of a building. The efficiency of the heat engine is 30% and the COP of heat pump is 5. Ratio of rate of heat transfer to the circulating water to the heat transfer to the heat engine is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e1/e14b04bf7f22ae9e82e5.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.8"
+    },
+    {
+     "key": "B",
+     "html": "2.2"
+    },
+    {
+     "key": "C",
+     "html": "2.5"
+    },
+    {
+     "key": "D",
+     "html": "3.4"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0d/0df7c29c5372982ad720.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>A compressor takes in 600 kg/minutes of air at 1 bar and 10°C. The work input provided to compressor is 1000 kW. Velocity at the inlet of compressor is 45 m/sec and at the exit of compressor is 47 m/sec. Temperature at the exit of compressor is 60°C. The rate of heat flow is ______ kJ/sec.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -498,
+    -495
+   ],
+   "answerText": "-496.58",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>-496.58 (-498 - -495)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c6/c6d4dbede9171c9ccf1a.png\" /></div>\n\n<div><img alt=\"\" src=\"media/0a/0ae43aff520a0bffd8c0.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>An inventor claims that he has developed a heat engine which extract 2000 kJ and 1000 kJ from reservoir at 900 K and 400 K respectively and rejects 500 kJ and 200 kJ as heat to reservoir at 200 K and 100 K respectively, which of the following statement is correct regarding heat engine?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3e/3efb278c7e72e085bf7c.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Heat engine is possible with efficiency of 0.85."
+    },
+    {
+     "key": "B",
+     "html": "Heat engine is not theoretically possible."
+    },
+    {
+     "key": "C",
+     "html": "Heat engine is reversible."
+    },
+    {
+     "key": "D",
+     "html": "Cannot be determined."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/df/df0175419316f994dc89.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Two vessels, A and B, each of volume 2 m<sup>3</sup> may be connected by a tube of negligible volume, as shown in figure. Vessel A contains air at 0.8 MPa, 97°C, while vessel B contains air at 0.2 MPa, 200°C. Assuming the mixing to adiabatic, change in entropy is ______ kJ/K. (Correct upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/28/28f40c552de6ea523772.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.2,
+    1.5
+   ],
+   "answerText": "1.34",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.34 (1.20 - 1.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f6/f6d99fc3bde78472537c.png\" /></div>\n\n<div><img alt=\"\" src=\"media/cc/cc721cf01aef67b3aea1.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Heat is flowing through a copper rod, steadily with rate of 3 kW. One end of the rod is at 150°C and the other is at 27°C. The rod is perfectly insulated along its length. The rate of entropy production due to irreversibility of this heat transfer is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–2.907 W/K"
+    },
+    {
+     "key": "B",
+     "html": "0 W/K"
+    },
+    {
+     "key": "C",
+     "html": "2.907 W/K"
+    },
+    {
+     "key": "D",
+     "html": "9.11 W/K"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6f/6f927645564205b04351.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>A copper block of 500 g mass and with <em>c<sub>p</sub></em> = 150 J/K at 10°C is dropped from a height of 120 m into the lake at 10°C. The entropy change of the universe will be ______ J/K (Correct upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    3
+   ],
+   "answerText": "2.1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2.1(2 - 3)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/47/47a584049d416c71841e.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A thermally insulated 100 ohm resistor carries a current of 0.5 A for 2 sec. The initial temperature of the resistor is 7°C. Its mass is 2 g and its specific heat is 0.85 J/gK, change in the entropy of the resistor is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7d/7d1581fd97ebf5c85713.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0 J/K"
+    },
+    {
+     "key": "B",
+     "html": "0.169 J/K"
+    },
+    {
+     "key": "C",
+     "html": "–0.173 J/K"
+    },
+    {
+     "key": "D",
+     "html": "0.173 J/K"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/be/be6bd61da3270140f9b8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/74/74defa9070be14b1af4b.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>In a steam generator, water is evaporated at 260°C, while the combustion gas <em>c<sub>p</sub></em> = 1.08 kJ/kgK is cooled from 1500°C to 300°C. The surroundings are at 27°C. Latent heat of vapourization of water at 260°C = 1664 kJ/kg. The loss in available energy due to the heat transfer per kg of water evaporated will be ______ kJ. (Approx to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    466,
+    468
+   ],
+   "answerText": "467",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>467 (466 - 468)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7d/7dae85416dc2e3967da8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/5f/5f1ff99b6d525e3736d1.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0",
+   "html": "<p>Air flows through an adiabatic compressor at 1 kg/s. The inlet condition are 1 bar and 27°C and the exit conditions are 8 bar and 600 K. The value of irreversibility will be _____ kW. Assume surrounding temperature to be 280 K (Correct upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    26,
+    28
+   ],
+   "answerText": "27.95",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>27.95 (26 - 28)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/26/263a442a2e15375e9859.png\" /></div>\n\n<div><img alt=\"\" src=\"media/80/80fefdc1e08aebfe54d1.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Air expands steadily through a turbine from 10 bar, 900 K to 1 bar, 500 K. During the expansion, heat transfer from air to the surroundings at 300 K is 20 kJ/kg air. Neglect the chances in kinetic and potential energies. The irreversibility per kg air is _____ kJ/kg of air. Assume air to behave as an ideal gas with</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7f/7ffda54037f2b72a02ce.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "41"
+    },
+    {
+     "key": "B",
+     "html": "32"
+    },
+    {
+     "key": "C",
+     "html": "45"
+    },
+    {
+     "key": "D",
+     "html": "27"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/35/356bfd80cf905d614207.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Steam flows through an adiabatic flow turbine. The enthalpy at entrance is 4000 kJ/kg and at exit 2500 kJ/kg. The values of flow availability of steam at entrance and exit are 1800 kJ/kg and 150 kJ/kg respectively. If the dead state temperature <em>T</em><sub>0</sub> is 300 K, then change in entropy per kg of steam will be ______ kJ/kgK. Assume changes in kinetic and potential energy to be negligible.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–0.5"
+    },
+    {
+     "key": "B",
+     "html": "–2"
+    },
+    {
+     "key": "C",
+     "html": "0.5"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/88/885fd64cc6adb45bf897.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The specific volume of liquid water is 0.0010004 m<sup>3</sup>/kg and that of ice is 0.002081 m<sup>3</sup>/kg at 0.02°C. The latent heat of fusion of ice at this temperature is 334 kJ/kg. The rate of change of melting point of ice is _______ k/bar.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.083"
+    },
+    {
+     "key": "B",
+     "html": "–0.083"
+    },
+    {
+     "key": "C",
+     "html": "0.00833"
+    },
+    {
+     "key": "D",
+     "html": "–0.00833"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5e/5e6f1a3c265555cca6a5.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0",
+   "html": "<p>Which of the relations is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/b3/b3ebf39a5833a8080f85.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/bc/bcaef8951b5c0e7a6da3.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/ff/fffaef5fbddd6602042d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/2c/2cfb22838faf3fe3d8d8.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/20/204c439b1924dc95f16c.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A cylinder contains one kg of water and steam at a pressure of 4 bar. The heat supplied at constant volume until the pressure reaches to 10 bar is _______ kJ/kg.<br />\n[Assume mixture behaves as ideal gas]</p>\n\n<div>\n<div> </div>\n\n<div><img alt=\"\" src=\"media/79/799898ccaf6c7365fe3b.png\" /></div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1563.84"
+    },
+    {
+     "key": "B",
+     "html": "2014.98"
+    },
+    {
+     "key": "C",
+     "html": "1083.37"
+    },
+    {
+     "key": "D",
+     "html": "2708.44"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5b/5bfcf07a2f63c4e86a33.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • MECHANICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the statement is correct regarding Mollier chart?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "As the pressure increases, the slope of isobar remain constant."
+    },
+    {
+     "key": "B",
+     "html": "As the pressure increases, the slope of isobar increases."
+    },
+    {
+     "key": "C",
+     "html": "Constant pressure lines converges to each other, towards superheated region."
+    },
+    {
+     "key": "D",
+     "html": "As the pressure increases, <em>h<sub>fg</sub></em> increases."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a9/a9587a4c5e6508ca492d.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MSQ": 2,
+   "NAT": 6,
+   "MCQ": 9
+  },
+  "withoutKey": 0
+ }
+}

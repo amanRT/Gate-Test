@@ -1,0 +1,264 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-052",
+ "title": "DVRUO Classes GATE CS/DA | DBMS | File Organization | Weekly Quiz 13",
+ "sourceTitle": "DVRUO Classes GATE CS/DA | DBMS | File Organization | Weekly Quiz 13",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 52,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1620,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/010_exam_2417_GO Classes GATE CS-DA DBMS File Organization Weekly Quiz 13.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A file contains $r = 20{,}000$ $\\text{STUDENT}$ records of fixed length. Each record consists of the following fields: $\\text{ID\\#}$ $(7\\ \\text{bytes})$, $\\text{NAME}$ $(35\\ \\text{bytes})$, $\\text{ADDRESS}$ $(46\\ \\text{bytes})$, $\\text{COURSE}$ $(12\\ \\text{bytes})$, and $\\text{LEVEL}$ $(1\\ \\text{byte})$. An additional byte is used in each record as a deletion marker. Calculate the total record size $R$ in bits.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"533338\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">The record size $R$ is the sum of all individual field sizes plus the deletion marker byte:</p><p>$$R = \\text{ID\\#} + \\text{NAME} + \\text{ADDRESS} + \\text{COURSE} + \\text{LEVEL} + \\text{Deletion Marker}$$</p><p>$$R = 7 + 35 + 46 + 12 + 1 + 1 = 102 \\text{ bytes} = 816 \\text{ bits}$$</p></div></section></div><p><a href=\"https://gateoverflow.in/533333\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A file contains $r = 20{,}000$ $\\text{STUDENT}$ records of fixed length, where each record has a size of $R = 102\\ \\text{bytes}$. This file is stored on a disk with a block size of $B = 512\\ \\text{bytes}$. Assuming an unspanned organization (where records cannot be split across block boundaries), calculate the total number of file blocks $b$ required to store all the records.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533339\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">To find the total number of file blocks, we proceed in two steps:</p><ol start=\"1\" data-path-to-node=\"1\"><li><p data-path-to-node=\"1,0,0\"><b data-path-to-node=\"1,0,0\" data-index-in-node=\"0\">Calculate the blocking factor (bfr):</b></p><p data-path-to-node=\"1,0,0\">In an unspanned organization, records cannot span across multiple blocks. Therefore, the blocking factor (the number of complete records that can fit within a single block) is computed as:</p><p>$$\\text{bfr} = \\left\\lfloor \\frac{B}{R} \\right\\rfloor = \\left\\lfloor \\frac{512}{102} \\right\\rfloor = \\lfloor 5.0196 \\rfloor = 5 \\text{ records per block}$$</p></li><li><p data-path-to-node=\"1,1,0\"><b data-path-to-node=\"1,1,0\" data-index-in-node=\"0\">Calculate the total number of blocks ($b$):</b></p><p data-path-to-node=\"1,1,0\">The total number of blocks required to accommodate all $r = 20,000$ records is found by dividing the total records by the blocking factor, rounding up using the ceiling function:</p><p>$$b = \\left\\lceil \\frac{r}{\\text{bfr}} \\right\\rceil = \\left\\lceil \\frac{20,000}{5} \\right\\rceil = 4000 \\text{ blocks}$$</p></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/533332\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A file contains $r = 20{,}000$ $\\text{STUDENT}$ records of fixed length. Each record consists of the fields: $\\text{ID\\#}$ $(7\\ \\text{bytes})$, $\\text{NAME}$ $(35\\ \\text{bytes})$, $\\text{ADDRESS}$ $(46\\ \\text{bytes})$, $\\text{COURSE}$ $(12\\ \\text{bytes})$, and $\\text{LEVEL}$ $(1\\ \\text{byte})$, along with an additional $1\\ \\text{byte}$ used as a deletion marker. This file is stored on a new disk device where the block size is $B = 2400\\ \\text{bytes}$ and the inter-block gap size is $G = 600\\ \\text{bytes}$. Assuming an unspanned organization, calculate the amount of wasted space (in bits) inside each disk block due to the unspanned organization restriction.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"533340\"></a><div itemprop=\"text\"><ol start=\"1\" data-path-to-node=\"0\"><li><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">Calculate individual record size ($R$):</b></p><p>$$R = 7 + 35 + 46 + 12 + 1 + 1 = 102 \\text{ bytes}$$</p></li><li><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Calculate blocking factor (bfr):</b></p><p>$$\\text{bfr} = \\left\\lfloor \\frac{B}{R} \\right\\rfloor = \\left\\lfloor \\frac{2400}{102} \\right\\rfloor = \\lfloor 23.5294 \\rfloor = 23 \\text{ records per block}$$</p></li><li><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Calculate wasted space per block:</b></p><p>$$\\text{Wasted Space} = B - (\\text{bfr} \\times R) = 2400 - (23 \\times 102) = 2400 - 2346 = 54 \\text{ bytes} = 432 \\text{ bits}$$</p></li></ol></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"535683\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"0\"><i data-path-to-node=\"15\" data-index-in-node=\"0\">The inter-block gap size $G = 600\\text{ bytes}$ is located between physical blocks on the disk track and is completely independent of the internal block layout, so it does not contribute to the space wasted inside a block</i></h3><h3 data-path-to-node=\"0\">&nbsp;</h3><p data-path-to-node=\"1\">Firstly, Add the sizes of all the fields along with the deletion marker to find the fixed size of a single record ($R$).</p><p>$$R = \\text{ID\\#} + \\text{NAME} + \\text{ADDRESS} + \\text{COURSE} + \\text{LEVEL} + \\text{Deletion Marker}$$</p><p>$$R = 7 + 35 + 46 + 12 + 1 + 1 = 102\\text{ bytes}$$</p><h3 data-path-to-node=\"5\">Since the organization is <b data-path-to-node=\"6\" data-index-in-node=\"26\">unspanned</b>, a record cannot be split across two blocks. We calculate how many complete records can fit inside a single block.</h3><p>$$\\text{Records per block } (R_{fb}) = \\left\\lfloor \\frac{\\text{Block Size}}{\\text{Record Size}} \\right\\rfloor = \\left\\lfloor \\frac{2400}{102} \\right\\rfloor = \\lfloor 23.53 \\rfloor = 23\\text{ records}$$</p><h3 data-path-to-node=\"9\">The space occupied by the records inside a single block is:</h3><p>$$\\text{Occupied Space} = 23 \\times 102 = 2346\\text{ bytes}$$</p><p data-path-to-node=\"12\">The wasted space inside the block due to the unspanned restriction is the remaining unused bytes:</p><p>$$\\text{Wasted Space (Bytes)} = \\text{Block Size} - \\text{Occupied Space}$$</p><p>$$\\text{Wasted Space (Bytes)} = 2400 - 2346 = 54\\text{ bytes}=&nbsp;432\\text{ bits}$$</p><h4 data-path-to-node=\"15\"><b data-path-to-node=\"15\" data-index-in-node=\"0\">Imp observation : Wastage inside the final block (End-Of-File Slack)</b></h4><p data-path-to-node=\"16\">the 870th block only holds 13 records, leaving it mostly empty.</p><ul data-path-to-node=\"17\"><li><p data-path-to-node=\"17,0,0\"><b data-path-to-node=\"17,0,0\" data-index-in-node=\"0\">Wasted bytes in the final block:</b> $2400 - (13 \\times 102) = 2400 - 1326 = 1074 \\text{ bytes}=&nbsp; \\mathbf{8592 \\text{ bits}}$</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/533331\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A file containing $r = 20{,}000$ fixed-length $\\text{STUDENT}$ records is stored on a disk using an unspanned organization. Each record has a size of $R = 102\\ \\text{bytes}$, including all data fields and a deletion marker byte. The disk has a block size of $B = 2400\\ \\text{bytes}$. If a linear search is performed on this file to locate an arbitrary record, calculate the average number of block accesses needed, assuming the record being searched for is guaranteed to be in the file and is equally likely to be any record.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"533341\"></a><div itemprop=\"text\"><ol start=\"1\" data-path-to-node=\"0\"><li><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">Calculate blocking factor (bfr):</b></p><p>$$\\text{bfr} = \\left\\lfloor \\frac{2400}{102} \\right\\rfloor = 23 \\text{ records per block}$$</p></li><li><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Calculate total number of blocks ($b$):</b></p><p>$$b = \\left\\lceil \\frac{20,000}{23} \\right\\rceil = 870 \\text{ blocks}$$</p></li><li><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Calculate average block accesses for linear search (successful search):</b></p><p>$$\\text{Average Accesses} = \\frac{b}{2} = \\frac{870}{2} = 435 \\text{ block accesses}$$</p></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/533330\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A file contains $r = 20{,}000$ $\\text{STUDENT}$ records of fixed length. Each record consists of the fields: $\\text{ID\\#}$ $(7\\ \\text{bytes})$, $\\text{NAME}$ $(35\\ \\text{bytes})$, $\\text{ADDRESS}$ $(46\\ \\text{bytes})$, $\\text{COURSE}$ $(12\\ \\text{bytes})$, and $\\text{LEVEL}$ $(1\\ \\text{byte})$, along with an additional $1\\ \\text{byte}$ used as a deletion marker. This file is stored using an unspanned organization on a disk device where the block size is $B = 2400\\ \\text{bytes}$. The records are physically ordered and sorted sequentially based on the primary key field, $\\text{ID\\#}$. If a search is performed on this file to locate a record with a specific, non-key $\\textbf{NAME}$ attribute, calculate the average number of block accesses required for a successful search.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533342\"></a><div itemprop=\"text\"><ol start=\"1\" data-path-to-node=\"0\"><li><p data-path-to-node=\"0,0,0\"><b data-path-to-node=\"0,0,0\" data-index-in-node=\"0\">Identify the Search Type (The Conceptual Trap):</b></p><p data-start=\"0\" data-end=\"179\">The problem states that the file is physically ordered based on the $\\textbf{ID#}$ field. However, the search query is specifically looking for a record with a given $\\textbf{NAME}$. Because the file is not sorted by the $\\textbf{NAME}$ attribute, a binary search cannot be applied. We must use a <strong>linear search</strong> (sequential scan)&nbsp;over the file blocks.</p></li><li><p data-path-to-node=\"0,1,0\"><b data-path-to-node=\"0,1,0\" data-index-in-node=\"0\">Calculate individual record size ($R$):</b></p><p>$$R = 7 + 35 + 46 + 12 + 1 + 1 = 102 \\text{ bytes}$$</p></li><li><p data-path-to-node=\"0,2,0\"><b data-path-to-node=\"0,2,0\" data-index-in-node=\"0\">Calculate blocking factor (bfr):</b></p><p>$$\\text{bfr} = \\left\\lfloor \\frac{B}{R} \\right\\rfloor = \\left\\lfloor \\frac{2400}{102} \\right\\rfloor = \\lfloor 23.5294 \\rfloor = 23 \\text{ records per block}$$</p></li><li><p data-path-to-node=\"0,3,0\"><b data-path-to-node=\"0,3,0\" data-index-in-node=\"0\">Calculate total number of file blocks ($b$):</b></p><p>$$b = \\left\\lceil \\frac{r}{\\text{bfr}} \\right\\rceil = \\left\\lceil \\frac{20,000}{23} \\right\\rceil = \\lceil 869.565 \\rceil = 870 \\text{ blocks}$$</p></li><li><p data-path-to-node=\"0,4,0\"><b data-path-to-node=\"0,4,0\" data-index-in-node=\"0\">Calculate average block accesses for Linear Search:</b> For a successful linear search where the target record is equally likely to be anywhere in the file, the average number of block accesses is:</p><p>$$\\text{Average Accesses} = \\frac{b}{2} = \\frac{870}{2} = 435 \\text{ block accesses}$$</p></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/533329\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database uses <strong>Static Hash File Organization</strong>&nbsp;to store records where the hash function is $h(K) = K (\\bmod 8)$. The system allocates $8\\ \\text{buckets}$ (numbered $0$ to $7$), where each bucket corresponds to a single disk block and can store up to $2\\ \\text{records}$. Collisions are resolved using the <strong>Open Addressing with Linear Probing</strong> technique.<br><br><strong>Note:</strong> In a static hash file organization, a fixed number of buckets are allocated on disk, and a hash function maps a records key directly to a bucket. If a bucket reaches its maximum capacity, any subsequent collision triggers an overflow resolution policy (in this case, checking the next consecutive bucket index linearly)</p><p data-start=\"0\" data-end=\"75\">If the following sequence of keys is inserted into an initially empty file:</p><p data-start=\"77\" data-end=\"121\">$$\\text{Sequence: } [4879, 1829, 3951, 6967]$$</p><p data-start=\"123\" data-end=\"243\">Which of the following choices correctly identifies the contents of $\\textbf{Bucket 0}$ after all four keys are inserted?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{Bucket } 0 \\text{ is empty.}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\{6967\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{3951\\}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{3951, 6967\\}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533343\"></a><div itemprop=\"text\"><p>We trace the insertion step by step using $h(K) = K (\\bmod 8)$ with a bucket capacity of $2$ and linear probing for collision resolution:</p><ol><li><p>$\\mathbf{4879}: 4879 \\bmod 8 = 7 \\rightarrow$ placed directly in $\\textbf{Bucket 7}$ $(\\text{1st slot})$.</p></li><li><p>$\\mathbf{1829}: 1829 \\bmod 8 = 5 \\rightarrow$ placed directly in $\\textbf{Bucket 5}$ $(\\text{1st slot})$.</p></li><li><p>$\\mathbf{3951}: 3951 \\bmod 8 = 7 \\rightarrow$ placed directly in $\\textbf{Bucket 7}$ $(\\text{2nd slot})$. $\\textit{Bucket 7 is now full.}$</p></li><li><p>$\\mathbf{6967} :&nbsp;6967 \\bmod 8 = 7 \\rightarrow \\textbf{Collision! }$ Because $\\textbf{Bucket 7}$ is completely full, open addressing with linear probing is used to find the next available space. The algorithm checks the next consecutive bucket address: $$(7 + 1) \\bmod 8 = 0$$Since $\\text{Bucket } 0$ is currently empty and has open slots, $\\mathbf{6967}$ is successfully inserted into $\\textbf{Bucket 0}$.</p></li></ol><p>Therefore, $\\text{Bucket } 0$ contains exactly the single key $\\{6967\\}$.</p></div></section></div><p><a href=\"https://gateoverflow.in/533328\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database storage engine manages records composed of a fixed-length header and a sequence of data attributes. A single record consists of the following consecutive components:</p><ul><li>$\\text{Header:}$ An $8\\text{-byte}$ pointer followed by an array of ten $2\\text{-byte}$ integers.<br>&nbsp;</li><li>$\\text{Data Fields:}$ An $8\\text{-byte}$ real number, a $17\\text{-byte}$ character string, a $1\\text{-byte}$ field, and a $4\\text{-byte}$ $\\text{SQL}$ date.</li></ul><p>The storage subsystem enforces a strict alignment constraint requiring every $\\textit{individual component}$ (including each distinct array element within the header) to begin at a relative byte offset from the start of the record (byte $0$) that is a multiple of $8$. Assuming additional trailing padding is appended to ensure the entire record length is also a multiple of $8$, determine the total length of the record in bytes.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533344\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"803\" height=\"268\" src=\"media/bb/bbeb2abbaeddd6c27b17.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/533327\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A database system uses a variable-length record file organization to store $r = 20{,}000$ student records. Every record contains a set of mandatory fields along with several optional attributes. The fixed sizes of the mandatory fields are: $\\verb|Name|$ $(30\\ \\text{bytes})$ and $\\verb|Ssn|$ $(9\\ \\text{bytes})$.<br><br>The frequencies and sizes of the optional attributes are distributed as follows:</p><ul><li>$\\verb|PHONE|$ $(10\\ \\text{bytes})$: present in $80\\%$ of the records.<br>&nbsp;</li><li>$\\verb|Major_dept_code|$ $(4\\ \\text{bytes})$: present in $85\\%$ of the records.</li></ul><p>To delimit the variable-length structure, each record dedicates a $1\\text{-byte}$ deletion marker at the beginning, a $1\\text{-byte}$ end-of-record marker at the terminus, and a $1\\text{-byte}$ field-type indicator immediately preceding every field that is actually present. Compute the average record length $R$ in bytes.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"533345\"></a><div itemprop=\"text\"><p>The average record size is found by summing the sizes of the mandatory control markers, the mandatory data fields, and the expected statistical lengths of the optional data fields. Every data field present contributes its base size plus $1$ additional byte&nbsp;for its field-type indicator.</p><ol start=\"1\" data-path-to-node=\"1\"><li><p data-path-to-node=\"1,0,0\"><b data-path-to-node=\"1,0,0\" data-index-in-node=\"0\">Mandatory Record-Level Control Overhead:</b></p><p>$$\\text{Overhead} = 1 \\text{ byte (deletion marker)} + 1 \\text{ byte (end-of-record marker)} = 2 \\text{ bytes}$$</p></li><li><p data-path-to-node=\"1,1,0\"><b data-path-to-node=\"1,1,0\" data-index-in-node=\"0\">Mandatory Fields Cost:</b> There are $2$ fields always present in every record. Each requires a $1\\text{-byte}$ type prefix.</p><p>$$\\text{Fields Size} = 30 + 9 = 39 \\text{ bytes}$$</p><p>$$\\text{Type Indicators} = 2 \\times 1 \\text{ byte} = 2 \\text{ bytes}$$</p><p>$$\\text{Total Mandatory Cost} = 39 + 2 = 41 \\text{ bytes}$$</p></li><li><p data-path-to-node=\"1,2,0\"><b data-path-to-node=\"1,2,0\" data-index-in-node=\"0\">Expected Value of Optional Fields Cost:</b> Each optional field introduces a cost of $\\text{Field Size} + 1\\ \\text{byte indicator}$ weighted by its probability of appearance.</p><p>$$E[\\text{PHONE}] = 0.80 \\times (10 + 1) = 8.8 \\text{ bytes}$$</p><p>$$E[\\text{Major\\_dept\\_code}] = 0.85 \\times (4 + 1) = 4.25 \\text{ bytes}$$</p><p>$$\\text{Total Expected Optional Cost} = 8.8 + 4.25 = 13.05 \\text{ bytes}$$</p></li><li><p data-path-to-node=\"1,3,0\"><b data-path-to-node=\"1,3,0\" data-index-in-node=\"0\">Total Average Record Length ($R$):</b></p><p>$$R = 2 + 41 + 13.05 = 56.05 \\text{ bytes}$$</p></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/533326\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A variable-length file holds $r = 20{,}000$ student records with an calculated average record length of $R = 109.1\\ \\text{bytes}$. The file is mapped onto a disk device with a physical block size of $B = 512\\ \\text{bytes}$ using a <strong>spanned record organization. </strong>To manage continuous multi-block chaining, a fixed $5\\text{-byte}$ pointer targeting the next block header is reserved in every disk block; this pointer sequence cannot be utilized for holding record segments. Calculate the total number of disk blocks required to house the complete file.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"533349\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Spanned record organization allows an individual record to break across block boundaries, which completely eliminates internal fragmentation. Unused bytes at the end of a block are filled with a segment of the next consecutive record rather than left vacant.</p><ol start=\"1\" data-path-to-node=\"1\"><li><p data-path-to-node=\"1,0,0\"><b data-path-to-node=\"1,0,0\" data-index-in-node=\"0\">Calculate Net Usable Capacity per Disk Block:</b> Out of the raw block capacity, $5$ bytes are isolated for the structural link pointer:</p><p>$$\\text{Usable Block Space} = B - 5 = 512 - 5 = 507 \\text{ bytes per block}$$</p></li><li><p data-path-to-node=\"1,1,0\"><b data-path-to-node=\"1,1,0\" data-index-in-node=\"0\">Calculate Total Data Volume for the File:</b></p><p>$$\\text{Total Volume} = r \\times R = 20,000 \\times 109.1 = 2,182,000 \\text{ bytes}$$</p></li><li><p data-path-to-node=\"1,2,0\"><b data-path-to-node=\"1,2,0\" data-index-in-node=\"0\">Calculate Required Block Count ($b$):</b> Dividing the absolute data requirements by the net usable capacity per physical block yields:</p><p>$$b = \\left\\lceil \\frac{\\text{Total Volume}}{\\text{Usable Block Space}} \\right\\rceil = \\left\\lceil \\frac{2,182,000}{507} \\right\\rceil = \\lceil 4303.74 \\rceil = 4304 \\text{ blocks}$$</p></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/533325\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><strong>Recall that:</strong> A $\\textbf{bitmap}$ $(\\textbf{bit vector})$ represents each disk block with $1\\ \\text{bit}$ (where $1$ means free and $0$ means allocated), whereas a $\\textbf{linked list}$ $(\\textbf{free list})$ links free disk blocks together, with each block holding as many free disk block numbers (addresses) as will fit.<br><br>An operating system can track free disk space using either a $\\textbf{bitmap}$ $(\\textbf{bit vector})$ or a $\\textbf{linked free list}$. Consider a disk with a total of $B$ blocks, where $F$ of these blocks are currently free. Let $D$ represent the number of bits required to uniquely address a single disk block.<br><br>Which of the following expressions represents the exact condition under which the linked free list approach consumes strictly less storage space than the bitmap approach, and what is the maximum percentage of disk space that can be free for this condition to hold when $D = 16\\ \\text{bits}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Condition: $DF &gt; B$; Maximum Free Percentage: $16\\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Condition: $DF &lt; B$; Maximum Free Percentage: $6.25\\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Condition: $\\frac{F}{B} &gt; \\frac{1}{D}$; Maximum Free Percentage: $6.25\\%$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Condition: $D + F &lt; B$; Maximum Free Percentage: $6\\%$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"533350\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">To determine the more space-efficient allocation strategy, we analyze the structural storage overhead of both data structures in terms of bits:</p><ol start=\"1\" data-path-to-node=\"1\"><li><p data-path-to-node=\"1,0,0\"><b data-path-to-node=\"1,0,0\" data-index-in-node=\"0\">Bitmap Space Requirements:</b> A bitmap allocates exactly $1$ bit for every block on the disk, regardless of whether it is free or allocated. Thus, for a disk with $B$ blocks:</p><p>$$\\text{Space}_{\\text{bitmap}} = B \\text{ bits}$$</p></li><li><p data-path-to-node=\"1,1,0\"><b data-path-to-node=\"1,1,0\" data-index-in-node=\"0\">Free List Space Requirements:</b> A linked free list stores the disk address of each free block. Since each disk address requires $D$ bits and there are $F$ free blocks:</p><p>$$\\text{Space}_{\\text{freelist}} = D \\times F \\text{ bits}$$</p></li><li><p data-path-to-node=\"1,2,0\"><b data-path-to-node=\"1,2,0\" data-index-in-node=\"0\">Deriving the Space Efficiency Condition:</b> The free list uses strictly less space than the bitmap when:</p><p>$$\\text{Space}_{\\text{freelist}} &lt; \\text{Space}_{\\text{bitmap}} \\implies DF &lt; B$$</p><p data-path-to-node=\"1,2,2\">Dividing both sides by $B \\cdot D$, this inequality can be alternatively expressed as:</p><p>$$\\frac{F}{B} &lt; \\frac{1}{D}$$</p><p data-path-to-node=\"1,2,4\">where $\\frac{F}{B}$ represents the fraction of the disk that consists of free blocks.</p></li><li><p data-path-to-node=\"1,3,0\"><b data-path-to-node=\"1,3,0\" data-index-in-node=\"0\">Evaluating for a $\\mathbf{16}$-bit Addressing Architecture ($D = 16$):</b> Substituting $D = 16$ into the fractional condition:</p><p>$$\\frac{F}{B} &lt; \\frac{1}{16} = 0.0625$$</p><p data-path-to-node=\"1,3,2\">Converting this decimal fraction to a percentage:</p><p>$$0.0625 \\times 100\\% = 6.25\\%$$</p></li></ol><p data-path-to-node=\"2\">Therefore, the linked free list is more space-efficient if and only if $DF &lt; B$, which means the proportion of free disk space must be strictly less than $6.25\\%$.</p></div></section></div><p><a href=\"https://gateoverflow.in/533324\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 0,
+  "types": {
+   "NAT": 8,
+   "MCQ": 2
+  },
+  "withoutKey": 10
+ }
+}

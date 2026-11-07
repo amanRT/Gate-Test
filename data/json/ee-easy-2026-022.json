@@ -1,0 +1,1029 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-022",
+ "title": "Subjectwise Test-8 Part Syllabus GATE 2026 EE Power Electronics",
+ "sourceTitle": "Subjectwise Test-8 Part Syllabus GATE 2026 EE Power Electronics",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 22,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/048_Subjectwise Test-8 Part Syllabus GATE 2026 EE Power Electronics.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A single phase CSI (with ideal switches) has the following data:<br />\nI = 50 A, <em>f</em> = 400 Hz and load of pure capacitance = 10 μF<br />\nThe peak value of reverse voltage that appear across thyristor is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1500 V"
+    },
+    {
+     "key": "B",
+     "html": "6250 V"
+    },
+    {
+     "key": "C",
+     "html": "3125 V"
+    },
+    {
+     "key": "D",
+     "html": "3000 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3e/3e536da9b75e78e1bead.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A single phase full bridge inverter is operated at 50 Hz with multiple pulse width modulation technique. A triangular carrier wave of 6 V, 2 kHz is compared to reference square wave of 2 V. The pulse width of each pulse is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "120°"
+    },
+    {
+     "key": "B",
+     "html": "12°"
+    },
+    {
+     "key": "C",
+     "html": "60°"
+    },
+    {
+     "key": "D",
+     "html": "6°"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/34/34b43d500e1ce5fc3057.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A single phase two pulse diode rectifier has input supply of 200 V, 50 Hz and the load resistance R = 20 Ω. Assume second harmonic component as the dominating component of ripple current (<em>I<sub>r</sub></em>) and neglect higher order even harmonics. The value of inductance to be connected in series<br />\nR so as to limit the current ripple factor to 10% is _________ H. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.1,
+    0.2
+   ],
+   "answerText": "0.15",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.15 (0.10 - 0.20)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fd/fdb96bba0acc5766066e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/35/35eb479c26654bbcfe0f.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A buck boost converter has the following parameters,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/9d/9d6a00df5f60ecb30c19.png\" /></div>\n\n<div> </div>\n\n<div>The ratio of maximum inductor current <em>I</em><sub><em>L</em>, max</sub> to minimum inductor current <em>I</em><sub><em>L</em>, min</sub> for above converter considering continuous inductor current will be ________. (Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.68,
+    1.78
+   ],
+   "answerText": "1.73",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.73 (1.68 - 1.78)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/be/beaf896fee2807c36763.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A single phase full wave controlled bridge rectifier has an ac input of 240 V rms at 50 Hz and 10 Ω load resistor. The value of power factor at delay angle of 45° will be ________ (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.95,
+    0.96
+   ],
+   "answerText": "0.9536",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.9536 (0.95 - 0.96)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/73/7391d01bfe8f97e22ee4.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A diode bridge rectifier is supplied from a 200 V, 50 Hz single phase AC source. If the load draws a constant current of 20 A, the conduction angle of diode <em>D</em><sub>1</sub> in degree will be _______.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/88/88c10964fdd35973a213.png\" /></div>\n\n<div>(Answer upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    235,
+    237
+   ],
+   "answerText": "236.24",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>236.24 (235 - 237)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2e/2e42c2fb3a3df76dcf69.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>An SCR has holding current of 6 mA. The minimum gate pulse needed to turn ON SCR is 100 μsec as shown in below circuit. The minimum latching current needed to keep SCR is ON condition is _________.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5d/5d4196285da5cfbd6abf.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 mA"
+    },
+    {
+     "key": "B",
+     "html": "14 mA"
+    },
+    {
+     "key": "C",
+     "html": "18 mA"
+    },
+    {
+     "key": "D",
+     "html": "5 mA"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f2/f21cb0c5fa318dbe6aa6.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the half wave rectifier with free wheeling connected to R-L load shown below, if the source connected to rectifier is 200 V rms, 50 Hz and <em>R</em> = 10 Ω with <em>L</em> value very large then which of the following statements is/are correct?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/40/40453646ebafd5aab97c.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The average load current for load is 9 A."
+    },
+    {
+     "key": "B",
+     "html": "Power absorbed by load is 810 W."
+    },
+    {
+     "key": "C",
+     "html": "The power factor of source is 0.636 lag."
+    },
+    {
+     "key": "D",
+     "html": "Power factor of source is 0.8 lag."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/42/42cedfc408f5b0f8a569.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A single phase inverter is operated in PWM mode generating a single pulse width of 2<em>d</em> as shown below. It is found that the output voltage is free from 5<sup>th</sup> harmonic for pulse width of 130° < 2<em>d </em>< 145°. The percentage 3<sup>rd</sup> harmonic present in the output voltage w.r.t fundamental output<br />\nvoltage will be ________%. (Answer upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/46/46535e709b13c6394e87.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    20,
+    21
+   ],
+   "answerText": "20.60",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>20.60 (20.00 - 21.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e4/e427bcdf0d10cd17100b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/8b/8bc928ed85a05294ff2d.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The given below circuit is used to reduce harmonic content in an inverter. Each inverter has nearly sinusoidal output voltage of 200 V (rms) and firing angle of inverter-2 is delayed by 60° than inverter-1. Then the power dissipated in load (<em>R<sub>L</sub></em>) is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b0/b026d6ec6e1344868e56.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "48 kW"
+    },
+    {
+     "key": "B",
+     "html": "64 kW"
+    },
+    {
+     "key": "C",
+     "html": "24 kW"
+    },
+    {
+     "key": "D",
+     "html": "59.7 kW"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a6/a6d040b8e1182be57ded.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Which of the given option is/are correct regarding the inverters?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "VSI is normally employed which source inductance is small and load inductance is large."
+    },
+    {
+     "key": "B",
+     "html": "A PWM switching scheme is used with a three phase inverter to reduce the total harmonic distortion with modest filtering."
+    },
+    {
+     "key": "C",
+     "html": "The load voltage in CSI depends on source impedance."
+    },
+    {
+     "key": "D",
+     "html": "In <img align=\"absmiddle\" alt=\"\" src=\"media/c3/c307265de256d73f8dfd.png\" /> full bridge inverter, pole voltage waveform is free from 3rd harmonic."
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b)<br />\nThe load voltage in CSI depends on load impedance.</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A single phase, semiconveter is operated from a 50 Hz, 240 V ac source. If a resistive load of 100 Ω is connected at the DC terminal of the converter and average output voltage is 30% of maximum possible average output voltage, then the average value of load current is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.842 A"
+    },
+    {
+     "key": "B",
+     "html": "0.648 A"
+    },
+    {
+     "key": "C",
+     "html": "0.312 A"
+    },
+    {
+     "key": "D",
+     "html": "0.401 A"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e8/e8cb138450890e73d8cf.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A forward biased safe operating area (FBSOA) curve for BJT is shown in figure. Which of the boundary in the curve decides the secondary breakdown limit?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/12/126f7fec7aff2053b588.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>AB</em>"
+    },
+    {
+     "key": "B",
+     "html": "<em>BC</em>"
+    },
+    {
+     "key": "C",
+     "html": "<em>CD</em>"
+    },
+    {
+     "key": "D",
+     "html": "<em>DE</em>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; Boundary <em>AB</em> is the maximum limit for dc and continous current.<br />\n&bull; Boundary <em>BC</em> is as to limit the junction temperature to safe value.<br />\n&bull; Boundary <em>CD</em> is secondary breakdown limit.<br />\n&bull; Boundary <em>DE</em> is is maximum voltage capability.</p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A certain SCR is rated 500 V, 100 A, the number of series SCRs required for a circuit of 10 kV, 100 A, if the derating factor is 15% is _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    24,
+    24
+   ],
+   "answerText": "24",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>24</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1d/1d4e5c394d1b2ee7830a.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>For the converter shown below, firing angle for thyristors <em>T</em><sub>1</sub> and <em>T</em><sub>2</sub> is <img align=\"absmiddle\" alt=\"\" src=\"media/4d/4d78f41c69cdf764fa5c.png\" /> firing angle for thyristors <em>T</em><sub>3</sub> and <em>T</em><sub>4</sub> is  <img align=\"absmiddle\" alt=\"\" src=\"media/52/52ffc82940be87884f22.png\" /> If <em>R</em> = 10 Ω and <em>E</em> = 220 V, the average voltage across the RE-load is _________.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/59/596f540923028f78b140.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/0d/0d2faa12c7d0ce0356a9.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "220 V"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/02/02bd4cf0f3607371f690.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a3/a3061f96c63e107fe75d.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nSince here battery EMF is always greater than supply voltage. So, SCR will never get turn ON and output voltage is equal to battery EMF i.e. 220 V.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the dc-dc converter circuit shown, switch <em>Q</em> is switched at a frequency 10 kHz with a duty ratio of 0.6. All components of the circuit are ideal and the initial current in the inductor is zero. Energy stored in the inductor at the end of 10 complete switching cycles is _______.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cb/cb2ddbfee90c2c86f2ab.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.008 J"
+    },
+    {
+     "key": "B",
+     "html": "0.005 J"
+    },
+    {
+     "key": "C",
+     "html": "0.001 J"
+    },
+    {
+     "key": "D",
+     "html": "0.01 J"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c2/c24994c3fc957db1b585.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>For the simple chopper circuit shown, the average and rms value of load currents <img align=\"absmiddle\" alt=\"\" src=\"media/5b/5b74df633618b9d7b8db.png\" /> for a duty cycle at 0.49, in amps, are</p>\n\n<p>(neglect the drop across chopper when ON)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f1/f1f95071792413ab5c5e.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "9.8, 14"
+    },
+    {
+     "key": "B",
+     "html": "14, 9.8"
+    },
+    {
+     "key": "C",
+     "html": "20, 28.28"
+    },
+    {
+     "key": "D",
+     "html": "14, 18.2"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/92/92ec0c8f67cc73286ca0.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>In a 3-phase semiconverter, for firing angle equal to 120° and extiction equal to 110°, the ratio of conduction time of SCR and free-wheeling diode is ________ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.2,
+    1.2
+   ],
+   "answerText": "1.2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1.2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/67/6708c3f0aa881b582f2d.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A step-up chopper has input voltage of 220 V and output voltage of 660 V. If the non-conducting time of thyristor chopper is 100 μsec.<br />\nWhich of the following statement is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Pulse width of the output voltage is 200 μsec."
+    },
+    {
+     "key": "B",
+     "html": "Pulse width of the output voltage is 100 μsec."
+    },
+    {
+     "key": "C",
+     "html": "If the pulse width is halved, for constant frequency operation, the new output voltage is 330 V."
+    },
+    {
+     "key": "D",
+     "html": "If the pulse width is halved, for constant frequency operation, the new output voltage is 220 V."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/92/922d14c3f1d5d176f9b2.png\" /></div>\n\n<div><img alt=\"\" src=\"media/3a/3a04a1ba195e01a62289.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the following boost converter:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5d/5ddd40b468a7cb9b3883.png\" /></div>\n\n<div>If <em>V<sub>s</sub></em> = 20 V, D = 0.6, <em>R</em> = 50 Ω, <em>L</em> = 100 μH, <em>C</em> = 100 μF and <em>f</em> = 15 kHz then the maximum inductor current is _______ A.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>8</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/46/4694c285626527522207.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A single-phase auto-sequential commutated CSI is fed from 220 V dc source. The load is <em>R</em> = 10 Ω.<br />\nThyristors have turn-off time of 20 μs and inverter output frequency is 50 Hz. Take a factor of safety of 2. A maximum current change of 0.5 A in one cycle then suitable value of source inductance and the value off commutating capacitors are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8.8 H and 5.77 μF"
+    },
+    {
+     "key": "B",
+     "html": "16.6 H and 10.22 μF"
+    },
+    {
+     "key": "C",
+     "html": "4.4 H and 5.77 μF"
+    },
+    {
+     "key": "D",
+     "html": "2.2 H and 10.22 μF"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/19/19b367a61a75dc73235b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/a4/a44f27fb6c1bd8d7185b.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The figure shows one period of the output voltage of an inverter, α should be chosen such that 60° < α < 90°. If rms value of fundamental component is 60 V, then α in degree is </p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b6/b68f6526ae2157a6f5d2.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "77.15°"
+    },
+    {
+     "key": "B",
+     "html": "62.14°"
+    },
+    {
+     "key": "C",
+     "html": "83.26°"
+    },
+    {
+     "key": "D",
+     "html": "88.14°"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/07/07619498b06c2edd829d.png\" /></div>\n\n<div><img alt=\"\" src=\"media/f4/f494eeb519962fbc0384.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>In the circuit shown below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e5/e5ad0449a5c8ada67fa2.png\" /></div>\n\n<div>If <em>V<sub>dc</sub></em> = 250 V, <em>R<sub>y</sub></em> = 10 Ω and <em>R<sub>x</sub></em> = 100 Ω then the peak current through <em>T<sub>y</sub></em> is _______ A.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    52,
+    53
+   ],
+   "answerText": "52.50",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>52.50 (52.00 - 53.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bd/bd98004d5959cbf00114.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Compared to a single-phase half-bridge inverter the output power of a single-phase full-bridge inverter is higher by a factor of</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4 (4.00 - 4.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/94/94b45ba3a1735035f93f.png\" /></div>\n\n<div><img alt=\"\" src=\"media/b4/b44aad80c8110de94b2c.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>If the displacement power factor of the rectifier is <img align=\"absmiddle\" alt=\"\" src=\"media/58/58670b8ba134f7ab2da3.png\" /> then the firing angle a of a single-phase fully controlled rectifier feeding a constant dc current into a load is ________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "30°"
+    },
+    {
+     "key": "B",
+     "html": "45°"
+    },
+    {
+     "key": "C",
+     "html": "60°"
+    },
+    {
+     "key": "D",
+     "html": "75°"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b7/b7ac4d4d2f64776839bf.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A DC-DC Buck conveter operates in continuous conduction mode. It has 96 V input voltage, and it feeds a resistive load of 48 Ω. The switching frequency of the converter is 500 Hz. If switch-on duration is 0.5 ms then the load power is/are __________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12 W"
+    },
+    {
+     "key": "B",
+     "html": "24 W"
+    },
+    {
+     "key": "C",
+     "html": "48 W"
+    },
+    {
+     "key": "D",
+     "html": "96 W"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8d/8d60c99ebf7a9881eb56.png\" /></div>\n\n<div><img alt=\"\" src=\"media/2b/2b5d199fcdc7bb6cc3d9.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A three-phase voltage source inverter with ideal device operating in 180° conduction mode is feeding a balanced star-connected resistive load. The DC voltage input is 120 V. The peak value of the fundamental component of the phase voltage is ________ V.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/72/72fb218e76e1d7fc0a31.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/12/122fdc557d23e5ba7009.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/b6/b65f443eb088644190c0.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/4f/4f35803745e8f0684fea.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c0/c04e1dd06843d9fb9998.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A <img align=\"absmiddle\" alt=\"\" src=\"media/bd/bd1302b8de2daf0f9daa.png\" /> half controlled bridge converter in continuous conduction mode operates at a firing angle of 40°. The power factor on the line side is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.843"
+    },
+    {
+     "key": "B",
+     "html": "0.781"
+    },
+    {
+     "key": "C",
+     "html": "0.5"
+    },
+    {
+     "key": "D",
+     "html": "0.811"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f0/f0cfe498a347ad84a8ad.png\" /></div>\n\n<div><img alt=\"\" src=\"media/f2/f2e99c3757c702c2a3d7.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A phase controlled single-phase rectifier, supplied by an AC source, feeds power to an R-L-E load as shown. Assume load inductance is sufficient to ensure continuous and ripple free load current. The rectifier output voltage has an average value given by</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/85/8568473e609108b611de.png\" /></div>\n\n<div> </div>\n\n<div>Where, <em>V<sub>m</sub></em> = 220 V and α is the firing angle. If load current is 12 A then which is of the following is not correct?\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/12/12b76ed5d29112bdd129.png\" /></div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The power delivered to the lossless battery is 1200 W."
+    },
+    {
+     "key": "B",
+     "html": "The power delivered to the lossless battery is –1200 W."
+    },
+    {
+     "key": "C",
+     "html": "Firing angle of rectifier is 122.17°."
+    },
+    {
+     "key": "D",
+     "html": "Firing angle of rectifier is 152.27°"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1a9d8725db1dada6f426.png\" /></div>\n\n<div><img alt=\"\" src=\"media/8f/8f288b528e7716f357a7.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The steady state current flowing through the inductor of a DC-DC boost converter is given in the figure below. If the output capacitor is 250 μF then the peak to peak ripple in the output voltage of the converter is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cd/cdf1f018192f4863b34f.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 V"
+    },
+    {
+     "key": "B",
+     "html": "1.2 V"
+    },
+    {
+     "key": "C",
+     "html": "0.48 V"
+    },
+    {
+     "key": "D",
+     "html": "0.8 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/72/722c5b3681dee9d9ee71.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The output voltage of a 3-phase voltage source inverter contains 5<sup>th</sup> and 7<sup>th</sup> harmonics. Assume<br />\nthe load is balanced. If <em>V<sub>a</sub></em> = V<sub>1m</sub> sin (ω<em>t</em>) + V<sub>5<em>m</em></sub> sin (5 ω<em>t</em>) + V<sub>7<em>m</em></sub> sin (7ω<em>t</em>) then (Assume abc phase sequence)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/db/dbc388865ee2f7f137e4.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/60/6034c83a1e11b60e1805.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/80/800c0fe9e10821d7297e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/f2/f2e14d9e315b44aa5281.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ac/acedb17665fed5688e75.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A 1-phase voltage source inverter is controlled in a single pulse width modulation mode with a pulse width 2d = 120° in each half cycle. The total harmonic distortion of output ac voltage waveform is ________ %.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    30.5,
+    31.5
+   ],
+   "answerText": "31.08",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>31.08 (30.50 - 31.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1a1521321863c3bd5792.png\" /></div>\n\n<div><img alt=\"\" src=\"media/57/57d06a88d8f39a76b47d.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the circuit shown in figure, variable resistor <em>R</em> is used to</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/38/38557c96b3211cf2cd21.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "control the current through diac."
+    },
+    {
+     "key": "B",
+     "html": "control the current through triac."
+    },
+    {
+     "key": "C",
+     "html": "control the charging time of capacitor <em>C</em>."
+    },
+    {
+     "key": "D",
+     "html": "control the discharging time of capacitor <em>C</em>."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nValue of capacitor, <em>C</em> and the variable resistor <em>R</em> are so selected to give a firing angle range of<br />\nnearly 0&deg; and 180&deg;. Variable resistor <em>R</em> controls the charging time of capacitor C and therefore the<br />\nfiring angle of triac.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "NAT": 11,
+   "MSQ": 6
+  },
+  "withoutKey": 0
+ }
+}

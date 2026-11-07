@@ -1,0 +1,998 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-022",
+ "title": "Subjectwise Test-10 Part Syllabus GATE 2025 EC Digital Circuits",
+ "sourceTitle": "Subjectwise Test-10 Part Syllabus GATE 2025 EC Digital Circuits",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 22,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/029_Subjectwise Test-10 Part Syllabus GATE 2025 EC Digital Circuits.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider the combinational circuit shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/7d/7d695236f70b9689b0a2.png\" /></p>\n<p>\n\tWhich of the following outputs of 2 × 4 decoder becomes active for a given input?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c4/c44f0e21086cd43cefff.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a5/a5a6d0a0ec2ca99adb1a.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/23/2360020268678bbef7ac.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/84/84d2c9476fec475db9eb.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/44/44b2d5be33a49af384d7.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tAssume the following values for the counter type or digital ramp ADC: clock frequency is 1 MHz, <em>V<sub>T</sub></em> = 0.1 mV; DAC has full scale output = 10.23 V and 10 bit input. The decimal equivalent of the digital output obtained for <em>V<sub>A</sub></em> = 3.728 V is ___________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    372,
+    374
+   ],
+   "answerText": "373 (372 - 374)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t373 (372 - 374)</p>\n<p>\n\t<img alt=\"\" src=\"media/cb/cb904f2a7ddc2ad41af0.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe largest value of output from an 8 bit DAC that produces 1 V for a digital input of 00110010 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "9 V"
+    },
+    {
+     "key": "B",
+     "html": "5.10 V"
+    },
+    {
+     "key": "C",
+     "html": "2.5 V"
+    },
+    {
+     "key": "D",
+     "html": "10 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/37/372d3619b249199df814.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the logic circuit shown in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/34/34c6f03dd850839202f6.png\" /></p>\n<p>\n\tIf all the logic gates are constructed using TTL with <img align=\"absmiddle\" alt=\"\" src=\"media/bd/bd98f17287efa674be58.png\" /> mA and both <em>A</em> and <em>B</em> are kept at logic low, then the magnitude of maximum current into the output of driving gate (<em>X</em>) is equal to _________ × 10<sup>–6</sup> A.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    59,
+    61
+   ],
+   "answerText": "60 (59 - 61)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t60 (59 - 61)</p>\n<p>\n\t<img alt=\"\" src=\"media/f1/f1e752cfd520df884ac8.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA lawn-sprinkling system is controlled automatically by certain combination of following variables:<br />\n\tSeason (<em>S</em> = 1, if summer ; 0, otherwise)<br />\n\tMoisture content of the soil (<em>M</em> = 1, if high ; 0, if low)<br />\n\tOutside temperature (<em>T</em> = 1, if high ; 0, if low)<br />\n\tOutside humidity (<em>H</em> = 1, if high ; 0, if low)<br />\n\tThe sprinkler is turned ‘ON’ under any of the following conditions:<br />\n\t1. The moisture content is low in winter.<br />\n\t2. The temperature is high and moisture content is low in summer.<br />\n\t3. The temperature and humidity is high in summer.<br />\n\t4. The temperature and moisture content is low in summer.<br />\n\t5. The temperature is high and the humidity is low.<br />\n\tThen the minimum number of two input NAND gates required to implement this function is ______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4 (4 - 4)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4 (4 - 4)</p>\n<p>\n\t<img alt=\"\" src=\"media/92/920f208bd2d58699346e.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tEPROM contents can be erased by exposing it to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Ultraviolet rays"
+    },
+    {
+     "key": "B",
+     "html": "Infrared rays"
+    },
+    {
+     "key": "C",
+     "html": "Burst of microwaves"
+    },
+    {
+     "key": "D",
+     "html": "Intense heat radiations"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tEPROM contents can be erased by exposing it to ultraviolet rays.<br />\n\tThe ultraviolet light passes through a window in the IC package to the EPROM chip where it releases stored charges. Photons of the UV light cause ionization within the silicon oxide, which allows the stored charge on the floating gate to dissipate. Thus, the stored contents are erased.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider an 8-bit DAC using binary-weighted resistors with <em>V</em><sub>ref </sub>= 5 V.</p>\n<p>\n\t<img alt=\"\" src=\"media/7f/7fbebb3d907b806fbd42.png\" /></p>\n<p>\n\tThe values of <em>R</em> which will limit the maximum current drawn from the supply (<em>V</em><sub>ref</sub>) to be not more than 10 mA is/are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "650 Ω"
+    },
+    {
+     "key": "B",
+     "html": "996 Ω"
+    },
+    {
+     "key": "C",
+     "html": "1000 Ω"
+    },
+    {
+     "key": "D",
+     "html": "1020 Ω"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/fe/fe885541a25b74ccdc50.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIf the input to T flip-flop is 100 Hz signal, the final output of the three T flip flops in cascade is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1000 Hz"
+    },
+    {
+     "key": "B",
+     "html": "500 Hz"
+    },
+    {
+     "key": "C",
+     "html": "333 Hz"
+    },
+    {
+     "key": "D",
+     "html": "12.5 Hz"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/80/80d1d723afedbd3ceec2.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/db/db8eb7c6eeda8b7a5fc5.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIn the following series, the same integer is expressed in different number system. The missing number of the series 10000, 121, 100, ?, 24, 22, 20 is ___________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    31,
+    31
+   ],
+   "answerText": "31 (31 - 31)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t31 (31 - 31)</p>\n<p>\n\t<img alt=\"\" src=\"media/18/18d9211d44260eb195fa.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIn successive approximation A/D converter, offset voltage equal to <img align=\"absmiddle\" alt=\"\" src=\"media/cb/cbd3486c8f6df3246962.png\" /> is added to the D/A converter’s output. This is done to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Improve the speed of operation."
+    },
+    {
+     "key": "B",
+     "html": "Reduce the maximum quantization error."
+    },
+    {
+     "key": "C",
+     "html": "Increase the number of bits at the output."
+    },
+    {
+     "key": "D",
+     "html": "Increase the range of input voltage that can be converted."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tIt is done to reduce the maximum quantization error to &plusmn;LSB/2.</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA chemical plant needs a microprocessor driven alarm system to warn for critical conditions in one of its chemical tanks. The tank has four high/low <img align=\"absmiddle\" alt=\"\" src=\"media/e0/e0281403ca54b3934e7d.png\" /> switches that monitor temperature (T), pressure (P), fluid level (L) and weight (W). Design a system that will notify the microprocessor to activate an alarm when any one of the following conditions arise:<br />\n\t1. High fluid level with high temperature and high pressure.<br />\n\t2. Low fluid level with high temperature and high weight.<br />\n\t3. Low fluid level with low temperature and high pressure.<br />\n\t4. Low fluid level with high temperature and low weight.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c0/c07d9dba34f2eb26cf4a.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/58/587ac2014565993c9f23.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/aa/aa256a0a7c84f1d42586.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/09/09e22243f25e335e7ae7.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/aa/aa1171766b3e9f8dc368.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements are correct regarding flash type ADC?<br />\n\t1. Flash type ADC also called as the parallel comparator type ADC or simultaneous ADC is the fastest ADC.<br />\n\t2. All comparator outputs are connected to a priority encoder, which produces a digital output corresponding to the input having highest priority.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tA flash ADC (also known as a direct-conversion ADC) uses a linear voltage ladder with a comparator at each &ldquo;rung&rdquo; of the ladder to compare the input voltage to successive reference voltages. The output of these comparators is generally fed into a priority encoder, giving the digital output. Due to simultaneous comaprisons, they can carry out the conversion in a single step, and hence is the fastest among all ADCs.</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe decimal number 3.248 × 10<sup>4</sup> is represented in a single precision floating point binary number as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 01101011 11110110100100000000000"
+    },
+    {
+     "key": "B",
+     "html": "0 01100010 00001000001000100111111"
+    },
+    {
+     "key": "C",
+     "html": "0 10001101 11111011100000000000000"
+    },
+    {
+     "key": "D",
+     "html": "1 10001101 111110111000000000000000"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/8f/8f85ec7efeff461c1d0a.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/5a/5af8b8ad5c41b678f46f.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIn a particular number system, the cubic equation <img align=\"absmiddle\" alt=\"\" src=\"media/15/15412f4e78b1318ae939.png\" /> then the base of the number system is __________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    15
+   ],
+   "answerText": "15 (15 - 15)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t15 (15 - 15)</p>\n<p>\n\t<img alt=\"\" src=\"media/d7/d7369b6618574a68bf59.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider 4 : 1 MUX based circuit shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/86/86dce1a7e1d9e924cf48.png\" /></p>\n<p>\n\t<em>A</em> and <em>B</em> are two periodic signals with duty cycles 25% and 50% respectively as given in the figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/32/32ec02a6a6774a309eb5.png\" /></p>\n<p>\n\tIf +5V and +0V are used to represent logic 1 and logic 0 respectively, then the duty cycle of the output is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "25%"
+    },
+    {
+     "key": "B",
+     "html": "50%"
+    },
+    {
+     "key": "C",
+     "html": "66%"
+    },
+    {
+     "key": "D",
+     "html": "33%"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/44/44bc95a0e87b8d0b2549.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the register circuit shown in figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/41/413e720c2967805ce211.png\" /></p>\n<p>\n\t </p>\n<p>\n\tRegarding the operation of above given register, which of the following options is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e7/e7537e36bfc04d137e62.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7b/7ba912e5ceaba4e28c76.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d9/d927bccde6f88a2d2ce2.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ae/ae160c46b54da8e6ab50.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/fa/fa4afaacbbd5f4a8e0d7.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following Boolean expressions represents the output of a 4 bit even parity generator with inputs <em>A</em>, <em>B</em>, <em>C</em> and <em>D</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/8b/8b8a5dcb3c8b1203a9e5.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bf/bf7bebcbbe06a97569bf.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/22/22b52e4b31258992bb99.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/88/88ba9f522289d44234ec.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/e8/e87c1ec2e7b562c9bbd7.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA bank has 3 locks with 1 key for each lock. Each key is owned by a different person. In order to open the vault, atleast two people must insert their keys into the assigned locks. If the system is to be designed with only two input NAND gates, then the minimum number of two-input NAND gates required are __________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6 (6 - 6)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t6 (6 - 6)</p>\n<p>\n\t<img alt=\"\" src=\"media/b6/b6d77ca80fc9611563ca.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/5d/5db7faf013825b456046.png\" /></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA combinational circuit has four-bit input number (<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) with <em>A</em> as MSB and the output is the 2’s complement of the input number (<em>F</em><sub>4</sub>, <em>F</em><sub>3</sub>, <em>F</em><sub>2</sub>, <em>F</em><sub>1</sub>) with F4 as MSB. Then the logic function for <em>F</em><sub>2 </sub>is equivalent to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bf/bf4ef3dba19631dc663f.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/67/67fa113779ac56c581e0.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/07/07ba8803099d60ab30cb.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6d/6d608d708b74637b32c7.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/9d/9dc8ffb3527314e93843.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/66/667972e988193c56e027.png\" /></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tYou are designing a 5 to 32 decoder using 3 to 8 decoders and a single 2 to 4 decoder. How would you connect the enable inputs of the 3 to 8 decoders?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Connect the enable inputs of 3 to 8 decoders to a common ground."
+    },
+    {
+     "key": "B",
+     "html": "Connect the enable inputs of the 3 to 8 decoders to the outputs of the 2 to 4 decoder."
+    },
+    {
+     "key": "C",
+     "html": "Connect the enable inputs of the 3 to 8 decoders to the least significant bit (LSB) of the input."
+    },
+    {
+     "key": "D",
+     "html": "Connect the enable inputs of the 3 to 8 decoders to the most significant bit (MSB) of the input."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\tA 5-to-32 decoder can be built using a 2-to-4 decoder and four 3-to-8 decoders. Using the two MSB inputs, Lthe 2 to 4 decoder generates 4 outputs which are connected to the enable inputs of four 3 to 8 decoders to generate 32 outputs. The remaining three input bits are connected to the input lines of all four 3-to-8 decoders to determine the specific output within the enabled group.</p>"
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA dual slope A/D converter has a resolution of 8-bits. The clock rate is 51.2 kHz. Then the maximum rate of sample conversion is _____________ samples per sec.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    95,
+    105
+   ],
+   "answerText": "100 (95 - 105)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t100 (95 - 105)</p>\n<p>\n\t<img alt=\"\" src=\"media/ac/acd5f006bc381dbfe7d6.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the following sequential circuit shown in figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/03/03c8fcf979bb3352674b.png\" /></p>\n<p>\n\tThe above sequential circuit acts as a [Assume <em>R</em><sub>1</sub>, <em>R</em><sub>2</sub>: RESET inputs]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "MOD-3 counter"
+    },
+    {
+     "key": "B",
+     "html": "MOD-10 counter"
+    },
+    {
+     "key": "C",
+     "html": "MOD-5 counter"
+    },
+    {
+     "key": "D",
+     "html": "MOD-6 counter"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/3d/3d04ceccbc87677a1228.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA Boolean function is given as,</p>\n<p>\n\t<img alt=\"\" src=\"media/d8/d861b25a5a2e70115c1f.png\" /></p>\n<p>\n\tThen the minimum number of two input NAND gates required to implement this function is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6 (6 - 6)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t6 (6 - 6)</p>\n<p>\n\t<img alt=\"\" src=\"media/c3/c3f8335e84432fb5da82.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/b8/b8469687a1d3ed52dc41.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the logic circuit given below:</p>\n<p>\n\t<img alt=\"\" src=\"media/61/61a1e6dc1a18aac8fd2b.png\" /></p>\n<p>\n\tThe minimized expression for <em>F</em>(<em>X</em>, <em>Y</em>, <em>Z</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/45/45dbba83100b0cb51672.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a1/a17fb10e99c33cf2d96c.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/67/67bebfe8012833399ee1.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/90/9057111341c78d417551.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/a0/a07668722359eb63469c.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the below circuit:</p>\n<p>\n\t<img alt=\"\" src=\"media/b6/b60669b8404a4c0698eb.png\" /></p>\n<p>\n\tThe duty cycle of the output <em>Y</em><sub>1</sub> is ____________ (in %)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    19,
+    21
+   ],
+   "answerText": "20 (19 - 21)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t20 (19 - 21)</p>\n<p>\n\t<img alt=\"\" src=\"media/aa/aa971b009bdbe45f616c.png\" /></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tFor the combinational circuit shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/90/9084eaa4f4ea30c6fc56.png\" /></p>\n<p>\n\tThe output expression ‘<em>Y</em>’ is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/96/9600edc9bad4cf1bbe37.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9e/9e8a5d8d06235a9d8b4e.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b5/b5fd18b024f34957de55.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b8/b86330918c9b016bc637.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/f4/f4676fa4fb0a18dd976b.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/67/67b5220fb1d5f13e1192.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider the logic circuit consisting of tristate buffers shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/82/82511f30c7242551982d.png\" /></p>\n<p>\n\tThen the output (<em>Y</em>) of the logic circuit is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>C</em></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ec/ec360e372c9e6899a410.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>ABC<br />\n\t</em></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/69/69f4d242608a2359fe81.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/60/60f7ae85f1069ddd98bb.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA MOD-8 gray up-counter is constructed using T-flip-flops only. If the initial state of the counter is S<sub>0</sub> = 110, then the minimum number of clock cycles required to reach a state of (101) will be _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2 (2 - 2)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2 (2 - 2)</p>\n<p>\n\t<img alt=\"\" src=\"media/b6/b6ccb5b70073c80f58e9.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider a 4 × 1 MUX circuit as shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/bc/bc88ac6f331a0e29910b.png\" /></p>\n<p>\n\tThen the output, ‘<em>F</em> ’ is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7e/7ea9051c71c4086b0989.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/17/175195b82fe4d955d3e6.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/62/627367a03a48ee6958fd.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b5/b5913ecec33e2d936241.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b)</p>\n<p>\n\t<img alt=\"\" src=\"media/b1/b137a11866cc8ed2aec9.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tAn <em>R</em>-2<em>R</em> ladder type DAC is as shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/66/663b70b86b9021b21fc7.png\" /></p>\n<p>\n\tIf <em>R</em> = 10 kΩ, with binary input 010, then the output voltage <em>V<sub>o</sub></em> is _______ V.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5 (5 - 5)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t5 (5 - 5)</p>\n<p>\n\t<img alt=\"\" src=\"media/42/425ede4cd791dded6232.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the following sequential circuit:</p>\n<p>\n\t<img alt=\"\" src=\"media/14/14658986affe6245e616.png\" /></p>\n<p>\n\tAfter applying 4 clock pulses, which input sequence(s) for ABC will always generate logic 1 at the output Z? (Assume initially all flip-flops are cleared)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "111"
+    },
+    {
+     "key": "B",
+     "html": "101"
+    },
+    {
+     "key": "C",
+     "html": "001"
+    },
+    {
+     "key": "D",
+     "html": "110"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/54/54f97652d9893f96d9f0.png\" /></p>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the Boolean expression,</p>\n<p>\n\t<img alt=\"\" src=\"media/2b/2b207a64dd4544ab1978.png\" /></p>\n<p>\n\tThe minimum number of NAND-gates required to implement this function ‘<em>f</em> ’ will be ______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0</p>\n<p>\n\t<img alt=\"\" src=\"media/32/32e2340d7ffa31c31188.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the combinational circuit below,</p>\n<p>\n\t<img alt=\"\" src=\"media/55/55a458b96fde57e0a5be.png\" /></p>\n<p>\n\tThe duration for which the output Y will be high is ________ (in nsec).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4 (4 - 4)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4 (4 - 4)</p>\n<p>\n\t<img alt=\"\" src=\"media/fd/fd3afbc9f7d5e7c3fd48.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "NAT": 13,
+   "MSQ": 4
+  },
+  "withoutKey": 0
+ }
+}

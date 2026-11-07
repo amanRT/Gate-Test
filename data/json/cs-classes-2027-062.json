@@ -1,0 +1,548 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-062",
+ "title": "DVRUO Classes GATE CS Test Series | Digital Logic | Boolean Algebra, Minimization | Topic Wise Test 4",
+ "sourceTitle": "DVRUO Classes GATE CS Test Series | Digital Logic | Boolean Algebra, Minimization | Topic Wise Test 4",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 62,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Digital Logic"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/002_exam_2486_GO Classes GATE CS Test Series Digital Logic Boolean Algebra, Minimization Topic Wise Test 4.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The expression ( $\\mathrm{A}+\\mathrm{AB}+\\mathrm{ABC}+\\mathrm{ABCD}+\\mathrm{ABCDE}+\\ldots .$.$)$ simplifies to</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$A$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$A + AB$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$A&#x27;$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"541002\"></a><div itemprop=\"text\">Apply the absorption law.<br>\n<br>\n$\\mathrm{A}+\\mathrm{AB}=\\mathrm{A}$<br>\n<br>\nNow, $\\mathrm{A}+\\mathrm{ABC}=\\mathrm{A}$ and so on.</div></section></div><p><a href=\"https://gateoverflow.in/541001\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What type of logic gate's behavior does this truth table represent?</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"371\" src=\"media/60/6028dba48770e48c1584.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$ input OR<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$ input OR<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$ input EXOR<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$ input EXOR</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"541000\"></a><div itemprop=\"text\">We can see that the output is $1$ when at least one input is $1$ .</div></section></div><p><a href=\"https://gateoverflow.in/540999\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Indicate the label of the Karnaugh map corresponding to the following $4$ -variable truth table:<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"180\" height=\"454\" src=\"media/89/8997dd1ac797fa09d95b.png\"></p><ol style=\"list-style-type:upper-roman\"><li><img alt=\"\" width=\"200\" height=\"195\" src=\"media/3a/3a9d4f976ab3a4a09ada.png\"></li><li><img alt=\"\" width=\"200\" height=\"186\" src=\"media/8e/8ed9097cf49942bef113.png\"></li><li><img alt=\"\" width=\"200\" height=\"198\" src=\"media/8a/8aa3425479dc07503e2b.png\"></li><li><img alt=\"\" width=\"200\" height=\"181\" src=\"media/2b/2bab8b4a50ba363f4873.png\"></li></ol><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The K-map labelled $(i)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The K-map labelled $(ii)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The K-map labelled $(iii)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The K-map labelled&nbsp;$(iv)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540998\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"324\" src=\"media/16/16574bca835f211fccab.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/540997\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Determine the logic function computed by the circuit below:<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"163\" src=\"media/96/96c0ea6a0a6001546b45.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$f = X_1 X_2 + (X_2)&#x27;X_3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$f = X_1(X_2)&#x27; + X_2X_3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$f = (X_1 + (X_2)&#x27;)(X_2+X_3)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$f = (X_1 + X_2)((X_2)&#x27;+X_3)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/540996\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The formula $\\mathrm{F}=\\mathrm{A} \\cdot \\mathrm{B}^{\\prime} \\cdot \\mathrm{C}^{\\prime}+\\mathrm{A} \\cdot \\mathrm{B} \\cdot \\mathrm{D}+\\mathrm{A} \\cdot \\mathrm{C}^{\\prime} \\cdot \\mathrm{D}^{\\prime}+\\mathrm{B} \\cdot \\mathrm{C}^{\\prime} \\cdot \\mathrm{D}+\\mathrm{A}^{\\prime} \\cdot \\mathrm{B} \\cdot \\mathrm{C} \\cdot \\mathrm{D}$ can be simplified to:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{A}+\\mathrm{B} \\cdot \\mathrm{D} $<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;$\\mathrm{A} \\cdot \\mathrm{C}^{\\prime}+\\mathrm{B} \\cdot \\mathrm{D}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{A} \\cdot \\mathrm{D}+\\mathrm{B} \\cdot \\mathrm{C} \\cdot \\mathrm{D}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The correct answer is not listed.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540995\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"230\" src=\"media/8f/8f653fa8cd384a947713.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/540994\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many distinct truth tables are possible for a combinational circuit with $4$ input variables and $3$ output variables? If the answer is $2^{P}$, find $P$.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    48,
+    48
+   ],
+   "answerText": "48",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"540993\"></a><div itemprop=\"text\">There are $2^{m}$ rows in a truth table of $m$ inputs. Each row has $2^{n}$ possible values. So there are $\\left(2^{n}\\right)^{\\left(2^{m}\\right)}$ combinational logic circuits in total.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"541567\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"803\" height=\"321\" src=\"media/90/905f387619ce30ca2636.png\"></p><p>&nbsp;</p><p>Answer : - 48</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543644\"></a><div itemprop=\"text\"><p>Let the truth table be represented as a function $f: A \\rightarrow B$, where $A$ represents the set of all input combinations (the domain) and $B$ represents the set of all possible output combinations for a given row (the co-domain).</p><p><strong><em>Domain :&nbsp;</em></strong></p><p><b><i>(Each element in the domain is a 4 input varaibles tuple)</i></b></p><p>Given $4$ input variables, the total number of distinct input combinations (i.e., the number of rows in the truth table) is:</p><p>$$|A| = 2^4 = 16$$</p><p><em><strong>Co-Domain :&nbsp;</strong></em></p><p><em><strong>Each element in the Co-domain is a 3 (output) varaibles tuple { &lt;0, 0 , 0&gt; , &lt;0, 0 , 1&gt; , &lt;0 , 1 , 0&gt; , &lt;0 ,1 ,1&gt; , &lt;1 , 0 , 0&gt; , &lt;1 , 0 , 1&gt; , &lt;1 , 1 , 0&gt; ,&lt;1 , 1, 1&gt; }</strong></em></p><p>Given $3$ output variables, the output for each row can be any combination of these $3$ variables. The number of possible&nbsp;output combinations is:</p><p>$$|B| = 2^3 = 8$$</p><p>&nbsp;</p><p>The number of distinct truth tables is equivalent to the total number of possible functions that can map set $A$ to set $B$. The standard formula for this is $|B|^{|A|}$.</p><p>$$\\text{Total distinct truth tables} = 8^{16}$$</p><p>$$8^{16} = (2^3)^{16} = 2^{3 \\times 16} = 2^{48}$$<br><br>So P = 48</p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"543650\"></a><div itemprop=\"text\"><p>The number of distinct truth tables are possible for a combinational circuit with&nbsp;4&nbsp;input variables and&nbsp;3&nbsp;output variables :&nbsp;</p><p>Let me tell you few related information :</p><p>Input of combinartional circuit is input Boolean variables</p><p>output of combinational circuit is a Boolean expression or function of those input Boolean variables</p><p>Given,</p><p>4 input boolean variables and 3 ouptut boolean variables</p><p>With 4 input boolean variables 2^4 = 16 input combinations possible in total</p><p>with 3 output boolean variables 2^3 = 8 output combinations possible in total</p><p><strong>As each input combination has&nbsp; 8 possible choices of ouput</strong></p><p><strong>&nbsp; &nbsp; &nbsp;= 8*8*8*.........*8 } 16 times</strong></p><p><strong>&nbsp; &nbsp; &nbsp;= 8¹⁶</strong></p><p><strong>&nbsp; &nbsp; &nbsp;= (2³)¹⁶</strong></p><p><strong>&nbsp; &nbsp; &nbsp;= 2⁴⁸</strong></p><p><strong>Hence P = 48 is correct answer</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/540992\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A Karnaugh map can't represent more than $2$ variables along a single dimension because</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Gray code counts can&#x27;t go beyond $2$ bits.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Each value v along a dimension must be adjacent to all values that are Hamming distance $1$ from $v$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Three is not a power of two.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No reason. You can represent $3$ variables along a dimension. You couldn&#x27;t make $5$-variable K-maps otherwise.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540991\"></a><div itemprop=\"text\">$\\textbf{\\textcolor{green}{The answer is B.}}$<br>\n<br>\nThe $2$-bit gray code cycle $00-01-11-10 - ...$ handles two variables just fine, but can't be extended to $3$ bits.<br>\n<br>\nThere are $3$-bit gray codes but they involve non-adjacent encodings that are Hamming distance $1$ apart.</div></section></div><p><a href=\"https://gateoverflow.in/540990\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "What is the maximum number of product terms in a minimal sum-of-products expression for a boolean function with three variables?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 8</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"540989\"></a><div itemprop=\"text\"><p>The most complicated K-map that doesn't permit any sort of simplification is a checkerboard of $1$'s where $50$ $\\%$ of the K-map cells can be $1$. So in a $3$-input K-map, there are eight cells of which four can be $1$ in a checkerboard pattern. Each $1$ in the checkboard corresponds to a separate product term since it can't be combined with its neighbors and therefore the maximal number of product terms is $4$.<br><br>Over n variables, the answer would be $2^{(n-1)}$.<br><br>Over $4$ variables, the answer is $8$, and the K-map would like like this:<br><br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"250\" height=\"257\" src=\"media/a2/a24b92b3e03c9630fe89.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/540988\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements are always true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A Boolean function of $N$ variables with more than $2^{N-1}$ minterms in its canonical SOP representation can always be simplified to an SOP expression with fewer product terms.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A Boolean function of $N$ variables with exactly $2^{N-1}$ minterms in its canonical SOP representation can always be simplified to an SOP expression with fewer product terms.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There exists a Boolean function of $N$ variables with at most $2^{N-1}$ minterms in its canonical SOP representation that can still be simplified to an SOP expression with fewer product terms.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There exists a Boolean function of $N$ variables with at most $2^{N-1}$ minterms in its canonical SOP representation that cannot be simplified to an SOP expression with fewer product terms.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"540987\"></a><div itemprop=\"text\"><p>$\\text{Option A:}$ True. If there are more than $2^{(N-1)}$ minterms in the canonical SOP expression for f, the K-map of the function f would be more than half full and there would be $1$'s in at least two adjacent cells, leading to a possible simplification.<br><br>$\\text{Option B,C,D:}$<br>A Boolean function of N variables with at most $2^{(N-1)}$ minterms in its canonical SOP representation may or may not be simplified to an SOP expression with fewer product terms.<br><br>Counterexample for $\\text{Option B:}$</p><p style=\"text-align:center\"><img alt=\"\" width=\"250\" height=\"266\" src=\"media/07/07db0444ee15c2b24447.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/540986\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Simplify the following function of $3$ variables using Boolean algebra:<br><br>$f(X_1,X_2,X_3) = X_1X_2 + X_1 (X_2)'X_3+(X_2+X_3)((X_1)'+(X_3)')$<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$f(X_1,X_2,X_3) = X_2+X_3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$f(X_1,X_2,X_3) = X_1+X_2+X_3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$f(X_1,X_2,X_3)=X_2X_3$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$f(X_1,X_2,X_3)= X_1X_2X_3$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540985\"></a><div itemprop=\"text\"><p>\\begin{align*}<br>f &amp;= X_1X_2 + X_1X_2'X_3 + (X_2 + X_3)(X_1' + X_3') \\\\<br>&nbsp; &amp;= X_1X_2 + X_1X_2'X_3 + X_1'X_2 + X_2X_3' + X_1'X_3 \\\\<br>&nbsp; &amp;= X_2 + X_1X_2'X_3 + X_2X_3' + X_1'X_3 \\\\<br>&nbsp; &amp;= X_2 + X_1X_3 + X_1'X_3 \\\\<br>&nbsp; &amp;= X_2 + X_3.<br>\\end{align*}<br><br>Using:</p><ul><li>$X_1X_2 + X_1'X_2 = X_2$<br>&nbsp;</li><li>$X + X'Y = X + Y$<br>&nbsp;</li><li>$X_1X_3 + X_1'X_3 = X_3$</li></ul></div></section></div><p><a href=\"https://gateoverflow.in/540984\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Determine the cofactors of the $4$-variable function $f(w, x, y, z)=x . y .\\left(z^{\\prime}\\right)+w . z+\\left(w^{\\prime}\\right) . x$ when $f$ is expanded with respect to variables $w$ and $x$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$f_{\\left(w^{\\prime}\\right)\\left(x^{\\prime}\\right)}=0, f_{\\left(w^{\\prime}\\right) x}=1, f_{w\\left(x^{\\prime}\\right)}=z, f_{w x}=y+z$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$f_{\\left(w^{\\prime}\\right)\\left(x^{\\prime}\\right)}=1, f_{\\left(w^{\\prime}\\right) x}=z, f_{w\\left(x^{\\prime}\\right)}=y+z, f_{w x}=0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$f_{\\left(w^{\\prime}\\right)\\left(x^{\\prime}\\right)}=z, f_{\\left(w^{\\prime}\\right) x}=y+z, f_{w\\left(x^{\\prime}\\right)}=0, f_{w x}=1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$f_{\\left(w^{\\prime}\\right)\\left(x^{\\prime}\\right)}=y+z, f_{\\left(w^{\\prime}\\right) x}=0, f_{w\\left(x^{\\prime}\\right)}=1, f_{w x}=z$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540983\"></a><div itemprop=\"text\"><p>Watch this lecture for Complete Understanding:<br>&nbsp;</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/Hn9MhOJs6F0\">Watch here! </a> &nbsp;&nbsp;</p></div><p><br>When $\\mathrm{w}=0, \\mathrm{x}=0, \\mathrm{~F}=0$<br>When $\\mathrm{w}=0, \\mathrm{x}=1, \\mathrm{~F}=1$<br>When $\\mathrm{w}=1, \\mathrm{x}=0, \\mathrm{~F}=\\mathrm{z}$<br>When $\\mathrm{w}=1, \\mathrm{x}=1, \\mathrm{~F}=\\mathrm{y}+\\mathrm{z}$<br><br>Many good GATE questions can be formed on Shannon's Expansion Theorem. One such question came in GATE IT $2006$.<br><br>Learn Shannon's Expansion Theorem here:&nbsp;<br>&nbsp;</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/Hn9MhOJs6F0\">Watch here! </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/540982\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given the Karnaugh map shown below (where X denotes a don't-care condition), what is the corresponding minimal Sum-of-Products (SOP) expression?<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"410\" src=\"media/34/3451d32f8cf0ab43ed6e.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$ \\text{A.C&#x27;.D&#x27; + C.D}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$ \\text{A.D&#x27; + A&#x27;.D}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{ A.D&#x27; + C.D}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$ \\text{A.D&#x27; + A&#x27;.D + C.D}$<br>&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"540981\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"302\" src=\"media/c7/c7e06023db28013f1f18.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/540980\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the given Karnaugh map (where X represents a don't-care condition). How many prime implicants does it contain, and how many of them are essential prime implicants?<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"383\" src=\"media/ad/ad25973ab014af8071fd.png\"></p><p><br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$ prime implicants, $2$ of which are essential.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$ prime implicants, all $3$ of which are essential.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$ prime implicants, $2$ of which are essential.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$ prime implicants, $3$ of which are essential.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540979\"></a><div itemprop=\"text\"><p>$4$ prime implicants, of which $2$ are essential (highlighted in red).<br><br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"450\" height=\"402\" src=\"media/10/10ea18be14015ab1a5d9.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/540978\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following expressions corresponds to the minimal function represented in the Karnaugh-map?<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"307\" src=\"media/90/908922f2f2bd329c13c0.png\"></p><p><br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(C+D)(A+\\bar{D})(\\bar{A}+D)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(B+\\bar{D})(A+D)(\\bar{B}+C)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(B+D)(A+D)(\\bar{A}+C)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text { None of the other options }$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"540977\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"396\" src=\"media/2d/2d48bc93b2c6fa7fb715.png\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/540976\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Select the canonical conjunctive normal form (product of sums) of the function<br>$(X+\\bar{Z})(\\bar{X}+\\bar{Y})$ with three variables.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\bar{X}+Y+\\bar{Z})(X+\\bar{Y}+Z)(\\bar{X}+\\bar{Y}+Z)(\\bar{X}+\\bar{Y}+\\bar{Z})$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(X+Y+\\bar{Z})(X+\\bar{Y}+Z)(\\bar{X}+\\bar{Y}+Z)(\\bar{X}+Y+Z)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(X+\\bar{Y}+\\bar{Z})(\\bar{X}+\\bar{Y}+Z)(\\bar{X}+\\bar{Y}+\\bar{Z})(X+Y+\\bar{Z}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(X+\\bar{Y}+\\bar{Z})(X+\\bar{Y}+Z)(\\bar{X}+\\bar{Y}+Z)(\\bar{X}+\\bar{Y}+\\bar{Z})$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540975\"></a><div itemprop=\"text\">Maxterms of the given function are $1$, $3$, $6$, $7$.<br>\nSo, $\\textbf{\\textcolor{green}{option C is the answer.}}$</div></section></div><p><a href=\"https://gateoverflow.in/540974\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 8,
+  "types": {
+   "MCQ": 12,
+   "NAT": 2,
+   "MSQ": 1
+  },
+  "withoutKey": 11
+ }
+}

@@ -1,0 +1,484 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-025",
+ "title": "DVRUO Classes CS Test Series | CO and Architecture | Topic Wise Test 2",
+ "sourceTitle": "DVRUO Classes CS Test Series | CO and Architecture | Topic Wise Test 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 25,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "CO and Architecture"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/055_exam_1383_GO Classes CS Test Series CO and Architecture Topic Wise Test 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Instruction frequencies for a load/store machine :\n\n$$\\begin{array}{|c|c|c|}\n\\hline  \\text{Instruction Type} & \\text{Frequency} & \\text{Cycles} \\\\\n\\hline  \\text{Load} & 25 \\% & 2 \\\\\n  \\text{Store} & 15 \\% & 2 \\\\\n  \\text{Branch} & 20 \\% & 2 \\\\\n  \\text{ALU} & 40 \\% & 1\\\\\n\\hline\n\\end{array}$$\nWhat is the average CPI of this machine?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.6,
+    1.6
+   ],
+   "answerText": "1.6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 1, 6</p><p><a href=\"https://gateoverflow.in/381879\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Individual stages of the processor have the following latencies:<br>$$<br>\\begin{array}{|c|c|c|c|c|}<br>\\hline \\text{IF} &amp; \\text{ID} &amp; \\text{EX} &amp; \\text{MEM} &amp; \\text{WB}<br>\\\\\\hline 210 p s &amp; 90 p s &amp; 110 p s &amp; 240 p s &amp; 50 p s<br>\\\\\\hline<br>\\end{array}<br>$$<br>If the processor is pipelined, each pipeline latch adds a latency of $20ps$ to the stage that precedes it this is a so-called setup latency, where the signals need to be stable at the input of the latch for some amount of time before they can be latched correctly at the end of the cycle.</p><p>If this processor is to be implemented with a $6$-stage pipeline, but the design effort and time-to-market are such that there is only enough time to split one of the five existing stages into two new stages, which stage would you chose to split so that we can improve cycle time?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>IF stage</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>ID stage</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Ex stage</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Mem stage</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/381877\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a pipelined RISC computer where all arithmetic instructions have the same CPI (cycles per instruction), which of the following actions would improve the execution time of a typical program?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Increasing the clock cycle rate</li>\n\t<li>Disallowing any forwarding in the pipeline</li>\n\t<li>Doubling the sizes of the instruction cache and the data cache without changing the clock cycle time</li>\n</ol>\n\n<p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>III only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>I and III</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/381875\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In typical RISC ISA, delayed branch executes which instruction irrespective of whether the branch condition is true or false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Instruction immediately following the branch condition</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Instruction immediately preceding the branch condition</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Instruction that belongs to a different sub-routine</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It waits till the branch condition is evaluated</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/381873\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" height=\"136\" src=\"media/1e/1ef587959d44659f9a94.png\" width=\"715\"></p>\n\n<p><br>\nA computer pipeline has $4$ processors, as shown above. Each processor takes $15$ ms to execute, and each instruction must go sequentially through all $4$ processors. Which of the following is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$ single instruction execution time on a Non-pipelined system is $60$ ms.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10$ instructions execution time on Non-pipelined system is $600$ ms.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10$ instructions execution time on a pipelined system is $195$ ms.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1$ single instruction execution time on a pipelined system is $15$ ms.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/381871\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A compiler designer is trying to decide between two code sequences for a particular computer. The hardware designers have supplied the following facts :</p><table border=\"1\" cellpadding=\"1\" style=\"width:334px\"><tbody><tr><td style=\"width:107px\"><strong>Instruction class</strong></td><td style=\"width:209px\"><strong>CPI for this instruction class</strong></td></tr><tr><td style=\"width:107px\">A</td><td style=\"width:209px\">1</td></tr><tr><td style=\"width:107px\">B</td><td style=\"width:209px\">2</td></tr><tr><td style=\"width:107px\">C</td><td style=\"width:209px\">3</td></tr></tbody></table><p><br>For a particular high-level-language statement, the compiler writer is considering two code sequences that require the following instruction counts:</p><table border=\"1\" cellpadding=\"1\" style=\"width:277px\"><tbody><tr><td style=\"height:52px\"><strong>Code sequence</strong></td><td colspan=\"3\" style=\"height:52px; width:197px\"><strong>IC for Instruction class</strong></td></tr><tr><td> </td><td style=\"width:45px\">A</td><td style=\"width:59px\">B</td><td style=\"width:81px\">C</td></tr><tr><td>1</td><td style=\"width:45px\">2</td><td style=\"width:59px\">1</td><td style=\"width:81px\">2</td></tr><tr><td>2</td><td style=\"width:45px\">4</td><td style=\"width:59px\">1</td><td style=\"width:81px\">1</td></tr></tbody></table>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Sequence $1$ executes fewer instructions than sequence $2.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Sequence $2$ executes faster than sequence $1.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Sequence $1$ executes faster than sequence $2.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Average CPI for sequence $2$ is $1.5.$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><p><a href=\"https://gateoverflow.in/381869\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A compiler designer is trying to decide between two code segments for a particular machine. The hardware designers have provided the following data below about the CPI for each class, and the instruction counts being considered for each code sequence.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:315px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Class</strong></td>\n\t\t\t<td style=\"width:212px\"><strong>CPI for this instruction class</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td style=\"width:212px\">2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td style=\"width:212px\">3</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:257px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:86px\">&nbsp;</td>\n\t\t\t<td colspan=\"2\" style=\"width:159px\"><strong>Instruction Counts for Instruction Classes&nbsp;</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:86px\"><strong>Code sequence</strong></td>\n\t\t\t<td style=\"width:91px\">A</td>\n\t\t\t<td style=\"width:72px\">B</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:86px\">1</td>\n\t\t\t<td style=\"width:91px\">3</td>\n\t\t\t<td style=\"width:72px\">5</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:86px\">2</td>\n\t\t\t<td style=\"width:91px\">7</td>\n\t\t\t<td style=\"width:72px\">2</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><br>\nWhich of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Sequence $1$ executes fewer instructions than sequence $2.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Sequence $2$ executes faster than sequence $1.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Sequence $1$ executes faster than sequence $2.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>CPI for sequence $1$ is $2.$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/381867\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A pipelined processor uses a stage instruction pipeline with the following stages: Instruction fetch (IF), Instruction decode (ID), Execute (EX) and Writeback (WB). The arithmetic operations as well as the load and store operations are carried out in the EX stage.<br>\nConsider the following sequence of instructions:</p>\n\n<ol>\n\t<li>&nbsp;lw&nbsp;$\\$ s 2,0(\\$ s 1) \\quad ; \\quad \\mathrm{s} 2 \\leftarrow \\mathrm{M}[0+\\mathrm{s} 1]$</li>\n\t<li>lw $\\$ s 1,40(\\$ s 6) \\quad ; \\quad s 1 \\leftarrow M[40+s 6]$</li>\n\t<li>sub $\\$s6, \\$s1, \\$ s 2\\quad ; \\quad s 6 \\leftarrow s 1+s 2$</li>\n\t<li>add $\\$ s 6, \\$ s 2, \\$ s 2 \\quad ; \\quad s 6 \\leftarrow s 2+s 2$</li>\n\t<li>or $\\$s3, \\$s6, \\$\\text{zero}\\quad ; \\quad&nbsp;s3 \\leftarrow s6\\; v \\;0$</li>\n\t<li>$\\mathrm{sw} \\;\\$ \\mathrm{~s} 6,50(\\mathrm{\\$} \\mathrm{s} 1) \\quad \\quad ; \\quad \\mathrm{M}[50+\\mathrm{s} 1] \\leftarrow \\mathrm{s} 6$</li>\n</ol>\n\n<p>The number of Read-After-Write (RAW) dependencies in the sequence of instructions are ________</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 6</p><p><a href=\"https://gateoverflow.in/381863\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume the $5$-stage MIPS pipeline(IF, ID, EX, MEM, and WB) with no forwarding, and each stage takes $1$ cycle. Instead of inserting nops, you let the processor stall on hazards.<br>\nThe functionality of the five stages of this pipeline is as follows :</p>\n\n<ol>\n\t<li>Instruction fetch (IF) – get instruction from memory, increment PC</li>\n\t<li>Instruction Decode (ID) – translate opcode into control signals and read registers</li>\n\t<li>Execute (EX) – perform ALU operation, compute jump/branch targets</li>\n\t<li>Memory (MEM) – access memory if needed</li>\n\t<li>Writeback (WB) – update register file (write back to register file)</li>\n</ol>\n\n<p>The pipeline does not have other bypassing/forwarding hardware.<br>\nAll Instructions, including loads and stores, spend only one cycle in each stage. The register file can be written and then read in the same cycle.<br>\nConsider the following sequence of instructions executed on this pipeline:</p>\n\n<ol>\n\t<li>&nbsp;lw&nbsp;$\\$ s 2,0(\\$ s 1) \\quad ; \\quad \\mathrm{s} 2 \\leftarrow \\mathrm{M}[0+\\mathrm{s} 1]$</li>\n\t<li>lw $\\$ s 1,40(\\$ s 6) \\quad ; \\quad s 1 \\leftarrow M[40+s 6]$</li>\n\t<li>sub $\\$s6, \\$s1, \\$ s 2\\quad ; \\quad s 6 \\leftarrow s 1+s 2$</li>\n\t<li>add $\\$ s 6, \\$ s 2, \\$ s 2 \\quad ; \\quad s 6 \\leftarrow s 2+s 2$</li>\n\t<li>or $\\$s3, \\$s6, \\$\\text{zero}\\quad ; \\quad&nbsp;s3 \\leftarrow s6\\; v \\;0$</li>\n\t<li>$\\mathrm{sw} \\;\\$ \\mathrm{~s} 6,50(\\mathrm{\\$} \\mathrm{s} 1) \\quad \\quad ; \\quad \\mathrm{M}[50+\\mathrm{s} 1] \\leftarrow \\mathrm{s} 6$</li>\n</ol>\n\n<p>What is the execution time (in cycles) for the whole program?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    14,
+    14
+   ],
+   "answerText": "14",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/381861\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a  processor with an in-order five-stage pipeline (IF, ID, EX, MEM, and WB) with clock cycle time $10$ ns. This processor is executing a program in which $30\\%$ of the instructions are conditional branch instructions, $10\\%$ of the instructions are unconditional branch instructions. $40\\%$ of the conditional branches are taken.\n\nBranch target is available at the end of $2$nd stage for unconditional branches and at the end of $3$rd stage for conditional branches. Assume that the instruction following the branch is always started and ignored if the branch is taken. What is the throughput (In million instructions per second) of the system?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    74.6,
+    74.65
+   ],
+   "answerText": "74.60:74.65",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/381859\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The $5$ stages of two&nbsp;processors $a$,$b$ have the following latencies:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:280px; margin: auto;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:59px\"><strong>Type</strong></td>\n\t\t\t<td style=\"width:43px\"><strong>IF</strong></td>\n\t\t\t<td style=\"width:32px\"><strong>ID</strong></td>\n\t\t\t<td style=\"width:33px\"><strong>EX</strong></td>\n\t\t\t<td style=\"width:39px\"><strong>MM</strong></td>\n\t\t\t<td style=\"width:39px\"><strong>WB</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:59px\">$a$</td>\n\t\t\t<td style=\"width:43px\">300</td>\n\t\t\t<td style=\"width:32px\">400</td>\n\t\t\t<td style=\"width:33px\">350</td>\n\t\t\t<td style=\"width:39px\">550</td>\n\t\t\t<td style=\"width:39px\">100</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:59px\">$b$</td>\n\t\t\t<td style=\"width:43px\">200</td>\n\t\t\t<td style=\"width:32px\">150</td>\n\t\t\t<td style=\"width:33px\">100</td>\n\t\t\t<td style=\"width:39px\">190</td>\n\t\t\t<td style=\"width:39px\">140</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Assume that when pipelining, each pipeline stage costs $20ps$ extra for the registers between pipeline stages. Which of the following pairs of tuples represents the cycle time, the latency of one instruction, and the throughput for a&nbsp;pipelined processor for both the types $a$ and $b$ mentioned above?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(570, 570, 1/570) (220, 220, 1/220)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(570, 1700, 1/1700), (220, 220, 1/780)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(570, 570 ,1/1700) , (220, 780, 1/780)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(570, 2850, 1/570), (220, 1100, 1/220)$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/381857\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The ideal CPI that we can expect in a pipelined implementation is only $1.$ If we want to further reduce CPI, we need to explore the option of issuing and completing multiple instructions every clock cycle. For example, if we issue and complete two instructions every clock cycle, ideally we should get a CPI of $0.5.$ Such processors are called multiple issue processors. So, <em>in multiple issue processors, we Fetch (and execute) more than one instructions at one time (expand every pipeline stage to accommodate multiple instructions).</em></p>\n\n<p><br>\nA single issue processor is basically “one instruction each clock cycle” processor.</p>\n\n<p>A computer can parallelize the program execution by using multiple issue processor.</p>\n\n<p>Assume that a program execution takes $100$ nsec when executed on a single issue processor and it takes $40$ nsec when it is executed on a $4$-issue processor(i.e. Four instructions each clock cycle). Assuming that some part of the execution is non-parallelizable(i.e. will not benefit from multiple issue processing) then what percentage of execution is non parallelizable ? (Rounded off to nearest integer)</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    20,
+    20
+   ],
+   "answerText": "20",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/381855\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following instruction sequence in a single-issue in-order $5$-stage pipeline (IF, ID, EX, MEM, and WB).\n$$\\begin{array}{lcccc}\\text { Opcode } & \\text { Destination } & \\text { Source1 } & \\text { Source2 } & \\\\ \\text { ADD } & \\mathrm{R} 1 & \\mathrm{R} 2 & \\mathrm{R} 3 & \\text { (First instruction to enter the pipeline) } \\\\ \\text { SUB } & \\mathrm{R} 2 & \\mathrm{R} 3 & \\mathrm{R} 1 & \\\\ \\text { MUL } & \\mathrm{R} 1 & \\mathrm{R} 2 & \\mathrm{R} 3 & \\text { ( Last instruction to enter the pipeline) }\\end{array}$$\nHow many data hazards does the ID stage need to detect for this instruction sequence?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 2</p><p><a href=\"https://gateoverflow.in/381853\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider an unpipelined processor. Assume that it has $1$-ns clock cycle and that it uses $4$ cycles for ALU operations and $5$ cycles for branches and $4$ cycles for memory operations. Assume that the relative frequencies of these operations are $50 \\%, 35 \\%$ and $15 \\%$ respectively. Suppose that due to clock skew and set up, pipelining the processor adds $0.15$ ns of overhead to the clock. Ignoring any latency impact, how much speed up in the instruction execution rate will we gain from a pipeline?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.78,
+    3.78
+   ],
+   "answerText": "3.78",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 3</p><p><a href=\"https://gateoverflow.in/381851\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Two processors, $\\text{M-5}$ and $\\text{M-7}$, implement the same instruction set. Processor $\\text{M-5}$ uses a $5$-stage pipeline and a clock cycle of $10$ nanoseconds. Processor $\\text{M-7}$ uses a $7$-stage pipeline and a clock cycle of $7.5$ nanoseconds. Which of the following is (are) true?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>$\\text{M-7}$'s pipeline has better maximum throughput than $\\text{M-5}$'s pipeline.</li>\n\t<li>The latency of a single instruction is shorter on $\\text{M-7}$'s pipeline than on $\\text{M-5}$'s pipeline.</li>\n\t<li>Programs executing on $\\text{M-7}$ will always run faster than programs executing on $\\text{M-5}$.</li>\n</ol>\n\n<p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>II only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>I and III only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>II and III only</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/381849\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 7,
+   "MCQ": 5,
+   "MSQ": 3
+  },
+  "withoutKey": 0
+ }
+}

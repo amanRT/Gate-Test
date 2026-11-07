@@ -1,0 +1,995 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-019",
+ "title": "Subjectwise Test-7 Part Syllabus GATE 2025 EE Signals & Systems",
+ "sourceTitle": "Subjectwise Test-7 Part Syllabus GATE 2025 EE Signals & Systems",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 19,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/045_Subjectwise Test-7 Part Syllabus GATE 2025 EE Signals & Systems.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA linear time-invariant system has a frequency response,</p>\n<p>\n\t<img alt=\"\" src=\"media/79/79bb5b999a9d03a8cb3a.png\" /></p>\n<p>\n\tthen the casual LCCDE that connects the input to the output is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/70/70e99a11fe1e98b3b7c0.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ec/eca609827b7fa274201d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a7/a71857435d7cc4a4f000.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3d/3d501b19579d22b6baf7.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/0e/0e9038e9f9b35160b5b2.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIf Laplace transform <em>F</em>(<em>s</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/1d/1d03093a6e4f0a41e01a.png\" /> then the inverse Laplace transform <em>f</em>(<em>t</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5a/5a9b43b76b993c1af676.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/36/365ab6c6e73d915cd75a.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/07/07c7b5d4261beada4d13.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6e/6ea61eb87e44e580d6ab.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/d6/d6c2dbf817e53f4be31b.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/71/713a98b434cfcf5be4c3.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tIf <img align=\"absmiddle\" alt=\"\" src=\"media/86/8656c1cc5a60b23e3ec5.png\" /> is real-valued periodic sequence with a period N. <img align=\"absmiddle\" alt=\"\" src=\"media/93/933653027f8e44388799.png\" /> and X(k) form N-point Discrete<br />\n\tFourier Transform (DFT) pairs. Then the DFT of y(k) of the sequence y(n) = <img align=\"absmiddle\" alt=\"\" src=\"media/f3/f3b1ccac94a8a3cde6ea.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/54/545bae295663e7cb983b.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/35/357332a9466290631819.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a8/a8960a625034710a99f1.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/1d/1dcc3398eeb79f6d9f68.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe inverse Fourier transform of G(ω) = <img align=\"absmiddle\" alt=\"\" src=\"media/07/0751f5d8e2bd6f033472.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c3/c332d1863a406563992b.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/46/46f97172bd8b8fdc2b5b.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0c/0ccdd74cb60bc9e9279c.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d6/d66bb1ba63290d161688.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/bd/bd8f6d40f359e72b8fb2.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/70/7034dcb48c57b7a6247c.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tTwo sequences <img align=\"absmiddle\" alt=\"\" src=\"media/22/2247061bac6d2bd8c989.png\" /> have the same energy. Suppose <img align=\"absmiddle\" alt=\"\" src=\"media/59/597c14df75f058fecb76.png\" /> where α is a positive real number and u[n] is the unit step sequence.</p>\n<p>\n\t<img alt=\"\" src=\"media/64/642acf2ac83747115b68.png\" /></p>\n<p>\n\tThen the value of α is ______ . (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.75,
+    1.85
+   ],
+   "answerText": "1.80 (1.75 - 1.85)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.80 (1.75 - 1.85)</p>\n<p>\n\t<img alt=\"\" src=\"media/33/338e2400d37d5af69d2a.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIf <img align=\"absmiddle\" alt=\"\" src=\"media/f7/f77a246fce9db932241a.png\" /> Then the value of <img align=\"absmiddle\" alt=\"\" src=\"media/73/73cae4214405990b5f58.png\" /> is _______ .<br />\n\t(Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    118,
+    121
+   ],
+   "answerText": "119.38 (118.00 - 121.00)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t119.38 (118.00 - 121.00)</p>\n<p>\n\t<img alt=\"\" src=\"media/c5/c582dd7aac1538ff7903.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA first-order discrete time system is described by the difference equation,</p>\n<p>\n\t<img alt=\"\" src=\"media/47/476f56879ef8d5c31f43.png\" /></p>\n<p>\n\tThe impulse response at n = 0 is _______ . (Answer upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.3,
+    0.7
+   ],
+   "answerText": "0.5 (0.3 - 0.7)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.5 (0.3 - 0.7)</p>\n<p>\n\t<img alt=\"\" src=\"media/b8/b88a7c42acf832e0be43.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA discrete time signal<img align=\"absmiddle\" alt=\"\" src=\"media/6d/6d326cb8ec4fc61741e2.png\" /> has z-transform X(z). If Y(z) = <img align=\"absmiddle\" alt=\"\" src=\"media/70/70be37ae28a489809968.png\" /> is the z-transform of another signal y[n], then</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "y(1) = 2"
+    },
+    {
+     "key": "B",
+     "html": "y(–1) = 0"
+    },
+    {
+     "key": "C",
+     "html": "y(2) = 8"
+    },
+    {
+     "key": "D",
+     "html": "y(–2) = 8"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/21/211405d822224f47ad4a.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider the discrete-time system shown in the figure.</p>\n<p>\n\t<img alt=\"\" src=\"media/6d/6d3e0bbf13cd686f0c20.png\" /></p>\n<p>\n\tThe pole-zero plot of the above system is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/51/51ac6893638080938651.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a4/a418f8ddeab052cda040.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6b/6b518504f639fb95eba0.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/39/39ddba1bfbc8bf9cc433.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/24/24b22074a8530cfc3396.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/8b/8b6527ed8d18c224f0b9.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe Fourier transform of a signal <img align=\"absmiddle\" alt=\"\" src=\"media/c8/c8d2d6e18dae3b1537c7.png\" />then the value of ⎪h(2)⎪ is ______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -0.6,
+    -0.4
+   ],
+   "answerText": "-0.5 (-0.6 - -0.4)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-0.5 (-0.6 - -0.4)</p>\n<p>\n\t<img alt=\"\" src=\"media/3f/3f0767ec44b6bddeb06f.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/a4/a4eacb188a53c2428b98.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the function <img align=\"absmiddle\" alt=\"\" src=\"media/5b/5b4735235a86e6001e04.png\" /> <em>u</em>(<em>t</em>) where <em>u</em>(<em>t</em>) is the unit step function. Then the area under <em>g</em>(<em>t</em>) is ________ . (Answer upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.035,
+    0.055
+   ],
+   "answerText": "0.046 (0.035 - 0.055)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.046 (0.035 - 0.055)</p>\n<p>\n\t<img alt=\"\" src=\"media/44/4443487bc7399d64cae1.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the discrete time sequence given below:</p>\n<p>\n\t<img alt=\"\" src=\"media/05/053fa9e47425b4d3d016.png\" /></p>\n<p>\n\tThen which of the following facts are correct regarding its DFT?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>X</em>(0) = 20</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7e/7efaab74c82e85c4c3cb.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>X</em>(4) = 8</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2d/2dcc2ca3e8753a0cfa1b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b)</p>\n<p>\n\t<img alt=\"\" src=\"media/58/58af7d8aa370a2fb9f27.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/ee/ee639f44e5248123508f.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe discrete time Fourier transform of a signal <img align=\"absmiddle\" alt=\"\" src=\"media/54/5493bae39147767fb556.png\" /> Consider that <img align=\"absmiddle\" alt=\"\" src=\"media/2a/2a524bc4d220c6a74e93.png\" /> is a periodic signal of period <em>N</em> = 5 such that<img align=\"absmiddle\" alt=\"\" src=\"media/a4/a4c049996e35133e37f2.png\" /> Then the magnitude of the Fourier series coefficient a<sub>3</sub> is _______ . (Answer upto 3 decimal places)</p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0a7d746d7b17ff7c8261.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.03,
+    0.045
+   ],
+   "answerText": "0.038 (0.030 - 0.045)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.038 (0.030 - 0.045)</p>\n<p>\n\t<img alt=\"\" src=\"media/58/58fce15f8c4a5584b4d1.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe z-transform of <em>e</em><sup>–<em>t</em></sup> <em>u</em>(<em>t</em>) which is sampled at 10 Hz will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c4/c4e7f5d37b25e65a63d9.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2f/2f6cf12ee08b63a5d205.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bc/bc1108615da9be39360c.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/43/43a6efd82d53519f84b8.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/9c/9c5f45e45646a69c2270.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe z-transform of a signal is given by <img align=\"absmiddle\" alt=\"\" src=\"media/ef/ef4482456312aaf8065b.png\" /> its final value is ______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2</p>\n<p>\n\t<img alt=\"\" src=\"media/ff/ff2cbae771c24b1b1a4e.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the linear discrete time system, <em>H</em>(<em>z</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/7b/7bfbb5c9a53d1d9e2a78.png\" /></p>\n\n<p>Which of the following facts are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The system is stable"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>h</em>(0) = 4</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>h</em>(∞) = 0</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>h</em>(0) = –4</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0b/0b97dcc52efdc4dc6441.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ee/eed59dec175ff2a1e73a.png\" /></div>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA continuous-time periodic signal is shown below in figure.</p>\n<p>\n\t<img alt=\"\" src=\"media/8f/8f79c380914994c3ed9a.png\" /></p>\n<p>\n\tThe signal can be described by the function</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/74/74118e6c0ed32f346856.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tsin[sgn(<em>t</em>)]</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ed/ed75caa2c78bb87cbae2.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tsin(<em>u</em>(<em>t</em>))</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/81/818fa374ed0292c877a0.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe z-transform of signal <img align=\"absmiddle\" alt=\"\" src=\"media/3a/3a1724603487b6a3baef.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/81/819face96b4154a74cf3.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/85/85f82f609bcfe0f2a6ea.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/13/1344de5543a8a3fa8732.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/04/04a624bd32cdb4e5064b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/6e/6ecf5409a6ce54d6c3db.png\" /></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe trigonometric Fourier series coefficient <em>a<sub>n</sub></em> in terms of exponential Fourier series coefficient <em>C<sub>n</sub></em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cb/cbd40118f0e7dcdc0173.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bb/bb6f7eec6c074af14076.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/05/05a64e637807ef5eab70.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/97/971f3f7c0584a49b0193.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/ad/ad5b76f56bfbf5b4985b.png\" /></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe time domain signal with time period, <em>T</em> = 2 whose Fourier series coefficient is given by</p>\n<p>\n\t<img alt=\"\" src=\"media/16/163041c4263bd35d9a6d.png\" /></p>\n<p>\n\twill be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/8c/8c587a7026f945f33e82.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/67/672a8a4947f49acafd78.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/41/4103229ecb1f56338766.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f5/f5a1f82586f8ea745055.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/1c/1c0b1d44cff1c60d235e.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/8f/8fd5941759cabb67ce22.png\" /></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA discrete-time signal <img align=\"absmiddle\" alt=\"\" src=\"media/26/261cb67bf36e327c1d3d.png\" /> is shown below :</p>\n<p>\n\t<img alt=\"\" src=\"media/36/365efc649c36a018b58e.png\" /></p>\n<p>\n\tWhich of the following signals represent <img align=\"absmiddle\" alt=\"\" src=\"media/b3/b3816bc6c174bb7615fb.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/60/606a21d69c13e6a7d7e9.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4b/4b0ad8a4d54e284bfeef.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9a/9acb0ac22d7992cc5c1e.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/25/2521f12c6e7a49bf8d6b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/e3/e3aba4460340c13388d1.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe impulse response of a discrete-time LTI system is given by <img align=\"absmiddle\" alt=\"\" src=\"media/80/80857bb10bc849731822.png\" /> If y[n] is the output of the system with the input <img align=\"absmiddle\" alt=\"\" src=\"media/29/29545562b0fa9daa60d0.png\" /> then y[5] will be ________. (upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.3,
+    0.32
+   ],
+   "answerText": "0.3125 (0.300 - 0.320)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.3125 (0.300 - 0.320)</p>\n<p>\n\t<img alt=\"\" src=\"media/7b/7b224b690194bb9b3b4d.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tLet <img align=\"absmiddle\" alt=\"\" src=\"media/31/31d04882c0300cd497a5.png\" /> be a sequence with z-transform <em>X</em>(<em>z</em>). Then expression the <img align=\"absmiddle\" alt=\"\" src=\"media/44/442a70725aa55db415cc.png\" /> in terms of <em>X</em>(<em>z</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0b/0be9c33cfd68748af41e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/bd/bd9d790edd09a23b550b.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/59/593c7cd6e6caaa737c7d.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/67/678d7c086397e42d641d.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/8f/8f6869bb7c878d91be6f.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/09/092399f516bb7c743d51.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA signal <img align=\"absmiddle\" alt=\"\" src=\"media/5f/5ffbd7a71fd3616313f6.png\" /> whose fourier transform is <em>X</em><sub>1</sub>(<em>j</em>ω) has the following magnitude and phase response as shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/45/455f78c5c3f7ae8e7494.png\" /></p>\n<p>\n\tThen the signal <img align=\"absmiddle\" alt=\"\" src=\"media/57/571b4b719acd09eb66bf.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/81/8158545b8137e934a40b.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/05/05542a57447e1fdac496.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6f/6fdc6d8566d66bcd58c0.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ed/edfdc179df272d8d7faa.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/e3/e349b64ccd6ff9435ca8.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/6c/6c811a62b35f34f47e57.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe response of an LTI system for input <img align=\"absmiddle\" alt=\"\" src=\"media/0b/0b332539569201c6c4f3.png\" /> is given as <em>g</em>(<em>t</em>). If the input to the same system is <img align=\"absmiddle\" alt=\"\" src=\"media/f4/f47a185f8d09b514f97f.png\" /> as shown below, and response being y(t), then y(0) = ___________.</p>\n<p>\n\t<img alt=\"\" src=\"media/b9/b98d41a19cd1a4296806.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "6.5"
+    },
+    {
+     "key": "B",
+     "html": "2"
+    },
+    {
+     "key": "C",
+     "html": "3"
+    },
+    {
+     "key": "D",
+     "html": "4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/55/55b3e6d7daf4fd96f1a6.png\" /></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe following diagrams represent systems with poles (indicated by <em>X</em>’s) and zero’s (indicated by <img align=\"absmiddle\" alt=\"\" src=\"media/af/af90b88dd8dae725ea97.png\" />s). The scale for each diagram is indicated by the circle, which has unit radius as shown below</p>\n<p>\n\t<img alt=\"\" src=\"media/a4/a431466b214da87ba6af.png\" /></p>\n<p>\n\twhich of the above pole-zero diagram represents the system with the following unit-sample response</p>\n<p>\n\t<img alt=\"\" src=\"media/5f/5fcbb791ecc443f89b63.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>X</em><sub>1</sub>(z)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>X</em><sub>2</sub>(z)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<em>X</em><sub>3</sub>(z)</p>"
+    },
+    {
+     "key": "D",
+     "html": "None of the given"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/c7/c7d7fc60b0ae34db893d.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/88/883ce612309be3d9d813.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tLet the following periodic signal</p>\n<p>\n\t<img alt=\"\" src=\"media/04/04a1b5b0055fe31f79c3.png\" /></p>\n<p>\n\tbe the input to an LTI system with system function <em>H</em>(<em>s</em>) = <em>e</em><sup><em>s</em>/4</sup> – <em>e</em><sup>–<em>s</em>/4</sup><br />\n\tLet <em>b<sub>k</sub></em> represents the fourier series coefficient of the resulting output signal y(t). Then <img align=\"absmiddle\" alt=\"\" src=\"media/41/41dded23f363e806025a.png\" /> will be _________. (Answer upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.65,
+    0.67
+   ],
+   "answerText": "0.66 (0.65 - 0.67)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.66 (0.65 - 0.67)</p>\n<p>\n\t<img alt=\"\" src=\"media/bc/bc0b4d5ed7541141ff66.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/0b/0bf42766b2bfc75ff2fc.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tLet the signal <img align=\"absmiddle\" alt=\"\" src=\"media/23/235e6e05c66363d1df12.png\" /> be a discrete time signal represented as</p>\n<p>\n\t<img alt=\"\" src=\"media/91/916ed095ffb811061aa1.png\" /></p>\n<p>\n\tThis signal is passed through a system whose impulse response is represented as <img align=\"absmiddle\" alt=\"\" src=\"media/17/17bcd65a4ae51cb4e688.png\" /></p>\n<p>\n\tThe minimum value of <img align=\"absmiddle\" alt=\"\" src=\"media/23/2326f83fe028b79747e8.png\" /> is ________ Hz.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.25,
+    0.25
+   ],
+   "answerText": "0.25",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.25</p>\n<p>\n\t<img alt=\"\" src=\"media/bc/bc06f44d1b0c0a028657.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA periodic sequence with period <em>N</em> = 4 is defined as <img align=\"absmiddle\" alt=\"\" src=\"media/98/98fda9cf32781001bc12.png\" /> for one period. It has discrete time Fourier series coefficient <em>C<sub>k</sub></em>. The value of <em>C<sub>2</sub></em> is _________. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -0.55,
+    -0.45
+   ],
+   "answerText": "-0.50 (-0.55 - -0.45)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-0.50 (-0.55 - -0.45)</p>\n<p>\n\t<img alt=\"\" src=\"media/8b/8bf93e45b3057b6928f8.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tIf <img align=\"absmiddle\" alt=\"\" src=\"media/6f/6f6c0f8aa94c7034120e.png\" /> then the value of <img align=\"absmiddle\" alt=\"\" src=\"media/79/79f1f7d2966821bdb720.png\" /> is</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3 (3.00 - 3.00)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t3 (3.00 - 3.00)</p>\n<p>\n\t<img alt=\"\" src=\"media/c2/c2c838b7f3b79c60e8c5.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe direct form of an FIR filter is shown below:</p>\n<p>\n\t<img alt=\"\" src=\"media/78/783b1bdb8657231a6afc.png\" /></p>\n<p>\n\tThe input given is <img align=\"absmiddle\" alt=\"\" src=\"media/d4/d45c1306d1808cfa1b07.png\" /> and the output is <em>y</em>[<em>n</em>]. Then the value of y[2] will be ________ .<br />\n\t(Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.24,
+    0.26
+   ],
+   "answerText": "0.25 (0.24 - 0.26)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.25 (0.24 - 0.26)</p>\n<p>\n\t<img alt=\"\" src=\"media/f2/f2bafab54976115342a6.png\" /></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider the system defined by the difference equation <img align=\"absmiddle\" alt=\"\" src=\"media/a7/a79eae70af25f6a4509a.png\" /> where <em>a</em> and <em>b</em> are real and <img align=\"absmiddle\" alt=\"\" src=\"media/e2/e2330ac6bad9d81bc3e5.png\" /> Then the relation between a and b that must exist if the frequency response is to have a constant magnitude for all ‘ω’ i.e, <img align=\"absmiddle\" alt=\"\" src=\"media/1f/1f26fa844687177d145d.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>b</em> = –a</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>b</em> = a</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c7/c7c920fb79d34e91492c.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2d/2da50508c55b5e08130e.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/9b/9ba6be2034454569a1ac.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the system shown in figure below :</p>\n<p>\n\t<img alt=\"\" src=\"media/17/172275b6f83cc2272655.png\" /></p>\n<p>\n\tThe system is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Memoryless"
+    },
+    {
+     "key": "B",
+     "html": "Causal"
+    },
+    {
+     "key": "C",
+     "html": "Linear"
+    },
+    {
+     "key": "D",
+     "html": "Time-invariant"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/90/901df934ba12b82f06d0.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "NAT": 13,
+   "MSQ": 4
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,627 @@
+{
+ "v": 1,
+ "id": "da-easy-2026-034",
+ "title": "Topicwise Test-13 Part Syllabus GATE 2026 DA Database Management and Warehouse (Part-2)",
+ "sourceTitle": "Topicwise Test-13 Part Syllabus GATE 2026 DA Database Management and Warehouse (Part-2)",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2026",
+ "num": 34,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/051_Topicwise Test-13 Part Syllabus GATE 2026 DA Database Management and Warehouse (Part-2).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : The Fact Constellation Schema increases data redundancy.<br />\n<em>S</em><sub>2</sub> : The Fact Constellation Schema reduces the complexity of querying data by merging multiple facts.<br />\nWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a)<br />\n&bull; The Fact Constellation Schema increases data redundancy as it contains multiple fact tables<br />\nwhich may result in repeated information across the schema. So, <em>S</em><sub>1</sub> is correct.<br />\n&bull; While the schema might simplify some queries by organizing facts more efficiently, it can also<br />\nincrease the complexity of queries due to the increased number of fact tables. So, <em>S</em><sub>2</sub> is incorrect.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a relation <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>G</em>) with the following functional dependencies:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/9b/9bf9ec2019f4f4e233ae.png\" /></div>\n\n<div>Which of the following is true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>R</em> is in 2NF but not in 3NF."
+    },
+    {
+     "key": "B",
+     "html": "<em>R</em> have only three minimal candidate keys."
+    },
+    {
+     "key": "C",
+     "html": "The FD ‘<em>D</em> → <em>E</em>’ violates 2NF rule."
+    },
+    {
+     "key": "D",
+     "html": "Given FD’s, is in minimal cover form."
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(c, d)<br />\n&bull; BAG, CAG, DBG, DCG are the only candidate keys. Hence &lsquo;<em>D</em> &rarr; <em>E</em>&rsquo; violate 2NF rule.<br />\n&bull; Given FD, is in its minimal cover, we cannot remove any FD from relation.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Dice creates a sub-cube by selecting values from two or more dimensions of the original cube.<br />\n<em>S</em><sub>2</sub> : Cubes are a logical representation of multidimensional data used to model complex analytical queries<br />\nWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; The Dice operation is a common OLAP operation that extracts a smaller sub-cube from the<br />\noriginal cube by selecting specific values across two or more dimensions. This allows focused<br />\nanalysis on a subset of the data while preserving multiple dimensions. So, <em>S</em><sub>1</sub> is correct.<br />\n&bull; A cube is a logical representation of multidimensional data, enabling users to model and<br />\nanalyze complex queries involving several dimensions like time, location, and product<br />\ncategories. This structure supports efficient data exploration in OLAP systems. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>Suppose the following functional dependency hold on relation <em>R</em>(<em>A</em>, <em>B</em>, <em>D</em>, <em>E</em>, <em>F</em>):</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d3/d341636c791eee95157f.png\" /></div>\n\n<div>Which of the following functional dependency can be inferred from <em>R</em>.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>BE</em> → <em>D</em>"
+    },
+    {
+     "key": "B",
+     "html": "<em>BEC</em> → <em>A</em>"
+    },
+    {
+     "key": "C",
+     "html": "<em>AF</em> → <em>E</em>"
+    },
+    {
+     "key": "D",
+     "html": "<em>AC</em> → <em>BC</em>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c8/c88fba7e7a55a27c880f.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following is correct about the slower data loading in a star schema?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Indexing overhead"
+    },
+    {
+     "key": "B",
+     "html": "Queries require more processing"
+    },
+    {
+     "key": "C",
+     "html": "Dimension tables reference multiple fact tables"
+    },
+    {
+     "key": "D",
+     "html": "De-normalization increases redundancy"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nIn a star schema, dimension tables are de-normalized, which leads to data redundancy. This increases the volume of data to be loaded, making the data loading process slower.</p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>The following functional dependency are given:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/be/be6326b972350e44851d.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following options are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/07/076d999d07c33c16a3a1.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/7e/7e3f29d68be211f27891.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/be/be5a85e04a1377dabffb.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/5b/5b41157d984e543bb12a.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2d/2da5373d70ed92ffd94a.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0",
+   "html": "<p>A feature is normalized to the range [0, 1] using min-max normalization. The minimum and maximum values are 100 and 400 respectively. If the normalized value is 0.6, what was the original value before normalization?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    280,
+    280
+   ],
+   "answerText": "280",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>280</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cc/ccdb68e161333a65ec71.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider a relation <em>R</em>(<em>P</em>, <em>Q</em>, <em>R</em>, <em>S</em>, <em>T</em>, <em>U</em>) with the following functional dependencies:<br />\n{<em>P</em> → <em>Q</em>, <em>Q</em> → <em>R</em>, <em>PR</em> → <em>S</em>, <em>S</em> → <em>T</em>, <em>T</em> → <em>U</em>}<br />\nConsider the decomposition of the relation <em>R</em> into the constituent relation according to the following two decomposition schemas:<br />\n<em>D</em><sub>1</sub> : <em>R</em><sub>1</sub>(<em>P</em>, <em>Q</em>, <em>T</em>); <em>R</em><sub>2</sub>(<em>Q</em>, <em>R</em>, <em>S</em>); <em>R</em><sub>3</sub>(<em>S</em>, <em>T</em>, <em>U</em>);<br />\n<em>D</em><sub>2</sub> : <em>R</em><sub>1</sub>(<em>P</em>, <em>Q</em>, <em>R</em>); <em>R</em><sub>2</sub>(<em>P</em>, <em>Q</em>, <em>S</em>, <em>T</em>); <em>R</em><sub>3</sub>(<em>T</em>, <em>U</em>);</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>D</em><sub>1</sub>, <em>D</em><sub>2</sub> are lossy, <em>D</em><sub>1</sub> is dependency preserving but not <em>D</em><sub>1</sub>."
+    },
+    {
+     "key": "B",
+     "html": "<em>D</em><sub>2</sub> is lossy not <em>D</em><sub>1</sub>, <em>D</em><sub>1</sub> is not dependency preserving but <em>D</em><sub>2</sub> is."
+    },
+    {
+     "key": "C",
+     "html": "<em>D</em><sub>1</sub> is lossy, <em>D</em><sub>2</sub> is lossless and <em>D</em><sub>1</sub>, <em>D</em><sub>2</sub> are dependency preserving."
+    },
+    {
+     "key": "D",
+     "html": "<em>D</em><sub>1</sub> is lossy, <em>D</em><sub>2</sub> is lossless and <em>D</em><sub>2</sub> is dependency preserving but not <em>D</em><sub>1</sub> is."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/96/96df5b17c4c9b75cc43b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/57/574907df27087b57742b.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A B<sup>+</sup> tree is used to index a file. Each disk block (node) is 512 bytes in size. Each key field is of size 8 bytes, search key pointer is of 12 Bytes and each block pointer is of size 4 bytes. What is the minimum number of keys that can be stored in one internal node of the B<sup>+</sup> tree?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "22"
+    },
+    {
+     "key": "B",
+     "html": "42"
+    },
+    {
+     "key": "C",
+     "html": "43"
+    },
+    {
+     "key": "D",
+     "html": "21"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d7/d7fc2d659bc89d8bf9f3.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider a dataset with salary values:<br />\n50000, 60000, 70000, 80000, 90000, 100000, 110000<br />\nIf the mean is 80000 and the standard deviation is 20000, find the Z-score normalized value of 60000.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "-1"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e8/e84158772df616e0117b.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Consider a relation <em>R</em>(<em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>) stored on disk where <em>A</em> is the primary key, <em>B</em> is a foreign key, <em>C</em><br />\nis a non-key attribute in the relation <em>R</em> and data file is physically sorted on attribute <em>C</em>.<br />\nWhich of the following statements is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A primary index can be created on attribute <em>A</em>, but not on attribute <em>C</em>, since <em>C</em> is not unique."
+    },
+    {
+     "key": "B",
+     "html": "Attribute <em>C</em> can support a clustered index, while <em>A</em> can support a dense index."
+    },
+    {
+     "key": "C",
+     "html": "Attribute <em>C</em> may form a primary index at the second-level index due to its role in physical ordering."
+    },
+    {
+     "key": "D",
+     "html": "A B<sup>+</sup> Tree index is well-suited for attribute B if foreign key-based equality and range queries are common."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, d)<br />\n&bull; File is not sorted on A so no primary index can built on it. So, option (a) is false.<br />\n&bull; The primary index is always the first-level index on the ordering attribute. Second-level indexes<br />\nare built on top of it, but they are not called &ldquo;primary indexes&rdquo;. So, option (c) is false.</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : In an OLAP database, tables are generally denormalized to optimize query performance.<br />\n<em>S</em><sub>2</sub> : Normalization in OLAP databases is avoided as it may complicate query execution and slow down performance.<br />\nWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; OLAP databases are generally denormalized to simplify data retrieval and improve query performance. So, <em>S</em><sub>1</sub> is correct.<br />\n&bull; Normalization in OLAP databases is avoided because it can lead to more complex queries and<br />\nslower performance due to additional joins. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>A student-record data file contains 1,20,000 fixed-length records, stored on a disk with a block size of 4096 bytes. Each record is 200 bytes in size. The file is unsorted, and a two-level index on a non-key attribute ANum (size = 10 bytes) and size of record pointer is 7 bytes and block pointer is 6 bytes. If no Record are split across blocks .<br />\nHow many total blocks are required to store the entire two-level index structure?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "502"
+    },
+    {
+     "key": "B",
+     "html": "503"
+    },
+    {
+     "key": "C",
+     "html": "501"
+    },
+    {
+     "key": "D",
+     "html": "504"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/78/78a151c2736de3d65c6c.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0",
+   "html": "<p>Which of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "MOLAP may lead to high storage efficiency when handling sparse datasets due to its cube structure."
+    },
+    {
+     "key": "B",
+     "html": "Sparse data in MOLAP cubes can result in underutilized storage, affecting overall efficiency."
+    },
+    {
+     "key": "C",
+     "html": "MOLAP uses pre-aggregated multidimensional cubes, limiting its ability to store detailed transactional data."
+    },
+    {
+     "key": "D",
+     "html": "MOLAP provides high data granularity, making it ideal for storing detailed transactional records."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\n&bull; Sparse datasets often result in low storage efficiency in MOLAP due to unused space in preallocated cube structures. So, option (a) is incorrect.<br />\n&bull; Sparse data in MOLAP cubes can result in underutilized storage, affecting overall efficiency.<br />\nSo, option (b) is correct.<br />\n&bull; MOLAP uses pre-aggregated multidimensional cubes, limiting its ability to store detailed<br />\ntransactional data. So, option (c) is correct.<br />\n&bull; MOLAP generally reduces granularity due to pre-aggregation; it is not ideal for detailed transactional data. So, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +1 / -0.33",
+   "html": "<p>Which of the following is a characteristic of the Roll-Up operation in OLAP?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Roll-up aggregates data from lower levels of hierarchy to higher levels."
+    },
+    {
+     "key": "B",
+     "html": "Roll-up shows detailed data within a specific dimension."
+    },
+    {
+     "key": "C",
+     "html": "Roll-up splits data into smaller segments based on attributes."
+    },
+    {
+     "key": "D",
+     "html": "Roll-up deletes unnecessary data points in the hierarchy."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nRoll-Up refers to summarizing or aggregating data to a higher level of abstraction, such as from monthly data to yearly data.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Consider a dataset with the following values:<br />\n9, 15, 22, 34, 41, 53, 61, 72, 85<br />\nApply equal-width binning to the dataset and divide it into 4 equal-width intervals.<br />\nWhich of the following bin intervals will contain the value 41?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "[9, 28), [28, 47), [47, 66), [66, 85]"
+    },
+    {
+     "key": "B",
+     "html": "[9, 30), [30, 50), [50, 70), [70, 85]"
+    },
+    {
+     "key": "C",
+     "html": "[9, 25), [25, 45), [45, 65), [65, 85]"
+    },
+    {
+     "key": "D",
+     "html": "[9, 22), [22, 35), [35, 48), [48, 85]"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3a/3ad706b60430195167ce.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science & Artificial Intelligence • +2 / -0.66",
+   "html": "<p>Which of the following statements is true about the Drill Down and Roll Up operations in OLAP?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Drill down and roll up are opposite operations, with drill down used for aggregation and roll up used for detailed analysis."
+    },
+    {
+     "key": "B",
+     "html": "Both drill down and roll up are used to navigate between different levels of data in a hierarchy, but drill down shows more detail and roll up provides higher-level summaries."
+    },
+    {
+     "key": "C",
+     "html": "Drill down is used only to navigate within the same level of hierarchy, while roll up is used to summarize data from multiple sources."
+    },
+    {
+     "key": "D",
+     "html": "Drill down and roll up are not related to data hierarchies but are used to filter out unwanted data points."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nDrill Down and Roll Up are opposite operations used to navigate through a hierarchy: Drill Down provides more detailed data, while Roll Up aggregates data at higher levels.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "MSQ": 5,
+   "NAT": 1
+  },
+  "withoutKey": 0
+ }
+}

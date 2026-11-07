@@ -1,0 +1,541 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-040",
+ "title": "GATE 2027-Topicwise Test-19 (Digital Electronics-1)",
+ "sourceTitle": "GATE 2027-Topicwise Test-19 (Digital Electronics-1)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 40,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/059_GATE 2027-Topicwise Test-19 (Digital Electronics-1).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The output expression of the digital circuit shown in figure.</p>\n<p><img src=\"media/44/443881bddc886cc2068c.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/6c/6c51c8e5a3501bb10324.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/43/43450de976a230ac8a11.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/20/20bb0f6dd12ac444efa8.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/23/23fb7290d97e8ca7e155.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/42/42b6ea2e4cc38431e7d8.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>Consider the below ROM:</p>\n<p><img src=\"media/3a/3a26b439444e2f3dd495.png\"></p>\n<p>Total number of fuses required to fabricate all &lsquo;OR&rsquo; gates in the above diagram is ______ .<br>Note: Presence of &lsquo;&times;&rsquo; indicates fuse is retained, otherwise fuse is blown.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    48,
+    48
+   ],
+   "answerText": "48",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>In the given diagram, OR gates are programmable i.e. each OR gate requires 16 fuses.<br>Hence total number of fuses required is 16 &times; 3 = 48.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>In the digital circuit given below, &lsquo;<em>F</em>&rsquo; is</p>\n<p><img src=\"media/7b/7b920f54feac1958eeb5.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/3a/3a131d183e1e68378c99.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/20/2072d444287214a43fd9.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/f3/f30544b05be135ff21c1.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>The minimum number of 2 input NAND gates required to implement the function which is&nbsp;obtained by the given truth table is ________ .</p>\n<p><img src=\"media/f1/f11b6df7642305e81d38.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/ae/ae9f83f038dcb30f96b5.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/3d/3d9f9d723dd6509eff6b.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/a3/a3b49f609fe02cee3235.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A full adder is implemented with two half adders and one OR gate. OR gate is used to derive the&nbsp;final carry function of full adder In each half adder <em>T</em><sub>sum</sub> = 25 ns and <em>T</em><sub>carry</sub> = 20 ns and <em>T<sub>OR</sub></em> = 25 ns.<br>The minimum time required to derive both the sum and carry functions of a full adder after&nbsp;applying the inputs is _______ ns.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    70,
+    70
+   ],
+   "answerText": "70",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/ff/ff27732b1641f139bcf1.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p><em>A </em>and <em>B </em>are 8 bit data represented in signed 2&rsquo;s complement form <em>A </em>= 11011100 and <em>B </em>= 11110111&nbsp;the result of <em>A </em>&divide; <em>B </em>in signed 2&rsquo;s complement form with 8 bit size is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1111 1100</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0000 1000</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1111 1000</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0000 0100</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/5a/5abb4fc0f4d0360b87a4.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>One logic circuit and one seven segment display are used to generate the target digit (0 to 9) by&nbsp;applying different binary data at the input side of the logic circuit and logic circuit outputs are&nbsp;connected as the inputs for the seven segment display unit. The number of inputs required for&nbsp;the logic circuit to produce one of the digits of 0, 3, 5, 6, 8 and 9 is ______ .</p>\n<p><img src=\"media/25/2526a5fbd16597e0a976.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/5e/5e8ddb708f3ed78c0473.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The Boolean function<em> F(A, B, C)</em> = &Pi;(0, 3, 5, 6) is to be implemented using a 4 &times; 1 multiplexer&nbsp;shown in figure. Which one of the following choice of inputs to the programmed multiplexer will&nbsp;realize the Boolean function?</p>\n<p><img src=\"media/d4/d4be394116d30bb04910.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/1f/1f3081f6defc2dbcfb7d.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/95/9511a54cf5369f954466.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/70/705df9df042356425a68.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/3c/3c39f329cea2dc7934af.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/3c/3ca44b6a86e7bb80c29e.png\"></p>\n<p><img src=\"media/95/9518f1ad7b3da4bf12c6.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>The following diagram is used to produce 10 GHz clock frequency at Y. The propagation delay&nbsp;of each NOT gate will be _______ pico seconds.</p>\n<p><img src=\"media/8a/8a899576598f6c6402ff.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    16.6,
+    16.7
+   ],
+   "answerText": "16.6 - 16.7",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/20/20dc5a37444538de1072.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>In the circuit shown below the propagation delay of EX-OR gate is &lsquo;0 nsec&rsquo;. The binary output&nbsp;logic levels are 5 Volts for logic &lsquo;1&rsquo; and &lsquo;0&rsquo; Volts for logic &lsquo;0&rsquo;. The voltage gain of integrator is&nbsp;unity. Then find the output voltage over one input cycle with respect to &lsquo;X&rsquo; waveform. where X&nbsp;and Y are inputs of EX-OR gate.</p>\n<p><img src=\"media/ab/ab12bd7902939c614404.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0 volts</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>1 volts</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.833 volts</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>5 volts</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/11/11e02e9eb229ec6a9985.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Decimal equivalent of (1000)<sub>2</sub> = &ndash; 2<sup><em>n</em></sup> . Decimal equivalent of (10000)<sub>2</sub> = &ndash;2<sup><em>m</em></sup>. So, (<em>n</em> + <em>m</em>)<sub>2</sub> would be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>1 1 1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0 1 1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0 0 1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>1 0 1</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/ac/ac658137401b728102e4.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/11/1197ef04ed8833c3c819.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/9d/9dedc96093fef370cb2f.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>If the value of X + Y = 1, then the value of X &oplus;Y is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>X</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/7d/7dcef7491d7d516b3305.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/99/9958c61e04c6559d4799.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>The minimum decimal equivalent of the number (1<em>AC</em>)<sub>x</sub> is equal to ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    311,
+    311
+   ],
+   "answerText": "311",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/82/82c0ce6f69537d4fcefb.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Consider the circuit shown below:</p>\n<p><img src=\"media/d1/d1feffce47046b4ea9c8.png\"></p>\n<p>then, which of the following statement is true.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>When <em>A </em>= 1 and <em>B </em>= 1, Output <em>X </em>= 0 and <em>Y </em>= 1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>When <em>A </em>= 1 and <em>B </em>= 0, Output <em>X </em>= 0 and <em>Y </em>= 1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>When <em>A </em>= 0 and <em>B </em>= 1, Output <em>X </em>= 1 and <em>Y </em>= 1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>When <em>A </em>= 0 and <em>B </em>= 0, Output <em>X </em>= 1 and <em>Y </em>= 0</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/33/3393bac81a700bfef076.png\"></p>\n<p><img src=\"media/37/37fdc261eef28dc43c14.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/e8/e821773366b0bf8e5cac.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/d3/d373028f9d8d7c2bd56d.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/90/909bc4ac310cc9d738df.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/2f/2fe01e93f2c042d50e2b.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/85/85cdccf7d5fcd2ef4fe6.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/b7/b73e96151ee4b005a2a7.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 6
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,561 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-004",
+ "title": "DVRUO Classes CS Test Series | Algorithms | Topic Wise Test 4",
+ "sourceTitle": "DVRUO Classes CS Test Series | Algorithms | Topic Wise Test 4",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 4,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Algorithms"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/035_exam_2378_GO Classes CS Test Series Algorithms Topic Wise Test 4.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following recurrence relation which is applicable on two arrays $x$ and $y.\\; x_i$ and $y_i$ are the $i^{\\text{th}}$ elements of $x$ and $y$ array respectively.\n$$\nc(i, j)= \\begin{cases}0 & \\text { if } i=0 \\text { or } j=0 \\\\\nc(i-1, j-1)+1 & \\text { if } i, j>0 \\text { and } x_{i}=y_{j}\\\\\n\\min (c(i-1, j), c(i, j-1)) & \\text { if } i, j>0 \\text { and } x_{i} \\neq y_{j}\\end{cases}\n$$\nSuppose each array is of $n$ size and time complexity to compute $c(n, n)$ using dynamic programming is $ O\\left(n^{a}(\\log n)^{ b}\\right)$ then what will be value of $a+b?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 2</p><p><a href=\"https://gateoverflow.in/380695\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>You are working on a dynamic programming problem defined by the recurrence:</p><p style=\"text-align:center; font-size: 1.05rem; line-height: 1.6;\">\\[ A(i, j) = F\\!\\big( A(\\lfloor i/2 \\rfloor,\\, j),\\; A(i,\\, \\lfloor j/2 \\rfloor) \\big), \\]</p><p>where F can be evaluated in constant time.</p><p style=\"text-align:center; font-size: 1.05rem; line-height: 1.6;\">\\[ A(i, j) = 0 \\quad \\text{whenever } i = 0 \\text{ or } j = 0. \\]</p><p>To compute \\(A(m, n)\\), you may use either of the following approaches:</p><ul style=\"line-height: 1.7;\"><li>Top-down dynamic programming (memoized recursion starting from \\(A(m, n)\\)).</li><li>Bottom-up dynamic programming (filling a table of size \\((m+1) \\times (n+1)\\), beginning from \\(A(0,0)\\)).</li></ul><p>Which method is asymptotically more efficient?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Top-down will take asymptotically less time than bottom-up</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Bottom-up will take asymptotically less time than top-down</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both will take the same time</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/380694\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In bottom-up dynamic programming, we need an order to fill in the solution cells in a table, such that all needed subproblems are solved before solving a subproblem. For the following relation, give a valid traversal order.<br>\n$$<br>\n\\begin{aligned}<br>\n&amp;\\text{A}(i, j)=\\mathrm{F}(\\text{A}(i, j-1), \\text{A}(i-1, j-1), \\text{A}(i-1, j+1))\\\\<br>\n&amp;\\text{A}(0, j)=0\\\\<br>\n&amp;\\text{A}(i, 0)=0\\\\<br>\n\\end{aligned}<br>\n$$<br>\nWhere $\\mathrm{F}(.)$ is a function.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Fill values of $\\text{A}(i, j)$ column-wise, i.e., fill the first column then the second column, and so on.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Fill the last column of $\\text{A}(i, j)$, then the second last column, and so on.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Fill values of $\\text{A}(i, j)$ row-wise i.e. fill the first row then the second row, and so on.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No order is possible as there is cyclic dependency in subproblems.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/380692\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $X=x_{1} x_{2} \\cdots x_{m}$ and $Y=y_{1} y_{2} \\cdots y_{n}$ be two strings over the alphabet $\\displaystyle{}\\Sigma= \\{\\mathrm{A}, \\mathrm{C}, \\mathrm{G}, \\mathrm{T}\\}$<br>\nA longest common subsequence (LCS) of $X$ and $Y$ can be found by dynamic programming. 'To compute $c [i, j]$, where $1 \\leq i \\leq m$ and $1 \\leq j \\leq n$, how many table entries are examined in the worst case?<br>\n<br>\nWhere&nbsp;$c [i, j]$ is the length of LCS of&nbsp;$x_{1} x_{2} \\cdots x_{i}$ and $y_{1} y_{2} \\cdots y_{j}$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$n$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$n+m$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/380691\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are Longest Common Subsequence for given two sequecnces $\\langle 1,0,0,1,0,1,0,1\\rangle$ and $\\langle 0,1,0,1,1,0,1,1,0\\rangle$.<br>\n&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\{1,0,0,1,1,0\\}$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\{1,0,1,0,1,1\\}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{1,0,1,1,0,1\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{0,0,1,1,1,0\\}$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C</p><p><a href=\"https://gateoverflow.in/380690\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider two teams, $\\text{A}$ and $\\text{B}$, playing a series of games until one of the teams wins $n$ games. Assume that the probability of $\\text{A}$ winning a game is the same for each game and equal to $p$ and the probability of $\\text{A}$ losing a game is $q=1-p$. (Hence, there are no ties.)</p>\n\n<p>Let $\\text{A}$ needs $i$ more games to win the series and $\\text{B}$ needs $j$ more games to win the series then $\\mathrm{P}(i, j)$ represents the probability of $\\text{A}$ finally winning the series.</p>\n\n<p>Choose the correct recurrence relation for $\\mathrm{P}(i, j)$.<br>\n(Hint: If $\\text{A}$ wins the game then $\\text{A}$ will need $i-1$ more wins to win series)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{P}(i, j)=p \\mathrm{P}(i-1, j)+q \\mathrm{P}(i, j-1)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{P}(i, j)=p \\mathrm{P}(i-1, j-1)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{P}(i, j)=p\\mathrm{P}(i, j-1)+q\\mathrm{P}(i-1, j)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{P}(i, j)=q \\mathrm{P}(i-1, j-1)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/380689\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following $0-1$ knapsack problem with the item's weight and value given in the table.<br>\n$$\\begin{array}{c|cc}&nbsp;<br>\n\\text{item} &amp; \\text{weight} &amp; \\text{value} \\\\<br>\n\\hline 1 &amp; 3 &amp;&nbsp;\\text{₹} 25 \\\\<br>\n2 &amp; 2 &amp; \\text{₹} 20 \\\\<br>\n3 &amp; 1 &amp;&nbsp;\\text{₹} 15 \\\\<br>\n4 &amp; 4 &amp;&nbsp;\\text{₹} 40 \\\\<br>\n5 &amp; 5 &amp;&nbsp;\\text{₹} 50<br>\n\\end{array}$$<br>\n$\\text{Capacity W = 6}.$</p>\n\n<p>If the capacity of the knapsack $(W),$ is $6$ then how many optimal solutions (number of set of items) are possible?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/380688\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For a given sequence of integers $a_1, a_2, \\ldots, a_n,$ a decreasing subsequence is one for which every integer is strictly smaller than the previous one.</p>\n\n<p>The longest decreasing subsequence is the longest among all decreasing subsequences of a given sequence.<br>\nFor example, decreasing subsequences&nbsp; of $5,2,4,8,3,40$ are -</p>\n\n<ul>\n\t<li>$5,2$</li>\n\t<li>$5,4$</li>\n\t<li>$4,3$</li>\n\t<li>$5,4,3$ etc</li>\n</ul>\n\n<p>And longest among all possible decreasing subsequences is $5,4,3$.<br>\nFor a given sequence of integers $a 1, a 2, \\ldots, a_{n}$, let $\\mathrm{\\text{L}}(j)$ be length of the longest decreasing subsequence that starts with $a_j.$</p>\n\n<p>$$\\text{L}(n)=1 $$</p>\n\n<p>$$\\text{L}(j) =&nbsp; \\begin{cases} 1 &amp; \\text { if } a_{j}=\\min \\left(a_{j}, a_{j+1}, a_{j+2}, \\ldots, a_{n}\\right), \\\\ {\\color{Red}{?}} &amp; \\text { otherwise. }\\end{cases} $$</p>\n\n<p>Complete the above recurrence relation with the appropriate value of ${\\color{Red}{?}}.$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1+\\min \\left\\{\\text{L}(k): j&lt;k \\leq n\\right.$ and $\\left.a_{j}&gt;a_{k}\\right\\}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1+\\max \\left\\{\\text{L}(k): j&lt;k \\leq n\\right.$ and $\\left.a_{j}&gt;a_{k}\\right\\}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1+\\max \\left\\{\\text{L}(k): j&lt;k \\leq n\\right.$ and $\\left.a_{j}&lt;a_{k}\\right\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1+\\min \\left\\{\\text{L}(k): j&lt;k \\leq n\\right.$ and $\\left.a_{j}&lt;a_{k}\\right\\}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/380687\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a DAG $\\mathrm{G}=(\\mathrm{V}, \\mathrm{E})$ which has topological ordering of vertices $v_1, v_2, \\ldots&nbsp;,v_n$. We want to count number of paths from vertex $v_i$ to vertex $v_n.$ Let $\\text{Paths}(i)$ represents total number of paths from $i$ to $n$.</p>\n\n<p>Complete the following recurrence for $\\text{Paths}(i).$<br>\n$$<br>\n\\operatorname{Paths}(i)= \\begin{cases}1 &amp; \\text { if } i=n\\\\<br>\n{\\color{Red}{?}} &amp; \\text { otherwise. }\\end{cases}<br>\n$$<br>\nIn options,</p>\n\n<p>$\\sum_{j:(i, j) \\in \\text{E}} \\operatorname{Paths}(j)$ is a quantity which sums $\\operatorname{Paths}(j)$ for all outgoing edges from $i$ i.e., for edges $i \\rightarrow j$.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\sum_{j:(i, j) \\in \\text{E}}(1+\\operatorname{Paths}(j))$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\sum_{j:(i, j) \\in \\text{E}} \\operatorname{Paths}(j)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1+\\sum_{j:(i, j) \\in \\text{E}} \\operatorname{Paths}(j)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1+\\operatorname{Paths}(j)$ for some edge $i \\rightarrow j$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/380686\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Find total number of scalar multiplications of a matrix-chain product of $6$ matrices whose sequence of dimensions is $5, 10, 3, 12, 5, 50$ and $6.$ That is $5\\times 10$ is dimension of first matrix, $10 \\times 3$ is dimension of second matrix and so on.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2010,
+    2010
+   ],
+   "answerText": "2010",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/380685\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The number of longest common subsequences for \"$bacb$\" and \"$abcabc$\" are -</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$5$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/380683\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For the given recurrences calculate the tightest bound on time and space that would be required by a dynamic programming algorithm to compute $\\text{OPT}(n).$<br>\n$$<br>\n\\text{OPT}(i)=\\min _{1 \\leq j&lt;i}\\{\\text{OPT}(j) / j+w(j)\\} \\text {. }<br>\n$$</p>\n\n<p>where $\\text{OPT}(1)=1$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Time $=O\\left(n^{2}\\right)$, space $=O(n)$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Time $=O\\left(n^{3}\\right)$, Space $=O\\left(n^{2}\\right)$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Time $=O\\left(n^{2}\\right)$, Space $=O\\left(n^{2}\\right)$.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Time $=O(n)$, Space $=O(1)$.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/380682\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose you have a row of coins with values that are positive integers $c_{1}, \\ldots, c_{n}$. These values might not be distinct. Your task is to pick up coins that have as much total value as possible, subject to the constraint that you don't ever pick up two coins that lie beside each other. For example - Given $c_{1}$ to $c_{6}$ as follows: $(5,1,2,10,6,2)$, the maximum value is $17$ and using coins $\\left\\{c_{1}=5, c_{1}=10, c_{6}=2\\right\\}$ .</p>\n\n<p>Let $f(n)$ be maximum total value with $n$&nbsp;coins with $f(0)=0$ and $f(1)=c_{1}$ then what will be correct recurrence&nbsp; for $f(n)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$f(n)=\\max \\left(c_{n}+f(n-2) , f(n-1) \\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$f(n)=\\max \\left(c_{n-1}+f(n-2), f(\\mathrm{n}-1)\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$f(n)=\\max \\left(c_{n-1}+f(n-1), f(n-2)\\right)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$f(n)=\\max \\left(c_{n}+f(n-1), f(n-2)\\right)$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/380681\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For $x \\geqq 0, y \\geqq 0$, define $A(x, y)$ by<br>\n$$<br>\n\\begin{aligned}<br>\n&amp;A(0, y)=y+1\\\\<br>\n&amp;A(x+1,0)=A(x, 1), \\text { and }\\\\<br>\n&amp;A(x+1, y+1)=A(x, A(x+1, y))<br>\n\\end{aligned}<br>\n$$<br>\nThen, for all non-negative integers $y, A(1, y)$ is _________</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$y+1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$y+2$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2y+3$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/380679\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>An alignment between two strings $w_1$ and $w_2\\;&nbsp;($over the alphabet $\\{a, b, c, \\ldots, z\\})$ is obtained by inserting hyphens in the two strings such that the modified strings align. A mismatch in an alignment is a position where one of the modified strings has a hyphen, and the other does not.<br>\n$$\\text{Oc-urr-ance}$$ $$\\text{Occurre-nce}$$<br>\nThere are three mismatches in this example.</p>\n\n<p>Let $s[1 \\ldots m]$ and $t[1 \\ldots n]$ be the two strings to be matched. Let $\\text{M}(i, j)$ be the number of mismatches in the best alignment of $s[1 \\ldots i]$ and $t[1\\ldots j].$</p>\n\n<p>Which of the following is a correct recursive formulation of $\\text{M}(i, j)$ for $i, j&gt;0?$</p>\n\n<p>Note: By convention $s[1 \\ldots 0]$ and $t[1 \\ldots 0]$ are taken to be the empty string, so $\\text{M}(i, 0)=i$ for $i \\in\\{1,2, \\ldots, m\\}$ and $\\text{M}(0, j)=j$ for $j \\in\\{1,2, \\ldots, n\\}$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{M}(i, j)=\\begin{cases}2+\\text{M}(i-1, j-1), \\text{if } s[i] \\neq t[i] \\\\ \\min (\\text{M}(i-1, j), \\text{M}(i, j-1)), \\;\\text{otherwise} \\end{cases}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{M}(i, j)=\\begin{cases}\\text{M}(i-1, j-1), \\text{if } s[i]=t[j] \\\\ \\min (\\text{M}(i-1, j), \\text{M}(i, j-1)), \\;\\text{otherwise} \\end{cases}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{M}(i, j)=\\begin{cases}1+\\text{M}(i-1, j-1), \\text{if } s[i]=t[j] \\\\ 1+\\min (\\text{M}(i-1, j), \\text{M}(i, j-1)), \\;\\text{otherwise} \\end{cases}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{M}(i, j)=\\begin{cases}\\text{M}(i-1, j-1), \\text{if } s[i]=t[j] \\\\ 1+\\min (\\text{M}(i-1, j), \\text{M}(i, j-1)), \\;\\text{otherwise} \\end{cases}$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/380677\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 2,
+   "MCQ": 12,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

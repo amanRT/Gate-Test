@@ -1,0 +1,5291 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-009",
+ "title": "ESE 2026 DEMO TEST EE",
+ "sourceTitle": "ESE 2026 DEMO TEST EE",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 9,
+ "category": "demo",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 10800,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 150",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/017_ESE 2026 DEMO TEST EE.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. In nodal analysis, the preferred reference node is a node that is connected to ground.<br />\n2. In nodal analysis, the preferred referene node is a node that is connected to many part of the network.<br />\n3. The mesh current method works with both planar and non-planar circuit.<br />\n4. The mesh current method uses Kirchhoffs voltage law.<br />\nWhich of the above given statements is/are not correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "C",
+     "html": "2 and 4 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2, 3 and 4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n&bull; We always prefer to take that node as the reference node that is connected to many parts of the network.<br />\n&bull; Mesh analysis is valid for planer networks and for its application we apply KVL.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Four 80 Ω resistors are connected in parallel across an ideal 80 V source. What would be the equivalent resistance seen by the load connected across this circuit?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 Ω"
+    },
+    {
+     "key": "B",
+     "html": "0 Ω"
+    },
+    {
+     "key": "C",
+     "html": "20 Ω"
+    },
+    {
+     "key": "D",
+     "html": "30 Ω"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a8/a8c69f260c7f273a67c1.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The circuit as shown in figure is connected to a load <em>Z<sub>L</sub></em> across <em>AB</em>. Thevenin equivalent impedance at terminal <em>AB</em> is</p>\n\n<div> </div>\n\n<div><img  src=\"media/f0/f04d42068c9ecc8136cf.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\"  src=\"media/cf/cf7029fdfc16663e3e54.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\"  src=\"media/94/94d345d2b99df44579aa.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\"  src=\"media/b4/b46dc80eaeaa92370fe8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\"  src=\"media/75/75f82d57fe4b7501ca17.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/35/3541418c155aeb3bdf5a.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following values for the circuit shown below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/78/7896d48d30825376afda.png\" /></div>\n\n<div>\n<div> </div>\n\n<div><img  src=\"media/dc/dc790700e491d9e57dde.png\" /></div>\n\n<div>Which of the above values are correct?</div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bd/bd8ccda4863fa949e6f9.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\nIf a high <em>Q</em> parallel resonant circuit is leaded with a resistance.<br />\n1. The circuit impedance reduces.<br />\n2. The resonant frequency reduces.<br />\n3. The bandwidth increases.<br />\nWhich of the above given statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3 only"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/291b5e8f61916583b6fc.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ec/ec8d271b1f6836b0f1b8.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit as shown, consider the switch <em>S</em><sub>1</sub> has been in position <em>B</em> for a very long time and switch <em>S</em><sub>2</sub> is open all the time. At the time <em>t</em> = 0, the switch <em>S</em><sub>1</sub> moves to position <em>A</em> and switch <em>S</em><sub>2 </sub>closes instantaneously. What is the value of <em>V</em><sub>out</sub> at t = 0<sup>+</sup>, assuming initial charge at C equal to 1C?</p>\n\n<div> </div>\n\n<div><img  src=\"media/9d/9d65604536aca1b86e23.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0 V"
+    },
+    {
+     "key": "B",
+     "html": "4 V"
+    },
+    {
+     "key": "C",
+     "html": "2 V"
+    },
+    {
+     "key": "D",
+     "html": "6 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1a/1a6da96bd6f77c092d41.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The Thevenin’s equivalent resistance seen across the terminal <em>A</em> and <em>B</em> of the circuit shown in the figure below is</p>\n\n<div> </div>\n\n<div><img  src=\"media/3e/3e65529a1a243307b1e1.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20 Ω"
+    },
+    {
+     "key": "B",
+     "html": "9 Ω"
+    },
+    {
+     "key": "C",
+     "html": "6.206 Ω"
+    },
+    {
+     "key": "D",
+     "html": "195.65 mΩ"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e3/e3efa748102da9469c71.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following phase angle is not satisfying off-resonance condition in parallel resonant circuit?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0°"
+    },
+    {
+     "key": "B",
+     "html": "30°"
+    },
+    {
+     "key": "C",
+     "html": "60°"
+    },
+    {
+     "key": "D",
+     "html": "90°"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5f/5f61ea36e4b7a1007c15.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/c9/c9fc7dc023f83ea98742.png\" /></div>\n\n<div> </div>\n\n<div>Let <em>V<sub>s</sub></em> = 40 V and <img align=\"absmiddle\"  src=\"media/32/327fd499f6594441b5fb.png\" /> = 0 A, then the current through 50 Ω resistance <img align=\"absmiddle\"  src=\"media/c6/c6143fb0f7cf608889c5.png\" /> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "0.8 A"
+    },
+    {
+     "key": "C",
+     "html": "–0.8 A"
+    },
+    {
+     "key": "D",
+     "html": "0.16 A"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/08/08d803f5546ecb6543de.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit shown in the figure below, the <em>T</em> parameter matrix is given by<img align=\"absmiddle\"  src=\"media/f8/f83158b77ca2a125258a.png\" /></p>\n\n<div> </div>\n\n<div><img  src=\"media/65/65d1cb1db236c6810630.png\" /></div>\n\n<div>If the 2 Ω resistor is replaced by 10 Ω resistor, then the new <em>T</em>-parameter matrix [<em>T<sub>B</sub></em>] is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5[<em>T<sub>A</sub></em>]"
+    },
+    {
+     "key": "B",
+     "html": "[<em>T<sub>A</sub></em>]<sup>5</sup>"
+    },
+    {
+     "key": "C",
+     "html": "[T<sub>A</sub>]<sup>3</sup> + [<em>T<sub>A</sub></em>]"
+    },
+    {
+     "key": "D",
+     "html": "[<em>T<sub>A</sub></em>]"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bc/bc6f3f437e3c9eb0482a.png\" /></div>\n\n<div><img alt=\"\" src=\"media/95/95b4cd0567018c9f0992.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A parallel RLC circuit has <em>R</em> = 1000 Ω, <em>L</em> = 2 H and <em>C</em> = 5 μF. If in the series connection new value of <em>R</em> = 10 kΩ and <em>L</em> = 1 H, then the value of new ‘<em>C</em>’ for the same quality factor is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5 μF"
+    },
+    {
+     "key": "B",
+     "html": "4 nF"
+    },
+    {
+     "key": "C",
+     "html": "45 nF"
+    },
+    {
+     "key": "D",
+     "html": "2 pF"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/dd/dd8d2d0ef192da46a178.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit shown in the figure below, the equivalent resistance seen across the terminal <em>A</em> and <em>B</em> is</p>\n\n<div> </div>\n\n<div><img  src=\"media/a5/a5646b6abf559071c59b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20.16 Ω"
+    },
+    {
+     "key": "B",
+     "html": "24.22 Ω"
+    },
+    {
+     "key": "C",
+     "html": "23.18 Ω"
+    },
+    {
+     "key": "D",
+     "html": "26.13 Ω"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c1/c1975196076502c35f5b.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/57/57ba7ffccc4b7008b6f0.png\" /></div>\n\n<div>The power supplied by independent current source is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "342.4 mW"
+    },
+    {
+     "key": "B",
+     "html": "321.5 mW"
+    },
+    {
+     "key": "C",
+     "html": "318.6 mW"
+    },
+    {
+     "key": "D",
+     "html": "345.6 mW"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/65/65587be074789bee2ac6.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A single-phase equivalent circuit for studying the recovery voltage when a CB clears a fault is given below.</p>\n\n<div> </div>\n\n<div><img  src=\"media/5f/5f801d51372d2b570589.png\" /></div>\n\n<div>The average value of rate of rise of restriking voltage (RRRV) is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "121.4 kV/ms"
+    },
+    {
+     "key": "B",
+     "html": "11.07 kV/ms"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/ac/aca8865c2bf7aa12aa92.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/2f/2fa59f3a23497d3ce588.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6a/6a1fbe063fdf4dfcc437.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The zero sequence reactance (in p.u.) are indicated in the network shown in the figure. The zero sequence driving point reactance of node 2 will be</p>\n\n<div> </div>\n\n<div><img  src=\"media/d8/d8d864adb291c16c52db.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.05 p.u."
+    },
+    {
+     "key": "B",
+     "html": "0.15 p.u."
+    },
+    {
+     "key": "C",
+     "html": "0.2 p.u."
+    },
+    {
+     "key": "D",
+     "html": "0.075 p.u."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/58/58dc0100aeb68d0b1c97.png\" /></div>\n\n<div><img alt=\"\" src=\"media/17/175d19288cc019d093d2.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 3-phase 50 Hz, generator is rated at 500 MVA, 20 kV with <em>X<sub>d</sub></em>′′= 0.2 p.u. It supplies pure resistive load of 400 MW at 20 kV. The load is connected directly across the terminals of the generator. If all the three phases of load are short circuited simultaneously, then the magnitude<br />\nof initial symmetrical rms current in the generator is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4.82 p.u."
+    },
+    {
+     "key": "B",
+     "html": "5.06 p.u."
+    },
+    {
+     "key": "C",
+     "html": "4.71 p.u."
+    },
+    {
+     "key": "D",
+     "html": "2.42 p.u"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a2/a262651476cdd13547f0.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A constant load of 300 MW is supplied by two generators, 1 and 2, for which the incremental fuel costs are:</p>\n\n<div> </div>\n\n<div><img  src=\"media/40/403cc78f26a4849d2f93.png\" /></div>\n\n<div> </div>\n\n<div>for the most economical division of load between the generators, the cost <em>F</em><sub>1</sub> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3810 Rs/hr"
+    },
+    {
+     "key": "B",
+     "html": "4212 Rs/hr"
+    },
+    {
+     "key": "C",
+     "html": "5124 Rs/hr"
+    },
+    {
+     "key": "D",
+     "html": "5642 Rs/hr"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/07/07441bc6284595c8c448.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements :<br />\n1. Surge impedance loading is also called steady state or ideal power transfer capability of the transmission line.<br />\n2. The transmission line with reflection of voltage and current is called infinite line.<br />\n3. The voltage at which corona is just initiated is called critical disruptive voltage.<br />\nWhich of the above statements is/are not correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "all of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe transmission line without reflection of voltage and current is called infinite line.</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Maximum efficiency of modern coal fired steam power plants is about 0.35 (a low value), mainly because of</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Low alternator efficiency"
+    },
+    {
+     "key": "B",
+     "html": "High energy loss in boiler"
+    },
+    {
+     "key": "C",
+     "html": "Low steam turbine mechanical efficiency"
+    },
+    {
+     "key": "D",
+     "html": "High energy loss from turbine exhaust to condenser"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nThe highest power loss in a steam power plant occurs in condenser (about 54%) due to which the maximum efficiency is limited to about 35%.</p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A three phase system with a line voltage of 300 V supplies a 1200 W, delta connected load at 0.8 p.f. lagging. The phase impedance is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/31/319d7b53ac4fea81b32d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/69/6944793b901095405ecc.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/7b/7b1cdca4c690447f480b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/b8/b81098bca8b1a7006966.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b4/b42f72033ba910e61ca7.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the statements given below:<br />\n1. Surge tank is used for protecting the penstock from the water hammering due to sudden load change.<br />\n2. Spill way is used to protect the reservoir, if the water inflow rate is more than the capacity of the dam.<br />\n3. Hydro graph is between discharge of water Vs the time (in hrs).<br />\nWhich of the above statements are not correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "none of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nAll the given statements are correct.</p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A power system network containing 60 buses in which 10 are PV buses, one is slack bus and 5 are fixed shunt capacitor buses. The size of Jacobian matrix is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "80 × 80"
+    },
+    {
+     "key": "B",
+     "html": "90 × 90"
+    },
+    {
+     "key": "C",
+     "html": "98 × 98"
+    },
+    {
+     "key": "D",
+     "html": "108 × 108"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/da/daaebc6ed8cc58141ab0.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding relays :<br />\n1. IDMT relay gives an inverse time characteristic at higher value of operating current and definite time characteristic at lower values of the operating current.<br />\n2. Moving coil relay is also called as permanent magnet d.c. moving coil relay. The actuating current flows in the moving coil.<br />\n3. A numerical relay is that in which the measured ac quantities are sequentially sampled and converted into numerical (digital) data form.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "1 and 3 only"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d1/d1bfaa85d7525028822a.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The figure given below is distance protection for a section of a power system. The first zone setting at <em>A</em> and <em>B</em> is 150 Ω.</p>\n\n<div> </div>\n\n<div><img  src=\"media/95/9597ce52e2ca27d0b542.png\" /></div>\n\n<div>If a fault occurs at <em>F</em><sub>1</sub>, then the impedance seen by the relay <em>A</em> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "100 Ω"
+    },
+    {
+     "key": "B",
+     "html": "135 Ω"
+    },
+    {
+     "key": "C",
+     "html": "180 Ω"
+    },
+    {
+     "key": "D",
+     "html": "120 Ω"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/83/83fb1db68b2942730669.png\" /></div>\n\n<div><img alt=\"\" src=\"media/5e/5e6b4a7fea9242cfb0a8.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the faults given below :</p>\n\n<div> </div>\n\n<div><img  src=\"media/34/34c68dbdfca3681cadfc.png\" /></div>\n\n<div> </div>\n\n<div>Which of the above given faults is/are series type faults?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 4 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 4 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 5 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 3 and 5 only"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nOne conductor open and two conductors open are series type faults.</p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The capacitance of a 3-phase belted cable are 12.6 μF between the three cores bunched together and the lead sheath and 7.4 μF between one core and the other two connected to sheath. The phase of neutral capacitance is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7 μF"
+    },
+    {
+     "key": "B",
+     "html": "8 μF"
+    },
+    {
+     "key": "C",
+     "html": "9 μF"
+    },
+    {
+     "key": "D",
+     "html": "10 μF"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c1/c1418eeef0af2aea4d43.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>When a 50 MVA, 11 kV, 3 phase generator is subjected to a 3-phase fault, the fault current is –<em>j</em>5 p.u. When it is subjected to a line to line fault, the positive sequence current is –<em>j</em> 4 p.u. The positive and negative sequence reactances are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>j</em>0.2 and <em>j</em>0.05 p.u."
+    },
+    {
+     "key": "B",
+     "html": "<em>j</em>0.2 and <em>j</em>0.25 p.u."
+    },
+    {
+     "key": "C",
+     "html": "<em>j</em>0.25 and <em>j</em>0.25 p.u."
+    },
+    {
+     "key": "D",
+     "html": "<em>j</em>0.05 and <em>j</em>0.05 p.u."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/63/634ff67d40a94db6ca31.png\" /></div>\n\n<div><img alt=\"\" src=\"media/1f/1fca1c3a9e05ea11af0f.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Signal flow graph of a closed loop system is shown in figure</p>\n\n<div> </div>\n\n<div><img  src=\"media/2d/2dccc90b34917fc5651a.png\" /></div>\n\n<div> </div>\n\n<div>Number of forward paths and feedback loops are respectively,</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2, 4"
+    },
+    {
+     "key": "B",
+     "html": "4, 2"
+    },
+    {
+     "key": "C",
+     "html": "1, 5"
+    },
+    {
+     "key": "D",
+     "html": "1, 4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f9/f9e483dc9bf65d81d489.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A sluggish system can be made faster by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "increasing the damping"
+    },
+    {
+     "key": "B",
+     "html": "decreasing the gain"
+    },
+    {
+     "key": "C",
+     "html": "increasing the gain"
+    },
+    {
+     "key": "D",
+     "html": "adding lag compensator"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nAs system gain <em>K</em> increases, damping decreases. Thus sluggish system becomes faster, but it should be done within the limits.</p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For a standard second order underdamped system <img align=\"absmiddle\"  src=\"media/2c/2c137aedfc77c17835e5.png\" /> curve is,</p>\n\n<div> </div>\n\n<div><img  src=\"media/78/7864156690bb811833f2.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/ea/ea6b5e25835a05244f2d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/1c/1c7da18e8c4be09527ca.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/fd/fdac1454af13ee9300e5.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6a/6a8f665f112d5aa082c5.png\" /></div>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>First order process <img align=\"absmiddle\"  src=\"media/28/28c239e876dd15c2dbae.png\" /> is subjected to unit ramp input. Output-input versus time curve is shown in the figure. Value of <em>q</em> is</p>\n\n<div> </div>\n\n<div><img  src=\"media/e2/e29f1f888006223270e1.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/eb/eb1967136c7dab9aa98f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<em>T</em>"
+    },
+    {
+     "key": "C",
+     "html": "2<em>T</em>"
+    },
+    {
+     "key": "D",
+     "html": "<em>T</em><sup>2</sup>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ae/aee78cf0d802d1f0c997.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Root locus of an open loop transfer function is shown in the figure below</p>\n\n<div> </div>\n\n<div><img  src=\"media/ff/ff0a7106c1ed2463fc51.png\" /></div>\n\n<div> </div>\n\n<div>now a transportation lag δ(t – 1) is added to the system, then angle of asymptotes for new root locus will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "90°"
+    },
+    {
+     "key": "B",
+     "html": "0°"
+    },
+    {
+     "key": "C",
+     "html": "180°"
+    },
+    {
+     "key": "D",
+     "html": "60°"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fd/fd05c84f2258870804a1.png\" /></div>\n\n<div><img alt=\"\" src=\"media/e5/e5676504c159fab183b7.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Characteristic equation of a system is given as <em>s</em><sup>4</sup> + a<em>s</em><sup>3</sup> + <em>s</em><sup>2</sup> + b<em>s</em> + 1 = 0, where a and b are real values. For the system to be stable, relation between <em>a</em> and <em>b</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/16/1684a0c37b6d8527d991.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/2a/2a2298d61e4925ecf5a7.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/46/466a5c8458f2fe7b2697.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/54a38318ad11486afe5d.png\" /></div>\n\n<div><img alt=\"\" src=\"media/51/51e1de078117d630ed23.png\" /></div>"
+  },
+  {
+   "n": 34,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Approximate value of damping ratio for second order system to get the phase margin of 50° is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.2"
+    },
+    {
+     "key": "B",
+     "html": "0.7"
+    },
+    {
+     "key": "C",
+     "html": "0.5"
+    },
+    {
+     "key": "D",
+     "html": "0.8"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cd/cd687657a0d3025a09da.png\" /></div>"
+  },
+  {
+   "n": 35,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The polar plot (for positive frequencies) for the open loop transfer function of a unity negative feedback control system is shown in figure (consider, log 1.1=0.0414)</p>\n\n<div> </div>\n\n<div><img  src=\"media/f8/f8db0533bc776c68ad3f.png\" /></div>\n\n<div> </div>\n\n<div>Gain margin and phase margin are respectively</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20 dB, 127°"
+    },
+    {
+     "key": "B",
+     "html": "20 dB, 53°"
+    },
+    {
+     "key": "C",
+     "html": "0.92 dB, 53°"
+    },
+    {
+     "key": "D",
+     "html": "0.92 dB, 127°"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1b/1b83baecf8d99f977081.png\" /></div>"
+  },
+  {
+   "n": 36,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The state space representation of a system is given by</p>\n\n<div> </div>\n\n<div><img  src=\"media/42/42c81468d199688afbb5.png\" /></div>\n\n<div> </div>\n\n<div>State transition matrix of the system is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/d1/d122ce7a1bff6a8ea9ac.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/54/54bb7137316ad004eb91.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/5b/5b9347bda31ef37a4f97.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/a8/a822ec96c050ec01ec35.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/21/219a88ad1ea0561f2f20.png\" /></div>\n\n<div><img alt=\"\" src=\"media/5c/5c541ef133145f01ede5.png\" /></div>"
+  },
+  {
+   "n": 37,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A lag compensator has transfer function as</p>\n\n<div> </div>\n\n<div><img  src=\"media/ef/ef9184721e9582cf4470.png\" /></div>\n\n<div> </div>\n\n<div>Rebtion between <em>T</em><sub>1</sub> and <em>T</em><sub>2</sub> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>T</em><sub>1</sub> < <em>T</em><sub>2</sub>"
+    },
+    {
+     "key": "B",
+     "html": "<em>T</em><sub>1</sub> > <em>T</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "<em>T</em><sub>1</sub> = <em>T</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a8/a8406614876ed568198f.png\" /></div>"
+  },
+  {
+   "n": 38,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Controller) with <strong>List-II</strong> (Characteristics) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img  src=\"media/93/931a883cccf2a7470b8b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/24/24cfd4c6fb69461fcaac.png\" /></div>"
+  },
+  {
+   "n": 39,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The difference between the number of atoms in unit cell of simple cubic and FCC crystal will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "3"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d8/d8fbfc8778fc39eafea7.png\" /></div>"
+  },
+  {
+   "n": 40,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following observation is true, when a BCC iron is heated.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It changes to FCC iron with increase in volume."
+    },
+    {
+     "key": "B",
+     "html": "It changes to FCC iron with decrease in volume."
+    },
+    {
+     "key": "C",
+     "html": "It changes to FCC iron with no change in volume."
+    },
+    {
+     "key": "D",
+     "html": "It remains BCC iron with no change in volume."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nContraction occurs when BCC iron is converted to FCC iron.</p>"
+  },
+  {
+   "n": 41,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the given below statement(s) is/are correct regarding insulating materials?<br />\n1. Dielectric strength of insulating material should be high.<br />\n2. Dielectric loss of insulating material should be high.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "only 2"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "None"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nDielectric loss of insulating materials should be low.</p>"
+  },
+  {
+   "n": 42,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The dielectric constant of an insulating material is given by</p>\n\n<div> </div>\n\n<div><img  src=\"media/e7/e7533ee18bf454e18673.png\" /></div>\n\n<div>If the parallel plate capacitor of plate area <em>A</em> and seperation d is filled with this material, the value of loss factor will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\"  src=\"media/42/42659a55e5a6a7eccd5d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\"  src=\"media/40/400f354780ff7210de5b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\"  src=\"media/49/49bd87ce174b75ec151d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\"  src=\"media/21/216a408966470bc892a5.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8f/8f8fe46f01967bd760fa.png\" /></div>"
+  },
+  {
+   "n": 43,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The material which is not ferromagnetic is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Cobalt (Co)"
+    },
+    {
+     "key": "B",
+     "html": "Gadolinium (Gd)"
+    },
+    {
+     "key": "C",
+     "html": "Nickel (Ni)"
+    },
+    {
+     "key": "D",
+     "html": "Bismuth (Bi)"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nBismuth is not ferromagnetic.</p>"
+  },
+  {
+   "n": 44,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The transition temperature of super conducting material is changed by varying which of the following factor.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Electric field"
+    },
+    {
+     "key": "B",
+     "html": "Magnetic field"
+    },
+    {
+     "key": "C",
+     "html": "Volume of material"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nThe transition temperature of superconductor can be varied by varying magnetic field.</p>"
+  },
+  {
+   "n": 45,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The material which do not have negative temperature coefficient of resistivity are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Metals"
+    },
+    {
+     "key": "B",
+     "html": "Semi conductors"
+    },
+    {
+     "key": "C",
+     "html": "Insulators"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nMetals have positive temperature coefficient of resistivity.</p>"
+  },
+  {
+   "n": 46,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding diamagnetic materials.<br />\n1. At very low temperatures diamagnetic materials are converted into paramagnetic materials.<br />\n2. The diamagnetic materials have negative magnetic susceptibility.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1f/1fad694ac878c3ec2c56.png\" /></div>"
+  },
+  {
+   "n": 47,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A steel bar magnet has a magnetic moment of 4 Am<sup>2</sup> and mass of 9 × 10<sup>–3</sup> kg. If the intensity of steel is 8.0 × 10<sup>3</sup> kg/m<sup>3</sup>, the intensity of magnetization will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.33 × 10<sup>6</sup> A/m"
+    },
+    {
+     "key": "B",
+     "html": "1.66 × 10<sup>6</sup> A/m"
+    },
+    {
+     "key": "C",
+     "html": "2.66 × 10<sup>6</sup> A/m"
+    },
+    {
+     "key": "D",
+     "html": "3.55 × 10<sup>6</sup> A/m"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a2/a24b40693e38c45f1631.png\" /></div>\n\n<div><img alt=\"\" src=\"media/24/24a391c30349d7ea6b71.png\" /></div>"
+  },
+  {
+   "n": 48,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The access time of cache is 90 μs, the access time of main memory is 100 μs, and hit ratio is 95%, then access efficiency related to cache is _________.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.9945"
+    },
+    {
+     "key": "B",
+     "html": "0.9869"
+    },
+    {
+     "key": "C",
+     "html": "0.9469"
+    },
+    {
+     "key": "D",
+     "html": "0.9669"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/27/27dff396587761c853c7.png\" /></div>"
+  },
+  {
+   "n": 49,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider a direct mapped cache of size 32 KB with block size 32 bytes. The CPU generates 32 bit addresses. The number of bits needed for cache indexing and the number of tag bits are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10, 17"
+    },
+    {
+     "key": "B",
+     "html": "10, 22"
+    },
+    {
+     "key": "C",
+     "html": "15, 17"
+    },
+    {
+     "key": "D",
+     "html": "5, 17"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f4/f498cf3d41a3ff058890.png\" /></div>"
+  },
+  {
+   "n": 50,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Sign extension is the step in</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Floating point multiplication"
+    },
+    {
+     "key": "B",
+     "html": "Signed 16 bit integer addition"
+    },
+    {
+     "key": "C",
+     "html": "Arithmetic left shift"
+    },
+    {
+     "key": "D",
+     "html": "Converting a signed integer from one size to another"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nSign extension is the operation, in computer arithmetic, of increasing the number of bits of a binary number while preserving the number&rsquo;s sign (positive/negative) and value.</p>"
+  },
+  {
+   "n": 51,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements:<br />\n1. First-in-first out types of computations are efficiently supported by STACKS.<br />\n2. Implementing LISTS on linked lists is more efficient than implementing LISTS on an array for almost all the basic LIST operations.<br />\n3. Implementing QUEUES on a circular array is more efficient than implementing QUEUES on a linear array with two indices.<br />\n4. Last-in-first-out type of computations are efficiency supported by QUEUES.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2, 3 are true"
+    },
+    {
+     "key": "B",
+     "html": "1, 2 are true"
+    },
+    {
+     "key": "C",
+     "html": "3, 4 are true"
+    },
+    {
+     "key": "D",
+     "html": "2, 4 are true"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nStack is LIFO system so FIFO not supported by stack hence option statement 1 is incorrect and queue is using FIFO so statement 4 is also wrong.</p>"
+  },
+  {
+   "n": 52,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A system contains 16 MB of primary memory and fixed partitions, all of the size 65536 bytes.<br />\nWhat is the minimum number of bits needed in an entry in the process table to record all of the partitions?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8 bits"
+    },
+    {
+     "key": "B",
+     "html": "16 bits"
+    },
+    {
+     "key": "C",
+     "html": "32 bits"
+    },
+    {
+     "key": "D",
+     "html": "64 bits"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/93/93f135634e746b4148e6.png\" /></div>"
+  },
+  {
+   "n": 53,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Starvation can be avoided by which of the following statements:<br />\n1. By using shortest job first resource allocation policy.<br />\n2. By using first-come, first serve resource allocation policy.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nStarvation can be avoided either by using round-robin policy or FCFS policy, By using SJF starvation is not avoided. Because there may be case that shortest jobs keeps on coming and causing starvation for a large job.</p>"
+  },
+  {
+   "n": 54,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a two level memory hierarchy, the access time of the cache memory is 12 nsec and the access time of the main memory is 1.5 μsec. The hit ratio is 0.98. What is the average access time of the two level memory system?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "13.5 nsec"
+    },
+    {
+     "key": "B",
+     "html": "42 nsec"
+    },
+    {
+     "key": "C",
+     "html": "7.56 nsec"
+    },
+    {
+     "key": "D",
+     "html": "41.76 nsec"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8b/8b5f6d215aad9e565c20.png\" /></div>"
+  },
+  {
+   "n": 55,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 20 kVA, 2000/200 V transformer has name plate leakage impedance of 12% what voltage must be applied on the HV side to circulate full load current with the LV shorted:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "200 V"
+    },
+    {
+     "key": "B",
+     "html": "2000 V"
+    },
+    {
+     "key": "C",
+     "html": "160 V"
+    },
+    {
+     "key": "D",
+     "html": "240 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b5/b53e72d64d68f37a6d99.png\" /></div>"
+  },
+  {
+   "n": 56,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Two shunt generators are in parallel with no load voltage 60 V and 50 V and full load power delivered 400 W and 500 W respectively at 20 V terminal voltage. The common voltage while delivering 700 W to load is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "30.5 V"
+    },
+    {
+     "key": "B",
+     "html": "22.6 V"
+    },
+    {
+     "key": "C",
+     "html": "20 V"
+    },
+    {
+     "key": "D",
+     "html": "27.5 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/41/4190f6e87a4dfa44d30b.png\" /></div>"
+  },
+  {
+   "n": 57,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements given below:<br />\n1. A compensating winding is embedded in the slots inpole faces that carries armature current, in order to reduce stator field distortion.<br />\n2. Interpole in a DC generator must be series excited and should have opposite polarity as that of the next main pole in direction of rotation of the armature.<br />\n3. Interpole in a DC motor must be series excited and should have same polarity as that of the next main pole in the direction of rotation of the armature.<br />\nWhich of the above statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "D",
+     "html": "3 only"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nInterpole in a DC motor must be series excited and should have polarity opposite to that of the next main pole in the direction of rotation of the armature.</p>"
+  },
+  {
+   "n": 58,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following methods of improving commutation in DC machine:<br />\n1. By decreasing the brush contact resistance.<br />\n2. By providing the compensating winding.<br />\n3. By providing interpoles.<br />\n4. By shifting the brushes.<br />\nWhich of the above statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2, 3 and 4 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "C",
+     "html": "1, 2 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "All of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nBy increasing the brush contact resistance.</p>"
+  },
+  {
+   "n": 59,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The percentage loading at which maximum efficiency occurs in a given transformer with full load, iron and copper losses as 12 kW and 16 kW respectively.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "65%"
+    },
+    {
+     "key": "B",
+     "html": "86.60%"
+    },
+    {
+     "key": "C",
+     "html": "79.6%"
+    },
+    {
+     "key": "D",
+     "html": "50%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3e/3ef3aa19c1a4e9b11321.png\" /></div>"
+  },
+  {
+   "n": 60,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 10 pole lap wound dc armature has a total of 100 conductors, each with a current carrying capacity of 10 A. The average induced emf per conductor is 20 V. The power rating of dc machine is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50 kW"
+    },
+    {
+     "key": "B",
+     "html": "10 kW"
+    },
+    {
+     "key": "C",
+     "html": "100 kW"
+    },
+    {
+     "key": "D",
+     "html": "20 kW"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1c/1c27d55f8399f7043301.png\" /></div>\n\n<div><img alt=\"\" src=\"media/01/015025ffff3d94f6e12c.png\" /></div>"
+  },
+  {
+   "n": 61,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 250 kVA, <img align=\"absmiddle\"  src=\"media/59/595e0e28cd9812a417af.png\" /> 2300 V, 45 A, 60 Hz, star-connected synchronous motor has an effective resistance of 1.5 Ω and a synchronous reactance of 20 Ω per phase. The internal power developed by the motor when it is operating at rated current and 0.8 pf leading?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "50 kW"
+    },
+    {
+     "key": "B",
+     "html": "150 kW"
+    },
+    {
+     "key": "C",
+     "html": "134 kW"
+    },
+    {
+     "key": "D",
+     "html": "116 kW"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/73/7390d01ae4ae934aac93.png\" /></div>"
+  },
+  {
+   "n": 62,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 220 V, dc shunt motor takes no load armature current of 4 A and runs at 1800 rpm. If the full load armature current is 45 A, then what is the speed. Armature resistance is 0.5 Ω (Assume flux remains constant).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1630.73 rpm"
+    },
+    {
+     "key": "B",
+     "html": "1350 rpm"
+    },
+    {
+     "key": "C",
+     "html": "1387 rpm"
+    },
+    {
+     "key": "D",
+     "html": "1321 rpm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e2/e2ce7126897067d066ea.png\" /></div>\n\n<div><img alt=\"\" src=\"media/7c/7c99db65f650c7ba37ee.png\" /></div>"
+  },
+  {
+   "n": 63,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A single-phase transformer is designed to operate at 440 V/110 V, 50 Hz. If the high voltage side is connected to 200 V, 40 Hz supply, then the low voltage side voltage is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "220 V"
+    },
+    {
+     "key": "B",
+     "html": "110 V"
+    },
+    {
+     "key": "C",
+     "html": "75 V"
+    },
+    {
+     "key": "D",
+     "html": "50 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/64/64757106e20fa5cc3c0b.png\" /></div>"
+  },
+  {
+   "n": 64,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Calculate the transformation ratio of an auto transformer starter for 30 kW, 400 V, <img align=\"absmiddle\"  src=\"media/9c/9c4081cbbd30d00a7868.png\" /> induction motor, if the starting torque is to be 65% of full load torque. Assume the slip at full load to be 4% and short circuit current to be 5 times full load current. Ignore magnetizing current of transformer and motor.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.81"
+    },
+    {
+     "key": "B",
+     "html": "0.65"
+    },
+    {
+     "key": "C",
+     "html": "0.41"
+    },
+    {
+     "key": "D",
+     "html": "0.75"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bc/bc61c2296e4375fb4a36.png\" /></div>"
+  },
+  {
+   "n": 65,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The direction of rotation of a shaded pole motor is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "from North pole to South pole"
+    },
+    {
+     "key": "B",
+     "html": "from South pole to North pole"
+    },
+    {
+     "key": "C",
+     "html": "from unshaded part to shaded part"
+    },
+    {
+     "key": "D",
+     "html": "from shaded part to unshaded part"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nThe net flux in the shaded portion of the pole lags the flux in the unshaded portion of the pole resulting in a net torque which causes the rotor to rotate from the unshaded to the shaded portion of the pole.</p>"
+  },
+  {
+   "n": 66,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A normal two-winding 3-phase delta-delta transformer connection together with the corresponding primary and secondary voltage phasor diagram are shown below,</p>\n\n<div> </div>\n\n<div><img  src=\"media/25/25e12eff1fb02859c07e.png\" /></div>\n\n<div> </div>\n\n<div>The magnitude of each of the symmetrical secondary voltage <em>V<sub>ab</sub></em> , <em>V<sub>bc</sub></em> and <em>V<sub>ca</sub></em> is E. If while connecting the secondary side, the terminals <em>X</em><sub>1</sub> and <em>X</em><sub>2</sub> of the transformer-II are interchanged by mistake, the resultant voltage around the secondary closed delta would be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>E</em>"
+    },
+    {
+     "key": "B",
+     "html": "1.5 <em>E</em>"
+    },
+    {
+     "key": "C",
+     "html": "2 <em>E</em>"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\"  src=\"media/76/7611dc5cb466888ee18e.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2c/2ca5a397cc914b2a3196.png\" /></div>\n\n<div><img alt=\"\" src=\"media/81/815b42f7968fc0e02157.png\" /></div>"
+  },
+  {
+   "n": 67,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a self-excited induction generator, to keep the frequency of generated voltage constant with the increasing load, the speed of the induction machine should be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "increased"
+    },
+    {
+     "key": "B",
+     "html": "decreased"
+    },
+    {
+     "key": "C",
+     "html": "maintained less than the rated synchronous speed"
+    },
+    {
+     "key": "D",
+     "html": "maintained more than the rated synchronous speed"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/68/6848f64dcac7a39b1b26.png\" /></div>"
+  },
+  {
+   "n": 68,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements related to synchronous machines:<br />\n1. Pull-out torque of a synchronous motor increases with the decrease in excitation.<br />\n2. A small short-circuit ratio indicates small armature reaction in an alternator.<br />\n3. Under short-circuit conditions, the armature reaction in the alternator is having magnetizing effect.<br />\n4. Synchronous reactance can be determined from open-circuit and short-circuit tests.<br />\nWhich of the above statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2, 3 and 4 only"
+    },
+    {
+     "key": "B",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1, 2, 3 and 4"
+    },
+    {
+     "key": "D",
+     "html": "4 only"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/58/58b98936724840c6982e.png\" /></div>"
+  },
+  {
+   "n": 69,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A static equalizer circuit protects the string of thyristor connected in series. Value of resistance <em>R </em>of static equalizer circuit, if following data is given,<br />\nNo. of series connected SCR = 16<br />\nMaximum blocking voltage of each SCR = 25 kV<br />\nTotal string voltage = 375 kV<br />\nDifference between maximum and minimum leakage current = 5 μA.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "250 MΩ"
+    },
+    {
+     "key": "B",
+     "html": "333.3 MΩ"
+    },
+    {
+     "key": "C",
+     "html": "666.6 MΩ"
+    },
+    {
+     "key": "D",
+     "html": "266.6 MΩ"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/76/76d60145c5edbe6ef8c8.png\" /></div>"
+  },
+  {
+   "n": 70,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A <img align=\"absmiddle\"  src=\"media/a7/a7789cd6ce324d0f9f3f.png\" /> full controlled bridge rectifier is fed from <img align=\"absmiddle\"  src=\"media/a7/a7789cd6ce324d0f9f3f.png\" />, 400 V, 50 Hz source. It feeds a high inductive load with constant current of <img align=\"absmiddle\"  src=\"media/4c/4c07ee629aa86b9f5cca.png\" /> Then RMS value of source current is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/12/12b9cbd10c029ced41ab.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/41/414ecc18f140c4b39d2e.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/79/794f8ba9616765386eac.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/b8/b86c93deeeda04fa9de7.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/97/973e291751cfdc626b43.png\" /></div>"
+  },
+  {
+   "n": 71,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A <img align=\"absmiddle\"  src=\"media/46/464cf481f0f36729eec5.png\" /> semiconductor is fed from a <img  src=\"media/8d/8d950b706262974edae6.png\" /> ac source <em>V<sub>m</sub></em> sin (100 πt). This converter feeds a RLE load in discontinues conduction mode. Thyristor is triggered at delay angle α. If extinction angle β > π. Then average output voltage will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/3e/3ee3fbc59f22f85e3e03.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/18/18b1dc522648dd171278.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/10/10fc91a725437b20c6a9.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/6b/6b72f852628a2ccd2d06.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/93/93c4b4302119f0e0dfae.png\" /></div>"
+  },
+  {
+   "n": 72,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I (Pulse number)</strong> with <strong>List-II (Voltage drop due to source inductance)</strong> and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img  src=\"media/99/99488d64b593a058a9c3.png\" /></div>\n\n<div><img  src=\"media/6f/6f0350c048d2778e25c0.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a9/a96ee7b6714d7a9a0e6c.png\" /></div>"
+  },
+  {
+   "n": 73,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A chopper as shown in figure feed a resistive load. If it is desired to eliminate triple harmonics from output voltage. Duty cycle should be</p>\n\n<div> </div>\n\n<div><img  src=\"media/48/48305e166b371a7960df.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/6d/6dc23cb363ba236c052b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/2e/2e5fc2e1d23023dd813b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/7d/7dd72a5d38cabbf801f0.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/86/86c475e98a60f604225b.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/be/bec5d308cb11a0ec59a8.png\" /></div>"
+  },
+  {
+   "n": 74,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A buck converter is fed from 200 V dc source. Chopper is operating at 25 kHz. Duty cycle is 0.5.<br />\nIf critical value of inductance is 5 μH, then critical value of capacitance will be,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20 μF"
+    },
+    {
+     "key": "B",
+     "html": "0.1 μF"
+    },
+    {
+     "key": "C",
+     "html": "10 μF"
+    },
+    {
+     "key": "D",
+     "html": "0.2 μF"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cb/cbe02053badf806538e2.png\" /></div>"
+  },
+  {
+   "n": 75,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A single phase half bridge inverter has a resistive lead of <em>R</em> = 10 Ω and the dc input voltage is <em>V<sub>S</sub></em> = 220 V. The rms output voltage at fundament frequency is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "90 V"
+    },
+    {
+     "key": "B",
+     "html": "99 V"
+    },
+    {
+     "key": "C",
+     "html": "100 V"
+    },
+    {
+     "key": "D",
+     "html": "141.4 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3b/3b0c3d33c5f1f0244b91.png\" /></div>"
+  },
+  {
+   "n": 76,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A <img align=\"absmiddle\"  src=\"media/6d/6dce187f6981884c2fad.png\" /> square wave inverter in 120° conduction mode is fed from dc voltage of 100 V. It has a star connected resistive load of <em>R</em> = 60 Ω/phase. Power dissipation in load is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "200 W"
+    },
+    {
+     "key": "B",
+     "html": "83.33 W"
+    },
+    {
+     "key": "C",
+     "html": "290 W"
+    },
+    {
+     "key": "D",
+     "html": "166.66 W"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/05/052f6f604131eb720c48.png\" /></div>\n\n<div><img alt=\"\" src=\"media/33/33a197152e9a3215f22a.png\" /></div>"
+  },
+  {
+   "n": 77,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding ac drives.<br />\n1. Stator voltage control induction motor is suitable to drive constant loads.<br />\n2. Static scherbus drive offers speed control in wide range i.e. from sub synchronous to super synchronous.<br />\n3. In static kramer drive, slip power is directly fed to power lines.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "D",
+     "html": "1 and 3 only"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\n&bull; Stator voltage control induction drive is suitable for torque directly proportional to loads speed loads.<br />\n&bull; A dc link is used between rotor terminals and power lines in static Kramer drive.</p>"
+  },
+  {
+   "n": 78,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A chopper is shown in the below figure. It feeds a high inductive load with constant current of 10 A.</p>\n\n<div> </div>\n\n<div><img  src=\"media/bc/bc26398edf8edf0b8b87.png\" /></div>\n\n<div>The peak current through auxiliary thyristor is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "27 A"
+    },
+    {
+     "key": "B",
+     "html": "37 A"
+    },
+    {
+     "key": "C",
+     "html": "10 A"
+    },
+    {
+     "key": "D",
+     "html": "17 A"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/78/782daeee5655f22b1b46.png\" /></div>\n\n<div><img alt=\"\" src=\"media/68/68dc2fde77275b3bb5f5.png\" /></div>"
+  },
+  {
+   "n": 79,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>If <img align=\"absmiddle\"  src=\"media/66/662de7773ac3d4934e62.png\" /> then the charge closed with in the region <img align=\"absmiddle\"  src=\"media/8a/8ad25af8bd098fa62bda.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "106.67 C"
+    },
+    {
+     "key": "B",
+     "html": "26.66 C"
+    },
+    {
+     "key": "C",
+     "html": "53.33 C"
+    },
+    {
+     "key": "D",
+     "html": "40 C"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/53/530e3fc5ba862b3f85bf.png\" /></div>"
+  },
+  {
+   "n": 80,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A dielectric slab of flat surface with relative permittivity 4 is disposed with its surface normal to a uniform field with flux density 1.5 coulombs per m<sup>2</sup>. The slab occupies a volume of 0.08 cubic meter and is uniformly polarized then total dipole-moment of slab is _______</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.125 C-m"
+    },
+    {
+     "key": "B",
+     "html": "0.09 C-m"
+    },
+    {
+     "key": "C",
+     "html": "6 C-m"
+    },
+    {
+     "key": "D",
+     "html": "0.375 C-m"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/aa/aa4f8b5dd9839987bdb6.png\" /></div>"
+  },
+  {
+   "n": 81,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>If potential field <img align=\"absmiddle\"  src=\"media/e5/e50202bf0a44ac3be85f.png\" /> in free space then charge lies within the surface <em>r</em> = 4 m is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmidddle\"  src=\"media/da/daca7aa37f14fa51ff52.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\"  src=\"media/be/be72cea4ffb8c6014be5.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\"  src=\"media/da/dab20f88ae211e55b879.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\"  src=\"media/6c/6c1c3d7223ba764e3e66.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d3/d3e317f5b67229089121.png\" /></div>"
+  },
+  {
+   "n": 82,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The spherical surface, <em>r</em> = 2 and 6 cm, are perfectly conducting and the region between them is filled with a conducting material for which σ = 80 s/m. If the current is <img align=\"absmiddle\"  src=\"media/aa/aa3d72fb0f70da1bfb98.png\" /> for 2 &lt; <em>r</em> &lt; 6 cm, then the total power being dissipated in the conducting material is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "48 W"
+    },
+    {
+     "key": "B",
+     "html": "44 W"
+    },
+    {
+     "key": "C",
+     "html": "53.05 W"
+    },
+    {
+     "key": "D",
+     "html": "49 W"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/56/565de63070ddde01c051.png\" /></div>\n\n<div><img alt=\"\" src=\"media/f0/f0d7c916dabc1a8d075f.png\" /></div>"
+  },
+  {
+   "n": 83,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>At a certain temperature and pressure, atomic hydrogen contains 5.67 × 10<sup>25</sup> atoms/m<sup>3</sup>. If the electric susceptibility is χ<sub>e</sub> = 4.1 × 10<sup>–4</sup> with <em>E</em> = 3 kV/m then the effective dipole length <em>d</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.2 × 10<sup>–18</sup> m"
+    },
+    {
+     "key": "B",
+     "html": "1.921 × 10<sup>–37</sup> m"
+    },
+    {
+     "key": "C",
+     "html": "1.6 × 10<sup>–19</sup> m"
+    },
+    {
+     "key": "D",
+     "html": "1.89 cm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b0/b05b61d373e5dc835c0c.png\" /></div>"
+  },
+  {
+   "n": 84,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the op-amp circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/9d/9d52e41b3696ffe1b35c.png\" /></div>\n\n<div> </div>\n\n<div>The op-amp is ideal except that it has a bias current of 100 μA flowing inside from both the input terminals of op-amp. Then the output voltage <em>V</em><sub>0</sub> is equal to (Assume the gain of the amplifier to be very large)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–0.2 V"
+    },
+    {
+     "key": "B",
+     "html": "2.4 V"
+    },
+    {
+     "key": "C",
+     "html": "–20 mV"
+    },
+    {
+     "key": "D",
+     "html": "none of above"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8b/8bc9b18b8c03bbaf95fb.png\" /></div>\n\n<div><img alt=\"\" src=\"media/cf/cfa1e4c33d27642e3afb.png\" /></div>"
+  },
+  {
+   "n": 85,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the op-amp circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/5b/5be1125bac74a492a602.png\" /></div>\n\n<div> </div>\n\n<div>The value of output voltage <em>V</em><sub>0</sub> is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "44 V"
+    },
+    {
+     "key": "B",
+     "html": "55 V"
+    },
+    {
+     "key": "C",
+     "html": "36 V"
+    },
+    {
+     "key": "D",
+     "html": "72 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ce/cef7b3b9f373422eab6a.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 86,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A multistage amplifier has a low-pass response with three real poles at s = –ω<sub>1</sub>, –ω<sub>2</sub> and ω<sub>3</sub>. The approximate overall bandwidth B of the amplifier will be given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\"  src=\"media/b4/b488cf6e18f48c7070b1.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\"  src=\"media/cc/cceb6febe2354198164c.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\"  src=\"media/58/58a8310a5887d9e6faa2.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\"  src=\"media/a4/a4dd41c59503bf14a224.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/26/26d1da8c06f5027df4da.png\" /></div>"
+  },
+  {
+   "n": 87,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/2f/2fd7ff32f4e8a6eb1265.png\" /></div>\n\n<div> </div>\n\n<div>Assume the op-amp and the diode <em>D</em><sub>1</sub> and <em>D</em><sub>2</sub> to be ideal, then the transfer characteristic of the circuit can be given as</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/ab/ab64ef0761b6f7c5425e.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/51/51050f90235f57ef12c2.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/6c/6cdcc13fe33d979622c4.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/1a/1a4355dd4d3a7c21c5f7.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e0/e09c9e8d475a98ddff3d.png\" /></div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d5/d52936b55547e4f64da3.png\" /></div>\n</div>"
+  },
+  {
+   "n": 88,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following correctly represents the output of multiplexer?</p>\n\n<div> </div>\n\n<div><img  src=\"media/e8/e8f4f815507b9be5b849.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Σ<em>m</em> (0, 2, 8, 9, 10, 11, 15)"
+    },
+    {
+     "key": "B",
+     "html": "Σ<em>m</em> (0, 2, 4, 8, 10, 13, 15)"
+    },
+    {
+     "key": "C",
+     "html": "Σ<em>m</em> (0, 1, 3, 10, 11, 15)"
+    },
+    {
+     "key": "D",
+     "html": "Σ<em>m</em> (0, 2, 5, 9, 10, 13, 15)"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/86/8655444d346bf38de4c2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 89,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Which of the following represents the correct waveform for <em>F</em> in the given logic circuits?</p>\n\n<div> </div>\n\n<div><img  src=\"media/9a/9a0aadb4fc922e157368.png\" /></div>\n\n<div> </div>\n\n<div> \n<div> </div>\n\n<div> </div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/33/33ebbf4c43b28446568e.png\" /></div>"
+  },
+  {
+   "n": 90,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The number of flip flops required by a Mod-6 ring counter are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3"
+    },
+    {
+     "key": "B",
+     "html": "6"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "8"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/01/01e8050482b726791227.png\" /></div>"
+  },
+  {
+   "n": 91,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Match <strong>List-I</strong> (Logic family) with <strong>List-II</strong> (Characteristic) and select the correct answer using the codes given below the lists:</p>\n\n<div> </div>\n\n<div><img  src=\"media/ea/ead8e7d99079af9536c0.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nECL is fastest<br />\nCMOS has lowest power dissipation<br />\nRTL has lowest fan out<br />\nIIL is slowest.</p>"
+  },
+  {
+   "n": 92,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>An ADC has a total conversion time of 500 μs. The highest frequency that its analog input should be allowed to contain.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 KHz"
+    },
+    {
+     "key": "B",
+     "html": "1 KHz"
+    },
+    {
+     "key": "C",
+     "html": "2.5 KHz"
+    },
+    {
+     "key": "D",
+     "html": "0.5 KHz"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/15/15437f751f52c748c8b9.png\" /></div>"
+  },
+  {
+   "n": 93,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The below program is processed by 8085 microprocessor<br />\nLXI H, 1234 H<br />\nXRA A<br />\nDCR A<br />\nCMP H<br />\nWhat will be the possible content of PSW?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(ED94)<sub>H</sub>"
+    },
+    {
+     "key": "B",
+     "html": "(FFED)<sub>H</sub>"
+    },
+    {
+     "key": "C",
+     "html": "(94ED)<sub>H</sub>"
+    },
+    {
+     "key": "D",
+     "html": "(FF94)<sub>H</sub>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cb/cb4a4f6265741985ddac.png\" /></div>"
+  },
+  {
+   "n": 94,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>How many times the loop will be executed in the below 8085 microprocessor program?</p>\n\n<div> </div>\n\n<div><img  src=\"media/3b/3bbdf75feb002608cae9.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "One"
+    },
+    {
+     "key": "B",
+     "html": "Two"
+    },
+    {
+     "key": "C",
+     "html": "256"
+    },
+    {
+     "key": "D",
+     "html": "Infinite"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7d/7d09bc9c12035d0947bf.png\" /></div>"
+  },
+  {
+   "n": 95,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>When <img align=\"absmiddle\"  src=\"media/aa/aa2f7512c70bcfcb6f8d.png\" /> signal of 8085 microprocessor goes low, then which of the following will happen?<br />\n1. The program counter is set to zero (0000) H.<br />\n2. Interrupt enable and HLDA F/Fs will reset.<br />\n3. All the buses are tristated</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "2 and 3 only"
+    },
+    {
+     "key": "D",
+     "html": "All 1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nAll statements are correct.</p>"
+  },
+  {
+   "n": 96,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following program:</p>\n\n<div> </div>\n\n<div><img  src=\"media/1c/1ce6ba81a0f8b664c190.png\" /></div>\n\n<div>If BYTE 1 = 32 H, the content of A after the execution of program will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "08 H"
+    },
+    {
+     "key": "B",
+     "html": "8C H"
+    },
+    {
+     "key": "C",
+     "html": "12 H"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6f/6f5941e8d683ddcd8e7f.png\" /></div>"
+  },
+  {
+   "n": 97,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>How many times the loops are executed?</p>\n\n<div> </div>\n\n<div><img  src=\"media/2e/2e38fcc78d41dfeb0bbc.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "17 H"
+    },
+    {
+     "key": "B",
+     "html": "16 H"
+    },
+    {
+     "key": "C",
+     "html": "∞"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nORA &rArr; CY = 0, AC = 0</p>"
+  },
+  {
+   "n": 98,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A system has a receiver noise resistance of 150 Ω. It is connected to an antenna with an output resistance of 150 Ω. The noise figure of the system is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1"
+    },
+    {
+     "key": "B",
+     "html": "2"
+    },
+    {
+     "key": "C",
+     "html": "150"
+    },
+    {
+     "key": "D",
+     "html": "250"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e0/e06456e0df4b5dde0f9c.png\" /></div>"
+  },
+  {
+   "n": 99,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The modulating index of an AM-signal is reduced from 0.9 to 0.6. The ratio of the total power in the new modulated signal to that of the original signal will nearly be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.40"
+    },
+    {
+     "key": "B",
+     "html": "0.65"
+    },
+    {
+     "key": "C",
+     "html": "0.84"
+    },
+    {
+     "key": "D",
+     "html": "1.20"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f5/f5d0c13cbc8a37c5ba38.png\" /></div>"
+  },
+  {
+   "n": 100,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In phase modulatior, phase deviation is proportional to<br />\n1. Carrier amplitude<br />\n2. Carrier phase<br />\n3. Message signal<br />\n4. Message signal frequencies</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "3 and 4 only"
+    },
+    {
+     "key": "C",
+     "html": "1 only"
+    },
+    {
+     "key": "D",
+     "html": "3 only"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nIn phase modulation, phase deviation is proportional to message signal and linearly vary<br />\ninaccordance with message signal.</p>"
+  },
+  {
+   "n": 101,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In a frequency modulation system, maximum frequency deviation allowed is 1100 and modulating frequency is 1.1 kHz the modulation index β is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "2200"
+    },
+    {
+     "key": "C",
+     "html": "1"
+    },
+    {
+     "key": "D",
+     "html": "1100"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/06/06f05318af78b6976247.png\" /></div>"
+  },
+  {
+   "n": 102,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding envelope detector<br />\n1. The principle of envelope detection of an AM signal is based on rectifying the incoming signal and passing it through a LPF.<br />\n2. Diagonal clipping can occur if detector is not designed properly.<br />\n3. Modulation index greater than one is preferable for envelope detection.<br />\nWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3 only"
+    },
+    {
+     "key": "B",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "C",
+     "html": "2 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nA modulation index of more than 1 results into over modulation which introduces envelope<br />\ndistortion. So it is not advisable to use modulation index greater than 1.</p>"
+  },
+  {
+   "n": 103,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/b5/b522ff3bfc3ff49f3695.png\" /></div>\n\n<div>If <em>V<sub>BE</sub></em> = 0.7 V and β = 99, then the value <em>R<sub>F</sub></em> is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.02 MΩ"
+    },
+    {
+     "key": "B",
+     "html": "3.4 MΩ"
+    },
+    {
+     "key": "C",
+     "html": "1.13 MΩ"
+    },
+    {
+     "key": "D",
+     "html": "8.9 MΩ"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/20/202a6c9b59e1b2b93b16.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 104,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/ec/ec5aebea1cd05f5e4b0e.png\" /></div>\n\n<div>The mode of operation of the transistor is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Cut-off"
+    },
+    {
+     "key": "B",
+     "html": "Reverse active"
+    },
+    {
+     "key": "C",
+     "html": "Active"
+    },
+    {
+     "key": "D",
+     "html": "Saturation"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/db/dbd57c298f599a7cf736.png\" /></div>"
+  },
+  {
+   "n": 105,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A transistor has <em>h<sub>fe</sub></em> = 100, <em>h<sub>ie</sub></em> = 5 kΩ and <em>r<sub>bb</sub></em> = 0, then the value of <img align=\"absmiddle\"  src=\"media/bd/bdbed421492dd322e1da.png\" /> is equal to<br />\n(Assuming <em>V<sub>T</sub></em> = 25 mV)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5 mA"
+    },
+    {
+     "key": "B",
+     "html": "2.1 mA"
+    },
+    {
+     "key": "C",
+     "html": "0.5 mA"
+    },
+    {
+     "key": "D",
+     "html": "3 mA"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4f/4f8ab767bfd60c113567.png\" /></div>"
+  },
+  {
+   "n": 106,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown in the circuit below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/c6/c6b631ec62065ec3ae09.png\" /></div>\n\n<div>Assume all the diode to be ideal, then the value of output voltage <em>V</em><sub>0</sub> is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–10 V"
+    },
+    {
+     "key": "B",
+     "html": "10 V"
+    },
+    {
+     "key": "C",
+     "html": "5 V"
+    },
+    {
+     "key": "D",
+     "html": "–3.33 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/13/130abbf1db2ba90dd069.png\" /></div>"
+  },
+  {
+   "n": 107,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/af/af6a8e9f4d907008323b.png\" /></div>\n\n<div> </div>\n\n<div> </div>\n\n<div>If the value of <img align=\"absmiddle\"  src=\"media/3e/3ef3f3a2bef25f5150b1.png\" /> then the value of <em>V<sub>S</sub></em> is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.26 V"
+    },
+    {
+     "key": "B",
+     "html": "2.8 V"
+    },
+    {
+     "key": "C",
+     "html": "8.11 V"
+    },
+    {
+     "key": "D",
+     "html": "3.14 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/61/6133be954a08faf3a866.png\" /></div>"
+  },
+  {
+   "n": 108,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A silicon diode is less suited for low voltage rectifier operation, because</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It can withstand high temperature"
+    },
+    {
+     "key": "B",
+     "html": "It’s reverse saturation current is low"
+    },
+    {
+     "key": "C",
+     "html": "It’s cut in voltage is high"
+    },
+    {
+     "key": "D",
+     "html": "It’s breakdown voltage is high"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a7/a7b28a502629f008ae1a.png\" /></div>"
+  },
+  {
+   "n": 109,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the NMOS circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/84/845b22bbe2eb2e7d9d29.png\" /></div>\n\n<div> </div>\n\n<div>If the transistor has <em>g<sub>m</sub></em> = 2 mA and <em>r</em><sub>0</sub> = ∞, then the value of small signal voltage gain <em>A<sub>v</sub></em> is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "–2"
+    },
+    {
+     "key": "B",
+     "html": "–10"
+    },
+    {
+     "key": "C",
+     "html": "–4"
+    },
+    {
+     "key": "D",
+     "html": "–80"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5f/5f84cb3b657b6598f4e1.png\" /></div>"
+  },
+  {
+   "n": 110,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/21/219fc19ef11d3795d6ca.png\" /></div>\n\n<div> </div>\n\n<div>The type of feedback employed is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "voltage series"
+    },
+    {
+     "key": "B",
+     "html": "voltage shunt"
+    },
+    {
+     "key": "C",
+     "html": "current series"
+    },
+    {
+     "key": "D",
+     "html": "current shunt"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nAs, feedback is directly connected to both input and output. Hence, Voltage Shunt feedback.</p>"
+  },
+  {
+   "n": 111,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the below op-amp series regulator circuit,</p>\n\n<div> </div>\n\n<div><img  src=\"media/9a/9ac51e1ac5c6fd88f3bf.png\" /></div>\n\n<div>The regulated output voltage <em>V</em><sub>0</sub> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "24.8 V"
+    },
+    {
+     "key": "B",
+     "html": "16.2 V"
+    },
+    {
+     "key": "C",
+     "html": "18.0 V"
+    },
+    {
+     "key": "D",
+     "html": "36 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/29/29f33e1142a6d3d46c24.png\" /></div>"
+  },
+  {
+   "n": 112,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>An amplifier has a power gain of 200. What is its gain in dB? (log<sub>10</sub> 2 = 0.30)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "14 dB"
+    },
+    {
+     "key": "B",
+     "html": "17 dB"
+    },
+    {
+     "key": "C",
+     "html": "20 dB"
+    },
+    {
+     "key": "D",
+     "html": "23 dB"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5b/5b288786ec051c522496.png\" /></div>"
+  },
+  {
+   "n": 113,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A pressure gauge is calibrated from 0 - 100 kN/m<sup>2</sup>. If the gauge has a uniform scale with 100 scale divisions. One fifth of a scale division can be read with certainty. The gauge will have resolution of pressure gauge will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "resolution of 0.2 kN/m<sup>2</sup>"
+    },
+    {
+     "key": "B",
+     "html": "threshold of 0.03 kN/m<sup>2</sup>"
+    },
+    {
+     "key": "C",
+     "html": "resolution of 0.1 kN/m<sup>2</sup>"
+    },
+    {
+     "key": "D",
+     "html": "threshold of 0.02 kN/m<sup>2</sup>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/00/00b779282adacaa29f36.png\" /></div>"
+  },
+  {
+   "n": 114,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A 0 - 200 V voltmeter has a guaranteed accuracy of 2% full scale reading (deflection). The voltage measured by the instrument is 150 V. The value of limiting error will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.33%"
+    },
+    {
+     "key": "B",
+     "html": "2.66%"
+    },
+    {
+     "key": "C",
+     "html": "3%"
+    },
+    {
+     "key": "D",
+     "html": "1.5%"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fb/fbe753592e91a6085923.png\" /></div>"
+  },
+  {
+   "n": 115,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A current given by <img align=\"absmiddle\"  src=\"media/52/522c0691d3e0510edc21.png\" /> = 2 + 4 sin 628t A is flowing through a resistance in a circuit of value 40 Ω.<br />\nThe voltage measured by permanent magnet moving coil instrument across the resistance will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "40 V"
+    },
+    {
+     "key": "B",
+     "html": "10 V"
+    },
+    {
+     "key": "C",
+     "html": "80 V"
+    },
+    {
+     "key": "D",
+     "html": "30 V"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/61/6104527fec2f1e374996.png\" /></div>"
+  },
+  {
+   "n": 116,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A secondary induced voltage of a LVDT shown in the figure below. AT null position these voltage are increased as <img align=\"absmiddle\"  src=\"media/e2/e29b9e88de7c2458dc03.png\" /> respectively. The magnitude of null voltage of the LVDT will be</p>\n\n<div> </div>\n\n<div><img  src=\"media/68/683f1d1013c80e5d418d.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.50"
+    },
+    {
+     "key": "B",
+     "html": "0.86"
+    },
+    {
+     "key": "C",
+     "html": "1.00"
+    },
+    {
+     "key": "D",
+     "html": "0.18"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ff/ff1785193124d8dfcf09.png\" /></div>"
+  },
+  {
+   "n": 117,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding semi conductor strain gauge. Which of the given statement are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It has a much higher gauge factor than that of a metal wire gauge."
+    },
+    {
+     "key": "B",
+     "html": "It employs piezoelectric property of undoped silicon."
+    },
+    {
+     "key": "C",
+     "html": "It exhibits very little gauge factor variation as compared to that of metal wire gauges."
+    },
+    {
+     "key": "D",
+     "html": "Temperature compensation is not required in case semiconductor strain gauge."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nSemiconductor strain gauge has very high gauge factor compared to metal wire gauge.</p>"
+  },
+  {
+   "n": 118,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A quantity <img align=\"absmiddle\"  src=\"media/7b/7be4c2099866c1707927.png\" /> is calculated by formula <img align=\"absmiddle\"  src=\"media/05/0570a49d63c0673be642.png\" /> The quantities <em>a</em>, <em>b</em> and <em>c</em> were measured and their values were found as follows:<br />\n<em>a</em> = 8, <em>b</em> = 4 and <em>c</em> = 2 with error in quantities <em>a</em>, <em>b</em>, <em>c</em> being independent of each other. If absolute maximum error of above quantities is ∈ then absolute maximum error in quantity <img align=\"absmiddle\"  src=\"media/0b/0bd0e39ae6156a032042.png\" /> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/00/00dfa9fd38b797c81fe3.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "2 ∈"
+    },
+    {
+     "key": "C",
+     "html": "∈"
+    },
+    {
+     "key": "D",
+     "html": "4 ∈"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/de/de8f7b6c9173469daed5.png\" /></div>\n\n<div><img alt=\"\" src=\"media/4f/4facfa1ac9982b4734ff.png\" /></div>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 119,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A <img align=\"absmiddle\"  src=\"media/ef/ef3f285eeca0bfd3fbd4.png\" /> digit voltameter having a resolution of 10 mV can be used to measure maximum voltage of</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "100 V"
+    },
+    {
+     "key": "B",
+     "html": "10 V"
+    },
+    {
+     "key": "C",
+     "html": "99.9 V"
+    },
+    {
+     "key": "D",
+     "html": "0.9 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2e/2e77c2d7d9208b9ced94.png\" /></div>"
+  },
+  {
+   "n": 120,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A CRO has two lissajous pattern figures a and b shown below:</p>\n\n<div> </div>\n\n<div><img  src=\"media/18/1818cbe37057f9cc8a44.png\" /></div>\n\n<div>The value of ratio of vertical input frequency to that of horizontal input frequency for both signals respectively will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/6c/6cccd81e6c1d9c525741.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/7c/7c01f8a44504aac71b85.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/7a/7ac44502aee141bfc240.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/73/73156d45019ebc36d822.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9c/9c3062f907720adb84fb.png\" /></div>"
+  },
+  {
+   "n": 121,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The relation between the input <img align=\"absmiddle\"  src=\"media/13/138a38f7194519f49401.png\" /> and output y(t) of the system is given by</p>\n\n<div> </div>\n\n<div><img  src=\"media/ce/ce5a44167f0f9e70212f.png\" /></div>\n\n<div> </div>\n\n<div>The transfer function of the system will be (considering initial conditions to be zero)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/f7/f7725a6d742dd9010dc6.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/cd/cdfdddf74e5c6df55233.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/7f/7f339731add6515f5fbe.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/d3/d38a4f40cb51d60cb1ad.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a0/a0aefe5a5ade70a7b10e.png\" /></div>"
+  },
+  {
+   "n": 122,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding impulse signal and its response.<br />\n1. Impulse function is absolutely integrable signal.<br />\n2. For stability of LTI system, impulse response of the system need not to be absolutely integrable.<br />\nWhich of the following statements are not correct.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "Both 1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "Neither 1 nor 2"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nfor the LTI system to be stable, impulse response of the system must be absolutely integrable.</p>"
+  },
+  {
+   "n": 123,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The value of inverse z transform of <em>X</em>(<em>z</em>) is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/89/89cd3a50220743c6b150.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/85/85540070ac68de246d5a.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/63/634b1e5c3074e3b55117.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/9a/9a0ba130a78a25ab13b9.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e6/e6175c20ad8fc6a0c8be.png\" /></div>"
+  },
+  {
+   "n": 124,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>If the z transform of <img align=\"absmiddle\"  src=\"media/5a/5a57b7010f4b57e4d27d.png\" /> is X(z) then z transform of <img align=\"absmiddle\"  src=\"media/93/93a1b91dba6779a9f598.png\" />will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/a6/a6efb8ad45edd7d16fbf.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/ba/baee13eb0d854f379862.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/6b/6bbeb3d97747ce3d10a6.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/fd/fd76ef97c0a56eb532c6.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e8/e8dd75cf2acf4687673b.png\" /></div>"
+  },
+  {
+   "n": 125,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>What is the number of roots which lie inside unit circle for polynomial<br />\n<em>f</em>(<em>z</em>) = 9z<sup>3</sup> – 27z<sup>2</sup> – z + 3</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "3"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7f/7f3cf14a6417fb003bbe.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 126,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>What is the value of Nyquist rate for the signal denoted by</p>\n\n<div> </div>\n\n<div><img  src=\"media/81/8190803a0c690e053682.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 kHz"
+    },
+    {
+     "key": "B",
+     "html": "5 kHz"
+    },
+    {
+     "key": "C",
+     "html": "8 kHz"
+    },
+    {
+     "key": "D",
+     "html": "20 kHz"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ab/ab3ddca89f8503f51038.png\" /></div>"
+  },
+  {
+   "n": 127,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The value of Laplace transform of <img align=\"absmiddle\"  src=\"media/6a/6a5594c1e4c0263ec9dd.png\" /> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/6f/6f81bcc1426b5fc312ac.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/21/2189d3dadc38de287817.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/e9/e9ac6f9610793210dc1d.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/b3/b3c3fb3960ddc3705167.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/09/09a915427d534c573719.png\" /></div>"
+  },
+  {
+   "n": 128,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>If <em>f</em>(<em>t</em>) is even function, then which of the given below functions correctly represent its Fourier transform <em>F</em>(<em>j</em>ω)?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/6a/6a83c26afdef5a445d78.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/22/22e011cacc45df16b1db.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img  src=\"media/5d/5d537aff10aebe6fbc3c.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/cd/cda383bdb11245f88d3d.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f3/f326d8e000e9ba23f6b2.png\" /></div>"
+  },
+  {
+   "n": 129,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following statements regarding power signal.<br />\n1. For power signals, the value of energy is zero.<br />\n2. Periodic power signals are absolutely integrable over the range of time period.<br />\nWhich of the above given statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 only"
+    },
+    {
+     "key": "B",
+     "html": "2 only"
+    },
+    {
+     "key": "C",
+     "html": "1 and 2"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nFor power signals, the value of power is finite and energy is infinite (&infin;).</p>"
+  },
+  {
+   "n": 130,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A continuous time signal <img align=\"absmiddle\"  src=\"media/54/54f7992135edfa3282fd.png\" /> has Fourier transform as given below:</p>\n\n<div> </div>\n\n<div><img align=\"absmiddle\"  src=\"media/0e/0e292fcdcdc39d8dad8f.png\" /></div>\n\n<div> </div>\n\n<div>If band pass sampling is performed on <img align=\"absmiddle\"  src=\"media/c4/c4bfd2208fdef1ba5b1e.png\" /> then minimum sampling rate will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "200 Hz"
+    },
+    {
+     "key": "B",
+     "html": "400 Hz"
+    },
+    {
+     "key": "C",
+     "html": "100 Hz"
+    },
+    {
+     "key": "D",
+     "html": "800 Hz"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/41/4116cb9eec03d293e732.png\" /></div>"
+  },
+  {
+   "n": 131,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The value of <em>k</em> such that the system of equations</p>\n\n<div> </div>\n\n<div><img  src=\"media/17/17d94a48b7d9ddbabad5.png\" /></div>\n\n<div> </div>\n\n<div>has non-trivial solution</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "4"
+    },
+    {
+     "key": "C",
+     "html": "<img alig=\"absmiddle\"  src=\"media/6b/6b57050acfde65a6eed8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3a/3a946fc72ed489e3a375.png\" /></div>"
+  },
+  {
+   "n": 132,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The value of <img align=\"absmiddle\"  src=\"media/52/5213562ffc9e663dce85.png\" /> where c is the circle ⎥ z – π ⎥ = 3.2 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img  src=\"media/20/209b956985435433b04c.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img  src=\"media/de/de1fe77a89172ef5d052.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "0"
+    },
+    {
+     "key": "D",
+     "html": "<img  src=\"media/c7/c76df4935acd2bb5c4b1.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2d/2d309ef7f1f69521352d.png\" /></div>"
+  },
+  {
+   "n": 133,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The inverse Laplace transform of <img align=\"absmiddle\"  src=\"media/fd/fda5346f1027407be8f4.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 – sin<em>t</em>"
+    },
+    {
+     "key": "B",
+     "html": "1 + cos<em>t</em>"
+    },
+    {
+     "key": "C",
+     "html": "1 – cos<em>t</em>"
+    },
+    {
+     "key": "D",
+     "html": "1 + sin<em>t</em>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0e/0e7d07ffe694d5a1d088.png\" /></div>"
+  },
+  {
+   "n": 134,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The number of arrivals of customers during any day follows poisson distribution with a mean of 5. The probability that the total number of customers on two days selected at random is less than 2 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5 <em>e</em><sup>–5</sup>"
+    },
+    {
+     "key": "B",
+     "html": "11 <em>e</em><sup>–5</sup>"
+    },
+    {
+     "key": "C",
+     "html": "6 <em>e</em><sup>–10</sup>"
+    },
+    {
+     "key": "D",
+     "html": "11 <em>e</em><sup>–10</sup>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/46/46a1713d7515f085a71f.png\" /></div>"
+  },
+  {
+   "n": 135,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The root of the function <img align=\"absmiddle\"  src=\"media/df/df07acfd4ab63c514504.png\" /> obtained after first iteration on application of Newton Raphson scheme using an initial guess of <img align=\"absmiddle\"  src=\"media/ad/adb50814aa08b4329254.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.614"
+    },
+    {
+     "key": "B",
+     "html": "0.75"
+    },
+    {
+     "key": "C",
+     "html": "0.714"
+    },
+    {
+     "key": "D",
+     "html": "0.285"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/57/57e7785adbb5246cc047.png\" /></div>\n\n<div><img alt=\"\" src=\"media/5e/5e0d0e1a0905955b33b9.png\" /></div>"
+  },
+  {
+   "n": 136,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The matrix <img align=\"absmiddle\"  src=\"media/9c/9c63ad4f5a31397587ed.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Orthogonal"
+    },
+    {
+     "key": "B",
+     "html": "Involutory"
+    },
+    {
+     "key": "C",
+     "html": "Nilpotent"
+    },
+    {
+     "key": "D",
+     "html": "Idempotent"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cb/cb234c0484619c29c437.png\" /></div>"
+  },
+  {
+   "n": 137,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A tyre company is able to manufacture <img align=\"absmiddle\"  src=\"media/1b/1bb6fa09dc6e064aad6c.png\" /> (<em>hundred</em>) grade <em>A</em> tyres and y (hundred) grade B tyres per day, where <img align=\"absmiddle\"  src=\"media/57/575210ad731863524b90.png\" /><br />\nIf the profit one each grade <em>A</em> tyre is twice the profit on grade <em>B</em> tyre. The most profitable number of grade A tyres per day to manufacture is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "276"
+    },
+    {
+     "key": "B",
+     "html": "126"
+    },
+    {
+     "key": "C",
+     "html": "74"
+    },
+    {
+     "key": "D",
+     "html": "324"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/af/af25c30be46e461bb438.png\" /></div>\n\n<div><img alt=\"\" src=\"media/39/39f79ca992dc50fbc4c5.png\" /></div>"
+  },
+  {
+   "n": 138,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>If the value of <img align=\"absmiddle\"  src=\"media/79/79410a7b614b55f596ba.png\" /> where <em>R</em> is the region bounded by <img align=\"absmiddle\"  src=\"media/5a/5a0788a9a09f17594b72.png\" /> is 4 A, then the value of <em>A</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3"
+    },
+    {
+     "key": "B",
+     "html": "12"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f8/f8235b735ed8e00747e9.png\" /></div>\n\n<div><img alt=\"\" src=\"media/65/6599b9896b246ad2d46b.png\" /></div>"
+  },
+  {
+   "n": 139,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The value of n for which the vector <img align=\"absmiddle\"  src=\"media/10/1079451bc384adfb75f6.png\" /> is solenoidal is, where <img align=\"absmiddle\"  src=\"media/e5/e505d1b479892224e9c2.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "–3"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5a/5abc2a8f2e622edbb9b7.png\" /></div>"
+  },
+  {
+   "n": 140,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The approximated value of y when <img align=\"absmiddle\"  src=\"media/6f/6f176a7a26a62003850c.png\" /> is [ use Runge’s formula of order 2]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1.722"
+    },
+    {
+     "key": "B",
+     "html": "1.656"
+    },
+    {
+     "key": "C",
+     "html": "1.492"
+    },
+    {
+     "key": "D",
+     "html": "1.456"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a3/a3425c1e9b42418dedc9.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 141,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> Line integral of <img align=\"absmiddle\"  src=\"media/61/6184d9529a30cd90db93.png\" /> \u0005 around a closed path is same as the net current <img align=\"absmiddle\"  src=\"media/27/27e4650094a6d95dce84.png\" /> enclosed by the path.<br />\n<strong>Statement (II):</strong> Biot-savart’s law is a special case of Ampere’s circuit law.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nStatement (II) is wrong. Ampere&rsquo;s law is a special case of Biot-savart&rsquo;s law; the former may be derived from the latter.</p>"
+  },
+  {
+   "n": 142,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> Both absolute stability and relative stability of a system can be determined easily.<br />\n<strong>Statement (II):</strong> Both high frequency and low frequency portions can be represented on the same graph.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nStatement-I and statement-II are individually correct. Both high frequency and low frequency<br />\nportions can be represented on same graph, because logarithmic scale is used for frequency.</p>"
+  },
+  {
+   "n": 143,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> All ferroelectric materials are piezoelectric in nature.<br />\n<strong>Statement (II):</strong> Some dielectric materials consists of crystals that are spontaneously polarized,also known as ferro electric crystals.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nBoth given statements are correct but statement-II is not correct explanation of statement-I.</p>"
+  },
+  {
+   "n": 144,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> Distributed winding results in efficient cooling.<br />\n<strong>Statement (II):</strong> With distributed winding high current density in the copper can be adopted due to even distribution of copper over the surface of the armature resulting in even distribution of copper loss.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nStatement-II is correct explanation for Statement-I.</p>"
+  },
+  {
+   "n": 145,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> In a short transmission line, the negative value of voltage regulation can be occurred at upf loads and lagging loads.<br />\n<strong>Statement (II):</strong> Zero voltage regulation occurs only in leading p.f. loads.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nStatement I is wrong.<br />\nNegative voltage regulation occurs only in leading p.f. loads.</p>"
+  },
+  {
+   "n": 146,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> Under <em>V</em>/<em>f</em> control of induction motor, the maximum value of the developed torque changes over a wide range of speed in the sub-synchronous region.<br />\n<strong>Statement (II):</strong> The magnetic flux is maintained almost constant at the rated value by keeping the ratio <em>V</em>/<em>f</em> constant. Over the considered speed range.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/90/9061f5e342c03beea52c.png\" /></div>"
+  },
+  {
+   "n": 147,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> A ripple carry adder is a parallel adder in which the carry-out of each full-adder is the carry-in to the next most significant adder.<br />\n<strong>Statement (II):</strong> The look ahead carry adder speeds up the process by eliminating the ripple carry.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nBoth the statements are correct.</p>"
+  },
+  {
+   "n": 148,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> For AM modulation, modulation index greater than 1 is recommended.<br />\n<strong>Statement (II):</strong> Envelope detector is used at the receiver end in AM modulation.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\nModulation index for AM is kept less than 1. Because envelope distortion occurs at m &gt; 1.</p>"
+  },
+  {
+   "n": 149,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> An electronic voltmeter reads voltage drop across a very high resistance used in an electronic circuit more accurately than a voltmeter which uses same PMMC instrument as the indicating device used in the electronic voltmeter.<br />\n<strong>Statement (II):</strong> The accuracy of the electronic voltmeter is equal to that of the PMMC instrument used in it.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\nThe accuracy of electronic voltmeter is more than that of the PMMC instrument used in it.</p>"
+  },
+  {
+   "n": 150,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p><strong>Statement (I):</strong> An LTI discrete system represented by the difference equation y(n + 2) – 7y(n + 1) + 12y(n) = x(n) is unstable.<br />\n<strong>Statement (II):</strong> A system is stable if the roots of the characteristics equation lie outside the unit circle.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0d/0d16e375e17878357247.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ca/cad61f73555461830551.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 150
+  }
+ ],
+ "stats": {
+  "questions": 150,
+  "maxMarks": 300,
+  "types": {
+   "MCQ": 150
+  },
+  "withoutKey": 0
+ }
+}

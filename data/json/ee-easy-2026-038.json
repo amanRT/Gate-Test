@@ -1,0 +1,561 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-038",
+ "title": "Topicwise Test-13 Part Syllabus GATE 2026 EE Signals & Systems Part-1",
+ "sourceTitle": "Topicwise Test-13 Part Syllabus GATE 2026 EE Signals & Systems Part-1",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 38,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/060_Topicwise Test-13 Part Syllabus GATE 2026 EE Signals & Systems Part-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider a signal <em>f</em>(<em>t</em>) as shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/02/02b37587bb9e642597f1.png\" /></div>\n\n<div> </div>\n\n<div> </div>\n\n<div>The value of integral <img align=\"absmiddle\" alt=\"\" src=\"media/de/de07aedc70f03b8dcf46.png\" />is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "0.5"
+    },
+    {
+     "key": "C",
+     "html": "1"
+    },
+    {
+     "key": "D",
+     "html": "2"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1f/1f1abe3f38b2c9de5323.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The energy of a signal <em>x</em>(<em>t</em>) is 10. The energy of a another signal <em>y</em>(<em>t</em>) = x(<em>Bt</em> – 50) is 5. The value of constant ‘<em>B</em>’ is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "10"
+    },
+    {
+     "key": "C",
+     "html": "5"
+    },
+    {
+     "key": "D",
+     "html": "0.5"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5f/5fb98f90641e6b22800e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/38/3862b09132b8f1cf98cf.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The impulse response of an LTI system is as shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/20/20dcc2bee461cd5d7835.png\" /></div>\n\n<div>The step response of the system is,</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/52/52413bda83a3920093b7.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/51/5168455079e3cede53ed.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/a3/a38233d486d0fae34954.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/88/88134b3794dc8c9a719e.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8f/8f06e956326c12f7f799.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The input output relationship of a system is given by <img align=\"absmiddle\" alt=\"\" src=\"media/84/84b31ae6de2944ccc5c0.png\" /> Choose a value of ‘α’ such that the given system becomes stable if input x[<em>n</em>] is bounded.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/69/69cec6e0360b6fb0e911.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/b7/b768bba72b0ccd7ca402.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "3"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e4/e4c2c4e3d28ee8c4f2ee.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The complex exponential Fourier series representation of a signal <em>x</em>(<em>t</em>) over the interval (0, <em>T</em>) is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a5/a57258ecba60df1dc64f.png\" /></div>\n\n<div>If one of the components of <em>x</em>(<em>t</em>) is <em>F</em> cos2π<em>t</em>, the value of <em>F</em> is ________ . (Answer upto three decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.015,
+    0.025
+   ],
+   "answerText": "0.020",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.020 (0.015 - 0.025)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a0/a0d0430bd6322de92b27.png\" /></div>\n\n<div><img alt=\"\" src=\"media/9f/9f1667395f33a37c92e5.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>The magnitude plot of the signal <img align=\"absmiddle\" alt=\"\" src=\"media/04/04da525d385ff77361a3.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/a9/a9429e39378ed0f4e4a0.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/74/7468db894b670dc9fccc.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/b8/b8be25a42971c1e012db.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/30/306f562ca5445318c417.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/90/902ecdde0df8b44c2e5b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/e0/e01303e5c3fd0c656da0.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The rms value of given periodic signal <em>f</em>(<em>x</em>) is ________ <em>F<sub>m</sub></em>. (Answer upto three decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cc/ccea3747820c8bc3f0af.png\" /></div>\n\n<div> </div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.76,
+    0.79
+   ],
+   "answerText": "0.777",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.777 (0.760 - 0.790)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0f/0f004edb011f09b7de9b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/c9/c98e16c1170ff2b75bee.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>The compact trigonometric Fourier series for the periodic signal x(<em>t</em>) shown below is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e3/e374ae3143cb97882f51.png\" /></div>\n\n<div>The value of ratio <img align=\"absmiddle\" alt=\"\" src=\"media/92/92717f241235977b7315.png\" /> is ______ . (Answer upto three decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.5,
+    0.51
+   ],
+   "answerText": "0.504",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.504 (0.500 - 0.510)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5b/5b2bef73a4da6a2e5eb8.png\" /></div>\n\n<div><img alt=\"\" src=\"media/fd/fd9535981653b9aba94f.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider a discrete time signal <img align=\"absmiddle\" alt=\"\" src=\"media/74/74e03968a6387d0e245e.png\" /> then the energy of the signal <em>x</em>(2<em>n</em>) is _________ J.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    16,
+    18
+   ],
+   "answerText": "17",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>17 (16 - 18)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4c/4ce25043ce2bdda34893.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Which of the following signal(s) is/are non-linear?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/52/526f991c25abcc32c2b9.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/6e/6e730535733f3250c6ab.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/85/85b3c518137e302513f4.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/93/931c399c374104ac230e.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/47/47d2ad19fc450c9bb2aa.png\" /></div>\n\n<div><img alt=\"\" src=\"media/c4/c4381bce1cfc8ce47944.png\" /></div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the system, <img align=\"absmiddle\" alt=\"\" src=\"media/ae/ae5c9008902c80e65a6b.png\" /> The system is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Causal and stable"
+    },
+    {
+     "key": "B",
+     "html": "Causal and unstable"
+    },
+    {
+     "key": "C",
+     "html": "non-causal and unstable"
+    },
+    {
+     "key": "D",
+     "html": "anticausal and unstable"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9a/9a9f59ed0c928107b81f.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider a discrete time sequence<img align=\"absmiddle\" alt=\"\" src=\"media/17/17c26edf3c632835ab73.png\" /> Then the value of conjugate antisymmetric part of sequence at origin is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 – <em>j</em>"
+    },
+    {
+     "key": "B",
+     "html": "1 + <em>j</em>"
+    },
+    {
+     "key": "C",
+     "html": "–<em>j</em>"
+    },
+    {
+     "key": "D",
+     "html": "+<em>j</em>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e4/e4398d9627fb61a7bc1e.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider a discrete time signal as follows:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/da/da9de3f1ab696948784a.png\" /></div>\n\n<div> </div>\n\n<div>If <em>y</em>[<em>n</em>] = <em>x</em>[<em>n</em>] + <em>x</em>[–<em>n</em>], then the energy of the signal <em>y</em>[<em>n</em>] will be</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "1"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6f/6f73b462bf6a14491d7d.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider a discrete time system <em>S</em><sub>1</sub> with impulse response <em>h</em>[<em>n</em>] =<img align=\"absmiddle\" alt=\"\" src=\"media/50/5009f765bbb85d2aae8f.png\" /> </p>\n\n<p>Then the value of constant <em>A</em> such that <em>h</em>[<em>n</em>] – <em>Ah</em>[<em>n</em> – 1] = δ[<em>n</em>] is equal to ________. (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.45,
+    0.6
+   ],
+   "answerText": "0.50",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.50 (0.45 - 0.60)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/87/872cc09d49a43a2ebf4b.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Which of the following signals is/are periodic?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/85/85951e9f6484e789db04.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/d7/d73619d9440b78802d63.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "Even {cos(4π<em>t</em>)<em>u</em>(<em>t</em>)}"
+    },
+    {
+     "key": "D",
+     "html": "Even {sin(4π<em>t</em>)<em>u</em>(<em>t</em>)}"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/85/85fc2e273ad075076a75.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A continuous time signal is defined as <img align=\"absmiddle\" alt=\"\" src=\"media/57/57da584f080faf0a1d2d.png\" /> The fundamental time period of x(<em>t</em>) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "30π sec"
+    },
+    {
+     "key": "B",
+     "html": "15π sec"
+    },
+    {
+     "key": "C",
+     "html": "15 sec"
+    },
+    {
+     "key": "D",
+     "html": "30 sec"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8d/8d446c67c815ed5715ab.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider a discrete-time system which is both linear and time invariant. For an input x(<em>n</em>) = δ(<em>n</em>), the output <em>y</em>(<em>n</em>) is given by,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/47/47598c71390e39481685.png\" /></div>\n\n<div> </div>\n\n<div>If x[<em>n</em>] = 2δ[<em>n</em>] – δ[<em>n</em> – 2], then the output <em>y</em>(<em>n</em>) is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/66/66e84d143e2c1c787bd8.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/ce/ce8d35057325d4d0b01b.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/c5/c539a3b2ef1b98b197aa.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/a4/a41afa855dcc119dfb7d.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2f/2fd52db7d70bd106cd52.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 10,
+   "NAT": 5,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

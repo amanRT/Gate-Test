@@ -1,0 +1,1131 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-019",
+ "title": "DVRUO Classes CS Test Series | C programming | Subject Wise Test 3",
+ "sourceTitle": "DVRUO Classes CS Test Series | C programming | Subject Wise Test 3",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 19,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "C programming"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/071_exam_1366_GO Classes CS Test Series C programming Subject Wise Test 3.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C program:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">struct Data {\n    int x;\n    int y;\n};\nint main() {\n    struct Data d = {10, 20};\n    struct Data *p = &amp;d;\n    printf(\"%d\\n\", *((int *)p + 1));\n    return 0;\n}</pre><p><strong>What will be the output of the program?</strong></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$20$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Garbage value<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Compilation error</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476683\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C program:</p><p><strong>Code&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">void recurse(int n) {\n    if (n != 0)\n        recurse(n--);\n    printf(\"%d \", n);\n}</pre><p>What will be the output or behaviour of the function if called as such&nbsp;<code>recurse(5);</code>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It prints the numbers from $5$ to $1$ in reverse order<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It prints nothing and causes a stack overflow<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It prints the numbers from $1$ to $5$ in same order<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It will lead to infinite recursion but no stack overflow</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476681\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><strong>Code&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int main() {\n    int *p;\n    for (int i = 0; i &lt; 1000; i++) {\n        p = malloc(sizeof(int) * 10);\n        p[0] = i;\n    }\n    free(p);\n    return 0;\n}</pre><p>Which of the following best describes the behaviour of the above program?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>No memory leak; &lt;code&gt;p&lt;/code&gt; is freed properly<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only the last allocated block is freed; the rest are leaked<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<code>p</code> becomes a dangling pointer before <code>free()</code><br>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All 1000 allocations are freed correctly</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476679\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C code:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int x[2][3] = { {10, 20, 30}, {40, 50, 60} };\nint *p = *(x + 1); \nprintf(\"%d\", *(p + 2));</pre><p>What will be the output of the above program?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$30$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$50$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$60$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Segmentation fault</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/476675\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following function<code>foo</code>:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int foo(int a, int b) {\n    if (a &lt; b) {\n        return b;\n    }\n    int diff = a - b;\n    return foo(diff, b - 1) + foo(diff, b + 1);\n}</pre><p>Which one of the following statements best describes the function <code>foo</code>in the above code?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Causes a runtime error because functions in C cannot be recursive.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The function &lt;code&gt;foo&lt;/code&gt;is an example of an iterative method.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The value of &lt;code&gt;diff&lt;/code&gt; is shared across all recursive calls.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Each recursive call to &lt;code&gt;foo&lt;/code&gt; has its own local, temporary variable &lt;code&gt;diff&lt;/code&gt;.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/476674\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C code snippet:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">char *p = malloc(10);\nif (x &gt;= 10)\n    free(p);\nif (x &lt; 11)\n    free(p);</pre><p>Which of the following combinations of <code>x</code> value and bug name correctly describes the dangerous behavior in this code?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<code>x = 9</code>, Bug: Memory Leak<br>"
+    },
+    {
+     "key": "B",
+     "html": "<code>x = 10</code>, Bug: Double Free (i.e., the pointer <code>p</code> is freed twice)<br>"
+    },
+    {
+     "key": "C",
+     "html": "<code>x = 11</code>, Bug: Dangling Pointer<br>"
+    },
+    {
+     "key": "D",
+     "html": "<code>x = 5</code>, Bug: Invalid Allocation"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476671\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><strong>The following <code>C</code>program compiles and runs without errors. What is the output the program produces?</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    char test_str[50] = \"1010_fighting\";\n    char *str_ptr = &amp;test_str[2];\n    while (*str_ptr != '\\0')\n    {\n        printf(\"%c\", *(str_ptr++));\n    }\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$_fighting<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10$_fighting<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<span style=\"font-family: sans-serif, Arial, Verdana, Trebuchet MS, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;\">$1$</span><br>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1010$_fighting</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476667\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following <code>C</code> program compiles and runs without errors. What is the output the program produces?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int x = 7;\n    switch(x / 2)\n    {\n        case 1: printf(\"hangman\\n\");\n                break;\n        case 3: printf(\"pacman\\n\");\n                break;\n        case 7: printf(\"dave\\n\");\n                break;\n        default: printf(\"mario\\n\");\n    }\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>hangman<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>pacman<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>dave<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>mario</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476666\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following <code>C</code> program compiles and runs without errors. What is the output?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int i = 3, j = 2;\n    int x = (i++) * (--j);\n    int y = -(--j);\n    int z = (++i) * 5;\n    printf(\"%d %d %d\\n\", x, y, z);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$&nbsp; &nbsp;$0$&nbsp; &nbsp;$25$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$3$&nbsp; &nbsp;$-1$&nbsp; &nbsp;$20$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6$&nbsp; &nbsp;$-2$&nbsp; &nbsp;$15$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$&nbsp; &nbsp;$-1$&nbsp; &nbsp;$20$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/476665\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>You compile and run the following <code>C</code> program. What is the output?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint i; /* global variable */\nvoid plusplus(int i)\n{\n    i++;\n}\nint main(void)\n{\n    for (i = 0; i &lt; 10; plusplus(i))\n    {\n    }\n    printf(\"i = %d\\n\", i);\n    return 0;\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>i = $9$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>i = $10$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>i = $11$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There will be an infinite loop.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/476663\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given an incomplete C program shown below,&nbsp;which one of the following answer choices can NOT be a valid prototype for myfunc?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include&lt;stdio.h&gt;\n/* missing prototype */\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int result;\n&nbsp;&nbsp;&nbsp;&nbsp;int a[5][5] = {{1}};\n&nbsp;&nbsp;&nbsp;&nbsp;result = myfunc(a);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"result = %i \\n\", result);\n}\n/* code for myfunc goes here */\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$int \\quad myfunc (int \\quad a[][5]);$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$int \\quad myfunc (int\\quad a[5][]);$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$int \\quad myfunc (int\\quad b[5][5]);$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$int \\quad myfunc (int\\quad [5][5]);$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476662\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following <code>C</code> program compiles and runs without errors. What is the output?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint i = -12; /* global variable */\nvoid myfunc(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int i = -10;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n}\nvoid myfunc2(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;i = -10;\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n&nbsp;&nbsp;&nbsp;&nbsp;myfunc();\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n&nbsp;&nbsp;&nbsp;&nbsp;myfunc2();\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", i);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$-12$,<br>$-10$,<br>$-10$,<br>$-10$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$-12$,<br>$-10$,<br>$-12$,<br>$-10$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$-12$,<br>$-12$,<br>$-12$,<br>$-10$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$-12$,<br>$-12$,<br>$-12$,<br>$-12$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476661\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume that the code fragment shown below is put in a complete C program that compiles and runs without errors. Further assume that when the program is running, the address of the variable named ptr is \\(1000\\) and the address of the variable named \\(\\mathbf{x}[\\mathbf{0}]\\) is \\(1008\\). After the code fragment executes, what is the value of *ptr?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int *ptr;\nint x[3] = {1016, 1024, 1032};\nptr = x;</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1000$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1008$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$1016$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1024$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/476659\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following C program compiles and runs without errors. What is the output produced by this program?<br> </p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int x = 0;\nvoid swap(int x, int *y) {\n&nbsp;&nbsp;&nbsp;&nbsp;int temp = x;\n&nbsp;&nbsp;&nbsp;&nbsp;x = *y;\n&nbsp;&nbsp;&nbsp;&nbsp;* y = temp;\n}\nint main(void) {\n&nbsp;&nbsp;&nbsp;&nbsp;int x = 1;\n&nbsp;&nbsp;&nbsp;&nbsp;int y = 2;\n&nbsp;&nbsp;&nbsp;&nbsp;swap(x, &amp;y);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"x = %d y = %d \\n\", x, y);\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x=1 \\quad y=1$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x=1 \\quad y=2$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x=2 \\quad y=1$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x=2 \\quad y=2$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/476656\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following program compiles and runs without errors. What is the output of the program?<br> </p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include&lt;stdio.h&gt;\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int arr[5] = {2, 4, 6, 8, 10};\n&nbsp;&nbsp;&nbsp;&nbsp;int *ptr = arr;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d \", *ptr + 1);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\\n\", *(ptr + 1));\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$44$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$35$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$34$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$46$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/476655\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of this program?<code> </code></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint main() {\n    char string[10] = \"abcdefgh\", *p = string, ch;\n    while (*p != '\\0') {\n        ch = *p++;\n        *p++ = ch;\n    }\n    printf(\"%s\\n\", string);\n    return 0;\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>abcdefgh<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>aacceegg<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>bbcddffh<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476690\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following number line showing a specific range where the line is bold. Filled circles represent points that are included in the range, and hollow circles represent points that are not included.</p><p> </p><p><img alt=\"\" width=\"361\" height=\"33\" src=\"media/2b/2b1f27bdc0d14e293c09.png\"><br><br>Which one of the following conditions results in true if n is in the range shown and false otherwise?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{n}&gt;-7| | \\mathrm{n}&lt;3 \\& \\& \\mathrm{n}==5 \\& \\& \\mathrm{n}==7$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{n}&gt;-7| | \\mathrm{n}&lt;3| | \\mathrm{n}==5| | \\mathrm{n}==7$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{n}&gt;-7 \\& \\& \\mathrm{n}&lt;3 \\& \\& \\mathrm{n}==5| | \\mathrm{n}==7$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{n}&gt;-7 \\& \\& \\mathrm{n}&lt;3$ || $\\mathrm{n}==5$ || $\\mathrm{n}==7$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/476689\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C function:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">char* func(char* str) {\n    char* ret = (char*) ((long*) ((int*) str + 2) + 1) + 3;\n    return ret;\n}</pre><p>Assume the following:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">sizeof(char) = 1 byte\nsizeof(int) = 4 bytes\nsizeof(long) = 8 bytes</pre><p>Which of the following expressions is/are equivalent to the \"ret\" variable?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>str + $6$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>str + $19$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&amp;(str[$19$])<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>str[$19$]</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/476687\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following two blocks of code, which are contained in separate files:</p><p><strong>main.c&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">\nvoid foo(); \n\nint i = 0;\nint main() {\n    foo();\n    return 0;\n}</pre><p><strong>foo.c&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 1;\nvoid foo() {\n    printf(\"%d\", i);\n}</pre><p>What will happen when you attempt to compile, link, and run this code?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It will fail to compile.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It will fail to link.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It will print &quot;$0$&quot;.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It will print &quot;$1$&quot;.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/476685\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><strong>Code&nbsp;</strong></p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int main() {\n    int i = 0, j, count = 0;\n    for (j = -2; j &lt;= 4; j++) {\n        if ((j &gt; 1) || (i++ &amp;&amp; j == 0))\n            count += j;\n    }\n    count += i;\n    printf(\"%d\\n\", count);\n    return 0;\n}</pre><p>What is the output of the program?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$12$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$13$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$15$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/476677\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following C program:</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int mystery(int a[]) {\n    a[1] = -3;\n    a = malloc(4 * sizeof(int));\n    a[3] = -2;\n    return a[2];\n}\nint main() {\n    int array[] = {9, 8, 7, 6};\n    array[2] = mystery(array);\n    for (int i = 0; i &lt; 4; i++)\n        printf(\"%d \", array[i]);\n}</pre><p>What will be the output of the above program?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$9$ $-3$ $0$ $6$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$9$ $-3$ $7$ $-2$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$9$ $-3$ $7$ $6$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$9$ $8$ $0$&nbsp; $6$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/476673\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What will be the output of the following program?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">void g(int **x, int *y, int *z) {\n    **x = 10;\n    *x = z;\n    printf(\"%d %d %d\", **x, *y, *z);\n}\nvoid f(int *q, int n, int *p) {\n    n = n + 2;\n    *p = *p * *q;\n    g(&amp;q, &amp;n, p);\n}\nint main() {\n    int a = 7, b = 2;\n    f(&amp;a, b, &amp;b);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$14$&nbsp; $4$&nbsp; $14$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10$&nbsp; $4$&nbsp; $14$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$14$&nbsp; $2$&nbsp; $14$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$10$&nbsp; $2$&nbsp; $14$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/476672\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>You are given the following variable declarations of <code>p</code> and <code>q</code>:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">/* Declaration */\n\ndouble p = 25.50, q = 10.00;</pre><p>Which of the following <code>if</code> statements will <strong>NOT</strong> print&nbsp;<code>Yes</code>?<br><br><em>Hint: Look carefully at the semicolons (;)</em></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (p &gt;= 30 &amp;&amp; q &lt; 30);\n    printf(\"Yes\");</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (q == 25.00 || 10.00)\n    printf(\"Yes\");</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (!p &amp;&amp; q &lt; 30)\n    printf(\"Yes\");</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">if (p == 10.00 || q != 25.50)\n    printf(\"Yes\");</pre>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/476669\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following C program compiles and runs without errors. What is the output the program produces?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int test[3][2] = {{2, 3}, {4, 5}, {6, 7}};\n    int i = 0, j = 0;\n    printf(\"%d \", test[++i][j++]);\n    printf(\"%d\", test[i++][--j]);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3$&nbsp; $0$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$4$&nbsp; $0$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$&nbsp; $3$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$&nbsp; $4$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/476668\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following <code>C</code>program compiles and runs without error. What is the output?</p><pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">#include &lt;stdio.h&gt;\nint main(void)\n{\n    int x = 10, y = 5;\n    switch(x + y)\n    {\n        case 10: x += 5;\n                 y += 5;\n        case 15: x -= 5;\n                 y += 5;\n        case 5:  x += 5;\n                 y += 5;\n        default: x = 5;\n                 y = 10;\n    }\n    printf(\"%d %d\", x, y);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10$&nbsp; &nbsp;$15$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$10$&nbsp; &nbsp;$5$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$5$&nbsp; &nbsp;$10$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$15$&nbsp; &nbsp;$20$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/476664\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following <code>C</code> program compiles and runs without errors. What is the output?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nvoid swap(int* a, int* b, int* c)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int* temp = c;\n&nbsp;&nbsp;&nbsp;&nbsp;* c = *b;\n&nbsp;&nbsp;&nbsp;&nbsp;* b = *a;\n&nbsp;&nbsp;&nbsp;&nbsp;* a = *temp;\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int x, y, z;\n&nbsp;&nbsp;&nbsp;&nbsp;x = 1;\n&nbsp;&nbsp;&nbsp;&nbsp;y = 2;\n&nbsp;&nbsp;&nbsp;&nbsp;z = 3;\n&nbsp;&nbsp;&nbsp;&nbsp;swap(&amp;x, &amp;y, &amp;z);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"x = %d y = %d z = %d\\n\", x, y, z);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$x=3 \\quad y=2 \\quad z=1$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$x=3 \\quad y=2 \\quad z=2$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$x=1 \\quad y=2 \\quad z=3$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$x=2 \\quad y=1 \\quad z=2$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/476660\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following C program compiles and runs without errors. What is the output?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nvoid swap(int count, int A[], int B[])\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int i, temp;\n&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt; count; ++i)\n&nbsp;&nbsp;&nbsp;&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;temp = A[i];\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A[i] = B[i];\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B[i] = temp;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int A[5] = {1, 6, 4, 5, 9};\n&nbsp;&nbsp;&nbsp;&nbsp;int B[5] = {2, 7, 11, 14, 3};\n&nbsp;&nbsp;&nbsp;&nbsp;int C[7] = {1, 8, 15, 22, 29, 2, 9};\n&nbsp;&nbsp;&nbsp;&nbsp;swap(3, A, B);\n&nbsp;&nbsp;&nbsp;&nbsp;swap(4, B, C);\n&nbsp;&nbsp;&nbsp;&nbsp;swap(5, A, C);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d %d %d\\n\", A[3], B[4], C[5]);\n&nbsp;&nbsp;&nbsp;&nbsp;return;\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&nbsp;$4\\quad22\\quad9$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;$14\\quad3\\quad2$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&nbsp;$5\\quad3\\quad2$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&nbsp;$14\\quad29\\quad2$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/476658\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following loops produces the same value for the variable x as the loop shown below?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int i, x = 0;\nfor(i = 0; i &lt;= 100; ++i)\n&nbsp;&nbsp;&nbsp;&nbsp;x += i;\nprintf(\"x = %d \\n\", x); /* prints x = 5050 */\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\nwhile (i &lt;= 100)\n&nbsp;&nbsp;&nbsp;&nbsp;x += i;\nprintf(\"x = %d\\n\", x);</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\ndo {\n&nbsp;&nbsp;&nbsp;&nbsp;x += i;\n} while (i &lt;= 100);\n++i;\nprintf(\"x = %d\\n\", x);</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\nwhile (i &lt;= 100) {\n&nbsp;&nbsp;&nbsp;&nbsp;x += i++;\n}\nprintf(\"x = %d\\n\", x);</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre data-pbcklang=\"\" data-pbcktabsize=\"\" class=\"prettyprint linenums lang-\">int i = 0, x = 0;\nwhile (i &lt;= 100) {\n&nbsp;&nbsp;&nbsp;&nbsp;x += ++i;\n}\nprintf(\"x = %d\\n\", x);</pre>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/476657\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following program compiles and runs without errors. What is the output of the program?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nvoid rec(char str[], int n)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;if(n &lt; 1)\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%c\", str[n - 1]);\n&nbsp;&nbsp;&nbsp;&nbsp;rec(str, n - 1);\n}\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;char str[] = \"0123456789\";\n&nbsp;&nbsp;&nbsp;&nbsp;rec(str, 5);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$01234$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$56789$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$98765$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$43210$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/476654\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following <code>C</code>program compiles and runs without errors. What is the output produced by this program?<br> </p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdio.h&gt;\nint main(void)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int a[] = {10, 20, 30, 40, 50};\n&nbsp;&nbsp;&nbsp;&nbsp;int *c;\n&nbsp;&nbsp;&nbsp;&nbsp;int *b = a;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d \", *(b++));\n&nbsp;&nbsp;&nbsp;&nbsp;c = b;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d \", ++(*c));\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10\\quad21$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$20\\quad21$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10\\quad20$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$11\\quad20$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/476653\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 45.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 45,
+  "types": {
+   "MCQ": 29,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

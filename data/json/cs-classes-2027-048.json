@@ -1,0 +1,958 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-048",
+ "title": "DVRUO Classes Test Series | DBMS | Subject Wise Test 1",
+ "sourceTitle": "DVRUO Classes Test Series | DBMS | Subject Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 48,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/079_exam_1354_GO Classes Test Series DBMS Subject Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><span style=\"display: none;\" id=\"cke_bm_92S\">&nbsp;</span>&nbsp;</p><p><img alt=\"\" width=\"334\" style=\"max-width: 100%;\" src=\"media/a7/a7574900df938a5e3b57.png\"><br>Determine the result of:<br>\\[<br>\\begin{array}{l}<br>\\texttt{SELECT COUNT(*), COUNT(Runs)} \\\\<br>\\texttt{FROM Scores} \\\\<br>\\texttt{WHERE Team = 'Carp'}<br>\\end{array}<br>\\]<br>Which of the following is in the result:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(1,0)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(2,0)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(2,\\text{NULL})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(0,0)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"451216\"></a><div itemprop=\"text\">carp is in list 2 times so count(*) gives 2.<br>\n<br>\ncount(runs): count removes NULL <br>\n<br>\n&nbsp;<br>\n<br>\nhence answer is (2,0)</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"505793\"></a><div itemprop=\"text\">AGGREGATE FUNCTION IGNORES NULL VALUES THEY NEVER COUNT</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"538070\"></a><div itemprop=\"text\"><p><code>COUNT(*)</code> counts all rows satisfying the <code>WHERE</code> condition, whereas <code>COUNT(Runs)</code> counts only non-NULL values in the <code>Runs</code> column. Since <code>Team = 'Carp'</code> matches 2 rows, and both have <code>Runs = NULL</code>, the result is: $(2, 0)$</p><p><strong>Answer: B</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/439468\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The join operation can be defined as</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>a cartesian product of two relations followed by a selection</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>a cartesian product of two relations</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>a union of two relations followed by cartesian product of the two relations</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>a union of two relations</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"471726\"></a><div itemprop=\"text\">Correct answer: Option A<br>\n<br>\nIn relational algebra, a join operation is typically implemented as a cartesian product of two relations (tables), followed by a selection<br>\n(filtering rows based on a condition). This process combines tuples from two relations based on a related attribute.</div></section></div><p><a href=\"https://gateoverflow.in/439466\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose R is a relation with attributes $A1, A2, ... , A6.$<br>\nHow many superkeys $R$ has, if the only keys are $\\{\\mathrm{A} 1, \\mathrm{~A} 2\\}$ and $\\{\\mathrm{A} 1, \\mathrm{~A} 3\\}$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"443220\"></a><div itemprop=\"text\"><p>We can also do it with set theory</p><p>|A Union B |= |A|+ |B| - |A intersection B|</p><p>superset of candidate key is super key.</p><p>so |A| = No. of superkeys containing CK (A1,A2 )is <strong>2^4&nbsp;</strong> (bcoz for the remaining 4 attributes we have 2 choices either to include or not)</p><p>|B|=No. of superkeys containing CK (A1,A3 )is<strong> 2^4</strong>&nbsp; (bcoz for the remaining 4 attributes we have 2 choices either to include or not)</p><p>|A intersection B|=No. of superkeys containing CK (A1,A2,A3 )is <strong>2^3&nbsp;</strong> (bcoz for remaining 3 attributes we have 2 choices either to include or not)</p><p>so&nbsp;|A Union B |= 2^4 + 2^4 - 2^3=24</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"516833\"></a><div itemprop=\"text\">CK: {A1, A2}. Remaining keys: {A3, A4, A5, A6} =&gt; Superkeys = 16<br>\nCK: {A1, A3}. Remaining keys: {A2, A4, A5, A6} =&gt; Superkeys = 16<br>\n<br>\nTotal = 16 + 16 = 32<br>\n<br>\nThere will be double countin for some superkeys. Specifically the superkeys which contain {A1, A2, A3} in them. So we need to subtract all superkeys which contain this set of attributes.<br>\n<br>\nCK: {A1, A2, A3} , Remaining keys: {A4, A5, A6} =&gt; Superkeys = 8<br>\n<br>\n&nbsp;<br>\n<br>\nTotal = 32 - 8 (For double counting) = 24</div></section></div><p><a href=\"https://gateoverflow.in/439464\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a relation $\\mathrm{R}(\\mathrm{A}, \\mathrm{B})$ that contains $r$ tuples, and a relation $\\mathrm{S}(\\mathrm{B}, \\mathrm{C})$ that contains s tuples; assume $r&gt;0$ and $s&gt;0$. Make no assumptions about keys $\\&amp;$ assume that the domain of all attributes is integers.</p><p>Consider the following queries:</p><ul><li>$\\text{Q1: R}&nbsp;\\cup \\rho_{\\text{S(A, B})} \\text{S}$</li><li>$\\text{Q 2}: \\pi_{\\text{A, C}}(\\text{R} \\bowtie&nbsp;\\text{S})$</li></ul><p>For a relational algebra expression $\\mathrm{Q}$, Let $\\min (\\mathrm{Q}), \\max (\\mathrm{Q})$ be the minimum and the maximum number of tuples that could be in the result of the expression $\\mathrm{Q}.$</p><p>Which of the following is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\min (\\mathrm{Q} 1)=\\min (\\mathrm{r}, \\mathrm{s}) ; \\min (\\mathrm{Q} 2)=0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\min (\\mathrm{Q} 1)=\\max (\\mathrm{r}, \\mathrm{s}) ; \\min (\\mathrm{Q} 2)=0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\max (\\mathrm{Q} 1)=\\mathrm{r}+\\mathrm{s} ; \\max (\\mathrm{Q} 2)=\\mathrm{rs}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\max (\\mathrm{Q} 1)=\\max (\\mathrm{r}, \\mathrm{s}) ; \\max (\\mathrm{Q} 2)=\\mathrm{rs}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"393040\"></a><div itemprop=\"text\">$\\text{Q1.}$ Minimum $=\\max (\\mathrm{r}, \\mathrm{s})$ (if one relation is a subset of the other) Maximum $=r+s$ (if the relations are disjoint)<br>\n<br>\n$\\text{Q2}.$ Minimum $=0$ (if there are no shared $\\text{B}$ values) Maximum $=\\mathrm{r} \\times \\mathrm{s}$ (if all of the $\\mathrm{B}$ values are the same)</div></section></div><p><a href=\"https://gateoverflow.in/393039\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A simple way to detect a state of deadlock is to construct a wait-for graph. One node is created in the graph for each transaction that is currently executing in the schedule. Whenever a transaction $\\text{T}_{i}$ is waiting to lock an item $\\text{X}$ that is currently locked by a transaction $\\mathrm{T}_{j}$, it creates a directed edge $(\\text{T}_i \\# \\text{T}_j).$ When $\\text{T}_{j}$ releases the lock(s) on the items that $\\text{T}_{i}$ was waiting for, the directed edge is dropped from the waiting-for graph.</p><p>Given the graph below, identify the deadlock situations.</p><p style=\"text-align:center\"><img alt=\"\" height=\"247\" width=\"674\" src=\"media/86/86a8667c2b0eeaef7e2c.png\"></p><p><br>Which of the above wait-for graph represents a deadlock situation?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only $3,4$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only $1$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only $2,3,4$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>ALL</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"393038\"></a><div itemprop=\"text\">We have a state of deadlock if and only if the wait-for graph has a cycle.</div></section></div><p><a href=\"https://gateoverflow.in/393037\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relational schema $(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$ with Functional Dependencies set $\\text{F}=\\{\\text{A} \\rightarrow&nbsp;\\text{B, B} \\rightarrow&nbsp;\\text{AC, C} \\rightarrow&nbsp;\\text{B}\\};$</p><p>Which of the following Functional Dependencies set is equivalent to $\\text{F}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\{\\text{A} \\rightarrow \\text{B, B} \\rightarrow \\text{C, C} \\rightarrow \\text{A}\\}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\{\\mathrm{A} \\rightarrow \\mathrm{C}, \\mathrm{B} \\rightarrow \\mathrm{A}, \\mathrm{C} \\rightarrow \\mathrm{B}\\}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\{\\mathrm{A} \\rightarrow \\mathrm{BC}, \\mathrm{B} \\rightarrow \\mathrm{A}, \\mathrm{C} \\rightarrow \\mathrm{A}\\}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\{\\mathrm{A} \\rightarrow \\mathrm{C}, \\mathrm{B} \\rightarrow \\mathrm{C}, \\mathrm{C} \\rightarrow \\mathrm{AB}\\}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 6)</small></h4><a name=\"392979\"></a><div itemprop=\"text\">All are equivalent to each other. The best way to check it is finding the closure of each attribute in the given FD sets.</div></section></div><p><a href=\"https://gateoverflow.in/392978\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the schedule<br>$$<br>\\text{S}=\\left\\{\\text{R}_1\\text{(A)}, \\text{R}_2(\\text{B}), \\text{W}_2\\text{(A)}, \\text{W}_1\\text{(A)}\\right\\}<br>$$<br>Assume that transaction $\\text{T}_1$ has started execution before the Transaction $\\text{T}_2$ then the schedule is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Allowed under Basic timestamp protocol but not under Thomas write rule</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Not allowed under Basic timestamp protocol but allowed under Thomas write rule</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Allowed under both Basic timestamp protocol and Thomas write rule</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Not allowed under both Basic timestamp protocol and Thomas write rule</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 7)</small></h4><a name=\"390860\"></a><div itemprop=\"text\"><p>$\\text{T}_1$ will be rolled back in basic timestamp protocol because of $\\text{W}_2\\text{(A)}-\\text{W}_1\\text{(A)}$ conflict as the equivalent serial schedule is $\\text{T}_1 \\rightarrow \\text{T}_2$, where as in Thomas write rule $\\text{W}_1\\text{(A)}$ is just ignored and $\\text{T}_1$ continues with its execution.</p>\n\n<p><strong>Watch the following two lectures to become master of Timestamp Protocol:</strong></p>\n\n<p><strong>Learn Timestamp Protocol Here:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=gM76xs2NEgE\" target=\"_blank\">Timestamp Protocol Summary &amp; 50 Questions with ALL GATE PYQs</a>&nbsp;</strong></p>\n\n<p>Also watch this Part 2:&nbsp;<strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=K1oKl7cZq5A\" target=\"_blank\">Timestamp Protocol Part 2 - Standard Questions</a>&nbsp;</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/390859\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given the $\\mathrm{E} / \\mathrm{R}$ diagram below</p><p style=\"text-align:center\"><img alt=\"\" height=\"101\" width=\"474\" src=\"media/04/0450097281c57c46a95e.png\"></p><p>Which of the following relations appear in the relational model representation of the diagram?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Courses(CID, title)</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Students(SID, name)</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Students(SID, name, CID)</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Enroll(SID, CID, grade)</pre>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 5)</small></h4><a name=\"389630\"></a><div itemprop=\"text\">The given relationship “enroll” is many to many, with both sides having partial participation.<br>\nSo, A,B,D will be the relations in relational model.</div></section></div><p><a href=\"https://gateoverflow.in/389629\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Codd's rule of physical data independence is that</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>all information in the database is to be represented in one and only one way, namely by values in column positions within rows of tables.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>all views that are theoretically updatable must be updatable by the system.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>changes that are made to the physical storage representations or access methods must not require changes be made to application programs.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>changes that are made to tables that do not modify any of the data already stored in the tables must not require changes be made to application programs.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"389628\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/nSAl7ngCyjw\">Explanation here! </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/389627\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\text{R}_1, \\text{R}_2, \\ldots, \\text{R}_n$ be a decomposition of schema $\\text{U}$. Let $u(\\text{U)}$ be a relation, and let $r_i=\\prod_{R_\\text{I}}(u)$.<br>Which of the following is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$u \\subseteq r_1 \\bowtie r_2 \\bowtie \\cdots \\bowtie r_n$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$u=r_1 \\bowtie r_2 \\bowtie \\cdots \\bowtie r_n$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$u \\supseteq r_1 \\bowtie r_2 \\bowtie \\cdots \\bowtie r_n$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$u \\neq r_1 \\bowtie r_2 \\bowtie \\cdots \\bowtie r_n$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"388736\"></a><div itemprop=\"text\"><ul>\n\t<li>Option A is True for ALL Decompositions.</li>\n\t<li>Option B is True only for Lossless Decompositions.</li>\n\t<li>Option C is Never True, unless it equal.</li>\n\t<li>Option D is True for lossy Decompositions.</li>\n</ul>\n\n<p><strong>Definition.</strong> Formally, a decomposition $\\text{D}=\\left\\{\\text{R}_1, \\text{R}_2, \\ldots, \\text{R}_m\\right\\}$ of $\\text{R}$ has the<strong> lossless (non-additive) join property</strong> with respect to the set of dependencies $\\text{F}$ on $\\text{R}$ if, for <em>every</em> relation state $r$ of $\\text{R}$ that satisfies $\\text{F}$, the following holds, where $\\ast$ is the $\\textsf{NATURAL JOIN}$ of all the relations in $\\text{D}: \\ast\\left(\\pi_{\\text{R}_1}(r), \\ldots, \\pi_{\\text{R}_m}(r)\\right)=r$.</p>\n\n<p>Let $\\text{R}$ be a relation schema and let $\\text{F}$ be a set of $\\text{FDs}$ over $\\text{R}$. A decomposition of $\\text{R}$ into two schemas with attribute sets $\\text{X}$ and $\\text{Y}$ is said to be a <strong>lossless-join decomposition with respect to</strong> $\\mathbf{F}$ if for every instance $r$ of $\\text{R}$ that satisfies the dependencies in $\\text{F}, \\pi_\\text{X}(r) \\bowtie \\pi_\\text{Y}(r)=r$.<br>\n<br>\nThis definition can easily be extended to cover a decomposition of $\\text{R}$ into more than two relations. It is easy to see that $r \\subseteq \\pi_\\text{X}(r) \\bowtie \\pi_\\text{Y}(r)$ always holds. In general,</p></div></section></div><p><a href=\"https://gateoverflow.in/388735\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given a database relation schema $\\mathrm{R}(\\mathrm{A} 1, \\mathrm{~A} 2, \\ldots, \\mathrm{A}n)$ and a set of functional dependencies $\\text{F}$ which hold true on $\\mathrm{R}$. Consider the following algorithm :</p><p>$\\text{Step 1}:$<br>Construct a list $\\mathrm{L}$ consisting of all non-empty subsets of $\\{\\mathrm{A} 1, \\ldots, \\text{A}n \\}$ (there are $2^n-1$ of them). These subsets are arranged in $\\text{L}$ in ascending order of the size of the subset: We get $\\mathrm{L}=\\langle\\mathrm{Z} 1, \\mathrm{Z} 2, \\ldots, \\mathrm{Z}m\\rangle$, where $\\mathrm{m}$ $=2^n-1$, such that $|Z i| \\leq|Z(i+1)|$.<br>Here $|\\mathrm{Zi}|$ denotes the number of elements in the set $\\mathrm{Zi}$.</p><p>$\\text{Step 2}:$<br>Initialize the set $\\text{K}=\\{\\}$.<br>While $\\text{L}$ is not empty:<br>remove the first element $\\mathrm{Zi}$ from $\\mathrm{L}$, and compute $\\mathrm{Zi}^{+}$. (Where $\\mathrm{X}^{+}$ denotes closure of $\\mathrm{X})$<br>If $\\mathrm{Zi}^{+}=\\mathrm{R}$, then</p><ol start=\"1\" style=\"list-style-type:lower-alpha\"><li>Add $\\text{Z}i$ to $\\mathrm{K}$</li><li>Remove any element $\\mathrm{Zj}$ from $\\mathrm{L}$ if $\\mathrm{Zi} \\subset \\mathrm{Zj}$.</li></ol><p>$\\text{Step 3}:$<br>Output $\\text{K}$ as the final result.</p><p>What is $\\mathrm{K}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Set of all super keys</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Set of all candidate keys</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Set of all non-candidate keys</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Set of all super keys which are not candidate keys</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"392981\"></a><div itemprop=\"text\"><p>A candidate key of a relation schema $\\mathrm{R}$ is a subset $\\mathrm{X}$ of the attributes of $\\mathrm{R}$ with the following two properties:</p>\n\n<ol>\n\t<li>Every attribute is functionally dependent on $\\mathrm{X}$, i.e., $\\mathrm{X}^{+}=$all attributes of $\\mathrm{R}$ (also denoted as $\\mathrm{X}^+=\\mathrm{R}).$</li>\n\t<li>No proper subset of $\\text{X}$ has the property $(1),$ i.e., $\\text{X}$ is minimal with respect to the property $(1).$</li>\n</ol>\n\n<p>A sub-key of $\\text{R}:$ a subset of a candidate key;<br>\na super-key: a set of attributes containing a candidate key;<br>\nSince each candidate key must be a minimal subset $\\mathrm{Z}$ of $\\{\\mathrm{A1}, \\ldots, \\mathrm{A}n\\}$ such that $\\mathrm{Z}^+=\\mathrm{R},$&nbsp;the given algorithm computes set of all CKs.</p></div></section></div><p><a href=\"https://gateoverflow.in/392980\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A $\\text{B+ Tree}$ of order $d$ has $d$ to $2d$ tree pointers in every non-root node. The $\\text{B+ Tree}$ drawn below has order $3$ and contains&nbsp;a number of errors.&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"548\" style=\"max-width: 100%;\" src=\"media/85/851ce46b622e1df71533.png\"></p><p>Which of the following options correctly describe the errors?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The internal node containing only $“4”$ is underfull.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The value $“7”$ is in the left subtree of the root, but should be in the right subtree.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The internal node containing $“11,15”$ is underfull.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The root node is underfull.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"538076\"></a><div itemprop=\"text\"><p>The given $\\text{B+ Tree}$ has order $3$: i.e. max $6$ tree pointers and min $3$ tree pointers per non-root node. Also, max $5$ search keys and min $2$ search keys per non-root node</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>TRUE. The internal node containing only $“4”$ is underfull. It has $2$ pointers, less than the&nbsp;minimum of $3$ (which is half the maximum of $6$).&nbsp;</li><li>TRUE. The value $“7”$ is in the left subtree of the root, but should be in the right subtree,&nbsp;since the key in the root node is $6$ and $7 &gt; 6$.&nbsp;</li><li>FALSE. The internal node containing $“11, 15”$ is not underfull, because it contains $3$ pointers to child nodes, which is exactly half the maximum ($6$ pointers).&nbsp;</li><li>FALSE. The root node is not underfull because the root node is specially permitted to be less than half full.</li></ol><p>Note that the presence of the key $“11”$ which is not present in any leaf is&nbsp;not an error (internal nodes may contain values which were once present in leaves but have since been deleted).&nbsp;</p><p>Following is a correct new $\\text{B+ Tree}$ over the same data entries:</p><p style=\"text-align:center\"><img alt=\"\" width=\"589\" style=\"max-width: 100%;\" src=\"media/ee/eee85fec3aedb9ef52c6.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/392976\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following database relations :<br><strong>Enrolled(Student, Course):</strong> It contains the courses that each student has enrolled into,<br>and<br><strong>ToDo(Course):</strong> It contains the courses that are required to graduate.<br>The instance for Enrolled relation is shown below:<br>$$<br>\\begin{array}{|c|c|}<br>\\hline&nbsp;\\textbf{Student} &amp; \\textbf{Course} \\\\<br>\\hline&nbsp;\\text{Robert} &amp; \\text{Databases} \\\\<br>\\text{Robert} &amp; \\text{Programming Languages} \\\\<br>\\text{Susie} &amp; \\text{Databases} \\\\<br>\\text{Susie} &amp; \\text{Operating Systems} \\\\<br>\\text{Julie} &amp; \\text{Programming Languages} \\\\<br>\\text{Julie} &amp; \\text{Machine Learning} \\\\<br>\\text{Emilie} &amp; \\text{Operating Systems} \\\\<br>\\hline<br>\\end{array}<br>$$<br>The instance for ToDo relation is shown below:<br>$$<br>\\begin{array}{|c|}<br>\\hline&nbsp;\\textbf{Course} \\\\<br>\\hline&nbsp;\\text{Databases} \\\\<br>\\text{Programming Languages} \\\\<br>\\hline<br>\\end{array}<br>$$<br>We run the following SQL Query of this database :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT Student FROM Enrolled\nEXCEPT\nSELECT Student FROM (\n                    SELECT Student, Course\n                    FROM (select Student FROM Enrolled), ToDo\n                    EXCEPT\n                    SELECT Student, Course FROM Enrolled);\n</pre><p><br>How many tuples will be there in the output of this SQL Query?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 1</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"392975\"></a><div itemprop=\"text\"><p>The given query Finds the names of&nbsp;all students who can graduate (i.e., who have taken all ToDo courses).<br>Just by running the query for the given instances, it is easy to see that the answer we get is:<br>$$<br>\\begin{array}{|c|}<br>\\hline&nbsp;\\textbf{Student} \\\\<br>\\hline&nbsp;\\text{Robert} \\\\<br><br>\\hline<br>\\end{array}<br>$$</p><p>NOTE that for the&nbsp;set union (UNION), set difference (EXCEPT),&nbsp;and set intersection (INTERSECT) operations of SQL, the relations resulting from these set operations are sets of tuples; that is, duplicate tuples are eliminated from the result. So, answer will be 1, Not 2.</p><p><strong>More About the given query:</strong><br>There is a relational operator that directly gives us this result. The operator is division, written $\\mathrm{R} \\div \\mathrm{S}$.<br>Unfortunately, there is no direct way to express division in SQL. We can write this query, but to do so, we will have to express our query through double negation and existential quantifiers. We will produce this query in stages. Our roadmap is as follows</p><ol><li>Find all students</li><li>Find all students and the courses required to graduate</li><li>Find all students and the required courses that they have not taken</li><li>Find all students who can not graduate</li><li>Find all students who can graduate</li></ol><p>So, that's what has been done in the given query. Hence, the answer is $1.$</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"492252\"></a><div itemprop=\"text\">Since this query is not using distinct operator it will select robert two times right?<br>\n<br>\n&nbsp;</div></section></div><p><a href=\"https://gateoverflow.in/392974\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following set of relations:</p><p>$\\text{EMP}(\\underline{\\textsf{eno}}, \\textsf{ename, dno)}$<br>$\\textsf{DEPT}( \\underline{\\textsf{dno}}, \\textsf{dname)}$</p><p>Primary key columns are underlined and $\\textsf{dno}$ in $\\textsf{EMP}$ is a foreign key referring primary key of $\\textsf{DEPT}$ table.<br>Now consider the following queries:</p><p>$\\textbf{QUERY : 1}$</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT * \nFROM emp e, dept d\nWHERE e.dno = d.dno;</pre><p>$\\textbf{QUERY : 2}$</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT * \nFROM emp NATURAL JOIN dept;</pre><p>Then which of the following statements are TRUE regarding the above queries?</p><ol style=\"list-style-type:upper-roman\"><li>Both Query $:1$ and Query $:2$ returns same no of rows.</li><li>Both Query $:1$ and Query $:2$ returns same no of columns.</li><li>Both Query $: 1$ and Query $:2$ returns different no of rows.</li><li>Both Query $:1$ and Query $:2$ returns different no of columns.</li></ol><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>I, II only</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>I, IV only</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>II, III only</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>III, IV only</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 20)</small></h4><a name=\"390813\"></a><div itemprop=\"text\">EQUI JOIN (vs) NATURAL JOIN Both returns same no of rows. But in Natural Join, the common columns will exist only ONCE, where as in Equi Join, the common columns repeats twice one for each table.</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"508942\"></a><div itemprop=\"text\"><p><strong>Col in Equi Join</strong> = (EMP.eno,EMP.ename,EMP.dno,DEPT.dno,DEPT.name)</p><p><strong>Col in Natural Join</strong> = (EMP.eno,EMP.ename,EMP.dno,DEPT.dname)</p><p><strong>So diffrent col But same rows</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/390812\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume we have two relations $\\mathrm{R}(\\mathrm{A}, \\mathrm{B})$ and $\\mathrm{S}(\\mathrm{B}, \\mathrm{C})$. All three attributes $\\text{(A, B, C)}$ are integer attributes. Assume that Relation $\\mathrm{R}$ contains the following tuples: $(1,2),(2,3)$, and $(3,4)$. Assume that relation $\\text{S}$ contains the following tuples $(2,2),(2,3)$, and $(5,1)$. Note that $\\text{“}\\times \\text{”}$ &nbsp;is Natural join, in following expressions.</p><p>Which of the following relational algebra expressions are equivalent, with respect to above information?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\pi_\\text{A}\\left(\\sigma_{\\text{B}=1}(\\text{R})\\right)$ and $\\sigma_{\\text{B}=1}\\left(\\pi_\\text{A}(\\text{R})\\right)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\pi_\\text{A}\\left(\\sigma_{\\text{A}=1}(\\text{R})\\right)$ and $\\sigma_{\\text{A}=1}\\left(\\pi_\\text{A}(\\text{R})\\right)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\pi_\\text{A, B}(\\text{R} \\times \\text{S})$ and $(\\pi_\\text{A, B}(\\text{R})) \\times \\text{S}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\sigma_{\\text{B}=1}(\\text{R} \\times \\text{S})$ and $\\left(\\sigma_{\\text{B}=1}(\\text{R})\\right) \\times \\text{S}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 14)</small></h4><a name=\"390811\"></a><div itemprop=\"text\"><p>Option A :</p>\n\n<ul>\n\t<li>$\\pi_\\mathrm{A}(\\sigma_{\\mathrm{B}=1}(\\mathrm{R}))$ will give output $\\mathrm{R} . \\mathrm{A}(\\mathrm{)}$ without any tuple.</li>\n\t<li>$\\sigma_{\\mathrm{B}=1}(\\pi_\\mathrm{A}(\\mathrm{R}))$ is invalid query.</li>\n</ul>\n\n<p>Option B :</p>\n\n<ul>\n\t<li>$\\pi_{\\mathrm{A}}(\\sigma_{\\mathrm{A}=1}(\\mathrm{R}))$ will give result $\\text{R.A(1)}$</li>\n\t<li>$\\sigma_{\\text{A}=1}(\\pi_{\\text{A}}(\\text{R}))$ will give result $\\text{R.A(1)}$</li>\n</ul>\n\n<p>Option C :</p>\n\n<ul>\n\t<li>$\\pi_\\text{A, B}(\\text{R} \\times \\text{S}):$ will give two columns in result, that is $\\text{(A, B)}$</li>\n\t<li>$v(\\pi_\\mathrm{A}, \\mathrm{B}(\\mathrm{R})) \\times \\mathrm{S}:$ will give three columns in result, that is $(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$</li>\n</ul>\n\n<p>Option D :</p>\n\n<ul>\n\t<li>$\\sigma_{\\mathrm{B}=1}(\\text{R} \\times \\text{S}):$ Will give empty result but three columns $\\text{(A, B, C)}$</li>\n\t<li>$(\\sigma_{\\mathrm{B}=1}(\\mathrm{R})) \\times \\mathrm{S}$ : Will give empty result but three columns $(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$.</li>\n</ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"538295\"></a><div itemprop=\"text\"><p>Main aim to check that if we identiify that in option A there is An Invalid query</p><p>&nbsp;<img alt=\"\" src=\"media/7c/7c00bc7db33774395168.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/390810\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the relations $\\mathbf{R}(\\underline{\\mathrm{A}}, \\mathrm{B}^\\ast)$ and $\\mathbf{S}(\\mathrm{A}^\\ast, \\underline{\\mathrm{B}})$, where $\\mathbf{R}$ has a foreign key referencing $\\mathbf{S}$ via $\\text{B},$&nbsp;and $\\mathbf{S}$ has a foreign key referencing $\\mathbf{R}$ via $\\text{A}.$<br>Which of the following is guaranteed to produce fewer than, or at most the same, number of tuples as any of the others?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathbf{R} \\bowtie \\mathbf{S}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathbf{R} \\cup \\mathbf{S}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathbf{R} \\bowtie \\pi_{\\mathrm{B}}(\\mathbf{S})$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\pi_{\\mathrm{A}}(\\mathbf{R}) \\bowtie \\mathbf{S}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"390809\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"503\" src=\"media/2a/2a46c66bc92eaafabd45.png\" width=\"683\"></p>\n\n<p>&nbsp;</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"520373\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"7\">Analysis of Relational Algebra Operations</h3><p data-path-to-node=\"8\">Regarding the relations $R(\\underline{A}, B^*)$ and $S(A^*, \\underline{B})$ with mutual foreign key constraints:</p><ul data-path-to-node=\"9\"><li><p data-path-to-node=\"9,0,0\"><b data-path-to-node=\"9,0,0\" data-index-in-node=\"0\">Option A ($R \\bowtie S$):</b> This is a natural join on both $A$ and $B$. For a tuple to be in the result, the values for both $A$ and $B$ must match in both relations.</p></li><li><p data-path-to-node=\"9,1,0\"><b data-path-to-node=\"9,1,0\" data-index-in-node=\"0\">Option B ($R \\cup S$):</b> A union is only possible if the relations are union-compatible (same schema). These are not, as their primary/foreign key designations differ.</p></li><li><p data-path-to-node=\"9,2,0\"><b data-path-to-node=\"9,2,0\" data-index-in-node=\"0\">Option C ($R \\bowtie \\pi_B(S)$):</b> This joins $R$ with the distinct values of $B$ in $S$. Since $B$ is a foreign key in $R$ referencing $S$, every tuple in $R$ must have a matching $B$ in $S$. The result size will be equal to the number of tuples in $R$.</p></li><li><p data-path-to-node=\"9,3,0\"><b data-path-to-node=\"9,3,0\" data-index-in-node=\"0\">Option D ($\\pi_A(R) \\bowtie S$):</b> This joins the distinct values of $A$ in $R$ with $S$. Since $A$ is a foreign key in $S$ referencing $R$, every tuple in $S$ must have a matching $A$ in $R$. The result size will be equal to the number of tuples in $S$.</p></li></ul><p data-path-to-node=\"10\"><b data-path-to-node=\"10\" data-index-in-node=\"0\">Conclusion:</b> The natural join <b data-path-to-node=\"10\" data-index-in-node=\"29\">$R \\bowtie S$ (Option A)</b> is guaranteed to produce the fewest (or at most the same) number of tuples because it requires matching on two columns simultaneously, whereas the others essentially perform a semi-join that preserves the full count of one of the original tables.</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543968\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"404\" height=\"469\" src=\"media/a7/a7980afdeb6ab52a83d7.png\"></p><p><strong><span style=\"background-color:#ffff00;\">Thus answer is Option A&nbsp;</span></strong></p></div></section></div><p><a href=\"https://gateoverflow.in/390808\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A $\\text{B-Tree}$ of order $m$ is an $m$-way search tree in which every node, except root node, has at least $m / 2$ children. The height of a one-level tree is defined to be $0,$ the height of a tree with two levels is defined to be $1,$ and so on. What is the minimum number of distinct keys (or records) stored in a $\\text{B Tree}$ of height $5$ and order $5?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 8)</small></h4><a name=\"391853\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/7d/7dfc52524e590ca3c522.jpg\">.</p></div></section><section><h4>Source solution 2 <small>(score: 4)</small></h4><a name=\"390794\"></a><div itemprop=\"text\"><p>We want MINIMUM number of KEYS in a $\\text{B-Tree}$ of order $m$ of height $h:$</p>\n\n<p>In such a tree, the root would have only&nbsp;$2$ children $(1$ key), since this is the minimum allowed for a root. All other nodes would have ceil $(m/ 2)$ children, and $\\text{ceil}(m/2) - 1$ keys.</p>\n\n<p>For convenience, let $c=\\mathrm{ceil}(m&nbsp;/ 2)$.</p>\n\n<p>In the below formula, $h$ is number of levels.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"233\" src=\"media/3b/3b66ecdb4afc21fc192c.png\" width=\"631\"></p>\n\n<p>Since, given height is $5$ so number of level is $6.$</p>\n\n<p>So, putting the values, we get $485$ keys total for minimum.</p></div></section></div><p><a href=\"https://gateoverflow.in/390793\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 18,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Two more exotic relational algebra operators are the semijoin $(\\ltimes)$ and antijoin $(\\triangleright)$. Semijoin is the same as natural join, except only attributes of the first relation are returned in the result. For example, if we have relations $\\textsf{Student(ID, name)}$ and $\\textsf{Enrolled(ID, course)},$ and not all students are enrolled in courses, then the query \"Student $\\ltimes$ Enrolled\" returns the ID and name of all students who are enrolled in at least one course. In the general case, $\\text{E}_1 \\ltimes&nbsp;\\text{E}_2$ returns all tuples in the result of expression $\\text{E}_1$ such that there is at least one tuple in the result of $\\mathrm{E}_2$ with matching values for the shared attributes. antijoin is the converse: $\\text{E}_1 \\triangleright&nbsp;\\text{E}_2$ returns all tuples in the result of expression $\\text{E}_1$ such that there are no tuples in the result of $\\text{E}_2$ with matching values for the shared attributes. For example, the query \"Student $\\triangleright$ Enrolled\" returns the ID and name of all students who are not enrolled in any courses.</p><p>Which of the following is/are True?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{E}_1 \\ltimes \\mathrm{E}_2=\\pi_{\\operatorname{schema}\\left(\\mathrm{E}_1\\right)}\\left(\\mathrm{E}_1 \\bowtie \\mathrm{E}_2\\right)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{E}_1 \\triangleright \\mathrm{E}_2=\\mathrm{E}_1-\\pi_{\\operatorname{schema}\\left(\\mathrm{E}_1\\right)}\\left(\\mathrm{E}_1 \\bowtie \\mathrm{E}_2\\right)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$(\\mathrm{E}_1 \\triangleright \\mathrm{E}_2) \\cup(\\mathrm{E}_1 \\ltimes \\mathrm{E}_2)=\\mathrm{E}_1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(\\mathrm{E}_1 \\triangleright \\mathrm{E}_2) \\bowtie(\\mathrm{E}_1 \\ltimes \\mathrm{E}_2)=\\mathrm{E}_1$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"389571\"></a><div itemprop=\"text\">$$\\begin{aligned}<br>\n&amp;\\mathrm{E}_1 \\ltimes \\mathrm{E}_2=\\pi_{\\text {schema }\\left(\\mathrm{E}_1\\right)}\\left(\\mathrm{E}_1 \\bowtie \\mathrm{E}_2\\right) \\\\<br>\n&amp;\\mathrm{E}_1 \\triangleright \\mathrm{E}_2=\\mathrm{E}_1-\\pi_{\\text {schema }\\left(\\mathrm{E}_1\\right)}\\left(\\mathrm{E}_1 \\bowtie \\mathrm{E}_2\\right) \\\\<br>\n&amp;\\text { or } \\\\<br>\n&amp;\\mathrm{E}_1 \\triangleright \\mathrm{E}_2=\\mathrm{E}_1-\\left(\\mathrm{E}_1 \\ltimes \\mathrm{E}_2\\right)<br>\n\\end{aligned}$$<br>\nNOTE that $(\\mathrm{E}_1 \\triangleright \\mathrm{E}_2),(\\mathrm{E}_1 \\ltimes \\text{E}_2)$ are ALWAYS distinct $\\&amp;$ their union is $\\text{E}_1.$<br>\n<br>\nOption D$: (\\mathrm{E}_1 \\triangleright \\mathrm{E}_2) \\bowtie(\\mathrm{E}_1 \\ltimes \\mathrm{E}_2)=$ Always Empty.</div></section></div><p><a href=\"https://gateoverflow.in/389570\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 19,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "$\\mathrm{B}^+$-trees have different structures for leaf and non-leaf nodes.<br>\nIn $\\mathrm{B}^+$- tree leaf node contains keys and record pointer associated with it and a block pointer pointing to the next leaf node. Non-leaf nodes contains only keys and child pointer, there is no need to store record pointer at non-leaf node, because all keys are ultimately present on leaf node. For leaf node order will be maximum number of keys, record pointer pair a node can hold, but order of non leaf node is determined by maximum child pointers it can have.<br>\n<br>\n$\\mathrm{A}\\; \\mathrm{B}^{+}-$tree index is to be built on the Name attribute of the relation STUDENT. Assume that all student names are of length 8 bytes, disk blocks are of size 512 bytes, and index pointers, record pointers are of size $4$ bytes, $5$ bytes respectively. Given this scenario, the best choice for the order of leaf node and non-leaf node is $\\mathrm{X}, \\mathrm{Y}$ respectively. Then what is $\\mathrm{Y}-\\mathrm{X}$ ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"389569\"></a><div itemprop=\"text\">For leaf node equation will be: $n* k($ key size $)+n*r($ record pointer size $)+b \\leq $ block size<br>\n<br>\nFor non-leaf node equation will be $: (n-1) k$(key size)+ $n$ b(block pointer size) $\\leq$ block size<br>\n<br>\nFor leaf node, $\\mathrm{X}(8+5)+4 \\leq 512$ $\\mathrm{X}=39$<br>\n<br>\nFor non-leaf node, $\\mathrm{Y} * 4+(\\mathrm{Y}-1) 8 \\leq 512$ $\\mathrm{Y}=43$.<br>\n<br>\nAnswer $=\\mathrm{Y}-\\mathrm{X}=4.$</div></section></div><p><a href=\"https://gateoverflow.in/389568\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following are true in relational algebra :</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For any database relation $\\mathrm{R}$ and predicates $p,q$, we have<br>$$ \\sigma_{p \\wedge q}(\\text{R})=\\sigma_p\\left(\\sigma_q(\\text{R})\\right) $$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>selection is commutative, that is,<br>$$ \\sigma_p\\left(\\sigma_q(\\text{R})\\right)=\\sigma_q\\left(\\sigma_p(\\text{R})\\right) $$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For any subsets $a$ and $b$ of a database relation $\\mathrm{R}$ such that $\\mathrm{a} \\subseteq b$, we have<br>$$ \\pi_a(\\text{R})=\\pi_a\\left(\\pi_b(\\text{R})\\right) $$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For any subset &quot;$a$&quot; of the attributes of a database relation $\\mathrm{R}$, and any predicate $p$ only on &quot;$a$&quot;, we have<br>$$ \\pi_a\\left(\\sigma_p(\\text{R})\\right)=\\sigma_p\\left(\\pi_a(\\text{R})\\right) $$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"389567\"></a><div itemprop=\"text\">All are true.<br>\n1. Conjunctive selection operations can be deconstructed into a sequence of individual selections.<br>\n<br>\n$$<br>\n\\sigma_{\\theta_1 \\wedge\\theta_2}(\\text{E})=\\sigma_{\\theta_1}\\left(\\sigma_{\\theta_2}(\\text{E})\\right)<br>\n$$<br>\n<br>\n2. Selection operations are commutative.<br>\n$$<br>\n\\sigma_{\\theta_1}\\left(\\sigma_{\\theta_2}(\\text{E})\\right)=\\sigma_{\\theta_2}\\left(\\sigma_{\\theta_1}(\\text{E})\\right)<br>\n$$<br>\n3. Only the last in a sequence of projection operations is needed, the others can be omitted.<br>\n$$<br>\n\\Pi_{\\text{L}_1}\\left(\\Pi_{\\text{L}_2}\\left(\\ldots\\left(\\Pi_{\\text{L}_n}(\\text{E})\\right) \\ldots\\right)\\right)=\\Pi_{\\text{L}_1}(\\text{E})<br>\n$$<br>\nCommutativity of Selection and Projection :<br>\n- For any subset a of the attributes of a database relation $\\mathrm{R}$, and any predicate $\\mathrm{p}$ on a, we have<br>\n$$<br>\n\\pi_a\\left(\\sigma_p(\\text{R})\\right)=\\sigma_p\\left(\\pi_a(\\text{R})\\right)<br>\n$$</div></section></div><p><a href=\"https://gateoverflow.in/389566\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 21,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following example query over the relations $\\textsf{M(P,Q)}$ and $\\textsf{N(P, R) :}$</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT N.P FROM N\nWHERE N.R = (SELECT COUNT(M.Q) \n             FROM M\n             WHERE M.P=N.P);\n</pre><p>For the following instances of relations $\\textsf{M, N,}$ what will be the number of tuples in the output of the given SQL query?</p><p>\\[<br>M =<br><br>\\begin{array}{|c|c|}<br>\\hline<br>P &amp; Q \\\\<br>\\hline<br>1 &amp; 2 \\\\<br>\\hline<br>1 &amp; 3 \\\\<br>\\hline<br>2 &amp; 2 \\\\<br>\\hline<br>2 &amp; 5 \\\\<br>\\hline<br>3 &amp; 4 \\\\<br>\\hline<br>\\end{array}<br><br>\\qquad\\qquad<br>N =<br>\\begin{array}{|c|c|}<br>\\hline<br>P &amp; R \\\\<br>\\hline<br>5 &amp; 0 \\\\<br>\\hline<br>0 &amp; 5 \\\\<br>\\hline<br>0 &amp; 0 \\\\<br>\\hline<br>1 &amp; 3 \\\\<br>\\hline<br>2 &amp; 3 \\\\<br>\\hline<br>3 &amp; 1 \\\\<br>\\hline<br>\\end{array}<br>\\]</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"389565\"></a><div itemprop=\"text\"><p>The given SQL query is a simple Correlated Nested Query.</p>\n\n<p><a rel=\"nofollow\" href=\"https://youtu.be/JbFyb2X7OCY\" target=\"_blank\">Learn Correlated Nested Queries in SQL</a></p>\n\n<p>If $\\text{N}$ contains the tuple $(5,0)$ and $\\text{M}$ contains no tuple with $\\text{P}=5$, then the output of the query certainly contains the value $5.$</p>\n\n<p>The given query is doing :</p>\n\n<p>Those values&nbsp;of $\\text{N.P}$ are in output for which the value of $\\text{N.R}$ is equal to the number of tuples in $\\text{M}$ where the value of $M.\\text{P}$ is the same as the value of $N.\\text{P}$.<br>\nSo, for the given instance and SQL query, the output will have three tuples:</p>\n\n<ul>\n\t<li>$5$</li>\n\t<li>$0$</li>\n\t<li>$3$&nbsp;</li>\n</ul></div></section><section><h4>Source solution 2 <small>(score: 6)</small></h4><a name=\"508961\"></a><div itemprop=\"text\"><h1 data-path-to-node=\"3\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Step By Step Approach</h1><h3 data-path-to-node=\"3\">1. Analyze the Subquery Logic</h3><p data-path-to-node=\"4\">The subquery calculates <code data-path-to-node=\"4\" data-index-in-node=\"24\">SELECT COUNT(M.Q) FROM M WHERE M.P = N.P</code>.</p><ul data-path-to-node=\"5\"><li><p data-path-to-node=\"5,0,0\">Effectively, it counts how many times the value <code data-path-to-node=\"5,0,0\" data-index-in-node=\"48\">N.P</code> appears in the <code data-path-to-node=\"5,0,0\" data-index-in-node=\"67\">P</code> column of table <b data-path-to-node=\"5,0,0\" data-index-in-node=\"85\">M</b>.</p></li><li><p data-path-to-node=\"5,1,0\">The outer query then checks if this <b data-path-to-node=\"5,1,0\" data-index-in-node=\"36\">count</b> is equal to the value of <code data-path-to-node=\"5,1,0\" data-index-in-node=\"67\">N.R</code>.</p></li></ul><h3 data-path-to-node=\"6\">2. Tabulate the Counts from Table M</h3><p data-path-to-node=\"7\">First, let's see how many times each unique value of <code data-path-to-node=\"7\" data-index-in-node=\"53\">P</code> appears in table <b data-path-to-node=\"7\" data-index-in-node=\"72\">M</b>:</p><table data-path-to-node=\"8\"><thead><tr><td><strong>Value of P</strong></td><td><strong>&nbsp; &nbsp; &nbsp;Count in M</strong></td></tr></thead><tbody><tr><td><b data-path-to-node=\"8,1,0,0\" data-index-in-node=\"0\">1</b></td><td>&nbsp; &nbsp; &nbsp;2 (appears with Q=2, Q=3)</td></tr><tr><td><b data-path-to-node=\"8,2,0,0\" data-index-in-node=\"0\">2&nbsp;</b></td><td>&nbsp; &nbsp; &nbsp;2 (appears with Q=2, Q=5)</td></tr><tr><td><b data-path-to-node=\"8,3,0,0\" data-index-in-node=\"0\">3</b></td><td>&nbsp; &nbsp; &nbsp;1 (appears with Q=4)</td></tr><tr><td><b data-path-to-node=\"8,4,0,0\" data-index-in-node=\"0\">Any other</b></td><td>&nbsp; &nbsp; &nbsp;0</td></tr></tbody></table><hr data-path-to-node=\"9\"><h3 data-path-to-node=\"10\">3. Evaluate Each Row in Table N</h3><p data-path-to-node=\"11\">Now, we look at every row in table <b data-path-to-node=\"11\" data-index-in-node=\"35\">N</b> and check if <code data-path-to-node=\"11\" data-index-in-node=\"50\">N.R</code> matches the count we just calculated.</p><table data-path-to-node=\"12\"><thead><tr><td><strong>Row in N (P, R)</strong></td><td><strong>&nbsp; Subquery Result (Count of N.P in M)</strong></td><td><strong>&nbsp;&nbsp;Does N.R == Count?&nbsp; &nbsp;&nbsp;</strong></td><td><strong>Output P</strong></td></tr></thead><tbody><tr><td>(5, 0)</td><td>&nbsp; 0 (5 is not in M)&nbsp;</td><td><b data-path-to-node=\"12,1,2,0\" data-index-in-node=\"0\">&nbsp; Yes</b> (0 == 0)</td><td>5</td></tr><tr><td>(0, 5)</td><td>&nbsp; 0 (0 is not in M)</td><td>&nbsp; No (5 != 0)</td><td>-</td></tr><tr><td>(0, 0)</td><td>&nbsp; 0 (0 is not in M)</td><td><b data-path-to-node=\"12,3,2,0\" data-index-in-node=\"0\">&nbsp; Yes</b> (0 == 0)</td><td>0</td></tr><tr><td>(1, 3)</td><td>&nbsp; 2 (1 appears twice in M)</td><td>&nbsp; No (3 != 2)</td><td>-</td></tr><tr><td>(2, 3)</td><td>&nbsp; 2 (2 appears twice in M)</td><td>&nbsp; No (3 != 2)</td><td>-</td></tr><tr><td>(3, 1)</td><td>&nbsp; 1 (3 appears once in M)</td><td><b data-path-to-node=\"12,6,2,0\" data-index-in-node=\"0\">&nbsp; Yes</b> (1 == 1)</td><td>3</td></tr></tbody></table><hr data-path-to-node=\"13\"><h3 data-path-to-node=\"14\">Final Result</h3><p data-path-to-node=\"15\">The rows that satisfy the condition are:</p><ol start=\"1\" data-path-to-node=\"16\"><li><p data-path-to-node=\"16,0,0\"><code data-path-to-node=\"16,0,0\" data-index-in-node=\"0\">(5, 0)</code></p></li><li><p data-path-to-node=\"16,1,0\"><code data-path-to-node=\"16,1,0\" data-index-in-node=\"0\">(0, 0)</code></p></li><li><p data-path-to-node=\"16,2,0\"><code data-path-to-node=\"16,2,0\" data-index-in-node=\"0\">(3, 1)</code></p></li></ol><p data-path-to-node=\"17\">There are <b data-path-to-node=\"17\" data-index-in-node=\"10\">3 tuples</b> in the output of the given SQL query.</p></div></section></div><p><a href=\"https://gateoverflow.in/389564\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a schema with two relations, $\\mathrm{R}(\\mathrm{A}, \\mathrm{B})$ and $\\mathrm{S}(\\mathrm{B}, \\mathrm{C})$, where all values are integers. Make no assumptions about keys. Consider the following three relational algebra expressions:</p><ol start=\"1\" style=\"list-style-type:lower-alpha\"><li>$\\pi_{\\text{A, C}}\\left(\\text{R} \\bowtie \\sigma_{\\text{B}=1} \\text{S}\\right)$</li><li>$\\pi_\\text{A}\\left(\\sigma_{\\text{B}=1} \\text{R}\\right) \\times \\pi_\\text{C}\\left(\\sigma_{\\text{B}=1} \\text{S}\\right)$</li><li>$\\pi_{\\text{A, C}}\\left(\\pi_\\text{A}&nbsp;\\text{R} \\times \\sigma_{\\text{B}=1} \\text{S}\\right)$</li></ol><p>Which of the three expressions are equivalent (i.e., produce the same answer on all databases)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Only $a,b$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Only $a,c$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Only $b,c$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"388669\"></a><div itemprop=\"text\">Query $(c)$ is different. Let $\\mathrm{R}=\\{(3,4)\\}$ and $\\mathrm{S}=\\{(1,2)\\}$. Then queries $(a)$ and $(b)$ produce an empty result while $(c)$ produces $\\{(3,2)\\}$.<br>\nQuery $\\text{“a\"}$ outputs those pairs $\\text{(A, C)}$ which are related to $\\text{B=1}$. i.e. If $\\text{R}$ has $(\\text{A}=4, \\text{B}=1)$ and $\\text{S}$ has $(\\text{B}=1, \\text{C}=7)$ then query $\\text{“a\"}$ outputs $(\\text{A}=4, \\text{C}=7)$ because they both are connected via $\\text{B=1}$.<br>\n<br>\nQuery $\\text{“b\"}$does the same thing as the query $\\text{“a\"}$ BUT it makes early use of selection i.e. query $\\text{“b\"}$selects $\\text{B}=1$ tuples in both relations, $\\&amp;$ then for the $\\text{R(A), S(C)}$ values of those tuples, it performs cross product.<br>\nSo, query $\\text{“b\"}$outputs those pairs $(\\mathrm{A}, \\mathrm{C})$ which are related to $\\mathrm{B}=1$. i.e. If $\\text{R}$ has $(\\text{A}=4, \\text{B}=1)$ and $\\text{S}$ has $(\\text{B}=1, \\text{C}=7)$ then query $\\text{“a\"}$ outputs $(\\text{A}=4, \\text{C}=7)$ because they both are connected via $\\text{B}=1$.<br>\n<br>\nNOTE that thanks to the early use of selection, query $\\text{“b\"}$ is an optimized version of the query $\\text{“a\"}$.</div></section></div><p><a href=\"https://gateoverflow.in/388668\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 23,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a relation $\\mathrm{R}(\\mathrm{A}, \\mathrm{B})$ that contains $100$ tuples, and a relation $\\mathrm{S}(\\mathrm{B}$, C) that contains $80$ tuples; Make no assumptions about keys $\\&amp;$ assume that the domain of all attributes is integers. Consider the following relational algebra expression:<br>\n$$<br>\n\\pi_\\text{B} \\text{R}-\\left(\\pi_\\text{B} \\text{R}-\\pi_\\text{B} \\text{S}\\right)<br>\n$$<br>\nLet $m$ be the minimum and $\\mathrm{M}$ be the maximum number of tuples that could be in the result of the above expression, then $m+\\mathrm{M}?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    80,
+    80
+   ],
+   "answerText": "80",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 13)</small></h4><a name=\"388667\"></a><div itemprop=\"text\"><p>Note that for any set $X,Y;$ we have $X(X-Y) = X \\cap Y.$</p><p>So, $min(|X \\cap Y|) = 0$ and&nbsp;$max(|X \\cap Y|) = min(|X|,|Y|)$</p><p>Minimum $= 0\\;&nbsp;($if there are no common $\\text{B}$ values in $\\text{R, S})$<br>Maximum $= \\min(r, s)$ (if one relation's $\\text{B}$ values are a subset of the other's, and all $\\text{B}$ values are distinct)<br><br><strong>NOTE:</strong><br>If $\\text{R}$ has more tuples than $\\text{S}:$<br>In this case, the maximum number of tuples in the result of the given expression will be $|\\text{S}|,$&nbsp;which will happen when $\\text{B(S)}$ is a subset of $\\text{B(R)}$ and all $\\text{B}$ values are distinct in both $\\text{R, S}.$<br><br>If $\\text{S}$ has more tuples than $\\text{R}:$<br>In this case, the maximum number of tuples in the result of the given expression will be $|\\text{R}|,$ which will happen when $\\text{B(R)}$ is a subset of $\\text{B(S)}$ and all $\\text{B}$ values are distinct in both $\\text{R, S}.$</p></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"491565\"></a><div itemprop=\"text\"><p>Since in question it's mentioned that \" Make no assumptions on keys\", so we cannot control duplicacy or non duplicacy on examples that we might take . Only thing what we can actually control is wether both relations have common attributes or not .</p><hr><p><u><strong>CASE 1: have common elements:</strong></u><strong>&nbsp;&nbsp;</strong>projection B(R)=100 tuples , projection B(S) 80<br>100-(100-80)=80<br><u><strong>CASE 2: nothing in common:&nbsp;</strong></u>&nbsp;100-(<span style=\"color:#c0392b;\">100-80)=</span>100-100{<span style=\"color:#2ecc71;\">because nothing common</span>}=0</p><hr><p>80+0=80</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"538297\"></a><div itemprop=\"text\"><p>ANs is 80</p><p><br><img alt=\"\" src=\"media/13/1350d695f1fe537c3adb.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/388666\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following concurrent execution of three transactions $\\mathrm{T}_1, \\text{T}_2, \\text{T}_3 :$<br>$$<br>\\begin{array}{|c|c|c|}<br>\\hline \\mathrm{T}_1 &amp; \\mathrm{~T}_2 &amp; \\mathrm{~T}_3 \\\\<br>\\hline &nbsp;&amp; &amp; \\mathrm{r}(\\mathrm{Z}) \\\\<br>\\mathrm{w}(\\mathrm{X}) &amp; &nbsp;&amp; \\\\<br>&amp; \\mathrm{r}(\\mathrm{Y}) &amp; \\\\<br>&amp; &nbsp;&amp; \\mathrm{w}(\\mathrm{Z}) &nbsp;\\\\<br>\\mathrm{w}(\\mathrm{Y}) &amp; &nbsp;&amp; \\\\<br>&nbsp;&amp; &nbsp;\\mathrm{r}(\\mathrm{Z}) &amp; \\\\<br>&amp; \\text{commit}&nbsp;&amp; \\\\<br>&amp;&nbsp;&amp;&nbsp; \\text{commit} \\\\<br>&nbsp; \\text{commit} &amp;&amp; \\\\<br>\\hline<br>\\end{array}$$</p><ul><li>$\\text{w(P)}$ means Write operation on $\\text{“P\"}$</li><li>$\\mathrm{r}(\\mathrm{P})$ means Read operation on $\\text{“P\"}$</li></ul><p>Which of the following is/are False about the given schedule?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It is conflict serializable.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It is view serializable.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It can be produced by a Two-Phase Lock $\\text{(2PL)}$ scheduler.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It can be produced by a strict $\\text{2PL}$ scheduler.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 7)</small></h4><a name=\"388665\"></a><div itemprop=\"text\"><p>It is serializable because it has an acyclic graph<br>\n&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"212\" src=\"media/4b/4b0efd1133fcc3d47e46.png\" width=\"243\"></p>\n\n<p>and $\\text{2PL}$ because locks can be assigned as follows (many similar solutions are possible)<br>\n&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"381\" src=\"media/cc/cc728d98cc69e57225f1.png\" width=\"435\"></p>\n\n<p>&nbsp;</p>\n\n<p>NOTE: 2PL with Lock Upgradation&nbsp;causes many more deadlocks in the system than basic 2PL protocol. Hence, Lock Upgradation is NOT a default setting for 2PL. Explained&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=qHTxSO0EimU&amp;t=4605s\" target=\"_blank\">HERE (Click Here).</a></p>\n\n<p>Watch this <strong>Complete Lecture for ALL Variations of Basic 2PL</strong> Protocol: Strict 2PL, Rigorous 2PL, Conservative 2PL, 2PL with Lock Conversion:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=qHTxSO0EimU&amp;list=PLIPZ2_p3RNHhv0UwV6dy_4entVj-08tyc&amp;index=3\" target=\"_blank\">ALL Variations of 2PL</a>&nbsp;</p>\n\n<p>References: Ullman, Korth, Navathe.</p></div></section></div><p><a href=\"https://gateoverflow.in/388664\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following $\\text{B}^+$ tree.</p><p style=\"text-align:center\"><img alt=\"\" height=\"208\" width=\"595\" src=\"media/f2/f265718da48557dca02b.png\"></p><p>We want to find out the minimum number of disk $\\text{IOs}$ required to retrieve the record pointers (not including the disk $\\text{IOs}$ to read the actual records). We assume we need to follow the sequence pointers of the leaf nodes to traverse the leaf nodes (if necessary).<br>Which of the following is/are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>To Find records with the key values in the range $50$ to $80$ inclusive $: 3$ disk IO</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>To Find records with the key values in the range $40$ to $90$ inclusive $: 4$ Disk IO</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Find records with the key values in the range $40$ to $110$ inclusive $: 4$ Disk IO</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Find records with the key values in the range $210$ to $295$ inclusive $: 6$ Disk IO</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"388663\"></a><div itemprop=\"text\">First, traverse the tree top down to find the leftmost node where the record(s) could be stored. Then if necessary, follow the sequence pointers to traverse the leaf nodes.<br>\n<br>\nFind records with the key values in the range $50$ to $80$ inclusive $: 3$ IOs during the top-down traversal. We don't need to follow the sequence pointer of the leaf node.<br>\n<br>\nTo Find records with the key values in the range $40$ to $90$ inclusive $: 3$ IOs during the top-down traversal. We don't need to follow the sequence pointer of the leaf node.<br>\n<br>\nTo Find records with the key values in the range $40$ to $110$ inclusive$: 4$ IOs, in which $3$ IOs are needed during the top-down traversal, and $1$ additional IO is needed when we follow the sequence pointer of the leaf node. Notice that we must follow the sequence pointer.<br>\n<br>\nFind records with the key values in the range $210$ to $295$ inclusive $: 5$ Disk IO.</div></section></div><p><a href=\"https://gateoverflow.in/388662\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A $\\text{B}^+$ Tree of order $\\text{M}$ has the following properties:</p><ol><li>The root is either a leaf or has between $2$ and $\\text{M}$ children.</li><li>All non-leaf nodes (except the root) have between $\\lceil \\text{M} / 2\\rceil$ and $\\text{M}$ children.</li><li>All leaves are at the same depth.</li></ol><p>All data records are stored at the leaves.</p><p>Internal nodes have \"keys\" guiding to the leaves.</p><p>Leaves store between $\\lceil \\text{L} / 2\\rceil$ and $\\text{L}$ data records, where $\\text{L}$ can be equal to $\\text{M}$ or can be different.</p><p>The number of levels in the tree is also called the height i.e. a $\\text{B}^+$ tree with a single node has height $1.$<br>In a $\\mathrm{B}^+$ tree with $\\mathrm{M}=4, \\mathrm{~L}=3$, and height $h=30,$ the worst(maximum) number of comparisons required to find a key is ______ (Assume that, within a node we search using Linear Search, Not using Binary Search)</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"387824\"></a><div itemprop=\"text\"><p>In the given question, we have $\\text{M}=4$ which means that All the Non-leaf nodes have maximum $\\text{M-1}=3$ keys.<br>We have $\\text{L}=3$ which means that All the leaf nodes have maximum $\\text{L}=3$ keys.<br>&nbsp;</p><p><strong>The worst number of comparisons required to find a key is:</strong><br>For worst case, we assume that our key is found only in leaf level And at every node, we have to take the last child pointer. Basically, the key to be searching is the Last key in the right most leaf node.<br><br>To search for this key, At every non-leaf node, we require to do $\\text{M-1}$ comparisons and at leaf level we need to do $\\text{L}$ comparisons. $\\text{M=4, L=3, So, }$ At every non-leaf node, we require to do $3$ comparisons and at leaf level we need to do $3$ comparisons.</p><p>So, at each level, $3$ comparisons in worst case. Hence, the worst number of comparisons required to find a key is: $3h.$</p><p>NOTE that the definition of Height is already given in the question.&nbsp;Number of levels itself is the height of the tree.</p></div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"444178\"></a><div itemprop=\"text\">We have height=30 so for the worst case, we'll compare all keys in the non leaf node and take the last pointer and at the leaf node we compare all 3 elements. <br>\n<br>\nSo for above 29 levels, no. of comparisons= 29*3 and <br>\n<br>\nfor last level/height= 3. <br>\n<br>\nSo total comparisons= 29*3 + 3= 90</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"494608\"></a><div itemprop=\"text\"><p><meta></p><p>&nbsp;</p><p>The&nbsp;<b>worst-case</b>&nbsp;scenario means we have to do the maximum amount of work at&nbsp;<i>every single step</i>&nbsp;of the path.</p><p><strong><em>M: 4&nbsp;</em></strong></p><p>so in one node 3 keys are there..</p><ol start=\"1\"><li><p><b>Arrive at Root (Level 1):</b></p><ul><li><p>It's an internal node.</p></li><li><p>We do&nbsp;$M-1 = 3$&nbsp;comparisons.</p></li><li><p>We find the pointer to Level 2.</p></li><li><p>(Total: 3)</p></li></ul></li><li><p><b>Arrive at Level 2:</b></p><ul><li><p>It's an internal node.</p></li><li><p>We do&nbsp;$M-1 = 3$&nbsp;comparisons.</p></li><li><p>We find the pointer to Level 3.</p></li><li><p>(Total: 3 + 3 = 6)</p></li></ul></li><li><p><b>Arrive at Level 3:</b></p><ul><li><p>It's an internal node.</p></li><li><p>We do&nbsp;$M-1 = 3$&nbsp;comparisons.</p></li><li><p>We find the pointer to Level 4.</p></li><li><p>(Total: 6 + 3 = 9)</p></li></ul><p>... we repeat this ...</p></li><li><p><b>Arrive at Level 29:</b></p><ul><li><p>This is the&nbsp;<i>last</i>&nbsp;internal node.</p></li><li><p>We do&nbsp;$M-1 = 3$&nbsp;comparisons.</p></li><li><p>We find the pointer to the leaf at Level 30.</p></li><li><p>(Total:&nbsp;$29 \\times 3 = 87$)</p></li></ul></li><li><p><b>Arrive at Leaf (Level 30):</b></p><ul><li><p>This is the leaf node.</p></li><li><p>We search for the actual key.</p></li><li><p>Worst case, we do&nbsp;$L = 3$&nbsp;comparisons.</p></li><li><p>(Total:&nbsp;$87 + 3 = 90$)</p></li></ul></li></ol><p>We make 3 comparisons at&nbsp;<i>each</i>&nbsp;of the 29 internal levels, and then 3 more at the final leaf level.</p></div></section></div><p><a href=\"https://gateoverflow.in/387823\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "In the context of relational database model and relational algebra, Let $\\mathrm{A}, \\mathrm{B}$ be two relation schemes.<br>\n<br>\nFor any relation instances $a(\\text{A}), b(\\text{B})$; We say that a relation instance $\\text{Y}$ is the Yield of $a,b$ if $\\mathrm{Y}$ is the largest relation instance such that $\\mathrm{Y} \\times b \\subseteq a$ (Note that \" $\\times$ \" is the cross product).<br>\n<br>\nConsider the following relation instances $r, s:$<br>\n<br>\n\\[<br>\nr =<br>\n\\begin{array}{|c|c|c|c|c|}<br>\n\\hline<br>\nA &amp; B &amp; C &amp; D &amp; E \\\\<br>\n\\hline<br>\n\\alpha &amp; a &amp; \\alpha &amp; a &amp; 1 \\\\<br>\n\\hline<br>\n\\alpha &amp; a &amp; \\gamma &amp; a &amp; 1 \\\\<br>\n\\hline<br>\n\\alpha &amp; a &amp; \\gamma &amp; b &amp; 1 \\\\<br>\n\\hline<br>\n\\beta &nbsp;&amp; a &amp; \\gamma &amp; a &amp; 1 \\\\<br>\n\\hline<br>\n\\beta &nbsp;&amp; a &amp; \\gamma &amp; b &amp; 3 \\\\<br>\n\\hline<br>\n\\gamma &amp; a &amp; \\gamma &amp; a &amp; 1 \\\\<br>\n\\hline<br>\n\\gamma &amp; a &amp; \\gamma &amp; b &amp; 1 \\\\<br>\n\\hline<br>\n\\gamma &amp; a &amp; \\beta &nbsp;&amp; b &amp; 1 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n\\qquad\\qquad<br>\ns =<br>\n\\begin{array}{|c|c|}<br>\n\\hline<br>\nD &amp; E \\\\<br>\n\\hline<br>\na &amp; 1 \\\\<br>\n\\hline<br>\nb &amp; 1 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n\\]The number of tuples in the Yield of $r, s$ is _______",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"387801\"></a><div itemprop=\"text\"><p>The given definition of $\\text{Y}$ is the definition of division operation.<br>Watch it here to understand:</p><ul><li><strong><a rel=\"nofollow\" href=\"https://youtu.be/Zzjy-q667r0?feature=shared\" target=\"_blank\">Division Operation - The Actual Definition &amp; Idea</a></strong></li></ul><p><br><img alt=\"\" width=\"400\" src=\"media/03/03521817e57b64f91aef.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/387800\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a relational database relation, we say a non-empty set of attributes $\\mathrm{X}$ is closed (with respect to a given set of functional dependencies FD) if $\\text{X}^{+}=\\text{X}$. Consider a relation with schema $\\mathrm{R}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}$ ) and an unknown set of FD's. If we are told which sets of attributes are closed, we can discover the FD's.</p><p>Assume that the only closed sets are $\\{\\text{A, B}\\}$, and $\\{\\text{A, B, C, D}\\}$.</p><p>Which of the following is/are true for $\\text{R}?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The number of candidate keys is $2.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The number of non-prime attributes is $1.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The number of non-trivial FDs of the form $\\mathrm{X} \\rightarrow \\mathrm{Y}$ where $\\mathrm{X}, \\mathrm{Y}$ both are single attributes, is $12 .$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The number of non-trivial FDs of the form $\\mathrm{X} \\rightarrow \\mathrm{Y}$ where $\\mathrm{X}, \\mathrm{Y}$ both are single attributes, is $8 .$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 22)</small></h4><a name=\"389495\"></a><div itemprop=\"text\">{A,B} is closed means only possible fd’s are A-&gt;B and B-&gt;A<br>\n{A,B,C,D} is closed means only possibke fd’s are<br>\nA-&gt;B,B-&gt;A,C-&gt;ABD,D-&gt;ABC<br>\n<br>\n1) Possible candidate keys are : C,D<br>\n2) Possible non-trivial fd’s are :<br>\nA-&gt;B,B-&gt;A,C-&gt;A,C-&gt;B,C-&gt;D,D-&gt;A,D-&gt;B,D-&gt;C<br>\nSo total = 8</div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"416949\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/aa/aa885432abe04add2dc1.jpg\">.</p></div></section><section><h4>Source solution 3 <small>(score: 12)</small></h4><a name=\"387799\"></a><div itemprop=\"text\"><p>This is a beautiful question from <strong>Ullman DBMS Book</strong>.</p><p><strong>Find&nbsp;Detailed Video Solution with Many Variations:</strong></p><p><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=EU5O_8wH3Xw&amp;t=1157s\" target=\"_blank\">Detailed Video Solution with Many Variations</a></p><p>The FDs would be $\\{\\mathrm{A} \\rightarrow \\mathrm{B} ; \\mathrm{B} \\rightarrow \\mathrm{A} ; \\mathrm{C} \\rightarrow \\mathrm{ABD} ; \\mathrm{D} \\rightarrow \\mathrm{ABC}\\}$<br>Hence, Candidate keys are $\\text{C, D.}$</p></div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"444192\"></a><div itemprop=\"text\"><a href=\"https://youtu.be/EU5O_8wH3Xw?t=1157\" rel=\"nofollow\" target=\"_blank\">https://youtu.be/EU5O_8wH3Xw?t=1157</a></div></section></div><p><a href=\"https://gateoverflow.in/387798\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Student database and the relations in it :</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Student (sid, name, marks)\nCourse (cid, min, max)</pre><p>Student relation has the following set of tuples :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">{ ( 101, a, 50 &nbsp;), (102, b, 52), (103, c, 60), (104, d, 70) }</pre><p>Course relation has the following set of tuples :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">{ (c1, 20, 90), (c2, 15, 95), (c3, 10, 100) }</pre><p>Consider the following query :</p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT S.sid\nFROM Student S\nWHERE EXISTS ( SELECT COUNT(*)\n        FROM Course C\n        WHERE S.marks &gt; C.min AND S.marks &gt;  C.max)</pre><p><br>How many tuples will be in the output of the above SQL Query?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 27)</small></h4><a name=\"387777\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=JbFyb2X7OCY&amp;t=1903s\" target=\"_blank\">Exists with Count(*) Explained</a></p><p><strong>Correlated Nested Queries in SQL</strong>, Complete Lecture&nbsp;:&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=JbFyb2X7OCY\" target=\"_blank\">https://www.youtube.com/watch?v=JbFyb2X7OCY</a>&nbsp;</p><p>Note that for every tuple of Student relation, no tuple of Course relation satisfies the given condition, So, $\\textsf{Count(*)}$ will give the output $0$ for every tuple of student relation. Hence, for every tuple of student relation, the $\\textsf{EXISTS}$ will return TRUE. So, four rows will be printed.<br><br>$\\textsf{EXISTS}$ return false if its input is Empty Set.<br><br>In the given query, input to $\\textsf{EXISTS}$ is $\\textsf{COUNT(*)}$ which returns an integer value $\\geq 0,$ but never Empty Set.<br><br>So, $\\textsf{EXISTS}$ always returns TRUE here and we get $4$ rows in output.</p></div></section></div><p><a href=\"https://gateoverflow.in/387776\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 30,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $\\mathrm{R}(a, b, c, d)$ be a RDBMS relation having the following set of functional dependencies (FD set) :</p><p>FD Set $\\mathrm{F}=\\{b \\rightarrow c ; c \\rightarrow d ; ab&nbsp;\\rightarrow d ; bc&nbsp;\\rightarrow cd\\}$</p><p>We apply some queries on a relational instance $r$ of $\\text{R}$. Which of the following queries are guaranteed to return the same number of tuples as in relation instance $r$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\prod_a(r)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\prod_{a, c}(r)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\prod_{a, b}(r)$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\prod_{a, b, d}(r)$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 11)</small></h4><a name=\"387775\"></a><div itemprop=\"text\">From the given FD set we can find candidate key which is “$ab$” because these attributes do not appear on the RHS of any FD.<br>\nThe number of tuples in a relation resulting from a PROJECT operation is always less than or equal to the number of tuples in $\\text{R}$.<br>\nIf the projection list is a superkey of $\\text{R}$—that is, it includes some key of $\\text{R}$— the resulting relation has the same number of tuples as $\\text{R}.$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"416787\"></a><div itemprop=\"text\">Just check all the closure property.</div></section></div><p><a href=\"https://gateoverflow.in/387774\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 50.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 9,
+  "types": {
+   "MCQ": 9,
+   "NAT": 9,
+   "MSQ": 12
+  },
+  "withoutKey": 24
+ }
+}

@@ -1,0 +1,578 @@
+{
+ "v": 1,
+ "id": "cs-easy-2025-047",
+ "title": "Topicwise Test-24 Part Syllabus GATE 2025 CS Compiler Design-2",
+ "sourceTitle": "Topicwise Test-24 Part Syllabus GATE 2025 CS Compiler Design-2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2025",
+ "num": 47,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/081_Topicwise Test-24 Part Syllabus GATE 2025 CS Compiler Design-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>Consider the following statements are correct?<br />\n<em>S</em><sub>1</sub> : Every regular grammar is un-ambiguous.<br />\n<em>S</em><sub>2</sub> : Every regular language is un-ambiguous.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/99/99af29cab8101794694d.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>\n\tWhich of the following context free grammar are unambiguous?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/e2/e2e8dbb618e172911cf1.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/64/64bf1e15b94cd704a219.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/46/466ef12c44f576a9e696.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/b3/b329b62c2e83ed97038f.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/11/1141bebb7198f5c5fa9c.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tConsider the following SDT:</p>\n<p>\n\t<img alt=\"\" src=\"media/30/30cbec739bf144f47495.png\" /></p>\n<p>\n\tThe above SDT is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "L-attributed"
+    },
+    {
+     "key": "B",
+     "html": "S-attributed"
+    },
+    {
+     "key": "C",
+     "html": "L-attributed but not S-attributed"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tGiven SDT has synthesized attribute notation and every translation is at the end of production. Hence it is S-attributed. Every S-attributed is L-attributed.</p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Consider the following CFG, with S as the starting symbol,</p>\n\n<p><img alt=\"\" src=\"media/02/02a5cbc4129fea4d0236.png\" /></p>\n\n<p>The length of the shortest string of the grammar which is ambiguous _________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>6</p>\n\n<p><img alt=\"\" src=\"media/2c/2ce724a901fc5cfb377e.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "LR(0) ⊂ LALR(1) ⊂ SLR(1) ⊂ CLR(1)"
+    },
+    {
+     "key": "B",
+     "html": "CLR(1) ⊂ LR(0) ⊂ SLR(1) ⊂ LALR(1)"
+    },
+    {
+     "key": "C",
+     "html": "LR(0) ⊂ SLR(1) ⊂ LALR(1) ⊂ CLR(1)"
+    },
+    {
+     "key": "D",
+     "html": "SLR(1) ⊂ LR(0) ⊂ LALR(1) ⊂ CLR(1)"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C, A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tLR(0) &sub; SLR(1) &sub; LALR(1) &sub; CLR(1)</p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tConsider the following context free grammar:</p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0aedd2783f96044b6723.png\" /></p>\n<p>\n\tFill the entries in LL(1) parsing table below:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a3/a33ad151066ef20226c2.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/78/78ca6d437ca7d29cfb14.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/88/884de8c04187da149a14.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/8f/8feb2c88568dce33dbbb.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/08/08e14f0a3f986ab993f2.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statement is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Every LL(1) grammar is LR(0) grammar."
+    },
+    {
+     "key": "B",
+     "html": "Every LL(1) grammar is SLR(1) grammar."
+    },
+    {
+     "key": "C",
+     "html": "Every LL(1) grammar is LALR(1) grammar."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/33/33a45d21c9d1e658dace.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>\n\tWhich of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "All LALR(1) grammar are un-ambiguous grammar."
+    },
+    {
+     "key": "B",
+     "html": "All un-ambiguous grammars are LALR(1) grammar."
+    },
+    {
+     "key": "C",
+     "html": "All LR(0) grammar are SLR(1) grammar."
+    },
+    {
+     "key": "D",
+     "html": "All SLR(1) grammar are LR(0) grammar."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)</p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The drawback for quarduple representation of 3-address code is it requires more space compared to triple notation."
+    },
+    {
+     "key": "B",
+     "html": "The advantage for triple representation of 3-address code is it requires less space compared to quarduple notation."
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b) are correct."
+    },
+    {
+     "key": "D",
+     "html": "Neither (a) nor (b) are correct."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C, A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tThe drawback in quarduple representation is one extra field required to store the result.<br />\n\tIn triple representation their is no need of extra field to store the result, So it require less space. Both (a) and (b) are correct.</p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>The number of inadequate state in SLR(1) parsing table of following grammar are ________.</p>\n\n<p><img alt=\"\" src=\"media/c2/c268a1776234349e1569.png\" /><br />\n </p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0</p>\n\n<p><img alt=\"\" src=\"media/8a/8a72db4d1399e90edb7b.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p>Consider a stack S given below with elements 1, 2, 3 alongwith the usual operation of push( ), pop( ) and top( ) as shown.</p>\n\n<p><img alt=\"\" src=\"media/5b/5b042eda8e988c5e4603.png\" /></p>\n\n<p>The number of elements will remain in the stack after the parsing of above input string according to the above SDT rules ________ [push(x): insert into stack, pop( ): remove top most element of stack, top( ): print top most element of the stack without removing].</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>4</p>\n\n<p><img alt=\"\" src=\"media/a5/a563fa88a732ed04ab0c.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>Consider the following CFG and LL (1) table.</p>\n\n<p><img alt=\"\" src=\"media/3b/3b6b7efe4adb41843cde.png\" /></p>\n\n<p>The number of productions entered at E<sub>1</sub> _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<p><img alt=\"\" src=\"media/7d/7de2890e8ec54430d96e.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the intermediate code given below:</p>\n<p>\n\t<img alt=\"\" src=\"media/cf/cf00832a54fb576ec6f6.png\" /></p>\n<p>\n\tWhich one of the following is correctly represents the above code?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/16/167dbd2509c6a134a505.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/d4/d4b9e0bf346af5e0aaac.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/94/94bb8fae9721f7238028.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/9e/9e8ac1b61359842ae938.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following DAG (Directed Acyclic Graph):</p>\n<p>\n\t<img alt=\"\" src=\"media/4d/4d30195d38cf62758e17.png\" /></p>\n<p>\n\tIdentify the equivalent 3-address code for the above DAG?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/39/393ec395d83974484737.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/9f/9f3a0ec1a753e97c68ad.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/97/97b9071c9877b37b3433.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "Given graph is not DAG"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/6c/6c5eaf4104b147d13874.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following SDT:</p>\n<p>\n\t<img alt=\"\" src=\"media/82/82587da935dca495875d.png\" /></p>\n<p>\n\tWhat is the output produced by the SDT for the input string “14122323”?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "GATE GASE ST"
+    },
+    {
+     "key": "B",
+     "html": "ST SEGA TEGA"
+    },
+    {
+     "key": "C",
+     "html": "ST GASETEGA"
+    },
+    {
+     "key": "D",
+     "html": "GASTSEGATE"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/4e/4e67d0ede4ec06c7f975.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tConsider the following grammar:<br />\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/0c/0c23dd12a8b9db5eaab9.png\" /><br />\n\tWhich of the following option is correct with reference to above grammar?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Grammar is both LL(1) as well as SLR(1)"
+    },
+    {
+     "key": "B",
+     "html": "Grammar is LL(1) but not SLR(1)"
+    },
+    {
+     "key": "C",
+     "html": "Grammar is SLR(1) but not LL(1)"
+    },
+    {
+     "key": "D",
+     "html": "Grammar is neither LL(1) nor SLR(1)"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/6c/6c64b6e0c2d0100c547b.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>\n\tCompute the FOLLOW set of S for the following CFG:</p>\n<p>\n\t<img alt=\"\" src=\"media/9b/9b4403f154db0c303ddc.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "{p, q, r, m, $}"
+    },
+    {
+     "key": "B",
+     "html": "{p, q, r, t, $}"
+    },
+    {
+     "key": "C",
+     "html": "{q, r, m, $}"
+    },
+    {
+     "key": "D",
+     "html": "{p, q, r, m, t, $}"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/81/8152e29e9cf419a9635f.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 10,
+   "NAT": 4,
+   "MSQ": 3
+  },
+  "withoutKey": 0
+ }
+}

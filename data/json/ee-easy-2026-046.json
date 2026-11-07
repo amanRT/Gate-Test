@@ -1,0 +1,560 @@
+{
+ "v": 1,
+ "id": "ee-easy-2026-046",
+ "title": "Topicwise Test-21 Part Syllabus GATE 2026 EE Analog Electronics Part-1",
+ "sourceTitle": "Topicwise Test-21 Part Syllabus GATE 2026 EE Analog Electronics Part-1",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2026",
+ "num": 46,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/078_Topicwise Test-21 Part Syllabus GATE 2026 EE Analog Electronics Part-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the circuit shown,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/80/8096700fa0d83d437a46.png\" /></div>\n\n<div>The transistor is biased at</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0 mA"
+    },
+    {
+     "key": "B",
+     "html": "5 mA"
+    },
+    {
+     "key": "C",
+     "html": "3.12 mA"
+    },
+    {
+     "key": "D",
+     "html": "∞"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/79/79e6da8ff42e8662bc68.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A Silicon transistor with <em>V</em><sub>BE sat</sub> = 0.8, β<em><sub>dc</sub></em> = 100 and <em>V</em><sub><em>CE</em> sat</sub> = 0.2 V is used in the circuit shown below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b6/b6fdd26b31a14509b5a0.png\" /></div>\n\n<div>The minimum value of <em>R<sub>C</sub></em> for which transistor is in saturation, is _________ .</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4286 Ω"
+    },
+    {
+     "key": "B",
+     "html": "4667 Ω"
+    },
+    {
+     "key": "C",
+     "html": "5000 Ω"
+    },
+    {
+     "key": "D",
+     "html": "1000 Ω"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/12/124a27038ca9b532cc41.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A bipolar transistor is operating in the active region with a collector current of 1 mA, assuming that the β of the transistor is 100 and the thermal voltage (<em>V<sub>T</sub></em>) is 25 mV, the transconductance <em>g<sub>m </sub></em>and the input resistance (<em>r</em><sub>π</sub>) of the transistor in the common emitter configuration, are</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>g<sub>m</sub></em> = 25 mA/V and <em>r</em><sub>π</sub> = 15.65 kΩ"
+    },
+    {
+     "key": "B",
+     "html": "<em>g<sub>m</sub></em> = 40 mA/V and <em>r</em><sub>π</sub> = 4.0 kΩ"
+    },
+    {
+     "key": "C",
+     "html": "<em>g<sub>m</sub></em> = 25 mA/V and <em>r</em><sub>π</sub> = 2.5 kΩ"
+    },
+    {
+     "key": "D",
+     "html": "<em>g<sub>m</sub></em> = 40 mA/V and <em>r</em><sub>π</sub> = 2.5 kΩ"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/66/666f946826e10b852c21.png\" /></div>\n</div>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The voltage gain of an amplifier without feedback and with negative feedback respectively are 100 and 20. The percentage of negative feedback (β) would be _________ %. (Answer rounded off to nearest integer)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>4</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/04/04483009f3564287075e.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>A zener diode regulator given in the below figure is designed to meet the specifications:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/22/229ae59b9d2fb8407dcc.png\" /></div>\n\n<div> </div>\n\n<div>The zener diode has <em>V<sub>Z</sub></em> = 10 V and <img align=\"absmiddle\" alt=\"\" src=\"media/fc/fcde17c15bbd99b42b82.png\" /> (knee current) = 1 mA.\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ed/ed019f8bd83ffcff7c79.png\" /></div>\n\n<div>Which one of the following conditions is approximate required for satisfactory operation?</div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>R</em> ≤ 1800 Ω"
+    },
+    {
+     "key": "B",
+     "html": "2000 Ω ≤ <em>R</em> ≤ 2200 Ω"
+    },
+    {
+     "key": "C",
+     "html": "3700 Ω ≤ <em>R</em> ≤ 4000 Ω"
+    },
+    {
+     "key": "D",
+     "html": "<em>R</em> > 4000 Ω"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/65/65a20885965e108983ef.png\" /></div>\n</div>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the circuit shown in the below figure, what are the values of the quiescent collector current <img align=\"absmiddle\" alt=\"\" src=\"media/18/1866195a2f2bb2d28431.png\" /> and collector-emitter voltage (<em>V<sub>CE</sub></em>)? (Assuming current gain to be very high)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/82/82fce2d761168a8e29b8.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 mA and 9 V"
+    },
+    {
+     "key": "B",
+     "html": "2 mA and 6 V"
+    },
+    {
+     "key": "C",
+     "html": "2.5 mA and 4.5 V"
+    },
+    {
+     "key": "D",
+     "html": "4 mA and 0 V"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/08/088b4fc9bab84e32b81f.png\" /></div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cc/cc74a8440ec41e81a9f9.png\" /></div>\n\n<div>Which of the following is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/70/70c86f377ebe5bd00b71.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/01/0126c110373c8f888957.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/e0/e0d0b36a6f6821b49365.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a1/a1bbb7b1e404440b3be0.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/01/019127511fc72c899a9f.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>A voltage signal 10 sinωt is applied to the circuit with ideal diodes as shown in figure. The maximum and minimum values of the waveform <em>V</em><sub>out</sub> of the circuit are respectively</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/de/de26ca10621974b5a309.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "+10 V and –10 V"
+    },
+    {
+     "key": "B",
+     "html": "+4 V and –4 V"
+    },
+    {
+     "key": "C",
+     "html": "+7 V and –4 V"
+    },
+    {
+     "key": "D",
+     "html": "+4 V and –7 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bf/bf17084132aab5943342.png\" /></div>\n\n<div><img alt=\"\" src=\"media/64/64a303ccaaf8cc1e0018.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the regulated power supply given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/6c/6cf5c993c40a48aca281.png\" /></div>\n\n<div>Assume <em>V<sub>Z</sub></em> = 7.3 V and <em>V<sub>BE</sub></em> = 0.7 V. By taking β value to be very large , the peak current <img align=\"absmiddle\" alt=\"\" src=\"media/9e/9e06a7ae6fdb24704e0a.png\" /> in mA<br />\nis ________. (Answer rounded off to nearest integer)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>5 (5 - 5)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/af/af8b06901a3a6e31ee4e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/c0/c05e1b1f29d8f9922d55.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>The cut-in voltage of diode in circuit shown is 0.7 volts. If <em>V</em><sub>IN</sub> = 1 V, then the value of <em>V</em><sub>0</sub> is _______ volts. (Answer upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8e/8e17a2230a789b55417d.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3.3,
+    3.36
+   ],
+   "answerText": "3.33",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3.33 (3.30 - 3.36)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c0/c069117fbe09db9f2eec.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider a peak rectifier shown in the circuit below is fed by a 60-Hz sinusoid having a peak value <em>V<sub>p</sub></em> = 100 V. Let the load resistance <em>R</em> = 10 kΩ and capacitance <em>C</em> = 83.3 μF. The peak to peak ripple voltage <em>V<sub>r</sub></em> is ________ .</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5f/5f5693bb8c249ff32c8b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 V"
+    },
+    {
+     "key": "B",
+     "html": "1 V"
+    },
+    {
+     "key": "C",
+     "html": "1.5 V"
+    },
+    {
+     "key": "D",
+     "html": "3 V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/05/05140ea5d0c1aacf0ec3.png\" /></div>\n</div>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown in the figure below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/68/681e7beef552b9ad2e69.png\" /></div>\n\n<div>The two transistors <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> are exactly matched with <img align=\"absmiddle\" alt=\"\" src=\"media/ef/ef9b70dcc0f250ec78ca.png\" /> threshold voltage is <em>V<sub>t</sub></em> and λ = 0. The value of voltages <em>V</em><sub>1</sub> and <em>V</em><sub>2</sub> are 8 V and 2 V respectively, then which of the following statements is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The value of voltages V<sub>x</sub> and <em>V<sub>y</sub></em> are 7.5 V and 2.5 V respectively."
+    },
+    {
+     "key": "B",
+     "html": "The sum of resistor values <em>R</em><sub>1</sub> + <em>R</em><sub>2</sub> + <em>R</em><sub>3</sub> = 7 kΩ."
+    },
+    {
+     "key": "C",
+     "html": "The drain current <img align=\"absmiddle\" alt=\"\" src=\"media/2d/2dd06930ed3843463b1e.png\" /> = 2 mA"
+    },
+    {
+     "key": "D",
+     "html": "The value of voltages <em>V<sub>x</sub></em> and <em>V<sub>y</sub></em> are 7 V and 3 V respectively."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4a/4a9bd598150cfaa25446.png\" /></div>\n\n<div><img alt=\"\" src=\"media/37/3799b0fce755db668fa4.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In the circuit shown, <em>D</em><sub>1</sub> and <em>D</em><sub>2</sub> are ideal diodes. The value of <em>V</em><sub>1</sub> and <em>V</em><sub>2</sub> at steady state are</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8e/8eb7c7bb34b76c2f5727.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>V</em><sub>1</sub> = 10 V; <em>V</em><sub>2</sub> = 5 V"
+    },
+    {
+     "key": "B",
+     "html": "<em>V</em><sub>1</sub> = 10 V; <em>V</em><sub>2</sub> = –5 V"
+    },
+    {
+     "key": "C",
+     "html": "<em>V</em><sub>1</sub> = 5 V; <em>V</em><sub>2</sub> = 10 V"
+    },
+    {
+     "key": "D",
+     "html": "<em>V</em><sub>1</sub> = 5 V; <em>V</em><sub>2</sub> = –10 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d7/d7f2bf8615019d283992.png\" /></div>\n\n<div><img alt=\"\" src=\"media/f0/f088b0757706d8d78d76.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the circuit shown in the figure below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3f/3f8a12e9c34c24c1956a.png\" /></div>\n\n<div> </div>\n\n<div>The transistor <em>T</em><sub>1</sub> has transconductance ‘<em>g<sub>m</sub></em>’, common base current gain ‘α’ and small signal input resistance ‘<em>r<sub>e</sub></em>’. If <em>C</em><sub>1</sub> and <em>C</em><sub>2</sub> are assumed to be very large, then the value of overall small signal gain <img align=\"absmiddle\" alt=\"\" src=\"media/4e/4ebf2611d9471f6655e7.png\" /> is equal to<br />\n(Assume, there is no basewidth modulation)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/33/33e9bf5f1e00a4a884df.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/7e/7ecc23723ab178ee5c75.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/5e/5e71c88a2b7e0fd4417a.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/c7/c7e181b9baef8419104b.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/34/348b454f43bda912c563.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In the following amplifier circuit, <em>g</em><sub><em>m</em>1</sub> and <em>g</em><sub><em>m</em>2</sub> are small signal parameters of <em>M</em><sub>1</sub> and <em>M</em><sub>2 </sub>respectively. Assume λ = 0. The small signal voltage gain  <img align=\"absmiddle\" alt=\"\" src=\"media/9d/9d8218dd84781e3eeb87.png\" /> is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0d/0d65a4a691d8ce2394d6.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/60/60fb05ad47a9e9be5701.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/25/25884b5f11773760fdbb.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/db/dbce8f032c784717ad42.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/57/57e0493edb427210e6a6.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/38/38baa951f9481d2d95ec.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the following circuit:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ee/ee0f7201776b98cb7113.png\" /></div>\n\n<div>The value of <em>R<sub>E</sub></em> when <em>V<sub>T</sub></em> = 25 mV is _________ kΩ. (Answer upto one decimal place).</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    11.3,
+    11.7
+   ],
+   "answerText": "11.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>11.5 (11.3 - 11.7)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/eb2c950c73f4dbc2862f.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown below with ideal diode, η = 1 and <em>V<sub>T</sub></em> = 26 mV.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f4/f4653926545542b74944.png\" /></div>\n\n<div>Peak value of <em>i<sub>ac</sub></em> will be ________ μA. (upto 2 decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.9,
+    3.05
+   ],
+   "answerText": "3.00",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3.00 (2.90 - 3.05)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/eb/eb11dc334f3f58c1fe05.png\" /></div>\n\n<div><img alt=\"\" src=\"media/76/763f36ebb2f59edae241.png\" /></div>\n</div>\n\n<div>&nbsp;</div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "NAT": 5,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

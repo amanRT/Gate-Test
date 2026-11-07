@@ -1,0 +1,1056 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-015",
+ "title": "Subjectwise Test-2 Part Syllabus GATE 2026 CS Algorithms",
+ "sourceTitle": "Subjectwise Test-2 Part Syllabus GATE 2026 CS Algorithms",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 15,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 33",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/034_Subjectwise Test-2 Part Syllabus GATE 2026 CS Algorithms.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following sorting algorithm has the least time complexity in wrost case using array data structure?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Bubble sort"
+    },
+    {
+     "key": "B",
+     "html": "Insertion sort"
+    },
+    {
+     "key": "C",
+     "html": "Heap sort"
+    },
+    {
+     "key": "D",
+     "html": "Selection sort"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/42/42ff316556c257b8ea8a.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>What is the time complexity of recurrence equation?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/dc/dc7c42416470ec049d5e.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/c7/c7b206de154141a56fd3.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/8e/8e040c38877cc36b3f86.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/41/4126799b4b78d1e136e2.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b1/b16bd93c01cd3b4afc81.png\" /></div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f5/f5d5aba44d55e3ca9b83.png\" /></div>\n</div>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider three algorithms <em>A</em>, <em>B</em> and <em>C</em> with the following time complexities:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/db/db5d0bb696115a952695.png\" /></div>\n\n<div>Which of the following statement(s) are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>A</em>(<em>n</em>) grows faster than <em>B</em>(<em>n</em>) but slower than <em>C</em>(<em>n</em>)."
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/8f/8ff5fe2316754084713c.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<em>B</em>(<em>n</em>) grows slower than both <em>A</em>(<em>n</em>) and <em>C</em>(<em>n</em>)."
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/dc/dc2fea3de344fb12ae06.png\" />"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a2/a269d0b3971137112b80.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following code segment:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d9/d9597cc314dd1a26b1f7.png\" /></div>\n\n<div>What is the asymptotic time complexity of this code in terms of <em>n</em>?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Ο(n log <em>n</em>)"
+    },
+    {
+     "key": "B",
+     "html": "Ο(<em>n</em> log (log<sup>2</sup> <em>n</em>))"
+    },
+    {
+     "key": "C",
+     "html": "Ο(n log n)<sup>2</sup>)"
+    },
+    {
+     "key": "D",
+     "html": "Ο(<em>n</em><sup>2</sup> log <em>n</em>)"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c1/c1f2a1b0521af2e34c6a.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following pseudocode logic:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/cd/cdf29deadc75876756db.png\" /></div>\n\n<div>Which of the following statements is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "For input <em>n</em> = 2468, the output is –8."
+    },
+    {
+     "key": "B",
+     "html": "Time complexity of the function is Ο(log<sub>10</sub> n)."
+    },
+    {
+     "key": "C",
+     "html": "Space complexity is Ο(log<sub>10</sub> n) due to recursive stack."
+    },
+    {
+     "key": "D",
+     "html": "For input <em>n</em> = 232322, the output is –10."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Max-heap is constructed by inserting the following integer in the given order into an empty tree.<br />\n[20, 32, 1, 3, 4, 5, 6, 7, 10, 23, 45]<br />\nThe sum of values of internal nodes except root node is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    71,
+    71
+   ],
+   "answerText": "71",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>71</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/79/79f15e0b089db7027af2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>A min heap having 1024 distinct elements with keys ranging from 0 to 1023 is stored in array of 1024 indices. The maximum difference between element 512 present at maximum level and minimum level is ________. [Assume root is present at level-1]</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>9</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/21/211b7ffe0c9b1b5ad009.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>A certain permutations of integers stored in an array is provided as an input to the produce of quicksort. After one pass of the algorithm, the status of the array is as follows:<br />\n8, 7, 10, 12, 19, 14, 20, 22<br />\nWhich of the following could be the pivot element in array?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10"
+    },
+    {
+     "key": "B",
+     "html": "19"
+    },
+    {
+     "key": "C",
+     "html": "20"
+    },
+    {
+     "key": "D",
+     "html": "22"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)<br />\nPivot element: All the elements on the left of the pivot are smaller that it and elements on the right are greater than it.<br />\nSo, 10, 12, 20 and 22 could be the possible pivot elements in array.</p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a sorted array index at 0<sup>th</sup>, having eleven elements. Number of comparison performed by linear and binary search to traverse element at 6th location are <em>X</em> and <em>Y</em> respectively. What are the values of <em>X</em> and <em>Y</em>?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "6, 3"
+    },
+    {
+     "key": "B",
+     "html": "7, 3"
+    },
+    {
+     "key": "C",
+     "html": "6, 4"
+    },
+    {
+     "key": "D",
+     "html": "7, 4"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/39/39b9f17274f9512fb2c2.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>A message is made up of five different characters A, B, C, D and E, having probabilities 0.24, 0.18, 0.17, 0.25 and 0.16 in message. The expected length of the encoded, if message size is 500 bits and Huffman coding is used.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1165,
+    1165
+   ],
+   "answerText": "1165",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1165</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/48/48bea983cba9c7542394.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following statements in reference to sort the array of numbers:<br />\n<em>S</em><sub>1</sub> : Least running time complexity of quick sort in worst case is Θ(n log n).<br />\n<em>S</em><sub>2</sub> : Maximum running time complexity of merge sort in best case is Ο(<em>n</em><sup>2</sup>).<br />\n<em>S</em><sub>3</sub> : Least running time complexity of insertion sort in worst case is Ο(n).<br />\nThe number of the correct statements is/are ________?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/64/64aec079035935a618b4.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Suppose three matrices <em>A</em>, <em>B</em> and <em>C</em> are given where the dimension of <em>A</em> is 10 × 100, <em>B</em> is 100 × 20 and <em>C</em> is 20 × 100. The minimum number of matrix multiplication required to find the product of <em>A</em> × <em>B</em> × <em>C</em> using basic matrix multiplication method is _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    40000,
+    40000
+   ],
+   "answerText": "40000",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>40000</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2f/2f3e693bfb72254f0c78.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>An array <em>A</em>[10] = {38, 27, 43, 3, 9, 82, 10, 55, 34, 12} is being sorted using merge sort.<br />\nWhich of the following could be a possible intermediate merged state(s)? [by using recursive merge sort]</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "{3, 9, 27, 38, 43, 82, 10, 55, 34, 12}"
+    },
+    {
+     "key": "B",
+     "html": "{27, 38, 43, 3, 9, 10, 82, 55, 12, 34}"
+    },
+    {
+     "key": "C",
+     "html": "{3, 9, 27, 38, 43, 10, 34, 12, 55, 82}"
+    },
+    {
+     "key": "D",
+     "html": "{27, 38, 43, 3, 9, 82, 10, 55, 34, 12}"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/33/33a23d3c4a572df7fa39.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following undirected, connected and weighted graph, where all weight’s are nonzero and positive integers.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b0/b0b0ab2077ecf318d1f8.png\" /></div>\n\n<div> </div>\n\n<div>Given, <em>x</em> ≠ <em>y</em> and z > (x and y), then what are the maximum number of minimum spanning tree possible for given graph, given x = 2?</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2<br />\nGiven <em>x</em> = 2, then for y = 4, we have two minimum spanning tree possible.</p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub> : Ternary search is more efficient than binary search for finding an element in a sorted array.<br />\n<em>S</em><sub>2</sub> : Worst case deletion and insertion in an AVL tree has same complexity.<br />\n<em>S</em><sub>3</sub> : The value of <em>T</em>(<em>n</em>) = <img align=\"absmiddle\" alt=\"\" src=\"media/1c/1ce0b9902c07406533d0.png\" /> is θ(log n)<br />\nThe number of correct statement(s) is/are ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6b/6bac78c0aae7b1ff0c47.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the below statements:<br />\n<em>S</em><sub>1</sub> : In a connected undirected graph <em>G</em> = (<em>V</em>, <em>E</em>) with distinct edge weights, then second minimum cost edge belongs to minimum cost spanning tree.<br />\n<em>S</em><sub>2</sub> : In a connected directed graph <em>G</em> = (<em>V</em>, <em>E</em>) with distinct edge weights, then second maximum cost edge belongs to minimum cost spanning tree.<br />\nWhich of the above statements is incorrect?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/09/099fa0d8c1cf3dbeb2c6.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Which of the following statement(s) is true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Let <em>P</em> be a shortest path from some vertex s to some other vertex <em>t</em> in a graph. If the weight of each edge in the graph is increased by one, <em>P</em> will still be a shortest path from <em>s</em> to <em>t</em>."
+    },
+    {
+     "key": "B",
+     "html": "Dijkstra’s algorithm works on any graph without negative weight cycles."
+    },
+    {
+     "key": "C",
+     "html": "The Relax function in Bellman Ford never increases any shortest path estimate <em>d</em>[<em>v</em>]."
+    },
+    {
+     "key": "D",
+     "html": "Any Dynamic Programming algorithm with n subproblems will run in Ο(<em>n</em>) time."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/71/710798a346ea06c420dc.png\" /></div>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following directed graph <em>G</em>(<em>V</em>, <em>E</em>):</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/85/8504255939ebd79263de.png\" /></div>\n\n<div>Which of the following is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Dijkstra algorithm fails to compute the shortest path from vertex <em>S</em>."
+    },
+    {
+     "key": "B",
+     "html": "Vertex <em>S</em> → <em>B</em> have two different paths computed by Dijkstra algorithm."
+    },
+    {
+     "key": "C",
+     "html": "<em>G</em>(<em>V</em>, <em>E</em>) have three strongly connected components."
+    },
+    {
+     "key": "D",
+     "html": "Bellman Ford algorithm always detects negative edge weight cycle in graph if exists."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(c)</p>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cd/cd245f51ce5fa3216970.png\" /></div>\n\n<div>(d) false: Bellman Ford properly checks negative edge weight cycle in the graph.&nbsp;</div>\n</div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the function for large <em>n</em>:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ad/ad56bb57332affc27504.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is the correct increasing order of their asymptotic behaviour?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/5b/5b25177f440eadaf547b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/de/de0201338e78481a12d6.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/89/89a11e239b38f77be168.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/93/9361819d6112e7117e0d.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/1d/1d2f2845abce59156a52.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following pseudo C code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b4/b4db1785f0ac8d1310f2.png\" /></div>\n\n<div>Which of the following statements is/are true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Time complexity of ME(<em>n</em>) is Ο(log <em>n</em>)l<sup>og n</sup>."
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/b6/b6c1ae70f265c2aeeb18.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/c3/c308d9f7192e157d6970.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "Recursive relation for ME(n) = ME(n/4) + c where c is constant, where ME(n) is TC of algorithm."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f9/f9fa56fa79a2700c9f74.png\" /></div>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following direct graph <em>G</em>(<em>V</em>, <em>E</em>):</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8b/8b21fdf25418bb0e2e4d.png\" /></div>\n\n<div>Which of the following is/are correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "“DCBAEF” is possible DFS traversal with stack depth 2."
+    },
+    {
+     "key": "B",
+     "html": "There is not topological ordering in the graph."
+    },
+    {
+     "key": "C",
+     "html": "Atleast one traversal have same BFS and DFS."
+    },
+    {
+     "key": "D",
+     "html": "All edges in the graph are back edges for some DFS traversal."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/38/38ef73b8e7c12336a981.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Let <em>G</em>(<em>V</em>, <em>E</em>) be a connected, undirected graph with positive edge weights. Let <em>T<sub>p</sub></em> and <em>T<sub>k</sub></em> denote the MSTs obtained by Prim’s and Kruskal’s algorithm respectively.<br />\nWhich of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>T<sub>p</sub></em> and <em>T<sub>k</sub></em> are always same possible for every <em>G</em>."
+    },
+    {
+     "key": "B",
+     "html": "The order of edge selection in <em>T<sub>p</sub></em> and <em>T<sub>k</sub></em> are different."
+    },
+    {
+     "key": "C",
+     "html": "Sequence of edges which includes into <em>T<sub>p</sub></em> is always connected but <em>T<sub>k</sub></em> may not connected."
+    },
+    {
+     "key": "D",
+     "html": "<em>T<sub>p</sub></em> and <em>T<sub>k</sub></em> may same but construction different."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bd/bda0b8577f04449a10f2.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider a recursive merge sort implementation that calls insertion sort on sub lists which are smaller than some threshold, if there are n function calls in merge sort, how many calls will there be in insertion sort?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "(<em>n</em> + 1)"
+    },
+    {
+     "key": "B",
+     "html": "log <em>n</em>"
+    },
+    {
+     "key": "C",
+     "html": "log <em>n </em>+ <em>n</em>"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/39/39fb903d72363c6c3f1f.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c5/c5e38f6d11daacedf3c7.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following directed graph:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b5/b5e80159f94d21cd7b5d.png\" /></div>\n\n<div>What is the adjacency matrix after Floyd’s algorithm applied and all path relaxing by vertex <em>B</em>, <em>E</em> and <em>D</em> sequentially.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/1d/1dd96ad849a7fc7ab90a.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/4e/4e926a3f877de9edb63f.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/db/dbd7477ebf1d3c671028.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/ee/eecf84cd2ba06d3e5fc8.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/df/df6f04e02df65f3abcc1.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ff/ff4886bd4151f8caa546.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the 0/1 Knapsack problem with a capacity of 7 units. Given 5 items with the following properties.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/4b/4b69787de8cab68edabb.png\" /></div>\n\n<div>The selection of items must satisfies the following constraints.<br />\n• If item <em>C</em> is included, then item B must be included.<br />\n• Item <em>A</em> and <em>E</em> can not be selected together.<br />\nWhat is the maximum total value can be obtained without violating any of the above constraints?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "100"
+    },
+    {
+     "key": "B",
+     "html": "115"
+    },
+    {
+     "key": "C",
+     "html": "85"
+    },
+    {
+     "key": "D",
+     "html": "110"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/11/11097310b5355ea74802.png\" /></div>\n\n<div><img alt=\"\" src=\"media/bc/bc213b6350b78e59c516.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following two string <em>P</em> and <em>Q</em> :<br />\n<em>P</em> = madeeasycse26<br />\n<em>Q</em> = gatecsexam<br />\nThe length of longest common subsequence is x and number of different longest subsequence are y.<br />\nWhat is the value of <img align=\"absmiddle\" alt=\"\" src=\"media/ba/ba79fa508d08a0201580.png\" /> = ________?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>4</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/10/10405fe79265ca484df8.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>An algorithm with time complexity Ο(log log <em>n</em>), A takes 100 seconds to execute the given data, <em>B </em>takes 75 sec for the same algorithm on same machine for data size of 256, data size of <em>A</em> is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    65536,
+    65536
+   ],
+   "answerText": "65536",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>65536</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c2/c24a7ffffd31c8574d4a.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In a min-heap, the next largest element of any element can be found is Ο(log <em>n</em>) time."
+    },
+    {
+     "key": "B",
+     "html": "In a BST, finding the next smaller element to given element can be done in Ο(<em>n</em>) time."
+    },
+    {
+     "key": "C",
+     "html": "Binary heap to BST conversion take Ο(<em>n</em> log <em>n</em>) time."
+    },
+    {
+     "key": "D",
+     "html": "BST to binary heap conversion take Ο(<em>n</em>) time."
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)<br />\n(a) False: A min-heap can provide next largest element, we need to do a linear search through the<br />\nheap&rsquo;s array, it will take &Omicron;(n) time.<br />\n(b) True: Find the next smallest element, the predecessor, may require travelling down the height<br />\nof the tree, making the running time &Omicron;(n) in worst case.<br />\n(c) True: Binary heap to BST conversion take &Omicron;(n log n) time.<br />\n(d) True: By heapify method.</p>"
+  },
+  {
+   "n": 29,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider we constructed binary search tree shown below starting with an empty tree and elements 2, 7, 12, 14, 15, 20, 25, 28, 30 and 40 are come in any order:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/99/99dfc664297c3731642d.png\" /></div>\n\n<div>Which of the following about the order of elements in input sequence can be true?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12 comes before 7 and 2 comes after 7"
+    },
+    {
+     "key": "B",
+     "html": "28 comes after 25 and 20 comes after 7"
+    },
+    {
+     "key": "C",
+     "html": "20 comes before 7 and 12 comes after 7"
+    },
+    {
+     "key": "D",
+     "html": "25 comes before 28 and 14 comes after 15"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\nWe know that &lsquo;a&rsquo; comes before &lsquo;b&rsquo; iff &lsquo;b&rsquo; is child of &lsquo;a&rsquo; and &lsquo;b&rsquo; comes after &lsquo;a&rsquo; iff &lsquo;b&rsquo; is child of &lsquo;a&rsquo;.<br />\nOption (a) 7 is not the child of 12. So false<br />\nOption (b) 20 is not child of 7. So false<br />\nOption (d) 14 is not child of 15. So false<br />\nOnly option (c) is correct i.e. &lsquo;7&rsquo; is child of &lsquo;20&rsquo; and &lsquo;12&rsquo; is child of &lsquo;7&rsquo;.</p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following graph:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7d/7dfbda43f816fc605f53.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following does not represents the sequences of edges added in order to make a minimum spanning tree using Prim’s algorithm?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/14/147ce6ffab8d0f36dd7d.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/cf/cf2e5f30c9b198853829.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/73/73755585bd2aa9dd8fcc.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/f8/f8a20000c15b58fd019b.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nPrim&rsquo;s always select the edge with minimum edge weight among the available options.</p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of the following input will give best case for selection sort?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 15 17 19 25 30"
+    },
+    {
+     "key": "B",
+     "html": "17 10 15 19 30 25"
+    },
+    {
+     "key": "C",
+     "html": "30 25 19 17 15 10"
+    },
+    {
+     "key": "D",
+     "html": "All of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nSelection sort take &Omicron;(n<sup>2</sup>) time in all cases.</p>"
+  },
+  {
+   "n": 32,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Let <em>T</em>(<em>n</em>) be the time complexity of an algorithm that divides a problem of size n into n subproblems of size <img align=\"absmiddle\" alt=\"\" src=\"media/12/126d5b057aef70cae346.png\" /> and solves them recursively. Then combines the solutions in <em>f</em>(<em>n</em>) time.<br />\nWhich of the following is/are necessarily correct regarding the algorithm behaviour?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<div> </div>\n\n<div><img alt=\"\" src=\"media/68/68314079da993a895283.png\" /></div>\n\n<div> </div>"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/cc/ccf74d5f820fa6742ffd.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/f4/f427466de2176831b585.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c5/c5738014894846da2b15.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>The given diagram shows the flow chart for a recursive function <em>f</em>(<em>n</em>). Assume that all statements, excepts for the recursive calls, have Ο(1) time complexity. If the worst case time complexity of this function is Ο(<em>n</em><sup>α</sup>), then the least possible value of α is ________.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/88/8832b2e43da4042abfea.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/89/89d8f0d67f04e395a027.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 13,
+   "MSQ": 10,
+   "NAT": 10
+  },
+  "withoutKey": 0
+ }
+}

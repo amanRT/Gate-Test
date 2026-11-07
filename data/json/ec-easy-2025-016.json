@@ -1,0 +1,1011 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-016",
+ "title": "Subjectwise Test-4 Part Syllabus GATE 2025 EC Signals and Systems",
+ "sourceTitle": "Subjectwise Test-4 Part Syllabus GATE 2025 EC Signals and Systems",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 16,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/039_Subjectwise Test-4 Part Syllabus GATE 2025 EC Signals and Systems.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA signal <img align=\"absmiddle\" alt=\"\" src=\"media/32/32226389767883898739.png\" /> is defined as</p>\n<p>\n\t<img alt=\"\" src=\"media/82/82807f2fe0081c012ff2.png\" /></p>\n<p>\n\tThe time-period of signal is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "10"
+    },
+    {
+     "key": "D",
+     "html": "not-defined"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/39/392fa3bb423e2ba5bc6b.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA signal <img align=\"absmiddle\" alt=\"\" src=\"media/59/59a95752f755c1faaf29.png\" /> has time period 1 unit and following Fourier Coefficient:</p>\n<p>\n\t<img alt=\"\" src=\"media/be/bef81db9e4c4051b5f1d.png\" /></p>\n<p>\n\tThe value of <img align=\"absmiddle\" alt=\"\" src=\"media/23/2399cd7596b32deec5b9.png\" /> is ________. (Rounded upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.98,
+    1.76
+   ],
+   "answerText": "1.34 (0.98 - 1.76)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.34 (0.98 - 1.76)</p>\n<p>\n\t<img alt=\"\" src=\"media/47/4754ee4228532184d22b.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the block diagram given below:</p>\n<p>\n\t<img alt=\"\" src=\"media/b2/b2b1854f9482e4849fae.png\" /></p>\n<p>\n\tIf K = 1 and <img align=\"absmiddle\" alt=\"\" src=\"media/2c/2c0ce2c38088ef1c52dc.png\" /> for all <em>n</em>, then y(n) at <em>n</em> = –1 will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/57/57e741a7eac723202575.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2a/2afa3d68168635e08e39.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cd/cde8c069c3e8e0b12181.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3f/3f1e33cff88021ff51fd.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/da/da1d56e1a94005d3dec1.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA digital measuring instrument employs a sampling rate of 150 samples/second. The sampled input <img align=\"absmiddle\" alt=\"\" src=\"media/eb/ebc5bc2f9533de5d5e8d.png\" /> is averaged using the difference equation<br />\n\t<img alt=\"\" src=\"media/67/67c473733b09d638fcf0.png\" /><br />\n\tFor a step input, the maximum time in (ms) taken for the output to reach the final value after the input transition is _________. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    33,
+    34
+   ],
+   "answerText": "33.33 (33.00 - 34.00)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t33.33 (33.00 - 34.00)</p>\n<p>\n\t<img alt=\"\" src=\"media/9e/9e9268340648b9453c4b.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tSuppose that the signal <img align=\"absmiddle\" alt=\"\" src=\"media/1b/1bd72de029270ed23320.png\" /> = u(t + 0.5) – u(t – 0.5) and the signal <img align=\"absmiddle\" alt=\"\" src=\"media/cd/cd3d5eb18869fc048f40.png\" /><br />\n\tWhat is the minimum value of ωo which ensure that y(0)= 0, where <img align=\"absmiddle\" alt=\"\" src=\"media/0b/0bcdaf37ab53bbd074a8.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e9/e9f97a682e766d79cefb.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/30/3027859a10c3af6ca952.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/83/833cee580a60201d232f.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2e/2e1b8cbd8025d767dd20.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/0b/0b5b4930f4258797c482.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe system that follow have input <img align=\"absmiddle\" alt=\"\" src=\"media/36/3651ebe4b37b6988337e.png\" /> and output y(t):</p>\n<p>\n\t<img alt=\"\" src=\"media/78/78e0e975d3efd5323034.png\" /></p>\n<p>\n\tWhich of the following is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "System is memoryless and unstable"
+    },
+    {
+     "key": "B",
+     "html": "System is non causal and unstable"
+    },
+    {
+     "key": "C",
+     "html": "System is linear, causal and time invariant."
+    },
+    {
+     "key": "D",
+     "html": "System is linear, non causal and time variant."
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(b,d)</p>\n<p>\n\t<img alt=\"\" src=\"media/38/386adf760d78cae42c06.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/f4/f43abf3308a61169fa86.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe input-output relationship of a system is given as</p>\n<p>\n\t<img alt=\"\" src=\"media/af/af4d2b25e3436b671741.png\" /></p>\n<p>\n\twhere <img align=\"absmiddle\" alt=\"\" src=\"media/80/805b92a00bd54c34b981.png\" /> is input and y(n) is the output.<br />\n\tThe system is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "time-invariant and invertible."
+    },
+    {
+     "key": "B",
+     "html": "time-invariant and non-invertible"
+    },
+    {
+     "key": "C",
+     "html": "time-variant and invertible."
+    },
+    {
+     "key": "D",
+     "html": "time-variant and non-invertible."
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe final value of the signal <img align=\"absmiddle\" alt=\"\" src=\"media/36/36cec0a0a581872e623f.png\" /> for which the corresponding z-transform</p>\n<p>\n\t<img alt=\"\" src=\"media/e5/e55e817cfc8863c294c2.png\" /></p>\n<p>\n\tis _____________. (Rounded to nearest integer value)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    12
+   ],
+   "answerText": "10 (9 - 12)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t10 (9 - 12)</p>\n<p>\n\t<img alt=\"\" src=\"media/92/92e3ecbc70ded1fc688a.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tLet <img align=\"absmiddle\" alt=\"\" src=\"media/e8/e8b5fb5d5c34f135f990.png\" /> be a real periodic sequence with fundamental period N<sub>0</sub> and Fourier series coefficients C<sub>k</sub> = a<sub>k</sub> + <em>jb<sub>k</sub></em>, where a<sub>k</sub> and b<sub>k</sub> both are real. If N<sub>0</sub> is even, then <em>C</em><sub><em>N</em>0/2</sub> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Purely imaginary"
+    },
+    {
+     "key": "B",
+     "html": "Complex"
+    },
+    {
+     "key": "C",
+     "html": "Purely real"
+    },
+    {
+     "key": "D",
+     "html": "None"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/25/251e17771885e7162eaa.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA causal LTI system has the frequency response <em>H</em>(ω) shown in figure. For the input <img align=\"absmiddle\" alt=\"\" src=\"media/17/17ae1c296f516f43c263.png\" /> with Fourier Transform,</p>\n<p>\n\t<img alt=\"\" src=\"media/d2/d27dbf0b2429285f1667.png\" /></p>\n<p>\n\tthe filtered output signal y(t) is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/eb/eb261ec1b737f660f01e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b0/b0ff56e8590817aa0c68.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4f/4fb847a5a60a8d0eb358.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fa/fa4eb8c7c0ea9ceb334a.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/9d/9dc23d01998406ee474a.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider the system:</p>\n<p>\n\t<img alt=\"\" src=\"media/41/418f6bf9d367cb5c0d35.png\" /></p>\n<p>\n\tWhich of the above statements are valid?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/0e/0ecf35e418b31f9a50cd.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tFind RMS value of signal y(t) if RMS value of <img align=\"absmiddle\" alt=\"\" src=\"media/89/891fb23cca79210b96c4.png\" /> is ‘4’ and y(t) is related to signal <img align=\"absmiddle\" alt=\"\" src=\"media/30/309b5d0ecf6c241edcf0.png\" /> by relationship <img align=\"absmiddle\" alt=\"\" src=\"media/57/5733a48cf69ebe9ff7dd.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/96/96d64382acd15b696013.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "2"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fb/fb17683146c444c1e898.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/18/18403d103ccfc3b4ce86.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe phase function of a filter is Φ(<em>t</em>) = <em>kf</em><sup>2</sup>, <em>k</em> > 0. The group delay of the filter has the shape:</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cb/cb9e926bcaff497e2a90.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b0/b0d86ad5444b8bd13727.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/dd/ddb69b7c6af000638148.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3b/3bdc460725beb3e3e02e.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/87/872b5f8e28565b25f532.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tFourier series of any periodic signal <img align=\"absmiddle\" alt=\"\" src=\"media/9d/9ddf453e3c8059397314.png\" /> can only be obtained if<br />\n\t(a) <img align=\"absmiddle\" alt=\"\" src=\"media/26/268654cdf8068f0cc2c4.png\" /></p>\n<p>\n\t(b) Finite number of discontinuities within finite time interval <em>T</em> and the size of discontinuity should be finite.<br />\n\t(c) Infinite number of discontinuities in one period.<br />\n\t(d) Finite number of maxima and minima in one period.<br />\n\tWhich of the above statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/5c/5c45b61e41a9042d08c1.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe DTFT of sequence <img align=\"absmiddle\" alt=\"\" src=\"media/79/79eac48a7942837bf6ef.png\" /> is <em>X</em>(Ω). The inverse DTFT of <img align=\"absmiddle\" alt=\"\" src=\"media/6c/6c0432736ff48d55a25d.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "{4, 1, –2, 3}"
+    },
+    {
+     "key": "B",
+     "html": "{3, 4, –2, 1}"
+    },
+    {
+     "key": "C",
+     "html": "{3, 2, 1, –4}"
+    },
+    {
+     "key": "D",
+     "html": "{–3, 2, –1, 4}"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/9b/9b4e9efb302b8534bf41.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the signal <img align=\"absmiddle\" alt=\"\" src=\"media/7f/7fa69fa0813ef14fea01.png\" /> Let <em>X</em>(ω) denote the Fourier transform of the signal. The value of <img align=\"absmiddle\" alt=\"\" src=\"media/b3/b39301b86c6df84d040a.png\" /> is ________.</p>\n<p>\n\t(Rounded upto 1 decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.2,
+    1.5
+   ],
+   "answerText": "0.5 (0.2 - 1.5)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.5 (0.2 - 1.5)</p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0a300fbd87acd1998f64.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe energy of the sequence <img align=\"absmiddle\" alt=\"\" src=\"media/39/390eeeea6121fdf2fff1.png\" /> is</p>\n<p>\n\t<img alt=\"\" src=\"media/ca/caadae5ee448b099fbec.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/09/09fca92e0e71740beea6.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a7/a77e71cf1fd9f2b48bfd.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3d/3db641860739c7c7a1c0.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/05/0556e8dc6f287ab7fffd.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/29/29ea0dd5d87159988af9.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/4e/4efff2e3de612e7ef0db.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe steady state value of the step response for the LTI system represented by following impulse response is __________.</p>\n<p>\n\t<img alt=\"\" src=\"media/28/28422542848afc99db2c.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    2
+   ],
+   "answerText": "1 (0 - 2)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1 (0 - 2)</p>\n<p>\n\t<img alt=\"\" src=\"media/e4/e4e0e08787d0bec05ab6.png\" /></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tSuppose the following facts are given about the signal <img align=\"absmiddle\" alt=\"\" src=\"media/c0/c02497268c2c1b33c909.png\" /> with laplace transform <em>X</em>(s):<br />\n\t<img alt=\"\" src=\"media/7e/7e3a551a8c1058eac34d.png\" /><br />\n\tX(s) is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f8/f8dfdd52b1de2a0405ca.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/03/03c3db8b4e992370bdc6.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/32/323b330b3af39ec14d59.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ef/ef07b51e3d1702ea6fc8.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/d7/d7b411e7123d554c2eaa.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/ec/ecd2a03d77400aafa67b.png\" /></p>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tConsider a discrete time signal <img align=\"absmiddle\" alt=\"\" src=\"media/e2/e25be363a23fb46d1508.png\" /> The z-transform of the signal <img align=\"absmiddle\" alt=\"\" src=\"media/92/928fe7c27b2f6b8fe783.png\" /> is given as X(z) = cos(z<sup>–2</sup>); |z| > 0. Then which of the following option is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1a/1a61df2a902a4345646c.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b9/b90cdff5b94bad0d9c96.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/92/927547502a42b91ea447.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/79/79cd803175dc18ba1e7b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/18/18520f11e085e58ab885.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/7e/7eb444484020b7a22578.png\" /></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider a discrete-time LTI system with frequency response</p>\n<p>\n\t<img alt=\"\" src=\"media/a5/a5e06e77ec71193eb3b1.png\" /></p>\n<p>\n\tWhat is the Fourier transform of the output if the input is <img align=\"absmiddle\" alt=\"\" src=\"media/2f/2f7e4b3e4c97d6d2825e.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/49/495e201260f6b397b902.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/98/98f88d686e1386234367.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/86/86744df9f4b450a1d979.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b8/b8ef13cd72654bb4646b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/02/02cff3794751c3e90b2b.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tSuppose we are given the following information about a signal <img align=\"absmiddle\" alt=\"\" src=\"media/b7/b7a28befb2da52d16b02.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/b0/b0e4c03727f9cf17e823.png\" /></p>\n<p>\n\tIf <img align=\"absmiddle\" alt=\"\" src=\"media/b2/b2cf45b2f0017f4aaf66.png\" /> = <em>A</em> cos (<em>Bn</em> + <em>C</em>); where <em>A</em>, <em>B</em> and <em>C</em> are constant, then the value of <em>A</em> + <em>B</em> + <em>C</em> is _______.<br />\n\t(Rounded upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9.45,
+    11.36
+   ],
+   "answerText": "10.63 (9.45 - 11.36)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t10.63 (9.45 - 11.36)</p>\n<p>\n\t<img alt=\"\" src=\"media/e4/e43030c2d9d0d476176b.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tSuppose that a system has the response <img align=\"absmiddle\" alt=\"\" src=\"media/d0/d0e907739cfd734d8d03.png\" /> u n to the input <img align=\"absmiddle\" alt=\"\" src=\"media/f3/f3149293e4a5470b9125.png\" /> If the output of this system is <img align=\"absmiddle\" alt=\"\" src=\"media/5a/5a66bf91a6ff02ca2698.png\" /> the input is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fd/fdd15a2907e11f773450.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d0/d08e25497b4ce98aa32d.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4f/4f908377cd0f1a4b61ef.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9d/9dc9003e43c2fdf36a05.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/fb/fb68943af6f79c7cd9c3.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/80/80ce589bfe0c910d2e62.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor a signal <img align=\"absmiddle\" alt=\"\" src=\"media/90/904a365d41a67a0aba07.png\" /> it is given that <img align=\"absmiddle\" alt=\"\" src=\"media/a5/a52bc0fbba28c92f5f3a.png\" /> Then the value of <img align=\"absmiddle\" alt=\"\" src=\"media/13/13b2ac328316de45851e.png\" /> is _________ (Rounded upto 1 decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.2,
+    2.5
+   ],
+   "answerText": "1.9 (1.2 - 2.5)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.9 (1.2 - 2.5)</p>\n<p>\n\t<img alt=\"\" src=\"media/39/39b2ef19a78250fc71df.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/0b/0b3159e447a21e357e7d.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA signal <img align=\"absmiddle\" alt=\"\" src=\"media/55/552859f6e9784589a0fd.png\" /> is sampled using the impulse periodic train given by <img align=\"absmiddle\" alt=\"\" src=\"media/5f/5f4f39c44da123378a24.png\" /></p>\n<p>\n\tThe Fourier Transform of the sampled signal is represented as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ad/ad4161ccc68bbeebc4c1.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7d/7d13b607aa829dfc85e3.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2e/2e9ebc83b142c75f9c8d.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/74/740f47d54517ba53d208.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/8a/8a846b12c3d98b154da0.png\" /></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA causal signal y(n) has z-transform</p>\n<p>\n\t<img alt=\"\" src=\"media/63/63058a8c7b945fb2df51.png\" /></p>\n<p>\n\tThe value of y(6) is ________. (upto two decimal places).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -0.16,
+    -0.09
+   ],
+   "answerText": "-0.13 (-0.16 - -0.09)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-0.13 (-0.16 - -0.09)</p>\n<p>\n\t<img alt=\"\" src=\"media/e0/e0af05a49d21f643f66e.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tLet <em>h</em>[<em>n</em>] be the impulse response of FIR filter, such that <em>h</em>[<em>n</em>] = 0; n < 0, n ≥ <em>N</em>. Assume that <em>h</em>[<em>n</em>] is real and let the frequency response <em>H</em>(ω) be expressed as H(ω) = |<em>H</em>(ω)|<em>e</em><sup><em>j</em>θ(ω)</sup>. Then the phase response θ(ω) when <em>h</em>[<em>n</em>] satisfies the condition <em>h</em>[<em>n</em>] = <em>h</em>[<em>N</em> – 1 – <em>n</em>] is,</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t2(<em>N</em> – 1)ω</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t–(<em>N</em> – 1)ω</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/26/26f9ded8cbf286de4e2b.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/22/22a1d5beaad7ad62a45e.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/48/48d394d112aa3d5ede48.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tWhen the impulse train</p>\n<p>\n\t<img alt=\"\" src=\"media/b7/b796d9998a1c74207261.png\" /></p>\n<p>\n\tis the input to a particular LTI system with frequency response <em>H</em>(<em>e </em><sup><em>j</em>ω</sup>), the output of the system is found to be</p>\n<p>\n\t<img alt=\"\" src=\"media/85/85c3525519c42bbcfca6.png\" /></p>\n<p>\n\tThe sum of values of <img align=\"absmiddle\" alt=\"\" src=\"media/2c/2ce9c5c8c65d1a72aba0.png\" /> for <em>K</em> = 0, 1, 2 and 3 is _________.<br />\n\t(Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.93,
+    3.25
+   ],
+   "answerText": "2.83 (1.93 - 3.25)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.83 (1.93 - 3.25)</p>\n<p>\n\t<img alt=\"\" src=\"media/59/59c9218447c4262d41bf.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/4c/4c9f679044d5f38c50b9.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe discrete time Fourier transform of the signal <img align=\"absmiddle\" alt=\"\" src=\"media/51/51e8e400612bec9b8ec7.png\" /> is defined as</p>\n<p>\n\t<img alt=\"\" src=\"media/3d/3d404147fa0937f84ef6.png\" /></p>\n<p>\n\tThe maximum value of signal <img align=\"absmiddle\" alt=\"\" src=\"media/1b/1b2f40d90add0c3657bf.png\" />is ________. (Rounded upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.18,
+    0.38
+   ],
+   "answerText": "0.32 (0.18 - 0.38)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.32 (0.18 - 0.38)</p>\n<p>\n\t<img alt=\"\" src=\"media/1f/1fdf97df62504852f9d7.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/7c/7c4a3a8a376ae3d6f7d2.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tLet <img align=\"absmiddle\" alt=\"\" src=\"media/e7/e719d16f2ddca0e24d56.png\" /> be a finite length sequence given by <img align=\"absmiddle\" alt=\"\" src=\"media/e7/e719d16f2ddca0e24d56.png\" /> = {1, 2, 3, A, 1, 2} whose DFT is <em>X</em>[<em>k</em>]. If the value of <img align=\"absmiddle\" alt=\"\" src=\"media/6f/6f7c1fc41e3d3293a80e.png\" /> the magnitude of ‘<em>A</em>’ is _________. (Rounded upto one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.1,
+    4.5
+   ],
+   "answerText": "4.3 (4.1 - 4.5)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t4.3 (4.1 - 4.5)</p>\n<p>\n\t<img alt=\"\" src=\"media/51/51939d74a17fd4fb9725.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tLet <img align=\"absmiddle\" alt=\"\" src=\"media/f5/f5b32a144f1c04ed613b.png\" /> be a discrete-time signal and assume</p>\n<p>\n\t<img alt=\"\" src=\"media/06/06bf7b79f9862a0d4b92.png\" /></p>\n<p>\n\tWhich of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c4/c4c5de2a0b838fdfc2b4.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7d/7da94a7a6410b91a63cf.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2a/2a9a65f77551fce6fdb7.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/eb/ebf887054d4f124fad63.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/9c/9ccf98eb6c0a8e97e1d9.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/12/1262cfe03043101517d5.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/65/652679d8cdb6a7d68d19.png\" /><img alt=\"\" src=\"media/30/30182aef575742a3996b.png\" /></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe signal <img align=\"absmiddle\" alt=\"\" src=\"media/34/3429263867952fbfc97d.png\" /> is shown in figure below:</p>\n<p>\n\t<img alt=\"\" src=\"media/7a/7ab854e57027996c6ef4.png\" /></p>\n<p>\n\tIf the signal <img align=\"absmiddle\" alt=\"\" src=\"media/de/de20e69dc4a1613a6937.png\" /> has Laplace transform <em>X</em>(<em>s</em>), then the inverse Laplace transform of <em>X</em><sup>2</sup>(s) will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/de/deb3f22e8252ebcb1e3e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/db/dbab83486c78d47fad3c.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/94/94fe080863a209c6e4ab.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0f/0fa3728f1a79653f531f.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/96/96d1c4380813dce50f88.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe Fourier transform of a signal <em>f</em>(<em>t</em>) is <em>F</em>(ω) and <img align=\"absmiddle\" alt=\"\" src=\"media/ea/ead5e98ac5c9b21d5d3e.png\" /> then the value of <em>f</em>(<em>t</em>) at <em>t</em> = 8.36 sec is _________. (Rounded upto 3 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.012,
+    0.035
+   ],
+   "answerText": "0.023 (0.012 - 0.035)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.023 (0.012 - 0.035)</p>\n<p>\n\t<img alt=\"\" src=\"media/13/139a0a2fbad7fb29840d.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 18,
+   "NAT": 12,
+   "MSQ": 3
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,995 @@
+{
+ "v": 1,
+ "id": "ec-easy-2026-015",
+ "title": "Subjectwise Test-1 Part Syllabus GATE 2026 EC Networks",
+ "sourceTitle": "Subjectwise Test-1 Part Syllabus GATE 2026 EC Networks",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2026",
+ "num": 15,
+ "category": "subjectwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/028_Subjectwise Test-1 Part Syllabus GATE 2026 EC Networks.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit shown below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/23/23db080fe1046171dfc3.png\" /></div>\n\n<div>The current <em>i</em> is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3.8 A"
+    },
+    {
+     "key": "B",
+     "html": "7.8 A"
+    },
+    {
+     "key": "C",
+     "html": "2.8 A"
+    },
+    {
+     "key": "D",
+     "html": "4.8 A"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/34/34b762bdb98ce8998622.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown below, which of the following statements is/are correct?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ca/ca886a3aa68d27f793bb.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The Thevenin voltage across the load, V<sub>th</sub> = 7.45 <img align=\"absmiddle\" alt=\"\" src=\"media/1d/1dfce47b1442a362f33c.png\" /> Volt"
+    },
+    {
+     "key": "B",
+     "html": "For obtaining maximum power, <em>Z<sub>L</sub></em> = (2.93 + <em>j</em>4.46) Ω"
+    },
+    {
+     "key": "C",
+     "html": "The maximum power drawn from the circuit is 2.368 W"
+    },
+    {
+     "key": "D",
+     "html": "For obtaining maximum power, the load must be capacitive in nature."
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3c/3ca9aabf8e39c55f3a58.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In the figure, the capacitor initially has a charge of 5 coulomb. The current in the circuit one milli second after the switch is closed will be _________ A. (upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a0/a07b3a0235ac82916175.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    49,
+    50
+   ],
+   "answerText": "49.50",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>49.50 (49.00 - 50.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cd/cda89bda84190a6f5a16.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ad/ad7a580b7b2fdfaa4b85.png\" /></div>\n\n<div>The voltage at the node, <img align=\"absmiddle\" alt=\"\" src=\"media/93/9333f52694863b12a309.png\" /> are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 V, 2 V and 3 Volt respectively."
+    },
+    {
+     "key": "B",
+     "html": "2 V, 4 V and 3.5 Volt respectively."
+    },
+    {
+     "key": "C",
+     "html": "1.25 V, 2 V and 3.75 Volt respectively."
+    },
+    {
+     "key": "D",
+     "html": "2 V, 4.25 V and 3.75 Volt respectively."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/fa/fa9cefeb04ab00cf4d2d.png\" /></div>\n\n<div><img alt=\"\" src=\"media/07/07a20618d6fb32ae8729.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The node voltages <em>V</em><sub>1</sub>, <em>V</em><sub>2</sub>, <em>V</em><sub>3</sub> and <em>V</em><sub>4</sub> in the circuit given below are</p>\n\n<p> </p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/92/92900cb9a661dfaaa3ec.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>V</em><sub>1</sub> = 10 V, <em>V</em><sub>2</sub> = 20 V, <em>V</em><sub>3</sub> = 30 V and <em>V</em><sub>4</sub> = 40 V"
+    },
+    {
+     "key": "B",
+     "html": "<em>V</em><sub>1</sub> = 20 V, <em>V</em><sub>2</sub> = 10 V, <em>V</em><sub>3</sub> = 30 V and <em>V</em><sub>4</sub> = 40 V"
+    },
+    {
+     "key": "C",
+     "html": "<em>V</em><sub>1</sub> = 10 V, <em>V</em><sub>2</sub> = 20 V, <em>V</em><sub>3</sub> = 40 V and <em>V</em><sub>4</sub> = 30 V"
+    },
+    {
+     "key": "D",
+     "html": "<em>V</em><sub>1</sub> = 10 V, <em>V</em><sub>2</sub> = 20 V, <em>V</em><sub>3</sub> = 35 V and <em>V</em><sub>4</sub> = 40 V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/66/6613ce8021157c41612b.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The value of <img align=\"absmiddle\" alt=\"\" src=\"media/d4/d4f403b55256a63b0e37.png\" />in the circuit shown below is ________ A. (upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ba/bad0ef13bdc737bf630c.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.9,
+    2.5
+   ],
+   "answerText": "2.19",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2.19 (1.90 - 2.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5b/5bc9e5dee4d0d990c4b3.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The current <img align=\"absmiddle\" alt=\"\" src=\"media/d8/d844db4267f4d3a42aef.png\" /> for the circuit given below are.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ad/ad0fd60c431e76eb8a33.png\" /></div>\n\n<div>(Assume that the voltage source is applied at <em>t</em> = –∞.)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/7b/7bfbd55f5b4dabd5d655.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/0d/0d4508e967be637b9916.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/cc/ccc607bacad74ea7565e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/d4/d41a39aa3eec069d4661.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0d/0d36bea9e4071308021a.png\" /></div>\n\n<div><img alt=\"\" src=\"media/21/21ee43d51ae53386fb22.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>For the circuit shown below, which of the following statements is/are correct?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/10/10359f27bbf6a910e279.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The voltage across capacitor 2 mF is 8 V"
+    },
+    {
+     "key": "B",
+     "html": "The voltage across capacitor 4 mF is 4 V"
+    },
+    {
+     "key": "C",
+     "html": "Energy stored in capacitor 2 mF is 16 mJ"
+    },
+    {
+     "key": "D",
+     "html": "Energy stored in capacitor 4 mF is 128 mJ"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/83/83a2615a1a89c5911cf1.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The y-parameters of circuit shown below in s-domain is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/35/3575cdab7967e83826b5.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/ff/ffdd6afe6ff1f8386bbf.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/79/79544bcd4c5a7e908a97.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/8f/8facf769381a4c273b28.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/6f/6f0f7844ba6e7bcaf966.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e3/e3e8b301e8ace8c8240b.png\" /></div>\n\n<div><img alt=\"\" src=\"media/d1/d1ebe9387a60451101d7.png\" /></div>\n\n<div><img alt=\"\" src=\"media/91/915dfbf4047ed3cdc167.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider the following two port network shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f9/f975a7b6e1b7db217b21.png\" /></div>\n\n<div>If the z-parameter |Z<sub>11</sub>| = |Z<sub>22</sub>|, then the value of the impedance Z<sub>1</sub> is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>j</em>4 Ω"
+    },
+    {
+     "key": "B",
+     "html": "–<em>j</em>4 Ω"
+    },
+    {
+     "key": "C",
+     "html": "4 Ω"
+    },
+    {
+     "key": "D",
+     "html": "5 Ω"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/82/82c91e8d3baab4259c8e.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>For the circuit shown in figure below, if the current <img align=\"absmiddle\" alt=\"\" src=\"media/b6/b6cc53d754a1bd93ef8e.png\" /> is 4 A when 20 volt power supply is provided to circuit then,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/b0/b07d47217b2d19b6f59b.png\" /></div>\n\n<div> </div>\n\n<div>The value of resistance ‘<em>R</em>’ is _________ Ω. (Rounded upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.5,
+    2.8
+   ],
+   "answerText": "2.67",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2.67 (2.50 - 2.80)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ef/ef233fb0c930c7db90e6.png\" /></div>\n\n<div><img alt=\"\" src=\"media/68/689e5296af524aa5a303.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the network shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/01/0108a45bc1492db0e637.png\" /></div>\n\n<div>The short circuit current between <em>A</em> and <em>B</em> terminals is ________ × 10<sup>–3</sup> A (upto two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    3
+   ],
+   "answerText": "2.50",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2.50 (2.00 - 3.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d1/d19540f916e6fc1edb16.png\" /></div>\n\n<div><img alt=\"\" src=\"media/69/69dbdc47b8c921405cd3.png\" /></div>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The initial current through a 1H inductor is 1 A. A voltage waveform <img align=\"absmiddle\" alt=\"\" src=\"media/76/765e27dcd9ada2e18283.png\" /> is applied to the inductor, the electric current through inductor at <em>t</em> = 2 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "32 A"
+    },
+    {
+     "key": "B",
+     "html": "33 A"
+    },
+    {
+     "key": "C",
+     "html": "34 A"
+    },
+    {
+     "key": "D",
+     "html": "38 A"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5e/5ec8064600ff1480e022.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit shown below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/88/885696939a04a0165c9a.png\" /></div>\n\n<div> </div>\n\n<div><em>V</em><sub>0</sub>(<em>t</em>) for <em>t</em> > 0 is equal to</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0 V"
+    },
+    {
+     "key": "B",
+     "html": "2<em>e</em><sup>–<em>t</em></sup> V"
+    },
+    {
+     "key": "C",
+     "html": "<em>e</em><sup>–<em>t</em></sup> V"
+    },
+    {
+     "key": "D",
+     "html": "2<em>e</em><sup>–<em>t</em>/2</sup> V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b8/b833a4336dd9c2d89ac2.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Consider a series RC circuit with <em>R</em> = 10 Ω and <em>C</em> = 25 μF. At what frequency, will the current lead the voltage by 30°?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.86 kHz"
+    },
+    {
+     "key": "B",
+     "html": "0.94 kHz"
+    },
+    {
+     "key": "C",
+     "html": "1.1 kHz"
+    },
+    {
+     "key": "D",
+     "html": "1.43 kHz"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/f3/f3bb50bdc0c791a16b57.png\" /></div>\n\n<div><img alt=\"\" src=\"media/f7/f79596c785089e0ce199.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider a parallel RLC circuit having inductance of 10 mH and a capacitance of 100 μF. For an underdamped response, the value of resistor must be greater than ________ Ω.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.8,
+    5.2
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>5 (4.8 - 5.2)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/36/3653db9004d3f24b85ae.png\" /></div>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A 50 μF capacitor, when connected in series with a coil having a resistance of 40 Ω across 100 V source resonates at 1 kHz. Assume the circuit is in resonating condition. Then the voltage across capacitor and power loss in the coil are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7.96 V, 25 W"
+    },
+    {
+     "key": "B",
+     "html": "79.6 V, 250 W"
+    },
+    {
+     "key": "C",
+     "html": "79.6 V, 25 W"
+    },
+    {
+     "key": "D",
+     "html": "7.96 V, 250 W"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/94/9429134a44e7cb8059f6.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The average power delivered to the 6 Ω load in the circuit shown below is _________ W. (upto two decimal places)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/93/93a187e481cf460ca372.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    74,
+    78
+   ],
+   "answerText": "76.54",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>76.54 (74.00 - 78.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/af/af62b32f4e0a13650189.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>A series RLC circuit has <em>R</em> = 50 Ω, <em>L</em> = 100 μH and <em>C</em> = 1 μF. The upper half power frequency of the circuit is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "56.56 kHz"
+    },
+    {
+     "key": "B",
+     "html": "74.38 kHz"
+    },
+    {
+     "key": "C",
+     "html": "62.92 kHz"
+    },
+    {
+     "key": "D",
+     "html": "82.64 kHz"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e8/e80c678ee888a2624e19.png\" /></div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit shown, current <img align=\"absmiddle\" alt=\"\" src=\"media/49/491c4f8458bb2238ec88.png\" /></p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/38/3825fe00550f256c746e.png\" /></div>\n\n<div> </div>\n\n<div>The instantaneous current <img align=\"absmiddle\" alt=\"\" src=\"media/95/951e96f2604944475ffa.png\" /> at 60 Hz frequency is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "5.72 sin (377<em>t</em> + 34.92°) A"
+    },
+    {
+     "key": "B",
+     "html": "5.72 cos (377<em>t</em> – 34.92°) <em>A</em>"
+    },
+    {
+     "key": "C",
+     "html": "4.27 sin (314<em>t</em> + 26.91°) <em>A</em>"
+    },
+    {
+     "key": "D",
+     "html": "4.27 cos (314<em>t</em> – 26.91°) <em>A</em>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/43/43e32f998bd63f10c495.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The <em>RC</em> circuit shown in the figure is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8c/8c8343eae3f977148f7b.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a low-pass filter"
+    },
+    {
+     "key": "B",
+     "html": "a high-pass filter"
+    },
+    {
+     "key": "C",
+     "html": "a band-pass filter"
+    },
+    {
+     "key": "D",
+     "html": "a band-reject filter"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b3/b3107f6bf728ba0c9939.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In the circuit shown, the ideal switch has been open for a long time. If it is closed at <em>t</em> = 0, then the magnitude of the current (in mA) through the 4 kΩ resistor at <em>t</em> = 0<sup>+</sup> is _______ A.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/dc/dcebc349fe7e3206edb7.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1.5
+   ],
+   "answerText": "1.25",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.25 (1.00 - 1.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/6c/6c388d7cb0a917d2f909.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The two elements in the circuit given below are,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/2b/2be99d2b35054a06f956.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>R</em> = 4 Ω and <em>C</em> = 0.4 mF"
+    },
+    {
+     "key": "B",
+     "html": "<em>R</em> = 4.5 Ω and <em>L</em> = 0.6 mH"
+    },
+    {
+     "key": "C",
+     "html": "<em>R</em> = 3 Ω and <em>L</em> = 0.8 mH"
+    },
+    {
+     "key": "D",
+     "html": "<em>R</em> = 3 Ω and <em>C</em> = 0.8 mF"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/0a/0ac28a1e4e2e9759fc5e.png\" /></div>\n\n<div><img alt=\"\" src=\"media/b8/b87e8191ce63f89af93e.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>In the circuit shown below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3b/3b4f879ad6ee833f8c71.png\" /></div>\n\n<div>Power delivered by 60 V source is ________ W.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1615,
+    1625
+   ],
+   "answerText": "1620",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1620 (1615 - 1625)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7e/7efbfb57b2cd8b348726.png\" /></div>\n\n<div><img alt=\"\" src=\"media/dd/dd51fd3fb449bd28aa23.png\" /></div>"
+  },
+  {
+   "n": 25,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>In the circuit shown below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/14/14a099bb0ed5453004e2.png\" /></div>\n\n<div> </div>\n\n<div>The maximum power that can be delivered to load is _________ W. (correct to two decimal places)</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    179,
+    181.5
+   ],
+   "answerText": "179.97",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>179.97 (179.00 - 181.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4f/4fa92224275f81429dee.png\" /></div>"
+  },
+  {
+   "n": 26,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>A series connected load draws a current <img align=\"absmiddle\" alt=\"\" src=\"media/98/983e1898808f05231503.png\" /> A when the applied voltage is <img align=\"absmiddle\" alt=\"\" src=\"media/ca/ca0e67ecfaa00a282bf5.png\" /> Which of the following elements comprises the load?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Resistance, <em>R</em> = 25.98 Ω"
+    },
+    {
+     "key": "B",
+     "html": "Resistance, <em>R</em> = 05.98 Ω"
+    },
+    {
+     "key": "C",
+     "html": "Inductance, <em>L</em> = 4.77 mH"
+    },
+    {
+     "key": "D",
+     "html": "Capacitance, <em>C</em> = 212.2 μF"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/e5/e59493edc970b8998480.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Consider the circuit given below,</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/17/174ff2e944ef90874784.png\" /></div>\n\n<div> </div>\n\n<div>The switch <em>k</em><sub>1</sub> is kept at position <em>A</em> and switch <em>k</em><sub>2</sub> was closed for a long time. At <em>t</em> = 0, switch <em>k</em><sub>1</sub> is moved to position <em>B</em> and <em>k</em><sub>2</sub> is opened. The voltage <em>V<sub>L</sub></em> across 6 <em>H</em> inductor at <em>t</em> = 0<sup>+</sup> is _______ V.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -3.99,
+    -3.5
+   ],
+   "answerText": "-3.75",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>-3.75 (-3.99 - -3.50)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9e/9e57720715eb260ce80e.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The circuit shown below is in steady state with the switch s-closed.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f8/f8fd1d10a5763bd727aa.png\" /></div>\n\n<div> </div>\n\n<div>The current <img align=\"absmiddle\" alt=\"\" src=\"media/80/802cb72035bd7421df72.png\" /> after switch is opened,</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2<em>e</em><sup>–2<em>t</em></sup>"
+    },
+    {
+     "key": "B",
+     "html": "<em>e</em><sup>–4t</sup>"
+    },
+    {
+     "key": "C",
+     "html": "<em>e</em><sup>4<em>t</em></sup>"
+    },
+    {
+     "key": "D",
+     "html": "<em>e</em><sup>–2<em>t</em></sup>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d67a52c2d1773ec1c226.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 29,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In the circuit shown below, the average power supplied by the dependent source is ________ W.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7e/7e2a76afbf3d935f6e03.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    96,
+    96
+   ],
+   "answerText": "96",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>96</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/7c/7c91d06eade99e0ab265.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 30,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In the h-parameter model of the 2 port network given in the figure shown, the value of <em>h</em><sub>22</sub> (in s) is _________ . (Answer upto three decimal)</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/87/8786fba8f3607ac9a3d1.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1.5
+   ],
+   "answerText": "1.125",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.125 (1.000 - 1.500)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a5/a525c9b56cb31f87fb64.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>In the network shown below, the measurements obtained are given in the table. If <em>V</em><sub>1</sub> = 10 V and <em>V</em><sub>2</sub> = 5 V then the current <img align=\"absmiddle\" alt=\"\" src=\"media/ba/ba7fc4ecb9554e5ba8bf.png\" /> is</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/68/68703ce1ae88a1d870bf.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2.5 A"
+    },
+    {
+     "key": "B",
+     "html": "1.5 A"
+    },
+    {
+     "key": "C",
+     "html": "1 A"
+    },
+    {
+     "key": "D",
+     "html": "0.5 A"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cc/cc921247918d1d9c0bd1.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The power dissipated by the 10 Ω resistor in the circuit shown below is ________ W.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/99/995a59f67ff757a11f50.png\" /></div>\n\n<div> </div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    4
+   ],
+   "answerText": "3.32",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3.32 (3.00 - 4.00)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2b/2b5746e909896b87041d.png\" /></div>\n\n<div><img alt=\"\" src=\"media/49/49dbc88a7715947e4ee3.png\" /></div>"
+  },
+  {
+   "n": 33,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown below, which of the following is correct?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8d/8da4ffed2108d18b05bc.png\" /></div>\n\n<div> </div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/67/677623e26d6133a7f8ef.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/c7/c7e7e0b53a6df41d30af.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/b2/b293916e0890de940597.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/40/406625d7f06f7079ccea.png\" />"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(c, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b4/b4051665b5dce4fd3602.png\" /></div>\n\n<div><img alt=\"\" src=\"media/be/befcc3d9aa42d3a70cbc.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "MSQ": 4,
+   "NAT": 13
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,480 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-037",
+ "title": "Topicwise Test-13 Part Syllabus GATE 2025 EE Signals & Systems-1",
+ "sourceTitle": "Topicwise Test-13 Part Syllabus GATE 2025 EE Signals & Systems-1",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 37,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/059_Topicwise Test-13 Part Syllabus GATE 2025 EE Signals & Systems-1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the interconnected LTI system as shown in figure,</p>\n<p>\n\t<img alt=\"\" src=\"media/19/1926ceab83ae23237b4a.png\" /></p>\n<p>\n\th(n) is the overall impulse response of the system. If <img align=\"absmiddle\" alt=\"\" src=\"media/a1/a1525f5faa5207b064b1.png\" /> and <img align=\"absmiddle\" alt=\"\" src=\"media/c1/c16786a70d847eac94d9.png\" />is equal to _______ .</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.75"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "2.5"
+    },
+    {
+     "key": "D",
+     "html": "3.5"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/9e/9ee7150e8fdbff3d7f51.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following block diagram representation for casual LTI system describes the differential equation <img align=\"absmiddle\" alt=\"\" src=\"media/80/80c2a736a10c02a34693.png\" /> is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3b/3b156152f0e8f9a59c6d.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1a/1ab07e9bac9ff408f13c.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3c/3c6f5fe9eda00e48d662.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/17/1705539de10fadb7fa54.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tSuppose that the signal <img align=\"absmiddle\" alt=\"\" src=\"media/78/78e4158d5b4b3280e7aa.png\" /> and the signal <img align=\"absmiddle\" alt=\"\" src=\"media/57/57e2780a7616002705e5.png\" /></p>\n<p>\n\tAssume <img align=\"absmiddle\" alt=\"\" src=\"media/7c/7c3124ef3728303c3775.png\" /> Then the minimum value for ω<sub>0</sub> which ensure y(0) = 0 is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f5/f5d42a725c87b9b633ec.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9c/9c5c9c6ab4442348e00f.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/9b/9b9b9eafc4c51432ef41.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0e/0eb148aae96c888118d8.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/d2/d2427e08d5b3f92f1ff4.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tThe fundamental period of the signal <img align=\"absmiddle\" alt=\"\" src=\"media/06/06ee68013f4ffc5c2f07.png\" /> is _______ seconds.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    35,
+    35
+   ],
+   "answerText": "35 (35 - 35)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t35 (35 - 35)</p>\n<p>\n\t<img alt=\"\" src=\"media/a4/a49663b877c3de00e006.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the continuous time signal <img align=\"absmiddle\" alt=\"\" src=\"media/88/884256a38430424fd7ab.png\" /> The energy of the signal y(t) = <img align=\"absmiddle\" alt=\"\" src=\"media/e9/e93c15e7656713a67f19.png\" /> is _______ J.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1 (1 - 1)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1 (1 - 1)</p>\n<p>\n\t<img alt=\"\" src=\"media/ea/ea3645cbe4b058b97e55.png\" /></p>\n<p>\n\t&nbsp;</p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tSuppose we are given the following facts about a signal <img align=\"absmiddle\" alt=\"\" src=\"media/25/25610fcf4d24749f48fb.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/55/5537d24734f4763c2a48.png\" /></p>\n<p>\n\tThe value of signal <img align=\"absmiddle\" alt=\"\" src=\"media/bf/bf3f05d31b6ab84f69de.png\" />at n = 5 is ______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    -11,
+    -9
+   ],
+   "answerText": "-10 (-11 - -9)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t-10 (-11 - -9)</p>\n<p>\n\t<img alt=\"\" src=\"media/80/801933e48dad20255bd8.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/ee/eed4bdd3d903f5b3a0a3.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tConsider the signal <img align=\"absmiddle\" alt=\"\" src=\"media/78/78c5f92d179edf0db365.png\" /> has fundamental time period <em>T</em><sub>0</sub> = 1 and has the following Fourier</p>\n<p>\n\t<img alt=\"\" src=\"media/1f/1f513d89e536ee88172d.png\" /></p>\n<p>\n\tThe signal <img align=\"absmiddle\" alt=\"\" src=\"media/60/60732b2183b0cb2f406c.png\" /> is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0e/0e45d59c24f3f67d9cfe.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/89/896ce9f5c80ea3e7fab5.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/78/78fb436a14fe4b692d4e.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/aa/aa43f5135141ec1a9e23.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/34/34ab555d82b39d7bb85a.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the periodic signal shown below,</p>\n<p>\n\t<img alt=\"\" src=\"media/fb/fb64648cd16dad1b1be0.png\" /></p>\n<p>\n\tThe power contained in the frequency band 12 Hz to 22 Hz is ________ W.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    25,
+    27
+   ],
+   "answerText": "26 (25 - 27)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t26 (25 - 27)</p>\n<p>\n\t<img alt=\"\" src=\"media/76/764a792524cd55005187.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the following periodic signal <img align=\"absmiddle\" alt=\"\" src=\"media/e8/e8d9e68ab5d9116473df.png\" /> then which of the following facts is/are correct regarding the Fourier series coefficients. (Assume <em>a<sub>k</sub></em> is the Fourier series coefficient of <img align=\"absmiddle\" alt=\"\" src=\"media/7c/7c943d87d2ec7d9d4a7b.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/dc/dcab0b4458bfcc707b1f.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6f/6fa538129377349e4d84.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7d/7dcd5c9700de26faa653.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1c/1c822af7c7d86120f289.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/1e/1ec80ba6c338619861ec.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tFor a known periodic signal, average power in its 6 harmonic components as 10 mW each and fundamental component also has 10 mW power. Then, the average power in the periodic signal is _______ × 10<sup>–3</sup> W.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    69,
+    71
+   ],
+   "answerText": "70 (69 - 71)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t70 (69 - 71)</p>\n<p>\n\t<img alt=\"\" src=\"media/ef/ef55d1ab618248eaa984.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor the figure shown below, the trigonometric Fourier series coefficient is given as <em>a<sub>k</sub></em>. Then the value of “ –a<sub>2</sub>” is ________.</p>\n<p>\n\t<img alt=\"\" src=\"media/bf/bfdddef470df7cc41f55.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2</p>\n<p>\n\t<img alt=\"\" src=\"media/d4/d4c6af53fde12dd21a97.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/b5/b5c0aa1bb0f96342b6e3.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tLet, <img align=\"absmiddle\" alt=\"\" src=\"media/54/549bc7f8481421fe23f0.png\" /></p>\n<p>\n\tWhere, <em>N</em> ≤ 8 is an integer, given that <img align=\"absmiddle\" alt=\"\" src=\"media/e7/e71868056b359aa3fe4b.png\" /><br />\n\tThen the value of <em>N</em> = ________ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t3</p>\n<p>\n\t<img alt=\"\" src=\"media/0e/0e36951bf25622769f94.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the interconnection of three LTI systems as shown in below figure.</p>\n<p>\n\t<img alt=\"\" src=\"media/58/58288226502d8802eb88.png\" /></p>\n<p>\n\tThen the impulse response of overall system at n = 2 is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1</p>\n<p>\n\t<img alt=\"\" src=\"media/a6/a601ac7576b6de27a5bf.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/dd/dda28bd9d34aa92ef983.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tSignals <img align=\"absmiddle\" alt=\"\" src=\"media/cd/cd28d91c420de0bad514.png\" /> are periodic signals of time period T = 8, with Fourier series coefficients a<sub>k</sub> , b<sub>k</sub> respectively.</p>\n<p>\n\t<img alt=\"\" src=\"media/50/50aa48df65fc904820e8.png\" /></p>\n<p>\n\tWhich one of the following expressions is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/71/71e7fba0f9221b0086dc.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e7/e7aab17ec3e3042f0d72.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/02/023fec220f75e2173c61.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/98/98794f0909cae3a3c990.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/f0/f09ac8b4fdbdaad8f5ab.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/b3/b35e5fdc254911308248.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tConsider the parallel combination of two LTI system as shown in figure,</p>\n<p>\n\t<img alt=\"\" src=\"media/5e/5e17e7aa17bc78d07704.png\" /></p>\n<p>\n\tThe impulse responses of the two systems are <img align=\"absmiddle\" alt=\"\" src=\"media/b3/b315c37114b69ea1b1be.png\" /></p>\n<p>\n\tIf the input <img align=\"absmiddle\" alt=\"\" src=\"media/4b/4bc26e38099e2894804a.png\" /> is a unit step signal, then the energy of signal y(t) is _______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t7</p>\n<p>\n\t<img alt=\"\" src=\"media/bf/bf146c3c28ffe98e3185.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider an LTI system with input and output related by <img align=\"absmiddle\" alt=\"\" src=\"media/0e/0e0026f99040e89582eb.png\" /> then the system output y(t) at <em>t</em> = 1 for input <img align=\"absmiddle\" alt=\"\" src=\"media/41/4130a9045feda5eee5b8.png\" /> is ______ . (Answer upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.85,
+    0.87
+   ],
+   "answerText": "0.8646 (0.85 - 0.87)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.8646 (0.85 - 0.87)</p>\n<p>\n\t<img alt=\"\" src=\"media/59/593aa835702e3bb65595.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/21/21eba56e3e686dfd3080.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA signal <img align=\"absmiddle\" alt=\"\" src=\"media/f9/f949e14a328997eb74ee.png\" /> The Fourier series expansion of <img align=\"absmiddle\" alt=\"\" src=\"media/32/329557ed2365cad23614.png\" /> will contain</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "cos terms with all harmonics"
+    },
+    {
+     "key": "B",
+     "html": "sine terms with all harmonics"
+    },
+    {
+     "key": "C",
+     "html": "sine terms with only odd harmonics"
+    },
+    {
+     "key": "D",
+     "html": "cos terms with only odd harmonics"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/c6/c63ab860b45e83c914bb.png\" /></p>\n<p>\n\t&nbsp;</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 6,
+   "NAT": 10,
+   "MSQ": 1
+  },
+  "withoutKey": 0
+ }
+}

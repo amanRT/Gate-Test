@@ -1,0 +1,546 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-044",
+ "title": "Topicwise Test-20 Part Syllabus GATE 2025 EC Communications-2",
+ "sourceTitle": "Topicwise Test-20 Part Syllabus GATE 2025 EC Communications-2",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 44,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/075_Topicwise Test-20 Part Syllabus GATE 2025 EC Communications-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider a WSS random process <em>X</em>(<em>t</em>) with autocorrelation function <img align=\"absmiddle\" alt=\"\" src=\"media/cc/cc35f64269c9127d367e.png\" /> and power spectrum <em>S<sub>XX</sub></em>(ω). Let <img align=\"absmiddle\" alt=\"\" src=\"media/a1/a1444e5f684f29d7b9fa.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/39/39e03247c6e23c1de655.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f0/f0b3e907bea3dc942903.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/66/6630859b98843cb89e69.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/80/80a233f13ffa4ff55de7.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/0f/0f1b94e3ba97165984d2.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Let <em>X</em> be a random variable and <img align=\"absmiddle\" alt=\"\" src=\"media/63/636eeb6971df66d4949a.png\" /> Which of the following options is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "E[Y] = 2"
+    },
+    {
+     "key": "B",
+     "html": "E[Y] = 0"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/47/4786bcedc2e04bd24b89.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6f/6fb04b6b8ba7e460bb5b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c, d)</p>\n\n<p><img alt=\"\" src=\"media/22/221633e6a7034259c862.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider a white noise signal having mean 12 V and power spectrum of its non DC component equal to 130 V<sup>2</sup>/Hz. The autocorrelation function <img align=\"absmiddle\" alt=\"\" src=\"media/8d/8d0af4cca1e8e3321e16.png\" /> is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cc/cce8332381f01a0d2ba4.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/15/15dfceefc14e76dbd6ab.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/af/af7118d4dfeccef60460.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d9/d9b211ec66758b4bc680.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/43/4308fdb38b8e51287475.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Capacity and BSC, with crossover probability 1 will be equal to _________ bits/symbol.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1 (1 - 1)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/bd/bd29db09dad17607cd9e.png\" /></div>\n\n<p>&nbsp;</p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>It is given that:<br />\n• TV picture consists of 6 × 10<sup>5</sup> picture elements.<br />\n• Number of equally probable brightness levels = 15.<br />\n• Number of frames transmitted/sec = 40.<br />\n• SNR = 35 dB.<br />\nThe minimum bandwidth (in MHz) required to support the transmission of the resulting video signal is _________ . (Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7.9,
+    8.2
+   ],
+   "answerText": "8.06",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>8.06 (7.90 - 8.20)</p>\n\n<p><img alt=\"\" src=\"media/6c/6c6a8c6bdc1d55d776c3.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>Let <em>X</em> be a continuous random variable with cumulative distribution function <img align=\"absmiddle\" alt=\"\" src=\"media/53/538b31bcbd193ae4d187.png\" /> Another random variable <em>Y</em> is defined as, <img align=\"absmiddle\" alt=\"\" src=\"media/d5/d5ad2b3ae6d7785166ca.png\" /> The mean of <em>Y</em> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4e/4efc94e8e50e8caa0e08.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1d/1d341b94736bda261106.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/65/6521f82197e7af9e406b.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f3/f3b879e7e9efaaafd323.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/94/944fd2daf25619bcc9fc.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A white noise process with a two-sided power spectral density of unity is passed through an ideal low-pass filter, whose cut-off frequency is 8 kHz. The resultant process is sampled with a sampling interval of <em>T<sub>s</sub></em>. The minimum value of <em>T<sub>s</sub></em> (in μsec), for which the adjacent samples will be uncorrelated is ________.</p>\n\n<p>(Rounded off to one decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    60.2,
+    65.6
+   ],
+   "answerText": "62.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>62.5 (60.2 - 65.6)</p>\n\n<p><img alt=\"\" src=\"media/51/51018f13a336f3e19078.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Assume the joint sample space <em>S</em><sub>1</sub> which has only three possible elements (1, 1), (2, 1) and (3, 3). The probabilities of these elements are to be</p>\n\n<p><em>P</em>(1, 1) = 0.3, <em>P</em>(2, 1) = 0.4 and <em>P</em>(3, 3) = 0.3 respectively. Then which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/90/90bfc051619a79734f44.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3e/3e7c73e96f054dab6051.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/88/880cfb9258625c843711.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c9/c94f01a1bdea4ba04b3d.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)</p>\n\n<p><img alt=\"\" src=\"media/99/9956c0838d222f146893.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The entropy of noiseless discrete channel with ‘<em>n</em>’ input symbols <em>X</em> and ‘<em>m</em>’ output symbols <em>Y</em> is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/36/361f4a59705492d2a631.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/86/86ae582374f5e5ece668.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/73/738afed1b8c7d84028e9.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/13/13a12dd628eebce9d35c.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/cd/cdfce6d2f757aa2b9a2d.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Two random processes <img align=\"absmiddle\" alt=\"\" src=\"media/3e/3eb7c8deb1599cb352c9.png\" /> and z(t) are defined as follows:</p>\n\n<p><img alt=\"\" src=\"media/52/5287004bf52ec2ff100e.png\" /></p>\n\n<p>where, Y is a uniform random variable distributed in the range [1, 3] and <img align=\"absmiddle\" alt=\"\" src=\"media/bf/bffcf683569be4aafe1f.png\" /> Assume ω and <em>T </em>are constants. If <em>E</em>(∞) represents expectation operator, then <em>E</em>[<em>z</em>(<em>t</em>)] will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t–4cosω<em>t</em></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t–sinω<em>t</em></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t4cosω<em>t</em></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tsinω<em>t</em></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/02/028dfd66262af3b61056.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A communication channel has a bandwidth of 120 MHz. The channel is extremely noisy such that signal power is very much below the noise power. The capacity (in bps) of the channel is ______. (Rounded to the nearest integer multiple)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0,
+    0
+   ],
+   "answerText": "0",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0</p>\n\n<p><img alt=\"\" src=\"media/c8/c8b94a2eb1a87e107dff.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>Two binary channels are connected in cascade, as shown in the figure below:</p>\n\n<p><img alt=\"\" src=\"media/b3/b335f06b5e93efa754db.png\" /></p>\n\n<p>If <img align=\"absmiddle\" alt=\"\" src=\"media/df/df9b135a8c775ac5e598.png\" /> then the conditional entropy <img align=\"absmiddle\" alt=\"\" src=\"media/a4/a48ce953083951bc93c3.png\" /> is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.952 bits/symbol"
+    },
+    {
+     "key": "B",
+     "html": "0.7226 bits/symbol"
+    },
+    {
+     "key": "C",
+     "html": "0.368 bits/symbol"
+    },
+    {
+     "key": "D",
+     "html": "0.625 bits/symbol"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/e5/e58f146de30018ea3112.png\" /></p>\n\n<p><img alt=\"\" src=\"media/14/146ff7cf934a51a9ba7a.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>The autocorrelation sequence of a discrete time stochastic process is <img align=\"absmiddle\" alt=\"\" src=\"media/f1/f1015c414e233f1ec0be.png\" /> Its power spectral density is given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/83/837739da8e7504e283bb.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ad/ad778aad1d8faaa04f2a.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/63/63d019bc575dd309c2b4.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a9/a973e08bef5fb2e67c2b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<p><img alt=\"\" src=\"media/a2/a2a90190bd8896bd8dc9.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider a white Gaussian noise process of zero mean and power spectral density <em>N<sub>o</sub></em>/2 is applied to the input of low-pass RL filter shown in figure below. The variance of the random process at the output is ______.<br />\n[<em>N<sub>o</sub></em> = 2.5 W/Hz] (Ronded off to two decimal places)</p>\n\n<p><img alt=\"\" src=\"media/9f/9fdad094082164686c17.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.96,
+    1.12
+   ],
+   "answerText": "1.04",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.04 (0.96 - 1.12)</p>\n\n<p><img alt=\"\" src=\"media/5b/5b5c192fd6f24f3c98ee.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>The differential entropy of a Gaussian random variable with mean of 2 and variance of 4 will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/55/55419d4c90be03d4cc82.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/69/69b65d759ceca33ababd.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/04/04907cf67852c4d4cd58.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/8d/8d3368fb61bcf8d50544.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/ba/bac8166a5c388451289b.png\" /></p>\n\n<p><img alt=\"\" src=\"media/4e/4e58c8e169afe8afc20a.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>The channel transition matrix of a binary channel is given by</p>\n\n<p><img alt=\"\" src=\"media/5f/5fe16183f5b2448c55a5.png\" /></p>\n\n<p>If <img align=\"absmiddle\" alt=\"\" src=\"media/a4/a40ed11e479b52d782b4.png\" /> then the <em>p</em>(<em>y</em><sub>1</sub>) – <em>p</em>(<em>y</em><sub>0</sub>) will be _____.<br />\n(Rounded off to two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.17,
+    0.22
+   ],
+   "answerText": "0.19",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.19 (0.17 - 0.22)</p>\n\n<p><img alt=\"\" src=\"media/1d/1d390314da36f3c9eec9.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>X and Y are two independent continuous random variables with variances 13 and 8 respectively. Another random variable W is defined as <em>W</em> = (<em>X</em> + Y – 7). If the mean values of <em>X</em> and <em>Y</em> are 3 and 5 respectively, then the variance of W and covariance of X and Y will be respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12 and 3"
+    },
+    {
+     "key": "B",
+     "html": "15 and 1"
+    },
+    {
+     "key": "C",
+     "html": "0 and 21"
+    },
+    {
+     "key": "D",
+     "html": "21 and 0"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/b2/b2c342dfd3f4b43ee9a0.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 9,
+   "MSQ": 2,
+   "NAT": 6
+  },
+  "withoutKey": 0
+ }
+}

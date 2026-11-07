@@ -1,0 +1,2160 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-088",
+ "title": "DVRUO Classes CS Test Series | Mock GATE | Test 9",
+ "sourceTitle": "DVRUO Classes CS Test Series | Mock GATE | Test 9",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 88,
+ "category": "mock",
+ "year": "",
+ "format": "B",
+ "durationSec": 10800,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Mock GATE"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/025_exam_2446_GO Classes CS Test Series Mock GATE Test 9.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<div style=\"line-height:1.6;\"><p>If \\( a^{x} = b^{y} \\), then which of the following is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\( \\log(a) + \\log(b) = y&nbsp;/ x&nbsp;\\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\( \\log(a) - \\log(b) = y&nbsp;/ x&nbsp;\\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\( \\log\\!\\left( a / b \\right) = y&nbsp;/ x&nbsp;\\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\( \\log(a) / \\log(b) = y&nbsp;/ x&nbsp;\\)</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/514650\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If the length of each side of a square is increased by $50 \\%$, what is the percent increase in area of the new square?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$50 \\%$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$125 \\%$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$250 \\%$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$500 \\%$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514649\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A tells only lies on Monday, Tuesday and Wednesday and speaks only the truth for the rest of the week. B tells only lies on Thursday, Friday and Saturday and speaks only the truth for the rest of the week. If today both of them state that they have lied yesterday, what is it today?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Monday<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Thursday<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Sunday<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Tuesday</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514648\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The Cayley Corner Store sells three types of toys: Exes, Wyes and Zeds. All Exes are identical, all Wyes are identical, and all Zeds are identical. The mass of $2$ Exes equals the mass of $29$ Wyes. The mass of $1$ Zed equals the mass of $16$ Exes. The mass of $1$ Zed equals the mass of how many Wyes?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3.625$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1.103$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$232$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$464$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514646\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A sign has $31$ spaces on a single line.<br><br>The word $\\text{RHOMBUS}$ is written from left to right in $7$ consecutive spaces.<br><br>There is an equal number of empty spaces on each side of the word.<br><br>Counting from the left, in what space number should the letter $\\text{R}$ be put?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$12$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$13$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$14$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$15$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514644\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A milkman adds $10$ litres of water to $90$ litres of milk. After selling $1 / 5^{\\text {th }}$ of the total quantity, he adds water equal to the quantity he has sold. The proportion of water to milk he sells now would be</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$72:28$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$28 : 72$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$20 : 80$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$30 : 70$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514643\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Twelve lightbulbs are in a row. All lightbulbs are initially turned off. Angie flips the switch for every $2$nd lightbulb. Then Bilal flips the switch for every $3$rd lightbulb. Finally, Chenxhui flips the switch for every $4$th lightbulb. At the end of this process, how many lightbulbs are turned on?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$5$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$6$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$7$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$8$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514641\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Choose the most correct combination of words to fill in the blanks in the sentence below:<br><br>The coach scolded his team, saying, \"You $\\_\\_\\_\\_$ when your defence becomes $\\_\\_\\_\\_$ \".</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>loose/loose<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>loose/lose<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>lose/loose<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>lose/lose</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514640\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A three-dimensional view of a solid is sketched below.</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/9b/9bb41ab6db3558fcd067.png\"></p><p><br>The three projections below are each intended to show the solid from its front $(\\mathrm{F})$, left side $(\\mathrm{L})$ and top $(\\mathrm{T})$, as marked in the figure. Which one is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" width=\"406\" height=\"98\" src=\"media/c9/c928ffc6d22324d933f4.png\"><br>"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" width=\"405\" height=\"94\" src=\"media/e3/e3b6563e117c9affdda2.png\"><br>"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" width=\"404\" height=\"102\" src=\"media/ee/eee0d58b2a8de00fe574.png\"><br>"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" width=\"403\" height=\"92\" src=\"media/ca/ca052d45e88660f5bead.png\">"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514639\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a football tournament of repeated games between two teams, team A scored more goals while team B won more games. What can you conclude?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Team B won more games in the first half of the tournament<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Team B scored more goals first half of the tournament<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Team A had larger goal victory margins in the games they won<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Team B had larger goal victory margins in the games they won</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514638\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is/are true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Deterministic and non-deterministic PDA&#x27;s have equivalent expressive power.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>An NFA can recognize any language that a PDA can recognize.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The language $0^\\mathrm{n} 0^\\mathrm{n}$ is regular.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For any CFG $\\mathrm{G}$ , if a string is in $\\mathrm{L}(\\mathrm{G})$ then it corresponds to exactly one parse tree.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514801\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which one of the following expressions is the correct logic statement for $\\mathrm{X}(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})$ described by the truth table shown below.<br>$$<br>\\begin{array}{|c|c|c|c|}<br>\\hline<br>\\mathrm{A} &amp; \\mathrm{B} &amp; \\mathrm{C} &amp; \\mathrm{X} \\\\ \\hline<br>0 &amp; 0 &amp; 0 &amp; 1 \\\\ \\hline<br>0 &amp; 0 &amp; 1 &amp; 0 \\\\ \\hline<br>0 &amp; 1 &amp; 0 &amp; 0 \\\\ \\hline<br>0 &amp; 1 &amp; 1 &amp; 0 \\\\ \\hline<br>1 &amp; 0 &amp; 0 &amp; 0 \\\\ \\hline<br>1 &amp; 0 &amp; 1 &amp; 0 \\\\ \\hline<br>1 &amp; 1 &amp; 0 &amp; 1 \\\\ \\hline<br>1 &amp; 1 &amp; 1 &amp; 0 \\\\ \\hline<br>\\end{array}<br>$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{NOT (A AND B AND C)}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{(A XOR B) NOR C}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{(A OR B OR C) NOR C}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{NOT A AND NOT B AND NOT C}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514800\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A table contains $287$ entries. When any one of the entries is requested, it is encoded into a binary string and transmitted. The number of bits required is.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$8$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$9$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$10$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Cannot be determined from the given information.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/514799\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>​​​​​​Addressing of a $32K\\:\\times\\:16$ memory is realized using a single decoder. The minimum number of $\\text{AND}$ gates required for the decoder is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2^{8}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2^{32}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2^{15}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$2^{19}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514798\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many blocks are on a disk with the following characteristics?\n\nSector size of $512$ bytes, $16$ sectors per track, $16384$ tracks per surface, $4$ double sided platter, and $4096$ bytes per block.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    262144,
+    262144
+   ],
+   "answerText": "262144",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/514796\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider that a designer wants to index a file that contains records with different numerical attributes. He wants to be able to perform efficient searches on records based on exact values $($e.g., $10)$, as well as on ranges of values $($e.g., between $10$ and $20)$. Which indexing structure would be the most appropriate?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>B+ tree<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>B tree<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Binary search tree<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>AVL tree</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514795\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Draw the precedence graph for the schedule of transactions $\\mathrm{X}, \\mathrm{Y}$, and $\\mathrm{Z}$ shown below.<br> </p><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"335\" src=\"media/45/456181b9a6ec4eb73734.png\"></p><p><br>The number of edges in the precedence graph is ?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><p><a href=\"https://gateoverflow.in/514793\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If \\(A\\) and \\(B\\) are two finite sets, perform the reduction of \\(E\\).</p><p>\\[ E = \\{\\, A \\cap (A \\cup B') \\,\\} - B'. \\]</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(A\\)<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(B\\)<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(A \\cap B\\)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(A \\cup B\\)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514792\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given the statement:</p><p>“Exactly one person between Marcos and Heide traveled.”</p><p>The negation of the above statement is logically equivalent to:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Both traveled.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>None of them traveled.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Marcos or Heide did not travel.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both traveled or neither traveled.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/514790\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Monty Mole and Rocky Wrench disagree about the best page replacement policies for demand paging. Assume that the system has three page frames of physical memory (frames \\(1\\)–\\(3\\)), and the program uses four pages of virtual memory \\((A, B, C, D)\\). Virtual memory accesses are written as a comma-separated list (e.g., \\(A, B, C, D, A\\)).</p><p>Monty Mole is convinced that the best page replacement policy for demand paging is MRU (Most Recently Used). The first two page accesses are fixed and are shown below.</p><p>\\[ \\begin{array}{c|cc} \\text{Frame} &amp; \\text{Access } A &amp; \\text{Access } B \\\\ \\hline 1 &amp; A &amp; \\\\ 2 &amp; &amp; B \\\\ 3 &amp; &amp; \\\\ \\end{array} \\]</p><p>Under the MRU page replacement policy, the most recently accessed page is selected for eviction on a page fault.</p><p>Which of the following sequences of six additional page accesses, when appended after the initial accesses \\(A, B\\), will cause every one of these six accesses to result in a page fault under the MRU page replacement policy?</p><p><br>Select all options that are correct.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(C, D, C, D, C, D\\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(A, B, C, D, A, B\\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(C, D, A, B, C, D\\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(D, C, D, C, D, C\\)</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/514636\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following descriptions of Banker's Algorithm are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Banker&#x27;s Algorithm is used in deadlock recovery.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Banker&#x27;s Algorithm can be used to determine whether or not a system is guaranteed to deadlock.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Using Banker&#x27;s Algorithm results in an execution that is guaranteed to avoid deadlock.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Banker&#x27;s Algorithm relies on having known upper limits for resource requests per thread.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/514634\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<meta><p>Two processes execute concurrently on a single processor. Their behaviors are described below.</p><p>Process \\(P_1\\) starts execution first. A process that is sleeping is not runnable and therefore does not consume any CPU time. Whenever one process is sleeping, the other ready process immediately gets the processor.</p><p>The scheduler’s time quantum has no effect on the final timing.</p><p>The code executed by the two processes is shown below:</p><p>\\[ \\begin{array}{c|c} \\text{Process 1} &amp; \\text{Process 2} \\\\ \\hline \\\\[-4pt] \\begin{aligned}[t] &amp;\\texttt{for i = 1 to N:} \\\\ &amp;\\quad \\texttt{sleep for C time units} \\\\ &amp;\\quad \\texttt{compute for 2C time units} \\end{aligned} &amp; \\begin{aligned}[t] &amp;\\texttt{for i = 1 to N:} \\\\ &amp;\\quad \\texttt{compute for C time units} \\\\ &amp;\\quad \\texttt{sleep for C time units} \\end{aligned} \\end{array} \\]</p><p>At what time, in terms of \\(N\\) and \\(C\\), have <b>both</b> processes completed execution?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\((N + 1)C\\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(3NC\\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(2NC + C\\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(3NC + C\\)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514632\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"line-height:1.7;\">Consider the following declaration: \\( \\texttt{int (*A)[20];} \\) If <code>A</code> points to the memory location \\(x\\), which memory location does \\( A + 1 \\) point to? Assume that \\( \\texttt{sizeof(int)} = 4. \\)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\( x + 80 \\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\( x + 20 \\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\( x + 4 \\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Does not depend on \\(x\\)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514630\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following recursive function written in C.&nbsp;</p><p>What value is returned by the call <code>f(1)</code>?</p><p>$ \\begin{aligned} &amp;\\texttt{int f (int n)} \\\\ &amp;\\texttt{\\{} \\\\ &amp;\\quad \\texttt{static int i = 1;} \\\\ &amp;\\quad \\texttt{if (n &gt;= 5) return n;} \\\\ &amp;\\quad \\texttt{n = n + i;} \\\\ &amp;\\quad \\texttt{i++;} \\\\ &amp;\\quad \\texttt{return f(n);} \\\\ &amp;\\texttt{\\}} \\end{aligned} $</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 7</p><p><a href=\"https://gateoverflow.in/514629\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let \\( \\texttt{L(u)} \\) denote the number of leaf nodes in a binary tree rooted at \\( \\texttt{u} \\). Assume that the function \\( \\texttt{leaf(u)} \\) returns \\( \\texttt{1} \\) if \\( \\texttt{u} \\) is a leaf node, and \\( \\texttt{0} \\) otherwise.</p><p>Which of the following relations can be used to recursively compute \\( \\texttt{L(u)} \\)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\( \\texttt{L(u)} = \\texttt{L(u-&gt;left)} + \\texttt{L(u-&gt;right)} \\)<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\( \\texttt{L(u)} = \\texttt{L(u-&gt;left)} + \\texttt{L(u-&gt;right)} + \\texttt{1} \\)<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\( \\texttt{L(u)} = \\texttt{L(u-&gt;left)} + \\texttt{L(u-&gt;right)} + \\texttt{leaf(u)} \\)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\( \\texttt{L(u)} = \\texttt{L(u-&gt;left)} + \\texttt{L(u-&gt;right)} + \\texttt{leaf(u)} + \\texttt{1} \\)</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514628\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The binary search tree shown below was constructed by inserting a sequence of items into an empty tree</p><p style=\"text-align:center\"><img alt=\"\" width=\"300\" height=\"204\" src=\"media/1a/1a42cd57912717ceeae1.png\"></p><p>Which of the following input sequences will not produce this binary search tree?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$5 \\\\\\ 3 \\\\\\ 4 \\\\\\ 9 \\\\\\ 12 \\\\\\ 7 \\\\\\ 8 \\\\\\ 6 \\\\\\ 20$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5\\\\\\ 9 \\\\\\ 3 \\\\\\ 7 \\\\\\ 6 \\\\\\ 8 \\\\\\ 4 \\\\\\ 12 \\\\\\ 20$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$5 \\\\\\ 9 \\\\\\ 7 \\\\\\ 8 \\\\\\ 6 \\\\\\ 12 \\\\\\ 20 \\\\\\ 3 \\\\\\ 4$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$5 \\\\\\ 9 \\\\\\ 3 \\\\\\ 6 \\\\\\ 7 \\\\\\ 8 \\\\\\ 4 \\\\\\ 12 \\\\\\ 20$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/514627\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following min-binary heap shown in the image below.</p><p style=\"text-align:center\"><img alt=\"Original Min Heap\" style=\"max-width:60%; height:auto;\" width=\"254\" height=\"144\" src=\"media/40/40efcca8b56fab90bcba.png\"></p><p>The following operations are performed on the heap in the given order:</p><p>\\[ \\texttt{Insert(4)},\\quad \\texttt{DeleteMin},\\quad \\texttt{DecreaseKey}(7 \\rightarrow 0) \\]</p><p>Assume that new nodes are inserted at the leftmost available position and standard min-heap rules are followed.</p><p>After all operations are completed, which of the following keys is the left child of the root in the final heap?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(\\texttt{2}\\)<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(\\texttt{4}\\)<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(\\texttt{5}\\)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(\\texttt{6}\\)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514625\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A linear-probing hash table of length $10$ uses the hash function $\\mathrm{h}(\\mathrm{k})=\\mathrm{k} \\bmod 10$ to hash integer keys between 0 and 100 . After inserting 8 keys into an empty hash table, the table is as shown below.</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"77\" src=\"media/70/708113a28526de51a6a6.png\"></p><p>Which of the following choices gives a possible order in which the keys could have been inserted into an initially empty hash table? Assume that the initial length of the array is $10$ and that it neither grows nor shrinks.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$19,91,21,93,77,89,74,2$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$77,89,19,93,91,74,21,2$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$89,19,93,91,74,21,2,77$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$91,77,93,21,89,74,2,19$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><p><a href=\"https://gateoverflow.in/514624\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following diagram, which shows an intermediate step of building up a minimum spanning tree (MST). Thick, solid, red edges indicate edges that have been selected for the MST so far, and thin, dashed, blue edges indicate edges that have not.</p><p style=\"text-align:center\"><img alt=\"MST Intermediate Step\" style=\"max-width:70%; height:auto;\" width=\"161\" height=\"186\" src=\"media/94/94651322345dab78570a.png\"></p><p>Which of the following algorithms could this be an intermediate step of? Select all that apply.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Prim’s algorithm starting from A<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Prim’s algorithm starting from C<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Prim’s algorithm starting from D<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Kruskal’s algorithm</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514622\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the recurrence relation: $T(n)=1.999 \\cdot T(n / 2)+n$. Which of the following statements is <strong>TRUE</strong>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$T(n) \\in o(n)$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$T(n) \\in \\Theta(n)$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$T(n) \\in \\Theta(n \\log n)$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$T(n) \\in \\omega(n \\log n)$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514621\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Rank the following functions in <b>increasing order of growth</b>.<br><br>That is, find an arrangement \\(g_1, g_2, g_3, g_4\\) such that \\[ g_1 = O(g_2), \\quad g_2 = O(g_3), \\quad g_3 = O(g_4). \\]</p><p>The functions are:</p><p>\\[ f_1 = n^{\\log n}, \\qquad f_2 = \\sqrt{n}, \\qquad f_3 = n^{3 + \\sin n}, \\qquad f_4 = \\log n^n \\]</p><p>Which of the following is the correct increasing order of growth?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(f_2, f_4, f_3, f_1\\)<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(f_4, f_2, f_3, f_1\\)<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(f_2, f_3, f_4, f_1\\)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(f_4, f_3, f_2, f_1\\)</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514620\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>All the four entries of the $2 \\times 2$ matrix $\\mathbf{P}=\\left[\\begin{array}{ll}p_{11} &amp; p_{12} \\\\ p_{21} &amp; p_{22}\\end{array}\\right]$ are nonzero, and one of its eigenvalues is zero. Which of the following statements is true?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$p_{11} p_{22}-p_{12} p_{21}=1$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$p_{11} p_{22}-p_{12} p_{21}=-1$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$p_{11} p_{22}-p_{12} p_{21}=0$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$p_{11} p_{22}+p_{12} p_{21}=0$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514619\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Starting at \\( t = 0 \\), EvanBot sends payloads, one after the other, from \\(H\\) to \\(T\\). Each payload is of size \\(20\\) Gbits. Node \\(E\\) must receive all bits of a payload before sending that payload along the next link.\n\nThe network topology is \\( H \\rightarrow E \\rightarrow T \\), with the following link characteristics:\n\n\\[ \\begin{array}{|c|c|c|} \\hline & \\text{Link 1} & \\text{Link 2} \\\\ \\hline \\text{Propagation Delay} & 2~\\text{sec} & 10~\\text{sec} \\\\ \\hline \\text{Bandwidth} & 20~\\text{Gbps} & 10~\\text{Gbps} \\\\ \\hline \\end{array} \\]\n\nAt what time (in seconds) does node \\(T\\) receive the last bit of the first payload?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    15
+   ],
+   "answerText": "15",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/514618\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 34,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Imagine a world having \\(4\\)-bit IP addresses.\n\nConsider the routing table is given below.\n\n\\[ \\begin{array}{|c|c|} \\hline \\text{IP Prefix} & \\text{Output Port} \\\\ \\hline 00\\text{xx} & \\text{Port }4 \\\\ \\hline 01\\text{xx} & \\text{Port }3 \\\\ \\hline 010\\text{x} & \\text{Port }5 \\\\ \\hline 0111 & \\text{Port }9 \\\\ \\hline 11\\text{xx} & \\text{Port }2 \\\\ \\hline 0000 & \\text{Port }8 \\\\ \\hline \\end{array} \\]\n\nHow many of the \\(16\\) possible \\(4\\)-bit IP addresses are forwarded along the default route?\n\nYour answer should be a number between \\(0\\) and \\(16\\), inclusive.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4,
+    4
+   ],
+   "answerText": "4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 4</p><p><a href=\"https://gateoverflow.in/514616\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 35,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A TCP packet has a value of \\(9\\) in its TCP header length field.&nbsp;</p><p>What is the size (in bytes) of the TCP options in this packet?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(9\\)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(16\\)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(20\\)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(36\\)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514614\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 36,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>If $\\mathrm{L}$ is a language, and \"$\\mathrm{a}$\" is a symbol, then $\\mathrm{L} / \\mathrm{a}$, the right-quotient of $\\mathrm{L}$ and $\\mathrm{a}$, is the set of strings $\\mathrm{w}$ such that $\\mathrm{wa}$ is in $\\mathrm{L}$ . For example, if<br><br>$$\\mathrm{L}=\\{\\mathrm{a}, \\mathrm{aab}, \\mathrm{baa}\\}, \\text{then} \\quad \\mathrm{L} / \\mathrm{a}=\\{\\varepsilon, \\mathrm{ba}\\}$$<br>If $\\mathrm{L}$ is a language, and \"$\\mathrm{a}$\" is a symbol, then $\\mathrm{a} \\backslash \\mathrm{L}$, the left-quotient of&nbsp;$\\mathrm{L}$ and&nbsp;$\\mathrm{a}$, is the set of strings&nbsp;$\\mathrm{a}$ such that&nbsp;$\\mathrm{aw}$ is in&nbsp;$\\mathrm{L}$ . For example, if $\\mathrm{L}=\\{\\mathrm{a}, \\mathrm{aab}, \\mathrm{baa}\\}$, then $\\mathrm{a} \\backslash \\mathrm{L}=\\{\\varepsilon, \\mathrm{ab}\\}$.<br><br>Which of the following identities is/are true ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{(L / a) a=L}$ (the left side represents the concatenation of the languages $\\mathrm{L / a}$ and $\\{\\mathrm{a}\\})$.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{a(a \\backslash L)=L}$ (again, concatenation with $\\{\\mathrm{a}\\}$, this time on the left, is intended).<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{(L a) / a=L}$.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{a \\backslash(a L)=L}$.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/514788\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 37,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p><strong>Convention.</strong> When we use a diagram to depict a pda, we use our own private conventions. A single instruction $(p, a, A, q, \\alpha)$ is given as an arc from state $p$ to state $q$ labelled by $a ; A / \\alpha$. Label $a ;+A$ represents a set of instructions pushing $A$ on top of the stack $(p, a, X, q, A X)$ for all $X \\in \\Gamma$, while label $a$ represents the set ( $p, a, X, q, X$ ) of instructions that 'ignore' the stack.</p><p style=\"text-align:center\"><img alt=\"\" width=\"592\" height=\"59\" src=\"media/c9/c92e060bd0bd8cffd788.png\"></p><p><br>Consider the following pushdown automaton over the input alphabet $\\Sigma =\\{\\mathrm{a}, \\mathrm{b}\\}$ and stack alphabet $\\Gamma=\\left\\{\\mathrm{Z} _\\mathrm{in}, \\mathrm{A}\\right\\}$. Let $\\mathrm{Z} _\\mathrm{in} \\in \\Gamma$ be the initial stack symbol.<br> </p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"234\" src=\"media/a5/a5a5618ea0dd3638b6ab.png\"></p><p><br><br>The number of strings of length $15$ accepted by the above pushdown automaton is ? (Assume string acceptance by final state)</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 3</p><p><a href=\"https://gateoverflow.in/514786\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 38,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<meta><p>Consider the following mystery algorithm:</p><p><b>Input:</b> \\(\\text{TM } M_1 = (Q_1, \\Sigma_1, \\Gamma_1, \\delta_1, s_1),\\; \\text{TM } M_2 = (Q_2, \\Sigma_2, \\Gamma_2, \\delta_2, s_2), \\text{ where } Q_1 \\cap Q_2 = \\emptyset\\)</p><p><b>Output:</b> \\(\\text{TM } M = (\\{\\$\\} \\cup Q_1 \\cup Q_2,\\; \\{0,1\\} \\cup \\Sigma_1 \\cup \\Sigma_2,\\; \\{0,1\\} \\cup \\Gamma_1 \\cup \\Gamma_2,\\; \\delta,\\; \\$)\\)</p><p>where</p><p>\\[ \\delta(p,x)= \\begin{cases} (s_1, x, R) &amp; \\text{if } p=\\$ \\text{ and } x=0 \\\\[4pt] (s_2, x, R) &amp; \\text{if } p=\\$ \\text{ and } x=1 \\\\[4pt] \\delta_1(p,x) &amp; \\text{if } p \\in Q_1 \\text{ and } x \\in \\Sigma_1 \\\\[4pt] \\delta_2(p,x) &amp; \\text{if } p \\in Q_2 \\text{ and } x \\in \\Sigma_2 \\\\[4pt] (p, x, S) &amp; \\text{otherwise} \\end{cases} \\]</p><p>S indicates stay i.e. the head stays on the same tape cell.</p><p>Given two Turing Machines (TMs) \\(M_1\\) and \\(M_2\\), this algorithm produces another Turing Machine \\(M\\).</p><p><strong>Which of the following statements are TRUE? (Choose all that apply.)</strong></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>If \\(M_1\\) and \\(M_2\\) both halt on all inputs, then \\(M\\) halts on all inputs.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>If \\(M_1\\) or \\(M_2\\) loop on some input, then \\(M\\) must loop on some input.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(L(M) = 0L(M_1) \\cap 1L(M_2)\\)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>If \\(w \\in L(M_1)\\), then \\(0w \\in L(M)\\), and if \\(w \\in L(M_2)\\), then \\(1w \\in L(M)\\)</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><p><a href=\"https://gateoverflow.in/514785\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 39,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $S=\\{\\vdash, X\\}$ be an alphabet of two symbols. The language $L \\subseteq S^{*}$ is defined as follows:<br> </p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>$\\vdash X \\in L$;<br> </li><li>if $\\vdash y \\in L$ for some string $y \\in S^{*}$, then also $\\vdash y y \\in L$;<br> </li><li>if $\\vdash y \\in L$ for some string $y \\in S^{*}$, then also $\\vdash y y y \\in L$;<br> </li><li>if $\\vdash y X X X X X \\in L$ for some string $y \\in S^{*}$, then also $\\vdash y \\in L$;<br> </li><li>no other string $\\in L$.<br> </li></ol><p>The number of states in a minimum state DFA for $L$ is ?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 7</p><p><a href=\"https://gateoverflow.in/514783\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 40,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The propagation delays of the $\\text{XOR}$ gate, $\\text{AND}$ gate and multiplexer $\\text{(MUX)}$ in the circuit shown in the figure are $4\\:ns$, $2\\:ns$ and $1\\:ns$, respectively.</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/6a/6abf88715db5325b0cc1.png\"></p><p>If all the inputs $\\text{P, Q, R, S&nbsp;and T}$ are applied simultaneously and held constant, the maximum propagation delay of the circuit is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$3\\:ns$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5\\:ns$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6\\:ns$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$7\\:ns$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514782\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 41,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A mod-$n$ counter using a synchronous binary up-counter with synchronous clear input is shown in the figure. The value of $n$ is _______.</p><p><img alt=\"\" width=\"640\" src=\"media/30/30679e8219a4d82be7cb.jpg\"></p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7:7",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 7, 7</p><p><a href=\"https://gateoverflow.in/514781\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 42,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A partition of a set \\(A\\) is a set \\(P\\) of non-empty disjoint subsets of \\(A\\) such that \\(A = \\bigcup P\\).</p><p>i.e. a partition of a set \\(A\\) is a collection \\(P\\) of non-empty subsets of \\(A\\) such that every element of \\(A\\) is an element of exactly one of the subsets in \\(P\\).</p><p>Let \\(g(n,r)\\) be the number of partitions of a set \\(A\\) having \\(n\\) elements into \\(r\\) subsets, where \\(1 \\le r \\le n\\).</p><p>For \\(1 &lt; r &lt; n\\), which of the following recurrence relations is correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\\(g(n,r) = r\\,g(n-1,r) + (r-1)\\,g(n-1,r-1)\\).<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\\(g(n,r) = n\\,g(n-1,r) + g(n-1,r-1)\\).<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\\(g(n,r) = r\\,g(n-1,r) + g(n-1,r-1)\\).<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\\(g(n,r) = g(n-1,r) + r\\,g(n-1,r-1)\\).</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514780\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 43,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A ternary string is a finite ordered sequence formed by one or more occurrences of the digits \\(0\\), \\(1\\), and \\(2\\). The length of a ternary string is the number of digits that compose it. For example, \\(20010\\) is a ternary string of length \\(5\\).\n\nA ternary string is called interesting if such a string, when read from left to right, does not contain the digit \\(0\\) occurring in any position to the right of a digit \\(1\\).\n\nFor example, \\(0\\), \\(111\\), \\(22\\), and \\(020121\\) are interesting ternary strings. However, \\(1101\\), \\(211220\\), and \\(00012202\\) are not interesting ternary strings.\n\nHow many interesting ternary strings of length \\(8\\) exist?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1280,
+    1280
+   ],
+   "answerText": "1280",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/514779\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 44,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume a floating-point number format similar to $\\textsf{IEEE-754}$ but consisting of only $8$ bits, with $3$ bits reserved for the exponent. If the exponent $000$ leads to a true $0.0$ value regardless of the significand, and the exponent $111$ encodes infinity or a $\\mathrm{NaN}$ value depending on the significand. What is the largest finite decimal value that can be encoded in the $8$-bit floating point encoding?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1.9375$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$7.75$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$15.5$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$31.0$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514778\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 45,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The unsigned integer \\(3{,}505{,}468{,}161\\) can be written in 32-bit binary as \\[ 11010000\\;11110001\\;00110011\\;00000001. \\] Putting it into four bytes of memory beginning at address \\(98370\\) in <b>big-endian</b> fashion would give which picture?</p><p><b>A.</b></p><table border=\"1\" cellpadding=\"4\" style=\"border-spacing:0;\"><tbody><tr><th>\\(98370\\)</th><th>\\(98371\\)</th><th>\\(98372\\)</th><th>\\(98373\\)</th></tr><tr><td>\\(11010000\\)</td><td>\\(11110001\\)</td><td>\\(00110011\\)</td><td>\\(00000001\\)</td></tr></tbody></table><p><b>B.</b></p><table border=\"1\" cellpadding=\"4\" style=\"border-spacing:0;\"><tbody><tr><th>\\(98370\\)</th><th>\\(98371\\)</th><th>\\(98372\\)</th><th>\\(98373\\)</th></tr><tr><td>\\(00000001\\)</td><td>\\(11110001\\)</td><td>\\(00110011\\)</td><td>\\(11010000\\)</td></tr></tbody></table><p><b>C.</b></p><table border=\"1\" cellpadding=\"4\" style=\"border-spacing:0;\"><tbody><tr><th>\\(98370\\)</th><th>\\(98371\\)</th><th>\\(98372\\)</th><th>\\(98373\\)</th></tr><tr><td>\\(00000001\\)</td><td>\\(00110011\\)</td><td>\\(11110001\\)</td><td>\\(11010000\\)</td></tr></tbody></table><p><b>D.</b></p><table border=\"1\" cellpadding=\"4\" style=\"border-spacing:0;\"><tbody><tr><th>\\(98370\\)</th><th>\\(98371\\)</th><th>\\(98372\\)</th><th>\\(98373\\)</th></tr><tr><td>\\(00110011\\)</td><td>\\(00000001\\)</td><td>\\(11010000\\)</td><td>\\(11110001\\)</td></tr></tbody></table>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514777\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 46,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let \\( R = (A, B, C) \\) and let \\( r_1 \\) and \\( r_2 \\) both be relations on schema \\( R \\).</p><p>Consider the following SQL expression:</p><pre>        SELECT *\n        FROM r1\n        WHERE (A, B, C) IN\n              ( SELECT * FROM r2 )\n</pre><p>This SQL expression is equivalent to which of the following relational algebra expressions?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<pre>r1 − r2\n</pre>"
+    },
+    {
+     "key": "B",
+     "html": "<pre>r1 ∩ r2\n</pre>"
+    },
+    {
+     "key": "C",
+     "html": "<pre>r1 ∪ r2\n</pre>"
+    },
+    {
+     "key": "D",
+     "html": "<pre>r2 − r1\n</pre>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514775\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 47,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "$11$ children play a game. They stand in a circle, and one of them starts passing a ball to somebody else, who in turn passes it on to a third child, etc. The rules are the following: nobody can throw the ball to somebody he/she has thrown it before, also nobody can throw the ball to somebody who has thrown it to him/her before, and nobody can throw the ball to either of the two children standing next to him/her in the circle. At most how many passes are possible in the game under these rules?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    44,
+    44
+   ],
+   "answerText": "44",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/514773\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 48,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let the vertex set of the graph $G$ be $V(G)=\\{1,2, \\ldots, 30\\}$.\n\nLet the vertices $x, y \\in V(G)$ be adjacent in $G$ if the difference of the numbers $x$ and $y$ is at least $7$.\n\nDetermine $\\chi(G)$, the chromatic number of $G$.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 5</p><p><a href=\"https://gateoverflow.in/514771\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 49,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following sets of $\\mathrm{LR}(1)$ items in the states of an $\\mathrm{LR}(1)$ parser.<br><br>\\[<br>\\begin{array}{l l l l}<br>\\text{State 0:} &amp; &amp; &amp; \\text{State 2:} \\\\<br>\\begin{array}{l}<br>\\bigl[ A \\to \\bullet\\, a,\\ b \\bigr] \\\\<br>\\bigl[ A \\to a\\,\\bullet,\\ c \\bigr] \\\\<br>\\bigl[ B \\to a\\,\\bullet,\\ b \\bigr]<br>\\end{array}<br>&amp;&amp;&amp;<br>\\begin{array}{l}<br>\\bigl[ A \\to \\bullet\\, a,\\ c \\bigr] \\\\<br>\\bigl[ A \\to a\\,\\bullet,\\ b \\bigr] \\\\<br>\\bigl[ B \\to a\\,\\bullet,\\ a \\bigr]<br>\\end{array}<br>\\\\\\\\[1.2ex]<br>\\text{State 1:} &amp; &amp;&amp; \\text{State 3:} \\\\<br>\\begin{array}{l}<br>\\bigl[ A \\to \\bullet\\, a,\\ a \\bigr] \\\\<br>\\bigl[ A \\to \\bullet\\, a,\\ b \\bigr] \\\\<br>\\bigl[ B \\to a\\,\\bullet,\\ b \\bigr]<br>\\end{array}<br>&amp;&amp;&amp;<br>\\begin{array}{l}<br>\\bigl[ A \\to \\bullet\\, a,\\ b \\bigr] \\\\<br>\\bigl[ B \\to \\bullet\\, a,\\ b \\bigr]<br>\\end{array}<br>\\end{array}<br>\\]<br>What happens when we merge states(which can be merged according to $\\mathrm{LALR1}$ parser) in a $\\mathrm{LALR(1)}$ parser?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A new reduce/reduce conflict introduced in the $\\mathrm{LALR(1)}$ parser<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A new shift/reduce conflict introduced in the $\\mathrm{LALR(1)}$ parser<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>New reduce/reduce and shift/reduce conflicts introduced in the $\\mathrm{LALR(1)}$ parser<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No new conflicts introduced in the $\\mathrm{LALR(1)}$ parser</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514769\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 50,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>We have a scanner (lexical analyzer) which uses regular expressions to scan an input.<br><br>When using regular expressions to scan an input, we resolve conflicts by taking the largest possible match at any point. If two longest matches are of the same length then we give preference to token $\\mathrm{T1}$ over token $\\mathrm{T2}$.<br><br>Consider the string: aba aba aba bab baa aba ab (blank spaces used for readability only &amp; are to be ignored) and its tokenization $: abaa, ~ba, ~ababa, ~bba, ~aa, ~ba, ~a, ~b$<br><br>Which of the following lexical analyzer specifications will produce this tokenization?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{T1} : (a b){ }^{*} a^{+} \\quad \\mathrm{T2}: b^{*} a^{*}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{T1} : (a b)^{*} a^{*} \\quad \\mathrm{T2}: b^{*} a$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{T1} : (a b)^{*} a^{+} \\quad \\mathrm{T2}: b^{*} a$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{T1} : (a b)^{+} a^{+} \\quad \\mathrm{T2}:b^{*} a^{*}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/514767\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 51,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A node $\\mathrm{p}$ in a control flow graph(CFG) dominates a node $\\mathrm{q}$ if every path from the entry node to $\\mathrm{q}$ goes through $\\mathrm{p}$. We say that node $\\mathrm{p}$ is a dominator of node $\\mathrm{q}$.<br><br>The dominator set of node $\\mathrm{q}$ , DOM $(\\mathrm{q})$, is formed by all nodes that dominate $\\mathrm{q}$ . By definition, each node dominates itself, therefore, $\\mathrm{q} \\in \\operatorname{DOM}(\\mathrm{q})$.<br><br>Consider the following control flow graph(CFG) of a program $\\mathrm{P}$ in low level intermediate representation, which has $12$ nodes.</p><p style=\"text-align:center\"><img alt=\"\" width=\"218\" height=\"353\" src=\"media/74/74b86d3648dec3ee0461.png\"></p><p>The number of nodes which have exactly three dominators, is equal to ? $($For example, for node $2$, $\\operatorname{DOM}(2)=\\{1,2\\})$</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 5</p><p><a href=\"https://gateoverflow.in/514765\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 52,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following sequence of instructions.\n\\[\n\\begin{array}{c c}\n\\hline\n\\text{Instruction Number} & \\text{Instruction} \\\\\n\\hline\n\\mathrm{I}_{1} & \\text{SUBD F4, F4, F0} \\\\\n\\mathrm{I}_{2} & \\text{DIVD F3, F4, F0} \\\\\n\\mathrm{I}_{3} & \\text{ADDD F6, F3, F2} \\\\\n\\mathrm{I}_{4} & \\text{MULTD F1, F6, F7} \\\\\n\\mathrm{I}_{5} & \\text{ADDD F2, F5, F9} \\\\\n\\mathrm{I}_{6} & \\text{DIVD F5, F9, F2} \\\\\n\\mathrm{I}_{7} & \\text{ADDD F8, F1, F4} \\\\\n\\hline\n\\end{array}\n\\]\nAssuming that you have as many functional units as you need, what is the total number of possible valid instruction execution sequences.\n\n$($Assume a superscalar processor equipped with unlimited processing units to handle several instructions in parallel in each processing stage. With this arrangement, several instructions start execution in the same clock cycle, called multiple-issue.\nSuperscalar processors can enable out-of-order execution in which instructions are fetched in the same order as they appear in the program, but may execute and complete out of order, subject to dependency constraints.$)$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6
+   ],
+   "answerText": "6",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 6</p><p><a href=\"https://gateoverflow.in/514763\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 53,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"font-size:16px; line-height:1.6;\">A processor has the following memory hierarchy: a cache with an access latency of \\(1\\,\\text{ns}\\) and a main memory with an access latency of \\(100\\,\\text{ns}\\). Access to main memory is performed only when the value is not found in the cache. What is the maximum acceptable cache miss rate such that the average memory access time is less than or equal to \\(2\\,\\text{ns}\\)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$10\\%$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5\\%$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$50\\%$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1\\%$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/514762\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 54,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<meta><p>Two processes execute concurrently and attempt to implement mutual exclusion using two different locking mechanisms, namely <b>LockA</b> and <b>LockB</b>.</p><p>For <b>LockA</b>, a shared variable \\( \\texttt{turn} \\) is used to decide whose turn it is. The variable is initially set to \\( \\texttt{turn} = 0 \\).</p><p>For <b>LockB</b>, interrupts are disabled during the critical section. The system consists of a single processor unless stated otherwise.</p><p>The functions \\( \\texttt{disableInterrupts()} \\) and \\( \\texttt{enableInterrupts()} \\) respectively disable and enable interrupts on the given processor.</p><p>The code fragments executed by the processes are shown below. For simplicity, the code for Process \\(P_0\\) and Process \\(P_1\\) is written separately for <b>LockA</b>.</p><div style=\"font-size:90%;\">\\[ \\begin{array}{c|c|c} \\text{LockA – Process } P_0 &amp; \\text{LockA – Process } P_1 &amp; \\text{LockB – Process } P_0 \\text{ and } P_1 \\\\ \\hline \\\\[-4pt] \\begin{aligned}[t] &amp;\\text{/* turn initially = 0 */} \\\\ &amp;\\texttt{while (turn == 1);} \\\\ &amp;\\texttt{/* Critical Section */} \\\\ &amp;\\texttt{turn = 1;} \\end{aligned} &amp; \\begin{aligned}[t] &amp;\\text{/* turn initially = 0 */} \\\\ &amp;\\texttt{while (turn == 0);} \\\\ &amp;\\texttt{/* Critical Section */} \\\\ &amp;\\texttt{turn = 0;} \\end{aligned} &amp; \\begin{aligned}[t] &amp;\\text{/* Code for both } P_0 \\text{ and } P_1 \\text{ */} \\\\ &amp;\\texttt{disableInterrupts();} \\\\ &amp;\\texttt{/* Critical Section */} \\\\ &amp;\\texttt{enableInterrupts();} \\end{aligned} \\end{array} \\]</div><p>Which of the following statements about the above locking mechanisms is/are <b>TRUE</b>?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>LockA guarantees mutual exclusion and progress for both processes.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>LockB guarantees mutual exclusion on both uniprocessors and multiprocessors.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>LockA guarantees mutual exclusion but not progress.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>LockB guarantees progress and mutual exclusion on a uniprocessor, but fails on multiprocessors and disables important interrupts.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/514612\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 55,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A process \\( P \\) generates the following virtual addresses. The corresponding physical addresses obtained after address translation are shown below. Both virtual and physical addresses are 32 bits long.</p><table style=\"border-collapse: collapse; margin: 6px auto 2px auto;\"><colgroup><col style=\"width: 160px;\"><col style=\"width: 160px;\"></colgroup><tbody><tr><th style=\"border: 2px solid black; padding: 8px 18px; font-weight: normal;\">Virtual Address</th><th style=\"border: 2px solid black; padding: 8px 18px; font-weight: normal;\">Physical Address</th></tr></tbody></table><table style=\"border-collapse: collapse; margin: 2px auto 0 auto; border: 2px solid black;\"><colgroup><col style=\"width: 160px;\"><col style=\"width: 160px;\"></colgroup><tbody><tr><td style=\"padding: 8px 18px; text-align: center; border-right: 2px solid black;\">$\\texttt{0x0008 0AF0}$</td><td style=\"padding: 8px 18px; text-align: center;\">$\\texttt{0x0010 1AF0}$</td></tr><tr><td style=\"padding: 8px 18px; text-align: center; border-right: 2px solid black;\">$\\texttt{0x0000 2224}$</td><td style=\"padding: 8px 18px; text-align: center;\">$\\texttt{0x0008 3224}$</td></tr><tr><td style=\"padding: 8px 18px; text-align: center; border-right: 2px solid black;\">$\\texttt{0x0007 3234}$</td><td style=\"padding: 8px 18px; text-align: center;\">$\\texttt{0x0018 3234}$</td></tr></tbody></table><p><br>In dynamic relocation, the Memory Management Unit (MMU) translates addresses using \\( p = v + r \\), where \\( v \\) is the virtual address, \\( p \\) is the physical address, and \\( r \\) is the relocation value stored in the relocation register.</p><p>Which of the following statements are correct?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The address translations shown above could have been produced using dynamic relocation.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The MMU could have used paging with page size \\(64\\ \\text{KB}\\ (2^{16}\\ \\text{bytes})\\) to translate these addresses.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The MMU could have used paging with page size \\(4\\ \\text{KB}\\ (2^{12}\\ \\text{bytes})\\) to translate these addresses.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>From the given address translations alone, it is not possible to determine whether the page table uses single-level or multi-level paging.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/514610\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 56,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the output of the following program?</p><p>\\( \\begin{aligned} &amp;\\texttt{int fun(char *x)} \\\\ &amp;\\texttt{\\{} \\\\ &amp;\\quad \\texttt{char *ptr = x;} \\\\ &amp;\\quad \\texttt{while (*ptr != '\\0') ptr++;} \\\\ &amp;\\quad \\texttt{return (ptr - x);} \\\\ &amp;\\texttt{\\}} \\end{aligned} \\)</p><ol type=\"A\"></ol><p>\\( \\begin{aligned} &amp;\\texttt{main()} \\\\ &amp;\\texttt{\\{} \\\\ &amp;\\quad \\texttt{char str[30] = \"This is DVRUO Classes AIMT\";} \\\\ &amp;\\quad \\texttt{printf(\"%d\", fun(str));} \\\\ &amp;\\texttt{\\}} \\end{aligned} \\)</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$16$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$23$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$24$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$30$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514608\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 57,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let two unsigned integer variables <code>m</code> and <code>n</code> hold the values <code>0</code> and <code>13643</code> respectively.&nbsp;</p><p>The following C code snippet is executed:</p><p>$\\begin{aligned} &amp;\\texttt{while (n &gt; 0)} \\\\ &amp;\\texttt{\\{} \\\\ &amp;\\quad \\texttt{m = (m * 10) + (n % 10);} \\\\ &amp;\\quad \\texttt{n = n / 10;} \\\\ &amp;\\texttt{\\}} \\end{aligned}$</p><p>What will be the value of <code>m</code> after the execution of the above code?</p><p> </p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    34631,
+    34631
+   ],
+   "answerText": "34631",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/514606\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 58,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following structure, where the field <code>rank</code> stores the class rank of a student.</p><p>$\\begin{aligned} &amp;\\texttt{struct student} \\texttt{\\{ }\\\\ &amp;\\quad \\texttt{int rank;} \\\\ &amp;\\quad \\texttt{struct student *ptr;} \\\\ &amp;\\texttt{\\}}\\texttt{;} \\end{aligned} $</p><p>Fill in the blanks in the <code>printf</code> statement so that the program prints the class ranks of students <b>A</b> and <b>C</b>. Your answer <b>must not</b> directly use the identifiers <code>A</code> or <code>C</code>.</p><p>$\\begin{aligned} &amp;\\texttt{int main()} \\\\ &amp;\\texttt{ \\{ } \\\\ &amp;\\quad \\texttt{struct student A, B, C;} \\\\ &amp;\\quad \\texttt{A.rank = 1; B.rank = 5; C.rank = 10;} \\\\ &amp;\\quad \\texttt{A.ptr = &amp;B; B.ptr = &amp;C; C.ptr = &amp;A;} \\\\ &amp;\\quad \\texttt{printf(\"%d,%d\", ________ , ________ );} \\\\ &amp;\\texttt{ \\} } \\end{aligned} $</p><p>Which of the following options correctly fills the blanks?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\texttt{((B.ptr)-&gt;ptr)-&gt;rank , (B.ptr)-&gt;rank}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\texttt{(B.ptr)-&gt;rank , ((B.ptr)-&gt;ptr)-&gt;rank}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\texttt{(B.ptr)-&gt;ptr-&gt;rank , B.rank}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\texttt{B.rank , (B.ptr)-&gt;rank}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/514604\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 59,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following function <code>baz()</code> that takes a pointer to the first node of a linked list.</p><p>$\\begin{aligned} &amp;\\texttt{void baz(link head)} \\\\ &amp;\\texttt{\\{} \\\\ &amp;\\quad \\texttt{if (head == NULL)} \\\\ &amp;\\quad\\quad \\texttt{return;} \\\\ &amp;\\quad \\texttt{baz(head-&gt;next-&gt;next);} \\\\ &amp;\\quad \\texttt{printf(\"%d \", head-&gt;key);} \\\\ &amp;\\texttt{\\}} \\end{aligned}$</p><p>The function is called with the following linked list:</p><p>$\\texttt{1 → 2 → 3 → 4 → 5 → 6 → NULL}$</p><p><br>What will be printed when the function is executed?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\texttt{1 3 5}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\texttt{2 4 6}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\texttt{5 3 1}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\texttt{6 4 2}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/514601\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 60,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given two lists \\( A \\) and \\( B \\), each containing \\( n \\) integers, we want to find a one-to-one matching between elements of \\( A \\) and elements of \\( B \\) such that the total cost \\[ \\sum |a - b| \\] over all matched pairs \\( (a,b) \\) is minimized.</p><p>For example, if \\( A = \\{4, -1, 8, 5\\} \\) and \\( B = \\{7, 9, 10, 3\\} \\), one possible matching is \\( (-1,9), (4,7), (5,3), (8,10) \\), which gives a total cost of \\( |{-1}-9| + |4-7| + |5-3| + |8-10| = 17 \\).</p><p><br>Which of the following algorithms correctly computes a minimum-cost matching between \\( A \\) and \\( B \\) in \\( O(n \\log n) \\) time?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For each element of \\( A \\), greedily match it with the closest unused element of \\( B \\).<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Sort both lists \\( A \\) and \\( B \\), and match the \\( k \\)-th smallest element of \\( A \\) with the \\( k \\)-th smallest element of \\( B \\).<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Try all possible matchings between \\( A \\) and \\( B \\) and choose the one with minimum total cost.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Construct a complete bipartite graph between \\( A \\) and \\( B \\) with edge weights \\( |a-b| \\), and run Dijkstra’s algorithm.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514599\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 61,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following statements related to BFS and DFS in graphs.</p><p>Select <b>all</b> statements that are correct.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For a directed graph, the absence of back edges with respect to a BFS tree implies that the graph is acyclic.<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The depth of any DFS tree rooted at a vertex is at least as much as the depth of any BFS tree rooted at the same vertex.<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>In an undirected graph, there is no edge that jumps more than one level of any BFS tree of the graph.<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>In an unweighted graph where the distance between any two vertices is at most \\(T\\), any BFS tree has depth at most \\(T\\), but a DFS tree might have larger depth.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><p><a href=\"https://gateoverflow.in/514597\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 62,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The box $1$ contains chips numbered $3,6,9,12$ and $15$. The box $2$ contains chips numbered $6,11,16,21$ and $26$. Two chips, one from each box, are drawn at random. The numbers written on these chips are multiplied. The probability for the product to be an even number is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$6 / 25$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2 / 5$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3 / 5$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$19 / 25$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/514596\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 63,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $f(x)$ be a function continuous on $[ 2,7 ]$ and differentiable on $( 2,7 )$ where we have that $f(2)=1, f(4)=7, f(5)=5, f(7)=1$. Which of the following is <strong>not necessarily</strong> a value of $f^{\\prime}(x)$ for some $x$ in $(2,7)$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$6$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{4}{3}$.</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/514594\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 64,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a source \\(A\\) that uses TCP to transfer a file of size \\(8\\,\\text{KB}\\) to destination \\(B\\). Each data packet carries a payload of \\(1\\,\\text{KB}\\). During the transfer, exactly two losses occur:</p><ul><li>the $4$<sup>th</sup> data packet is lost, and<br> </li><li>the acknowledgement of the $6$<sup>th</sup> data packet is lost.<br> </li></ul><p>Assume the following:</p><ul><li>Retransmission timeout (RTO) \\(= 4 \\times \\text{RTT}\\)<br> </li><li>Fast retransmission and fast recovery are triggered after receiving three duplicate acknowledgements<br> </li><li>Connection setup time, processing time, and transmission time are ignored<br> </li><li>Transfer time is measured from the instant the first data packet is transmitted by \\(A\\) to the instant the acknowledgement of the last data packet is received by \\(A\\)<br> </li></ul><p>How many RTTs are required to complete the entire file transfer?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 8</p><p><a href=\"https://gateoverflow.in/514592\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 65,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the network shown in the following diagram:</p><p><img alt=\"Network configuration between ETH and Swisscom\" style=\"width:70%; height:auto;\" src=\"media/55/55d9987e64f22d129cf9.jpg\"></p><p>Consider this simple network configuration between ETH and Swisscom. Assume that ETH owns a large IP prefix \\(13.1.0.0/17\\), but only uses \\(13.1.0.0/24\\) to address its internal hosts. For simplicity, assume that ETH and Swisscom configure their forwarding tables statically and rely on the use of a default route \\((0.0.0.0/0)\\).</p><p>Suppose Swisscom receives a packet for \\(13.1.66.1\\) from Deutsche Telekom. What is the path taken by this IP packet?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Swisscom/1 → Swisscom/2 → ETH/0 → ETH/1<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Swisscom/1 → Swisscom/2 → ETH/0 → Deutsche&nbsp;Telekom<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Swisscom/1 → Swisscom/2 → ETH/0 (packet is delivered to an ETH host)<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Swisscom/1 → Swisscom/2 → ETH/0 → Swisscom/2 → ETH/0 → …</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/514590\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 100.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 65
+  }
+ ],
+ "stats": {
+  "questions": 65,
+  "maxMarks": 98,
+  "types": {
+   "MCQ": 42,
+   "NAT": 15,
+   "MSQ": 8
+  },
+  "withoutKey": 1
+ }
+}

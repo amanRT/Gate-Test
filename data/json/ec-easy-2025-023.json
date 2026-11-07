@@ -1,0 +1,995 @@
+{
+ "v": 1,
+ "id": "ec-easy-2025-023",
+ "title": "Subjectwise Test-11 Part Syllabus GATE 2025 EC Electromagnetics",
+ "sourceTitle": "Subjectwise Test-11 Part Syllabus GATE 2025 EC Electromagnetics",
+ "branch": "ELECTRONICS ENGINEERING",
+ "code": "EC",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electronics Engineering",
+ "seriesId": "ec-easy-2025",
+ "num": 23,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electronics Engineering"
+ },
+ "source": "ELECTRONICS ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electronics_Engineering/031_Subjectwise Test-11 Part Syllabus GATE 2025 EC Electromagnetics.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tElectromagnetic wave penetration abilities and conducting properties of material are always dependent on</p>\n<p>\n\t<img alt=\"\" src=\"media/6f/6fdc86dc6dc93417d29f.png\" /></p>\n<p>\n\tPick the correct option among the following</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1 and 2 only"
+    },
+    {
+     "key": "B",
+     "html": "1, 2 and 3 only"
+    },
+    {
+     "key": "C",
+     "html": "1 only"
+    },
+    {
+     "key": "D",
+     "html": "1, 2, 3 and 4"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/03/033d52d4bfc546670474.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tIf the magnetic field of a plane EM wave propagating in certain medium is <img align=\"absmiddle\" alt=\"\" src=\"media/c3/c3f154ab8e4661525453.png\" /> Tesla, which of the following facts is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tWavelength of the EM wave, <img align=\"absmiddle\" alt=\"\" src=\"media/b4/b4f26750de468fe80e75.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "EM wave propagates in free space."
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/22/22145e45ef1ce928ab17.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tGiven EM wave travels in <img align=\"absmiddle\" alt=\"\" src=\"media/0a/0af00a24f69a5f5e058c.png\" /> direction.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/94/94156c84bff774562a25.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/33/336bb1acb0161fa2c535.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In a lossy medium a plane wave has its wavelength equal to <img align=\"absmiddle\" alt=\"\" src=\"media/7d/7dc6b546d34f16f0f84c.png\" /> times the skin depth. The intrinsic impedance of the medium has a phase angle of _____ degree.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    44,
+    46
+   ],
+   "answerText": "45",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>45 (44 - 46)</p>\n\n<p><img alt=\"\" src=\"media/f1/f169ea6fed8dd8cf484e.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA certain linear, homogeneous, isotropic dielectric material has a relative permittivity of 1.8. If the potential V = –400y V in the material, then the electric flux density is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a4/a4112c5d22e7487e1375.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7f/7f920041b1e9162d08f3.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e2/e27d32b7a0f8bea1e5a9.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/db/db8a30f65c3c37e742d9.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/44/44a5e553c25ad1bbf9d1.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A metallic hollow waveguide has a cut-off frequency of 2 GHz for its dominant mode of operation.<br />\nIf the guide dimensions for its cross-section are in the ratio 1 : 2, the first degenerate TE and TM modes have a cutoff frequency of _____ GHz.</p>\n\n<p>(upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    4.2,
+    4.8
+   ],
+   "answerText": "4.472",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>4.472 (4.20 - 4.80)</p>\n\n<p><img alt=\"\" src=\"media/d0/d062db5cdf31fd7b7690.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe volume charge density on a material is known to vary with time obeying the differential equation</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/2e/2e6eee8cce6bc976130d.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7c/7c9518cfa8a8cac39479.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b3/b3eecb2b115455d25d22.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/06/06df203d8b6a1cf56d13.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/7f/7fbac1839b665836923e.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>\n\tWhich of the below statements are correct regarding electromagnetic theory?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Electric field intensity at any point is the negative of the potential gradient at that point."
+    },
+    {
+     "key": "B",
+     "html": "Electric field due to a finite line charge at a point is independent of the length of the line charge."
+    },
+    {
+     "key": "C",
+     "html": "The direction of the electrostatic potential gradient at a point is opposite to the direction of the electric field at that point."
+    },
+    {
+     "key": "D",
+     "html": "Electric field due to an infinite line of charge at a point is inversely proportional to the square of the distance of the point from the line charge."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/c4/c4ae11140eba5854ce94.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tRegion y ≤ 0 consists of a perfect conductor while region y > 0 is a dielectric medium with ε<em><sub>r</sub></em> = 4.<br />\n\tIf there is a surface charge of 5 nC/m<sup>2</sup> on the conductor, then the electric field intensity at (–4, 1, 5) will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f1/f13f40f20af8765ce453.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/d4/d488f12d6c688ae52b44.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ff/ff21822827bf1757f3db.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/bc/bca36a52e8f47f1d4668.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>If an antenna’s revolution time is 10 sec and 3 dB beamwidth duration is 150 msec, then the antenna beamwidth is __________ (in degrees)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5.7
+   ],
+   "answerText": "5.4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>5.4 (5.00 - 5.70)</p>\n\n<p><img alt=\"\" src=\"media/3a/3a5bb2feb8596bbb336c.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tA conductor has a high frequency EM wave propagating inside it. If σ is conductivity and <img align=\"absmiddle\" alt=\"\" src=\"media/eb/eb1a6d974b7653b88ede.png\" /> is skin depth of the material, the wave has an intrinsic impedance η given by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/f3/f351d00b1599783977b4.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cb/cb282fa1b2e286a0ace9.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/7d/7d739e31f02c41ef0244.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/fa/fa4560c84343203c8d6e.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/54/54e270c90003326bcac6.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following transmission line, with characteristic impedance of 50 Ω, terminated by a load of <em>j</em> 50 Ω. The line is excited by a 30 MHz source and phase velocity is 3 × 10<sup>8</sup> m/s.</p>\n\n<p><img alt=\"\" src=\"media/35/355c2fa4304cde80813a.png\" /></p>\n\n<p>The distance of the first voltage maxima from the load towards source is __________ cm.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    120,
+    130
+   ],
+   "answerText": "125",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>125 (120 - 130)</p>\n\n<p><img alt=\"\" src=\"media/eb/eb0f2d5fd3aa51b0ad2a.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following EM waves have s-polarization with respect to inclined incidence and reflection at dielectric-dielectric boundary? Assume standard notations for ω and β.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ba/ba0897ff9e6e562e32aa.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/82/82401b4c1ce61c4f8cae.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/4b/4b1ce2b90de67ad34a0f.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/01/010efce461ebcaf3f34c.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/8e/8e13b68456b3e98f6f89.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>An air-dielectric boundary has the following fields:</p>\n\n<p><img alt=\"\" src=\"media/91/919a36f0fd0e11ab40d6.png\" /></p>\n\n<p>If the dielectric has <img align=\"absmiddle\" alt=\"\" src=\"media/20/200f12fa2d1b87e0b17a.png\" /> in dielectric has a value of ________ V/m. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    14.8,
+    15.2
+   ],
+   "answerText": "15.008",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>15.008 (14.80 &ndash; 15.20)</p>\n\n<p><img alt=\"\" src=\"media/7e/7e4f2059fc339e725dbc.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following Harmonic represents a valid E field component of a dispersive beam in a rectangular waveguide along its guide axis in z direction? Assume the mode of operation to be dominant mode of <em>a</em> > <em>b</em> guide.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ea/ea460aa9017c71350b8c.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1d/1d78ce7270a91124fb66.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/66/66a30f35d6ede740f855.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/da/da4b22921521e68a970f.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/e1/e19914f81571fcc157b6.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tAn EM wave travels in a certain medium with a harmonic expression of the electric field,</p>\n<p>\n\t<img alt=\"\" src=\"media/34/34462326a23602399f61.png\" /></p>\n<p>\n\tWhich of the following relationships holds true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/72/72f0dc144d496290293f.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b6/b68bd883e3dcbcd79bd3.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b2/b2d7f9f7979be47deae9.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/46/4693ac2076dd6982630b.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/9d/9db4f65b1e93595974cb.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Given a lossless non-magnetic dielectric material with ∈R = 36π having an EM wave travelling with an amplitude of 5 V/m. The average magnetic energy density of the field is expected to be _______ nano Joules.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12,
+    13
+   ],
+   "answerText": "12.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>12.5 (12.0 &ndash; 13.0)</p>\n\n<p><img alt=\"\" src=\"media/4f/4f15347c97ef2e288d24.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe electric field intensity vector of a plane wave propagating in lossless medium is given by</p>\n<p>\n\t<img alt=\"\" src=\"media/1f/1fcd93bf9d159e929658.png\" /></p>\n<p>\n\tThe polarization of the wave is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Linear"
+    },
+    {
+     "key": "B",
+     "html": "Left circular"
+    },
+    {
+     "key": "C",
+     "html": "Right circular"
+    },
+    {
+     "key": "D",
+     "html": "Elliptical"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/7a/7ae25fb02c85dc3eca9b.png\" /></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>A lossless dielectric medium has σ = 0, μ<em><sub>r </sub></em>= 1 and ε<em><sub>r</sub></em> = 3. An electromagnetic wave has magnetic field component expressed as <img align=\"absmiddle\" alt=\"\" src=\"media/56/56c80319eaf53e783f8d.png\" /> The angular frequency of the wave is ___________ × 10<sup>8</sup> rad/sec.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    4
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3 (2 - 4)</p>\n\n<p><img alt=\"\" src=\"media/e5/e5e7229074194c3416b9.png\" /></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tAn EM wave have its E field harmonic defined as <img align=\"absmiddle\" alt=\"\" src=\"media/40/40f35c5b64c6d0c05715.png\" /> Its polarization and amplitude are respectively</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "circular, 15 V/m"
+    },
+    {
+     "key": "B",
+     "html": "circular, 11.18 V/m"
+    },
+    {
+     "key": "C",
+     "html": "elliptical, 15 V/m"
+    },
+    {
+     "key": "D",
+     "html": "elliptical, 11.18 V/m"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/68/680400a7b5a394da100e.png\" /></p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>Given a vector <img align=\"absmiddle\" alt=\"\" src=\"media/4a/4a674f4ef0f78e93e8b9.png\" /> in spherical coordinates as <img align=\"absmiddle\" alt=\"\" src=\"media/5f/5f9727aef422f87db837.png\" /> The divergence of <img align=\"absmiddle\" alt=\"\" src=\"media/d6/d6ccd321cecde6e96d35.png\" /> i.e. <img align=\"absmiddle\" alt=\"\" src=\"media/44/44dffbe082d0afbb0ca0.png\" /> is ______</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2.4,
+    2.6
+   ],
+   "answerText": "2.5",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>2.5 (2.40 - 2.60)</p>\n\n<p><img alt=\"\" src=\"media/20/205dec33369c152e6705.png\" /></p>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tThe direction of the first minor lobe of 4 element isotropic broadside array separated by <img align=\"absmiddle\" alt=\"\" src=\"media/27/2769974f2368d5483a21.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "23.2°"
+    },
+    {
+     "key": "B",
+     "html": "34.6°"
+    },
+    {
+     "key": "C",
+     "html": "38.9°"
+    },
+    {
+     "key": "D",
+     "html": "41.4°"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/35/35699415c652f035337e.png\" /></p>"
+  },
+  {
+   "n": 22,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Consider “<em>n</em>” 50 Ω and <img align=\"absmiddle\" alt=\"\" src=\"media/c0/c0ecf50f087cea9e43eb.png\" /> length lossless lines as shown in the figure below. All are connected and terminated by loads given by Z<sub>L1</sub> = 25 Ω, Z<sub>L2</sub> = 50 Ω, Z<sub>L3</sub> = 75 Ω, Z<sub>L4</sub> = 100 Ω, … Z<sub>Ln</sub> = (25 n) Ω.</p>\n\n<p><img alt=\"\" src=\"media/c7/c76919a6d82a882d4f83.png\" /></p>\n\n<p> </p>\n\n<p>If <img align=\"absmiddle\" alt=\"\" src=\"media/b5/b5b02eb66563ae724f43.png\" /> then the value of “n” is _______</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    15,
+    15
+   ],
+   "answerText": "15",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>15 (15 - 15)</p>\n\n<p><img alt=\"\" src=\"media/51/510285e0952c5068b394.png\" /></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following conditions cannot have a defined Brewster’s angle for an electromagnetic wave travelling from Region-1 to Region-2 having an inclined incidence at boundary?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/85/8534e582ae592caf19e8.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/22/2257b5304a6aba599a4b.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/74/747e0118a8d1999ca777.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/71/7102812bfb88577f2561.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/d5/d5ee6ab8a008ba5c4205.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tWhich of the following expressions is/are not Maxwell’s equations for time varying fields?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/dd/dd948b7ec30805234648.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/cb/cb85176fa3df66c49824.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b4/b4b86cd620a01f91aa00.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/6d/6d53dbf7397641267e96.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, d)</p>\n<p>\n\t<img alt=\"\" src=\"media/d7/d7288f89f42b0cf89cdb.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following field harmonics are out of phase by 180° with respect to electromagnetic waves travelling in materials?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tE incidence from a dielectric of <img align=\"absmiddle\" alt=\"\" src=\"media/8b/8bc85cfd7e1c0e37c2e3.png\" /> to reflected E from free space adjacent region</p>"
+    },
+    {
+     "key": "B",
+     "html": "E incidence from free space to reflected E field from conductor."
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tH incidence from a free space material to reflected H from a dielectric of <img align=\"absmiddle\" alt=\"\" src=\"media/87/879d42f8bade7b61cba1.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tPower incidence from air to transmitted power to dielectric of <img align=\"absmiddle\" alt=\"\" src=\"media/87/879d42f8bade7b61cba1.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/df/df0905637e2bf1cc86a9.png\" /></p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>The power radiated from the half wave dipole at 2 km away with magnetic field at point <img align=\"absmiddle\" alt=\"\" src=\"media/39/39d49864198d8669db9e.png\" />  as 10 μ A/m is _________ Watts. (upto three decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.45,
+    0.65
+   ],
+   "answerText": "0.576",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.576 (0.450 - 0.650)</p>\n\n<p><img alt=\"\" src=\"media/38/385824a7029170daf488.png\" /></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA non-magnetic good conductor supports a uniform plane wave travelling with a velocity of 1.8 × 10<sup>6</sup> m/s. If the wavelength <img align=\"absmiddle\" alt=\"\" src=\"media/0d/0d1734648af1a7f3d19a.png\" /> = 0.28 mm, then the conductivity of this non-magnetic medium is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/ea/eaa7e8c2ebcb8730562d.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/c3/c3a03c1d78d6334c3fc9.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/8b/8ba06e76a3a4fdaa50d5.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b5/b57a36e1371dce9e9628.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/ae/ae1587955f183ec2f38b.png\" /></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In a lossless non-magnetic medium, the peak value of electric field is given as 12 V/m . If the relative permittivity is given as <img align=\"absmiddle\" alt=\"\" src=\"media/b4/b4f5b499e2ac5e53c450.png\" /> then the time averaged power (in W/m<sup>2</sup>) will be _________. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.58,
+    0.64
+   ],
+   "answerText": "0.61",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.61 (0.58 - 0.64)</p>\n\n<p><img alt=\"\" src=\"media/3b/3bfb9e12697fabc7b657.png\" /></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tIt is required to propagate 30 GHz signal in an air-filled rectangular waveguide in TE<sub>01</sub> mode in such a way that <img align=\"absmiddle\" alt=\"\" src=\"media/81/81f26cb995ac4881acd7.png\" /> If the dimensions of the waveguide are</p>\n<p>\n\t(<em>a</em> × <em>b</em>) and <em>a</em> > <em>b</em>, then the narrow wall dimension of the waveguide is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.83 cm"
+    },
+    {
+     "key": "B",
+     "html": "0.36 cm"
+    },
+    {
+     "key": "C",
+     "html": "1.2 cm"
+    },
+    {
+     "key": "D",
+     "html": "2.4 cm"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/c4/c4059bb5f51d6bc1d90c.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +1 / -0",
+   "html": "<p>\n\tWhich of the following condition is true for boundary conditions between conductor and a perfect dielectric?<br />\n\t(Assume the interface has charge density ρ<sub>s</sub>)</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a2/a2abf30863d028ad19ed.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/55/55a24a0705759537f926.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1c/1c4293860766c65705e8.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b4/b47c8519f76197c66741.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b)</p>\n<p>\n\t<img alt=\"\" src=\"media/d6/d659d3775cbe3b106a66.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA uniform plane wave in air is normally incident on a dielectric material (σ = 0, μ<em><sub>r</sub></em> = 1, ∈<em><sub>r</sub></em> = 3). The electric field of the transmitted wave is given by <img align=\"absmiddle\" alt=\"\" src=\"media/97/9723136b17251267e2d6.png\" /> The electric field expression of the incident wave is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/0b/0beac3d40622354ad847.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a2/a2af894d779214974feb.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/a7/a78ef103c6f10517d6bb.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/02/0234cef896d27a26e0cd.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/df/df56eb7a64759806ecf4.png\" /></p>"
+  },
+  {
+   "n": 32,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>In a non-magnetic medium,</p>\n\n<p><img alt=\"\" src=\"media/6e/6e5b7aebb64409ead10d.png\" /></p>\n\n<p>The intrinsic impedance of the medium is ________ Ω. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    112.5,
+    113
+   ],
+   "answerText": "112.79",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>112.79 (112.50 - 113.00)</p>\n\n<p><img alt=\"\" src=\"media/d5/d5d469e4c91f19e9f125.png\" /></p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRONICS ENGINEERING • +2 / -0",
+   "html": "<p>Two lossless dielectric materials have a boundary defined by the zx plane. If an electromagnetic wave is incident from one side to other and Brewster’s angle is 30° for the media, the corresponding critical angle θ<sub>c</sub> for the given pair of media is _____ degrees. (upto two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    34.5,
+    35.5
+   ],
+   "answerText": "35.26",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>35.26 (34.50 - 35.50)</p>\n\n<p><img alt=\"\" src=\"media/05/05396590d7de7acfe61a.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 16,
+   "MSQ": 4,
+   "NAT": 13
+  },
+  "withoutKey": 0
+ }
+}

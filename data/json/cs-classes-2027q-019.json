@@ -1,0 +1,388 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-019",
+ "title": "DVRUO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 7",
+ "sourceTitle": "DVRUO Classes CS | CO and Architecture | Cache Memory | Weekly Quiz 7",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 19,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 3600,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "CO and Architecture"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/032_exam_1236_GO Classes CS CO and Architecture Cache Memory Weekly Quiz 7.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A cache memory needs an access time of $30$ ns and main memory $150$ ns, what is the average access time of the CPU (assume hit ratio $= 80\\%)?$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$60$ ns<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$30$ ns<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$150$ ns<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$70$ ns</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"495541\"></a><div itemprop=\"text\"><p>Effective Memory Access Time = Cache hit rate × Cache access time + Cache miss rate × (Cache access time + Main memory access time)<br><br>= 0.8(30) + (1 - 0.8)(30 + 150) ns<br><br>= 24 + 0.2(180) ns<br><br>= 24 + 36 ns = 60 ns.<br><br><b>Option A</b><br><br><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/jrt10F4jsWo?t=3619&amp;si=kPCNH6pk3qa9Vnpf\">🎥 Watch Detailed Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — we have discussed it in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495540\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The L3 cache of a computer has a hit time of $15$ cycles and a miss penalty of $300$ cycles. Suppose that the hit rate for this cache, for a given application, is $95\\%$. Considering just this cache, what is the average memory access time in cycles?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495539\"></a><div itemprop=\"text\"><p>Recall that:<br><br>Average memory access time $=$ hit time $+$ (miss rate $\\times$ miss penalty)<br><br>$= 15 + 0.05 \\times 300 = 15 + 15 = 30$ cycles<br><br><b>Detailed Video Solution:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=W442i0Q_pPg&amp;t=2599s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495538\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The timing for a particular cache is as follows: checking the cache takes $1$ cycle. If there's a hit the data is returned to the CPU at the end of the first cycle. If there's a miss, it takes $10$ additional cycles to retrieve the word from main memory, store it in the cache, and return it to the CPU. If we want an average memory access time of $1.4$ cycles, what is the minimum possible value for the cache's hit ratio (in $\\%$)?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495537\"></a><div itemprop=\"text\"><p>AMAT = Hit Time + Miss Ratio × Miss Penalty<br><br>$1.4 = 1 + (1 - H) \\times 10 \\Rightarrow H = 0.96$<br><br>Minimum possible value of hit ratio $= 96\\%$<br><br><b>Detailed Video Solution:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=7545s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495536\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "The Beta Engineering Team is working on the design of a cache.<br>\nThis cache takes $2$ clock cycles to determine if a memory access is a hit or a miss and, if it's a hit, return data to the Beta(i.e. the CPU). If the access is a miss, the cache takes $20$ additional clock cycles to fill the cache line and return the requested word to the Beta. If the hit rate is $90\\%$, what is the Beta's average memory access time in clock cycles?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"495535\"></a><div itemprop=\"text\"><p>AMAT $=$ Hit Time + Miss Ratio $\\times$ Miss Penalty<br><br>AMAT $= 2 + (1 - 0.9) \\times 20 = 4$<br><br>Average memory access time assuming $90\\%$ hit rate (clock cycles) $= 4$<br><br><b>Detailed Video Solution:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=8035s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495534\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a $2$-way set-associative cache where each way has $4$ cache lines with a block size of $2$ words. Using this cache, a particular benchmark program experiences an average memory access time (AMAT) of $1.3$ cycles. The access time on a cache hit is $1$ cycle; the miss penalty (i.e., additional access time) is $10$ cycles. What is the hit ratio when running the benchmark program (in $\\%$)?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"495533\"></a><div itemprop=\"text\"><p>AMAT $=$ Hit Time + Miss Ratio $\\times$ Miss Penalty<br><br>$1.3 = 1 + (1 - H) \\times 10 \\Rightarrow H = 0.97$<br><br>Hit ratio for benchmark program $= 97\\%$<br><br><b>Detailed Video Solution:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=8354s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495532\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Find the AMAT for a processor with a $1$ ns clock cycle time, a miss penalty of $20$ clock cycles, a miss rate of $0.05$ misses per instruction, and a cache access time (including hit detection) of $1$ clock cycle.<br>\nAssume that the read and write miss penalties are the same and ignore other write stalls.<br>\nThe average memory access time (in ns) per instruction is?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495531\"></a><div itemprop=\"text\"><p>AMAT $=$ Hit Time + Miss Ratio $\\times$ Miss Penalty<br><br>The average memory access time per instruction is $$ \\begin{aligned} \\text{AMAT} &amp;= \\text{Time for a hit} + \\text{Miss rate} \\times \\text{Miss penalty} \\\\ &amp;= 1 + 0.05 \\times 20 \\\\ &amp;= 2~\\text{clock cycles} \\\\ &amp;\\text{or } 2~\\text{ns} \\end{aligned} $$<br><br><b>Detailed Video Solution:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=8541s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495530\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume that for a certain processor, a read request takes $50\\:\\text{nanoseconds}$ on a cache miss and $5\\:\\text{nanoseconds}$ on a cache hit. Suppose while running a program, it was observed that $80\\%$ of the processor's read requests result in a cache hit. The average read access time in nanoseconds is ______.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495529\"></a><div itemprop=\"text\"><p>The given $50~\\text{ns}$ is <b>Miss Time</b>, not Miss Penalty.<br><br>Average read time $= 0.80 \\times 5 + 0.20 \\times 50 = 14~\\text{ns}$.<br><br><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=8735s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495528\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider that a computer system has $5$ ns of latency when accessing cache and $70$ ns when accessing main memory. What should your application's average hit rate be (in $\\%$) in order to have an average memory access latency of $15$ ns (Round to two decimal places)?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495527\"></a><div itemprop=\"text\"><p>AMAT $=$ Hit Time + Miss Ratio $\\times$ Miss Penalty<br><br>Let $H$ be the hit rate, $0 \\leq H \\leq 1$<br><br>$H \\times 5~\\text{ns} + (1 - H) \\times 75~\\text{ns} = 15~\\text{ns}$<br><br>$5H + 75 - 75H = 15$<br><br>$70H = 60$<br><br>$H = \\dfrac{60}{70} = 0.8571 \\approx 85.71\\% \\approx 86\\%$<br><br><b>Detailed Video Solution:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=8993s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495526\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assume that checking the cache on each read takes $1$ cycle and that refilling the cache on a miss takes an additional $8$ cycles. If we wanted the average access time over many reads to be $1.1$ cycles, what is the minimum hit ratio the cache must achieve during that period of time (in $\\%$) ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495525\"></a><div itemprop=\"text\"><p>AMAT = Hit Time + Miss Ratio × Miss Penalty<br><br>$1.1 = 1 + (1 - H) \\times 8$, so $H = \\dfrac{79}{80}$<br><br>Minimum hit ratio for $1.1$ cycle average access time $= 98.75\\%$<br><br><b>Detailed Video Solution:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=9211s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495524\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A cache memory that has a hit rate of $0.8$ has an access latency $10 \\; \\text{ns}$ and miss penalty $100 \\; \\text{ns}.$ An optimization is done on the cache to reduce the miss rate. However, the optimization results in an increase of cache access latency to $15 \\; \\text{ns},$ whereas the miss penalty is not affected. The minimum hit rate <em>(rounded off to two decimal places)</em>&nbsp;needed after the optimization such that it should not increase the average memory access time is _______________.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495523\"></a><div itemprop=\"text\"><p><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=v49Qv5CrgdY&amp;t=9357s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495522\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A computer has a single cache (off-chip) with a $3$ ns hit time and a $95\\%$ hit rate. Main memory has a $50$ ns access time. If we add an on-chip cache with a $0.6$ ns hit time and a $98\\%$ hit rate, the computer’s effective access time:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{2.8 ns}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{5.5 ns}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{0.7 ns}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the options</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"495521\"></a><div itemprop=\"text\"><p><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=W442i0Q_pPg&amp;t=3603s\">🎥 Watch Solution </a><br><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"535090\"></a><div itemprop=\"text\">After Adding Onchip Cache, Cache Structure Become : L1(Onchip Cache) -&gt; L2 -&gt; MM<br>\n<br>\nL1 hit time=0.6 ns, L1 miss rate=0.02, L2 hit time=3 ns , L2 miss rate =0.05, MM=50 ns<br>\n<br>\n=0.6+0.02(3+0.05(50))<br>\n<br>\n=0.6+0.02(5.5)<br>\n<br>\n=0.71 <br>\n<br>\n=0.7</div></section></div><p><a href=\"https://gateoverflow.in/495520\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a two-level cache system, the access times of the $L_1$ and $L_2$ caches are $1$ and $8$ clock cycles, respectively. The miss penalty from the $L_2$ cache to main memory is $18$ clock&nbsp;cycles. The miss rate of the $L_1$ cache is twice that of $L_2$. The average memory access time (AMAT) of this cache system is $2$ cycles. The miss rates of $L_1$ and $L_2$ respectively are</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0.111$ and $0.056$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0.056$ and $0.111$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0.0892$ and $0.1784$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0.1784$ and $0.0892$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495519\"></a><div itemprop=\"text\"><p><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=W442i0Q_pPg&amp;t=4008s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> \"Simultaneous Access\" is a misconception — it is discussed in detail in the lectures below.<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"500083\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">Based on the problem statement in the image, here is the step-by-step solution to find the miss rates.</p><p data-path-to-node=\"1\">&nbsp;</p><h3><b>1. Identify the Given Values</b></h3><p>&nbsp;</p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b>$L_1$ Access Time ($T_1$):</b> $1$ cycle</p></li><li><p data-path-to-node=\"2,1,0\"><b>$L_2$ Access Time ($T_2$):</b> $8$ cycles</p></li><li><p data-path-to-node=\"2,2,0\"><b>Miss Penalty from $L_2$ to Main Memory ($T_m$):</b> $18$ cycles</p></li><li><p data-path-to-node=\"2,3,0\"><b>Average Memory Access Time (AMAT):</b> $2$ cycles</p></li><li><p>Relationship between Miss Rates: The miss rate of $L_1$ is twice that of $L_2$.</p><p>Let $x$ be the miss rate of $L_2$.</p><p>Then, $2x$ is the miss rate of $L_1$.</p></li></ul><p data-path-to-node=\"3\">&nbsp;</p><h3><b>2. Set Up the AMAT Formula</b></h3><p>&nbsp;</p><p data-path-to-node=\"4\">For a 2-level cache system, the standard formula for Average Memory Access Time is:</p><p>$$AMAT = T_1 + (\\text{Miss Rate}_1 \\times \\text{Miss Penalty}_1)$$</p><p data-path-to-node=\"6\">Where $\\text{Miss Penalty}_1$ is the time it takes to fetch data if it's not in $L_1$. This penalty includes checking $L_2$, and if it's not there, going to Main Memory.</p><p>So, the expanded formula is:</p><p>&nbsp;</p><p>$$AMAT = T_1 + \\text{Miss Rate}_1 \\times (T_2 + \\text{Miss Rate}_2 \\times T_m)$$</p><p data-path-to-node=\"9\"><i>Note: Some interpretations consider $T_m$ as the penalty <i>added</i> to the access time, while others view it as the total time. In this specific problem context (\"miss penalty from L2 to main memory is 18\"), it refers to the cost incurred on an L2 miss.</i></p><p data-path-to-node=\"10\">&nbsp;</p><h3><b>3. Substitute the Values</b></h3><p>&nbsp;</p><p>$$2 = 1 + (2x) \\times [8 + (x \\times 18)]$$</p><p data-path-to-node=\"12\">Now, we solve for $x$:</p><ol start=\"1\" data-path-to-node=\"13\"><li><p>Subtract 1 from both sides:</p><p>&nbsp;</p><p>$$1 = 2x \\times (8 + 18x)$$</p></li><li><p>Expand the equation:</p><p>&nbsp;</p><p>$$1 = 16x + 36x^2$$</p></li><li><p>Rearrange into a quadratic equation ($ax^2 + bx + c = 0$):</p><p>&nbsp;</p><p>$$36x^2 + 16x - 1 = 0$$</p></li></ol><p data-path-to-node=\"14\">&nbsp;</p><h3><b>4. Solve the Quadratic Equation</b></h3><p>&nbsp;</p><p>We use the quadratic formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$</p><p>Where $a = 36$, $b = 16$, $c = -1$.</p><p>$$x = \\frac{-16 \\pm \\sqrt{16^2 - 4(36)(-1)}}{2(36)}$$</p><p>$$x = \\frac{-16 \\pm \\sqrt{256 + 144}}{72}$$</p><p>$$x = \\frac{-16 \\pm \\sqrt{400}}{72}$$</p><p>$$x = \\frac{-16 \\pm 20}{72}$$</p><p>Since a miss rate cannot be negative, we take the positive root:</p><p>&nbsp;</p><p>$$x = \\frac{-16 + 20}{72}$$</p><p>$$x = \\frac{4}{72}$$</p><p>$$x = \\frac{1}{18} \\approx 0.0555...$$</p><p data-path-to-node=\"24\">&nbsp;</p><h3><b>5. Calculate Final Miss Rates</b></h3><p>&nbsp;</p><ul data-path-to-node=\"25\"><li><p data-path-to-node=\"25,0,0\"><b>$L_2$ Miss Rate ($x$):</b> $\\frac{1}{18} \\approx \\mathbf{0.056}$</p></li><li><p data-path-to-node=\"25,1,0\"><b>$L_1$ Miss Rate ($2x$):</b> $2 \\times \\frac{1}{18} = \\frac{1}{9} \\approx \\mathbf{0.111}$</p></li></ul><p data-path-to-node=\"26\">&nbsp;</p><h3><b>Conclusion</b></h3><p>&nbsp;</p><p data-path-to-node=\"27\">The miss rates are $0.111$ for $L_1$ and $0.056$ for $L_2$.</p><p data-path-to-node=\"28\"><b>Correct Option: A</b></p></div></section></div><p><a href=\"https://gateoverflow.in/495518\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a memory system with a cache access time of $10$ ns and a memory access time of $110$ ns &nbsp;assume the memory access time includes the time to check the cache. If the effective access time is $10\\%$ greater than the cache access time, what is the hit ratio H? (fractional answer)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"495517\"></a><div itemprop=\"text\"><p><b>NOTE:</b> The question says “assume the memory access time includes the time to check the cache.”<br><br>$$ \\begin{aligned} \\text{Effective Access Time} &amp;= H \\times T_{\\text{cache}} + (1 - H) \\times T_{\\text{memory}} \\\\ 1.1 \\times T_{\\text{cache}} &amp;= H \\times T_{\\text{cache}} + (1 - H) \\times T_{\\text{memory}} \\\\ 1.1 \\times 10 &amp;= H \\times 10 + (1 - H) \\times 110 \\\\ 11 &amp;= 10H + 110 - 110H \\\\ -99 &amp;= -100H \\\\ H &amp;= \\dfrac{99}{100} \\end{aligned} $$<br><br><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=W442i0Q_pPg&amp;t=5628s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> This formula does <b>not</b> imply so-called “simultaneous access”. Watch the following lectures to learn correct AMAT concepts and clear misconceptions:<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495516\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A file system uses an in-memory cache to cache disk blocks. The miss rate of the cache is shown in the figure. The latency to read a block from the cache is $1$ ms and to read a block from the disk is $10$ ms. Assume that the cost of checking whether a block exists in the cache is negligible. Available cache sizes are in multiples of $10$ MB.</p><p><img alt=\"\" height=\"292\" width=\"298\" src=\"media/41/4184db6a0a89b9ec670b.jpg\"></p><p>The smallest cache size required to ensure an average read latency of less than $6$ ms is _________ MB.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"495515\"></a><div itemprop=\"text\"><p><b>NOTE:</b> The question says, “Assume that the cost of checking whether a block exists in the cache is negligible.”<br><br><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=W442i0Q_pPg&amp;t=5932s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> The formula applied in this question does <b>not</b> imply so-called “simultaneous access”. Watch the following AMAT lectures to learn correct concepts and clear misconceptions:<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495514\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<div style=\"text-align: justify;\">Consider a system with a $2$ level cache. Access times of Level $1$ cache, Level $2$ cache and main memory are $1$ $ns$, $10$ $ns$, and $500$ $ns$, respectively. The hit rates of Level $1$ and Level $2$ caches are $0.8$ and $0.9$, respectively. What is the average access time of the system, ignoring the search time within the cache?</div><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$13.0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$12.8$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$12.6$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$12.4$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"495513\"></a><div itemprop=\"text\"><p><b>NOTE:</b> The question says “ignoring the search time within the cache”.<br><br><b>Detailed Video Explanation with Correct Concepts:</b><br><br><a target=\"_blank\" style=\"background-color:#ff4b4b;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=W442i0Q_pPg&amp;t=6629s\">🎥 Watch Solution </a><br><br><b>NOTE:</b> The formula applied in this question does <b>not</b> imply so-called “simultaneous access”. Watch the following AMAT lectures to learn correct concepts and clear misconceptions:<br><br><a target=\"_blank\" style=\"background-color:#0073e6;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/v49Qv5CrgdY?si=Rk4t4hnDRpZocBe3\">📘 AMAT Part 1 </a> &nbsp;&nbsp; <a target=\"_blank\" style=\"background-color:#28a745;color:white;padding:6px 10px;text-decoration:none;border-radius:5px;\" rel=\"nofollow\" href=\"https://youtu.be/W442i0Q_pPg?si=Ye0k3HCJgLiQegCS\"> 📗 AMAT Part 2 </a></p></div></section></div><p><a href=\"https://gateoverflow.in/495512\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 30.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 0,
+  "types": {
+   "MCQ": 4,
+   "NAT": 11
+  },
+  "withoutKey": 15
+ }
+}

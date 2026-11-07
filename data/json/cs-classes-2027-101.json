@@ -1,0 +1,595 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-101",
+ "title": "DVRUO Classes CS/DA Test Series | Probability and Statistics | Bayes Theorem, Conditional Probability",
+ "sourceTitle": "DVRUO Classes CS/DA Test Series | Probability and Statistics | Bayes Theorem, Conditional Probability",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 101,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Probability and Statistics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/098_exam_1334_GO Classes CS-DA Test Series Probability and Statistics Bayes Theorem, Conditional Probability.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A gambler has in his pocket a fair coin and a two-headed coin. He selects one of the coins at random and flips it. If the coin comes up heads, what is the probability that it is the fair coin?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{1}{2}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{1}{3}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{2}{3}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{3}{4}$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/427902\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "In a probabilistic model, it is given that $\\mathrm{P}[A]=\\mathrm{a}, \\mathrm{P}[B]=\\mathrm{b}$, and $\\mathrm{P}\\left[\\left(B^{c} \\mid A^{c}\\right)\\right]=\\mathrm{e}$. Determine $\\mathrm{P}[B \\mid A]$ in terms of $\\mathrm{a}, \\mathrm{b}$, and $\\mathrm{e}$.<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\mathrm{P}[B \\mid A]=\\frac{\\mathrm{b}-(1-\\mathrm{e})(1-\\mathrm{a})}{\\mathrm{a}}$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\mathrm{P}[B \\mid A]=\\frac{\\mathrm{b}+(1-\\mathrm{e})(1-\\mathrm{a})}{\\mathrm{a}}$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\mathrm{P}[B \\mid A]=\\frac{\\mathrm{b}+(1-\\mathrm{e})(1+\\mathrm{a})}{\\mathrm{a}}$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\mathrm{P}[B \\mid A]=\\frac{\\mathrm{b}-(1+\\mathrm{e})(1-\\mathrm{a})}{\\mathrm{a}}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/427896\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Mark all expressions which indicate that $\\mathrm{X}$ is independent of $\\mathrm{Y}$ given $\\mathrm{Z}$.<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$P(X, Y \\mid Z)=P(X \\mid Z) P(Y \\mid Z) $</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$P(X, Y, Z)=P(X, Z) P(Y)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P(X \\mid Y, Z)=P(X \\mid Z)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/427894\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Select all expressions that are equivalent to \\( P(A, B \\mid C) \\),<br>given that \\( A \\perp B \\mid C \\),<br>where \\( \\perp \\) denotes conditional independence — that is,<br><em>A is independent of B when C is known.</em></p><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{P(A \\mid C) P(C \\mid B) P(B)}{P(B, C)}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{P(A \\mid C) P(B, C)}{P(C)}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P(A \\mid B, C) P(B \\mid C)$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{P(C \\mid A, B) P(B \\mid A) P(A)}{P(B \\mid C) P(C)}$<br></p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C</p><p><a href=\"https://gateoverflow.in/427889\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Select all expressions that are equivalent to $\\mathbf{P}(\\mathbf{A} \\mid \\mathbf{B}, \\mathbf{C})$, given that A $\\perp$ B | C</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{P(C \\mid A) P(A \\mid B) P(B)}{P(C)}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{P(B, C \\mid A) P(A)}{P(B, C)}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{P(A \\mid C) P(C \\mid B) P(B)}{P(B, C)}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{P(C \\mid A, B) P(B \\mid A) P(A)}{P(B \\mid C) P(C)}$</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><p><a href=\"https://gateoverflow.in/427888\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Suppose that the probability of making a mistake on your homework depends on how much sleep you got the previous night. The probabilities are as follows:</p><ul><li>If you got at least $8$ hours of sleep, there is a $10 \\%$ chance of making a mistake.</li><li>If you got between $6$ and $8$ hours of sleep, there is a $40 \\%$ chance of making a mistake.</li><li>If you got less than $6$ hours of sleep, there is a $75 \\%$ chance of making a mistake.</li></ul><p>Additionally, the probabilities for the amount of sleep are:</p><ul><li>There is a $20 \\%$ chance that you got at least $8$ hours of sleep.</li><li>There is a $50 \\%$ chance that you got between $6$ and $8$ hours of sleep.</li></ul><p>What is the overall probability that you make a mistake on your homework?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0.265$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0.365$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0.445$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0.545$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/427906\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A gambler has in his pocket a fair coin and a two-headed coin. He selects one of the coins at random, and then he flips it. What is the probability that the flip results in heads?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0.5$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0.75$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$0.25$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1.0$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/427904\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a game where the probability of winning on a single toss of a dice is $p$, Player $A$ starts and if he fails, he passes the dice to Player $B$. They continue tossing the dice alternately until one of them wins. What is the probability that Player $A$ wins?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{1}{p}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{1}{1-(1-p)^{2}}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{1}{2-p}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{p}{2}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/427900\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following statements, where $P(\\cdot)$ denotes probability and assuming all conditional probabilities involved are non-zero:<br>$\\mathrm{S1}$: If $P(a \\mid b, c)=P(b \\mid a, c)$, then $P(a \\mid c)=P(b \\mid c)$.<br>$\\mathrm{S2}$: If $P(a \\mid b)=P(a)$, then $P(b \\mid c)=P(b)$.<br>Choose the correct option that correctly interprets the implications of these statements:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Statement $\\mathrm{S} 1$ is true, and statement $\\mathrm{S} 2$ is false.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Statement $\\mathrm{S} 1$ is false, and statement $\\mathrm{S} 2$ is true.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Both statement $\\mathrm{S1}$ and statement $\\mathrm{S2}$ are true.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Both statement $\\mathrm{S1}$ and statement $\\mathrm{S2}$ are false.</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/427898\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is/are TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>For any three events $A, B$, and $C$ where $A$ and $B$ are disjoint and $0&lt;P(C)&lt;1$, $P(A \\cup B \\mid C)=P(A \\mid C)+P(B \\mid C)$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&nbsp;For any two events $A$ and $B$ where $0&lt;P(B)&lt;1$, $P(A \\mid B)=1-P\\left(A \\mid B^{c}\\right)$&lt;p&gt; &lt;/p&gt;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>For any three events $A, B$, and $C$, $P(A \\cap B \\cap C)=P(A) P(B) P(C)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>For any two events $A$ and $B$, $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/427895\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Given events $A_{1}, A_{2}, A_{3}$ in a sample space $S$ with probabilities $P\\left(A_{1}\\right)=0.4, P\\left(A_{2}\\right)=0.2$, $P\\left(A_{3}\\right)=0.4$, and assuming $A_{i} \\cap A_{j}=\\emptyset$ for $i \\neq j$, and another event $B$ with conditional probabilities $P\\left(B \\mid A_{1}\\right)=0.1, P\\left(B \\mid A_{2}\\right)=0.2, P\\left(B \\mid A_{3}\\right)=0.05$, what is the probability that either $A_{1}$ or $A_{2}$ occurs given that $B$ has occurred?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$P\\left(A_{1} \\cup A_{2} \\mid B\\right)=0.2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$P\\left(A_{1} \\cup A_{2} \\mid B\\right)=0.5$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P\\left(A_{1} \\cup A_{2} \\mid B\\right)=0.8$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$P\\left(A_{1} \\cup A_{2} \\mid B\\right)=0.9$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/427892\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a scenario where a ball is randomly placed in one of $n$ boxes, each with probability $P_{i}$ for box $i$. If the ball is in box $i$, a search of that box will uncover it with probability $\\alpha_{i}$. The conditional probability that the ball is in box $j$, given that a search of box $i$ did not uncover it, is:</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$P($ ball in box $j \\mid$ not found in box $i)=\\frac{P_{j}}{1-\\alpha_{i} P_{i}}$, if $j \\neq i$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$P($ ball in box $j \\mid$ not found in box $i)=\\frac{\\left(1-\\alpha_{i}\\right) P_{i}}{1-\\alpha_{i} P_{i}}$, if $j \\neq i$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$P($ ball in box $j \\mid$ not found in box $i)=\\frac{1-\\alpha_{i} P_{i}}{P_{j}}$, if $j \\neq i$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$P($ ball in box $j \\mid$ not found in box $i)=\\frac{P_{i}}{1-\\alpha_{i}}$, if $j \\neq i$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/427890\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>You have three coins in your pocket: two fair ones and one biased with probability $p$ for heads and $1-p$ for tails.<br>Let $F, U$, and $H$ denote the events that:</p><ul><li>$F$ : The selected coin is fair.<br> </li><li>$U$ : The selected coin is unfair.<br> </li><li>$H$ : The coin lands heads up.</li></ul><p>What is the probability that the selected coin is one of the fair coins, given that it lands heads up? (i.e., $P(F \\mid H)$ )</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{1}{1+p}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{p}{1+p}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{1}{2}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{2}{3}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/427886\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p></p><p></p><p>Is it possible to have events $A, B, C$ such that:</p><p>$$<br>P(A \\mid C)&lt;P(B \\mid C) \\text { and } P\\left(A \\mid C^{c}\\right)&lt;P\\left(B \\mid C^{c}\\right) \\text {, yet } P(A)&gt;P(B) \\text { ? }<br>$$</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Yes, it is possible, but only if $P(C)=P\\left(C^{c}\\right)$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Yes, it is always possible, irrespective of $P(C)$ being equal to $P\\left(C^{c}\\right)$.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, it is not possible; such a scenario contradicts probability rules.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The answer cannot be determined from the information given.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/427884\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given probabilities:<br>$$<br>\\mathbb{P}(A)=\\frac{1}{5}, \\quad \\mathbb{P}(B)=\\frac{3}{10}, \\quad \\mathbb{P}(A \\cup B)=\\frac{11}{25}<br>$$<br>and assuming events $A$ and $B$ are independent, what is $\\mathbb{P}(A \\cap B \\mid A \\cup B)$ ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{3}{22}$<br></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{11}{25}$<br></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{1}{5}$<br></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{2}{5}$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><p><a href=\"https://gateoverflow.in/427882\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 11,
+   "MSQ": 4
+  },
+  "withoutKey": 0
+ }
+}

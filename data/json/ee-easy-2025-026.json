@@ -1,0 +1,496 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-026",
+ "title": "Topicwise Test-2 Part Syllabus GATE 2025 EE Electric Circuits-2",
+ "sourceTitle": "Topicwise Test-2 Part Syllabus GATE 2025 EE Electric Circuits-2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 26,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/073_Topicwise Test-2 Part Syllabus GATE 2025 EE Electric Circuits-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown below:</p>\n\n<p><img alt=\"\" src=\"media/2f/2f75610eedb19f152e2b.png\" /></p>\n\n<p>the switch is moved to position 2 at t = 0, the current <img align=\"absmiddle\" alt=\"\" src=\"media/0c/0c2afa49b6302445785e.png\" /> msec is _______ A.</p>\n\n<p> </p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.48,
+    0.52
+   ],
+   "answerText": "0.50",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.50 (0.48 - 0.52)</p>\n\n<p><img alt=\"\" src=\"media/c1/c19d91af678f8a141bec.png\" /></p>"
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown,</p>\n\n<p><img alt=\"\" src=\"media/c9/c9ec8f9b010105c64030.png\" /></p>\n\n<p>If the power dissipated in the load resistance is 100 W and the network <em>N</em> is represented in terms of h-parameters as <em>h</em><sub>11</sub> = <em>h</em><sub>22</sub> = 1 and <em>h</em><sub>12</sub> = 2, <em>h</em><sub>21</sub> = –2 then the value of source voltage <em>V<sub>s</sub></em> is _____ V.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    50,
+    50
+   ],
+   "answerText": "50",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>50</p>\n\n<p><img alt=\"\" src=\"media/7f/7f40f10e67aad91b0466.png\" /></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the following circuit:</p>\n\n<p><img alt=\"\" src=\"media/93/9327000a37df098a639a.png\" /></p>\n\n<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img align=\"absmiddle\" alt=\"\" src=\"media/b1/b1213b26a93860b18ae7.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img align=\"absmiddle\" alt=\"\" src=\"media/c7/c762cd7b65b38851c55a.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "The network is symmetrical"
+    },
+    {
+     "key": "D",
+     "html": "The network is reciprocal"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)</p>\n\n<p><img alt=\"\" src=\"media/84/847268982d514150fb8e.png\" /></p>\n\n<p><img alt=\"\" src=\"media/69/69bad66079885ed99d20.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>A series RLC circuit is excited by a variable frequency sinusoidal voltage source having an rms value of 2 V. The maximum rms current in the circuit is found to be 10 mA at a frequency of 10 kHz. At frequencies between 9.6 kHz and 10.4 kHz, the magnitude of the current is to be at least 7.07 mA. The value of L (inductor) is ______ mH. (upto nearest integer).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    38,
+    42
+   ],
+   "answerText": "40",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>40 (38 - 42)</p>\n\n<p><img alt=\"\" src=\"media/a4/a42516710957c190b88d.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<p><img alt=\"\" src=\"media/bc/bccd75384c3782cb2f2b.png\" /></p>\n\n<p>If the switch is closed at <em>t</em> = 0 sec and all components are ideal and capacitors are initially uncharged, the energy (in Joules) transferred from dc source until steady state condition is reached will be _______ J.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    799,
+    801
+   ],
+   "answerText": "800",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>800 (799 - 801)</p>\n\n<p><img alt=\"\" src=\"media/2d/2d8b70286da255f147b5.png\" /></p>\n\n<p><img alt=\"\" src=\"media/f7/f7b2ee0276b033942381.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>Consider the circuit shown below. The resonant frequency of the circuit will be equal to _____ rad/sec. (Answer upto two decimal places)</p>\n\n<p><img alt=\"\" src=\"media/21/215e1f7abaec73230caa.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.54,
+    0.58
+   ],
+   "answerText": "0.559",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>0.559 (0.540 - 0.580)</p>\n\n<p><img alt=\"\" src=\"media/34/345a7906a5f4bb88076a.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>Consider the circuit shown below:</p>\n\n<p><img alt=\"\" src=\"media/4d/4d0ed2cded8e4c5dd249.png\" /></p>\n\n<p>Which of the following statements about the circuit is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><em>V</em><sub>0</sub> = 4 V, if terminal ‘<em>ab</em>’ is open circuited.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Thevenin’s voltage across ab is <em>V</em><sub>Th</sub> = 28 V.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Thevenin’s equivalent resistance across <em>ab</em> is <em>R</em><sub>Th</sub> = 11 Ω.</p>"
+    },
+    {
+     "key": "D",
+     "html": "Power dissipated in the 2 Ω load resistor is 9.3 W."
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, c)</p>\n\n<p><img alt=\"\" src=\"media/83/834cd85cfe1eaa6f1c5b.png\" /></p>\n\n<p><img alt=\"\" src=\"media/23/23057e8054962995f4d5.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>In an AC circuit, the following quantities are known to us:</p>\n\n<p><img alt=\"\" src=\"media/d9/d9f96f44aef9aed53be4.png\" /></p>\n\n<p>The total impedance of the circuit will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "64 – <em>j</em>48 Ω"
+    },
+    {
+     "key": "B",
+     "html": "51.20 – <em>j</em>38.39 Ω"
+    },
+    {
+     "key": "C",
+     "html": "51.20 + <em>j</em>38.39 Ω"
+    },
+    {
+     "key": "D",
+     "html": "64 + <em>j</em>48 Ω"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/47/47d8ce7492cd68e344cc.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>A 0.2 H inductor carries an AC current of magnitude 0.5 A at 60 Hz. A capacitor is to be connected in parallel with the inductor such that it reduces the magnitude of the current in the inductor to 0.3 A. Assuming that the total current supplied to the network does not change after adding the capacitor, the value of capacitance required will be _______ μF.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    93.5,
+    94.5
+   ],
+   "answerText": "93.9",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>93.9 (93.5 - 94.5)</p>\n\n<p><img alt=\"\" src=\"media/77/773934b4a0f43b0f8624.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>For the circuit showing the figure below, the T-parameter matrix is given by <img align=\"absmiddle\" alt=\"\" src=\"media/54/547c6ca62d9f7069ae3a.png\" /></p>\n\n<p><img alt=\"\" src=\"media/6e/6e895c260143837ac249.png\" /></p>\n\n<p>If the 2 Ω resistor is replaced by 10 Ω resistor, then the new <em>T</em>-parameter matrix [<em>T<sub>B</sub></em>] is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img alt=\"\" src=\"media/4f/4f24d95302540fc1db90.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img alt=\"\" src=\"media/a3/a3792525e8bec5f96046.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img alt=\"\" src=\"media/f2/f204093adcd30a753548.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img alt=\"\" src=\"media/b2/b232d73bc9bc08fdd746.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/19/196d4eb7424aa307502f.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>For the circuit shown below :</p>\n\n<p><img alt=\"\" src=\"media/49/493ff69bf826a5f48b64.png\" /></p>\n\n<p>voltage <em>V</em><sub>2</sub> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "35.09 V"
+    },
+    {
+     "key": "B",
+     "html": "15.09 V"
+    },
+    {
+     "key": "C",
+     "html": "25.09 V"
+    },
+    {
+     "key": "D",
+     "html": "45.09 V"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/de/de3af9fd762cfb68cbb5.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>In the circuit shown below switch S is closed at (<em>t</em> = 0) the current <img align=\"absmiddle\" alt=\"\" src=\"media/17/1717efa49d182ea66b51.png\" /> through the capacitor at <em>t</em> = 0<sup>+</sup> is</p>\n\n<p><img alt=\"\" src=\"media/a1/a1a6464de36a1d2aa098.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "4 A"
+    },
+    {
+     "key": "B",
+     "html": "5 A"
+    },
+    {
+     "key": "C",
+     "html": "6 A"
+    },
+    {
+     "key": "D",
+     "html": "8 A"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<p><img alt=\"\" src=\"media/f1/f136d8f3886c71eea8ab.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>The circuit shown in the given figure is in steady state with switch ‘<em>S</em>’ open,</p>\n\n<p><img alt=\"\" src=\"media/95/95904ab525e83429d0d1.png\" /></p>\n\n<p>If switch ‘<em>S</em>’ is closed at <em>t</em> = 0, then current <img align=\"absmiddle\" alt=\"\" src=\"media/75/75393a3288d7dd08a4d0.png\" /> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a decreasing exponential"
+    },
+    {
+     "key": "B",
+     "html": "an increasing exponential"
+    },
+    {
+     "key": "C",
+     "html": "oscillatory"
+    },
+    {
+     "key": "D",
+     "html": "constant"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<p><img alt=\"\" src=\"media/e2/e2c38b861bb59851b304.png\" /></p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>Consider a DC current source connected to a parallel R-L circuit. When the steady state reaches, the ratio of energy stored in the inductor to the energy supplied by the current source is equal to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.367"
+    },
+    {
+     "key": "B",
+     "html": "0.5"
+    },
+    {
+     "key": "C",
+     "html": "0.632"
+    },
+    {
+     "key": "D",
+     "html": "1"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<p><img alt=\"\" src=\"media/ef/ef49a0fa98bb7000723e.png\" /></p>\n\n<p><img alt=\"\" src=\"media/2c/2c9bcabc751c67d4f27f.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>For the circuit shown below,</p>\n\n<p><img alt=\"\" src=\"media/33/33c6e91fa85c55928ef8.png\" /></p>\n\n<p>If <img align=\"absmiddle\" alt=\"\" src=\"media/31/3189422f560cf8a7c3da.png\" /> then the minimum value of the stored energy is _______ J.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    53,
+    55
+   ],
+   "answerText": "54",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>54 (53 - 55)</p>\n\n<p><img alt=\"\" src=\"media/cd/cdc3a402dcc646821098.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>For the circuit shown below:</p>\n\n<p><img alt=\"\" src=\"media/8f/8fd6cd920ab1939242e2.png\" /></p>\n\n<p>the Y-parameter <em>y</em><sub>22</sub> is ________ S.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.5,
+    0.5
+   ],
+   "answerText": "0.50",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>0.50</p>\n\n<p><img alt=\"\" src=\"media/87/87a61b3b21c26e268d71.png\" /></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>In the circuit shown below, <em>S</em><sub>1</sub> was closed and <em>S</em><sub>2</sub> was open for a very long time. At t = 0, <em>S</em><sub>1</sub> is opened and <em>S</em><sub>2</sub> is closed. The voltage across the capacitor, in volts at <em>t</em> = 5 μs is ________ . (Answer upto two decimal places)</p>\n\n<p><img alt=\"\" src=\"media/5a/5acdb571e91b0c079b41.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.5,
+    1.54
+   ],
+   "answerText": "1.52",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>1.52 (1.50 - 1.54)</p>\n\n<p><img alt=\"\" src=\"media/20/20e5c18e1dec6c275307.png\" /></p>\n\n<p><img alt=\"\" src=\"media/e8/e88383f7378fb09b2585.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "NAT": 9,
+   "MSQ": 2,
+   "MCQ": 6
+  },
+  "withoutKey": 0
+ }
+}

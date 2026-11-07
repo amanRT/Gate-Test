@@ -1,0 +1,1049 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-033",
+ "title": "DVRUO Classes CS Test Series | Computer Networks | Subject Wise Test 1",
+ "sourceTitle": "DVRUO Classes CS Test Series | Computer Networks | Subject Wise Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 33,
+ "category": "subjectwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 5400,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Computer Networks"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/001_exam_2488_GO Classes CS Test Series Computer Networks Subject Wise Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "A TCP connection is sending a file of 1500 bytes. The first byte of the file is numbered 5000 . If all the data is sent in a single segment, what will be the sequence number of the segment?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>4999</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>5000</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>6500</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>6501</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/434316\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "One way of detecting errors is to transmit data as a block of $n$ rows of $k$ bits per row and adding parity bits to each row and each column. The lower-right corner is a parity bit that checks its row and its column.<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The scheme can&#x27;t detect even single bit errors.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It can detect single bit errors but not double bit errors.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It can detect double bit errors but not triple bit errors.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It can detect triple bit errors.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/434314\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a nonpersistent connection, if a file initially contains $2^{*} \\mathrm{~N}$ different images that are located on the same server, how many TCP connections will be needed to load the file and all the images ?</p><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>2N - 1</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>2N + 1</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>1</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>2</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/434312\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Assuming a Classless address space, the CIDR aggregation on the 128.56.24.0/24;<br />128.56.25.0/24; 128.56.26.0/24; 128.56.27.0/24 IP addresses is<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$128.56 .24 .0 / 21$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$128.56 .16 .0 / 22$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$128.56 .23 .0 / 21$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/434310\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A host is attempting to send data to another host located on a different network. What is the first action the sending host will take?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Drop the data.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Create an ARP request to get a MAC address for the default gateway.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Create an ARP request to get a MAC address for the receiving host.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Send a TCP SYN and wait for the SYN ACK with the IP address of the receiving host</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/434309\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A TCP/IP Transfer is diagrammed in the exhibit. A window size of three has been negotiated for this transfer. Which message will be returned from the receiver to the sender as part of this TCP/IP transfer?<br><img alt=\"\" src=\"media/2a/2a8a1c82681a4e179756.png\"><br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Send ACK 1-3</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Send ACK</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Send ACK 4</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Send ACK 4-6</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/434307\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "How does a DHCP server dynamically assign IP address to host?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Addresses are allocated after a negotiation between the server and the host to determine the length of the agreement.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Addresses are assigned for a fixed period of time. At the end of period, a new quest for an address must be made, and another address is then assigned.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Addresses are leased to host. A host will usually keep the same address by periodically contacting the DHCP sever to renew the lease.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Addresses are permanently assigned so that the host uses the same address at all times.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/434305\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which protocol automates all of the following functions for hosts on a network: IP configuration, IP addresses, subnet masks, default gateways, and DNS server information?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>UDP</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>HTTP</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>DHCP</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>ARP</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/434303\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "A person executes the command ping 192.168.2.5 and successfully verifies the connectivity to a newly added host on the network. Which protocols are involved in this process?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>ARP</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>DNS</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>DHCP</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>ICMP</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/434301\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Stop-And-Wait protocol is highly inefficient when:<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>There is a short distance between source and destination and the transmission rate is high.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There is a large distance between source and destination and the transmission rate is high.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>There is a short distance between source and destination and the transmission rate is low.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>There is a large distance between source and destination and the transmission rate is low</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/434300\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following statements is correct based on the forwarding table for an IP router (for simplicity, we are using 8-bit addresses)?</p><p> </p><div><table style=\"border-collapse: collapse; width: 100%;\"><thead><tr><th style=\"border: 1px solid black; padding: 5px;\">Prefix</th><th style=\"border: 1px solid black; padding: 5px;\">Output</th></tr></thead><tbody><tr><td style=\"border: 1px solid black; padding: 5px;\">$101^*$</td><td style=\"border: 1px solid black; padding: 5px;\">2</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">$0100^*$</td><td style=\"border: 1px solid black; padding: 5px;\">4</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">$00100^*$</td><td style=\"border: 1px solid black; padding: 5px;\">6</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">$10101^*$</td><td style=\"border: 1px solid black; padding: 5px;\">7</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">$01010^*$</td><td style=\"border: 1px solid black; padding: 5px;\">5</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">$101100^*$</td><td style=\"border: 1px solid black; padding: 5px;\">3</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">$010111^*$</td><td style=\"border: 1px solid black; padding: 5px;\">1</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">$0010 01^*$</td><td style=\"border: 1px solid black; padding: 5px;\">9</td></tr></tbody></table></div><p> </p><p>If a packet arrives with destination address 01010011, it is sent to output 5.<br>B) If a packet arrives with destination address 10101110, it is sent to output 7.<br>C) If a packet arrives with destination address 01010011 , it is sent to output 4.<br>D) If a packet arrives with destination address 10101110, it is sent to output 2.</p><p> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Option A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Option B</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Option C</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Option D</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><p><a href=\"https://gateoverflow.in/434298\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose we want to send data reliably from Los Angeles to New York at $1 \\mathrm{~Gb} / \\mathrm{s}$, using a pipelined protocol. Assume that the maximum packet length is 10,000 bits and that the one way delay is 50 ms . How many distinct sequence numbers must the protocol support? You may assume that packets may be lost, but are never delivered out-of-order.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10000,
+    10000
+   ],
+   "answerText": "10000",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/434296\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider a TCP session from a client $A$ to a server $B$. Suppose that the first packet from $A$, following the \"SYN packet\" has a sequence number of 200. Suppose that some later packet from A has a sequence number of 700 , a total IP packet length of 500 bytes and no IP or TCP options. Assume that no packets are lost.<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>960 bytes have been sent from A so far (including the &quot;current packet&quot;).</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The sequence number would you expect in the next packet from $A$ is 1200.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The acknowledgment number field in the next packet from B to A should be 1160.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The length of the data (payload) in the packet with sequence number 700 is 460 B .</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C, D</p><p><a href=\"https://gateoverflow.in/434294\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "An application needs to send 100KB of data using a stop-and-wait reliable protocol. The protocol splits the data into segments that have a 1 KB application data payload. Each segment fits in a single IP packet. The RTT is 50 ms , there is no packetization delay, and no queueing delay. The protocol uses a fixed retransmission timeout of 200 ms and has no retransmission limit.<br />How long will the transmission take, in seconds, if the network does not drop, duplicate or corrupt any packets? You may assume the connection is established when you start your measurement, so there is no additional latency from connection setup and consists only of data transmissions. Your answer must be accurate to two decimal points.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5,
+    5
+   ],
+   "answerText": "5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 5</p><p><a href=\"https://gateoverflow.in/434292\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A data link uses the Go-Back-N flow control algorithm. A data stream consisting of 1000 packets is transmitted. 100 of the packets arrive in error. Assuming that all re-transmissions arrive without error, what is the total number of packets transmitted, including both the original transmissions and re-transmissions. Assume N=20.\nNote that we say the ith packet is retransmitted when the receiver discards it due to an error, and the sender sends it again.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3000,
+    3000
+   ],
+   "answerText": "3000",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/434290\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following statement(s) is/are TRUE?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Host $A$ is sending a large file to host $B$ over a TCP connection. Assume host $B$ has no data to send to host $A$. Host $B$ will not send acknowledgments to host $A$ because host $B$ cannot piggyback the acknowledgments on data.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The size of the TCP RcvWindow never changes throughout the duration of the connection.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Suppose host $A$ is sending a large file to host $B$ over a TCP connection. The number of unacknowledged bytes that $A$ sends cannot exceed the size of the advertised receiver buffer.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Suppose that the last SampleRTT in a TCP connection is equal to 1 sec . Then the current value of Timeoutinterval for the connection will necessarily be $&gt;=1 \\mathrm{sec}$.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><p><a href=\"https://gateoverflow.in/434289\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A sender $S$ and receiver $R$ are connected over a network that has $k$ links that can each lose packets. Link $i$ has a packet loss rate of $p _i$ in one direction (on the path from $S$ to $R$ ) and $q_i$ in the other (on the path from $R$ to $S$ ). Assume that each packet on a link is received or lost independent of other packets, and that each packet's loss probability is the same as any other's (i.e., the random process causing packet losses is independent and identically distributed).</p><p>Suppose S and R use a stop-and-wait protocol to communicate. What is the expected number of transmissions of a packet before S can send the next packet in sequence?&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1 / p q$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$1 /(1-p)(1-q)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$p q /(p+q)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>None of the above</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/434287\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose Host A wants to send a large file to Host B. The path from Host A to Host B has three links, of rate \\(R_1 = 500 \\, \\text{Kbps}\\), \\(R_2 = 2 \\, \\text{Mbps}\\), and \\(R_3 = 1 \\, \\text{Mbps}\\). Suppose the file is 4 million bytes \\((4 \\times 10^6 \\, \\text{bytes})\\).\n\nHow long will it take to transfer the file to Host B? (Round off to two decimal places.) \n\n(Note: Use the conversion \\(1 \\, \\text{Kbps} = 10^3 \\, \\text{bps}\\).)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    64,
+    64
+   ],
+   "answerText": "64",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/434285\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "The end-to-end delay of sending a packet consisting of $L$ bits from source to destination over a path consisting of $N$ links, each with rate $R$, is $N \\cdot(L / R)$. What is the total end-to-end delay for sending $P$ packets back-to-back over the $N$ links?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$(\\mathrm{N}+\\mathrm{P})^{*}(\\mathrm{~L} / \\mathrm{R})$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$(P-N+1)^{*}(L / R)$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\left(N^{*} P\\right)^{*}(L / R)$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$(N+P-1)^{*}(L / R)$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/434283\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Alyssa P. Hacker has set up eight-node shared medium network running the Carrier Sense Multiple Access (CSMA) MAC protocol. The maximum data rate of the network is 10 Megabits/s. Including retries, each node sends traffic according to some unknown random process at an average rate of 1 Megabit/s per node. Alyssa measures the network's utilization and finds that it is 0.75 . No packets get dropped in the network except due to collisions, and each node's average queue size is 5 packets. Each packet is 10000 bits long. What fraction of packets sent by the nodes (including retries) experience a collision? (Round off to four decimal places)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.0625,
+    0.0625
+   ],
+   "answerText": "0.0625",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><a href=\"https://gateoverflow.in/434281\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a sliding window protocol where the receiver sends \"ACK k\" upon receiving a packet with sequence number k. Let W denote the window size, and assume the sender's packets start with sequence number 1. Which of the following is <strong>false</strong> in a correct implementation of this protocol over an unreliable network?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Any new (i.e., previously unsent) packet with sequence number greater than W is sent by the sender if, and only if, a new (i.e., previously unseen) ACK arrives.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The sender will never send more than one packet between the receipt of one ACK and the next.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The receiver can discard any new, out-of-order packet it receives after sending an ACK for it.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Suppose that no packets or ACKs are lost and no packets are ever retransmitted. Then ACKs will arrive at the sender in non-decreasing order.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><p><a href=\"https://gateoverflow.in/434279\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 22,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<div style=\"max-width:900px; line-height:1.7; font-size:16px;\"><p>Consider the network shown in the figure below. Each node in the network implements Dijkstra’s shortest path algorithm using the link costs shown in the figure.</p><div style=\"text-align:center;        margin:18px 0;       overflow:hidden;       height:200px;\"><img alt=\"Network topology with link costs\" width=\"246\" height=\"213\" style=\"margin-top:-10px;\" src=\"media/91/91df3c6182026d9c47ea.png\"></div><p>Now suppose that the cost of exactly one link changes, while all link costs remain non-negative.</p><p>For which of the following changes in link cost is it possible for the route chosen at node $B$ (that is, the outgoing link used by $B$) for any destination to change?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The cost of link $(A, C)$ increases.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The cost of link $(A, C)$ decreases.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The cost of link $(B, C)$ increases.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The cost of link $(B, C)$ decreases.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> B, C, D</p><p><a href=\"https://gateoverflow.in/434277\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following network configuration:<br><img alt=\"\" src=\"media/bc/bcbc3b97fcda730f4d98.png\"><br>In order to begincommunication with the server, Host $G$ sends out an ARP request. How will the devices exhibited in the topology respond to this request?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Router R2 will forward the ARP request to the R1 router3.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The request is dropped, because the server is not on the LAN4.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The R1 router will respond with the IP address of the WWW server5.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Router R2 will response with the MAC address of its interface to LAN</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><p><a href=\"https://gateoverflow.in/434276\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 24,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the follow statements about TCP is/are FALSE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>TCP&#x27;s sending window controls the number of bytes that it may send back-to-back.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The TCP three-way handshake allows sender and receiver to know the other&#x27;s initial sequence number.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The window field in a TCP header tells a receiver how much space there is in the sender&#x27;s receive buffer.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>A TCP sender can overflow the receiver’s buffer.</p>"
+    }
+   ],
+   "answer": [
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C, D</p><p><a href=\"https://gateoverflow.in/434275\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "Which of the following correctly describe steps in the OSI data encapsulation process?<br />",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The transport layer divides a data stream into segments and may add reliability and flow control information.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The data link layer adds physical source and destination addresses and an FCS to the segment.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Packets are created when the network layer encapsulates a frame with source and destination host addresses and protocol-related control information.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Packets are created when the network layer adds Layer 3 addresses and control information to a segment.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, D</p><p><a href=\"https://gateoverflow.in/434273\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 26,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Host 1 is trying to communicate with Host 2. The e0 interface on Router C is down.<br>Which of the following are true?&nbsp;</p><p><img alt=\"\" src=\"media/00/008f27ba24caea094fac.png\"></p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Router $C$ will send ICMP packet with destination address as&nbsp;Host 1.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Router $C$ will send ICMP packet with destination address as&nbsp;Router B.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Router C will generate&nbsp;an ICMP Host Unreachable type message.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Router C will generate&nbsp;an ICMP Source Quench&nbsp;type message.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, C</p><p><a href=\"https://gateoverflow.in/434271\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Refer to the exhibit:<br><img alt=\"\" src=\"media/bb/bb19ec233411421c88df.png\"><br>In the network diagram, <strong>SW1</strong> and <strong>SW2</strong> represent switches, and <strong>R1</strong> is a router with interfaces <strong>Fa0/0</strong> and <strong>Fa0/1</strong>. Four hosts, labeled <strong>Host 1, Host 2, Host 3,</strong> and <strong>Host 4</strong> are connected to these switches. <strong>Host 1</strong> and <strong>Host 2</strong> are connected to <strong>SW1</strong>, while <strong>Host 3</strong> and <strong>Host 4</strong> are connected to <strong>SW2</strong>. If <strong>Host 1</strong> sends a broadcast message, and both switches are using their default configurations, what will happen?<br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Hosts 2, 3, and 4 will receive the broadcast.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Host 2 and the Fa0/0 interface of R1 will receive the broadcast.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Fa0/0 interface of R1 will receive the broadcast.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Hosts 1, 2 and the Fa0/0 interface of R1 will receive the broadcast</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/434269\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 28,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider sending a large file from one host to another over a TCP connection that experiences no loss.\n\nAssume that TCP uses Additive Increase Multiplicative Decrease (AIMD) for its congestion control, without the slow start phase.\nFor this question, let’s assume that the congestion window (cwnd) starts at \\(5 \\, \\text{MSS}\\) and increases by \\(1 \\, \\text{MSS}\\) for each RTT.\n\nWhat is the average throughput (in terms of MSS per RTT) for this connection up to time \\(t = 6 \\, \\text{RTTs}\\)?  \n\nIn the first RTT, \\(5 \\, \\text{MSS}\\) is sent and acknowledged.",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7.5,
+    7.5
+   ],
+   "answerText": "7.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 7, 5</p><p><a href=\"https://gateoverflow.in/434267\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The mapping between messages a1 a2 a3 a4 and respective codewords a1 a2 a3 r3 a4 r2 r1 of a $(7,4)$ block code is obtained by adding even-parity-check bits $r 1, r 2$ and $r 3$ at the 7 th, 6th and 4th bit-location of the resultant codeword. The parity-check bits are calculated using the following expressions:<br>$\\mathrm{r} 1=\\mathrm{a} 1 \\oplus \\mathrm{a} 3 \\oplus \\mathrm{a} 4$<br>$\\mathrm{r} 2=\\mathrm{a} 1 \\oplus \\mathrm{a} 2 \\oplus \\mathrm{a} 4$<br>$\\mathrm{r} 3=\\mathrm{a} 1 \\oplus \\mathrm{a} 2 \\oplus \\mathrm{a} 3$<br>A list of messages and their respective codewords generated using the above scheme is presented in the table below.</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px; margin: auto;\"><thead><tr><th scope=\"col\">Message</th><th scope=\"col\">Codeword</th><th scope=\"col\">Message</th><th scope=\"col\">Codeword</th></tr></thead><tbody><tr><td>0000</td><td>0000000</td><td>1000</td><td>?</td></tr><tr><td>0001</td><td>0000111</td><td>1001</td><td>1001100</td></tr><tr><td>0010</td><td>0011001</td><td>1010</td><td>1010010</td></tr><tr><td>0011</td><td>0011110</td><td>1011</td><td>1010101</td></tr><tr><td>0100</td><td>0101010</td><td>1100</td><td>1100001</td></tr><tr><td>0101</td><td>?</td><td>1101</td><td>1100110</td></tr><tr><td>0110</td><td>0110011</td><td>1110</td><td>1111000</td></tr><tr><td>0111</td><td>0110100</td><td>1111</td><td>111111</td></tr></tbody></table><p><br>Determine the minimum Hamming distance and error-correction capacity of this code?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>2</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>3</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>4</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>5</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><p><a href=\"https://gateoverflow.in/434265\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 30,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider Fig. P5. Assuming TCP Reno is the protocol experiencing the behavior shown in the figure, choose the correction option(s):<br><img alt=\"\" src=\"media/99/99fdf98d0fac50bd5d25.png\"><br> </p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>TCP slowstart is operating in the intervals $[1,6]$ and $[23,26]$.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>After the 22nd transmission round, segment loss is detected due to timeout, and hence the congestion window size is set to 1.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Packet 70 is sent in the 7 th transmission round.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>TCP congestion avoidance is operating in the intervals $[6,16]$ and $[17,22]$</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, C, D</p><p><a href=\"https://gateoverflow.in/434264\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 50.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 30
+  }
+ ],
+ "stats": {
+  "questions": 30,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 14,
+   "MSQ": 10,
+   "NAT": 6
+  },
+  "withoutKey": 0
+ }
+}

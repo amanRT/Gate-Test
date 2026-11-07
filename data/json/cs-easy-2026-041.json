@@ -1,0 +1,631 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-041",
+ "title": "Topicwise Test-16 Part Syllabus GATE 2026 CS Programming and Data Structures-2",
+ "sourceTitle": "Topicwise Test-16 Part Syllabus GATE 2026 CS Programming and Data Structures-2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 41,
+ "category": "topicwise",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 17",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/064_Topicwise Test-16 Part Syllabus GATE 2026 CS Programming and Data Structures-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a rooted binary tree with n nodes, represented using pointers. Which of the following is the best possible upper bound, to compute the number of such subtrees, which are full binary tree (0 or 2 children) and have exactly <em>k</em> nodes.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Ο(<em>n</em><sup>2</sup>)"
+    },
+    {
+     "key": "B",
+     "html": "Ο(<em>n</em> log <em>n</em>)"
+    },
+    {
+     "key": "C",
+     "html": "Ο(<em>n</em>)"
+    },
+    {
+     "key": "D",
+     "html": "Ο(<em>n</em> × <em>k</em>)"
+    }
+   ],
+   "answer": [
+    "A",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C, A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; A post order traversal checks all nodes in &Omicron;(n) time.<br />\n&bull; For each node, verifying if its subtree is a full binary tree with exactly k nodes takes &Omicron;(1)<br />\n(since k is fixed).<br />\n&bull; Thus, the total time is linear in n.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider a hash table of size m = 13 and two hash functions:<br />\n1. <em>h</em><sub>1</sub>(k) = k mod 13<br />\n2. <em>h</em><sub>2</sub>(k) = 7 – (k mod 7)<br />\nInsert the following key in the table {49, 24, 74, 51, 98, 63, 27} using double hashing.<br />\nWhich of the following are true after all keys have been inserted?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The key 63 has a collision at index 11 and will be inserted at index 5 after probing."
+    },
+    {
+     "key": "B",
+     "html": "The final table after all insertion is [—, 27, —, —, —, 63, —, 98, —, 74, 49, 24, 51]"
+    },
+    {
+     "key": "C",
+     "html": "The key 27 is inserted at index 1 due to collision."
+    },
+    {
+     "key": "D",
+     "html": "The key 74 is inserted at index 9 without any collision.\n["
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a9/a94303cbff945eb3bd9e.png\" /></div>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following function written in C, which is intended to delete every alternate node in<br />\na circular singly linked list, starting from the second node.<br />\nAssume the list has atleast two nodes, and the last node points back to the head.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/71/717ce536e0d34bc90531.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following option(s) correctly replace Line 1, Line 2 and Line 3 to achieve the desired functionality?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/1d/1daab136700839694565.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/9f/9f23e3fd9be06835a60e.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/3b/3b82d5d2e5407a7eaca3.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/94/941f43e4a05afead94b8.png\" />"
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)<br />\nBoth option (a) and (d) given the desired functionality in given code.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a hash table size of 11 that uses separate chaining for collision resolution. The hash function used is:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/01/01f31f523b39fe19f028.png\" /></div>\n\n<div> </div>\n\n<div>(i) The average chain length in the hash table is greater than 2 for non empty slots.<br />\n(ii) The index with maximum chain length is 6.<br />\n(iii) The are exactly seven chains and four empty slots in the hash table.<br />\n(iv) The total number of collision during key insertion is 11.<br />\nWhich of the following is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1, 2 and 4"
+    },
+    {
+     "key": "B",
+     "html": "1 and 2"
+    },
+    {
+     "key": "C",
+     "html": "3 and 4"
+    },
+    {
+     "key": "D",
+     "html": "1, 2 and 3"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/5d/5d18db3f20bf3156d595.png\" /></div>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Minimum size of array to store a binary tree with ‘<em>n</em>’ nodes = ‘<em>n</em>’."
+    },
+    {
+     "key": "B",
+     "html": "Maximum number of nodes in a binary tree of height ‘<em>h</em>’ = 2<sup>h + 1</sup> – 1."
+    },
+    {
+     "key": "C",
+     "html": "Number of pointer modified to insert a new node at beginning of double linked list = 3."
+    },
+    {
+     "key": "D",
+     "html": "All enum constant must be unique in their scope."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ae/ae0fe08308cb572067a4.png\" /></div>"
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following binary search tree:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/99/994b419a47cd55a15147.png\" /></div>\n\n<div>If we remove the root node, which of the node can be the new root?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "23"
+    },
+    {
+     "key": "B",
+     "html": "27"
+    },
+    {
+     "key": "C",
+     "html": "45"
+    },
+    {
+     "key": "D",
+     "html": "49"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\nIf we delete root node of a binary search tree, then it can be replaced by inorder successor or<br />\npredecessor of node so, either 27 or 45 can be new root.</p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider inserting the following 10 keys into an empty AVL tree, in the given order:<br />\n[50, 30, 70, 20, 40, 25, 10, 35, 37, 45]<br />\nWhat is the number of LR and RL notations performed during tree construction (e.g., if your answer is 2 and 3 write 23)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    20,
+    20
+   ],
+   "answerText": "20",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>20<br />\n<em>LR</em> = 2, <em>LL</em> = 1, <em>RL</em> = 0</p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider a binary search tree with N nodes, where all values are distinct:<br />\nPerform the following operation:<br />\n(i) Remove all the nodes from the BST in such a way that their values are collected in inorder traversal order.<br />\n(ii) Insert the removed values one by one into a singly linked list.<br />\nWhat is the overall time complexity of this operation?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img align=\"absmiddle\" alt=\"\" src=\"media/d3/d3164c96a931d3d678fb.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "Ο(N log N)"
+    },
+    {
+     "key": "C",
+     "html": "Ο(N<sup>2</sup>)"
+    },
+    {
+     "key": "D",
+     "html": "Ω(N log N)"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/79/79e8469503fd58bf1183.png\" /></div>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following program fragment, where ‘k’ is int type variable. What is the value stored<br />\nin the variable ‘k’ immediately after the for loop terminates?<br />\nfor(k = 1; k < 100; ++k)<br />\nk* = (k + 1);</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "1806"
+    },
+    {
+     "key": "B",
+     "html": "183"
+    },
+    {
+     "key": "C",
+     "html": "265"
+    },
+    {
+     "key": "D",
+     "html": "677"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b7/b7c7467b2437c4032e0d.png\" /></div>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider a pointer head1 pointing to the first node of a singly linked list and head2 pointing to the first node of a circular singly linked list.<br />\nWhich of the following approaches can be used to distinguish between the two types without modifying the list?<br />\n<em>S</em><sub>1</sub> : Keep traversing the list until you reach a node where (node → next == NULL), so that it is single linked list.<br />\n<em>S</em><sub>2</sub> : Keep two pointer moving at different speeds (slow and fast); if they ever met, the list is circular.<br />\n<em>S</em><sub>3</sub> :  check if the last nodes next is head so that it is circular single linked list .<br />\nWhich of the above statement are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> are sufficient not <em>S</em><sub>3</sub>."
+    },
+    {
+     "key": "B",
+     "html": "<em>S</em><sub>3</sub> is the incorrect approach."
+    },
+    {
+     "key": "C",
+     "html": "Only <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub> are correct approach."
+    },
+    {
+     "key": "D",
+     "html": "Each statement is individually satisfies for distinguishing."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)<br />\nAll statements are individually correct and correctly check, whether a linked list is singly linked list or circular singly linked list.</p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider inserting the following sequence of disk net integer into an initially empty tree.<br />\n[50, 30, 70, 20, 40, 60, 80, 10, 25, 35]<br />\nLet tree A be a binary search tree built using this order.<br />\nLet tree B be an AVL built using same key but insert from right to left.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The height of tree A is greater than the height of tree B."
+    },
+    {
+     "key": "B",
+     "html": "The postorder travel of Tree B, is [10, 30, 25, 20, 50, 40, 70, 80, 60, 35]"
+    },
+    {
+     "key": "C",
+     "html": "The node 25 is at a different depth in tree A and tree B."
+    },
+    {
+     "key": "D",
+     "html": "Tree B will require two rotation to maintain balance during insertion."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b,c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/db/db490c61b0b7e336b568.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following C program:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/3a/3ac55462996ec0154467.png\" /></div>\n\n<div>Which of the following is correct for above program?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Output of the program is 41."
+    },
+    {
+     "key": "B",
+     "html": "Output of program is 11."
+    },
+    {
+     "key": "C",
+     "html": "Memory allocated to variable i is in activation record of function ‘fun’."
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>What does the following C statement declare?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5e/5e39f2fca9a7a69d9b80.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "x is a pointer to array of 5 functions which take int pointer as argument and return char."
+    },
+    {
+     "key": "B",
+     "html": "x is a pointer to array to 5 pointers to function which takes int pointer as argument and return char."
+    },
+    {
+     "key": "C",
+     "html": "x is an array of 5 pointers to function which takes int pointer as argument and return char."
+    },
+    {
+     "key": "D",
+     "html": "x is an array of 5 functions which take int pointer as argument and return char."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the doubly circular linked list, initialized with the nodes 5, 10, 15, 20, 25, 30, 35 and 40.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a4/a41dbbe56efd8131cb9e.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10"
+    },
+    {
+     "key": "B",
+     "html": "5"
+    },
+    {
+     "key": "C",
+     "html": "35"
+    },
+    {
+     "key": "D",
+     "html": "40"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/df/dff42008988907d32459.png\" /></div>\n\n<div><img alt=\"\" src=\"media/ee/eec88d4a851643367e00.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Suppose that queue operations are implemented using stack operation. Enqueue(x) and Dequeue( )<br />\nare queue operations whereas Pop( ) and Push(x) are stack operations. Consider the following code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/1e/1ecaf4b3e8a2abd6afac.png\" /></div>\n\n<div>Fill the missing statement Stmt1 and Stmt2 to perform Dequeue operation correctly (here <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> are two stacks)</div>\n\n<div>Note : Queue is implemented using two stacks <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/30/302f4b560f2c534c7c63.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/a6/a6ad446fe908ae9aa6a2.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/f3/f3c6a1dd970928eec1e2.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/96/96a1207b35c7fc1549aa.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/82/82bcff2cfec19efa981d.png\" /></div>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the function f defined below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/5d/5d655472fdedebc49940.png\" /></div>\n\n<div>For a given linked list p, the function f return 1 if and only if</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "the list is empty or has exactly one element"
+    },
+    {
+     "key": "B",
+     "html": "the elements in the list are sorted in non-decreasing order of data value"
+    },
+    {
+     "key": "C",
+     "html": "the elements in the list are sorted in non-increasing order of data value"
+    },
+    {
+     "key": "D",
+     "html": "not all elements in the list have the same data value"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B, A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nFor a given linked list p, the function returns 1 if and only if the elements in the list are sorted in<br />\nnon-decreasing order of the data value. <em>f</em> returns 1, if <em>p</em> == NULL or <em>p</em> &rarr; next == NULL.<br />\nBut, if and only if makes option (a) as false.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following keys, insert into a hash table keys:<br />\nk = {18, 26, 35, 41, 57, 63, 70, 89, 97, 104}<br />\nHash table size m = 13<br />\nWhich of the following hash function will result in the minimum number of collision using linear probing.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>h</em><sub>1</sub>(<em>k</em>) = <em>k</em> mod 13"
+    },
+    {
+     "key": "B",
+     "html": "<em>h</em><sub>2</sub>(<em>k</em>) = (2<em>k</em> + 5) mod 13"
+    },
+    {
+     "key": "C",
+     "html": "<em>h</em><sub>3</sub>(<em>k</em>) = (<em>k</em> ÷ 7) mod 13"
+    },
+    {
+     "key": "D",
+     "html": "<em>h</em><sub>4</sub>(<em>k</em>) = (<em>k</em> * <em>k</em> + 3) mod 13"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)<br />\n<em>h</em><sub>1</sub>(<em>k</em>) : 4 collision<br />\n<em>h</em><sub>2</sub>(<em>k</em>) : 4 collision<br />\n<em>h</em><sub>3</sub>(<em>k</em>) : 1 collision<br />\n<em>h</em><sub>4</sub>(<em>k</em>) : 5 collision</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MSQ": 7,
+   "MCQ": 9,
+   "NAT": 1
+  },
+  "withoutKey": 0
+ }
+}

@@ -1,0 +1,679 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-089",
+ "title": "DVRUO Classes GATE CS | Operating System | Threads, System Calls & Fork | Weekly Quiz 5",
+ "sourceTitle": "DVRUO Classes GATE CS | Operating System | Threads, System Calls & Fork | Weekly Quiz 5",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 89,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 3600,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Operating System"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/003_exam_2468_GO Classes GATE CS Operating System Threads, System Calls & Fork Weekly Quiz 5.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose that two processes, $\\mathrm{P_a}$ and $\\mathrm{P_b}$, are running in a uniprocessor system. $\\mathrm{P_a}$ has three threads. $\\mathrm{P_b}$ has two threads. All threads in both processes are CPU-intensive, i.e., they never block for I/O. The operating system uses simple round-robin scheduling. Assume that all of the threads are user-level threads, and that user-level threads are implemented using a single kernel thread per process. What percentage of the processor's time will be spent running $\\mathrm{P_a}$'s threads?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"538160\"></a><div itemprop=\"text\"><p>With user-level threads implemented on a single kernel thread per process, the OS scheduler only sees <strong>two</strong> schedulable entities — one kernel thread for Pa and one kernel thread for Pb — regardless of how many user-level threads exist inside each process.</p><p>Since scheduling is round-robin at the kernel level, each process's kernel thread gets an equal share of the CPU: 50% to Pa's kernel thread and 50% to Pb's kernel thread.</p><p>Within Pa's kernel thread's allotted time, only one of Pa's three user-level threads can actually run at any instant (since there's only one kernel thread to carry them), so the three threads must share that 50% among themselves (however the user-level thread scheduler decides — e.g., roughly 16.7% each if it's also round-robin).</p><p>Answer: Pa's threads collectively get 50% of the CPU, split among its three threads; Pb's threads get the other 50%, split among its two threads.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540302\"></a><div itemprop=\"text\"><p>&nbsp;These are <b data-path-to-node=\"0,0,0\" data-index-in-node=\"37\">user-level threads</b> mapped to a <b data-path-to-node=\"0,0,0\" data-index-in-node=\"68\">single kernel thread per process</b> (Many-to-One model), the operating system's kernel scheduler is entirely unaware of the internal threads.</p><p><span style=\"background-color:#f1c40f;\">&nbsp;It only sees two competing entities to schedule: process $P_a$ and process $P_b$.</span></p><p data-path-to-node=\"0,1,0\">Both processes are completely CPU-intensive and do not block for I/O.&nbsp;</p><p data-path-to-node=\"0,1,0\">Using a simple round-robin scheduling algorithm on a uniprocessor system, the OS kernel will divide the processor's time equally between the two processes:</p><p>$$\\text{CPU time allocated to } P_a = 50\\%$$</p><p>$$\\text{CPU time allocated to } P_b = 50\\%$$</p><p>Inside process $P_a$, its user-level thread library will distribute that $50\\%$ allocation among its three internal threads. However, no matter how those threads are managed internally, the cumulative time the CPU spends executing $P_a$'s threads cannot exceed the process's overall $50\\%$ share.</p></div></section></div><p><a href=\"https://gateoverflow.in/537876\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is output by this program? Assume no errors in executing system calls.</p><pre data-rawcode=\"int main(int argc, char **argv) { &nbsp;&nbsp;&nbsp;&nbsp;for (int i = 1; i &lt; 6; ++i) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (fork() == 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;++i; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;%d&quot;, i); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fflush(stdout); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} else { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wait(NULL); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 0; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int main(int argc, char **argv)\n{\n&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 1; i &lt; 6; ++i) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (fork() == 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;++i;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\", i);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fflush(stdout);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} else {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wait(NULL);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$135$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$246$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$12345$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$23456$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"538162\"></a><div itemprop=\"text\"><p>The loop starts with <code>i = 1</code>. Each time a new child is created, that child bumps its own copy of <code>i</code> up by 1 before printing it, and then the loop itself bumps <code>i</code> up by 1 again before checking the loop condition and forking the next child.</p><ul><li>Round 1: <code>i</code> is 1 at the fork. The child raises it to 2 and prints <strong>2</strong>. The loop then raises it to 3, checks <code>3 &lt; 6</code> — true — so it forks again.</li><li>Round 2: <code>i</code> is 3 at the fork. The child raises it to 4 and prints <strong>4</strong>. The loop then raises it to 5, checks <code>5 &lt; 6</code> — true — so it forks again.</li><li>Round 3: <code>i</code> is 5 at the fork. The child raises it to 6 and prints <strong>6</strong>. The loop then raises it to 7, checks <code>7 &lt; 6</code> — false — loop stops, program ends.</li></ul><p>Because each parent <em>waits</em> for its child before doing anything else (and it does nothing else besides exit), there's no overlapping or scrambled output — everything happens in strict sequence, one print at a time, in the order the children are created. ans=246</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540304\"></a><div itemprop=\"text\"><p>It goes as:&nbsp;</p><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b data-path-to-node=\"2,0,0\" data-index-in-node=\"0\">Round 1 ($i=1$):</b> Parent forks. The parent hits <code data-path-to-node=\"2,0,0\" data-index-in-node=\"45\">wait()</code> and stops. The child process steps inside the <code data-path-to-node=\"2,0,0\" data-index-in-node=\"98\">if</code>, bumps $i$ to <b data-path-to-node=\"2,0,0\" data-index-in-node=\"113\">2</b>, and prints <b data-path-to-node=\"2,0,0\" data-index-in-node=\"127\"><code data-path-to-node=\"2,0,0\" data-index-in-node=\"127\">2</code></b>.</p></li><li><p data-path-to-node=\"2,1,0\"><b data-path-to-node=\"2,1,0\" data-index-in-node=\"0\">Round 2 ($i=3$):</b> That same child loops back around. The loop's <code data-path-to-node=\"2,1,0\" data-index-in-node=\"61\">++i</code> kicks $i$ up to <b data-path-to-node=\"2,1,0\" data-index-in-node=\"79\">3</b>. It forks a grandchild, then hits <code data-path-to-node=\"2,1,0\" data-index-in-node=\"115\">wait()</code> and stops. The grandchild steps inside the <code data-path-to-node=\"2,1,0\" data-index-in-node=\"165\">if</code>, bumps $i$ to <b data-path-to-node=\"2,1,0\" data-index-in-node=\"180\">4</b>, and prints <b data-path-to-node=\"2,1,0\" data-index-in-node=\"194\"><code data-path-to-node=\"2,1,0\" data-index-in-node=\"194\">4</code></b>.</p></li><li><p data-path-to-node=\"2,2,0\"><b data-path-to-node=\"2,2,0\" data-index-in-node=\"0\">Round 3 ($i=5$):</b> That grandchild loops back. The loop's <code data-path-to-node=\"2,2,0\" data-index-in-node=\"54\">++i</code> kicks $i$ up to <b data-path-to-node=\"2,2,0\" data-index-in-node=\"72\">5</b>. It forks a great-grandchild, then hits <code data-path-to-node=\"2,2,0\" data-index-in-node=\"114\">wait()</code> and stops. The great-grandchild steps inside the <code data-path-to-node=\"2,2,0\" data-index-in-node=\"170\">if</code>, bumps $i$ to <b data-path-to-node=\"2,2,0\" data-index-in-node=\"185\">6</b>, and prints <b data-path-to-node=\"2,2,0\" data-index-in-node=\"199\"><code data-path-to-node=\"2,2,0\" data-index-in-node=\"199\">6</code></b>.</p></li></ul><p data-path-to-node=\"3\">After that, the loop condition ($7 &lt; 6$) fails, and the chain of processes collapses back down as they all hit their return statements.</p><h4 data-path-to-node=\"12\"><b data-path-to-node=\"12\" data-index-in-node=\"0\">Termination Sequence</b></h4><p data-path-to-node=\"13,0,0\"><b data-path-to-node=\"13,0,0\" data-index-in-node=\"0\">Child 3</b> increments $i$ to $7$. The loop condition $7 &lt; 6$ is false. It reaches the end of <code data-path-to-node=\"13,0,0\" data-index-in-node=\"84\">main</code>, returns <code data-path-to-node=\"13,0,0\" data-index-in-node=\"98\">0</code>, and exits.</p><p data-path-to-node=\"13,1,0\"><b data-path-to-node=\"13,1,0\" data-index-in-node=\"0\">Child 2</b> finishes waiting for Child 3, executes <code data-path-to-node=\"13,1,0\" data-index-in-node=\"47\">return 0;</code> inside its <code data-path-to-node=\"13,1,0\" data-index-in-node=\"68\">else</code> block, and exits.</p><p data-path-to-node=\"13,2,0\"><b data-path-to-node=\"13,2,0\" data-index-in-node=\"0\">Child 1</b> finishes waiting for Child 2, executes <code data-path-to-node=\"13,2,0\" data-index-in-node=\"47\">return 0;</code> inside its <code data-path-to-node=\"13,2,0\" data-index-in-node=\"68\">else</code> block, and exits.</p><p data-path-to-node=\"13,3,0\"><b data-path-to-node=\"13,3,0\" data-index-in-node=\"0\">Parent 1</b> finishes waiting for Child 1, executes <code data-path-to-node=\"13,3,0\" data-index-in-node=\"48\">return 0;</code> inside its <code data-path-to-node=\"13,3,0\" data-index-in-node=\"69\">else</code> block, and exits.</p></div></section></div><p><a href=\"https://gateoverflow.in/537875\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are functions of a typical kernel?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Creating new processes<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Scheduling processes for execution on the CPU<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Management of memory allocation to processes<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Creating stack frames during function calls</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"538165\"></a><div itemprop=\"text\"><p><strong>1. Creating new processes — YES</strong><br>Process creation (e.g., via <code>fork()</code>, <code>exec()</code>) requires setting up a new address space, allocating a process control block (PCB), assigning a process ID, and registering the process with the scheduler. Only the kernel has the privilege to do this, since it involves managing protected system resources. This is a core kernel function.</p><p><strong>2. Scheduling processes for execution on the CPU — YES</strong><br>Deciding which process/thread runs next on the CPU (round-robin, priority-based, etc.) is one of the most fundamental jobs of a kernel. The scheduler is a core kernel subsystem.</p><p><strong>3. Management of memory allocation to processes — YES</strong><br>The kernel manages physical memory, virtual memory, page tables, and address space allocation for every process. This includes deciding which pages are in RAM, handling page faults, and enforcing memory protection between processes. This is squarely a kernel responsibility.</p><p><strong>4. Creating stack frames during function calls — NO</strong><br>This is <strong>not</strong> a kernel function. Stack frames (holding local variables, return addresses, saved registers) are created and destroyed automatically as part of a program's normal execution, using ordinary <code>push</code>/<code>pop</code>/<code>call</code>/<code>ret</code> instructions generated by the <strong>compiler</strong>. This happens entirely in <strong>user space</strong>, using the CPU's stack pointer register — no system call or kernel involvement is needed. Every function call in every running program does this constantly; it would be far too slow if the kernel had to get involved each time.</p><ul><li>Creating processes, scheduling, and memory management all require privileged access to hardware and system-wide data structures → kernel's job.</li><li>Managing a function's local stack frame is just routine arithmetic on a register (the stack pointer) that any user-level program can do on its own → not a kernel job.</li></ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540305\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,1,0\">Creating a process (Option A) requires creating a new Process Control Block (PCB), allocating resource tracks, and setting up an isolated memory context, which can only be done via kernel system calls.</p><p data-path-to-node=\"0,2,0\">Scheduling processes (Option B) relies on the kernel's short-term scheduler to manage ready queues, handle timer interrupts, and perform context switches to allocate CPU time cores.</p><p data-path-to-node=\"0,3,0\">Managing memory allocation (Option C) requires the kernel to maintain page tables, allocate physical frames, and service page faults&nbsp; via system calls.</p><p data-path-to-node=\"0,4,0\">Creating stack frames during function calls (Option D) is entirely managed by compiler-generated machine code executing directly within the process's pre-allocated memory space.</p><p data-path-to-node=\"0,4,0\">&nbsp;The kernel does not participate in standard user-space function execution.</p></div></section></div><p><a href=\"https://gateoverflow.in/537874\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>You write a UNIX shell, but instead of calling $\\texttt{fork()}$ then $\\texttt{exec()}$ to launch a new job, you instead insert a subtle difference: the code first calls $\\texttt{exec()}$ and then calls $\\texttt{fork()}$ like the following:</p><pre data-rawcode=\"shell(...) { &nbsp;&nbsp;&nbsp;&nbsp;.. .. &nbsp;&nbsp;&nbsp;&nbsp;exec(cmd, args); &nbsp;&nbsp;&nbsp;&nbsp;fork(); &nbsp;&nbsp;&nbsp;&nbsp;.. .. }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">shell(..) {\n&nbsp;&nbsp;&nbsp;&nbsp;.. ..\n&nbsp;&nbsp;&nbsp;&nbsp;exec(cmd, args);\n&nbsp;&nbsp;&nbsp;&nbsp;fork();\n&nbsp;&nbsp;&nbsp;&nbsp;.. ..\n}</pre><p><br>&nbsp;Does it work? Enter $0$ if your answer is 'yes', else enter $1$.</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 1</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"537873\"></a><div itemprop=\"text\">It doesnt work. Shells address space is entirely replaced with the new command $(\\texttt{cmd})$, therefore the shell will terminate once $\\texttt{cmd}$ is terminated.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"538166\"></a><div itemprop=\"text\"><p>This ordering breaks the shell fundamentally, because of how <code>exec()</code> works. ans :1</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"540306\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\">Think of the <code data-path-to-node=\"0,0,0\" data-index-in-node=\"13\">exec()</code> command as a complete \"brain wipe\" for a running process.</p><p data-path-to-node=\"0,1,0\">When the shell runs <code data-path-to-node=\"0,1,0\" data-index-in-node=\"20\">exec()</code>, it throws away its own code and completely replaces it with the new program you want to run.</p><p data-path-to-node=\"0,2,0\">Because the shell's original code is completely wiped out and replaced, it never gets to read the lines of code written below the <code data-path-to-node=\"0,2,0\" data-index-in-node=\"153\">exec()</code> command.</p><p data-path-to-node=\"0,3,0\">This means the <code data-path-to-node=\"0,3,0\" data-index-in-node=\"15\">fork()</code> command sitting right below it is completely erased before the computer ever has a chance to look at it.</p><p data-path-to-node=\"0,4,0\">Instead of launching a new job in the background and keeping the shell alive, the shell permanently turns into the new program, runs it, and then completely closes down.</p><p data-path-to-node=\"0,5,0\"><b data-path-to-node=\"0,5,0\" data-index-in-node=\"0\">Answer:</b> <b data-path-to-node=\"0,5,0\" data-index-in-node=\"14\">1</b></p></div></section></div><p><a href=\"https://gateoverflow.in/537872\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>When a process creates a new process using the $\\texttt{fork()}$ operation, which of the following is/are not shared between the parent process and the child process?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Stack<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Heap<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Shared memory segments<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Page table</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"537871\"></a><div itemprop=\"text\"><p>The parent and child share only the shared memory segments. Everything else is duplicated, but the child has its own versions (changes it makes wont be visible to the parent, and vice-versa).<br>&nbsp;</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://youtu.be/Ywqjv0_uh0U?t=4091\">More on C and D </a> &nbsp;&nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540307\"></a><div itemprop=\"text\"><p data-path-to-node=\"0,0,0\"><span style=\"background-color:#f1c40f;\">When a parent process calls </span><code data-path-to-node=\"0,0,0\" data-index-in-node=\"28\"><span style=\"background-color:#f1c40f;\">fork()</span></code><span style=\"background-color:#f1c40f;\">, the operating system creates an isolated duplicate child process with its own separate virtual address space</span>. The question specifically asks what is <b data-path-to-node=\"0,0,0\" data-index-in-node=\"185\">not shared</b>.</p><p data-path-to-node=\"0,1,0\">The Stack (Option A) keeps track of local variables and function calls. The child gets its own separate copy of the stack so that changes to variables in one process do not affect the other.</p><p data-path-to-node=\"0,2,0\">The Heap (Option B) holds dynamically allocated memory (like objects created with <code data-path-to-node=\"0,2,0\" data-index-in-node=\"82\">malloc</code>). The child gets a separate copy of the heap, meaning they cannot access or modify each other's dynamically allocated data.</p><p data-path-to-node=\"0,3,0\">The Page table (Option D) maps virtual memory addresses to physical memory locations. Because the parent and child are distinct processes running in isolated memory spaces, the kernel creates a unique, separate page table for the child.</p><p data-path-to-node=\"0,4,0\">Shared memory segments (Option C) are explicitly designed to let different processes communicate by accessing the exact same block of physical memory. These segments are intentionally kept shared after a <code data-path-to-node=\"0,4,0\" data-index-in-node=\"204\">fork()</code>.</p><p data-path-to-node=\"0,5,0\"><b data-path-to-node=\"0,5,0\" data-index-in-node=\"0\">Correct Options:</b> <b data-path-to-node=\"0,5,0\" data-index-in-node=\"17\">A, B, D</b></p></div></section></div><p><a href=\"https://gateoverflow.in/537870\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Using the program below, identify the values of $\\text{pid}$ at lines $\\text{A, B, C,}$ and $\\text{D}$. Assume that the actual PIDs of the parent and child are $2600$ and $2603$, respectively. Function $\\texttt{getpid()}$ returns the process ID (PID) of the currently executing process.</p><pre data-rawcode=\"#include&lt;sys/types.h&gt; #include&lt;stdio.h&gt; #include&lt;unistd.h&gt;  int main() {      &nbsp;&nbsp;&nbsp;&nbsp;int pid = fork(); &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;if (pid &lt; 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;error occurred&quot;); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1; &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;else if (pid == 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int pid1 = getpid(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;pid = %d\\n&quot;, pid); &nbsp;&nbsp;&nbsp;/* A */ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;pid1 = %d\\n&quot;, pid1); /* B */ &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;else { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int pid1 = getpid(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;pid = %d\\n&quot;, pid); &nbsp;&nbsp;&nbsp;/* C */ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;pid1 = %d\\n&quot;, pid1); /* D */ &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;sys/types.h&gt;\n#include&lt;stdio.h&gt;\n#include&lt;unistd.h&gt;\n\nint main() {\n    \n&nbsp;&nbsp;&nbsp;&nbsp;int pid = fork();\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;if (pid &lt; 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"error occurred\");\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;else if (pid == 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int pid1 = getpid();\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"pid = %d\\n\", pid); &nbsp;&nbsp;&nbsp;/* A */\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"pid1 = %d\\n\", pid1); /* B */\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;else {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int pid1 = getpid();\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"pid = %d\\n\", pid); &nbsp;&nbsp;&nbsp;/* C */\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"pid1 = %d\\n\", pid1); /* D */\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}</pre><p><br>Let $\\text{X, Y, Z,}$ and $\\text{W}$ be the values of $\\text{pid}$ at lines $\\text{A, B, C,}$ and $\\text{D}$, respectively. What is the value of $\\text{X + Y + (Z * W)}$?</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"540311\"></a><div itemprop=\"text\"><p data-path-to-node=\"4\">A process starts running. The operating system gives this process its own ID, which is <b data-path-to-node=\"4\" data-index-in-node=\"87\">2600</b>.</p><ul data-path-to-node=\"5\"><li><p data-path-to-node=\"5,0,0\">If this process calls the function <code data-path-to-node=\"5,0,0\" data-index-in-node=\"35\">getpid()</code>, it will get its own ID: <b data-path-to-node=\"5,0,0\" data-index-in-node=\"69\">2600</b>.</p></li></ul><p data-path-to-node=\"8\">The process runs the line: <code data-path-to-node=\"8\" data-index-in-node=\"27\">int pid = fork();</code></p><p data-path-to-node=\"8\">The <code data-path-to-node=\"8\" data-index-in-node=\"49\">fork()</code> command creates a brand new process (the Child). The operating system gives this new child process an ID of <b data-path-to-node=\"8\" data-index-in-node=\"164\">2603</b>.</p><p data-path-to-node=\"9\">Now, <code data-path-to-node=\"9\" data-index-in-node=\"5\">fork()</code> finishes and gives back a number to put inside the <b data-path-to-node=\"9\" data-index-in-node=\"63\">variable</b> <code data-path-to-node=\"9\" data-index-in-node=\"72\">pid</code>. <span style=\"background-color:#f1c40f;\">To make sure the parent and child know what just happened, the OS gives them </span><b data-path-to-node=\"9\" data-index-in-node=\"154\"><span style=\"background-color:#f1c40f;\">different numbers</span></b><span style=\"background-color:#f1c40f;\"> to save in that variable:</span></p><ul data-path-to-node=\"10\"><li><p data-path-to-node=\"10,0,0\"><b data-path-to-node=\"10,0,0\" data-index-in-node=\"0\">Inside the Parent's memory:</b> The variable <code data-path-to-node=\"10,0,0\" data-index-in-node=\"41\">pid</code> is filled with the child's ID $\\rightarrow$ <b data-path-to-node=\"10,0,0\" data-index-in-node=\"87\">2603</b>.</p></li><li><p data-path-to-node=\"10,1,0\"><b data-path-to-node=\"10,1,0\" data-index-in-node=\"0\">Inside the Child's memory:</b> The variable <code data-path-to-node=\"10,1,0\" data-index-in-node=\"40\">pid</code> is filled with $\\rightarrow$ <b data-path-to-node=\"10,1,0\" data-index-in-node=\"71\">0</b>.</p></li></ul><p>&nbsp;Both processes now run completely independently at the exact same time. They check the <code data-path-to-node=\"13\" data-index-in-node=\"87\">if-else</code> conditions using <b data-path-to-node=\"13\" data-index-in-node=\"112\">their own copy</b> of the variable <code data-path-to-node=\"13\" data-index-in-node=\"143\">pid</code>.</p><p data-path-to-node=\"14\"><b data-path-to-node=\"14\" data-index-in-node=\"0\">Child's Execution:</b></p><ul data-path-to-node=\"15\"><li><p data-path-to-node=\"15,0,0\">The child process checks: <code data-path-to-node=\"15,0,0\" data-index-in-node=\"26\">else if (pid == 0)</code></p></li><li><p data-path-to-node=\"15,1,0\">Since the child's variable <code data-path-to-node=\"15,1,0\" data-index-in-node=\"27\">pid</code> holds <code data-path-to-node=\"15,1,0\" data-index-in-node=\"37\">0</code>, it enters this block.</p></li><li><p data-path-to-node=\"15,2,0\">It prints the <b data-path-to-node=\"15,2,0\" data-index-in-node=\"26\">variable</b> <code data-path-to-node=\"15,2,0\" data-index-in-node=\"35\">pid</code>. Its variable holds <code data-path-to-node=\"15,2,0\" data-index-in-node=\"59\">0</code>, so <b data-path-to-node=\"15,2,0\" data-index-in-node=\"65\">$X = 0$</b>.</p></li><li><p data-path-to-node=\"15,3,0\">It prints the result of the <b data-path-to-node=\"15,3,0\" data-index-in-node=\"40\">function</b> <code data-path-to-node=\"15,3,0\" data-index-in-node=\"49\">getpid()</code>. The function asks the OS: <i data-path-to-node=\"15,3,0\" data-index-in-node=\"85\">\"What is my current ID?\"</i> Since it is the child running, the OS answers <b data-path-to-node=\"15,3,0\" data-index-in-node=\"156\">2603</b>. So, <b data-path-to-node=\"15,3,0\" data-index-in-node=\"166\">$Y = 2603$</b>.</p></li></ul><p data-path-to-node=\"16\"><b data-path-to-node=\"14\" data-index-in-node=\"0\">Parent Execution:</b></p><ul data-path-to-node=\"17\"><li><p data-path-to-node=\"17,0,0\">The parent process checks the conditions. Its variable <code data-path-to-node=\"17,0,0\" data-index-in-node=\"55\">pid</code> holds <code data-path-to-node=\"17,0,0\" data-index-in-node=\"65\">2603</code>.</p></li><li><p data-path-to-node=\"17,1,0\">Since <code data-path-to-node=\"17,1,0\" data-index-in-node=\"6\">2603</code> is not negative and not <code data-path-to-node=\"17,1,0\" data-index-in-node=\"35\">0</code>, the parent skips straight down to the fallback <b data-path-to-node=\"17,1,0\" data-index-in-node=\"85\"><code data-path-to-node=\"17,1,0\" data-index-in-node=\"85\">else</code></b> block.</p></li><li><p data-path-to-node=\"17,2,0\">&nbsp;It prints the <b data-path-to-node=\"17,2,0\" data-index-in-node=\"26\">variable</b> <code data-path-to-node=\"17,2,0\" data-index-in-node=\"35\">pid. F</code>rom Step 2, the parent's variable <code data-path-to-node=\"17,2,0\" data-index-in-node=\"84\">pid</code> was filled with the child's ID by the OS. It is <b data-path-to-node=\"17,2,0\" data-index-in-node=\"136\">not</b> calling the function here; it is just reading the number stored in the variable. That stored number is <b data-path-to-node=\"17,2,0\" data-index-in-node=\"243\">2603</b>. So, <b data-path-to-node=\"17,2,0\" data-index-in-node=\"253\">$Z = 2603$</b>.</p></li><li><p data-path-to-node=\"17,3,0\">It prints the result of the <b data-path-to-node=\"17,3,0\" data-index-in-node=\"40\">function</b> <code data-path-to-node=\"17,3,0\" data-index-in-node=\"49\">getpid()</code>. The function asks the OS: <i data-path-to-node=\"17,3,0\" data-index-in-node=\"85\">\"What is my current ID?\"</i> Since it is the parent running, the OS answers <b data-path-to-node=\"17,3,0\" data-index-in-node=\"157\">2600</b>. So, <b data-path-to-node=\"17,3,0\" data-index-in-node=\"167\">$W = 2600$</b>.</p><p>$$\\text{Result} = X + Y + (Z \\times W)$$</p><p>$$\\text{Result} = 0 + 2603 + (2603 \\times 2600)$$</p><p>$$\\text{Result} = 2603 + 6767800 = 6770403$$</p></li></ul></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"537869\"></a><div itemprop=\"text\">$[0+2603+(2603*2600) = 6770403]$</div></section></div><p><a href=\"https://gateoverflow.in/537868\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Recall that protected instructions can only be executed in kernel mode (i.e., can only be executed by the OS but not by user-level processes). Which of the following instructions is/are protected instructions?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Load instruction&nbsp;(read a value from memory into a register)<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Modify the $\\text{PC}$ register&nbsp;(program counter)<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Modify the register that controls kernel/user mode<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Direct access $\\text{I/O}$ device</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"540314\"></a><div itemprop=\"text\"><p>Modifying the mode register (Opt&nbsp;C) changes the CPU privilege level. If a user process could run this instruction, it could grant itself full administrative control, breaking system security.</p><p data-path-to-node=\"0,1,0\">Direct hardware device access (Option D) allows reading or writing directly to physical hardware like disks or network cards. The kernel must restrict this instruction so one application cannot crash the machine or spy on another program's hardware traffic.</p><p data-path-to-node=\"0,2,0\">Reading memory values (Option A) is done constantly by normal programs using standard instructions to read their own variables. The hardware relies on page tables to block unauthorized access rather than making the instruction itself protected.</p><p data-path-to-node=\"0,3,0\">Modifying the program counter (Option B) happens naturally every single time a program loops, executes an <code data-path-to-node=\"0,3,0\" data-index-in-node=\"106\">if</code> statement, or calls a function. Making this protected would prevent user programs from running code .</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543930\"></a><div itemprop=\"text\"><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">A. Load instruction</b> — <b data-path-to-node=\"3,0,0\" data-index-in-node=\"22\">Not Protected</b></p><p data-path-to-node=\"3,0,1\">User programs must be able to read data from their own allocated memory into registers to perform basic operations and calculations.</p></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">B. Modify the PC register (program counter)</b> — <b data-path-to-node=\"3,1,0\" data-index-in-node=\"46\">Not Protected</b></p><p data-path-to-node=\"3,1,1\">Every branch, conditional jump, loop, function call, and return modifies the Program Counter (PC). If this were restricted to kernel mode, user programs could not execute control flow operations.</p></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">C. Modify the register that controls kernel/user mode</b> — <b data-path-to-node=\"3,2,0\" data-index-in-node=\"56\">Protected</b></p><p data-path-to-node=\"3,2,1\">If a user process could freely change the mode bit in the status register, it could elevate its own privileges to kernel mode, completely bypassing OS security and protection mechanisms.</p></li><li><p data-path-to-node=\"3,3,0\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\">D. Direct access I/O device</b> — <b data-path-to-node=\"3,3,0\" data-index-in-node=\"30\">Protected</b></p><p data-path-to-node=\"3,3,1\">Direct hardware access (such as <code data-path-to-node=\"3,3,1\" data-index-in-node=\"32\">IN</code>/<code data-path-to-node=\"3,3,1\" data-index-in-node=\"35\">OUT</code> instructions or accessing protected memory-mapped I/O) is restricted to the OS kernel to prevent user applications from corrupting hardware state, interfering with other processes, or reading sensitive device data directly.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/537866\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A compiled program has become corrupted; by means of a one-bit error in the stored program, an unprivileged machine instruction has been replaced by a privileged instruction executable only in kernel mode. When a process is executing this corrupted program, what happens when the erroneous instruction is encountered?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The processor automatically switches to Kernel Mode so that the instruction can be executed, and then switches back to User Mode following execution of the wayward instruction.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The processor ignores the corrupted instruction, since it cannot execute it in its current User Mode, and proceeds to execute the next instruction following.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The currently running process is aborted, and a different process is dispatched to the processor.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The system crashes and must be rebooted.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"537865\"></a><div itemprop=\"text\">C is correct because when operating in User mode, a kernel-mode instruction is treated as an illegal instruction</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540315\"></a><div itemprop=\"text\"><p data-path-to-node=\"1\"><span style=\"background-color:#f1c40f;\">Option C is correct because the process is shut down immediately. When a normal program tries to run a restricted kernel command, the CPU hardware catches it, stops the program, and switches to another process.</span></p><p data-path-to-node=\"2\">Option A is incorrect because the CPU will never let a regular program automatically switch itself to kernel mode. If it did, security would be completely broken.</p><p data-path-to-node=\"3\">Option B is incorrect because the CPU cannot just skip or ignore a bad instruction. It must flag the error immediately.</p><p data-path-to-node=\"4\">Option D is incorrect because the computer does not crash or need a reboot. The operating system blocks the bad program and keeps the rest of the computer running safely.</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543932\"></a><div itemprop=\"text\"><ul data-path-to-node=\"2\"><li><p data-path-to-node=\"2,0,0\"><b data-path-to-node=\"2,0,0\" data-index-in-node=\"0\">The Hardware Trap:</b> Modern processors use dual-mode operation (User Mode and Kernel Mode) to protect the system. If a process running in User Mode attempts to execute a privileged instruction, the CPU hardware catches this and generates an exception (specifically, a trap or fault) to the Operating System.</p></li><li><p data-path-to-node=\"2,1,0\"><b data-path-to-node=\"2,1,0\" data-index-in-node=\"0\">The OS Response (Option C):</b> The OS handles this exception. Because a user program attempted an illegal, privileged action, the OS protects the system by terminating (aborting) the offending process. It then invokes the scheduler to dispatch a different process to the processor.</p></li><li><p data-path-to-node=\"2,2,0\"><b data-path-to-node=\"2,2,0\" data-index-in-node=\"0\">Why the others are incorrect:</b></p><ul data-path-to-node=\"2,2,1\"><li><p data-path-to-node=\"2,2,1,0,0\"><b data-path-to-node=\"2,2,1,0,0\" data-index-in-node=\"0\">A is incorrect:</b> If processors automatically switched to Kernel Mode for any privileged instruction, there would be no security; any user program could take full control of the machine.</p></li><li><p data-path-to-node=\"2,2,1,1,0\"><b data-path-to-node=\"2,2,1,1,0\" data-index-in-node=\"0\">B is incorrect:</b> Processors do not silently ignore illegal instructions, as doing so would cause the program to behave unpredictably and corrupt data.</p></li><li><p data-path-to-node=\"2,2,1,2,0\"><b data-path-to-node=\"2,2,1,2,0\" data-index-in-node=\"0\">D is incorrect:</b> The entire purpose of protecting privileged instructions is to prevent user-level errors from crashing the whole system. Only the corrupted process is killed; the OS remains stable.</p></li></ul></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/537864\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Assume $\\texttt{fork()}$ never fails. What will be the final value of \"$\\texttt{a}$\" as displayed in the final line of the program?</p><pre data-rawcode=\"int a = 0; for (int i = 0; i &lt; 4; i++) { &nbsp;&nbsp;&nbsp;&nbsp;if (fork() == 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;Hello!\\n&quot;); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a++; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exit(1); &nbsp;&nbsp;&nbsp;&nbsp;} else { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;Hello!\\n&quot;); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a++; &nbsp;&nbsp;&nbsp;&nbsp;} } printf(&quot;a is %d\\n&quot;, a);\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int a = 0;\nfor (int i = 0; i &lt; 4; i++) {\n&nbsp;&nbsp;&nbsp;&nbsp;if (fork() == 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"Hello!\\n\");\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a++;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exit(1);\n&nbsp;&nbsp;&nbsp;&nbsp;} else {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"Hello!\\n\");\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a++;\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}\nprintf(\"a is %d\\n\", a);</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Due to race conditions, &quot;$\\texttt{a}$&quot; may have different values on different runs of the program.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$4$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$8$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"538566\"></a><div itemprop=\"text\"><p>the fact to remember here is in fork() the code part get copied in both child and parent and exit() system call terrminates that process to which that applied on.<img alt=\"\" src=\"media/79/7919f2858def86ae2668.png\"><img alt=\"\" src=\"denied:blob:https://gateoverflow.in/6e3735e0-6ba2-4c84-a1d3-bc5296acd989\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543933\"></a><div itemprop=\"text\"><ol start=\"1\" data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">Initial State:</b> The original (parent) process starts with <code data-path-to-node=\"3,0,0\" data-index-in-node=\"57\">a = 0</code>.</p></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">The Loop Execution (i=0,1,2,3):</b></p><ul data-path-to-node=\"3,1,1\"><li><p data-path-to-node=\"3,1,1,0,0\"><b data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"0\">Child Branch (<code data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"14\">fork() == 0</code>):</b> When <code data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"33\">fork()</code> creates a child process, the child enters the <code data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"86\">if</code> block, prints <code data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"103\">\"Hello!\\n\"</code>, increments its local copy of <code data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"144\">a</code>, and then calls <b data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"162\"><code data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"162\">exit(1)</code></b>. This immediately terminates the child process before it ever reaches the final <code data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"250\">printf</code> statement.</p></li><li><p data-path-to-node=\"3,1,1,1,0\"><b data-path-to-node=\"3,1,1,1,0\" data-index-in-node=\"0\">Parent Branch (<code data-path-to-node=\"3,1,1,1,0\" data-index-in-node=\"15\">else</code>):</b> The parent process enters the <code data-path-to-node=\"3,1,1,1,0\" data-index-in-node=\"52\">else</code> block, prints <code data-path-to-node=\"3,1,1,1,0\" data-index-in-node=\"71\">\"Hello!\\n\"</code>, and increments its copy of <code data-path-to-node=\"3,1,1,1,0\" data-index-in-node=\"110\">a</code> (<code data-path-to-node=\"3,1,1,1,0\" data-index-in-node=\"113\">a++</code>).</p></li></ul></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">Counting the Parent's Increments:</b></p><ul data-path-to-node=\"3,2,1\"><li><p data-path-to-node=\"3,2,1,0,0\"><b data-path-to-node=\"3,2,1,0,0\" data-index-in-node=\"0\">Iteration 0 (i=0):</b> Parent executes <code data-path-to-node=\"3,2,1,0,0\" data-index-in-node=\"37\">else</code> → <code data-path-to-node=\"3,2,1,0,0\" data-index-in-node=\"54\">a</code> becomes <b data-path-to-node=\"3,2,1,0,0\" data-index-in-node=\"64\">1</b>.</p></li><li><p data-path-to-node=\"3,2,1,1,0\"><b data-path-to-node=\"3,2,1,1,0\" data-index-in-node=\"0\">Iteration 1 (i=1):</b> Parent executes <code data-path-to-node=\"3,2,1,1,0\" data-index-in-node=\"37\">else</code> → <code data-path-to-node=\"3,2,1,1,0\" data-index-in-node=\"54\">a</code> becomes <b data-path-to-node=\"3,2,1,1,0\" data-index-in-node=\"64\">2</b>.</p></li><li><p data-path-to-node=\"3,2,1,2,0\"><b data-path-to-node=\"3,2,1,2,0\" data-index-in-node=\"0\">Iteration 2 (i=2):</b> Parent executes <code data-path-to-node=\"3,2,1,2,0\" data-index-in-node=\"37\">else</code> → <code data-path-to-node=\"3,2,1,2,0\" data-index-in-node=\"54\">a</code> becomes <b data-path-to-node=\"3,2,1,2,0\" data-index-in-node=\"64\">3</b>.</p></li><li><p data-path-to-node=\"3,2,1,3,0\"><b data-path-to-node=\"3,2,1,3,0\" data-index-in-node=\"0\">Iteration 3 (i=3):</b> Parent executes <code data-path-to-node=\"3,2,1,3,0\" data-index-in-node=\"37\">else</code> → <code data-path-to-node=\"3,2,1,3,0\" data-index-in-node=\"54\">a</code> becomes <b data-path-to-node=\"3,2,1,3,0\" data-index-in-node=\"64\">4</b>.</p></li></ul></li><li><p data-path-to-node=\"3,3,0\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\">Final Output:</b> After the loop finishes 4 iterations, only the <b data-path-to-node=\"3,3,0\" data-index-in-node=\"61\">parent process</b> is still alive to reach line 12: <code data-path-to-node=\"3,3,0\" data-index-in-node=\"109\">printf(\"a is %d\\n\", a);</code>.</p></li></ol><p data-path-to-node=\"4\">Since memory spaces are separate between processes (child processes get a copy-on-write duplicate of the parent's memory), the child processes' modifications to <code data-path-to-node=\"4\" data-index-in-node=\"161\">a</code> do not affect the parent's <code data-path-to-node=\"4\" data-index-in-node=\"190\">a</code>, and all children exit early anyway.</p><p data-path-to-node=\"5\">Thus, the final line printed is: <b data-path-to-node=\"5\" data-index-in-node=\"33\"><code data-path-to-node=\"5\" data-index-in-node=\"33\">a is 4</code></b>.</p></div></section></div><p><a href=\"https://gateoverflow.in/537863\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>When a user-level process wishes to call a function inside the kernel, it directly jumps to the desired function.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A system call can only be called in kernel mode.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The OS may manipulate the contents of a Memory Management Unit.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Threads that are part of the same process share the same Program Counter.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"538570\"></a><div itemprop=\"text\"><p>answer is A,B,D<img alt=\"\" src=\"media/46/46860426c2c6557cc996.jpg\"><img alt=\"\" src=\"denied:blob:https://gateoverflow.in/257ebd24-e822-4c0e-93d2-eb8ec2384cc6\"><img alt=\"\" src=\"denied:blob:https://gateoverflow.in/4a5638dc-d72b-4de1-b661-6e5a231d36c4\"><img alt=\"\" src=\"denied:blob:https://gateoverflow.in/333b5801-fef0-49f8-90cc-a9a195f54016\"><img alt=\"\" src=\"denied:blob:https://gateoverflow.in/1bbb8dca-acc0-48c3-a17c-94181c0b0cfa\"></p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540317\"></a><div itemprop=\"text\"><ul><li data-path-to-node=\"0\">Option A is false because a user-level process cannot directly jump to a function inside the kernel.</li></ul><p data-path-to-node=\"0\">&nbsp;A direct jump instruction to kernel space would violate security , so the process must instead trigger a trap or software interrupt to let the kernel safely handle the switch.</p><ul><li data-path-to-node=\"1\">Option B is false because a system call is explicitly invoked from user mode by an unprivileged program when it needs to request services from the kernel.</li></ul><p data-path-to-node=\"1\">&nbsp;If a program were already running in kernel mode, it would execute kernel functions directly instead of making a system call wrapper invitation.</p><ul><li data-path-to-node=\"2\">Option C is true because the operating system kernel is completely responsible for configuring and modifying page tables and translation lookaside buffers inside the MMU</li></ul><p data-path-to-node=\"2\">This allows the OS to handle memory isolation and address translations securely.</p><ul><li data-path-to-node=\"3\">Option D is false because each individual thread inside the same process must track its own independent execution flow.&nbsp;</li></ul><p>Every thread contains its own unique program counter and set of registers so it can execute different parts of the code at the same time.</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543934\"></a><div itemprop=\"text\"><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">A. FALSE</b> — A user process cannot directly jump (<code data-path-to-node=\"3,0,0\" data-index-in-node=\"48\">jmp</code> / <code data-path-to-node=\"3,0,0\" data-index-in-node=\"54\">call</code>) to kernel memory address locations because user mode lacks privilege to execute arbitrary kernel memory. Instead, it must trigger a system call via a software interrupt or a dedicated trap instruction (like <code data-path-to-node=\"3,0,0\" data-index-in-node=\"267\">syscall</code> or <code data-path-to-node=\"3,0,0\" data-index-in-node=\"278\">sysenter</code>), passing the request through a well-defined kernel entry point (trap table).</p></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">B. FALSE</b> — System calls are initiated by user-level processes executing in <b data-path-to-node=\"3,1,0\" data-index-in-node=\"75\">user mode</b> to request services from the OS kernel. (Executing the system call instruction transitions the processor from user mode into kernel mode).</p></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">C. TRUE</b> — The OS manages memory page tables, TLBs, and base/bound registers, directly manipulating the MMU settings during context switches and page fault handling.</p></li><li><p data-path-to-node=\"3,3,0\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\">D. FALSE</b> — Each thread has its own independent execution flow, which means every thread maintains its <b data-path-to-node=\"3,3,0\" data-index-in-node=\"102\">own Program Counter (PC)</b>, stack, and register set, even though they share the process's overall address space.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/537862\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>A buggy thread may be able to overwrite variables belonging to another thread of the same process.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>On a context switch across threads of the same process, the general-purpose registers must be saved and restored.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Threads in the same process share the same $\\text{SP}$ (Stack Pointer).<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>User processes reference their address space with physical addresses.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A, B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540319\"></a><div itemprop=\"text\"><p data-path-to-node=\"8\">Option A is true because threads share the same global memory space, allowing a faulty thread to overwrite memory regions used by other threads in the same process.</p><p data-path-to-node=\"9\">Option B is true because saving and restoring general-purpose registers is absolutely necessary to preserve the independent CPU state of each thread during a context switch.</p><p data-path-to-node=\"10\">Option C is false because each thread possesses its own private stack and separate stack pointer to execute its functions independently without interfering with other threads.</p><p data-path-to-node=\"11\">Option D is false because user processes strictly reference their address space using virtual addresses, relying completely on hardware translation to map them to real physical addresses.</p><p data-path-to-node=\"12\">Therefore, the false options are C and D.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543935\"></a><div itemprop=\"text\"><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">A. TRUE</b> — Threads within the same process share the same global address space (heap, data segment, global variables). Because there is no memory isolation between threads of a single process, a buggy thread (e.g., via a wild pointer or stack overflow) can easily overwrite memory used by another thread.</p></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">B. TRUE</b> — When switching execution from one thread to another, the processor's general-purpose registers (including the stack pointer and program counter) contain computation state specific to the outgoing thread. These registers must be saved to the thread control block (TCB) and restored from the incoming thread's TCB.</p></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">C. FALSE</b> — Each thread must maintain its own call stack to manage function calls, local variables, and return addresses independently. Therefore, every thread has its <b data-path-to-node=\"3,2,0\" data-index-in-node=\"167\">own Stack Pointer (SP)</b>.</p></li><li><p data-path-to-node=\"3,3,0\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\">D. FALSE</b> — User processes operate using <b data-path-to-node=\"3,3,0\" data-index-in-node=\"40\">virtual addresses</b> generated by the CPU. The Memory Management Unit (MMU) translates these virtual addresses into physical addresses. User processes do not have direct access to physical address space for memory protection and virtualization reasons.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/537861\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are false regarding a single process and its threads?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>In an operating system environment that operates with User-Level threads only, with no Kernel-Level threads, the various threads associated with a single process all share a common context, including a common $\\text{PC}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The different threads associated with a single process all share a single processor context, i.e., the value of the Processor Status Word is the same for all such threads.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Thread creation takes more time than process creation.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Each thread associated with a single process has exclusive ownership of any files that it has opened; they are not available to other threads associated with the same process.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540321\"></a><div itemprop=\"text\"><p data-path-to-node=\"8\">Option A is false because every individual thread must possess its own unique program counter to execute code paths independently, regardless of whether it is managed at the user level or the kernel level.</p><p data-path-to-node=\"9\">Option B is false because the processor status word tracks the current hardware state , meaning each thread requires its own individual status storage during context switches.</p><p data-path-to-node=\"10\">Option C is false because threads are lightweight entities that share resources, making thread creation drastically faster and less resource-heavy than creating a brand new heavy process.</p><p data-path-to-node=\"11\">Option D is false because open files are shared process-wide resources, meaning no single thread holds exclusive ownership and any thread in the process can read or write to those files.</p><p data-path-to-node=\"12\">Therefore, the false options are A, B, C, and D.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543937\"></a><div itemprop=\"text\"><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">A. FALSE</b> — Even when using User-Level Threads (ULTs), each thread represents an independent flow of execution. The user-level thread library maintains a unique state for each thread, including its own <b data-path-to-node=\"3,0,0\" data-index-in-node=\"201\">Program Counter (PC)</b>, stack, and CPU registers. They do not share a single PC.</p></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">B. FALSE</b> — Threads within the same process execute different instructions independently and carry different computational states. Therefore, they do not share the same processor status word (PSW) or processor context; each thread maintains its own saved registers, condition flags, and status word.</p></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">C. FALSE</b> — Creating a thread is <b data-path-to-node=\"3,2,0\" data-index-in-node=\"32\">much faster</b> than creating a process. Process creation requires allocating new address space, page tables, and file descriptors, whereas thread creation simply allocates a new stack and Thread Control Block (TCB) within the existing process space.</p></li><li><p data-path-to-node=\"3,3,0\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\">D. FALSE</b> — Open file descriptors are resources owned at the <b data-path-to-node=\"3,3,0\" data-index-in-node=\"60\">process level</b>. All threads within the same process share access to open files and file tables, meaning any file opened by one thread is accessible to the other threads in that process.</p></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/537860\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following code segment. What is the total number of processes, including the initial process?</p><pre data-rawcode=\"#include&lt;stdlib.h&gt; #include&lt;stdio.h&gt; #include&lt;unistd.h&gt;  int main() {      &nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt; 10; i++) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (fork()) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fork(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fork(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fork(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;return 0; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">#include&lt;stdlib.h&gt;\n#include&lt;stdio.h&gt;\n#include&lt;unistd.h&gt;\n\nint main() {\n    \n&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i &lt; 10; i++) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (fork()) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fork();\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fork();\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fork();\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;return 0;\n}\n</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$4^{10}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$5^{10}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$6^{10}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$8^{10}$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"537859\"></a><div itemprop=\"text\">There are total $6^{10}$ processes. In each loop, there are $4$ $\\texttt{fork()}$ operations. The first $\\texttt{fork()}$ creates one child $(1)$. The second $\\texttt{fork()}$ create one child, the third fork create $1$ child, and the forth $\\texttt{fork()}$ create $2$ children. So after one loop there are $6$ processes from the initial $1$ process. And since there are $10$ loops, after this program totally there are $6^{10}$ processes.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"539325\"></a><div itemprop=\"text\">After the first iteration, 1 process becomes 6 processes. Since all 6 processes continue to execute the loop, each subsequent iteration again multiplies the current number of processes by 6.Option C is correct.</div></section></div><p><a href=\"https://gateoverflow.in/537858\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The $\\texttt{fork()}$ system call clones the calling process and overlays a new file image on the child process.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Threads from different processes can share the same address space.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Accessing a threads stack from a different thread raises a segmentation fault.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The child process may run concurrently with the parent process.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"540322\"></a><div itemprop=\"text\"><p data-path-to-node=\"4\">Option A is false because fork only duplicates the current process structure, while loading a new file image requires a separate exec system call.</p><p data-path-to-node=\"5\">Option B is false because different processes possess completely isolated address spaces, meaning their respective threads cannot share memory space.</p><p data-path-to-node=\"6\">Option C is false because all threads within the same process share a single address space, so accessing another thread's stack will not trigger a segmentation fault&nbsp;</p><p data-path-to-node=\"7\">Option D is true because once the child process is created, the operating system can schedule both the parent and child to run concurrently.</p><p data-path-to-node=\"8\">Therefore, the false options are A, B, and C.</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543942\"></a><div itemprop=\"text\"><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">A. FALSE</b></p><ul data-path-to-node=\"3,0,1\"><li><p data-path-to-node=\"3,0,1,0,0\"><code data-path-to-node=\"3,0,1,0,0\" data-index-in-node=\"0\">fork()</code> creates an exact duplicate (clone) of the calling process. Overlaying a new executable binary/file image onto a process is performed by the <b data-path-to-node=\"3,0,1,0,0\" data-index-in-node=\"147\"><code data-path-to-node=\"3,0,1,0,0\" data-index-in-node=\"147\">exec()</code></b> family of system calls, not <code data-path-to-node=\"3,0,1,0,0\" data-index-in-node=\"182\">fork()</code>.</p></li></ul></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">B. FALSE</b></p><ul data-path-to-node=\"3,1,1\"><li><p data-path-to-node=\"3,1,1,0,0\">Each process operates within its own isolated virtual address space. Threads belonging to <b data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"90\">different</b> processes do not share an address space; only threads belonging to the <b data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"171\">same</b> process share their memory address space.</p></li></ul></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">C. FALSE</b></p><ul data-path-to-node=\"3,2,1\"><li><p data-path-to-node=\"3,2,1,0,0\">Since all threads in the same process share the same address space, memory protection operates at the process level, not the individual thread stack level. If Thread A accesses an address located on Thread B's stack (e.g., via a shared pointer), the CPU/OS will allow it without raising a segmentation fault.</p></li></ul></li><li><p data-path-to-node=\"3,3,0\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\">D. TRUE</b></p><ul data-path-to-node=\"3,3,1\"><li><p data-path-to-node=\"3,3,1,0,0\">After a call to <code data-path-to-node=\"3,3,1,0,0\" data-index-in-node=\"16\">fork()</code>, both the parent and the child processes run concurrently unless the parent explicitly calls <code data-path-to-node=\"3,3,1,0,0\" data-index-in-node=\"116\">wait()</code> to suspend execution until the child finishes.</p></li></ul></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/537857\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider a system with two processes, $P_1$ and $P_2$. Process $P_1$ is running and process $P_2$ is ready to run. The operating system uses preemptive round-robin scheduling. Consider the situation in which $P_1$'s scheduling quantum is about to expire, and $P_2$ will be selected to run next.</p><p>List the sequence of events that will occur in this situation, in the order in which they will occur.</p><p>Create your list by choosing from the events shown below, using the event numbers to identify events.</p><p>For example, a valid answer might be: \"$75482$\". If an event occurs more than once, it may be included more than once.</p><ol><li>$P_1$'s user-level state is saved into a trap frame<br>&nbsp;</li><li>$P_2$'s user-level state is saved into a trap frame<br>&nbsp;</li><li>A timer interrupt occurs<br>&nbsp;</li><li>The operating systems scheduler runs<br>&nbsp;</li><li>There is a context switch from thread $T_1$ (from process $P_1$) to thread $T_2$ (from process $P_2$)<br>&nbsp;</li><li>$P_1$s user-level state is restored from a trap frame<br>&nbsp;</li><li>$P_2$s user-level state is restored from a trap frame<br>&nbsp;</li><li>A \"system call\" instruction is executed<br>&nbsp;</li><li>Thread $T_2$ (from process $P_2$) is created<br>&nbsp;</li><li>Thread $T_1$ (from process $P_1$) is destroyed</li></ol>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540323\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">The process begins when the hardware timer counts down to zero, meaning a timer interrupt occurs to signal that the current time slice has ended.</p><p data-path-to-node=\"1\">As soon as the hardware interrupt is triggered, the CPU automatically traps into kernel mode and the user-level state of the currently running process P1 is saved into a trap frame.</p><p data-path-to-node=\"2\">Once the system is safely in kernel mode and the old state is saved, the operating systems scheduler runs to inspect the ready queue and select the next process.</p><p data-path-to-node=\"3\">The scheduler decides to switch execution, leading to a context switch from thread T1 belonging to process P1 to thread T2 belonging to process P2.</p><p data-path-to-node=\"4\">Now that the execution context has officially switched to the new process, the kernel prepares to return to user space by ensuring P2s user-level state is restored from a trap frame.</p><p data-path-to-node=\"5\">final sequence: 31457</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543944\"></a><div itemprop=\"text\"><h3 data-path-to-node=\"2\"><b data-path-to-node=\"2\" data-index-in-node=\"0\">Step-by-Step Breakdown</b></h3><ol start=\"1\" data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\"><code data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">3</code> - A timer interrupt occurs</b></p><ul data-path-to-node=\"3,0,1\"><li><p data-path-to-node=\"3,0,1,0,0\">The hardware timer fires because P1​'s time quantum has expired.</p></li></ul></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\"><code data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">1</code> - P1​'s user-level state is saved into a trap frame</b></p><ul data-path-to-node=\"3,1,1\"><li><p data-path-to-node=\"3,1,1,0,0\">Upon the interrupt, the hardware/OS hardware-trap mechanism automatically saves P1​'s user-level CPU registers and program counter into a trap frame on P1​'s kernel stack.</p></li></ul></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\"><code data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">4</code> - The operating system scheduler runs</b></p><ul data-path-to-node=\"3,2,1\"><li><p data-path-to-node=\"3,2,1,0,0\">The interrupt handler invokes the OS scheduler to select the next process (P2​) to execute.</p></li></ul></li><li><p data-path-to-node=\"3,3,0\"><b data-path-to-node=\"3,3,0\" data-index-in-node=\"0\"><code data-path-to-node=\"3,3,0\" data-index-in-node=\"0\">5</code> - There is a context switch from thread T1​ (from process P1​) to thread T2​ (from process P2​)</b></p><ul data-path-to-node=\"3,3,1\"><li><p data-path-to-node=\"3,3,1,0,0\">The OS performs a kernel context switch, saving T1​'s kernel registers/stack pointer and restoring T2​'s kernel registers/stack pointer.</p></li></ul></li><li><p data-path-to-node=\"3,4,0\"><b data-path-to-node=\"3,4,0\" data-index-in-node=\"0\"><code data-path-to-node=\"3,4,0\" data-index-in-node=\"0\">7</code> - P2​'s user-level state is restored from a trap frame</b></p><ul data-path-to-node=\"3,4,1\"><li><p data-path-to-node=\"3,4,1,0,0\">As the kernel completes the switch into process P2​'s context, it returns from the trap handler by restoring P2​'s user-level register state from P2​'s trap frame, resuming user-space execution of P2​.</p></li></ul></li></ol></div></section></div><p><a href=\"https://gateoverflow.in/537856\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose that an operating system uses preemptive round-robin scheduling with a scheduling quantum of $500$ milliseconds. The hardware clock generates timer interrupts once every millisecond. Suppose that a process $P$ is scheduled to run and is dispatched. During its quantum, $P$ makes no system calls. However, address translation exceptions due to TLB misses occur once every $10$ milliseconds while $P$ is running.<br>\n<br>\nHow many times during its quantum does process $P$'s thread enter the kernel?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"537855\"></a><div itemprop=\"text\">Each exception and interrupt causes control to enter the kernel. There will be $500$ timer interrupts during $P$’s quantum, and there will be $500/10 = 50$ address translation exceptions, for a total of $550$ kernel entries.</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543950\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">To find the total number of times process P's thread enters the kernel during its time quantum, we need to account for all events that trigger a mode switch from user mode to kernel mode: <b data-path-to-node=\"0\" data-index-in-node=\"188\">hardware interrupts</b>, <b data-path-to-node=\"0\" data-index-in-node=\"209\">exceptions</b>, and <b data-path-to-node=\"0\" data-index-in-node=\"225\">system calls</b>.</p><h3 data-path-to-node=\"2\">Step-by-Step Breakdown</h3><ol start=\"1\" data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\"><b data-path-to-node=\"3,0,0\" data-index-in-node=\"0\">Timer Interrupts:</b></p><ul data-path-to-node=\"3,0,1\"><li><p data-path-to-node=\"3,0,1,0,0\"><b data-path-to-node=\"3,0,1,0,0\" data-index-in-node=\"0\">Frequency:</b> 1 interrupt every 1&nbsp;ms.</p></li><li><p data-path-to-node=\"3,0,1,1,0\"><b data-path-to-node=\"3,0,1,1,0\" data-index-in-node=\"0\">Total during quantum (500&nbsp;ms):</b></p><p>500&nbsp;ms / 1&nbsp;ms​=500&nbsp;times</p></li></ul></li><li><p data-path-to-node=\"3,1,0\"><b data-path-to-node=\"3,1,0\" data-index-in-node=\"0\">TLB Miss Exceptions:</b></p><ul data-path-to-node=\"3,1,1\"><li><p data-path-to-node=\"3,1,1,0,0\"><b data-path-to-node=\"3,1,1,0,0\" data-index-in-node=\"0\">Frequency:</b> 1 exception every 10&nbsp;ms.</p></li><li><p data-path-to-node=\"3,1,1,1,0\"><b data-path-to-node=\"3,1,1,1,0\" data-index-in-node=\"0\">Total during quantum (500&nbsp;ms):</b></p><p>500&nbsp;ms / 10&nbsp;ms​=50&nbsp;times</p></li></ul></li><li><p data-path-to-node=\"3,2,0\"><b data-path-to-node=\"3,2,0\" data-index-in-node=\"0\">System Calls:</b></p><ul data-path-to-node=\"3,2,1\"><li><p data-path-to-node=\"3,2,1,0,0\"><b data-path-to-node=\"3,2,1,0,0\" data-index-in-node=\"0\">Total during quantum:</b> 0&nbsp;times (as stated in the problem).</p></li></ul></li></ol><h3 data-path-to-node=\"5\">Total Kernel Entries</h3><p data-path-to-node=\"6\">Adding all the trap/interrupt events together:</p><p>Total&nbsp;Entries=Timer&nbsp;Interrupts+TLB&nbsp;Misses+System&nbsp;Calls</p><p>Total&nbsp;Entries=500+50+0=550</p><p data-path-to-node=\"9\">Process P's thread enters the kernel <b data-path-to-node=\"9\" data-index-in-node=\"37\">550 times</b> during its quantum.</p></div></section></div><p><a href=\"https://gateoverflow.in/537854\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 17,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Which of the following is/are false?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The only reason to isolate the kernel from users is security.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A system call is an interrupt.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>System calls can be interrupted.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\texttt{strcmp()}$ is a system call.</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"539327\"></a><div itemprop=\"text\"><p>Option A: False because&nbsp;Other reasons include:</p><ul data-start=\"211\" data-end=\"402\"><li data-section-id=\"x7p10i\" data-start=\"211\" data-end=\"270\">Protecting the operating system from buggy user programs.</li><li data-section-id=\"2ms136\" data-start=\"271\" data-end=\"315\">Ensuring system stability and reliability.</li><li data-section-id=\"1lqq14g\" data-start=\"316\" data-end=\"368\">Preventing accidental corruption of kernel memory.</li><li data-section-id=\"16iwiyq\" data-start=\"369\" data-end=\"402\">Enforcing privilege separation</li></ul><div>Option B: False bcz&nbsp;<p data-start=\"490\" data-end=\"628\">A system call is <strong data-start=\"507\" data-end=\"527\">not an interrupt</strong>. It is a <strong data-start=\"537\" data-end=\"574\">software-generated trap/exception</strong> that transfers control from user mode to kernel mode.Interrupt is generated by hardware like keyboard,mouse,timer</p><p data-start=\"490\" data-end=\"628\">Option C : True</p><p data-start=\"490\" data-end=\"628\">Option D : False bcz it compares to strings&nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540324\"></a><div itemprop=\"text\"><p data-path-to-node=\"4\">Option A is false because security is not the sole reason for kernel isolation.</p><p data-path-to-node=\"5\">Option B is false because system calls are traps rather than asynchronous hardware interrupts.</p><p data-path-to-node=\"6\">Option C is true because kernel execution can be paused by interrupts.</p><p data-path-to-node=\"7\">Option D is false because strcmp is a basic user-level library function.</p><p data-path-to-node=\"8\">Therefore, the false options are A, B, and D.</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543952\"></a><div itemprop=\"text\"><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\">A. \"The only reason to isolate the kernel from users is security.\" — FALSE</b></p><ul data-path-to-node=\"4,0,1\"><li><p data-path-to-node=\"4,0,1,0,0\">While security (preventing malicious programs from gaining unauthorized access) is a key reason, it is <b data-path-to-node=\"4,0,1,0,0\" data-index-in-node=\"103\">not the only reason</b>. Isolation also ensures <b data-path-to-node=\"4,0,1,0,0\" data-index-in-node=\"147\">reliability and fault containment</b> (preventing a buggy user application from crashing the entire operating system) and provides clean hardware abstraction.</p></li></ul></li><li><p data-path-to-node=\"4,1,0\"><b data-path-to-node=\"4,1,0\" data-index-in-node=\"0\">B. \"A system call is an interrupt.\" — FALSE</b></p><ul data-path-to-node=\"4,1,1\"><li><p data-path-to-node=\"4,1,1,0,0\">Strictly speaking, an interrupt is an <b data-path-to-node=\"4,1,1,0,0\" data-index-in-node=\"38\">asynchronous hardware signal</b> generated by external devices (e.g., keyboard, network card, timer). A system call is a <b data-path-to-node=\"4,1,1,0,0\" data-index-in-node=\"155\">synchronous software request</b> generated by a running program using a trap or system call instruction (<code data-path-to-node=\"4,1,1,0,0\" data-index-in-node=\"256\">syscall</code>/<code data-path-to-node=\"4,1,1,0,0\" data-index-in-node=\"264\">sysenter</code>). While sometimes loosely termed a \"software interrupt,\" they are conceptually distinct mechanisms.</p></li></ul></li><li><p data-path-to-node=\"4,2,0\"><b data-path-to-node=\"4,2,0\" data-index-in-node=\"0\">C. \"System calls can be interrupted.\" — TRUE</b></p><ul data-path-to-node=\"4,2,1\"><li><p data-path-to-node=\"4,2,1,0,0\">When CPU is executing code inside a system call in kernel mode, hardware interrupts (such as a timer interrupt or disk I/O completion interrupt) can still occur and temporarily preempt the kernel execution (unless interrupts are explicitly masked/disabled in a critical section).</p></li></ul></li><li><p data-path-to-node=\"4,3,0\"><b data-path-to-node=\"4,3,0\" data-index-in-node=\"0\">D. <code data-path-to-node=\"4,3,0\" data-index-in-node=\"3\">strcmp()</code> is a system call. — FALSE</b></p><ul data-path-to-node=\"4,3,1\"><li><p data-path-to-node=\"4,3,1,0,0\"><code data-path-to-node=\"4,3,1,0,0\" data-index-in-node=\"0\">strcmp()</code> is a standard <b data-path-to-node=\"4,3,1,0,0\" data-index-in-node=\"23\">C library function</b> (<code data-path-to-node=\"4,3,1,0,0\" data-index-in-node=\"43\">&lt;string.h&gt;</code>). It performs simple character-by-character string comparison in <b data-path-to-node=\"4,3,1,0,0\" data-index-in-node=\"119\">user space</b> and does not require kernel intervention or system calls.</p></li></ul></li></ul><h3 data-path-to-node=\"6\">&nbsp;</h3></div></section></div><p><a href=\"https://gateoverflow.in/537853\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following two programs. $\\texttt{waitpid()}$ makes a parent process wait for a specific child process (given by $\\text{PID}$) to finish execution.</p><pre data-rawcode=\"// Program A  int x = 5;  int main() {  &nbsp;&nbsp;&nbsp;&nbsp;int pid = fork();  &nbsp;&nbsp;&nbsp;&nbsp;if (pid == 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 2; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execv(&quot;B&quot;, &quot;2&quot;); &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;else { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;waitpid(pid); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;%d&quot;, x); &nbsp;&nbsp;&nbsp;&nbsp;} }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">// Program A\n\nint x = 5;\n\nint main() {\n\n&nbsp;&nbsp;&nbsp;&nbsp;int pid = fork();\n\n&nbsp;&nbsp;&nbsp;&nbsp;if (pid == 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 2;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execv(\"B\", \"2\");\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;else {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;waitpid(pid);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;}\n}\n</pre><pre data-rawcode=\"// Program B  int x = 0;  int main(int argv, char **argc) {  &nbsp;&nbsp;&nbsp;&nbsp;int pid = fork();  &nbsp;&nbsp;&nbsp;&nbsp;if (pid == 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execv(&quot;B&quot;, &quot;1&quot;); &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;else { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;waitpid(pid); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;%d&quot;, x); &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;return 1; }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">// Program B\n\nint x = 0;\n\nint main(int argv, char **argc) {\n\n&nbsp;&nbsp;&nbsp;&nbsp;int pid = fork();\n\n&nbsp;&nbsp;&nbsp;&nbsp;if (pid == 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execv(\"B\", \"1\");\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;else {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;waitpid(pid);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%d\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;return 1;\n}</pre><p><br>Which of the following is the output when Program $\\text{A}$ is executed?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$0000...$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$50000...$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$05$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>No output is produced</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540327\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">When Program A starts executing, a global variable x is initialized to 5.</p><p data-path-to-node=\"1\">The main function calls fork, which clones the process into a parent process and a child process.</p><p data-path-to-node=\"2\">For the parent process, fork returns the child's PID, moving execution directly into the else block.</p><p data-path-to-node=\"3\">Inside the else block, the parent hits waitpid(pid), forcing it to block and wait until that specific child process fully finishes execution.</p><p data-path-to-node=\"4\">Meanwhile, the child process enters the if block because its pid value is 0.</p><p data-path-to-node=\"5\">The child updates its own local copy of x to 2, which does not affect the parent's copy of x due to separate process address spaces.</p><p data-path-to-node=\"6\">The child then calls execv(\"B\", \"2\"), which completely overwrites the child process image with the executable Program B.</p><p data-path-to-node=\"7\">Program B starts executing from its own main function, which initializes its own global variable x to 0.</p><p data-path-to-node=\"8\">Inside Program B, fork is called again, splitting this child process into a nested sub-parent and a nested sub-child.</p><p data-path-to-node=\"9\">The nested sub-child enters the if block and calls execv(\"B\", \"1\"), loading a new instance of Program B that forks yet again.</p><p data-path-to-node=\"10\">This creates an infinite chain of forks and exec calls because the child branch of Program B always invokes execv(\"B\", \"1\"), meaning the execution path inside the child processes never terminates.</p><p data-path-to-node=\"11\">Because this sequence of child processes continues to fork infinitely without ever exiting, the original child process of Program A never terminates.</p><p data-path-to-node=\"12\">Since the original child never terminates, the parent process of Program A remains blocked inside the waitpid(pid) system call.</p><p data-path-to-node=\"13\">As a result, the parent process never proceeds to the next line to execute printf(\"%d\", x).</p><p data-path-to-node=\"14\">Because the parent is stuck indefinitely and the child processes only perform forks and execs without any print statements, no output is ever written to the console.</p><p data-path-to-node=\"15\">Therefore, option D is the correct choice..</p></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"543954\"></a><div itemprop=\"text\"><p data-start=\"0\" data-end=\"46\"><span data-start=\"2\" data-end=\"46\">&nbsp;</span><strong data-start=\"2\" data-end=\"46\">Correct answer: D. No output is produced</strong></p><p data-start=\"48\" data-end=\"59\">Here's why:</p><h3 data-section-id=\"fjvk8j\" data-start=\"61\" data-end=\"74\">Program A</h3><p data-start=\"75\" data-end=\"90\">After <code data-start=\"81\" data-end=\"89\">fork()</code>:</p><ul data-start=\"92\" data-end=\"209\"><li data-section-id=\"19leyo5\" data-start=\"92\" data-end=\"157\">The <strong data-start=\"98\" data-end=\"108\">parent</strong> calls <code data-start=\"115\" data-end=\"129\">waitpid(pid)</code>, so it waits for the child.</li><li data-section-id=\"1xjgzs5\" data-start=\"158\" data-end=\"209\">The <strong data-start=\"164\" data-end=\"173\">child</strong> executes Program B using <code data-start=\"199\" data-end=\"208\">execv()</code>.</li></ul><h3 data-section-id=\"fjvk8g\" data-start=\"211\" data-end=\"224\">Program B</h3><p data-start=\"225\" data-end=\"253\"><code data-start=\"225\" data-end=\"228\">x</code> is initialized to <strong data-start=\"247\" data-end=\"252\">0</strong>.</p><p data-start=\"255\" data-end=\"284\">Then B does another <code data-start=\"275\" data-end=\"283\">fork()</code>:</p><ul data-start=\"286\" data-end=\"382\"><li data-section-id=\"1hm0jsf\" data-start=\"286\" data-end=\"327\">The child again executes <strong data-start=\"313\" data-end=\"326\">Program B</strong>.</li><li data-section-id=\"thrsfn\" data-start=\"328\" data-end=\"382\">The parent waits for that child before printing <code data-start=\"378\" data-end=\"381\">x</code>.</li></ul><p data-start=\"384\" data-end=\"410\">This repeats indefinitely:</p><p>B→B→B→⋯</p><p data-start=\"468\" data-end=\"553\">Since every parent waits for its child, <strong data-start=\"508\" data-end=\"552\">none of them ever reaches the <code data-start=\"540\" data-end=\"550\">printf()</code></strong>.</p><p data-start=\"555\" data-end=\"565\">Therefore:</p><p>D.&nbsp;No&nbsp;output&nbsp;is&nbsp;produced​</p></div></section></div><p><a href=\"https://gateoverflow.in/537852\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 19,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>For the program shown below, what output would be printed when it runs? Assume that all function, library, and system calls are successful. $\\texttt{WEXITSTATUS(status)}$ just gets the exit code portion of the status variable.</p><pre data-rawcode=\"int x = 42;  main() { &nbsp;&nbsp;&nbsp;&nbsp;int rc, status; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;rc = fork(); &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;if (rc == 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;func1(); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_exit(1); &nbsp;&nbsp;&nbsp;&nbsp;} else { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rc = waitpid(rc, &amp;status, 0); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;R: %d&quot;, WEXITSTATUS(status)); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;M: %d\\n&quot;, x); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 100; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;P: %d\\n&quot;, x); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_exit(2); &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;func2(); }   void func1() { &nbsp;&nbsp;&nbsp;&nbsp;int rc, status; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;T: %d\\n&quot;, x); &nbsp;&nbsp;&nbsp;&nbsp;x = 10; &nbsp;&nbsp;&nbsp;&nbsp;rc = fork(); &nbsp;&nbsp;&nbsp;&nbsp;if (rc == 0) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 50; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;Q: %d\\n&quot;, x); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_exit(3); &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;rc = waitpid(rc, &amp;status, 0); &nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;A: %d\\n&quot;, x); &nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;D: %d&quot;, WEXITSTATUS(status)); &nbsp;&nbsp;&nbsp;&nbsp;_exit(4); }   void func2() { &nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;C: %d\\n&quot;, x); }\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" data-linenums=\"true\" class=\"prettyprint linenums lang-c_cpp\">int x = 42;\n\nmain()\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int rc, status;\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;rc = fork();\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;if (rc == 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;func1();\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_exit(1);\n&nbsp;&nbsp;&nbsp;&nbsp;} else {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rc = waitpid(rc, &amp;status, 0);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"R: %d\", WEXITSTATUS(status));\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"M: %d\\n\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 100;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"P: %d\\n\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_exit(2);\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;func2();\n}\n\n\nvoid func1()\n{\n&nbsp;&nbsp;&nbsp;&nbsp;int rc, status;\n&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"T: %d\\n\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;x = 10;\n&nbsp;&nbsp;&nbsp;&nbsp;rc = fork();\n&nbsp;&nbsp;&nbsp;&nbsp;if (rc == 0) {\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x = 50;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"Q: %d\\n\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_exit(3);\n&nbsp;&nbsp;&nbsp;&nbsp;}\n&nbsp;&nbsp;&nbsp;&nbsp;rc = waitpid(rc, &amp;status, 0);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"A: %d\\n\", x);\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"D: %d\", WEXITSTATUS(status));\n&nbsp;&nbsp;&nbsp;&nbsp;_exit(4);\n}\n\n\nvoid func2()\n{\n&nbsp;&nbsp;&nbsp;&nbsp;printf(\"C: %d\\n\", x);\n}</pre>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{T: 42, Q: 50}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{A: 10, D: 3}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{R: 4, M: 42}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\text{P: 100, C: never gets printed}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"540328\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">The program defines a global variable x initialized to 42 and starts executing inside the main function.</p><p data-path-to-node=\"1\">The main function calls its first fork, splitting the execution into a main parent process and a main child process.</p><p data-path-to-node=\"2\">The main child process gets a return value of rc = 0, enters the if block, and immediately calls the function func1.</p><p data-path-to-node=\"3\">Inside func1, the main child process hits the first print statement, outputting the current value of the global variable x, which gives:</p><p data-path-to-node=\"3\">T: 42</p><p data-path-to-node=\"4\">Next, the main child process updates its local copy of x to 10 and executes another fork call, creating a nested grandchild process.</p><p data-path-to-node=\"5\">For this newly created grandchild process, the fork return value is rc = 0, so it enters the inner if block inside func1.</p><p data-path-to-node=\"6\">The grandchild process changes its private copy of x to 50, prints this value, and then completely terminates using the exit command, outputting:</p><p data-path-to-node=\"6\">Q: 50</p><p data-path-to-node=\"7\">This exit call inside the grandchild returns an exit code status of 3 to its creator.</p><p data-path-to-node=\"8\">Meanwhile, the main child process skips the inner if block because its fork return value is the positive process ID of the grandchild.</p><p data-path-to-node=\"9\">The main child process hits waitpid to wait for its grandchild to finish, uses the exit status code of 3, and moves to the next print lines.</p><p data-path-to-node=\"10\">It prints its current value of x, followed by the exit code from the grandchild process, outputting:</p><p data-path-to-node=\"10\">A: 10</p><p data-path-to-node=\"10\">D: 3</p><p data-path-to-node=\"11\">Right after these prints, the main child process executes an exit call with a status value of 4, meaning it never returns to the main function or reaches func2.</p><p data-path-to-node=\"12\">Because the main child process exited inside func1 with status 4, it never executes the exit(1) line right after the func1 call in main.</p><p data-path-to-node=\"13\">Now switching to the main parent process, it skips the initial main if block because its rc value is positive, and it immediately blocks at waitpid waiting for the main child to finish.</p><p data-path-to-node=\"14\">Once the main child process exits with status 4, the main parent unblocks and uses this exit status.</p><p data-path-to-node=\"15\">The main parent process executes its print statements using the status 4 and its own unchanged global variable x = 42, outputting:</p><p data-path-to-node=\"15\">R: 4</p><p data-path-to-node=\"15\">M: 42</p><p data-path-to-node=\"16\">Next, the main parent changes its local variable x to 100, prints it, and exits with a status of 2, outputting:</p><p data-path-to-node=\"16\">P: 100</p><p data-path-to-node=\"17\">Because the main parent process exits right here inside the else block, it also never reaches the func2 call at the bottom of the main function.</p><p data-path-to-node=\"18\">Since neither the main parent nor the main child ever executes func2, the print statement containing C is completely bypassed and never outputs anything to the console.</p><p data-path-to-node=\"19\">&nbsp;options A, B, C, and D are all correct individual statements regarding the expected behavior of this program.</p></div></section></div><p><a href=\"https://gateoverflow.in/537851\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 20,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What are some things that can cause a transfer from user mode to kernel mode?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>User code divides by zero.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>A packet is received from the network.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The application uses $\\texttt{malloc()}$ to allocate memory from the heap.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The timer goes off.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"539241\"></a><div itemprop=\"text\"><p><u><em><strong>OPTION A&nbsp; : (TRUE)</strong></em></u></p><p>This triggers a synchronous <b data-path-to-node=\"3,0,0\" data-index-in-node=\"68\">exception</b> (specifically a fault). The CPU hardware detects the invalid operation and immediately traps into the kernel to handle the error</p><p><u><em><strong>OPTION B : (TRUE)</strong></em></u><br>This triggers an <b data-path-to-node=\"3,1,0\" data-index-in-node=\"82\">hardware interrupt&nbsp; ,&nbsp;</b>This hardware interrupt is send by the NIC (Network interface card) making CPU to swtich to kernel mode and run the interrupt handler and push the packet up the OS network stack&nbsp;<br><br><u><em><strong>OPTION C : (TRUE , in one case)</strong></em></u><br>Reference :<u><em> \"<a href=\"https://stackoverflow.com/questions/5716100/what-happens-in-the-kernel-during-malloc\" &nbsp;\"=\"\" rel=\"nofollow\" target=\"_blank\">https://stackoverflow.com/questions/5716100/what-happens-in-the-kernel-during-malloc\"&nbsp;</a></em></u>&nbsp;(<u><em><strong>and few other articles</strong></em></u>)</p><p>1)&nbsp;When user space applications call&nbsp;<code>malloc()</code>, that call isn't implemented in the kernel. Instead,<em><strong> it's a library call</strong></em> (implemented glibc or similar).</p><p>2)&nbsp;<code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 400; margin: 0px; text-decoration: none; border-bottom: 0.75px solid rgb(44, 46, 53);\">malloc&nbsp;</code>manages a pool of memory your process already owns (the heap). If there is enough free space in this pool, <code dir=\"ltr\" data-sfc-root=\"ep\" data-sfc-cb=\"\" data-copy-service-computed-style=\"font-family: monospace; font-size: 14px; font-weight: 400; margin: 0px; text-decoration: none; border-bottom: 0.75px solid rgb(44, 46, 53);\">malloc</code>&nbsp;simply assigns an address to your pointer and returns in user mode.</p><p>3)The short version is that the&nbsp;<code>malloc</code>&nbsp;implementation in glibc either obtains memory from the&nbsp;<code>brk()</code>/<code>sbrk()</code>&nbsp;system call or anonymous memory via&nbsp;<code>mmap()</code>. This gives glibc a big contiguous (regarding virtual memory addresses) chunk of memory, which the&nbsp;<code>malloc</code>&nbsp;implementation further slices and dices in smaller chunks and hands out to your application.</p><p>Kernel Mode (Transition required): If the internal memory pool is empty or cannot satisfy the size requested, the allocator must ask the OS for more memory. It does this by triggering a system call (like brk or mmap), which temporarily switches the CPU from user mode to kernel mode to allocate the memory and then switches back.</p><ol><li><code>malloc()</code>&nbsp;will search its managed pieces of memory to see if there's a piece of unused memory that satisfy the allocation requirements.</li><li>Failing that,&nbsp;<code>malloc()</code>&nbsp;will try to extend the process data segment(via&nbsp;<code>sbrk()</code>/<code>brk()</code>&nbsp;or in some cases&nbsp;<code>mmap()</code>).&nbsp;<br><br><u><em><strong><code>sbrk()</code>&nbsp;ends up in the kernel.</strong></em></u></li></ol><div><b><i><u>OPTION D:</u></i></b><br>This is also an <em><b data-path-to-node=\"3,2,0\" data-index-in-node=\"62\">hardware interrupt ,&nbsp;</b></em>considering a possibility , if interrupts are allowed , yes a timer going off raises an interrupt and hence making it to swtich to kernel mode .&nbsp;</div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"537850\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-alpha\"><li> TRUE. Integer divide by zero causes a divide by zero trap and enters the kernel through the appropriate entry in the interrupt vector.<br>\n<br> </li><li> TRUE. Reception of packets from the network can generate interrupts, which force a transition from user mode to kernel mode to handle the incoming packets.<br>\n<br> </li> <li>TRUE. Calls to $\\texttt{malloc()}$ data on the heap, which can enter the kernel to ask for more memory (via the $\\texttt{sbrk()}$ system call) to be assigned to the part of the address space assigned to the heap.<br>\n<br> </li>  <li>TRUE. The timer generates an interrupt, which causes a transition from user mode to kernel mode.  </li></ol></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"543958\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\"><b data-path-to-node=\"0\" data-index-in-node=\"0\">All of the options (A, B, C, and D)</b> can cause a transfer from user mode to kernel mode!</p><p data-path-to-node=\"1\">Here is why each option triggers a mode switch:</p><h3 data-path-to-node=\"3\">Detailed Breakdown</h3><ul data-path-to-node=\"4\"><li><p data-path-to-node=\"4,0,0\"><b data-path-to-node=\"4,0,0\" data-index-in-node=\"0\">A. User code divides by zero:</b></p><ul data-path-to-node=\"4,0,1\"><li><p data-path-to-node=\"4,0,1,0,0\"><b data-path-to-node=\"4,0,1,0,0\" data-index-in-node=\"0\">Mechanism:</b> <b data-path-to-node=\"4,0,1,0,0\" data-index-in-node=\"11\">CPU Exception / Trap</b></p></li><li><p data-path-to-node=\"4,0,1,1,0\"><b data-path-to-node=\"4,0,1,1,0\" data-index-in-node=\"0\">Reason:</b> Division by zero causes a CPU hardware exception, which automatically triggers a switch to kernel mode so the operating system's exception handler can process or terminate the offending thread.</p></li></ul></li><li><p data-path-to-node=\"4,1,0\"><b data-path-to-node=\"4,1,0\" data-index-in-node=\"0\">B. A packet is received from the network:</b></p><ul data-path-to-node=\"4,1,1\"><li><p data-path-to-node=\"4,1,1,0,0\"><b data-path-to-node=\"4,1,1,0,0\" data-index-in-node=\"0\">Mechanism:</b> <b data-path-to-node=\"4,1,1,0,0\" data-index-in-node=\"11\">Hardware Interrupt</b></p></li><li><p data-path-to-node=\"4,1,1,1,0\"><b data-path-to-node=\"4,1,1,1,0\" data-index-in-node=\"0\">Reason:</b> The Network Interface Card (NIC) raises an external hardware interrupt to inform the CPU that new packet data has arrived, forcing a context transition into the kernel to handle the incoming packet.</p></li></ul></li><li><p data-path-to-node=\"4,2,0\"><b data-path-to-node=\"4,2,0\" data-index-in-node=\"0\">C. The application uses <code data-path-to-node=\"4,2,0\" data-index-in-node=\"24\">malloc()</code> to allocate memory from the heap:</b></p><ul data-path-to-node=\"4,2,1\"><li><p data-path-to-node=\"4,2,1,0,0\"><b data-path-to-node=\"4,2,1,0,0\" data-index-in-node=\"0\">Mechanism:</b> <b data-path-to-node=\"4,2,1,0,0\" data-index-in-node=\"11\">System Call</b></p></li><li><p data-path-to-node=\"4,2,1,1,0\"><b data-path-to-node=\"4,2,1,1,0\" data-index-in-node=\"0\">Reason:</b> If <code data-path-to-node=\"4,2,1,1,0\" data-index-in-node=\"11\">malloc()</code> needs more memory than is currently available in the process's pre-allocated heap pool, it makes an underlying system call (like <code data-path-to-node=\"4,2,1,1,0\" data-index-in-node=\"149\">brk()</code> or <code data-path-to-node=\"4,2,1,1,0\" data-index-in-node=\"158\">mmap()</code>) to request additional pages from the OS kernel.</p></li></ul></li><li><p data-path-to-node=\"4,3,0\"><b data-path-to-node=\"4,3,0\" data-index-in-node=\"0\">D. The timer goes off:</b></p><ul data-path-to-node=\"4,3,1\"><li><p data-path-to-node=\"4,3,1,0,0\"><b data-path-to-node=\"4,3,1,0,0\" data-index-in-node=\"0\">Mechanism:</b> <b data-path-to-node=\"4,3,1,0,0\" data-index-in-node=\"11\">Hardware Interrupt</b></p></li><li><p data-path-to-node=\"4,3,1,1,0\"><b data-path-to-node=\"4,3,1,1,0\" data-index-in-node=\"0\">Reason:</b> The programmable interval timer periodically sends a hardware interrupt to the CPU. This transfers control to kernel mode to perform task scheduling, update system time, and enforce time-slicing.</p></li></ul></li></ul></div></section></div><p><a href=\"https://gateoverflow.in/537849\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 35.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 20
+  }
+ ],
+ "stats": {
+  "questions": 20,
+  "maxMarks": 16,
+  "types": {
+   "NAT": 5,
+   "MCQ": 5,
+   "MSQ": 10
+  },
+  "withoutKey": 11
+ }
+}

@@ -1,0 +1,525 @@
+{
+ "v": 1,
+ "id": "ee-easy-2027-038",
+ "title": "GATE 2027-Topicwise Test-17 (EMI -1)",
+ "sourceTitle": "GATE 2027-Topicwise Test-17 (EMI -1)",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2027 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2027",
+ "num": 38,
+ "category": "topicwise",
+ "year": "2027",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2027 Online Test Series - Electrical Engineering | Questions: 17 | Marks: 25 | Status: completed | Generated: 2026-08-17T04:46:41.980906+00:00",
+  "package": "GATE 2027 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE 2027 Online Test Series - Electrical Engineering/057_GATE 2027-Topicwise Test-17 (EMI -1).html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>The result of ratio of the readings of two wattmeters connected to measure power in a balanced&nbsp;3-phase, 3-wire load is &lsquo;<em>r</em>&rsquo;. The load is known to be inductive with a lagging power factor. The&nbsp;power factor of the load is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/6f/6f8df7148a19d4cefc29.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/11/11706d07e740b8e74221.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/4d/4d1c630a88316ee934fc.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/d2/d23019ddfdf8fa6a487d.png\"></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/45/450b4ceba6cc73101952.png\"></p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A single phase energy meter of the induction type is rated 230 V, 10 A, 50 Hz and has a meter&nbsp;constant of 600 rev/kWh when correctly adjusted. If quadrature adjustment is slightly disturbed&nbsp;so that the lag is 85&deg;, the Percentage error at full load, 0.8 power factor lagging is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>&ndash;5.5%</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>&ndash;6.9%</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>&ndash;9.3%</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>&ndash;1.3%</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/75/751f99acca0c4ebd635c.png\"></p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>Two wattmeters connected to measure the power in a 3-phase balanced delta connected load&nbsp;read <em>W</em><sub>1</sub> = 12 kW and <em>W</em><sub>2</sub> = 15 kW respectively. If the same load is reconnected in star, then the&nbsp;wattmeters would read</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p><img src=\"media/f4/f46bb9a541eb943ca9bd.png\"></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p><img src=\"media/44/442c20b0feae0b1d3fb7.png\"></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p><img src=\"media/59/59bdb6a6cebfeb3198c3.png\"></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p><img src=\"media/22/2279550f56d98e4092b3.png\"></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/5c/5c5a75375d0c108faf04.png\"></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Three identical wattmeters <em>W<sub>R</sub></em> , <em>W<sub>y</sub></em> and <em>W<sub><span style=\"color: #000000;\">B </span></sub></em>are connected to measure power in a balanced load&nbsp;supplied from a 3-phase balanced source. The current coils of the wattmeters carry their respective&nbsp;line currents, and the voltage circuits are connected between the respective supply terminals and&nbsp;common junction 'S'. When 'S' is free each wattmeter reads 2500 W. When 'S' is connected to the&nbsp;R terminal the reading of <em>W<sub>y</sub></em> is unchanged. The two connections schemes are shown below, the&nbsp;corresponding reading of <em>W<sub>B</sub> </em>and the power factor of the load.<br>(Assume the phase sequence to be <em>R-Y-B</em> and ignore instrument losses)</p>\n<p>&nbsp;</p>\n<p><img src=\"media/b6/b63536d4880df5620906.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>5000 W, 0.86 lag</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4000 W, 0.6 lag</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>5000 W, 0.86 lead</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>4000 W, 0.86 lead</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/4a/4a020868e82de4cbc480.png\"></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>It is desired to flow a current of 5 mA in the ammeter as shown in figure, the percentage error in&nbsp;the ammeter is?</p>\n<p><img src=\"media/04/049512854bb749a756e5.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>2.2%</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>10%</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>9.1%</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>5.02%</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/15/15a8ba0ea0797cf6e7ca.png\"></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>A correctly adjusted single phase 240 V induction watt hour meter has a meter constant of 600&nbsp;revolutions per kwh. Determine the speed of the disc, for a current of 10 A at a power factor of&nbsp;0.8 lagging If the lag adjustment in altered so that phase angle between voltage coil flux and&nbsp;applied voltage is 86&deg; calculate the error introduced at 0.5 pf lagging.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>19.8 rpm, &ndash;10%</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>19.8 rpm, +10%</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>19.2 rpm, &ndash;11.8%</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>19.2 rpm, &ndash;12.3%</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/fa/fa36756349eaf123aec6.png\"></p>\n<p><img src=\"media/3d/3d4aa1d1075deab2f70c.png\"></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>An energy meter is designed to make 100 revolutions of the disc for one unit of energy. The&nbsp;number of revolutions made by it when connected to a load carrying a current of 20 A at 230 V&nbsp;and 0.8 p.f for an hour is ______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    368,
+    368
+   ],
+   "answerText": "368",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/a6/a621f0fcb1f502626d99.png\"></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p>Two ammeters are joined in series circuit carrying 10 A one Ammeter has resistance of 1000 &Omega;&nbsp;shunted by 0.05 &Omega; while other Ammeter has resistance of 1500 &Omega; shunted by 0.02 &Omega;. If the shunts&nbsp;are interchanged, what will be readings of ammeters?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>25 A, 4 A</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>4 A, 25 A</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>3 A, 22 A</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>22 A, 3 A</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/e3/e3f77dc35809c7666afb.png\"></p>\n<p><img src=\"media/2e/2e7f3618fd58e3f8e80e.png\"></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A 50 V M.I voltmeter has a resistance of 400 &Omega; made up of a copper&ldquo;coil of 40 &Omega; and 80 mH in&nbsp;series with a non inductive resistance of 360 &Omega;. The value of the capacitor connected to the&nbsp;instrument&ldquo;so that instrument will read correctly on DC and AC is _______ &mu;F. (Answer upto&nbsp;two decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.24,
+    0.3
+   ],
+   "answerText": "0.24 - 0.3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/c2/c2530e061d3b6c2b3062.png\"></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p>A PMMC instrument has a coil of dimensions 15 mm &times; 12 mm. The net flux density in the air gap&nbsp;is 1.8 &times; 10<sup>&ndash;3</sup> Wb/m<sup>2</sup> and the spring constant is 0.14 &times; 10<sup>&ndash;6</sup> Nm/rad. The number of turns required&nbsp;to produce an angular deflection of 90&deg; when a current of 10 mA is flowing through the coil will&nbsp;be _______ .</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    67.8,
+    68.1
+   ],
+   "answerText": "67.8 - 68.1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>&nbsp;<img src=\"media/1d/1d583564dcd2e63ef293.png\"></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/8e/8e7adf26dbe6cebc12f0.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    5.3,
+    5.4
+   ],
+   "answerText": "5.3 - 5.4",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/3b/3b2935a9c0ab447fc63a.png\"></p>\n<p><img src=\"media/bb/bb1e1d5b70e6b5ffcb04.png\"></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +2 / -0.66",
+   "html": "<p><img src=\"media/08/08c2d83fd2c94625ffc3.png\"></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>(a)</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>(b)</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>(c)</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>(d)</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p><img src=\"media/9f/9f4338f25832afef07f6.png\"></p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A rectifier type of instrument uses a basic PMMC movement of 50 &mu;A and a resistance of 15 k&Omega;.&nbsp;It employs a full wave rectifier circuit with forward resistance of each diode being 1 k&Omega;. The&nbsp;reverse resistance is infinite. The range of the instrument is (0 &ndash; 30 V) ac sinusoidal. The value of series multiplier used will have resistance of</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>523 &Omega;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>177 k&Omega;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>523 k&Omega;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>524 k&Omega;</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/88/8887cac2d4ef17d84da9.png\"></p>\n<p><img src=\"media/61/619657c1ff2f12ca5f66.png\"></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +1",
+   "html": "<p><img src=\"media/43/435aa3a8bf8827f7c9e0.png\"></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    430,
+    432
+   ],
+   "answerText": "430 - 432",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/01/01f03d38ffb125a30b79.png\"></p>"
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>Two 200 V full scale PMMC type dc voltmeter having figure of merit of 5 k&Omega;/V and 10 k&Omega;/V&nbsp;respectively are connected in series. The series combination can be used to measure a maximum&nbsp;dc voltage of ________ V.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    295,
+    305
+   ],
+   "answerText": "295 - 305",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/b8/b8b0cfe8df2fe4cc51e1.png\"></p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "single | Marks +1 / -0.33",
+   "html": "<p>A Wattmeter has a current coil of 0.03 &Omega; resistance and a pressure coil of 6000 &Omega; resistance&nbsp;connected such that the current coil is on the load side. If the load take 20 A at a voltage of 220 V and 0.6 power factor then the percentage error in the reading of wattmeter is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>0.45%</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>0.30%</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>0.15%</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>0.90%</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p><img src=\"media/e2/e2915e1936e0209f77cc.png\"></p>"
+  },
+  {
+   "n": 17,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "numerical | Marks +2",
+   "html": "<p>An inductor of a Q meter tuned to 4 MHz with 900 pF and to 8 MHz with 180 pF, the value of self&nbsp;distributed capacitance of the inductor will be _______ pF.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    59.5,
+    60.5
+   ],
+   "answerText": "59.5 - 60.5",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><img src=\"media/f2/f24715410658d07f041b.png\"></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 10,
+   "NAT": 7
+  },
+  "withoutKey": 0
+ }
+}

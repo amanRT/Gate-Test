@@ -1,0 +1,515 @@
+{
+ "v": 1,
+ "id": "ee-easy-2025-046",
+ "title": "Topicwise Test-22 Part Syllabus GATE 2025 EE Analog Electronics-2",
+ "sourceTitle": "Topicwise Test-22 Part Syllabus GATE 2025 EE Analog Electronics-2",
+ "branch": "ELECTRICAL ENGINEERING",
+ "code": "EE",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Electrical Engineering",
+ "seriesId": "ee-easy-2025",
+ "num": 46,
+ "category": "topicwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 2700,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering • Questions: 17",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Electrical Engineering"
+ },
+ "source": "ELECTRICAL ENGINEERING/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Electrical_Engineering/079_Topicwise Test-22 Part Syllabus GATE 2025 EE Analog Electronics-2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tCascade structure in an amplifier is generally used to</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "increase the lower cut-off frequency."
+    },
+    {
+     "key": "B",
+     "html": "creating a wideband amplifier."
+    },
+    {
+     "key": "C",
+     "html": "to increase the overall gain of amplifier."
+    },
+    {
+     "key": "D",
+     "html": "to increase the input resistance of an amplifier."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tCurrent series feedback circuit is generally called as</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "voltage amplifier"
+    },
+    {
+     "key": "B",
+     "html": "current amplifier"
+    },
+    {
+     "key": "C",
+     "html": "transconductance amplifier"
+    },
+    {
+     "key": "D",
+     "html": "transresistance amplifier"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tAn amplifier has open loop gain 400 cut-off frequencies are 25 Hz and 40 kHz. If 1% of output is returned to input in opposition, then new values of gain and cut-off frequencies will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "80, 5 Hz, 200 kHz"
+    },
+    {
+     "key": "B",
+     "html": "80, 125 Hz, 8 kHz"
+    },
+    {
+     "key": "C",
+     "html": "40, 5 Hz, 200 kHz"
+    },
+    {
+     "key": "D",
+     "html": "40, 125 Hz, 8 kHz"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/ce/ceb096d738534703934f.png\" /></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0.33",
+   "html": "<p>\n\tThe op-amp circuit shown below represents a</p>\n<p>\n\t<img alt=\"\" src=\"media/ff/ffad0e76908bafb1e0a7.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "high pass filter"
+    },
+    {
+     "key": "B",
+     "html": "low pass filter"
+    },
+    {
+     "key": "C",
+     "html": "band pass filter"
+    },
+    {
+     "key": "D",
+     "html": "band reject filter"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/56/56b6320c1e65d5fd541a.png\" /></p>"
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tConsider the feedback amplifier shown in the figure below,</p>\n<p>\n\t<img alt=\"\" src=\"media/75/7553aa7d8ce87fc9db6f.png\" /></p>\n<p>\n\tAssume the amplifier to be ideal, then the value of overall voltage gain with feedback <img align=\"absmiddle\" alt=\"\" src=\"media/85/85daeccafa2ee25d5f31.png\" /> is equal to ________ . (Answer upto two decimal point)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    29.5,
+    30.2
+   ],
+   "answerText": "29.91 (29.5 - 30.2)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t29.91 (29.5 - 30.2)</p>\n<p>\n\t<img alt=\"\" src=\"media/ae/aef6d48cc49d7c759b92.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/fc/fc3c34a8f7a5d73210aa.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe output voltage using shown in the figure below for the resistor components of values, <em>R<sub>f</sub></em> = 470 kΩ, R<sub>1</sub> = 4.3 kΩ, R<sub>2</sub> = 10 kΩ and R<sub>3</sub>= 10 kΩ for an input of 50 μV, will be _______ .<br />\n\t(Answer upto two decimal point)</p>\n<p>\n\t<img alt=\"\" src=\"media/98/982dbe1e82c85c46974a.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    12.15,
+    12.2
+   ],
+   "answerText": "12.182 (12.15 - 12.20)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t12.182 (12.15 - 12.20)</p>\n<p>\n\t<img alt=\"\" src=\"media/c3/c3862ed9dfb965c7a1c9.png\" /></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tThe magnitude of gain with feedback for FET amplifier circuit of figure given below with circuit parameters given as, <em>R</em><sub>1</sub> = 60 kΩ, <em>R</em><sub>2</sub> = 40 kΩ, <em>R</em><sub>0</sub> = 20 kΩ, <em>R<sub>D</sub></em> = 20 kΩ and <em>g<sub>m </sub></em>= 5000 μs, will be _______ . (Answer upto two decimal point)</p>\n<p>\n\t<img alt=\"\" src=\"media/13/13d505ba4fb9cee57c5b.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2.6
+   ],
+   "answerText": "2.38 (2.00 - 2.60)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t2.38 (2.00 - 2.60)</p>\n<p>\n\t<img alt=\"\" src=\"media/33/3313778072e17aff6a7c.png\" /></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tAn op-amp operates as a unity gain buffer with 6 V (peak to peak) sinusoidal wave input. If opamp is ideal with slew rate 1 V/μsec, then the maximum operation frequency is equal to _______ kHz. (Answer upto two decimal point)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    52.45,
+    53.55
+   ],
+   "answerText": "53.05 (52.45 - 53.55)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t53.05 (52.45 - 53.55)</p>\n<p>\n\t<img alt=\"\" src=\"media/5d/5d647b2df49d6325c9c2.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tIn the circuit of figure, <em>V</em><sub>0</sub> is _______ volt.</p>\n<p>\n\t<img alt=\"\" src=\"media/0e/0ef3c671fb2577c9017a.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    20,
+    20
+   ],
+   "answerText": "20",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t20</p>\n<p>\n\t<img alt=\"\" src=\"media/bd/bd21c4bc3c9177d165b8.png\" /></p>"
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tA differential amplifier shown below has a differential mode gain of 200 and a CMRR of 40 dB. If <em>V</em><sub>1</sub> = 0.8 volt and <em>V</em><sub>2</sub> = 0.3 volt, the output is _______ V.</p>\n<p>\n\t(Answer upto two decimal point)</p>\n<p>\n\t<img alt=\"\" src=\"media/a1/a1af27fbc02655e95c6e.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    100.5,
+    101.5
+   ],
+   "answerText": "101.1 (100.5 - 101.5)",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t101.1 (100.5 - 101.5)</p>\n<p>\n\t<img alt=\"\" src=\"media/cb/cba69f8502e1e21466d4.png\" /></p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tA Schmitt trigger has following components as shown in figure below,</p>\n<p>\n\t<img alt=\"\" src=\"media/9a/9a2252d82522c4f5ef49.png\" /></p>\n<p>\n\twhere <em>R</em><sub>1</sub> = <em>R</em><sub>2</sub> = 10 kΩ and <em>C</em> = 120 pF and <em>R</em> = 100 kΩ, the frequency of circuit oscillation is given by ________ kHz. (Answer upto two decimal point)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    37.3,
+    38.3
+   ],
+   "answerText": "37.92 (37.3 - 38.3)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t37.92 (37.3 - 38.3)</p>\n<p>\n\t<img alt=\"\" src=\"media/b9/b94add292bcf190ec3a1.png\" /></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tAn amplifier has mid-band gain 100 and a bandwidth of 100 kHz. The amount of negative feedback required to restrict the bandwidth of 1 MHz is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.090"
+    },
+    {
+     "key": "B",
+     "html": "0.99"
+    },
+    {
+     "key": "C",
+     "html": "0.099"
+    },
+    {
+     "key": "D",
+     "html": "10"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/98/981d543411e749022bed.png\" /></p>"
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +1 / -0",
+   "html": "<p>\n\tWhich of the following statement(s) is/are correct regarding oscillators?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "For oscillations to start, the loop gain AB of the oscillator must be greater than unity initially."
+    },
+    {
+     "key": "B",
+     "html": "Hartley oscillators uses a split tank inductor to produce oscillations."
+    },
+    {
+     "key": "C",
+     "html": "Amplifier must be an inverting amplifier to produce oscillations in an oscillator."
+    },
+    {
+     "key": "D",
+     "html": "LC oscillator is generally not used to generate oscillations of low frequency."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)<br />\n\tIf an amplifier is inverting one, then it is in negative feedback, which increases linearly and reduces the oscillations. To produce oscillations, positive feedback has to be given, which is noninverting amplifier.</p>"
+  },
+  {
+   "n": 14,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "<p>\n\tFor a practical RC phase shift oscillator, which of the following statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The phase shift provided by the oscillator’s amplifier should be 180°."
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tThe value of <em>R</em> and <em>C</em> in the circuit should be same for all the capacitors and resistors involved in circuit.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tThe value of the gain of amplifier |<em>AV</em>| should be greater than inverse of the modulus of the feedback factor β.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tWhen RC-phase shift oscillator is realized using op-amp amplifier, then frequency of oscillation is <img align=\"absmiddle\" alt=\"\" src=\"media/fd/fd1279a1878351dcfd71.png\" /> Hz.</p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)</p>\n<p>\n\t<img alt=\"\" src=\"media/a9/a9996e90a6eeb2d2e68e.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/d2/d2a7533e07479ef04b2e.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tFor the op-amp shown below,</p>\n<p>\n\t<img alt=\"\" src=\"media/7d/7dca4abaad87908be71f.png\" /></p>\n<p>\n\tthe output voltage <img align=\"absmiddle\" alt=\"\" src=\"media/7b/7b2deaddc102d22f4f83.png\" /> will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "12 V"
+    },
+    {
+     "key": "B",
+     "html": "–12 V"
+    },
+    {
+     "key": "C",
+     "html": "30 V"
+    },
+    {
+     "key": "D",
+     "html": "20 V"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/58/586b70e9f60abddedd6f.png\" /></p>"
+  },
+  {
+   "n": 16,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0",
+   "html": "",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1.53,
+    1.57
+   ],
+   "answerText": "1.55 (1.53 - 1.57)",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t1.55 (1.53 - 1.57)</p>\n<p>\n\t<img alt=\"\" src=\"media/a2/a2b8e4add12bd8b451d9.png\" /></p>",
+   "sourceIssue": "The question text is missing in the source paper - see the solution."
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • ELECTRICAL ENGINEERING • +2 / -0.66",
+   "html": "<p>\n\tA voltage amplifier has an input impedance of 1 kΩ and output impedance of 10 kΩ. When this amplifier is used in a negative feedback closed loop with a loop gain of 9, then the ratio of closed loop input impedance to closed loop output impedance will be</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "8.1"
+    },
+    {
+     "key": "B",
+     "html": "10"
+    },
+    {
+     "key": "C",
+     "html": "0.10"
+    },
+    {
+     "key": "D",
+     "html": "0.12"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/97/977e45343e99ca00c7ae.png\" /></p>\n<p>\n\t<img alt=\"\" src=\"media/07/0732a37bb0911e948e96.png\" /></p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 17
+  }
+ ],
+ "stats": {
+  "questions": 17,
+  "maxMarks": 25,
+  "types": {
+   "MCQ": 7,
+   "NAT": 8,
+   "MSQ": 2
+  },
+  "withoutKey": 0
+ }
+}

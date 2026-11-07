@@ -1,0 +1,577 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-024",
+ "title": "DVRUO Classes GATE CS | Compiler Design | Syntax Analysis and Top-Down Parser | Weekly Quiz 2",
+ "sourceTitle": "DVRUO Classes GATE CS | Compiler Design | Syntax Analysis and Top-Down Parser | Weekly Quiz 2",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 24,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Compiler Design"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/018_exam_2404_GO Classes GATE CS Compiler Design Syntax Analysis and Top-Down Parser Weekly Quiz 2.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the $\\textbf{Context-Free Grammar (CFG)}$ defined by the production rules:<br>$$<br>S \\rightarrow S S+|S S *| a<br>$$<br>Which of the following statements regarding the properties of this grammar and its generated language are $\\textbf{CORRECT}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The grammar is unambiguous because every string in the language possesses a unique leftmost derivation.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The language generated consists of all valid arithmetic expressions in prefix notation using the operand $a$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is ambiguous as it allows for multiple parse trees for the string $a a+a *$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The language generated is the set of all valid postfix expressions over the alphabet $\\{a,+, *\\}$.</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532262\"></a><div itemprop=\"text\"><p>$\\textbf{1. Analysis of the Language (Option B and D)}$<br><br>The production rules $S \\rightarrow S S+$ and $S \\rightarrow S S *$ indicate that an operator (+ or *) always follows two operands ( $S$ ). This structural pattern is the defining characteristic of $\\textbf{Postfix Notation}$ (Reverse Polish Notation).</p><ul><li>Example: The expression $(a+a) * a$ is represented in this grammar as $a a+a *$.</li><li>Since the operators are at the end of the sub-expressions, Option D is correct and Option B (Prefix) is incorrect.</li></ul><p><br>$\\textbf{2. Analysis of Ambiguity (Option A and C)}$<br><br>A grammar is ambiguous if there exists at least one string that has more than one distinct parse tree. For postfix expressions involving binary operators, the structure is strictly determined by the position of the operators.<br>To derive $a a+a *$ :</p><ul><li>$\\textbf{Leftmost Derivation}$: $S \\Rightarrow S S * \\Rightarrow S S+S * \\Rightarrow a S+S * \\Rightarrow a a+S * \\Rightarrow a a+a *$</li></ul><p><br>No other sequence of rule applications can produce this string. Because the grammar uniquely determines the grouping of operands with their respective operators, it is $\\textbf{unambiguous}$.<br><br>$\\textbf{Parse Tree Visualization}$:<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"340\" height=\"187\" src=\"media/b8/b844da655ac97939b79c.png\"></p><p><br><br>Since the tree is unique, Option $\\mathbf{A}$ is correct and Option $\\mathbf{C}$ is incorrect.</p></div></section></div><p><a href=\"https://gateoverflow.in/532261\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following grammar for boolean expressions:</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\\,bexpr \\to bexpr\\ or\\ bterm \\mid bterm$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\\,bterm \\to bterm\\ and\\ bfactor \\mid bfactor$</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\\,bfactor \\to not\\ bfactor \\mid (bexpr) \\mid true \\mid false$</p><p>Which of the following statements regarding this grammar are $\\textbf{CORRECT}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The operator and has higher precedence than or because it is defined further down the hierarchy of productions.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The expression true or false and false is ambiguous as it can result in two different truth values depending on the derivation.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is left-recursive, making the operators or and and left-associative.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The string not true and false is interpreted by the grammar as (not true) and false.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532256\"></a><div itemprop=\"text\"><p>$\\textbf{ Precedence (Option A \\&amp; D):}$</p><p>The grammar forces $not$ to be evaluated before $and$, and $and$ before $or$.</p><ul><li>LMD for $not\\ true\\ and\\ false:$</li></ul><p>\\[<br>bexpr \\Rightarrow bterm \\Rightarrow bterm\\ and\\ bfactor<br>\\Rightarrow bfactor\\ and\\ bfactor<br>\\Rightarrow not\\ bfactor\\ and\\ bfactor<br>\\Rightarrow not\\ true\\ and\\ false<br>\\]</p><ul><li>This forces the $not$ to bind only to $true$, confirming Option D.</li></ul><p>$\\textbf{Associativity (Option C):}$</p><p>The rule $bexpr \\to bexpr\\ or\\ bterm$ is left-recursive. This forces the parse tree to grow to the left.</p><p>Example for $true\\ or\\ true\\ or\\ false:$</p><p>\\[<br>bexpr \\Rightarrow bexpr\\ or\\ bterm<br>\\Rightarrow (bexpr\\ or\\ bterm)\\ or\\ bterm<br>\\]</p><p>$\\textbf{ Unambiguity Proof (Option B)}$</p><p>Parse Tree for $true\\ or\\ false\\ and\\ false$:</p><p>The following tree is the only valid structural representation for this string, proving it is unambiguous.</p><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"278\" src=\"media/fa/fa834b93af811225a628.jpg\"></p><p><br><br>The hierarchy ensures and is clustered deeper than or, thus evaluated first.</p></div></section></div><p><a href=\"https://gateoverflow.in/532255\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the Context-Free Grammar (CFG) $G$ defined by the following production rules:<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow 0 \\mid A \\\\<br>&amp; A \\rightarrow A B \\\\<br>&amp; B \\rightarrow 1<br>\\end{aligned}<br>$$<br>After applying the algorithm to eliminate all $\\textbf{useless symbols}$ (symbols that are either nongenerating or unreachable), which of the following represents the resulting simplified grammar?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$S \\rightarrow 0 \\mid A, \\quad A \\rightarrow A B, \\quad B \\rightarrow 1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S \\rightarrow 0, \\quad B \\rightarrow 1$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$S \\rightarrow 0$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$S \\rightarrow 0, \\quad A \\rightarrow A B$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532254\"></a><div itemprop=\"text\">To eliminate useless symbols, we must perform two distinct phases in a specific order. A symbol is useful if and only if it is both $\\textbf{Generating}$ and $\\textbf{Reachable}$.<br>\n<br>\n$\\textbf{Phase\\ 1:\\ Elimination\\ of\\ Non\\text{-}Generating\\ Symbols}$<br>\n<br>\nA symbol is generating if it can eventually derive a string of terminals.<br>\n<br>\n$\\textbf{Basis}$: Terminals $\\{0,1\\}$ are generating.<br>\n&nbsp;<br>\n<br>\n$\\textbf{Iteration 1}$:<br>\n<br>\n\\[<br>\nS \\to 0 \\quad (0\\ is\\ generating)\\ \\Longrightarrow\\ S\\ is\\ generating.<br>\n\\]<br>\n<br>\n\\[<br>\nB \\to 1 \\quad (1\\ is\\ generating)\\ \\Longrightarrow\\ B\\ is\\ generating.<br>\n\\]<br>\n<br>\n\\[<br>\nA \\to AB \\quad (A\\ is\\ not\\ yet\\ known\\ to\\ be\\ generating,\\ so\\ we\\ cannot\\ conclude\\ A\\ is\\ generating).<br>\n\\]<br>\n<br>\n$\\textbf{Iteration 2}$: No new symbols can be added because the only rule for $A$ is $A \\to AB$, and since $A$ never reaches a terminal string, it is non-generating.<br>\n<br>\n$\\textbf{Generating\\ Symbols:}\\ \\{S,B,0,1\\}$<br>\n<br>\n$\\textbf{Remove $A$ and all productions containing $A$}$:<br>\n<br>\n\\[<br>\nS \\to 0<br>\n\\]<br>\n<br>\n\\[<br>\nB \\to 1<br>\n\\]<br>\n<br>\n$\\textbf{Phase\\ 2:\\ Elimination\\ of\\ Unreachable\\ Symbols}$<br>\n<br>\nA symbol is reachable if it can be reached from the start symbol $S$.<br>\n<br>\n$\\textbf{Basis$: $S$ is reachable.<br>\n<br>\n$\\textbf{Iteration 1}$: From $S \\to 0$, the terminal $0$ is reachable.<br>\n<br>\n$\\textbf{Iteration 2}$: There are no other rules originating from $S$.<br>\n<br>\n$\\textbf{Result:}$ The symbol $B$ and the terminal $1$ are unreachable from the start symbol $S$.<br>\n<br>\n$\\textbf{Final\\ Simplified\\ Grammar:}$<br>\n<br>\nAfter removing non-generating symbols first, and then unreachable symbols:<br>\n<br>\n\\[<br>\nS \\to 0<br>\n\\]<br>\n<br>\n$\\textbf{Note:}$ If you reversed the order (checking Reachability before Generating), you might incorrectly conclude that $B$ is useful. However, because $A$ is non-generating, any path from $S$ to $B$ via $A$ is “broken,” making the entire branch useless.</div></section></div><p><a href=\"https://gateoverflow.in/532253\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Context-Free Grammar (CFG), which includes an $\\epsilon$ (epsilon) production for the non-terminal $A$ :<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow A B \\$ \\\\<br>&amp; A \\rightarrow x A|B| \\epsilon \\\\<br>&amp; B \\rightarrow y z B \\mid z<br>\\end{aligned}<br>$$<br>With the addition of the rule $A \\rightarrow \\epsilon$, is the grammar still an LL(1) grammar? Choose the correct classification and justification.<br>&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Yes, the grammar remains $\\operatorname{LL}(1)$ because $\\operatorname{FIRST}(\\epsilon)=\\{\\epsilon\\}$, which is disjoint from $\\operatorname{First}(x A)$ and $\\operatorname{FiRST}(B)$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>No, the grammar is no longer $\\mathrm{LL}(1)$ because adding $A \\rightarrow \\epsilon$ creates a FIRST-FIRST conflict between $A \\rightarrow x A$ and $A \\rightarrow B$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>No, the grammar is no longer $\\mathrm{LL}(1)$ because the addition of $A \\rightarrow \\epsilon$ introduces a FIRST-FOLLOW conflict for non-terminal $A$ on lookaheads $y$ and $z$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Yes, the grammar remains $\\mathrm{LL}(1)$ because $\\operatorname{FOLLOW}(A)=\\{\\$\\}$, which does not intersect with the FIRST sets of $A$ &#x27;s other productions.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"532238\"></a><div itemprop=\"text\">To determine if the grammar is LL$(1)$, we must calculate the FIRST and FOLLOW sets to check for conflicts.<br>\n<br>\n$\\textbf{Step\\ 1:\\ Calculate\\ FIRST\\ sets}$<br>\n<br>\n\\[<br>\nFirst(B)=\\{y,z\\}<br>\n\\]<br>\n<br>\n\\[<br>\nFirst(A)=\\{x\\}\\cup First(B)\\cup \\{\\epsilon\\}=\\{x,y,z,\\epsilon\\}<br>\n\\]<br>\n<br>\n\\[<br>\nFirst(S)=First(A)\\setminus\\{\\epsilon\\}\\cup First(B)=\\{x,y,z\\}<br>\n\\]<br>\n<br>\n$\\textbf{Step\\ 2:\\ Calculate\\ FOLLOW\\ sets}$<br>\n<br>\n\\[<br>\nFollow(S)=\\{\\$\\}<br>\n\\]<br>\n<br>\n\\[<br>\nFollow(A)=First(B)=\\{y,z\\}<br>\n\\qquad<br>\n(\\text{from the production } S\\to AB\\$)<br>\n\\]<br>\n<br>\n\\[<br>\nFollow(B)=\\{\\$\\}\\cup Follow(A)=\\{y,z,\\$\\}<br>\n\\qquad<br>\n(\\text{from } S\\to AB\\$ \\text{ and } A\\to B)<br>\n\\]<br>\n<br>\nLet us number the productions to populate the table:<br>\n<br>\n$1)\\ S\\to AB$<br>\n<br>\n$2)\\ A\\to xA$<br>\n<br>\n$3)\\ A\\to B$<br>\n<br>\n$4)\\ B\\to yzB$<br>\n<br>\n$5)\\ B\\to z$<br>\n<br>\n$6)\\ A\\to \\epsilon$<br>\n<br>\nWe place the productions into the table $M[N,T]$ based on the FIRST sets. If a non-terminal has an $\\epsilon$-production, we place that $\\epsilon$-production in the columns corresponding to its FOLLOW set.<br>\n<br>\n\\[<br>\n\\begin{array}{|c|c|c|c|c|}<br>\n\\hline<br>\n&nbsp;&amp; x &amp; y &amp; z &amp; \\$ \\\\<br>\n\\hline<br>\nS &amp; 1 &amp; 1 &amp; 1 &amp; \\\\<br>\n\\hline<br>\nA &amp; 2 &amp; 3,6 &amp; 3,6 &amp; \\\\<br>\n\\hline<br>\nB &amp; &amp; 4 &amp; 5 &amp; \\\\<br>\n\\hline<br>\n\\end{array}<br>\n\\]<br>\n<br>\n$\\textbf{Conclusion:}$<br>\n<br>\nAs seen in the parsing table, there are multiple entries for $M[A,y]$ and $M[A,z]$.<br>\n<br>\n$\\bullet$ The production $A\\to B$ (Rule $3$) is placed under $y$ and $z$ because they are in $FIRST(B)$.<br>\n<br>\n$\\bullet$ The production $A\\to \\epsilon$ (Rule $6$) is also placed under $y$ and $z$ because they are in $FOLLOW(A)$.<br>\n<br>\nIf the parser is expanding $A$ and sees a $y$ or $z$, it does not know whether to substitute $B$ or to remove $A$. This is a classic FIRST-FOLLOW conflict, meaning the grammar is not LL$(1)$.</div></section></div><p><a href=\"https://gateoverflow.in/532237\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Context-Free Grammar (CFG) from the provided parsing table example:<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow A B \\mid e D a \\\\<br>&amp; A \\rightarrow a b \\mid c \\\\<br>&amp; B \\rightarrow d C \\\\<br>&amp; C \\rightarrow e C \\mid \\epsilon \\\\<br>&amp; D \\rightarrow f D \\mid \\epsilon<br>\\end{aligned}<br>$$<br><br><br>Based on the properties of the grammar and the construction of its predictive parsing table, which of the following statements is TRUE?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The grammar is not LL(1) because there is a FIRST-FIRST conflict for the non-terminal $S$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The grammar is not LL(1) because the nullable non-terminal $D$ creates a FIRST-FOLLOW conflict on the terminal $a$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is not $\\mathrm{LL}(1)$ because the nullable non-terminal $C$ creates a FIRST-FOLLOW conflict on the terminal $e$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The grammar is LL(1) because there are no FIRST-FIRST or FIRST-FOLLOW conflicts, resulting in at most one production per parsing table entry.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"532234\"></a><div itemprop=\"text\">$$<br>\n\\begin{array}{|c|c|c|c|c|c|c|c|}<br>\n\\hline<br>\n&nbsp;&amp; a &amp; b &amp; c &amp; d &amp; e &amp; f &amp; \\$ \\\\<br>\n\\hline<br>\nS &amp; S\\to Ab &amp; &amp; S\\to AB &amp; &amp; S\\to eDa &amp; &amp; \\\\<br>\n\\hline<br>\nA &amp; A\\to ab &amp; &amp; A\\to c &amp; &amp; &amp; &amp; \\\\<br>\n\\hline<br>\nB &amp; &amp; B\\to dC &amp; &amp; &amp; &amp; &amp; \\\\<br>\n\\hline<br>\nC &amp; &amp; &amp; &amp; &amp; C\\to eC &amp; &amp; C\\to \\epsilon \\\\<br>\n\\hline<br>\nD &amp; D\\to \\epsilon &amp; &amp; &amp; &amp; &amp; D\\to fD &amp; \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$</div></section></div><p><a href=\"https://gateoverflow.in/532233\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the Context-Free Grammar (CFG) $G_{1}$ :<br>$$<br>S \\rightarrow S+S|S S|(S)|S *| a<br>$$<br>Which of the following statements regarding $G_{1}$ are $\\textbf{CORRECT}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The grammar is ambiguous for the string $a a+a$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The string $(a+a) *$ is a valid member of $L\\left(G_{1}\\right)$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is unambiguous because of the parentheses rule.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The string aaa can be derived in multiple ways.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532260\"></a><div itemprop=\"text\"><p>(Ambiguity via LMD/Parse Trees):<br><br>Example $1$: Multiple Parse Trees for $a a+a$ (Proving Ambiguity)</p><p style=\"text-align:center\"><img alt=\"\" width=\"600\" height=\"231\" src=\"media/de/deff84527bbf8abff28e.jpg\"></p><p><br><br>Example $2$: LMD for $(a+a) *$ (Proving Membership) $S \\Rightarrow S * \\Rightarrow(S) * \\Rightarrow(S+S) * \\Rightarrow(a+S) * \\Rightarrow (a+a) *$</p></div></section></div><p><a href=\"https://gateoverflow.in/532259\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the grammar $G_{2}: S \\rightarrow a S b S|b S a S| \\epsilon$. Which statements are $\\textbf{CORRECT}$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The string $a b a b$ has more than one unique parse tree.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Every string generated has an equal number of $a$ &#x27;s and $b$ &#x27;s.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The string $a a b b$ is generated by this grammar.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The grammar is unambiguous.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532258\"></a><div itemprop=\"text\"><p>$\\textbf{Visual Proof}:$<br><br>Example $1$: Ambiguity for $abab$</p><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"222\" src=\"media/e6/e6046fa6e7a84f738cf0.jpg\"></p><p><br><br>Example $2$: RMD for aabb $S \\Rightarrow a S b S \\Rightarrow a S b a S b S \\Rightarrow a S b a S b \\epsilon \\Rightarrow a S b a \\epsilon b \\Rightarrow a a S b S b a \\epsilon b \\cdots \\rightarrow a a b b$ (via $\\epsilon$ substitutions).</p></div></section></div><p><a href=\"https://gateoverflow.in/532257\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the standard algorithm for eliminating left recursion from a contextfree grammar $G$ (given that $G$ initially has no cycles or $\\epsilon$-productions), as detailed below:<br><br>$\\textbf{Algorithm}$: Eliminating left recursion</p><ol><li>arrange the nonterminals in some order $A_{1}, A_{2}, \\ldots, A_{n}$.</li><li>&nbsp;for (each $i$ from 1 to $n$ ) {</li><li>&nbsp;for (each $j$ from 1 to $i-1$ ) {</li><li>replace each production of the form $A_{i} \\rightarrow A_{j} \\gamma$ by the productions $A_{i} \\rightarrow \\delta_{1} \\gamma\\left|\\delta_{2} \\gamma\\right| \\cdots \\mid \\delta_{k} \\gamma$, where $A_{j} \\rightarrow \\delta_{1}\\left|\\delta_{2}\\right| \\cdots \\mid \\delta_{k}$ are all current $A_{j}$-productions</li><li>&nbsp;}</li><li>&nbsp;eliminate the immediate left recursion among the $A_{i}$-productions</li><li>}</li></ol><p>In the context of this algorithm, what is the fundamental computational purpose of the core inner logic executed inside the $j$ 's for loop (specifically, the substitution happening in Step $4$)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>It eliminates immediate left recursion for the nonterminal $A_{i}$ directly by introducing new primed nonterminals.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>It removes $\\epsilon$-productions from the grammar to ensure the resulting grammar adheres to the strict constraints of top-down parsing.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>It converts indirect left recursion into immediate left recursion by substituting the expanded bodies of previously processed $A_{j}$-productions into the current $A_{i}$-productions.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>It reorders the grammar&#x27;s nonterminals dynamically during runtime to guarantee that $A_{i}$ always derives strings that strictly begin with a terminal symbol.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"532252\"></a><div itemprop=\"text\"><p>The overall goal of the algorithm is to eliminate all left recursion, both immediate and indirect.</p><ul><li>Step $6$ handles the immediate left recursion (where a production looks like $A_{i} \\rightarrow A_{i} \\alpha$ ).<br>&nbsp;</li><li>However, if there is indirect left recursion (for example, $A_{1} \\rightarrow A_{2} \\alpha$ and $A_{2} \\rightarrow A_{1} \\beta$ ), Step 6 alone cannot detect it.<br>&nbsp;</li></ul><p>The inner $j$'s loop (Steps $3$ through $5$) solves this by enforcing a strict ordering. Because $j&lt;i$, the algorithm guarantees that by the time it evaluates $A_i$, all nonterminals before it ($A_1$ through $A_{i-1}$) have already been fully processed and freed of left recursion. By substituting the right-hand side of $A_j$ into $A_i$ (Step $4$), any hidden indirect left-recursive chains are forced to the surface, transforming them into immediate left recursion on $A_i$. Once exposed, Step $6$ can successfully eliminate it.</p></div></section></div><p><a href=\"https://gateoverflow.in/532251\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Context-Free Grammar (CFG) representing the \"dangling-else\" problem for conditional statements:<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow i E t S|i E t S e S| a \\\\<br>&amp; E \\rightarrow b<br>\\end{aligned}<br>$$<br>(where $i, t, e$ stand for $\\textbf{if, then, else}$, and $a, b$ are other terminals).<br><br>To make this grammar suitable for top-down predictive parsing, we must eliminate non-determinism by applying $\\textbf{left-factoring}$. Which of the following represents the correct grammar after applying the left-factoring algorithm?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$S \\rightarrow i E t S^{\\prime} \\mid a$<br>$S^{\\prime} \\rightarrow S \\mid S e S$<br>$E \\rightarrow b$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S \\rightarrow i E t S S^{\\prime} \\mid a$<br>$S^{\\prime} \\rightarrow e S \\mid \\epsilon$<br>$E \\rightarrow b$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$S \\rightarrow i E t S S^{\\prime} e S \\mid a$<br>$S^{\\prime} \\rightarrow \\epsilon$<br>$E \\rightarrow b$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$S \\rightarrow i E S^{\\prime} \\mid a$<br>$S^{\\prime} \\rightarrow t S \\mid t S e S$<br>$E \\rightarrow b$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532250\"></a><div itemprop=\"text\">$\\textbf{Concept\\ of\\ Left\\text{-}Factoring:}$<br>\n<br>\nLeft-factoring is a grammar transformation used to resolve situations where two or more productions for the same non-terminal share a common prefix. This shared prefix makes it impossible for a predictive parser (like an LL($1$) parser) to know which production to choose by looking only at the next input token.<br>\n<br>\nThe general rule for left-factoring is: If we have productions<br>\n<br>\n\\[<br>\nA \\to \\alpha\\beta_1 \\mid \\alpha\\beta_2 \\mid \\cdots \\mid \\alpha\\beta_n \\mid \\gamma,<br>\n\\]<br>\n<br>\nwhere $\\alpha$ is the longest common prefix (and $\\alpha \\neq \\epsilon$), we replace them with:<br>\n<br>\n\\[<br>\nA \\to \\alpha A' \\mid \\gamma<br>\n\\]<br>\n<br>\n\\[<br>\nA' \\to \\beta_1 \\mid \\beta_2 \\mid \\cdots \\mid \\beta_n<br>\n\\]<br>\n<br>\n$\\textbf{Application\\ to\\ the\\ Given\\ Grammar:}$<br>\n<br>\nLook at the productions for $S$:<br>\n<br>\n\\[<br>\nS \\to iEtS \\mid iEtSeS \\mid a<br>\n\\]<br>\n<br>\n$1.$ $\\textbf{Identify\\ the\\ longest\\ common\\ prefix\\ }(\\alpha):$<br>\n<br>\nBoth $iEtS$ and $iEtSeS$ start with the sequence $iEtS$.<br>\n<br>\nTherefore,<br>\n<br>\n\\[<br>\n\\alpha = iEtS<br>\n\\]<br>\n<br>\n$2.$ $\\textbf{Identify\\ the\\ remainders\\ }(\\beta):$<br>\n<br>\nFor the first production $(iEtS)$, the remainder after the prefix is empty. So,<br>\n<br>\n\\[<br>\n\\beta_1 = \\epsilon<br>\n\\]<br>\n<br>\nFor the second production $(iEtSeS)$, the remainder after the prefix is $eS$. So,<br>\n<br>\n\\[<br>\n\\beta_2 = eS<br>\n\\]<br>\n<br>\n$3.$ $\\textbf{Identify\\ the\\ alternatives\\ }(\\gamma):$<br>\n<br>\nThe production $S \\to a$ does not share the prefix. So,<br>\n<br>\n\\[<br>\n\\gamma = a<br>\n\\]<br>\n<br>\nApplying the transformation: Replace the $S$ productions with:<br>\n<br>\n\\[<br>\nS \\to (iEtS)S' \\mid a<br>\n\\]<br>\n<br>\n\\[<br>\nS' \\to \\epsilon \\mid eS<br>\n\\]<br>\n<br>\n$\\textbf{Analysis\\ of\\ Incorrect\\ Options:}$<br>\n<br>\n$\\textbf{Option\\ A:}$ This factors out $iEt$, not the longest common prefix. While technically it factors the grammar, standard left-factoring requires pulling out the maximum common prefix to fully resolve the parsing decision for that sequence.<br>\n<br>\n$\\textbf{Option\\ C:}$ This fundamentally changes the language generated by the grammar.<br>\n<br>\n$\\textbf{Option\\ D:}$ Similar to A, it only factors out $iE$, which leaves common prefixes $(tS)$ in the resulting $S'$ productions, failing to solve the problem completely.</div></section></div><p><a href=\"https://gateoverflow.in/532249\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following context-free grammar:<br><br>$$<br>S \\rightarrow S+S|S S|(S)|S *| a<br>$$<br>Left factoring is a grammar transformation technique used to resolve FIRSTset conflicts when multiple productions for the same non-terminal share a common prefix. If you apply the standard left factoring algorithm to this grammar, which of the following represents the correct transformed grammar?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$S\\to(S)S&#x27;\\mid aS&#x27;$<br>$S&#x27;\\to+SS&#x27;\\mid SS&#x27;\\mid *S\\mid\\epsilon$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S\\to SS&#x27;\\mid(S)\\mid a$<br>&nbsp;$S&#x27;\\to+S\\mid S\\mid *\\mid\\epsilon$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$S\\to SS&#x27;\\mid(S)\\mid a$<br>&nbsp;$S&#x27;\\to+S\\mid S\\mid *$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$S\\to S+S&#x27;\\mid SS&#x27;\\mid(S)\\mid a$<br>&nbsp;$S&#x27;\\to S\\mid *$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532248\"></a><div itemprop=\"text\">To left factor a grammar, we look for productions of a non-terminal that share a common prefix. The standard form to look for is<br>\n<br>\n\\[<br>\nA \\to \\alpha\\beta_1 \\mid \\alpha\\beta_2 \\mid \\cdots \\mid \\alpha\\beta_n \\mid \\gamma,<br>\n\\]<br>\n<br>\nwhere $\\alpha$ is the common prefix (and $\\alpha \\neq \\epsilon$). We transform this into:<br>\n<br>\n\\[<br>\nA \\to \\alpha A' \\mid \\gamma<br>\n\\]<br>\n<br>\n\\[<br>\nA' \\to \\beta_1 \\mid \\beta_2 \\mid \\cdots \\mid \\beta_n<br>\n\\]<br>\n<br>\n$\\textbf{Analyzing\\ the\\ given\\ grammar's\\ alternatives\\ for\\ } S:$<br>\n<br>\n$1.$ $S+S$ (starts with $S$)<br>\n<br>\n$2.$ $SS$ (starts with $S$)<br>\n<br>\n$3.$ $(S)$ (does not start with $S$)<br>\n<br>\n$4.$ $S*$ (starts with $S$)<br>\n<br>\n$5.$ $a$ (does not start with $S$)<br>\n<br>\nThe common prefix $\\alpha$ among the first, second, and fourth alternatives is clearly $S$.<br>\n<br>\nLet’s factor out this common prefix $S$:<br>\n<br>\n$\\bullet$ From $S+S$, if we extract prefix $S$, the remainder $(\\beta_1)$ is $+S$<br>\n<br>\n$\\bullet$ From $SS$, if we extract prefix $S$, the remainder $(\\beta_2)$ is $S$<br>\n<br>\n$\\bullet$ From $S*$, if we extract prefix $S$, the remainder $(\\beta_3)$ is $*$<br>\n<br>\nThe alternatives that do not share the prefix $(\\gamma)$ are $(S)$ and $a$.<br>\n<br>\nApplying the transformation rule, we introduce a new non-terminal $S'$ to derive the remainders:<br>\n<br>\n\\[<br>\nS \\to SS' \\mid (S) \\mid a<br>\n\\]<br>\n<br>\n\\[<br>\nS' \\to +S \\mid S \\mid *<br>\n\\]<br>\n<br>\n$\\textit{Note\\ on\\ Distractors:}$<br>\n<br>\n$\\bullet$ Option A represents the grammar after $\\textit{Immediate\\ Left\\ Recursion\\ Elimination}$, not left factoring.<br>\n<br>\n$\\bullet$ Option B incorrectly includes an $\\epsilon$-production in $S'$. An $\\epsilon$ is only added if one of the original alternatives is exactly the prefix itself (e.g., if we had $S \\to S+S \\mid S$, then factoring $S$ leaves $\\epsilon$). Here, the alternative is $SS$, so factoring out $S$ leaves $S$, not $\\epsilon$.</div></section></div><p><a href=\"https://gateoverflow.in/532247\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the grammar:<br>$$<br>\\begin{aligned}<br>\\text { rexp } &amp; \\rightarrow \\text { rexp }+ \\text { rterm } \\mid \\text { rterm } \\\\<br>\\text { rterm } &amp; \\rightarrow \\text { rterm } r \\text { factor } \\mid \\text { rfactor } \\\\<br>\\text { rfactor } &amp; \\rightarrow \\text { rfactor } * \\mid \\text { rprimary } \\\\<br>\\text { rprimary } &amp; \\rightarrow a \\mid b<br>\\end{aligned}<br>$$<br>Which of the following grammars is obtained after removing left recursion?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$rexp\\to rterm\\ rexp&#x27;$<br>$rexp&#x27;\\to +\\ rterm\\ rexp&#x27;\\mid \\epsilon$<br>$rterm\\to rfactor\\ rterm&#x27;$<br>$rterm&#x27;\\to rfactor\\ rterm&#x27;\\mid \\epsilon$<br>$rfactor\\to rprimary\\ rfactor&#x27;$<br>$rfactor&#x27;\\to *\\ rfactor&#x27;\\mid \\epsilon$<br>$rprimary\\to a\\mid b$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$rexp\\to rexp+rterm\\mid rterm$<br>$rterm\\to rfactor\\ rterm$<br>$rterm&#x27;\\to rfactor\\mid \\epsilon$<br>$rfactor\\to rprimary*\\mid rprimary$<br>$rprimary\\to a\\mid b$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$rexp\\to +\\ rterm\\ rexp&#x27;\\mid rterm$<br>$rexp&#x27;\\to rexp\\mid \\epsilon$<br>$rterm\\to rfactor$<br>$rfactor\\to rprimary\\mid rprimary$<br>$rprimary\\to a\\mid b$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$rexp\\to rterm+rexp\\mid rterm$<br>$rterm\\to rfactor\\ rterm\\mid *rfactor$<br>$rfactor\\to rprimary*\\mid rprimary$<br>$rprimary\\to a\\mid b$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532246\"></a><div itemprop=\"text\">For a production of the form<br>\n$$<br>\nA \\rightarrow \\Lambda \\alpha \\mid \\beta<br>\n$$<br>\nthe left recursion is removed using:<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; A \\rightarrow \\beta A^{\\prime} \\\\<br>\n&amp; A^{\\prime} \\rightarrow \\alpha A^{\\prime} \\mid \\epsilon<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nApplying this transformation:<br>\n$$<br>\n\\text { rexp &nbsp;rexp + rterm } \\mid \\text { rterm }<br>\n$$<br>\nbecomes<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; \\text { rexp } \\rightarrow \\text { rterm rexp } \\\\<br>\n&amp; \\text { rexp } \\rightarrow+\\text { rterm rexp }{ }^{\\prime} \\mid \\epsilon<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nSimilarly,<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; \\text { rterm } \\rightarrow r \\text { factor rterm }{ }^{\\prime} \\\\<br>\n&amp; \\text { rterm }^{\\prime} \\rightarrow r \\text { factor } \\text { rterm }^{\\prime} \\mid \\epsilon<br>\n\\end{aligned}<br>\n$$<br>\nand<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; r \\text { factor } \\rightarrow \\text { rprimary } r \\text { factor }^{\\prime} \\\\<br>\n&amp; \\text { rfactor }^{\\prime} \\rightarrow * \\text { factor }^{\\prime} \\mid \\epsilon<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nThus, Option A is correct.</div></section></div><p><a href=\"https://gateoverflow.in/532245\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Context-Free Grammar (CFG) for arithmetic expressions:<br>$$<br>\\begin{aligned}<br>E &amp; \\rightarrow T E^{\\prime} \\\\<br>E^{\\prime} &amp; \\rightarrow+T E^{\\prime} \\mid \\epsilon \\\\<br>T &amp; \\rightarrow F T^{\\prime} \\\\<br>T^{\\prime} &amp; \\rightarrow * F T^{\\prime} \\mid \\epsilon \\\\<br>F &amp; \\rightarrow(E) \\mid \\text { id }<br>\\end{aligned}<br>$$<br><br>Which of the following statements correctly describes the properties of this grammar regarding ambiguity and its classification as an LL(1) grammar?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The grammar is ambiguous and therefore not $\\mathrm{LL}(1)$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The grammar is unambiguous but is not $\\mathrm{LL}(1)$ because of the $\\epsilon$-productions.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is ambiguous but can still be parsed by an $\\mathrm{LL}(1)$ parser.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The grammar is unambiguous and is an LL(1) grammar.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532244\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"244\" src=\"media/91/91c210fad6f91ca46a04.jpg\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/532243\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following context-free grammar:<br>$$<br>\\begin{aligned}<br>&amp; S \\rightarrow A \\mathbb{S} \\\\<br>&amp; A \\rightarrow x A x \\mid C \\\\<br>&amp; B \\rightarrow y B y \\mid C \\\\<br>&amp; C \\rightarrow z B z|w A w| \\epsilon<br>\\end{aligned}<br>$$<br>Which of the following statements correctly describes the LL(1) parsing property of the given grammar?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The grammar is $\\mathrm{LL}(1)$ because the FIRST sets of all right-hand side alternatives for every non-terminal are mutually disjoint.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The grammar is not $\\mathrm{LL}(1)$ because it contains left recursion, which violates the $\\mathrm{LL}(1)$ property.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is not LL(1) because there are FIRST-FOLLOW conflicts caused by nullable productions (e.g., for non-terminal $A$ on lookahead $x$ ).<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The grammar is $\\mathrm{LL}(1)$ because it is left-factored and unambiguous.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532242\"></a><div itemprop=\"text\">To determine if the grammar is LL(1), we must compute the FIRST and FOLLOW sets and construct the predictive parsing table.<br>\n<br>\n$\\textbf{FIRST and FOLLOW Sets:}$<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; \\operatorname{First}(S)=\\{x, z, w, \\$\\} \\\\<br>\n&amp; \\operatorname{First}(A)=\\{x, z, w, \\epsilon\\} \\\\<br>\n&amp; \\operatorname{First}(B)=\\{y, z, w, \\epsilon\\} \\\\<br>\n&amp; \\operatorname{First}(C)=\\{z, w, \\epsilon\\}<br>\n\\end{aligned}<br>\n$$<br>\n$$<br>\n\\begin{aligned}<br>\n&amp; \\operatorname{Follow}(S)=\\{ \\} \\\\<br>\n&amp; \\operatorname{Follow}(A)=\\{\\$, x, w\\} \\\\<br>\n&amp; \\operatorname{Follow}(B)=\\{y, z\\} \\\\<br>\n&amp; \\operatorname{Follow}(C)=\\{\\$, x, y, z, w\\}<br>\n\\end{aligned}<br>\n$$<br>\n<br>\nLet us number the productions for the parsing table: 1) $S \\rightarrow A \\$ &nbsp;2) A \\rightarrow x A x$ 3) $A \\rightarrow C$ 4) $B \\rightarrow y B y$ 5) $B \\rightarrow C$ 6) $C \\rightarrow z B z$ 7) $C \\rightarrow w A w$ 8) $C \\rightarrow \\epsilon$<br>\n<br>\n$\\textbf{LL(1) Parsing Table:}$<br>\n<br>\n$$<br>\n\\begin{array}{|c|c|c|c|c|c|}<br>\n\\hline<br>\n&nbsp;&amp; x &amp; y &amp; z &amp; w &amp; \\$ \\\\<br>\n\\hline<br>\nS &amp; \\begin{array}{c}1\\end{array} &amp; &nbsp;&amp; \\begin{array}{c}1\\end{array} &amp; \\begin{array}{c}1\\end{array} &amp; \\begin{array}{c}1\\end{array} \\\\<br>\n\\hline<br>\nA &amp; \\begin{array}{c}2,3\\end{array} &amp; &nbsp;&amp; \\begin{array}{c}3\\end{array} &amp; \\begin{array}{c}3\\end{array} &amp; \\begin{array}{c}3\\end{array} \\\\<br>\n\\hline<br>\nB &amp; &nbsp;&amp; \\begin{array}{c}4,5\\end{array} &amp; \\begin{array}{c}5\\end{array} &amp; \\begin{array}{c}5\\end{array} &amp; &nbsp;\\\\<br>\n\\hline<br>\nC &amp; \\begin{array}{c}8\\end{array} &amp; \\begin{array}{c}8\\end{array} &amp; \\begin{array}{c}6,8\\end{array} &amp; \\begin{array}{c}7,8\\end{array} &amp; \\begin{array}{c}8\\end{array} \\\\<br>\n\\hline<br>\n\\end{array}<br>\n$$<br>\n<br>\nThis is not an $\\mathrm{LL}(1)$ grammar, because there are conflicts in the parse table (e.g., multiple entries in $M[A, x], M[B, y], M[C, z]$, and $M[C, w]$ ). These are FIRST-FOLLOW conflicts arising because non-terminals like $A, B$, and $C$ are nullable (they can derive $\\epsilon$ ), and their FIRST sets intersect with their FOLLOW sets.</div></section></div><p><a href=\"https://gateoverflow.in/532241\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Context-Free Grammar (CFG) with the start symbol $S$ :<br>$$<br>\\begin{array}{ll}<br>S \\to AB\\$ &amp; (1) \\\\<br>A \\to xA &amp; (2) \\\\<br>A \\to B &amp; (3) \\\\<br>B \\to yzB &amp; (4) \\\\<br>B \\to z &amp; (5)<br>\\end{array}<br>$$<br><br>Which of the following statements correctly evaluates whether the given grammar is an LL(1) grammar?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The grammar is not LL(1) because there is a FIRST-FIRST conflict for the productions of non-terminal $A$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The grammar is not LL(1) because it contains indirect left recursion.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is LL(1) because the FIRST sets of the right-hand sides of all alternative productions for every non-terminal are mutually disjoint.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The grammar is not LL(1) because there is a FIRST-FOLLOW conflict for the non-terminal B.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532240\"></a><div itemprop=\"text\"><p>$\\operatorname{First}(S)=\\{x, y, z\\}$<br>$\\operatorname{First}(A)=\\{x, y, z\\}$<br>$\\operatorname{First}(B)=\\{y, z\\}$<br>$\\operatorname{Follow}(S)=\\{ \\}$<br>$\\operatorname{Follow}(A)=\\{y, z\\}$<br>$\\operatorname{Follow}(B)=\\{y, z, \\$\\}$</p><p style=\"text-align:center\"><img alt=\"\" width=\"300\" height=\"200\" src=\"media/13/13064cd0a722d8dae531.jpg\"></p><p><br><br>This is an $\\mathrm{LL}(1)$ grammar, as there are no conflicts in the parse table.</p></div></section></div><p><a href=\"https://gateoverflow.in/532239\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following Context-Free Grammar (CFG) for arithmetic expressions, where $\\mathbf{n}$ is a terminal representing a number or identifier:<br>$$<br>\\begin{aligned}<br>S &amp; \\rightarrow T S^{\\prime} \\\\<br>S^{\\prime} &amp; \\rightarrow+S \\mid \\epsilon \\\\<br>T &amp; \\rightarrow F T^{\\prime} \\\\<br>T^{\\prime} &amp; \\rightarrow * T \\mid \\epsilon \\\\<br>F &amp; \\rightarrow \\mathbf{n} \\mid(S)<br>\\end{aligned}<br>$$<br><br><br><br>Which of the following statements is TRUE regarding whether the given grammar is LL(1)?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The grammar is not $\\mathrm{LL}(1)$ because it contains left recursion in the productions for $S^{\\prime}$ and $T^{\\prime}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>The grammar is not LL(1) because there is a FIRST-FOLLOW conflict for the non-terminal $S^{\\prime}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>The grammar is not LL(1) because there is a FIRST-FOLLOW conflict for the non-terminal $T^{\\prime}$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>The grammar is $\\mathrm{LL}(1)$ because it is free of left recursion, and for every non-terminal with multiple productions, the required FIRST and FOLLOW set conditions are strictly satisfied.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"532236\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"293\" src=\"media/a9/a98a7f8175921f289244.jpg\"></p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/532235\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 3,
+  "types": {
+   "MSQ": 4,
+   "MCQ": 11
+  },
+  "withoutKey": 13
+ }
+}

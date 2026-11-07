@@ -1,0 +1,2141 @@
+{
+ "v": 1,
+ "id": "cs-easy-2026-006",
+ "title": "Basic Level Test-2 Full Syllabus GATE 2026 CS",
+ "sourceTitle": "Basic Level Test-2 Full Syllabus GATE 2026 CS",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2026 Online Test Series - Computer Science Engineering",
+ "seriesId": "cs-easy-2026",
+ "num": 6,
+ "category": "basic",
+ "year": "2026",
+ "format": "A",
+ "durationSec": 10800,
+ "info": {
+  "meta": "Package: GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering • Questions: 65",
+  "package": "GATE 2026 GATE 2025 Online Test Series - Computer Science Engineering"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/MADE EASY/GATE_2026_GATE_2025_Online_Test_Series_Computer_Science_Engineering/011_Basic Level Test-2 Full Syllabus GATE 2026 CS.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>There are four types of candidates in an institute preparing for the UPSC. The number of students of Engineering, Science, Commerce and Humanities is 40, 60, 50 and 30 respectively and the respective percentage of students who qualified the UPSC is 80%, 75%, 60% and 50% respectively. The overall percentage of successful candidates in the institute is :</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "67.77%"
+    },
+    {
+     "key": "B",
+     "html": "66.66%"
+    },
+    {
+     "key": "C",
+     "html": "68.5%"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)</p>\n\n<div><img alt=\"\" src=\"media/4c/4c572b8fd90262ce8f19.png\" /></div>"
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +1 / -0",
+   "html": "<p>The number 12375 is divisible by</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "3"
+    },
+    {
+     "key": "B",
+     "html": "9"
+    },
+    {
+     "key": "C",
+     "html": "11"
+    },
+    {
+     "key": "D",
+     "html": "7"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, c)<br />\n&bull; For a number to be divisible by 3 and 9, the sum of its digits should be divisible by 3 and 9<br />\nrespectively. Here, 1 + 2 + 3 + 7 + 5 = 18, which is divisible 3 and 9 both. Hence, the number is<br />\ndivisible by both 3 and 9.<br />\n&bull; For a number to be divisible by 11, the difference between the sum of digits in the odd<br />\npositions and even positions must be a multiple of 11 or 0. Here, (5 + 3 + 1) &ndash; (7 + 2) = 0. Hence,<br />\nthe number is divisible by 11.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>Number of even divisor of 5400.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "36"
+    },
+    {
+     "key": "B",
+     "html": "48"
+    },
+    {
+     "key": "C",
+     "html": "24"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8f/8f9036f2a4ceb7354851.png\" /></div>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>In the given figure, ∠BAC and ∠BDC are the angles of same segments, ∠DBC = 30° and ∠BCD = 110°. ∠BAC is equal to </p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/02/02ea2b22bdc24ebceafe.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "35°"
+    },
+    {
+     "key": "B",
+     "html": "40°"
+    },
+    {
+     "key": "C",
+     "html": "55°"
+    },
+    {
+     "key": "D",
+     "html": "60°"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/99/99691760b9c1b028cee8.png\" /></div>\n</div>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>Sum of all numbers n such that n! ends with 30 zeros.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "610"
+    },
+    {
+     "key": "B",
+     "html": "590"
+    },
+    {
+     "key": "C",
+     "html": "614"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)<br />\n124! ends with 28 zeros and 125! ends with 31 zeros.<br />\nTherefore, there is no integer n with n! ending in exactly 30 zeros.</p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +2 / -0",
+   "html": "<p><img align=\"absmiddle\" alt=\"\" src=\"media/46/4689da9997b68e26e68b.png\" /></p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>2 (2 - 2)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/45/45d977661fe05c55d7f1.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>Consider the diagram given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/e8/e883276e1f9f9bc336c0.png\" /></div>\n\n<div>Five hundred candidates appeared in an examination comprising of tests in English, Hindi and Mathematics. The diagram gives the number of candidates who failed in different tests. The percentage of candidates who failed in at least two subjects is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.078"
+    },
+    {
+     "key": "B",
+     "html": "1.0"
+    },
+    {
+     "key": "C",
+     "html": "6.8"
+    },
+    {
+     "key": "D",
+     "html": "7.8"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/82/826992f2a1fec813a92a.png\" /></div>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>For the mirror represented by a line <em>MN</em>, choose the correct mirror-image of the figure, from amongst the four alternatives (a), (b), (c) and (d) given along with it.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f6/f6828b0238a54662e652.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/a9/a9b437bc1a19241d37e8.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/94/9454f4883848a05d37ce.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/e3/e3371ce9b448e4723409.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/2d/2dc1f7c540fb97d32bf4.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +2 / -0.66",
+   "html": "<p>Read the passage carefully and choose the best answer to the following question from the four alternatives given below.<br />\nAmong the natural resources which can be called upon in national plan for development, possibly<br />\nthe most important is human labour; without productive labour force, including effective leadership<br />\nand intelligent middle management, no amount of foreign assistance or natural wealth can ensure<br />\nsuccessful development and modernisation. One essential factor is usually overlooked or ignored.<br />\nThe forgotten factor is the role of women. Development will be handicapped as long as women<br />\nremain second-class citizens, uneducated, without any voice in family or community decisions,<br />\nwithout legal or economic status, married when they are still practically children, and thenceforth<br />\nproducing one baby after another, often only to see half of them die before they are of school age.<br />\nWe can enhance development by improving ‘woman power’ by giving women opportunity to develop themselves.<br />\nThe most important natural resource for national development is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "human labour"
+    },
+    {
+     "key": "B",
+     "html": "effective leadership"
+    },
+    {
+     "key": "C",
+     "html": "intelligent middle management"
+    },
+    {
+     "key": "D",
+     "html": "foreign assistance"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\nThe passage clearly states that among natural resources, human labour is the most important for national development.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "General Aptitude",
+   "tags": "General Aptitude • COMPUTER SCIENCE • +1 / -0.33",
+   "html": "<p>In the following question, a part of the sentence is given in bold. Choose the correct alternative that best improves the bold part. If no improvement is needed, select “No improvement.”<br />\nHe likes to drive his car at a speed of eighty kilometres <strong>each hour.</strong></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "in every hour"
+    },
+    {
+     "key": "B",
+     "html": "an hour"
+    },
+    {
+     "key": "C",
+     "html": "hourly"
+    },
+    {
+     "key": "D",
+     "html": "No improvement"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nThe correct expression is &ldquo;eighty kilometres an hour&rdquo; (or per hour). The word &ldquo;each&rdquo; is<br />\ngrammatically incorrect in this context. &ldquo;Correct sentence: &ldquo;He likes to drive his car at a speed of<br />\neighty kilometres an hour.&rdquo;</p>"
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>For the circuit shown in the figure, the delays of NOR gates, multiplexers and inverters are 2 ns, 3 ns and 1 ns respectively. If all the inputs <em>P</em>, <em>Q</em>, <em>R</em>, <em>S</em> and <em>T</em> are applied at the same time instant, the maximum propagation delay (in ns) of the circuit is ________.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d7/d74478b80ca0e561e486.png\" /></div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    9,
+    9
+   ],
+   "answerText": "9",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>9</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c6/c67911d6f2a81e26bae3.png\" /></div>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following DFA:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/13/13ab183da64d7c4abc24.png\" /></div>\n\n<div>Which of the following regular expression is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/1a/1a7bfce1c3a0e72f4c91.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/52/5217188ee64c3f6ef611.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/e7/e75e747b99f3417fee39.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/4c/4ce3b5a63cb2533c56e3.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following propositional function:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d6/d6af310d61e1f69253a5.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is true about above function?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Contradiction"
+    },
+    {
+     "key": "B",
+     "html": "Valid"
+    },
+    {
+     "key": "C",
+     "html": "Satisfiable"
+    },
+    {
+     "key": "D",
+     "html": "Contingency"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d6/d6df6739c9f1f519629f.png\" /></div>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Given that the determinant of the matrix <img align=\"absmiddle\" alt=\"\" src=\"media/08/081b38d5cb1aae4239d9.png\" /> is –96, then the determinant of the matrix <img align=\"absmiddle\" alt=\"\" src=\"media/ef/ef9aa387422bf92d1dd1.png\" /></p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "384"
+    },
+    {
+     "key": "B",
+     "html": "-192"
+    },
+    {
+     "key": "C",
+     "html": "-768"
+    },
+    {
+     "key": "D",
+     "html": "-384"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/18/18b3dd8d222c06958acf.png\" /></div>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>When close system call is used in sockets then which descriptor is closed?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Listen socket descriptor"
+    },
+    {
+     "key": "B",
+     "html": "Accept socket descriptor"
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nOption (b) is answer because listen has to wait for some other clients.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following code, comprising of a swap function which is atomic.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a4/a4efbde7ef93665ba39e.png\" /></div>\n\n<div>Which of the following statement is best possible?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Mutual exclusion"
+    },
+    {
+     "key": "B",
+     "html": "No progress"
+    },
+    {
+     "key": "C",
+     "html": "Bounded wait"
+    },
+    {
+     "key": "D",
+     "html": "The code solves the synchronization problem"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nThe code solves mutual exclusion and also satisfied progress but not the bounded wait.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following statements:<br />\n<em>S</em><sub>1</sub>: With register window overlap, the need for memory access in parameter passing between procedures is minimized.<br />\n<em>S</em><sub>2</sub>: Overlapping register windows reduce the frequency of saving and restoring registers to memory during procedure calls.<br />\nWhich of the above statements is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)<br />\n&bull; Overlapping windows share registers between caller and callee. This allows procedure arguments to be passed directly in registers, avoiding extra memory loads/stores. So, <em>S</em><sub>1</sub> is correct.<br />\n&bull; With register windows, most procedure calls do not need to save registers to memory. The hardware just switches to a new window, reducing context save/restore overhead. So, <em>S</em><sub>2</sub>&nbsp;is correct.</p>"
+  },
+  {
+   "n": 18,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the function <img align=\"absmiddle\" alt=\"\" src=\"media/62/625fa77bc22c10db1d0f.png\" /> in the closed interval [–1, 1] is _______.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/82/82021f8a39685926fc0a.png\" /></div>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Write the given functions asymptotically in increasing order.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/47/47a650a1f6ea2c08509c.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/cd/cd86365926a826929cc9.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/43/4368aec7b55bb95da62d.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/f3/f3ba1fdd87084fcafee3.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/e2/e28a0f0dfca2538eb6ad.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/10/103848681badf36768e0.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 20,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following relation <em>R</em> and <em>S</em> :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/df/dfdb0cda91145782aa36.png\" /></div>\n\n<div> </div>\n\n<div>The total number of tuples returns by the following query?\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d1/d11f30f085ad59192873.png\" /></div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2"
+    },
+    {
+     "key": "B",
+     "html": "3"
+    },
+    {
+     "key": "C",
+     "html": "4"
+    },
+    {
+     "key": "D",
+     "html": "5"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 21,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Let S be a stack of size 8 and it is initially empty. Suppose we push the numbers 8, 7, 6, 5, 4, 3, 2, 1 in sequence and then perform 8 pop operations. Let one push operation take 5 ns; one pop operation take 10 ns; the time between the end of one such stack operation and the start of the next operation is 1 ns. The stack-life of a particular element <em>p</em> ≥ 1 is defined as the time elapsed from the end of push (<em>p</em>) to the start of the pop operation that removes <em>p</em> from the stack. The average stack-life of an element of this stack is ________ (in ns).</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "58.5 ns"
+    },
+    {
+     "key": "B",
+     "html": "60.5 ns"
+    },
+    {
+     "key": "C",
+     "html": "62.5 ns"
+    },
+    {
+     "key": "D",
+     "html": "55 ns"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/76/768f435d1dc13db142d7.png\" /></div>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p><em>r</em><sub>1</sub> = (b* ab* ab* ab*)*, <em>r</em><sub>2</sub> = (b* ab* ab*)*. What is <em>L</em>(<em>r</em><sub>1</sub>) ∩ <em>L</em>(<em>r</em><sub>2</sub>)?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/b7/b7ff907d8c006dd9eb3b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/45/451c91bb1acc44c56325.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/05/056491f7565a57769c3b.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/77/7764c8b69cc490d5d4ca.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/54/54c41d6ae6e55aaec80b.png\" /></div>"
+  },
+  {
+   "n": 23,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>A 4 bit right shift register is shifting the data to the right for every clock pulse. The serial input <em>D </em>is derived as shown in the figure. After 3 clock pulses the content in the register is to be 1101 at <em>Q</em><sub>3</sub><em>Q</em><sub>2</sub><em>Q</em><sub>1</sub><em>Q</em><sub>0</sub> respectively, then what will be the initial content of the register?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/06/06e1cf8bc1b493d71e0b.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0101"
+    },
+    {
+     "key": "B",
+     "html": "1010"
+    },
+    {
+     "key": "C",
+     "html": "1101"
+    },
+    {
+     "key": "D",
+     "html": "1011"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/de/de55c36da47aec4e2623.png\" /></div>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Which of following is not supported by TCP sockets?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Unicasting"
+    },
+    {
+     "key": "B",
+     "html": "Broadcasting"
+    },
+    {
+     "key": "C",
+     "html": "Both (a) and (b)"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nTCP has a sequence number, broadcasting on multiple systems with same sequence numbers is not suitable.</p>"
+  },
+  {
+   "n": 25,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of the following statements are TRUE?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Essential content in page table entry is dirty bit."
+    },
+    {
+     "key": "B",
+     "html": "Base address of the page table will be stored in Page Table Base Register (PTBR) while executing the process."
+    },
+    {
+     "key": "C",
+     "html": "Virtual memory concept is implemented by using demand paging."
+    },
+    {
+     "key": "D",
+     "html": "Demand paging implies loading all pages into main memory before start of execution."
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>"
+  },
+  {
+   "n": 26,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider a processor with clock rate of 15.2 MHz. This processor executes an average of 0.5 instruction per clock cycle if there is no memory access in the instructions. Assume a program X in which 25% of the instructions require one memory access and 10% of the instructions require<br />\ntwo memory accesses. Each memory access incurs a one-cycle delay. What is the performance of this processor while executing program X, is ________ MIPS? (Upto 1 decimal place)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    6,
+    6.8
+   ],
+   "answerText": "6.2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>6.2 [6.0 - 6.8]</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/18/18bbdc1bb2902654120a.png\" /></div>\n\n<div><img alt=\"\" src=\"media/76/76201bd3b93368997050.png\" /></div>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following Directed Acyclic Graph:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/60/6013e2b5ae0f96ce71a1.png\" /></div>\n\n<div> </div>\n\n<div>Which one of the following expressions correctly represents the above graph?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/5b/5b41f1f24a0c2a44aa3f.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/b9/b904dda09f98a5c903b4.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/d3/d3373a82911fdca53eea.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/aa/aa88df3b9841d191edf7.png\" /></div>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following function:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/a3/a39356992c2a64c703f4.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/a5/a535bc262b0c29cd1633.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/11/11825b45e7b16dbeb7ea.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/aa/aab15b54c75a70fe65b8.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/5f/5f216a1e31ea15555dbe.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/d8/d8098e49b7c78a3d8f6b.png\" /></div>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the relational schema R(A, B, C, D, E, F) with functional dependencies set:<br />\nF = {A → B, BC → D, E → C, D → A}<br />\nWhich of the following candidate keys set is correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "{AB, EF, BE}"
+    },
+    {
+     "key": "B",
+     "html": "{AE, BE, EF}"
+    },
+    {
+     "key": "C",
+     "html": "{AEF, BEF, DEF}"
+    },
+    {
+     "key": "D",
+     "html": "{AEF, CEF, DEF}"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c9/c989f6152535d7d2ca69.png\" /></div>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>If the average length of the phone call at a public telephone booth is of 8 minutes and someone arrives immediately ahead of you, and starts calling then probability (you will have to wait between 8 to 24 min) = ?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "0.318"
+    },
+    {
+     "key": "B",
+     "html": "0.232"
+    },
+    {
+     "key": "C",
+     "html": "0.417"
+    },
+    {
+     "key": "D",
+     "html": "0.268"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b9/b9d9082079c2deefab67.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 31,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>The given counter circuit is switching in the following switching sequence 0 → 3 → 1 → 4 → 6 → 0 → 3 ..... . The missing inputs of flip-flop 1 are</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/da/da1839883fded21d5054.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/e5/e50262c65eb2e6ca5812.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/94/94bb0c3f2424eedc008f.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/68/68b100f6a2aa056bc31f.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/87/87aaa2cfd02b0059224c.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/25/255f3cd64d420d9f2a65.png\" /></div>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Which of following system call is not required by default by UDP at client side?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Socket( )"
+    },
+    {
+     "key": "B",
+     "html": "Connect( )"
+    },
+    {
+     "key": "C",
+     "html": "Sendto( )"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(b)<br />\nOption (b) is answer as in UDP directly sendto( ) system call can be used.</p>"
+  },
+  {
+   "n": 33,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider a system with five resources P, Q, R, S, T and four processes the process allocation table is given below:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8c/8ca03542f519e5c542a7.png\" /></div>\n\n<div> </div>\n\n<div>The smallest value of <em>X</em> for which the above system in safe state ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>3</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a4/a4ee874772817a59b145.png\" /></div>"
+  },
+  {
+   "n": 34,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Assume that for a certain processor, main memory access time is 200 nsec and cache memory access time is 40 nsec. Suppose while running a program. It was observed that p% of the processor’s requests result in a cache miss and average access time is 80 ns then which of the following<br />\nrepresents the value of ‘<em>p</em>’?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "25"
+    },
+    {
+     "key": "B",
+     "html": "30"
+    },
+    {
+     "key": "C",
+     "html": "20"
+    },
+    {
+     "key": "D",
+     "html": "45"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/2d/2de8b82ea1cf12969a6b.png\" /></div>"
+  },
+  {
+   "n": 35,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following graph:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/7e/7e9bc8fb214dd67707f0.png\" /></div>\n\n<div> </div>\n\n<div>For the graph: the following sequence of Depth First Search (DFS) are given\n<div> </div>\n\n<div><img alt=\"\" src=\"media/17/170bb92cc414b9946cc5.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is correct?</div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A, B and D only"
+    },
+    {
+     "key": "B",
+     "html": "A, B, C and D"
+    },
+    {
+     "key": "C",
+     "html": "B, C and D only"
+    },
+    {
+     "key": "D",
+     "html": "A, C and D only"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/28/28860fb5c10ce0ca4780.png\" /></div>"
+  },
+  {
+   "n": 36,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following two functions:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/13/1303ba64fe95fac42b1b.png\" /></div>\n\n<div>The output printed when fun1(10) is called is</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "10 8 8 6 6 4 4 2 2 0 1 2 3 4 5 6 7 8 9 10 8 8 6 6 4 4 2 2 0 1 2 3 4 5"
+    },
+    {
+     "key": "B",
+     "html": "10 8 9 7 8 6 7 5 6 4 5 3 4 2 3 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10"
+    },
+    {
+     "key": "C",
+     "html": "10 8 9 7 8 6 7 5 6 4 5 3 4 2 3 1 2 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10"
+    },
+    {
+     "key": "D",
+     "html": "10 8 9 7 8 6 7 5 6 4 5 3 4 2 3 1 2 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 10 10"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/3f/3f4ef3490196bdc0e7df.png\" /></div>"
+  },
+  {
+   "n": 37,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Which of the following statements is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2PL may allow non-serializable schedules if transactions acquire locks in random order."
+    },
+    {
+     "key": "B",
+     "html": "A transaction following 2PL can cause cascading aborts if it releases locks before commit."
+    },
+    {
+     "key": "C",
+     "html": "2PL is suffer from starvation."
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\n&bull; 2PL guarantees conflict-serializability regardless of the order in which locks are acquired, as<br />\nlong as the protocol (growing then shrinking phase) is followed. So, option (a) is incorrect.<br />\n&bull; If a transaction releases locks before committing, other transactions may read uncommitted<br />\nvalues. If the first transaction aborts, the dependent transactions must also abort this is called<br />\ncascading aborts. So, option (b) is correct.<br />\n&bull; Even though 2PL ensures serializability, a transaction may wait indefinitely for locks if other<br />\ntransactions continuously acquire them, causing starvation. So, option (c) is correct.</p>"
+  },
+  {
+   "n": 38,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Which of the following statement(s) is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "If there is an algorithm to solve 0-1 Knapsack in polynomial time, then there is also an algorithm to solve Subset Sum in polynomial time."
+    },
+    {
+     "key": "B",
+     "html": "Floyd-Warshall and Johnson’s algorithm solve all pairs shortest paths in the same asymptotic running time when applied to weighted complete graphs, i.e., graphs where every vertex has an edge to every other vertex."
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/af/af30af23d22f77de3fc1.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "Performing an Ο(1) amortized operation n times on an initially empty data structure takes<br />\nworst case Ο(<em>n</em>) time."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, b, d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/92/92b5b41609427d00111c.png\" /></div>"
+  },
+  {
+   "n": 39,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following μ-operations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/0e/0ef674d16146c91de2be.png\" /></div>\n\n<div>Which of the following is a correct sequence of operand store micro-program?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "7-3-5"
+    },
+    {
+     "key": "B",
+     "html": "8-3-6"
+    },
+    {
+     "key": "C",
+     "html": "3-6-8"
+    },
+    {
+     "key": "D",
+     "html": "8-2-6"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\n3. IR [Address] &rarr; MAR(take the value stored in instruction register and move into MAR).<br />\n6. MBR &larr; M [MAR] (Move the value stored at MAR to MBR).<br />\n8. ACC &larr; MBR (Move the value stored at MBR to accumulator).</p>"
+  },
+  {
+   "n": 40,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Suppose a Knapsack with capacity of 25 kg contains the following items:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/00/00c819c6287394ebc92c.png\" /></div>\n\n<div>Assuming that partial items are not allowed in the Knapsack, find the maximum profit which can be achieved if item 5 to item 8 can also be placed in the Knapsack with the condition that upto 1 items (any item) can be removed from Knapsack in order to increase the total profit.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    98,
+    98
+   ],
+   "answerText": "98",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>98</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/cf/cf29aabdf1dcc3ca9a44.png\" /></div>"
+  },
+  {
+   "n": 41,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following PDA where z is stack symbol.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/af/afcaf95a87e7e2ddd15a.png\" /></div>\n\n<div>What will be the value of a, b, c if above PDA is generating language\n<div> </div>\n\n<div><img alt=\"\" src=\"media/aa/aa449c16df5cd6de55b1.png\" /></div>\n</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/87/870008210dd51fd58881.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/57/57715855efe139f5d0d5.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/64/64d1ac135e1d9dfdd442.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a1/a1245102b44875f351dd.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/c3/c3aef15ab79682c7ee74.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 42,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider 3 dimensional Array <em>A</em>[90] [30] [40] stored in linear array in column major order. If the base address starts at 10, The location of <em>A</em>[20] [20] [30] is ________. (Assume the first element is stored at <em>A</em>[1][1][1] and each element take 1 memory location)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    80039,
+    80039
+   ],
+   "answerText": "80039",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>80039</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/82/821b54912e1b2c5cddd2.png\" /></div>"
+  },
+  {
+   "n": 43,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Consider the following graph:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f4/f455deaf5564eadc4438.png\" /></div>\n\n<div>Which of the above graph is planar?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>G</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>G</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>G</em><sub>1</sub> and <em>G</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "None of the above"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/ec/ec267b92fb0a4a9f39c9.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 44,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>Let <em>X</em> and <em>Y</em> be two sets having n elements each. Then the total number of Bijective functions from <em>X</em> and <em>Y</em> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>N</em>!"
+    },
+    {
+     "key": "B",
+     "html": "2<em><sup>N</sup></em>"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/5b/5b8d42acc76d5a3862c5.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/0c/0cfab7ce6b57b9ac8533.png\" />"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(a)<br />\nBijection means both Onto and One-One. Now, if we have two sets with <em>X</em> and <em>Y</em> with <em>N</em> elements<br />\neach, each element from <em>Y</em> has to map exactly 1 element of <em>X</em>.<br />\nSo, this simplifies your problem to place <em>N</em> different balls to <em>N</em> different boxes, where each box<br />\ncan hold only 1 ball. In other way, you just have to find out how many ways you can arrange the<br />\n<em>N</em> elements of <em>Y</em>.<br />\nThus, <em>N</em>!.</p>"
+  },
+  {
+   "n": 45,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>In TCP sockets, when it is used from client to server then destination address is not required to use?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "connect( )"
+    },
+    {
+     "key": "B",
+     "html": "send( )"
+    },
+    {
+     "key": "C",
+     "html": "recv( )"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\nAnswer is (b), (c) as in connect function call, already destination address is mentioned, so in send<br />\nand recv directly data is transmitted.</p>"
+  },
+  {
+   "n": 46,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider a main memory with 4 page frames, each of size 16 bytes, and assume it is initially empty.<br />\nThe CPU generates the following sequence of virtual addresses:<br />\n0, 5, 8, 16, 22, 36, 46, 12, 78, 82, 90, 94, 24, 32, 88, 92<br />\nThe system uses the Least Recently Used (LRU) page replacement policy.<br />\nThe total number of page faults is ________?</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    7,
+    7
+   ],
+   "answerText": "7",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>7</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/8f/8ffdb2c8bf707f4915ef.png\" /></div>\n\n<div><img alt=\"\" src=\"media/49/49a78d4e853c256a8a9f.png\" /></div>"
+  },
+  {
+   "n": 47,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>A system has a main memory of 8 M words. It uses a cache that is n-way set associative with <em>p</em> blocks, each block containing 64 words. The size of the tag field is 16 bits, and the total memory required for tags is 1024 bytes. What are the values of <em>n</em> and <em>p</em> respectively?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "256 and 256"
+    },
+    {
+     "key": "B",
+     "html": "512 and 256"
+    },
+    {
+     "key": "C",
+     "html": "256 and 512"
+    },
+    {
+     "key": "D",
+     "html": "512 and 512"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/a6/a64865c994a303460a7f.png\" /></div>"
+  },
+  {
+   "n": 48,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Which is best DS for given algorithm of algorithm performs n insertions [elements should insert one after other], <em>n</em> key decrement operations [pointer given where to decrease key], <em>n</em> delete minimum operations?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Unsorted array"
+    },
+    {
+     "key": "B",
+     "html": "Sorted array"
+    },
+    {
+     "key": "C",
+     "html": "Min heap"
+    },
+    {
+     "key": "D",
+     "html": "Sorted double linked list"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/b5/b5aec05ee35fc0797dfa.png\" /></div>"
+  },
+  {
+   "n": 49,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>Consider the following Turing machine (where €, €, $ is represent accept the string).</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/98/9889f037a24b2dc405d6.png\" /></div>\n\n<div>If the input string is 01010 then output is ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    10110,
+    10110
+   ],
+   "answerText": "10110",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>10110</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/4e/4e9f205a256bbbc0f56b.png\" /></div>"
+  },
+  {
+   "n": 50,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0",
+   "html": "<p>The number of ways 20 identical pens can be distributed among 5 students such that each gets atleast 2 pens is ________.</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1001,
+    1001
+   ],
+   "answerText": "1001",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>1001</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/13/132e18c53a8c259f0540.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 51,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>The value of <img align=\"absmiddle\" alt=\"\" src=\"media/3f/3f8900a36fcaabf19105.png\" /> is</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/e5/e569709a8b3324028a8b.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "log3"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/1c/1caf2606921227abbb1e.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/7d/7d02d87a31b95e398a85.png\" />"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/9b/9b669c45abcc3731c356.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 52,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following code:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/8c/8c8d5a40178a4ce6381e.png\" /></div>\n\n<div>Suppose a process has 2 concurrent threads; one thread executes statement 1 and 2 and other thread executes statement 3 and 4. What are the possible values of variable ‘<em>a</em>’ and ‘<em>b</em>’ when the code finishes execution? (Assume all the statements are atomic no preemption is allowed when the statement is currently execution)</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/bb/bbe736ddecb2739852c5.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/a6/a63710ddbde5305dd93f.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/f4/f4deb144b9b1e75a0150.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/a7/a7d03649c9f8b60f5357.png\" />"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/85/85ddf39c196500a0a37e.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 53,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>The following C function takes single linked list of integers as parameter and rearrange the elements of the list. The function is called with the list contain integers 10, 20, 30, 40, 50, 60, 70 in given order and generate output as 20, 10, 40, 30, 60, 50, 70 after completion. What will be the<br />\ncorrect options files so the we get desired output?</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/12/12ca80da42652d82ab94.png\" /></div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<img alt=\"\" src=\"media/61/616191dd00527385c3a5.png\" />"
+    },
+    {
+     "key": "B",
+     "html": "<img alt=\"\" src=\"media/a2/a2357f7e402153072505.png\" />"
+    },
+    {
+     "key": "C",
+     "html": "<img alt=\"\" src=\"media/f0/f07116a9cc4fb718552c.png\" />"
+    },
+    {
+     "key": "D",
+     "html": "<img alt=\"\" src=\"media/ce/ce75db9c14899c794417.png\" />"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(d)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/66/660aa3025d8905956c46.png\" /></div>"
+  },
+  {
+   "n": 54,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the following set of relations:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/66/66388d4a30c39ec8283d.png\" /></div>\n\n<div> </div>\n\n<div>Then which of the following statements is/are TRUE regarding the above queries?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Returns same number of rows."
+    },
+    {
+     "key": "B",
+     "html": "Returns same number of columns."
+    },
+    {
+     "key": "C",
+     "html": "Returns different number of rows."
+    },
+    {
+     "key": "D",
+     "html": "Returns different number of columns."
+    }
+   ],
+   "answer": [
+    "A",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(a, d)<br />\nEQUI JOIN (vs) NATURAL JOIN Both returns same no of rows. But in NATURAL JOIN, the<br />\ncommon columns will exist only once, where as in EQUI JOIN, the common columns repeats<br />\ntwice one for each table.</p>"
+  },
+  {
+   "n": 55,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>A full subtractor is possible to realise</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "using two 8 × 1 multiplexers and one NOT gate"
+    },
+    {
+     "key": "B",
+     "html": "using two 4 × 1 multiplexers and one NOT gate"
+    },
+    {
+     "key": "C",
+     "html": "using a 3 × 8 time decoder and two OR gates"
+    },
+    {
+     "key": "D",
+     "html": "using a 3 × 8 line decoder and one OR gate"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)<br />\nFull subtractor is having 3 input variables and two outputs.<br />\nTo realise full subtractor two 8 &times; 1 multiplexers are required, no need of NOT gate.<br />\nTo realise full subtractor two 4 &times; 1 multiplexers and one NOT gate is required.<br />\nTo realise full subtractor two 3 &times; 8 time decoder and two OR gates are required.</p>"
+  },
+  {
+   "n": 56,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following language over Σ = {0, 1}.</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/ac/ace71373793598d06623.png\" /></div>\n\n<div> </div>\n\n<div>Which of the following is correct?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<em>L</em><sub>1</sub> is DCFL and <em>L</em><sub>2</sub> is regular"
+    },
+    {
+     "key": "B",
+     "html": "<em>L</em><sub>1</sub> is CFL and <em>L</em><sub>2</sub> is regular"
+    },
+    {
+     "key": "C",
+     "html": "<em>L</em><sub>1</sub> is DCFL and <em>L</em><sub>2</sub> is CFL"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)<br />\n<em>L</em><sub>1</sub> is having only one comparison, so it is DCFL.<br />\n<em>L</em><sub>2</sub>&nbsp;is regular.</p>"
+  },
+  {
+   "n": 57,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>In client-server architecture Sockets are created at transport layer by Socket API</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "At client side only"
+    },
+    {
+     "key": "B",
+     "html": "At server side only"
+    },
+    {
+     "key": "C",
+     "html": "Both at client and server"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>"
+  },
+  {
+   "n": 58,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Let <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> are two queues. Peek(<em>Q</em>) returns element at front end of queue <em>Q</em> without removing it from queue.<br />\nInitially <em>Q</em><sub>2</sub> is empty and <em>Q</em><sub>1</sub> contains following elements in given order from front end to rear end 1, 2, 3, 4, 5.<br />\nFollowing algorithm applied on <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> :</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/1c/1c29db12f2f282d4d44f.png\" /></div>\n\n<div> </div>\n\n<div>Let n and m are number of Enqueue( ) operations applied on <em>Q</em><sub>1</sub> and number of Dequeue operations applied on <em>Q</em><sub>2</sub> respectively, on execution of above algorithm on <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub>. The value of <em>n</em> + <em>m</em> is<br />\n_________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    8,
+    8
+   ],
+   "answerText": "8",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>8</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/18/187b1a84575f83ff6177.png\" /></div>"
+  },
+  {
+   "n": 59,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following instruction sequence:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/d5/d5407f513472650ff933.png\" /></div>\n\n<div>How many anti-data dependencies (WAR) and true data dependencies (RAW) are present?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "2 and 4"
+    },
+    {
+     "key": "B",
+     "html": "1 and 5"
+    },
+    {
+     "key": "C",
+     "html": "2 and 5"
+    },
+    {
+     "key": "D",
+     "html": "3 and 4"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/22/2211740223cc1654d7bf.png\" /></div>\n\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 60,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider following ERD:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/12/12bc2333dc564c129e90.png\" /></div>\n\n<div>How many super keys in minimized RDBMS design of given ERD?</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "32"
+    },
+    {
+     "key": "B",
+     "html": "64"
+    },
+    {
+     "key": "C",
+     "html": "48"
+    },
+    {
+     "key": "D",
+     "html": "16"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/04/0422348670ecf6e55de0.png\" /></div>"
+  },
+  {
+   "n": 61,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following incomplete grammar:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/06/0690cecfe53d7eb40bda.png\" /></div>\n\n<div> </div>\n\n<div>If First(S) = {a, b, c}, First(A) = {a, c, ∈} and First(B) = {a, c} then the productions (1) and (2) are</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "S → AaB and A → AbS"
+    },
+    {
+     "key": "B",
+     "html": "S → BbS and A → SbA"
+    },
+    {
+     "key": "C",
+     "html": "S → Ab and A → BbS"
+    },
+    {
+     "key": "D",
+     "html": "S → AcB and A → AbS"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/60/608f23cf64d9e1ae2e1f.png\" /></div>"
+  },
+  {
+   "n": 62,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +1 / -0.33",
+   "html": "<p>The grammar having no Epsilon transition or two adjacent non-terminals in the right side of any production is?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "LL(1) grammar"
+    },
+    {
+     "key": "B",
+     "html": "Operator grammar"
+    },
+    {
+     "key": "C",
+     "html": "Unambiguous grammar"
+    },
+    {
+     "key": "D",
+     "html": "Context Sensitive grammar"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>(b)<br />\nAn operator precedence grammar is a context-free grammar that has the property that no<br />\nproduction has either an empty right-hand side or two adjacent non-terminals in its right-hand<br />\nside.</p>"
+  },
+  {
+   "n": 63,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider the given statements:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/f8/f84a357b4443f8f4304d.png\" /></div>\n\n<div>The number of correct statements is/are ________.</div>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    3,
+    3
+   ],
+   "answerText": "3",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>3</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/76/76c4e6ac5797c14f7c86.png\" /></div>\n\n<div>&nbsp;</div>"
+  },
+  {
+   "n": 64,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0.66",
+   "html": "<p>Consider the following schema:</p>\n\n<div> </div>\n\n<div><img alt=\"\" src=\"media/72/72b4e18c9c16c9f8fd16.png\" /></div>\n\n<div>Which of the following queries the name of employees who earn more than $100000 and are certified to operate at least one aircraft that can over the distance of some flight.</div>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Only <em>S</em><sub>1</sub>"
+    },
+    {
+     "key": "B",
+     "html": "Only <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "C",
+     "html": "Both <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>"
+    },
+    {
+     "key": "D",
+     "html": "Neither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>(a)</p>"
+  },
+  {
+   "n": 65,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • COMPUTER SCIENCE & IT • +2 / -0",
+   "html": "<p>Consider a direct mapped cache with 8 cache blocks (numbered 0 - 7). If the memory block requests are in the following order 4, 2, 3, 9, 34, 62, 45, 30, 18, 24, 2, 62, 45, 20, 16, 42, 24, 20. Which of the following memory blocks will not be in the cache at the end of the sequence?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "20"
+    },
+    {
+     "key": "B",
+     "html": "16"
+    },
+    {
+     "key": "C",
+     "html": "18"
+    },
+    {
+     "key": "D",
+     "html": "42"
+    }
+   ],
+   "answer": [
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>(b, c)</p>\n\n<div>&nbsp;</div>\n\n<div><img alt=\"\" src=\"media/11/1164e7e526ca64bff088.png\" /></div>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "General Aptitude",
+   "start": 0,
+   "count": 10
+  },
+  {
+   "name": "Technical",
+   "start": 10,
+   "count": 55
+  }
+ ],
+ "stats": {
+  "questions": 65,
+  "maxMarks": 100,
+  "types": {
+   "MCQ": 45,
+   "MSQ": 8,
+   "NAT": 12
+  },
+  "withoutKey": 0
+ }
+}

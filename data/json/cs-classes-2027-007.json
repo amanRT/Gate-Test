@@ -1,0 +1,577 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-007",
+ "title": "DVRUO Classes CS/DA Test Series | Aptitude | Test 1",
+ "sourceTitle": "DVRUO Classes CS/DA Test Series | Aptitude | Test 1",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 7,
+ "category": "aptitude",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Aptitude"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/012_exam_2465_GO Classes CS-DA Test Series Aptitude Test 1.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Distribution of Customer Complaints Received by Airline $P$, $2003$ and $2004$<br><br>\\[<br>\\begin{array}{|l|c|c|}<br>\\hline<br>\\textbf{Category} &amp; \\textbf{2003} &amp; \\textbf{2004} \\\\<br>\\hline<br>\\text{Flight problem} &amp; 20.0\\% &amp; 22.1\\% \\\\<br>\\hline<br>\\text{Baggage} &amp; 18.3 &amp; 21.8 \\\\<br>\\hline<br>\\text{Customer service} &amp; 13.1 &amp; 11.3 \\\\<br>\\hline<br>\\text{Reservation and ticketing} &amp; 5.8 &amp; 5.6 \\\\<br>\\hline<br>\\text{Credit} &amp; 1.0 &amp; 0.8 \\\\<br>\\hline<br>\\begin{array}{l}<br>\\text{Special passenger}\\\\<br>\\text{accommodation}<br>\\end{array}<br>&amp; 0.9 &amp; 0.9 \\\\<br>\\hline<br>\\text{Other} &amp; 40.9 &amp; 37.5 \\\\<br>\\hline<br>\\text{Total} &amp; 100.0\\% &amp; 100.0\\% \\\\<br>\\hline<br>\\begin{array}{l}<br>\\text{Total number of}\\\\<br>\\text{complaints}<br>\\end{array}<br>&amp; 22,998 &amp; 13,278 \\\\<br>\\hline<br>\\end{array}<br>\\]<br>By approximately what percent did the total number of complaints decrease from $2003$ to $2004$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$42$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$52$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$62$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$32$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536703\"></a><div itemprop=\"text\">The decrease in the total number of complaints from $2003$ to $2004$ was $22,998-13,278$, or $9,720$. Therefore, the percent decrease was $\\left(\\frac{9,720}{22,998}\\right)(100 \\%)$, or approximately $42$ percent.</div></section></div><p><a href=\"https://gateoverflow.in/536702\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>United States Production of Photographic<br>Equipment and Supplies in $1971$<br>&nbsp;</p><p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"274\" src=\"media/4a/4ad575bf35d73dd88304.jpg\"></p><p><br><br>If the value of office copiers produced in $1971$ was $30$ percent greater than the corresponding value in $1970$, what was the value of office copiers produced in $1970$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$767$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$765$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$777$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$756$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"536701\"></a><div itemprop=\"text\">The value of office copiers produced in $1971$ was $0.25$ times $\\$ 3,980$ million, or $\\$ 995$ million. Therefore, if the corresponding value in $1970$ was $x$ million dollars, then $1.3 x=995$ million. Solving for $x$ yields $x=\\frac{995}{1.3} \\approx 765$, so the value of office copiers produced in 1970 was approximately $\\$765$ million.</div></section></div><p><a href=\"https://gateoverflow.in/536700\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A talent contest has $8$ contestants. Judges must award prizes for first, second, and third places, with no ties.<br>In how many different ways can the judges award the $3$ prizes?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$56$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$112$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$336$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$3$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536699\"></a><div itemprop=\"text\">$\\textbf{First Place}:$ The judges can choose from any of the $\\mathbf{8}$ contestants.<br>\n<br>\n$\\textbf{Second Place:}$ Once first place is awarded, 7 contestants remain.<br>\n<br>\n$\\textbf{Third Place:}$ Once first and second places are awarded, 6 contestants remain.<br>\nTotal Ways: $8^{*} 7^{*} 6=336$</div></section></div><p><a href=\"https://gateoverflow.in/536698\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Kathy is a repair technician for a phone company. Each week, she receives a batch of phones that need repairs. The number of phones that she has left to fix at the end of each day can be estimated with the equation $P=108-23 d$, where $P$ is the number of phones left and $d$ is the number of days she has worked that week. What is the meaning of the value $108$ in this equation?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Kathy will complete the repairs within $108$ days.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Kathy starts each week with $108$ phones to fix.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Kathy repairs phones at a rate of $108$ per hour.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Kathy repairs phones at a rate of $108$ per day.</p>"
+    }
+   ],
+   "answer": [
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B, D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536833\"></a><div itemprop=\"text\">kathy starts each week with 108 phones and at the end of the day she fixes 23 phones...<br>\n<br>\n&nbsp;</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"540437\"></a><div itemprop=\"text\">$\\textbf{\\textcolor{green}{Answer: B}}$<br>\n<br>\n$\\text{Equation: P = 108 − 23d}$<br>\n<br>\nWhere, $108 =$ The initial number of phones Kathy has to repair at the beginning of the week<br>\n<br>\n$23 =$ The number of phones Kathy repairs each day.</div></section></div><p><a href=\"https://gateoverflow.in/536697\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A food truck sells salads for $\\$ 6.50$ each and drinks for $\\$ 2.00$ each. The food truck's revenue from selling a total of $209$ salads and drinks in one day was $\\$ 836.50$. How many salads were sold that day?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$77$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$93$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$99$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$105$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"536696\"></a><div itemprop=\"text\"><p>Let:</p><ul><li>$\\mathrm{s}=$ the number of salads sold.</li><li>$\\mathrm{d}=$ the number of drinks sold</li></ul><p><br>Two equations:<br><br>$1$) Total Item Count Equation:&nbsp; s + d = $209$<br><br>2) Total Revenue Equation: $6.50 s+2.00 d=836.50$<br><br>Solving both equation gives: $s=93, d=116$</p></div></section></div><p><a href=\"https://gateoverflow.in/536695\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Many ancient sculptures of people's heads are missing their noses. This is because the nose is the<br>most ____ part of a sculpture of a person's head.<br><br>It is delicate and sticks out from the rest of the sculpture, making it especially easy to break.<br>Which choice completes the text with the most logical and precise word or phrase?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>recognizable<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>fragile<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>common<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>sophisticated</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536694\"></a><div itemprop=\"text\">The sentence directly after the blank describes the nose as being \"delicate\" and notes that it is \"especially easy to break.\"</div></section></div><p><a href=\"https://gateoverflow.in/536693\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In the late $1800s$, Spanish-language newspapers flourished in cities across Texas. San Antonio alone produced eleven newspapers in Spanish between $1890$ and $1900$. But El Paso surpassed all other cities in the state. This city produced twenty-two newspapers in Spanish during that period. El Paso is located on the border with Mexico and has always had a large population of Spanish speakers. Thus, it is unsurprising that this city became such a rich site for Spanish-language journalism.<br><br>Which choice best states the main purpose of the text?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>To compare Spanish-language newspapers published in Texas today with ones published there during the late $1800s$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>To explain that Spanish-language newspapers thrived in Texas and especially in El Paso duri the late $1800s$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>To argue that Spanish-language newspapers published in El Paso influenced the ones published in San Antonio during the late $1800s$.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>To explain why Spanish-language newspapers published in Texas were so popular in Mexico during the late $1800s$.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/536692\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Recently, scientists looked at data collected by NASA's InSight lander to learn more about seismic activity on Mars, known as marsquakes. The data show that the marsquakes all started from the same location on the planet. This discovery was surprising to scientists, as they expected that the marsquakes would originate from all over the planet because of the cooling of the planet's surface. Now, scientists believe that there could be areas of active magma flows deep beneath the planet's surface that trigger the marsquakes.<br><br>According to the text, what was surprising to scientists studying the seismic activity data from NASA's InSight lander?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>The surface temperature of Mars has been rising.<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>There were different types of seismic waves causing marsquakes.<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>NASA&#x27;s InSight lander collected less data than scientists had expected.<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>All the marsquakes started from the same location on the planet.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><p><em>No solution was available on the source discussion page.</em></p><p><a href=\"https://gateoverflow.in/536691\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"319\" src=\"media/4a/4a5278b5e535ec119bf8.png\"></p><p><br>The graph of the rational function $f$ is shown, where $y=f(x)$ and $x \\geq 0$. Which of the following is the graph of $y=f(x)+5$, where $x \\geq 0$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"334\" src=\"media/2f/2f4626e3b38e51d529b1.png\"></p><p>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"314\" src=\"media/00/00586fabe01391687304.png\"></p><p>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"336\" src=\"media/79/795e5284da40415a4854.png\"></p><p>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"316\" src=\"media/b8/b89ae4105449c9c8922f.png\"></p><p>&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536690\"></a><div itemprop=\"text\">The transformation $\\mathrm{y}=\\mathrm{f}(\\mathrm{x})+5$ shifts the entire graph up by $5$ units.<br>\nOn the original graph, when $\\mathrm{x} = 2, \\mathrm{y}=4$. Shifting it up by $5$ means the new graph must pass through $(2,9)$.</div></section></div><p><a href=\"https://gateoverflow.in/536689\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the Synonym of \"Immaculate\"?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Flawless<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Dirty<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Elaborate<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Present</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536688\"></a><div itemprop=\"text\">$\\textbf{Immaculate}$<br>\n<br>\n$\\textbf{Part of Speech:}$ adjective<br>\n<br>\n$\\textbf{Definition:}$ Free from dirt, stain, or impurities.<br>\n<br>\n$\\textbf{Synonyms:}$ flawless, clean, spotless, unblemished</div></section></div><p><a href=\"https://gateoverflow.in/536687\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Distribution of Customer Complaints Received by Airline $P$, $2003$ and $2004$<br><br>\\[<br>\\begin{array}{|l|c|c|}<br>\\hline<br>\\text{Category} &amp; 2003 &amp; 2004 \\\\<br>\\hline<br>\\text{Flight problem} &amp; 20.0\\% &amp; 22.1\\% \\\\<br>\\hline<br>\\text{Baggage} &amp; 18.3 &amp; 21.8 \\\\<br>\\hline<br>\\text{Customer service} &amp; 13.1 &amp; 11.3 \\\\<br>\\hline<br>\\text{Reservation and ticketing} &amp; 5.8 &amp; 5.6 \\\\<br>\\hline<br>\\text{Credit} &amp; 1.0 &amp; 0.8 \\\\<br>\\hline<br>\\begin{array}{l}<br>\\text{Special passenger}\\\\<br>\\text{accommodation}<br>\\end{array}<br>&amp; 0.9 &amp; 0.9 \\\\<br>\\hline<br>\\text{Other} &amp; 40.9 &amp; 37.5 \\\\<br>\\hline<br>\\text{Total} &amp; 100.0\\% &amp; 100.0\\% \\\\<br>\\hline<br>\\begin{array}{l}<br>\\text{Total number of}\\\\<br>\\text{complaints}<br>\\end{array}<br>&amp; 22,998 &amp; 13,278 \\\\<br>\\hline<br>\\end{array}<br>\\]<br><br>Based on the information given in the table, which of the following statement(s) is/are correct?<br><br>$\\textbf{Statement I:}$ In each of the years $2003$ and $2004$, complaints about flight problems, baggage, and customer service together accounted for more than 50 percent of all customer complaints received by Airline $P$.<br><br>$\\textbf{Statement II:}$ The number of special passenger accommodation complaints was unchanged from $2003$ to $2004$.<br><br>$\\textbf{Statement III:}$ From $2003$ to $2004$, the number of flight problem complaints increased by more than $2$ percent.</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Statement $\\text{I}$ only<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Statements $\\text{I}$ and $\\text{III}$ only<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Statements $\\text{II}$ and $\\text{III}$ only<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Statements $\\text{I}$ and $\\text{II}$ only&nbsp;</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"536686\"></a><div itemprop=\"text\">Since $20.0+18.3+13.1$ and $22.1+21.8+11.3$ are both greater than $50$,$\\textbf{\\textcolor{green}{ statement 1 is true.}}$<br>\n<br>\nFor statement $2$, the percent of special passenger accommodation complaints did remain the same from $2003$ to $2004$, but the number of such complaints decreased because the total number of complaints decreased. Thus, &nbsp;$\\textbf{\\textcolor{red}{statement 2 is false.}}$<br>\n<br>\nFor statement $3$, the percents shown in the table for flight problems do in fact increase by more than $2$ percentage points, but the bases of the percents are different. The total number of complaints in $2004$ was much lower than the total number of complaints in $2003$, and clearly $20$ percent of $22,998$ is greater than $22.1$ percent of $13,278$. So, the number of flight problem complaints actually decreased from $2003$ to $2004$, and $\\textbf{\\textcolor{red}{statement 3 is false.}}$</div></section></div><p><a href=\"https://gateoverflow.in/536685\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Rectangles $A B C D$ and $E F G H$ are similar. The length of each side of $E F G H$ is $6$ times the length of the corresponding side of $A B C D$. The area of $A B C D$ is $54$ square units. What is the area, in square units, of $E F G H$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$9$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$36$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$324$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1,944$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536684\"></a><div itemprop=\"text\">Ratio of areas $=(\\text { Ratio of side lengths })^{2}$<br>\n<br>\nArea of $\\mathrm{EFGH}=$ Area of $\\mathrm{ABCD} \\times 6^2$<br>\n<br>\nArea of $\\mathrm{EFGH}=54 \\times 36=1944$</div></section></div><p><a href=\"https://gateoverflow.in/536683\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p style=\"text-align:center\"><img alt=\"\" width=\"350\" height=\"92\" src=\"media/b3/b36e015e733396f66eda.png\"></p><p><br>Points $A, B, C$, and $D$ are on the number line above, and $A B=C D=\\frac{1}{3}(B C)$. What is the coordinate of $C$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\frac{13}{30}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\frac{9}{20}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\frac{11}{24}$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\frac{7}{15}$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536682\"></a><div itemprop=\"text\">Total Distance $(A D)=D-A=\\frac{1}{2}-\\frac{1}{3}=\\frac{3-2}{6}=\\frac{1}{6}$<br>\n<br>\nNow, $$ A D=A B+B C+C D $$<br>\n<br>\nFrom the given condition, $A B=C D=\\frac{1}{3} B C$. Let $B C=x$. Then:<br>\n$$<br>\nA B=\\frac{1}{3} x \\quad \\text { and } \\quad C D=\\frac{1}{3} x<br>\n$$<br>\n<br>\nSolve for $x$ :<br>\n$$<br>\n\\begin{gathered}<br>\n\\frac{1}{3} x+x+\\frac{1}{3} x=\\frac{1}{6} \\\\<br>\n\\frac{5}{3} x=\\frac{1}{6} \\Longrightarrow x=\\frac{1}{6} \\times \\frac{3}{5}=\\frac{1}{10}<br>\n\\end{gathered}<br>\n$$<br>\n<br>\nSo, the length of segment $C D=\\frac{1}{3} x=\\frac{1}{3} \\times \\frac{1}{10}=\\frac{1}{30}$.<br>\n<br>\nSince $C$ lies to the left of $D$ :<br>\n$$<br>\nC=D-C D=\\frac{1}{2}-\\frac{1}{30}=\\frac{15-1}{30}=\\frac{14}{30}=\\frac{7}{15}<br>\n$$</div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"542726\"></a><div itemprop=\"text\"><p>Given,</p><p>AB = CD = (1/3)BC</p><p>AD = AB + BC + CD<br>1/2 - 1/3 = (1/3)BC + BC + (1/3)BC<br>1/6&nbsp;= (5/3)BC<br>BC = (1/6) × (3/5) = 1/10</p><p>Hence,<br>AB = CD = (1/3)BC = (1/3)(1/10) = 1/30</p><p>Now,<br>AC = AB + BC<br>AC = 1/30 + 1/10<br>AC = 2/15<br>(Alternatively, AC = AD - CD = 1/6 - 1/30 = 2/15.)</p><p>Since A is at 1/3,<br>C = 1/3 + 2/15<br>C&nbsp;= 7/15</p><p>Therefore, the coordinate of C is 7/15, i.e., <strong>Option D</strong>.</p></div></section></div><p><a href=\"https://gateoverflow.in/536681\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>$$ 1,-3,4,1,-3,4,1,-3,4, \\ldots $$<br><br>In the sequence above, the first $3$ terms repeat without end. What is the sum of the terms of the sequence from the $150$th term to the $154$th term?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$7$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$8$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$9$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536680\"></a><div itemprop=\"text\"><p>The sequence repeats every $3$ terms: $1,-3,4$.</p><ul><li>&nbsp;$\\quad 1^{\\text {st }}$ term $(\\bmod 3) \\equiv 1 \\Longrightarrow 1$<br>&nbsp;</li><li>&nbsp;$\\quad 2^{\\text {nd }}$ term $(\\bmod 3) \\equiv 2 \\Longrightarrow-3$<br>&nbsp;</li><li>&nbsp;$\\quad 3^{\\text {rd }}$ term $(\\bmod 3) \\equiv 0 \\Longrightarrow 4$</li></ul><p>Find the position of the $150^{\\text {th }}$ term:<br><br>$$150 \\div 3=50 \\text { with a remainder of } 0$$<br><br>Since the remainder is $0$, the $150^{\\text {th }}$ term is the last number in the repeating block, which is $4$.<br><br>1$50^{th}$ term = $4$<br><br>$151^{th}$ term = $1$<br><br>$152^{nd}$ term = $-3$<br><br>$153^{rd}$ term = $4$<br><br>$154^th$ term = $1$<br><br>Hence,<br><br>Sum $=4+1+(-3)+4+1=7$</p></div></section></div><p><a href=\"https://gateoverflow.in/536679\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>A manufacturing company has plants in three locations: Indonesia, Mexico, and Pakistan. The company has $6,000$ employees, and each of the employees works at only one of the plants. If $\\frac{3}{8}$ of the employees work at the plant in Indonesia and if twice as many employees work at the plant in Mexico as work at the plant in Pakistan, how many employees work at the plant in Mexico?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$2000$<br>&nbsp;</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2500$<br>&nbsp;</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$2250$<br>&nbsp;</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$1500$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 0)</small></h4><a name=\"536678\"></a><div itemprop=\"text\">$$<br>\n\\text { Indonesia }=\\frac{3}{8} \\times 6000=3 \\times 750=2250<br>\n$$<br>\n<br>\nRemaining Employees in Mexico and Pakistan<br>\nRemaining $=6000-2250=3750$<br>\n<br>\nThe problem states Mexico has twice as many employees as Pakistan (Mexico $=2 \\times$ Pakistan).<br>\n<br>\nMexico + Pakistan = 3750<br>\n$$<br>\n2 x+x=3750 \\Longrightarrow 3 x=3750 \\Longrightarrow x=1250 \\text { (Pakistan) }<br>\n$$<br>\n<br>\nMexico $=2 \\times 1250=2500$</div></section></div><p><a href=\"https://gateoverflow.in/536677\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 1,
+  "types": {
+   "MCQ": 13,
+   "MSQ": 2
+  },
+  "withoutKey": 14
+ }
+}

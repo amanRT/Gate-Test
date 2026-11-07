@@ -1,0 +1,376 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-046",
+ "title": "DVRUO Classes GATE CS/DA | DBMS | Relational Algebra | Weekly Quiz 7",
+ "sourceTitle": "DVRUO Classes GATE CS/DA | DBMS | Relational Algebra | Weekly Quiz 7",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 46,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 1620,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "DBMS"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/064_exam_998_GO Classes GATE CS-DA DBMS Relational Algebra Weekly Quiz 7.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the join of a relation $R$ with a relation $S$. If $R$ has $m$ tuples and $S$ has $n$ tuples then the maximum and minimum sizes of the join respectively are</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$m+n$ and $0$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$mn$ and $0$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$m+n$ and $|m-n|$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$mn$ and $m+n$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"496841\"></a><div itemprop=\"text\">We have 2 types of join <br>\n1) Inner join 2) Outer join<br>\n<br>\njoin by default means inner join. In inner join we have 3 types <br>\n1) Conditional join or Theta join 2) Equi join 3) Natural join<br>\n<br>\nAs nothing is mentioned its by default Natural join.<br>\n<br>\nMaximum will be when there are no common attributes between the two relations and the join will act as a cross product thus size of this relation will be mn .<br>\nMinimum will be when both relation have a common attribute for which there is no common tuple thus the size of this relation will be 0.</div></section></div><p><a href=\"https://gateoverflow.in/432195\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>​​​​​The relation schema, Person (pid, city), describes the city of residence for every person uniquely identified by pid. The following relational algebra operators are available: selection, projection, cross product, and rename.</p><p>To find the list of cities where at least $3$ persons reside, using the above operators, the minimum number of cross product operations that must be used is</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$1$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$3$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$4$</p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> B</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"491342\"></a><div itemprop=\"text\"><p>Relational Algebra expression looks like this</p><p>Condition 1: c1: $(city1 = city2) \\land (city2 = city3) \\land (city3 = city1)$</p><p>Condition 2: c2: $(pid1 &lt;&gt; pid2) \\land (pid2 &lt;&gt; pid3) \\land (pid1 &lt;&gt; pid3)$</p><h2><span style=\"color:#e67e22;\">$\\pi_{city1} [\\sigma_{c1 \\land c2} (\\rho_{(pid1,city1)}(Person)&nbsp; &nbsp;\\times \\rho_{(pid2,city2)}(Person) \\times \\rho_{(pid3,city3)}(Person))]$</span></h2><p>Here, two cross joins are used. Hence, Answer is 2.<br><br>Answer: B</p><p><strong><a rel=\"nofollow\" target=\"_blank\" title=\"\" href=\"https://www.youtube.com/watch?v=ItLbswLCmKc&amp;t=1204s\">Detailed Video Solution (Click Here)</a>&nbsp;</strong></p></div></section><section><h4>Source solution 2 <small>(score: 6)</small></h4><a name=\"432234\"></a><div itemprop=\"text\"><p>To find the list of cities where at least $3$ persons reside, we need to do cross product of 3 tables, So, minimum only 2 cross products are required.&nbsp;</p><p><strong><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=ItLbswLCmKc&amp;t=1204s\" target=\"_blank\">Detailed Video Solution (Click Here)</a>&nbsp;</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/432194\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Consider the following two relations, $R(A, B)$ and $S(A, C)$:</p><table border=\"1\" cellpadding=\"1\" style=\"width:500px\"><tbody><tr><td colspan=\"2\" style=\"text-align:center\">$R$</td></tr><tr><td style=\"text-align:center\">$A$</td><td style=\"text-align:center\">$B$</td></tr><tr><td>$10$</td><td>$20$</td></tr><tr><td>$20$</td><td>$30$</td></tr><tr><td>$30$</td><td>$40$</td></tr><tr><td>$30$</td><td>$50$</td></tr><tr><td>$50$</td><td>$95$</td></tr></tbody></table><p>&nbsp;</p><table border=\"1\" cellpadding=\"1\" style=\"width:500px\"><tbody><tr><td colspan=\"2\" style=\"text-align:center\">$S$</td></tr><tr><td style=\"text-align:center\">$A$</td><td style=\"text-align:center\">$C$</td></tr><tr><td>$10$</td><td>$90$</td></tr><tr><td>$30$</td><td>$45$</td></tr><tr><td>$40$</td><td>$80$</td></tr></tbody></table><p>&nbsp;</p><p>The total number of tuples obtained by evaluating the following expression</p><p>$\\sigma_{B&lt;C}\\left(R \\bowtie_{R . A=S . A} S\\right)$ is ___________.</p><p>&nbsp;</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    2,
+    2
+   ],
+   "answerText": "2",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 2</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 4)</small></h4><a name=\"432208\"></a><div itemprop=\"text\"><p>First apply the parenthesis (R&nbsp;⋈<sub>R.A </sub><sub>=S.A </sub>S)</p><p>The following Relation we will get:</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><caption>After Equi Join</caption><thead><tr><th scope=\"col\">R.A</th><th scope=\"col\">B</th><th scope=\"col\">S.A</th><th scope=\"col\">C</th></tr></thead><tbody><tr><td>10</td><td>20</td><td>10</td><td>90</td></tr><tr><td>30</td><td>40</td><td>30</td><td>45</td></tr><tr><td>30</td><td>50</td><td>30</td><td>45</td></tr></tbody></table><p>Now Apply the Selection Operation, It will filter out some tuples based on the condition $B &lt; C$.</p><p>So tuple number 3 from the above Relation will be removed.</p><p>And finally we are left with two Tuples.</p><table border=\"1\" cellpadding=\"1\" style=\"width: 500px; border-spacing: 1px;\"><caption>Final Result</caption><thead><tr><th scope=\"col\">R.A</th><th scope=\"col\">B</th><th scope=\"col\">S.A</th><th scope=\"col\">C</th></tr></thead><tbody><tr><td>10</td><td>20</td><td>10</td><td>90</td></tr><tr><td>10</td><td>40</td><td>30</td><td>45</td></tr></tbody></table><p>The answer will be<strong> 2</strong>.</p></div></section></div><p><a href=\"https://gateoverflow.in/432193\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Given two union compatible relations $R_1(A, B)$ and $R_2 (C, D)$, what is the result of the operation $R_1 \\Join_{ A = C \\wedge B = D} R_2$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$R_1 \\cup R_2$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$R_1 \\times R_2$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$R_1 – R_2$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$R_1 \\cap R_2$</p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> D</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"522240\"></a><div itemprop=\"text\">Answer is option $\\boxed{D}$<br>\n<br>\nWhat the conditional join is doing is basically for each tuple in $R_1$ is compared with each tuple of $R_2$ and if corresponding attribute values are equal then the tuple would be in the final result. <br>\n<br>\nThis is bascailly what intersection operation does.</div></section></div><p><a href=\"https://gateoverflow.in/432192\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>What is the optimized version of the relation algebra expression $\\pi_{A1}(\\pi_{A2}(\\sigma_{F1}(\\sigma_{F2}(r))))$, where $A1, A2$ are sets of attributes in $r$ with &nbsp;$A1 \\subset A2$ and $F1,F2$ are Boolean expressions based on the attributes in $r$?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\pi_{A1}(\\sigma_{(F1 \\wedge F2)}(r))$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\pi_{A1}(\\sigma_{(F1 \\vee F2)}(r))$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\pi_{A2}(\\sigma_{(F1 \\wedge F2)}(r))$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\pi_{A2}(\\sigma_{(F1 \\vee F2)}(r))$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.3333
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 6)</small></h4><a name=\"432227\"></a><div itemprop=\"text\"><p><b>σ<sub>F1 </sub>(σ<sub>F2 </sub></b>(r)) ≡ <b>σ<sub>F1</sub></b><b><sub>∧F2 </sub></b>&nbsp;&nbsp;&nbsp;(Cascading of Selection)</p><p>so options B and D&nbsp; are Incorrect.</p><p>π<sub>A1</sub> ( π<sub>A2 </sub>(r) ) ≡ π<sub>A1 </sub>&nbsp;when A1 ⊆&nbsp;A2&nbsp; (Cascading of Projection)</p><p>So From Options A and C, only A is following both the rules.</p><p>so option A is correct.</p></div></section><section><h4>Source solution 2 <small>(score: 5)</small></h4><a name=\"432240\"></a><div itemprop=\"text\"><p>We know:</p><p>$σ_{F_1}​(σ_{F_2}​(r))≡σ_{F_1∧F_2​}(r)$&nbsp;(Cascading of Selection) (Proof <a rel=\"nofollow\" href=\"https://youtu.be/HXHGCVjIUvA?t=2586&amp;feature=shared\" target=\"_blank\">HERE</a>)</p><p>So options B and D are incorrect.</p><p>We know:</p><p>$π_{A_1}​(π_{A_2}​(r))≡π_{A_1}​(r)$&nbsp;when $A_1 ⊆&nbsp;A_2$&nbsp; (Cascading of Projection) (Proof <a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=HXHGCVjIUvA&amp;t=3642s\" target=\"_blank\">Here</a>)</p><p>So only option A is following both the rules.</p><hr><p><strong>Important Properties of Selection &amp; Projection:</strong></p><p>Commutativity of Selection &amp; Projection:&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/HXHGCVjIUvA?t=4170&amp;feature=shared\" target=\"_blank\">https://youtu.be/HXHGCVjIUvA?t=4170&amp;feature=shared</a></p><p>GATE 1998 question:&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/HXHGCVjIUvA?t=4966&amp;feature=shared\" target=\"_blank\">https://youtu.be/HXHGCVjIUvA?t=4966&amp;feature=shared</a>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/432191\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the following relations $P(X,Y,Z), Q(X,Y,T)$ and $R(Y,V)$.<br>\n$$\\overset{\\textbf{Table: P}}{\\begin{array}{|l|l|l|} \\hline \\textbf{X} &amp; \\textbf{Y} &amp; \\textbf{Z} \\\\\\hline \\text{X1} &amp; \\text{Y1} &amp; \\text{Z1} \\\\\\hline \\text{X1} &amp; \\text{Y1} &amp; \\text{Z2} \\\\\\hline \\text{X2} &amp; \\text{Y2} &amp; \\text{Z2} \\\\\\hline \\text{X2} &amp; \\text{Y4} &amp; \\text{Z4} \\\\\\hline &nbsp;\\end{array}} \\qquad \\overset{\\textbf{Table: Q}}{\\begin{array}{|l|l|l|} \\hline &nbsp;\\textbf{X} &amp; \\textbf{Y} &amp; \\textbf{T} \\\\\\hline \\text{X2} &amp; \\text{Y1} &amp; 2 \\\\\\hline \\text{X1} &amp; \\text{Y2} &amp; 5 \\\\\\hline \\text{X1} &amp; \\text{Y1} &amp; 6 \\\\\\hline \\text{X3} &amp; \\text{Y3} &amp; 1 \\\\\\hline &nbsp;\\end{array}} \\qquad \\overset{\\textbf{Table: R}}{\\begin{array}{|l|l|} \\hline \\textbf{Y} &amp; \\textbf{V} &nbsp;\\\\\\hline \\text{Y1} &amp; \\text{V1} \\\\\\hline \\text{Y3} &amp; \\text{V2} \\\\\\hline \\text{Y2} &amp; \\text{V3} \\\\\\hline \\text{Y2} &amp; \\text{V2} \\\\\\hline &nbsp;\\end{array}}$$<br>\nHow many tuples will be returned by the following relational algebra query?<br>\n<br>\n$\\Pi_x (\\sigma_{(P.Y=R.Y \\wedge R.V=V2))} (P \\times R)) – \\Pi_x (\\sigma_{(Q.Y = R.Y \\wedge Q.T&gt;2))} (Q \\times R))$<br>\n<br>\nAnswer: ________",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    1,
+    1
+   ],
+   "answerText": "1",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> 1</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"522260\"></a><div itemprop=\"text\">Answer is $\\boxed{1}$<br>\n<br>\n&nbsp;<br>\n<br>\n&nbsp;<br>\n<br>\n\\[<br>\n\\pi_X \\Big( \\sigma_{P.Y = R.Y \\wedge R.V = V2}(P \\times R) \\Big)<br>\n-<br>\n\\pi_X \\Big( \\sigma_{Q.Y = R.Y \\wedge Q.T &gt; 2}(Q \\times R) \\Big)<br>\n\\]<br>\n$\\textbf{Lets do this step by step.}$<br>\n<br>\n$\\textbf{Query 1 :}$ $P \\times R$<br>\n<br>\n\\[<br>\n\\boxed{<br>\n\\begin{array}{|c|c|c|c|c|}<br>\n\\hline<br>\nP.X &amp; P.Y &amp; P.Z &amp; R.Y &amp; R.V \\\\<br>\n\\hline<br>\nx_1 &amp; y_1 &amp; z_1 &amp; y_1 &amp; v_1 \\\\<br>\nx_1 &amp; y_1 &amp; z_1 &amp; y_3 &amp; v_2 \\\\<br>\nx_1 &amp; y_1 &amp; z_1 &amp; y_2 &amp; v_3 \\\\<br>\nx_1 &amp; y_1 &amp; z_1 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\nx_1 &amp; y_1 &amp; z_2 &amp; y_1 &amp; v_1 \\\\<br>\nx_1 &amp; y_1 &amp; z_2 &amp; y_3 &amp; v_2 \\\\<br>\nx_1 &amp; y_1 &amp; z_2 &amp; y_2 &amp; v_3 \\\\<br>\nx_1 &amp; y_1 &amp; z_2 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\nx_2 &amp; y_2 &amp; z_2 &amp; y_1 &amp; v_1 \\\\<br>\nx_2 &amp; y_2 &amp; z_2 &amp; y_3 &amp; v_2 \\\\<br>\nx_2 &amp; y_2 &amp; z_2 &amp; y_2 &amp; v_3 \\\\<br>\nx_2 &amp; y_2 &amp; z_2 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\nx_2 &amp; y_4 &amp; z_4 &amp; y_1 &amp; v_1 \\\\<br>\nx_2 &amp; y_4 &amp; z_4 &amp; y_3 &amp; v_2 \\\\<br>\nx_2 &amp; y_4 &amp; z_4 &amp; y_2 &amp; v_3 \\\\<br>\nx_2 &amp; y_4 &amp; z_4 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n\\]<br>\n<br>\n$\\textbf{Query 2 : Apply the given condition and project $X$}$<br>\n<br>\n\\[<br>\n\\boxed{<br>\n\\begin{array}{|c|c|c|c|c|}<br>\n\\hline<br>\nP.X &amp; P.Y &amp; P.Z &amp; R.Y &amp; R.V \\\\<br>\n\\hline<br>\nx_2 &amp; y_2 &amp; z_2 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n\\]<br>\n<br>\n\\[<br>\n\\pi_X = <br>\n\\boxed{<br>\n\\begin{array}{|c|}<br>\n\\hline<br>\nP.X \\\\<br>\n\\hline<br>\nx_2 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n\\]<br>\n<br>\n$\\textbf{Query 3 :}$ $Q \\times R$<br>\n<br>\n\\[<br>\n\\boxed{<br>\n\\begin{array}{|c|c|c|c|c|}<br>\n\\hline<br>\nQ.X &amp; Q.Y &amp; Q.T &amp; R.Y &amp; R.V \\\\<br>\n\\hline<br>\nx_2 &amp; y_1 &amp; 2 &amp; y_1 &amp; v_1 \\\\<br>\nx_2 &amp; y_1 &amp; 2 &amp; y_3 &amp; v_2 \\\\<br>\nx_2 &amp; y_1 &amp; 2 &amp; y_2 &amp; v_3 \\\\<br>\nx_2 &amp; y_1 &amp; 2 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\nx_1 &amp; y_2 &amp; 5 &amp; y_1 &amp; v_1 \\\\<br>\nx_1 &amp; y_2 &amp; 5 &amp; y_3 &amp; v_2 \\\\<br>\nx_1 &amp; y_2 &amp; 5 &amp; y_2 &amp; v_3 \\\\<br>\nx_1 &amp; y_2 &amp; 5 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\nx_1 &amp; y_1 &amp; 6 &amp; y_1 &amp; v_1 \\\\<br>\nx_1 &amp; y_1 &amp; 6 &amp; y_3 &amp; v_2 \\\\<br>\nx_1 &amp; y_1 &amp; 6 &amp; y_2 &amp; v_3 \\\\<br>\nx_1 &amp; y_1 &amp; 6 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\nx_3 &amp; y_3 &amp; 1 &amp; y_1 &amp; v_1 \\\\<br>\nx_3 &amp; y_3 &amp; 1 &amp; y_3 &amp; v_2 \\\\<br>\nx_3 &amp; y_3 &amp; 1 &amp; y_2 &amp; v_3 \\\\<br>\nx_3 &amp; y_3 &amp; 1 &amp; y_2 &amp; v_2 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n\\]<br>\n<br>\n$\\textbf{Query 4 : Apply the given condition and Project X}$<br>\n<br>\n\\[<br>\n\\boxed{<br>\n\\begin{array}{|c|c|c|c|c|}<br>\n\\hline<br>\nQ.X &amp; Q.Y &amp; Q.T &amp; R.Y &amp; R.V \\\\<br>\n\\hline<br>\nx_1 &amp; y_2 &amp; 5 &amp; y_2 &amp; v_3 \\\\<br>\nx_1 &amp; y_2 &amp; 5 &amp; y_2 &amp; v_2 \\\\<br>\nx_1 &amp; y_1 &amp; 6 &amp; y_1 &amp; v_1 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n\\]<br>\n<br>\n\\[<br>\n\\pi_X =<br>\n\\boxed{<br>\n\\begin{array}{|c|}<br>\n\\hline<br>\nQ.X \\\\<br>\n\\hline<br>\nx_1 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n\\]<br>\n<br>\n$\\textbf{So effectively we are doing}$<br>\n<br>\n\\[<br>\n\\boxed{<br>\n\\begin{array}{|c|}<br>\n\\hline<br>\nP.X \\\\<br>\n\\hline<br>\nx_2 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n-<br>\n\\boxed{<br>\n\\begin{array}{|c|}<br>\n\\hline<br>\nQ.X \\\\<br>\n\\hline<br>\nx_1 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n=<br>\n\\boxed{<br>\n\\begin{array}{|c|}<br>\n\\hline<br>\nX \\\\<br>\n\\hline<br>\nx_2 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n}<br>\n\\]<br>\n<br>\n\\[<br>\n\\boxed{\\text{Hence only one tuple is returned.}}<br>\n\\]</div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"503578\"></a><div itemprop=\"text\">πX​(σP.Y=R.Y∧R.V=V2​(P×R)) gives - {X2}<br>\n<br>\nπX​(σQ.Y=R.Y∧Q.T&gt;2​(Q×R)) gives - {x1}<br>\n&nbsp;<br>\n<br>\n{X2}−{X1}={X2}<br>\nAns = 1</div></section></div><p><a href=\"https://gateoverflow.in/432190\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>The following relation records the age of $500$ employees of a company, where $empNo$ (indicating the employee number) is the key:</p><p>$$empAge(\\underline{empNo},age)$$</p><p>Consider the following relational algebra expression:</p><p>$$\\Pi_{empNo}(empAge&nbsp;\\Join_{(age&gt;age1)} \\rho_{empNo1,age1}(empAge))$$</p><p>What does the above expression generate?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Employee numbers of only those employees whose age is the maximum</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Employee numbers of only those employees whose age is more than the age of exactly one other employee</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Employee numbers of all employees whose age is not the minimum</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Employee numbers of all employees whose age is the minimum</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"505640\"></a><div itemprop=\"text\"><p>The expression provided is:</p><p>&nbsp;</p><p>$$\\Pi_{empNo}(empAge \\bowtie_{(age &gt; age1)} \\rho_{empNo1, age1}(empAge))$$</p><p data-path-to-node=\"18\">To understand what this generates, let's break down the operations:</p><ol start=\"1\" data-path-to-node=\"19\"><li><p data-path-to-node=\"19,0,0\"><b data-path-to-node=\"19,0,0\" data-index-in-node=\"0\">Renaming ($\\rho$):</b> The expression $\\rho_{empNo1, age1}(empAge)$ creates a copy of the <code data-path-to-node=\"19,0,0\" data-index-in-node=\"82\">empAge</code> table with renamed columns ($empNo1, age1$).</p></li><li><p data-path-to-node=\"19,1,0\"><b data-path-to-node=\"19,1,0\" data-index-in-node=\"0\">Theta Join ($\\bowtie_{(age &gt; age1)}$):</b> This joins the original table with its copy where the original employee's age is strictly greater than some other employee's age ($age1$).</p><ul data-path-to-node=\"19,1,1\"><li><p data-path-to-node=\"19,1,1,0,0\">If an employee has the absolute minimum age in the company, their <code data-path-to-node=\"19,1,1,0,0\" data-index-in-node=\"66\">age</code> will never be greater than any <code data-path-to-node=\"19,1,1,0,0\" data-index-in-node=\"101\">age1</code> from the second table.</p></li><li><p data-path-to-node=\"19,1,1,1,0\">Therefore, an employee with the minimum age will never satisfy the join condition and will be excluded from the result.</p></li></ul></li><li><p data-path-to-node=\"19,2,0\"><b data-path-to-node=\"19,2,0\" data-index-in-node=\"0\">Projection ($\\Pi$):</b> This returns the employee numbers ($empNo$) of everyone who successfully satisfied the join condition.</p></li></ol><h3 data-path-to-node=\"20\">Conclusion</h3><p data-path-to-node=\"21\">Since the join condition ($age &gt; age1$) only keeps employees who are older than at least one other person, it effectively filters out anyone who holds the minimum age.</p><p data-path-to-node=\"22\"><b data-path-to-node=\"22\" data-index-in-node=\"0\">The correct answer is C: Employee numbers of all employees whose age is not the minimum</b>.</p></div></section></div><p><a href=\"https://gateoverflow.in/432189\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>​​​​​Consider a database that includes the following relations:</p><p>Defender(name, rating, side, goals)<br>Forward(name, rating, assists, goals)<br>Team(name, club, price)</p><p>Which ONE of the following relational algebra expressions checks that every name occurring in Team appears in either Defender or Forward, where $\\phi$ denotes the empty set?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Pi_{\\text {name }}($ Team $) \\backslash\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cap \\Pi_{\\text {name }}($ Forward $\\left.)\\right)=\\phi$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cap \\Pi_{\\text {name }}($ Forward $\\left.)\\right) \\backslash \\Pi_{\\text {name }}($ Team $)=\\phi$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\Pi_{\\text {name }}($ Team $) \\backslash\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cup \\Pi_{\\text {name }}($ Forward $\\left.)\\right)=\\phi$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$\\left(\\Pi_{\\text {name }}(\\right.$ Defender $) \\cup \\Pi_{\\text {name }}($ Forward $\\left.)\\right) \\backslash \\Pi_{\\text {name }}($ Team $)=\\phi$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 11)</small></h4><a name=\"432319\"></a><div itemprop=\"text\"><p><strong>Detailed Video Solution, with Complete Analysis:</strong>&nbsp;<a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=h3pJZbed9M8&amp;t=596s\" target=\"_blank\">https://www.youtube.com/watch?v=h3pJZbed9M8&amp;t=596s</a>&nbsp;</p><p><strong>Concept:</strong></p><p>$R - S = \\phi$ if and only if $R \\subseteq S.$</p><p>Or</p><p>$R \\subseteq S $&nbsp;if and only if $ R - S = \\phi$</p><hr><p><strong>Understanding from Cricket point of view:</strong></p><p>Assume: Defender = Batsmen ; Forward = Bowler ; Team = Final-11 Indian Team</p><p>Option A: Every player in the Team is an Alrounder.</p><p>Option B: Every Alrounder is in the Team.</p><p>Option C: Every player in the Team is either a Batsman or a Bowler (or Both).</p><p>Option D: Every Batsman, Every Bowler is in the Team.&nbsp;</p><p>So, our answer is Option C.&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/432188\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 9,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a relational database there are three relations:</p><ul><li>$Customers = C\\textsf{(CName)}$,</li><li>$Shops = S \\textsf{(SName)}$,</li><li>$Buys = B\\textsf{(CName, SName)}$.</li></ul><p>Which of the following relational algebra expressions returns the names of shops that have no customers at&nbsp;all? [Here $\\Pi$ is the projection operator.]</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\Pi _{\\textsf{SName}}B$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$S - B$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$S - \\Pi _{\\textsf{SName}}B$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$S - \\Pi _{\\textsf{SName}}((C \\times S) - B)$</p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> C</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Selected solution <small>(score: 3)</small></h4><a name=\"432263\"></a><div itemprop=\"text\"><p>Let's go option-wise,</p><p>Option A).Π<sub>sname </sub>B will direct project shop names with at least one customer.</p><p>Option B). Here we are performing a set difference between two which are not even Union Compatible.</p><p>Option C). Set the difference between All shop names and shop names with at least one customer, so we will get those with no customers at all.</p><p>Option D). This will give those shop names in which all customers bought something. Basically, this is how division operations are written in the Relational Algebra.</p><p>Hence, Option C is correct.</p></div></section></div><p><a href=\"https://gateoverflow.in/432187\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 10,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>In a relational database there are three relations:</p><ul><li>$Customers&nbsp;= C \\textsf{(CName)}$</li><li>$Shops = S \\textsf{(SName)}$</li><li>$Buys = B \\textsf{(CName, SName)}$</li></ul><p>Then the Relational Algebra expression ( $\\Pi $ is the projection operator).</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$C-\\Pi _\\textsf{CName}((C \\times S)-B)$</p><p>returns the names of&nbsp;</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>Customers who buy from at least one shop.</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>Customers who buy from at least two shops.</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>Customers who buy from all shops.</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>Customers who do not buy buy anything at all.</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0.6667
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Selected solution <small>(score: 1)</small></h4><a name=\"522244\"></a><div itemprop=\"text\"><p>$C - \\pi_{CName}\\big((C \\times S) - B\\big)$</p><p data-start=\"155\" data-end=\"171\"><strong data-start=\"155\" data-end=\"171\">Explanation:</strong></p><ol data-start=\"173\" data-end=\"566\"><li data-start=\"173\" data-end=\"241\"><p data-start=\"176\" data-end=\"241\">$C \\times S$ gives all possible combinations of $(CName, SName)$.</p></li><li data-start=\"243\" data-end=\"353\"><p data-start=\"246\" data-end=\"353\">$(C \\times S) - B$ gives those $(CName, SName)$ pairs where the customer has <strong data-start=\"323\" data-end=\"330\">not</strong> bought from that shop.</p></li><li data-start=\"355\" data-end=\"462\"><p data-start=\"358\" data-end=\"462\">$\\pi_{CName}\\big((C \\times S) - B\\big)$ gives customer names who have not bought from at least one shop.</p></li><li data-start=\"464\" data-end=\"566\"><p data-start=\"467\" data-end=\"566\">$C - \\pi_{CName}\\big((C \\times S) - B\\big)$ gives all customers who have bought from <strong data-start=\"552\" data-end=\"565\">all shops</strong>.</p></li></ol><p data-start=\"568\" data-end=\"601\" data-is-last-node=\"\" data-is-only-node=\"\">Hence, <strong data-start=\"575\" data-end=\"589\">Option $\\boxed{C}$</strong>&nbsp;is correct.</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"437053\"></a><div itemprop=\"text\">This is Healy implementation of division operator.</div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"491344\"></a><div itemprop=\"text\"><p>This is same as healy division.</p><p>Answer is C</p><p>Ref:&nbsp;<a rel=\"nofollow\" href=\"https://gateoverflow.in/19246/tifr-cse-2010-part-b-question-33?start=4\" target=\"_blank\">TIFR 2010 CSE - DBMS</a></p></div></section></div><p><a href=\"https://gateoverflow.in/432186\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 15.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 10
+  }
+ ],
+ "stats": {
+  "questions": 10,
+  "maxMarks": 12,
+  "types": {
+   "MCQ": 8,
+   "NAT": 2
+  },
+  "withoutKey": 2
+ }
+}

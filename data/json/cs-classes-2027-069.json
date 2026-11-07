@@ -1,0 +1,359 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027-069",
+ "title": "DVRUO Classes Test Series | Discrete Mathematics | Topic Wise Test 4",
+ "sourceTitle": "DVRUO Classes Test Series | Discrete Mathematics | Topic Wise Test 4",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Test Series for GATE CSE 2027",
+ "seriesId": "cs-classes-2027",
+ "num": 69,
+ "category": "topicwise",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Test Series for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Test Series for GATE CSE 2027/106_exam_1319_GO Classes Test Series Discrete Mathematics Topic Wise Test 4.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many words can be formed by re-arranging the letters of the word $\\text{“PROBLEMS”}$ such that $\\text{P}$ and $\\text{S}$ occupy the first and last position respectively? (Note: The words thus formed need not be meaningful)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 9)</small></h4><a name=\"376772\"></a><div itemprop=\"text\"><p>'PROBLEMS' is an eight-letter word where none of the letters repeat.</p>\n\n<p>We know that “$r$” objects, where all are distinct, can be reordered in $r!$ ways.</p>\n\n<p>Therefore, if there had been no constraints, the letters of 'PROBLEMS' can be reordered in $8!$ ways.</p>\n\n<p>However, the question states that '$P$' and '$S$' should occupy the first and last position respectively.</p>\n\n<p>Therefore, the first and last position can be filled in only one way.</p>\n\n<p>The remaining $6$ positions in between $P$ and $S$ can be filled with the $6$ letters in $6!$ ways.<br>\n<br>\nRearrangement Concepts: Number of ways to reorder objects:</p>\n\n<ol>\n\t<li>$r$ distinct objects can be reordered in $r!$ Ways.</li>\n\t<li>$r$ similar objects can be reordered in only $1$ way.</li>\n\t<li>3&nbsp;$r$ objects, of which $x$ are alike, can be reordered in $r!/x!$ ways.</li>\n</ol></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"376783\"></a><div itemprop=\"text\">“PROBLEMS” word has 8 distinct word ‘P’,’R’,’O’,’B’,’L’,’E’,’M’,’S’ .<br>\n<br>\nNow we need to re-arrange the word where first letter is ‘P’ and last letter is ‘S’ .<br>\n<br>\nP_ _ _ _ _ _S &nbsp;&nbsp;, so we have 6 letter left which can be rearrange in $6!$ ways.<br>\n<br>\nSo , Total $720$ words are possible .</div></section></div><p><a href=\"https://gateoverflow.in/376771\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the set of $4$-digit positive integers. How many of them have their digits in strictly increasing order? (i.e. $1234, 2578$ etc)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 27)</small></h4><a name=\"374955\"></a><div itemprop=\"text\">There are $\\text{C}(9,4).$ Note that the first digit cannot be zero. So none of the digits can be zero.<br>\n<br>\nRecipe: Choose $4$ distinct digits out of $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ and arrange them in increasing order. Once we choose $4$ digits out of $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\},$ we have exactly one way to put them in strictly increasing order.<br>\n<br>\nFor example, if you select $6,4,8,2$ from the set $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\},$ then we can only make one strictly increasing order from these, that is $2468.$</div></section><section><h4>Source solution 2 <small>(score: 7)</small></h4><a name=\"384228\"></a><div itemprop=\"text\">9C4 = 126</div></section><section><h4>Source solution 3 <small>(score: 4)</small></h4><a name=\"438386\"></a><div itemprop=\"text\"><p>Here is step by step explanation<img alt=\"\" width=\"1200\" height=\"1508\" src=\"media/e2/e200829bd907c7f8c7b9.jpg\"></p></div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"493853\"></a><div itemprop=\"text\">Total possible: 10C4<br>\n<br>\namong them starting with 0 (not 4 digits) : 9C3<br>\n<br>\nSo total legit 4 digit numbers: 10C4 - 9C3 = 210 - 84 =126</div></section></div><p><a href=\"https://gateoverflow.in/374954\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many ways are there to arrange the $12$ letters of $\\text{AAABBBBCCCCC}$ without having two $\\text{Cs}$ together?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 23)</small></h4><a name=\"374953\"></a><div itemprop=\"text\"><p>There are $\\text{C}(7,3) \\cdot \\text{C}(8,5)$ ways. The recipe is:</p>\n\n<ol>\n\t<li>Arrange all of the $\\text{As}$ and $\\text{Bs}$ (there are $\\text{C}(7,3)$ ways.</li>\n\t<li>There are eight ‘spots’ where we can insert the $\\text{Cs}.$ For example, if in step $1$ we made the string $\\text{ABBABBA},$ we can add $\\text{Cs}$ in the indicated locations$:\\;\\uparrow&nbsp;\\text{A} \\uparrow&nbsp;\\text{B} \\uparrow&nbsp;\\text{B} \\uparrow&nbsp;\\text{A} \\uparrow&nbsp;\\text{B} \\uparrow&nbsp;\\text{B} \\uparrow&nbsp;\\text{A} \\uparrow$</li>\n</ol>\n\n<p><br>\nWe need to choose $5$ of those $8$ spots to place $\\text{Cs}.&nbsp;\\;($There are $\\text{C}(8,5)$ ways.)<br>\n<br>\nFor example, we could choose the second, third, fifth, sixth, and eight spots to make the string$: \\text{ACBCBACBCBAC}.$</p></div></section></div><p><a href=\"https://gateoverflow.in/374952\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the set $\\text{X} = \\{2, 3, 4, 5, 6, 7, 8, 9\\},$ which contains $8$ elements. How many subsets of $\\text{X}$ have at least one prime number?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 23)</small></h4><a name=\"374941\"></a><div itemprop=\"text\">The numbers $2, 3, 5$ and $7$ are the only prime numbers in $\\text{X}.$<br>\n<br>\nSubsets which have at least one prime number =<br>\n<br>\nTotal subsets $-$ Subsets which do not have any prime number. <br>\n<br>\nTotal subsets $= 2^{8} = 256$<br>\n<br>\nSubsets which do not have any prime number : We cannot select $2,3,5,7 ;$ So, for each of the remaining $4$ elements, we have $2$ choices. So, $2^{4}$ such subsets <br>\n<br>\nSubsets which have at least one prime number $=$ Total subsets $-$ Subsets which do not have any prime number. <br>\n<br>\n$= 256 - 16 = 240.$</div></section><section><h4>Source solution 2 <small>(score: 12)</small></h4><a name=\"379923\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/a0/a08cec3c8b7763ee0084.jpg\"></p>\n\n<p>pls upvote and follow if u like my soln :)</p></div></section></div><p><a href=\"https://gateoverflow.in/374940\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Consider the set $\\text{X} = \\{1, 2, 3, 4\\}$ and $\\text{Y} = \\{a, b, c, d, e, f\\}.$ How many one-to-one functions $\\text{F}$ are there from $\\text{X}$ to $\\text{Y}$ so that $\\text{F(1)}$ is not a vowel?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 18)</small></h4><a name=\"374931\"></a><div itemprop=\"text\"><p>There are $4 \\cdot 5 \\cdot 4 \\cdot 3$ such functions. The recipe is as follows:</p>\n\n<ol>\n\t<li>Choose $\\text{F}(1)$ from $\\{b, c, d, f\\}\\; (4 \\;\\text{choices})$</li>\n\t<li>Choose $\\text{F}(2)$ from $\\text{Y},$ which must be different from $\\text{F}(1).\\; (5\\;\\text{choices})$</li>\n\t<li>Choose $\\text{F}(3)$ from $\\text{Y},$ which must be different from $\\text{F}(1)$ and $\\text{F}(2).\\; (4 \\text{choices})$</li>\n\t<li>Choose $\\text{F}(4)$ from $\\text{Y},$ which must be different from $\\text{F}(1)$ and $\\text{F}(2)$ and $\\text{F}(3). \\;(3 \\;\\text{choices)}.$</li>\n</ol></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"443272\"></a><div itemprop=\"text\">Total no of functions from A to B = |B|^|A|<br>\n<br>\ntotal no of one-one (injective) functions from set having m elements to set having n elements = nPm<br>\n<br>\ntotal no of onto (surjective) functions from set having m elements to set having n elements = n^m - [nC1 * (n-1)^m &nbsp;- &nbsp;nC2 * (n-2)^m &nbsp;+...... ]<br>\n<br>\ntotal no of bijective functions from set having m elements to set having n elements = n!<br>\n<br>\n&nbsp;<br>\n<br>\nnow according to the question, <br>\n<br>\nF(1) should not be connected to a vowel<br>\n<br>\neasy approach will be finding the total no of onto functions and subtracting it with f(1) connected with a vowel<br>\n<br>\ntotal onto functions possible 6P4 <br>\n<br>\nfunctions where f(1) strictly connected to vowel a = 5P3<br>\n<br>\nfunctions where f(1) strictly connected to vowel e = 5P3<br>\n<br>\nhence, req functions = 6P4 - 2*5P3</div></section></div><p><a href=\"https://gateoverflow.in/374930\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A student is given an exam consisting of $8$ essay questions divided into $4$ groups of $2$ questions each. The student is required to select a set of $6$ questions to answer, including at least $1$ question from each of the $4$ groups. How many sets of questions satisfy this requirement?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    24,
+    24
+   ],
+   "answerText": "24",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 31)</small></h4><a name=\"376756\"></a><div itemprop=\"text\">$\\textbf{Method 1:}$<br>\n<br>\n$$\\left(\\begin{array}{l}8 \\\\6\\end{array}\\right)=28$$<br>\nThen let's take away the choices where we don't cover all $4$ groups. There are only $4.$ &nbsp;Why? To not cover all $4$ groups but to choose $6$ means to pick all questions but $2$ questions of the same group. That is, from $4$ groups, pick $1$ group to exclude or equivalently pick $3$ groups to include<br>\n$$\\begin{gathered} \\left(\\begin{array}{l} 4 \\\\3 \\end{array}\\right)=\\left(\\begin{array}{l} 4 \\\\ 1 \\end{array}\\right)=4 \\\\ \\therefore\\left(\\begin{array}{l} 8 \\\\ 6 \\end{array}\\right)-\\left(\\begin{array}{l} 4 \\\\ 3 \\end{array}\\right)=\\left(\\begin{array}{l} 8 \\\\ 6<br>\n\\end{array}\\right)-\\left(\\begin{array}{l} 4 \\\\ 1 \\end{array}\\right)=28-4=24 \\end{gathered} $$<br>\n<br>\n$\\textbf{Method 2:}$<br>\n<br>\nBecause we only have four groups and you need to pick up 6 balls which means you need to pick up two groups of balls and one ball each from the other two groups so the final result would be $\\left(^{4} \\mathrm{C} _{2}\\right) \\times 2 \\times 2$ which is $24.$<br>\n<br>\n$\\textbf{Method 3:}$<br>\n<br>\nThe student can choose two questions to omit, not both in the same group. There are $8$ options for the first question, and then there are $6$ options left for the second question. Of course the order in which the questions are chosen doesn't matter, so we get $8 \\times 6 / 2=24$ options.<br>\n<br>\nAlternatively, the student can choose two groups to omit a question from, and then one question from each group. This way we get $\\left(^{4} \\mathrm{C}_{2}\\right)\\left(^{2} \\mathrm{C} _{1}\\right)\\left(^{2} \\mathrm{C} _{1}\\right)=6 \\times 2 \\times 2=24$ options.</div></section><section><h4>Source solution 2 <small>(score: 11)</small></h4><a name=\"407679\"></a><div itemprop=\"text\"><p><strong>Answer</strong> : 24&nbsp;</p>\n\n<p>$Explanation : $</p>\n\n<p>Consider 4 groups $G_1, G_2, G_3, G_4$. and each contains&nbsp;$2$ questions.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>$G_1$</td>\n\t\t\t<td>$G_2$</td>\n\t\t\t<td>$G_3$</td>\n\t\t\t<td>$G_4$</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>$a, b$</td>\n\t\t\t<td>$c, d$</td>\n\t\t\t<td>$e, f$</td>\n\t\t\t<td>$g, h$</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><br>\nIt is given that the student is required to select a set of $6$ questions to answer, including at least $1$ question from each of the $4$ groups.&nbsp;</p>\n\n<p>Only possible case that meets this condition is when $2$ questions are selected from $2$ groups and then selecting $1$ element from remaining $2$ groups. So, for simplicity we represent it by $2, 2, 1, 1$.</p>\n\n<p>$(2, 2, 1, 1) = $&nbsp;$\\binom{2}{1}$</p>\n\n<p>Total&nbsp;$\\binom{4}{2}$ such cases are possible. In above cases whenever $2$ is written it means we have selected whole group because per group there are only 2 questions.&nbsp;</p>\n\n<p>So, Number of sets which satisfy all requirement are&nbsp;$\\binom{4}{2}*\\binom{2}{1}*\\binom{2}{1}=24$</p></div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"404526\"></a><div itemprop=\"text\"><p>I have used a simple method to solve this qustion. Forgive me if i have done any mistake. This is my 1<sup>st</sup>&nbsp;answer on Gateoverflow.</p>\n\n<p><strong><em>The question clearly mentions that i have to select at least one question from each of the 4 groups which consists of 2 questions each.</em></strong></p>\n\n<p><strong><em>So basically considering all the cases the answer is given by :-</em></strong></p>\n\n<p><strong>CASE 1: WHEN WE SELECT ONLY 1 QUESTION FROM 1ST GROUP:</strong>-</p>\n\n<p>(2C1)(2C1)(2C2)(2C2) + (2C1)(2C2)(2C2)(2C1) + (2C1)(2C2)(2C1)(2C2)</p>\n\n<p><strong>CASE 2: WHEN WE SELECT 2 QUESTIONS FROM 1ST GROUP:</strong>-</p>\n\n<p>(2C2)(2C2)(2C1)(2C1) + (2C2)(2C1)(2C2)(2C1) + (2C2)(2C1)(2C1)(2C2)&nbsp;</p>\n\n<p><strong><em>If you add CASE 1 and CASE 2, you will get 24 as the Answer.&nbsp;&nbsp;</em></strong></p></div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"542840\"></a><div itemprop=\"text\"><p><strong>Confusion</strong></p><p>Since each of the 4 groups must contribute at least one question, we may think of first selecting <strong>one question from each group</strong>. This accounts for 4 of the 6 questions.</p><ul><li>There are \\(2^4=16\\) ways to choose these four \"initial\" questions (one from each group).</li><li>Now only 2 questions remain to be selected. Since each group has at most 2 questions, these extra questions must come from <strong>two different groups</strong>.</li><li>Hence there are</li></ul><p>\\[<br>\\binom{4}{2}=6<br>\\]</p><p>ways to choose the groups that contribute the extra questions.</p><p>Therefore, this reasoning gives</p><p>\\[<br>2^4\\cdot\\binom{4}{2}=16\\cdot6=96.<br>\\]</p><p>But the correct answer is \\(24\\). Why?</p><p><strong>Explanation</strong></p><p>The overcount occurs because the \"initial\" question chosen from a group that ultimately contributes <strong>both</strong> questions is <strong>not unique</strong>.</p><p>For example, suppose Groups \\(A\\) and \\(B\\) contribute both questions. When choosing one initial question from each group, we could have initially picked any of the following:</p><p>\\[<br>(A<em>1,B</em>1),\\ (A<em>1,B</em>2),\\ (A<em>2,B</em>1),\\ (A<em>2,B</em>2).<br>\\]</p><p>After adding the remaining questions, all four choices lead to the <strong>same final set</strong>.</p><p>Thus, every valid selection is counted</p><p>\\[<br>2\\times2=4<br>\\]</p><p>times (once for each choice of the initial question in the two doubled groups). Hence,</p><p>\\[<br>\\frac{96}{4}=24.<br>\\]</p><p>A cleaner counting method is:</p><p>1. Choose the <strong>2 groups</strong> from which both questions are selected:</p><p>\\[<br>\\binom{4}{2}.<br>\\]</p><p>2. The remaining <strong>2 groups</strong> must each contribute <strong>exactly one</strong> question. Since each group contains <strong>2 questions</strong>, there are <strong>2 choices</strong> from the first remaining group and <strong>2 choices</strong> from the second remaining group. By the multiplication principle, the number of ways is</p><p>\\[<br>2\\times2=2^2.<br>\\]</p><p>Therefore,</p><p>\\[<br>\\binom{4}{2}\\cdot2^2<br>=6\\cdot4<br>=24.<br>\\]</p></div></section></div><p><a href=\"https://gateoverflow.in/376755\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Count the number of ways to place the numbers $1, 2, \\dots, 10$ (all of them) on the left and bottom side of the square below (below gray squares), such that for each gray box, the number on its left is smaller than the number below it.</p><p style=\"text-align:center\"><img alt=\"\" src=\"media/68/687b9a5e10a235c5fa9a.png\"></p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    151200,
+    151200
+   ],
+   "answerText": "151200",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 24)</small></h4><a name=\"374951\"></a><div itemprop=\"text\">Select $4$ numbers, and put them in the diagonal below grey boxes.<br>\n<br>\nSince elements in the diagonal below grey boxes must be in increasing order, So, only one way to put those four numbers. Remaining 6 numbers can be placed in remaining cells below gray diagonal in any order, hence, $6!.$<br>\n<br>\nSo, $^{10}C_{4} \\ast 6!$</div></section><section><h4>Source solution 2 <small>(score: 11)</small></h4><a name=\"470353\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"706\" height=\"800\" src=\"media/30/3012fc6d8c4c58bb5f9d.jpg\"></p><p>&nbsp;</p><p>Hope this helps</p></div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"491522\"></a><div itemprop=\"text\">question is very easy <br>\n<br>\nwe are thinking in wrong direction <br>\n<br>\nquestion only say below the gray box number are increasing not for all the number <br>\n<br>\nso we are select 10c4 and arrange in increasing oder now remaing 6 number we can arrange in 6! ways <br>\n<br>\nans is 10c4*6!</div></section><section><h4>Source solution 4 <small>(score: 0)</small></h4><a name=\"541251\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"denied:blob:https://gateoverflow.in/818fd40c-5c9f-46bd-a01b-a675e15f8b8e\"><img alt=\"\" src=\"media/fb/fb20ac0af70efcd032d0.png\"></p><p>So the answer is 151200.</p></div></section></div><p><a href=\"https://gateoverflow.in/374950\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let the recurrence for the number of sequences of length $n$ containing digits from $\\{0, 1, \\dots, 6 \\},$ which do not have consecutive even digits be $\\text{T}(n).$<br>\n<br>\nFor instance$, 05565301$ is a sequence of length 8 containing digits from $\\{0, 1, \\dots, 6 \\},$ which do not have consecutive even digits.<br>\n<br>\nWe can see that $\\text{T}_{1} = 7, \\text{T}_{2} = 33,$ which are the initial conditions of the recurrence $\\text{T}(n).$<br>\n<br>\nFor $n \\geq 3, \\text{T}(n) = x\\text{T}_{n-1} + y\\text{T}_{n-2}$<br>\n<br>\nThen what is $x+y?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 56)</small></h4><a name=\"379922\"></a><div itemprop=\"text\"><p>solution<img alt=\"\" src=\"media/2b/2b6cb9542b7f40a3458c.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 13)</small></h4><a name=\"374947\"></a><div itemprop=\"text\">The recurrence is $a_{n} = 3a_{n-1} + 12a_{n-2},$ for $n \\geq 2, a_{0} = 1, a_{1} = 7.$ <br>\n<br>\nThe reason: There are $3$ odd numbers and $4$ even numbers. If the sequence starts with an odd number, the remaining $n - 1$ terms must avoid consecutive even numbers, for a count of $3a_{n-1}.$ If the sequence starts with an even number, then the next term must be odd, and the remaining $n - 2$ terms must avoid consecutive even numbers. This happens in $12a_{n-2}$ ways$: 12$ ways for the first two terms, $a_{n-2}$ for the remaining $n - 2.$</div></section><section><h4>Source solution 3 <small>(score: 2)</small></h4><a name=\"495762\"></a><div itemprop=\"text\">T(1)=7,T(2)=33 for T(3) 5 cases are possible such that no consecutive even those cases are OEO,OOE,OOO,EOE,EOO count are 36,36,27,48,36 respectively sum is 183 now 183=33*x+7*y by hit and trail we get x=3 and y=12 therefore x+y=15</div></section><section><h4>Source solution 4 <small>(score: 1)</small></h4><a name=\"532501\"></a><div itemprop=\"text\"><p>hope it will help<img alt=\"\" src=\"media/f6/f6fa313df6a23402a02b.jpg\"></p></div></section><section><h4>Source solution 5 <small>(score: 0)</small></h4><a name=\"506337\"></a><div itemprop=\"text\"><p data-path-to-node=\"13\">We are looking for sequences of length $n$ from $\\{0, 1, \\dots, 6\\}$ with no consecutive even digits.</p><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\"><b data-path-to-node=\"14,0,0\" data-index-in-node=\"0\">Even digits ($E$):</b> $\\{0, 2, 4, 6\\}$ (Total = 4)</p></li><li><p data-path-to-node=\"14,1,0\"><b data-path-to-node=\"14,1,0\" data-index-in-node=\"0\">Odd digits ($O$):</b> $\\{1, 3, 5\\}$ (Total = 3)</p></li></ul><p data-path-to-node=\"15\">Let $T(n)$ be the total valid sequences.</p><ol start=\"1\" data-path-to-node=\"16\"><li><p data-path-to-node=\"16,0,0\">If the sequence ends in an <b data-path-to-node=\"16,0,0\" data-index-in-node=\"27\">odd</b> digit: There are 3 choices for the last digit, and the previous $n-1$ digits can be any valid sequence. Contribution: $3T_{n-1}$.</p></li><li><p data-path-to-node=\"16,1,0\">If the sequence ends in an <b data-path-to-node=\"16,1,0\" data-index-in-node=\"27\">even</b> digit: The second to last digit <b data-path-to-node=\"16,1,0\" data-index-in-node=\"64\">must</b> be odd (3 choices). The remaining $n-2$ digits can be any valid sequence. There are 4 choices for the last even digit. Contribution: $(4 \\times 3)T_{n-2} = 12T_{n-2}$.</p></li></ol><p>The recurrence is $T(n) = 3T_{n-1} + 12T_{n-2}$.</p><p>Comparing to $T(n) = xT_{n-1} + yT_{n-2}$, we have $x=3$ and $y=12$.</p><p>Result: $x + y = 3 + 12 = \\mathbf{15}$.</p></div></section></div><p><a href=\"https://gateoverflow.in/374946\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $a_0, a_1, a_2, \\ldots$ be a sequence with generating function $G(x)=\\sum_{n=0}^{\\infty} a_n x^n$, and let $b_0, b_1, b_2, \\ldots$ be the sequence whose generating function is $F(x) = G(3x^{2}).$</p><ul><li>Let $b_{11} = m.a_{11}$</li><li>Let $b_{20} = p.a_{10}$</li></ul><p>What is $m+p?$</p>",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 27)</small></h4><a name=\"445188\"></a><div itemprop=\"text\"><p>Hope this helps :)</p><p><img alt=\"\" src=\"media/69/69334e648a2a617112f7.jpg\"></p></div></section><section><h4>Source solution 2 <small>(score: 15)</small></h4><a name=\"374945\"></a><div itemprop=\"text\"><p>We have<br>\n$$<br>\nF(x)=G\\left(3 x^2\\right)=\\sum_{k=0}^{\\infty} a_k\\left(3 x^2\\right)^k=\\sum_{k=0}^{\\infty} 3^k a_k x^{2 k} .<br>\n$$<br>\nThen $b_n$ is the coefficient of $x^n$ in the latter series, i.e.,<br>\n$$<br>\n\\boxed{b_n=a_{n / 2} 3^{n / 2} \\text { if } n \\text { is even, and } b_n=0 \\text { if } n \\text { is odd. }}<br>\n$$<br>\n$\\textbf{Note:}$ The $b_n\\text{’s}$ are <em>coefficients,</em> so they should not involve powers of $x$. An answer like $b_k=3^k a_k x^k$ obtained by trying to \"split off\" a power $x^k$ in the above series is nonsensical.</p></div></section><section><h4>Source solution 3 <small>(score: 0)</small></h4><a name=\"506346\"></a><div itemprop=\"text\"><p>Given $G(x) = \\sum a_n x^n$ and $F(x) = G(3x^2) = \\sum b_k x^k$.</p><p>By substitution: $F(x) = \\sum_{n=0}^{\\infty} a_n (3x^2)^n = \\sum_{n=0}^{\\infty} a_n 3^n x^{2n}$.</p><p>Step 1: Find $b_{11}$</p><p>$b_{11}$ is the coefficient of $x^{11}$. In the series $\\sum a_n 3^n x^{2n}$, all powers of $x$ are even.</p><p>Thus, $b_{11} = 0$. Since $b_{11} = m \\cdot a_{11}$, and $a_{11}$ is not necessarily zero, $m = 0$.</p><p>Step 2: Find $b_{20}$</p><p>To get $x^{20}$, we set $2n = 20$, so $n = 10$.</p><p>The term is $a_{10} 3^{10} x^{20}$.</p><p>Thus, $b_{20} = 3^{10} \\cdot a_{10}$. This gives $p = 3^{10} = 59049$.</p><p data-path-to-node=\"28\"><b data-path-to-node=\"28\" data-index-in-node=\"0\">Result:</b> $m + p = 0 + 59049 = \\mathbf{59049}$.</p></div></section></div><p><a href=\"https://gateoverflow.in/374944\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many integer solutions does the equation<br>\n<br>\n$$<br>\nx_1+x_2+x_3+x_4=15<br>\n$$<br>\nhave, if we require that $x_1 \\geq 2, x_2 \\geq 3, x_3 \\geq 10$ and $x_4 \\geq-3?$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 10)</small></h4><a name=\"374929\"></a><div itemprop=\"text\">Let $y_1=x_1-2, y_2=x_2-3, y_3=x_3-10$ and $y_4=x_4+3$.<br>\nWe get a new equation where $y_i \\geq 0$ and<br>\n$$<br>\n\\begin{gathered}<br>\n\\left(y_1+2\\right)+\\left(y_2+3\\right)+\\left(y_3+10\\right)+\\left(y_4-3\\right)=15, \\quad \\Leftrightarrow \\\\<br>\ny_1+y_2+y_3+y_4=3<br>\n\\end{gathered}<br>\n$$<br>\nDots and bars gives $\\left(\\begin{array}{c}3+4-1 \\\\ 4-1\\end{array}\\right)$ integer solutions.</div></section></div><p><a href=\"https://gateoverflow.in/374928\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $0 \\leq \\text{S(0)} \\leq \\text{T(0)},$ and suppose we have the recurrences</p><ul><li>$\\text{S}(n + 1) = a\\text{S}(n) + f(n)$</li><li>$\\text{T}(n + 1) = b\\text{T}(n) + g(n),$</li></ul><p>where $0 \\leq a \\leq b$ and $0 \\leq f(n) \\leq g(n)$ for all $n \\in \\mathbf{N}.$</p><p>Which of the following is/are necessarily true ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>$\\text{S}(n) \\leq \\text{T}(n)$ for all $n \\in \\mathbf{N}.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>$\\text{T}(n) \\leq \\text{S}(n)$ for all $n \\in \\mathbf{N}.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>$\\text{T}(n) &lt; \\text{S}(n)$ for some $n \\in \\mathbf{N}.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>$0 \\leq \\text{S}(n) \\leq \\text{T}(n)$ for all $n \\in \\mathbf{N}.$</p>"
+    }
+   ],
+   "answer": [],
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 12)</small></h4><a name=\"374927\"></a><div itemprop=\"text\">We can show that $0 \\leq \\text{S}(n) \\leq \\text{T}(n)$ by induction on $n.$<br>\n<br>\nThe base case $n = 0$ is given.<br>\n<br>\nNow suppose $0 \\leq \\text{S}(n) \\leq \\text{T}(n);$ we will show the same holds for $n + 1.$<br>\n<br>\nFirst observe $\\text{S}(n+1) = a\\text{S}(n)+f(n) \\geq 0$ as each variable on the right-hand side is non-negative. To show $\\text{T}(n + 1) \\geq \\text{S}(n + 1),$ observe<br>\n<br>\n$\\text{T}(n + 1) = bT(n) + g(n)$<br>\n<br>\n$\\geq a\\text{T}(n) + f(n)$<br>\n<br>\n$\\geq a\\text{S}(n) + f(n)$<br>\n<br>\n$= \\text{S}(n + 1).$</div></section></div><p><a href=\"https://gateoverflow.in/374926\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "There are five people of different heights. In how many ways can they stand in a line, so there are no $3$ consecutive people with increasing height(from left to right)? (Hint: May Try Inclusion-Exclusion Principle)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 31)</small></h4><a name=\"374925\"></a><div itemprop=\"text\"><p><span style=\"background-color:#e74c3c;\">First number the spots in the line, $12345.$ Let $\\text{A}$ be the event that the people at spots $123$ are in height order, $\\text{B}$ be the event that $234$ are in order and $\\text{C}$ the event that $345$ are in order.</span><br><strong><img alt=\"\" height=\"293\" width=\"624\" src=\"media/71/71ffd437147d8e58c492.png\"></strong></p></div></section><section><h4>Source solution 2 <small>(score: 25)</small></h4><a name=\"475109\"></a><div itemprop=\"text\"><p>For people who are confused in <span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"181161\"><a class=\"pupi_dm_user_mention\" rel=\"nofollow\" href=\"https://gateoverflow.in/user/GO%20Classes\" target=\"_blank\">@Dvruo Classes</a>&nbsp;answer.</span></p><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"181161\">&nbsp;I have broken it down with simpler explanation.</span></p><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"181161\"><img alt=\"\" width=\"500\" height=\"667\" src=\"media/63/632ab3dfef29c0e37b43.jpg\"></span></p><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"181161\"><img alt=\"\" width=\"500\" height=\"667\" src=\"media/3f/3f8bbdd42317e2e48228.jpg\"></span></p><p><span class=\"pupi_dm_user_mention\" data-pupi_dm_user_id=\"181161\"><img alt=\"\" src=\"denied:There arehttps://cdn.corenexis.com/view/?img=d/jl4/scET0m.jpg five people of different heights. In how many ways can they stand in a line, so there are no  3  consecutive people with increasing height(from left to right)? (Hint: May Try Inclusion-Exclusion Principle)\"></span></p><p>&nbsp;</p></div></section><section><h4>Source solution 3 <small>(score: 3)</small></h4><a name=\"506332\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">To solve this problem, we will use the <b data-path-to-node=\"0\" data-index-in-node=\"39\">Principle of Inclusion-Exclusion (PIE)</b> to find the number of permutations where no three consecutive people have increasing heights.</p><hr data-path-to-node=\"1\"><h3 data-path-to-node=\"2\">1. Total Permutations</h3><p>There are 5 people of different heights. The total number of ways they can stand in a line (without restrictions) is:</p><p>&nbsp;</p><p>$$5! = 120$$</p><h3 data-path-to-node=\"5\">2. Define the Conditions to Exclude</h3><p data-path-to-node=\"6\">Let $P_i$ be the property that the three people starting at position $i$ are in increasing order of height ($h_i &lt; h_{i+1} &lt; h_{i+2}$). There are 3 possible positions for such a triplet:</p><ul data-path-to-node=\"7\"><li><p data-path-to-node=\"7,0,0\"><b data-path-to-node=\"7,0,0\" data-index-in-node=\"0\">$P_1$</b>: Positions (1, 2, 3) are increasing.</p></li><li><p data-path-to-node=\"7,1,0\"><b data-path-to-node=\"7,1,0\" data-index-in-node=\"0\">$P_2$</b>: Positions (2, 3, 4) are increasing.</p></li><li><p data-path-to-node=\"7,2,0\"><b data-path-to-node=\"7,2,0\" data-index-in-node=\"0\">$P_3$</b>: Positions (3, 4, 5) are increasing.</p></li></ul><p data-path-to-node=\"8\">We want to find: $\\text{Total} - |P_1 \\cup P_2 \\cup P_3|$.</p><h3 data-path-to-node=\"9\">3. Apply Inclusion-Exclusion</h3><h4 data-path-to-node=\"10\"><b data-path-to-node=\"10\" data-index-in-node=\"0\">Step A: $|P_1| + |P_2| + |P_3|$</b></h4><p data-path-to-node=\"11\">For any $P_i$, we choose 3 people to be in that spot and arrange them in the only 1 way that is increasing. The remaining 2 people can be arranged in $2!$ ways.</p><ul data-path-to-node=\"12\"><li><p data-path-to-node=\"12,0,0\">$|P_i| = \\binom{5}{3} \\times 1 \\times 2! = 10 \\times 2 = 20$</p></li><li><p data-path-to-node=\"12,1,0\">Sum = $20 + 20 + 20 =$ <b data-path-to-node=\"12,1,0\" data-index-in-node=\"21\">60</b></p></li></ul><h4 data-path-to-node=\"13\"><b data-path-to-node=\"13\" data-index-in-node=\"0\">Step B: $|P_1 \\cap P_2| + |P_2 \\cap P_3| + |P_1 \\cap P_3|$</b></h4><ul data-path-to-node=\"14\"><li><p data-path-to-node=\"14,0,0\"><b data-path-to-node=\"14,0,0\" data-index-in-node=\"0\">$P_1 \\cap P_2$</b>: This means heights at (1, 2, 3) and (2, 3, 4) are increasing. This is a single chain of 4: $h_1 &lt; h_2 &lt; h_3 &lt; h_4$.</p><ul data-path-to-node=\"14,0,1\"><li><p data-path-to-node=\"14,0,1,0,0\">Calculation: $\\binom{5}{4} \\times 1 \\text{ (order)} \\times 1! \\text{ (remaining person)} = 5$</p></li></ul></li><li><p data-path-to-node=\"14,1,0\"><b data-path-to-node=\"14,1,0\" data-index-in-node=\"0\">$P_2 \\cap P_3$</b>: Similarly, a chain of 4: $h_2 &lt; h_3 &lt; h_4 &lt; h_5$.</p><ul data-path-to-node=\"14,1,1\"><li><p data-path-to-node=\"14,1,1,0,0\">Calculation: $\\binom{5}{4} \\times 1 \\times 1! = 5$</p></li></ul></li><li><p data-path-to-node=\"14,2,0\"><b data-path-to-node=\"14,2,0\" data-index-in-node=\"0\">$P_1 \\cap P_3$</b>: (1, 2, 3) are increasing AND (3, 4, 5) are increasing. Note that $h_3$ is the end of the first and start of the second. This is a chain of 5: $h_1 &lt; h_2 &lt; h_3 &lt; h_4 &lt; h_5$.</p><ul data-path-to-node=\"14,2,1\"><li><p data-path-to-node=\"14,2,1,0,0\">Calculation: Only 1 way (the entire line is increasing).</p></li></ul></li><li><p data-path-to-node=\"14,3,0\">Sum = $5 + 5 + 1 =$ <b data-path-to-node=\"14,3,0\" data-index-in-node=\"18\">11</b></p></li></ul><h4 data-path-to-node=\"15\"><b data-path-to-node=\"15\" data-index-in-node=\"0\">Step C: $|P_1 \\cap P_2 \\cap P_3|$</b></h4><p data-path-to-node=\"16\">This means (1, 2, 3), (2, 3, 4), and (3, 4, 5) are all increasing. This is the same as the chain of 5 ($h_1 &lt; h_2 &lt; h_3 &lt; h_4 &lt; h_5$).</p><ul data-path-to-node=\"17\"><li><p data-path-to-node=\"17,0,0\">Sum = <b data-path-to-node=\"17,0,0\" data-index-in-node=\"6\">1</b></p></li></ul><hr data-path-to-node=\"18\"><h3 data-path-to-node=\"19\">4. Final Calculation</h3><p>Using the PIE formula:</p><p>&nbsp;</p><p>$$\\text{Forbidden} = (S_1) - (S_2) + (S_3)$$</p><p>$$\\text{Forbidden} = 60 - 11 + 1 = 50$$</p><p>Now, subtract the forbidden arrangements from the total:</p><p>&nbsp;</p><p>$$\\text{Valid ways} = 120 - 50 = 70$$</p><p data-path-to-node=\"25\">There are <b data-path-to-node=\"25\" data-index-in-node=\"10\">70</b> different ways the people can stand in line such that no 3 consecutive people have increasing heights.</p><p data-path-to-node=\"26\">&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374924\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "",
+   "html": "<p>Let $n \\in \\mathbf{N}$ be a natural number and let $\\text{X} \\subseteq \\mathbf{N}$ be a subset with $n + 1$ elements.</p><p>Then which of the following is/are necessarily true ?</p>",
+   "paragraph": null,
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $x-y$ is divisible by $n.$</p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that both $x, y$ are divisible by $n.$</p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $x + y$ is divisible by $n.$</p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>there exist two distinct natural numbers $x, y \\in \\text{X}$ such that $xy$ is divisible by $n.$</p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> A</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 27)</small></h4><a name=\"374923\"></a><div itemprop=\"text\">Take $n = 3 $ and $\\text{X} = \\{ 1,4,7,10 \\}$<br>\n<br>\nClearly, option B,C,D are false for this example.<br>\n<br>\nOption A is true.<br>\n<br>\nBy the Pigeonhole Principle, if we have $n + 1$ natural numbers, then at least two of them must belong to the same congruence class modulo $n;$ in other words, they have the same reminder when you divide them by $n.$ So we have at least one pair $x, y$ such that $x = k_{1}n + r$ and $y = k_{2}n + r$ for some integers $k_{1}, k_{2}.$ Therefore $x - y = (k_{1} - k_{2})n$ which shows the desired result.</div></section><section><h4>Source solution 2 <small>(score: 10)</small></h4><a name=\"384396\"></a><div itemprop=\"text\"><p>Any array/set of size N contains elements with the remainder(after dividing by N) as {0,1…..(N-1)},&nbsp;<strong>multiple copies of the same remainder are also possible.</strong></p>\n\n<p>Now 90% of observation is done.</p>\n\n<hr>\n<p>In the question, it is given that we have (N+1) elements, which will result in any two elements (x,y) having the same remainder after dividing by N.</p>\n\n<p>x = k1*N + a</p>\n\n<p>y = K2*N + a</p>\n\n<p>Now if we take (x –&nbsp;y) ≈&nbsp;(k1 –&nbsp;k2)*N →&nbsp;divisible by N.</p>\n\n<p>Option A is correct.</p></div></section><section><h4>Source solution 3 <small>(score: 4)</small></h4><a name=\"412035\"></a><div itemprop=\"text\"><p>those who have doubts watch :&nbsp;<a rel=\"nofollow\" href=\"https://youtu.be/x2a05kJZ2xc?si=7TBwzvXlI8kkRJxH&amp;t=4457\" target=\"_blank\">https://youtu.be/x2a05kJZ2xc?si=7TBwzvXlI8kkRJxH&amp;t=4457</a>&nbsp; (proof of option a)</p>\n\n<p>for option b : need not be remainder=0 same doesn’t guarantee =0;</p>\n\n<p>for option d&nbsp;: 5&amp;2&nbsp;congruent to mod 8 but 5*+2=7is not divisible by 8</p>\n\n<p>for option d&nbsp;: 5&amp;2&nbsp;congruent to mod 8 but 5*2=10&nbsp;is not divisible by 8</p></div></section><section><h4>Source solution 4 <small>(score: 2)</small></h4><a name=\"506339\"></a><div itemprop=\"text\"><p data-path-to-node=\"20\">Let $X \\subseteq \\mathbb{N}$ with $|X| = n + 1$. We consider remainders when elements are divided by $n$.</p><ul data-path-to-node=\"21\"><li><p data-path-to-node=\"21,0,0\">There are $n$ possible remainders modulo $n$: $\\{0, 1, \\dots, n-1\\}$.</p></li><li><p data-path-to-node=\"21,1,0\">Since we have $n+1$ elements (pigeons) and only $n$ possible remainders (holes), by the <b data-path-to-node=\"21,1,0\" data-index-in-node=\"84\">Pigeonhole Principle</b>, at least two distinct numbers $x, y \\in X$ must have the same remainder modulo $n$.</p></li><li><p data-path-to-node=\"21,2,0\">If $x \\equiv y \\pmod n$, then $n$ divides $(x - y)$.</p></li></ul><p data-path-to-node=\"22\">Therefore, <b data-path-to-node=\"22\" data-index-in-node=\"11\">Option A</b> is necessarily true.</p></div></section><section><h4>Source solution 5 <small>(score: 1)</small></h4><a name=\"516390\"></a><div itemprop=\"text\">counter example for option B and D<br>\n<br>\nlet n is any composite number ex:10<br>\n<br>\nX ={ &nbsp;any 11 prime numbers}</div></section></div><p><a href=\"https://gateoverflow.in/374922\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "What is the coefficient of $x^{5}$ in the power series expansion of the following function?<br>\n<br>\n$$\\frac{1+7x}{(1-x)(1-5x)}$$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 47)</small></h4><a name=\"377622\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/6d/6d7cf92b80e2a0750557.jpg\"></p>\n\n<p>.</p></div></section><section><h4>Source solution 2 <small>(score: 16)</small></h4><a name=\"440193\"></a><div itemprop=\"text\"><h3>We can solve this by using Partial fractions</h3><div>&nbsp;</div><div>&nbsp;</div><p><img alt=\"\" src=\"media/a1/a16cabea0f7758613147.png\"></p></div></section><section><h4>Source solution 3 <small>(score: 14)</small></h4><a name=\"374915\"></a><div itemprop=\"text\"><p><strong><img alt=\"\" height=\"85\" src=\"media/41/41198e76de6e97f911cf.png\" width=\"624\"></strong></p></div></section><section><h4>Source solution 4 <small>(score: 3)</small></h4><a name=\"506336\"></a><div itemprop=\"text\"><p>We need to find the coefficient of $x^5$ for the function:</p><p>&nbsp;</p><p>$$f(x) = \\frac{1 + 7x}{(1 - x)(1 - 5x)}$$</p><p>Step 1: Partial Fraction Decomposition</p><p>Let $\\frac{1 + 7x}{(1 - x)(1 - 5x)} = \\frac{A}{1 - x} + \\frac{B}{1 - 5x}$.</p><ul data-path-to-node=\"6\"><li><p data-path-to-node=\"6,0,0\">To find $A$: Multiply by $(1-x)$ and set $x=1$: $A = \\frac{1 + 7(1)}{1 - 5(1)} = \\frac{8}{-4} = -2$.</p></li><li><p data-path-to-node=\"6,1,0\">To find $B$: Multiply by $(1-5x)$ and set $x=1/5$: $B = \\frac{1 + 7(1/5)}{1 - 1/5} = \\frac{12/5}{4/5} = 3$.</p></li></ul><p>Step 2: Expand using Geometric Series</p><p>The function becomes: $-2(1-x)^{-1} + 3(1-5x)^{-1}$.</p><p>Using the series $(1-kx)^{-1} = \\sum_{n=0}^{\\infty} (kx)^n$, the general term for $x^n$ is:</p><p>&nbsp;</p><p>$$a_n = -2(1)^n + 3(5)^n$$</p><p>Step 3: Solve for $n=5$</p><p>&nbsp;</p><p>$$a_5 = -2 + 3(5^5) = -2 + 3(3125) = -2 + 9375 = \\mathbf{9373}$$</p></div></section><section><h4>Source solution 5 <small>(score: 1)</small></h4><a name=\"453764\"></a><div itemprop=\"text\">Can also do this way<br>\n$(1+7x)*(1+x+x^2+x^3...)*(1+(5x)+(5x)^2 +(5x)^3....)$<br>\nFind coff of $x^5$ now</div></section><section><h4>Source solution 6 <small>(score: 0)</small></h4><a name=\"377580\"></a><div itemprop=\"text\"><p>This Question can also be solved without partial fraction</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"media/6c/6cf043648208163666a1.jpg\"></p></div></section></div><p><a href=\"https://gateoverflow.in/374914\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Let $\\text{S}$ be a set consisting of $10$ elements. We want to count all the ways to form an unordered pair $\\{\\text{A, B}\\}$ of disjoint subsets of $\\text{S i.e. A} \\subseteq \\text{S, B} \\subseteq \\text{S},$ and $\\text{A, B}$ are disjoint sets. How many ways are there?<br>\n<br>\nNote that we will consider $\\{\\text{X, X}\\}$ also as an unordered pair. Also, $\\{\\text{X, Y}\\} = \\{\\text{Y, X}\\}.$",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 36)</small></h4><a name=\"374913\"></a><div itemprop=\"text\"><p>We are not asking for complementary subsets.</p>\n\n<p>Let’s find general solution i.e. when $|\\text{S}|= n.$<br>\n<br>\nLet’s begin by counting ordered pairs $(\\text{A, B}).\\; ($That is, we distinguish $\\text{A}$ from $\\text{B}.)$ Each element $x$ of $\\text{S}$ has three choices:</p>\n\n<ol>\n\t<li>$x$ is in $\\text{A},$ but not in $\\text{B}.$</li>\n\t<li>$x$ is in $\\text{B},$ but not in $\\text{A}.$</li>\n\t<li>$x$ is neither in $\\text{A}$ nor in $\\text{B}.$</li>\n</ol>\n\n<p><br>\nThus, there are $3^{n}$ ways to make ordered pairs.<br>\n<br>\nSince each unordered pair $\\{\\text{A, B}\\}$ can be ordered in two ways, to count unordered pairs we divide by $2,$ so the answer appears to be $\\frac{3^{n}}{2}.$<br>\n<br>\nThis is impossible: the number is a fraction. What is wrong? We’d better check to see whether there really are two ways to order an unordered pair $\\{\\text{A, B}\\}.$ All we know is that $\\text{A} \\cap \\text{B} = \\varnothing.$ The two orderings of $\\{\\text{A,B}\\}$ are $(\\text{A, B})$ and $(\\text{B, A}).$ They are the same ordered pair if $\\text{A = B}.$ By disjointness, that implies $\\text{A = B} = \\varnothing.$ Thus, there is one unordered pair, $\\{\\varnothing, \\varnothing\\},$ that comes from a single ordered pair. The number of ordered pairs other than $\\{\\varnothing, \\varnothing\\}$ is $3^{n}-1,$ so the number of unordered pairs other than $\\{\\text{A, B}\\}$ is &nbsp;$\\frac{(3^{n} - 1)}{2}.$<br>\n<br>\nAdding to that the one unordered pair $\\{\\varnothing, \\varnothing\\},$ we have the answer $:\\frac{(3^{n} + 1)}{2}.$<br>\n<br>\n<br>\nBut you may object that $\\{\\varnothing, \\varnothing\\}$ is not a pair, it is only one set. (You don’t like having a multiset in this problem.)<br>\nThat is a perfectly reasonable objection, so your answer could be<br>\n$\\frac{(3^{n} - 1)}{2}.$<br>\n<br>\nBut since, in the question it is given that $\\{\\text{X, X}\\}$ is also considered as an unordered pair, So, answer will be $\\frac{(3^{n} + 1)}{2}.$</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"506330\"></a><div itemprop=\"text\"><p data-path-to-node=\"0\">To find the number of unordered pairs $\\{A, B\\}$ of disjoint subsets of a set $S$ with 10 elements, we can follow a step-by-step counting process based on the choices available for each element.</p><h3 data-path-to-node=\"1\">1. Count Ordered Pairs $(A, B)$</h3><p data-path-to-node=\"2\">First, we determine the total number of <b data-path-to-node=\"2\" data-index-in-node=\"40\">ordered</b> pairs of disjoint subsets $(A, B)$. For each of the $n = 10$ elements in set $S$, there are exactly <b data-path-to-node=\"2\" data-index-in-node=\"142\">3 choices</b> regarding its placement:</p><ol start=\"1\" data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\">The element belongs to subset $A$ (but not $B$).</p></li><li><p data-path-to-node=\"3,1,0\">The element belongs to subset $B$ (but not $A$).</p></li><li><p data-path-to-node=\"3,2,0\">The element belongs to <b data-path-to-node=\"3,2,0\" data-index-in-node=\"23\">neither</b> subset (it is in $S$ but outside $A \\cup B$).</p></li></ol><p>Since these choices are independent for each of the 10 elements, the total number of ordered pairs is:</p><p>&nbsp;</p><p>$$3^{10} = 59,049 \\text{ ordered pairs}$$</p><h3 data-path-to-node=\"6\">2. Adjust for Unordered Pairs $\\{A, B\\}$</h3><p data-path-to-node=\"7\">The problem asks for <b data-path-to-node=\"7\" data-index-in-node=\"21\">unordered</b> pairs, meaning the pair $\\{A, B\\}$ is considered the same as $\\{B, A\\}$. To convert ordered pairs to unordered ones, we must distinguish between cases where the subsets are different and where they are the same:</p><ul data-path-to-node=\"8\"><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">When $A \\neq B$:</b> Every unordered pair $\\{A, B\\}$ corresponds to exactly two ordered pairs: $(A, B)$ and $(B, A)$.</p></li><li><p data-path-to-node=\"8,1,0\"><b data-path-to-node=\"8,1,0\" data-index-in-node=\"0\">When $A = B$:</b> For $A$ and $B$ to be disjoint ($A \\cap B = \\emptyset$), the only possibility is that both are the empty set ($A = B = \\emptyset$). There is only <b data-path-to-node=\"8,1,0\" data-index-in-node=\"150\">one</b> such ordered pair, $(\\emptyset, \\emptyset)$, which remains a single unordered pair $\\{\\emptyset, \\emptyset\\}$.</p></li></ul><h3 data-path-to-node=\"9\">3. Final Calculation</h3><p data-path-to-node=\"10\">To find the total number of unordered pairs, we subtract the unique $(\\emptyset, \\emptyset)$ case to handle the remaining distinct pairs, divide by 2, and then add that one case back:</p><p>$$\\text{Unordered Pairs} = \\frac{3^n - 1}{2} + 1 = \\frac{3^n + 1}{2}$$</p><p>Substituting $n = 10$:</p><p>&nbsp;</p><p>$$\\frac{3^{10} + 1}{2} = \\frac{59,049 + 1}{2} = \\frac{59,050}{2} = \\mathbf{29,525}$$</p><p data-path-to-node=\"14\">There are <b data-path-to-node=\"14\" data-index-in-node=\"10\">29,525</b> ways to form such an unordered pair of disjoint subsets.</p><p>&nbsp;</p></div></section></div><p><a href=\"https://gateoverflow.in/374912\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 6,
+  "types": {
+   "NAT": 13,
+   "MSQ": 2
+  },
+  "withoutKey": 12
+ }
+}

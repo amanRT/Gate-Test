@@ -1,0 +1,1179 @@
+{
+ "v": 1,
+ "id": "da-easy-2025-019",
+ "title": "Subjectwise Test-7 Part Syllabus GATE 2025 DA Artificial Intelligence",
+ "sourceTitle": "Subjectwise Test-7 Part Syllabus GATE 2025 DA Artificial Intelligence",
+ "branch": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+ "code": "DA",
+ "provider": "DVRUO EASY",
+ "providerKey": "easy",
+ "series": "GATE 2025 Online Test Series - Data Science and AI",
+ "seriesId": "da-easy-2025",
+ "num": 19,
+ "category": "subjectwise",
+ "year": "2025",
+ "format": "A",
+ "durationSec": 5400,
+ "info": {
+  "meta": "Package: GATE 2026 + GATE 2025 Online Test Series - Data Science and AI • Questions: 33",
+  "package": "GATE 2026 + GATE 2025 Online Test Series - Data Science and AI"
+ },
+ "source": "DATA SCIENCE AND ARTIFICIAL INTELLIGENCE/MADE EASY/GATE_2026_+_GATE_2025_Online_Test_Series_Data_Science_and_AI/038_Subjectwise Test-7 Part Syllabus GATE 2025 DA Artificial Intelligence.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct a heuristic function that makes it ‘consistent’ (or ‘monotonic’)?<br />\n\t<em>S</em><sub>1</sub> : The heuristic function <em>h</em>(<em>n</em>) must be non-negative for all nodes <em>n</em>.<br />\n\t<em>S</em><sub>2</sub> : For any node <em>n</em> and any successor <em>n</em>′ reached from <em>n</em>, the heuristic function must satisfy <em>h</em>(<em>n</em>) ≤ <em>c</em>(<em>n</em>, <em>n</em>′) + <em>h</em>(<em>n</em>′), where <em>c</em>(<em>n</em>, <em>n</em>′) is the step cost from <em>n</em> to <em>n</em>′.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; Stating that the heuristic function must be non-negative for all nodes, is not a requirement for monotonicity. So <em>S</em><sub>1</sub> is incorrect.<br />\n\t&bull; A heuristic is monotonic if, for any node n and its successor n&prime;, the estimated cost h(n) to the goal is less than or equal to the actual cost to move from n to n&prime; plus the estimated cost h(n&prime;) from n&prime; to the goal. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 2,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : DLS guarantees finding the shortest path if the depth limit is sufficient.<br />\n\t<em>S</em><sub>2</sub> : BFS always find the optimal solution, if the path cost is uniform across all edge.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tBFS explores node level by level. If all edge have the same cost, BFS finds the shortest path in term of the number of edges, thus ensuring the optimal solution.</p>"
+  },
+  {
+   "n": 3,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhen performing variable elimination, which of the following steps is performed last in the process?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Marginalizing out all variables except the one of interest."
+    },
+    {
+     "key": "B",
+     "html": "Combining all factors involving the variable to be eliminated."
+    },
+    {
+     "key": "C",
+     "html": "Normalizing the resulting factor to obtain the marginal probability."
+    },
+    {
+     "key": "D",
+     "html": "Computing the joint probability distribution of all variables."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tThe final step in variable elimination is to marginalize out all variables except the one of interest, resulting in the desired marginal distribution.</p>"
+  },
+  {
+   "n": 4,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : Gibbs sampling involves sampling from the full joint distribution of all variables.<br />\n\t<em>S</em><sub>2</sub> : In particle filters, resampling helps to focus on particles with higher weights and handle particle depletion.<br />\n\tWhich of the above is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; Gibbs sampling involves sampling from conditional distributions, not the full joint distribution.<br />\n\tSo, <em>S</em><sub>1</sub> is false.<br />\n\t&bull; Resampling in particle filters helps to concentrate on particles with higher weights and manage particle depletion. So, <em>S</em><sub>2</sub> is true.</p>"
+  },
+  {
+   "n": 5,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Variable elimination requires the calculation of marginal probabilities over intermediate factors.<br />\n\t<em>S</em><sub>2</sub> : Variable elimination can lead to an increase in the size of intermediate factors during the process.<br />\n\t<em>S</em><sub>3</sub> : In variable elimination, the order of elimination can affect the final result of the inference</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tAll <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)</p>\n<p>\n\t<img alt=\"\" src=\"media/69/695447f6cc77ab726ec4.png\" /></p>"
+  },
+  {
+   "n": 6,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements about systematic sampling:<br />\n\t<em>S</em><sub>1</sub> : If the list of the population is ordered in some way, systematic sampling might introduce bias.<br />\n\t<em>S</em><sub>2</sub> : Systematic sampling is particularly useful when the population is small.<br />\n\tWhich of the above is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\tSystematic sampling can introduce bias if the list is ordered in a way that correlates with the sampling interval. It is particularly useful for large populations with an ordered list rather than small populations.</p>"
+  },
+  {
+   "n": 7,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following methods is commonly used to compute the ELBO in Variational Inference?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Analytic integration"
+    },
+    {
+     "key": "B",
+     "html": "Monte Carlo estimation"
+    },
+    {
+     "key": "C",
+     "html": "Exact inference"
+    },
+    {
+     "key": "D",
+     "html": "Laplace approximation"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; Analytic integration is often impractical for computing the ELBO in complex models because it can be difficult or impossible to integrate analytically.<br />\n\t&bull; Monte Carlo estimation is commonly used to approximate the ELBO because it provides a flexible method for handling complex distributions by sampling.</p>\n<p>\n\t&bull; Exact inference refers to methods that provide exact posterior distributions, which are typically infeasible for complex models where ELBO is used.<br />\n\t&bull; Laplace approximation is used to approximate posterior distributions but not specifically for computing the ELBO.</p>"
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0",
+   "html": "<p>\n\tConsider a Bayesian network with two variables: A and B. The joint probability distribution is given as follows:</p>\n<p>\n\t<img alt=\"\" src=\"media/6a/6a6794f865a25548cf98.png\" /></p>\n<p>\n\tUsing variable elimination, calculate the marginal probability <em>P</em>(<em>B</em> = 1).</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.7,
+    0.7
+   ],
+   "answerText": "0.7",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.7</p>\n<p>\n\t<img alt=\"\" src=\"media/ff/ffd679c03376abc5e9e8.png\" /></p>"
+  },
+  {
+   "n": 9,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "In IDA*, the heuristic function h(n) must always overestimate the cost to the goal to ensure optimality."
+    },
+    {
+     "key": "B",
+     "html": "IDA* performs worse than A* in terms of memory usage for large search spaces."
+    },
+    {
+     "key": "C",
+     "html": "IDA* can revisit nodes multiple times due to its iterative nature."
+    },
+    {
+     "key": "D",
+     "html": "The time complexity of IDA* is always lower than that of A*."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "C, A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; The heuristic function h(n) must be admissible (not overestimate) to ensure optimality.<br />\n\tSo, option (a) is false.<br />\n\t&bull; IDA* is designed to be more memory-efficient than A*, especially in large search spaces. So, option (b) is false.<br />\n\t&bull; IDA* can revisit nodes multiple times because it performs multiple iterations with increasing cost thresholds. So, option (c) is true.<br />\n\t&bull; The time complexity of IDA* can be higher than A* due to the need to revisit nodes.<br />\n\tSo, option (d) is false.</p>"
+  },
+  {
+   "n": 10,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following statements about Depth-Limited Search (DLS) is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "DLS is a variation of DFS that includes a limit on the depth of exploration."
+    },
+    {
+     "key": "B",
+     "html": "DLS is guaranteed to find the solution if the depth limit is set high enough."
+    },
+    {
+     "key": "C",
+     "html": "DLS can be more memory-efficient than BFS when the depth limit is set appropriately."
+    },
+    {
+     "key": "D",
+     "html": "DLS guarantees finding the shortest path in an unweighted graph."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)<br />\n\t&bull; DLS is essentially DFS with a depth limit to prevent infinite exploration. So, option (a) is true.<br />\n\t&bull; True. If the depth limit is high enough, DLS will find the solution if one exists within the limit. So, option (a) is true.<br />\n\t&bull; DLS can be more memory-efficient than BFS, especially with a depth limit that prevents storing all nodes at once. So, option (c) is true.<br />\n\t&bull; DLS does not guarantee finding the shortest path; it only explores up to a specified depth. So, option (d) is false.</p>"
+  },
+  {
+   "n": 11,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following is true about the Evidence Lower Bound (ELBO) in Approximate Inference?<br />\n\t<em>S</em><sub>1</sub> : The ELBO is a lower bound on the log marginal likelihood of the observed data.<br />\n\t<em>S</em><sub>2</sub> : Maximizing the ELBO helps in finding the best approximation to the true posterior distribution.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; The ELBO is indeed a lower bound on the log marginal likelihood of the observed data. This allows for tractable optimization of the variational distribution. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; Maximizing the ELBO improves the approximation of the true posterior distribution by optimizing the variational distribution. So, <em>S</em><sub>2</sub> is correct.</p>"
+  },
+  {
+   "n": 12,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : Importance sampling provides unbiased estimates of the target distribution regardless of the choice of proposal distribution.<br />\n\t<em>S</em><sub>2</sub> : MCMC methods do not require the target distribution to be normalized.<br />\n\tWhich of the above is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; Importance sampling can be biased if the proposal distribution does not adequately cover the target distribution. S1 is false.<br />\n\t&bull; MCMC methods can work with unnormalized target distributions. So, S2 is true.</p>"
+  },
+  {
+   "n": 13,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements about cluster sampling is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Cluster sampling involves dividing the population into clusters and then randomly selecting clusters to be included in the sample.<br />\n\t<em>S</em><sub>2</sub> : In cluster sampling, every individual within the selected clusters is surveyed.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\tCluster sampling involves dividing the population into clusters and then randomly selecting some clusters to include in the sample. All individuals within the selected clusters are then surveyed.</p>"
+  },
+  {
+   "n": 14,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following is not correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/57/5768fb768af9b5a56743.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img align=\"absmiddle\" alt=\"\" src=\"media/f6/f6ae63d18e74c1a09699.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img allign=\"absmiddle\" alt=\"\" src=\"media/da/da1bba335295d06bb422.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)</p>\n<p>\n\t<img alt=\"\" src=\"media/70/70961f67ae3261faea51.png\" /></p>"
+  },
+  {
+   "n": 15,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements about factors used in variable elimination in Bayesian networks are false?<br />\n\t<em>S</em><sub>1</sub> : Factors can be created by multiplying other factors together.<br />\n\t<em>S</em><sub>2</sub> : Factors must always include all variables in the network.<br />\n\t<em>S</em><sub>3</sub> : Factors are not affected by the evidence variables.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(d)<br />\n\t&bull; Factors can indeed be created by multiplying other factors together, as this process combines different probability distribution. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; Factors do not need to include all variables network. Only include the variable that are relevant to the factor itself. So, <em>S</em><sub>2</sub> is incorrect.<br />\n\t&bull; Factors are affected by evidence variable, when evidence is incorporated. It modifies the factors to reflect the observed values. So, <em>S</em><sub>3</sub> is incorrect.</p>"
+  },
+  {
+   "n": 16,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tWhich of the following statements about Uniform Cost Search (UCS) is/are true?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "UCS is similar to BFS but considers the cost of the path when choosing nodes to expand."
+    },
+    {
+     "key": "B",
+     "html": "UCS guarantees finding the optimal solution for graphs with varying edge costs."
+    },
+    {
+     "key": "C",
+     "html": "UCS can be more efficient than BFS in terms of memory usage if edge costs vary significantly."
+    },
+    {
+     "key": "D",
+     "html": "UCS can be implemented using a stack data structure."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "A, B, C",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, c)<br />\n\t&bull; UCS expands nodes based on the lowest path cost, similar to how BFS expands nodes level by level. So, option (a) is true.<br />\n\t&bull; UCS guarantees finding the optimal solution when edge costs are non-negative. So, option (b) is true.<br />\n\t&bull; UCS may use more memory than BFS if the edge costs vary significantly, as it maintains a priority queue of nodes based on path cost. So, option (c) is false.<br />\n\t&bull; UCS uses a priority queue to manage nodes based on their path cost. So, option (d) is false.</p>"
+  },
+  {
+   "n": 17,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tIn an α-β pruning algorithm, which of the following best describes the purpose of updating the a value at the MAX nodes and the β value at the MIN nodes?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "To maximize the number of nodes evaluated by the algorithm."
+    },
+    {
+     "key": "B",
+     "html": "To minimize the number of nodes evaluated by the algorithm."
+    },
+    {
+     "key": "C",
+     "html": "To ensure all possible moves are explored without pruning any nodes."
+    },
+    {
+     "key": "D",
+     "html": "To determine if a node should be pruned or not."
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\tThe purpose of updating &alpha; and &beta; values is to determine whether a branch can be pruned, thus minimizing the number of nodes that need to be evaluated.</p>"
+  },
+  {
+   "n": 18,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : The complexity of variable elimination is dependent on the order in which variables are eliminated.<br />\n\t<em>S</em><sub>2</sub> : Variable elimination can be used for both exact and approximate inference in Bayesian networks.<br />\n\t<em>S</em><sub>3</sub> : The time complexity of variable elimination grows exponentially with the number of variables in the Bayesian network.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tAll <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; The order in which variables are eliminated significantly affects the computational complexity of the variable elimination process. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; Variable elimination is typically used for exact inference. Approximate inference methods, like sampling, are different from variable elimination. So, <em>S</em><sub>2</sub> is incorrect.<br />\n\t&bull; The time complexity of variable elimination is generally exponential in the number of variables, particularly if the network is densely connected. So, <em>S</em><sub>3</sub> is correct.</p>"
+  },
+  {
+   "n": 19,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements about systematic sampling is/are correct?<br />\n\t<em>S</em><sub>1</sub> : Systematic sampling involves selecting every kth individual from a list after randomly selecting a starting point.<br />\n\t<em>S</em><sub>2</sub> : Systematic sampling does not require a complete list of the population.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)<br />\n\tSystematic sampling involves selecting every kth individual from a list, after randomly choosing a starting point. It does require a complete list of the population for this method to be implemented correctly.</p>"
+  },
+  {
+   "n": 20,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following joint probability distribution for binary variables <em>A</em>, <em>B</em> and <em>C</em>:</p>\n<p>\n\t<img alt=\"\" src=\"media/ee/ee2e6eff19be28045ea5.png\" /></p>\n<p>\n\tCalculate <img align=\"absmiddle\" alt=\"\" src=\"media/57/57d390c936089e11a5e5.png\" /> using variable elimination. (Upto 2 decimal places)</p>",
+   "options": [],
+   "answer": null,
+   "natRange": [
+    0.33,
+    0.33
+   ],
+   "answerText": "0.33",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t0.33</p>\n<p>\n\t<img alt=\"\" src=\"media/5e/5e26988a540a4d9fa22f.png\" /></p>"
+  },
+  {
+   "n": 21,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following scenario:<br />\n\tIn an A* search algorithm, the heuristic function <img align=\"absmiddle\" alt=\"\" src=\"media/86/86098968e56eb291f40d.png\" /> is admissible. Suppose this heuristic is modified to <img align=\"absmiddle\" alt=\"\" src=\"media/86/86098968e56eb291f40d.png\" /> + c, where c is a positive constant.<br />\n\tWhat impact does this change have on the A search algorithm?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "A* may still find the optimal path, but it will not be admissible."
+    },
+    {
+     "key": "B",
+     "html": "A* will still be admissible, but the search will be less efficient."
+    },
+    {
+     "key": "C",
+     "html": "A* will no longer be admissible and may not find the optimal path."
+    },
+    {
+     "key": "D",
+     "html": "The change has no impact on the admissibility or efficiency of the A search algorithm."
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "B, A, C, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; Adding a positive constant to the heuristic can affect admissibility by potentially causing overestimation of the actual cost. So, option (a) is incorrect.<br />\n\t&bull; The change in the heuristic affects admissibility, not just efficiency. So, option (b) is incorrect.<br />\n\t&bull; Adding a positive constant c to the heuristic function can lead to overestimation, which can make the heuristic non-admissible and potentially affect the optimality of the search. So, option (c) is correct.<br />\n\t&bull; The change in heuristic affects admissible and on also impact the efficient of the search. So, option (d) is incorrect.</p>"
+  },
+  {
+   "n": 22,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statements about Breadth-First Search (BFS) and Depth-First Search (DFS) are correct?<br />\n\t<em>S</em><sub>1</sub> : DFS can be used to find solutions in graphs with deep solutions efficiently if memory is not a constraint.<br />\n\t<em>S</em><sub>2</sub> : BFS requires less memory than DFS when dealing with very large search spaces.<br />\n\t<em>S</em><sub>3</sub> : DFS is more likely to get stuck in infinite loops than BFS if the graph contains cycles.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\t&bull; DFS is effective for deep solutions but can use significant memory for large spaces. So, (<em>S</em><sub>1</sub>) is true.<br />\n\t&bull; BFS generally requires more memory than DFS due to storing all nodes at the current level.<br />\n\tSo, (<em>S</em><sub>2</sub>) is false.<br />\n\t&bull; DFS can get stuck in infinite loops if cycles are present, unlike BFS. So, (<em>S</em><sub>3</sub>) is true.</p>"
+  },
+  {
+   "n": 23,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following sentence:<br />\n\t“Every student who studies hard passes the exam”.<br />\n\tDefinitions:</p>\n<p>\n\t<img alt=\"\" src=\"media/db/db1a58cce9ecca7b0e21.png\" /></p>\n<p>\n\tWhich of the following first-order statements correctly translates the sentence?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/1b/1bfd89f2a81b1cedb90e.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e0/e039b9df2131a909e3f0.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/5b/5bd360134196e61e12ca.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/b4/b45f144b908295749069.png\" /></p>"
+    }
+   ],
+   "answer": [
+    "A",
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "A, B",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b)</p>\n<p>\n\t<img alt=\"\" src=\"media/44/44f3d0870c6a33bed13c.png\" /></p>"
+  },
+  {
+   "n": 24,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider a Bayesian network representing transportation modes with two variables:<br />\n\t<em>T</em> (Transportation) and <em>C</em> (Car). The conditional probability tables are as follows:</p>\n<p>\n\t<img alt=\"\" src=\"media/28/28e2e108bb918f8045d3.png\" /></p>\n<p>\n\tBased on this Bayesian network, which of the following statements is/are correct?<br />\n\t<em>S</em><sub>1</sub> : The probability of using a car given that the transportation mode is bus is 0.2.<br />\n\t<em>S</em><sub>2</sub> : The probability that the transportation mode is bus given that a car is used is greater than the probability that the transportation mode is train given that a car is used.<br />\n\t<em>S</em><sub>3</sub> : The marginal probability of using a car <em>P</em>(<em>C</em> = 1) increases when the conditional probability <em>P</em>(<em>C</em> = 1<img align=\"absmiddle\" alt=\"\" src=\"media/44/44dc3a9c00ab662a109c.png\" />Train) increases.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tAll <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/0a/0ae5f4d8d9cf0593ec7c.png\" /></p>"
+  },
+  {
+   "n": 25,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : SMA* can revisit and re-expand nodes previously stored in its limited memory when necessary.<br />\n\t<em>S</em><sub>2</sub> : Unlike uninformed search methods, SMA* always requires a priority queue to manage node expansions.<br />\n\tWhich of the above statements is false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tNeither <em>S</em><sub>1</sub> nor <em>S</em><sub>2</sub></p>"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)<br />\n\t&bull; SMA can revisit and re-expand nodes that were previously discarded from memory if needed.<br />\n\tSo, <em>S</em><sub>1</sub> is true.<br />\n\t&bull; SMA does not always require a priority queue; it uses a depth-first search approach and handles nodes based on its memory-bound strategy rather than a priority queue. So, <em>S</em><sub>2</sub> is false.</p>"
+  },
+  {
+   "n": 26,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following scenario in α-β pruning:<br />\n\tDuring the search, if a node for the MAX player is found where its α value is 7 and a node for the<br />\n\tMIN player is found with a β value of 5, what happens next in the pruning process?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "The subtree under the MIN node will be pruned."
+    },
+    {
+     "key": "B",
+     "html": "The subtree under the MAX node will be pruned."
+    },
+    {
+     "key": "C",
+     "html": "No pruning will occur as a is not greater than β."
+    },
+    {
+     "key": "D",
+     "html": "Both subtrees will be pruned."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\tSince &alpha; (7) is greater than &beta; (5), the subtree under the MIN node will be pruned because it&rsquo;s guaranteed that MIN cannot find a value less than or equal to 5, which is worse for MAX.</p>"
+  },
+  {
+   "n": 27,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t<em>S</em><sub>1</sub> : Rejection sampling involves generating samples from a proposal distribution and accepting or rejecting them based on a comparison with the target distribution.<br />\n\t<em>S</em><sub>2</sub> : Importance sampling requires the proposal distribution to be normalized.<br />\n\t<em>S</em><sub>3</sub> : Rejection sampling is more efficient when the proposal distribution closely covers the support of the target distribution.<br />\n\t<em>S</em><sub>4</sub> : In rejection sampling, the acceptance probability is uniform across the sample space.<br />\n\tWhich of the above is/are false?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>3</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tOnly <em>S</em><sub>3</sub> and <em>S</em><sub>4</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub> and <em>S</em><sub>4</sub></p>"
+    }
+   ],
+   "answer": [
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "D",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(d)<br />\n\t&bull; Rejection sampling generates samples from a proposal distribution and accepts or rejects them based on the target distribution. <em>S</em><sub>1</sub> is true.<br />\n\t&bull; Importance sampling does not require the proposal distribution to be normalized. <em>S</em><sub>2</sub> is false.<br />\n\t&bull; Efficiency in rejection sampling in proves when the proposal distribution covers the target distribution well. <em>S</em><sub>3</sub> is true.<br />\n\t&bull; The acceptance probability in rejection sampling is not uniform but is proportional to the ratio of the target to the proposal distribution. <em>S</em><sub>4</sub> is false.</p>"
+  },
+  {
+   "n": 28,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following is a primary disadvantage of using “Monte Carlo sampling” for summing out in large probabilistic models?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "It can be computationally expensive and require a large number of samples to obtain accurate estimates."
+    },
+    {
+     "key": "B",
+     "html": "It provides exact solutions without any approximation."
+    },
+    {
+     "key": "C",
+     "html": "It simplifies the model by reducing the number of variables."
+    },
+    {
+     "key": "D",
+     "html": "It is not suitable for high-dimensional spaces."
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(a)<br />\n\tMonte Carlo sampling estimates probabilities by averaging result from random samples. For large models, achieving accuracy may require a huge number of samples, leading to high computational costs.</p>"
+  },
+  {
+   "n": 29,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following is tautology?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/69/697203df81c7428425b2.png\" /></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/3d/3d1b16c2767704c0e2f3.png\" /></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\t<img alt=\"\" src=\"media/e7/e7f4b3fde1c41aee74bb.png\" /></p>"
+    },
+    {
+     "key": "D",
+     "html": "Both (b) and (c)"
+    }
+   ],
+   "answer": [
+    "B"
+   ],
+   "natRange": null,
+   "answerText": "B",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(b)</p>\n<p>\n\t<img alt=\"\" src=\"media/18/18be502c84d1d4b69138.png\" /></p>"
+  },
+  {
+   "n": 30,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tConsider the following two statements:<br />\n\t<em>S</em><sub>1</sub> : All clear explanations are satisfactory.<br />\n\t<em>S</em><sub>2</sub> : Some excuses are unsatisfactory.<br />\n\tWhich of the following statements follows from <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub> as per inference rules of logic?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Every excuses are not clear explanations."
+    },
+    {
+     "key": "B",
+     "html": "Some excuses are clear explanations."
+    },
+    {
+     "key": "C",
+     "html": "Some excuses are not clear explanations."
+    },
+    {
+     "key": "D",
+     "html": "Some explanations are clear excuses."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(c)</p>\n<p>\n\t<img alt=\"\" src=\"media/fd/fd65696b263f20b4c316.png\" /></p>"
+  },
+  {
+   "n": 31,
+   "type": "MSQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0",
+   "html": "<p>\n\tConsider the following statements:<br />\n\t(a) If a heuristic is both admissible and consistent, A* search is optimal and complete.<br />\n\t(b) A consistent heuristic is always admissible, but an admissible heuristic is not necessarily consistent.<br />\n\t(c) The A search algorithm is guaranteed to find the optimal solution, even if the heuristic used is not admissible.<br />\n\t(d) A heuristic that always returns the actual cost to the goal is admissible but not useful for reducing the search space.<br />\n\tWhich of the above is/are correct?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "a"
+    },
+    {
+     "key": "B",
+     "html": "b"
+    },
+    {
+     "key": "C",
+     "html": "c"
+    },
+    {
+     "key": "D",
+     "html": "d"
+    }
+   ],
+   "answer": [
+    "A",
+    "B",
+    "D"
+   ],
+   "natRange": null,
+   "answerText": "A, B, D",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p>\n\t(a, b, d)<br />\n\t&bull; A consistent heuristic being admissible guarantees that A* search is both optimal and complete. So, option (a) is true.<br />\n\t&bull; Consistency implies admissibility, but not all admissible heuristics are consistent. So, option (b) is true.<br />\n\t&bull; A is guaranteed to find the optimal solution only if the heuristic is admissible. So, option (c) is false.<br />\n\t&bull; While it is admissible, using the actual cost as the heuristic function does not help in reducing the search space, as it doesn&rsquo;t guide the search. So, option (d) is true.</p>"
+  },
+  {
+   "n": 32,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +2 / -0.66",
+   "html": "<p>\n\tWhich of the following statement is correct about the Expectimax Algorithm in Adversarial search?</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "Expectimax is used when the game has a deterministic outcome."
+    },
+    {
+     "key": "B",
+     "html": "Expectimax ignores the opponents possible moves."
+    },
+    {
+     "key": "C",
+     "html": "Expectimax is useful with a probabilistic chance component and opponent behaviour."
+    },
+    {
+     "key": "D",
+     "html": "Expectimax provides the same outcome as minimax when applied to the same game."
+    }
+   ],
+   "answer": [
+    "C"
+   ],
+   "natRange": null,
+   "answerText": "C",
+   "marks": {
+    "pos": 2,
+    "neg": 0.66
+   },
+   "solution": "<p>\n\t(c)<br />\n\tExpectimax is useful in adversarial search when there is a probabilistic chance component and opponent behaviour. It accounts for randomness and the opponent&rsquo;s possible moves where as in minimax which is used for deterministic games.</p>"
+  },
+  {
+   "n": 33,
+   "type": "MCQ",
+   "section": "Technical",
+   "tags": "Technical • Data Science and artificial Intelligence • +1 / -0.33",
+   "html": "<p>\n\tWhich of the following statements correct about minimax search with heuristic evaluation?<br />\n\t<em>S</em><sub>1</sub> : Heuristic function estimate the value of incomplete non-terminal states.<br />\n\t<em>S</em><sub>2</sub> : Minimax with heuristic evaluation always find the optimal move, regardless of heuristic quality.</p>",
+   "options": [
+    {
+     "key": "A",
+     "html": "<p>\n\tOnly <em>S</em><sub>1</sub></p>"
+    },
+    {
+     "key": "B",
+     "html": "<p>\n\tOnly <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "C",
+     "html": "<p>\n\tBoth <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub></p>"
+    },
+    {
+     "key": "D",
+     "html": "None of these"
+    }
+   ],
+   "answer": [
+    "A"
+   ],
+   "natRange": null,
+   "answerText": "A",
+   "marks": {
+    "pos": 1,
+    "neg": 0.33
+   },
+   "solution": "<p>\n\t(a)<br />\n\t&bull; Heuristic function are used to estimate the value of non-terminal state when the search is not complete. So, <em>S</em><sub>1</sub> is correct.<br />\n\t&bull; Minimax with heuristic evaluation does not always guarantee the optimal move, especially if the heuristic quality is poor.</p>"
+  }
+ ],
+ "math": false,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 33
+  }
+ ],
+ "stats": {
+  "questions": 33,
+  "maxMarks": 50,
+  "types": {
+   "MCQ": 25,
+   "NAT": 2,
+   "MSQ": 6
+  },
+  "withoutKey": 0
+ }
+}

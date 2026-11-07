@@ -1,0 +1,321 @@
+{
+ "v": 1,
+ "id": "cs-classes-2027q-077",
+ "title": "DVRUO Classes CS/DA | Discrete Mathematics | Combinatorics | Weekly Quiz 14",
+ "sourceTitle": "DVRUO Classes CS/DA | Discrete Mathematics | Combinatorics | Weekly Quiz 14",
+ "branch": "COMPUTER SCIENCE ENGINEERING",
+ "code": "CS",
+ "provider": "DVRUO CLASSES",
+ "providerKey": "classes",
+ "series": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+ "seriesId": "cs-classes-2027q",
+ "num": 77,
+ "category": "other",
+ "year": "",
+ "format": "B",
+ "durationSec": 2700,
+ "info": {
+  "orgName": "DVRUO Classes",
+  "batchName": "DVRUO Classes Weekly Quizzes for GATE CSE 2027",
+  "subjectName": "Discrete Mathematics"
+ },
+ "source": "COMPUTER SCIENCE ENGINEERING/GO CLASSES/GO Classes Weekly Quizzes for GATE CSE 2027/097_exam_908_GO Classes CS-DA Discrete Mathematics Combinatorics Weekly Quiz 14.html",
+ "questions": [
+  {
+   "n": 1,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many committees of 5 students can be selected from a class of 25?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"468495\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=20s\">Watch Video Solution </a> &nbsp;&nbsp;</p><p><br>Choose 5 out of $25={ }^{25} C_{5}=\\frac{25 \\times 24 \\times 23 \\times 22 \\times 21}{1 \\times 2 \\times 3 \\times 4 \\times 5}=53130$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468494\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 2,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "A Club consists of 20 members, of which 9 are male and 11 are female. Seven members will be selected to form an event-planning committee. How many committees of 4 females and 3 males can be formed?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"468493\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=115s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>Total no of committees $={ }^{11} C_{4} \\times{ }^{9} C_{3}$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468492\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 3,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many 7-digit telephone numbers can be formed if the first digit cannot be 0 or 1 ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"468491\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=240s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>total no of telephone numbers $=8 \\times 10 \\times 10 \\times 10 \\times 10 \\times 10 \\times 10$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468490\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 4,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "In a race with 15 runners where 6 trophies will be given to the top 6 runners (the trophies are distinct: first place, second place, etc), how many ways can this be done?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"468489\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=401s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>15P6 = 3603600</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"475244\"></a><div itemprop=\"text\"><p><strong>=&gt;</strong> We can select <strong>6</strong> top runners out of <strong>15</strong> runners =&nbsp; <strong>15C6</strong> ways</p><p><strong>=&gt;</strong>&nbsp;<strong>6</strong> runner will get 6 trophies in <strong>6! ways</strong> <em><strong>( 6(1st place will be selected from the 6 runners) * 5 (2nd place will be selected&nbsp; &nbsp; &nbsp; &nbsp;from&nbsp;</strong></em><em><strong>remaining 5 runners) * 4 * 3* 2 * 1)</strong></em></p><p><em><strong>ans:&nbsp;</strong></em><strong>15C6 *&nbsp;6!</strong></p></div></section></div><p><a href=\"https://gateoverflow.in/468488\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 5,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "8 students on a student council are assigned 8 seats around a U-shaped table. How many ways can a president and a vice-president be elected from the 8 students?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 1,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"468497\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=785s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>$8 \\mathrm{C} 1 \\times 7 \\mathrm{C} 1=56$</p></div><p>&nbsp;</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist</a>&nbsp; &nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 0)</small></h4><a name=\"490034\"></a><div itemprop=\"text\"><p>Choose 2 people out of 8 for position of P and VP: <strong>C (8,2)&nbsp;</strong></p><p>Then, out of 2 chosen people anyone can be P or VP so: <strong>2! ways to chose their designation</strong></p><p>Hence, Total ways =<strong> C(8, 2) * 2! = 56</strong>.</p></div></section></div><p><a href=\"https://gateoverflow.in/468486\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 6,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Three hardcover books and 5 paperbacks are placed on a shelf. How many ways can the books be arranged if all the hardcover books must be together and all the paperbacks must be together?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"468498\"></a><div itemprop=\"text\"><p><br>$2!\\times 3!\\times 5$ !</p><p>&nbsp;</p>\n<div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=UJF9vHQc3gk\\&amp;t=9773s\">Detailed Video Explanation</a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468484\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 7,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many ways can you pair up 8 boys and 8 girls? (i.e. How many pairs having one girl &amp; one boy are possible?)",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"468483\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=910s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>total no of ways of pairing $=8 \\times 8=64$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468482\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 8,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many ways can you arrange 9 people into 3 rows of 3 desks each?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"468499\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=1028s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>Total no of ways $=9$ !</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468480\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 9,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Out of 2 Women and 5 Men, a committee of 3 is to be formed. In how many ways can it be formed if at least one woman is to be included?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 2)</small></h4><a name=\"468479\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=1391s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>A Committee can be formed in the following ways 1 woman and 2 men OR 2 women and 1 man ${ }^{2} C_{1} \\times{ }^{5} C_{2}+{ }^{2} C_{2} \\times{ }^{5} C_{1}=20+5=25$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"491722\"></a><div itemprop=\"text\"><p><meta></p><h3 data-start=\"149\" data-end=\"212\">Step 1: Total ways to form a committee of 3 from 7 people</h3><p>Total&nbsp;ways = $^7C_3= 35$</p><hr data-start=\"280\" data-end=\"283\"><h3 data-start=\"285\" data-end=\"353\">Step 2: Number of committees with&nbsp;<strong data-start=\"323\" data-end=\"335\">no women</strong>&nbsp;(i.e., all men)</h3><p>All&nbsp;men = $^5C_3=10$</p><hr data-start=\"418\" data-end=\"421\"><h3 data-start=\"423\" data-end=\"485\">Step 3: Number of committees with&nbsp;<strong data-start=\"461\" data-end=\"483\">at least one woman</strong></h3><p>At&nbsp;least&nbsp;one&nbsp;woman = Total − All&nbsp;men = 35 − 10 = 25</p></div></section></div><p><a href=\"https://gateoverflow.in/468478\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 10,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "In how many ways can a cricket eleven be chosen out of a batch of 15 players if a particular player is always chosen?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"468477\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=2112s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>a)There is no restriction on the selection $={ }^{15} C_{11}$<br><br>b) A Particular Player is always chosen $={ }^{14} C_{10}$<br><br>c)A Particular Player is never chosen $={ }^{14} C_{11}$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468476\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 11,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "In how many ways can a cricket eleven be chosen out of a batch of 15 players if a particular player is never chosen?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 1)</small></h4><a name=\"468475\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=2234s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>a)There is no restriction on the selection $={ }^{15} C_{11}$<br><br>b) A Particular Player is always chosen $={ }^{14} C_{10}$<br><br>c) A Particular Player is never chosen $={ }^{14} C_{11}$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468474\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 12,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "In a race with 15 runners where 6 trophies will be given to the top 6 runners (the trophies are distinct: first place, second place, etc), how many ways can this be done, if a certain person, Ram, must be one of the top 3 winners?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"468731\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"media/04/044e3a6fbd5c7c121378.png\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hence 720720</p></div></section><section><h4>Source solution 2 <small>(score: 2)</small></h4><a name=\"468473\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=2308s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>$3 \\times 14 \\mathrm{C} 5 \\times 5!=720720$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468471\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 13,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "How many ways can you choose 4 groups of 4 people from 16 people, assuming the groups are distinct (i.e. group A, group B, group C, group D)?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": [
+    63063000,
+    63063000
+   ],
+   "answerText": "63063000",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"inferred\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"468470\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=2606s\">Watch Video Solution </a>&nbsp; &nbsp;<br><br>$16 \\mathrm{C} 4 \\times 12 \\mathrm{C} 4 \\times 8 \\mathrm{C} 4 \\times 4 \\mathrm{C} 4$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"468528\"></a><div itemprop=\"text\">Answer: 63063000</div></section><section><h4>Source solution 3 <small>(score: 1)</small></h4><a name=\"468720\"></a><div itemprop=\"text\">This is also a problem based on DODB (Distinguishable Objects into Distinguishable Boxes).<br>\n<br>\nBasically here, we are distributing 16 distinct objects into 4 distinct boxes where each box contains 4 distinct objects each.<br>\n<br>\nThe number of ways in which this can be done is (16!)/(4!*4!*4!*4!) = 63063000.<br>\n<br>\n&nbsp;<br>\n<br>\nIn general, the number of ways in which k distinct objects can be distributed into n distinct boxes where the 1st box contains p1 objects, 2nd box contains p2 objects, 3rd box contains p3 objects,.............., nth box contains pN objects = (k!)/(p1!*p2!*p3!*.....*pN!) where (p1 + p2 + p3 +.......+ pN) = k.</div></section></div><p><a href=\"https://gateoverflow.in/468469\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>"
+  },
+  {
+   "n": 14,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose we have 4 Americans and 6 Canadians. How many ways can we arrange them in a line if all the Americans have to stand together?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 3)</small></h4><a name=\"468468\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=2949s\">Watch Video Solution </a> &nbsp;&nbsp;</p></div><p>Consider the Americans as one group (element) and each Canadian as a distinct group ( 6 elements); this gives 7 distinct groups (elements) to be arranged, which can be done in 7 ! ways. Once we have these seven groups arranged, we can arrange the Americans within their group in 4 ! ways, so we get $4!7$ ! by the basic counting principle.</p><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section></div><p><a href=\"https://gateoverflow.in/468467\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  },
+  {
+   "n": 15,
+   "type": "NAT",
+   "section": "Technical",
+   "tags": "",
+   "html": "Suppose we have 4 Americans and 6 Canadians. How many ways can we arrange them in a line if not all the Americans are together ?",
+   "paragraph": null,
+   "options": [],
+   "answer": null,
+   "natRange": null,
+   "answerText": "",
+   "marks": {
+    "pos": 2,
+    "neg": 0
+   },
+   "solution": "<p><strong>Answer:</strong> Not available</p><div class=\"source-solutions\" data-answer-source=\"solution_only\"><section><h4>Source solution 1 <small>(score: 4)</small></h4><a name=\"468466\"></a><div itemprop=\"text\"><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/watch?v=w5gej-Cpb2g&amp;t=3045s\">Watch Video Solution </a> &nbsp;&nbsp;<br><br>$10!-4!7!=3507840$</p></div><div style=\"text-align: center;\"><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" style=\"display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px;               text-align: center; text-decoration: none; font-size: 16px; border-radius: 6px;               border: none; font-family: sans-serif;\" href=\"https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjlC6eceG_vWSu-oA6Dc6aX\">Combinatorics - Complete Summary, GATE PYQs, Practice Playlist: </a> &nbsp;&nbsp;</p></div></div></section><section><h4>Source solution 2 <small>(score: 1)</small></h4><a name=\"534262\"></a><div itemprop=\"text\"><p>No.ways = 3507840<img alt=\"\" width=\"1186\" height=\"931\" src=\"media/ca/ca7bea9e8dd09811e20b.png\"></p></div></section></div><p><a href=\"https://gateoverflow.in/468465\" target=\"_blank\" rel=\"noopener\">Official discussion page</a></p>",
+   "keyMissing": true
+  }
+ ],
+ "sectionsMeta": [
+  {
+   "name": "Technical",
+   "marks": 25.0,
+   "instructions": null
+  }
+ ],
+ "math": true,
+ "scoring": "marks",
+ "sections": [
+  {
+   "name": "Technical",
+   "start": 0,
+   "count": 15
+  }
+ ],
+ "stats": {
+  "questions": 15,
+  "maxMarks": 2,
+  "types": {
+   "NAT": 15
+  },
+  "withoutKey": 14
+ }
+}

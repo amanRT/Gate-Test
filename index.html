@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Divya's GATE Prep</title>
+  <meta name="description" content="Offline GATE / ESE test-series practice: full CBT exam simulation, practice mode, solutions, analytics.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d1b2e'/%3E%3Cpath d='M20 16h12c9 0 15 7 15 16s-6 16-15 16H20z' fill='none' stroke='%2378b5ff' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script>
+    (function () {
+      try {
+        var s = JSON.parse(localStorage.getItem("gp.settings") || "{}");
+        var m = /[?&]theme=(dark|bright|green)\b/.exec(location.search);
+        if (m) { s.theme = m[1]; localStorage.setItem("gp.settings", JSON.stringify(s)); }
+        var t = s.theme || "dark";
+        document.documentElement.setAttribute("data-theme", { dark: 1, bright: 1, green: 1 }[t] ? t : "dark");
+        if (s.fontScale) document.documentElement.style.setProperty("--q-scale", s.fontScale);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="app/app.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-words"><strong>Divya's GATE Prep</strong><span>Personal test series</span></span>
+      </a>
+      <nav class="mainnav" aria-label="Main">
+        <a href="#/" data-nav="home">Library</a>
+        <a href="#/bank" data-nav="bank">Question bank</a>
+        <a href="#/bookmarks" data-nav="bookmarks">Bookmarks</a>
+        <a href="#/mistakes" data-nav="mistakes">Mistakes</a>
+        <a href="#/stats" data-nav="stats">Stats</a>
+      </nav>
+      <div class="search-shell" role="search">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg>
+        <input id="global-search" type="search" autocomplete="off" spellcheck="false" placeholder="Search papers & questions" aria-label="Search papers and questions">
+        <kbd class="search-kbd" aria-hidden="true">Ctrl K</kbd>
+      </div>
+      <div class="top-actions">
+        <div class="theme-switch" role="group" aria-label="Theme">
+          <button type="button" data-theme-btn="dark" title="Dark theme"><span class="sw sw-dark"></span></button>
+          <button type="button" data-theme-btn="bright" title="Bright theme"><span class="sw sw-bright"></span></button>
+          <button type="button" data-theme-btn="green" title="Green theme"><span class="sw sw-green"></span></button>
+        </div>
+        <a class="icon-btn" href="#/settings" title="Settings" aria-label="Settings">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"></circle><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"></path></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="app" tabindex="-1">
+    <div class="boot">Loading library…</div>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+
+  <script src="data/library.js"></script>
+  <script src="app/core.js"></script>
+  <script src="app/calculator.js"></script>
+  <script src="app/exam.js"></script>
+  <script src="app/result.js"></script>
+  <script src="app/views.js"></script>
+  <script src="app/main.js"></script>
+</body>
+</html>
